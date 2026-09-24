@@ -901,7 +901,7 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "a-quarto-raikage",
-    "avatar": "https://static.wikia.nocookie.net/naruto/images/c/c2/A_Raikage.png/revision/latest?cb=20130801170243&path-prefix=pt-br",
+    "avatar": "/avatars/naruto/a-quarto-raikage.png",
     "styleOrPower": "Manto de Trovão"
   },
   {
@@ -3633,7 +3633,7 @@
     "debutArc": "Exame Chūnin",
     "status": "Falecida",
     "id": "kin-tsuchi",
-    "avatar": "https://static.wikia.nocookie.net/naruto/images/7/76/Kin1.png/revision/latest?cb=20130104112346&path-prefix=pt-br"
+    "avatar": "/avatars/naruto/kin-tsuchi.png"
   },
   {
     "name": "Baki",
@@ -4129,7 +4129,7 @@
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Falecido",
-    "avatar": "https://static.wikia.nocookie.net/naruto/images/5/52/Kinkaku.png/revision/latest/scale-to-width-down/1200?cb=20140803233758&path-prefix=pt-br"
+    "avatar": "/avatars/naruto/kinkaku.png"
   },
   {
     "id": "ginkaku",
@@ -4158,6 +4158,6 @@
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Falecido",
-    "avatar": "https://static.wikia.nocookie.net/naruto/images/a/a9/Ginkaku.png/revision/latest?cb=20140803234450&path-prefix=pt-br"
+    "avatar": "/avatars/naruto/ginkaku.png"
   }
 ]

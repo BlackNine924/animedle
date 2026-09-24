@@ -570,7 +570,7 @@
     "status": "Vivo",
     "quote": "Seu fracassado! Continue treinando até vomitar!",
     "ability": "Operação de Treinamento Automatizado",
-    "avatar": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/f/fb/Kotetsu_Anime.png/revision/latest?cb=20230501115919"
+    "avatar": "/avatars/demon-slayer/kotetsu.png"
   },
   {
     "id": "tecchin-tecchikawahara",
@@ -1039,7 +1039,7 @@
     "status": "Morto",
     "quote": "Eu sirvo quem me valoriza! Não me importo de me curvar a demônios!",
     "ability": "Segunda a Sexta Forma do Trovão Negro",
-    "avatar": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/6e/Kaigaku_claims_those_who_value_his_worth_matter.png/revision/latest?cb=20251030163105",
+    "avatar": "/avatars/demon-slayer/kaigaku-demon.png",
     "techniques": [
       "Segunda Forma: Inadama (Trovão Negro)",
       "Terceira Forma: Shitsurai (Trovão Negro)",
