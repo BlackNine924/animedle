@@ -32,7 +32,7 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
   );
 
   const filteredCharacters = query.trim() === ''
-    ? []
+    ? availableCharacters
     : availableCharacters.filter((c) =>
         c.name.toLowerCase().includes(query.toLowerCase())
       );
@@ -68,6 +68,7 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
             setIsOpen(true);
           }}
           onFocus={() => setIsOpen(true)}
+          onClick={() => setIsOpen(true)}
           disabled={disabled}
           placeholder={disabled ? "Você já adivinhou o personagem de hoje!" : "Pesquisar personagem por nome..."}
           className="w-full bg-[#0d1426] border border-[#202b43] focus:border-slate-500 rounded-2xl py-3.5 pl-11 pr-12 text-sm text-[#F5F7FF] placeholder-slate-500 outline-none transition-all shadow-lg shadow-black/20 disabled:opacity-50 disabled:cursor-not-allowed"
