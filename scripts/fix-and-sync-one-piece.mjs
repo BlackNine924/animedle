@@ -66,7 +66,7 @@ const newCharacters = [
   },
   {
     id: "shiryu",
-    name: "Shiryu da Chuva",
+    name: "Shiryu",
     gender: "Masculino",
     species: "Humano",
     affiliation: [
@@ -88,7 +88,7 @@ const newCharacters = [
   },
   {
     id: "van-augur",
-    name: "Van Augur (O Supersônico)",
+    name: "Van Augur",
     gender: "Masculino",
     species: "Humano",
     affiliation: [
@@ -109,7 +109,7 @@ const newCharacters = [
   },
   {
     id: "avalo-pizarro",
-    name: "Avalo Pizarro (Rei Corrupto)",
+    name: "Avalo Pizarro",
     gender: "Masculino",
     species: "Humano",
     affiliation: [
@@ -129,7 +129,7 @@ const newCharacters = [
   },
   {
     id: "catarina-devon",
-    name: "Catarina Devon (Caçadora da Lua Crescente)",
+    name: "Catarina Devon",
     gender: "Feminino",
     species: "Humano",
     affiliation: [
@@ -150,7 +150,7 @@ const newCharacters = [
   },
   {
     id: "sanjuan-wolf",
-    name: "Sanjuan Wolf (Encouraçado Colossal)",
+    name: "Sanjuan Wolf",
     gender: "Masculino",
     species: "Gigante",
     affiliation: [
@@ -170,7 +170,7 @@ const newCharacters = [
   },
   {
     id: "vasco-shot",
-    name: "Vasco Shot (Bêbado Pesado)",
+    name: "Vasco Shot",
     gender: "Masculino",
     species: "Humano",
     affiliation: [
@@ -190,7 +190,7 @@ const newCharacters = [
   },
   {
     id: "doc-q",
-    name: "Doc Q (O Ceifador)",
+    name: "Doc Q",
     gender: "Masculino",
     species: "Humano",
     affiliation: [
@@ -211,7 +211,7 @@ const newCharacters = [
   },
   {
     id: "caesar-clown",
-    name: "Caesar Clown (Gangster Gastino)",
+    name: "Caesar Clown",
     gender: "Masculino",
     species: "Humano",
     affiliation: [
