@@ -195,6 +195,7 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'East Blue',
       'Alabasta',
       'Skypiea',
+      'Long Ring Long Land',
       'Water 7 / Enies Lobby',
       'Thriller Bark',
       'Summit War (Marineford)',

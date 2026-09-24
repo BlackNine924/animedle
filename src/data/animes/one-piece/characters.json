@@ -525,30 +525,6 @@
     ]
   },
   {
-    "id": "teach-marshall",
-    "name": "Marshall D. Teach (Barba Negra)",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Piratas do Barba Negra",
-      "Quatro Imperadores",
-      "Sete Warlords do Mar",
-      "Piratas do Barba Branca"
-    ],
-    "fruitType": "Logia & Paramecia",
-    "haki": "Armamento & Observação",
-    "bounty": 3996000000,
-    "styleOrPower": "Logia & Paramecia (Yami Yami no Mi & Gura Gura no Mi)",
-    "debutArc": "Skypiea",
-    "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3331-7ZJDc4BNv9Yp.jpg",
-    "quote": "",
-    "techniques": [
-      "Black Hole",
-      "Terremoto de Vértice"
-    ]
-  },
-  {
     "id": "galdino",
     "name": "Mr. 3 (Galdino)",
     "gender": "Masculino",
@@ -1638,67 +1614,6 @@
     ]
   },
   {
-    "id": "burgess-jesus",
-    "name": "Burgess Jesus",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Piratas do Barba Negra"
-    ],
-    "fruitType": "Paramecia",
-    "haki": "Armamento & Observação",
-    "bounty": 20000000,
-    "styleOrPower": "Paramecia (Riki Riki no Mi)",
-    "debutArc": "Skypiea",
-    "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9324-ZmlGx1pxRtYP.png",
-    "quote": "",
-    "techniques": [
-      "Força Titânica",
-      "Arremesso de Montanhas"
-    ]
-  },
-  {
-    "id": "augur-van",
-    "name": "Augur Van",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Piratas do Barba Negra"
-    ],
-    "fruitType": "Paramecia",
-    "haki": "Armamento & Observação",
-    "bounty": 0,
-    "styleOrPower": "Paramecia (Wapu Wapu no Mi & Fuzil Senrikou)",
-    "debutArc": "Skypiea",
-    "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9325-Ev3MbRVNYXIt.png",
-    "quote": "",
-    "techniques": [
-      "Teletransporte de Longa Distância"
-    ]
-  },
-  {
-    "id": "q-doc",
-    "name": "Q Doc",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Piratas do Barba Negra"
-    ],
-    "fruitType": "Paramecia",
-    "haki": "Nenhum",
-    "bounty": 0,
-    "styleOrPower": "Paramecia (Shiku Shiku no Mi)",
-    "debutArc": "Skypiea",
-    "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9326-TG3CYbA4Q33y.png",
-    "quote": "",
-    "techniques": [
-      "Infecção por Doenças Contagiosas"
-    ]
-  },
-  {
     "id": "lafitte",
     "name": "Lafitte",
     "gender": "Masculino",
@@ -1955,7 +1870,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Long Ring Long Land",
     "status": "Viva",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10910-n5K3FIB8rLvD.png",
     "quote": "",
@@ -2130,7 +2045,7 @@
     "styleOrPower": "Zoan Mítica (Hito Hito no Mi: Modelo Daibutsu)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22050-RUw3vyGYdr9W.jpg",
+    "avatar": "/avatars/one-piece/sengoku.png",
     "quote": "",
     "techniques": [
       "Ondas de Choque de Buda Dourado"
@@ -2241,28 +2156,6 @@
     "techniques": [
       "Corte de Armamento Avançado",
       "Emissão de Conquistador"
-    ]
-  },
-  {
-    "id": "ryuuma-shimotsuki",
-    "name": "Ryuuma Shimotsuki",
-    "gender": "Masculino",
-    "species": "Zumbi (Humano)",
-    "affiliation": [
-      "Wano Country",
-      "Piratas de Thriller Bark"
-    ],
-    "fruitType": "Nenhuma",
-    "haki": "Nenhum",
-    "bounty": 0,
-    "styleOrPower": "Nenhum",
-    "debutArc": "Thriller Bark",
-    "status": "Falecido",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17178-SczXHzLzZqzn.jpg",
-    "quote": "",
-    "techniques": [
-      "Aubade Coup D'Droit",
-      "Corte do Dragão"
     ]
   },
   {
@@ -3124,7 +3017,7 @@
     "quote": "",
     "debutArc": "País de Wano",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b417-gVLmIJu9phcK.png",
+    "avatar": "/avatars/one-piece/king.png",
     "techniques": [
       "Karyudon (Dragão de Fogo Lunaria)",
       "Espada de Serra"
@@ -3146,7 +3039,7 @@
     "quote": "",
     "debutArc": "País de Wano",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b120649-NPaWaIpWy60E.png",
+    "avatar": "/avatars/one-piece/queen.png",
     "techniques": [
       "Brachio Snake",
       "Tecnologias Germa Replicadas"
@@ -3862,7 +3755,7 @@
     "quote": "",
     "debutArc": "Egghead",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/1089.jpg",
+    "avatar": "/avatars/one-piece/york.png",
     "fruitType": "Nenhuma",
     "techniques": [
       "Controle dos Seraphims",
@@ -4012,7 +3905,7 @@
     "bounty": 0,
     "styleOrPower": "Paramecia (Fuwa Fuwa no Mi)",
     "quote": "",
-    "debutArc": "Impel Down",
+    "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/shiki.png",
     "fruitType": "Paramecia",
@@ -4466,10 +4359,10 @@
     "id": "ryuma",
     "name": "Ryuma",
     "gender": "Masculino",
-    "species": "Zumbi",
+    "species": "Zumbi (Humano)",
     "affiliation": [
-      "Thriller Bark",
-      "País de Wano"
+      "País de Wano",
+      "Thriller Bark"
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
@@ -4477,7 +4370,11 @@
     "fruitType": "Nenhuma",
     "debutArc": "Thriller Bark",
     "status": "Falecido",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17178-SczXHzLzZqzn.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17178-SczXHzLzZqzn.jpg",
+    "techniques": [
+      "Aubade Coup D'Droit",
+      "Corte do Dragão"
+    ]
   },
   {
     "id": "shirahoshi",
@@ -4542,7 +4439,7 @@
     "bounty": 0,
     "styleOrPower": "Karatê Tritão",
     "fruitType": "Nenhuma",
-    "debutArc": "Saga East Blue",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b43093-STjuKaQk68Ex.jpg"
   },
@@ -4559,7 +4456,7 @@
     "bounty": 382000000,
     "styleOrPower": "Electro",
     "fruitType": "Nenhuma",
-    "debutArc": "Zou",
+    "debutArc": "Whole Cake Island",
     "status": "Falecido",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126180-ud2y3PGElJDU.jpg"
   },
@@ -4576,7 +4473,7 @@
     "bounty": 0,
     "styleOrPower": "Electro / Sulong",
     "fruitType": "Nenhuma",
-    "debutArc": "Zou",
+    "debutArc": "Whole Cake Island",
     "status": "Viva",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126179-bxjxEfrqtiuN.png"
   },
@@ -4678,7 +4575,7 @@
     "bounty": 0,
     "styleOrPower": "Electro / Sulong",
     "fruitType": "Nenhuma",
-    "debutArc": "Zou",
+    "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126182-fyFwu3Ih1yej.jpg"
   },
@@ -4695,7 +4592,7 @@
     "bounty": 0,
     "styleOrPower": "Electro / Sulong",
     "fruitType": "Nenhuma",
-    "debutArc": "Zou",
+    "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126181-kleTMK1K9tda.jpg"
   },
@@ -4712,7 +4609,7 @@
     "bounty": 0,
     "styleOrPower": "Paramecia (Maki Maki no Mi)",
     "fruitType": "Paramecia",
-    "debutArc": "Zou",
+    "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b191777-Rxyxt4tjjxfs.png"
   },
@@ -4746,7 +4643,7 @@
     "bounty": 0,
     "styleOrPower": "Paramecia (Doku Doku no Mi)",
     "fruitType": "Paramecia",
-    "debutArc": "Saga Marineford",
+    "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22618-ki6mxLc2f9Tm.png"
   },
@@ -4765,7 +4662,7 @@
     "fruitType": "Paramecia",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5922-DzYFLk6qzQif.png",
+    "avatar": "/avatars/one-piece/shiryu.png",
     "quote": "Espadas existem para cortar pessoas.",
     "techniques": [
       "Espadachim Mestre com Nodachi Raiu",
@@ -4784,7 +4681,7 @@
     "bounty": 0,
     "styleOrPower": "Paramecia (Kira Kira no Mi)",
     "fruitType": "Paramecia",
-    "debutArc": "Saga East Blue",
+    "debutArc": "Skypiea",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21559.jpg"
   },
@@ -4800,7 +4697,7 @@
     "bounty": 0,
     "styleOrPower": "Estilo de Duas Espadas",
     "fruitType": "Nenhuma",
-    "debutArc": "Saga East Blue",
+    "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b27202-0ck7epXFLmls.jpg"
   },
@@ -4816,7 +4713,7 @@
     "bounty": 24000000,
     "styleOrPower": "Paramecia (Noro Noro no Mi)",
     "fruitType": "Paramecia",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Long Ring Long Land",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/22412.jpg"
   },
@@ -4867,7 +4764,7 @@
     "bounty": 0,
     "styleOrPower": "Burn Bazooka / Dial",
     "fruitType": "Nenhuma",
-    "debutArc": "Saga Skypiea",
+    "debutArc": "Skypiea",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7644-4sCeX6T4WtTO.jpg"
   },
