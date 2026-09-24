@@ -1,0 +1,355 @@
+[
+  {
+    "id": 126071,
+    "name": "Tanjirou Kamado",
+    "altNames": [
+      "Gonpachiro Kamaboko",
+      "Monjiro",
+      "Santaro",
+      "Kentaro",
+      "Soichiro",
+      "Ponjiro",
+      "Gengo Shakariki",
+      "Tontaro Itadaki",
+      "Kanjiro Anago",
+      "Tangoro Hamado",
+      "Jangoro Amado",
+      "카마도 탄지로"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126071-BTNEc1nRIv68.png"
+  },
+  {
+    "id": 127518,
+    "name": "Nezuko Kamado",
+    "altNames": [
+      "竈門禰?豆子",
+      "카마도 네즈코"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b127518-NRlq1CQ1v1ro.png"
+  },
+  {
+    "id": 129130,
+    "name": "Inosuke Hashibira",
+    "altNames": [
+      "Svinosuke",
+      "Inoko",
+      "The Boar",
+      "하시비라 이노스케"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/n129130-SJC0Kn1DU39E.jpg"
+  },
+  {
+    "id": 129131,
+    "name": "Zenitsu Agatsuma",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129131-FZrQ7lSlxmEr.png"
+  },
+  {
+    "id": 129132,
+    "name": "Muzan Kibutsuji",
+    "altNames": [
+      "Tsukihiko",
+      "Toshikuni"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129132-4nIZakUZ1o8W.jpg"
+  },
+  {
+    "id": 129133,
+    "name": "Kyoujurou Rengoku",
+    "altNames": [
+      "Flame Hashira",
+      "Flame Pillar",
+      "Ildsøylen",
+      "Googly Eyes"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129133-VlTPowwt68rJ.png"
+  },
+  {
+    "id": 130050,
+    "name": "Giyuu Tomioka",
+    "altNames": [
+      "Water Hashira",
+      "Water Pillar",
+      "Half-and-half Haori"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b130050-qsLThJs5VIbz.png"
+  },
+  {
+    "id": 136069,
+    "name": "Muichirou Tokitou",
+    "altNames": [
+      "Mist Hashira",
+      "Mist Pillar"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136069-6PLglx4tETUX.png"
+  },
+  {
+    "id": 136070,
+    "name": "Shinobu Kochou",
+    "altNames": [
+      "Insect Hashira",
+      "Insect Pillar"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136070-MC9LLxJsHyHE.png"
+  },
+  {
+    "id": 136071,
+    "name": "Tengen Uzui",
+    "altNames": [
+      "Sound Hashira",
+      "Sound Pillar"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136071-99Kexnnn2PiV.png"
+  },
+  {
+    "id": 136072,
+    "name": "Mitsuri Kanroji",
+    "altNames": [
+      "Love Hashira",
+      "Love Pillar",
+      "The Eightfold Girl"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b136072-xVwyRUKdpybi.png"
+  },
+  {
+    "id": 137773,
+    "name": "Sakonji Urokodaki",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137773-N4O52f73dJKZ.png"
+  },
+  {
+    "id": 137774,
+    "name": "Sanemi Shinazugawa",
+    "altNames": [
+      "Wind Hashira",
+      "Wind Pillar"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137774-O1iYrnGLB71l.png"
+  },
+  {
+    "id": 137775,
+    "name": "Jigorou Kuwajima",
+    "altNames": [
+      "Jigoro"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137775-WVj9nyVaYo45.png"
+  },
+  {
+    "id": 137776,
+    "name": "Genya Shinazugawa",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137776-E0QuFD7y19OQ.jpg"
+  },
+  {
+    "id": 137777,
+    "name": "Obanai Iguro",
+    "altNames": [
+      "Snake Hashira",
+      "Snake Pillar"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137777-kGViiNyx0wa7.jpg"
+  },
+  {
+    "id": 137778,
+    "name": "Gyoumei Himejima",
+    "altNames": [
+      "Rock Hashira",
+      "Rock Pillar"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137778-H4Uzb9cSCvZ6.jpg"
+  },
+  {
+    "id": 137806,
+    "name": "Makomo",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137806-43Lqae34Vzqu.png"
+  },
+  {
+    "id": 137808,
+    "name": "Kagaya Ubuyashiki",
+    "altNames": [
+      "Oyakata-sama"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137808-4yA8XQUDrAho.png"
+  },
+  {
+    "id": 137809,
+    "name": "Sabito",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137809-6Tkle99lCBl8.png"
+  },
+  {
+    "id": 137810,
+    "name": "Matsuemon Tennouji",
+    "altNames": [
+      "Kasugai Garasu (鎹鴉)",
+      "Tanjirou's Kasugai Crow"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b137810-x5JEOQTuxd86.png"
+  },
+  {
+    "id": 138810,
+    "name": "Susamaru",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138810-1d6mUy8lzr8K.png"
+  },
+  {
+    "id": 138811,
+    "name": "Yahaba",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138811-V9NNgNp9dAjq.png"
+  },
+  {
+    "id": 138812,
+    "name": "Numa Oni",
+    "altNames": [
+      "Swamp Demon"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138812-Imqj3sSfpcso.jpg"
+  },
+  {
+    "id": 138846,
+    "name": "Yushirou",
+    "altNames": [
+      "Yushiro"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138846-i8frJEl8baly.jpg"
+  },
+  {
+    "id": 139038,
+    "name": "Kanao Tsuyuri",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139038-OcOoDUyLEsRn.png"
+  },
+  {
+    "id": 139737,
+    "name": "Enmu",
+    "altNames": [
+      "Tamio Enmu"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139737-1YaFT0Xvxwaz.png"
+  },
+  {
+    "id": 141694,
+    "name": "Akaza",
+    "altNames": [
+      "Upper Moon Three"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141694-0COi0GVXPuEn.png"
+  },
+  {
+    "id": 193378,
+    "name": "Ruka Rengoku",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193378-dSruD7x4KzQA.jpg"
+  },
+  {
+    "id": 193379,
+    "name": "Shinjurou Rengoku",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193379-54MeZxQdvZ9o.jpg"
+  },
+  {
+    "id": 193380,
+    "name": "Senjurou Rengoku",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b193380-W10Kx339cY4D.png"
+  },
+  {
+    "id": 196849,
+    "name": "Kie Kamado",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b196849-xnYBt0Jf5Htf.png"
+  },
+  {
+    "id": 196851,
+    "name": "Shigeru Kamado",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b196851-r5px2ZuOU9I2.png"
+  },
+  {
+    "id": 196852,
+    "name": "Takeo Kamado",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b196852-zzu0xZXJrFr9.png"
+  },
+  {
+    "id": 139735,
+    "name": "Gyuutarou",
+    "altNames": [
+      "Gyutaro",
+      "Gyuutarou Shabana"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139735-o4G63Po27zND.png"
+  },
+  {
+    "id": 167549,
+    "name": "Hinaki Ubuyashiki",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b167549-1fG4eh5KkmZg.png"
+  },
+  {
+    "id": 138847,
+    "name": "Tamayo",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138847-rOwIPLKaR5Ux.jpg"
+  },
+  {
+    "id": 138990,
+    "name": "Hotaru Haganezuka",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b138990-E5kiUoLigpyX.jpg"
+  },
+  {
+    "id": 139460,
+    "name": "Kiriya Ubuyashiki",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139460-jA7lAHb17aLL.png"
+  },
+  {
+    "id": 139736,
+    "name": "Nakime",
+    "altNames": [
+      "琵琶鬼",
+      "Biwa Demon"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b139736-CrfqAqlktDTP.png"
+  },
+  {
+    "id": 141918,
+    "name": "Kokushibo",
+    "altNames": [
+      "Upper Moon One"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b141918-Bfgq88XJFOPz.png"
+  },
+  {
+    "id": 144591,
+    "name": "Douma",
+    "altNames": [
+      "Upper Moon Two"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b144591-v2yrXtHorZFS.png"
+  },
+  {
+    "id": 145286,
+    "name": "Naho Takada",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145286-dWQZ9VB0DlHv.jpg"
+  },
+  {
+    "id": 145287,
+    "name": "Kiyo Terauchi",
+    "altNames": [],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b145287-XMoG5upMikFs.jpg"
+  },
+  {
+    "id": 142420,
+    "name": "Ukogi",
+    "altNames": [
+      "Chuntaro",
+      "Chuntarou (チュン太郎)"
+    ],
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b142420-S8qfnTq1rKeW.jpg"
+  }
+]

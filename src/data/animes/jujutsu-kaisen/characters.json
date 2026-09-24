@@ -1,0 +1,1536 @@
+[
+  {
+    "id": "yuji-itadori",
+    "name": "Yuji Itadori",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Punho Divergente / KokuSen",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Vivo",
+    "quote": "Eu não sei como vou me sentir quando morrer, mas não quero me arrepender da forma como vivi!",
+    "ability": "Punho Divergente & KokuSen",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127212-FVm2tD0erQ5B.png",
+    "domainExpansion": "Domínio da Cidade Natal (Recortes de Memórias)"
+  },
+  {
+    "id": "megumi-fushiguro",
+    "name": "Megumi Fushiguro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio",
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Técnica das Dez Sombras",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Vivo",
+    "quote": "Eu salvo as pessoas de maneira desorientada e desigual.",
+    "ability": "Dez Sombras & Chimera Shadow Garden",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png",
+    "domainExpansion": "Jardim das Sombras Quimera (Chimera Shadow Garden)"
+  },
+  {
+    "id": "nobara-kugisaki",
+    "name": "Nobara Kugisaki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Técnica da Boneca de Vodu",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Viva",
+    "quote": "Eu amo a mim mesma quando estou bonita e forte! Eu sou a Nobara Kugisaki!",
+    "ability": "Ressonância & Horobiki",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133700-f6sOO3TcgLV6.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "satoru-gojo",
+    "name": "Satoru Gojo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio",
+      "Clã Gojo"
+    ],
+    "styleOrPower": "Ilimitado / Seis Olhos",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morto",
+    "quote": "Não se preocupe, eu sou o mais forte.",
+    "ability": "Ilimitado (Vazio Roxo & Mugen)",
+    "grade": "Grau Especial",
+    "era": "Moderna",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127691-9zqh1xpIubn7.png",
+    "domainExpansion": "Vazio Incalculável (Unlimited Void)"
+  },
+  {
+    "id": "yuta-okkotsu",
+    "name": "Yuta Okkotsu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio",
+      "Clã Gojo"
+    ],
+    "styleOrPower": "Cópia de Técnicas / Rika",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Vivo",
+    "quote": "Isso é amor puro.",
+    "ability": "Cópia Incondicional de Técnicas",
+    "grade": "Grau Especial",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b129571-GHJk7gviHOOw.jpg",
+    "domainExpansion": "Amor Mútuo e Autêntico (Authentic Mutual Love)"
+  },
+  {
+    "id": "maki-zenin",
+    "name": "Maki Zenin",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio",
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Restrição Celestial",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Viva",
+    "quote": "Eu vou me tornar a chefe do clã Zenin e calar a boca de todos vocês.",
+    "ability": "Restrição Celestial Pura",
+    "grade": "Grau 4",
+    "era": "Moderna",
+    "techniqueType": "Restrição Celestial",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b134167-5TCytk45YByD.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "toge-inumaki",
+    "name": "Toge Inumaki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio",
+      "Clã Inumaki"
+    ],
+    "styleOrPower": "Fala Amaldiçoada",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Vivo",
+    "quote": "Salmão, Atum, Alga secada!",
+    "ability": "Fala Amaldiçoada",
+    "grade": "Semi-Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157115-kdhRYQdVhH95.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "panda",
+    "name": "Panda",
+    "gender": "Masculino",
+    "species": "Cadáver Amaldiçoado",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Cadáver Amaldiçoado Mutante",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Vivo",
+    "quote": "Eu não sou um panda normal! Pandas não falam!",
+    "ability": "Modo Gorila Drumting",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Cadáver Amaldiçoado",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137974-9qnK3DPrvLKh.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "kinji-hakari",
+    "name": "Kinji Hakari",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Aposta do Amor (Jackpot)",
+    "debutArc": "Preparativos do Jogo do Abate",
+    "status": "Vivo",
+    "quote": "A febre do jogo nunca esfria!",
+    "ability": "Idle Death Gamble (Jackpot)",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b197584-fK7Jc6DLfx7e.jpg",
+    "domainExpansion": "Aposta Mortífera de Morte Ociosa (Idle Death Gamble)"
+  },
+  {
+    "id": "kirara-hoshi",
+    "name": "Kirara Hoshi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Love Rendezvous (Constelação)",
+    "debutArc": "Preparativos do Jogo do Abate",
+    "status": "Viva",
+    "quote": "Ninguém interfere no jogo do Hakari!",
+    "ability": "Love Rendezvous",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b243828-YGzd637cKhDp.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "aoi-todo",
+    "name": "Aoi Todo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto"
+    ],
+    "styleOrPower": "Boogie Woogie",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Vivo",
+    "quote": "Irmão! Qual é o seu tipo de mulher?",
+    "ability": "Boogie Woogie",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137975-6TH7PiLWJaqy.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "mai-zenin",
+    "name": "Mai Zenin",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto",
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Criação de Objetos",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Morta",
+    "quote": "Destrua tudo. Tudo, Maki...",
+    "ability": "Criação de Matéria",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b134168-FdWz5w2LqpeF.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "kasumi-miwa",
+    "name": "Kasumi Miwa",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada (Estilo Novo de Espada Espiritual)",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Viva",
+    "quote": "Olá, sou a inútil Miwa!",
+    "ability": "Domínio Simples (Batto Sword Draw)",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b156848-Rf0tuoQCNyZV.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "kokichi-muta",
+    "name": "Kokichi Muta",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto"
+    ],
+    "styleOrPower": "Restrição Celestial (Corpo Fragilizado)",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Morto",
+    "quote": "Eu só queria estar com todos sob a luz do sol...",
+    "ability": "Manipulação de Marionetes (Ultimate Mechamaru)",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Restrição Celestial",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210154-nIn9DX39GFKP.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "noritoshi-kamo",
+    "name": "Noritoshi Kamo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto",
+      "Clã Kamo"
+    ],
+    "styleOrPower": "Manipulação de Sangue",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Vivo",
+    "quote": "Carrego o nome do meu clã com honra.",
+    "ability": "Manipulação de Sangue",
+    "grade": "Semi-Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157866-UWDtYBoG71PD.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "momo-nishimiya",
+    "name": "Momo Nishimiya",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto"
+    ],
+    "styleOrPower": "Voo com Vassoura Amaldiçoada",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Viva",
+    "quote": "Ser uma mulher feiticeira exige ser perfeita e fofa ao mesmo tempo!",
+    "ability": "Vassoura Amaldiçoada",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157868-Ui2Wht3M6tlM.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "yoshinobu-gakuganji",
+    "name": "Yoshinobu Gakuganji",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto"
+    ],
+    "styleOrPower": "Guitarra Elétrica Amaldiçoada",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Vivo",
+    "quote": "As regras da sociedade jujutsu garantem a ordem e evitam o caos.",
+    "ability": "Rock Amaldiçoado",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157867-dHdd8ZECuzHx.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "utahime-iori",
+    "name": "Utahime Iori",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto"
+    ],
+    "styleOrPower": "Ritual de Dança Solene",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Viva",
+    "quote": "Satoru! Respeite seus superiores!",
+    "ability": "Solo Proibido (Buff)",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157864-rejVYNx0kQZr.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "arata-nitta",
+    "name": "Arata Nitta",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Kyoto"
+    ],
+    "styleOrPower": "Estancamento de Ferimentos",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Vivo",
+    "quote": "Minha técnica impede que ferimentos existentes piorem!",
+    "ability": "Estancamento de Danos",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b320325-uGhurK5IhUeO.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "kento-nanami",
+    "name": "Kento Nanami",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Técnica da Proporção 7:3",
+    "debutArc": "Confronto no Cinema",
+    "status": "Morto",
+    "quote": "Trabalho é uma m****. Exercer feitiçaria é uma m****. Se os dois são ruins, fiquei com o que paga melhor.",
+    "ability": "Proporção 7:3",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133704-8wLTGjc234q2.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "shoko-ieiri",
+    "name": "Shoko Ieiri",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Energia Amaldiçoada Reversa",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Viva",
+    "quote": "Eu sou a única médica capaz de curar outros com energia reversa.",
+    "ability": "Cura Reversa Externada",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b158154-UCqbiULli62P.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "masamichi-yaga",
+    "name": "Masamichi Yaga",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Criação de Cadáveres Autônomos",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morto",
+    "quote": "Esta é a maldição que deixo para você.",
+    "ability": "Cadáveres Autônomos",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Cadáver Amaldiçoado",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b189237-ZxNJwVPL8DvW.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "kiyotaka-ijichi",
+    "name": "Kiyotaka Ijichi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Vivo",
+    "quote": "Emerge da escuridão, mais negro que o preto, purifica aquilo que é impuro.",
+    "ability": "Técnica de Barreiras Básicas",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b189238-ItSLams6lRk9.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "takuma-ino",
+    "name": "Takuma Ino",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Quatro Bestas Auspiciosas",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Vivo",
+    "quote": "Nanami confiou em mim para liderar!",
+    "ability": "Quatro Bestas Auspiciosas (Ryu)",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157865-X9ENX9OzWevS.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "atsuya-kusakabe",
+    "name": "Atsuya Kusakabe",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada (Estilo Novo de Espada Espiritual)",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Vivo",
+    "quote": "Quem em sã consciência quer lutar contra o Sukuna?!",
+    "ability": "Domínio Simples Supremo",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b205234-nrush17kFWaE.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "mei-mei",
+    "name": "Mei Mei",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Manipulação de Corvos",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Viva",
+    "quote": "O dinheiro é a única coisa verdadeiramente confiável no mundo.",
+    "ability": "Bird Strike",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157215-I3TQJu8nkDwD.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "ui-ui",
+    "name": "Ui Ui",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Teletransporte de Almas",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Vivo",
+    "quote": "Minha vida pertence inteiramente à minha irmã Mei Mei.",
+    "ability": "Teletransporte de Almas",
+    "grade": "Semi-Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b217290-dEovi2HxGOnV.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "yuki-tsukumo",
+    "name": "Yuki Tsukumo",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Star Rage (Massa Virtual)",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morta",
+    "quote": "Qual é o seu tipo de mulher?",
+    "ability": "Star Rage (Massa Virtual)",
+    "grade": "Grau Especial",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196502-aBvtPFr9lGm2.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "tengen",
+    "name": "Tengen",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Imortalidade & Barreiras Sagradas",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Selado",
+    "quote": "Minha barreira sustenta todo o mundo jujutsu do Japão há milênios.",
+    "ability": "Barreiras Sagradas",
+    "grade": "Grau Especial",
+    "era": "Período Nara (Ancestral)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b217291-zKcyXtXLZZJy.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "akari-nitta",
+    "name": "Akari Nitta",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Origem da Obediência",
+    "status": "Viva",
+    "quote": "Estou encarregada da assistência de transporte dos feiticeiros.",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210846-XcRQ643Ne8Pb.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "yu-haibara",
+    "name": "Yu Haibara",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morto",
+    "quote": "Eu amo fazer o que posso para ajudar o Nanami e o Gojo-san!",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b281725-qJOgelbFp32B.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "misato-kuroi",
+    "name": "Misato Kuroi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morta",
+    "quote": "Riko-sama é a pessoa mais importante do mundo para mim.",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b255175-rOyuWgBm6W9M.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "toji-fushiguro",
+    "name": "Toji Fushiguro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres",
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Restrição Celestial",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morto",
+    "quote": "Não me culpe. Culpe a sua falta de sorte por me encontrar aqui.",
+    "ability": "Restrição Celestial Pura",
+    "grade": "Grau Especial",
+    "era": "Moderna",
+    "techniqueType": "Restrição Celestial",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b162722-btzdghBizxKS.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "naobito-zenin",
+    "name": "Naobito Zenin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Feitiçaria de Projeção",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morto",
+    "quote": "Beba o melhor sake enquanto assiste à velocidade pura!",
+    "ability": "Feitiçaria de Projeção",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b188432-WePQBJsEuSts.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "naoya-zenin",
+    "name": "Naoya Zenin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Feitiçaria de Projeção Sub-Sônica",
+    "debutArc": "Extermínio de Itadori",
+    "status": "Morto",
+    "quote": "Eu sou o único digno de ficar ao lado do Toji e do Satoru.",
+    "ability": "Projeção Velocidade da Luz",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b208204-1CoWbBOC2Jqr.jpg",
+    "domainExpansion": "Palácio da Lua Célula Matriz (Time Cell Moon Palace)"
+  },
+  {
+    "id": "ogi-zenin",
+    "name": "Ogi Zenin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Espada de Chamas Amaldiçoadas",
+    "debutArc": "Preparativos do Jogo do Abate",
+    "status": "Morto",
+    "quote": "Minhas filhas são a razão de eu não ter me tornado o líder do clã!",
+    "ability": "Lâmina Vulcânica",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b227443-nPWnp2f0jwNA.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "jinichi-zenin",
+    "name": "Jinichi Zenin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Zenin"
+    ],
+    "styleOrPower": "Punhos Gigantes Espirituais",
+    "debutArc": "Preparativos do Jogo do Abate",
+    "status": "Morto",
+    "quote": "A unidade Hei esmagará qualquer rebelde Zenin.",
+    "ability": "Punhos Gigantes",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b229952-mi0WoIU33kjI.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "riko-amanai",
+    "name": "Riko Amanai",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morta",
+    "quote": "Eu quero viver mais... Quero ir para a escola e viajar com todo mundo!",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b203015-ez2Io1gxIQOP.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "shiu-kong",
+    "name": "Shiu Kong",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Vivo",
+    "quote": "Tenho um trabalho perfeito para você, Fushiguro.",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b303313-5ELI3hDVjNwP.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "ryomen-sukuna",
+    "name": "Ryomen Sukuna",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições",
+      "Período Heian"
+    ],
+    "styleOrPower": "Corte e Fissura",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morto",
+    "quote": "Orgulhe-se. Você é forte.",
+    "ability": "Corte Cleave & Dismantle & Fuga",
+    "grade": "Grau Especial",
+    "era": "Período Heian (Há 1000 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133701-rCQuDpHr3UZL.png",
+    "domainExpansion": "Santuário Malevolente (Malevolent Shrine)"
+  },
+  {
+    "id": "suguru-geto",
+    "name": "Suguru Geto",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres",
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Manipulação de Espíritos Amaldiçoados",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morto",
+    "quote": "Nós, feiticeiros, somos os verdadeiros humanos superiores. Os não-feiticeiros são apenas macacos.",
+    "ability": "Manipulação de Maldições & Uzumaki",
+    "grade": "Grau Especial",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133699-FCnXaISgazAi.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "kenjaku",
+    "name": "Kenjaku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Maldições",
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Troca de Cérebro / Gravidade",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morto",
+    "quote": "Eu vivi por mil anos apenas para ver o potencial da energia amaldiçoada se desencadear no caos.",
+    "ability": "Troca de Corpos & Uzumaki & Sistema Antigravidade",
+    "grade": "Grau Especial",
+    "era": "Período Heian (Há 1000 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b289584-KndGudJZm5Ik.jpg",
+    "domainExpansion": "Proliferação de Vórtices (Womb Profusion / Zokushō Tairyō)"
+  },
+  {
+    "id": "uraume",
+    "name": "Uraume",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Maldições",
+      "Período Heian"
+    ],
+    "styleOrPower": "Formação de Gelo Maciço",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morto",
+    "quote": "Toda a minha existência se dedica a servir Sukuna-sama!",
+    "ability": "Formação da Geada Glacial",
+    "grade": "Grau Especial",
+    "era": "Período Heian (Há 1000 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210830-rJ8LVEvLUqjE.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "mahito",
+    "name": "Mahito",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Transfiguração Ociosa",
+    "debutArc": "Confronto no Cinema",
+    "status": "Morto",
+    "quote": "A alma vem antes do corpo! É a alma que molda a carne!",
+    "ability": "Transfiguração Ociosa & Domínio Self-Embodiment of Perfection",
+    "grade": "Grau Especial",
+    "era": "Espírito Amaldiçoado",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133702-Y7JRG5vAvjIL.png",
+    "domainExpansion": "Auto-Encarnação da Perfeição (Self-Embodiment of Perfection)"
+  },
+  {
+    "id": "jogo",
+    "name": "Jogo",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Chamas Vulcânicas",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morto",
+    "quote": "Nós somos as verdadeiras pessoas! Nascidos da terra e dos sentimentos puros de medo!",
+    "ability": "Chamas Vulcânicas & Coffin of the Iron Mountain",
+    "grade": "Grau Especial",
+    "era": "Espírito Amaldiçoado",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b156991-niYjdp9CxO4w.png",
+    "domainExpansion": "Caixão da Montanha de Ferro (Coffin of the Iron Mountain)"
+  },
+  {
+    "id": "hanami",
+    "name": "Hanami",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Manipulação da Natureza",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morto",
+    "quote": "A natureza só deseja limpar a ganância humana e restaurar o equilíbrio da Terra.",
+    "ability": "Feitiçaria de Plantas & Raízes Amaldiçoadas",
+    "grade": "Grau Especial",
+    "era": "Espírito Amaldiçoado",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b172743-4Y5SXqED6A3G.jpg",
+    "domainExpansion": "Mar Cerimonial de Luz (Ceremonial Sea of Light)"
+  },
+  {
+    "id": "dagon",
+    "name": "Dagon",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Tsunami de Mares",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morto",
+    "quote": "Nós não somos apenas maldições sem nome... Nós temos nomes!",
+    "ability": "Tsunami de Peixes Amaldiçoados & Horizon of the Captivating Skiff",
+    "grade": "Grau Especial",
+    "era": "Espírito Amaldiçoado",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b204383-5oTlVPpaCnM2.jpg",
+    "domainExpansion": "Horizonte do Esquife Cativante (Horizon of the Captivating Skiff)"
+  },
+  {
+    "id": "choso",
+    "name": "Choso",
+    "gender": "Masculino",
+    "species": "Feto Amaldiçoado",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio",
+      "Maldições"
+    ],
+    "styleOrPower": "Manipulação de Sangue",
+    "debutArc": "Origem da Obediência",
+    "status": "Morto",
+    "quote": "Eu sou o irmão mais velho de dez irmãos! Tenho que proteger meus caçulas!",
+    "ability": "Manipulação de Sangue & Piercing Blood",
+    "grade": "Grau Especial",
+    "era": "Feto Amaldiçoado (Era Meiji)",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157116-2jYQf3y8NeTZ.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "eso",
+    "name": "Eso",
+    "gender": "Masculino",
+    "species": "Feto Amaldiçoado",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Sangue de Sepsia",
+    "debutArc": "Origem da Obediência",
+    "status": "Morto",
+    "quote": "Não olhe para as minhas costas! Eu mato qualquer um que veja minhas costas!",
+    "ability": "Sangue Corrosivo Sepsia & Asas de Sangue",
+    "grade": "Grau 1",
+    "era": "Feto Amaldiçoado (Era Meiji)",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210831-wsucHRbSZjbV.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "kechizu",
+    "name": "Kechizu",
+    "gender": "Masculino",
+    "species": "Feto Amaldiçoado",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Ácido Venenoso de Sangue",
+    "debutArc": "Origem da Obediência",
+    "status": "Morto",
+    "quote": "Irmão Eso! Me ajude!",
+    "ability": "Ácido Corrosivo",
+    "grade": "Grau 2",
+    "era": "Feto Amaldiçoado (Era Meiji)",
+    "techniqueType": "Inata Herdada",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210832-d1Fg0CePSU86.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "rika-orimoto",
+    "name": "Rika Orimoto",
+    "gender": "Feminino",
+    "species": "Maldição",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Rainha das Maldições",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Curado",
+    "quote": "Eu amo o Yuta para sempre! Prometemos nos casar!",
+    "ability": "Rainha das Maldições & Reserva Infinita",
+    "grade": "Grau Especial",
+    "era": "Espírito Amaldiçoado",
+    "techniqueType": "Invocação / Shikigami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b208533-EXiA1hR5l585.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "mahoraga",
+    "name": "Mahoraga",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Invocação das Dez Sombras"
+    ],
+    "styleOrPower": "Adaptação Universal a Qualquer Fenômeno",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morto",
+    "quote": "General Divino Makora, adaptando-se a todos os fenômenos da criação.",
+    "ability": "Adaptação Universal & Espada do Exorcismo",
+    "grade": "Grau Especial",
+    "era": "Invocação / Shikigami",
+    "techniqueType": "Invocação / Shikigami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b319339-B50Yn0NHXCua.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "smallpox-deity",
+    "name": "Espírito da Varíola",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Domínio de Lapide e Lápide de Pedra",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morto",
+    "quote": "Contagem regressiva de três segundos para o sepultamento...",
+    "ability": "Lapidação de Pedra & Doença da Varíola",
+    "grade": "Grau Especial",
+    "era": "Espírito Amaldiçoado",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306263-P94VBlsmRYOb.png",
+    "domainExpansion": "Lápide de Pedra (Graveyard Domain)"
+  },
+  {
+    "id": "hajime-kashimo",
+    "name": "Hajime Kashimo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Liberador Mítico de Raio",
+    "debutArc": "Jogo do Abate",
+    "status": "Morto",
+    "quote": "É assim que os perdedores pensam! Mostre-me o mais forte!",
+    "ability": "Genju Kohaku (Mítico Libertador de Raios)",
+    "grade": "Grau Especial",
+    "era": "Era Edo (Há 400 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b248143-w5ZilMdkvpbe.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "hiromi-higuruma",
+    "name": "Hiromi Higuruma",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Domínio de Julgamento Tribunal",
+    "debutArc": "Jogo do Abate",
+    "status": "Vivo",
+    "quote": "A lei só tem significado quando aplicada com imparcialidade a todos os homens.",
+    "ability": "Judgeman & Pena de Morte (Executioner Sword)",
+    "grade": "Grau 1",
+    "era": "Moderna (Jogo do Abate)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b248818-G9R6TqqElpvG.png",
+    "domainExpansion": "Sentença Mortal (Deadly Sentencing / Judgeman)"
+  },
+  {
+    "id": "ryu-ishigori",
+    "name": "Ryu Ishigori",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Canhão de Energia Concentrada",
+    "debutArc": "Jogo do Abate",
+    "status": "Morto",
+    "quote": "Estou faminto por uma batalha que seja um verdadeiro banquete de sobremesa!",
+    "ability": "Granite Blast",
+    "grade": "Grau Especial",
+    "era": "Era Edo (Há 400 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b280468-FKEIVFFwPmJ7.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "takako-uro",
+    "name": "Takako Uro",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Manipulação Espacial do Céu",
+    "debutArc": "Jogo do Abate",
+    "status": "Viva",
+    "quote": "O céu não é um limite, é uma superfície fina que posso agarrar e dobrar!",
+    "ability": "Thin Ice Breaker & Dobra Espacial",
+    "grade": "Grau 1",
+    "era": "Período Heian (Há 1000 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b283136-NvWh6wRYmFnn.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "fumihiko-takaba",
+    "name": "Fumihiko Takaba",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Comédia Realidade",
+    "debutArc": "Jogo do Abate",
+    "status": "Vivo",
+    "quote": "Seria hilário se isso acontecesse agora! Se eu achar engraçado, vira realidade!",
+    "ability": "Comedian (Realidade Cômica)",
+    "grade": "Grau 1",
+    "era": "Moderna (Jogo do Abate)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b280467-w8N3PAfEJmnc.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "hana-kurusu",
+    "name": "Hana Kurusu",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola de Jujutsu de Tóquio"
+    ],
+    "styleOrPower": "Escada de Jacó",
+    "debutArc": "Jogo do Abate",
+    "status": "Viva",
+    "quote": "Nossa missão como Anjo é extinguir todos os feiticeiros reencarnados.",
+    "ability": "Jacob's Ladder (Extinção de Técnicas)",
+    "grade": "Grau Especial",
+    "era": "Período Heian (Há 1000 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b220724-PiTAVLDqbWQn.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "yorozu",
+    "name": "Yorozu",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Maldições",
+      "Período Heian"
+    ],
+    "styleOrPower": "Criação de Metal Líquido",
+    "debutArc": "Jogo do Abate",
+    "status": "Morta",
+    "quote": "Meu amor por Sukuna é absoluto e construirá a esfera perfeita!",
+    "ability": "Esfera Perfeita & Armadura de Inseto",
+    "grade": "Grau Especial",
+    "era": "Período Heian (Há 1000 Anos)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306195-Xqsc5ZLjWvk6.png",
+    "domainExpansion": "Três Vezes Aflição (Three-Fold Affliction)"
+  },
+  {
+    "id": "reggie-star",
+    "name": "Reggie Star",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Contratos de Recibo de Compras",
+    "debutArc": "Jogo do Abate",
+    "status": "Morto",
+    "quote": "Posso materializar qualquer objeto ou contrato queimando seus recibos!",
+    "ability": "Recibos Amaldiçoados",
+    "grade": "Grau 1",
+    "era": "Ancestral (Reencarnado)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306194-Ndnj1bqwzVxD.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "dhruv-lakdawala",
+    "name": "Dhruv Lakdawala",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Rastros de Invocação de Domínio Autônomo",
+    "debutArc": "Jogo do Abate",
+    "status": "Morto",
+    "quote": "Sobrevivi a guerras ancestrais no Japão antigo dominando territórios.",
+    "ability": "Rastros de Domínio de Shikigamis",
+    "grade": "Grau Especial",
+    "era": "Guerra Wa (Há 2000 Anos)",
+    "techniqueType": "Invocação / Shikigami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306266-sBf9Whr0tUlO.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "kurourushi",
+    "name": "Kurourushi",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Enxame de Baratas Amaldiçoadas",
+    "debutArc": "Jogo do Abate",
+    "status": "Morto",
+    "quote": "Comer... procriar... devoured pela fome infinita!",
+    "ability": "Faca da Vida Partenogenética & Baratas",
+    "grade": "Grau Especial",
+    "era": "Espírito Amaldiçoado",
+    "techniqueType": "Invocação / Shikigami",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b276133-L0BZ2BWJGaiR.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "charles-bernard",
+    "name": "Charles Bernard",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Pena de Mangaká e Visão do Futuro",
+    "debutArc": "Jogo do Abate",
+    "status": "Vivo",
+    "quote": "As pessoas desenham mangá para expressar sua alma e desespero!",
+    "ability": "Pena de Tinta G-Pen & Visão de Futuro",
+    "grade": "Grau 2",
+    "era": "Moderna (Jogo do Abate)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b274304-ojg0z8KpZGtW.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "hagane-daido",
+    "name": "Hagane Daido",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Mestre da Espada Sem Energia Amaldiçoada",
+    "debutArc": "Jogo do Abate",
+    "status": "Vivo",
+    "quote": "Se existe uma espada, eu consigo cortar qualquer coisa que veja!",
+    "ability": "Esgrima Suprema Ancestral",
+    "grade": "Grau 1",
+    "era": "Ancestral (Reencarnado)",
+    "techniqueType": "Restrição Celestial",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306265-M5XOMzUHkwPR.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "rokujushi-miyo",
+    "name": "Rokujushi Miyo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Domínio de Sumô Sagrado",
+    "debutArc": "Jogo do Abate",
+    "status": "Vivo",
+    "quote": "Sumô é a forma mais pura de conversa entre dois homens!",
+    "ability": "Domínio de Arena de Sumô",
+    "grade": "Grau 1",
+    "era": "Ancestral (Reencarnado)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306264-4qG4kcepuurT.png",
+    "domainExpansion": "Arena de Sumô Sagrada"
+  },
+  {
+    "id": "iori-hazenoki",
+    "name": "Iori Hazenoki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Explosão de Partes do Corpo (Dentes/Olhos)",
+    "debutArc": "Jogo do Abate",
+    "status": "Morto",
+    "quote": "Arrancar meus próprios dentes e fazê-los explodir é meu estilo de diversão!",
+    "ability": "Explosão de Tecidos",
+    "grade": "Grau 1",
+    "era": "Ancestral (Reencarnado)",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306243-dasZXinQ1gBx.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "haruta-shigemo",
+    "name": "Haruta Shigemo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Milagres Armazenados",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Morto",
+    "quote": "Eu sou um cara de muita sorte! Meus milagres me salvam no final!",
+    "ability": "Milagres Armazenados de Sorte",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b209694-xSS6FxN4al3l.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "jiro-awasaka",
+    "name": "Jiro Awasaka",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Inversa (Inversão de Impactos de Força)",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morto",
+    "quote": "Ataques fortes se tornam fracos, e ataques fracos se tornam fatais!",
+    "ability": "Inversa (Inversão de Danos)",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306253-PYrfBHAfYvsb.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "juzo-kumiya",
+    "name": "Juzo Kumiya",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Artesão de Ferramentas com Ossos Humanos",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Vivo",
+    "quote": "Quero transformar o Satoru Gojo num belo moedor de café ou cabide!",
+    "ability": "Forja de Ferramentas Amaldiçoadas",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b207988-GB9ZpnPA6dWQ.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "ogami-granny",
+    "name": "Vovó Ogami",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Invocação de Corpos e Almas de Mortos",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Morta",
+    "quote": "Invoque a informação do corpo do falecido para o nosso recipiente!",
+    "ability": "Séance Technique (Invocação de Mortos)",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306252-YS8dqn5XWzgT.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "junpei-yoshino",
+    "name": "Junpei Yoshino",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Confronto no Cinema"
+    ],
+    "styleOrPower": "Água-Viva Venenosa",
+    "debutArc": "Confronto no Cinema",
+    "status": "Morto",
+    "quote": "Se as pessoas têm corações, isso significa que elas são capazes de crueldade sem fim.",
+    "ability": "Moon Dregs (Água-Viva Venenosa)",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157214-ROBNoXVEXRNy.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "wasuke-itadori",
+    "name": "Wasuke Itadori",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Itadori"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morto",
+    "quote": "Yuji... ajude as pessoas. Não morra sozinho como eu.",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b194074-SnbrUkHIyM62.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "jin-itadori",
+    "name": "Jin Itadori",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Itadori"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morto",
+    "quote": "Deixe a Kaori em paz, pai... ela é minha esposa.",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b283137-nqjpjzZC0AYo.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "kaori-itadori",
+    "name": "Kaori Itadori",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Itadori"
+    ],
+    "styleOrPower": "Sistema Anti-Gravidade",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morta",
+    "quote": "Você tem certeza de que quer falar sobre isso na frente do nosso filho?",
+    "ability": "Sistema Antigravidade",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b380084-ddKGDd50c36B.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "tsumiki-fushiguro",
+    "name": "Tsumiki Fushiguro",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Fushiguro"
+    ],
+    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Morta",
+    "quote": "Seja gentil com os outros, Megumi.",
+    "ability": "Sem Técnica Amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193479-aGNRmbU5jNwR.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "mimiko-hasaba",
+    "name": "Mimiko Hasaba",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Técnica de Forca por Corda",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morta",
+    "quote": "Devolva o corpo do Geto-sama! Ele pertence a nós!",
+    "ability": "Enforcamento por Boneco",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b228986-TXJuABOhrxRA.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "nanako-hasaba",
+    "name": "Nanako Hasaba",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Manipulação Fotográfica",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Morta",
+    "quote": "Se eu tirar uma foto sua com meu celular, posso alterar seu destino para sempre!",
+    "ability": "Fotografia Amaldiçoada",
+    "grade": "Grau 3",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b228987-Su63YTP33b6W.jpg",
+    "domainExpansion": null
+  },
+  {
+    "id": "larue",
+    "name": "Larue",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Heart Catch",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Vivo",
+    "quote": "Meu querido Suguru... nós sempre apoiamos seus ideais.",
+    "ability": "Heart Catch (Agarrar Coração)",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b268297-zQ48F3PoVldl.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "miguel",
+    "name": "Miguel",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Hakuna Laana / Chicote Negro",
+    "debutArc": "Inventário Oculto / Morte Prematura",
+    "status": "Vivo",
+    "quote": "Minha dança desvia de qualquer ataque e quebra o ritmo dos meus inimigos.",
+    "ability": "Hakuna Laana & Chicote Negro",
+    "grade": "Grau 1",
+    "era": "Moderna",
+    "techniqueType": "Inata Própria",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b272175-wBjreG7iB9n2.png",
+    "domainExpansion": null
+  }
+]

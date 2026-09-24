@@ -1,0 +1,4887 @@
+[
+  {
+    "id": "monkey-d-luffy",
+    "name": "Monkey D. Luffy",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Chapéus de Palha",
+      "Quatro Imperadores"
+    ],
+    "fruitType": "Zoan Mítica",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 3000000000,
+    "styleOrPower": "Zoan Mítica (Hito Hito no Mi: Modelo Nika)",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "quote": "Eu vou ser o Rei dos Piratas!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b40-MNypXsxSRb1R.png",
+    "techniques": [
+      "Gear 5 (Nika)",
+      "Bajrang Gun"
+    ]
+  },
+  {
+    "id": "nico-robin",
+    "name": "Nico Robin (Miss All Sunday)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Chapéus de Palha",
+      "Baroque Works",
+      "Exército Revolucionário"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 930000000,
+    "styleOrPower": "Paramecia (Hana Hana no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "quote": "Eu quero viver!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b61-ywXUyyocEEqt.png",
+    "techniques": [
+      "Demonio Fleur",
+      "Mil Fleur"
+    ]
+  },
+  {
+    "id": "roronoa-zoro",
+    "name": "Roronoa Zoro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 1111000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "quote": "Nada aconteceu...",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b62-S7oAeA9WInjV.png",
+    "techniques": [
+      "Asura",
+      "Corte do Rei do Inferno (Enma)"
+    ]
+  },
+  {
+    "id": "franky",
+    "name": "Franky",
+    "gender": "Masculino",
+    "species": "Ciborgue",
+    "affiliation": [
+      "Chapéus de Palha",
+      "Família Franky"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 394000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "quote": "SUUUUPER!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n64-ChX6ZzHHjXqA.png",
+    "techniques": [
+      "Radical Beam",
+      "General Franky"
+    ]
+  },
+  {
+    "id": "sanji",
+    "name": "Sanji",
+    "gender": "Masculino",
+    "species": "Humano (Modificado)",
+    "affiliation": [
+      "Chapéus de Palha",
+      "Germa 66"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 1032000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "quote": "A cozinha é sagrada!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b305-6lisPmHtCnLT.png",
+    "techniques": [
+      "Ifrit Jambe",
+      "Diable Jambe"
+    ]
+  },
+  {
+    "id": "tony-tony-chopper",
+    "name": "Tony Tony Chopper",
+    "gender": "Masculino",
+    "species": "Rena",
+    "affiliation": [
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 1000,
+    "styleOrPower": "Zoan (Hito Hito no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "quote": "Elogios não me deixam feliz, seu idiota!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b309-H64NhbJ2ywIQ.jpg",
+    "techniques": [
+      "Monster Point",
+      "Kung Fu Point"
+    ]
+  },
+  {
+    "id": "nami",
+    "name": "Nami",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Chapéus de Palha",
+      "Piratas do Arlong"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 366000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Viva",
+    "quote": "Eu vou desenhar um mapa de todo o mundo!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b723-vp5hPptgnNEC.png",
+    "techniques": [
+      "Thunderbolt Tempo",
+      "Zeus Breeze Tempo"
+    ]
+  },
+  {
+    "id": "usopp",
+    "name": "Usopp",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Observação",
+    "bounty": 500000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "quote": "Eu sou o Capitão Usopp!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b724-GFGgI9AJQkfy.jpg",
+    "techniques": [
+      "Pop Greens",
+      "Hissatsu Green Star"
+    ]
+  },
+  {
+    "id": "brook",
+    "name": "Brook",
+    "gender": "Masculino",
+    "species": "Esqueleto",
+    "affiliation": [
+      "Chapéus de Palha",
+      "Piratas Rumbar"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 383000000,
+    "styleOrPower": "Paramecia (Yomi Yomi no Mi)",
+    "debutArc": "Thriller Bark",
+    "status": "Vivo",
+    "quote": "Poderia me mostrar sua calcinha?",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5627-av8oD3zhKvDl.png",
+    "techniques": [
+      "Esgrima Soul Solid",
+      "Corte Congelante"
+    ]
+  },
+  {
+    "id": "jinbe",
+    "name": "Jinbe",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Chapéus de Palha",
+      "Piratas do Sol",
+      "Sete Warlords do Mar"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 1100000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "quote": "Eu sou um homem que deseja servir o futuro Rei dos Piratas!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18938-yZANEfjsVhW4.png",
+    "techniques": [
+      "Gyo-Jin Karate",
+      "Vagabond Drill"
+    ]
+  },
+  {
+    "id": "buggy",
+    "name": "Buggy",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Quatro Imperadores",
+      "Sete Warlords do Mar",
+      "Piratas do Buggy",
+      "Piratas do Roger"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 3189000000,
+    "styleOrPower": "Paramecia (Bara Bara no Mi)",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "quote": "Eu sou o lendário Capitão Buggy, Gyahahaha!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n725-g04AaiaK5f9B.png",
+    "techniques": [
+      "Bara Bara Festival",
+      "Muggy Ball"
+    ]
+  },
+  {
+    "id": "nefertari-vivi",
+    "name": "Nefertari Vivi (Miss Wednesday)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Alabasta",
+      "Chapéus de Palha",
+      "Baroque Works"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "quote": "Se nos reencontrarmos um dia, vocês ainda me chamarão de companheira?",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b726-DqAIpscMuYYx.png",
+    "techniques": [
+      "Peacock Slasher"
+    ]
+  },
+  {
+    "id": "shanks",
+    "name": "Shanks",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Ruivo",
+      "Quatro Imperadores",
+      "Piratas do Roger"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 4048900000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "quote": "Não perdoo ninguém que machuque meus amigos!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b727-wUJx7M1z5xON.png",
+    "techniques": [
+      "Kamusari (Divine Departure)",
+      "Gryphon"
+    ]
+  },
+  {
+    "id": "enel",
+    "name": "Enel",
+    "gender": "Masculino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Deus de Skypiea"
+    ],
+    "fruitType": "Logia",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Logia (Goro Goro no Mi)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "quote": "Eu sou o Deus!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1541-6c8RouunoL88.jpg",
+    "techniques": [
+      "Raigo",
+      "200 Milhões de Volts Amaru"
+    ]
+  },
+  {
+    "id": "dracule-mihawk",
+    "name": "Dracule Mihawk",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Sete Warlords do Mar"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 3590000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "quote": "Descubra seu verdadeiro eu, torne-se forte!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2064-OpnF4nLi6bvL.png",
+    "techniques": [
+      "Corte Supremo com Lâmina Negra Yoru"
+    ]
+  },
+  {
+    "id": "portgas-d-ace",
+    "name": "Portgas D. Ace",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Branca",
+      "Piratas Spade"
+    ],
+    "fruitType": "Logia",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 550000000,
+    "styleOrPower": "Logia (Mera Mera no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Falecido",
+    "quote": "Obrigado por me amarem!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2072-Lc6jEdsueJUK.jpg",
+    "techniques": [
+      "Hiken (Punho de Fogo)",
+      "Dai Enkai: Entei"
+    ]
+  },
+  {
+    "id": "kuro",
+    "name": "Kuro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Gato Preto"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 16000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2519-OfgRt6mP6Ae8.jpg",
+    "quote": "",
+    "techniques": [
+      "Shakushi (Passagem da Morte)"
+    ]
+  },
+  {
+    "id": "bellamy",
+    "name": "Bellamy",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas de Bellamy",
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 195000000,
+    "styleOrPower": "Paramecia (Bane Bane no Mi)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2748-vnCKira7yjrp.jpg",
+    "quote": "",
+    "techniques": [
+      "Spring Hopper"
+    ]
+  },
+  {
+    "id": "crocodile",
+    "name": "Crocodile (Mr. 0)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Sete Warlords do Mar",
+      "Baroque Works"
+    ],
+    "fruitType": "Logia",
+    "haki": "Armamento & Observação",
+    "bounty": 1965000000,
+    "styleOrPower": "Logia (Suna Suna no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "quote": "Confiança é a palavra mais inútil deste mundo.",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2749-e8ebEBN1SlS2.png",
+    "techniques": [
+      "Desert Spada",
+      "Sables"
+    ]
+  },
+  {
+    "id": "tashigi",
+    "name": "Tashigi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2750-j3Rf9SC37ehT.jpg",
+    "quote": "",
+    "techniques": [
+      "Corte de Katana com Armamento"
+    ]
+  },
+  {
+    "id": "edward-newgate-barba-branca",
+    "name": "Edward Newgate (Barba Branca)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Branca",
+      "Quatro Imperadores",
+      "Piratas Rocks"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 5046000000,
+    "styleOrPower": "Paramecia (Gura Gura no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Falecido",
+    "quote": "O One Piece é real!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2751-NnzW0N2vCTjX.jpg",
+    "techniques": [
+      "Impacto Sísmico de Terremoto",
+      "Bisento Murakumogiri"
+    ]
+  },
+  {
+    "id": "kuzan",
+    "name": "Kuzan (Aokiji)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Negra",
+      "Marinha"
+    ],
+    "fruitType": "Logia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Logia (Hie Hie no Mi)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "quote": "Justiça Preguiçosa.",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2752-0ENS2a39muDz.png",
+    "techniques": [
+      "Ice Age",
+      "Ice Saber"
+    ]
+  },
+  {
+    "id": "smoker",
+    "name": "Smoker",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Logia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Logia (Moku Moku no Mi)",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2753-Y2ja8Pl6PRs0.jpg",
+    "quote": "",
+    "techniques": [
+      "White Blow",
+      "Jitte de Kairouseki"
+    ]
+  },
+  {
+    "id": "donquixote-doflamingo",
+    "name": "Donquixote Doflamingo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Donquixote",
+      "Sete Warlords do Mar"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 340000000,
+    "styleOrPower": "Paramecia (Ito Ito no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Preso",
+    "quote": "Os vencedores ditarão o que é a justiça!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2754-B4gGSlNYgsyh.jpg",
+    "techniques": [
+      "God Thread",
+      "Parasite"
+    ]
+  },
+  {
+    "id": "teach-marshall",
+    "name": "Marshall D. Teach (Barba Negra)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Negra",
+      "Quatro Imperadores",
+      "Sete Warlords do Mar",
+      "Piratas do Barba Branca"
+    ],
+    "fruitType": "Logia & Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 3996000000,
+    "styleOrPower": "Logia & Paramecia (Yami Yami no Mi & Gura Gura no Mi)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3331-7ZJDc4BNv9Yp.jpg",
+    "quote": "",
+    "techniques": [
+      "Black Hole",
+      "Terremoto de Vértice"
+    ]
+  },
+  {
+    "id": "galdino",
+    "name": "Mr. 3 (Galdino)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Piratas do Buggy",
+      "Baroque Works"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 24000000,
+    "styleOrPower": "Paramecia (Doru Doru no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3879-wxKVpYpup7ji.png",
+    "quote": "",
+    "techniques": [
+      "Armadura de Cera",
+      "Doru Doru Arts"
+    ]
+  },
+  {
+    "id": "kureha",
+    "name": "Kureha",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil",
+      "Reino de Drum"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4393-1ljQxAeV20kB.png",
+    "quote": "",
+    "techniques": [
+      "Tratamento Médico de Precisão"
+    ]
+  },
+  {
+    "id": "kumadori",
+    "name": "Kumadori",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4784-N2iuEYijo01x.png",
+    "quote": "",
+    "techniques": [
+      "Shigan",
+      "Controle Capilar (Shugyo)"
+    ]
+  },
+  {
+    "id": "bentham",
+    "name": "Mr. 2 Bon Kurei (Bentham)",
+    "gender": "Outro",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works",
+      "Impel Down"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 32000000,
+    "styleOrPower": "Paramecia (Mane Mane no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4875-Ga2TVjP70R6r.png",
+    "quote": "",
+    "techniques": [
+      "Okama Kenpo",
+      "Cópia de Aparência"
+    ]
+  },
+  {
+    "id": "ben-beckman",
+    "name": "Ben Beckman",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Ruivo"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4882-2zsLPjqUeOJ4.png",
+    "quote": "",
+    "techniques": [
+      "Disparo Tático de Fuzil"
+    ]
+  },
+  {
+    "id": "roger-gold",
+    "name": "Roger Gold",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Roger"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 5564800000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4883-0t76xH00sehO.png",
+    "quote": "",
+    "techniques": [
+      "Kamusari (Divine Departure)"
+    ]
+  },
+  {
+    "id": "dragon",
+    "name": "Dragon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Revolucionário"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4884-iBn6FzQ2ESLC.png",
+    "quote": "",
+    "techniques": [
+      "Ryusoken",
+      "Rajada de Vento"
+    ]
+  },
+  {
+    "id": "lucky-roux",
+    "name": "Lucky Roux",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Ruivo"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4885-wabOwg3GFpfK.jpg",
+    "quote": "",
+    "techniques": [
+      "Saque Rápido de Pistola"
+    ]
+  },
+  {
+    "id": "jango",
+    "name": "Jango",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "Piratas do Gato Preto"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/d/de/Jango_Anime_Infobox.png",
+    "quote": "",
+    "techniques": [
+      "Hipnose com Pêndulo de Anel"
+    ]
+  },
+  {
+    "id": "arlong",
+    "name": "Arlong",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Piratas do Arlong",
+      "Piratas do Sol"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 20000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4887-hMOqSSpR5jFc.jpg",
+    "quote": "",
+    "techniques": [
+      "Shark On Darts",
+      "Tooth Gum"
+    ]
+  },
+  {
+    "id": "nojiko",
+    "name": "Nojiko",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil",
+      "Vila Cocoyasi"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4888-ZVkyNRqxa3it.png",
+    "quote": "",
+    "techniques": [
+      "Disparo de Defesa Comunitária"
+    ]
+  },
+  {
+    "id": "hatchan",
+    "name": "Hatchan",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Civil",
+      "Piratas do Sol",
+      "Piratas do Arlong"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 8000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4889.jpg",
+    "quote": "",
+    "techniques": [
+      "Tako Shinju",
+      "Shin-Kyu-Doryu"
+    ]
+  },
+  {
+    "id": "bellemere",
+    "name": "Bellemere",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4890.jpg",
+    "quote": "",
+    "techniques": [
+      "Combate de Espingarda Naval"
+    ]
+  },
+  {
+    "id": "chew",
+    "name": "Chew",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Piratas do Arlong",
+      "Piratas do Sol"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 5500000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4891-y8cWYU2t7tcu.png",
+    "quote": "",
+    "techniques": [
+      "Mizudoppo",
+      "Hyakuretsu Mizudoppo"
+    ]
+  },
+  {
+    "id": "genzo",
+    "name": "Genzo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil",
+      "Vila Cocoyasi"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b15027-9BTC5INMfjjT.jpg",
+    "quote": "",
+    "techniques": [
+      "Defesa de Vila",
+      "Catavento"
+    ]
+  },
+  {
+    "id": "johnny",
+    "name": "Johnny",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Caçadores de Recompensas",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4893.jpg",
+    "quote": "",
+    "techniques": [
+      "Corte Duplo com Yosaku"
+    ]
+  },
+  {
+    "id": "yosaku",
+    "name": "Yosaku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Caçadores de Recompensas",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4894.jpg",
+    "quote": "",
+    "techniques": [
+      "Corte Duplo com Johnny"
+    ]
+  },
+  {
+    "id": "kuroobi",
+    "name": "Kuroobi",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Piratas do Arlong",
+      "Piratas do Sol"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 9000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4895-REV7XgeR7nRd.png",
+    "quote": "",
+    "techniques": [
+      "Hyakukai Satsu",
+      "Kachiage Kaisatsu"
+    ]
+  },
+  {
+    "id": "mohji",
+    "name": "Mohji",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Piratas do Buggy"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4896.jpg",
+    "quote": "",
+    "techniques": [
+      "Ataque do Leão Richie",
+      "Chicote"
+    ]
+  },
+  {
+    "id": "cabaji",
+    "name": "Cabaji",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Piratas do Buggy"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4897-3dFXuF1vcLJQ.jpg",
+    "quote": "",
+    "techniques": [
+      "Kamikaze Hyakugoma",
+      "Sopros de Fogo"
+    ]
+  },
+  {
+    "id": "richie",
+    "name": "Richie",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Cross Guild",
+      "Piratas do Buggy"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4898.jpg",
+    "quote": "",
+    "techniques": [
+      "Patada de Leão",
+      "Mordida"
+    ]
+  },
+  {
+    "id": "alvida",
+    "name": "Alvida",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Piratas do Buggy",
+      "Piratas da Alvida"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 5000000,
+    "styleOrPower": "Paramecia (Sube Sube no Mi)",
+    "debutArc": "East Blue",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4899-bFPCVRWyqMtO.jpg",
+    "quote": "",
+    "techniques": [
+      "Sube Sube Spur",
+      "Clava de Ferro"
+    ]
+  },
+  {
+    "id": "apis",
+    "name": "Apis",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil",
+      "Ilha Gunkan"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Hisohiso no Mi)",
+    "debutArc": "East Blue",
+    "status": "Viva",
+    "quote": "",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/5412.jpg",
+    "techniques": [
+      "Comunicação Telepática Animal"
+    ]
+  },
+  {
+    "id": "laboon",
+    "name": "Laboon",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Piratas Rumbar",
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5413-4j9gPyHIiYim.png",
+    "quote": "",
+    "techniques": [
+      "Cabeçada de Baleia das Ilhas"
+    ]
+  },
+  {
+    "id": "igaram",
+    "name": "Igaram (Mr. 8)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Alabasta",
+      "Baroque Works"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5415-pIQGogXQgOLf.png",
+    "quote": "",
+    "techniques": [
+      "Igarappai (Tiroteio de Saxofone e Cabelo)"
+    ]
+  },
+  {
+    "id": "miss-monday",
+    "name": "Miss Monday",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5416-XTIxwcMXy0Nj.png",
+    "quote": "",
+    "techniques": [
+      "Soco de Soco Inglês Muscular"
+    ]
+  },
+  {
+    "id": "mikita",
+    "name": "Miss Valentine (Mikita)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 7500000,
+    "styleOrPower": "Paramecia (Kilo Kilo no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5417-Zv0W82y0lrae.png",
+    "quote": "",
+    "techniques": [
+      "10,000 Kilo Press"
+    ]
+  },
+  {
+    "id": "gem",
+    "name": "Mr. 5 (Gem)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 10000000,
+    "styleOrPower": "Paramecia (Bomu Bomu no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5418-5HdgBfpTAWRm.png",
+    "quote": "",
+    "techniques": [
+      "Nose Fancy Cannon",
+      "Bombas de Meleca"
+    ]
+  },
+  {
+    "id": "marianne",
+    "name": "Miss Goldenweek (Marianne)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 2900000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5419-08ykKbUsGNCf.jpg",
+    "quote": "",
+    "techniques": [
+      "Pintura de Controle de Humor (Vermelho/Verde/Azul)"
+    ]
+  },
+  {
+    "id": "dorry",
+    "name": "Dorry",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Piratas Guerreiros de Elbaf"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 1800000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/5420.jpg",
+    "quote": "",
+    "techniques": [
+      "Hakoku Sovereignty com Brogy"
+    ]
+  },
+  {
+    "id": "brogy",
+    "name": "Brogy",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Piratas Guerreiros de Elbaf"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 1800000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/5421.jpg",
+    "quote": "",
+    "techniques": [
+      "Hakoku Sovereignty com Dorry"
+    ]
+  },
+  {
+    "id": "wapol",
+    "name": "Wapol",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Black Drum",
+      "Piratas de Wapol"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Baku Baku no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5422-QfzPleyyng7n.jpg",
+    "quote": "",
+    "techniques": [
+      "Baku Baku Factory",
+      "Wapol House"
+    ]
+  },
+  {
+    "id": "dalton",
+    "name": "Dalton",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Sakura"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Ushi Ushi no Mi: Modelo Bisão)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5423-n38TDrDIqKs6.jpg",
+    "quote": "",
+    "techniques": [
+      "Fiddle Banisher",
+      "Investida Bisão"
+    ]
+  },
+  {
+    "id": "rob-lucci",
+    "name": "Rob Lucci",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP0",
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Neko Neko no Mi: Modelo Leopardo)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "quote": "Minha única motivação é a matança em nome da Justiça.",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5677-ZrZunVe7Kq5P.png",
+    "techniques": [
+      "Rokuogan",
+      "Formas Despertadas de Leopardo"
+    ]
+  },
+  {
+    "id": "iceburg",
+    "name": "Iceburg",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Galley-La Company",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5750-Li0UhhHyfGtL.jpg",
+    "quote": "",
+    "techniques": [
+      "Liderança de Galley-La",
+      "Construção de Navios"
+    ]
+  },
+  {
+    "id": "kalifa",
+    "name": "Kalifa",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "CP0",
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Awa Awa no Mi)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5910-Ec5mCnChAdBT.jpg",
+    "quote": "",
+    "techniques": [
+      "Golden Hour",
+      "Soap Sheep"
+    ]
+  },
+  {
+    "id": "kaku",
+    "name": "Kaku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP0",
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Ushi Ushi no Mi: Modelo Girafa)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/0/09/Kaku_Anime_Post_Timeskip_Infobox.png",
+    "quote": "",
+    "techniques": [
+      "Rankyaku Kiri Shigure",
+      "Giraffe Man"
+    ]
+  },
+  {
+    "id": "chimney",
+    "name": "Chimney",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b6496-WBa6DFzRcZSe.png",
+    "quote": "",
+    "techniques": [
+      "Assistência de Navegação com Gonbe"
+    ]
+  },
+  {
+    "id": "spandam",
+    "name": "Spandam",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP0",
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b6551-szpvKXmtWqGX.png",
+    "quote": "",
+    "techniques": [
+      "Elephant Chop com Funkfreed"
+    ]
+  },
+  {
+    "id": "don-achino",
+    "name": "Don Achino",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Achino"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Atsu Atsu no Mi)",
+    "debutArc": "Thriller Bark",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/7400.jpg",
+    "quote": "",
+    "techniques": [
+      "Calor Extremo de 10.000 Graus"
+    ]
+  },
+  {
+    "id": "bartholomew-kuma",
+    "name": "Bartholomew Kuma",
+    "gender": "Masculino",
+    "species": "Buccaneer",
+    "affiliation": [
+      "Exército Revolucionário",
+      "Sete Warlords do Mar",
+      "Marinha"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 296000000,
+    "styleOrPower": "Paramecia (Nikyu Nikyu no Mi)",
+    "debutArc": "Thriller Bark",
+    "status": "Vivo",
+    "quote": "Se você fosse fazer uma viagem... para onde gostaria de ir?",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7453-c3MArieFBs9w.png",
+    "techniques": [
+      "Ursus Shock",
+      "Teletransporte por Patas"
+    ]
+  },
+  {
+    "id": "moria-gecko",
+    "name": "Moria Gecko",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas de Thriller Bark",
+      "Sete Warlords do Mar"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 320000000,
+    "styleOrPower": "Paramecia (Kage Kage no Mi)",
+    "debutArc": "Thriller Bark",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7454-WN77wNFvGtp8.png",
+    "quote": "",
+    "techniques": [
+      "Shadows' Asgard",
+      "Brick Bat"
+    ]
+  },
+  {
+    "id": "doctor-hogback",
+    "name": "Doctor Hogback",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas de Thriller Bark"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Thriller Bark",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/7455.jpg",
+    "quote": "",
+    "techniques": [
+      "Criação e Enxerto de Corpos Zumbis"
+    ]
+  },
+  {
+    "id": "perona",
+    "name": "Perona",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas de Thriller Bark"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Horo Horo no Mi)",
+    "debutArc": "Thriller Bark",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7467-0xxnaxQGfhkY.jpg",
+    "quote": "",
+    "techniques": [
+      "Negative Hollow",
+      "Mini Hollow"
+    ]
+  },
+  {
+    "id": "wiper",
+    "name": "Wiper",
+    "gender": "Masculino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Guerreiros Shandians"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7644-4sCeX6T4WtTO.jpg",
+    "quote": "",
+    "techniques": [
+      "Disparo de Reject Dial",
+      "Bazuca de Queima"
+    ]
+  },
+  {
+    "id": "garp",
+    "name": "Garp",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "SWORD"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 3000000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "quote": "Punho do Amor!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b8064-dPltKaZ8RAsj.jpg",
+    "techniques": [
+      "Galaxy Impact",
+      "Galaxy Divide"
+    ]
+  },
+  {
+    "id": "paulie",
+    "name": "Paulie",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Galley-La Company",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b8503-UxUPQK83zl5L.png",
+    "quote": "",
+    "techniques": [
+      "Half Knot",
+      "Round Table com Cordas"
+    ]
+  },
+  {
+    "id": "pell",
+    "name": "Pell",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Alabasta"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Tori Tori no Mi: Modelo Falcão)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9098-gsUJ1Zx5tYnA.png",
+    "quote": "",
+    "techniques": [
+      "Tobizaru",
+      "Voos de Alta Velocidade"
+    ]
+  },
+  {
+    "id": "krieg-don",
+    "name": "Don Krieg",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas da Armada de Krieg"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 17000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9320-lHsw9jNk5889.png",
+    "quote": "",
+    "techniques": [
+      "Gás Venenoso MH5",
+      "Lança de Batalha"
+    ]
+  },
+  {
+    "id": "gin",
+    "name": "Gin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas da Armada de Krieg"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 12000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9321.jpg",
+    "quote": "",
+    "techniques": [
+      "Combate de Bastões Pesados"
+    ]
+  },
+  {
+    "id": "marco",
+    "name": "Marco",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Branca"
+    ],
+    "fruitType": "Zoan Mítica",
+    "haki": "Armamento & Observação",
+    "bounty": 1374000000,
+    "styleOrPower": "Zoan Mítica (Tori Tori no Mi: Modelo Fênix)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9323-tGArly93xBZv.png",
+    "quote": "",
+    "techniques": [
+      "Chamas Azuis de Ressurreição",
+      "Houba"
+    ]
+  },
+  {
+    "id": "burgess-jesus",
+    "name": "Burgess Jesus",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Negra"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 20000000,
+    "styleOrPower": "Paramecia (Riki Riki no Mi)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9324-ZmlGx1pxRtYP.png",
+    "quote": "",
+    "techniques": [
+      "Força Titânica",
+      "Arremesso de Montanhas"
+    ]
+  },
+  {
+    "id": "augur-van",
+    "name": "Augur Van",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Negra"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Wapu Wapu no Mi & Fuzil Senrikou)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9325-Ev3MbRVNYXIt.png",
+    "quote": "",
+    "techniques": [
+      "Teletransporte de Longa Distância"
+    ]
+  },
+  {
+    "id": "q-doc",
+    "name": "Q Doc",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Negra"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Shiku Shiku no Mi)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9326-TG3CYbA4Q33y.png",
+    "quote": "",
+    "techniques": [
+      "Infecção por Doenças Contagiosas"
+    ]
+  },
+  {
+    "id": "lafitte",
+    "name": "Lafitte",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Negra"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Asas de Fruta Voadora & Infiltração)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/0/00/Laffitte_Anime_Infobox.png",
+    "quote": "",
+    "techniques": [
+      "Hipnose",
+      "Voo com Asas Brancas"
+    ]
+  },
+  {
+    "id": "morgan",
+    "name": "Morgan",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/7/7b/Morgan_Anime_Infobox.png",
+    "quote": "",
+    "techniques": [
+      "Corte Brutal de Machado Acoplado"
+    ]
+  },
+  {
+    "id": "nefertari-cobra",
+    "name": "Nefertari Cobra",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Alabasta"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9344-20tLwZwAXTX0.png",
+    "quote": "",
+    "techniques": [
+      "Governança da Casa de Nefertari"
+    ]
+  },
+  {
+    "id": "oars",
+    "name": "Oars",
+    "gender": "Masculino",
+    "species": "Gigante Ancestral",
+    "affiliation": [
+      "Piratas de Thriller Bark"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Thriller Bark",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b25393-4BfkE6TdYvRV.jpg",
+    "quote": "",
+    "techniques": [
+      "Gomu Gomu no Gatling de Zumbi"
+    ]
+  },
+  {
+    "id": "yasopp",
+    "name": "Yasopp",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Ruivo"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9562-spNkmlnOZf7C.png",
+    "quote": "",
+    "techniques": [
+      "Sniper de Visão Futura"
+    ]
+  },
+  {
+    "id": "absalom",
+    "name": "Absalom",
+    "gender": "Masculino",
+    "species": "Humano (Modificado)",
+    "affiliation": [
+      "Piratas de Thriller Bark"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Suke Suke no Mi)",
+    "debutArc": "Thriller Bark",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9655.jpg",
+    "quote": "",
+    "techniques": [
+      "Invisibilidade",
+      "Canhões Ocultos de Braço"
+    ]
+  },
+  {
+    "id": "kaya",
+    "name": "Kaya",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9880.jpg",
+    "quote": "",
+    "techniques": [
+      "Tratamento de Enfermagem"
+    ]
+  },
+  {
+    "id": "keimi",
+    "name": "Keimi",
+    "gender": "Feminino",
+    "species": "Sereia",
+    "affiliation": [
+      "Civil",
+      "Ilha dos Tritões"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10101-jLtRLVyRj4Ix.png",
+    "quote": "",
+    "techniques": [
+      "Resgate e Veloz Natação de Sereia"
+    ]
+  },
+  {
+    "id": "gaimon",
+    "name": "Gaimon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10147-tW0OsGd9jIW4.png",
+    "quote": "",
+    "techniques": [
+      "Disparo de Espingarda de Dentro do Baú"
+    ]
+  },
+  {
+    "id": "zeff",
+    "name": "Zeff",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil",
+      "Baratie"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/10444.jpg",
+    "quote": "",
+    "techniques": [
+      "Chutes de Destruição e Culinária"
+    ]
+  },
+  {
+    "id": "conis",
+    "name": "Conis",
+    "gender": "Feminino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Skypiea",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10668-JCNeCZ2ap8UR.png",
+    "quote": "",
+    "techniques": [
+      "Suporte de Waver",
+      "Suiteru Dial"
+    ]
+  },
+  {
+    "id": "pagaya",
+    "name": "Pagaya",
+    "gender": "Masculino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10804-LwE7idTlz6N3.png",
+    "quote": "",
+    "techniques": [
+      "Manutenção de Dials e Wavers"
+    ]
+  },
+  {
+    "id": "porche",
+    "name": "Porche",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Foxy"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10910-n5K3FIB8rLvD.png",
+    "quote": "",
+    "techniques": [
+      "Shuriken de Bastão de Flores Cutie"
+    ]
+  },
+  {
+    "id": "blueno",
+    "name": "Blueno",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP0",
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Doa Doa no Mi)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b11394-hQsNGXPOw0m0.png",
+    "quote": "",
+    "techniques": [
+      "Air Door",
+      "Tekkai"
+    ]
+  },
+  {
+    "id": "fukurou",
+    "name": "Fukurou",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b88938-MQdQoMzEigo1.png",
+    "quote": "",
+    "techniques": [
+      "Jugon",
+      "Soru de Alta Velocidade"
+    ]
+  },
+  {
+    "id": "nero",
+    "name": "Nero",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126948-2yL8YEIqLLpq.png",
+    "quote": "",
+    "techniques": [
+      "Soru",
+      "Kamie com Pistolas Duplas"
+    ]
+  },
+  {
+    "id": "jyabura",
+    "name": "Jabra",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Inu Inu no Mi: Modelo Lobo)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b11400-Ra81iEpbLveF.png",
+    "quote": "",
+    "techniques": [
+      "Tekkai Kenpo",
+      "Wolf Pack Strike"
+    ]
+  },
+  {
+    "id": "rockstar",
+    "name": "Rockstar",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Ruivo"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 94000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/12232.jpg",
+    "quote": "",
+    "techniques": [
+      "Espada de Vibração Cortante"
+    ]
+  },
+  {
+    "id": "koby",
+    "name": "Koby",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "SWORD"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 500000000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b12361-H0SmgKxZ9T61.png",
+    "quote": "",
+    "techniques": [
+      "Honesty Impact",
+      "Soru"
+    ]
+  },
+  {
+    "id": "helmeppo",
+    "name": "Helmeppo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "SWORD"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/12362.jpg",
+    "quote": "",
+    "techniques": [
+      "Corte Duplo de Kukri",
+      "Rokushiki"
+    ]
+  },
+  {
+    "id": "sengoku",
+    "name": "Sengoku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Zoan Mítica",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Hito Hito no Mi: Modelo Daibutsu)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22050-RUw3vyGYdr9W.jpg",
+    "quote": "",
+    "techniques": [
+      "Ondas de Choque de Buda Dourado"
+    ]
+  },
+  {
+    "id": "babe",
+    "name": "Mr. 4 (Babe)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 3200000,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "quote": "",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/13109.jpg",
+    "techniques": [
+      "Rebatida de Bombas Lassoo"
+    ]
+  },
+  {
+    "id": "law-trafalgar",
+    "name": "Law Trafalgar",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Coração",
+      "Sete Warlords do Mar"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 3000000000,
+    "styleOrPower": "Paramecia (Ope Ope no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b13767-U604OJN9dxCn.jpg",
+    "quote": "",
+    "techniques": [
+      "Kroom (Anesth/Puncture Wille)",
+      "Room Gamma Knife"
+    ]
+  },
+  {
+    "id": "eustass-kid",
+    "name": "Eustass Kid",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Kid"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 3000000000,
+    "styleOrPower": "Paramecia (Jiki Jiki no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "quote": "",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b14989-uykLqnBTdAc2.jpg",
+    "techniques": [
+      "Damned Punk",
+      "Assign"
+    ]
+  },
+  {
+    "id": "boa-hancock",
+    "name": "Boa Hancock",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Kuja",
+      "Sete Warlords do Mar"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 1659000000,
+    "styleOrPower": "Paramecia (Mero Mero no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Viva",
+    "quote": "Eu serei perdoada porque sou linda!",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b16342-kVOF6V5Q94go.png",
+    "techniques": [
+      "Mero Mero Mellow",
+      "Slave Arrow"
+    ]
+  },
+  {
+    "id": "silvers-rayleigh",
+    "name": "Silvers Rayleigh",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Roger",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "quote": "Existir neste mundo significa viver sem se arrepender de nada.",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17142-OXOpztWZIE2A.png",
+    "techniques": [
+      "Corte de Armamento Avançado",
+      "Emissão de Conquistador"
+    ]
+  },
+  {
+    "id": "ryuuma-shimotsuki",
+    "name": "Ryuuma Shimotsuki",
+    "gender": "Masculino",
+    "species": "Zumbi (Humano)",
+    "affiliation": [
+      "Wano Country",
+      "Piratas de Thriller Bark"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Thriller Bark",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17178-SczXHzLzZqzn.jpg",
+    "quote": "",
+    "techniques": [
+      "Aubade Coup D'Droit",
+      "Corte do Dragão"
+    ]
+  },
+  {
+    "id": "calgara",
+    "name": "Calgara",
+    "gender": "Masculino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Guerreiros Shandians"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Skypiea",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n17190-BCsc92WDAZPs.png",
+    "quote": "",
+    "techniques": [
+      "Arremesso de Esfera Gigante de Aço"
+    ]
+  },
+  {
+    "id": "norland-montblanc",
+    "name": "Norland Montblanc",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Lvneel"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Skypiea",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n17191-CxjdmuAITdiU.png",
+    "quote": "",
+    "techniques": [
+      "Corte de Espada Longa",
+      "Botânica Marítima"
+    ]
+  },
+  {
+    "id": "bepo",
+    "name": "Bepo",
+    "gender": "Masculino",
+    "species": "Mink",
+    "affiliation": [
+      "Piratas do Coração"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 500,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17492-PCFNvded635o.png",
+    "quote": "",
+    "techniques": [
+      "Forma Sulong",
+      "Chutes de Kung Fu"
+    ]
+  },
+  {
+    "id": "gedatsu",
+    "name": "Gedatsu",
+    "gender": "Masculino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Sacerdotes de Enel"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17561-aGldMpVI60Uh.png",
+    "quote": "",
+    "techniques": [
+      "Swamp Burger",
+      "Jet Punch"
+    ]
+  },
+  {
+    "id": "yorki",
+    "name": "Yorki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Rumbar"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Thriller Bark",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17763-EokkfpNw5ZG8.png",
+    "quote": "",
+    "techniques": [
+      "Corte de Sabre Pirata"
+    ]
+  },
+  {
+    "id": "spandine",
+    "name": "Spandine",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CP9",
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18437-8HWmSV6WxNOg.jpg",
+    "quote": "",
+    "techniques": [
+      "Comando do Buster Call de Ohara"
+    ]
+  },
+  {
+    "id": "mohmoo",
+    "name": "Mohmoo",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Piratas do Arlong",
+      "Piratas Caribou"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18783-aDvOKx7yBGbu.png",
+    "quote": "",
+    "techniques": [
+      "Investida Subaquática de Vaca Marinha"
+    ]
+  },
+  {
+    "id": "kung-fu-dugong",
+    "name": "Kung Fu Dugong",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/18784.jpg",
+    "quote": "",
+    "techniques": [
+      "Socos e Defesas de Artes Marciais"
+    ]
+  },
+  {
+    "id": "killer",
+    "name": "Killer",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Kid"
+    ],
+    "fruitType": "Zoan Artificial",
+    "haki": "Armamento & Observação",
+    "bounty": 200000000,
+    "styleOrPower": "Zoan Artificial (Foices Giratórias Punishers)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/9/98/Killer_Anime_Pre_Timeskip_Infobox.png",
+    "quote": "",
+    "techniques": [
+      "Soni Sonic",
+      "Kamaa Sonic"
+    ]
+  },
+  {
+    "id": "duval",
+    "name": "Duval",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Rosy Life Riders",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b19168-ANaaigEPt3FW.png",
+    "quote": "",
+    "techniques": [
+      "Disparo de Harpão com Búfalo de Montaria"
+    ]
+  },
+  {
+    "id": "hiluluk",
+    "name": "Hiluluk",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil",
+      "Reino de Drum"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Alabasta",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b19271-AqWZCtTJieBx.jpg",
+    "quote": "",
+    "techniques": [
+      "Pó de Flor de Cerejeira Milagrosa"
+    ]
+  },
+  {
+    "id": "pappag",
+    "name": "Pappag",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b19311-kCSCnSAMkxHO.png",
+    "quote": "",
+    "techniques": [
+      "Fala Humana",
+      "Moda Marítima"
+    ]
+  },
+  {
+    "id": "hina",
+    "name": "Hina",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Ori Ori no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/0/0d/Hina_Anime_Infobox.png",
+    "quote": "",
+    "techniques": [
+      "Kimori Cage (Gaiolas de Aço)"
+    ]
+  },
+  {
+    "id": "miss-merry-christmas",
+    "name": "Miss Merry Christmas (Dromia)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 14000000,
+    "styleOrPower": "Zoan (Mogu Mogu no Mi)",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20098-r4uk4YsAKR2t.jpg",
+    "quote": "",
+    "techniques": [
+      "Mogu Mogu Impact",
+      "Escavação de Túneis"
+    ]
+  },
+  {
+    "id": "shakuyaku",
+    "name": "Shakuyaku",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Kuja",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20178-W192714k10S8.jpg",
+    "quote": "",
+    "techniques": [
+      "Combate Corporal de ex-Imperatriz Kuja"
+    ]
+  },
+  {
+    "id": "scratchmen-apoo",
+    "name": "Scratchmen Apoo",
+    "gender": "Masculino",
+    "species": "Tribo dos Braços Longos",
+    "affiliation": [
+      "Piratas On Air",
+      "Piratas das Feras"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 350000000,
+    "styleOrPower": "Paramecia (Oto Oto no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20288-7ccM0oyUvyLu.jpg",
+    "quote": "",
+    "techniques": [
+      "Tataki",
+      "Cut Musical Explosions"
+    ]
+  },
+  {
+    "id": "drake-x",
+    "name": "Drake X.",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "SWORD",
+      "Marinha",
+      "Piratas Drake",
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 222000000,
+    "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Alossauro)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20289-2bumPKcGsWhU.jpg",
+    "quote": "",
+    "techniques": [
+      "Mordida de Alossauro",
+      "Machadinha/Sabre"
+    ]
+  },
+  {
+    "id": "capone-bege",
+    "name": "Capone Bege",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Fire Tank Pirates"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 350000000,
+    "styleOrPower": "Paramecia (Shiro Shiro no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20292-6aIlR9qqSj1f.png",
+    "quote": "",
+    "techniques": [
+      "Big Father",
+      "Tropas Internas de Canhão"
+    ]
+  },
+  {
+    "id": "basil-hawkins",
+    "name": "Basil Hawkins",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas de Hawkins",
+      "Piratas das Feras"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 320000000,
+    "styleOrPower": "Paramecia (Wara Wara no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20293-37ifsaMz7Kgx.png",
+    "quote": "",
+    "techniques": [
+      "Goma no Soga",
+      "Bonecos Vodou de Palha"
+    ]
+  },
+  {
+    "id": "urouge",
+    "name": "Urouge",
+    "gender": "Masculino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Fallen Monk Pirates"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 108000000,
+    "styleOrPower": "Paramecia (Amplificação de Retaliação de Danos)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20294-6jBqrVoAQSaz.png",
+    "quote": "",
+    "techniques": [
+      "Expansão Corporal Titânica",
+      "Maça Gigante"
+    ]
+  },
+  {
+    "id": "jewelry-bonney",
+    "name": "Jewelry Bonney",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas da Bonney",
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 320000000,
+    "styleOrPower": "Paramecia (Toshi Toshi no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Viva",
+    "quote": "",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20295-LqpG4Y3HkKxu.png",
+    "techniques": [
+      "Futuro Distorcido (Nika Futuro)",
+      "Alteração de Idade"
+    ]
+  },
+  {
+    "id": "saint-charloss",
+    "name": "Saint Charloss",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/20308.jpg",
+    "quote": "",
+    "techniques": [
+      "Disparo Sem Hesitação de Nobre Mundial"
+    ]
+  },
+  {
+    "id": "saul-jaguar",
+    "name": "Saul Jaguar",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Marinha",
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20330-T9ZMmA9LBlDc.jpg",
+    "quote": "",
+    "techniques": [
+      "Arremesso de Navios",
+      "Proteção de Livros em Elbaf"
+    ]
+  },
+  {
+    "id": "sandersonia-boa",
+    "name": "Sandersonia Boa",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Kuja"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 40000000,
+    "styleOrPower": "Zoan (Hebi Hebi no Mi: Modelo Anaconda)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20946-elHgWM7yJzed.png",
+    "quote": "",
+    "techniques": [
+      "Hebigami Yatsuka",
+      "Haki de Armamento"
+    ]
+  },
+  {
+    "id": "marigold-boa",
+    "name": "Marigold Boa",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Kuja"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 40000000,
+    "styleOrPower": "Zoan (Hebi Hebi no Mi: Modelo Naja)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20947-GJhZTN6fOBQP.png",
+    "quote": "",
+    "techniques": [
+      "Sopro de Fogo Salivar",
+      "Halberd Kuja"
+    ]
+  },
+  {
+    "id": "borsalino",
+    "name": "Borsalino (Kizaru)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Logia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Logia (Pika Pika no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "quote": "Você já levou um chute na velocidade da luz?",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21093-Pc4kOjUn3ZkZ.png",
+    "techniques": [
+      "Yasakani no Magatama",
+      "Ama no Murakumo"
+    ]
+  },
+  {
+    "id": "jean-bart",
+    "name": "Jean Bart",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Coração"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21098-0sB3TMJiEauw.png",
+    "quote": "",
+    "techniques": [
+      "Escudo Humano de Proteção"
+    ]
+  },
+  {
+    "id": "charlotte-katakuri",
+    "name": "Charlotte Katakuri",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 1057000000,
+    "styleOrPower": "Paramecia (Mochi Mochi no Mi)",
+    "quote": "Eu não acho que você seja inferior a mim.",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b124077-TODX2ThCdyx2.png",
+    "techniques": [
+      "Peerless Donuts",
+      "Visão Futura (Kenbunshoku)"
+    ]
+  },
+  {
+    "id": "charlotte-linlin",
+    "name": "Charlotte Linlin (Big Mom)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom",
+      "Quatro Imperadores",
+      "Piratas Rocks"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 4388000000,
+    "styleOrPower": "Paramecia (Soru Soru no Mi)",
+    "quote": "Ma-ma-ma-ma! Vida ou Licença?!",
+    "debutArc": "Whole Cake Island",
+    "status": "Desconhecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b54495-3x1TzSzPEOLd.jpg",
+    "techniques": [
+      "Ikkoku Sovereignty",
+      "Prometheus/Zeus/Hera"
+    ]
+  },
+  {
+    "id": "charlotte-perospero",
+    "name": "Charlotte Perospero",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 700000000,
+    "styleOrPower": "Paramecia (Pero Pero no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181760-5H6hsVxrOSZk.jpg",
+    "techniques": [
+      "Candy Maiden",
+      "Candy Wave"
+    ]
+  },
+  {
+    "id": "charlotte-cracker",
+    "name": "Charlotte Cracker",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 860000000,
+    "styleOrPower": "Paramecia (Bisu Bisu no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136035-OWcGohs8YDwH.jpg",
+    "techniques": [
+      "Pretzel",
+      "Soldados de Biscoito Infinitos"
+    ]
+  },
+  {
+    "id": "charlotte-smoothie",
+    "name": "Charlotte Smoothie",
+    "gender": "Feminino",
+    "species": "Tribo dos Pernas Longas",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 932000000,
+    "styleOrPower": "Paramecia (Shibo Shibo no Mi)",
+    "debutArc": "Whole Cake Island",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136036-hWdz3OAupfri.jpg",
+    "quote": "",
+    "techniques": [
+      "Extratora de Líquidos",
+      "Espada Gigante"
+    ]
+  },
+  {
+    "id": "charlotte-pudding",
+    "name": "Charlotte Pudding",
+    "gender": "Feminino",
+    "species": "Tribo dos Três Olhos",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Memo Memo no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n134006-ZmzLQ5FrdtnL.jpg",
+    "techniques": [
+      "Edição e Extração de Memórias"
+    ]
+  },
+  {
+    "id": "vinsmoke-judge",
+    "name": "Vinsmoke Judge",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Germa 66"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127895-Io7YzfaJSW7t.png",
+    "techniques": [
+      "Raiko Spear",
+      "Wall com Exército Clone"
+    ]
+  },
+  {
+    "id": "vinsmoke-reiju",
+    "name": "Vinsmoke Reiju",
+    "gender": "Feminino",
+    "species": "Humano (Modificado)",
+    "affiliation": [
+      "Germa 66"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127891-FSRMoIQeDyV8.png",
+    "techniques": [
+      "Absorção e Disparo de Veneno Lethal"
+    ]
+  },
+  {
+    "id": "vinsmoke-ichiji",
+    "name": "Vinsmoke Ichiji",
+    "gender": "Masculino",
+    "species": "Humano (Modificado)",
+    "affiliation": [
+      "Germa 66"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127893-NSxMdNd6ggmP.png",
+    "quote": "",
+    "techniques": [
+      "Sparking Valkyrie",
+      "Lasers de Fogo"
+    ]
+  },
+  {
+    "id": "vinsmoke-niji",
+    "name": "Vinsmoke Niji",
+    "gender": "Masculino",
+    "species": "Humano (Modificado)",
+    "affiliation": [
+      "Germa 66"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127896-Mc81M3k3pod0.png",
+    "quote": "",
+    "techniques": [
+      "Henry Needle",
+      "Velocidade Elétrica"
+    ]
+  },
+  {
+    "id": "vinsmoke-yonji",
+    "name": "Vinsmoke Yonji",
+    "gender": "Masculino",
+    "species": "Humano (Modificado)",
+    "affiliation": [
+      "Germa 66"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127892-SKNxHS3hS8TP.png",
+    "quote": "",
+    "techniques": [
+      "Winch Danton",
+      "Braço Mecânico Titânico"
+    ]
+  },
+  {
+    "id": "kaidou",
+    "name": "Kaidou",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Piratas das Feras",
+      "Quatro Imperadores",
+      "Piratas Rocks"
+    ],
+    "fruitType": "Zoan Mítica",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 4611100000,
+    "styleOrPower": "Zoan Mítica (Uo Uo no Mi: Modelo Seiryu)",
+    "quote": "A força das armas é tudo o que importa no mundo!",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Desconhecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/2/2d/Kaidou_Anime_Infobox.png",
+    "techniques": [
+      "Bolo Breath",
+      "Raimei Hakke (Thunder Bagua)"
+    ]
+  },
+  {
+    "id": "yamato",
+    "name": "Yamato",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "País de Wano",
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Zoan Mítica",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Inu Inu no Mi: Modelo Okami)",
+    "quote": "Eu sou Kozuki Oden! E eu vou proteger este país!",
+    "debutArc": "País de Wano",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b176840-8KRqXXLJeLOg.png",
+    "techniques": [
+      "Narikabura Arrow",
+      "Raimei Hakke"
+    ]
+  },
+  {
+    "id": "king",
+    "name": "King",
+    "gender": "Masculino",
+    "species": "Lunaria",
+    "affiliation": [
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 1390000000,
+    "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Pteranodonte)",
+    "quote": "",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b417-gVLmIJu9phcK.png",
+    "techniques": [
+      "Karyudon (Dragão de Fogo Lunaria)",
+      "Espada de Serra"
+    ]
+  },
+  {
+    "id": "queen",
+    "name": "Queen",
+    "gender": "Masculino",
+    "species": "Ciborgue",
+    "affiliation": [
+      "Piratas das Feras",
+      "MADS"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 1320000000,
+    "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Braquiossauro)",
+    "quote": "",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b120649-NPaWaIpWy60E.png",
+    "techniques": [
+      "Brachio Snake",
+      "Tecnologias Germa Replicadas"
+    ]
+  },
+  {
+    "id": "jack",
+    "name": "Jack",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 1000000000,
+    "styleOrPower": "Zoan Ancestral (Zou Zou no Mi: Modelo Mamute)",
+    "quote": "",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/3/3f/Jack_Anime_Infobox.png",
+    "techniques": [
+      "Investida de Mamute",
+      "Shotel Duplo"
+    ]
+  },
+  {
+    "id": "ulti",
+    "name": "Ulti",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 400000000,
+    "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Paquicefalossauro)",
+    "quote": "",
+    "debutArc": "País de Wano",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b172135-YT7F61sARuG5.png",
+    "techniques": [
+      "Ul-Meteor",
+      "Cabeçada de Impacto"
+    ]
+  },
+  {
+    "id": "page-one",
+    "name": "Page One",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 290000000,
+    "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Espinossauro)",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b172132-QpYBzNJ16R7n.jpg",
+    "quote": "",
+    "techniques": [
+      "Mordida e Garras de Espinossauro"
+    ]
+  },
+  {
+    "id": "kozuki-oden",
+    "name": "Kozuki Oden",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Wano Country",
+      "Piratas do Roger",
+      "Piratas do Barba Branca"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "Eu sou Oden! E eu nasci para ferver!",
+    "debutArc": "País de Wano",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b149797-UmdR7up3kgoK.png",
+    "techniques": [
+      "Togen Totsuka",
+      "Paradise Waterfall"
+    ]
+  },
+  {
+    "id": "kozuki-momonosuke",
+    "name": "Kozuki Momonosuke",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "País de Wano",
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Zoan Artificial",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Zoan Artificial (Uo Uo no Mi Artificial (Dragão Rosa))",
+    "quote": "Meu nome é Kozuki Momonosuke! O homem que se tornará o Xogum de Wano!",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126184-QZ8JNecT5wQc.png",
+    "techniques": [
+      "Bolo Breath",
+      "Nuvens de Chama (Homura-dama)"
+    ]
+  },
+  {
+    "id": "kinemon",
+    "name": "Kin'emon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "País de Wano"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Fuku Fuku no Mi & Estilo Raposa de Fogo)",
+    "quote": "",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b67345-YYWagqYcgghY.png",
+    "techniques": [
+      "Kitsunebiri (Corte de Fogo)"
+    ]
+  },
+  {
+    "id": "sabo",
+    "name": "Sabo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Revolucionário"
+    ],
+    "fruitType": "Logia",
+    "haki": "Armamento & Observação",
+    "bounty": 602000000,
+    "styleOrPower": "Logia (Mera Mera no Mi & Garra do Dragão (Ryusoken))",
+    "quote": "Se o Luffy precisar de mim, estarei lá em qualquer lugar do mundo!",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b32893-3weZS61cdwLD.png",
+    "techniques": [
+      "Ryusoken: Kaen Ryuo",
+      "Hiken"
+    ]
+  },
+  {
+    "id": "emporio-ivankov",
+    "name": "Emporio Ivankov",
+    "gender": "Outro",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Revolucionário"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Horu Horu no Mi & Newkama Kenpo)",
+    "quote": "Milagres só acontecem para aqueles que nunca desistem!",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/22646.jpg",
+    "techniques": [
+      "Death Wink",
+      "Injeção de Hormônios de Cura"
+    ]
+  },
+  {
+    "id": "karasu",
+    "name": "Karasu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Revolucionário"
+    ],
+    "fruitType": "Logia",
+    "haki": "Armamento & Observação",
+    "bounty": 400000000,
+    "styleOrPower": "Logia (Soot Soot no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126145-J8CvqhgL7SRG.png",
+    "techniques": [
+      "Corvos de Fuligem",
+      "Revoada Tática"
+    ]
+  },
+  {
+    "id": "belo-betty",
+    "name": "Belo Betty",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Revolucionário"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 457000000,
+    "styleOrPower": "Paramecia (Kobu Kobu no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126146-s6wTxJ8EKDvJ.png",
+    "techniques": [
+      "Encorajamento da Vontade das Massas"
+    ]
+  },
+  {
+    "id": "rocks-d-xebec",
+    "name": "Rocks D. Xebec",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Rocks"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "País de Wano",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b146411-1cWXsUjauDEU.png",
+    "techniques": [
+      "Comando da Maior Tripulação da História"
+    ]
+  },
+  {
+    "id": "imu",
+    "name": "Imu-sama",
+    "gender": "Desconhecido",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhum",
+    "haki": "Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128130-X9N46ajhSMOi.png",
+    "techniques": [
+      "Destruição do Trono Vazio"
+    ]
+  },
+  {
+    "id": "loki",
+    "name": "Loki",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "fruitType": "Zoan Mítica",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 2600000000,
+    "styleOrPower": "Zoan Mítica (Ryu Ryu no Mi: Modelo Nidhogg)",
+    "quote": "",
+    "debutArc": "Elbaf",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/e/e9/Loki_Anime_Infobox.png",
+    "techniques": [
+      "Força Solar Destrutiva de Elbaf"
+    ]
+  },
+  {
+    "id": "hajrudin",
+    "name": "Hajrudin",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Grand Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b244046-IaFJvmTJk56a.png",
+    "techniques": [
+      "Gungnir (Soco de 10.000 Toneladas)"
+    ]
+  },
+  {
+    "id": "vegapunk",
+    "name": "Vegapunk",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "MADS",
+      "Governo Mundial"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Nomi Nomi no Mi)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/b/b9/Vegapunk_Anime_Infobox.png",
+    "techniques": [
+      "Intelecto de 500 Anos no Futuro",
+      "Punk Records"
+    ]
+  },
+  {
+    "id": "daz-bones",
+    "name": "Mr. 1 (Daz Bones)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Cross Guild",
+      "Baroque Works"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 75000000,
+    "styleOrPower": "Paramecia (Supa Supa no Mi)",
+    "quote": "",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21553-PF78AphTEzgF.png",
+    "techniques": [
+      "Spider",
+      "Atomic Spurt (Lâminas de Aço)"
+    ]
+  },
+  {
+    "id": "zala",
+    "name": "Miss Doublefinger (Zala)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 35000000,
+    "styleOrPower": "Paramecia (Toge Toge no Mi)",
+    "quote": "",
+    "debutArc": "Alabasta",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21556-8pOlYNkThV0u.png",
+    "techniques": [
+      "Stinger Hedge",
+      "Espinhos de Aço"
+    ]
+  },
+  {
+    "id": "gerd",
+    "name": "Gerd",
+    "gender": "Feminino",
+    "species": "Gigante",
+    "affiliation": [
+      "Grand Frota dos Chapéus de Palha",
+      "Piratas Novo Elbaf"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n128683-o0E5UUG6yxlg.png",
+    "techniques": [
+      "Corte de Machado Gigante de Elbaf"
+    ]
+  },
+  {
+    "id": "road",
+    "name": "Road",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Piratas Novo Elbaf"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Elbaf",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128132-36WHPkIfHZcf.png",
+    "techniques": [
+      "Navegação em Elbaf",
+      "Esgrima de Gigante"
+    ]
+  },
+  {
+    "id": "stussy",
+    "name": "Stussy",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "MADS",
+      "CP0"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Asas e Presas de Vampiro)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b135948-tZBwXYW0WhT1.jpg",
+    "techniques": [
+      "Kami-e",
+      "Mordida de Sedação de Sangue"
+    ]
+  },
+  {
+    "id": "lilith",
+    "name": "Lilith (Vegapunk 02)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "MADS",
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/6/63/Lilith_Anime_Infobox.png",
+    "techniques": [
+      "Bubble Gun de Kairouseki",
+      "Controle Mecha"
+    ]
+  },
+  {
+    "id": "s-hawk",
+    "name": "S-Hawk",
+    "gender": "Masculino",
+    "species": "Lunaria",
+    "affiliation": [
+      "Marinha",
+      "Governo Mundial"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Supa Supa no Mi Replicada)",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/b/b3/S-Hawk_Anime_Infobox.png",
+    "quote": "",
+    "techniques": [
+      "Corte de Lâmina Negra com Asas Lunaria"
+    ]
+  },
+  {
+    "id": "s-snake",
+    "name": "S-Snake",
+    "gender": "Feminino",
+    "species": "Lunaria",
+    "affiliation": [
+      "Marinha",
+      "Governo Mundial"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Mero Mero no Mi Replicada)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/3/31/S-Snake_Anime_Infobox.png",
+    "techniques": [
+      "Mero Mero Mellow",
+      "Laser de Pacifista"
+    ]
+  },
+  {
+    "id": "fisher-tiger",
+    "name": "Fisher Tiger",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Piratas do Sol"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 230000000,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Ilha dos Tritões",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21809-NcG6Wa7P6t3k.jpg",
+    "techniques": [
+      "Tritão Karate",
+      "Invasão a Mariejois"
+    ]
+  },
+  {
+    "id": "corazon",
+    "name": "Donquixote Rosinante (Corazón)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Nagi Nagi no Mi)",
+    "quote": "Eu te amo, Law!",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b120536-PxdNxEhQwE8d.png",
+    "techniques": [
+      "Silent Field (Cancelamento do Som)"
+    ]
+  },
+  {
+    "id": "kozuki-toki",
+    "name": "Kozuki Toki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "País de Wano",
+      "Piratas do Roger",
+      "Piratas do Barba Branca"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Toki Toki no Mi)",
+    "quote": "",
+    "debutArc": "País de Wano",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127845-e80CGKpAqW4A.png",
+    "techniques": [
+      "Viagem Temporal para o Futuro"
+    ]
+  },
+  {
+    "id": "kuina",
+    "name": "Kuina",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "Zoro, prometemos! Um de nós se tornará o maior espadachim do mundo!",
+    "debutArc": "East Blue",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21266-zGRDCl19NYmQ.png",
+    "techniques": [
+      "Esgrima do Dojo Shimotsuki"
+    ]
+  },
+  {
+    "id": "s-bear",
+    "name": "S-Bear",
+    "gender": "Masculino",
+    "species": "Lunaria",
+    "affiliation": [
+      "Marinha",
+      "Governo Mundial"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Nikyu Nikyu no Mi Replicada)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/d/da/S-Bear_Anime_Infobox.png",
+    "fruitType": "Paramecia",
+    "techniques": [
+      "Ursus Shock",
+      "Lasers de Pacifista"
+    ]
+  },
+  {
+    "id": "s-shark",
+    "name": "S-Shark",
+    "gender": "Masculino",
+    "species": "Lunaria",
+    "affiliation": [
+      "Marinha",
+      "Governo Mundial"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Sui Sui no Mi Replicada)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/f/fe/S-Shark_Anime_Concept_Art.png",
+    "fruitType": "Paramecia",
+    "techniques": [
+      "Karatê Tritão",
+      "Natação em Solo Solido"
+    ]
+  },
+  {
+    "id": "shaka",
+    "name": "Shaka (Vegapunk 01)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "MADS",
+      "Governo Mundial"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/0/0f/Shaka_Anime_Infobox.png",
+    "fruitType": "Nenhuma",
+    "techniques": [
+      "Análise Tática de Segurança",
+      "Capacete de Transmissão"
+    ]
+  },
+  {
+    "id": "edison",
+    "name": "Edison (Vegapunk 03)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "MADS"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/8/8f/Edison_Anime_Infobox.png",
+    "fruitType": "Nenhuma",
+    "techniques": [
+      "Brainstorming Científico de Alta Velocidade"
+    ]
+  },
+  {
+    "id": "pythagoras",
+    "name": "Pythagoras (Vegapunk 04)",
+    "gender": "Masculino",
+    "species": "Ciborgue",
+    "affiliation": [
+      "MADS"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/c/c1/Pythagoras_Anime_Infobox.png",
+    "fruitType": "Nenhuma",
+    "techniques": [
+      "Coleta e Processamento de Dados de Combate"
+    ]
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas (Vegapunk 05)",
+    "gender": "Feminino",
+    "species": "Ciborgue",
+    "affiliation": [
+      "MADS",
+      "Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/a/a4/Atlas_Anime_Infobox.png",
+    "techniques": [
+      "Socos Holográficos de Impacto Titânico"
+    ]
+  },
+  {
+    "id": "york",
+    "name": "York (Vegapunk 06)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "CP0"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/1089.jpg",
+    "fruitType": "Nenhuma",
+    "techniques": [
+      "Controle dos Seraphims",
+      "Pacifistas"
+    ]
+  },
+  {
+    "id": "jaygarcia-saturn",
+    "name": "St. Jaygarcia Saturn",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "Cinco Gorosei"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Gyuki / Ushi-Oni)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/a/ae/Jaygarcia_Saturn_Anime_Infobox.png",
+    "fruitType": "Zoan Mítica",
+    "techniques": [
+      "Invocação Ritual",
+      "Telepatia de Estado"
+    ]
+  },
+  {
+    "id": "topman-warcury",
+    "name": "St. Topman Warcury",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "Cinco Gorosei"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Fengxi)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/b/b4/Topman_Warcury_Anime_Infobox.png",
+    "fruitType": "Zoan Mítica",
+    "techniques": [
+      "Rugido de Haki Conquistador",
+      "Invulnerabilidade"
+    ]
+  },
+  {
+    "id": "marcus-mars",
+    "name": "St. Marcus Mars",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "Cinco Gorosei"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Itsumade)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/e/ea/Marcus_Mars_Anime_Infobox.png",
+    "fruitType": "Zoan Mítica",
+    "techniques": [
+      "Sopro de Fogo Divino",
+      "Voo de Alta Velocidade"
+    ]
+  },
+  {
+    "id": "ethanbaron-v-nusjuro",
+    "name": "St. Ethanbaron V. Nusjuro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "Cinco Gorosei"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Bakotsu)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/e/e0/Ethanbaron_V._Nusjuro_Anime_Infobox.png",
+    "fruitType": "Zoan Mítica",
+    "techniques": [
+      "Esgrima Congelante de Kitetsu com Velocidade Cavalar"
+    ]
+  },
+  {
+    "id": "shepherd-ju-peter",
+    "name": "St. Shepherd Ju Peter",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "Cinco Gorosei"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Verme de Areia)",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/b/b6/Shepherd_Ju_Peter_Anime_Infobox.png",
+    "fruitType": "Zoan Mítica",
+    "techniques": [
+      "Devoração Subterrânea",
+      "Sucção Gigantesca"
+    ]
+  },
+  {
+    "id": "scopper-gaban",
+    "name": "Scopper Gaban",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Roger"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b216702-aXhFfRg9vHcb.jpg",
+    "fruitType": "Nenhuma",
+    "techniques": [
+      "Esgrima de Machados Duplos",
+      "Haki Avançado"
+    ]
+  },
+  {
+    "id": "shiki",
+    "name": "Shiki Leão Dourado",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Rocks",
+      "Piratas do Leão Dourado"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Fuwa Fuwa no Mi)",
+    "quote": "",
+    "debutArc": "Impel Down",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/3/32/Shiki_Anime_Infobox.png",
+    "fruitType": "Paramecia",
+    "techniques": [
+      "Levitação de Objetos",
+      "Espadas Lança-Pés"
+    ]
+  },
+  {
+    "id": "sakazuki",
+    "name": "Sakazuki (Akainu)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Logia (Magu Magu no Mi)",
+    "quote": "A justiça absoluta não tolera o mal!",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22687-tCQVpj6wZhRk.jpg",
+    "fruitType": "Logia",
+    "techniques": [
+      "Dai Funka",
+      "Meigo (Cão de Magma)"
+    ]
+  },
+  {
+    "id": "emet",
+    "name": "Emet",
+    "gender": "Masculino",
+    "species": "Ciborgue",
+    "affiliation": [
+      "Egghead"
+    ],
+    "haki": "Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/7/7b/Emet_Anime_Infobox.png",
+    "fruitType": "Nenhuma",
+    "techniques": [
+      "Nó de Haki Conquistador Guardado de Joy Boy"
+    ]
+  },
+  {
+    "id": "figarland-garling",
+    "name": "St. Figarland Garling",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "Cinco Gorosei",
+      "Cavaleiros Sagrados"
+    ],
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "quote": "",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/9/9d/Figarland_Garling_Anime_Infobox.png",
+    "fruitType": "Nenhuma",
+    "techniques": [
+      "Esgrima Sagrada de Mariejois"
+    ]
+  },
+  {
+    "id": "charlotte-oven",
+    "name": "Charlotte Oven",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 300000000,
+    "styleOrPower": "Paramecia (Netsu Netsu no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181761-LM4qJaSuTrzg.jpg",
+    "fruitType": "Paramecia",
+    "techniques": [
+      "Atsukai Kaiyosui (Fervura do Mar)",
+      "Kaen Shokudan"
+    ]
+  },
+  {
+    "id": "charlotte-brulee",
+    "name": "Charlotte Brulee",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Mira Mira no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181767-D8x7n0zGYvTZ.png",
+    "fruitType": "Paramecia",
+    "techniques": [
+      "Mundo dos Espelhos (Mirro-World)",
+      "Reflexão de Ataques"
+    ]
+  },
+  {
+    "id": "charlotte-galette",
+    "name": "Charlotte Galette",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Bata Bata no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181768-oSMCqCvtcO4C.png",
+    "fruitType": "Paramecia",
+    "techniques": [
+      "Imobilização por Calda de Manteiga"
+    ]
+  },
+  {
+    "id": "charlotte-mont-dor",
+    "name": "Charlotte Mont-d'Or",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 120000000,
+    "styleOrPower": "Paramecia (Hon Hon no Mi)",
+    "quote": "",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181766-L4o97gm6TZqX.jpg",
+    "fruitType": "Paramecia",
+    "techniques": [
+      "Prisão de Livros",
+      "Ilusão de Leitura"
+    ]
+  },
+  {
+    "id": "edward-weevil",
+    "name": "Edward Weevil",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Weevil",
+      "Sete Warlords do Mar"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 480000000,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/b/be/Edward_Weevil_Anime_Infobox.png"
+  },
+  {
+    "id": "miss-bakkin",
+    "name": "Miss Buckingham Stussy",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Weevil",
+      "Piratas Rocks"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/c/c6/Buckingham_Stussy_Anime_Infobox.png"
+  },
+  {
+    "id": "issho-fujitora",
+    "name": "Issho (Fujitora)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 3000000000,
+    "styleOrPower": "Paramecia (Zushi Zushi no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/e/e8/Issho_Anime_Infobox.png"
+  },
+  {
+    "id": "aramaki-ryokugyu",
+    "name": "Aramaki (Ryokugyu)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 3000000000,
+    "styleOrPower": "Logia (Mori Mori no Mi)",
+    "fruitType": "Logia",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/0/05/Aramaki_Anime_Infobox.png"
+  },
+  {
+    "id": "doll",
+    "name": "Doll",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Egghead",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/9/90/Doll_Anime_Infobox.png"
+  },
+  {
+    "id": "hibari",
+    "name": "Hibari",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "SWORD"
+    ],
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Egghead",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/6/6b/Hibari_Anime_Infobox.png"
+  },
+  {
+    "id": "kujaku",
+    "name": "Kujaku",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "SWORD"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Muchi Muchi no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Egghead",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/8/84/Kujaku_Anime_Infobox.png"
+  },
+  {
+    "id": "prince-grus",
+    "name": "Prince Grus",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "SWORD"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Gunyo Gunyo no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Egghead",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/2/29/Prince_Grus_Anime_Infobox.png"
+  },
+  {
+    "id": "oimo",
+    "name": "Oimo",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Piratas Guerreiros Gigantes"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/c/c3/Oimo_Anime_Infobox.png"
+  },
+  {
+    "id": "kashi",
+    "name": "Kashi",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Piratas Guerreiros Gigantes"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/7/72/Kashii_Anime_Infobox.png"
+  },
+  {
+    "id": "peepley-lulu",
+    "name": "Peepley Lulu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Galley-La Company"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21807.jpg"
+  },
+  {
+    "id": "tilestone",
+    "name": "Tilestone",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Galley-La Company"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/b/b8/Tilestone_Anime_Infobox.png"
+  },
+  {
+    "id": "victoria-cindry",
+    "name": "Victoria Cindry",
+    "gender": "Feminino",
+    "species": "Zumbi",
+    "affiliation": [
+      "Thriller Bark"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Thriller Bark",
+    "status": "Falecida",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9656.jpg"
+  },
+  {
+    "id": "lola",
+    "name": "Lola",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Rolling",
+      "Piratas Big Mom"
+    ],
+    "haki": "Nenhum",
+    "bounty": 24000000,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Thriller Bark",
+    "status": "Viva",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/3/31/Charlotte_Lola_Anime_Pre_Timeskip_Infobox.png"
+  },
+  {
+    "id": "sommers",
+    "name": "Sommers",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Elbaf",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/5/54/Sommers_Manga_Color_Scheme.png"
+  },
+  {
+    "id": "killingham",
+    "name": "Killingham",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Novo Mundo"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Elbaf",
+    "status": "Vivo",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEueLuZSHvAOvN25m2tHvFtsyKvxqG3oIkbDr4RaWVsN5k4IFaRlw6Kb4&s=10"
+  },
+  {
+    "id": "gunko",
+    "name": "Gunko",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Elbaf"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Elbaf",
+    "status": "Viva",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5r846k9iEhPtdaCkVlKkNTd37kVng3il8lfolK7q5Qw6X3jewJ6oM9So&s=10"
+  },
+  {
+    "id": "rei-harald",
+    "name": "Rei Harald",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Elbaf",
+      "Realeza"
+    ],
+    "haki": "Conquistador, Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Elbaf",
+    "status": "Vivo",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRHKD1gcznD4QY0M3nYH5VlCzxmFVGZPIrujlwtHeUrHRi7ochvZNjgA&s=10"
+  },
+  {
+    "id": "ryuma",
+    "name": "Ryuma",
+    "gender": "Masculino",
+    "species": "Zumbi",
+    "affiliation": [
+      "Thriller Bark",
+      "País de Wano"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Thriller Bark",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net%2Fonepiece%2Fimages%2F8%2F81%2FRyuma_%2528Zumbi%2529_Anime_Infobox.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20250226005718%26path-prefix%3Dpt"
+  },
+  {
+    "id": "shirahoshi",
+    "name": "Shirahoshi",
+    "gender": "Feminino",
+    "species": "Sereia",
+    "affiliation": [
+      "Reino Ryugu",
+      "Armas Ancestrais"
+    ],
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "Ilha dos Tritões",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40273.jpg"
+  },
+  {
+    "id": "bartolomeo",
+    "name": "Bartolomeo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bart Club",
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "haki": "Nenhum",
+    "bounty": 200000000,
+    "styleOrPower": "Paramecia (Bari Bari no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85647-WfwG1ixb2qZL.png"
+  },
+  {
+    "id": "cavendish",
+    "name": "Cavendish",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Belos",
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 330000000,
+    "styleOrPower": "Hakuba",
+    "fruitType": "Nenhuma",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85649-c73lmX9J1dMq.jpg"
+  },
+  {
+    "id": "koala",
+    "name": "Koala",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Revolucionário"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Karatê Tritão",
+    "fruitType": "Nenhuma",
+    "debutArc": "Saga East Blue",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b43093-STjuKaQk68Ex.jpg"
+  },
+  {
+    "id": "pedro",
+    "name": "Pedro",
+    "gender": "Masculino",
+    "species": "Mink",
+    "affiliation": [
+      "Tribo Mink",
+      "Piratas Nox"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 382000000,
+    "styleOrPower": "Electro",
+    "fruitType": "Nenhuma",
+    "debutArc": "Zou",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126180-ud2y3PGElJDU.jpg"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "gender": "Feminino",
+    "species": "Mink",
+    "affiliation": [
+      "Tribo Mink",
+      "Duques de Mokomo"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Electro / Sulong",
+    "fruitType": "Nenhuma",
+    "debutArc": "Zou",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126179-bxjxEfrqtiuN.png"
+  },
+  {
+    "id": "kurozumi-orochi",
+    "name": "Kurozumi Orochi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Shogunato de Wano",
+      "Piratas das Feras"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Hebi Hebi no Mi, Modelo: Yamata no Orochi)",
+    "fruitType": "Zoan Mítica",
+    "debutArc": "País de Wano",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b132669-TGXODbAMwtLV.png"
+  },
+  {
+    "id": "kozuki-hiyori",
+    "name": "Kozuki Hiyori",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Kozuki",
+      "País de Wano"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhuma",
+    "debutArc": "País de Wano",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b131435-9xVeZr0tDlyP.png"
+  },
+  {
+    "id": "denjiro",
+    "name": "Denjiro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Nove Bainhas Vermelhas",
+      "Clã Kozuki"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Estilo de Duas Espadas",
+    "fruitType": "Nenhuma",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/7/7e/Denjiro_Anime_Infobox.png"
+  },
+  {
+    "id": "kikunojo",
+    "name": "Kikunojo (Kiku)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Nove Bainhas Vermelhas",
+      "Clã Kozuki"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Estilo de Espada",
+    "fruitType": "Nenhuma",
+    "debutArc": "País de Wano",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127913-fKFTGlwZA9JH.png"
+  },
+  {
+    "id": "kawamatsu",
+    "name": "Kawamatsu",
+    "gender": "Masculino",
+    "species": "Tritão",
+    "affiliation": [
+      "Nove Bainhas Vermelhas",
+      "Clã Kozuki"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Karatê Tritão / Estilo Kappa",
+    "fruitType": "Nenhuma",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128125-y2O4HRu9pPe5.jpg"
+  },
+  {
+    "id": "inuarashi",
+    "name": "Inuarashi",
+    "gender": "Masculino",
+    "species": "Mink",
+    "affiliation": [
+      "Nove Bainhas Vermelhas",
+      "Duques de Mokomo"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Electro / Sulong",
+    "fruitType": "Nenhuma",
+    "debutArc": "Zou",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126182-fyFwu3Ih1yej.jpg"
+  },
+  {
+    "id": "nekomamushi",
+    "name": "Nekomamushi",
+    "gender": "Masculino",
+    "species": "Mink",
+    "affiliation": [
+      "Nove Bainhas Vermelhas",
+      "Duques de Mokomo"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Electro / Sulong",
+    "fruitType": "Nenhuma",
+    "debutArc": "Zou",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126181-kleTMK1K9tda.jpg"
+  },
+  {
+    "id": "raizo",
+    "name": "Raizo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Nove Bainhas Vermelhas",
+      "Clã Kozuki"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Maki Maki no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Zou",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b191777-Rxyxt4tjjxfs.png"
+  },
+  {
+    "id": "ashura-doji",
+    "name": "Ashura Doji",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Nove Bainhas Vermelhas",
+      "Ladrões do Monte Atama"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Estilo de Espada",
+    "fruitType": "Nenhuma",
+    "debutArc": "País de Wano",
+    "status": "Falecido",
+    "avatar": "https://images.weserv.nl/?url=static.wikia.nocookie.net/onepiece/images/4/44/Ashura_Doji_Anime_Infobox.png"
+  },
+  {
+    "id": "magellan",
+    "name": "Magellan",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Impel Down",
+      "Governo Mundial"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Doku Doku no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Saga Marineford",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22618-ki6mxLc2f9Tm.png"
+  },
+  {
+    "id": "shiryu",
+    "name": "Shiryu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Negra",
+      "Impel Down (Ex)"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Suke Suke no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Saga Marineford",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22620-90G4LJUY2u5V.jpg"
+  },
+  {
+    "id": "jozu",
+    "name": "Jozu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Branca"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Kira Kira no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Saga East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21559.jpg"
+  },
+  {
+    "id": "vista",
+    "name": "Vista",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Branca"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Estilo de Duas Espadas",
+    "fruitType": "Nenhuma",
+    "debutArc": "Saga East Blue",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b27202-0ck7epXFLmls.jpg"
+  },
+  {
+    "id": "foxy",
+    "name": "Foxy",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Foxy"
+    ],
+    "haki": "Nenhum",
+    "bounty": 24000000,
+    "styleOrPower": "Paramecia (Noro Noro no Mi)",
+    "fruitType": "Paramecia",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/22412.jpg"
+  },
+  {
+    "id": "rebecca",
+    "name": "Rebecca",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Dressrosa",
+      "Família Riku"
+    ],
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Estilo de Espada",
+    "fruitType": "Nenhuma",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Viva",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b85651-4Xxt9NtEWjju.jpg"
+  },
+  {
+    "id": "kyros",
+    "name": "Kyros",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Dressrosa",
+      "Família Riku"
+    ],
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Espadachim",
+    "fruitType": "Nenhuma",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126109-aMp1clod63vA.jpg"
+  },
+  {
+    "id": "wyper",
+    "name": "Wyper",
+    "gender": "Masculino",
+    "species": "Shandian",
+    "affiliation": [
+      "Shandia",
+      "Guerreiros de Shandia"
+    ],
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Burn Bazooka / Dial",
+    "fruitType": "Nenhuma",
+    "debutArc": "Saga Skypiea",
+    "status": "Vivo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7644-4sCeX6T4WtTO.jpg"
+  },
+  {
+    "id": "shamrock",
+    "name": "Shamrock",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial",
+      "Cavaleiros Sagrados",
+      "Família Figarland"
+    ],
+    "haki": "Conquistador, Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Estilo de Espada",
+    "fruitType": "Nenhuma",
+    "debutArc": "Elbaf",
+    "status": "Vivo",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2RgWrP_heB3vZ5O5YPtiOM401RzNGXbw2781OBCCrxvx--YUcIxrr5xU&s=10"
+  }
+]

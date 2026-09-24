@@ -1,0 +1,1085 @@
+[
+  {
+    "id": "sung-jinwoo",
+    "name": "Sung Jinwoo",
+    "gender": "Masculino",
+    "species": "Humano / Shadow Monarch",
+    "affiliation": [
+      "Guilda Ahjin",
+      "Exército das Sombras"
+    ],
+    "rank": "Especial (Nível Nacional)",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Vivo",
+    "quote": "Surgiu do caos e da impotência. Sou Sung Jinwoo, o Caçador mais fraco.",
+    "avatar": "/avatars/solo-leveling/sung-jinwoo.png",
+    "styleOrPower": "Extração de Sombras & Velocidade"
+  },
+  {
+    "id": "cha-hae-in",
+    "name": "Cha Hae-In",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Hunters"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Portal da Guilda dos Caçadores",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/cha-hae-in.png",
+    "styleOrPower": "Esgrima de Luz"
+  },
+  {
+    "id": "go-gunhee",
+    "name": "Go Gunhee",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores da Coreia"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Prisioneiros",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/go-gunhee.png",
+    "styleOrPower": "Punho Celestial"
+  },
+  {
+    "id": "thomas-andre",
+    "name": "Thomas Andre",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Scavenger"
+    ],
+    "rank": "S-Rank (Nível Nacional)",
+    "country": "Estados Unidos",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/thomas-andre.png",
+    "styleOrPower": "Telecinese (Reinforcement)"
+  },
+  {
+    "id": "liu-zhigang",
+    "name": "Liu Zhigang",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores da China"
+    ],
+    "rank": "S-Rank (Nível Nacional)",
+    "country": "China",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/liu-zhigang.png",
+    "styleOrPower": "Esgrima de Espada Dupla"
+  },
+  {
+    "id": "lennart-niermann",
+    "name": "Lennart Niermann",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Richter"
+    ],
+    "rank": "S-Rank",
+    "country": "Alemanha",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/lennart-niermann.png",
+    "styleOrPower": "Magia Elemental"
+  },
+  {
+    "id": "christopher-reed",
+    "name": "Christopher Reed",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores dos EUA"
+    ],
+    "rank": "S-Rank (Nível Nacional)",
+    "country": "Estados Unidos",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/christopher-reed.png",
+    "styleOrPower": "Transformação de Fogo"
+  },
+  {
+    "id": "hwang-dongsoo",
+    "name": "Hwang Dongsoo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Scavenger"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Lagartos",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/hwang-dongsoo.png",
+    "styleOrPower": "Força Bruta"
+  },
+  {
+    "id": "yoo-jinho",
+    "name": "Yoo Jinho",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Ahjin"
+    ],
+    "rank": "D-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Lagartos",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/yoo-jinho.png",
+    "styleOrPower": "Defesa com Escudo"
+  },
+  {
+    "id": "lee-joohee",
+    "name": "Lee Joohee",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Independente"
+    ],
+    "rank": "B-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/lee-joohee.png",
+    "styleOrPower": "Magia de Cura"
+  },
+  {
+    "id": "choi-jong-in",
+    "name": "Choi Jong-In",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Hunters"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Prisioneiros",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/choi-jong-in.png",
+    "styleOrPower": "Magia de Fogo de Grande Escala"
+  },
+  {
+    "id": "baek-yoonho",
+    "name": "Baek Yoonho",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda White Tiger"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco do Portal Vermelho",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/baek-yoonho.png",
+    "styleOrPower": "Transformação Bestial"
+  },
+  {
+    "id": "lim-tae-gyu",
+    "name": "Lim Tae-Gyu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Reaper"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/lim-tae-gyu.png",
+    "styleOrPower": "Tiro com Arco Mágico"
+  },
+  {
+    "id": "antares",
+    "name": "Antares",
+    "gender": "Masculino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "O arco da Guerra dos Monarcas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/antares.png",
+    "styleOrPower": "Sopro da Destruição & Metamorfose"
+  },
+  {
+    "id": "legia",
+    "name": "Legia",
+    "gender": "Masculino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/legia.png",
+    "styleOrPower": "Gigantismo & Manipulação de Mana"
+  },
+  {
+    "id": "querehsha",
+    "name": "Querehsha",
+    "gender": "Feminino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "O arco da Guerra dos Monarcas",
+    "status": "Falecida",
+    "avatar": "/avatars/solo-leveling/querehsha.png",
+    "styleOrPower": "Veneno & Invocação de Insetos"
+  },
+  {
+    "id": "baran",
+    "name": "Baran",
+    "gender": "Masculino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "Retorno ao Castelo Demoníaco",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/baran.png",
+    "styleOrPower": "Relâmpago Negro & Esgrima"
+  },
+  {
+    "id": "ashborn",
+    "name": "Ashborn",
+    "gender": "Masculino",
+    "species": "Monarca das Sombras",
+    "affiliation": [
+      "Monarcas",
+      "Exército das Sombras"
+    ],
+    "rank": "Monarca",
+    "country": "Mundo dos Mortos",
+    "debutArc": "De volta à dungeon dupla",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/ashborn.png",
+    "styleOrPower": "Autoridade das Sombras & Domínio"
+  },
+  {
+    "id": "beru",
+    "name": "Beru",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "Marechal de Campo",
+    "country": "Mundo dos Mortos",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/beru.png",
+    "styleOrPower": "Absorção de Habilidades & Garras Venenosas"
+  },
+  {
+    "id": "igris",
+    "name": "Igris",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "Marechal de Campo",
+    "country": "Mundo dos Mortos",
+    "debutArc": "Mudança de Job",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/igris.png",
+    "styleOrPower": "Esgrima de Espada Grande & Telecinese"
+  },
+  {
+    "id": "kaisel",
+    "name": "Kaisel",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "General",
+    "country": "Mundo dos Mortos",
+    "debutArc": "Retorno ao Castelo Demoníaco",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/kaisel.png",
+    "styleOrPower": "Voo & Sopro Sombrio"
+  },
+  {
+    "id": "sung-ilhwan",
+    "name": "Sung Il-Hwan",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governantes"
+    ],
+    "rank": "S-Rank (Nível Nacional)",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/sung-ilhwan.png",
+    "styleOrPower": "Telecinese & Combate Corpo a Corpo"
+  },
+  {
+    "id": "park-kyung-hye",
+    "name": "Park Kyung-Hye",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Sung"
+    ],
+    "rank": "Não Caçador",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/park-kyung-hye.png",
+    "styleOrPower": "Nenhuma"
+  },
+  {
+    "id": "sung-jinah",
+    "name": "Sung Jin-Ah",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Sung"
+    ],
+    "rank": "Não Caçador",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/sung-jinah.png",
+    "styleOrPower": "Nenhuma"
+  },
+  {
+    "id": "woo-jinchul",
+    "name": "Woo Jinchul",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores da Coreia"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Prisioneiros",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/woo-jinchul.png",
+    "styleOrPower": "Combate Corpo a Corpo"
+  },
+  {
+    "id": "ahn-sangmin",
+    "name": "Ahn Sangmin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda White Tiger"
+    ],
+    "rank": "B-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco do Portal Vermelho",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/ahn-sangmin.png",
+    "styleOrPower": "Gestão de Guilda"
+  },
+  {
+    "id": "kim-sangshik",
+    "name": "Kim Sangshik",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Independente"
+    ],
+    "rank": "D-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/kim-sangshik.png",
+    "styleOrPower": "Esgrima Básica"
+  },
+  {
+    "id": "park-beomshik",
+    "name": "Park Beomshik",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Independente"
+    ],
+    "rank": "D-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/park-beomshik.png",
+    "styleOrPower": "Combate Físico"
+  },
+  {
+    "id": "min-byunggu",
+    "name": "Min Byung-Gu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Hunters"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/min-byunggu.png",
+    "styleOrPower": "Cura & Camuflagem"
+  },
+  {
+    "id": "song-chiyul",
+    "name": "Song Chi-Yul",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Independente"
+    ],
+    "rank": "C-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco da Dungeon Dupla",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/song-chiyul.png",
+    "styleOrPower": "Kumdo & Magia de Fogo"
+  },
+  {
+    "id": "ma-dongwook",
+    "name": "Ma Dongwook",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Fame"
+    ],
+    "rank": "S-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/ma-dongwook.png",
+    "styleOrPower": "Gigantismo & Defesa"
+  },
+  {
+    "id": "han-seomi",
+    "name": "Han Seomi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Fame"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/han-seomi.png",
+    "styleOrPower": "Aumento de Atributos (Buff)"
+  },
+  {
+    "id": "park-heejin",
+    "name": "Park Heejin",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda White Tiger"
+    ],
+    "rank": "B-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco do Portal Vermelho",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/park-heejin.png",
+    "styleOrPower": "Magia de Detecção"
+  },
+  {
+    "id": "kim-chul",
+    "name": "Kim Chul",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda White Tiger"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco do Portal Vermelho",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/kim-chul.png",
+    "styleOrPower": "Provocação & Escudo"
+  },
+  {
+    "id": "kang-taeshik",
+    "name": "Kang Taeshik",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores da Coreia"
+    ],
+    "rank": "B-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Prisioneiros",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/kang-taeshik.png",
+    "styleOrPower": "Ocultamento & Adaga"
+  },
+  {
+    "id": "hwang-dongseok",
+    "name": "Hwang Dongseok",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Independente"
+    ],
+    "rank": "C-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Lagartos",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/hwang-dongseok.png",
+    "styleOrPower": "Liderança & Machado"
+  },
+  {
+    "id": "lee-minsung",
+    "name": "Lee Minsung",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Reaper"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Arco de Recrutamento",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/lee-minsung.png",
+    "styleOrPower": "Combate Físico"
+  },
+  {
+    "id": "woo-jinhee",
+    "name": "Woo Jinhee",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores da Coreia"
+    ],
+    "rank": "B-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Prisioneiros",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/woo-jinhee.png",
+    "styleOrPower": "Suporte Logístico"
+  },
+  {
+    "id": "goto-ryuji",
+    "name": "Goto Ryuji",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/goto-ryuji.png",
+    "styleOrPower": "Esgrima Battojutsu"
+  },
+  {
+    "id": "kanae-tawata",
+    "name": "Kanae Tawata",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/kanae-tawata.png",
+    "styleOrPower": "Esgrima Dupla"
+  },
+  {
+    "id": "kumamoto",
+    "name": "Kumamoto",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/kumamoto.png",
+    "styleOrPower": "Fúria Bestial"
+  },
+  {
+    "id": "kenzo-tanaka",
+    "name": "Kenzo Tanaka",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores do Japão"
+    ],
+    "rank": "Não Caçador",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/kenzo-tanaka.png",
+    "styleOrPower": "Administração Política"
+  },
+  {
+    "id": "kei",
+    "name": "Kei",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/kei.png",
+    "styleOrPower": "Percepção Sensorial Aumentada"
+  },
+  {
+    "id": "minoru-hoshino",
+    "name": "Minoru Hoshino",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/minoru-hoshino.png",
+    "styleOrPower": "Defesa com Escudo"
+  },
+  {
+    "id": "reiji-sugimoto",
+    "name": "Reiji Sugimoto",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/reiji-sugimoto.png",
+    "styleOrPower": "Esgrima Samurai"
+  },
+  {
+    "id": "tatsumi-fujishima",
+    "name": "Tatsumi Fujishima",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/tatsumi-fujishima.png",
+    "styleOrPower": "Esgrima Kendo"
+  },
+  {
+    "id": "siddharth-bachchan",
+    "name": "Siddharth Bachchan",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores da Índia"
+    ],
+    "rank": "S-Rank (Nível Nacional)",
+    "country": "Índia",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/siddharth-bachchan.png",
+    "styleOrPower": "Autoridade do Governante & Força Bruta"
+  },
+  {
+    "id": "norma-selner",
+    "name": "Norma Selner",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "FBLA"
+    ],
+    "rank": "Não Caçador",
+    "country": "Estados Unidos",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/norma-selner.png",
+    "styleOrPower": "Desbloqueio de Potencial"
+  },
+  {
+    "id": "david-brennon",
+    "name": "David Brennon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "FBLA"
+    ],
+    "rank": "Não Caçador",
+    "country": "Estados Unidos",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/david-brennon.png",
+    "styleOrPower": "Diplomacia"
+  },
+  {
+    "id": "laura",
+    "name": "Laura",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Scavenger"
+    ],
+    "rank": "Não Caçador",
+    "country": "Estados Unidos",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/laura.png",
+    "styleOrPower": "Gestão de Operações"
+  },
+  {
+    "id": "sillad",
+    "name": "Sillad",
+    "gender": "Masculino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "O arco da Guerra dos Monarcas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/sillad.png",
+    "styleOrPower": "Magia de Gelo Espiritual"
+  },
+  {
+    "id": "rakan",
+    "name": "Rakan",
+    "gender": "Masculino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "O arco da Guerra dos Monarcas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/rakan.png",
+    "styleOrPower": "Garras Bestiais & Caça"
+  },
+  {
+    "id": "tarnak",
+    "name": "Tarnak",
+    "gender": "Masculino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "O arco da Guerra dos Monarcas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/tarnak.png",
+    "styleOrPower": "Armadura Inquebrável"
+  },
+  {
+    "id": "yogumunt",
+    "name": "Yogumunt",
+    "gender": "Masculino",
+    "species": "Monarca",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Monarca",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "O arco da Guerra dos Monarcas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/yogumunt.png",
+    "styleOrPower": "Magia de Transfiguração"
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "General",
+    "country": "Mundo dos Mortos",
+    "debutArc": "O arco do Portal Vermelho",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/iron.png",
+    "styleOrPower": "Provocação & Força Bruta"
+  },
+  {
+    "id": "tusk",
+    "name": "Tusk",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "General",
+    "country": "Mundo dos Mortos",
+    "debutArc": "O Portal da Guilda dos Caçadores",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/tusk.png",
+    "styleOrPower": "Magia de Fogo & Gravidade"
+  },
+  {
+    "id": "tank",
+    "name": "Tank",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "General",
+    "country": "Mundo dos Mortos",
+    "debutArc": "O arco do Portal Vermelho",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/tank.png",
+    "styleOrPower": "Investida & Fúria"
+  },
+  {
+    "id": "greed",
+    "name": "Greed",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "General",
+    "country": "Mundo dos Mortos",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/greed.png",
+    "styleOrPower": "Combate Corporal Sombrio"
+  },
+  {
+    "id": "jima",
+    "name": "Jima",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "General",
+    "country": "Mundo dos Mortos",
+    "debutArc": "O Arco de Recrutamento",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/jima.png",
+    "styleOrPower": "Tridente de Água"
+  },
+  {
+    "id": "o-arquiteto",
+    "name": "O Arquiteto",
+    "gender": "Masculino",
+    "species": "Monstro / Criador do Sistema",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Chefe de Dungeon",
+    "country": "Dimensão dos Monarcas",
+    "debutArc": "De volta à dungeon dupla",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/o-arquiteto.png",
+    "styleOrPower": "Criação de Dungeons & Autômatos"
+  },
+  {
+    "id": "kargalgan",
+    "name": "Kargalgan",
+    "gender": "Masculino",
+    "species": "Monstro (Orc)",
+    "affiliation": [
+      "Habitantes das Dungeons"
+    ],
+    "rank": "Chefe de Dungeon",
+    "country": "Dimensão de Dungeon",
+    "debutArc": "O Portal da Guilda dos Caçadores",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/kargalgan.png",
+    "styleOrPower": "Magia de Proteção & Maldições"
+  },
+  {
+    "id": "kasaka",
+    "name": "Kasaka de Presas de Veneno",
+    "gender": "Desconhecido",
+    "species": "Monstro (Serpente)",
+    "affiliation": [
+      "Habitantes das Dungeons"
+    ],
+    "rank": "Chefe de Dungeon",
+    "country": "Dimensão de Dungeon",
+    "debutArc": "Dungeon Instanciada",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/kasaka.png",
+    "styleOrPower": "Presas Venenosas & Escamas"
+  },
+  {
+    "id": "vulcan",
+    "name": "Vulcan",
+    "gender": "Masculino",
+    "species": "Monstro (Demônio)",
+    "affiliation": [
+      "Habitantes das Dungeons"
+    ],
+    "rank": "Chefe de Dungeon",
+    "country": "Dimensão de Dungeon",
+    "debutArc": "O Arco do Castelo Demoníaco",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/vulcan.png",
+    "styleOrPower": "Clava Flamejante & Fúria"
+  },
+  {
+    "id": "jonas",
+    "name": "Jonas",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação de Caçadores do Brasil"
+    ],
+    "rank": "S-Rank (Nível Nacional)",
+    "country": "Brasil",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/jonas.png",
+    "styleOrPower": "Combate Corporal Elevado"
+  },
+  {
+    "id": "yoo-soohyun",
+    "name": "Yoo Soohyun",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Ahjin"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Arco da Guilda Ahjin",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/yoo-soohyun.png",
+    "styleOrPower": "Tiro de Precisão"
+  },
+  {
+    "id": "han-song-i",
+    "name": "Han Song-I",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Independente"
+    ],
+    "rank": "E-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O arco do Portal Vermelho",
+    "status": "Viva",
+    "avatar": "/avatars/solo-leveling/han-song-i.png",
+    "styleOrPower": "Furtividade"
+  },
+  {
+    "id": "akari-shimizu",
+    "name": "Akari Shimizu",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecida",
+    "avatar": "/avatars/solo-leveling/akari-shimizu.png",
+    "styleOrPower": "Cura Divina"
+  },
+  {
+    "id": "son-ki-hoon",
+    "name": "Son Ki-Hoon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Hunters"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Portal da Guilda dos Caçadores",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/son-ki-hoon.png",
+    "styleOrPower": "Barreira de Escudo"
+  },
+  {
+    "id": "bellion",
+    "name": "Bellion",
+    "gender": "Masculino",
+    "species": "Sombra",
+    "affiliation": [
+      "Exército das Sombras"
+    ],
+    "rank": "Grande Comandante",
+    "country": "Mundo dos Mortos",
+    "debutArc": "O arco da batalha final",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/bellion.png",
+    "styleOrPower": "Chicote-Espada Centopeia & Voo"
+  },
+  {
+    "id": "kamish",
+    "name": "Kamish",
+    "gender": "Masculino",
+    "species": "Dragão",
+    "affiliation": [
+      "Monarcas"
+    ],
+    "rank": "Calamidade",
+    "country": "Dimensão de Dungeon",
+    "debutArc": "A Conferência Internacional de Guildas",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/kamish.png",
+    "styleOrPower": "Sopro de Fogo Dragônico"
+  },
+  {
+    "id": "ippongi",
+    "name": "Ippongi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Ahjin"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Arco da Guilda Ahjin",
+    "status": "Vivo",
+    "avatar": "/avatars/solo-leveling/ippongi.png",
+    "styleOrPower": "Forjamento de Armas"
+  },
+  {
+    "id": "jo-kyuhwan",
+    "name": "Jo Kyuhwan",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Independente"
+    ],
+    "rank": "C-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "Dungeons e Lagartos",
+    "status": "Falecido",
+    "avatar": "/avatars/solo-leveling/jo-kyuhwan.png",
+    "styleOrPower": "Explosão Mágica"
+  }
+]

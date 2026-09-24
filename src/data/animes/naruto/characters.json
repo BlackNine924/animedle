@@ -1,0 +1,4163 @@
+[
+  {
+    "name": "Naruto Uzumaki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uzumaki"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Terra",
+      "Água",
+      "Fogo",
+      "Raio",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Senjutsu",
+      "Fuinjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki",
+      "Kage",
+      "Reencarnação de Asura",
+      "Sábio"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Vivo",
+    "id": "naruto-uzumaki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17-phjcWCkRuIhu.png",
+    "quote": "Eu nunca vou voltar atrás na minha palavra! Esse é o meu jeito ninja!",
+    "styleOrPower": "Rasengan"
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uchiha"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Raio",
+      "Vento",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu",
+      "Genjutsu",
+      "Doujutsu",
+      "Kenjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan",
+      "Rinnegan"
+    ],
+    "attributes": [
+      "Reencarnação de Indra",
+      "Time Taka"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Vivo",
+    "id": "sasuke-uchiha",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b13-SISLEw1oAD7a.png",
+    "quote": "Meu único objetivo é a vingança.",
+    "styleOrPower": "Chidori"
+  },
+  {
+    "name": "Sakura Haruno",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Haruno"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Taijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Viva",
+    "id": "sakura-haruno",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b145-IorfpI8arxeX.png",
+    "styleOrPower": "Força Brutal da Criação"
+  },
+  {
+    "name": "Kakashi Hatake",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hatake"
+    ],
+    "natureTypes": [
+      "Raio",
+      "Terra",
+      "Água",
+      "Fogo",
+      "Vento",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu",
+      "Genjutsu",
+      "Doujutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Vivo",
+    "id": "kakashi-hatake",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b85-mkVBh2yjxjmx.png",
+    "quote": "Aqueles que abandonam suas regras são escória, mas aqueles que abandonam seus companheiros são piores que escória.",
+    "styleOrPower": "Raikiri (Raio Cortante)"
+  },
+  {
+    "name": "Hinata Hyuuga",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hyuuga"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Doujutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Viva",
+    "id": "hinata-hyuuga",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1555-Q41GLTV3FvYF.png",
+    "quote": "Eu nunca fugirei... e nunca recuarei! Esse é o meu jeito ninja!",
+    "styleOrPower": "Punho Gentil"
+  },
+  {
+    "name": "Shikamaru Nara",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Nara"
+    ],
+    "natureTypes": [
+      "Yin",
+      "Fogo",
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "shikamaru-nara",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2007-QaesJlIZDifj.jpg",
+    "quote": "Que trabalheira...",
+    "styleOrPower": "Jutsu de Imitação da Sombra"
+  },
+  {
+    "name": "Gaara",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna",
+      "Clã Kazekage"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Vento",
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Jiton"
+    ],
+    "attributes": [
+      "Jinchuuriki",
+      "Kage"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "gaara",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1662-4E5J0LX9jZKZ.png",
+    "quote": "Eu me tornei a areia que protege os que amo.",
+    "styleOrPower": "Escudo de Areia"
+  },
+  {
+    "name": "Itachi Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uchiha",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Água",
+      "Vento",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu",
+      "Doujutsu",
+      "Taijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan"
+    ],
+    "attributes": [
+      "Akatsuki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Falecido",
+    "id": "itachi-uchiha",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b14-9Kb1E5oel1ke.png",
+    "quote": "Perdoe-me, Sasuke... Isso é a última vez.",
+    "styleOrPower": "Amaterasu"
+  },
+  {
+    "name": "Kisame Hoshigaki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Água",
+      "Terra",
+      "Fogo",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kenjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Akatsuki",
+      "Espadachim da Névoa"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Falecido",
+    "id": "kisame-hoshigaki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/2672-oxbHx8n3N7WY.jpg",
+    "styleOrPower": "Samehada"
+  },
+  {
+    "name": "Jiraiya",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Terra",
+      "Água",
+      "Vento",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Senjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Sannin",
+      "Sábio"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "jiraiya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2423-RO5MyoXSA9OL.png",
+    "quote": "Não importa o quanto o mundo te machuque, continue a acreditar nas pessoas.",
+    "styleOrPower": "Rasengan"
+  },
+  {
+    "name": "Tsunade Senju",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Senju"
+    ],
+    "natureTypes": [
+      "Raio",
+      "Terra",
+      "Água",
+      "Fogo",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Taijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Sannin"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Viva",
+    "id": "tsunade-senju",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2767-r61Cj9v8I0wl.png",
+    "styleOrPower": "Cura Celestial"
+  },
+  {
+    "name": "Orochimaru",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Otogakure",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Vento",
+      "Fogo",
+      "Água",
+      "Raio",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu",
+      "Fuinjutsu",
+      "Senjutsu",
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Mokuton",
+      "Sakon e Ukon"
+    ],
+    "attributes": [
+      "Sannin",
+      "Akatsuki"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "orochimaru",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2455-V9tLMS3TIgJW.png",
+    "quote": "Ninguém pode dizer o que é certo ou errado. Isso vale até mesmo para os deuses.",
+    "styleOrPower": "Espada Kusanagi"
+  },
+  {
+    "name": "Neji Hyuuga",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hyuuga"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Água",
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Doujutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "neji-hyuuga",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1694-TL4obouDwJ7k.jpg",
+    "quote": "O destino é imutável. Por mais que lutemos, não podemos mudar nosso destino.",
+    "styleOrPower": "Palma Oito Trigramas: 64 Golpes"
+  },
+  {
+    "name": "Rock Lee",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "rock-lee",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306-oUTOO45xInXt.png",
+    "quote": "Se você não pode usar ninjutsu, então trabalhe mil vezes mais duro que todos!",
+    "styleOrPower": "Lótus das Folhas"
+  },
+  {
+    "name": "Might Guy",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "might-guy",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b307-xieUEdhdTVwQ.png",
+    "quote": "O poder da juventude vai superar tudo isso!",
+    "styleOrPower": "Lótus Noturna"
+  },
+  {
+    "name": "Pain (Nagato)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ame",
+      "Clã Uzumaki",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Doujutsu",
+      "Fuinjutsu",
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Rinnegan"
+    ],
+    "attributes": [
+      "Akatsuki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Falecido",
+    "id": "pain-nagato",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3180-ITMGBLWNBOgV.png",
+    "quote": "Você não sabe o que é a dor. Você não sabe o que é a solidão. Não me pregue lições.",
+    "styleOrPower": "Shinra Tensei"
+  },
+  {
+    "name": "Konan",
+    "gender": "Feminino",
+    "affiliation": [
+      "Ame",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Água",
+      "Terra",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Akatsuki"
+    ],
+    "debutArc": "Conto de Jiraiya, o Destemido",
+    "status": "Falecida",
+    "id": "konan",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/3179-YVD5zJSYrnPg.jpg",
+    "quote": "Jiraiya acreditou em Naruto. E eu acredito na aposta de Jiraiya.",
+    "styleOrPower": "Dança dos Shikigamis"
+  },
+  {
+    "name": "Deidara",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Bakuton"
+    ],
+    "attributes": [
+      "Akatsuki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Falecido",
+    "id": "deidara",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1902-JsEFRFwjmtZJ.png",
+    "quote": "Arte é uma explosão! Un!",
+    "styleOrPower": "Bomba de Argila C3"
+  },
+  {
+    "name": "Sasori",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kugutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Akatsuki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Falecido",
+    "id": "sasori",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1900-Dpd9wVWtlvIx.png",
+    "quote": "Arte verdadeira é eterna.",
+    "styleOrPower": "Marionete Hiruko"
+  },
+  {
+    "name": "Hidan",
+    "gender": "Masculino",
+    "affiliation": [
+      "Yugakure",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kinjutsu",
+      "Taijutsu",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Akatsuki"
+    ],
+    "debutArc": "Missão de Supressão da Akatsuki",
+    "status": "Incapacitado",
+    "id": "hidan",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2792-lyvtbiT4COp0.jpg",
+    "styleOrPower": "Maldição de Jashin"
+  },
+  {
+    "name": "Kakuzu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Takigakure",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Fogo",
+      "Vento",
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Akatsuki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Supressão da Akatsuki",
+    "status": "Falecido",
+    "id": "kakuzu",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3178-fCqs5wyV0dlJ.jpg",
+    "styleOrPower": "Máscara de Fogo Eterno"
+  },
+  {
+    "name": "Obito Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uchiha",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu",
+      "Doujutsu",
+      "Taijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan",
+      "Rinnegan",
+      "Mokuton"
+    ],
+    "attributes": [
+      "Akatsuki",
+      "Jinchuuriki"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Falecido",
+    "id": "obito-uchiha",
+    "avatar": "/avatars/naruto/obito-uchiha.png",
+    "quote": "No mundo de vocês, eu fui o Obito Uchiha. No mundo de vocês, esse era o meu nome.",
+    "styleOrPower": "Kamui"
+  },
+  {
+    "name": "Madara Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uchiha"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu",
+      "Doujutsu",
+      "Taijutsu",
+      "Senjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan",
+      "Rinnegan",
+      "Mokuton",
+      "Ranton"
+    ],
+    "attributes": [
+      "Reencarnação de Indra",
+      "Jinchuuriki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "madara-uchiha",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b53901-HnRKSoHMG5Vg.png",
+    "quote": "Desperte, Hashirama. A batalha começa agora.",
+    "styleOrPower": "Susanoo Completo"
+  },
+  {
+    "name": "Hashirama Senju",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Senju"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Yang",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Senjutsu",
+      "Taijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Mokuton"
+    ],
+    "attributes": [
+      "Kage",
+      "Reencarnação de Asura",
+      "Sábio",
+      "Edo Tensei"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Falecido",
+    "id": "hashirama-senju",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n12464-fcgqkCPZoREw.png",
+    "quote": "Quando as pessoas se machucam, elas crescem.",
+    "styleOrPower": "Golem de Madeira"
+  },
+  {
+    "name": "Zabuza Momochi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kenjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Edo Tensei"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Falecido",
+    "id": "zabuza-momochi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b728-zHw77BzLzQKT.jpg",
+    "quote": "Eu nunca tive um desejo, nenhum objetivo, nenhum sonho... Você é o único que chegou tão perto de me matar.",
+    "styleOrPower": "Névoa Homicida Silenciosa"
+  },
+  {
+    "name": "Haku",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Clã Yuki"
+    ],
+    "natureTypes": [
+      "Água",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Hyoton"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Falecido",
+    "id": "haku",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2039-9NXBvh6H15LD.png",
+    "quote": "Quando uma pessoa tem algo verdadeiramente importante a proteger, ela pode se tornar verdadeiramente forte.",
+    "styleOrPower": "Espelho de Cristal de Gelo"
+  },
+  {
+    "name": "Killer Bee",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo",
+      "Clã Yotsuki"
+    ],
+    "natureTypes": [
+      "Raio",
+      "Fogo",
+      "Água",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kenjutsu",
+      "Taijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Vivo",
+    "id": "killer-bee",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18473-AiI3mk28a1Nm.png",
+    "styleOrPower": "Espada de Sete Espadas de Biju"
+  },
+  {
+    "name": "A (Quarto Raikage)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Raio",
+      "Terra",
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "a-quarto-raikage",
+    "avatar": "https://static.wikia.nocookie.net/naruto/images/c/c2/A_Raikage.png/revision/latest?cb=20130801170243&path-prefix=pt-br",
+    "styleOrPower": "Manto de Trovão"
+  },
+  {
+    "name": "Minato Namikaze",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Namikaze"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu",
+      "Senjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Jinchuuriki",
+      "Edo Tensei",
+      "Sábio"
+    ],
+    "debutArc": "Kakashi Gaiden",
+    "status": "Falecido",
+    "id": "minato-namikaze",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2535-Xq9WKNPJQEt3.png",
+    "quote": "Eu te amo, Kushina.",
+    "styleOrPower": "Rasengan Voo de Pássaro"
+  },
+  {
+    "name": "Tobirama Senju",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Senju"
+    ],
+    "natureTypes": [
+      "Água",
+      "Terra",
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu",
+      "Kinjutsu",
+      "Fuinjutsu",
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Edo Tensei"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Falecido",
+    "id": "tobirama-senju",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n12465-y8ByDAvzC5cA.png",
+    "quote": "Os Uchiha são amaldiçoados pelo amor.",
+    "styleOrPower": "Hiraishin"
+  },
+  {
+    "name": "Hiruzen Sarutobi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Sarutobi"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Terra",
+      "Vento",
+      "Água",
+      "Raio",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu",
+      "Taijutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Edo Tensei"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Falecido",
+    "id": "hiruzen-sarutobi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n7571-fKldLuBWUtCO.png",
+    "quote": "O Professor é o título mais honrado que já recebi.",
+    "styleOrPower": "Enma Rei Macaco"
+  },
+  {
+    "name": "Rasa",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna",
+      "Clã Kazekage"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Água",
+      "Terra",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Jiton"
+    ],
+    "attributes": [
+      "Kage",
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "rasa",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22920-MZPUrxk6WQ8V.png",
+    "quote": "Gaara... você é o meu fracasso."
+  },
+  {
+    "name": "Terceiro Kazekage",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Jiton"
+    ],
+    "attributes": [
+      "Kage",
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Falecido",
+    "id": "terceiro-kazekage",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/27251.jpg"
+  },
+  {
+    "name": "Oonoki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Vento",
+      "Fogo",
+      "Raio",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Jinton"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Falecido",
+    "id": "oonoki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23475-OXJU3W3rmDQZ.png",
+    "styleOrPower": "Elemento de Poeira"
+  },
+  {
+    "name": "Mu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Vento",
+      "Fogo",
+      "Raio",
+      "Água",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Jinton"
+    ],
+    "attributes": [
+      "Kage",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "mu",
+    "avatar": "/avatars/naruto/mu.png"
+  },
+  {
+    "name": "Kurotsuchi",
+    "gender": "Feminino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Yoton"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Viva",
+    "id": "kurotsuchi",
+    "avatar": "/avatars/naruto/kurotsuchi.png"
+  },
+  {
+    "name": "Terceiro Raikage",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Raio",
+      "Terra",
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "terceiro-raikage",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/65133.jpg"
+  },
+  {
+    "name": "Darui",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Raio",
+      "Água",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Ranton"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "darui",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23476-f71q8pESrKjk.png"
+  },
+  {
+    "name": "Mei Terumi",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kiri",
+      "Clã Terumi"
+    ],
+    "natureTypes": [
+      "Água",
+      "Fogo",
+      "Terra",
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Yoton",
+      "Futton"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Viva",
+    "id": "mei-terumi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23478-U7n8YUe2gFDW.png",
+    "styleOrPower": "Técnica de Vapor Fervente"
+  },
+  {
+    "name": "Yagura Karatachi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Clã Karatachi"
+    ],
+    "natureTypes": [
+      "Água",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Jinchuuriki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Falecido",
+    "id": "yagura-karatachi",
+    "avatar": "/avatars/naruto/yagura-karatachi.png"
+  },
+  {
+    "name": "Gengetsu Hozuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Clã Hozuki"
+    ],
+    "natureTypes": [
+      "Água",
+      "Fogo",
+      "Terra",
+      "Raio",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "gengetsu-hozuki",
+    "avatar": "/avatars/naruto/gengetsu-hozuki.png"
+  },
+  {
+    "name": "Chojuro",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage",
+      "Espadachim da Névoa"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "chojuro",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23418.jpg"
+  },
+  {
+    "name": "Mangetsu Hozuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Clã Hozuki"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "mangetsu-hozuki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62775.jpg"
+  },
+  {
+    "name": "Fuguki Suikazan",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "fuguki-suikazan",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40785.jpg"
+  },
+  {
+    "name": "Ameyuri Ringo",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecida",
+    "id": "ameyuri-ringo",
+    "avatar": "/avatars/naruto/ameyuri-ringo.png"
+  },
+  {
+    "name": "Jinpachi Munashi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Kibaku"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "jinpachi-munashi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64457.jpg"
+  },
+  {
+    "name": "Jinin Akebino",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "jinin-akebino",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64461.jpg"
+  },
+  {
+    "name": "Kushimaru Kuriarare",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "kushimaru-kuriarare",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64455.jpg"
+  },
+  {
+    "name": "Ino Yamanaka",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Yamanaka"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Ninjutsu Médico"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Viva",
+    "id": "ino-yamanaka",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2009-H7n38Ns1fr0Y.jpg"
+  },
+  {
+    "name": "Chouji Akimichi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Akimichi"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Terra",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "chouji-akimichi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2008-j1oCafEGZucg.png"
+  },
+  {
+    "name": "Asuma Sarutobi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Sarutobi"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "asuma-sarutobi",
+    "avatar": "/avatars/naruto/asuma-sarutobi.png",
+    "quote": "Os jovens são os reis do tabuleiro de shogi.",
+    "styleOrPower": "Aumento de Chakra de Fogo"
+  },
+  {
+    "name": "Kiba Inuzuka",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Inuzuka"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "kiba-inuzuka",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3495-dtw0gHa5SOo6.png"
+  },
+  {
+    "name": "Shino Aburame",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Aburame"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Fogo",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "shino-aburame",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3428-KVeHMgx0xMqO.png"
+  },
+  {
+    "name": "Kurenai Yuhi",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Sarutobi"
+    ],
+    "natureTypes": [
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Genjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Viva",
+    "id": "kurenai-yuhi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4773-mfDggINe9pMD.png"
+  },
+  {
+    "name": "Tenten",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Bukijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Viva",
+    "id": "tenten",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3710-OmDNYKi0Xfjk.png"
+  },
+  {
+    "name": "Sai",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Yamanaka"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Fogo",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kenjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Missão de Reconhecimento",
+    "status": "Vivo",
+    "id": "sai",
+    "avatar": "/avatars/naruto/sai.png",
+    "quote": "Emoções... são algo que ainda estou aprendendo.",
+    "styleOrPower": "Criação de Bestas de Tinta"
+  },
+  {
+    "name": "Yamato",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Mokuton"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Missão de Reconhecimento",
+    "status": "Vivo",
+    "id": "yamato",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2006-FTCz2Eu3cXsI.png",
+    "styleOrPower": "Técnica de Estilo de Madeira"
+  },
+  {
+    "name": "Iruka Umino",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Água",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Vivo",
+    "id": "iruka-umino",
+    "avatar": "/avatars/naruto/iruka-umino.png",
+    "quote": "Naruto! Eu sempre serei o seu professor!"
+  },
+  {
+    "name": "Konohamaru Sarutobi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Sarutobi"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Vivo",
+    "id": "konohamaru-sarutobi",
+    "avatar": "/avatars/naruto/konohamaru-sarutobi.png",
+    "quote": "Eu serei Hokage um dia, dattebasa!"
+  },
+  {
+    "name": "Shisui Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uchiha"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu",
+      "Taijutsu",
+      "Doujutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Falecido",
+    "id": "shisui-uchiha",
+    "avatar": "/avatars/naruto/shisui-uchiha.png",
+    "quote": "Eu daria meus olhos por Konoha.",
+    "styleOrPower": "Corpo Substituto de Carvão"
+  },
+  {
+    "name": "Kankuro",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna",
+      "Clã Kazekage"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Terra",
+      "Água",
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Kugutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "kankuro",
+    "avatar": "/avatars/naruto/kankuro.png"
+  },
+  {
+    "name": "Temari",
+    "gender": "Feminino",
+    "affiliation": [
+      "Suna",
+      "Clã Kazekage"
+    ],
+    "natureTypes": [
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Viva",
+    "id": "temari",
+    "avatar": "/avatars/naruto/temari.png"
+  },
+  {
+    "name": "Chiyo",
+    "gender": "Feminino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kugutsu",
+      "Ninjutsu Médico",
+      "Kinjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Falecida",
+    "id": "chiyo",
+    "avatar": "/avatars/naruto/chiyo.png",
+    "styleOrPower": "Técnica de Marionetes Humanas"
+  },
+  {
+    "name": "Suigetsu Hozuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Clã Hozuki",
+      "Time Taka"
+    ],
+    "natureTypes": [
+      "Água",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Time Taka"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Vivo",
+    "id": "suigetsu-hozuki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/1903.jpg",
+    "quote": "Preciso daquelas espadas...",
+    "styleOrPower": "Técnica de Liquefeito"
+  },
+  {
+    "name": "Karin Uzumaki",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kusa",
+      "Clã Uzumaki",
+      "Time Taka"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Fuinjutsu",
+      "Kagura Shingan"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Time Taka"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Viva",
+    "id": "karin-uzumaki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3151-HDcp9mHbUvS7.png",
+    "styleOrPower": "Cura pela Mordida"
+  },
+  {
+    "name": "Jugo",
+    "gender": "Masculino",
+    "affiliation": [
+      "Time Taka",
+      "Clã Jugo"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Vento",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu",
+      "Senjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Time Taka"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Vivo",
+    "id": "jugo",
+    "avatar": "/avatars/naruto/jugo.png"
+  },
+  {
+    "name": "Kaguya Otsutsuki",
+    "gender": "Feminino",
+    "affiliation": [
+      "Clã Otsutsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Doujutsu",
+      "Ninjutsu",
+      "Taijutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan",
+      "Rinne Sharingan",
+      "Shikotsumyaku"
+    ],
+    "attributes": [
+      "Jinchuuriki"
+    ],
+    "debutArc": "Ataque de Kaguya Otsutsuki",
+    "status": "Incapacitada",
+    "id": "kaguya-otsutsuki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126069-CYxn8C4AHwiD.png",
+    "quote": "Tudo isso é meu.",
+    "styleOrPower": "Palma Todo-Matadora"
+  },
+  {
+    "name": "Hagoromo Otsutsuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Otsutsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Doujutsu",
+      "Ninjutsu",
+      "Senjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan",
+      "Rinnegan"
+    ],
+    "attributes": [
+      "Sábio",
+      "Jinchuuriki"
+    ],
+    "debutArc": "Nascimento do Jinchuuriki",
+    "status": "Falecido",
+    "id": "hagoromo-otsutsuki",
+    "avatar": "/avatars/naruto/hagoromo-otsutsuki.png",
+    "quote": "O amor é o que nos conecta.",
+    "styleOrPower": "Seis Caminhos"
+  },
+  {
+    "name": "Hamura Otsutsuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Otsutsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Doujutsu",
+      "Ninjutsu",
+      "Senjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan",
+      "Tenseigan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Ataque de Kaguya Otsutsuki",
+    "status": "Falecido",
+    "id": "hamura-otsutsuki",
+    "avatar": "/avatars/naruto/hamura-otsutsuki.png"
+  },
+  {
+    "name": "Indra Otsutsuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Otsutsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Raio",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Doujutsu",
+      "Ninjutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Ataque de Kaguya Otsutsuki",
+    "status": "Falecido",
+    "id": "indra-otsutsuki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b197843-kUcrXaFGesMU.jpg"
+  },
+  {
+    "name": "Asura Otsutsuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Otsutsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Terra",
+      "Água",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Senjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Mokuton"
+    ],
+    "attributes": [
+      "Sábio"
+    ],
+    "debutArc": "Ataque de Kaguya Otsutsuki",
+    "status": "Falecido",
+    "id": "asura-otsutsuki",
+    "avatar": "/avatars/naruto/asura-otsutsuki.png"
+  },
+  {
+    "name": "Kabuto Yakushi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Otogakure",
+      "Konoha (Ex)"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Vento",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Senjutsu",
+      "Kinjutsu",
+      "Edo Tensei",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sakon e Ukon",
+      "Shikotsumyaku"
+    ],
+    "attributes": [
+      "Sábio"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "kabuto-yakushi",
+    "avatar": "/avatars/naruto/kabuto-yakushi.png",
+    "quote": "Eu não tenho rosto. Eu sempre imitei os outros. Não sei quem sou.",
+    "styleOrPower": "Ressurreição pelo Impuro Mundo"
+  },
+  {
+    "name": "Kimimaro",
+    "gender": "Masculino",
+    "affiliation": [
+      "Otogakure",
+      "Clã Kaguya"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Shikotsumyaku"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Resgate de Sasuke",
+    "status": "Falecido",
+    "id": "kimimaro",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3438-h1fxTDdwew0h.png",
+    "quote": "Eu vivo apenas para servir ao Senhor Orochimaru.",
+    "styleOrPower": "Dança das Sementes"
+  },
+  {
+    "name": "Danzo Shimura",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Shimura"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Terra",
+      "Água",
+      "Fogo",
+      "Yin",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Doujutsu",
+      "Fuinjutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mokuton"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Missão de Reconhecimento",
+    "status": "Falecido",
+    "id": "danzo-shimura",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23424-JKRQwUL4qSWN.png",
+    "quote": "Eu carrego nas minhas costas o peso das sombras de Konoha.",
+    "styleOrPower": "Izanagi"
+  },
+  {
+    "name": "Yugito Nii",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Supressão da Akatsuki",
+    "status": "Falecida",
+    "id": "yugito-nii",
+    "avatar": "/avatars/naruto/yugito-nii.png"
+  },
+  {
+    "name": "Roshi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Yoton"
+    ],
+    "attributes": [
+      "Jinchuuriki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Falecido",
+    "id": "roshi",
+    "avatar": "/avatars/naruto/roshi.png"
+  },
+  {
+    "name": "Han",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Água",
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Futton"
+    ],
+    "attributes": [
+      "Jinchuuriki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "han",
+    "avatar": "/avatars/naruto/han.png"
+  },
+  {
+    "name": "Utakata",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Ataque de Pain",
+    "status": "Falecido",
+    "id": "utakata",
+    "avatar": "/avatars/naruto/utakata.png"
+  },
+  {
+    "name": "Fuu",
+    "gender": "Feminino",
+    "affiliation": [
+      "Takigakure"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecida",
+    "id": "fuu",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23220.jpg"
+  },
+  {
+    "name": "C",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Raio",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "c",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23477.jpg"
+  },
+  {
+    "name": "Mabui",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Falecida",
+    "id": "mabui",
+    "avatar": "/avatars/naruto/mabui.png"
+  },
+  {
+    "name": "Omoi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "omoi",
+    "avatar": "/avatars/naruto/omoi.png"
+  },
+  {
+    "name": "Karui",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Viva",
+    "id": "karui",
+    "avatar": "/avatars/naruto/karui.png"
+  },
+  {
+    "name": "Samui",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Viva",
+    "id": "samui",
+    "avatar": "/avatars/naruto/samui.png"
+  },
+  {
+    "name": "Dodai",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Yoton"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Vivo",
+    "id": "dodai",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/77437.jpg"
+  },
+  {
+    "name": "Ao",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Doujutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "ao",
+    "avatar": "/avatars/naruto/ao.png"
+  },
+  {
+    "name": "Akatsuchi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "akatsuchi",
+    "avatar": "/avatars/naruto/akatsuchi.png"
+  },
+  {
+    "name": "Kitsuchi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "kitsuchi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62641.jpg"
+  },
+  {
+    "name": "Shizune",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Viva",
+    "id": "shizune",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4643-tnv8Gc4Uvvui.png",
+    "styleOrPower": "Antídoto para Veneno"
+  },
+  {
+    "name": "Anko Mitarashi",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Viva",
+    "id": "anko-mitarashi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b809-FhWTN0LFVzRa.png",
+    "styleOrPower": "Espada Serpentina"
+  },
+  {
+    "name": "Ibiki Morino",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Genjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "ibiki-morino",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22923-oevCrDnszrEa.png"
+  },
+  {
+    "name": "Genma Shiranui",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "genma-shiranui",
+    "avatar": "/avatars/naruto/genma-shiranui.png"
+  },
+  {
+    "name": "Hayate Gekko",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "hayate-gekko",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n7738-jp6LVMZ3nwXR.png"
+  },
+  {
+    "name": "Izumo Kamizuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "izumo-kamizuki",
+    "avatar": "/avatars/naruto/izumo-kamizuki.png"
+  },
+  {
+    "name": "Kotetsu Hagane",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Bukijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "kotetsu-hagane",
+    "avatar": "/avatars/naruto/kotetsu-hagane.png"
+  },
+  {
+    "name": "Ebisu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Vivo",
+    "id": "ebisu",
+    "avatar": "/avatars/naruto/ebisu.png"
+  },
+  {
+    "name": "Aoba Yamashiro",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Genjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "aoba-yamashiro",
+    "avatar": "/avatars/naruto/aoba-yamashiro.png"
+  },
+  {
+    "name": "Raido Namiashi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "raido-namiashi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/17298.jpg"
+  },
+  {
+    "name": "Kushina Uzumaki",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uzumaki"
+    ],
+    "natureTypes": [
+      "Água",
+      "Vento",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Fuinjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki"
+    ],
+    "debutArc": "Conto de Jiraiya, o Destemido",
+    "status": "Falecida",
+    "id": "kushina-uzumaki",
+    "avatar": "/avatars/naruto/kushina-uzumaki.png",
+    "quote": "Não perca a fé em si mesmo, Naruto. Não desista do sonho de se tornar Hokage."
+  },
+  {
+    "name": "Shikaku Nara",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Nara"
+    ],
+    "natureTypes": [
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Falecido",
+    "id": "shikaku-nara",
+    "avatar": "/avatars/naruto/shikaku-nara.png"
+  },
+  {
+    "name": "Inoichi Yamanaka",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Yamanaka"
+    ],
+    "natureTypes": [
+      "Yin",
+      "Água",
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Falecido",
+    "id": "inoichi-yamanaka",
+    "avatar": "/avatars/naruto/inoichi-yamanaka.png"
+  },
+  {
+    "name": "Choza Akimichi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Akimichi"
+    ],
+    "natureTypes": [
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Vivo",
+    "id": "choza-akimichi",
+    "avatar": "/avatars/naruto/choza-akimichi.png"
+  },
+  {
+    "name": "Hiashi Hyuuga",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hyuuga"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Doujutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "hiashi-hyuuga",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15039-V0DzTR1IPkBb.png"
+  },
+  {
+    "name": "Hizashi Hyuuga",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hyuuga"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Doujutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "hizashi-hyuuga",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22880-zetfiUvZtS7v.png"
+  },
+  {
+    "name": "Fugaku Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uchiha"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Doujutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Falecido",
+    "id": "fugaku-uchiha",
+    "avatar": "/avatars/naruto/fugaku-uchiha.png",
+    "quote": "Sasuke, você deve proteger a honra do nosso clã."
+  },
+  {
+    "name": "Mikoto Uchiha",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uchiha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Falecida",
+    "id": "mikoto-uchiha",
+    "avatar": "/avatars/naruto/mikoto-uchiha.png"
+  },
+  {
+    "name": "Sakumo Hatake",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hatake"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Kakashi Gaiden",
+    "status": "Falecido",
+    "id": "sakumo-hatake",
+    "avatar": "/avatars/naruto/sakumo-hatake.png"
+  },
+  {
+    "name": "Rin Nohara",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Água",
+      "Fogo",
+      "Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki"
+    ],
+    "debutArc": "Kakashi Gaiden",
+    "status": "Falecida",
+    "id": "rin-nohara",
+    "avatar": "/avatars/naruto/rin-nohara.png"
+  },
+  {
+    "name": "Jirobo",
+    "gender": "Masculino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "jirobo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8495-i2hdXDIiMbhn.png"
+  },
+  {
+    "name": "Kidomaru",
+    "gender": "Masculino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "kidomaru",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/8497.jpg"
+  },
+  {
+    "name": "Tayuya",
+    "gender": "Feminino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Genjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecida",
+    "id": "tayuya",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3052-1V7iclO45tia.png"
+  },
+  {
+    "name": "Sakon e Ukon",
+    "gender": "Masculino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sakon e Ukon"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "sakon-e-ukon",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8760-q4mTvHasjDud.png"
+  },
+  {
+    "name": "Guren",
+    "gender": "Feminino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Shoton"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Aparição do Três-Caudas",
+    "status": "Viva",
+    "id": "guren",
+    "avatar": "/avatars/naruto/guren.png"
+  },
+  {
+    "name": "Zetsu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água",
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Yang",
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Mokuton"
+    ],
+    "attributes": [
+      "Akatsuki"
+    ],
+    "debutArc": "Missão de Resgate de Sasuke",
+    "status": "Falecido",
+    "id": "zetsu-branco",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/3150.jpg"
+  },
+  {
+    "name": "Yahiko",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ame",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Água",
+      "Fogo",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Akatsuki"
+    ],
+    "debutArc": "Conto de Jiraiya, o Destemido",
+    "status": "Falecido",
+    "id": "yahiko",
+    "avatar": "/avatars/naruto/yahiko.png",
+    "quote": "Enquanto o conceito de vencedor existir, haverá perdedores."
+  },
+  {
+    "name": "Mizuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Vivo",
+    "id": "mizuki",
+    "avatar": "/avatars/naruto/mizuki.png"
+  },
+  {
+    "name": "Gamabunta",
+    "gender": "Masculino",
+    "affiliation": [
+      "Monte Myoboku"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "gamabunta",
+    "avatar": "/avatars/naruto/gamabunta.png"
+  },
+  {
+    "name": "Gamakichi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Monte Myoboku"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Senjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Vivo",
+    "id": "gamakichi",
+    "avatar": "/avatars/naruto/gamakichi.png"
+  },
+  {
+    "name": "Fukasaku",
+    "gender": "Masculino",
+    "affiliation": [
+      "Monte Myoboku"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Senjutsu",
+      "Ninjutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Sábio",
+      "Invocação"
+    ],
+    "debutArc": "Conto de Jiraiya, o Destemido",
+    "status": "Vivo",
+    "id": "fukasaku",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/24486.jpg"
+  },
+  {
+    "name": "Shima",
+    "gender": "Feminino",
+    "affiliation": [
+      "Monte Myoboku"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Senjutsu",
+      "Ninjutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Sábio",
+      "Invocação"
+    ],
+    "debutArc": "Conto de Jiraiya, o Destemido",
+    "status": "Viva",
+    "id": "shima",
+    "avatar": "/avatars/naruto/shima.png"
+  },
+  {
+    "name": "Manda",
+    "gender": "Masculino",
+    "affiliation": [
+      "Caverna Ryuchi"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Falecido",
+    "id": "manda",
+    "avatar": "/avatars/naruto/manda.png"
+  },
+  {
+    "name": "Aoda",
+    "gender": "Masculino",
+    "affiliation": [
+      "Caverna Ryuchi"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Vivo",
+    "id": "aoda",
+    "avatar": "/avatars/naruto/aoda.png"
+  },
+  {
+    "name": "Katsuyu",
+    "gender": "Feminino",
+    "affiliation": [
+      "Floresta Shikkotsu"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Viva",
+    "id": "katsuyu",
+    "avatar": "/avatars/naruto/katsuyu.png"
+  },
+  {
+    "name": "Kamatari",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Missão de Resgate de Sasuke",
+    "status": "Vivo",
+    "id": "kamatari",
+    "avatar": "/avatars/naruto/kamatari.png"
+  },
+  {
+    "name": "Ibuse",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ame"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Conto de Jiraiya, o Destemido",
+    "status": "Falecido",
+    "id": "ibuse",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTThT-hL-6SCiQuQbqJUAtUASKKx_oaODGEQTl-n4F1nhax9W5VdFlYcJM&s=10"
+  },
+  {
+    "name": "Baku",
+    "gender": "Masculino",
+    "affiliation": [
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Vivo",
+    "id": "baku",
+    "avatar": "/avatars/naruto/baku.png"
+  },
+  {
+    "name": "Enma",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Vivo",
+    "id": "enma",
+    "avatar": "/avatars/naruto/enma.png"
+  },
+  {
+    "name": "Akamaru",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Inuzuka"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "akamaru",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4799-gwSQJlSqWnST.png"
+  },
+  {
+    "name": "Dosu Kinuta",
+    "gender": "Masculino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "dosu-kinuta",
+    "avatar": "/avatars/naruto/dosu-kinuta.png"
+  },
+  {
+    "name": "Zaku Abumi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "zaku-abumi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8997-rKFqlm35weig.png"
+  },
+  {
+    "name": "Kin Tsuchi",
+    "gender": "Feminino",
+    "affiliation": [
+      "Otogakure"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Genjutsu",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecida",
+    "id": "kin-tsuchi",
+    "avatar": "https://static.wikia.nocookie.net/naruto/images/7/76/Kin1.png/revision/latest?cb=20130104112346&path-prefix=pt-br"
+  },
+  {
+    "name": "Baki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "id": "baki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15081-Lu1emOxDIBl3.png"
+  },
+  {
+    "name": "Maki",
+    "gender": "Feminino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Fuinjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Viva",
+    "id": "maki",
+    "avatar": "/avatars/naruto/maki.png"
+  },
+  {
+    "name": "Yashamaru",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu Médico",
+      "Bukijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Falecido",
+    "id": "yashamaru",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n13017-dAkTOY5P6jMs.png"
+  },
+  {
+    "name": "Pakura",
+    "gender": "Feminino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Shakuton"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecida",
+    "id": "pakura",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/63791.jpg"
+  },
+  {
+    "name": "Izuna Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Uchiha"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Doujutsu",
+      "Kenjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan",
+      "Mangekyou Sharingan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "izuna-uchiha",
+    "avatar": "/avatars/naruto/izuna-uchiha.png"
+  },
+  {
+    "name": "Tajima Uchiha",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Uchiha"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Sharingan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "tajima-uchiha",
+    "avatar": "/avatars/naruto/tajima-uchiha.png"
+  },
+  {
+    "name": "Butsuma Senju",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Senju"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "butsuma-senju",
+    "avatar": "/avatars/naruto/butsuma-senju.png"
+  },
+  {
+    "name": "Nawaki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Senju"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Falecido",
+    "id": "nawaki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22884-JFSLDfwpdakg.png"
+  },
+  {
+    "name": "Dan Kato",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Yin"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Falecido",
+    "id": "dan-kato",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22876-k5juKBlTHdBu.png"
+  },
+  {
+    "name": "Mito Uzumaki",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Uzumaki"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Fuinjutsu",
+      "Kagura Shingan"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki"
+    ],
+    "debutArc": "Nascimento do Jinchuuriki",
+    "status": "Falecida",
+    "id": "mito-uzumaki",
+    "avatar": "/avatars/naruto/mito-uzumaki.png",
+    "quote": "O amor é o que contém a besta."
+  },
+  {
+    "name": "Reto",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "reto",
+    "avatar": "/avatars/naruto/reto.png"
+  },
+  {
+    "name": "Byakuren",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "byakuren",
+    "avatar": "/avatars/naruto/byakuren.png"
+  },
+  {
+    "name": "Ishikawa",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "ishikawa",
+    "avatar": "/avatars/naruto/ishikawa.png"
+  },
+  {
+    "name": "A (Primeiro Raikage)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Kage"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "a-primeiro-raikage",
+    "avatar": "/avatars/naruto/a-primeiro-raikage.png"
+  },
+  {
+    "name": "Gari",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa"
+    ],
+    "natureTypes": [
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Bakuton"
+    ],
+    "attributes": [
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "id": "gari",
+    "avatar": "/avatars/naruto/gari.png"
+  },
+  {
+    "name": "Juzo Biwa",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Akatsuki"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Espadachim da Névoa",
+      "Akatsuki"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Falecido",
+    "id": "juzo-biwa",
+    "avatar": "https://i.pinimg.com/736x/c8/ad/13/c8ad13054626abff0346d0073879d4ac.jpg"
+  },
+  {
+    "name": "Gozu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Bukijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Falecido",
+    "id": "gozu",
+    "avatar": "/avatars/naruto/gozu.png"
+  },
+  {
+    "name": "Meizu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Bukijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "País das Ondas",
+    "status": "Falecido",
+    "id": "meizu",
+    "avatar": "/avatars/naruto/meizu.png"
+  },
+  {
+    "name": "Toneri Otsutsuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Clã Otsutsuki"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Doujutsu",
+      "Ninjutsu",
+      "Senjutsu",
+      "Kugutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan",
+      "Tenseigan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "The Last",
+    "status": "Incapacitado",
+    "id": "toneri-otsutsuki",
+    "avatar": "/avatars/naruto/toneri-otsutsuki.png"
+  },
+  {
+    "id": "kinkaku",
+    "name": "Kinkaku",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Raio",
+      "Vento",
+      "Terra",
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki Parcial",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "avatar": "https://static.wikia.nocookie.net/naruto/images/5/52/Kinkaku.png/revision/latest/scale-to-width-down/1200?cb=20140803233758&path-prefix=pt-br"
+  },
+  {
+    "id": "ginkaku",
+    "name": "Ginkaku",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Raio",
+      "Vento",
+      "Terra",
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Jinchuuriki Parcial",
+      "Edo Tensei"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Falecido",
+    "avatar": "https://static.wikia.nocookie.net/naruto/images/a/a9/Ginkaku.png/revision/latest?cb=20140803234450&path-prefix=pt-br"
+  }
+]

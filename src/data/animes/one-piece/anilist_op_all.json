@@ -1,0 +1,902 @@
+[
+  {
+    "aniId": 40,
+    "name": "Luffy Monkey",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b40-MNypXsxSRb1R.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 61,
+    "name": "Robin Nico",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b61-ywXUyyocEEqt.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 62,
+    "name": "Zoro Roronoa",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b62-S7oAeA9WInjV.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 64,
+    "name": "Franky",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/n64-ChX6ZzHHjXqA.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 305,
+    "name": "Sanji",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b305-6lisPmHtCnLT.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 309,
+    "name": "Chopper Tony Tony",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b309-H64NhbJ2ywIQ.jpg",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 723,
+    "name": "Nami",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b723-vp5hPptgnNEC.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 724,
+    "name": "Usopp",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b724-GFGgI9AJQkfy.jpg",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 5627,
+    "name": "Brook",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5627-av8oD3zhKvDl.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 18938,
+    "name": "Jinbe",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18938-yZANEfjsVhW4.png",
+    "role": "MAIN"
+  },
+  {
+    "aniId": 725,
+    "name": "Buggy",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/n725-g04AaiaK5f9B.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 726,
+    "name": "Vivi Nefertari",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b726-DqAIpscMuYYx.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 727,
+    "name": "Shanks",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b727-wUJx7M1z5xON.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 1541,
+    "name": "Enel",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b1541-6c8RouunoL88.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2064,
+    "name": "Dracule Mihawk",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/n2064-OpnF4nLi6bvL.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2072,
+    "name": "Ace Portgas",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2072-Lc6jEdsueJUK.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2519,
+    "name": "Kuro",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2519-OfgRt6mP6Ae8.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2748,
+    "name": "Bellamy",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2748-vnCKira7yjrp.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2749,
+    "name": "Crocodile",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2749-e8ebEBN1SlS2.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2750,
+    "name": "Tashigi",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2750-j3Rf9SC37ehT.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2751,
+    "name": "Newgate Edward",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2751-NnzW0N2vCTjX.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2752,
+    "name": "Kuzan",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2752-0ENS2a39muDz.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2753,
+    "name": "Smoker",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2753-Y2ja8Pl6PRs0.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 2754,
+    "name": "Doflamingo Donquixote",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b2754-B4gGSlNYgsyh.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 3331,
+    "name": "Teach Marshall",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3331-7ZJDc4BNv9Yp.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 3879,
+    "name": "Galdino",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b3879-wxKVpYpup7ji.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4393,
+    "name": "Kureha",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4393-1ljQxAeV20kB.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4784,
+    "name": "Kumadori",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4784-N2iuEYijo01x.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4875,
+    "name": "Bentham",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/n4875-Ga2TVjP70R6r.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4882,
+    "name": "Ben Beckman",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4882-2zsLPjqUeOJ4.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4883,
+    "name": "Roger Gold",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4883-0t76xH00sehO.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4884,
+    "name": "Dragon",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4884-iBn6FzQ2ESLC.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4885,
+    "name": "Lucky Roux",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4885-wabOwg3GFpfK.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4886,
+    "name": "Jango",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4886-QwqBEUBwKgIr.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4887,
+    "name": "Arlong",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4887-hMOqSSpR5jFc.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4888,
+    "name": "Nojiko",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4888-ZVkyNRqxa3it.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4889,
+    "name": "Hatchan",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/4889.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4890,
+    "name": "Bellemere",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/4890.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4891,
+    "name": "Chew",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4891-y8cWYU2t7tcu.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4892,
+    "name": "Genzo",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4892-bM6VwMu2rfxC.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4893,
+    "name": "Johnny",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/4893.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4894,
+    "name": "Yosaku",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/4894.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4895,
+    "name": "Kuroobi",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4895-REV7XgeR7nRd.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4896,
+    "name": "Mohji",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/4896.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4897,
+    "name": "Cabaji",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4897-3dFXuF1vcLJQ.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4898,
+    "name": "Richie",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/4898.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 4899,
+    "name": "Alvida",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b4899-bFPCVRWyqMtO.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5412,
+    "name": "Apis",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/5412.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5413,
+    "name": "Laboon",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5413-4j9gPyHIiYim.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5414,
+    "name": "Mr. 9",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5414-IfHwRSA9UURj.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5415,
+    "name": "Igaram",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5415-pIQGogXQgOLf.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5416,
+    "name": "Miss Monday",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5416-XTIxwcMXy0Nj.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5417,
+    "name": "Mikita",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5417-Zv0W82y0lrae.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5418,
+    "name": "Gem",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5418-5HdgBfpTAWRm.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5419,
+    "name": "Marianne",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5419-08ykKbUsGNCf.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5420,
+    "name": "Dorry",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/5420.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5421,
+    "name": "Brogy",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/5421.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5422,
+    "name": "Wapol",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5422-QfzPleyyng7n.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5423,
+    "name": "Dalton",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5423-n38TDrDIqKs6.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5677,
+    "name": "Lucci Rob",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5677-ZrZunVe7Kq5P.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5750,
+    "name": "Iceburg",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5750-Li0UhhHyfGtL.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 5910,
+    "name": "Kalifa",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b5910-Ec5mCnChAdBT.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 6183,
+    "name": "Kaku",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6183-gmHoUzp8Eh8E.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 6496,
+    "name": "Chimney",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6496-WBa6DFzRcZSe.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 6551,
+    "name": "Spandam",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6551-szpvKXmtWqGX.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 6865,
+    "name": "Pandaman",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b6865-TEBUW6wv13NH.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 7400,
+    "name": "Don Achino",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/7400.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 7453,
+    "name": "Kuma Bartholomew",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7453-c3MArieFBs9w.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 7454,
+    "name": "Moria Gecko",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7454-WN77wNFvGtp8.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 7455,
+    "name": "Doctor Hogback",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/7455.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 7467,
+    "name": "Perona",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7467-0xxnaxQGfhkY.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 7644,
+    "name": "Wiper",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b7644-4sCeX6T4WtTO.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 8064,
+    "name": "Garp",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8064-dPltKaZ8RAsj.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 8503,
+    "name": "Paulie",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b8503-UxUPQK83zl5L.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9098,
+    "name": "Pell",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9098-gsUJ1Zx5tYnA.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9320,
+    "name": "Krieg Don",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9320-lHsw9jNk5889.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9321,
+    "name": "Gin",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/9321.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9322,
+    "name": "Carne",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/9322.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9323,
+    "name": "Marco",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9323-tGArly93xBZv.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9324,
+    "name": "Burgess Jesus",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9324-ZmlGx1pxRtYP.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9325,
+    "name": "Augur Van",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9325-Ev3MbRVNYXIt.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9326,
+    "name": "Q Doc",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9326-TG3CYbA4Q33y.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9327,
+    "name": "Lafitte",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9327-LSoZrnwtFNDE.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9333,
+    "name": "Morgan",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9333-hMdvqj4LuuLn.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9344,
+    "name": "Cobra Nefertari",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9344-20tLwZwAXTX0.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9561,
+    "name": "Oars",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9561-twRfrPFISYhB.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9562,
+    "name": "Yasopp",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b9562-spNkmlnOZf7C.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9655,
+    "name": "Absalom",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/9655.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9656,
+    "name": "Cindry Victoria",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/9656.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 9880,
+    "name": "Kaya",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/9880.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 10101,
+    "name": "Keimi",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10101-jLtRLVyRj4Ix.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 10147,
+    "name": "Gaimon",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10147-tW0OsGd9jIW4.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 10444,
+    "name": "Zeff",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/10444.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 10668,
+    "name": "Conis",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10668-JCNeCZ2ap8UR.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 10804,
+    "name": "Pagaya",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10804-LwE7idTlz6N3.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 10830,
+    "name": "Purinpurin",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/10830.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 10910,
+    "name": "Porche",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10910-n5K3FIB8rLvD.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 11394,
+    "name": "Blueno",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11394-hQsNGXPOw0m0.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 11396,
+    "name": "Fukurou",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11396-izqx8me6Q3DZ.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 11398,
+    "name": "Nero",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11398-nktM5kEZWDdO.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 11400,
+    "name": "Jyabura",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b11400-Ra81iEpbLveF.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 12232,
+    "name": "Rockstar",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/12232.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 12361,
+    "name": "Koby",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b12361-H0SmgKxZ9T61.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 12362,
+    "name": "Helmeppo",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/12362.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 13018,
+    "name": "Sengoku",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13018-kJjHsIg6Zw7Q.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 13109,
+    "name": "Babe",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/13109.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 13767,
+    "name": "Law Trafalgar",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b13767-U604OJN9dxCn.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 14989,
+    "name": "Kid Eustass",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b14989-uykLqnBTdAc2.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 16342,
+    "name": "Hancock Boa",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b16342-kVOF6V5Q94go.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 17142,
+    "name": "Rayleigh Silvers",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17142-OXOpztWZIE2A.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 17178,
+    "name": "Ryuuma Shimotsuki",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17178-SczXHzLzZqzn.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 17190,
+    "name": "Calgara",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/n17190-BCsc92WDAZPs.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 17191,
+    "name": "Norland Montblanc",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/n17191-CxjdmuAITdiU.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 17492,
+    "name": "Bepo",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17492-PCFNvded635o.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 17561,
+    "name": "Gedatsu",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17561-aGldMpVI60Uh.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 17763,
+    "name": "Yorki",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b17763-EokkfpNw5ZG8.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 18437,
+    "name": "Spandine",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18437-8HWmSV6WxNOg.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 18783,
+    "name": "Mohmoo",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18783-aDvOKx7yBGbu.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 18784,
+    "name": "Kung Fu Dugong",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/18784.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 18827,
+    "name": "Killer",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b18827-uvYXjeffe0gW.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 19168,
+    "name": "Duval",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19168-ANaaigEPt3FW.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 19271,
+    "name": "Hiluluk",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19271-AqWZCtTJieBx.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 19311,
+    "name": "Pappag",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19311-kCSCnSAMkxHO.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 19375,
+    "name": "Macro",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19375-olVdZeY9eUU6.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 19376,
+    "name": "Tansui",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19376-kG68RZCgUm1a.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 19379,
+    "name": "Gyaro",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b19379-b36PxIenz3sL.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20091,
+    "name": "Hina",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20091-tOTt36l8zDCw.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20093,
+    "name": "Miss Father's Day",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/20093.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20098,
+    "name": "Miss Merry Christmas",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20098-r4uk4YsAKR2t.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20175,
+    "name": "Roswald Sei",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/20175.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20176,
+    "name": "Shalulia Guu",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/20176.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20177,
+    "name": "Devil Dias",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20177-P03J50q9MM9X.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20178,
+    "name": "Shakuyaku",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20178-W192714k10S8.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20288,
+    "name": "Apoo Scratchmen",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20288-7ccM0oyUvyLu.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20289,
+    "name": "Drake X.",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20289-2bumPKcGsWhU.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20292,
+    "name": "Bege Capone",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20292-6aIlR9qqSj1f.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20293,
+    "name": "Basil Hawkins",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20293-37ifsaMz7Kgx.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20294,
+    "name": "Urouge",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20294-6jBqrVoAQSaz.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20295,
+    "name": "Jewelry Bonney",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20295-LqpG4Y3HkKxu.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20307,
+    "name": "Peterman",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/20307.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20308,
+    "name": "Saint Charloss",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/20308.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20330,
+    "name": "Saul Jaguar",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20330-T9ZMmA9LBlDc.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20814,
+    "name": "Disco",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20814-sZzg44F6pQmJ.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20946,
+    "name": "Sandersonia Boa",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20946-elHgWM7yJzed.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 20947,
+    "name": "Marigold Boa",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b20947-GJhZTN6fOBQP.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 21093,
+    "name": "Borsalino",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21093-Pc4kOjUn3ZkZ.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 21095,
+    "name": "Pascia",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/21095.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 21096,
+    "name": "Byron",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21096-dF4DGNH704ib.png",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 21097,
+    "name": "Lacueva",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/21097.jpg",
+    "role": "SUPPORTING"
+  },
+  {
+    "aniId": 21098,
+    "name": "Jean Bart",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b21098-0sB3TMJiEauw.png",
+    "role": "SUPPORTING"
+  }
+]

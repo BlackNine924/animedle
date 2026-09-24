@@ -1,0 +1,1547 @@
+[
+  {
+    "id": "tanjiro-kamado-human",
+    "name": "Tanjiro Kamado (Caçador)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Família Kamado"
+    ],
+    "styleOrPower": "Respiração do Sol (Hinokami Kagura)",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "A determinação não fraqueja enquanto houver vida!",
+    "ability": "Dança do Deus do Fogo (Hinokami Kagura)",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126071-BTNEc1nRIv68.png",
+    "techniques": [
+      "Primeira Forma: Minamo Giri (Corte da Superfície da Água)",
+      "Segunda Forma: Mizuguruma (Roda d'Água)",
+      "Terceira Forma: Ryūryū Mai (Dança dos Respingos Fluídos)",
+      "Quarta Forma: Uchihi (Maré Impressionante)",
+      "Quinta Forma: Kanten no Jirei (Chuva Bendita após a Seca)",
+      "Sexta Forma: Nejire Ushi (Vórtice Torsional)",
+      "Sétima Forma: Shizuku Wa-zuki (Gotas de Orvalho Perfurantes)",
+      "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
+      "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
+      "Décima Forma: Seisei Ruten (Dragão da Mudança)",
+      "Hinokami Kagura: Enbu (Dança da Névoa Solar)",
+      "Hinokami Kagura: Hikiroku (Espelho Crimson)",
+      "Hinokami Kagura: Retsujitsu Kōkyō (Sol Ardente Vermelho)",
+      "Hinokami Kagura: Gen'nichi Kou (Arco do Céu Flamejante)",
+      "Hinokami Kagura: Kasha (Roda de Fogo)",
+      "Hinokami Kagura: Shiyō no Esaku (Corte de Raios Solares)"
+    ]
+  },
+  {
+    "id": "tanjiro-kamado-demon-king",
+    "name": "Tanjiro Kamado (Rei Oni)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Rei dos Demônios",
+      "Família Kamado"
+    ],
+    "styleOrPower": "Kekkijutsu (Rei Oni)",
+    "debutArc": "Castelo Infinito",
+    "status": "Curado",
+    "quote": "Eu me tornei o Rei dos Demônios imune ao Sol!",
+    "ability": "Grito Chocado Supressivo e Tentáculos Ósseos",
+    "avatar": "https://i.pinimg.com/736x/4a/24/86/4a2486220d43f817e9319d761abfb720.jpg",
+    "techniques": [
+      "Grito Chocado Supressivo Demoníaco",
+      "Tentáculos Ósseos Primal e Esferas de Sangue",
+      "Regeneração Suprema do Rei Oni"
+    ]
+  },
+  {
+    "id": "nezuko-kamado-human",
+    "name": "Nezuko Kamado (Humana)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Kamado"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Curado",
+    "quote": "Eu amo muito a minha família!",
+    "ability": "Cuidado Familiar",
+    "avatar": "https://i.pinimg.com/736x/a5/9d/2f/a59d2faa0197ba1254d21003d567b9a4.jpg"
+  },
+  {
+    "id": "nezuko-kamado-demon",
+    "name": "Nezuko Kamado (Oni)",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Família Kamado"
+    ],
+    "styleOrPower": "Kekkijutsu (Sangue Explosivo)",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "Os humanos devem ser protegidos e salvos!",
+    "ability": "Explosão de Sangue (Bakketsu)",
+    "avatar": "https://i.pinimg.com/564x/d8/6a/e1/d86ae19c17d7cfa472ffb506ab36f1d0.jpg",
+    "techniques": [
+      "Bakketsu (Sangue Explosivo)",
+      "Garras Demoníacas Flamejantes"
+    ]
+  },
+  {
+    "id": "zenitsu-agatsuma",
+    "name": "Zenitsu Agatsuma",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Respiração do Trovão",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "Se você só consegue fazer uma coisa, domine essa única coisa!",
+    "ability": "Primeira Forma: Lampejo do Trovão (Hekireki Issen)",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b129131-FZrQ7lSlxmEr.png",
+    "techniques": [
+      "Primeira Forma: Hekireki Issen (Lampejo do Trovão)",
+      "Primeira Forma: Hekireki Issen - Rokuren (Lampejo do Trovão - Seis Dobras)",
+      "Primeira Forma: Hekireki Issen - Hachiren (Lampejo do Trovão - Oito Dobras)",
+      "Primeira Forma: Hekireki Issen - Godshin (Lampejo do Trovão - Velocidade Divina)",
+      "Sétima Forma: Honoikazuchi no Kami (Deus do Trovão Flamejante)"
+    ]
+  },
+  {
+    "id": "inosuke-hashibira",
+    "name": "Inosuke Hashibira",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Respiração da Fera",
+    "debutArc": "Casa do Tambor",
+    "status": "Vivo",
+    "quote": "Avançar! Comandante Inosuke na área!",
+    "ability": "Quinta Presa: Corte Alucinante",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n129130-SJC0Kn1DU39E.jpg",
+    "techniques": [
+      "Primeira Presa: Perfuração (Ugarachi)",
+      "Segunda Presa: Rasgão Duplo (Kirisaki)",
+      "Terceira Presa: Mutilação Devoradora (Kuisaki)",
+      "Quarta Presa: Retalhar em Pedaços (Kiri Koma)",
+      "Quinta Presa: Mutilação Frenética (Kuruizaki)",
+      "Sexta Presa: Morder em Caos (Ranguikui)",
+      "Sétima Forma: Percepção Espacial (Kūkan Shiki)",
+      "Oitava Presa: Investida Explosiva (Bakuretsu Shingeki)",
+      "Nona Presa: Corte Sinuoso Estendido (Uneri Unerisaki)",
+      "Décima Presa: Garras Giratórias Rápidas (Enten Sen'ga)"
+    ]
+  },
+  {
+    "id": "kanao-tsuyuri",
+    "name": "Kanao Tsuyuri",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Mansão Borboleta"
+    ],
+    "styleOrPower": "Respiração da Flor",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "De alguma forma, a minha alma despertou graças a vocês.",
+    "ability": "Forma Final: Olhos Vermelhos Vermilion (Higan Shugan)",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139038-OcOoDUyLEsRn.png",
+    "techniques": [
+      "Segunda Forma: Mikage Ume (Ameixeira Mikage)",
+      "Quarta Forma: Hanakoromo (Manto de Flores)",
+      "Quinta Forma: Mutō Kaku (Peônia sem Peonagem)",
+      "Sexta Forma: Azami no Ukon (Cardo Vermelho)",
+      "Forma Final: Higan Shuganku (Olhos Vermelhos do Equinócio)"
+    ]
+  },
+  {
+    "id": "genya-shinazugawa",
+    "name": "Genya Shinazugawa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Assimilação Demoníaca",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Meu irmão... sempre foi a pessoa mais gentil do mundo.",
+    "ability": "Assimilação Demoníaca Temporária",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137776-E0QuFD7y19OQ.jpg",
+    "techniques": [
+      "Assimilação Demoníaca (Oni Repast)",
+      "Disparo de Espingarda com Munição de Sangue"
+    ]
+  },
+  {
+    "id": "giyu-tomioka",
+    "name": "Giyu Tomioka",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Água)"
+    ],
+    "styleOrPower": "Respiração da Água",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "Não dê aos outros o poder de decidir se você vive ou morre!",
+    "ability": "Décima Primeira Forma: Calmaria (Nagi)",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b130050-qsLThJs5VIbz.png",
+    "techniques": [
+      "Primeira Forma: Minamo Giri (Corte da Superfície da Água)",
+      "Segunda Forma: Mizuguruma (Roda d'Água)",
+      "Terceira Forma: Ryūryū Mai (Dança dos Respingos Fluídos)",
+      "Quarta Forma: Uchihi (Maré Impressionante)",
+      "Quinta Forma: Kanten no Jirei (Chuva Bendita após a Seca)",
+      "Sexta Forma: Nejire Ushi (Vórtice Torsional)",
+      "Sétima Forma: Shizuku Wa-zuki (Gotas de Orvalho Perfurantes)",
+      "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
+      "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
+      "Décima Forma: Seisei Ruten (Dragão da Mudança)",
+      "Décima Primeira Forma: Nagi (Calmaria)"
+    ]
+  },
+  {
+    "id": "shinobu-kocho",
+    "name": "Shinobu Kocho",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Inseto)",
+      "Mansão Borboleta"
+    ],
+    "styleOrPower": "Respiração do Inseto",
+    "debutArc": "Montanha Natagumo",
+    "status": "Morto",
+    "quote": "Posso ser a única espadachim que não consegue cortar cabeças de onis, mas o veneno fará o trabalho.",
+    "ability": "Dança da Centopéia: Zig-Zag das Cem Pernas",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136070-MC9LLxJsHyHE.png",
+    "techniques": [
+      "Dança das Borboletas: Tawamure (Capricho)",
+      "Dança do Espinho da Abelha: Nabiki Asahi (Picada Verdadeira)",
+      "Dança da Libélula: Fugan - Rokkaku Chūgatsu (Hexágono de Olhos Compostos)",
+      "Dança da Centopeia: Hyakusoku Jabara (Zigue-zague das Cem Pernas)"
+    ]
+  },
+  {
+    "id": "kyojuro-rengoku",
+    "name": "Kyojuro Rengoku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Chamas)"
+    ],
+    "styleOrPower": "Respiração das Chamas",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Mantenha o seu coração em chamas!",
+    "ability": "Nona Forma: Rengoku (Chama Purificadora)",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b135317-9Nu12Wooyiw9.jpg",
+    "techniques": [
+      "Primeira Forma: Shiranui (Fogo Conhecido)",
+      "Segunda Forma: Nobori Enten (Sol Ascendente)",
+      "Terceira Forma: Kien Bansho (Universo em Chamas)",
+      "Quarta Forma: Sei-en no Uneri (Onda de Chamas Florescentes)",
+      "Quinta Forma: Enosuke (Tigre de Fogo)",
+      "Nona Forma: Rengoku (Chamas Ferozes / Rengoku)"
+    ]
+  },
+  {
+    "id": "tengen-uzui",
+    "name": "Tengen Uzui",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Som)"
+    ],
+    "styleOrPower": "Respiração do Som",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Vivo",
+    "quote": "Nós vamos vencer de forma extravagante!",
+    "ability": "Partitura Musical Estratégica",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136071-99Kexnnn2PiV.png",
+    "techniques": [
+      "Primeira Forma: Todoroki (Ressoador)",
+      "Quarta Forma: Kyōzan Muken (Corte Perfeito da Fenda Ressoante)",
+      "Quinta Forma: Kiringaku (Partitura Musical Estrondosa)"
+    ]
+  },
+  {
+    "id": "muichiro-tokito",
+    "name": "Muichiro Tokito",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Névoa)"
+    ],
+    "styleOrPower": "Respiração da Névoa",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Eu nasci para ser feliz!",
+    "ability": "Sétima Forma: Névoa Obscura (Oboro)",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136069-6PLglx4tETUX.png",
+    "techniques": [
+      "Primeira Forma: Suiten Tōgasumi (Céu Suspenso, Névoa Distante)",
+      "Segunda Forma: Yaegasumi (Névoa de Oito Camadas)",
+      "Terceira Forma: Kasan no Shibuki (Respingos de Névoa)",
+      "Quarta Forma: Iryū Giri (Corte do Fluxo de Névoa)",
+      "Quinta Forma: Kairou Kasumi (Névoa de Mar das Nuvens)",
+      "Sexta Forma: Tsukirin no Kasumi (Névoa da Lua Nebulosa)",
+      "Sétima Forma: Oboro (Névoa Oculta)"
+    ]
+  },
+  {
+    "id": "mitsuri-kanroji",
+    "name": "Mitsuri Kanroji",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Amor)"
+    ],
+    "styleOrPower": "Respiração do Amor",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Por favor, se nascermos de novo, você se casaria comigo?",
+    "ability": "Quinta Forma: Amor Hesitante - Garras Trêmulas",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136072-xVwyRUKdpybi.png",
+    "techniques": [
+      "Primeira Forma: Kanluo no Hatsukai (Primeiro Amor)",
+      "Segunda Forma: Kōnoya no Renzoku (Dores do Amor)",
+      "Terceira Forma: Koi Neko Shigure (Chuva de Gato Amável)",
+      "Quinta Forma: Yura Meki Renjō - Shiren (Garradas Trêmulas de Amor)",
+      "Sexta Forma: Neko Fuugatsu - Koi Kaze (Vento do Amor da Garra de Gato)"
+    ]
+  },
+  {
+    "id": "obanai-iguro",
+    "name": "Obanai Iguro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Serpente)"
+    ],
+    "styleOrPower": "Respiração da Serpente",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Prometo que na próxima vida eu serei um homem digno de você.",
+    "ability": "Quinta Forma: Serpente Deslizante",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137777-kGViiNyx0wa7.jpg",
+    "techniques": [
+      "Primeira Forma: Igiri (Corte da Serpente)",
+      "Segunda Forma: Kyōzu no Doku-giri (Presa Venenosa da Serpente)",
+      "Terceira Forma: Unekuri Giri (Corte Sinuoso)",
+      "Quarta Forma: Jinjan no Kyōraku (Serpente de Duas Cabeças)",
+      "Quinta Forma: Enen Chōda (Serpente Deslizante Gigante)"
+    ]
+  },
+  {
+    "id": "sanemi-shinazugawa",
+    "name": "Sanemi Shinazugawa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Vento)"
+    ],
+    "styleOrPower": "Respiração do Vento",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Vivo",
+    "quote": "Vou estraçalhar cada um dos demônios que existem!",
+    "ability": "Primeira Forma: Cortador de Vento da Poeira",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137774-O1iYrnGLB71l.png",
+    "techniques": [
+      "Primeira Forma: Jinjin Kaze Kiri (Poeira Cortante do Vento)",
+      "Segunda Forma: Sōso - Shinato Kaze (Garras da Tempestade Purificadora)",
+      "Terceira Forma: Seiran Fūjū (Árvore ao Vento Noturno)",
+      "Quarta Forma: Shōjin no Kazaguruma (Catavento da Ascensão)",
+      "Quinta Forma: Togarashi Kaze (Vento Frio das Montanhas)",
+      "Sexta Forma: Kokufūjin (Tempestade de Vento Negro)",
+      "Sétima Forma: Keikou - Tengu Kaze (Vento Tengu da Brisa)",
+      "Oitava Forma: Rekka Kaze Giri (Corte do Vento da Brisa Flamejante)",
+      "Nona Forma: Idaten Kaze (Vento Nobre Idaten)"
+    ]
+  },
+  {
+    "id": "gyomei-himejima",
+    "name": "Gyomei Himejima",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Hashira (Rocha)"
+    ],
+    "styleOrPower": "Respiração da Rocha",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Namo Amida Butsu... Que as suas almas descansem em paz.",
+    "ability": "Quarta Forma: Conquista Volcânica de Rocha",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137778-H4Uzb9cSCvZ6.jpg",
+    "techniques": [
+      "Primeira Forma: Ryamen Tanjin (Corte da Rocha Sobrenatural)",
+      "Segunda Forma: Tenmen Seikyō (Esmagamento da Lâmina Celestial)",
+      "Terceira Forma: Ganseki skin (Pele de Rocha)",
+      "Quarta Forma: Ryūmyaku Seikyō (Conquista do Dragão de Rocha)",
+      "Quinta Forma: Aragan no Gyōkō (Arco da Rocha Espiritual)"
+    ]
+  },
+  {
+    "id": "kanae-kocho",
+    "name": "Kanae Kocho",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Ex-Hashira (Flor)"
+    ],
+    "styleOrPower": "Respiração da Flor",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Se você puder sorrir para os demônios, talvez um dia vivamos em paz.",
+    "ability": "Técnica de Lâminas Florais de Seda",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139039-YmIZQzx1HdvY.png",
+    "techniques": [
+      "Segunda Forma: Mikage Ume (Ameixeira Mikage)",
+      "Quarta Forma: Hanakoromo (Manto de Flores)",
+      "Quinta Forma: Mutō Kaku (Peônia sem Peonagem)",
+      "Sexta Forma: Azami no Ukon (Cardo Vermelho)"
+    ]
+  },
+  {
+    "id": "sakonji-urokodaki",
+    "name": "Sakonji Urokodaki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Ex-Hashira (Água)"
+    ],
+    "styleOrPower": "Respiração da Água",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "Se a sua irmã devorar um humano, você deve matá-la e depois cometer seppuku!",
+    "ability": "Mestre Cultivador de Respiração da Água",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137773-N4O52f73dJKZ.png",
+    "techniques": [
+      "Primeira Forma: Minamo Giri (Corte da Superfície da Água)",
+      "Segunda Forma: Mizuguruma (Roda d'Água)",
+      "Terceira Forma: Ryūryū Mai (Dança dos Respingos Fluídos)",
+      "Quarta Forma: Uchihi (Maré Impressionante)",
+      "Quinta Forma: Kanten no Jirei (Chuva Bendita após a Seca)",
+      "Sexta Forma: Nejire Ushi (Vórtice Torsional)",
+      "Sétima Forma: Shizuku Wa-zuki (Gotas de Orvalho Perfurantes)",
+      "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
+      "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
+      "Décima Forma: Seisei Ruten (Dragão da Mudança)"
+    ]
+  },
+  {
+    "id": "sabito",
+    "name": "Sabito",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Respiração da Água",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Vá em frente! Seja um homem!",
+    "ability": "Corte de Água Fluido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137809-6Tkle99lCBl8.png",
+    "techniques": [
+      "Primeira Forma: Minamo Giri (Corte da Superfície da Água)",
+      "Segunda Forma: Mizuguruma (Roda d'Água)",
+      "Terceira Forma: Ryūryū Mai (Dança dos Respingos Fluídos)",
+      "Quarta Forma: Uchihi (Maré Impressionante)",
+      "Quinta Forma: Kanten no Jirei (Chuva Bendita após a Seca)",
+      "Sexta Forma: Nejire Ushi (Vórtice Torsional)",
+      "Sétima Forma: Shizuku Wa-zuki (Gotas de Orvalho Perfurantes)",
+      "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
+      "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
+      "Décima Forma: Seisei Ruten (Dragão da Mudança)"
+    ]
+  },
+  {
+    "id": "makomo",
+    "name": "Makomo",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Respiração da Água",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Nós amamos muito o Urokodaki-san.",
+    "ability": "Esquiva Graciosa de Água",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137806-43Lqae34Vzqu.png",
+    "techniques": [
+      "Primeira Forma: Minamo Giri (Corte da Superfície da Água)",
+      "Segunda Forma: Mizuguruma (Roda d'Água)",
+      "Terceira Forma: Ryūryū Mai (Dança dos Respingos Fluídos)",
+      "Quarta Forma: Uchihi (Maré Impressionante)",
+      "Quinta Forma: Kanten no Jirei (Chuva Bendita após a Seca)",
+      "Sexta Forma: Nejire Ushi (Vórtice Torsional)",
+      "Sétima Forma: Shizuku Wa-zuki (Gotas de Orvalho Perfurantes)",
+      "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
+      "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
+      "Décima Forma: Seisei Ruten (Dragão da Mudança)"
+    ]
+  },
+  {
+    "id": "jigoro-kuwajima",
+    "name": "Jigoro Kuwajima",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Ex-Hashira (Trovão)"
+    ],
+    "styleOrPower": "Respiração do Trovão",
+    "debutArc": "Casa do Tambor",
+    "status": "Morto",
+    "quote": "Zenitsu, você é o meu orgulho.",
+    "ability": "Mestre Cultivador da Respiração do Trovão",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137775-WVj9nyVaYo45.png",
+    "techniques": [
+      "Primeira Forma: Hekireki Issen (Lampejo do Trovão)",
+      "Segunda Forma: Inadama",
+      "Terceira Forma: Shitsurai",
+      "Quarta Forma: Enrai",
+      "Quinta Forma: Atsurai",
+      "Sexta Forma: Dengou Raigou"
+    ]
+  },
+  {
+    "id": "hotaru-haganezuka",
+    "name": "Hotaru Haganezuka",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Vila dos Ferreiros",
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "Vou te matar por quebrar a minha espada!",
+    "ability": "Polimento Extremo de Lâmina Nichirin",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138990-E5kiUoLigpyX.jpg"
+  },
+  {
+    "id": "kozo-kanamori",
+    "name": "Kozo Kanamori",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Vila dos Ferreiros"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Vivo",
+    "quote": "Fiz esta espada pensando no estilo único do Tokito-sama.",
+    "ability": "Forja Especializada Nichirin",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b206331-ss70JxaeUkeU.png"
+  },
+  {
+    "id": "kotetsu",
+    "name": "Kotetsu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Vila dos Ferreiros"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Vivo",
+    "quote": "Seu fracassado! Continue treinando até vomitar!",
+    "ability": "Operação de Treinamento Automatizado",
+    "avatar": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/f/fb/Kotetsu_Anime.png/revision/latest?cb=20230501115919"
+  },
+  {
+    "id": "tecchin-tecchikawahara",
+    "name": "Tecchin Tecchikawahara",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Vila dos Ferreiros"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Vivo",
+    "quote": "Ferreiros são artistas de lâminas!",
+    "ability": "Liderança de Artesãos",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b299978-KMYqUZV1ejla.jpg"
+  },
+  {
+    "id": "kagaya-ubuyashiki",
+    "name": "Kagaya Ubuyashiki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Ubuyashiki",
+      "Líder do Esquadrão"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Meus amados filhos caçadores...",
+    "ability": "Ressonância Vocal de Acalento",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137808-4yA8XQUDrAho.png"
+  },
+  {
+    "id": "amane-ubuyashiki",
+    "name": "Amane Ubuyashiki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Ubuyashiki"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Estar ao lado do meu esposo até o fim é meu desejo.",
+    "ability": "Suporte Estratégico",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b221375-cMlefDNTlcD6.jpg"
+  },
+  {
+    "id": "kiriya-ubuyashiki",
+    "name": "Kiriya Ubuyashiki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Ubuyashiki",
+      "Líder do Esquadrão"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "A batalha do Castelo Infinito deve ser coordenada até o último segundo!",
+    "ability": "Mapeamento Psíquico por Pássaros Usame",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139460-jA7lAHb17aLL.png"
+  },
+  {
+    "id": "kanata-ubuyashiki",
+    "name": "Kanata Ubuyashiki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Ubuyashiki"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Vivo",
+    "quote": "Sejam bem-vindos à Seleção Final.",
+    "ability": "Assistente da Seleção Final",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b153220-QH10oCcepSdz.jpg"
+  },
+  {
+    "id": "aoi-kanzaki",
+    "name": "Aoi Kanzaki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Mansão Borboleta"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Vivo",
+    "quote": "Tive sorte na Seleção Final, por isso fico na Mansão ajudando na recuperação.",
+    "ability": "Cuidados Médicos e Farmacologia",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b145288-1sZG1vJmysmY.jpg"
+  },
+  {
+    "id": "murata",
+    "name": "Murata",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Montanha Natagumo",
+    "status": "Vivo",
+    "quote": "Eu também sou um caçador de demônios!",
+    "ability": "Sobrevivência Incrível",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b171150-3Ju2DXBVq41F.png"
+  },
+  {
+    "id": "tamayo",
+    "name": "Tamayo",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Independente",
+      "Médica"
+    ],
+    "styleOrPower": "Kekkijutsu (Aroma da Ilusão)",
+    "debutArc": "Asakusa",
+    "status": "Morto",
+    "quote": "Devolva a vida que você tirou de tantas pessoas, Muzan!",
+    "ability": "Ilusão por Sangue de Mistletoe & Droga de Humanização",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138847-rOwIPLKaR5Ux.jpg",
+    "techniques": [
+      "Aroma da Ilusão (Bikou no Kou)",
+      "Sangue Visual da Verdade"
+    ]
+  },
+  {
+    "id": "yushiro",
+    "name": "Yushiro",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Independente",
+      "Assistente da Tamayo"
+    ],
+    "styleOrPower": "Kekkijutsu (Vendas de Ocultação)",
+    "debutArc": "Asakusa",
+    "status": "Vivo",
+    "quote": "Ninguém no mundo é mais bonita que a Tamayo-sama!",
+    "ability": "Papel de Ocultação Visual e Compartilhamento de Visão",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138846-i8frJEl8baly.jpg",
+    "techniques": [
+      "Vendas de Ocultação de Papel (Ocultação de Presença)",
+      "Compartilhamento de Visão Oftálmica"
+    ]
+  },
+  {
+    "id": "chachamaru",
+    "name": "Chachamaru (Gato da Tamayo)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Assistente da Tamayo",
+      "Suporte"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Asakusa",
+    "status": "Vivo",
+    "quote": "Miau! *Transporta soro anti-Kekkijutsu*",
+    "ability": "Papel de Ocultação e Aplicação de Soro Antidemoníaco",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b268212-cdX6j5xYomyU.jpg"
+  },
+  {
+    "id": "muzan-kibutsuji",
+    "name": "Muzan Kibutsuji",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Rei dos Demônios",
+      "Doze Kizuki"
+    ],
+    "styleOrPower": "Kekkijutsu (Sangue Primal)",
+    "debutArc": "Asakusa",
+    "status": "Morto",
+    "quote": "Eu sou um ser perfeito próximo à natureza. O que destruo são desastres naturais.",
+    "ability": "Chicotes de Sangue com Veneno Celular Atômico",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b129132-4nIZakUZ1o8W.jpg",
+    "techniques": [
+      "Chicotadas de Tentáculos Espinhosos",
+      "Sangue Demoníaco Proliferador e Maldição da Carne",
+      "Onda de Choque de Sangue e Demolição Celular"
+    ]
+  },
+  {
+    "id": "kokushibo",
+    "name": "Kokushibo",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 1)"
+    ],
+    "styleOrPower": "Respiração da Lua",
+    "debutArc": "Castelo Infinito",
+    "status": "Morto",
+    "quote": "Para quê nasci se nem mesmo consegui me tornar igual a você, meu irmão?",
+    "ability": "Décima Sexta Forma: Lua Arco-Íris - Lua Meio-Cheia",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b141918-Bfgq88XJFOPz.png",
+    "techniques": [
+      "Primeira Forma: Yamidzuki - Yoi no Miya (Lua Sombria - Palácio da Noite)",
+      "Segunda Forma: Shusa no Yojitsuki (Pequenas Luas Florescentes)",
+      "Terceira Forma: Gakyo - Tsugari Tsuki (Lua Abominável - Correntes)",
+      "Quinta Forma: Getsurin Tsukikou (Vórtice da Lua Solitária)",
+      "Sexta Forma: Tokuyo no Tsukiyo (Noite Solitária da Lua)",
+      "Sétima Forma: Yakkyou - Jinjin Tsuki (Catástrofe Espelhada de Luas)",
+      "Oitava Forma: Getsuryū Rinki (Cauda de Dragão da Lua)",
+      "Nona Forma: Kudaritsuki - Renmen (Descida Crescente de Luas)",
+      "Décima Forma: Senmetsu Tsuki - Sengetsukou (Luas Cortantes e Destrutivas)",
+      "Décima Quarta Forma: Kyoushou - Senmen Tsuki (Catástrofe de Luas Caóticas)",
+      "Décima Sexta Forma: Getsukou - Kataware Tsuki (Arco da Lua em Ruínas)"
+    ]
+  },
+  {
+    "id": "doma",
+    "name": "Doma",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 2)",
+      "Culto do Paraíso Eternal"
+    ],
+    "styleOrPower": "Kekkijutsu (Gelo Celestial)",
+    "debutArc": "Distrito do Entretenimento",
+    "status": "Morto",
+    "quote": "Sentimentos? O que é isso? Nunca senti nada em minha vida inteira!",
+    "ability": "Jardim de Lótus Congelado & Bodhisattva de Gelo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b144591-v2yrXtHorZFS.png",
+    "techniques": [
+      "Hasuha Kōro (Lótus de Gelo)",
+      "Kanrui Hyouro (Jarro de Névoa Congelante)",
+      "Itezuru (Videiras Congelantes)",
+      "Suiren Bosatsu (Lótus do Gelo Celestial / Bodhisattva de Gelo)",
+      "Tsurara no Onna (Princesas de Gelo)",
+      "Kareshibana (Jardim de Flores Secas Congeladas)"
+    ]
+  },
+  {
+    "id": "akaza",
+    "name": "Akaza",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 3)"
+    ],
+    "styleOrPower": "Kekkijutsu (Destruição)",
+    "debutArc": "Trem Infinito",
+    "status": "Morto",
+    "quote": "Torne-se um demônio, Kyojuro! Assim você pode lutar para sempre!",
+    "ability": "Estilo Destruidor: Agulha de Bússola (Compass Needle)",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b141694-0COi0GVXPuEn.png",
+    "techniques": [
+      "Hakushiki (Agulhas de Bússola)",
+      "Rashingoryu (Destruição do Caos)",
+      "Sennyo (Punho de Floco de Neve)",
+      "Kiku (Estilo da Flor de Crisântemo)",
+      "Tenko (Corte da Luz do Céu)",
+      "Kiyoshiki (Punho de Metal Aniquilador)",
+      "Kuuashiki (Punho do Vazio Aniquilador)",
+      "Kishin Shouryuu (Estilo do Dragão Demoníaco)"
+    ]
+  },
+  {
+    "id": "hantengu",
+    "name": "Hantengu (Corpo Principal)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 4)"
+    ],
+    "styleOrPower": "Kekkijutsu (Divisão de Emoções)",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Morto",
+    "quote": "Coitadinho de mim! Por que vocês sempre atormentam um fraco como eu?",
+    "ability": "Ocultação de Tamanho em Mini-Oni Espremido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b260323-2zytvxsXp7rG.png",
+    "techniques": [
+      "Divisão em Demônios de Emoção Primal"
+    ]
+  },
+  {
+    "id": "sekido",
+    "name": "Sekido (Emoção da Raiva)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 4)"
+    ],
+    "styleOrPower": "Kekkijutsu (Trovão e Descargas)",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Morto",
+    "quote": "Eu estou furioso! Vou eletrocutar todos vocês até virarem cinzas!",
+    "ability": "Descarga Elétrica pelo Cetro Khakkhara",
+    "avatar": "https://i.pinimg.com/236x/f2/90/5a/f2905a1ded96fa71a6aea746f9a76a10.jpg",
+    "techniques": [
+      "Descargas Elétricas e Cetro de Trovão (Raijin)"
+    ]
+  },
+  {
+    "id": "karaku",
+    "name": "Karaku (Emoção da Alegria)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 4)"
+    ],
+    "styleOrPower": "Kekkijutsu (Vento e Leque)",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Morto",
+    "quote": "Isso é tão divertido! Vamos voar pelos ares!",
+    "ability": "Ráfaga de Vento Devastadora pelo Leque Uchiwa",
+    "avatar": "https://preview.redd.it/what-type-of-pleasure-is-karaku-v0-qoaq5p3mxxwe1.jpg?width=319&format=pjpg&auto=webp&s=39a39cc4d61df943cb1bc9384db9597a375db16f",
+    "techniques": [
+      "Raios de Vento Devastadores com Leque (Uchiwa)"
+    ]
+  },
+  {
+    "id": "aizetsu",
+    "name": "Aizetsu (Emoção da Tristeza)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 4)"
+    ],
+    "styleOrPower": "Kekkijutsu (Lança de Sangue)",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Morto",
+    "quote": "Que depressivo... Tudo nesta vida me traz tanta tristeza.",
+    "ability": "Estocadas Múltiplas com Lança Yari Cortante",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCk4Vj-MhUEKQlo8ajMoLp-9ZeyHzWDlt9QOKelfK5BiTTx_y4B2byYTY&s=10",
+    "techniques": [
+      "Estocadas de Lança de Sangue (Yari)"
+    ]
+  },
+  {
+    "id": "urogi",
+    "name": "Urogi (Emoção do Prazer)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 4)"
+    ],
+    "styleOrPower": "Kekkijutsu (Som e Garras)",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Morto",
+    "quote": "Haha! Que sensação maravilhosa estar nos céus!",
+    "ability": "Grito Ultra-Sônico e Garras de Águia",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw49RYiKGm5ZhYjbA1__T8PXH57PPyEglHpPHK7Z_mRNoH9gevWdcQJgiC&s=10",
+    "techniques": [
+      "Grito Ultrassônico e Garras de Aves"
+    ]
+  },
+  {
+    "id": "zohakuten",
+    "name": "Zohakuten (Emoção do Ódio)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 4)"
+    ],
+    "styleOrPower": "Kekkijutsu (Dragões de Madeira)",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Morto",
+    "quote": "Seus vilões imundos! Intimidação contra os fracos é um pecado imperdoável!",
+    "ability": "Invocação de Dragões de Madeira e Ondas de Vento e Trovão",
+    "avatar": "https://i.scdn.co/image/ab67616d00001e025adf311de25e4bd643c2c697",
+    "techniques": [
+      "Dragões de Madeira de Cinco Cabeças (Mugatsu)",
+      "Grito Ultrassônico de Madeira",
+      "Raios e Tempestade de Vento de Madeira"
+    ]
+  },
+  {
+    "id": "gyokko",
+    "name": "Gyokko",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 5)"
+    ],
+    "styleOrPower": "Kekkijutsu (Vasos Marinhos)",
+    "debutArc": "Vila dos Ferreiros",
+    "status": "Morto",
+    "quote": "Olhe para a minha sublime arte cerâmica!",
+    "ability": "Vaso de Prisão de Água & Forma Verdadeira Escamosa",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b205590-mNWuXG5oPw4g.jpg",
+    "techniques": [
+      "Vasos de Salto Teleportador",
+      "Kraken de Espinhos Marinhos de Água",
+      "Peixes Agulha Venenosos de Vaso",
+      "Vaso de Prisão de Água"
+    ]
+  },
+  {
+    "id": "daki",
+    "name": "Daki (Lua Superior 6)",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 6)"
+    ],
+    "styleOrPower": "Kekkijutsu (Faixas de Seda)",
+    "debutArc": "Distrito do Entretenimento",
+    "status": "Morto",
+    "quote": "Eu sou linda e forte! Meu irmão vai matar todos vocês!",
+    "ability": "Manipulação de Fita Obi Nichirin-Resistente",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139734-ZEy1ccFcwjaK.jpg",
+    "techniques": [
+      "Cortes de Faixas de Seda Óssea",
+      "Vórtice de Faixas de Seda Afiadas"
+    ]
+  },
+  {
+    "id": "gyutaro",
+    "name": "Gyutaro (Lua Superior 6)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 6)"
+    ],
+    "styleOrPower": "Kekkijutsu (Hozes Venenosas)",
+    "debutArc": "Distrito do Entretenimento",
+    "status": "Morto",
+    "quote": "Nós sempre nos protegemos. Se o céu nos amaldiçoar, nós matamos o céu!",
+    "ability": "Foice de Sangue Venenoso Voador",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139735-o4G63Po27zND.png",
+    "techniques": [
+      "Tobichigama (Hozes de Sangue Venenoso)",
+      "Vórtice Curvo de Hozes Venenosas"
+    ]
+  },
+  {
+    "id": "kaigaku-human",
+    "name": "Kaigaku (Humano/Caçador)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Respiração do Trovão",
+    "debutArc": "Casa do Tambor",
+    "status": "Morto",
+    "quote": "Eu farei o que for preciso para sobreviver e ser forte!",
+    "ability": "Segunda a Sexta Forma da Respiração do Trovão",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b165862-G9PpuvlEsfdN.jpg",
+    "techniques": [
+      "Primeira Forma: Hekireki Issen (Lampejo do Trovão)",
+      "Segunda Forma: Inadama",
+      "Terceira Forma: Shitsurai",
+      "Quarta Forma: Enrai",
+      "Quinta Forma: Atsurai",
+      "Sexta Forma: Dengou Raigou"
+    ]
+  },
+  {
+    "id": "kaigaku-demon",
+    "name": "Kaigaku (Oni)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Superior 6)"
+    ],
+    "styleOrPower": "Respiração do Trovão Negro",
+    "debutArc": "Castelo Infinito",
+    "status": "Morto",
+    "quote": "Eu sirvo quem me valoriza! Não me importo de me curvar a demônios!",
+    "ability": "Segunda a Sexta Forma do Trovão Negro",
+    "avatar": "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/6/6e/Kaigaku_claims_those_who_value_his_worth_matter.png/revision/latest?cb=20251030163105",
+    "techniques": [
+      "Segunda Forma: Inadama (Trovão Negro)",
+      "Terceira Forma: Shitsurai (Trovão Negro)",
+      "Quarta Forma: Enrai (Trovão Negro)",
+      "Quinta Forma: Atsurai Thunder (Trovão Negro)",
+      "Sexta Forma: Dengou Raigou (Trovão Negro)"
+    ]
+  },
+  {
+    "id": "enmu",
+    "name": "Enmu",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Inferior 1)"
+    ],
+    "styleOrPower": "Kekkijutsu (Sono)",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Tenha bons sonhos enquanto morre no meu pesadelo...",
+    "ability": "Sussurro do Sono Hipnótico Profundo",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139737-1YaFT0Xvxwaz.png",
+    "techniques": [
+      "Gatilho de Sono por Bilhete de Trem",
+      "Boca na Mão de Hipnose e Sussurros",
+      "Fusão com o Trem Infinito e Olhos de Sono"
+    ]
+  },
+  {
+    "id": "rui",
+    "name": "Rui",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki (Lua Inferior 5)"
+    ],
+    "styleOrPower": "Kekkijutsu (Teias de Sangue)",
+    "debutArc": "Montanha Natagumo",
+    "status": "Morto",
+    "quote": "Nossos laços de família são verdadeiros e inquebráveis!",
+    "ability": "Gaiola de Linhas Vermelhas Cortantes",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139739-BP0eUt2P9pRv.png",
+    "techniques": [
+      "Teias de Sangue Resistentes",
+      "Kokushi Rourou (Prisão de Teias de Sangue)",
+      "Rotentō (Corte de Roda de Teias)"
+    ]
+  },
+  {
+    "id": "kyogai",
+    "name": "Kyogai (Demônio do Tambor)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Ex-Doze Kizuki (Ex-Lua Inferior 6)"
+    ],
+    "styleOrPower": "Kekkijutsu (Tambores Espaciais)",
+    "debutArc": "Casa do Tambor",
+    "status": "Morto",
+    "quote": "Minha escrita... não era lixo afinal?",
+    "ability": "Bater de Tambores Tsuzumi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139738-dP9GWQSX5dIG.png",
+    "techniques": [
+      "Golpes de Tambor de Rotação Espacial",
+      "Garras Invisíveis Espaciais de Tambor"
+    ]
+  },
+  {
+    "id": "susamaru",
+    "name": "Susamaru",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Serva do Muzan"
+    ],
+    "styleOrPower": "Kekkijutsu (Temaris)",
+    "debutArc": "Asakusa",
+    "status": "Morto",
+    "quote": "Vamos jogar! Vou arrancar a sua cabeça com a minha Temari!",
+    "ability": "Lançamento Seis Braços de Bolas Temari",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138810-1d6mUy8lzr8K.png",
+    "techniques": [
+      "Temaris de Sangue com Braços Múltiplos"
+    ]
+  },
+  {
+    "id": "yahaba",
+    "name": "Yahaba",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Servo do Muzan"
+    ],
+    "styleOrPower": "Kekkijutsu (Flechas Vetoriais)",
+    "debutArc": "Asakusa",
+    "status": "Morto",
+    "quote": "Que sujeira! Não encoste suas mãos sujas em mim!",
+    "ability": "Direcionamento Vetorial Kouketsu",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138811-V9NNgNp9dAjq.png",
+    "techniques": [
+      "Flechas Vetoriais Koketsu (Manipulação de Vetores)"
+    ]
+  },
+  {
+    "id": "temple-demon",
+    "name": "Demônio do Templo",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Independente"
+    ],
+    "styleOrPower": "Kekkijutsu (Braços Múltiplos)",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Tem algo de errado com este garoto... ele usa uma machadinha!",
+    "ability": "Ataque com Garras Iniciais",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138989-2ZWGyfLbCxtV.png",
+    "techniques": [
+      "Regeneração e Braços Múltiplos"
+    ]
+  },
+  {
+    "id": "hand-demon",
+    "name": "Demônio das Mãos",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Independente (Montanha Fujikasane)"
+    ],
+    "styleOrPower": "Kekkijutsu (Mãos de Carne)",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Quantos anos se passaram desde que aquele garoto de máscara me prendeu aqui?",
+    "ability": "Crescimento de Múltiplos Braços Gigantescos",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138988-xU0pGFRXSweT.png",
+    "techniques": [
+      "Braços Gigantes de Carne"
+    ]
+  },
+  {
+    "id": "swamp-demon",
+    "name": "Demônio do Pântano",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Independente"
+    ],
+    "styleOrPower": "Kekkijutsu (Pântano Negro)",
+    "debutArc": "Pântano do Sequestrador",
+    "status": "Morto",
+    "quote": "Meninas aos 16 anos perdem a maciez, por isso as devoro logo!",
+    "ability": "Mergulho em Pântano Dimensional Negro",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138812-Imqj3sSfpcso.jpg",
+    "techniques": [
+      "Dimensão de Pântano Negro"
+    ]
+  },
+  {
+    "id": "mother-spider-demon",
+    "name": "Mãe Aranha",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Família Aranha"
+    ],
+    "styleOrPower": "Kekkijutsu (Fios de Marionete)",
+    "debutArc": "Montanha Natagumo",
+    "status": "Morto",
+    "quote": "Se a morte for pacífica como esta chuva, eu a aceito...",
+    "ability": "Manipulação de Humanos por Fios Marionete",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b141692-WQtsdIB6qfUF.png",
+    "techniques": [
+      "Fios de Marionete Humana"
+    ]
+  },
+  {
+    "id": "father-spider-demon",
+    "name": "Pai Aranha",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Família Aranha"
+    ],
+    "styleOrPower": "Kekkijutsu (Pele de Pedra)",
+    "debutArc": "Montanha Natagumo",
+    "status": "Morto",
+    "quote": "Não toque na minha família!",
+    "ability": "Muda de Pele Monstruosa Gigante",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b141693-18yNfOx3iopF.png",
+    "techniques": [
+      "Transformação de Pele de Pedra"
+    ]
+  },
+  {
+    "id": "tanjuro-kamado",
+    "name": "Tanjuro Kamado (Pai do Tanjiro)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Kamado"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Respire fundo e continue dançando para o Deus do Fogo.",
+    "ability": "Dança da Hinokami Kagura Sem Exaustão",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b206330-dDKOKM4O2pVg.png"
+  },
+  {
+    "id": "kie-kamado",
+    "name": "Kie Kamado (Mãe do Tanjiro)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Kamado"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Tome cuidado na montanha, Tanjiro.",
+    "ability": "Cuidado Materno",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196849-xnYBt0Jf5Htf.png"
+  },
+  {
+    "id": "takeo-kamado",
+    "name": "Takeo Kamado",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Kamado"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Eu também quero ajudar a cortar lenha!",
+    "ability": "Nenhum",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196852-zzu0xZXJrFr9.png"
+  },
+  {
+    "id": "hanako-kamado",
+    "name": "Hanako Kamado",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Kamado"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Tanjiro, me leva com você!",
+    "ability": "Nenhum",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196853-3MBhoPxBTvrN.png"
+  },
+  {
+    "id": "shigeru-kamado",
+    "name": "Shigeru Kamado",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Kamado"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "Volte logo, irmãozinho!",
+    "ability": "Nenhum",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196851-r5px2ZuOU9I2.png"
+  },
+  {
+    "id": "rokuta-kamado",
+    "name": "Rokuta Kamado",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Kamado"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Seleção Final",
+    "status": "Morto",
+    "quote": "*Dorme nos ombros do Tanjiro*",
+    "ability": "Nenhum",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b207857-sn24LyeKSrPr.jpg"
+  },
+  {
+    "id": "shinjuro-rengoku",
+    "name": "Shinjuro Rengoku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Ex-Hashira (Chamas)",
+      "Família Rengoku"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Vivo",
+    "quote": "Kyojuro... você lutou bravamente até o fim!",
+    "ability": "Guarda de Elite do Novo Líder Ubuyashiki",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193379-54MeZxQdvZ9o.jpg"
+  },
+  {
+    "id": "ruka-rengoku",
+    "name": "Ruka Rengoku",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Rengoku"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Trem Infinito",
+    "status": "Morto",
+    "quote": "Aqueles que nascem fortes têm o dever de proteger os fracos.",
+    "ability": "Nenhum",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193378-dSruD7x4KzQA.jpg"
+  },
+  {
+    "id": "senjuro-rengoku",
+    "name": "Senjuro Rengoku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Rengoku"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Vivo",
+    "quote": "Mesmo que eu não consiga ser um Hashira, ajudarei com os registros da família.",
+    "ability": "Pesquisa Histórica da Respiração",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193380-W10Kx339cY4D.png"
+  },
+  {
+    "id": "hinatsuru",
+    "name": "Hinatsuru",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Kunoichi",
+      "Esposa do Tengen"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Distrito do Entretenimento",
+    "status": "Vivo",
+    "quote": "Se derrotarmos a Lua Superior, vamos viver como humanos normais.",
+    "ability": "Disparo de Balestra de Kunais",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250556-tZ6egykZTk4Y.jpg"
+  },
+  {
+    "id": "makio",
+    "name": "Makio",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Kunoichi",
+      "Esposa do Tengen"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Distrito do Entretenimento",
+    "status": "Vivo",
+    "quote": "Suma, cale a boca e lute!",
+    "ability": "Agilidade e Espionagem Shinobi",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250554-tPaaPn3oAwNf.jpg"
+  },
+  {
+    "id": "suma",
+    "name": "Suma",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Kunoichi",
+      "Esposa do Tengen"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Distrito do Entretenimento",
+    "status": "Vivo",
+    "quote": "Tengen-sama! Nós vamos morrer!",
+    "ability": "Resgate e Evasão Ninja",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250555-jmjxCYpywW03.jpg"
+  },
+  {
+    "id": "keizo",
+    "name": "Keizo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Mestre do Dojo Soryu"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Castelo Infinito",
+    "status": "Morto",
+    "quote": "Hakuji, você vai herdar o meu dojo e cuidar da minha filha!",
+    "ability": "Estilo Soryu de Combate Desarmado",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b372391-sCs5eizjYrsy.png"
+  },
+  {
+    "id": "koyuki",
+    "name": "Koyuki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Passado do Akaza"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Castelo Infinito",
+    "status": "Morto",
+    "quote": "Hakuji-san... obrigada por ter me protegido.",
+    "ability": "Nenhum",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonorBRO31WjYl3kTAzQr_y-Nl38OaBKB2D0IKMC6A90nRFdc759c0IR6W&s=10"
+  },
+  {
+    "id": "yoriichi-tsugikuni",
+    "name": "Yoriichi Tsugikuni",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores (Ancestral)"
+    ],
+    "styleOrPower": "Respiração do Sol",
+    "debutArc": "Distrito do Entretenimento",
+    "status": "Morto",
+    "quote": "Acredito que os que virão depois de nós superarão todas as nossas conquistas.",
+    "ability": "Estilo da Respiração do Sol de 13 Formas Perfeitas",
+    "avatar": "https://i.pinimg.com/736x/5e/bb/d2/5ebbd20fa67daf3be4c87c8336aa78f0.jpg",
+    "techniques": [
+      "Hinokami Kagura: Enbu (Dança da Névoa Solar)",
+      "Hinokami Kagura: Hikiroku (Espelho Crimson)",
+      "Hinokami Kagura: Retsujitsu Kōkyō (Sol Ardente Vermelho)",
+      "Hinokami Kagura: Gen'nichi Kou (Arco do Céu Flamejante)",
+      "Hinokami Kagura: Kasha (Roda de Fogo)",
+      "Hinokami Kagura: Shiyō no Esaku (Corte de Raios Solares)",
+      "Décima Terceira Forma: Dança do Deus do Fogo Unificada"
+    ]
+  },
+  {
+    "id": "hairo",
+    "name": "Hairo (Ex-Lua Inferior 2)",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Ex-Doze Kizuki (Ex-Lua Inferior 2)"
+    ],
+    "styleOrPower": "Kekkijutsu (Sombras Armadas)",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Morto",
+    "quote": "Minha vergonha e fúria serão enterradas na escuridão!",
+    "ability": "Manipulação de Sombras Armadas e Tiroteio Demoníaco",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b194462-1O0lBhOkAvPQ.jpg",
+    "techniques": [
+      "Sombras Armadas e Tiroteio Demoníaco"
+    ]
+  },
+  {
+    "id": "nakime",
+    "name": "Nakime (Lua Superior 4)",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki",
+      "Luas Superiores"
+    ],
+    "styleOrPower": "Kekkijutsu (Castelo Infinito)",
+    "ability": "Kekkijutsu: Controle Espacial e Biwa de Portal",
+    "debutArc": "Trem Infinito",
+    "status": "Falecido",
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139736-CrfqAqlktDTP.png",
+    "quote": "",
+    "techniques": [
+      "Biwa de Reposicionamento do Castelo Infinito"
+    ]
+  },
+  {
+    "id": "michikatsu-tsugikuni",
+    "name": "Michikatsu Tsugikuni",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Caçadores de Demônios",
+      "Era Sengoku"
+    ],
+    "styleOrPower": "Respiração da Lua",
+    "ability": "Corte da Lua Crescente",
+    "debutArc": "Castelo Infinito",
+    "status": "Falecido",
+    "avatar": "https://i.pinimg.com/736x/d1/55/bb/d155bb5711842060309cb13dae39390c.jpg",
+    "quote": "",
+    "techniques": [
+      "Primeira Forma: Yamidzuki - Yoi no Miya (Lua Sombria)",
+      "Segunda Forma: Shusa no Yojitsuki",
+      "Terceira Forma: Gakyo - Tsugari Tsuki"
+    ]
+  },
+  {
+    "id": "hakuji",
+    "name": "Hakuji (Humano / Akaza)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Dojo Soryu"
+    ],
+    "styleOrPower": "Nenhum",
+    "debutArc": "Castelo Infinito",
+    "status": "Morto",
+    "quote": "Eu vou ficar mais forte do que qualquer um para proteger quem eu amo!",
+    "ability": "Artes Marciais do Estilo Soryu",
+    "avatar": "https://i.redd.it/lb106e6x6juf1.jpg"
+  }
+]

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: #030712;
+    --bg-surface: #0d1426;
+    --bg-surface-secondary: #111a2d;
+    --border-subtle: #202b43;
+    --text-main: #f5f7ff;
+    --text-muted: #8994ad;
+    --accent-theme: #f43f5e;
+    --color-success: #19b77a;
+    --color-warning: #e5a72f;
+    --color-error: #e63946;
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-main);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Scrollbar for sleek dark table scroll */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #070c18;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1f2c47;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #334366;
+}
+
+/* Modal Fade-In */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* 3D Card Flip Animation */
+@keyframes cardFlip {
+  0% {
+    transform: perspective(600px) rotateY(90deg) scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(600px) rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-cardFlip {
+  animation: cardFlip 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  backface-visibility: hidden;
+}
+
+/* Incorrect guess subtle horizontal shake */
+@keyframes subtleShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-3px); }
+  40%, 80% { transform: translateX(3px); }
+}
+
+.animate-shake {
+  animation: subtleShake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
