@@ -1543,5 +1543,189 @@
     "quote": "Eu vou ficar mais forte do que qualquer um para proteger quem eu amo!",
     "ability": "Artes Marciais do Estilo Soryu",
     "avatar": "https://i.redd.it/lb106e6x6juf1.jpg"
+  },
+  {
+    "id": "mukago",
+    "name": "Mukago",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki",
+      "Doze Kizuki (Lua Inferior 4)"
+    ],
+    "styleOrPower": "Kekkijutsu Desconhecido",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Falecida",
+    "quote": "Por favor, poupe minha vida, Muzan-sama!",
+    "ability": "Medo Extremo dos Caçadores e Hashiras",
+    "avatar": "/avatars/demon-slayer/mukago.png",
+    "techniques": []
+  },
+  {
+    "id": "wakuraba",
+    "name": "Wakuraba",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki",
+      "Doze Kizuki (Lua Inferior 3)"
+    ],
+    "styleOrPower": "Super Velocidade",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Falecido",
+    "quote": "Tentar fugir do castelo era sua única chance desesperada de sobrevivência.",
+    "ability": "Agilidade e Regeneração Aprimorada",
+    "avatar": "/avatars/demon-slayer/wakuraba.png",
+    "techniques": []
+  },
+  {
+    "id": "rokkuro",
+    "name": "Rokkuro",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki",
+      "Doze Kizuki (Lua Inferior 2)"
+    ],
+    "styleOrPower": "Força Demoníaca",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Falecido",
+    "quote": "Se você me der mais do seu sangue, com certeza ficarei mais forte!",
+    "ability": "Suplica por mais sangue de Muzan",
+    "avatar": "/avatars/demon-slayer/rokkuro.png",
+    "techniques": []
+  },
+  {
+    "id": "kamanue",
+    "name": "Kamanue",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Doze Kizuki",
+      "Doze Kizuki (Lua Inferior 6)"
+    ],
+    "styleOrPower": "Kekkijutsu Desconhecido",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Falecido",
+    "quote": "Não posso prever os pensamentos de Muzan-sama...",
+    "ability": "Primeira vítima do expurgo das Luas Inferiores",
+    "avatar": "/avatars/demon-slayer/kamanue.png",
+    "techniques": []
+  },
+  {
+    "id": "naho-takada",
+    "name": "Naho Takada",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Mansão Borboleta",
+      "Suporte"
+    ],
+    "styleOrPower": "Cuidados Médicos e Enfermagem",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Viva",
+    "quote": "Uma das três meninas que ajudam nos cuidados dos caçadores feridos na Mansão Borboleta.",
+    "ability": "Tratamento e Reabilitação de Pacientes",
+    "avatar": "/avatars/demon-slayer/naho-takada.png",
+    "techniques": []
+  },
+  {
+    "id": "kiyo-terauchi",
+    "name": "Kiyo Terauchi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Mansão Borboleta",
+      "Suporte"
+    ],
+    "styleOrPower": "Cuidados Médicos e Enfermagem",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Viva",
+    "quote": "Auxiliar dedicada da Mansão Borboleta que ajuda no treino de recuperação.",
+    "ability": "Tratamento e Reabilitação de Pacientes",
+    "avatar": "/avatars/demon-slayer/kiyo-terauchi.png",
+    "techniques": []
+  },
+  {
+    "id": "sumi-nakahara",
+    "name": "Sumi Nakahara",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Mansão Borboleta",
+      "Suporte"
+    ],
+    "styleOrPower": "Cuidados Médicos e Enfermagem",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Viva",
+    "quote": "Sempre torcendo pela recuperação completa de Tanjiro e seus amigos.",
+    "ability": "Tratamento e Reabilitação de Pacientes",
+    "avatar": "/avatars/demon-slayer/sumi-nakahara.png",
+    "techniques": []
+  },
+  {
+    "id": "goto",
+    "name": "Goto",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores",
+      "Suporte"
+    ],
+    "styleOrPower": "Brigada de Limpeza e Resgate (Kakushi)",
+    "debutArc": "Treinamento de Reabilitação",
+    "status": "Vivo",
+    "quote": "Acorda logo, Tanjiro! Você tem ideia do trabalho que deu trazer você até aqui?!",
+    "ability": "Operações de Campo e Resgate de Feridos",
+    "avatar": "/avatars/demon-slayer/goto.png",
+    "techniques": []
+  },
+  {
+    "id": "ozaki",
+    "name": "Ozaki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Caçadores"
+    ],
+    "styleOrPower": "Respiração da Água",
+    "debutArc": "Montanha Natagumo",
+    "status": "Falecida",
+    "quote": "Por favor, fujam! Tragam caçadores de ranking superior!",
+    "ability": "Espadachim do Esquadrão controlada pelas teias da Família Aranha",
+    "avatar": "/avatars/demon-slayer/ozaki.png",
+    "techniques": []
+  },
+  {
+    "id": "spider-brother",
+    "name": "Irmão Aranha",
+    "gender": "Masculino",
+    "species": "Oni",
+    "affiliation": [
+      "Família Aranha"
+    ],
+    "styleOrPower": "Kekkijutsu de Transformação e Veneno de Aranha",
+    "debutArc": "Montanha Natagumo",
+    "status": "Falecido",
+    "quote": "Você vai se transformar em uma aranha dentro de trinta minutos!",
+    "ability": "Veneno de Mutação Aracnídea",
+    "avatar": "/avatars/demon-slayer/spider-brother.png",
+    "techniques": []
+  },
+  {
+    "id": "spider-sister-older",
+    "name": "Irmã Aranha Mais Velha",
+    "gender": "Feminino",
+    "species": "Oni",
+    "affiliation": [
+      "Família Aranha"
+    ],
+    "styleOrPower": "Kekkijutsu de Casulos Ácidos e Fios de Prisão",
+    "debutArc": "Montanha Natagumo",
+    "status": "Falecida",
+    "quote": "Tudo o que eu fiz foi para sobreviver nesta família de mentira!",
+    "ability": "Casulos Dissolventes de Carne",
+    "avatar": "/avatars/demon-slayer/spider-sister-older.png",
+    "techniques": []
   }
 ]

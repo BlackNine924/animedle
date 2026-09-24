@@ -400,7 +400,7 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "orochimaru",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2455-V9tLMS3TIgJW.png",
+    "avatar": "/avatars/naruto/orochimaru.png",
     "quote": "Ninguém pode dizer o que é certo ou errado. Isso vale até mesmo para os deuses.",
     "styleOrPower": "Espada Kusanagi"
   },
@@ -1599,7 +1599,7 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "shino-aburame",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3428-KVeHMgx0xMqO.png"
+    "avatar": "/avatars/naruto/shino-aburame.png"
   },
   {
     "name": "Kurenai Yuhi",
@@ -4159,5 +4159,567 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Falecido",
     "avatar": "/avatars/naruto/ginkaku.png"
+  },
+  {
+    "id": "teuchi",
+    "name": "Teuchi (Tio do Lámen)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Introdução",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/teuchi.png",
+    "quote": "Um bom ramen aquece qualquer coração ferido!",
+    "styleOrPower": "Culinária de Ramen Ichiraku"
+  },
+  {
+    "id": "ayame",
+    "name": "Ayame",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Introdução",
+    "status": "Viva",
+    "avatar": "/avatars/naruto/ayame.png",
+    "quote": "Bem-vindo ao Ramen Ichiraku! O que vai querer hoje, Naruto?",
+    "styleOrPower": "Atendimento e Culinária de Ramen"
+  },
+  {
+    "id": "hanabi-hyuuga",
+    "name": "Hanabi Hyuuga",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hyuuga"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Taijutsu",
+      "Doujutsu"
+    ],
+    "kekkeiGenkai": [
+      "Byakugan"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Viva",
+    "avatar": "/avatars/naruto/hanabi-hyuuga.png",
+    "quote": "Irmã mais nova de Hinata e herdeira prodígio do clã Hyuuga.",
+    "styleOrPower": "Juuken (Punho Gentil)"
+  },
+  {
+    "id": "moegi-kazamatsuri",
+    "name": "Moegi Kazamatsuri",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Terra",
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Mokuton"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Introdução",
+    "status": "Viva",
+    "avatar": "/avatars/naruto/moegi-kazamatsuri.png",
+    "quote": "Companheira de equipe de Konohamaru e Udon no Esquadrão Konohamaru.",
+    "styleOrPower": "Ninjutsu e Estilo Madeira"
+  },
+  {
+    "id": "udon-ise",
+    "name": "Udon Ise",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Introdução",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/udon-ise.png",
+    "quote": "Membro do Time Konohamaru que sempre usava óculos com coriza.",
+    "styleOrPower": "Técnicas de Liberação de Água"
+  },
+  {
+    "id": "pakkun",
+    "name": "Pakkun",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Hatake"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Esmagamento de Konoha",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/pakkun.png",
+    "quote": "Sou um cão ninja farejador, não um lutador de frente!",
+    "styleOrPower": "Rastreamento Olfativo e Cães Ninjas"
+  },
+  {
+    "id": "tonton",
+    "name": "Tonton",
+    "gender": "Feminino",
+    "affiliation": [
+      "Konoha"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Busca por Tsunade",
+    "status": "Viva",
+    "avatar": "/avatars/naruto/tonton.png",
+    "quote": "Oink! A porquinha de estimação de Tsunade e Shizune com olfato aguçado.",
+    "styleOrPower": "Faro Aguçado"
+  },
+  {
+    "id": "torune-aburame",
+    "name": "Torune Aburame",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Aburame"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Kinjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Falecido",
+    "avatar": "/avatars/naruto/torune-aburame.png",
+    "quote": "Guarda-costas de Danzo na Fundação Ne portador dos besouros venenosos rinkaichu.",
+    "styleOrPower": "Insetos Venenosos Rinkaichu"
+  },
+  {
+    "id": "foo-yamanaka",
+    "name": "Foo Yamanaka",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Clã Yamanaka"
+    ],
+    "natureTypes": [
+      "Nenhuma"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Reunião dos Cinco Kage",
+    "status": "Falecido",
+    "avatar": "/avatars/naruto/foo-yamanaka.png",
+    "quote": "Guarda-costas de Danzo Shimura especialista nas técnicas mentais do clã Yamanaka.",
+    "styleOrPower": "Shintenshin no Jutsu e Armadilhas de Transferência"
+  },
+  {
+    "id": "shukaku",
+    "name": "Shukaku",
+    "gender": "Masculino",
+    "affiliation": [
+      "Suna",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Vento",
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Jiton"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Exame Chūnin",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/shukaku.png",
+    "quote": "O Ichibi (Uma-Cauda), besta de areia e selamento lendário.",
+    "styleOrPower": "Manipulação de Areia e Selamento Fuinjutsu"
+  },
+  {
+    "id": "matatabi",
+    "name": "Matatabi",
+    "gender": "Feminino",
+    "affiliation": [
+      "Kumo",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Viva",
+    "avatar": "/avatars/naruto/matatabi.png",
+    "quote": "O Nibi (Duas-Caudas), gato fantasmagórico envolto em chamas azuis.",
+    "styleOrPower": "Chamas Azuis de Fogo Infernal"
+  },
+  {
+    "id": "isobu",
+    "name": "Isobu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Genjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Aparição do Três-Caudas",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/isobu.png",
+    "quote": "O Sanbi (Três-Caudas), tartaruga gigante encouraçada de águas profundas.",
+    "styleOrPower": "Projéteis de Água e Onda de Choque"
+  },
+  {
+    "id": "son-goku",
+    "name": "Son Goku",
+    "gender": "Masculino",
+    "affiliation": [
+      "Iwa",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Terra"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Yoton"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/son-goku.png",
+    "quote": "O Yonbi (Quatro-Caudas), rei dos macacos sábios das cavernas de lava.",
+    "styleOrPower": "Liberação de Lava (Yoton)"
+  },
+  {
+    "id": "kokuo",
+    "name": "Kokuo",
+    "gender": "Feminino",
+    "affiliation": [
+      "Iwa",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu"
+    ],
+    "kekkeiGenkai": [
+      "Futton"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Viva",
+    "avatar": "/avatars/naruto/kokuo.png",
+    "quote": "O Gobi (Cinco-Caudas), cavalo-baleia pacífico com poder de vapor fervente.",
+    "styleOrPower": "Liberação de Vapor (Futton) e Cargas Físicas"
+  },
+  {
+    "id": "saiken",
+    "name": "Saiken",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kiri",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Água"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/saiken.png",
+    "quote": "O Rokubi (Seis-Caudas), lesma gigante que expele ácidos e substâncias corrosivas.",
+    "styleOrPower": "Gás Ácido Corrosivo e Muco Pegajoso"
+  },
+  {
+    "id": "chomei",
+    "name": "Chomei",
+    "gender": "Masculino",
+    "affiliation": [
+      "Takigakure",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/chomei.png",
+    "quote": "O Nanabi (Sete-Caudas), besouro alado jovial apelidado de Número Sete da Sorte.",
+    "styleOrPower": "Voo, Pó Cegante e Rajadas de Vento"
+  },
+  {
+    "id": "gyuki",
+    "name": "Gyuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Água",
+      "Raio"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Taijutsu",
+      "Fuinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Missão de Perseguição a Itachi",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/gyuki.png",
+    "quote": "O Hachibi (Oito-Caudas), touro-polvo leal parceiro de Killer Bee.",
+    "styleOrPower": "Tinta Cegante, Tentáculos e Bijuudama"
+  },
+  {
+    "id": "kurama",
+    "name": "Kurama",
+    "gender": "Masculino",
+    "affiliation": [
+      "Konoha",
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Senjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Introdução",
+    "status": "Falecido",
+    "avatar": "/avatars/naruto/kurama.png",
+    "quote": "A lendária Raposa de Nove-Caudas (Kyuubi) que compartilhou seu chakra com Naruto.",
+    "styleOrPower": "Sensoriamento de Emoções Negativas e Bijuudama Devastadora"
+  },
+  {
+    "id": "atsui",
+    "name": "Atsui",
+    "gender": "Masculino",
+    "affiliation": [
+      "Kumo"
+    ],
+    "natureTypes": [
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Kenjutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Vivo",
+    "avatar": "/avatars/naruto/atsui.png",
+    "quote": "Irmão de Samui que luta com sua espada flamejante e a palavra quente!",
+    "styleOrPower": "Kenjutsu Flamejante"
+  },
+  {
+    "id": "matsuri",
+    "name": "Matsuri",
+    "gender": "Feminino",
+    "affiliation": [
+      "Suna"
+    ],
+    "natureTypes": [
+      "Vento"
+    ],
+    "jutsuTypes": [
+      "Bukijutsu",
+      "Ninjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Missão de Resgate do Kazekage",
+    "status": "Viva",
+    "avatar": "/avatars/naruto/matsuri.png",
+    "quote": "A discípula mais leal e devota de Gaara armada com um dardo com corda.",
+    "styleOrPower": "Bukijutsu com Jouhyou"
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo da Salamandra",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ame"
+    ],
+    "natureTypes": [
+      "Água",
+      "Fogo"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Bukijutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Nenhuma"
+    ],
+    "attributes": [
+      "Nenhum"
+    ],
+    "debutArc": "Conto de Jiraiya, o Destemido",
+    "status": "Falecido",
+    "avatar": "/avatars/naruto/hanzo.png",
+    "quote": "O líder lendário de Amegakure que batizou os Três Sannin Lendários de Konoha.",
+    "styleOrPower": "Veneno da Salamandra Negra e Kusarigama"
   }
 ]

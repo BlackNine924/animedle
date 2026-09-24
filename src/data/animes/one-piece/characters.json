@@ -453,7 +453,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Falecido",
     "quote": "O One Piece é real!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2751-NnzW0N2vCTjX.jpg",
+    "avatar": "/avatars/one-piece/edward-newgate.png",
     "techniques": [
       "Impacto Sísmico de Terremoto",
       "Bisento Murakumogiri"
@@ -1157,7 +1157,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/5420.jpg",
+    "avatar": "/avatars/one-piece/dorry.png",
     "quote": "",
     "techniques": [
       "Hakoku Sovereignty com Brogy"
@@ -1177,7 +1177,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/5421.jpg",
+    "avatar": "/avatars/one-piece/brogy.png",
     "quote": "",
     "techniques": [
       "Hakoku Sovereignty com Dorry"
@@ -2359,7 +2359,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b19168-ANaaigEPt3FW.png",
+    "avatar": "/avatars/one-piece/duval.png",
     "quote": "",
     "techniques": [
       "Disparo de Harpão com Búfalo de Montaria"
@@ -2623,7 +2623,7 @@
   },
   {
     "id": "saul-jaguar",
-    "name": "Saul Jaguar",
+    "name": "Jaguar D. Saul",
     "gender": "Masculino",
     "species": "Gigante",
     "affiliation": [
@@ -2636,7 +2636,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20330-T9ZMmA9LBlDc.jpg",
+    "avatar": "/avatars/one-piece/jaguar-d-saul.png",
     "quote": "",
     "techniques": [
       "Arremesso de Navios",
@@ -4965,5 +4965,624 @@
       "Blue Sword",
       "Karakuni"
     ]
+  },
+  {
+    "id": "hody-jones",
+    "name": "Hody Jones",
+    "gender": "Masculino",
+    "species": "Tritão (Grande Tubarão Branco)",
+    "affiliation": [
+      "Novos Piratas Tritões"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Karatê Homem-Peixe e Esteroides de Energia",
+    "debutArc": "Ilha dos Tritões",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/hody-jones.png",
+    "quote": "Os humanos são uma raça inferior que merece ser eliminada!"
+  },
+  {
+    "id": "vander-decken-ix",
+    "name": "Vander Decken IX",
+    "gender": "Masculino",
+    "species": "Tritão (Tubarão Cabeça-de-Touro)",
+    "affiliation": [
+      "Piratas Flying"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Mato Mato no Mi)",
+    "debutArc": "Ilha dos Tritões",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/vander-decken-ix.png",
+    "quote": "Shirahoshi, meu amor eterno só terminará com a sua morte!"
+  },
+  {
+    "id": "kurozumi-kanjuro",
+    "name": "Kanjuro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Kozuki",
+      "Piratas das Feras"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Fude Fude no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Falecido",
+    "avatar": "/avatars/one-piece/kurozumi-kanjuro.png",
+    "quote": "Eu vivi minha vida inteira no palco, atuando como o mais leal servo dos Kozuki!"
+  },
+  {
+    "id": "monet",
+    "name": "Monet",
+    "gender": "Feminino",
+    "species": "Humano (Harpia)",
+    "affiliation": [
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Logia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Logia (Yuki Yuki no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Falecida",
+    "avatar": "/avatars/one-piece/monet.png",
+    "quote": "Jovem Mestre... você é o único destinado a se tornar o Rei dos Piratas!"
+  },
+  {
+    "id": "vergo",
+    "name": "Vergo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Donquixote",
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Oni-Take e Revestimento Completo de Busoshoku",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Falecido",
+    "avatar": "/avatars/one-piece/vergo.png",
+    "quote": "Chame-me de Vice-Almirante Vergo com o devido respeito."
+  },
+  {
+    "id": "trebol",
+    "name": "Trebol",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 99000000,
+    "styleOrPower": "Paramecia (Beta Beta no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/trebol.png",
+    "quote": "Nee, nee, Doffy! Você nasceu com o sangue de um rei supremo!"
+  },
+  {
+    "id": "diamante",
+    "name": "Diamante",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 99000000,
+    "styleOrPower": "Paramecia (Hira Hira no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/diamante.png",
+    "quote": "O herói do Coliseu Corrida sou eu, Diamante!"
+  },
+  {
+    "id": "pica",
+    "name": "Pica",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 99000000,
+    "styleOrPower": "Paramecia (Ishi Ishi no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/pica.png",
+    "quote": "Qualquer um que rir da minha voz será esmagado pela rocha!"
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Hobi Hobi no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Viva",
+    "avatar": "/avatars/one-piece/sugar.png",
+    "quote": "Um simples toque da minha mão e o mundo inteiro esquecerá que você existiu."
+  },
+  {
+    "id": "senor-pink",
+    "name": "Senor Pink",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento",
+    "bounty": 58000000,
+    "styleOrPower": "Paramecia (Sui Sui no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/senor-pink.png",
+    "quote": "Homens de verdade bebem com orgulho e nunca recuam de um duelo leal."
+  },
+  {
+    "id": "whos-who",
+    "name": "Who's-Who",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 546000000,
+    "styleOrPower": "Zoan Ancestral (Neko Neko no Mi: Modelo Dente-de-Sabre)",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/whos-who.png",
+    "quote": "Eu perdi todo o meu futuro na CP9 por causa de uma simples Gomu Gomu no Mi!"
+  },
+  {
+    "id": "sasaki-op",
+    "name": "Sasaki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 472000000,
+    "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Tricerátops)",
+    "debutArc": "País de Wano",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/sasaki-op.png",
+    "quote": "A couraça e o helicóptero de um Tricerátops são absolutos!"
+  },
+  {
+    "id": "black-maria",
+    "name": "Black Maria",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas das Feras"
+    ],
+    "fruitType": "Zoan Ancestral",
+    "haki": "Armamento & Observação",
+    "bounty": 480000000,
+    "styleOrPower": "Zoan Ancestral (Kumo Kumo no Mi: Modelo Rosamygale Grauvogeli)",
+    "debutArc": "País de Wano",
+    "status": "Viva",
+    "avatar": "/avatars/one-piece/black-maria.png",
+    "quote": "Venha cá, garotinho mimado... deixe-me cuidar de você."
+  },
+  {
+    "id": "sentomaru",
+    "name": "Sentomaru",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha",
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Ashigara Dokkoi e Defesa Mais Forte do Mundo",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/sentomaru.png",
+    "quote": "Minha boca é mais dura que o aço! E minha defesa é impenetrável!"
+  },
+  {
+    "id": "t-bone",
+    "name": "T-Bone",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento",
+    "bounty": 0,
+    "styleOrPower": "Cortes de Espada Retos em Ângulo Reto",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Falecido",
+    "avatar": "/avatars/one-piece/t-bone.png",
+    "quote": "Mesmo que meus ossos se quebrem, não permitirei que inocentes sofram ferimentos!"
+  },
+  {
+    "id": "momonga",
+    "name": "Momonga",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Rokushiki e Kenjutsu de Espada Longa",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/momonga.png",
+    "quote": "A dor de uma faca esfaqueando a própria mão limpa a mente de pensamentos vis."
+  },
+  {
+    "id": "onigumo",
+    "name": "Onigumo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Estilo Oito Espadas e Fisiologia de Aranha",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/onigumo.png",
+    "quote": "Mesmo que tenhamos que afundar nossos próprios navios, a Justiça Absoluta prevalecerá!"
+  },
+  {
+    "id": "doberman",
+    "name": "Doberman",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Kenjutsu e Justiça Absoluta da Marinha",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/doberman.png",
+    "quote": "Piratas não devem ser perdoados sob circunstância alguma!"
+  },
+  {
+    "id": "bogard",
+    "name": "Bogard",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 0,
+    "styleOrPower": "Kenjutsu Veloz e Braço-Direito de Garp",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/bogard.png",
+    "quote": "O silencioso braço-direito do Herói da Marinha Monkey D. Garp."
+  },
+  {
+    "id": "brannew",
+    "name": "Brannew",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Estratégia e Cálculo de Recompensas Mundiais",
+    "debutArc": "East Blue",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/brannew.png",
+    "quote": "Atenção a todos os oficiais: este é o homem que devemos monitorar!"
+  },
+  {
+    "id": "kong",
+    "name": "Kong",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação & Conquistador",
+    "bounty": 0,
+    "styleOrPower": "Comandante-Chefe do Governo Mundial",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/kong.png",
+    "quote": "Ex-Almirante de Frota que supervisiona o exército, a marinha e a Cipher Pol."
+  },
+  {
+    "id": "donquixote-mjosgard",
+    "name": "Donquixote Mjosgard",
+    "gender": "Masculino",
+    "species": "Nobre Mundial (Tenryuubito)",
+    "affiliation": [
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Clube Físico e Defensor dos Homens-Peixe",
+    "debutArc": "Ilha dos Tritões",
+    "status": "Falecido",
+    "avatar": "/avatars/one-piece/donquixote-mjosgard.png",
+    "quote": "A Rainha Otohime me ensinou o que significa ser um verdadeiro ser humano."
+  },
+  {
+    "id": "hannyabal",
+    "name": "Hannyabal",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Impel Down",
+      "Governo Mundial"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Naginata Flamejante (Suisui Sui)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/hannyabal.png",
+    "quote": "Se escória como vocês sair para as ruas, o mundo se encherá de terror e pranto!"
+  },
+  {
+    "id": "sai",
+    "name": "Sai",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 210000000,
+    "styleOrPower": "Hasshoken (Punho das Oito Extremidades)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/sai.png",
+    "quote": "Eu sou Don Sai, 13º líder da Marinha Happo e comandante da 3ª divisão dos Chapéus de Palha!"
+  },
+  {
+    "id": "baby-5",
+    "name": "Baby 5",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Buki Buki no Mi)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Viva",
+    "avatar": "/avatars/one-piece/baby-5.png",
+    "quote": "Você... precisa de mim?! Então farei qualquer coisa por você!"
+  },
+  {
+    "id": "leo",
+    "name": "Leo",
+    "gender": "Masculino",
+    "species": "Anão (Tontatta)",
+    "affiliation": [
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento",
+    "bounty": 66000000,
+    "styleOrPower": "Paramecia (Nui Nui no Mi) e Tontatta Combat",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/leo.png",
+    "quote": "Líder dos Tontatta e comandante da 5ª divisão da Grande Frota dos Chapéus de Palha!"
+  },
+  {
+    "id": "ideo",
+    "name": "Ideo",
+    "gender": "Masculino",
+    "species": "Tribo dos Braços-Longos",
+    "affiliation": [
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Punho Destruidor do Canhão Hakai Ho",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/ideo.png",
+    "quote": "Campeão de artes marciais do Novo Mundo e líder da Aliança de Artes Marciais XXX."
+  },
+  {
+    "id": "blue-gilly",
+    "name": "Blue Gilly",
+    "gender": "Masculino",
+    "species": "Tribo das Pernas-Longas",
+    "affiliation": [
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Joutoudo (Arte Marcial das Pernas Longas)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/blue-gilly.png",
+    "quote": "Chutes de chicote de longo alcance e velocidade incrível."
+  },
+  {
+    "id": "orlumbus",
+    "name": "Orlumbus",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 148000000,
+    "styleOrPower": "Teitoku Chicote e Arremesso de Colossos",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/orlumbus.png",
+    "quote": "Comandante da Grande Frota Yonta Maria com 56 navios de guerra."
+  },
+  {
+    "id": "elizabello-ii",
+    "name": "Elizabello II",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Realeza",
+      "Grande Frota dos Chapéus de Palha"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento",
+    "bounty": 0,
+    "styleOrPower": "King Punch (Punho do Rei Capaz de Derrubar Fortalezas)",
+    "debutArc": "Dressrosa / Punk Hazard",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/elizabello-ii.png",
+    "quote": "Rei de Prodence que pode derrubar um imperador com uma hora de aquecimento!"
+  },
+  {
+    "id": "inazuma",
+    "name": "Inazuma",
+    "gender": "Outro",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Revolucionário"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Choki Choki no Mi)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/inazuma.png",
+    "quote": "Braço-direito de Emporio Ivankov capaz de cortar qualquer superfície como papel."
+  },
+  {
+    "id": "izo",
+    "name": "Izo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Barba Branca",
+      "Nove Bainhas Vermelhas"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Armamento & Observação",
+    "bounty": 510000000,
+    "styleOrPower": "Pistolas Duplas e Dança de Wano",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Falecido",
+    "avatar": "/avatars/one-piece/izo.png",
+    "quote": "Irmão mais velho de Kikunojo e 16º comandante dos Piratas do Barba Branca."
+  },
+  {
+    "id": "little-oars-jr",
+    "name": "Little Oars Jr.",
+    "gender": "Masculino",
+    "species": "Gigante Ancestral",
+    "affiliation": [
+      "Piratas do Barba Branca"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 550000000,
+    "styleOrPower": "Força Colossal de Gigante Ancestral",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Falecido",
+    "avatar": "/avatars/one-piece/little-oars-jr.png",
+    "quote": "Ace me deu este chapéu de palha para me proteger do sol e da neve... Eu o salvarei!"
+  },
+  {
+    "id": "pekoms",
+    "name": "Pekoms",
+    "gender": "Masculino",
+    "species": "Tribo Mink",
+    "affiliation": [
+      "Piratas Big Mom",
+      "Tribo Mink"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 330000000,
+    "styleOrPower": "Zoan (Kame Kame no Mi) e Eletro",
+    "debutArc": "Ilha dos Tritões",
+    "status": "Desconhecido",
+    "avatar": "/avatars/one-piece/pekoms.png",
+    "quote": "Aqueles que confiam demais na intocabilidade da Logia morrem jovens no Novo Mundo, gao!"
+  },
+  {
+    "id": "tamago",
+    "name": "Barão Tamago",
+    "gender": "Masculino",
+    "species": "Tribo das Pernas-Longas",
+    "affiliation": [
+      "Piratas Big Mom"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Armamento & Observação",
+    "bounty": 429000000,
+    "styleOrPower": "Zoan (Tama Tama no Mi: Visconde Hiyoko & Conde Niwatori)",
+    "debutArc": "Ilha dos Tritões",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/tamago.png",
+    "quote": "Bonsoir! Um cavalheiro das pernas longas que sempre bebe seu chá com elegância."
+  },
+  {
+    "id": "mont-blanc-cricket",
+    "name": "Mont Blanc Cricket",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Civil"
+    ],
+    "fruitType": "Nenhuma",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Mergulho de Alta Pressão e Pistolas",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "avatar": "/avatars/one-piece/mont-blanc-cricket.png",
+    "quote": "Eu não busco o ouro de Noland para provar nada a ninguém, mas sim para acertar as contas com aquele mentiroso!"
   }
 ]

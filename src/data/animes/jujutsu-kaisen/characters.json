@@ -1226,7 +1226,7 @@
     "grade": "Grau 2",
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b274304-ojg0z8KpZGtW.jpg",
+    "avatar": "/avatars/jujutsu-kaisen/charles-bernard.png",
     "domainExpansion": null
   },
   {
@@ -1531,6 +1531,196 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b272175-wBjreG7iB9n2.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "finger-bearer",
+    "name": "Portador dos Dedos",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Manipulação de Energia Amaldiçoada Bruta",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Falecido",
+    "quote": "Feto amaldiçoado de Grau Especial nascido ao consumir um dos dedos de Sukuna.",
+    "ability": "Disparos Puros de Energia Amaldiçoada",
+    "grade": "Grau Especial",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "/avatars/jujutsu-kaisen/finger-bearer.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "grasshopper-curse",
+    "name": "Gafanhoto Amaldiçoado",
+    "gender": "Masculino",
+    "species": "Maldição",
+    "affiliation": [
+      "Maldições"
+    ],
+    "styleOrPower": "Força Muscular & Fisiologia de Gafanhoto",
+    "debutArc": "Incidente de Shibuya",
+    "status": "Falecido",
+    "quote": "Eu sou esperto! Sou muito esperto!",
+    "ability": "Fisiologia de Gafanhoto e Mandíbulas Esmagadoras",
+    "grade": "Grau 2",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "/avatars/jujutsu-kaisen/grasshopper-curse.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "remi",
+    "name": "Remi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Cabelo de Escorpião",
+    "debutArc": "Jogo do Abate",
+    "status": "Viva",
+    "quote": "Você vai me proteger, não vai?",
+    "ability": "Manipulação e Ferrão Capilar",
+    "grade": "Grau 3",
+    "era": "Moderna (Jogo do Abate)",
+    "techniqueType": "Inata Própria",
+    "avatar": "/avatars/jujutsu-kaisen/remi.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "haba",
+    "name": "Haba",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Hélice de Propulsão Corporal",
+    "debutArc": "Jogo do Abate",
+    "status": "Falecido",
+    "quote": "Jogador do Jogo do Abate na Colônia de Tóquio Nº 1.",
+    "ability": "Hélices de Voo e Perfuração",
+    "grade": "Grau 2",
+    "era": "Moderna (Jogo do Abate)",
+    "techniqueType": "Inata Própria",
+    "avatar": "/avatars/jujutsu-kaisen/haba.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "hanyu",
+    "name": "Hanyu",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Planador e Asas de Jato",
+    "debutArc": "Jogo do Abate",
+    "status": "Falecida",
+    "quote": "Jogadora do Jogo do Abate aliada a Haba.",
+    "ability": "Propulsão Aérea e Voo",
+    "grade": "Grau 2",
+    "era": "Moderna (Jogo do Abate)",
+    "techniqueType": "Inata Própria",
+    "avatar": "/avatars/jujutsu-kaisen/hanyu.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "amai-rin",
+    "name": "Amai Rin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Criação e Saída de Açúcar",
+    "debutArc": "Jogo do Abate",
+    "status": "Vivo",
+    "quote": "Eu só quero sobreviver neste jogo maluco.",
+    "ability": "Manipulação de Matéria Doce / Açúcar",
+    "grade": "Grau 4",
+    "era": "Moderna (Jogo do Abate)",
+    "techniqueType": "Inata Própria",
+    "avatar": "/avatars/jujutsu-kaisen/amai-rin.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "nobuko-takada",
+    "name": "Takada-chan",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Feiticeiros Livres"
+    ],
+    "styleOrPower": "Idol Pop & Inspiração Mental",
+    "debutArc": "Festival de Intercâmbio de Kyoto",
+    "status": "Viva",
+    "quote": "Oi, eu sou a Takada-chan! Altura: 1,80m!",
+    "ability": "Inspiração Mental em Aoi Todo",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "/avatars/jujutsu-kaisen/nobuko-takada.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "yuko-ozawa",
+    "name": "Yuko Ozawa",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Itadori"
+    ],
+    "styleOrPower": "Nenhum (Civil)",
+    "debutArc": "Origem da Obediência",
+    "status": "Viva",
+    "quote": "O Itadori me elogiou pela minha caligrafia e personalidade no fundamental.",
+    "ability": "Civil sem energia amaldiçoada",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "/avatars/jujutsu-kaisen/yuko-ozawa.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "sasaki",
+    "name": "Setsuko Sasaki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Itadori"
+    ],
+    "styleOrPower": "Pesquisa Ocultista (Civil)",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Viva",
+    "quote": "Presidente do Clube de Pesquisa Oculta da Escola Sugisawa.",
+    "ability": "Investigação Oculta",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "/avatars/jujutsu-kaisen/sasaki.png",
+    "domainExpansion": null
+  },
+  {
+    "id": "iguchi",
+    "name": "Takeshi Iguchi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Itadori"
+    ],
+    "styleOrPower": "Pesquisa Ocultista (Civil)",
+    "debutArc": "Introdução / Feto Amaldiçoado",
+    "status": "Vivo",
+    "quote": "Membro do Clube de Pesquisa Oculta que desenterrou o dedo de Sukuna.",
+    "ability": "Investigação Oculta",
+    "grade": "Não Classificado",
+    "era": "Moderna",
+    "techniqueType": "Sem Técnica Inata",
+    "avatar": "/avatars/jujutsu-kaisen/iguchi.png",
     "domainExpansion": null
   }
 ]

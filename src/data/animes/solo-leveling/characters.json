@@ -1051,5 +1051,69 @@
     "status": "Falecido",
     "avatar": "/avatars/solo-leveling/jo-kyuhwan.png",
     "styleOrPower": "Explosão Mágica"
+  },
+  {
+    "id": "gina",
+    "name": "Gina",
+    "gender": "Feminino",
+    "species": "Humana",
+    "affiliation": [
+      "Guilda Hunters"
+    ],
+    "rank": "A-Rank",
+    "country": "Coreia do Sul",
+    "debutArc": "O Portal da Guilda dos Caçadores",
+    "status": "Viva",
+    "quote": "Caçadora de Rank A da divisão de magos da Guilda Hunters.",
+    "avatar": "/avatars/solo-leveling/gina.png",
+    "styleOrPower": "Telecinese"
+  },
+  {
+    "id": "ippei-izawa",
+    "name": "Ippei Izawa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecido",
+    "quote": "Caçador Rank S japonês da Guilda Draw Sword.",
+    "avatar": "/avatars/solo-leveling/ippei-izawa.png",
+    "styleOrPower": "Combate Corporal"
+  },
+  {
+    "id": "mari-ishida",
+    "name": "Mari Ishida",
+    "gender": "Feminino",
+    "species": "Humana",
+    "affiliation": [
+      "Guilda Draw Sword"
+    ],
+    "rank": "S-Rank",
+    "country": "Japão",
+    "debutArc": "O arco da Ilha de Jeju",
+    "status": "Falecida",
+    "quote": "Caçadora Rank S da Guilda Draw Sword e usuária de lâminas duplas.",
+    "avatar": "/avatars/solo-leveling/mari-ishida.png",
+    "styleOrPower": "Combate com Lâminas"
+  },
+  {
+    "id": "groctar",
+    "name": "Groctar",
+    "gender": "Masculino",
+    "species": "Monstro (Orc)",
+    "affiliation": [
+      "Habitantes das Dungeons"
+    ],
+    "rank": "Chefe de Dungeon",
+    "country": "Dimensão de Dungeon",
+    "debutArc": "Arco da Guilda Ahjin",
+    "status": "Falecido",
+    "quote": "Lorde dos Altos Orcs que invadiu o mundo humano.",
+    "avatar": "/avatars/solo-leveling/groctar.png",
+    "styleOrPower": "Força Bruta & Fúria dos Orcs"
   }
 ]
