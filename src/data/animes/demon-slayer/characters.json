@@ -722,7 +722,7 @@
   },
   {
     "id": "chachamaru",
-    "name": "Chachamaru (Gato da Tamayo)",
+    "name": "Chachamaru",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -836,7 +836,7 @@
   },
   {
     "id": "hantengu",
-    "name": "Hantengu (Corpo Principal)",
+    "name": "Hantengu",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -854,7 +854,7 @@
   },
   {
     "id": "sekido",
-    "name": "Sekido (Emoção da Raiva)",
+    "name": "Sekido",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -872,7 +872,7 @@
   },
   {
     "id": "karaku",
-    "name": "Karaku (Emoção da Alegria)",
+    "name": "Karaku",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -890,7 +890,7 @@
   },
   {
     "id": "aizetsu",
-    "name": "Aizetsu (Emoção da Tristeza)",
+    "name": "Aizetsu",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -908,7 +908,7 @@
   },
   {
     "id": "urogi",
-    "name": "Urogi (Emoção do Prazer)",
+    "name": "Urogi",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -926,7 +926,7 @@
   },
   {
     "id": "zohakuten",
-    "name": "Zohakuten (Emoção do Ódio)",
+    "name": "Zohakuten",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -967,7 +967,7 @@
   },
   {
     "id": "daki",
-    "name": "Daki (Lua Superior 6)",
+    "name": "Daki",
     "gender": "Feminino",
     "species": "Oni",
     "affiliation": [
@@ -978,7 +978,7 @@
     "status": "Morto",
     "quote": "Eu sou linda e forte! Meu irmão vai matar todos vocês!",
     "ability": "Manipulação de Fita Obi Nichirin-Resistente",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139734-ZEy1ccFcwjaK.jpg",
+    "avatar": "/avatars/demon-slayer/daki.png",
     "techniques": [
       "Cortes de Faixas de Seda Óssea",
       "Vórtice de Faixas de Seda Afiadas"
@@ -986,7 +986,7 @@
   },
   {
     "id": "gyutaro",
-    "name": "Gyutaro (Lua Superior 6)",
+    "name": "Gyutaro",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -1090,7 +1090,7 @@
   },
   {
     "id": "kyogai",
-    "name": "Kyogai (Demônio do Tambor)",
+    "name": "Kyogai",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -1235,7 +1235,7 @@
   },
   {
     "id": "tanjuro-kamado",
-    "name": "Tanjuro Kamado (Pai do Tanjiro)",
+    "name": "Tanjuro Kamado",
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
@@ -1250,7 +1250,7 @@
   },
   {
     "id": "kie-kamado",
-    "name": "Kie Kamado (Mãe do Tanjiro)",
+    "name": "Kie Kamado",
     "gender": "Feminino",
     "species": "Humano",
     "affiliation": [
@@ -1473,7 +1473,7 @@
   },
   {
     "id": "hairo",
-    "name": "Hairo (Ex-Lua Inferior 2)",
+    "name": "Hairo",
     "gender": "Masculino",
     "species": "Oni",
     "affiliation": [
@@ -1491,7 +1491,7 @@
   },
   {
     "id": "nakime",
-    "name": "Nakime (Lua Superior 4)",
+    "name": "Nakime",
     "gender": "Feminino",
     "species": "Oni",
     "affiliation": [
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "hakuji",
-    "name": "Hakuji (Humano / Akaza)",
+    "name": "Hakuji",
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [

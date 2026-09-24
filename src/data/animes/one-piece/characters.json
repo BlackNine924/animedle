@@ -23,7 +23,7 @@
   },
   {
     "id": "nico-robin",
-    "name": "Nico Robin (Miss All Sunday)",
+    "name": "Nico Robin",
     "gender": "Feminino",
     "species": "Humano",
     "affiliation": [
@@ -245,7 +245,7 @@
   },
   {
     "id": "nefertari-vivi",
-    "name": "Nefertari Vivi (Miss Wednesday)",
+    "name": "Nefertari Vivi",
     "gender": "Feminino",
     "species": "Humano",
     "affiliation": [
@@ -634,7 +634,7 @@
   },
   {
     "id": "roger-gold",
-    "name": "Roger Gold",
+    "name": "Gol D. Roger",
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
@@ -1938,7 +1938,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Falecido",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126948-2yL8YEIqLLpq.png",
+    "avatar": "/avatars/one-piece/nero.png",
     "quote": "",
     "techniques": [
       "Soru",
@@ -4370,7 +4370,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Thriller Bark",
     "status": "Falecido",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17178-SczXHzLzZqzn.jpg",
+    "avatar": "/avatars/one-piece/ryuma.png",
     "techniques": [
       "Aubade Coup D'Droit",
       "Corte do Dragão"
@@ -4750,23 +4750,6 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126109-aMp1clod63vA.jpg"
-  },
-  {
-    "id": "wyper",
-    "name": "Wyper",
-    "gender": "Masculino",
-    "species": "Shandian",
-    "affiliation": [
-      "Shandia",
-      "Guerreiros de Shandia"
-    ],
-    "haki": "Nenhum",
-    "bounty": 0,
-    "styleOrPower": "Burn Bazooka / Dial",
-    "fruitType": "Nenhuma",
-    "debutArc": "Skypiea",
-    "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7644-4sCeX6T4WtTO.jpg"
   },
   {
     "id": "shamrock",
