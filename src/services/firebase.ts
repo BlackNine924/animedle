@@ -2,15 +2,16 @@ import { initializeApp, getApps, getApp } from 'firebase/app';
 import { getAuth, signInAnonymously, onAuthStateChanged, User, GoogleAuthProvider, linkWithPopup } from 'firebase/auth';
 import { getDatabase, ref, set, get, child, update, runTransaction, onValue } from 'firebase/database';
 
-// Firebase configuration using Vite environment variables with graceful fallback
+// Firebase configuration using Vite environment variables with production defaults
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDummyKeyForDevelopment123456",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "animedle-app.firebaseapp.com",
-  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL || "https://animedle-app-default-rtdb.firebaseio.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "animedle-app",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "animedle-app.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "1234567890",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:1234567890:web:abcdef123456"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyBuwEHxspFyEG8nGhRTJ9Gj9Td9R7_yIyg",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "animedle-41c69.firebaseapp.com",
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL || "https://animedle-41c69-default-rtdb.firebaseio.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "animedle-41c69",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "animedle-41c69.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "575024340561",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:575024340561:web:e55326b2f0850d46ce6270",
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-4END8CPS46"
 };
 
 // Initialize Firebase app singleton
