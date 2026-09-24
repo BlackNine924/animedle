@@ -4721,5 +4721,41 @@
     "avatar": "/avatars/naruto/hanzo.png",
     "quote": "O líder lendário de Amegakure que batizou os Três Sannin Lendários de Konoha.",
     "styleOrPower": "Veneno da Salamandra Negra e Kusarigama"
+  },
+  {
+    "id": "juubi",
+    "name": "Juubi (Dez-Caudas)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Nenhuma"
+    ],
+    "natureTypes": [
+      "Fogo",
+      "Vento",
+      "Raio",
+      "Terra",
+      "Água",
+      "Yin",
+      "Yang",
+      "Yin-Yang"
+    ],
+    "jutsuTypes": [
+      "Ninjutsu",
+      "Senjutsu",
+      "Fuinjutsu",
+      "Kinjutsu"
+    ],
+    "kekkeiGenkai": [
+      "Rinnegan",
+      "Mokuton"
+    ],
+    "attributes": [
+      "Invocação"
+    ],
+    "debutArc": "Quarta Guerra Mundial Shinobi",
+    "status": "Selado",
+    "avatar": "/avatars/naruto/juubi.png",
+    "quote": "A besta primordial e progenitora de todo o chakra do mundo ninja.",
+    "styleOrPower": "Bijuudama Planetária, Cataclismo Tenpenchii & Liberação de Madeira"
   }
 ]
