@@ -408,6 +408,16 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     columns: [],
     arcs: []
   },
+  'tensei-shitara-slime-datta-ken': {
+    slug: 'tensei-shitara-slime-datta-ken',
+    title: 'Tensei Shitara Slime Datta Ken',
+    subtitle: 'Fuse',
+    themeColor: '#0ea5e9',
+    accentColor: '#0284c7',
+    banner: '💧',
+    columns: [],
+    arcs: []
+  },
   'tokyo-ghoul': {
     slug: 'tokyo-ghoul',
     title: 'Tokyo Ghoul',

@@ -49,7 +49,7 @@ export const App: React.FC = () => {
   // Troca de anime garantindo fechamento de modal de vitória anterior
   const handleSelectAnime = (newAnimeSlug: string) => {
     setCurrentAnimeSlug(newAnimeSlug);
-    if (newAnimeSlug === 'solo-leveling' && (currentMode === 'quote' || currentMode === 'ability')) {
+    if ((newAnimeSlug === 'solo-leveling' || newAnimeSlug === 'blue-lock') && (currentMode === 'quote' || currentMode === 'ability')) {
       setCurrentMode('classic');
     }
     setShowVictoryModal(false);

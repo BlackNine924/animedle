@@ -21,7 +21,7 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({ currentMode, onSelec
     { id: 'endless', label: 'Treino', icon: <InfinityIcon size={15} /> },
   ];
 
-  if (currentAnimeSlug === 'solo-leveling') {
+  if (currentAnimeSlug === 'solo-leveling' || currentAnimeSlug === 'blue-lock') {
     modes = modes.filter((m) => m.id !== 'quote' && m.id !== 'ability');
   }
 
