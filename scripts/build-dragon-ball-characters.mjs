@@ -422,23 +422,7 @@ export const DRAGON_BALL_ROSTER = [
     techniques: ['Paralisia Telecinética', 'Dodonpa', 'Autodestruição Sacrificial']
   },
 
-  // --- Piccolo Daimaoh ---
-  {
-    id: 'piccolo-daimaoh',
-    name: 'Piccolo Daimaoh',
-    searchName: 'King Piccolo',
-    fandomName: 'King Piccolo',
-    gender: 'Sem Gênero',
-    species: 'Namekuseijin',
-    affiliation: ['Clã Demônio'],
-    origin: 'Namekusei',
-    maxRelease: 'Juventude Restaurada',
-    styleOrPower: 'Bakurikimaha (Onda Explosiva)',
-    debutArc: 'Piccolo Daimaoh',
-    status: 'Morto',
-    quote: 'O mundo agora pertence ao Rei Demônio Piccolo! O terror e o caos prevalecerão!',
-    techniques: ['Bakurikimaha', 'Geração de Ovos de Demônios', 'Raios Oculares']
-  },
+
   {
     id: 'tambourine',
     name: 'Tambourine',

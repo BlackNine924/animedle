@@ -527,27 +527,7 @@
     ],
     "avatar": "/avatars/dragon-ball/chaos.png"
   },
-  {
-    "id": "piccolo-daimaoh",
-    "name": "Piccolo Daimaoh",
-    "gender": "Sem Gênero",
-    "species": "Namekuseijin",
-    "affiliation": [
-      "Clã Demônio"
-    ],
-    "origin": "Namekusei",
-    "maxRelease": "Juventude Restaurada",
-    "styleOrPower": "Bakurikimaha (Onda Explosiva)",
-    "debutArc": "Piccolo Daimaoh",
-    "status": "Morto",
-    "quote": "O mundo agora pertence ao Rei Demônio Piccolo! O terror e o caos prevalecerão!",
-    "techniques": [
-      "Bakurikimaha",
-      "Geração de Ovos de Demônios",
-      "Raios Oculares"
-    ],
-    "avatar": "/avatars/dragon-ball/piccolo-daimaoh.png"
-  },
+
   {
     "id": "tambourine",
     "name": "Tambourine",
