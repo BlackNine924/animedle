@@ -428,18 +428,5 @@
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/heimdall.png"
-  },
-  {
-    "id": "grigori-rasputin",
-    "name": "Grigori Rasputin",
-    "gender": "Masculino",
-    "faction": "Humanidade",
-    "pantheonOrOrigin": "História Humana (Rússia)",
-    "weapon": "Völundr Desconhecido",
-    "round": "Lutador Futuro",
-    "styleOrPower": "Misticismo e Imortalidade Lendária",
-    "debutArc": "1ª Rodada: Lu Bu vs Thor",
-    "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/rasputin.png"
   }
 ]

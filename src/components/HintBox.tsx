@@ -52,7 +52,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
         <div className="flex items-center justify-between border-b border-[#202b43] pb-3 mb-3.5">
           <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
             <Lightbulb size={16} className="text-amber-400 animate-pulse" />
-            <span>Dicas da Grand Line</span>
+            <span>Pistas da rodada</span>
           </div>
           {!isWon && !disabled && (
             <button
@@ -222,7 +222,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
       <div className="flex items-center justify-between border-b border-[#202b43] pb-3 mb-3.5">
         <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
           <Lightbulb size={16} className="text-amber-400 animate-pulse" />
-          <span>Dicas da Corporação</span>
+          <span>Pistas da rodada</span>
         </div>
         {!isWon && !disabled && (
           <button
