@@ -21,6 +21,16 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     columns: [],
     arcs: []
   },
+  'berserk': {
+    slug: 'berserk',
+    title: 'Berserk',
+    subtitle: 'Kentaro Miura',
+    themeColor: '#dc2626',
+    accentColor: '#991b1b',
+    banner: '🗡️',
+    columns: [],
+    arcs: []
+  },
   'bleach': {
     slug: 'bleach',
     title: 'Bleach',
@@ -104,7 +114,7 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
   },
   'dandadan': {
     slug: 'dandadan',
-    title: 'Dandadan',
+    title: 'DAN DA DAN',
     subtitle: 'Yukinobu Tatsu',
     themeColor: '#06b6d4',
     accentColor: '#0891b2',

@@ -1,60 +1,94 @@
 import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-const logos = [
-  'logo-bleach.png',
-  'logo-blue-lock.png',
-  'logo-demon-slayer.png',
-  'logo-dragon-ball.png',
-  'logo-jujutsu-kaisen.png',
-  'logo-naruto.png',
-  'logo-one-piece.png',
-  'logo-record-of-ragnarok.png',
-  'logo-solo-leveling.png',
-  'logo.png'
-];
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const rootDir = path.resolve(__dirname, '..');
 
-async function standardizeLogos() {
-  // 384x384 is over 10x larger than the 36x36 display size (w-9 h-9),
-  // providing ultra-crisp Retina clarity while shrinking file sizes from 750KB to ~25KB.
-  const targetCanvas = 384;
-  const contentTarget = 360; // exact same 3.1% margin all around
+export const LOGO_SPECS = {
+  canvasSize: 384,
+  contentTarget: 360, // 12px margin each side (~3.1%), ensures exact visual scale match
+  compressionLevel: 9,
+  quality: 95
+};
 
-  for (const filename of logos) {
-    const filePath = path.join('public', filename);
-    if (!fs.existsSync(filePath)) {
-      console.warn(`File not found: ${filePath}`);
-      continue;
+/**
+ * Standardize any logo image to the project's canonical 384x384 canvas
+ * with exact trimmed bounding box and centered placement.
+ * @param {string|Buffer} input - Input image path or Buffer
+ * @param {string} outputPath - Destination file path
+ */
+export async function standardizeLogo(input, outputPath) {
+  const { canvasSize, contentTarget, compressionLevel, quality } = LOGO_SPECS;
+
+  // 1. Trim transparency to isolate pure artwork
+  const trimmed = await sharp(input).trim().toBuffer({ resolveWithObject: true });
+
+  // 2. Scale artwork inside contentTarget box preserving aspect ratio
+  const resized = await sharp(trimmed.data)
+    .resize(contentTarget, contentTarget, { fit: 'inside' })
+    .toBuffer({ resolveWithObject: true });
+
+  // 3. Composite into centered square canvas
+  const left = Math.round((canvasSize - resized.info.width) / 2);
+  const top = Math.round((canvasSize - resized.info.height) / 2);
+
+  const standardized = await sharp({
+    create: {
+      width: canvasSize,
+      height: canvasSize,
+      channels: 4,
+      background: { r: 0, g: 0, b: 0, alpha: 0 }
     }
+  })
+    .composite([{ input: resized.data, left, top }])
+    .png({ compressionLevel, quality })
+    .toBuffer();
 
-    // 1. Trim transparency to get pure bounding box of the artwork
-    const trimmed = await sharp(filePath).trim().toBuffer({ resolveWithObject: true });
+  fs.writeFileSync(outputPath, standardized);
+  console.log(`✓ Logo padronizada com sucesso em: ${outputPath} (${(standardized.length / 1024).toFixed(1)} KB)`);
+  return standardized;
+}
 
-    // 2. Resize content to fit inside contentTarget x contentTarget preserving aspect ratio
-    const resized = await sharp(trimmed.data)
-      .resize(contentTarget, contentTarget, { fit: 'inside' })
-      .toBuffer({ resolveWithObject: true });
+// CLI Execution:
+// Usage 1: node scripts/standardize-logos.mjs (processes all logos in public/)
+// Usage 2: node scripts/standardize-logos.mjs <inputImage> <outputLogoNameOrPath>
+async function main() {
+  const args = process.argv.slice(2);
 
-    // 3. Composite into centered square canvas of 384 x 384
-    const left = Math.round((targetCanvas - resized.info.width) / 2);
-    const top = Math.round((targetCanvas - resized.info.height) / 2);
+  if (args.length >= 1) {
+    const inputPath = args[0];
+    let outputPath = args[1] || inputPath;
+    if (!outputPath.includes('/') && !outputPath.includes('\\')) {
+      outputPath = path.join(rootDir, 'public', outputPath);
+    }
+    await standardizeLogo(inputPath, outputPath);
+    return;
+  }
 
-    const standardized = await sharp({
-      create: {
-        width: targetCanvas,
-        height: targetCanvas,
-        channels: 4,
-        background: { r: 0, g: 0, b: 0, alpha: 0 }
-      }
-    })
-      .composite([{ input: resized.data, left, top }])
-      .png({ compressionLevel: 9, quality: 95 })
-      .toBuffer();
+  const allLogos = [
+    'logo-bleach.png',
+    'logo-blue-lock.png',
+    'logo-demon-slayer.png',
+    'logo-dragon-ball.png',
+    'logo-jujutsu-kaisen.png',
+    'logo-naruto.png',
+    'logo-one-piece.png',
+    'logo-record-of-ragnarok.png',
+    'logo-solo-leveling.png',
+    'logo.png'
+  ];
 
-    fs.writeFileSync(filePath, standardized);
-    console.log(`Optimized ${filename}: ${(standardized.length / 1024).toFixed(1)} KB`);
+  for (const filename of allLogos) {
+    const filePath = path.join(rootDir, 'public', filename);
+    if (fs.existsSync(filePath)) {
+      await standardizeLogo(filePath, filePath);
+    }
   }
 }
 
-standardizeLogos();
+if (process.argv[1] === __filename) {
+  main();
+}
