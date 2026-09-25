@@ -41,6 +41,26 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     columns: [],
     arcs: []
   },
+  'chainsaw-man': {
+    slug: 'chainsaw-man',
+    title: 'Chainsaw Man',
+    subtitle: 'Tatsuki Fujimoto',
+    themeColor: '#ea580c',
+    accentColor: '#c2410c',
+    banner: '🪚',
+    columns: [],
+    arcs: []
+  },
+  'dandadan': {
+    slug: 'dandadan',
+    title: 'Dandadan',
+    subtitle: 'Yukinobu Tatsu',
+    themeColor: '#06b6d4',
+    accentColor: '#0891b2',
+    banner: '🛸',
+    columns: [],
+    arcs: []
+  },
   'demon-slayer': {
     slug: 'demon-slayer',
     title: 'Demon Slayer',
@@ -78,6 +98,36 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#eab308',
     accentColor: '#ca8a04',
     banner: '🐉',
+    columns: [],
+    arcs: []
+  },
+  'fairy-tail': {
+    slug: 'fairy-tail',
+    title: 'Fairy Tail',
+    subtitle: 'Hiro Mashima',
+    themeColor: '#ec4899',
+    accentColor: '#db2777',
+    banner: '👆',
+    columns: [],
+    arcs: []
+  },
+  'fullmetal-alchemist': {
+    slug: 'fullmetal-alchemist',
+    title: 'Fullmetal Alchemist',
+    subtitle: 'Hiromu Arakawa',
+    themeColor: '#e11d48',
+    accentColor: '#be123c',
+    banner: '⚗️',
+    columns: [],
+    arcs: []
+  },
+  'haikyuu': {
+    slug: 'haikyuu',
+    title: 'Haikyuu!!',
+    subtitle: 'Haruichi Furudate',
+    themeColor: '#f59e0b',
+    accentColor: '#d97706',
+    banner: '🏐',
     columns: [],
     arcs: []
   },
@@ -132,6 +182,36 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Preparativos do Jogo do Abate',
       'Jogo do Abate'
     ]
+  },
+  'kaiju-no-8': {
+    slug: 'kaiju-no-8',
+    title: 'Kaiju No. 8',
+    subtitle: 'Naoya Matsumoto',
+    themeColor: '#10b981',
+    accentColor: '#059669',
+    banner: '🦖',
+    columns: [],
+    arcs: []
+  },
+  'my-hero-academia': {
+    slug: 'my-hero-academia',
+    title: 'My Hero Academia',
+    subtitle: 'Kohei Horikoshi',
+    themeColor: '#22c55e',
+    accentColor: '#16a34a',
+    banner: '💥',
+    columns: [],
+    arcs: []
+  },
+  'nanatsu-no-taizai': {
+    slug: 'nanatsu-no-taizai',
+    title: 'Nanatsu no Taizai',
+    subtitle: 'Nakaba Suzuki',
+    themeColor: '#84cc16',
+    accentColor: '#65a30d',
+    banner: '🐉',
+    columns: [],
+    arcs: []
   },
   'naruto': {
     slug: 'naruto',
@@ -206,6 +286,16 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Egghead',
       'Elbaf'
     ]
+  },
+  'one-punch-man': {
+    slug: 'one-punch-man',
+    title: 'One Punch Man',
+    subtitle: 'ONE / Yusuke Murata',
+    themeColor: '#eab308',
+    accentColor: '#ca8a04',
+    banner: '👊',
+    columns: [],
+    arcs: []
   },
   'pokemon': {
     slug: 'pokemon',
@@ -290,5 +380,25 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Epílogo',
       'O arco da Academia'
     ]
+  },
+  'sword-art-online': {
+    slug: 'sword-art-online',
+    title: 'Sword Art Online',
+    subtitle: 'Reki Kawahara',
+    themeColor: '#3b82f6',
+    accentColor: '#2563eb',
+    banner: '⚔️',
+    columns: [],
+    arcs: []
+  },
+  'tokyo-ghoul': {
+    slug: 'tokyo-ghoul',
+    title: 'Tokyo Ghoul',
+    subtitle: 'Sui Ishida',
+    themeColor: '#dc2626',
+    accentColor: '#b91c1c',
+    banner: '☕',
+    columns: [],
+    arcs: []
   }
 };

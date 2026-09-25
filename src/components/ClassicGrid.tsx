@@ -6,9 +6,10 @@ import { getCategoryDescription } from '../utils/categoryDescriptions';
 interface ClassicGridProps {
   columns: AttributeColumn[];
   guesses: GuessResult[];
+  animeSlug?: string;
 }
 
-export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses }) => {
+export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, animeSlug }) => {
   if (guesses.length === 0) {
     return (
       <div className="text-center py-14 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-3xl mx-auto my-8 bg-[#0d1426]/40 backdrop-blur-sm">
@@ -32,26 +33,27 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses }) =>
   };
 
   return (
-    <div className="w-full my-6 overflow-x-auto custom-scrollbar pt-10 pb-4 -mt-4">
+    <div className="w-full my-6 overflow-x-auto custom-scrollbar pb-8">
       <table className="w-full border-separate border-spacing-2.5 min-w-[960px]">
         <thead>
           <tr>
             <th
               className="group relative p-2 text-xs font-black uppercase text-slate-400 tracking-wider text-left min-w-[190px] cursor-help select-none"
-              title={getCategoryDescription('Personagem')}
+              title={getCategoryDescription('Personagem', animeSlug)}
             >
               <span className="inline-flex items-center gap-1.5 border-b border-dotted border-slate-600 group-hover:border-amber-400 group-hover:text-amber-300 transition-colors">
                 <span>Personagem</span>
                 <HelpCircle size={12} className="text-slate-500 group-hover:text-amber-400 transition-colors flex-shrink-0" />
               </span>
-              <div className="pointer-events-none absolute bottom-full left-2 mb-2.5 w-60 p-2.5 bg-[#0a0f1d] border border-amber-500/40 text-slate-200 text-xs font-medium normal-case tracking-normal rounded-xl shadow-2xl opacity-0 group-hover:opacity-100 transition-all duration-200 z-50 text-left">
+              <div className="pointer-events-none absolute top-full left-0 mt-2 w-64 p-3 bg-[#0a0f1d] border border-amber-500/50 text-slate-200 text-xs font-medium normal-case tracking-normal rounded-xl shadow-2xl opacity-0 group-hover:opacity-100 transition-all duration-200 z-50 text-left">
                 <p className="font-extrabold text-amber-400 mb-0.5 text-xs">Personagem</p>
-                <p className="leading-snug text-slate-300">{getCategoryDescription('Personagem')}</p>
-                <div className="absolute top-full left-6 border-4 border-transparent border-t-amber-500/40" />
+                <p className="leading-snug text-slate-300">{getCategoryDescription('Personagem', animeSlug)}</p>
+                <div className="absolute bottom-full left-6 border-4 border-transparent border-b-amber-500/50" />
               </div>
             </th>
-            {columns.map((col) => {
-              const explanation = getCategoryDescription(col.label);
+            {columns.map((col, colIdx) => {
+              const explanation = getCategoryDescription(col.label, animeSlug);
+              const isLast = colIdx >= columns.length - 2;
               return (
                 <th
                   key={col.key}
@@ -62,10 +64,14 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses }) =>
                     <span>{col.label}</span>
                     <HelpCircle size={12} className="text-slate-500 group-hover:text-amber-400 transition-colors flex-shrink-0" />
                   </span>
-                  <div className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 w-60 p-2.5 bg-[#0a0f1d] border border-amber-500/40 text-slate-200 text-xs font-medium normal-case tracking-normal rounded-xl shadow-2xl opacity-0 group-hover:opacity-100 transition-all duration-200 z-50 text-center">
+                  <div className={`pointer-events-none absolute top-full mt-2 w-64 p-3 bg-[#0a0f1d] border border-amber-500/50 text-slate-200 text-xs font-medium normal-case tracking-normal rounded-xl shadow-2xl opacity-0 group-hover:opacity-100 transition-all duration-200 z-50 text-center ${
+                    isLast ? 'right-0 left-auto translate-x-0' : 'left-1/2 -translate-x-1/2'
+                  }`}>
                     <p className="font-extrabold text-amber-400 mb-0.5 text-xs">{col.label}</p>
                     <p className="leading-snug text-slate-300">{explanation}</p>
-                    <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-amber-500/40" />
+                    <div className={`absolute bottom-full border-4 border-transparent border-b-amber-500/50 ${
+                      isLast ? 'right-8' : 'left-1/2 -translate-x-1/2'
+                    }`} />
                   </div>
                 </th>
               );
@@ -102,7 +108,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses }) =>
                 const arrow = cell?.arrow;
                 const displayVal = Array.isArray(value) ? value.join(', ') : value;
                 const isLatest = guessIndex === 0;
-                const explanation = getCategoryDescription(col.label);
+                const explanation = getCategoryDescription(col.label, animeSlug);
 
                 return (
                   <td key={col.key} className="p-0" title={`${col.label}: ${explanation}`}>

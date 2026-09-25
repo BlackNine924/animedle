@@ -592,7 +592,7 @@ export const App: React.FC = () => {
               themeColor={animeConfig.themeColor}
             />
 
-            <ClassicGrid columns={animeConfig.columns} guesses={currentGuesses} />
+            <ClassicGrid columns={animeConfig.columns} guesses={currentGuesses} animeSlug={currentAnimeSlug} />
           </div>
         )}
 
@@ -757,7 +757,7 @@ export const App: React.FC = () => {
               themeColor={animeConfig.themeColor}
             />
 
-            <ClassicGrid columns={animeConfig.columns} guesses={currentGuesses} />
+            <ClassicGrid columns={animeConfig.columns} guesses={currentGuesses} animeSlug={currentAnimeSlug} />
           </div>
         )}
 
