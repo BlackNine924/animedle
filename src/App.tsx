@@ -8,6 +8,7 @@ import { VictoryModal } from './components/VictoryModal';
 import { HowToPlayModal } from './components/HowToPlayModal';
 import { StatsModal } from './components/StatsModal';
 import { HintBox } from './components/HintBox';
+import { MangaCoverageModal } from './components/MangaCoverageModal';
 
 import { ANIMES_CONFIG } from './data/animes/config';
 import demonSlayerCharacters from './data/animes/demon-slayer/characters.json';
@@ -19,7 +20,7 @@ import recordOfRagnarokCharacters from './data/animes/record-of-ragnarok/charact
 import blueLockCharacters from './data/animes/blue-lock/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
-import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame } from 'lucide-react';
+import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
 
 export const App: React.FC = () => {
   const [currentAnimeSlug, setCurrentAnimeSlug] = useState<string>('demon-slayer');
@@ -261,6 +262,7 @@ export const App: React.FC = () => {
   const [showVictoryModal, setShowVictoryModal] = useState<boolean>(false);
   const [showHowToPlay, setShowHowToPlay] = useState<boolean>(false);
   const [showStats, setShowStats] = useState<boolean>(false);
+  const [showMangaCoverage, setShowMangaCoverage] = useState<boolean>(false);
 
   // Estatísticas Globais do Jogador
   const [stats, setStats] = useState<GameStats>(() => {
@@ -529,6 +531,25 @@ export const App: React.FC = () => {
           <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
             Adivinhe o Personagem de <span style={{ color: animeConfig.themeColor }}>{animeConfig.title}</span>
           </h2>
+          {animeConfig.mangaCoverage && (
+            <div className="mt-2.5 flex items-center justify-center">
+              <button
+                onClick={() => setShowMangaCoverage(true)}
+                className="group inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0d1426]/90 hover:bg-[#111a2d] border border-[#202b43] hover:border-slate-500/50 text-slate-300 hover:text-white text-xs font-semibold shadow-md transition-all active:scale-95"
+                title="Ver detalhes de canonicidade e cobertura do mangá"
+              >
+                <BookOpen size={13} style={{ color: animeConfig.themeColor }} />
+                <span>
+                  {animeConfig.mangaCoverage.status === 'Finalizado'
+                    ? `Mangá Finalizado • Cap. ${animeConfig.mangaCoverage.chapter}`
+                    : `Atualizado até o Cap. ${animeConfig.mangaCoverage.chapter}`}
+                </span>
+                <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded-md bg-slate-800 text-slate-400 group-hover:text-slate-200">
+                  Canônico
+                </span>
+              </button>
+            </div>
+          )}
           {currentMode === 'endless' && (
             <p className="text-xs sm:text-sm text-slate-400 mt-1.5 max-w-lg mx-auto">
               Treine sem limites! Adivinhe quantos personagens conseguir em sequência.
@@ -804,6 +825,12 @@ export const App: React.FC = () => {
 
       {showHowToPlay && <HowToPlayModal onClose={() => setShowHowToPlay(false)} />}
       {showStats && <StatsModal stats={stats} onClose={() => setShowStats(false)} />}
+      {showMangaCoverage && (
+        <MangaCoverageModal
+          animeConfig={animeConfig}
+          onClose={() => setShowMangaCoverage(false)}
+        />
+      )}
     </div>
   );
 };

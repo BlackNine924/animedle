@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "audit": "node scripts/audit-system.mjs",
     "audit:lore": "node scripts/audit-lore.mjs",
+    "audit:coverage": "node scripts/manga-coverage-audit.mjs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

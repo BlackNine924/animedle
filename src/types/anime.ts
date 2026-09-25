@@ -44,6 +44,15 @@ export interface AttributeColumn {
   type: 'exact' | 'array' | 'status' | 'arc' | 'bounty';
 }
 
+export interface MangaCoverage {
+  chapter: string | number;
+  status: 'Em Lançamento' | 'Finalizado';
+  source: string;
+  officialPublisher: string;
+  lastUpdated: string;
+  notes: string;
+}
+
 export interface AnimeConfig {
   slug: string;
   title: string;
@@ -54,6 +63,7 @@ export interface AnimeConfig {
   logo?: string;
   columns: AttributeColumn[];
   arcs: string[];
+  mangaCoverage?: MangaCoverage;
 }
 
 export interface MatchResultCell {

@@ -56,7 +56,15 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Partida contra a Seleção Japão Sub-20',
       'Liga Neo Egoísta (NEL)',
       'Copa do Mundo Sub-20'
-    ]
+    ],
+    mangaCoverage: {
+      chapter: 361,
+      status: 'Em Lançamento',
+      source: 'Weekly Shōnen Magazine (Kodansha)',
+      officialPublisher: 'Kodansha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Atualizado com a Copa do Mundo Sub-20 (Japão x Inglaterra), incluindo jogadores das seleções mundiais, Nova Geração 11 e todas as ofertas da Liga Neo Egoísta (NEL).'
+    }
   },
   'chainsaw-man': {
     slug: 'chainsaw-man',
@@ -106,7 +114,15 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Treinamento Hashira',
       'Castelo Infinito',
       'Contagem Regressiva para o Alvorecer'
-    ]
+    ],
+    mangaCoverage: {
+      chapter: 205,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa (Cap. 1 ao 205), contemplando os arcos do Castelo Infinito, Alvorecer, Gaidens oficiais e Fanbooks.'
+    }
   },
   'dragon-ball': {
     slug: 'dragon-ball',
@@ -198,7 +214,15 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Extermínio de Itadori',
       'Preparativos do Jogo do Abate',
       'Jogo do Abate'
-    ]
+    ],
+    mangaCoverage: {
+      chapter: 271,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa (Cap. 1 ao 271), contemplando o Confronto em Shinjuku, desfecho de Ryomen Sukuna e epílogo oficial.'
+    }
   },
   'kaiju-no-8': {
     slug: 'kaiju-no-8',
@@ -268,7 +292,15 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Nascimento do Jinchuuriki',
       'Ataque de Kaguya Otsutsuki',
       'The Last'
-    ]
+    ],
+    mangaCoverage: {
+      chapter: 700,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa (Cap. 1 ao 700), cobrindo Naruto Clássico, Shippuden, Quarta Grande Guerra Ninja e Databooks Oficiais I-IV.'
+    }
   },
   'one-piece': {
     slug: 'one-piece',
@@ -302,7 +334,15 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'País de Wano',
       'Egghead',
       'Elbaf'
-    ]
+    ],
+    mangaCoverage: {
+      chapter: 1125,
+      status: 'Em Lançamento',
+      source: 'Weekly Shōnen Jump / Manga Plus (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Arco de Egghead concluído e transição para Elbaf, com todas as recompensas oficiais atualizadas (Cross Guild, Yonkou e Governo Mundial).'
+    }
   },
   'one-punch-man': {
     slug: 'one-punch-man',
@@ -353,7 +393,15 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       '8ª Rodada: Nikola Tesla vs Belzebuth',
       '9ª Rodada: Leonidas vs Apolo',
       '10ª Rodada: Okita Souji vs Susanoo-no-Mikoto'
-    ]
+    ],
+    mangaCoverage: {
+      chapter: 96,
+      status: 'Em Lançamento',
+      source: 'Monthly Comic Zenon (Coamix)',
+      officialPublisher: 'Coamix',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Atualizado até a 10ª Rodada do Ragnarok (Okita Souji vs Susanoo-no-Mikoto) e acontecimentos dos bastidores do Valhalla.'
+    }
   },
   'solo-leveling': {
     slug: 'solo-leveling',
@@ -396,7 +444,15 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'O arco da batalha final',
       'Epílogo',
       'O arco da Academia'
-    ]
+    ],
+    mangaCoverage: {
+      chapter: 200,
+      status: 'Finalizado',
+      source: 'KakaoPage / D&C Media (Redice Studio)',
+      officialPublisher: 'D&C Media',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Manhwa canônico completo (Capítulos 1 ao 179 da história principal mais as histórias secundárias e epílogo até o capítulo 200).'
+    }
   },
   'sword-art-online': {
     slug: 'sword-art-online',
