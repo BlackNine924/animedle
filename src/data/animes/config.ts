@@ -144,6 +144,16 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     columns: [],
     arcs: []
   },
+  'frieren': {
+    slug: 'frieren',
+    title: 'Frieren',
+    subtitle: 'Kanehito Yamada',
+    themeColor: '#10b981',
+    accentColor: '#059669',
+    banner: '🪄',
+    columns: [],
+    arcs: []
+  },
   'fullmetal-alchemist': {
     slug: 'fullmetal-alchemist',
     title: 'Fullmetal Alchemist',
@@ -404,6 +414,16 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       lastUpdated: 'Setembro / 2026',
       notes: 'Atualizado até o Capítulo 124, contemplando a 11ª Rodada completa (vitória de Simo Häyhä sobre Loki) e a 12ª Rodada em andamento (Kintoki Sakata vs Odin).'
     }
+  },
+  'romance': {
+    slug: 'romance',
+    title: 'Romance',
+    subtitle: 'Junção de Várias Obras',
+    themeColor: '#f43f5e',
+    accentColor: '#e11d48',
+    banner: '💖',
+    columns: [],
+    arcs: []
   },
   'solo-leveling': {
     slug: 'solo-leveling',
