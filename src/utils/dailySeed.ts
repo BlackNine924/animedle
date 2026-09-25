@@ -219,13 +219,27 @@ export function evaluateGuess(
           arrow: gBounty < tBounty ? 'up' : 'down'
         };
       }
-    } else if (col.type === 'status') {
+    } else if (col.type === 'status' || col.key === 'status') {
       const gStr = (guessedVal as string) || '';
       const tStr = (targetVal as string) || '';
 
-      const isBothDead = gStr.startsWith('Morto') && tStr.startsWith('Morto');
-      const isBothAlive = gStr.startsWith('Vivo') && tStr.startsWith('Vivo');
-      const isExact = gStr === tStr || isBothDead || isBothAlive;
+      const normalizeStatusVal = (s: string) => {
+        const lower = s.trim().toLowerCase();
+        if (lower.startsWith('viv')) return 'vivo';
+        if (lower.startsWith('mort')) return 'morto';
+        if (lower.startsWith('eliminad')) return 'eliminado';
+        if (lower.startsWith('ativ')) return 'ativo';
+        if (lower.startsWith('pres')) return 'preso';
+        if (lower.startsWith('incapacitad')) return 'incapacitado';
+        if (lower.startsWith('curad')) return 'curado';
+        if (lower.startsWith('selad')) return 'selado';
+        return lower;
+      };
+
+      const gNorm = normalizeStatusVal(gStr);
+      const tNorm = normalizeStatusVal(tStr);
+
+      const isExact = gStr.trim().toLowerCase() === tStr.trim().toLowerCase() || (gNorm !== '' && gNorm === tNorm);
 
       matches[col.key] = {
         status: isExact ? 'correct' : 'incorrect',

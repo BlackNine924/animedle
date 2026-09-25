@@ -161,7 +161,14 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
       } else if (col.type === 'arc') {
         desc = `Correto! O personagem secreto estreou exatamente no arco "${formattedVal}".`;
       } else if (col.key === 'status') {
-        desc = `Correto! O status atual do personagem secreto é: ${formattedVal}.`;
+        const lower = formattedVal.toLowerCase();
+        if (lower.startsWith('viv')) {
+          desc = `Correto! O personagem secreto está vivo(a).`;
+        } else if (lower.startsWith('mort')) {
+          desc = `Correto! O personagem secreto está morto(a).`;
+        } else {
+          desc = `Correto! O status atual do personagem secreto é: ${formattedVal}.`;
+        }
       }
 
       return {
@@ -222,7 +229,14 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
     } else if (col.type === 'arc') {
       incorrectDesc = `O personagem secreto não estreou no arco "${formattedVal}".`;
     } else if (col.key === 'status') {
-      incorrectDesc = `O status do personagem secreto não é "${formattedVal}".`;
+      const lower = formattedVal.toLowerCase();
+      if (lower.startsWith('viv')) {
+        incorrectDesc = `O personagem secreto não está vivo(a) (ele(a) está morto(a)).`;
+      } else if (lower.startsWith('mort')) {
+        incorrectDesc = `O personagem secreto não está morto(a) (ele(a) está vivo(a)).`;
+      } else {
+        incorrectDesc = `O status do personagem secreto não é "${formattedVal}".`;
+      }
     }
 
     return {
