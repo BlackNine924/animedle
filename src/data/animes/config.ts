@@ -336,12 +336,12 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Elbaf'
     ],
     mangaCoverage: {
-      chapter: 1125,
+      chapter: 1193,
       status: 'Em Lançamento',
       source: 'Weekly Shōnen Jump / Manga Plus (Shueisha)',
       officialPublisher: 'Shueisha',
       lastUpdated: 'Setembro / 2026',
-      notes: 'Arco de Egghead concluído e transição para Elbaf, com todas as recompensas oficiais atualizadas (Cross Guild, Yonkou e Governo Mundial).'
+      notes: 'Atualizado até o clímax do Arco de Elbaf (Capítulo 1193), incluindo o Príncipe Loki, revelações dos Cavaleiros Sagrados, ascensão de São Figarland Garling como Gorosei e a queda de São Jaygarcia Saturn.'
     }
   },
   'one-punch-man': {
@@ -392,15 +392,16 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       '7ª Rodada: Qin Shi Huang vs Hades',
       '8ª Rodada: Nikola Tesla vs Belzebuth',
       '9ª Rodada: Leonidas vs Apolo',
-      '10ª Rodada: Okita Souji vs Susanoo-no-Mikoto'
+      '10ª Rodada: Okita Souji vs Susanoo-no-Mikoto',
+      '11ª Rodada: Simo Häyhä vs Anúbis'
     ],
     mangaCoverage: {
-      chapter: 96,
+      chapter: 124,
       status: 'Em Lançamento',
       source: 'Monthly Comic Zenon (Coamix)',
       officialPublisher: 'Coamix',
       lastUpdated: 'Setembro / 2026',
-      notes: 'Atualizado até a 10ª Rodada do Ragnarok (Okita Souji vs Susanoo-no-Mikoto) e acontecimentos dos bastidores do Valhalla.'
+      notes: 'Atualizado até o Capítulo 124, abrangendo a conclusão definitiva da 10ª Rodada (vitória de Okita Souji e queda honrosa de Susanoo-no-Mikoto), os preparativos e lutadores da 11ª Rodada e os desdobramentos de Odin e do Valhalla.'
     }
   },
   'solo-leveling': {

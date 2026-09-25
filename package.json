@@ -9,6 +9,8 @@
     "audit": "node scripts/audit-system.mjs",
     "audit:lore": "node scripts/audit-lore.mjs",
     "audit:coverage": "node scripts/manga-coverage-audit.mjs",
+    "sync:manga": "node scripts/sync-manga-updates.mjs",
+    "update:manga": "node scripts/sync-manga-updates.mjs --apply",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
