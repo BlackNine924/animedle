@@ -19,6 +19,7 @@ import soloLevelingCharacters from './data/animes/solo-leveling/characters.json'
 import recordOfRagnarokCharacters from './data/animes/record-of-ragnarok/characters.json';
 import blueLockCharacters from './data/animes/blue-lock/characters.json';
 import bleachCharacters from './data/animes/bleach/characters.json';
+import dragonBallCharacters from './data/animes/dragon-ball/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -42,6 +43,8 @@ export const App: React.FC = () => {
     ? blueLockCharacters
     : currentAnimeSlug === 'bleach'
     ? bleachCharacters
+    : currentAnimeSlug === 'dragon-ball'
+    ? dragonBallCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -152,6 +155,24 @@ export const App: React.FC = () => {
               character: c,
               abilityType: 'technique',
               title: badgeTitle,
+              text: tech,
+            });
+          }
+        });
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'dragon-ball') {
+      characters.forEach((c) => {
+        const techList = (c.techniques && c.techniques.length > 0) ? c.techniques : (c.styleOrPower ? [c.styleOrPower] : []);
+        techList.forEach((tech, idx) => {
+          if (tech && tech !== 'Nenhum' && tech !== 'Nenhuma') {
+            items.push({
+              id: `${c.id}-db-tech-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: 'Técnica de Ki / Golpe Especial',
               text: tech,
             });
           }

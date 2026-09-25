@@ -153,12 +153,48 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
   'dragon-ball': {
     slug: 'dragon-ball',
     title: 'Dragon Ball',
-    subtitle: 'Akira Toriyama',
-    themeColor: '#eab308',
-    accentColor: '#ca8a04',
+    subtitle: 'Akira Toriyama & Toyotarou',
+    themeColor: '#F59E0B',
+    accentColor: '#D97706',
     banner: '🐉',
-    columns: [],
-    arcs: []
+    logo: '/logo-dragon-ball.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Raça / Espécie', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'origin', label: 'Origem / Planeta', type: 'exact' },
+      { key: 'maxRelease', label: 'Forma Máxima', type: 'exact' },
+      { key: 'styleOrPower', label: 'Técnica Marcante', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Saga de Pilaf',
+      '21º Torneio de Artes Marciais',
+      'Exército Red Ribbon',
+      '22º Torneio de Artes Marciais (Tenshinhan)',
+      'Piccolo Daimaoh',
+      '23º Torneio de Artes Marciais (Piccolo Jr.)',
+      'Saga dos Saiyajins',
+      'Saga de Freeza (Namekusei)',
+      'Saga dos Androides & Cell',
+      'Saga de Majin Boo',
+      'Saga do Deus da Destruição Bills',
+      'Saga do Universo 6',
+      'Saga de Goku Black / Trunks do Futuro',
+      'Saga do Torneio do Poder',
+      'Saga do Prisioneiro da Patrulha Galáctica (Moro)',
+      'Saga do Sobrevivente Granolah',
+      'Saga Super Hero'
+    ],
+    mangaCoverage: {
+      chapter: 'Cap. 519 (Original) + Cap. 104 (Super)',
+      status: 'Em Lançamento',
+      source: 'Weekly Shōnen Jump / V Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa de Akira Toriyama (Dragon Ball clássico e Z, Capítulos 1 ao 519) mais a continuidade canônica em Dragon Ball Super de Akira Toriyama e Toyotarou (Capítulos 1 ao 104).'
+    }
   },
   'fairy-tail': {
     slug: 'fairy-tail',

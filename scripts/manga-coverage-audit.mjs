@@ -11,6 +11,7 @@ const ANIMES = [
   'bleach',
   'blue-lock',
   'demon-slayer',
+  'dragon-ball',
   'jujutsu-kaisen',
   'naruto',
   'one-piece',

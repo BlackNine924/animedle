@@ -84,12 +84,26 @@ export const ANIME_CATEGORY_DESCRIPTIONS: Record<string, Record<string, string>>
     'Liberação Máxima': 'Nível mais alto de liberação espiritual atingido (ex: Bankai, Vollständig, Resurrección, Fullbring Completo, Shikai Apenas, Nenhuma).',
     'Arco de Estreia': 'Primeiro arco do mangá em que o personagem aparece (ex: Shinigami Substituto, Sociedade das Almas, Arrancar, Guerra dos Mil Anos, Arco do Inferno).',
     'Status': 'Condição vital do personagem no desfecho canônico de Bleach (ex: Vivo, Morto).'
+  },
+  'dragon-ball': {
+    'Personagem': 'Identificação e avatar do guerreiro, vilão ou divindade de Dragon Ball.',
+    'Gênero': 'Gênero do personagem (Masculino, Feminino ou Sem Gênero).',
+    'Raça / Espécie': 'Raça ou espécie biológica/divina no universo de Dragon Ball (ex: Saiyajin, Humano, Namekuseijin, Androide, Raça Freeza, Majin, Anjo, Hakaishin).',
+    'Afiliação / Grupo': 'Organização, exército ou equipe principal (ex: Guerreiros Z, Exército de Freeza, Força Red Ribbon, Reino dos Kaioshins, Patrulha Galáctica).',
+    'Origem / Planeta': 'Planeta de nascimento ou reino de proveniência (ex: Planeta Terra, Planeta Vegeta, Namekusei, Planeta Sadala, Reinos Divinos).',
+    'Forma Máxima': 'Evolução ou transformação mais poderosa alcançada (ex: Instinto Superior, Ultra Ego, Super Saiyajin Blue, Forma Dourada / Black, Perfeita, Nenhuma).',
+    'Técnica Marcante': 'Ataque icônico de ki ou técnica marcial emblemática (ex: Kamehameha, Final Flash, Makankosappo, Genki Dama, Kienzan, Hakai).',
+    'Arco de Estreia': 'Primeiro arco canônico em que o personagem faz sua estreia (desde a Saga de Pilaf até Dragon Ball Super).',
+    'Status': 'Condição vital do personagem no cânone atual de Dragon Ball (Vivo ou Morto).'
   }
 };
 
 export const GLOBAL_CATEGORY_DESCRIPTIONS: Record<string, string> = {
   'Personagem': 'Identificação e avatar do personagem palpitado.',
   'Gênero': 'Gênero biológico ou identidade do personagem (Masculino ou Feminino).',
+  'Origem / Planeta': 'Planeta de nascimento ou reino cósmico de procedência.',
+  'Forma Máxima': 'Transformação ou forma mais poderosa atingida.',
+  'Técnica Marcante': 'Ataque ou habilidade marcial emblemática.',
   'Nacionalidade': 'País de origem ou nacionalidade do indivíduo.',
   'Posição / Função': 'Posição tática ou função ocupada pelo personagem.',
   'Equipe / Afiliação': 'Clube, equipe ou organização à qual é filiado.',

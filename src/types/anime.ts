@@ -4,13 +4,14 @@ export type ArrowDirection = 'up' | 'down' | 'none';
 export interface Character {
   id: string;
   name: string;
-  gender: 'Masculino' | 'Feminino';
+  gender: 'Masculino' | 'Feminino' | 'Sem Gênero';
   species: string;
   affiliation: string[];
   styleOrPower: string;
   debutArc: string;
   status: string;
   avatar: string;
+  origin?: string;
   quote?: string;
   ability?: string;
   grade?: string;
