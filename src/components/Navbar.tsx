@@ -76,52 +76,56 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             {/* Menu Suspenso Estável */}
             {isDropdownOpen && (
-              <div className="absolute left-0 mt-2 w-56 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-2xl py-1.5 z-50 animate-fadeIn max-h-[75vh] overflow-y-auto custom-scrollbar">
-                <div className="sticky top-0 bg-[#0d1426] z-10 px-3.5 py-2 text-[10px] font-extrabold tracking-wider text-slate-400 uppercase border-b border-[#202b43]/60 mb-1">
+              <div className="absolute left-0 mt-2 w-56 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-2xl overflow-hidden z-50 animate-fadeIn flex flex-col max-h-[75vh]">
+                {/* Cabeçalho fixo no topo do dropdown - nunca rola */}
+                <div className="px-3.5 py-2.5 text-[10px] font-extrabold tracking-wider text-slate-400 uppercase border-b border-[#202b43]/60 bg-[#0d1426] flex-shrink-0 select-none">
                   Selecione o Anime
                 </div>
-                {Object.values(ANIMES_CONFIG).map((anime) => {
-                  const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok' || anime.slug === 'blue-lock';
-                  const isSelected = anime.slug === currentAnimeSlug;
+                {/* Lista de animes com rolagem isolada */}
+                <div className="overflow-y-auto custom-scrollbar py-1 flex-1">
+                  {Object.values(ANIMES_CONFIG).map((anime) => {
+                    const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok' || anime.slug === 'blue-lock';
+                    const isSelected = anime.slug === currentAnimeSlug;
 
-                  return (
-                    <button
-                      key={anime.slug}
-                      onClick={() => {
-                        if (isAvailable) {
-                          onSelectAnime(anime.slug);
-                          setIsDropdownOpen(false);
+                    return (
+                      <button
+                        key={anime.slug}
+                        onClick={() => {
+                          if (isAvailable) {
+                            onSelectAnime(anime.slug);
+                            setIsDropdownOpen(false);
+                          }
+                        }}
+                        style={
+                          isSelected
+                            ? {
+                                backgroundColor: `${anime.themeColor}20`,
+                                color: anime.themeColor,
+                                borderLeft: `3px solid ${anime.themeColor}`,
+                              }
+                            : undefined
                         }
-                      }}
-                      style={
-                        isSelected
-                          ? {
-                              backgroundColor: `${anime.themeColor}20`,
-                              color: anime.themeColor,
-                              borderLeft: `3px solid ${anime.themeColor}`,
-                            }
-                          : undefined
-                      }
-                      className={`w-full flex items-center justify-between px-3.5 py-2.5 text-xs text-left transition-all ${
-                        isSelected
-                          ? 'font-bold'
-                          : isAvailable
-                          ? 'text-slate-300 hover:bg-[#111a2d]'
-                          : 'text-slate-500 cursor-not-allowed opacity-60'
-                      }`}
-                    >
-                      <span className="flex items-center gap-2.5">
-                        <span className="text-base">{anime.banner}</span>
-                        <span className="font-semibold">{anime.title}</span>
-                      </span>
-                      {!isAvailable && (
-                        <span className="text-[9px] bg-[#111a2d] text-slate-400 border border-[#202b43] px-2 py-0.5 rounded-full font-medium">
-                          Em breve
+                        className={`w-full flex items-center justify-between px-3.5 py-2.5 text-xs text-left transition-all ${
+                          isSelected
+                            ? 'font-bold'
+                            : isAvailable
+                            ? 'text-slate-300 hover:bg-[#111a2d]'
+                            : 'text-slate-500 cursor-not-allowed opacity-60'
+                        }`}
+                      >
+                        <span className="flex items-center gap-2.5">
+                          <span className="text-base">{anime.banner}</span>
+                          <span className="font-semibold">{anime.title}</span>
                         </span>
-                      )}
-                    </button>
-                  );
-                })}
+                        {!isAvailable && (
+                          <span className="text-[9px] bg-[#111a2d] text-slate-400 border border-[#202b43] px-2 py-0.5 rounded-full font-medium">
+                            Em breve
+                          </span>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             )}
           </div>

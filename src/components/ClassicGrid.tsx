@@ -79,11 +79,12 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
   ) => {
     const formattedVal = Array.isArray(value) ? value.join(', ') : String(value ?? '');
 
+    // 1. Setas direcionais (Arco, Grau ou Oferta/Recompensa)
     if (arrow === 'up') {
       if (col.key === 'grade') {
         return {
           title: 'Grau Superior ⬆️',
-          desc: `O personagem secreto possui uma graduação Jujutsu SUPERIOR a "${formattedVal}".`,
+          desc: `O personagem secreto possui uma graduação Jujutsu superior a "${formattedVal}".`,
           type: 'arrow' as const
         };
       }
@@ -92,15 +93,15 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
         return {
           title: isBL ? 'Oferta Maior ⬆️' : 'Recompensa Maior ⬆️',
           desc: isBL
-            ? `O personagem secreto possui uma oferta na Liga Neo Egoísta (NEL) SUPERIOR a ${formattedVal}.`
-            : `O personagem secreto possui uma recompensa SUPERIOR a ${formattedVal}.`,
+            ? `O personagem secreto tem uma oferta na Liga Neo Egoísta (NEL) maior do que ${formattedVal}.`
+            : `O personagem secreto possui uma recompensa maior do que ${formattedVal}.`,
           type: 'arrow' as const
         };
       }
       if (col.type === 'arc') {
         return {
           title: 'Estreou Depois ⬆️',
-          desc: `O personagem secreto estreou em um arco MAIS RECENTE / POSTERIOR na cronologia em relação a "${formattedVal}".`,
+          desc: `O personagem secreto estreou mais tarde na história (em um arco posterior a "${formattedVal}").`,
           type: 'arrow' as const
         };
       }
@@ -110,7 +111,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
       if (col.key === 'grade') {
         return {
           title: 'Grau Inferior ⬇️',
-          desc: `O personagem secreto possui uma graduação Jujutsu INFERIOR a "${formattedVal}".`,
+          desc: `O personagem secreto possui uma graduação Jujutsu inferior a "${formattedVal}".`,
           type: 'arrow' as const
         };
       }
@@ -119,60 +120,114 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
         return {
           title: isBL ? 'Oferta Menor ⬇️' : 'Recompensa Menor ⬇️',
           desc: isBL
-            ? `O personagem secreto possui uma oferta na Liga Neo Egoísta (NEL) INFERIOR a ${formattedVal}.`
-            : `O personagem secreto possui uma recompensa INFERIOR a ${formattedVal}.`,
+            ? `O personagem secreto tem uma oferta na Liga Neo Egoísta (NEL) menor do que ${formattedVal}.`
+            : `O personagem secreto possui uma recompensa menor do que ${formattedVal}.`,
           type: 'arrow' as const
         };
       }
       if (col.type === 'arc') {
         return {
           title: 'Estreou Antes ⬇️',
-          desc: `O personagem secreto estreou em um arco ANTERIOR / MAIS ANTIGO na cronologia em relação a "${formattedVal}".`,
+          desc: `O personagem secreto estreou mais cedo na história (em um arco anterior a "${formattedVal}").`,
           type: 'arrow' as const
         };
       }
     }
 
+    // 2. Correspondência Exata
     if (status === 'correct') {
+      let desc = `Correto! O personagem secreto tem exatamente "${formattedVal}" em ${col.label}.`;
+
+      if (col.key === 'gender') {
+        desc = `Correto! O personagem secreto é do gênero ${formattedVal}.`;
+      } else if (col.key === 'species') {
+        desc = `Correto! O personagem secreto pertence à espécie ${formattedVal}.`;
+      } else if (col.key === 'country') {
+        desc = `Correto! O personagem secreto tem nacionalidade ${formattedVal}.`;
+      } else if (col.key === 'position') {
+        desc = `Correto! O personagem secreto joga/atua na função de ${formattedVal}.`;
+      } else if (col.key === 'affiliation' || col.type === 'array') {
+        desc = `Correto! O personagem secreto faz parte exatamente de: ${formattedVal}.`;
+      } else if (col.key === 'styleOrPower') {
+        if (animeSlugParam === 'demon-slayer') {
+          desc = `Correto! O personagem secreto domina e utiliza: ${formattedVal}.`;
+        } else if (animeSlugParam === 'blue-lock') {
+          desc = `Correto! A arma principal do personagem secreto é: ${formattedVal}.`;
+        } else if (animeSlugParam === 'jujutsu-kaisen') {
+          desc = `Correto! A técnica do personagem secreto é: ${formattedVal}.`;
+        } else {
+          desc = `Correto! O estilo ou poder do personagem secreto é: ${formattedVal}.`;
+        }
+      } else if (col.type === 'arc') {
+        desc = `Correto! O personagem secreto estreou exatamente no arco "${formattedVal}".`;
+      } else if (col.key === 'status') {
+        desc = `Correto! O status atual do personagem secreto é: ${formattedVal}.`;
+      }
+
       return {
-        title: 'Correspondência Exata ✅',
-        desc: `Correto! O personagem secreto possui exatamente "${formattedVal}" nesta categoria (${col.label}).`,
+        title: 'Correto ✅',
+        desc,
         type: 'correct' as const
       };
     }
 
+    // 3. Correspondência Parcial
     if (status === 'partial') {
+      let desc = `Existe uma semelhança ou correspondência parcial com "${formattedVal}".`;
+
       if (col.type === 'array' || col.key === 'affiliation') {
-        return {
-          title: 'Correspondência Parcial ⚠️',
-          desc: `O personagem secreto compartilha ao menos uma equipe ou afiliação em comum com [${formattedVal}], mas a lista completa é diferente.`,
-          type: 'partial' as const
-        };
+        desc = `O personagem secreto compartilha ao menos uma afiliação ou equipe com "${formattedVal}", mas o conjunto completo é diferente.`;
+      } else if (col.key === 'species') {
+        desc = `O personagem secreto tem ligação genética ou espécie parcial em comum com "${formattedVal}" (ex: mestiço ou linhagem mista).`;
+      } else if (col.key === 'styleOrPower') {
+        if (animeSlugParam === 'demon-slayer') {
+          desc = `O estilo de combate ou respiração compartilha a mesma origem ou vertente de "${formattedVal}".`;
+        } else if (animeSlugParam === 'blue-lock') {
+          desc = `O personagem secreto possui fundamentos táticos ou características similares a "${formattedVal}".`;
+        } else {
+          desc = `O poder ou estilo compartilha a mesma linhagem ou categoria de "${formattedVal}".`;
+        }
       }
-      if (col.key === 'species') {
-        return {
-          title: 'Espécie Parcial ⚠️',
-          desc: `O personagem secreto possui parentesco ou linhagem parcial com "${formattedVal}" (ex: mestiço ou mesma espécie base).`,
-          type: 'partial' as const
-        };
-      }
-      if (col.key === 'styleOrPower') {
-        return {
-          title: 'Poder Parcial ⚠️',
-          desc: `O estilo de combate ou poder do personagem secreto compartilha raízes, respiração ou vertente semelhante a "${formattedVal}".`,
-          type: 'partial' as const
-        };
-      }
+
       return {
-        title: 'Correspondência Parcial ⚠️',
-        desc: `Existe uma correspondência ou elemento em comum com "${formattedVal}".`,
+        title: 'Parcial ⚠️',
+        desc,
         type: 'partial' as const
       };
     }
 
+    // 4. Incorreto
+    let incorrectDesc = `O personagem secreto não possui "${formattedVal}" em ${col.label}.`;
+
+    if (col.key === 'gender') {
+      incorrectDesc = `O personagem secreto não é do gênero ${formattedVal}.`;
+    } else if (col.key === 'species') {
+      incorrectDesc = `O personagem secreto não é da espécie "${formattedVal}".`;
+    } else if (col.key === 'country') {
+      incorrectDesc = `O personagem secreto não tem nacionalidade "${formattedVal}".`;
+    } else if (col.key === 'position') {
+      incorrectDesc = `O personagem secreto não joga como "${formattedVal}".`;
+    } else if (col.key === 'affiliation' || col.type === 'array') {
+      incorrectDesc = `O personagem secreto não faz parte de "${formattedVal}" nem possui ligação com essa organização.`;
+    } else if (col.key === 'styleOrPower') {
+      if (animeSlugParam === 'demon-slayer') {
+        incorrectDesc = `O personagem secreto não utiliza a arte ou respiração "${formattedVal}".`;
+      } else if (animeSlugParam === 'blue-lock') {
+        incorrectDesc = `A arma principal do personagem secreto não é "${formattedVal}".`;
+      } else if (animeSlugParam === 'jujutsu-kaisen') {
+        incorrectDesc = `O personagem secreto não domina a técnica "${formattedVal}".`;
+      } else {
+        incorrectDesc = `O personagem secreto não utiliza nem domina "${formattedVal}".`;
+      }
+    } else if (col.type === 'arc') {
+      incorrectDesc = `O personagem secreto não estreou no arco "${formattedVal}".`;
+    } else if (col.key === 'status') {
+      incorrectDesc = `O status do personagem secreto não é "${formattedVal}".`;
+    }
+
     return {
       title: 'Incorreto ❌',
-      desc: `O personagem secreto NÃO possui "${formattedVal}" nesta categoria (${col.label}).`,
+      desc: incorrectDesc,
       type: 'incorrect' as const
     };
   };
@@ -407,20 +462,25 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
               }}
             >
               <div className="flex items-center justify-between gap-2 mb-2 pb-1.5 border-b border-slate-700/60">
-                <span className={`text-xs font-black uppercase tracking-wider ${
-                  details.type === 'correct' ? 'text-emerald-400' :
-                  details.type === 'partial' ? 'text-amber-400' :
-                  details.type === 'arrow' ? 'text-sky-400' : 'text-rose-400'
-                }`}>
-                  {details.title}
-                </span>
+                <div className="flex items-center gap-2 min-w-0">
+                  <span className={`text-xs font-black uppercase tracking-wider ${
+                    details.type === 'correct' ? 'text-emerald-400' :
+                    details.type === 'partial' ? 'text-amber-400' :
+                    details.type === 'arrow' ? 'text-sky-400' : 'text-rose-400'
+                  }`}>
+                    {details.title}
+                  </span>
+                  <span className="text-[10px] font-bold text-slate-400 bg-slate-800/80 px-2 py-0.5 rounded-md truncate max-w-[120px]">
+                    {col.label}
+                  </span>
+                </div>
                 <button
                   type="button"
                   onClick={(e) => {
                     e.stopPropagation();
                     setActiveCellExplanation(null);
                   }}
-                  className="w-5 h-5 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors"
+                  className="w-5 h-5 flex-shrink-0 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors"
                   title="Fechar"
                 >
                   <X size={12} />
@@ -430,8 +490,8 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                 {details.desc}
               </p>
               <div className="mt-2.5 pt-1.5 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
-                <span className="truncate">{col.label}: <strong className="text-slate-200">{displayVal}</strong></span>
-                <span className="text-[10px] text-slate-500 ml-2 whitespace-nowrap">Clique para fechar</span>
+                <span className="truncate mr-2">Palpite: <strong className="text-slate-200">{displayVal}</strong></span>
+                <span className="text-[10px] text-slate-500 whitespace-nowrap">Clique p/ fechar</span>
               </div>
               {/* Seta visual indicadora apontando diretamente para o centro da célula */}
               <div
