@@ -393,7 +393,8 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       '8ª Rodada: Nikola Tesla vs Belzebuth',
       '9ª Rodada: Leonidas vs Apolo',
       '10ª Rodada: Okita Souji vs Susanoo-no-Mikoto',
-      '11ª Rodada: Simo Häyhä vs Anúbis'
+      '11ª Rodada: Simo Häyhä vs Loki',
+      '12ª Rodada: Kintoki Sakata vs Odin'
     ],
     mangaCoverage: {
       chapter: 124,
@@ -401,7 +402,7 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       source: 'Monthly Comic Zenon (Coamix)',
       officialPublisher: 'Coamix',
       lastUpdated: 'Setembro / 2026',
-      notes: 'Atualizado até o Capítulo 124, abrangendo a conclusão definitiva da 10ª Rodada (vitória de Okita Souji e queda honrosa de Susanoo-no-Mikoto), os preparativos e lutadores da 11ª Rodada e os desdobramentos de Odin e do Valhalla.'
+      notes: 'Atualizado até o Capítulo 124, contemplando a 11ª Rodada completa (vitória de Simo Häyhä sobre Loki) e a 12ª Rodada em andamento (Kintoki Sakata vs Odin).'
     }
   },
   'solo-leveling': {
