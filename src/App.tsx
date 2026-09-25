@@ -18,6 +18,7 @@ import narutoCharacters from './data/animes/naruto/characters.json';
 import soloLevelingCharacters from './data/animes/solo-leveling/characters.json';
 import recordOfRagnarokCharacters from './data/animes/record-of-ragnarok/characters.json';
 import blueLockCharacters from './data/animes/blue-lock/characters.json';
+import bleachCharacters from './data/animes/bleach/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -39,6 +40,8 @@ export const App: React.FC = () => {
     ? recordOfRagnarokCharacters
     : currentAnimeSlug === 'blue-lock'
     ? blueLockCharacters
+    : currentAnimeSlug === 'bleach'
+    ? bleachCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -127,6 +130,32 @@ export const App: React.FC = () => {
             text: c.styleOrPower,
           });
         }
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'bleach') {
+      characters.forEach((c) => {
+        const techList = (c.techniques && c.techniques.length > 0) ? c.techniques : (c.styleOrPower ? [c.styleOrPower] : []);
+        techList.forEach((tech, idx) => {
+          if (tech && tech !== 'Nenhum' && tech !== 'Nenhuma') {
+            const badgeTitle = c.maxRelease === 'Bankai'
+              ? 'Bankai / Liberação de Zanpakutō'
+              : c.maxRelease === 'Resurrección'
+              ? 'Resurrección / Técnica Arrancar'
+              : c.maxRelease === 'Vollständig'
+              ? 'Vollständig / Técnica Quincy'
+              : 'Técnica / Habilidade';
+
+            items.push({
+              id: `${c.id}-bleach-tech-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: badgeTitle,
+              text: tech,
+            });
+          }
+        });
       });
       return items;
     }

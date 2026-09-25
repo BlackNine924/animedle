@@ -73,6 +73,17 @@ export const ANIME_CATEGORY_DESCRIPTIONS: Record<string, Record<string, string>>
     'Arma Principal': 'A arma do Ego ou talento futebolístico distintivo que o diferencia (ex: Direct Shot, Metavisão, Velocidade Suprema, Chute Curvo, Trap Magnético).',
     'Arco de Estreia': 'Arco narrativo de Blue Lock em que o personagem fez sua aparição inicial (ex: Primeira Seleção, NEL, Copa do Mundo Sub-20).',
     'Status no Projeto': 'Condição no projeto Blue Lock (Ativo / Sobrevivente, Eliminado ou Profissional / Convidado).'
+  },
+  'bleach': {
+    'Personagem': 'Identificação e avatar do Shinigami, Quincy, Arrancar ou Humano de Bleach.',
+    'Gênero': 'Gênero do personagem (Masculino ou Feminino).',
+    'Raça / Natureza': 'Espécie ou natureza espiritual no universo de Bleach (ex: Shinigami, Quincy, Arrancar / Hollow, Humano / Fullbringer, Vizard, Alma Modificada).',
+    'Afiliação / Grupo': 'Organização, esquadrão ou exército ao qual pertence (ex: Gotei 13, Wandenreich / Sternritter, Espada / Hueco Mundo, Guarda Real, Xcution, Karakura).',
+    'Posto / Patente': 'Patente militar ou cargo ocupado (ex: Capitão, Tenente, Sternritter, Espada, Guarda Real, Oficial, Humano).',
+    'Zanpakutō / Poder': 'Nome da Zanpakutō, Schrift da alma Quincy ou objeto de Fullbring (ex: Zangetsu, Senbonzakura, Kyōka Suigetsu, The Almighty).',
+    'Liberação Máxima': 'Nível mais alto de liberação espiritual atingido (ex: Bankai, Vollständig, Resurrección, Fullbring Completo, Shikai Apenas, Nenhuma).',
+    'Arco de Estreia': 'Primeiro arco do mangá em que o personagem aparece (ex: Shinigami Substituto, Sociedade das Almas, Arrancar, Guerra dos Mil Anos, Arco do Inferno).',
+    'Status': 'Condição vital do personagem no desfecho canônico de Bleach (ex: Vivo, Morto).'
   }
 };
 
@@ -92,6 +103,11 @@ export const GLOBAL_CATEGORY_DESCRIPTIONS: Record<string, string> = {
   'Bando / Afiliação': 'Tripulação pirata, frota, marinha ou organização a que é filiado.',
   'Vila / Clã': 'Vila ninja oculta de origem ou clã familiar de linhagem.',
   'Guilda / Grupo': 'Guilda de caçadores, organização ou grupo ao qual pertence.',
+  'Raça / Natureza': 'Espécie ou natureza espiritual no universo de Bleach.',
+  'Afiliação / Grupo': 'Organização, divisão militar ou facção à qual pertence.',
+  'Posto / Patente': 'Patente militar ou cargo ocupado pelo combatente.',
+  'Zanpakutō / Poder': 'Nome da Zanpakutō, Schrift Quincy ou poder primordial.',
+  'Liberação Máxima': 'Nível máximo de liberação espiritual atingido (Bankai, Vollständig, etc.).',
   'Lado / Facção': 'Facção representada pelo personagem no torneio do Ragnarok.',
   'Panteão / Origem': 'Panteão mitológico, religião divina ou origem histórica.',
   'Arma Divina / Völundr': 'Arma sagrada dos deuses ou Völundr forjado com uma Valquíria.',

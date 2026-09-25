@@ -1,0 +1,1657 @@
+[
+  {
+    "id": "ichigo-kurosaki",
+    "name": "Ichigo Kurosaki",
+    "gender": "Masculino",
+    "species": "Shinigami / Quincy / Hollow",
+    "affiliation": [
+      "Karakura",
+      "Shinigami Substituto"
+    ],
+    "rank": "Shinigami Substituto",
+    "styleOrPower": "Zangetsu (Tensa Zangetsu)",
+    "maxRelease": "Bankai",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Eu não estou lutando porque quero vencer... Estou lutando porque preciso vencer!",
+    "techniques": [
+      "Getsuga Tensho",
+      "Getsuga Jujisho",
+      "Gran Rey Cero",
+      "Bankai: Tensa Zangetsu"
+    ],
+    "avatar": "/avatars/bleach/ichigo-kurosaki.png"
+  },
+  {
+    "id": "rukia-kuchiki",
+    "name": "Rukia Kuchiki",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (13ª Divisão)",
+      "Clã Kuchiki"
+    ],
+    "rank": "Capitã",
+    "styleOrPower": "Sode no Shirayuki",
+    "maxRelease": "Bankai",
+    "debutArc": "Shinigami Substituto",
+    "status": "Viva",
+    "quote": "Não se preocupe com o passado. Preocupe-se com o agora e o amanhã.",
+    "techniques": [
+      "Some no Mai, Tsukishiro",
+      "Tsugi no Mai, Hakuren",
+      "San no Mai, Shirafune",
+      "Hakka no Togame"
+    ],
+    "avatar": "/avatars/bleach/rukia-kuchiki.png"
+  },
+  {
+    "id": "orihime-inoue",
+    "name": "Orihime Inoue",
+    "gender": "Feminino",
+    "species": "Humano / Fullbringer",
+    "affiliation": [
+      "Karakura"
+    ],
+    "rank": "Membro",
+    "styleOrPower": "Shun Shun Rikka (Seis Flores do Escudo)",
+    "maxRelease": "Fullbring Completo",
+    "debutArc": "Shinigami Substituto",
+    "status": "Viva",
+    "quote": "Se eu pudesse nascer cinco vezes, ainda escolheria a mesma pessoa cinco vezes!",
+    "techniques": [
+      "Santen Kesshun",
+      "Soten Kisshun",
+      "Koten Zanshun",
+      "Shiten Koshun"
+    ],
+    "avatar": "/avatars/bleach/orihime-inoue.png"
+  },
+  {
+    "id": "uryu-ishida",
+    "name": "Uryu Ishida",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Karakura",
+      "Wandenreich / Schutzstaffel"
+    ],
+    "rank": "Sternritter (Sucessor)",
+    "styleOrPower": "The Antithesis (Schrift A)",
+    "maxRelease": "Vollständig",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Eu juro pelo orgulho dos Quincy que vou derrotar você!",
+    "techniques": [
+      "Licht Regen",
+      "Gintoki",
+      "Sprenger",
+      "The Antithesis"
+    ],
+    "avatar": "/avatars/bleach/uryu-ishida.png"
+  },
+  {
+    "id": "yasutora-sado",
+    "name": "Yasutora Sado (Chad)",
+    "gender": "Masculino",
+    "species": "Humano / Fullbringer",
+    "affiliation": [
+      "Karakura"
+    ],
+    "rank": "Membro",
+    "styleOrPower": "Brazo Derecha del Gigante & Brazo Izquierda del Diablo",
+    "maxRelease": "Fullbring Completo",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Se o Ichigo estiver lutando, eu vou lutar ao lado dele. É para isso que serve a minha força.",
+    "techniques": [
+      "El Directo",
+      "La Muerte"
+    ],
+    "avatar": "/avatars/bleach/yasutora-sado.png"
+  },
+  {
+    "id": "kisuke-urahara",
+    "name": "Kisuke Urahara",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Loja Urahara",
+      "Ex-Gotei 13 (12ª Divisão)"
+    ],
+    "rank": "Ex-Capitão",
+    "styleOrPower": "Benihime",
+    "maxRelease": "Bankai",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Um guerreiro que perde a capacidade de ter medo de sua própria espada não é digno de segurá-la.",
+    "techniques": [
+      "Nake, Benihime",
+      "Chikasumi no Tate",
+      "Kannonbiraki Benihime Aratame",
+      "Hado #99: Goryutenmetsu"
+    ],
+    "avatar": "/avatars/bleach/kisuke-urahara.png"
+  },
+  {
+    "id": "yoruichi-shihoin",
+    "name": "Yoruichi Shihoin",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Clã Shihoin",
+      "Ex-Gotei 13 (2ª Divisão)"
+    ],
+    "rank": "Ex-Capitã",
+    "styleOrPower": "Shunko (Técnica do Relâmpago Vazio)",
+    "maxRelease": "Nenhuma",
+    "debutArc": "Sociedade das Almas",
+    "status": "Viva",
+    "quote": "Coração e mente devem agir como um só. Hesitação na batalha é convite para a sepultura.",
+    "techniques": [
+      "Shunko",
+      "Shunko: Raijin Senkei",
+      "Hankki",
+      "Utsusemi"
+    ],
+    "avatar": "/avatars/bleach/yoruichi-shihoin.png"
+  },
+  {
+    "id": "isshin-kurosaki",
+    "name": "Isshin Kurosaki",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Clã Shiba",
+      "Ex-Gotei 13 (10ª Divisão)"
+    ],
+    "rank": "Ex-Capitão",
+    "styleOrPower": "Engetsu",
+    "maxRelease": "Bankai",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Viva uma vida da qual possa se orgulhar, sem arrependimentos.",
+    "techniques": [
+      "Getsuga Tensho",
+      "Agitowari",
+      "Onikopin"
+    ],
+    "avatar": "/avatars/bleach/isshin-kurosaki.png"
+  },
+  {
+    "id": "ryuken-ishida",
+    "name": "Ryuken Ishida",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Família Ishida"
+    ],
+    "rank": "Último Quincy Puro",
+    "styleOrPower": "Arco Espiritual Quincy / Prata Estelar",
+    "maxRelease": "Nenhuma",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Eu não tenho interesse em contos de fadas de Shinigamis e Quincys.",
+    "techniques": [
+      "Disparo de Flechas Espirituais",
+      "Hirenkyaku"
+    ],
+    "avatar": "/avatars/bleach/ryuken-ishida.png"
+  },
+  {
+    "id": "kon",
+    "name": "Kon",
+    "gender": "Masculino",
+    "species": "Alma Modificada",
+    "affiliation": [
+      "Karakura"
+    ],
+    "rank": "Membro",
+    "styleOrPower": "Músculos de Perna Aprimorados",
+    "maxRelease": "Nenhuma",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Eu sou o rei da selva! Uma obra-prima viva de alma modificada!",
+    "techniques": [
+      "Salto Ampliado",
+      "Investida Desesperada"
+    ],
+    "avatar": "/avatars/bleach/kon.png"
+  },
+  {
+    "id": "yamamoto-genryusai",
+    "name": "Genryusai Shigekuni Yamamoto",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (1ª Divisão)"
+    ],
+    "rank": "Capitão-Comandante",
+    "styleOrPower": "Ryujin Jakka",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morto",
+    "quote": "Por que o Gotei 13 permaneceu de pé por mil anos? Porque nenhum Shinigami mais forte que eu nasceu em mil anos.",
+    "techniques": [
+      "Jokaku Enjo",
+      "Ennetsu Jigoku",
+      "Zanka no Tachi: Higashi",
+      "Zanka no Tachi: Minami (Kaka Jumanokushi Daisojin)"
+    ],
+    "avatar": "/avatars/bleach/yamamoto-genryusai.png"
+  },
+  {
+    "id": "chojiro-sasakibe",
+    "name": "Chojiro Sasakibe",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (1ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Gonryomaru",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morto",
+    "quote": "Meu senhor é apenas um: o Capitão-Comandante Yamamoto.",
+    "techniques": [
+      "Koko Gonryo Rikyu"
+    ],
+    "avatar": "/avatars/bleach/chojiro-sasakibe.png"
+  },
+  {
+    "id": "shunsui-kyoraku",
+    "name": "Shunsui Kyoraku",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (1ª Divisão)",
+      "Ex-Gotei 13 (8ª Divisão)"
+    ],
+    "rank": "Capitão-Comandante",
+    "styleOrPower": "Katen Kyokotsu",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Não importa se uma guerra é justa ou injusta. Uma vez que ela começa, ambos os lados são culpados.",
+    "techniques": [
+      "Bushogoma",
+      "Takaoni",
+      "Kageoni",
+      "Irooni",
+      "Katen Kyokotsu: Karamatsu Shinju"
+    ],
+    "avatar": "/avatars/bleach/shunsui-kyoraku.png"
+  },
+  {
+    "id": "nanao-ise",
+    "name": "Nanao Ise",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (1ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Shinken Hakkyoken",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Viva",
+    "quote": "A lâmina da família Ise reflete a luz dos deuses e dispersa o seu poder.",
+    "techniques": [
+      "Reflexão Divina",
+      "Hado e Bakudo de Alto Grau"
+    ],
+    "avatar": "/avatars/bleach/nanao-ise.png"
+  },
+  {
+    "id": "soi-fon",
+    "name": "Soi Fon",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (2ª Divisão)",
+      "Onmitsukido"
+    ],
+    "rank": "Capitã",
+    "styleOrPower": "Suzumebachi",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Viva",
+    "quote": "Uma morte certa em dois golpes. Essa é a picada de Suzumebachi.",
+    "techniques": [
+      "Nigeki Kessatsu",
+      "Jakaho Raikoben",
+      "Mukyu Shunko"
+    ],
+    "avatar": "/avatars/bleach/soi-fon.png"
+  },
+  {
+    "id": "marechiyo-omaeda",
+    "name": "Marechiyo Omaeda",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (2ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Gegetsuburi",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Quebre, Gegetsuburi!",
+    "techniques": [
+      "Golpe Demolidor de Gegetsuburi"
+    ],
+    "avatar": "/avatars/bleach/marechiyo-omaeda.png"
+  },
+  {
+    "id": "rojuro-otoribashi",
+    "name": "Rojuro Otoribashi (Rose)",
+    "gender": "Masculino",
+    "species": "Vizard / Shinigami",
+    "affiliation": [
+      "Gotei 13 (3ª Divisão)",
+      "Vizard"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Kinshara",
+    "maxRelease": "Bankai",
+    "debutArc": "Batalha de Falsa Karakura",
+    "status": "Vivo",
+    "quote": "A verdadeira música não toca apenas nos ouvidos, ela engana o coração.",
+    "techniques": [
+      "Kinshara Sogikyoku: Ju No Kyoku",
+      "Kinshara Butodan"
+    ],
+    "avatar": "/avatars/bleach/rojuro-otoribashi.png"
+  },
+  {
+    "id": "izuru-kira",
+    "name": "Izuru Kira",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (3ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Wabisuke",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "A batalha não é um lugar para heróis. A batalha é desespero e peso.",
+    "techniques": [
+      "Dobra de Peso de Wabisuke",
+      "Bakudo #73: Tozansho"
+    ],
+    "avatar": "/avatars/bleach/izuru-kira.png"
+  },
+  {
+    "id": "retsu-unohana",
+    "name": "Retsu Unohana (Yachiru)",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (4ª Divisão)",
+      "Primeira Kenpachi"
+    ],
+    "rank": "Capitã",
+    "styleOrPower": "Minazuki",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morta",
+    "quote": "Eu sou a Primeira Kenpachi, Yachiru Unohana. E eu existo para despertar a sua verdadeira força.",
+    "techniques": [
+      "Kaido Curativo",
+      "Minazuki (Ácido/Cura)",
+      "Bankai: Minazuki (Lâmina Sangrenta)"
+    ],
+    "avatar": "/avatars/bleach/retsu-unohana.png"
+  },
+  {
+    "id": "isane-kotetsu",
+    "name": "Isane Kotetsu",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (4ª Divisão)"
+    ],
+    "rank": "Capitã",
+    "styleOrPower": "Itegumo",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Viva",
+    "quote": "Corra, Itegumo!",
+    "techniques": [
+      "Bakudo #58: Kakushitsuijaku",
+      "Kaido"
+    ],
+    "avatar": "/avatars/bleach/isane-kotetsu.png"
+  },
+  {
+    "id": "shinji-hirako",
+    "name": "Shinji Hirako",
+    "gender": "Masculino",
+    "species": "Vizard / Shinigami",
+    "affiliation": [
+      "Gotei 13 (5ª Divisão)",
+      "Vizard"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Sakanade",
+    "maxRelease": "Bankai",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Vivo",
+    "quote": "Bem-vindo ao mundo invertido. Cima é baixo, esquerda é direita, e a frente é atrás.",
+    "techniques": [
+      "Inversão Sensorial",
+      "Cero do Vizard",
+      "Bankai: Sakasama Yokoshima Hapo Fusagari"
+    ],
+    "avatar": "/avatars/bleach/shinji-hirako.png"
+  },
+  {
+    "id": "momo-hinamori",
+    "name": "Momo Hinamori",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (5ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Tobiume",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Viva",
+    "quote": "Estale, Tobiume!",
+    "techniques": [
+      "Esferas de Fogo de Tobiume",
+      "Redes de Kido Combinado"
+    ],
+    "avatar": "/avatars/bleach/momo-hinamori.png"
+  },
+  {
+    "id": "byakuya-kuchiki",
+    "name": "Byakuya Kuchiki",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (6ª Divisão)",
+      "Clã Kuchiki"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Senbonzakura",
+    "maxRelease": "Bankai",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Espalhe-se, Senbonzakura. A lâmina que você não pode ver é a lâmina que ceifará a sua vida.",
+    "techniques": [
+      "Senbonzakura Kageyoshi",
+      "Senkei",
+      "Gokei",
+      "Shukei: Hakuteiken",
+      "Hado #33: Sokatsui"
+    ],
+    "avatar": "/avatars/bleach/byakuya-kuchiki.png"
+  },
+  {
+    "id": "renji-abarai",
+    "name": "Renji Abarai",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (6ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Zabimaru",
+    "maxRelease": "Bankai",
+    "debutArc": "Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Uive, Zabimaru! Eu prometi que alcançaria você, e não vou desistir agora!",
+    "techniques": [
+      "Higa Zekko",
+      "Hihio Zabimaru",
+      "Soo Zabimaru: Zaga Teppo"
+    ],
+    "avatar": "/avatars/bleach/renji-abarai.png"
+  },
+  {
+    "id": "sajin-komamura",
+    "name": "Sajin Komamura",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (7ª Divisão)"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Tenken",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Minha vida pertence ao Comandante Yamamoto. Para honrá-lo, não temo me despojar de minha humanidade.",
+    "techniques": [
+      "Kokujo Tengen Myoo",
+      "Kokujo Tengen Myoo: Dangai Joe",
+      "Técnica de Metamorfose Humana"
+    ],
+    "avatar": "/avatars/bleach/sajin-komamura.png"
+  },
+  {
+    "id": "tetsuzaemon-iba",
+    "name": "Tetsuzaemon Iba",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (7ª Divisão)"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Lâmina Espiritual Dentada",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Um homem não foge do dever, ele encara a luta de frente.",
+    "techniques": [
+      "Corte de Shikai",
+      "Combate Corpo a Corpo Masculino"
+    ],
+    "avatar": "/avatars/bleach/tetsuzaemon-iba.png"
+  },
+  {
+    "id": "lisa-yadomaru",
+    "name": "Lisa Yadomaru",
+    "gender": "Feminino",
+    "species": "Vizard / Shinigami",
+    "affiliation": [
+      "Gotei 13 (8ª Divisão)",
+      "Vizard"
+    ],
+    "rank": "Capitã",
+    "styleOrPower": "Haguro Tonbo",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Batalha de Falsa Karakura",
+    "status": "Viva",
+    "quote": "Destrua, Haguro Tonbo!",
+    "techniques": [
+      "Golpe Giratório de Haguro Tonbo",
+      "Máscara Hollow de Vizard"
+    ],
+    "avatar": "/avatars/bleach/lisa-yadomaru.png"
+  },
+  {
+    "id": "kensei-muguruma",
+    "name": "Kensei Muguruma",
+    "gender": "Masculino",
+    "species": "Vizard / Shinigami",
+    "affiliation": [
+      "Gotei 13 (9ª Divisão)",
+      "Vizard"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Tachikaze",
+    "maxRelease": "Bankai",
+    "debutArc": "Batalha de Falsa Karakura",
+    "status": "Vivo",
+    "quote": "Exploda, Tachikaze! Eu não preciso de armas extravagantes para acabar com você.",
+    "techniques": [
+      "Bakusaitsuki",
+      "Tekken Tachikaze",
+      "Sandan Bakusaitsuki"
+    ],
+    "avatar": "/avatars/bleach/kensei-muguruma.png"
+  },
+  {
+    "id": "shuhei-hisagi",
+    "name": "Shuhei Hisagi",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (9ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Kazeshini",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Eu tenho medo da minha própria foice. E aquele que não teme a sua lâmina não tem o direito de empunhá-la.",
+    "techniques": [
+      "Colha, Kazeshini",
+      "Fushi no Kojyo",
+      "Hado #63: Raikoho"
+    ],
+    "avatar": "/avatars/bleach/shuhei-hisagi.png"
+  },
+  {
+    "id": "toshiro-hitsugaya",
+    "name": "Toshiro Hitsugaya",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (10ª Divisão)"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Hyorinmaru",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Ascenda aos céus congelados, Hyorinmaru! O dragão de gelo mais forte da Sociedade das Almas!",
+    "techniques": [
+      "Ryusenka",
+      "Sennen Hyoro",
+      "Guncho Tsurara",
+      "Daiguren Hyorinmaru Completa (Forma Adulta)"
+    ],
+    "avatar": "/avatars/bleach/toshiro-hitsugaya.png"
+  },
+  {
+    "id": "rangiku-matsumoto",
+    "name": "Rangiku Matsumoto",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (10ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Haineko",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Viva",
+    "quote": "Rosne, Haineko! As cinzas que cortam qualquer um que estiver no caminho!",
+    "techniques": [
+      "Haineko no Hai",
+      "Bakudo #77: Tenteikura"
+    ],
+    "avatar": "/avatars/bleach/rangiku-matsumoto.png"
+  },
+  {
+    "id": "kenpachi-zaraki",
+    "name": "Kenpachi Zaraki",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (11ª Divisão)"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Nozarashi",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Lutar é a única coisa que me faz sentir vivo! Se você não vai me matar, eu vou te cortar em pedaços!",
+    "techniques": [
+      "Engula, Nozarashi",
+      "Corte com Duas Mãos (Kendo)",
+      "Bankai Demoníaca de Nozarashi"
+    ],
+    "avatar": "/avatars/bleach/kenpachi-zaraki.png"
+  },
+  {
+    "id": "yachiru-kusajishi",
+    "name": "Yachiru Kusajishi",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (11ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Sanpo Kenju",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morta",
+    "quote": "Kenny, vamos nos divertir e bater neles!",
+    "techniques": [
+      "Sanpo Kenju (Criaturas Espirituais Gemeas)"
+    ],
+    "avatar": "/avatars/bleach/yachiru-kusajishi.png"
+  },
+  {
+    "id": "ikkaku-madarame",
+    "name": "Ikkaku Madarame",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (11ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Hozukimaru",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Não me mande ter calma! Uma luta é para ser decidida com sangue e glória!",
+    "techniques": [
+      "Divida, Hozukimaru",
+      "Ryumon Hozukimaru"
+    ],
+    "avatar": "/avatars/bleach/ikkaku-madarame.png"
+  },
+  {
+    "id": "yumichika-ayasegawa",
+    "name": "Yumichika Ayasegawa",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (11ª Divisão)"
+    ],
+    "rank": "Oficial",
+    "styleOrPower": "Ruri'iro Kujaku (Pavão Lazúli)",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "A beleza é a única lei absoluta. Tudo que é feio não merece respirar.",
+    "techniques": [
+      "Drenagem Espiritual de Ruri'iro Kujaku",
+      "Fuji Kujaku"
+    ],
+    "avatar": "/avatars/bleach/yumichika-ayasegawa.png"
+  },
+  {
+    "id": "mayuri-kurotsuchi",
+    "name": "Mayuri Kurotsuchi",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (12ª Divisão)",
+      "Instituto de Pesquisa Shinigami"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Ashisogi Jizo",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Não existe nada mais detestável neste mundo do que a perfeição. A perfeição é a morte da ciência.",
+    "techniques": [
+      "Konjiki Ashisogi Jizo",
+      "Konjiki Ashisogi Jizo: Makai Fukuin Shotai",
+      "Drogas de Percepção Temporal"
+    ],
+    "avatar": "/avatars/bleach/mayuri-kurotsuchi.png"
+  },
+  {
+    "id": "nemu-kurotsuchi",
+    "name": "Nemu Kurotsuchi (Nemuri VII)",
+    "gender": "Feminino",
+    "species": "Alma Modificada / Shinigami",
+    "affiliation": [
+      "Gotei 13 (12ª Divisão)"
+    ],
+    "rank": "Tenente",
+    "styleOrPower": "Manipulação de Células Gikon Juugou",
+    "maxRelease": "Nenhuma",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morta",
+    "quote": "Mestre Mayuri, eu cumpri 100% de minhas diretrizes.",
+    "techniques": [
+      "Sobrecarga Celular de Potência",
+      "Cura Anatômica Orgânica"
+    ],
+    "avatar": "/avatars/bleach/nemu-kurotsuchi.png"
+  },
+  {
+    "id": "jushiro-ukitake",
+    "name": "Jushiro Ukitake",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 (13ª Divisão)"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Sogyo no Kotowari",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morto",
+    "quote": "Existem dois tipos de luta: a luta para proteger a vida e a luta para proteger o orgulho.",
+    "techniques": [
+      "Absorção e Refração de Energia de Sogyo no Kotowari",
+      "Kamikake (Invocação de Mimihagi)"
+    ],
+    "avatar": "/avatars/bleach/jushiro-ukitake.png"
+  },
+  {
+    "id": "sosuke-aizen",
+    "name": "Sosuke Aizen",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Ex-Gotei 13 (5ª Divisão)",
+      "Las Noches"
+    ],
+    "rank": "Ex-Capitão",
+    "styleOrPower": "Kyōka Suigetsu (Hipnose Absoluta)",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Desde o início, ninguém nunca esteve no topo do céu. Mas a partir de agora, eu me sentarei no trono.",
+    "techniques": [
+      "Kanzen Saimin",
+      "Hado #90: Kurohitsugi",
+      "Fusão do Hogyoku",
+      "Fragor"
+    ],
+    "avatar": "/avatars/bleach/sosuke-aizen.png"
+  },
+  {
+    "id": "gin-ichimaru",
+    "name": "Gin Ichimaru",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Ex-Gotei 13 (3ª Divisão)",
+      "Las Noches"
+    ],
+    "rank": "Ex-Capitão",
+    "styleOrPower": "Shinso",
+    "maxRelease": "Bankai",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morto",
+    "quote": "Eu sou uma cobra. Minha pele é fria e eu rastejo pelas sombras até dar o bote mortal.",
+    "techniques": [
+      "Mire e Mate, Shinso",
+      "Kamishini no Yari",
+      "Korose, Kamishini no Yari (Veneno Celular)"
+    ],
+    "avatar": "/avatars/bleach/gin-ichimaru.png"
+  },
+  {
+    "id": "kaname-tosen",
+    "name": "Kaname Tosen",
+    "gender": "Masculino",
+    "species": "Shinigami / Hollow",
+    "affiliation": [
+      "Ex-Gotei 13 (9ª Divisão)",
+      "Las Noches"
+    ],
+    "rank": "Ex-Capitão",
+    "styleOrPower": "Suzumushi",
+    "maxRelease": "Resurrección",
+    "debutArc": "Sociedade das Almas",
+    "status": "Morto",
+    "quote": "A justiça que não teme derramar sangue para evitar mais sangue é o único caminho.",
+    "techniques": [
+      "Suzumushi Nishiki: Benihiko",
+      "Bankai: Enma Korogi",
+      "Resurrección: Grillar Grillo",
+      "Los Nueve Aspectos"
+    ],
+    "avatar": "/avatars/bleach/kaname-tosen.png"
+  },
+  {
+    "id": "ichibe-hyosube",
+    "name": "Ichibe Hyosube",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Guarda Real (Divisão Zero)"
+    ],
+    "rank": "Guarda Real",
+    "styleOrPower": "Ichimonji (O Pincel das Trevas)",
+    "maxRelease": "Bankai",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Vivo",
+    "quote": "Eu sou o Monge que Dá Nomes. Qualquer coisa coberta pela minha tinta preta perde o seu nome e seu poder.",
+    "techniques": [
+      "Apagamento de Nomes",
+      "Shirafude Ichimonji (Renomeação)",
+      "Futen Taisatsuryo"
+    ],
+    "avatar": "/avatars/bleach/ichibe-hyosube.png"
+  },
+  {
+    "id": "oetsu-nimaiya",
+    "name": "Oetsu Nimaiya",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Guarda Real (Divisão Zero)"
+    ],
+    "rank": "Guarda Real",
+    "styleOrPower": "Sayafushi (Criador de Todas as Zanpakutō)",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Vivo",
+    "quote": "Número Um Criador de Zanpakutō, Oetsu Nimaiya! Minha lâmina é tão afiada que nem mesmo uma bainha pode contê-la!",
+    "techniques": [
+      "Corte Absoluto de Sayafushi",
+      "Controle da Forja Espiritual"
+    ],
+    "avatar": "/avatars/bleach/oetsu-nimaiya.png"
+  },
+  {
+    "id": "tenjiro-kirinji",
+    "name": "Tenjiro Kirinji",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Guarda Real (Divisão Zero)"
+    ],
+    "rank": "Guarda Real",
+    "styleOrPower": "Kinpika (Águas Termais Vermelhas e Brancas)",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Vivo",
+    "quote": "Demônio das Termas! A minha água não lava apenas feridas, ela expulsa o próprio sangue apodrecido!",
+    "techniques": [
+      "Brilhe, Kinpika",
+      "Água Branca Espiritual",
+      "Água Vermelha Infernal"
+    ],
+    "avatar": "/avatars/bleach/tenjiro-kirinji.png"
+  },
+  {
+    "id": "senjumaru-shutara",
+    "name": "Senjumaru Shutara",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Guarda Real (Divisão Zero)"
+    ],
+    "rank": "Guarda Real",
+    "styleOrPower": "Shigarami (Tecelã dos Destinos)",
+    "maxRelease": "Bankai",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Viva",
+    "quote": "Os fios do destino tecem o túmulo de todos aqueles que ousam invadir o Palácio Real.",
+    "techniques": [
+      "Tecelagem Espiritual Oculta",
+      "Bankai: Shatatsu Karagara Shigaramino Tsuji"
+    ],
+    "avatar": "/avatars/bleach/senjumaru-shutara.png"
+  },
+  {
+    "id": "kirio-hikifune",
+    "name": "Kirio Hikifune",
+    "gender": "Feminino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Guarda Real (Divisão Zero)"
+    ],
+    "rank": "Guarda Real",
+    "styleOrPower": "Kuryu (Árvore da Vida Espiritual & Gikon)",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Viva",
+    "quote": "A comida que eu preparo não é apenas alimento, é a essência condensada do poder de uma alma.",
+    "techniques": [
+      "Gikon (Alma Provisória)",
+      "Jaula da Árvore Espiritual de Kuryu"
+    ],
+    "avatar": "/avatars/bleach/kirio-hikifune.png"
+  },
+  {
+    "id": "coyote-starrk",
+    "name": "Coyote Starrk",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (1)",
+    "styleOrPower": "Los Lobos",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "Por que eu tenho que lutar contra um cara tão forte? Eu só queria um lugar onde pudesse estar junto com meus companheiros.",
+    "techniques": [
+      "Cero Metralleta",
+      "Lobos de Almas Espirituais",
+      "Colmillo"
+    ],
+    "avatar": "/avatars/bleach/coyote-starrk.png"
+  },
+  {
+    "id": "baraggan-louisenbairn",
+    "name": "Baraggan Louisenbairn",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (2)",
+    "styleOrPower": "Arrogante (O Envelhecimento Supremo)",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "O tempo é absoluto. Tudo envelhece, apodrece e morre sob a minha presença.",
+    "techniques": [
+      "Respira",
+      "Gran Caida",
+      "Senescencia"
+    ],
+    "avatar": "/avatars/bleach/baraggan-louisenbairn.png"
+  },
+  {
+    "id": "tier-harribel",
+    "name": "Tier Harribel",
+    "gender": "Feminino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (3)",
+    "styleOrPower": "Tiburón",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Viva",
+    "quote": "Um sacrifício sem sentido é apenas tolo. Eu luto para que ninguém mais precise morrer à toa.",
+    "techniques": [
+      "Ola Azul",
+      "Cascada",
+      "Tridente",
+      "Hirviendo"
+    ],
+    "avatar": "/avatars/bleach/tier-harribel.png"
+  },
+  {
+    "id": "ulquiorra-cifer",
+    "name": "Ulquiorra Cifer",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (4)",
+    "styleOrPower": "Murciélago",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "Se eu abrir seu peito, vou encontrar esse coração do qual você tanto fala?",
+    "techniques": [
+      "Cero Oscuras",
+      "Lanza del Relámpago",
+      "Resurrección: Segunda Etapa",
+      "Solita Vista"
+    ],
+    "avatar": "/avatars/bleach/ulquiorra-cifer.png"
+  },
+  {
+    "id": "nnoitra-gilga",
+    "name": "Nnoitra Gilga",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (5)",
+    "styleOrPower": "Santa Teresa",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "Não existe salvação na batalha. Apenas morrer antes mesmo de tocar o chão!",
+    "techniques": [
+      "Santa Teresa (Seis Braços)",
+      "Hierro Supremo",
+      "Indice Radar"
+    ],
+    "avatar": "/avatars/bleach/nnoitra-gilga.png"
+  },
+  {
+    "id": "grimmjow-jaegerjaquez",
+    "name": "Grimmjow Jaegerjaquez",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (6)",
+    "styleOrPower": "Pantera",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Vivo",
+    "quote": "Eu sou um rei! Qualquer um que me olhar de cima vai ser dilacerado!",
+    "techniques": [
+      "Garra de la Pantera",
+      "Desgarrón",
+      "Gran Rey Cero"
+    ],
+    "avatar": "/avatars/bleach/grimmjow-jaegerjaquez.png"
+  },
+  {
+    "id": "zommari-rureaux",
+    "name": "Zommari Rureaux",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (7)",
+    "styleOrPower": "Brujería",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "Quem deu aos Shinigamis o direito de julgar os Hollows como monstros?",
+    "techniques": [
+      "Amor (Controle Corporal)",
+      "Gemelos Sonido",
+      "El Embrion"
+    ],
+    "avatar": "/avatars/bleach/zommari-rureaux.png"
+  },
+  {
+    "id": "szayelaporro-granz",
+    "name": "Szayelaporro Granz",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (8)",
+    "styleOrPower": "Fornicarás",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "A ciência não tem limites para aqueles que compreendem a beleza da dissecação.",
+    "techniques": [
+      "Bonecos de Vodu Vaginais",
+      "Clonagem Celular",
+      "Renascimento Gabriel"
+    ],
+    "avatar": "/avatars/bleach/szayelaporro-granz.png"
+  },
+  {
+    "id": "aaroniero-arruruerie",
+    "name": "Aaroniero Arruruerie",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (9)",
+    "styleOrPower": "Glotonería",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "Eu devorei 33.650 Hollows! Todas as suas forças e memórias são minhas!",
+    "techniques": [
+      "Nejibana Copiada",
+      "Forma Monstruosa de 33.000 Hollows"
+    ],
+    "avatar": "/avatars/bleach/aaroniero-arruruerie.png"
+  },
+  {
+    "id": "yammy-llargo",
+    "name": "Yammy Llargo",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Espada / Hueco Mundo"
+    ],
+    "rank": "Espada (0)",
+    "styleOrPower": "Ira",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "Quem disse que os Espadas iam de 1 a 10? Quando eu libero a minha ira, eu sou o Espada Zero!",
+    "techniques": [
+      "Cero de Fúria",
+      "Bala Gigante",
+      "Transformação Colossal Titânica"
+    ],
+    "avatar": "/avatars/bleach/yammy-llargo.png"
+  },
+  {
+    "id": "nelliel-tu-odelschwanck",
+    "name": "Nelliel Tu Odelschwanck (Nel)",
+    "gender": "Feminino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Hueco Mundo",
+      "Ex-Espada"
+    ],
+    "rank": "Ex-Espada",
+    "styleOrPower": "Gamuza",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Viva",
+    "quote": "Eu luto por aqueles que amo. Mas não tolero crueldade com os fracos.",
+    "techniques": [
+      "Cero Doble",
+      "Lanzador Verde"
+    ],
+    "avatar": "/avatars/bleach/nelliel-tu-odelschwanck.png"
+  },
+  {
+    "id": "wonderweiss-margela",
+    "name": "Wonderweiss Margela",
+    "gender": "Masculino",
+    "species": "Arrancar / Hollow",
+    "affiliation": [
+      "Las Noches"
+    ],
+    "rank": "Oficial",
+    "styleOrPower": "Extinguir (Selamento de Chamas)",
+    "maxRelease": "Resurrección",
+    "debutArc": "Arrancar & Hueco Mundo",
+    "status": "Morto",
+    "quote": "Auuu... Waaa...",
+    "techniques": [
+      "Vagido da Selagem de Chamas",
+      "Centenas de Punhos Extinguir"
+    ],
+    "avatar": "/avatars/bleach/wonderweiss-margela.png"
+  },
+  {
+    "id": "yhwach",
+    "name": "Yhwach",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Almighty (Schrift A)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "Eu posso ver todos os futuros possíveis. E mais do que isso: eu posso alterá-los à minha vontade.",
+    "techniques": [
+      "The Almighty",
+      "Auswählen",
+      "Sankt Altar",
+      "Zankt Bogen"
+    ],
+    "avatar": "/avatars/bleach/yhwach.png"
+  },
+  {
+    "id": "jugram-haschwalth",
+    "name": "Jugram Haschwalth",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich / Schutzstaffel"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Balance (Schrift B)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "A fortuna deve ser equilibrada pelo infortúnio. Esse é o peso da balança.",
+    "techniques": [
+      "The Balance",
+      "Freund Schild (Escudo do Infortúnio)"
+    ],
+    "avatar": "/avatars/bleach/jugram-haschwalth.png"
+  },
+  {
+    "id": "gerard-valkyrie",
+    "name": "Gerard Valkyrie",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich / Schutzstaffel"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Miracle (Schrift M)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "O milagre é algo que só acontece quando a situação é absolutamente desesperadora!",
+    "techniques": [
+      "The Miracle (Regeneração e Crescimento Gigantesco)",
+      "Hoffnung (Espada da Esperança)",
+      "Aschetonig"
+    ],
+    "avatar": "/avatars/bleach/gerard-valkyrie.png"
+  },
+  {
+    "id": "lille-barro",
+    "name": "Lille Barro",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich / Schutzstaffel"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The X-Axis (Schrift X)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "Eu sou o primeiro Quincy a receber um Schrift de Sua Majestade. Minha mira nunca erra e nenhum obstáculo pode me deter.",
+    "techniques": [
+      "The X-Axis (Perfuração Inviolável)",
+      "Vollständig: Jilliel",
+      "Intangibilidade Celestial"
+    ],
+    "avatar": "/avatars/bleach/lille-barro.png"
+  },
+  {
+    "id": "pernida-parnkgjas",
+    "name": "Pernida Parnkgjas",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich / Schutzstaffel"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Compulsory (Schrift C)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "Eu sou o Braço Esquerdo do Rei das Almas. A evolução e o controle são a minha natureza.",
+    "techniques": [
+      "Nervos Invasivos de The Compulsory",
+      "Mimetismo Genético Adaptativo"
+    ],
+    "avatar": "/avatars/bleach/pernida-parnkgjas.png"
+  },
+  {
+    "id": "askin-nakk-le-vaar",
+    "name": "Askin Nakk Le Vaar",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich / Schutzstaffel"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Deathdealing (Schrift D)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "A dose certa de qualquer substância é a diferença entre um remédio e um veneno mortal.",
+    "techniques": [
+      "The Deathdealing",
+      "Dose Letal",
+      "Gift Bad",
+      "Gift Ring",
+      "Vollständig: Hasshein"
+    ],
+    "avatar": "/avatars/bleach/askin-nakk-le-vaar.png"
+  },
+  {
+    "id": "bazz-b",
+    "name": "Bazz-B (Bazzard Black)",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Heat (Schrift H)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "Minhas chamas são quentes o suficiente para anular o fogo do próprio Comandante Yamamoto!",
+    "techniques": [
+      "Burner Finger 1 a 4",
+      "Burning Full Fingers"
+    ],
+    "avatar": "/avatars/bleach/bazz-b.png"
+  },
+  {
+    "id": "bambietta-basterbine",
+    "name": "Bambietta Basterbine",
+    "gender": "Feminino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Explode (Schrift E)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morta",
+    "quote": "Eu não atiro bombas. Minha energia transforma tudo que ela toca em bombas!",
+    "techniques": [
+      "The Explode",
+      "Vollständig com Asas Bombardeadas"
+    ],
+    "avatar": "/avatars/bleach/bambietta-basterbine.png"
+  },
+  {
+    "id": "candice-catnipp",
+    "name": "Candice Catnipp",
+    "gender": "Feminino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Thunderbolt (Schrift T)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Viva",
+    "quote": "Você estragou meu cabelo! Eu vou te desintegrar com cinco gigavolts de eletricidade!",
+    "techniques": [
+      "Electrocution",
+      "Galvano Javelin"
+    ],
+    "avatar": "/avatars/bleach/candice-catnipp.png"
+  },
+  {
+    "id": "giselle-gewelle",
+    "name": "Giselle Gewelle",
+    "gender": "Feminino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Zombie (Schrift Z)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Viva",
+    "quote": "Uma gota do meu sangue e você vai ser meu zumbi para sempre!",
+    "techniques": [
+      "Zumbificação Sanguínea",
+      "Comando de Marionetes"
+    ],
+    "avatar": "/avatars/bleach/giselle-gewelle.png"
+  },
+  {
+    "id": "meninas-mcallon",
+    "name": "Meninas McAllon",
+    "gender": "Feminino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Power (Schrift P)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Viva",
+    "quote": "Parece que eu sou apenas fofa, mas meus socos destroem quarteirões inteiros.",
+    "techniques": [
+      "Superforça Muscular Esmagadora"
+    ],
+    "avatar": "/avatars/bleach/meninas-mcallon.png"
+  },
+  {
+    "id": "liltotto-lamperd",
+    "name": "Liltotto Lamperd",
+    "gender": "Feminino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Glutton (Schrift G)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Viva",
+    "quote": "Não fique no caminho. Eu como qualquer coisa que se mexer.",
+    "techniques": [
+      "Mandíbula Monstruosa Canibal"
+    ],
+    "avatar": "/avatars/bleach/liltotto-lamperd.png"
+  },
+  {
+    "id": "as-nodt",
+    "name": "As Nodt",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Fear (Schrift F)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "O medo é o primeiro sentimento que qualquer ser vivo experimenta ao nascer.",
+    "techniques": [
+      "Espinhos do Pânico Induzido",
+      "Vollständig: Tatarforas"
+    ],
+    "avatar": "/avatars/bleach/as-nodt.png"
+  },
+  {
+    "id": "mask-de-masculine",
+    "name": "Mask De Masculine",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Superstar (Schrift S)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "Líder James, torça por mim! Quanto mais os fãs aplaudem, mais invencível o herói se torna!",
+    "techniques": [
+      "Star Flash",
+      "Star Lariat",
+      "Star Laser Mortal"
+    ],
+    "avatar": "/avatars/bleach/mask-de-masculine.png"
+  },
+  {
+    "id": "gremmy-thoumeaux",
+    "name": "Gremmy Thoumeaux",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Visionary (Schrift V)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "Qualquer coisa que eu imaginar se torna realidade. Minha imaginação é a arma definitiva.",
+    "techniques": [
+      "Invocação de Meteoros",
+      "Vácuo Espacial",
+      "Armas Bélicas da Imaginação"
+    ],
+    "avatar": "/avatars/bleach/gremmy-thoumeaux.png"
+  },
+  {
+    "id": "quilge-opie",
+    "name": "Quilge Opie",
+    "gender": "Masculino",
+    "species": "Quincy",
+    "affiliation": [
+      "Wandenreich"
+    ],
+    "rank": "Sternritter",
+    "styleOrPower": "The Jail (Schrift J)",
+    "maxRelease": "Vollständig",
+    "debutArc": "A Guerra Sangrenta dos Mil Anos (TYBW)",
+    "status": "Morto",
+    "quote": "A prisão espiritual do Schrift J é indestrutível para qualquer ser que não seja um Quincy!",
+    "techniques": [
+      "The Jail",
+      "Vollständig: Biskiel",
+      "Ransotengai"
+    ],
+    "avatar": "/avatars/bleach/quilge-opie.png"
+  },
+  {
+    "id": "kugo-ginjo",
+    "name": "Kugo Ginjo",
+    "gender": "Masculino",
+    "species": "Humano / Fullbringer / Shinigami",
+    "affiliation": [
+      "Xcution",
+      "Ex-Shinigami Substituto"
+    ],
+    "rank": "Líder",
+    "styleOrPower": "Cross of Scaffold",
+    "maxRelease": "Fullbring Completo",
+    "debutArc": "O Shinigami Perdido",
+    "status": "Morto",
+    "quote": "Eu fui o primeiro Shinigami Substituto antes de você, Ichigo.",
+    "techniques": [
+      "Getsuga Tensho Roubado",
+      "Bankai de Cross of Scaffold"
+    ],
+    "avatar": "/avatars/bleach/kugo-ginjo.png"
+  },
+  {
+    "id": "shukuro-tsukishima",
+    "name": "Shukuro Tsukishima",
+    "gender": "Masculino",
+    "species": "Humano / Fullbringer",
+    "affiliation": [
+      "Xcution"
+    ],
+    "rank": "Membro",
+    "styleOrPower": "Book of the End",
+    "maxRelease": "Fullbring Completo",
+    "debutArc": "O Shinigami Perdido",
+    "status": "Morto",
+    "quote": "Eu sempre fiz parte do seu passado. Você não se lembra do quanto nos divertimos juntos?",
+    "techniques": [
+      "Inserção no Passado de Book of the End",
+      "Corte Psíquico"
+    ],
+    "avatar": "/avatars/bleach/shukuro-tsukishima.png"
+  },
+  {
+    "id": "riruka-dokugamine",
+    "name": "Riruka Dokugamine",
+    "gender": "Feminino",
+    "species": "Humano / Fullbringer",
+    "affiliation": [
+      "Xcution"
+    ],
+    "rank": "Membro",
+    "styleOrPower": "Dollhouse",
+    "maxRelease": "Fullbring Completo",
+    "debutArc": "O Shinigami Perdido",
+    "status": "Viva",
+    "quote": "Tudo o que eu acho fofo pertence à minha casa de bonecas!",
+    "techniques": [
+      "Encolhimento em Caixa Dollhouse",
+      "Disparo de Pelúcia"
+    ],
+    "avatar": "/avatars/bleach/riruka-dokugamine.png"
+  },
+  {
+    "id": "yukio-hans-vorarlberna",
+    "name": "Yukio Hans Vorarlberna",
+    "gender": "Masculino",
+    "species": "Humano / Fullbringer",
+    "affiliation": [
+      "Xcution"
+    ],
+    "rank": "Membro",
+    "styleOrPower": "Invaders Must Die",
+    "maxRelease": "Fullbring Completo",
+    "debutArc": "O Shinigami Perdido",
+    "status": "Vivo",
+    "quote": "No meu videogame, eu sou o Deus que dita todas as regras e físicas.",
+    "techniques": [
+      "Dimensão de Pixel Isolada",
+      "Monstros de 8-bits"
+    ],
+    "avatar": "/avatars/bleach/yukio-hans-vorarlberna.png"
+  },
+  {
+    "id": "kazui-kurosaki",
+    "name": "Kazui Kurosaki",
+    "gender": "Masculino",
+    "species": "Humano / Shinigami",
+    "affiliation": [
+      "Karakura"
+    ],
+    "rank": "Membro",
+    "styleOrPower": "Lâmina Espiritual do Luar",
+    "maxRelease": "Shikai Apenas",
+    "debutArc": "Arco do Inferno",
+    "status": "Vivo",
+    "quote": "Olha o peixe dourado gigante que eu encontrei!",
+    "techniques": [
+      "Manto de Shinigami Instintivo",
+      "Abertura de Portões Espirituais"
+    ],
+    "avatar": "/avatars/bleach/kazui-kurosaki.png"
+  }
+]

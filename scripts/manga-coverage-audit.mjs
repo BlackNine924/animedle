@@ -8,6 +8,7 @@ const rootDir = path.resolve(__dirname, '..');
 
 // Lista canônica de animes suportados
 const ANIMES = [
+  'bleach',
   'blue-lock',
   'demon-slayer',
   'jujutsu-kaisen',

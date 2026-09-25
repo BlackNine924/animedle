@@ -84,7 +84,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 {/* Lista de animes com rolagem isolada */}
                 <div className="overflow-y-auto custom-scrollbar py-1 flex-1">
                   {Object.values(ANIMES_CONFIG).map((anime) => {
-                    const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok' || anime.slug === 'blue-lock';
+                    const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok' || anime.slug === 'blue-lock' || anime.slug === 'bleach';
                     const isSelected = anime.slug === currentAnimeSlug;
 
                     return (

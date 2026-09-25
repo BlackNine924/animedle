@@ -25,11 +25,37 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'bleach',
     title: 'Bleach',
     subtitle: 'Tite Kubo',
-    themeColor: '#f97316',
-    accentColor: '#ea580c',
-    banner: '👻',
-    columns: [],
-    arcs: []
+    themeColor: '#FF4D8D',
+    accentColor: '#D81B60',
+    banner: '⚔️',
+    logo: '/logo-bleach.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Raça / Natureza', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'rank', label: 'Posto / Patente', type: 'exact' },
+      { key: 'styleOrPower', label: 'Zanpakutō / Poder', type: 'exact' },
+      { key: 'maxRelease', label: 'Liberação Máxima', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Shinigami Substituto',
+      'Sociedade das Almas',
+      'Arrancar & Hueco Mundo',
+      'Batalha de Falsa Karakura',
+      'O Shinigami Perdido',
+      'A Guerra Sangrenta dos Mil Anos (TYBW)',
+      'Arco do Inferno'
+    ],
+    mangaCoverage: {
+      chapter: 687,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa (Capítulos 1 ao 686 da série original mais o capítulo especial 687 - No Breathes from Hell).'
+    }
   },
   'blue-lock': {
     slug: 'blue-lock',

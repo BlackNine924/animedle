@@ -36,6 +36,8 @@ export interface Character {
   round?: string;
   // Blue Lock
   position?: string;
+  // Bleach
+  maxRelease?: string;
 }
 
 export interface AttributeColumn {
