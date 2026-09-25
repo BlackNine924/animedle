@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { HelpCircle, BarChart2, ChevronDown, RotateCcw, Sparkles } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ANIMES_CONFIG } from '../data/animes/config';
 
 interface NavbarProps {
@@ -32,6 +33,16 @@ export const Navbar: React.FC<NavbarProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Pré-carrega todas as logos dos animes em memória para troca 100% instantânea sem delay
+  useEffect(() => {
+    Object.values(ANIMES_CONFIG).forEach((anime) => {
+      if (anime.logo) {
+        const img = new Image();
+        img.src = anime.logo;
+      }
+    });
+  }, []);
+
   // Atualiza o favicon dinamicamente com base no anime selecionado
   useEffect(() => {
     const logoUrl = currentAnime.logo || '/logo-demon-slayer.png';
@@ -48,9 +59,31 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Lado Esquerdo: Logo & Anime Selector */}
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2.5 cursor-pointer select-none">
-            <img src={currentAnime.logo || '/logo-demon-slayer.png'} alt="AnimeDLE Logo" className="w-9 h-9 object-contain drop-shadow-md" />
+            <div className="relative w-9 h-9 flex items-center justify-center flex-shrink-0">
+              <AnimatePresence mode="wait">
+                <motion.img
+                  key={currentAnime.slug}
+                  src={currentAnime.logo || '/logo-demon-slayer.png'}
+                  alt={`${currentAnime.title} Logo`}
+                  initial={{ opacity: 0, scale: 0.88 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.88 }}
+                  transition={{ duration: 0.18, ease: 'easeOut' }}
+                  className="w-9 h-9 object-contain drop-shadow-md absolute inset-0"
+                />
+              </AnimatePresence>
+            </div>
             <h1 className="text-xl font-black tracking-tight text-white flex items-center gap-0.5">
-              Anime<span style={{ color: currentAnime.themeColor }}>DLE</span>
+              Anime
+              <motion.span
+                key={currentAnime.slug}
+                initial={{ opacity: 0.7 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.2 }}
+                style={{ color: currentAnime.themeColor }}
+              >
+                DLE
+              </motion.span>
             </h1>
           </div>
 

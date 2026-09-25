@@ -16,8 +16,10 @@ const logos = [
 ];
 
 async function standardizeLogos() {
-  const targetCanvas = 1024;
-  const contentTarget = 960; // 32px margin all around
+  // 384x384 is over 10x larger than the 36x36 display size (w-9 h-9),
+  // providing ultra-crisp Retina clarity while shrinking file sizes from 750KB to ~25KB.
+  const targetCanvas = 384;
+  const contentTarget = 360; // exact same 3.1% margin all around
 
   for (const filename of logos) {
     const filePath = path.join('public', filename);
@@ -34,7 +36,7 @@ async function standardizeLogos() {
       .resize(contentTarget, contentTarget, { fit: 'inside' })
       .toBuffer({ resolveWithObject: true });
 
-    // 3. Composite into centered square canvas of 1024 x 1024
+    // 3. Composite into centered square canvas of 384 x 384
     const left = Math.round((targetCanvas - resized.info.width) / 2);
     const top = Math.round((targetCanvas - resized.info.height) / 2);
 
@@ -47,11 +49,11 @@ async function standardizeLogos() {
       }
     })
       .composite([{ input: resized.data, left, top }])
-      .png({ compressionLevel: 9 })
+      .png({ compressionLevel: 9, quality: 95 })
       .toBuffer();
 
     fs.writeFileSync(filePath, standardized);
-    console.log(`Standardized ${filename}: content ${resized.info.width}x${resized.info.height} on ${targetCanvas}x${targetCanvas}`);
+    console.log(`Optimized ${filename}: ${(standardized.length / 1024).toFixed(1)} KB`);
   }
 }
 
