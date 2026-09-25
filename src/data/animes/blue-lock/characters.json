@@ -1,0 +1,1271 @@
+[
+  {
+    "id": "yoichi-isagi",
+    "name": "Yoichi Isagi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 240000000,
+    "styleOrPower": "Direct Shot & Metavisão",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu não vim aqui para jogar em equipe. Eu vim aqui para ser o maior atacante do mundo!",
+    "avatar": "/avatars/blue-lock/yoichi-isagi.png"
+  },
+  {
+    "id": "meguru-bachira",
+    "name": "Meguru Bachira",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "FC Barcha",
+      "Blue Lock"
+    ],
+    "bounty": 120000000,
+    "styleOrPower": "Drible Monstruoso & Gingado",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Há um monstro dentro de mim... e ele me diz para seguir em frente!",
+    "avatar": "/avatars/blue-lock/meguru-bachira.png"
+  },
+  {
+    "id": "rensuke-kunigami",
+    "name": "Rensuke Kunigami",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Bastard München",
+      "Wild Card",
+      "Blue Lock"
+    ],
+    "bounty": 50000000,
+    "styleOrPower": "Chute de Canhota & Físico Cyborg",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu quero me tornar um herói do futebol. Não importa o que aconteça, não vou quebrar minhas regras.",
+    "avatar": "/avatars/blue-lock/rensuke-kunigami.png"
+  },
+  {
+    "id": "hyoma-chigiri",
+    "name": "Hyoma Chigiri",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Manshine City",
+      "Blue Lock"
+    ],
+    "bounty": 90000000,
+    "styleOrPower": "Velocidade Pura & 44 Panther Snipe",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Minha velocidade é a minha corrente e a minha libertação. Ninguém vai me alcançar!",
+    "avatar": "/avatars/blue-lock/hyoma-chigiri.png"
+  },
+  {
+    "id": "seishiro-nagi",
+    "name": "Seishiro Nagi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Manshine City",
+      "Blue Lock"
+    ],
+    "bounty": 40000000,
+    "styleOrPower": "Domínio & Trap Genial",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Futebol é tão problemático... mas vencer é muito divertido.",
+    "avatar": "/avatars/blue-lock/seishiro-nagi.png"
+  },
+  {
+    "id": "reo-mikage",
+    "name": "Reo Mikage",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Manshine City",
+      "Blue Lock"
+    ],
+    "bounty": 36000000,
+    "styleOrPower": "Camaleão & Cópia 99%",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu posso ter tudo o que quiser no mundo. E o que eu quero agora é a Copa do Mundo!",
+    "avatar": "/avatars/blue-lock/reo-mikage.png"
+  },
+  {
+    "id": "shoei-barou",
+    "name": "Shoei Barou",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Ubers",
+      "Blue Lock"
+    ],
+    "bounty": 150000000,
+    "styleOrPower": "Chute de Curva & Drible de Choque",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu sou o Rei deste campo. Vocês são apenas os servos que existem para me passar a bola!",
+    "avatar": "/avatars/blue-lock/shoei-barou.png"
+  },
+  {
+    "id": "rin-itoshi",
+    "name": "Rin Itoshi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Paris X Gen",
+      "Blue Lock"
+    ],
+    "bounty": 240000000,
+    "styleOrPower": "Precisão Cirúrgica & Estado de Fluxo",
+    "debutArc": "Segunda Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Futebol morno não me interessa. Eu só existo para destruir meu irmão e todo mundo no meu caminho.",
+    "avatar": "/avatars/blue-lock/rin-itoshi.png"
+  },
+  {
+    "id": "ryusei-shidou",
+    "name": "Ryusei Shidou",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Paris X Gen",
+      "Blue Lock"
+    ],
+    "bounty": 160000000,
+    "styleOrPower": "Consciência Espacial na Área & Acrobacia",
+    "debutArc": "Segunda Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Um gol é uma explosão biológica! Deixe o futebol fecundar o mundo!",
+    "avatar": "/avatars/blue-lock/ryusei-shidou.png"
+  },
+  {
+    "id": "gin-gagamaru",
+    "name": "Gin Gagamaru",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Goleiro",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 32000000,
+    "styleOrPower": "Reflexos Felinos & Elasticidade de Goleiro",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Comer com as mãos é bom... agarrar bolas difíceis também.",
+    "avatar": "/avatars/blue-lock/gin-gagamaru.png"
+  },
+  {
+    "id": "jingo-raichi",
+    "name": "Jingo Raichi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 18000000,
+    "styleOrPower": "Duelo Físico Ilimitado & Marcação",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Futebol sexy é sobre marcação sem parar até o desespero do adversário!",
+    "avatar": "/avatars/blue-lock/jingo-raichi.png"
+  },
+  {
+    "id": "jyubei-aryu",
+    "name": "Jyubei Aryu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Ubers",
+      "Blue Lock"
+    ],
+    "bounty": 45000000,
+    "styleOrPower": "Alcance Aéreo & Estilo Glamouroso",
+    "debutArc": "Segunda Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Isso não foi glamouroso... Minha envergadura é a personificação da elegância estética.",
+    "avatar": "/avatars/blue-lock/jyubei-aryu.png"
+  },
+  {
+    "id": "aoshi-tokimitsu",
+    "name": "Aoshi Tokimitsu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Paris X Gen",
+      "Blue Lock"
+    ],
+    "bounty": 13000000,
+    "styleOrPower": "Musculatura Rápida & Vigor Infinito",
+    "debutArc": "Segunda Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Desculpe, desculpe! Eu fico tão nervoso que não consigo parar de correr e empurrar!",
+    "avatar": "/avatars/blue-lock/aoshi-tokimitsu.png"
+  },
+  {
+    "id": "yo-hiori",
+    "name": "Yo Hiori",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 20000000,
+    "styleOrPower": "Passe Curvo Milimétrico & Metavisão",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "O futebol não precisa ser uma expectativa imposta pelos meus pais. Pode ser o meu próprio jogo.",
+    "avatar": "/avatars/blue-lock/yo-hiori.png"
+  },
+  {
+    "id": "kenyu-yukimiya",
+    "name": "Kenyu Yukimiya",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 36000000,
+    "styleOrPower": "Drible 1v1 & Chute Gyro",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Mesmo que minha visão esteja se apagando, o meu sonho nunca vai se perder no escuro!",
+    "avatar": "/avatars/blue-lock/kenyu-yukimiya.png"
+  },
+  {
+    "id": "tabito-karasu",
+    "name": "Tabito Karasu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Paris X Gen",
+      "Blue Lock"
+    ],
+    "bounty": 35000000,
+    "styleOrPower": "Finta de Mãos & Análise de Alvos",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Você é medíocre. E no futebol, corvos como eu devoram os elos mais fracos primeiro.",
+    "avatar": "/avatars/blue-lock/tabito-karasu.png"
+  },
+  {
+    "id": "eita-otoya",
+    "name": "Eita Otoya",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "FC Barcha",
+      "Blue Lock"
+    ],
+    "bounty": 42000000,
+    "styleOrPower": "Passo Furtivo & Infiltração Ninja",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Sombras não fazem barulho. Quando você notar, eu já estou comemorando o gol.",
+    "avatar": "/avatars/blue-lock/eita-otoya.png"
+  },
+  {
+    "id": "zantetsu-tsurugi",
+    "name": "Zantetsu Tsurugi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Paris X Gen",
+      "Blue Lock"
+    ],
+    "bounty": 15000000,
+    "styleOrPower": "Aceleração Explosiva nos Primeiros Metros",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Meus primeiros passos são idiotamente rápidos. Não tente me parar!",
+    "avatar": "/avatars/blue-lock/zantetsu-tsurugi.png"
+  },
+  {
+    "id": "ikki-niko",
+    "name": "Ikki Niko",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Ubers",
+      "Blue Lock"
+    ],
+    "bounty": 40000000,
+    "styleOrPower": "Visão Antecipada & Desarme Tático",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu não sou o herói, sou aquele que controla as engrenagens de trás para quebrar o ataque rival.",
+    "avatar": "/avatars/blue-lock/ikki-niko.png"
+  },
+  {
+    "id": "ranze-kurona",
+    "name": "Ranze Kurona",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 30000000,
+    "styleOrPower": "Tabela Veloz & Planet Hotline",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Toca e vai, vai e toca. Enquanto você correr, eu sou sua órbita, Isagi.",
+    "avatar": "/avatars/blue-lock/ranze-kurona.png"
+  },
+  {
+    "id": "jin-kiyora",
+    "name": "Jin Kiyora",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 23000000,
+    "styleOrPower": "Breakdance Dribbling & Chute de Linha",
+    "debutArc": "Segunda Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu escolho o lado que me dá a melhor chance de sobreviver e brilhar na borda do campo.",
+    "avatar": "/avatars/blue-lock/jin-kiyora.png"
+  },
+  {
+    "id": "nijiro-nanase",
+    "name": "Nijiro Nanase",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Paris X Gen",
+      "Blue Lock"
+    ],
+    "bounty": 16000000,
+    "styleOrPower": "Chute com Ambos os Pés & Suporte",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Não tenho o talento de vocês, mas vou me esforçar duas vezes mais para estar em campo!",
+    "avatar": "/avatars/blue-lock/nijiro-nanase.png"
+  },
+  {
+    "id": "gurimu-igarashi",
+    "name": "Gurimu Igarashi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Bastard München",
+      "Blue Lock"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Malícia de Monge & Cavar Faltas",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu não quero herdar o templo do meu pai! Eu vou viver do futebol de qualquer jeito!",
+    "avatar": "/avatars/blue-lock/gurimu-igarashi.png"
+  },
+  {
+    "id": "kento-cho",
+    "name": "Kento Cho",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Ubers",
+      "Blue Lock"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Cabeceio & Força Aérea",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "No jogo aéreo, pouca gente no Blue Lock consegue competir com a minha impulsão.",
+    "avatar": "/avatars/blue-lock/kento-cho.png"
+  },
+  {
+    "id": "hajime-nishioka",
+    "name": "Hajime Nishioka",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Manshine City",
+      "Blue Lock"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Drible Ágil (\"Messi de Aomori\")",
+    "debutArc": "Segunda Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eles me chamam de Messi de Aomori por uma razão. Meu drible fala por si.",
+    "avatar": "/avatars/blue-lock/hajime-nishioka.png"
+  },
+  {
+    "id": "shizuka-haiji",
+    "name": "Shizuka Haiji",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "FC Barcha",
+      "Blue Lock"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Visão Espacial & Ritmo",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "O meio-campo precisa de calma para conectar as jogadas ofensivas.",
+    "avatar": "/avatars/blue-lock/shizuka-haiji.png"
+  },
+  {
+    "id": "kyohei-shiguma",
+    "name": "Kyohei Shiguma",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Manshine City",
+      "Blue Lock"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Força Bruta & Cabeceio",
+    "debutArc": "Terceira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Nenhum atacante passa fácil pelo meu bloqueio físico.",
+    "avatar": "/avatars/blue-lock/kyohei-shiguma.png"
+  },
+  {
+    "id": "oliver-aiku",
+    "name": "Oliver Aiku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Ubers",
+      "Sub-20 Japão"
+    ],
+    "bounty": 60000000,
+    "styleOrPower": "Metavisão Defensiva & Domínio de Área",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu queria ser atacante, mas o futebol japonês me transformou no muro intransponível que esmaga egoístas.",
+    "avatar": "/avatars/blue-lock/oliver-aiku.png"
+  },
+  {
+    "id": "shuto-sendo",
+    "name": "Shuto Sendo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Ubers",
+      "Sub-20 Japão"
+    ],
+    "bounty": 37000000,
+    "styleOrPower": "Instinto de Oportunismo & Deslizamento",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Eu quero casar com uma celebridade bonita e ser milionário! Esse é o meu combustível!",
+    "avatar": "/avatars/blue-lock/shuto-sendo.png"
+  },
+  {
+    "id": "gen-fukaku",
+    "name": "Gen Fukaku",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Goleiro",
+    "affiliation": [
+      "Ubers",
+      "Sub-20 Japão"
+    ],
+    "bounty": 28000000,
+    "styleOrPower": "Posicionamento Seguro & Defesa Tradicional",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "A meta do Japão Sub-20 é o meu posto de honra.",
+    "avatar": "/avatars/blue-lock/gen-fukaku.png"
+  },
+  {
+    "id": "kazuma-nio",
+    "name": "Kazuma Niou",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Ubers",
+      "Sub-20 Japão"
+    ],
+    "bounty": 10000000,
+    "styleOrPower": "Marcação Colada & Físico de Cão de Caça",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Uma vez que eu mordo a sua canela taticamente, não solto até o apito final.",
+    "avatar": "/avatars/blue-lock/kazuma-nio.png"
+  },
+  {
+    "id": "teppei-neru",
+    "name": "Teppei Neru",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Bastard München",
+      "Sub-20 Japão"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Velocidade de Recuperação na Lateral",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "A lateral direita é minha avenida. Tente passar na velocidade se puder!",
+    "avatar": "/avatars/blue-lock/teppei-neru.png"
+  },
+  {
+    "id": "miroku-darai",
+    "name": "Miroku Darai",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "FC Barcha",
+      "Sub-20 Japão"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Marcação Zonal & Desarme sem Falta",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Desarmar sem cometer falta é a mais pura arte zen da defesa.",
+    "avatar": "/avatars/blue-lock/miroku-darai.png"
+  },
+  {
+    "id": "haru-hayate",
+    "name": "Haru Hayate",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "FC Barcha",
+      "Sub-20 Japão"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Recuperação de Bola & Apoio Defensivo",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Equilíbrio tático é o que sustenta um time campeão.",
+    "avatar": "/avatars/blue-lock/haru-hayate.png"
+  },
+  {
+    "id": "teru-kitsunezato",
+    "name": "Teru Kitsunezato",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "FC Barcha",
+      "Sub-20 Japão"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Drible em Velocidade & Visão Ágil",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Astúcia de raposa para quebrar as linhas adversárias.",
+    "avatar": "/avatars/blue-lock/teru-kitsunezato.png"
+  },
+  {
+    "id": "itsuki-wakatsuki",
+    "name": "Itsuki Wakatsuki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Manshine City",
+      "Sub-20 Japão"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Combate Físico & Pressão",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "A defesa não dá espaço para vaidades.",
+    "avatar": "/avatars/blue-lock/itsuki-wakatsuki.png"
+  },
+  {
+    "id": "ryosuke-kira",
+    "name": "Ryosuke Kira",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Ichinan High"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Toque Refinado & Visão Ofensiva",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Isso é uma piada! Futebol não é sobre egoísmo, é sobre trabalho em equipe!",
+    "avatar": "/avatars/blue-lock/ryosuke-kira.png"
+  },
+  {
+    "id": "asahi-naruhaya",
+    "name": "Asahi Naruhaya",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Time Z"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Movimentação sem Bola & Infiltração",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Eu não sou um gênio como você, Isagi... Mas eu precisava vencer pelos meus irmãos!",
+    "avatar": "/avatars/blue-lock/asahi-naruhaya.png"
+  },
+  {
+    "id": "wataru-kuon",
+    "name": "Wataru Kuon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Time Z"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Salto Vertical & Cabeceio Tático",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Trair meus companheiros foi a única forma que achei para não ser deixado para trás.",
+    "avatar": "/avatars/blue-lock/wataru-kuon.png"
+  },
+  {
+    "id": "okuhito-iemon",
+    "name": "Okuhito Iemon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Goleiro",
+    "affiliation": [
+      "Time Z"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Polivalência & Comando de Área",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Mesmo que eu queira ser atacante, eu seguro a barra no gol pelo Time Z.",
+    "avatar": "/avatars/blue-lock/okuhito-iemon.png"
+  },
+  {
+    "id": "yudai-imamura",
+    "name": "Yudai Imamura",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Time Z"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Velocidade & Agilidade no Toque",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Meu estilo de jogo é tão leve e solto quanto meu jeito de curtir a vida.",
+    "avatar": "/avatars/blue-lock/yudai-imamura.png"
+  },
+  {
+    "id": "keisuke-wanima",
+    "name": "Keisuke Wanima",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Time W"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Sincronia de Gêmeos & Ataque Coordenado",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Eu e meu irmão sabemos exatamente o que o outro vai fazer antes mesmo de tocar na bola!",
+    "avatar": "/avatars/blue-lock/keisuke-wanima.png"
+  },
+  {
+    "id": "junichi-wanima",
+    "name": "Junichi Wanima",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Manshine City",
+      "Time W"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Ataque em Dupla & Pressão Agressiva",
+    "debutArc": "Primeira Seleção",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Grrr...! (Mesmo sem meu irmão, eu vou continuar devorando o campo!)",
+    "avatar": "/avatars/blue-lock/junichi-wanima.png"
+  },
+  {
+    "id": "hibiki-okawa",
+    "name": "Hibiki Okawa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Time Y"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Chute de Primeira com Finesse",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "O artilheiro do Time Y só precisa de um toque para mandar a bola pro fundo das redes.",
+    "avatar": "/avatars/blue-lock/hibiki-okawa.png"
+  },
+  {
+    "id": "michael-kaiser",
+    "name": "Michael Kaiser",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Alemanha",
+    "position": "Atacante",
+    "affiliation": [
+      "Bastard München",
+      "Nova Geração Mundial 11"
+    ],
+    "bounty": 320000000,
+    "styleOrPower": "Kaiser Impact & Metavisão Suprema",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "O impossível não existe no meu cardápio. Eu sou o imperador e este campo me pertence!",
+    "avatar": "/avatars/blue-lock/michael-kaiser.png"
+  },
+  {
+    "id": "alexis-ness",
+    "name": "Alexis Ness",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Alemanha",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Bastard München"
+    ],
+    "bounty": 50000000,
+    "styleOrPower": "Magia de Tornozelo & Drible Fluido",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "O futebol é a pura magia da lógica... e Kaiser é o meu verdadeiro rei!",
+    "avatar": "/avatars/blue-lock/alexis-ness.png"
+  },
+  {
+    "id": "sae-itoshi",
+    "name": "Sae Itoshi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Real Madrid",
+      "Nova Geração Mundial 11"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Passes Computadorizados & Controle de Ritmo",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "O futebol japonês é patético e provinciano. Eu preferi me tornar o melhor meia do mundo.",
+    "avatar": "/avatars/blue-lock/sae-itoshi.png"
+  },
+  {
+    "id": "don-lorenzo",
+    "name": "Don Lorenzo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Itália",
+    "position": "Defensor",
+    "affiliation": [
+      "Ubers",
+      "Nova Geração Mundial 11"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Drible Zumbi & Bloqueio Total",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Dentes de ouro, dinheiro no bolso... No campo dos Ubers, eu devoro o seu atacante estrela!",
+    "avatar": "/avatars/blue-lock/don-lorenzo.png"
+  },
+  {
+    "id": "charles-chevalier",
+    "name": "Charles Chevalier",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Paris X Gen"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Passes Imprevisíveis & Visão Contra-Intuitiva",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Jogar com passes previsíveis é tão chato! Eu só quero me divertir com jogadas malucas!",
+    "avatar": "/avatars/blue-lock/charles-chevalier.png"
+  },
+  {
+    "id": "agi",
+    "name": "Agi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Atacante",
+    "affiliation": [
+      "Manshine City",
+      "Sub-20 Inglaterra"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Salto Aéreo & Teoria Tática",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "A criatividade precisa ser amparada pelo raciocínio científico e a biomecânica.",
+    "avatar": "/avatars/blue-lock/agi.png"
+  },
+  {
+    "id": "benedict-grim",
+    "name": "Benedict Grim",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Alemanha",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Bastard München"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Cruzamentos Precisos & Suporte pelas Alas",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "A mecânica do Bastard München exige rigor e disciplina nas alas.",
+    "avatar": "/avatars/blue-lock/benedict-grim.png"
+  },
+  {
+    "id": "erik-gesner",
+    "name": "Erik Gesner",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Alemanha",
+    "position": "Atacante",
+    "affiliation": [
+      "Bastard München"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Finalização & Movimentação Ofensiva",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Jogadores de Blue Lock não deveriam se intrometer no sistema alemão do Kaiser.",
+    "avatar": "/avatars/blue-lock/erik-gesner.png"
+  },
+  {
+    "id": "ignacio-lara",
+    "name": "Ignacio Lara",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Espanha",
+    "position": "Defensor",
+    "affiliation": [
+      "FC Barcha"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Desarme & Posicionamento Defensivo",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Na Catalunha aprendemos que a defesa constrói a liberdade do ataque.",
+    "avatar": "/avatars/blue-lock/ignacio-lara.png"
+  },
+  {
+    "id": "teddy-knight",
+    "name": "Teddy Knight",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Atacante",
+    "affiliation": [
+      "Sub-20 Inglaterra",
+      "Nova Geração Mundial 11"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Self-Incompetence & Físico e Técnica de Elite",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Profissional / Convidado",
+    "quote": "Aceitar a própria incompetência e se render ao coletivo do sistema é a maior força que um jogador pode ter.",
+    "avatar": "/avatars/blue-lock/teddy-knight.png"
+  },
+  {
+    "id": "lockhart",
+    "name": "Lockhart",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Atacante",
+    "affiliation": [
+      "Sub-20 Inglaterra"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Cabeceio Poderoso & Presença de Área",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Profissional / Convidado",
+    "quote": "No ar inglês ninguém ganha de mim. Bola na área é rede!",
+    "avatar": "/avatars/blue-lock/lockhart.png"
+  },
+  {
+    "id": "coach-fox",
+    "name": "Coach Fox",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Sub-20 Inglaterra"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Sistema Tático Coletivo & Disciplina Anti-Ego",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Profissional / Convidado",
+    "quote": "Egos individuais são falhos. O sistema disciplinado é perfeito e eterno.",
+    "avatar": "/avatars/blue-lock/coach-fox.png"
+  },
+  {
+    "id": "achanpong",
+    "name": "Achanpong",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Sub-20 Inglaterra"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Visão Central & Liderança em Campo",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Profissional / Convidado",
+    "quote": "Como capitão inglês, mantenho a ordem e o ritmo impecável dos nossos movimentos.",
+    "avatar": "/avatars/blue-lock/achanpong.png"
+  },
+  {
+    "id": "rooke",
+    "name": "Rooke",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Goleiro",
+    "affiliation": [
+      "Sub-20 Inglaterra"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Envergadura & Defesas em Linha",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Profissional / Convidado",
+    "quote": "A muralha inglesa não cede diante de nenhum egoísta.",
+    "avatar": "/avatars/blue-lock/rooke.png"
+  },
+  {
+    "id": "noel-noa",
+    "name": "Noel Noa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Atacante",
+    "affiliation": [
+      "Bastard München"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Ambidestria Perfeita & Eficiência Racional",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Não me venha com sentimentos. Se não puder expressar sua vitória em números e lógica, você não presta para jogar comigo.",
+    "avatar": "/avatars/blue-lock/noel-noa.png"
+  },
+  {
+    "id": "chris-prince",
+    "name": "Chris Prince",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Atacante",
+    "affiliation": [
+      "Manshine City"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Físico Perfeito & Chute sem Giro",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Um corpo perfeito gera o futebol perfeito. Olhe para os meus músculos e aprenda o que é um superstar!",
+    "avatar": "/avatars/blue-lock/chris-prince.png"
+  },
+  {
+    "id": "marc-snuffy",
+    "name": "Marc Snuffy",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Itália",
+    "position": "Atacante",
+    "affiliation": [
+      "Ubers"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Jiu-Jitsu & Estratégia Tática Global",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Futebol é um trabalho profissional. Se você não tiver um plano de negócios para sua carreira, você quebra.",
+    "avatar": "/avatars/blue-lock/marc-snuffy.png"
+  },
+  {
+    "id": "lavinho",
+    "name": "Lavinho",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Brasil",
+    "position": "Atacante",
+    "affiliation": [
+      "FC Barcha"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Drible Gingado & Estilo Livre Inovador",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Profissional / Convidado",
+    "quote": "Imite a minha ginga se quiser, mas para ser um dançarino de verdade você tem que expressar sua própria loucura!",
+    "avatar": "/avatars/blue-lock/lavinho.png"
+  },
+  {
+    "id": "julien-loki",
+    "name": "Julien Loki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Atacante",
+    "affiliation": [
+      "Paris X Gen"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Velocidade Supersônica & Prodígio Mundial",
+    "debutArc": "Segunda Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "A juventude não é desculpa para perder. A velocidade é a lei absoluta do futebol moderno.",
+    "avatar": "/avatars/blue-lock/julien-loki.png"
+  },
+  {
+    "id": "leonardo-luna",
+    "name": "Leonardo Luna",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Espanha",
+    "position": "Atacante",
+    "affiliation": [
+      "Real Madrid"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Drible Elegante & Aceleração Suave",
+    "debutArc": "Segunda Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Bons garotos japoneses... Vocês são tão fofos achando que entendem o futebol do mundo real.",
+    "avatar": "/avatars/blue-lock/leonardo-luna.png"
+  },
+  {
+    "id": "adam-blake",
+    "name": "Adam Blake",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Atacante",
+    "affiliation": [
+      "World Five"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Físico Titânico & Chute Devastador",
+    "debutArc": "Segunda Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Mulheres e dinheiro! Eu jogo para ser o mais forte e curtir a vida como um verdadeiro monstro!",
+    "avatar": "/avatars/blue-lock/adam-blake.png"
+  },
+  {
+    "id": "pablo-cavasoz",
+    "name": "Pablo Cavasoz",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Argentina",
+    "position": "Meio-campista",
+    "affiliation": [
+      "World Five"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Chute Curvo Letal de Falta",
+    "debutArc": "Segunda Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "A curva da bola é a minha poesia. Na bola parada ninguém me supera.",
+    "avatar": "/avatars/blue-lock/pablo-cavasoz.png"
+  },
+  {
+    "id": "dada-silva",
+    "name": "Dada Silva",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Brasil",
+    "position": "Atacante",
+    "affiliation": [
+      "World Five"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Salto Aéreo & Potência Física",
+    "debutArc": "Segunda Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Samba e salto pesado! No combate corpo a corpo não tem conversa!",
+    "avatar": "/avatars/blue-lock/dada-silva.png"
+  },
+  {
+    "id": "jinpachi-ego",
+    "name": "Jinpachi Ego",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Projeto Blue Lock"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Filosofia do Egoísmo & Análise Científica",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Joguem fora o bom senso do futebol japonês. Sejam os egoístas supremos que o mundo teme!",
+    "avatar": "/avatars/blue-lock/jinpachi-ego.png"
+  },
+  {
+    "id": "anri-teieri",
+    "name": "Anri Teieri",
+    "gender": "Feminino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Associação Japonesa de Futebol (JFU)",
+      "Projeto Blue Lock"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Gestão Esportiva & Paixão pelo Futebol Japonês",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Eu não me importo com a política da JFU. Eu quero ver o Japão campeão do mundo!",
+    "avatar": "/avatars/blue-lock/anri-teieri.png"
+  },
+  {
+    "id": "hirotoshi-buratsuta",
+    "name": "Hirotoshi Buratsuta",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Associação Japonesa de Futebol (JFU)"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Capitalismo & Lucro Esportivo",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Futebol é entretenimento e negócio. Se gerar dinheiro e manchete, eu assino embaixo.",
+    "avatar": "/avatars/blue-lock/hirotoshi-buratsuta.png"
+  },
+  {
+    "id": "yasumori-hoichi",
+    "name": "Yasumori Hoichi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "JFU",
+      "Liga Neo Egoísta (NEL)"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Narração & Análise de Jogos",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Que jogada espetacular no gramado do Blue Lock! O mundo inteiro está de olho!",
+    "avatar": "/avatars/blue-lock/yasumori-hoichi.png"
+  },
+  {
+    "id": "ryo-nameoka",
+    "name": "Ryo Nameoka",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Matsukaze Kokuou"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Finalização & Duelo Colegial",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Nós fomos para o campeonato nacional e você ficou pelo caminho, Isagi!",
+    "avatar": "/avatars/blue-lock/ryo-nameoka.png"
+  }
+]

@@ -16,6 +16,7 @@ import onePieceCharacters from './data/animes/one-piece/characters.json';
 import narutoCharacters from './data/animes/naruto/characters.json';
 import soloLevelingCharacters from './data/animes/solo-leveling/characters.json';
 import recordOfRagnarokCharacters from './data/animes/record-of-ragnarok/characters.json';
+import blueLockCharacters from './data/animes/blue-lock/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame } from 'lucide-react';
@@ -35,6 +36,8 @@ export const App: React.FC = () => {
     ? soloLevelingCharacters
     : currentAnimeSlug === 'record-of-ragnarok'
     ? recordOfRagnarokCharacters
+    : currentAnimeSlug === 'blue-lock'
+    ? blueLockCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {

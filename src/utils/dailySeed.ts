@@ -157,11 +157,13 @@ export function evaluateGuess(
       const gBounty = typeof guessedVal === 'number' ? guessedVal : Number(guessedVal) || 0;
       const tBounty = typeof targetVal === 'number' ? targetVal : Number(targetVal) || 0;
 
+      const isNEL = col.label.includes('NEL') || col.label.includes('¥');
       const formatBounty = (val: number) => {
-        if (val === 0) return 'Sem Recompensa';
-        if (val >= 1000000000) return `฿${(val / 1000000000).toLocaleString('pt-BR')} Bi`;
-        if (val >= 1000000) return `฿${(val / 1000000).toLocaleString('pt-BR')} Mi`;
-        return `฿${val.toLocaleString('pt-BR')}`;
+        if (val === 0) return isNEL ? 'Sem Oferta' : 'Sem Recompensa';
+        const symbol = isNEL ? '¥' : '฿';
+        if (val >= 1000000000) return `${symbol}${(val / 1000000000).toLocaleString('pt-BR')} Bi`;
+        if (val >= 1000000) return `${symbol}${(val / 1000000).toLocaleString('pt-BR')} Mi`;
+        return `${symbol}${val.toLocaleString('pt-BR')}`;
       };
 
       if (gBounty === tBounty) {

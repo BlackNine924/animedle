@@ -63,12 +63,28 @@ export const ANIME_CATEGORY_DESCRIPTIONS: Record<string, Record<string, string>>
     'Nacionalidade / Dimensão': 'País de origem na Terra ou dimensão espacial de procedência do ser (ex: Coreia do Sul, Japão, Estados Unidos, Caos).',
     'Arco de Estreia': 'Arco de Solo Leveling em que o personagem aparece pela primeira vez (ex: Dungeon Dupla, Ilha de Jeju, Guerra dos Monarcas).',
     'Status': 'Condição do personagem nos acontecimentos da história (ex: Vivo ou Morto).'
+  },
+  'blue-lock': {
+    'Gênero': 'Identidade de gênero do indivíduo (Masculino ou Feminino).',
+    'Nacionalidade': 'País de nascimento e representação internacional do jogador ou comissão (ex: Japão, Alemanha, França, Inglaterra, Espanha, Itália).',
+    'Posição / Função': 'Posição principal em campo ou função no projeto (ex: Atacante, Meio-campista, Defensor, Goleiro, Comissão / Mestre).',
+    'Equipe / Afiliação': 'Clube europeu na Liga Neo Egoísta (NEL), time da 1ª seleção, seleção nacional ou comissão técnica.',
+    'Oferta da NEL (¥)': 'Valor do lance ou salário final recebido na Liga Neo Egoísta em Ienes (¥), ou Sem Oferta se não recebeu lance.',
+    'Arma Principal': 'A arma do Ego ou talento futebolístico distintivo que o diferencia (ex: Direct Shot, Metavisão, Velocidade Suprema, Chute Curvo, Trap Magnético).',
+    'Arco de Estreia': 'Arco narrativo de Blue Lock em que o personagem fez sua aparição inicial (ex: Primeira Seleção, NEL, Copa do Mundo Sub-20).',
+    'Status no Projeto': 'Condição no projeto Blue Lock (Ativo / Sobrevivente, Eliminado ou Profissional / Convidado).'
   }
 };
 
 export const GLOBAL_CATEGORY_DESCRIPTIONS: Record<string, string> = {
   'Personagem': 'Identificação e avatar do personagem palpitado.',
   'Gênero': 'Gênero biológico ou identidade do personagem (Masculino ou Feminino).',
+  'Nacionalidade': 'País de origem ou nacionalidade do indivíduo.',
+  'Posição / Função': 'Posição tática ou função ocupada pelo personagem.',
+  'Equipe / Afiliação': 'Clube, equipe ou organização à qual é filiado.',
+  'Oferta da NEL (¥)': 'Valor de salário ou lance na Liga Neo Egoísta em Ienes (¥).',
+  'Arma Principal': 'Habilidade futebolística ou arma distintiva do jogador.',
+  'Status no Projeto': 'Condição atual do jogador dentro do projeto esportivo.',
   'Espécie': 'Espécie ou natureza biológica do personagem.',
   'Raça / Espécie': 'Raça, linhagem ou espécie biológica do personagem.',
   'Origem / Natureza': 'Natureza biológica, mística ou cósmica do personagem.',

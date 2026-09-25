@@ -35,11 +35,28 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'blue-lock',
     title: 'Blue Lock',
     subtitle: 'Muneyuki Kaneshiro',
-    themeColor: '#3b82f6',
-    accentColor: '#2563eb',
+    themeColor: '#2563EB',
+    accentColor: '#1D4ED8',
     banner: '⚽',
-    columns: [],
-    arcs: []
+    logo: '/logo-blue-lock.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'country', label: 'Nacionalidade', type: 'exact' },
+      { key: 'position', label: 'Posição / Função', type: 'exact' },
+      { key: 'affiliation', label: 'Equipe / Afiliação', type: 'array' },
+      { key: 'bounty', label: 'Oferta da NEL (¥)', type: 'bounty' },
+      { key: 'styleOrPower', label: 'Arma Principal', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status no Projeto', type: 'status' },
+    ],
+    arcs: [
+      'Primeira Seleção',
+      'Segunda Seleção',
+      'Terceira Seleção',
+      'Partida contra a Seleção Japão Sub-20',
+      'Liga Neo Egoísta (NEL)',
+      'Copa do Mundo Sub-20'
+    ]
   },
   'chainsaw-man': {
     slug: 'chainsaw-man',

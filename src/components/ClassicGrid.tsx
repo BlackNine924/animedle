@@ -118,17 +118,33 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                         isLatest ? 'animate-cardFlip' : ''
                       } ${getStatusCardStyle(status)}`}
                     >
-                      {/* Seta direcional de arco, grau ou recompensa (⬆️ / ⬇️) */}
+                      {/* Seta direcional de arco, grau ou recompensa/oferta (⬆️ / ⬇️) */}
                       {arrow === 'up' && (
                         <div className="flex items-center gap-1 text-amber-400 text-xs font-black mb-1">
                           <ArrowUp size={16} className="stroke-[3]" />
-                          <span>{col.key === 'grade' ? 'Grau Maior' : col.key === 'bounty' ? 'Maior Recompensa' : 'Estreou Depois'}</span>
+                          <span>
+                            {col.key === 'grade'
+                              ? 'Grau Maior'
+                              : col.key === 'bounty' || col.type === 'bounty'
+                              ? animeSlug === 'blue-lock' || col.label.includes('Oferta')
+                                ? 'Maior Oferta'
+                                : 'Maior Recompensa'
+                              : 'Estreou Depois'}
+                          </span>
                         </div>
                       )}
                       {arrow === 'down' && (
                         <div className="flex items-center gap-1 text-amber-400 text-xs font-black mb-1">
                           <ArrowDown size={16} className="stroke-[3]" />
-                          <span>{col.key === 'grade' ? 'Grau Menor' : col.key === 'bounty' ? 'Menor Recompensa' : 'Estreou Antes'}</span>
+                          <span>
+                            {col.key === 'grade'
+                              ? 'Grau Menor'
+                              : col.key === 'bounty' || col.type === 'bounty'
+                              ? animeSlug === 'blue-lock' || col.label.includes('Oferta')
+                                ? 'Menor Oferta'
+                                : 'Menor Recompensa'
+                              : 'Estreou Antes'}
+                          </span>
                         </div>
                       )}
 

@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const ANIMES = [
+  'blue-lock',
   'demon-slayer',
   'jujutsu-kaisen',
   'naruto',
@@ -86,7 +87,10 @@ async function auditLore() {
       }
 
       // 3. Status validation
-      if (!char.status || !['Vivo', 'Viva', 'Falecido', 'Falecida', 'Morto', 'Morta', 'Selado', 'Selada', 'Desconhecido'].includes(char.status)) {
+      const validStatuses = anime === 'blue-lock'
+        ? ['Ativo / Sobrevivente', 'Eliminado', 'Profissional / Convidado']
+        : ['Vivo', 'Viva', 'Falecido', 'Falecida', 'Morto', 'Morta', 'Selado', 'Selada', 'Desconhecido'];
+      if (!char.status || !validStatuses.includes(char.status)) {
         warnings.push(`[${char.id}] ${char.name}: Status fora do padrão ("${char.status}")`);
       }
 
@@ -127,6 +131,19 @@ async function auditLore() {
               errors.push(`[${char.id}] ${char.name}: ${rule.warning}. Atual: "${char.debutArc}"`);
             }
           }
+        }
+      }
+
+      // 7. Blue Lock specific lore validations
+      if (anime === 'blue-lock') {
+        if (typeof char.bounty !== 'number' || isNaN(char.bounty) || char.bounty < 0) {
+          errors.push(`[${char.id}] ${char.name}: Oferta da NEL (bounty) inválida ("${char.bounty}")`);
+        }
+        if (!char.position) {
+          errors.push(`[${char.id}] ${char.name}: Posição / Função ausente`);
+        }
+        if (!char.country) {
+          errors.push(`[${char.id}] ${char.name}: Nacionalidade ausente`);
         }
       }
     }

@@ -81,7 +81,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   Selecione o Anime
                 </div>
                 {Object.values(ANIMES_CONFIG).map((anime) => {
-                  const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok';
+                  const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok' || anime.slug === 'blue-lock';
                   const isSelected = anime.slug === currentAnimeSlug;
 
                   return (

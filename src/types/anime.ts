@@ -34,6 +34,8 @@ export interface Character {
   pantheonOrOrigin?: string;
   weapon?: string;
   round?: string;
+  // Blue Lock
+  position?: string;
 }
 
 export interface AttributeColumn {

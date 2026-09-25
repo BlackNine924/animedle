@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
 const ANIMES = [
+  'blue-lock',
   'demon-slayer',
   'jujutsu-kaisen',
   'naruto',
