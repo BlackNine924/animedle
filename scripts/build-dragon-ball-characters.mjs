@@ -1059,7 +1059,7 @@ export const DRAGON_BALL_ROSTER = [
   },
   {
     id: 'ro-kaioshin',
-    name: 'Velho Kaiohshin (Rō Kaiōshin)',
+    name: 'Velho Kaiohshin',
     searchName: 'Old Kai',
     fandomName: 'Old Kai',
     gender: 'Masculino',
@@ -1189,7 +1189,7 @@ export const DRAGON_BALL_ROSTER = [
   // --- Saga do Deus da Destruição Bills ---
   {
     id: 'bills',
-    name: 'Bills (Beerus)',
+    name: 'Bills',
     searchName: 'Beerus',
     fandomName: 'Beerus',
     gender: 'Masculino',
@@ -1319,7 +1319,7 @@ export const DRAGON_BALL_ROSTER = [
   },
   {
     id: 'zen-o',
-    name: 'Zen\'o (Rei de Tudo)',
+    name: "Zen'o",
     searchName: 'Grand Zeno',
     fandomName: 'Grand Zeno',
     gender: 'Sem Gênero',
@@ -1369,7 +1369,7 @@ export const DRAGON_BALL_ROSTER = [
   },
   {
     id: 'daishinkan',
-    name: 'Daishinkan (Sumo Sacerdote)',
+    name: 'Daishinkan',
     searchName: 'Grand Priest',
     fandomName: 'Grand Priest',
     gender: 'Masculino',
@@ -1517,7 +1517,7 @@ export const DRAGON_BALL_ROSTER = [
   },
   {
     id: 'broly',
-    name: 'Broly (Super)',
+    name: 'Broly',
     searchName: 'Broly',
     fandomName: 'Broly (DBS)',
     gender: 'Masculino',

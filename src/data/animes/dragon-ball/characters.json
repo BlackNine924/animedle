@@ -1380,7 +1380,7 @@
   },
   {
     "id": "ro-kaioshin",
-    "name": "Velho Kaiohshin (Rō Kaiōshin)",
+    "name": "Velho Kaiohshin",
     "gender": "Masculino",
     "species": "Divindade (Shinjin Fundido)",
     "affiliation": [
@@ -1550,7 +1550,7 @@
   },
   {
     "id": "bills",
-    "name": "Bills (Beerus)",
+    "name": "Bills",
     "gender": "Masculino",
     "species": "Divindade (Hakaishin)",
     "affiliation": [
@@ -1722,7 +1722,7 @@
   },
   {
     "id": "zen-o",
-    "name": "Zen'o (Rei de Tudo)",
+    "name": "Zen'o",
     "gender": "Sem Gênero",
     "species": "Divindade Suprema",
     "affiliation": [
@@ -1786,7 +1786,7 @@
   },
   {
     "id": "daishinkan",
-    "name": "Daishinkan (Sumo Sacerdote)",
+    "name": "Daishinkan",
     "gender": "Masculino",
     "species": "Divindade (Anjo Supremo)",
     "affiliation": [
@@ -1982,7 +1982,7 @@
   },
   {
     "id": "broly",
-    "name": "Broly (Super)",
+    "name": "Broly",
     "gender": "Masculino",
     "species": "Saiyajin",
     "affiliation": [
