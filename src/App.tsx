@@ -455,7 +455,25 @@ export const App: React.FC = () => {
     localStorage.removeItem(savedKey);
 
     const poolSize = currentMode === 'ability' ? abilityPool.length : validCharactersForMode.length;
-    const randomOffset = Math.floor(Math.random() * poolSize);
+    let randomOffset = Math.floor(Math.random() * poolSize);
+
+    // Se for modo sem repetição ('classic', 'wanted', 'zoom'), evitar colisão com os outros modos vinculados
+    if (['classic', 'wanted', 'zoom'].includes(currentMode) && validCharactersForMode.length >= 3) {
+      const otherModes = (['classic', 'wanted', 'zoom'] as GameMode[]).filter(m => m !== currentMode);
+      const otherIndices = otherModes.map(m => {
+        const base = getDailyCharacterIndex(currentAnimeSlug, m, validCharactersForMode.length);
+        return (base + (devOffsets[m] || 0)) % validCharactersForMode.length;
+      });
+
+      let attempts = 0;
+      let candidateIndex = (baseDailyIndex + randomOffset) % poolSize;
+      while (otherIndices.includes(candidateIndex) && attempts < poolSize) {
+        randomOffset = (randomOffset + 1) % poolSize;
+        candidateIndex = (baseDailyIndex + randomOffset) % poolSize;
+        attempts++;
+      }
+    }
+
     setDevOffsets((prev) => ({
       ...prev,
       [currentMode]: randomOffset,

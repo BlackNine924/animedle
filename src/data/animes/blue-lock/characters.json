@@ -1267,5 +1267,368 @@
     "status": "Eliminado",
     "quote": "Nós fomos para o campeonato nacional e você ficou pelo caminho, Isagi!",
     "avatar": "/avatars/blue-lock/ryo-nameoka.png"
+  },
+  {
+    "id": "innocent-onazi",
+    "name": "Innocent Onazi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Nigéria",
+    "position": "Atacante",
+    "affiliation": [
+      "Nigéria Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Referência Ofensiva & Liderança da Nigéria",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Nós carregamos os sonhos de toda a África nesta Copa do Mundo Sub-20!",
+    "avatar": "/avatars/blue-lock/innocent-onazi.png"
+  },
+  {
+    "id": "godwin-kuso",
+    "name": "Godwin Kuso",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Nigéria",
+    "position": "Atacante",
+    "affiliation": [
+      "Nigéria Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Ataque Rápido & Explosão Física",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Nossa velocidade e garra vão superar qualquer tática egoísta do Japão!",
+    "avatar": "/avatars/blue-lock/godwin-kuso.png"
+  },
+  {
+    "id": "oboabona",
+    "name": "Oboabona",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Nigéria",
+    "position": "Defensor",
+    "affiliation": [
+      "Nigéria Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Bloqueio Defensivo & Força Aérea",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Nenhum atacante japonês vai passar pela muralha verde da Nigéria.",
+    "avatar": "/avatars/blue-lock/oboabona.png"
+  },
+  {
+    "id": "bello",
+    "name": "Bello",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Nigéria",
+    "position": "Meio-campista",
+    "affiliation": [
+      "Nigéria Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Combate no Meio-Campo & Desarme",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "O meio de campo pertence aos guerreiros da África. Lutaremos até o fim!",
+    "avatar": "/avatars/blue-lock/bello.png"
+  },
+  {
+    "id": "coach-gambari",
+    "name": "Coach Gambari",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Nigéria",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Nigéria Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Comando Tático & Estrutura Africana",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Profissional / Convidado",
+    "quote": "Honrem a bandeira nigeriana com disciplina, garra e união inabalável!",
+    "avatar": "/avatars/blue-lock/coach-gambari.png"
+  },
+  {
+    "id": "vivian-hugo",
+    "name": "Vivian Hugo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Meio-campista",
+    "affiliation": [
+      "França Sub-20",
+      "Nova Geração Mundial 11"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Metavisão & Regência da New Generation 11",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "O futebol é uma partitura elegante... e eu sou o maestro que dita cada compasso da França.",
+    "avatar": "/avatars/blue-lock/vivian-hugo.png"
+  },
+  {
+    "id": "camus",
+    "name": "Camus",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Atacante",
+    "affiliation": [
+      "França Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Drible de Linha de Fundo & Cruzamentos Rápidos",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Na ponta direita francesa, velocidade e técnica andam sempre lado a lado.",
+    "avatar": "/avatars/blue-lock/camus.png"
+  },
+  {
+    "id": "bats",
+    "name": "Bats",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Meio-campista",
+    "affiliation": [
+      "França Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Distribuição Ofensiva & Pressão no Meio",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Conectar a defesa aos nossos atacantes mundiais é a minha especialidade.",
+    "avatar": "/avatars/blue-lock/bats.png"
+  },
+  {
+    "id": "gabin",
+    "name": "Gabin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Defensor",
+    "affiliation": [
+      "França Sub-20",
+      "Paris X Gen"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Marcação Individual & Cobertura Física",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "A zaga da França não tem espaço para hesitações ou falhas de concentração.",
+    "avatar": "/avatars/blue-lock/gabin.png"
+  },
+  {
+    "id": "chapa",
+    "name": "Chapa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Defensor",
+    "affiliation": [
+      "França Sub-20",
+      "Paris X Gen"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Apoio pela Lateral Esquerda & Desarme Rápido",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Pela lateral esquerda do PXG e da França, ninguém cria perigo impunemente.",
+    "avatar": "/avatars/blue-lock/chapa.png"
+  },
+  {
+    "id": "renoir",
+    "name": "Renoir",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "França",
+    "position": "Goleiro",
+    "affiliation": [
+      "França Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Reflexos Apurados & Posicionamento sob as Traves",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "O gol da França Sub-20 está sob a minha custódia e proteção total.",
+    "avatar": "/avatars/blue-lock/renoir.png"
+  },
+  {
+    "id": "arthur",
+    "name": "Arthur",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Defensor",
+    "affiliation": [
+      "Inglaterra Sub-20",
+      "Manshine City"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Avanço pelas Laterais & Suporte Ofensivo",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Ativo / Sobrevivente",
+    "quote": "O estilo do Manshine City exige intensidade física máxima de ponta a ponta.",
+    "avatar": "/avatars/blue-lock/arthur.png"
+  },
+  {
+    "id": "young",
+    "name": "Young",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Atacante",
+    "affiliation": [
+      "Inglaterra Sub-20",
+      "Manshine City"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Movimentação Sem Bola & Apoio pelo Centro",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Trabalhar as transições rápidas é a chave para o ataque da Inglaterra.",
+    "avatar": "/avatars/blue-lock/young.png"
+  },
+  {
+    "id": "niang",
+    "name": "Niang",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Defensor",
+    "affiliation": [
+      "Inglaterra Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Interceptação & Potência Física",
+    "debutArc": "Copa do Mundo Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Na zaga inglesa, impomos nosso poder físico para anular qualquer jogada.",
+    "avatar": "/avatars/blue-lock/niang.png"
+  },
+  {
+    "id": "busby",
+    "name": "Busby",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Inglaterra",
+    "position": "Defensor",
+    "affiliation": [
+      "Inglaterra Sub-20",
+      "Manshine City"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Combate Aéreo & Linha Defensiva",
+    "debutArc": "Liga Neo Egoísta (NEL)",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Segurança e disciplina na linha de trás: essa é a base do futebol inglês.",
+    "avatar": "/avatars/blue-lock/busby.png"
+  },
+  {
+    "id": "ken-shimura",
+    "name": "Ken Andatte Shimura",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Japão Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Finalização Reserva & Posicionamento",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "Mesmo no banco, estou pronto para provar meu valor pelo futebol japonês!",
+    "avatar": "/avatars/blue-lock/ken-shimura.png"
+  },
+  {
+    "id": "beita-tsuru",
+    "name": "Beita Tsuru",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Defensor",
+    "affiliation": [
+      "Japão Sub-20"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Desarme Tático & Cobertura de Zaga",
+    "debutArc": "Partida contra a Seleção Japão Sub-20",
+    "status": "Ativo / Sobrevivente",
+    "quote": "A defesa do Japão Sub-20 é unida e luta até o último apito.",
+    "avatar": "/avatars/blue-lock/beita-tsuru.png"
+  },
+  {
+    "id": "yu-bachira",
+    "name": "Yu Bachira",
+    "gender": "Feminino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Família Bachira"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Pintura Artística & Inspiração do \"Monstro\"",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Se ninguém te entender, Meguru, continue ouvindo o seu monstro e dance com a bola!",
+    "avatar": "/avatars/blue-lock/yu-bachira.png"
+  },
+  {
+    "id": "issei-isagi",
+    "name": "Issei Isagi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Família Isagi"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Apoio Paternal & Torcida Incondicional",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Vá com tudo, Yoichi! Seu pai sempre vai torcer por você em qualquer lugar do mundo!",
+    "avatar": "/avatars/blue-lock/issei-isagi.png"
+  },
+  {
+    "id": "iyo-isagi",
+    "name": "Iyo Isagi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Comissão / Mestre",
+    "affiliation": [
+      "Família Isagi"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Culinária Caseira & Cuidado Materno",
+    "debutArc": "Primeira Seleção",
+    "status": "Profissional / Convidado",
+    "quote": "Coma bastante para ficar forte, Yoichi! Sua mãe está torcendo pelo seu sucesso!",
+    "avatar": "/avatars/blue-lock/iyo-isagi.png"
+  },
+  {
+    "id": "tomoya-tada",
+    "name": "Tomonori Tada",
+    "gender": "Masculino",
+    "species": "Humano",
+    "country": "Japão",
+    "position": "Atacante",
+    "affiliation": [
+      "Colégio Ichinan"
+    ],
+    "bounty": 0,
+    "styleOrPower": "Companheirismo Colegial & Finalização em Equipe",
+    "debutArc": "Primeira Seleção",
+    "status": "Eliminado",
+    "quote": "Desculpa ter perdido aquele gol, Isagi... Nós éramos \"um por todos e todos por um\"!",
+    "avatar": "/avatars/blue-lock/tomoya-tada.png"
   }
 ]

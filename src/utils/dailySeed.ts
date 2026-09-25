@@ -1,22 +1,66 @@
 import { Character, MatchStatus, MatchResultCell, AttributeColumn, ArrowDirection, GameMode } from '../types/anime';
 
-/**
- * Função hashing determinística que inclui o slug do animé E o modo de jogo.
- * Isso faz com que cada modo (Clássico, Procurado, Citação, Habilidade) tenha um personagem MISTERIOSO DIFERENTE por dia!
- */
-export function getDailyCharacterIndex(animeSlug: string, mode: GameMode, totalCharacters: number): number {
-  const today = new Date().toISOString().split('T')[0]; // Ex: "2026-09-22"
-  const seedString = `${animeSlug}-${mode}-${today}`;
-
+function hashString(seedString: string): number {
   let hash = 0;
   for (let i = 0; i < seedString.length; i++) {
     const char = seedString.charCodeAt(i);
     hash = (hash << 5) - hash + char;
     hash |= 0; // Converte para inteiro de 32 bits
   }
+  return Math.abs(hash);
+}
 
-  const positiveHash = Math.abs(hash);
-  return positiveHash % totalCharacters;
+/**
+ * Retorna os índices diários para os modos sem repetição ('classic', 'wanted', 'zoom').
+ * Garante que os personagens escolhidos para esses três modos sejam totalmente distintos no mesmo dia!
+ */
+export function getDailyDistinctIndices(
+  animeSlug: string,
+  totalCharacters: number,
+  todayStr?: string
+): Record<'classic' | 'wanted' | 'zoom', number> {
+  const today = todayStr || new Date().toISOString().split('T')[0];
+  if (totalCharacters <= 1) {
+    return { classic: 0, wanted: 0, zoom: 0 };
+  }
+
+  // 1. Classic target:
+  const classicIdx = hashString(`${animeSlug}-classic-${today}`) % totalCharacters;
+
+  // 2. Wanted target (garantido diferente do classic):
+  let wantedIdx = hashString(`${animeSlug}-wanted-${today}`) % totalCharacters;
+  let attempts = 0;
+  while (wantedIdx === classicIdx && attempts < totalCharacters) {
+    wantedIdx = (wantedIdx + 1) % totalCharacters;
+    attempts++;
+  }
+
+  // 3. Zoom target (garantido diferente do classic e do wanted):
+  let zoomIdx = hashString(`${animeSlug}-zoom-${today}`) % totalCharacters;
+  attempts = 0;
+  while ((zoomIdx === classicIdx || zoomIdx === wantedIdx) && attempts < totalCharacters) {
+    zoomIdx = (zoomIdx + 1) % totalCharacters;
+    attempts++;
+  }
+
+  return { classic: classicIdx, wanted: wantedIdx, zoom: zoomIdx };
+}
+
+/**
+ * Função hashing determinística que inclui o slug do animé E o modo de jogo.
+ * Para os modos 'classic', 'wanted' e 'zoom', garante ausência de repetição no mesmo dia.
+ * Para 'quote' e 'ability', opera de maneira independente.
+ */
+export function getDailyCharacterIndex(animeSlug: string, mode: GameMode, totalCharacters: number): number {
+  if (totalCharacters <= 0) return 0;
+  const today = new Date().toISOString().split('T')[0];
+
+  if (mode === 'classic' || mode === 'wanted' || mode === 'zoom') {
+    const distinct = getDailyDistinctIndices(animeSlug, totalCharacters, today);
+    return distinct[mode];
+  }
+
+  return hashString(`${animeSlug}-${mode}-${today}`) % totalCharacters;
 }
 
 /**
