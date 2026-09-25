@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { AttributeColumn, GuessResult, MatchStatus, ArrowDirection } from '../types/anime';
 import { Check, X, Minus, ArrowUp, ArrowDown, HelpCircle } from 'lucide-react';
 import { getCategoryDescription } from '../utils/categoryDescriptions';
@@ -9,22 +10,43 @@ interface ClassicGridProps {
   animeSlug?: string;
 }
 
-export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, animeSlug }) => {
-  const [activeCellExplanation, setActiveCellExplanation] = useState<{ rowIdx: number; colKey: string } | null>(null);
+interface ActiveCellExplanationState {
+  rowIdx: number;
+  colKey: string;
+  rect: DOMRect;
+  col: AttributeColumn;
+  status: MatchStatus;
+  value: any;
+  arrow?: ArrowDirection;
+}
 
-  // Fecha o popover ao clicar fora ou apertar Escape
+export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, animeSlug }) => {
+  const [activeCellExplanation, setActiveCellExplanation] = useState<ActiveCellExplanationState | null>(null);
+
+  // Fecha o popover ao clicar fora, ao rolar a página ou tabela, ou ao apertar Escape
   useEffect(() => {
+    if (!activeCellExplanation) return;
+
     const handleClickOutside = () => setActiveCellExplanation(null);
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') setActiveCellExplanation(null);
     };
+    const handleScrollOrResize = () => {
+      setActiveCellExplanation(null);
+    };
+
     window.addEventListener('click', handleClickOutside);
     window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('scroll', handleScrollOrResize, true);
+    window.addEventListener('resize', handleScrollOrResize);
+
     return () => {
       window.removeEventListener('click', handleClickOutside);
       window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('scroll', handleScrollOrResize, true);
+      window.removeEventListener('resize', handleScrollOrResize);
     };
-  }, []);
+  }, [activeCellExplanation]);
 
   if (guesses.length === 0) {
     return (
@@ -38,13 +60,13 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
   const getStatusCardStyle = (status: MatchStatus) => {
     switch (status) {
       case 'correct':
-        return 'bg-[#0d1426] border-emerald-500/80 text-white shadow-md shadow-emerald-950/30 relative overflow-visible before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-emerald-500 before:rounded-t-2xl';
+        return 'bg-[#0d1426] border-emerald-500/80 text-white shadow-md shadow-emerald-950/30 relative overflow-hidden before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-emerald-500';
       case 'partial':
-        return 'bg-[#0d1426] border-amber-500/80 text-white shadow-md shadow-amber-950/30 relative overflow-visible before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-amber-500 before:rounded-t-2xl';
+        return 'bg-[#0d1426] border-amber-500/80 text-white shadow-md shadow-amber-950/30 relative overflow-hidden before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-amber-500';
       case 'incorrect':
-        return 'bg-[#0d1426]/90 border-rose-900/40 text-slate-300 relative overflow-visible before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-rose-900/40 before:rounded-t-2xl';
+        return 'bg-[#0d1426]/90 border-rose-900/40 text-slate-300 relative overflow-hidden before:absolute before:top-0 before:left-0 before:right-0 before:h-1 before:bg-rose-900/40';
       default:
-        return 'bg-[#0d1426] border-[#202b43] text-slate-300 relative overflow-visible';
+        return 'bg-[#0d1426] border-[#202b43] text-slate-300';
     }
   };
 
@@ -53,7 +75,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
     status: MatchStatus,
     value: any,
     arrow?: ArrowDirection,
-    animeSlug?: string
+    animeSlugParam?: string
   ) => {
     const formattedVal = Array.isArray(value) ? value.join(', ') : String(value ?? '');
 
@@ -66,7 +88,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
         };
       }
       if (col.key === 'bounty' || col.type === 'bounty') {
-        const isBL = animeSlug === 'blue-lock' || col.label.includes('Oferta');
+        const isBL = animeSlugParam === 'blue-lock' || col.label.includes('Oferta');
         return {
           title: isBL ? 'Oferta Maior ⬆️' : 'Recompensa Maior ⬆️',
           desc: isBL
@@ -93,7 +115,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
         };
       }
       if (col.key === 'bounty' || col.type === 'bounty') {
-        const isBL = animeSlug === 'blue-lock' || col.label.includes('Oferta');
+        const isBL = animeSlugParam === 'blue-lock' || col.label.includes('Oferta');
         return {
           title: isBL ? 'Oferta Menor ⬇️' : 'Recompensa Menor ⬇️',
           desc: isBL
@@ -223,7 +245,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                 </div>
               </td>
 
-              {/* Células de Atributos Interativas com Pop-over (Opção A) */}
+              {/* Células de Atributos Interativas com Pop-over via Portal */}
               {columns.map((col, colIdx) => {
                 const cell = guess.matches[col.key];
                 const status = cell?.status || 'incorrect';
@@ -232,24 +254,48 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                 const displayVal = Array.isArray(value) ? value.join(', ') : value;
                 const isLatest = guessIndex === 0;
                 const isSelected = activeCellExplanation?.rowIdx === guessIndex && activeCellExplanation?.colKey === col.key;
-                const isFirstRow = guessIndex === 0;
-                const details = getCellExplanationDetails(col, status, value, arrow, animeSlug);
 
                 return (
-                  <td key={col.key} className="p-0 relative">
+                  <td key={col.key} className="p-0">
                     <div
                       style={{ animationDelay: isLatest ? `${colIdx * 120}ms` : '0ms' }}
                       role="button"
                       tabIndex={0}
                       onClick={(e) => {
                         e.stopPropagation();
-                        setActiveCellExplanation(isSelected ? null : { rowIdx: guessIndex, colKey: col.key });
+                        if (isSelected) {
+                          setActiveCellExplanation(null);
+                        } else {
+                          const rect = e.currentTarget.getBoundingClientRect();
+                          setActiveCellExplanation({
+                            rowIdx: guessIndex,
+                            colKey: col.key,
+                            rect,
+                            col,
+                            status,
+                            value,
+                            arrow,
+                          });
+                        }
                       }}
                       onKeyDown={(e) => {
                         if (e.key === 'Enter' || e.key === ' ') {
                           e.preventDefault();
                           e.stopPropagation();
-                          setActiveCellExplanation(isSelected ? null : { rowIdx: guessIndex, colKey: col.key });
+                          if (isSelected) {
+                            setActiveCellExplanation(null);
+                          } else {
+                            const rect = e.currentTarget.getBoundingClientRect();
+                            setActiveCellExplanation({
+                              rowIdx: guessIndex,
+                              colKey: col.key,
+                              rect,
+                              col,
+                              status,
+                              value,
+                              arrow,
+                            });
+                          }
                         }
                       }}
                       className={`min-h-[96px] p-3 border rounded-2xl flex flex-col items-center justify-center text-center transition-all duration-300 cursor-pointer select-none hover:ring-2 hover:ring-slate-400/50 hover:brightness-110 active:scale-[0.98] ${
@@ -311,60 +357,6 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                           </span>
                         )}
                       </span>
-
-                      {/* Pop-over Flutuante Contextual (Opção A) ao Clicar na Célula */}
-                      {isSelected && (
-                        <div
-                          role="tooltip"
-                          className={`absolute z-50 w-72 p-3.5 bg-[#0a0f1d] border rounded-2xl shadow-2xl shadow-black/90 backdrop-blur-md text-left pointer-events-auto transition-all duration-200 animate-fadeIn cursor-default ${
-                            details.type === 'correct' ? 'border-emerald-500/70 shadow-emerald-950/40' :
-                            details.type === 'partial' ? 'border-amber-500/70 shadow-amber-950/40' :
-                            details.type === 'arrow' ? 'border-sky-500/70 shadow-sky-950/40' : 'border-rose-500/70 shadow-rose-950/40'
-                          } ${
-                            isFirstRow ? 'top-[calc(100%+8px)]' : 'bottom-[calc(100%+8px)]'
-                          } ${
-                            colIdx === 0 ? 'left-0' : colIdx >= columns.length - 2 ? 'right-0' : 'left-1/2 -translate-x-1/2'
-                          }`}
-                          onClick={(e) => e.stopPropagation()}
-                        >
-                          <div className="flex items-center justify-between gap-2 mb-2 pb-1.5 border-b border-slate-700/60">
-                            <span className={`text-[11px] font-black uppercase tracking-wider ${
-                              details.type === 'correct' ? 'text-emerald-400' :
-                              details.type === 'partial' ? 'text-amber-400' :
-                              details.type === 'arrow' ? 'text-sky-400' : 'text-rose-400'
-                            }`}>
-                              {details.title}
-                            </span>
-                            <button
-                              type="button"
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setActiveCellExplanation(null);
-                              }}
-                              className="w-5 h-5 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors"
-                              title="Fechar"
-                            >
-                              <X size={12} />
-                            </button>
-                          </div>
-                          <p className="text-xs leading-relaxed text-slate-200 font-medium">
-                            {details.desc}
-                          </p>
-                          <div className="mt-2.5 pt-1.5 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
-                            <span className="truncate">{col.label}: <strong className="text-slate-200">{displayVal}</strong></span>
-                          </div>
-                          {/* Seta visual do balão flutuante */}
-                          <div
-                            className={`absolute border-8 border-transparent ${
-                              isFirstRow
-                                ? 'bottom-full border-b-[#0a0f1d]'
-                                : 'top-full border-t-[#0a0f1d]'
-                            } ${
-                              colIdx === 0 ? 'left-8' : colIdx >= columns.length - 2 ? 'right-8' : 'left-1/2 -translate-x-1/2'
-                            }`}
-                          />
-                        </div>
-                      )}
                     </div>
                   </td>
                 );
@@ -373,6 +365,88 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
           ))}
         </tbody>
       </table>
+
+      {/* Portal para o Balão Flutuante no document.body:
+          - Passa por cima de qualquer barra de overflow / scroll da tabela
+          - Fica sempre no topo absoluto do z-index (à frente de todas as células)
+          - Fica sempre ACIMA da célula sem precisar ir para baixo na tabela
+          - Fecha ao clicar nele próprio, clicar fora dele ou clicar na célula novamente
+      */}
+      {typeof document !== 'undefined' && activeCellExplanation && createPortal(
+        (() => {
+          const { rect, col, status, value, arrow } = activeCellExplanation;
+          const displayVal = Array.isArray(value) ? value.join(', ') : value;
+          const details = getCellExplanationDetails(col, status, value, arrow, animeSlug);
+          const popoverWidth = 288;
+          const centerX = rect.left + rect.width / 2;
+          let left = centerX - popoverWidth / 2;
+          left = Math.max(12, Math.min(window.innerWidth - popoverWidth - 12, left));
+
+          // Posicionamento: sempre acima da célula (transform translateY -100%)
+          // Caso a célula esteja muito colada no topo do navegador (rect.top < 130), posiciona abaixo
+          const fitsAbove = rect.top >= 130;
+          const top = fitsAbove ? rect.top - 12 : rect.bottom + 12;
+          const arrowLeft = Math.max(20, Math.min(popoverWidth - 20, centerX - left));
+
+          return (
+            <div
+              role="tooltip"
+              style={{
+                top: `${top}px`,
+                left: `${left}px`,
+                transform: fitsAbove ? 'translateY(-100%)' : 'none',
+              }}
+              className={`fixed z-[99999] w-72 p-4 bg-[#0a0f1d] border rounded-2xl shadow-2xl shadow-black/95 backdrop-blur-xl text-left transition-all duration-150 animate-fadeIn cursor-pointer select-none ${
+                details.type === 'correct' ? 'border-emerald-500/80 shadow-emerald-950/60' :
+                details.type === 'partial' ? 'border-amber-500/80 shadow-amber-950/60' :
+                details.type === 'arrow' ? 'border-sky-500/80 shadow-sky-950/60' : 'border-rose-500/80 shadow-rose-950/60'
+              }`}
+              onClick={(e) => {
+                e.stopPropagation();
+                setActiveCellExplanation(null);
+              }}
+            >
+              <div className="flex items-center justify-between gap-2 mb-2 pb-1.5 border-b border-slate-700/60">
+                <span className={`text-xs font-black uppercase tracking-wider ${
+                  details.type === 'correct' ? 'text-emerald-400' :
+                  details.type === 'partial' ? 'text-amber-400' :
+                  details.type === 'arrow' ? 'text-sky-400' : 'text-rose-400'
+                }`}>
+                  {details.title}
+                </span>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setActiveCellExplanation(null);
+                  }}
+                  className="w-5 h-5 flex items-center justify-center rounded-full bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors"
+                  title="Fechar"
+                >
+                  <X size={12} />
+                </button>
+              </div>
+              <p className="text-xs leading-relaxed text-slate-200 font-medium">
+                {details.desc}
+              </p>
+              <div className="mt-2.5 pt-1.5 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
+                <span className="truncate">{col.label}: <strong className="text-slate-200">{displayVal}</strong></span>
+                <span className="text-[10px] text-slate-500 ml-2 whitespace-nowrap">Clique para fechar</span>
+              </div>
+              {/* Seta visual indicadora apontando diretamente para o centro da célula */}
+              <div
+                style={{ left: `${arrowLeft}px` }}
+                className={`absolute -translate-x-1/2 border-8 border-transparent pointer-events-none ${
+                  fitsAbove
+                    ? 'top-full border-t-[#0a0f1d]'
+                    : 'bottom-full border-b-[#0a0f1d]'
+                }`}
+              />
+            </div>
+          );
+        })(),
+        document.body
+      )}
     </div>
   );
 };
