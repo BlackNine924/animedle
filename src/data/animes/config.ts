@@ -27,7 +27,7 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     subtitle: 'Tite Kubo',
     themeColor: '#FF4D8D',
     accentColor: '#D81B60',
-    banner: '⚔️',
+    banner: '👻',
     logo: '/logo-bleach.png',
     columns: [
       { key: 'gender', label: 'Gênero', type: 'exact' },
