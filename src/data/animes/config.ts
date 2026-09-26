@@ -42,12 +42,41 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
   'black-clover': {
     slug: 'black-clover',
     title: 'Black Clover',
-    subtitle: 'Yuki Tabata',
-    themeColor: '#10b981',
-    accentColor: '#059669',
+    subtitle: 'Yūki Tabata',
+    themeColor: '#10B981',
+    accentColor: '#047857',
     banner: '🍀',
-    columns: [],
-    arcs: []
+    logo: '/logo-black-clover.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Linhagem', type: 'exact' },
+      { key: 'affiliation', label: 'Esquadrão / Afiliação', type: 'array' },
+      { key: 'magicAttribute', label: 'Atributo Mágico', type: 'exact' },
+      { key: 'rank', label: 'Posto / Patente', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Exame de Entrada dos Cavaleiros Mágicos',
+      'Exploração de Calabouço & Reino Diamond',
+      'Invasão da Capital Real',
+      'Olho do Sol da Meia-Noite & Nean',
+      'Templo Subaquático',
+      'Floresta das Bruxas',
+      'Exame dos Cavaleiros Reais',
+      'Reencarnação dos Elfos & Demônio Zagred',
+      'Treinamento no Reino Heart & Tríade Sombria',
+      'Invasão ao Reino Spade & Lucifero',
+      'País de Hino & Dia do Julgamento de Lucius'
+    ],
+    mangaCoverage: {
+      chapter: 376,
+      status: 'Em Lançamento',
+      source: 'Weekly Shōnen Jump / Jump GIGA (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Atualizado com a reta final do mangá na Jump GIGA (Capítulo 376), incluindo a invasão de Lucius Zogratis, Paladinos e o País de Hino.'
+    }
   },
   'berserk': {
     slug: 'berserk',

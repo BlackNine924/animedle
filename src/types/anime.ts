@@ -45,6 +45,8 @@ export interface Character {
   powerNature?: string;
   // Tensura
   disasterRank?: string;
+  // Black Clover
+  magicAttribute?: string;
 }
 
 export interface AttributeColumn {

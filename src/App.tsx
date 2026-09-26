@@ -24,6 +24,7 @@ import jojosBizarreAdventureCharacters from './data/animes/jojos-bizarre-adventu
 import dandadanCharacters from './data/animes/dandadan/characters.json';
 import tenseiShitaraSlimeCharacters from './data/animes/tensei-shitara-slime-datta-ken/characters.json';
 import attackOnTitanCharacters from './data/animes/attack-on-titan/characters.json';
+import blackCloverCharacters from './data/animes/black-clover/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -57,6 +58,8 @@ export const App: React.FC = () => {
     ? tenseiShitaraSlimeCharacters
     : currentAnimeSlug === 'attack-on-titan'
     ? attackOnTitanCharacters
+    : currentAnimeSlug === 'black-clover'
+    ? blackCloverCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -269,6 +272,29 @@ export const App: React.FC = () => {
 
             items.push({
               id: `${c.id}-aot-titan-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: badgeTitle,
+              text: tech,
+            });
+          }
+        });
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'black-clover') {
+      characters.forEach((c) => {
+        const techList = (c.techniques && c.techniques.length > 0) ? c.techniques : (c.styleOrPower ? [c.styleOrPower] : []);
+        techList.forEach((tech, idx) => {
+          if (tech && tech !== 'Nenhum' && tech !== 'Nenhuma') {
+            const isSupreme = tech.includes('União') || tech.includes('Suprema') || tech.includes('Chrono') || tech.includes('Corte Dimensional') || tech.includes('Valquíria');
+            const badgeTitle = isSupreme
+              ? 'Magia Suprema / Feitiço Lendário'
+              : 'Magia / Feitiço Especial';
+
+            items.push({
+              id: `${c.id}-bc-magic-${idx}`,
               character: c,
               abilityType: 'technique',
               title: badgeTitle,
