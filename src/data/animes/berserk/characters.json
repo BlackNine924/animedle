@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "guts",
+    "name": "Guts",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo de Viagem de Guts",
+      "Bando do Falcão Original"
+    ],
+    "rank": "O Espadachim Negro",
+    "styleOrPower": "Dragon Slayer & Armadura de Berserker & Braço Canhão",
+    "debutArc": "O Espadachim Negro",
+    "status": "Vivo",
+    "quote": "Se você se preocupa em pisar nas formigas, não conseguirá dar um passo sequer!",
+    "techniques": [
+      "Corte Brutal com a Dragon Slayer",
+      "Disparo do Canhão do Braço Mecânico",
+      "Fúria Sanguinária da Armadura de Berserker"
+    ],
+    "avatar": "/avatars/berserk/guts.png"
+  },
+  {
+    "id": "casca",
+    "name": "Casca",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando do Falcão Original",
+      "Grupo de Viagem de Guts"
+    ],
+    "rank": "Comandante de Cavalaria / Guerreira",
+    "styleOrPower": "Esgrima Ágil com Florete & Instinto Marcial",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "Guts... você sempre foi o único que nunca desviou o olhar de mim.",
+    "techniques": [
+      "Esgrima Rápida com Florete",
+      "Acrobacia e Esquiva Marcial",
+      "Comando de Assalto da Cavalaria"
+    ],
+    "avatar": "/avatars/berserk/casca.png"
+  },
+  {
+    "id": "puck",
+    "name": "Puck",
+    "gender": "Masculino",
+    "species": "Espírito Astral / Fada",
+    "affiliation": [
+      "Grupo de Viagem de Guts",
+      "Ilha dos Elfos (Elfhelm)"
+    ],
+    "rank": "Elfo Companheiro / Alívio Cômico",
+    "styleOrPower": "Pó Curativo de Elfo & Flash Cegante (Puck Spark)",
+    "debutArc": "O Espadachim Negro",
+    "status": "Vivo",
+    "quote": "Eu sou Puck, o elfo mais corajoso de todo este mundo sombrio!",
+    "techniques": [
+      "Pó Regenerativo de Asas de Elfo",
+      "Puck Spark (Flash Ofuscante de Luz)",
+      "Modo栗 (Castanha Cômica)"
+    ],
+    "avatar": "/avatars/berserk/puck.png"
+  },
+  {
+    "id": "farnese",
+    "name": "Farnese de Vandimion",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo de Viagem de Guts",
+      "Ordem das Correntes de Ferro Sagradas"
+    ],
+    "rank": "Ex-Comandante Sagrada / Aprendiz de Bruxa",
+    "styleOrPower": "Espíritos Astrais da Terra e Luz & Botas e Túnica Mágica",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Guts me mostrou que o verdadeiro milagre é lutar com as próprias mãos no escuro!",
+    "techniques": [
+      "Invocação de Espíritos Protetores da Terra",
+      "Barreira Protetora de Mana Astral",
+      "Cuidado Espiritual e Protetor de Casca"
+    ],
+    "avatar": "/avatars/berserk/farnese.png"
+  },
+  {
+    "id": "serpico",
+    "name": "Serpico",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo de Viagem de Guts",
+      "Ordem das Correntes de Ferro Sagradas"
+    ],
+    "rank": "Espadachim Nobre / Guardião de Farnese",
+    "styleOrPower": "Espada Sílfica do Vento & Manto Flutuante dos Sílfos",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Eu dedicarei minha espada para que Farnese possa encontrar sua própria luz.",
+    "techniques": [
+      "Cortes de Vácuo com a Espada Sílfica",
+      "Voo e Queda Lenta com o Manto de Sílfo",
+      "Esgrima Tática de Emboscada em Despenhadeiro"
+    ],
+    "avatar": "/avatars/berserk/serpico.png"
+  },
+  {
+    "id": "isidro",
+    "name": "Isidro",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo de Viagem de Guts"
+    ],
+    "rank": "Aspirante a Espadachim Supremo",
+    "styleOrPower": "Adaga Flamejante de Salamandra & Bombas de Fogo e Estilingue",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Um dia o mundo inteiro saberá o nome do grande espadachim Isidro!",
+    "techniques": [
+      "Corte Incendiário com Adaga de Salamandra",
+      "Disparo Preciso de Bombas de Fogo com Estilingue",
+      "Acrobacia Ligeira de Ladrão"
+    ],
+    "avatar": "/avatars/berserk/isidro.png"
+  },
+  {
+    "id": "schierke",
+    "name": "Schierke",
+    "gender": "Feminino",
+    "species": "Bruxo / Mago",
+    "affiliation": [
+      "Grupo de Viagem de Guts"
+    ],
+    "rank": "Jovem Bruxa Discípula de Flora",
+    "styleOrPower": "Evocação dos Quatro Reis Elementais Astrais & Âncora de Guts",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Guts! Não se perca na escuridão da besta da armadura! Eu seguro sua alma!",
+    "techniques": [
+      "Evocação dos Quatro Reis Celestiais",
+      "Projeção Astral da Alma",
+      "Círculo Protetor de Purificação contra Espíritos Malignos"
+    ],
+    "avatar": "/avatars/berserk/schierke.png"
+  },
+  {
+    "id": "ivalera",
+    "name": "Ivalera",
+    "gender": "Feminino",
+    "species": "Espírito Astral / Fada",
+    "affiliation": [
+      "Grupo de Viagem de Guts",
+      "Ilha dos Elfos (Elfhelm)"
+    ],
+    "rank": "Fada Conselheira de Schierke",
+    "styleOrPower": "Pó de Fada & Vigilância Espiritual",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Schierke, concentre sua mente e não deixe aquele bobalhão do Puck te atrapalhar!",
+    "techniques": [
+      "Pó Protetor de Fada",
+      "Detecção de Frequências Astrais",
+      "Conselho Tático de Feitiçaria"
+    ],
+    "avatar": "/avatars/berserk/ivalera.png"
+  },
+  {
+    "id": "roderick",
+    "name": "Roderick de Staufen",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo de Viagem de Guts"
+    ],
+    "rank": "Capitão do Navio Seahorse / Príncipe de Ys",
+    "styleOrPower": "Navegação Oceânica Extrema & Esgrima Marítima com Sabres",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Enquanto eu estiver no timão do Cavalo-Marinho, nenhum monstro dos mares nos afundará!",
+    "techniques": [
+      "Manobra Náutica sob Tempestade Astral",
+      "Esgrima de Bordo com Sabre Naval",
+      "Comando de Canhões Náuticos"
+    ],
+    "avatar": "/avatars/berserk/roderick.png"
+  },
+  {
+    "id": "magnifico",
+    "name": "Magnifico de Vandimion",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo de Viagem de Guts"
+    ],
+    "rank": "Herdeiro Nobre Mercantil",
+    "styleOrPower": "Finanças, Conspirações Políticas & Alívio Cômico com Puck",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Com as riquezas da Ilha dos Elfos, eu me tornarei o senhor incontestável de Vandimion!",
+    "techniques": [
+      "Negociação Mercantil Aristocrática",
+      "Parceria Traiçoeira Cômica com Puck",
+      "Fuga Rápida em Pânico de Batalha"
+    ],
+    "avatar": "/avatars/berserk/magnifico.png"
+  },
+  {
+    "id": "isma",
+    "name": "Isma",
+    "gender": "Feminino",
+    "species": "Criatura Astral / Sereia",
+    "affiliation": [
+      "Grupo de Viagem de Guts"
+    ],
+    "rank": "Garota Pescadora Metade Sereia",
+    "styleOrPower": "Natação Sobrenatural & Canção de Chamado das Sereias",
+    "debutArc": "Fantasia",
+    "status": "Vivo",
+    "quote": "Minha mãe sempre disse que o mar cuidaria de mim quando eu mais precisasse!",
+    "techniques": [
+      "Transformação em Sereia Astral",
+      "Natação Veloz de Resgate Marítimo",
+      "Chamado do Cardume Protetor de Sereias"
+    ],
+    "avatar": "/avatars/berserk/isma.png"
+  },
+  {
+    "id": "griffith",
+    "name": "Griffith",
+    "gender": "Masculino",
+    "species": "Humano / Membro da God Hand",
+    "affiliation": [
+      "Bando do Falcão Original",
+      "Novo Bando do Falcão (Falcão da Luz)"
+    ],
+    "rank": "O Falcão Branco / Falcão da Luz / Femto",
+    "styleOrPower": "Espada Sabre Veloz & Manipulação Espacial e da Gravidade de Femto",
+    "debutArc": "A Era de Ouro",
+    "status": "Transcendido / Vivo",
+    "quote": "Um amigo para mim é alguém que se mantém de igual para igual diante de mim.",
+    "techniques": [
+      "Estocada Impecável com Sabre",
+      "Manipulação Espacial e Distorção Gravitacional",
+      "Reino Utópico de Falconia"
+    ],
+    "avatar": "/avatars/berserk/griffith.png"
+  },
+  {
+    "id": "judeau",
+    "name": "Judeau",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando do Falcão Original"
+    ],
+    "rank": "Oficial Batedor / Arremessador de Facas",
+    "styleOrPower": "Arremesso Cirúrgico de Facas & Percepção Emocional Brilhante",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Chore o quanto quiser, Casca... mas continue viva!",
+    "techniques": [
+      "Arremesso Quádruplo Simultâneo de Facas",
+      "Esgrima Furtiva Leve",
+      "Resgate Desesperado no Eclipse"
+    ],
+    "avatar": "/avatars/berserk/judeau.png"
+  },
+  {
+    "id": "pippin",
+    "name": "Pippin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando do Falcão Original"
+    ],
+    "rank": "Comandante da Guarda Pesada",
+    "styleOrPower": "Clava Pesada de Guerra & Força Sobre-humana Gentil",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "*aceno silencioso de cabeça segurando os monstros no Eclipse*",
+    "techniques": [
+      "Golpe Esmagador de Clava de Batalha",
+      "Força Muscular Titânica de Contenção",
+      "Sacrifício Silencioso Heroico"
+    ],
+    "avatar": "/avatars/berserk/pippin.png"
+  },
+  {
+    "id": "corkus",
+    "name": "Corkus",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando do Falcão Original"
+    ],
+    "rank": "Capitão de Batedores",
+    "styleOrPower": "Lança e Espada de Batedor & Cinismo Pragmático",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Griffith nos dará castelos e riquezas, seu idiota brutamontes!",
+    "techniques": [
+      "Carga de Lança Montada",
+      "Saque Rápido de Espada Curta",
+      "Pilhas de Pilhagem em Campos de Guerra"
+    ],
+    "avatar": "/avatars/berserk/corkus.png"
+  },
+  {
+    "id": "rickert",
+    "name": "Rickert",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando do Falcão Original"
+    ],
+    "rank": "Ferreiro Inventor / Sobrevivente do Eclipse",
+    "styleOrPower": "Balista Múltipla Repetidora & O Tapa Histórico na Face de Griffith",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "O Griffith que eu seguia morreu naquele dia... Adeus, Falcão da Luz!",
+    "techniques": [
+      "Engenharia de Balistas de Repetição Rápida",
+      "O Tapa Moral da Realidade em Griffith",
+      "Forja de Ferramentas e Lança-Chamas"
+    ],
+    "avatar": "/avatars/berserk/rickert.png"
+  },
+  {
+    "id": "gaston",
+    "name": "Gaston",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando do Falcão Original"
+    ],
+    "rank": "Braço Direito de Guts no Esquadrão de Assalto",
+    "styleOrPower": "Combate de Infantaria com Espada Larga",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Comandante Guts, quando essa guerra acabar, vou abrir uma alfaiataria!",
+    "techniques": [
+      "Investida Frontal de Choque",
+      "Corte com Espada Larga de Infantaria",
+      "Lealdade Incondicional a Guts"
+    ],
+    "avatar": "/avatars/berserk/gaston.png"
+  },
+  {
+    "id": "gambino",
+    "name": "Gambino",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando Mercenário de Gambino"
+    ],
+    "rank": "Capitão Mercenário / Pai Adotivo de Guts",
+    "styleOrPower": "Espada Longa de Duas Mãos & Dureza Mercenária Abusiva",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "A espada é a única coisa neste mundo que nunca vai te trair, moleque!",
+    "techniques": [
+      "Golpe Brutal com Espada Pesada",
+      "Comando de Cavalaria Mercenária",
+      "Treinamento Espartano desde a Infância"
+    ],
+    "avatar": "/avatars/berserk/gambino.png"
+  },
+  {
+    "id": "shisu",
+    "name": "Shisu",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando Mercenário de Gambino"
+    ],
+    "rank": "Mulher de Gambino / Mãe Adotiva de Guts",
+    "styleOrPower": "Amor Maternal Compassivo sob a Árvore dos Enforcados",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Este bebê sobreviveu ao cadáver de sua mãe... ele veio a mim como uma bênção.",
+    "techniques": [
+      "Resgate Milagroso de Bebê na Lama",
+      "Acolhimento Maternal em Acampamento",
+      "Proteção Contra a Peste"
+    ],
+    "avatar": "/avatars/berserk/shisu.png"
+  },
+  {
+    "id": "donovan",
+    "name": "Donovan",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Bando Mercenário de Gambino"
+    ],
+    "rank": "Mercenário Lanceiro",
+    "styleOrPower": "Lança de Combate & Abuso Cruel",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Gambino me vendeu você por três moedas de prata...",
+    "techniques": [
+      "Ataque Perfurante com Lança Pesada",
+      "Emboscada Noturna Traiçoeira",
+      "Força Bruta Mercenária"
+    ],
+    "avatar": "/avatars/berserk/donovan.png"
+  },
+  {
+    "id": "bazuso",
+    "name": "Bazuso",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "O Matador de Ursos / Campeão de Fortaleza",
+    "styleOrPower": "Machado Gigante de Batalha & Armadura de Placas de Ferro",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Eu sou Bazuso! O retalhador de trinta homens e caçador de ursos cinzentos com as mãos nuas!",
+    "techniques": [
+      "Golpe Demolidor de Machado Gigante",
+      "Arremesso de Homens com Armadura",
+      "Defesa Maciça de Placas de Aço"
+    ],
+    "avatar": "/avatars/berserk/bazuso.png"
+  },
+  {
+    "id": "rei-de-midland",
+    "name": "Rei de Midland",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland"
+    ],
+    "rank": "Monarca Soberano de Midland",
+    "styleOrPower": "Comando Real Imperial & Obsessão Incestuosa Insana",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Jogue Griffith na masmorra mais profunda de Mitram e arranque a carne dele pedaço por pedaço!",
+    "techniques": [
+      "Decreto Real Absoluto",
+      "Comando de Milhares de Cavaleiros de Midland",
+      "Condenação à Prisão Eterna"
+    ],
+    "avatar": "/avatars/berserk/rei-de-midland.png"
+  },
+  {
+    "id": "charlotte",
+    "name": "Princesa Charlotte",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland",
+      "Novo Bando do Falcão (Falcão da Luz)"
+    ],
+    "rank": "Princesa Herdeira de Midland / Noiva de Griffith",
+    "styleOrPower": "Legitimidade Dinástica Imperial & Amor Cego por Griffith",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "Lord Griffith... onde quer que você vá, o meu coração pertencerá para sempre a você.",
+    "techniques": [
+      "Legitimação do Trono Imperial de Falconia",
+      "Resgate de Griffith nas Masmorras",
+      "Presença Régia Serenadora"
+    ],
+    "avatar": "/avatars/berserk/charlotte.png"
+  },
+  {
+    "id": "julius",
+    "name": "Julius",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland"
+    ],
+    "rank": "Irmão do Rei / Comandante do Dragão Branco",
+    "styleOrPower": "Arquearia Envenenada & Conspiração de Sangue Nobre",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Um plebeu de sarjeta como Griffith jamais sentará perto da coroa de Midland!",
+    "techniques": [
+      "Comando da Ordem do Dragão Branco",
+      "Tentativa de Assassinato por Flecha Envenenada",
+      "Conspiração da Corte Real"
+    ],
+    "avatar": "/avatars/berserk/julius.png"
+  },
+  {
+    "id": "adonis",
+    "name": "Adonis",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland"
+    ],
+    "rank": "Filho Inocente de Julius",
+    "styleOrPower": "Treinamento Infantil com Espada Nobre",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Papai... estou treinando duro para me tornar um cavaleiro digno do senhor.",
+    "techniques": [
+      "Treinamento Rígido de Esgrima Infantil",
+      "Presença Silenciosa nos Aposentos",
+      "Morte Trágica que Assombrou Guts"
+    ],
+    "avatar": "/avatars/berserk/adonis.png"
+  },
+  {
+    "id": "rainha-de-midland",
+    "name": "Rainha de Midland",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland"
+    ],
+    "rank": "Rainha Consorte de Midland",
+    "styleOrPower": "Conspiração de Veneno em Taça & Morte na Torre em Chamas",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Vamos brindar à queda daquele verme insolente chamado Griffith!",
+    "techniques": [
+      "Envenenamento Aristocrático de Banquetes",
+      "Aliança Secreta com Ministros Corruptos",
+      "Morte Incinerada no Incêndio da Torre"
+    ],
+    "avatar": "/avatars/berserk/rainha-de-midland.png"
+  },
+  {
+    "id": "foss",
+    "name": "Ministro Foss",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland"
+    ],
+    "rank": "Ministro de Estado / Grão-Chanceler",
+    "styleOrPower": "Espionagem Política, Venenos & Sobrevivência na Corte",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "Aquele olhar de Griffith não é de um simples humano... ele enxerga através da nossa alma!",
+    "techniques": [
+      "Rede de Espiões da Capital de Windham",
+      "Manobras Diplomáticas de Sobrevivência",
+      "Aliança Cautelosa com o Falcão"
+    ],
+    "avatar": "/avatars/berserk/foss.png"
+  },
+  {
+    "id": "laban",
+    "name": "General Laban",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland"
+    ],
+    "rank": "General Veterano de Infantaria e Cavalaria",
+    "styleOrPower": "Estratégia Militar Honrada de Midland",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "O Bando do Falcão realizou o milagre que cem anos de guerra não conseguiram!",
+    "techniques": [
+      "Comando de Divisões Blindadas de Midland",
+      "Defesa Patriótica das Fronteiras",
+      "Lealdade à Casa Real"
+    ],
+    "avatar": "/avatars/berserk/laban.png"
+  },
+  {
+    "id": "owen",
+    "name": "General Owen",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Midland"
+    ],
+    "rank": "General da Corte de Midland",
+    "styleOrPower": "Tática Militar Cavalheiresca",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "Nossos homens manterão as posições em honra a Midland!",
+    "techniques": [
+      "Defesa de Baluartes Fortificados",
+      "Formação de Cavalaria Nobre",
+      "Apoio Tático a Laban"
+    ],
+    "avatar": "/avatars/berserk/owen.png"
+  },
+  {
+    "id": "skull-knight",
+    "name": "Cavaleiro da Caveira",
+    "gender": "Sem Gênero",
+    "species": "Criatura Astral / Morto-Vivo",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "O Antigo Imperador Gaiseric / Caçador da God Hand",
+    "styleOrPower": "Espada da Ressonância (Yobimizu no Tsurugi) & Escudo Cavalo Espiritual",
+    "debutArc": "A Era de Ouro",
+    "status": "Transcendido / Vivo",
+    "quote": "Lute, debata-se e rasteje contra a causalidade, ó homem marcado pelo estigma!",
+    "techniques": [
+      "Espada da Ressonância Dimensional",
+      "Rasgo Espacial que Abre Fendas no Astral",
+      "Cavalgada Supersônica que Rompe Dimensões"
+    ],
+    "avatar": "/avatars/berserk/skull-knight.png"
+  },
+  {
+    "id": "flora",
+    "name": "Flora",
+    "gender": "Feminino",
+    "species": "Bruxo / Mago",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Grande Bruxa Ancestral da Floresta",
+    "styleOrPower": "Magia Espiritual Pura & Entrega da Armadura de Berserker a Guts",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Falecido",
+    "quote": "A magia nada mais é do que pedir emprestada a força dos espíritos que habitam este mundo.",
+    "techniques": [
+      "Golems Guardiões da Árvore Espiritual",
+      "Barreira Protetora contra Apóstolos",
+      "Concessão da Armadura de Berserker"
+    ],
+    "avatar": "/avatars/berserk/flora.png"
+  },
+  {
+    "id": "godot",
+    "name": "Godot",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Mestre Ferreiro Lendário",
+    "styleOrPower": "Forja da Espada Dragon Slayer & Sabedoria de Montanha",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Eu forjei uma espada para matar dragões... Mas você usou essa massa de ferro para desafiar o próprio inferno!",
+    "techniques": [
+      "Forja da Lâmina Dragon Slayer",
+      "Reparo do Braço Canhão Mecânico de Guts",
+      "Reforço da Espada Prisão de Almas"
+    ],
+    "avatar": "/avatars/berserk/godot.png"
+  },
+  {
+    "id": "erica",
+    "name": "Erica",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Garota Adotada por Godot",
+    "styleOrPower": "Auxílio na Forja das Montanhas & Companheira Leal de Rickert",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "Rickert, eu vou com você para onde quer que a gente precise começar de novo!",
+    "techniques": [
+      "Alimentação de Forja com Carvão e Fole",
+      "Cuidado Familiar nas Montanhas",
+      "Fuga Corajosa de Falconia com Rickert e Silat"
+    ],
+    "avatar": "/avatars/berserk/erica.png"
+  },
+  {
+    "id": "gedfring",
+    "name": "Gedfring",
+    "gender": "Masculino",
+    "species": "Bruxo / Mago",
+    "affiliation": [
+      "Ilha dos Elfos (Elfhelm)"
+    ],
+    "rank": "Arquimago Conselheiro de Elfhelm",
+    "styleOrPower": "Magia Astral Antiga de Ilusões e Barreiras",
+    "debutArc": "Fantasia",
+    "status": "Vivo",
+    "quote": "Bem-vindos à Ilha dos Elfos, o último refúgio onde o plano astral floresce em harmonia.",
+    "techniques": [
+      "Manipulação das Barreiras de Elfhelm",
+      "Aconselhamento Mágico de Alta Ordem",
+      "Canalização de Feitiços Restauradores"
+    ],
+    "avatar": "/avatars/berserk/gedfring.png"
+  },
+  {
+    "id": "danan",
+    "name": "Danan",
+    "gender": "Masculino",
+    "species": "Anão",
+    "affiliation": [
+      "Ilha dos Elfos (Elfhelm)"
+    ],
+    "rank": "Mestre Forjador dos Anões",
+    "styleOrPower": "Metalurgia Sobrenatural & Forja da Armadura de Berserker Original",
+    "debutArc": "Fantasia",
+    "status": "Vivo",
+    "quote": "A armadura que forjei com o sangue da fera continua viva no seu peito, humano!",
+    "techniques": [
+      "Forja de Lâminas Imbuídas de Almas Anãs",
+      "Manutenção da Armadura de Berserker",
+      "Trabalho Mágico em Metais Astrais"
+    ],
+    "avatar": "/avatars/berserk/danan.png"
+  },
+  {
+    "id": "danann",
+    "name": "Rainha Danann (Hana Fubuku)",
+    "gender": "Feminino",
+    "species": "Espírito Astral / Fada",
+    "affiliation": [
+      "Ilha dos Elfos (Elfhelm)"
+    ],
+    "rank": "Soberana dos Sonhos e das Fadas",
+    "styleOrPower": "Restauração do Corredor dos Sonhos & Cura da Mente de Casca",
+    "debutArc": "Fantasia",
+    "status": "Vivo",
+    "quote": "No reino das flores de cerejeira, juntaremos os fragmentos quebrados da sua memória, Casca.",
+    "techniques": [
+      "Abertura do Corredor dos Sonhos",
+      "Reconstituição de Almas Dilaceradas",
+      "Poder Máximo das Fadas de Elfhelm"
+    ],
+    "avatar": "/avatars/berserk/danann.png"
+  },
+  {
+    "id": "void",
+    "name": "Void",
+    "gender": "Sem Gênero",
+    "species": "Membro da God Hand",
+    "affiliation": [
+      "A Mão de Deus (God Hand)"
+    ],
+    "rank": "Líder Espiritual da God Hand / Orador do Eclipse",
+    "styleOrPower": "Causalidade Suprema & Portais Dimensionais com o Manto Negro",
+    "debutArc": "O Espadachim Negro",
+    "status": "Transcendido / Vivo",
+    "quote": "Neste mundo, o destino da humanidade é controlado por alguma entidade transcendental?",
+    "techniques": [
+      "Marcação do Estigma do Sacrifício",
+      "Distorção Espacial do Manto Vácuo",
+      "Tecelagem do Fio da Causalidade Universal"
+    ],
+    "avatar": "/avatars/berserk/void.png"
+  },
+  {
+    "id": "femto",
+    "name": "Femto",
+    "gender": "Sem Gênero",
+    "species": "Membro da God Hand",
+    "affiliation": [
+      "A Mão de Deus (God Hand)"
+    ],
+    "rank": "A Quinta Asa da God Hand / O Falcão das Trevas",
+    "styleOrPower": "Manipulação do Espaço-Tempo, Gravidade e Rejeição da Matéria",
+    "debutArc": "O Espadachim Negro",
+    "status": "Transcendido / Vivo",
+    "quote": "Eu sou livre... Minhas asas me levarão ao topo do mundo onde nenhum mortal pode tocar.",
+    "techniques": [
+      "Gravidade Esmagadora Invisível",
+      "Rejeição Absoluta de Projéteis e Espadas",
+      "Fusão do Plano Astral com o Físico (Rugido do Mundo)"
+    ],
+    "avatar": "/avatars/berserk/femto.png"
+  },
+  {
+    "id": "slan",
+    "name": "Slan",
+    "gender": "Feminino",
+    "species": "Membro da God Hand",
+    "affiliation": [
+      "A Mão de Deus (God Hand)"
+    ],
+    "rank": "A Prostituta do Mar Uterino",
+    "styleOrPower": "Manifestação em Vísceras e Sangue & Êxtase da Dor Sombria",
+    "debutArc": "O Espadachim Negro",
+    "status": "Transcendido / Vivo",
+    "quote": "Sinta a minha carne de entranhas, Guts! Sua dor e seu ódio são tão deliciosos!",
+    "techniques": [
+      "Corpo Manifestado de Vísceras e Tripas de Trolls",
+      "Tortura Psíquica Sensual Demoníaca",
+      "Tentáculos de Trevas Abissais"
+    ],
+    "avatar": "/avatars/berserk/slan.png"
+  },
+  {
+    "id": "ubik",
+    "name": "Ubik",
+    "gender": "Sem Gênero",
+    "species": "Membro da God Hand",
+    "affiliation": [
+      "A Mão de Deus (God Hand)"
+    ],
+    "rank": "O Manipulador da Mente e Ilusões",
+    "styleOrPower": "Projeção de Memórias Traumáticas & Persuasão do Sacrifício",
+    "debutArc": "O Espadachim Negro",
+    "status": "Transcendido / Vivo",
+    "quote": "Veja todos aqueles que morreram por sua causa, Griffith! O sacrifício é o único caminho!",
+    "techniques": [
+      "Ilusão Psíquica do Mar de Cadáveres",
+      "Levitação Dimensional Sinistra",
+      "Manipulação da Culpa e Ambição Mortal"
+    ],
+    "avatar": "/avatars/berserk/ubik.png"
+  },
+  {
+    "id": "conrad",
+    "name": "Conrad",
+    "gender": "Sem Gênero",
+    "species": "Membro da God Hand",
+    "affiliation": [
+      "A Mão de Deus (God Hand)"
+    ],
+    "rank": "O Senhor das Pragas e Pestes",
+    "styleOrPower": "Disseminação de Doenças Mortais, Ratos Negros & Podridão",
+    "debutArc": "O Espadachim Negro",
+    "status": "Transcendido / Vivo",
+    "quote": "A podridão consumirá a carne fraca dos mortais deste mundo decadente.",
+    "techniques": [
+      "Praga Bubônica dos Ratos Vorazes",
+      "Montanha de Cadáveres Putrefatos",
+      "Manifestação no Lodo de Albion"
+    ],
+    "avatar": "/avatars/berserk/conrad.png"
+  },
+  {
+    "id": "nosferatu-zodd",
+    "name": "Nosferatu Zodd",
+    "gender": "Masculino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Novo Bando do Falcão (Falcão da Luz)",
+      "Independentes / Nômades"
+    ],
+    "rank": "O Imortal / General de Vanguarda de Griffith",
+    "styleOrPower": "Fera Alada Chifruda Titânica & Regeneração e Espadas Gigantes",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "Passaram-se trezentos anos... Finalmente encontrei homens capazes de rasgar a minha carne!",
+    "techniques": [
+      "Transformação em Besta Alada Gigante",
+      "Arremesso de Espadas e Machados Titânicos",
+      "Regeneração de Membros Amputados"
+    ],
+    "avatar": "/avatars/berserk/nosferatu-zodd.png"
+  },
+  {
+    "id": "locus",
+    "name": "Locus",
+    "gender": "Masculino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Novo Bando do Falcão (Falcão da Luz)"
+    ],
+    "rank": "O Cavaleiro da Luz da Lua",
+    "styleOrPower": "Centauro Metálico Blindado & Lança Telescópica Perfurante",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "A luz de Lord Griffith guiará a humanidade para fora deste pântano de sombras.",
+    "techniques": [
+      "Transformação em Centauro Metálico",
+      "Investida com Lança Longa Perfurante de Titã",
+      "Tiro de Precisão a Cavalo Cego"
+    ],
+    "avatar": "/avatars/berserk/locus.png"
+  },
+  {
+    "id": "grunbeld",
+    "name": "Grunbeld",
+    "gender": "Masculino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Novo Bando do Falcão (Falcão da Luz)"
+    ],
+    "rank": "O Dragão de Chamas",
+    "styleOrPower": "Dragão de Corindo Escarlate & Escudo Canhão de Guerra e Martelo",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Eu sou Grunbeld! O guerreiro que segurou o exército de Tudor por dez anos!",
+    "techniques": [
+      "Transformação em Dragão Gigante de Cristal Corindo",
+      "Disparo de Fogo Devastador pela Boca",
+      "Impacto com Escudo Canhão e Martelo de Guerra"
+    ],
+    "avatar": "/avatars/berserk/grunbeld.png"
+  },
+  {
+    "id": "rakshas",
+    "name": "Rakshas",
+    "gender": "Masculino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Novo Bando do Falcão (Falcão da Luz)"
+    ],
+    "rank": "Assassino Espectral Bakiraka",
+    "styleOrPower": "Manto de Sombras Sem Ossos & Lâminas Ocultas Máscara Branca",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Eu sou Rakshas... Aquele que protegerá a cabeça de Griffith para arrancá-la no final.",
+    "techniques": [
+      "Corpo Maleável de Sombras Sem Ossos",
+      "Infiltração Furtiva Invisível sob Tetos",
+      "Lâminas Ocultas na Máscara Sorridente"
+    ],
+    "avatar": "/avatars/berserk/rakshas.png"
+  },
+  {
+    "id": "wyald",
+    "name": "Wyald",
+    "gender": "Masculino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Cavaleiros do Cachorro Negro"
+    ],
+    "rank": "Comandante dos Cavaleiros do Cachorro Negro",
+    "styleOrPower": "Macaco Gigante de Três Olhos Monstruoso & Slogan 'Tudo é Diversão!'",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Tudo neste mundo é diversão e prazer! Vamos nos empalar e rir até o fim!",
+    "techniques": [
+      "Transformação em Primata Gigante de Três Olhos",
+      "Empalamento Brutal de Corpos em Mastros",
+      "Destruição Sísmica com Clava"
+    ],
+    "avatar": "/avatars/berserk/wyald.png"
+  },
+  {
+    "id": "snake-baron",
+    "name": "Barão Serpente",
+    "gender": "Masculino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Senhor do Castelo de Koka",
+    "styleOrPower": "Cobra Cobra-Gigante Monstruosa & Chicote de Cauda Perfurante",
+    "debutArc": "O Espadachim Negro",
+    "status": "Falecido",
+    "quote": "Você acha que um humano comum pode enfrentar a força de um servo da God Hand?!",
+    "techniques": [
+      "Transformação em Serpente Gigante",
+      "Chicote Venenoso de Cauda",
+      "Bote Devorador de Cavalos e Homens"
+    ],
+    "avatar": "/avatars/berserk/snake-baron.png"
+  },
+  {
+    "id": "the-count",
+    "name": "O Conde (Slug Count)",
+    "gender": "Masculino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Conde Soberano / Carrasco de Hereges",
+    "styleOrPower": "Besta Lesma Gigante Carnívora & Behelit Verde",
+    "debutArc": "O Espadachim Negro",
+    "status": "Falecido",
+    "quote": "Theresia... minha filha amada... eu nunca sacrificarei você para salvar minha alma!",
+    "techniques": [
+      "Transformação em Lesma Monstruosa de Múltiplos Dentes",
+      "Regeneração com Cadáveres Devorados",
+      "Recusa Sublime do Sacrifício da Filha"
+    ],
+    "avatar": "/avatars/berserk/the-count.png"
+  },
+  {
+    "id": "theresia",
+    "name": "Theresia",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Filha do Conde",
+    "styleOrPower": "Trauma Infantil Extremo & Juramento de Vingança contra Guts",
+    "debutArc": "O Espadachim Negro",
+    "status": "Vivo",
+    "quote": "Espadachim Negro! Eu juro que vou crescer e matar você com minhas próprias mãos!",
+    "techniques": [
+      "Juramento de Ódio Inabalável",
+      "Sobrevivência ao Massacre do Castelo",
+      "Lágrimas de Desespero"
+    ],
+    "avatar": "/avatars/berserk/theresia.png"
+  },
+  {
+    "id": "rosine",
+    "name": "Rosine",
+    "gender": "Feminino",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "A Rainha das Fadas do Vale das Brumas",
+    "styleOrPower": "Mariposa Hipersônica Gigante & Criação de Crianças Elfas Canibais",
+    "debutArc": "Condenação",
+    "status": "Falecido",
+    "quote": "Eu sou uma elfa! Não sou uma humana fraca como meus pais abusivos!",
+    "techniques": [
+      "Investida em Velocidade Supersônica com Aguilhão",
+      "Pó Paralisante de Escamas de Mariposa",
+      "Criação de Insetos Assassinos Falsos Elfos"
+    ],
+    "avatar": "/avatars/berserk/rosine.png"
+  },
+  {
+    "id": "jill",
+    "name": "Jill",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Garota do Vilarejo das Brumas",
+    "styleOrPower": "Amizade Compassiva com Rosine & Proteção por Guts",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Guts me ensinou que fugir não resolve nada... Meu campo de batalha é aqui!",
+    "techniques": [
+      "Coragem Resiliente contra Abuso Familiar",
+      "Prece Silenciosa pela Alma de Rosine",
+      "Enfrentamento do Próprio Destino"
+    ],
+    "avatar": "/avatars/berserk/jill.png"
+  },
+  {
+    "id": "egg-of-the-perfect-world",
+    "name": "O Apóstolo Behelit",
+    "gender": "Sem Gênero",
+    "species": "Apóstolo",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "O Ovo do Mundo Perfeito",
+    "styleOrPower": "Casca de Behelit & O Útero da Reencarnação de Griffith",
+    "debutArc": "Condenação",
+    "status": "Falecido",
+    "quote": "Eu sacrifico este mundo decaído para dar à luz o ovo de um novo mundo perfeito!",
+    "techniques": [
+      "Casca Dura Impenetrável de Rosto Behelit",
+      "Digestão e Gestação de Almas Malignas",
+      "Parto do Novo Falcão de Carne"
+    ],
+    "avatar": "/avatars/berserk/egg-of-the-perfect-world.png"
+  },
+  {
+    "id": "mozgus",
+    "name": "Inquisidor Mozgus",
+    "gender": "Masculino",
+    "species": "Apóstolo Menor / Humano",
+    "affiliation": [
+      "Igreja da Santa Sé"
+    ],
+    "rank": "Grande Inquisidor da Torre da Convicção",
+    "styleOrPower": "Rosto de Pedra Quadrado, Bíblia de Ferro & Anjo de Pedra Alado",
+    "debutArc": "Condenação",
+    "status": "Falecido",
+    "quote": "Que a luz sagrada de Deus purifique a carne pecaminosa destes hereges!",
+    "techniques": [
+      "Golpe Esmagador com a Bíblia de Aço",
+      "Anjo Alado de Pedra com Disparo de Chamas",
+      "Oração e Penitência Fanática Contínua"
+    ],
+    "avatar": "/avatars/berserk/mozgus.png"
+  },
+  {
+    "id": "azan",
+    "name": "Azan",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Ordem das Correntes de Ferro Sagradas",
+      "Grupo de Viagem de Guts"
+    ],
+    "rank": "O Cavaleiro da Ponte de Ferro",
+    "styleOrPower": "Clava e Escudo Pesados & Honra Cavalheiresca Inquebrável",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Eu sou Azan! Aquele que defendeu a ponte de ferro contra uma centena de homens!",
+    "techniques": [
+      "Golpe Pesado com Bastão de Ferro",
+      "Postura Defensiva Impenetrável de Escudo",
+      "Código de Cavalaria Inflexível"
+    ],
+    "avatar": "/avatars/berserk/azan.png"
+  },
+  {
+    "id": "jerome",
+    "name": "Jerome",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Ordem das Correntes de Ferro Sagradas"
+    ],
+    "rank": "Cavaleiro Sagrado de Farnese",
+    "styleOrPower": "Esgrima Sagrada com Espada Reta & Afeição por Luca",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Mesmo em uma ordem severa, um cavaleiro não deve perder a compaixão por uma mulher corajosa.",
+    "techniques": [
+      "Esgrima das Correntes de Ferro",
+      "Resgate de Prostitutas sob Escombros",
+      "Combate contra Zumbis em Albion"
+    ],
+    "avatar": "/avatars/berserk/jerome.png"
+  },
+  {
+    "id": "luca",
+    "name": "Luca",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Líder Protetora das Prostitutas de Albion",
+    "styleOrPower": "Coragem Pragmática Inabalável & Proteção Heroica a Casca",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Se ninguém vai olhar por nós, mulheres miseráveis, nós cuidaremos umas das outras!",
+    "techniques": [
+      "Coragem Destemida Diante de Monstros e Inquisidores",
+      "Acolhimento Maternal de Casca e Nina",
+      "Sobrevivência nas Ruínas de Albion"
+    ],
+    "avatar": "/avatars/berserk/luca.png"
+  },
+  {
+    "id": "nina",
+    "name": "Nina",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Jovem Prostituta de Albion",
+    "styleOrPower": "Fuga Desesperada & Covardia Humana Realista",
+    "debutArc": "Condenação",
+    "status": "Vivo",
+    "quote": "Eu sou fraca, covarde e doente... mas eu não quero morrer!",
+    "techniques": [
+      "Participação Clandestina no Culto do Herege",
+      "Delírio de Sobrevivência sob Tortura",
+      "Redenção Final Apoiada por Luca"
+    ],
+    "avatar": "/avatars/berserk/nina.png"
+  },
+  {
+    "id": "great-goat",
+    "name": "O Grande Bode",
+    "gender": "Masculino",
+    "species": "Apóstolo Menor",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Líder Pagão do Culto das Trevas",
+    "styleOrPower": "Chifres e Patas de Bode Demoníaco & Bastão Ígneo",
+    "debutArc": "Condenação",
+    "status": "Falecido",
+    "quote": "Venham para o abraço da carne e do êxtase noturno além das correntes da Santa Sé!",
+    "techniques": [
+      "Investida com Chifres Pontiagudos de Bode",
+      "Bastão de Fogo Cerimonial",
+      "Tentáculos Fálicos de Matéria Sombria"
+    ],
+    "avatar": "/avatars/berserk/great-goat.png"
+  },
+  {
+    "id": "ganishka",
+    "name": "Imperador Ganishka",
+    "gender": "Masculino",
+    "species": "Apóstolo / Tirano",
+    "affiliation": [
+      "Império Kushan"
+    ],
+    "rank": "Imperador Supremo de Kushan / Shiva Monstruoso",
+    "styleOrPower": "Névoa Elétrica Intangível & A Besta Cósmica Shiva Gigante",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Falecido",
+    "quote": "Eu sou Ganishka! Nem mesmo a God Hand curvará o imperador dos Kushan!",
+    "techniques": [
+      "Transformação em Névoa Elétrica Raiada",
+      "Disparo Contínuo de Raios das Nuvens",
+      "Metamorfose Cósmica no Titã Shiva de Dois Níveis"
+    ],
+    "avatar": "/avatars/berserk/ganishka.png"
+  },
+  {
+    "id": "daiba",
+    "name": "Daiba",
+    "gender": "Masculino",
+    "species": "Bruxo / Mago",
+    "affiliation": [
+      "Império Kushan"
+    ],
+    "rank": "Comandante Supremo dos Magos Daksha",
+    "styleOrPower": "Pássaro Garuda Voador & Serpentes Aquáticas Kundalini",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "O poder do Prana do Oriente não teme as bruxarias bárbaras de Midland!",
+    "techniques": [
+      "Invocação das Feras Aquáticas Kundalini",
+      "Voo Rápido no Pássaro Sagrado Garuda",
+      "Criação de Daka (Monstros Demoníacos Enxertados)"
+    ],
+    "avatar": "/avatars/berserk/daiba.png"
+  },
+  {
+    "id": "silat",
+    "name": "Silat",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Império Kushan"
+    ],
+    "rank": "Líder do Clã de Assassinos Bakiraka",
+    "styleOrPower": "Espadas Chicote Urumi & Discos Cortantes Chakram",
+    "debutArc": "A Era de Ouro",
+    "status": "Vivo",
+    "quote": "O Clã Bakiraka reconquistará sua honra e terra com o sangue de nossos próprios braços!",
+    "techniques": [
+      "Chicotes de Aço Flexível Urumi",
+      "Lançamento Mortal de Chakrams Duplos",
+      "Acrobacia Mortal e Kata dos Bakiraka"
+    ],
+    "avatar": "/avatars/berserk/silat.png"
+  },
+  {
+    "id": "tapasa",
+    "name": "Tapasa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Império Kushan"
+    ],
+    "rank": "Quatro Guarda-Costas de Elite de Silat",
+    "styleOrPower": "Artes Marciais Kushan com Armaduras Musculares Gigantes",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Nenhum homem ou monstro ultrapassará a barreira dos Tapasa de Silat!",
+    "techniques": [
+      "Palmas Esmagadoras de Pressão de Ar",
+      "Combate Sincronizado Quádruplo sem Armas",
+      "Golpes Sísmicos de Vangarda"
+    ],
+    "avatar": "/avatars/berserk/tapasa.png"
+  },
+  {
+    "id": "boscogn",
+    "name": "General Boscogn",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Império de Chuder"
+    ],
+    "rank": "Comandante dos Cavaleiros do Rinoceronte Negro",
+    "styleOrPower": "Alabarda Gigante & Defesa Blindada da Fortaleza de Doldrey",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Doldrey é impenetrável há cem anos, e vocês morrerão perante a minha alabarda!",
+    "techniques": [
+      "Golpe Decapitador com Alabarda Pesada",
+      "Carga Montada do Rinoceronte Negro",
+      "Defesa das Muralhas de Doldrey"
+    ],
+    "avatar": "/avatars/berserk/boscogn.png"
+  },
+  {
+    "id": "gennon",
+    "name": "Lorde Gennon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Império de Chuder"
+    ],
+    "rank": "Governador da Fortaleza de Doldrey",
+    "styleOrPower": "Luxúria Aristocrática & Obsessão por Griffith",
+    "debutArc": "A Era de Ouro",
+    "status": "Falecido",
+    "quote": "Griffith... eu dei a você moedas de ouro para financiar seu sonho anos atrás!",
+    "techniques": [
+      "Comando da Guarnição Imperial de Doldrey",
+      "Suborno de Mercenários com Cofres de Ouro",
+      "Retirada em Desespero"
+    ],
+    "avatar": "/avatars/berserk/gennon.png"
+  },
+  {
+    "id": "chitch",
+    "name": "Chitch",
+    "gender": "Feminino",
+    "species": "Espírito Astral / Fada",
+    "affiliation": [
+      "Independentes / Nômades"
+    ],
+    "rank": "Espírito da Flor",
+    "styleOrPower": "Pó Curativo de Pétala & Sacrifício da Própria Flor por Guts",
+    "debutArc": "Fantasia",
+    "status": "Falecido",
+    "quote": "*sorriso doce de fada oferecendo a última pétala para curar a ferida do pequeno Guts*",
+    "techniques": [
+      "Pó Curativo da Flor Solitária",
+      "Companheirismo Terno na Cela Escura",
+      "Desabrochar da Alma Gentil"
+    ],
+    "avatar": "/avatars/berserk/chitch.png"
+  },
+  {
+    "id": "sonia",
+    "name": "Sonia",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Novo Bando do Falcão (Falcão da Luz)"
+    ],
+    "rank": "A Sacerdotisa Vidente do Falcão",
+    "styleOrPower": "Vidência e Telepatia Coletiva nos Campos de Batalha",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Lord Griffith é o Falcão que voa entre humanos e monstros para nos libertar da escuridão!",
+    "techniques": [
+      "Previsão de Trajetórias de Batalha em Tempo Real",
+      "Telepatia de Campo Coordenada com Tropas",
+      "Leitura da Cor das Almas"
+    ],
+    "avatar": "/avatars/berserk/sonia.png"
+  },
+  {
+    "id": "mule-wolflame",
+    "name": "Mule Wolflame",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Novo Bando do Falcão (Falcão da Luz)"
+    ],
+    "rank": "Jovem Cavaleiro Escudeiro de Sonia",
+    "styleOrPower": "Esgrima Equestre e Guarda Costas de Sonia",
+    "debutArc": "O Falcão do Império Milenar",
+    "status": "Vivo",
+    "quote": "Lady Sonia, por favor não ande tão perto daqueles monstros apóstolos!",
+    "techniques": [
+      "Escolta Equestre Rápida",
+      "Guarda Armada com Espada de Cavaleiro",
+      "Defesa da Vidente nos Campos de Guerra"
+    ],
+    "avatar": "/avatars/berserk/mule-wolflame.png"
+  }
+]

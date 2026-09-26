@@ -82,11 +82,34 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'berserk',
     title: 'Berserk',
     subtitle: 'Kentaro Miura',
-    themeColor: '#dc2626',
-    accentColor: '#991b1b',
+    themeColor: '#991B1B',
+    accentColor: '#7F1D1D',
     banner: '🗡️',
-    columns: [],
-    arcs: []
+    logo: '/logo-berserk.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Linhagem', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'rank', label: 'Ocupação / Título', type: 'exact' },
+      { key: 'styleOrPower', label: 'Arma / Habilidade / Poder', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'O Espadachim Negro',
+      'A Era de Ouro',
+      'Condenação',
+      'O Falcão do Império Milenar',
+      'Fantasia'
+    ],
+    mangaCoverage: {
+      chapter: 376,
+      status: 'Em Lançamento',
+      source: 'Young Animal (Hakusensha)',
+      officialPublisher: 'Hakusensha / Studio Gaga',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica iniciada por Kentaro Miura e continuada pelo Studio Gaga e Kouji Mori (Capítulos 1 ao 376, cobrindo o arco de Elfhelm e os acontecimentos em Kushan).'
+    }
   },
   'bleach': {
     slug: 'bleach',
