@@ -41,6 +41,8 @@ export interface Character {
   maxRelease?: string;
   // JoJo
   stand?: string;
+  // Dandadan
+  powerNature?: string;
 }
 
 export interface AttributeColumn {

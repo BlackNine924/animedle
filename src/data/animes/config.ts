@@ -116,11 +116,41 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'dandadan',
     title: 'DAN DA DAN',
     subtitle: 'Yukinobu Tatsu',
-    themeColor: '#06b6d4',
-    accentColor: '#0891b2',
+    themeColor: '#EC4899',
+    accentColor: '#BE185D',
     banner: '🛸',
-    columns: [],
-    arcs: []
+    logo: '/logo-dandadan.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Origem', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação', type: 'array' },
+      { key: 'powerNature', label: 'Natureza do Poder', type: 'exact' },
+      { key: 'styleOrPower', label: 'Poder / Habilidade', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco Turbo Vovó',
+      'Arco Silky Acrobática',
+      'Arco Serpo e Nessie',
+      'Arco da Casa Maldita & Olho Maligno',
+      'Arco do Kaiju & Mecha Buda',
+      'Arco da Invasão Global dos Alienígenas',
+      'Arco do Onbusuman',
+      'Arco do Danmara',
+      'Arco das Lâminas Kozuka',
+      'Arco do Homem Tufão',
+      'Arco de Shimane',
+      'Arco das Seis Maldições'
+    ],
+    mangaCoverage: {
+      chapter: '246',
+      status: 'Em Lançamento',
+      source: 'Shōnen Jump+ (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica cobrindo desde o início (Capítulo 1) até o clímax do Arco das Seis Maldições (Capítulo 246, 25 volumes publicados).'
+    }
   },
   'demon-slayer': {
     slug: 'demon-slayer',

@@ -21,6 +21,7 @@ import blueLockCharacters from './data/animes/blue-lock/characters.json';
 import bleachCharacters from './data/animes/bleach/characters.json';
 import dragonBallCharacters from './data/animes/dragon-ball/characters.json';
 import jojosBizarreAdventureCharacters from './data/animes/jojos-bizarre-adventure/characters.json';
+import dandadanCharacters from './data/animes/dandadan/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -48,6 +49,8 @@ export const App: React.FC = () => {
     ? dragonBallCharacters
     : currentAnimeSlug === 'jojos-bizarre-adventure'
     ? jojosBizarreAdventureCharacters
+    : currentAnimeSlug === 'dandadan'
+    ? dandadanCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -195,6 +198,32 @@ export const App: React.FC = () => {
             text: c.stand,
           });
         }
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'dandadan') {
+      characters.forEach((c) => {
+        const techList = (c.techniques && c.techniques.length > 0) ? c.techniques : (c.styleOrPower ? [c.styleOrPower] : []);
+        techList.forEach((tech, idx) => {
+          if (tech && tech !== 'Nenhum' && tech !== 'Nenhuma') {
+            const badgeTitle = c.powerNature?.includes('Sobrenatural')
+              ? 'Poder Sobrenatural / Youkai'
+              : c.powerNature?.includes('Extraterrestre')
+              ? 'Poder Extraterrestre / Sci-Fi'
+              : c.powerNature?.includes('Misto')
+              ? 'Poder Misto (Youkai & Sci-Fi)'
+              : 'Poder / Habilidade';
+
+            items.push({
+              id: `${c.id}-dandadan-power-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: badgeTitle,
+              text: tech,
+            });
+          }
+        });
       });
       return items;
     }
