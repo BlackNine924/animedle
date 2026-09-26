@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { HelpCircle, BarChart2, ChevronDown, RotateCcw, Sparkles } from 'lucide-react';
+import { HelpCircle, BarChart2, ChevronDown, RotateCcw, Sparkles, Home } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ANIMES_CONFIG } from '../data/animes/config';
 
@@ -9,6 +9,8 @@ interface NavbarProps {
   onOpenHowToPlay: () => void;
   onOpenStats: () => void;
   onResetDaily?: () => void;
+  currentView?: 'home' | 'game';
+  onGoHome?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -17,6 +19,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenHowToPlay,
   onOpenStats,
   onResetDaily,
+  currentView = 'home',
+  onGoHome,
 }) => {
   const currentAnime = ANIMES_CONFIG[currentAnimeSlug] || ANIMES_CONFIG['demon-slayer'];
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -56,9 +60,13 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header className="sticky top-0 z-40 bg-[#0d1426]/90 backdrop-blur-xl border-b border-[#202b43]">
       <div className="max-w-[1440px] w-[calc(100%-32px)] sm:w-[calc(100%-48px)] mx-auto h-16 flex items-center justify-between">
         
-        {/* Lado Esquerdo: Logo & Anime Selector */}
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2.5 cursor-pointer select-none">
+        {/* Lado Esquerdo: Logo & Navegação */}
+        <div className="flex items-center gap-3 sm:gap-4">
+          <div
+            onClick={onGoHome}
+            className="flex items-center gap-2.5 cursor-pointer select-none"
+            title="Ir para o Início"
+          >
             <div className="relative w-9 h-9 flex items-center justify-center flex-shrink-0">
               <AnimatePresence mode="wait">
                 <motion.img
@@ -87,10 +95,44 @@ export const Navbar: React.FC<NavbarProps> = ({
             </h1>
           </div>
 
-          <div className="h-5 w-[1px] bg-[#202b43] hidden sm:block" />
+          {/* Botão Início */}
+          <button
+            onClick={onGoHome}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all shadow-sm active:scale-95 ${
+              currentView === 'home'
+                ? 'bg-indigo-600 text-white shadow-indigo-600/30 border border-indigo-500'
+                : 'bg-[#111a2d] hover:bg-[#16223b] border border-[#202b43] text-slate-300 hover:text-white'
+            }`}
+          >
+            <Home size={14} />
+            <span>Início</span>
+          </button>
 
-          {/* Selector de Anime Robusto (Clique em vez de Hover Frágil) */}
-          <div className="relative" ref={dropdownRef}>
+          {/* Na Home: exibe links rápidos no desktop */}
+          {currentView === 'home' ? (
+            <div className="hidden md:flex items-center gap-1.5 text-xs font-semibold text-slate-400">
+              <button
+                onClick={onOpenHowToPlay}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl hover:text-white hover:bg-[#111a2d] transition-all"
+              >
+                <HelpCircle size={14} className="text-slate-500" />
+                <span>Como jogar</span>
+              </button>
+              <button
+                onClick={onOpenStats}
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl hover:text-white hover:bg-[#111a2d] transition-all"
+              >
+                <BarChart2 size={14} className="text-slate-500" />
+                <span>Estatísticas</span>
+              </button>
+            </div>
+          ) : (
+            /* Em Partida: exibe o separador e o seletor dropdown de animes */
+            <>
+              <div className="h-5 w-[1px] bg-[#202b43] hidden sm:block" />
+
+              {/* Selector de Anime Robusto */}
+              <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setIsDropdownOpen((prev) => !prev)}
               className="flex items-center gap-2 bg-[#111a2d] hover:bg-[#16223b] border border-[#202b43] hover:border-slate-600 rounded-xl px-3 py-1.5 text-xs font-semibold text-slate-200 transition-all shadow-sm active:scale-95"
@@ -162,6 +204,8 @@ export const Navbar: React.FC<NavbarProps> = ({
               </div>
             )}
           </div>
+        </>
+      )}
         </div>
 
         {/* Lado Direito: Ações */}

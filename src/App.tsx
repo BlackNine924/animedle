@@ -9,6 +9,8 @@ import { HowToPlayModal } from './components/HowToPlayModal';
 import { StatsModal } from './components/StatsModal';
 import { HintBox } from './components/HintBox';
 import { MangaCoverageModal } from './components/MangaCoverageModal';
+import { Breadcrumb } from './components/Breadcrumb';
+import { HomePage } from './components/home/HomePage';
 
 import { ANIMES_CONFIG } from './data/animes/config';
 import demonSlayerCharacters from './data/animes/demon-slayer/characters.json';
@@ -25,8 +27,35 @@ import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
 
 export const App: React.FC = () => {
-  const [currentAnimeSlug, setCurrentAnimeSlug] = useState<string>('demon-slayer');
-  const [currentMode, setCurrentMode] = useState<GameMode>('classic');
+  const [currentView, setCurrentView] = useState<'home' | 'game'>('home');
+  const [currentAnimeSlug, setCurrentAnimeSlug] = useState<string>(() => {
+    try {
+      const saved = localStorage.getItem('animedle_last_anime_slug');
+      if (saved && ANIMES_CONFIG[saved]) return saved;
+    } catch {
+      // ignore
+    }
+    return 'demon-slayer';
+  });
+  const [currentMode, setCurrentMode] = useState<GameMode>(() => {
+    try {
+      const saved = localStorage.getItem('animedle_last_game_mode') as GameMode;
+      if (saved) return saved;
+    } catch {
+      // ignore
+    }
+    return 'classic';
+  });
+
+  // Salva o último anime e modo jogados
+  useEffect(() => {
+    try {
+      localStorage.setItem('animedle_last_anime_slug', currentAnimeSlug);
+      localStorage.setItem('animedle_last_game_mode', currentMode);
+    } catch {
+      // ignore
+    }
+  }, [currentAnimeSlug, currentMode]);
 
   // Seleciona dinamicamente a lista de personagens com base no anime selecionado e ordena em ordem alfabética (A-Z)
   const rawCharacters = (currentAnimeSlug === 'jujutsu-kaisen'
@@ -554,7 +583,9 @@ export const App: React.FC = () => {
       <div 
         className="fixed inset-0 pointer-events-none z-0"
         style={{
-          background: `radial-gradient(circle at 50% 0%, ${animeConfig.themeColor}15, transparent 50%)`,
+          background: currentView === 'home'
+            ? 'radial-gradient(circle at 50% 0%, rgba(99, 102, 241, 0.12), transparent 50%)'
+            : `radial-gradient(circle at 50% 0%, ${animeConfig.themeColor}15, transparent 50%)`,
         }}
       />
       
@@ -565,10 +596,28 @@ export const App: React.FC = () => {
         onOpenHowToPlay={() => setShowHowToPlay(true)}
         onOpenStats={() => setShowStats(true)}
         onResetDaily={handleResetDaily}
+        currentView={currentView}
+        onGoHome={() => setCurrentView('home')}
       />
 
-      {/* Conteúdo Principal — Largura Otimizada (max-w-[1440px]) */}
-      <main className="flex-1 max-w-[1440px] w-[calc(100%-32px)] sm:w-[calc(100%-48px)] mx-auto py-8 pb-36 z-10">
+      {currentView === 'home' ? (
+        <HomePage
+          onSelectAnime={(slug, mode) => {
+            setCurrentAnimeSlug(slug);
+            if (mode) setCurrentMode(mode as GameMode);
+            setCurrentView('game');
+            setShowVictoryModal(false);
+          }}
+        />
+      ) : (
+        <>
+          <Breadcrumb
+            animeTitle={animeConfig.title}
+            onGoHome={() => setCurrentView('home')}
+          />
+
+          {/* Conteúdo Principal — Largura Otimizada (max-w-[1440px]) */}
+          <main className="flex-1 max-w-[1440px] w-[calc(100%-32px)] sm:w-[calc(100%-48px)] mx-auto py-6 pb-36 z-10">
         
         {/* Hero Header sem o texto "Desafio Diário #" */}
         <div className="text-center my-4">
@@ -854,10 +903,18 @@ export const App: React.FC = () => {
         )}
 
       </main>
+        </>
+      )}
 
-      {/* Footer */}
-      <footer className="border-t border-[#202b43]/60 py-6 text-center text-xs text-slate-500 relative z-0">
-        <p>AnimeDLE © 2026 • Feito por Reskalla</p>
+      {/* Footer Padronizado */}
+      <footer className="w-full border-t border-[#202b43] py-6 px-4 bg-[#090d16] text-xs text-slate-500 relative z-10">
+        <div className="max-w-[1440px] w-[calc(100%-32px)] sm:w-[calc(100%-48px)] mx-auto flex items-center justify-between">
+          <p>AnimeDLE © 2026 • Feito por Reskalla</p>
+          <p className="flex items-center gap-1 text-slate-400">
+            <span>Mais animes em breve</span>
+            <span className="text-red-500">♡</span>
+          </p>
+        </div>
       </footer>
 
       {/* Modais */}
