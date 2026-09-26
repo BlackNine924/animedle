@@ -23,6 +23,7 @@ import dragonBallCharacters from './data/animes/dragon-ball/characters.json';
 import jojosBizarreAdventureCharacters from './data/animes/jojos-bizarre-adventure/characters.json';
 import dandadanCharacters from './data/animes/dandadan/characters.json';
 import tenseiShitaraSlimeCharacters from './data/animes/tensei-shitara-slime-datta-ken/characters.json';
+import attackOnTitanCharacters from './data/animes/attack-on-titan/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -54,6 +55,8 @@ export const App: React.FC = () => {
     ? dandadanCharacters
     : currentAnimeSlug === 'tensei-shitara-slime-datta-ken'
     ? tenseiShitaraSlimeCharacters
+    : currentAnimeSlug === 'attack-on-titan'
+    ? attackOnTitanCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -243,6 +246,29 @@ export const App: React.FC = () => {
 
             items.push({
               id: `${c.id}-tensura-skill-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: badgeTitle,
+              text: tech,
+            });
+          }
+        });
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'attack-on-titan') {
+      characters.forEach((c) => {
+        const techList = (c.techniques && c.techniques.length > 0) ? c.techniques : (c.styleOrPower ? [c.styleOrPower] : []);
+        techList.forEach((tech, idx) => {
+          if (tech && tech !== 'Nenhum' && tech !== 'Nenhuma') {
+            const isTitan = tech.includes('Titã') || tech.includes('Estrondo') || tech.includes('Coordenada') || tech.includes('Fundador') || tech.includes('Ackerman');
+            const badgeTitle = isTitan
+              ? 'Poder de Titã / Linhagem Especial'
+              : 'Técnica / Especialidade Militar';
+
+            items.push({
+              id: `${c.id}-aot-titan-${idx}`,
               character: c,
               abilityType: 'technique',
               title: badgeTitle,

@@ -5,11 +5,39 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'attack-on-titan',
     title: 'Attack On Titan',
     subtitle: 'Hajime Isayama',
-    themeColor: '#4b5563',
-    accentColor: '#374151',
+    themeColor: '#1E3A2F',
+    accentColor: '#14532D',
     banner: '⚔️',
-    columns: [],
-    arcs: []
+    logo: '/logo-attack-on-titan.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Divisão', type: 'array' },
+      { key: 'origin', label: 'Origem', type: 'exact' },
+      { key: 'rank', label: 'Posto / Função', type: 'exact' },
+      { key: 'styleOrPower', label: 'Poder de Titã / Habilidade', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Queda de Shiganshina',
+      '104º Corpo de Recrutas',
+      'Batalha pelo Distrito de Trost',
+      '57ª Expedição & Titã Fêmea',
+      'Confronto dos Titãs & Castelo de Utgard',
+      'Arco da Insurreição',
+      'Retorno a Shiganshina',
+      'Arco de Marley',
+      'Guerra por Paradis',
+      'O Estrondo & Batalha do Céu e da Terra'
+    ],
+    mangaCoverage: {
+      chapter: 139,
+      status: 'Finalizado',
+      source: 'Bessatsu Shōnen Magazine (Kodansha)',
+      officialPublisher: 'Kodansha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa de Hajime Isayama (Capítulos 1 ao 139, 34 volumes).'
+    }
   },
   'black-clover': {
     slug: 'black-clover',

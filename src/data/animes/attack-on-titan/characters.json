@@ -1,0 +1,2348 @@
+[
+  {
+    "id": "eren-jaeger",
+    "name": "Eren Jaeger",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas",
+      "Facção Jaegerista"
+    ],
+    "rank": "Soldado Especial",
+    "styleOrPower": "Titã de Ataque / Fundador / Martelo de Guerra",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Se não lutarmos, não podemos vencer. Lute! Lute!",
+    "techniques": [
+      "Poder do Titã Fundador",
+      "Endurecimento Estrutural",
+      "Iniciação do Estrondo"
+    ],
+    "avatar": "/avatars/attack-on-titan/eren-jaeger.png"
+  },
+  {
+    "id": "mikasa-ackerman",
+    "name": "Mikasa Ackerman",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Soldada de Elite",
+    "styleOrPower": "Despertar Ackerman & Lanças do Trovão",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Vivo",
+    "quote": "Este mundo é cruel... mas também é muito belo.",
+    "techniques": [
+      "Instinto Assassino Ackerman",
+      "Maestria com Lâminas Duplas",
+      "Disparo Preciso de Lança do Trovão"
+    ],
+    "avatar": "/avatars/attack-on-titan/mikasa-ackerman.png"
+  },
+  {
+    "id": "armin-arlert",
+    "name": "Armin Arlert",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Comandante (15º)",
+    "styleOrPower": "Titã Colossal & Estrategista Mestre",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Vivo",
+    "quote": "Alguém que não pode sacrificar nada, não pode mudar nada!",
+    "techniques": [
+      "Transformação Explosiva Nuclear",
+      "Emissão de Vapor Superaquecido",
+      "Dedução Tática Brilhante"
+    ],
+    "avatar": "/avatars/attack-on-titan/armin-arlert.png"
+  },
+  {
+    "id": "jean-kirstein",
+    "name": "Jean Kirstein",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Líder de Esquadrão",
+    "styleOrPower": "Equipamento DMT & Comando de Campo",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Vivo",
+    "quote": "Eu só não quero que os ossos daqueles que morreram sem sentido me amaldiçoem.",
+    "techniques": [
+      "Manobra Aérea de Alta Precisão",
+      "Comando Tático de Esquadrão",
+      "Bombardeio com Lança do Trovão"
+    ],
+    "avatar": "/avatars/attack-on-titan/jean-kirstein.png"
+  },
+  {
+    "id": "sasha-braus",
+    "name": "Sasha Braus",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Soldada Veterana",
+    "styleOrPower": "Atiradora de Elite & Sentidos Aguçados",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Você gostaria de metade dessa batata?",
+    "techniques": [
+      "Tiroteio de Longo Alcance com Rifle",
+      "Audição e Rastreamento Selvagem",
+      "Tiro de Lança do Trovão"
+    ],
+    "avatar": "/avatars/attack-on-titan/sasha-braus.png"
+  },
+  {
+    "id": "connie-springer",
+    "name": "Connie Springer",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Soldado Veterano",
+    "styleOrPower": "Equipamento DMT de Alta Velocidade",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Vivo",
+    "quote": "Eu vou salvar a minha mãe, não importa o que aconteça!",
+    "techniques": [
+      "Acrobacia Veloz de DMT",
+      "Corte Preciso de Nuca",
+      "Investida com Lança do Trovão"
+    ],
+    "avatar": "/avatars/attack-on-titan/connie-springer.png"
+  },
+  {
+    "id": "historia-reiss",
+    "name": "Historia Reiss",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss",
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Monarca (Rainha)",
+    "styleOrPower": "Linhagem de Sangue Real & Liderança Soberana",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Vivo",
+    "quote": "Posso ser a inimiga da humanidade, mas serei a sua aliada, Eren!",
+    "techniques": [
+      "Golpe Fatal no Titã de Rod Reiss",
+      "Autoridade Soberana de Paradis",
+      "Memória Hereditária Real"
+    ],
+    "avatar": "/avatars/attack-on-titan/historia-reiss.png"
+  },
+  {
+    "id": "ymir-104",
+    "name": "Ymir (104ª)",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Recruta do 104º",
+    "styleOrPower": "Titã Mandíbula Ágil",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Viva sua vida de cabeça erguida, Historia!",
+    "techniques": [
+      "Mordida Esmagadora Ágil",
+      "Escalada Rápida em Torres",
+      "Combate Feroz em Florestas"
+    ],
+    "avatar": "/avatars/attack-on-titan/ymir-104.png"
+  },
+  {
+    "id": "marco-bott",
+    "name": "Marco Bott",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Recruta do 104º",
+    "styleOrPower": "Dedução Analítica & Liderança Compassiva",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Jean, você é um ótimo líder porque entende o medo das pessoas fracas.",
+    "techniques": [
+      "Análise Estratégica em Crise",
+      "Comando de Pelotão de Recrutas",
+      "Voo Coordenado de DMT"
+    ],
+    "avatar": "/avatars/attack-on-titan/marco-bott.png"
+  },
+  {
+    "id": "floch-forster",
+    "name": "Floch Forster",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Facção Jaegerista",
+      "Corpo de Exploração",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Líder Supremo dos Jaegeristas",
+    "styleOrPower": "Fanatismo Imperial & Pistolas Antipessoal",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "O demônio que precisamos para sobreviver é o Eren!",
+    "techniques": [
+      "Disparo de Pistolas Semiautomáticas",
+      "Liderança de Fanáticos Jaegeristas",
+      "Ataque Suicida com Lança do Trovão"
+    ],
+    "avatar": "/avatars/attack-on-titan/floch-forster.png"
+  },
+  {
+    "id": "thomas-wagner",
+    "name": "Thomas Wagner",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Recruta do 104º",
+    "styleOrPower": "Equipamento DMT Padrão",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Vamos recuperar o território da humanidade juntos!",
+    "techniques": [
+      "Voo de Manobra Tridimensional",
+      "Ataque Frontal em Esquadrão",
+      "Corte com Lâminas de Aço Ultra-Duro"
+    ],
+    "avatar": "/avatars/attack-on-titan/thomas-wagner.png"
+  },
+  {
+    "id": "mina-carolina",
+    "name": "Mina Carolina",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Recruta do 104º",
+    "styleOrPower": "Equipamento DMT Padrão",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Não vou recuar quando meus companheiros estão na linha de frente!",
+    "techniques": [
+      "Manobra de Flanco Tridimensional",
+      "Corte Rápido de Tendão",
+      "Voo Urbano em Trost"
+    ],
+    "avatar": "/avatars/attack-on-titan/mina-carolina.png"
+  },
+  {
+    "id": "nac-tias",
+    "name": "Nac Tias",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Recruta do 104º",
+    "styleOrPower": "Equipamento DMT Padrão",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Protejam o flanco de Eren a todo custo!",
+    "techniques": [
+      "Voo de Apoio com DMT",
+      "Ataque Coordenado com Lâminas",
+      "Salto de Propulsão a Gás"
+    ],
+    "avatar": "/avatars/attack-on-titan/nac-tias.png"
+  },
+  {
+    "id": "mylius-zeramuski",
+    "name": "Mylius Zeramuski",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Recruta do 104º",
+    "styleOrPower": "Equipamento DMT Padrão",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Eles são rápidos demais, cuidado!",
+    "techniques": [
+      "Investida Aérea com Espadas",
+      "Disparo Duplo de Gancho",
+      "Manobra de Evasão em Telhados"
+    ],
+    "avatar": "/avatars/attack-on-titan/mylius-zeramuski.png"
+  },
+  {
+    "id": "samuel-linke-jackson",
+    "name": "Samuel Linke-Jackson",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Facção Jaegerista",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Soldado da Guarda",
+    "styleOrPower": "Armas de Fogo & Detonação de Explosivos",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Connie, Armin... vocês realmente estão nos traindo?!",
+    "techniques": [
+      "Desarme de Hidroavião com Dinamite",
+      "Tiro de Precisão com Pistola",
+      "Guarda Defensiva de Porto"
+    ],
+    "avatar": "/avatars/attack-on-titan/samuel-linke-jackson.png"
+  },
+  {
+    "id": "daz",
+    "name": "Daz",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Facção Jaegerista",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Soldado da Guarda",
+    "styleOrPower": "Detonação de Cargas Explosivas",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Falecido",
+    "quote": "Eu só queria sobreviver e proteger a nossa terra natal!",
+    "techniques": [
+      "Instalação de Cargas de Dinamite",
+      "Gatilho de Ignição à Distância",
+      "Defesa Armada do Porto"
+    ],
+    "avatar": "/avatars/attack-on-titan/daz.png"
+  },
+  {
+    "id": "louise",
+    "name": "Louise",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Facção Jaegerista",
+      "Corpo de Exploração"
+    ],
+    "rank": "Recruta Jaegerista",
+    "styleOrPower": "Equipamento DMT Moderno & Devoção Fanática",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "Desde o dia em que Mikasa me salvou, dediquei meu coração à força de Eren!",
+    "techniques": [
+      "Infiltração de Prisão Militar",
+      "Manobra Rápida com Lança do Trovão",
+      "Disparo Antipessoal"
+    ],
+    "avatar": "/avatars/attack-on-titan/louise.png"
+  },
+  {
+    "id": "surma",
+    "name": "Surma",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Facção Jaegerista",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Cadete de Nova Geração",
+    "styleOrPower": "Treinamento Militar de Recrutas",
+    "debutArc": "Guerra por Paradis",
+    "status": "Vivo",
+    "quote": "O Instrutor Shadis nos salvou quando fomos encurralados pelos titãs!",
+    "techniques": [
+      "Combate Básico com Lâminas",
+      "Comando de Novos Cadetes",
+      "Evacuação de Sobreviventes"
+    ],
+    "avatar": "/avatars/attack-on-titan/surma.png"
+  },
+  {
+    "id": "levi-ackerman",
+    "name": "Levi Ackerman",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Despertar Ackerman & Furacão de Lâminas",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Vivo",
+    "quote": "A única coisa que nos resta fazer é acreditar que não nos arrependeremos da escolha feita.",
+    "techniques": [
+      "Ataque Giratório Furacão de Aço",
+      "Retalhação Instantânea do Titã Bestial",
+      "Salto e Esquiva Sobre-humana"
+    ],
+    "avatar": "/avatars/attack-on-titan/levi-ackerman.png"
+  },
+  {
+    "id": "erwin-smith",
+    "name": "Erwin Smith",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Comandante (13º)",
+    "styleOrPower": "Estratégia Genial & Carga Suicida Inspiradora",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Meus soldados, enfureçam-se! Meus soldados, gritem! Meus soldados, lutem!",
+    "techniques": [
+      "Formação de Detecção de Batedores",
+      "Golpe de Estado Tático em Mitras",
+      "Investida Suicida dos Devotados"
+    ],
+    "avatar": "/avatars/attack-on-titan/erwin-smith.png"
+  },
+  {
+    "id": "hange-zoe",
+    "name": "Hange Zoë",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Comandante (14ª)",
+    "styleOrPower": "Ciência de Titãs & Sacrifício Flamejante",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Os Titãs realmente são extraordinários... Olhe como são magníficos!",
+    "techniques": [
+      "Criação da Arma Guilhotina de Titãs",
+      "Abate Múltiplo de Titãs Colossais no Ar",
+      "Disparo Duplo de Lança do Trovão"
+    ],
+    "avatar": "/avatars/attack-on-titan/hange-zoe.png"
+  },
+  {
+    "id": "mike-zacharias",
+    "name": "Mike Zacharias",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Líder de Esquadrão",
+    "styleOrPower": "Olfato Sobre-humano & Maestria com Lâminas",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "A humanidade só é derrotada no momento em que para de lutar.",
+    "techniques": [
+      "Detecção de Titãs pelo Faro a Quilômetros",
+      "Corte Quádruplo Simultâneo",
+      "Retalhação Solo contra Horda"
+    ],
+    "avatar": "/avatars/attack-on-titan/mike-zacharias.png"
+  },
+  {
+    "id": "moblit-berner",
+    "name": "Moblit Berner",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Vice-Líder de Esquadrão",
+    "styleOrPower": "Equipamento DMT & Suporte Técnico Fiel",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Comandante Hange, por favor, contenha o seu entusiasmo!",
+    "techniques": [
+      "Salvamento Heroico em Explosão Nuclear",
+      "Esboço Científico Rápido em Campo",
+      "Disparo Defensivo de Gancho"
+    ],
+    "avatar": "/avatars/attack-on-titan/moblit-berner.png"
+  },
+  {
+    "id": "nanaba",
+    "name": "Nanaba",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldada Veterana",
+    "styleOrPower": "Equipamento DMT de Precisão Acrobática",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Mantenham suas posições! Vamos segurar esta torre até o último suspiro!",
+    "techniques": [
+      "Defesa Noturna da Torre de Utgard",
+      "Corte Cirúrgico de Tendões de Aquiles",
+      "Voo Espiral com Lâminas Duplas"
+    ],
+    "avatar": "/avatars/attack-on-titan/nanaba.png"
+  },
+  {
+    "id": "gelgar",
+    "name": "Gelgar",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado Veterano",
+    "styleOrPower": "Equipamento DMT de Impacto Pesado",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Quem diabos esvaziou esta garrafa de bebida justo agora?!",
+    "techniques": [
+      "Abate Pesado com Lâminas de Aço",
+      "Manobra de Defesa Circular",
+      "Corte Descendente em Queda Livre"
+    ],
+    "avatar": "/avatars/attack-on-titan/gelgar.png"
+  },
+  {
+    "id": "lynne",
+    "name": "Lynne",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldada Veterana",
+    "styleOrPower": "Reconhecimento Tridimensional Rápido",
+    "debutArc": "Confronto dos Titãs & Castelo de Utgard",
+    "status": "Falecido",
+    "quote": "Titãs avistados vindo do sul! Nenhum buraco na muralha foi encontrado!",
+    "techniques": [
+      "Patrulha Noturna de Longo Alcance",
+      "Sinalização por Fumaça Colorida",
+      "Ataque Rápido com DMT"
+    ],
+    "avatar": "/avatars/attack-on-titan/lynne.png"
+  },
+  {
+    "id": "henning",
+    "name": "Henning",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado Veterano",
+    "styleOrPower": "Equipamento DMT de Patrulha",
+    "debutArc": "Confronto dos Titãs & Castelo de Utgard",
+    "status": "Falecido",
+    "quote": "Vamos nos unir ao esquadrão de Nanaba no castelo!",
+    "techniques": [
+      "Reconhecimento Aéreo de Perímetro",
+      "Disparo Rápido de Sinalizador",
+      "Voo Defensivo Tridimensional"
+    ],
+    "avatar": "/avatars/attack-on-titan/henning.png"
+  },
+  {
+    "id": "klaus",
+    "name": "Klaus",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado Veterano",
+    "styleOrPower": "Combate Aéreo com Lâminas",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "Avancem pelo distrito! Não deixem os titãs cercarem a muralha!",
+    "techniques": [
+      "Corte Aéreo Tridimensional",
+      "Combate Coordenado de Ruas",
+      "Apoio a Batedores"
+    ],
+    "avatar": "/avatars/attack-on-titan/klaus.png"
+  },
+  {
+    "id": "petra-ral",
+    "name": "Petra Ral",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldada de Elite (Esquadrão Levi)",
+    "styleOrPower": "Corte de Alta Frequência & Trabalho em Equipe",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Eren, confie em nós e no capitão Levi!",
+    "techniques": [
+      "Cegamento Ocular da Titã Fêmea",
+      "Coordenação Impecável de Ataque Triplo",
+      "Acrobacia na Floresta de Árvores Gigantes"
+    ],
+    "avatar": "/avatars/attack-on-titan/petra-ral.png"
+  },
+  {
+    "id": "oluo-bozado",
+    "name": "Oluo Bozado",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado de Elite (Esquadrão Levi)",
+    "styleOrPower": "Corte Brutal de Tendões (39 Abates Solo)",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "*morde a língua ao falar* Um recruta nunca entenderá a experiência de um verdadeiro veterano!",
+    "techniques": [
+      "Amputação Instantânea de Braços de Titã",
+      "Voo Rasante Agressivo",
+      "Corte Profundo de Nuca"
+    ],
+    "avatar": "/avatars/attack-on-titan/oluo-bozado.png"
+  },
+  {
+    "id": "eld-jinn",
+    "name": "Eld Jinn",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Vice-Líder de Esquadrão",
+    "styleOrPower": "Liderança Tática em Campo (Esquadrão Levi)",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Nossa missão é proteger o Eren, mesmo que custe a nossa própria carne!",
+    "techniques": [
+      "Comando Operacional de Retaguarda",
+      "Corte Sincronizado de Nuca",
+      "Manobra de Pinça Aérea"
+    ],
+    "avatar": "/avatars/attack-on-titan/eld-jinn.png"
+  },
+  {
+    "id": "gunther-schultz",
+    "name": "Gunther Schultz",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado de Elite (Esquadrão Levi)",
+    "styleOrPower": "Defesa Perimetral & Reconhecimento Aéreo",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Quem vem lá?! Identifique-se com o sinal sonoro!",
+    "techniques": [
+      "Voo de Escolta em Formação",
+      "Ataque Rápido de Lâmina Dupla",
+      "Alerta de Fumaça Verde"
+    ],
+    "avatar": "/avatars/attack-on-titan/gunther-schultz.png"
+  },
+  {
+    "id": "ilse-langnar",
+    "name": "Ilse Langnar",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Batedora Veterana",
+    "styleOrPower": "Registro Científico de Campo & Coragem Investigativa",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "O Titã curvou-se diante de mim e disse: 'Povo de Ymir... Lady Ymir...'",
+    "techniques": [
+      "Documentação Anatômica de Titãs",
+      "Evasão Terrestre Sem Gás",
+      "Escrita Rápida em Caderno de Campo"
+    ],
+    "avatar": "/avatars/attack-on-titan/ilse-langnar.png"
+  },
+  {
+    "id": "keith-shadis",
+    "name": "Keith Shadis",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "104º Corpo de Recrutas",
+      "Corpo de Exploração"
+    ],
+    "rank": "Instrutor-Chefe / Ex-Comandante (12º)",
+    "styleOrPower": "Treinamento Rígido de Cadetes & Autodestruição Heroica",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Eu nunca fui um homem especial... mas vi aqueles que eram nascerem e brilharem.",
+    "techniques": [
+      "Detonação Heroica de Trem de Munições",
+      "Treinamento Psicológico Marcial",
+      "Combate Tático com Lanças do Trovão"
+    ],
+    "avatar": "/avatars/attack-on-titan/keith-shadis.png"
+  },
+  {
+    "id": "nifa",
+    "name": "Nifa",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldada de Confiança (Esquadrão Hange)",
+    "styleOrPower": "Comunicação de Alta Prioridade & Vigilância em Telhados",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Capitão Levi, o Comandante Erwin enviou uma mensagem urgente sobre a Polícia Militar!",
+    "techniques": [
+      "Transmissão Secreta de Ordens",
+      "Voo Silencioso de Telhado",
+      "Manobra de Escolta Urbana"
+    ],
+    "avatar": "/avatars/attack-on-titan/nifa.png"
+  },
+  {
+    "id": "keiji",
+    "name": "Keiji",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado Veterano (Esquadrão Hange)",
+    "styleOrPower": "Equipamento DMT & Guarda Armada de Carruagem",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Estamos cercados nos telhados! Cuidado com os disparos!",
+    "techniques": [
+      "Guarda Armada de Comboio",
+      "Disparo Rápido de Pistola",
+      "Combate Tridimensional Urbano"
+    ],
+    "avatar": "/avatars/attack-on-titan/keiji.png"
+  },
+  {
+    "id": "abel",
+    "name": "Abel",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado Veterano (Esquadrão Hange)",
+    "styleOrPower": "Vigilância com Óculos de Proteção & DMT",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "A carruagem com Eren e Historia está partindo pelo beco leste!",
+    "techniques": [
+      "Vigilância Aérea com Binóculos",
+      "Perseguição de Carruagens",
+      "Ataque com Lâminas de Aço"
+    ],
+    "avatar": "/avatars/attack-on-titan/abel.png"
+  },
+  {
+    "id": "dirk",
+    "name": "Dirk",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Líder de Esquadrão",
+    "styleOrPower": "Comando de Linha de Frente em Shiganshina",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "Esquadrão Dirk, formem barreira de proteção aos cavalos!",
+    "techniques": [
+      "Defesa de Base com Lanças do Trovão",
+      "Formação de Cerco Tridimensional",
+      "Combate Contra Titãs Menores"
+    ],
+    "avatar": "/avatars/attack-on-titan/dirk.png"
+  },
+  {
+    "id": "marlene",
+    "name": "Marlene",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Líder de Esquadrão",
+    "styleOrPower": "Estratégia de Retaguarda em Shiganshina",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "A tempestade de rochas está vindo em nossa direção! Protejam-se!",
+    "techniques": [
+      "Comando Rápido de Retirada",
+      "Manobra de Cobertura com DMT",
+      "Ataque Rápido a Nucas de Titãs"
+    ],
+    "avatar": "/avatars/attack-on-titan/marlene.png"
+  },
+  {
+    "id": "varis",
+    "name": "Varis",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração"
+    ],
+    "rank": "Soldado Veterano",
+    "styleOrPower": "Vigilância Florestal & Transformação Involuntária",
+    "debutArc": "Guerra por Paradis",
+    "status": "Falecido",
+    "quote": "Capitão Levi, o prisioneiro Zeke está comportado... nada fora do comum.",
+    "techniques": [
+      "Voo Entre Árvores Gigantes",
+      "Vigilância Armada de Prisioneiro",
+      "Ataque Titânico Descontrolado"
+    ],
+    "avatar": "/avatars/attack-on-titan/varis.png"
+  },
+  {
+    "id": "dot-pyxis",
+    "name": "Dot Pyxis",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Comandante Supremo do Sul",
+    "styleOrPower": "Estratégia Militar Magnífica & Jogo de Xadrez Bélico",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "Se um inimigo comum poderoso aparecer, a humanidade parará de lutar entre si?",
+    "techniques": [
+      "Operação de Selamento do Portão de Trost",
+      "Artilharia Pesada Coordenada",
+      "Bebedor Resiliente de Álcool"
+    ],
+    "avatar": "/avatars/attack-on-titan/dot-pyxis.png"
+  },
+  {
+    "id": "hannes",
+    "name": "Hannes",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Capitão de Seção",
+    "styleOrPower": "DMT da Guarnição & Amor Protetor Paternal",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Vou retalhar esse titã e vingar a sua mãe, Eren!",
+    "techniques": [
+      "Investida com Lâminas Contra o Titã Sorridente",
+      "Resgate Veloz a Cavalo",
+      "Disparo Preciso de Gancho"
+    ],
+    "avatar": "/avatars/attack-on-titan/hannes.png"
+  },
+  {
+    "id": "ian-dietrich",
+    "name": "Ian Dietrich",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Líder de Esquadrão de Elite",
+    "styleOrPower": "Comando Resoluto em Crise Extrema",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "Mesmo que morramos cem soldados, devemos proteger o Eren para garantir o futuro da humanidade!",
+    "techniques": [
+      "Comando da Tropa de Elite de Trost",
+      "Resgate Heroico da Boca de Titã",
+      "Corte Decisivo de Tendões"
+    ],
+    "avatar": "/avatars/attack-on-titan/ian-dietrich.png"
+  },
+  {
+    "id": "rico-brzenska",
+    "name": "Rico Brzenska",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Líder de Esquadrão de Elite",
+    "styleOrPower": "Técnica Rigorosa de DMT & Tiro com Lança-Sinalizador",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Vivo",
+    "quote": "A morte de todos vocês... não foi em vão!",
+    "techniques": [
+      "Disparo do Sinalizador Amarelo da Vitória",
+      "Corte Preciso de Olhos de Titã",
+      "Coordenação Defensiva da Muralha Rose"
+    ],
+    "avatar": "/avatars/attack-on-titan/rico-brzenska.png"
+  },
+  {
+    "id": "mitabi-jarnach",
+    "name": "Mitabi Jarnach",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Líder de Esquadrão de Elite",
+    "styleOrPower": "Isca Humana em Solo & Sacrifício Heroico",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "Ei, seus monstros comedores de gente! Olhem para cá, eu sou a presa de vocês!",
+    "techniques": [
+      "Distração Terrestre Sem Suporte de Prédios",
+      "Corte com Espadas em Solo Aberto",
+      "Sacrifício por Trost"
+    ],
+    "avatar": "/avatars/attack-on-titan/mitabi-jarnach.png"
+  },
+  {
+    "id": "kitz-weilman",
+    "name": "Kitz Weilman",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Capitão",
+    "styleOrPower": "Bombardeio de Artilharia Fixa das Muralhas",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Vivo",
+    "quote": "O que você é?! Um humano ou um monstro demoníaco?!",
+    "techniques": [
+      "Ordem de Disparo Concentrado de Canhões",
+      "Defesa da Linha de Frente da Muralha Rose",
+      "Retirada Estratégica em Pânico"
+    ],
+    "avatar": "/avatars/attack-on-titan/kitz-weilman.png"
+  },
+  {
+    "id": "anka-rheinberger",
+    "name": "Anka Rheinberger",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Assessora Militar de Pyxis",
+    "styleOrPower": "Logística e Comunicação Tática",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Vivo",
+    "quote": "Comandante Pyxis, acorde! Você bebeu demais bem no meio do conselho!",
+    "techniques": [
+      "Mapeamento Topográfico de Batalha",
+      "Coordenação de Relatórios de Mensageiros",
+      "Gestão de Tropas da Guarnição"
+    ],
+    "avatar": "/avatars/attack-on-titan/anka-rheinberger.png"
+  },
+  {
+    "id": "gustav",
+    "name": "Gustav",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Regimento da Guarnição"
+    ],
+    "rank": "Oficial da Guarnição",
+    "styleOrPower": "Assessor de Defesa de Muralhas",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "As tropas nas muralhas estão aguardando o seu sinal verde, senhor.",
+    "techniques": [
+      "Transmissão de Sinais de Canhão",
+      "Manobra de Escolta de Estado-Maior",
+      "Análise de Abastecimento de Gás"
+    ],
+    "avatar": "/avatars/attack-on-titan/gustav.png"
+  },
+  {
+    "id": "lobov",
+    "name": "Lobov",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "Regimento da Guarnição"
+    ],
+    "rank": "Ex-Comandante da Guarnição",
+    "styleOrPower": "Equipamento DMT Moderno & Condução de Dirigível",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "Recrutas, apressem-se para o dirigível! Nossa missão em Liberio está quase completa!",
+    "techniques": [
+      "Guarda da Escada de Embarque Aéreo",
+      "Voo com DMT Pesado",
+      "Tiro de Fuzil Militar"
+    ],
+    "avatar": "/avatars/attack-on-titan/lobov.png"
+  },
+  {
+    "id": "darius-zackly",
+    "name": "Darius Zackly",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Comandante-em-Chefe Supremo",
+    "styleOrPower": "Julgamento Marcial Supremo & Dispositivo Torturador 'Obra de Arte'",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "A corte militar decidirá o destino de Eren Jaeger com base no melhor interesse da humanidade.",
+    "techniques": [
+      "Sentença Marcial Absoluta",
+      "Comando Supremo das Três Divisões",
+      "Criação da Cadeira Mecânica de Tortura"
+    ],
+    "avatar": "/avatars/attack-on-titan/darius-zackly.png"
+  },
+  {
+    "id": "nile-dok",
+    "name": "Nile Dok",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Comandante-Geral da Polícia Militar",
+    "styleOrPower": "Administração do Interior & Defesa da Ordem Civil",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Falecido",
+    "quote": "Erwin... eu escolhi Marie e a vida segura no interior, mas nunca esqueci nosso sonho.",
+    "techniques": [
+      "Comando da Força Policial de Mitras",
+      "Investigação Forense Interna",
+      "Defesa da Família com Espingarda"
+    ],
+    "avatar": "/avatars/attack-on-titan/nile-dok.png"
+  },
+  {
+    "id": "kenny-ackerman",
+    "name": "Kenny Ackerman",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Capitão do Esquadrão Antipessoal",
+    "styleOrPower": "Despertar Ackerman & DMT com Pistolas Duplas",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Todo mundo precisa estar bêbado de alguma coisa para continuar em frente... Todos eram escravos de algo.",
+    "techniques": [
+      "Tiroteio Aéreo Tridimensional com Pistolas Antipessoal",
+      "Lâminas Ocultas de Garganta",
+      "Emboscada Urbana Fatal"
+    ],
+    "avatar": "/avatars/attack-on-titan/kenny-ackerman.png"
+  },
+  {
+    "id": "traute-caven",
+    "name": "Traute Caven",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Vice-Comandante Antipessoal",
+    "styleOrPower": "DMT Antipessoal & Tiro de Escopeta",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Capitão Kenny, nós acreditamos no mundo que você prometeu que veríamos!",
+    "techniques": [
+      "Disparo de Discos Antipessoal",
+      "Manobra de Gancho Invertido",
+      "Emboscada em Cavernas Subterrâneas"
+    ],
+    "avatar": "/avatars/attack-on-titan/traute-caven.png"
+  },
+  {
+    "id": "marlo-freudenberg",
+    "name": "Marlo Freudenberg",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Corpo de Exploração",
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Soldado Idealista",
+    "styleOrPower": "Honestidade Inabalável & Carga Suicida",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Eu entrei para a Polícia Militar para consertar a podridão deste sistema corrupto!",
+    "techniques": [
+      "Corte Aéreo de Espadas",
+      "Carga Heroica em Shiganshina",
+      "Combate Urbano Contra Policiais Corruptos"
+    ],
+    "avatar": "/avatars/attack-on-titan/marlo-freudenberg.png"
+  },
+  {
+    "id": "hitch-dreyse",
+    "name": "Hitch Dreyse",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Soldada da Polícia Militar",
+    "styleOrPower": "Vigilância de Prisão Subterrânea & Fuzil Militar",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Annie... foram quatro anos conversando com um casulo de cristal, e você ainda não mudou nada.",
+    "techniques": [
+      "Vigilância Armada em Stohess",
+      "Escolta a Cavalo",
+      "Tiroteio Policial Urbano"
+    ],
+    "avatar": "/avatars/attack-on-titan/hitch-dreyse.png"
+  },
+  {
+    "id": "boris-feulner",
+    "name": "Boris Feulner",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Soldado da Polícia Militar",
+    "styleOrPower": "Patrulha Urbana de Stohess",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Marlo, você é muito ingênuo se acha que pode derrotar a corrupção desse jeito.",
+    "techniques": [
+      "Patrulha Perimetral da Capital",
+      "Tiro de Fuzil Padrão",
+      "Controle de Multidões"
+    ],
+    "avatar": "/avatars/attack-on-titan/boris-feulner.png"
+  },
+  {
+    "id": "roeg",
+    "name": "Roeg",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Comandante de Divisão",
+    "styleOrPower": "Conspiração Política & Vinho de Marley",
+    "debutArc": "Guerra por Paradis",
+    "status": "Falecido",
+    "quote": "Devíamos alimentar a Rainha Historia com o Titã Bestial agora mesmo!",
+    "techniques": [
+      "Interrogatório Militar Severo",
+      "Comando Policial em Mitras",
+      "Transformação em Titã Puro"
+    ],
+    "avatar": "/avatars/attack-on-titan/roeg.png"
+  },
+  {
+    "id": "djel-sannes",
+    "name": "Djel Sannes",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Líder do 1º Esquadrão do Interior",
+    "styleOrPower": "Tortura Brutal & Proteção Fanática do Rei Falso",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Alguém precisava sujar as mãos para manter a paz dentro destas muralhas!",
+    "techniques": [
+      "Arrancamento de Unhas e Dentes em Interrogatório",
+      "Ocultação de Homicídios de Estado",
+      "Lealdade Cega à Coroa"
+    ],
+    "avatar": "/avatars/attack-on-titan/djel-sannes.png"
+  },
+  {
+    "id": "ralph",
+    "name": "Ralph",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Soldado do 1º Esquadrão",
+    "styleOrPower": "Vigilância Política & Ocultação de Segredos",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Sannes falou tudo! Por favor, não me matem!",
+    "techniques": [
+      "Interrogatório Forçado de Cidadãos",
+      "Ocultação de Provas da Coroa",
+      "Vigilância da Polícia Secreta"
+    ],
+    "avatar": "/avatars/attack-on-titan/ralph.png"
+  },
+  {
+    "id": "dennis-aiblinger",
+    "name": "Dennis Aiblinger",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Comandante de Distrito (Stohess)",
+    "styleOrPower": "Administração Policial de Stohess",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Mantenham a ordem pública no distrito e não se metam em confusão desnecessária.",
+    "techniques": [
+      "Administração da Polícia de Stohess",
+      "Controle de Tráfego de Muralha",
+      "Supervisão de Cadetes"
+    ],
+    "avatar": "/avatars/attack-on-titan/dennis-aiblinger.png"
+  },
+  {
+    "id": "rod-reiss",
+    "name": "Rod Reiss",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Lorde das Sombras / Monarca Oculto",
+    "styleOrPower": "Titã Rastejante Anômalo (120 Metros) & Sangue Real",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Historia, você deve devorar Eren e se tornar Deus para guiar este mundo!",
+    "techniques": [
+      "Titã Gigantesco de Fogo e Vapor (120m)",
+      "Arrasto Devastador de Solo",
+      "Manipulação Genealógica Real"
+    ],
+    "avatar": "/avatars/attack-on-titan/rod-reiss.png"
+  },
+  {
+    "id": "frieda-reiss",
+    "name": "Frieda Reiss",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Portadora do Fundador / Rainha Verdadeira",
+    "styleOrPower": "Titã Fundador & Apagamento de Memória",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Nós, eldianos, somos pecadores que destruíram o mundo... devemos aceitar a retaliação.",
+    "techniques": [
+      "Manipulação Cerebral e Apagamento de Memória",
+      "Juramento de Renúncia à Guerra",
+      "Combate Feroz de Titã Fundador"
+    ],
+    "avatar": "/avatars/attack-on-titan/frieda-reiss.png"
+  },
+  {
+    "id": "uri-reiss",
+    "name": "Uri Reiss",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Portador do Fundador / Rei Verdadeiro",
+    "styleOrPower": "Titã Fundador & Empatia Pacifista Divina",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Kenny... eu acredito que neste mundo violento, nosso encontro foi um verdadeiro milagre.",
+    "techniques": [
+      "Manifestação Parcial do Esqueleto do Fundador",
+      "Captura Telecinética Titânica",
+      "Transmissão Hereditária Pacifista"
+    ],
+    "avatar": "/avatars/attack-on-titan/uri-reiss.png"
+  },
+  {
+    "id": "rei-fritz-fantoche",
+    "name": "Rei Fritz Fantoche",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Falso Monarca de Fachada",
+    "styleOrPower": "Dorminhoco Imperial no Trono de Mitras",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Já está na hora de almoçar?",
+    "techniques": [
+      "Fingimento de Demência Régia",
+      "Postura de Monarca Silencioso",
+      "Sobrevivência ao Golpe de Estado"
+    ],
+    "avatar": "/avatars/attack-on-titan/rei-fritz-fantoche.png"
+  },
+  {
+    "id": "alma",
+    "name": "Alma",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Criada da Mansão Reiss",
+    "styleOrPower": "Mãe Rejeitada de Historia",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Se você nunca tivesse nascido... eu seria tão feliz!",
+    "techniques": [
+      "Leitura Solitária em Carruagem",
+      "Rejeição Afetiva Materna",
+      "Convivência no Campo"
+    ],
+    "avatar": "/avatars/attack-on-titan/alma.png"
+  },
+  {
+    "id": "dirk-reiss",
+    "name": "Dirk Reiss",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Príncipe Herdeiro Reiss",
+    "styleOrPower": "Linhagem de Sangue Real",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Papai, quem é aquele homem estranho com olhos vermelhos na capela?!",
+    "techniques": [
+      "Oração Familiar na Capela Subterrânea",
+      "Herança Genética Real",
+      "Fuga Desesperada em Pânico"
+    ],
+    "avatar": "/avatars/attack-on-titan/dirk-reiss.png"
+  },
+  {
+    "id": "deltoff",
+    "name": "Deltoff",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Governo Real / Família Reiss"
+    ],
+    "rank": "Nobre Conselheiro de Mitras",
+    "styleOrPower": "Aristocracia Imune ao Apagamento de Memória",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Vocês, escravos de sangue eldiano, jamais entenderão a nobreza de nossos privilégios!",
+    "techniques": [
+      "Conspiração Política Oligárquica",
+      "Suborno de Oficiais de Mitras",
+      "Imunidade Mental à Coordenada"
+    ],
+    "avatar": "/avatars/attack-on-titan/deltoff.png"
+  },
+  {
+    "id": "grisha-jaeger",
+    "name": "Grisha Jaeger",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Governo Real / Família Reiss",
+      "Civis de Paradis"
+    ],
+    "rank": "Médico Cirurgião / Restaurador de Eldia",
+    "styleOrPower": "Titã de Ataque & Roubo do Titã Fundador",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Eren, você precisa se lembrar da chave do porão! Nossas memórias nos guiarão!",
+    "techniques": [
+      "Massacre da Família Reiss na Capela",
+      "Injeção de Fluido Espinhal Titânico",
+      "Cura da Peste Negra de Shiganshina"
+    ],
+    "avatar": "/avatars/attack-on-titan/grisha-jaeger.png"
+  },
+  {
+    "id": "carla-jaeger",
+    "name": "Carla Jaeger",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Civil de Shiganshina",
+    "styleOrPower": "Amor Maternal Incondicional",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Eren não precisa ser especial... Ele já é maravilhoso só por ter nascido neste mundo.",
+    "techniques": [
+      "Proteção dos Filhos sob os Escombros",
+      "Sacrifício Maternal Supremo",
+      "Palavras de Amor Eterno"
+    ],
+    "avatar": "/avatars/attack-on-titan/carla-jaeger.png"
+  },
+  {
+    "id": "pastor-nick",
+    "name": "Pastor Nick",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Líder da Ordem das Muralhas",
+    "styleOrPower": "Fé Cega Inabalável & Silêncio sob Tortura de Morte",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "Nunca deixem a luz do sol tocar no Titã dentro da muralha!",
+    "techniques": [
+      "Pregação Fanática Religiosa",
+      "Resistência Extrema a Tortura Mortal",
+      "Proteção do Segredo de Historia"
+    ],
+    "avatar": "/avatars/attack-on-titan/pastor-nick.png"
+  },
+  {
+    "id": "dimo-reeves",
+    "name": "Dimo Reeves",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Presidente da Companhia Reeves",
+    "styleOrPower": "Negociação Mercantil & Coragem Cívica",
+    "debutArc": "Batalha pelo Distrito de Trost",
+    "status": "Falecido",
+    "quote": "Um comerciante precisa farejar onde está o verdadeiro futuro de sua cidade!",
+    "techniques": [
+      "Financiamento Logístico Secreto do Corpo de Exploração",
+      "Bloqueio de Portões Mercantis em Trost",
+      "Acordo Secreto com Erwin"
+    ],
+    "avatar": "/avatars/attack-on-titan/dimo-reeves.png"
+  },
+  {
+    "id": "flegel-reeves",
+    "name": "Flegel Reeves",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Presidente Mercantil Sucessor",
+    "styleOrPower": "Liderança Popular de Trost & Desmascaramento Policial",
+    "debutArc": "Arco da Insurreição",
+    "status": "Vivo",
+    "quote": "Eu sou Flegel Reeves! O novo presidente que protegerá todos os cidadãos de Trost!",
+    "techniques": [
+      "Armadilha Vocal no Telhado Contra a Polícia Militar",
+      "Discurso Inspirador aos Cidadãos",
+      "Gestão de Abastecimento Comercial"
+    ],
+    "avatar": "/avatars/attack-on-titan/flegel-reeves.png"
+  },
+  {
+    "id": "artur-braus",
+    "name": "Artur Braus",
+    "gender": "Masculino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Caçador Patriarca de Dauper",
+    "styleOrPower": "Arquearia Selvagem & Filosofia do 'Sair da Floresta'",
+    "debutArc": "Confronto dos Titãs & Castelo de Utgard",
+    "status": "Vivo",
+    "quote": "Precisamos tirar as crianças desta floresta de ódio e pecado... senão o ciclo nunca acabará.",
+    "techniques": [
+      "Arquearia Tradicional de Caça",
+      "Rastreamento em Florestas",
+      "Perdão e Acolhimento a Inimigos"
+    ],
+    "avatar": "/avatars/attack-on-titan/artur-braus.png"
+  },
+  {
+    "id": "lisa-braus",
+    "name": "Lisa Braus",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Matriarca de Dauper",
+    "styleOrPower": "Hospitalidade e Criação Rural",
+    "debutArc": "Confronto dos Titãs & Castelo de Utgard",
+    "status": "Vivo",
+    "quote": "Venham crianças, sentem-se à mesa e comam a carne fresca da fazenda.",
+    "techniques": [
+      "Culinária Rústica com Carnes e Batatas",
+      "Acolhimento Maternal de Órfãos",
+      "Trabalho Comunitário Agrícola"
+    ],
+    "avatar": "/avatars/attack-on-titan/lisa-braus.png"
+  },
+  {
+    "id": "kaya",
+    "name": "Kaya",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Jovem Fazendeira de Dauper",
+    "styleOrPower": "Resgate por Sasha & Superação do Rancor",
+    "debutArc": "Confronto dos Titãs & Castelo de Utgard",
+    "status": "Vivo",
+    "quote": "Por que a minha mãe teve que ser comida viva por um titã?! O que nós fizemos a vocês?!",
+    "techniques": [
+      "Trabalho Rural em Estábulos",
+      "Ataque com Faca em Defesa da Memória de Sasha",
+      "Amizade e Reconciliação com Gabi"
+    ],
+    "avatar": "/avatars/attack-on-titan/kaya.png"
+  },
+  {
+    "id": "kuchel-ackerman",
+    "name": "Kuchel Ackerman",
+    "gender": "Feminino",
+    "origin": "Ilha de Paradis",
+    "affiliation": [
+      "Civis de Paradis"
+    ],
+    "rank": "Moradora do Subterrâneo",
+    "styleOrPower": "Resistência Ackerman na Cidade Subterrânea",
+    "debutArc": "Arco da Insurreição",
+    "status": "Falecido",
+    "quote": "Kenny... o nome dele... é Levi.",
+    "techniques": [
+      "Sobrevivência sob Miséria Extrema",
+      "Proteção do Filho no Leito de Morte",
+      "Linhagem Sanguínea Ackerman"
+    ],
+    "avatar": "/avatars/attack-on-titan/kuchel-ackerman.png"
+  },
+  {
+    "id": "reiner-braun",
+    "name": "Reiner Braun",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Vice-Chefe dos Guerreiros",
+    "styleOrPower": "Titã Encouraçado & Couraça Impenetrável",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Vivo",
+    "quote": "Eu sou o Titã Encouraçado, e ele é o Titã Colossal!",
+    "techniques": [
+      "Carga Demolidora de Muralha",
+      "Blindagem Corporal de Placas Ósseas",
+      "Transferência Neural da Consciência"
+    ],
+    "avatar": "/avatars/attack-on-titan/reiner-braun.png"
+  },
+  {
+    "id": "bertholdt-hoover",
+    "name": "Bertholdt Hoover",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley",
+      "104º Corpo de Recrutas"
+    ],
+    "rank": "Guerreiro Honorário",
+    "styleOrPower": "Titã Colossal Original (60 Metros)",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Ninguém neste mundo está errado... É que o mundo é cruel demais.",
+    "techniques": [
+      "Chute Demolidor de Portão Externo",
+      "Vapor Escaldante que Carboniza Ossos",
+      "Detonação Atômica de Queda Livre"
+    ],
+    "avatar": "/avatars/attack-on-titan/bertholdt-hoover.png"
+  },
+  {
+    "id": "annie-leonhart",
+    "name": "Annie Leonhart",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley",
+      "Brigada da Polícia Militar"
+    ],
+    "rank": "Guerreira Honorária",
+    "styleOrPower": "Titã Fêmea & Muay Thai Letal",
+    "debutArc": "104º Corpo de Recrutas",
+    "status": "Vivo",
+    "quote": "Eu só quero voltar para o meu pai... Mesmo que o mundo inteiro me odeie!",
+    "techniques": [
+      "Endurecimento Cristalino de Diamante",
+      "Chute Giratório Decapitador de Muay Thai",
+      "Grito de Chamado de Titãs Puros"
+    ],
+    "avatar": "/avatars/attack-on-titan/annie-leonhart.png"
+  },
+  {
+    "id": "zeke-jaeger",
+    "name": "Zeke Jaeger",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley",
+      "Voluntários Anti-Marley"
+    ],
+    "rank": "Chefe de Guerra dos Guerreiros",
+    "styleOrPower": "Titã Bestial & Arremesso de Artilharia com Sangue Real",
+    "debutArc": "Confronto dos Titãs & Castelo de Utgard",
+    "status": "Falecido",
+    "quote": "Se os filhos de Ymir nunca tivessem nascido, este mundo nunca teria sofrido!",
+    "techniques": [
+      "Arremesso Supersônico de Chuva de Rochas",
+      "Grito de Despertar Titânico via Fluido Espinhal",
+      "Plano de Eutanásia de Eldia"
+    ],
+    "avatar": "/avatars/attack-on-titan/zeke-jaeger.png"
+  },
+  {
+    "id": "marcel-galliard",
+    "name": "Marcel Galliard",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Líder da Missão de Paradis",
+    "styleOrPower": "Titã Mandíbula Original & Sacrifício Protetor",
+    "debutArc": "Confronto dos Titãs & Castelo de Utgard",
+    "status": "Falecido",
+    "quote": "Desculpe, Reiner... eu bajulei o exército para que meu irmão ficasse em segurança e você herdasse o Titã!",
+    "techniques": [
+      "Arrancada Feroz de Mandíbula",
+      "Manto Protetor Heroico",
+      "Agilidade em Terrenos Acidentados"
+    ],
+    "avatar": "/avatars/attack-on-titan/marcel-galliard.png"
+  },
+  {
+    "id": "porco-galliard",
+    "name": "Porco Galliard",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Guerreiro Titã",
+    "styleOrPower": "Titã Mandíbula Blindado de Máscara Óssea",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Eu sempre fui melhor que você até o fim, Reiner... veja quem salvou você agora!",
+    "techniques": [
+      "Mordida Esmagadora de Casulos de Cristal",
+      "Garras Cortantes de Rocha",
+      "Investida Feroz de Trincheira"
+    ],
+    "avatar": "/avatars/attack-on-titan/porco-galliard.png"
+  },
+  {
+    "id": "pieck-finger",
+    "name": "Pieck Finger",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Guerreira Titã",
+    "styleOrPower": "Titã Quadrúpede (Cart) & Torre de Artilharia Pesada Panzer",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Vivo",
+    "quote": "Eu não confio em Marley... Eu confio naqueles companheiros com quem lutei!",
+    "techniques": [
+      "Resistência Extrema de Meses em Forma de Titã",
+      "Canhão Panzer Quádruplo Teleguiado",
+      "Múltiplas Transformações Rápidas Sucessivas"
+    ],
+    "avatar": "/avatars/attack-on-titan/pieck-finger.png"
+  },
+  {
+    "id": "lara-tybur",
+    "name": "Lara Tybur",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "Guardiã Oculta do Clã Tybur",
+    "styleOrPower": "Titã Martelo de Guerra & Construto de Cristal Remoto",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Usurpador Eren Jaeger... você tem alguma última palavra antes de morrer?",
+    "techniques": [
+      "Criação de Espetos Gigantescos de Solo",
+      "Forja de Martelo Titânico e Besta",
+      "Controle Remoto عبر Cabo de Cristal"
+    ],
+    "avatar": "/avatars/attack-on-titan/lara-tybur.png"
+  },
+  {
+    "id": "falco-grice",
+    "name": "Falco Grice",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Guerreiro Titã Alado",
+    "styleOrPower": "Titã Mandíbula Voador & Memória Celular de Pássaro",
+    "debutArc": "Arco de Marley",
+    "status": "Vivo",
+    "quote": "Gabi, eu me tornei guerreiro para que você vivesse uma vida longa e feliz!",
+    "techniques": [
+      "Voo Celestial Alado com Asas de Penas",
+      "Bico Ósseo Esmagador",
+      "Transporte Aéreo da Aliança na Batalha Final"
+    ],
+    "avatar": "/avatars/attack-on-titan/falco-grice.png"
+  },
+  {
+    "id": "gabi-braun",
+    "name": "Gabi Braun",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Candidata a Guerreira de Elite",
+    "styleOrPower": "Atiradora de Elite Lendária & Coragem Kamikaze",
+    "debutArc": "Arco de Marley",
+    "status": "Vivo",
+    "quote": "Eu prometo que libertarei todos os eldianos da zona de internamento provando que somos bons!",
+    "techniques": [
+      "Disparo Decapitador com Fuzil Anti-Titã",
+      "Lançamento de Granadas em Trem Blindado",
+      "Tiro de Precisão de Longo Alcance"
+    ],
+    "avatar": "/avatars/attack-on-titan/gabi-braun.png"
+  },
+  {
+    "id": "colt-grice",
+    "name": "Colt Grice",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Candidato a Guerreiro / Sucessor do Bestial",
+    "styleOrPower": "Liderança Protetora Fraterna & Fuzil Militar",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Zeke, por favor espere! Meu irmão mais novo acabou de beber o seu vinho!",
+    "techniques": [
+      "Abraço Fraternal Protetor na Explosão",
+      "Tiroteio de Trincheira no Forte Slava",
+      "Liderança Tática dos Candidatos"
+    ],
+    "avatar": "/avatars/attack-on-titan/colt-grice.png"
+  },
+  {
+    "id": "udo",
+    "name": "Udo",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Candidato a Guerreiro",
+    "styleOrPower": "Socorrista Médico & Poliglota Diplomático",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "O ódio contra os eldianos no resto do mundo é mil vezes pior do que aqui em Marley!",
+    "techniques": [
+      "Primeiros Socorros em Zona de Guerra",
+      "Tradução Poliglota Intercontinental",
+      "Tratamento de Feridos em Trincheira"
+    ],
+    "avatar": "/avatars/attack-on-titan/udo.png"
+  },
+  {
+    "id": "zofia",
+    "name": "Zofia",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Candidata a Guerreira",
+    "styleOrPower": "Resistência de Artilharia de Trincheira",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Eu sou boa em fingir indiferença para manter a calma na linha de tiro.",
+    "techniques": [
+      "Operação de Bateria de Morteiros",
+      "Escavação Defensiva de Trincheira",
+      "Tiroteio com Carabina"
+    ],
+    "avatar": "/avatars/attack-on-titan/zofia.png"
+  },
+  {
+    "id": "theo-magath",
+    "name": "Theo Magath",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "General-Comandante do Exército de Marley",
+    "styleOrPower": "Tiroteio de Artilharia Anti-Titã & Sacrifício da Aliança",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Crianças... se eu tivesse permitido que vivessem vidas normais, como eu me arrependo!",
+    "techniques": [
+      "Detonação Heroica de Cruzador Naval com Shadis",
+      "Tiro Certeiro de Canhão na Nuca do Titã Fundador",
+      "Comando Supremo das Forças Armadas de Marley"
+    ],
+    "avatar": "/avatars/attack-on-titan/theo-magath.png"
+  },
+  {
+    "id": "willy-tybur",
+    "name": "Willy Tybur",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "Líder Supremo do Clã Tybur / Chefe de Estado",
+    "styleOrPower": "Oratória Magnética & Declaração de Guerra Mundial",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Aos cidadãos do mundo... Eu, Willy Tybur, declaro guerra contra a Ilha de Paradis!",
+    "techniques": [
+      "Discurso Cênico Teatral Teleguiado para Sacrifício",
+      "Revelação da Verdade sobre Karl Fritz e Helos",
+      "Unificação Diplomática Global"
+    ],
+    "avatar": "/avatars/attack-on-titan/willy-tybur.png"
+  },
+  {
+    "id": "general-calvi",
+    "name": "General Calvi",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "Comandante-Geral das Forças Armadas",
+    "styleOrPower": "Comando Militar Tradicional de Marley",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "A hegemonia militar de Marley não pode depender para sempre do poder dos Titãs!",
+    "techniques": [
+      "Planejamento de Invasão Naval",
+      "Supervisão da Campanha do Oriente Médio",
+      "Comando de Oficiais Superiores"
+    ],
+    "avatar": "/avatars/attack-on-titan/general-calvi.png"
+  },
+  {
+    "id": "sargento-gross",
+    "name": "Sargento Gross",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "Sargento de Segurança Pública",
+    "styleOrPower": "Crueldade Sádica & Transformação Forçada de Titãs",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "Por que eu fiz isso? Porque ver pessoas sendo devoradas vivas por titãs é divertido!",
+    "techniques": [
+      "Comando de Cães de Caça Assassinos",
+      "Administração de Fluido Espinhal na Muralha da Fronteira",
+      "Chute de Prisioneiros da Muralha"
+    ],
+    "avatar": "/avatars/attack-on-titan/sargento-gross.png"
+  },
+  {
+    "id": "koslow",
+    "name": "Koslow",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "Capitão do Exército de Marley",
+    "styleOrPower": "Subordinado Cruel de Magath",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Aquele eldiano louco está com estresse pós-traumático, joguem-no na lama!",
+    "techniques": [
+      "Interrogatório Hostil de Prisioneiros",
+      "Comando de Fuzileiros em Shiganshina",
+      "Tiro de Carabina de Infantaria"
+    ],
+    "avatar": "/avatars/attack-on-titan/koslow.png"
+  },
+  {
+    "id": "sr-leonhart",
+    "name": "Sr. Leonhart",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Liberio"
+    ],
+    "rank": "Tutor Marcial",
+    "styleOrPower": "Mestre em Artes Marciais Corpo a Corpo & Revolta em Liberio",
+    "debutArc": "57ª Expedição & Titã Fêmea",
+    "status": "Vivo",
+    "quote": "Annie, mesmo que o mundo inteiro seja seu inimigo, eu sempre serei o seu pai!",
+    "techniques": [
+      "Chute Circular de Destruição Óssea",
+      "Levante Armado na Zona de Internamento",
+      "Tiroteio no Pátio de Trem"
+    ],
+    "avatar": "/avatars/attack-on-titan/sr-leonhart.png"
+  },
+  {
+    "id": "karina-braun",
+    "name": "Karina Braun",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Liberio"
+    ],
+    "rank": "Matriarca Eldiana de Liberio",
+    "styleOrPower": "Defesa Fanática da Cidadania Honorária de Marley",
+    "debutArc": "Arco de Marley",
+    "status": "Vivo",
+    "quote": "Reiner, torne-se um guerreiro para que possamos viver como cidadãos honorários respeitados!",
+    "techniques": [
+      "Pregação Pró-Marley em Banquetes",
+      "Costura de Braçadeiras de Honra",
+      "Redenção Maternal na Fortaleza Salta"
+    ],
+    "avatar": "/avatars/attack-on-titan/karina-braun.png"
+  },
+  {
+    "id": "sr-jaeger",
+    "name": "Sr. Jaeger",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Liberio"
+    ],
+    "rank": "Patriarca da Família Jaeger",
+    "styleOrPower": "Submissão Absoluta às Regras de Marley",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Vivo",
+    "quote": "Grisha, nós somos demônios e devemos nos curvar perante Marley para sobreviver!",
+    "techniques": [
+      "Ensino Rígido da Doutrinação de Marley",
+      "Trabalho Comunitário no Gueto",
+      "Colapso Mental ao Rever Eren no Hospital"
+    ],
+    "avatar": "/avatars/attack-on-titan/sr-jaeger.png"
+  },
+  {
+    "id": "sra-jaeger",
+    "name": "Sra. Jaeger",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Liberio"
+    ],
+    "rank": "Matriarca da Família Jaeger",
+    "styleOrPower": "Cuidado Familiar Resignado",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Vivo",
+    "quote": "Voltem logo para casa, crianças, e não saiam da zona de internamento sem suas braçadeiras!",
+    "techniques": [
+      "Colocação de Braçadeiras Eldianas",
+      "Preparo de Jantares em Liberio",
+      "Lamento pela Perda de Faye e Grisha"
+    ],
+    "avatar": "/avatars/attack-on-titan/sra-jaeger.png"
+  },
+  {
+    "id": "secretario-muller",
+    "name": "Secretário Muller",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "Secretário de Estado / Comandante de Fort Salta",
+    "styleOrPower": "Comando dos Dirigíveis de Salta & Voto de Paz Humana",
+    "debutArc": "O Estrondo & Batalha do Céu e da Terra",
+    "status": "Vivo",
+    "quote": "Se tivermos outra chance neste mundo, prometo que não deixaremos o ódio guiar a humanidade!",
+    "techniques": [
+      "Ordem de Bombardeio Aéreo Contra o Titã Fundador",
+      "Cessar-Fogo Histórico com Soldados Eldianos",
+      "Defesa da Fortaleza de Fort Salta"
+    ],
+    "avatar": "/avatars/attack-on-titan/secretario-muller.png"
+  },
+  {
+    "id": "yelena",
+    "name": "Yelena",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Voluntários Anti-Marley",
+      "Facção Jaegerista"
+    ],
+    "rank": "Comandante dos Voluntários Anti-Marley",
+    "styleOrPower": "Conspiração do Vinho de Fluido Espinhal & Olhar Sinistro",
+    "debutArc": "Arco de Marley",
+    "status": "Vivo",
+    "quote": "Zeke e Eren são verdadeiros deuses que mudarão a história do universo!",
+    "techniques": [
+      "Distribuição Secreta de Vinho Contaminado com Fluido Titânico",
+      "Execução com Frio Assassinato de Desertores",
+      "Operação de Infiltração em Paradis"
+    ],
+    "avatar": "/avatars/attack-on-titan/yelena.png"
+  },
+  {
+    "id": "onyankopon",
+    "name": "Onyankopon",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Voluntários Anti-Marley"
+    ],
+    "rank": "Piloto de Elite / Engenheiro Chefe",
+    "styleOrPower": "Pilotagem de Dirigíveis & Fé na Diversidade Humana",
+    "debutArc": "Arco de Marley",
+    "status": "Vivo",
+    "quote": "O Criador nos fez diferentes porque pensou que um mundo cheio de pessoas iguais seria sem graça!",
+    "techniques": [
+      "Pilotagem Audaciosa de Dirigível sob Fogo Cruzado",
+      "Pouso de Emergência Heroico do Hidroavião",
+      "Manutenção Mecânica Avançada"
+    ],
+    "avatar": "/avatars/attack-on-titan/onyankopon.png"
+  },
+  {
+    "id": "niccolo",
+    "name": "Niccolo",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Voluntários Anti-Marley"
+    ],
+    "rank": "Chef de Cozinha Prisioneiro",
+    "styleOrPower": "Alta Gastronomia de Frutos do Mar & Ataque com Garrafa de Vinho",
+    "debutArc": "Guerra por Paradis",
+    "status": "Vivo",
+    "quote": "Sasha me ensinou que eu não era apenas um soldado de Marley... Eu podia fazer pessoas felizes com a minha comida!",
+    "techniques": [
+      "Culinária Sublime de Lagostas e Mariscos",
+      "Golpe com Garrafa Contaminada",
+      "Defesa Apaixonada da Família Braus"
+    ],
+    "avatar": "/avatars/attack-on-titan/niccolo.png"
+  },
+  {
+    "id": "griez",
+    "name": "Griez",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Voluntários Anti-Marley"
+    ],
+    "rank": "Soldado Voluntário Traidor",
+    "styleOrPower": "Xenofobia Fanática Contra Eldianos",
+    "debutArc": "Guerra por Paradis",
+    "status": "Falecido",
+    "quote": "Aquela garota da batata morreu porque era apenas um demônio sujo que merecia ser abatida!",
+    "techniques": [
+      "Provocação Hostil de Prisioneiros",
+      "Insulto à Memória de Sasha Braus",
+      "Vigilância de Restaurante de Prisão"
+    ],
+    "avatar": "/avatars/attack-on-titan/griez.png"
+  },
+  {
+    "id": "kiyomi-azumabito",
+    "name": "Kiyomi Azumabito",
+    "gender": "Feminino",
+    "origin": "Nação de Hizuru",
+    "affiliation": [
+      "Clã Azumabito (Hizuru)"
+    ],
+    "rank": "Embaixadora Diplomática / Chefe Financeira",
+    "styleOrPower": "Comércio Internacional de Pedra de Gás Explosivo & Diplomacia de Hizuru",
+    "debutArc": "Arco de Marley",
+    "status": "Vivo",
+    "quote": "O Clã Azumabito de Hizuru nunca abandonará os descendentes de nossa linhagem!",
+    "techniques": [
+      "Negociação Exclusiva de Recursos de Paradis",
+      "Golpe com Chave de Braço Marcial em Soldado",
+      "Gestão da Frota de Navios de Hizuru"
+    ],
+    "avatar": "/avatars/attack-on-titan/kiyomi-azumabito.png"
+  },
+  {
+    "id": "ymir-fritz",
+    "name": "Ymir Fritz",
+    "gender": "Feminino",
+    "origin": "Império Antigo de Eldia",
+    "affiliation": [
+      "Império Antigo de Eldia"
+    ],
+    "rank": "A Fundadora Original (Deusa / Progenitora)",
+    "styleOrPower": "A Matriz Progenitora de Todos os 9 Titãs & Os Caminhos Cósmicos",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Dois mil anos esperando por alguém que a libertasse da maldição do amor ao tirano.",
+    "techniques": [
+      "Moldagem Instantânea de Titãs com Areia nos Caminhos",
+      "Manifestação Cósmica da Árvore dos Caminhos",
+      "Liberação de Todo o Poder dos Titãs"
+    ],
+    "avatar": "/avatars/attack-on-titan/ymir-fritz.png"
+  },
+  {
+    "id": "karl-fritz",
+    "name": "Karl Fritz",
+    "gender": "Masculino",
+    "origin": "Império Antigo de Eldia",
+    "affiliation": [
+      "Governo Real / Família Reiss",
+      "Império Antigo de Eldia"
+    ],
+    "rank": "145º Rei de Eldia / Primeiro Rei das Muralhas",
+    "styleOrPower": "Criação das Três Muralhas com Milhões de Colossais & Renúncia à Guerra",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "Se o mundo decidir nos aniquilar pela nossa culpa ancestral, aceitaremos o fim em silêncio.",
+    "techniques": [
+      "Construção das Três Muralhas de Titãs Colossais",
+      "Pacto de Renúncia de Guerra Inquebrável",
+      "Apagamento da Memória da Humanidade"
+    ],
+    "avatar": "/avatars/attack-on-titan/karl-fritz.png"
+  },
+  {
+    "id": "eren-kruger",
+    "name": "Eren Kruger",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Exército de Marley / Família Tybur"
+    ],
+    "rank": "Espião 'O Coruja' / Oficial de Segurança",
+    "styleOrPower": "Titã de Ataque Original & Destruição de Navio a Vapor",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "Para salvar Mikasa, Armin e todos os outros... complete a sua missão, Grisha!",
+    "techniques": [
+      "Esmagamento e Partição de Navio Militar com as Mãos",
+      "Infiltração de Alta Patente em Marley",
+      "Visão de Memórias do Futuro"
+    ],
+    "avatar": "/avatars/attack-on-titan/eren-kruger.png"
+  },
+  {
+    "id": "dina-fritz",
+    "name": "Dina Fritz",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Império Antigo de Eldia"
+    ],
+    "rank": "Princesa de Sangue Real / O Titã Sorridente",
+    "styleOrPower": "Sangue Real & Titã Sorridente que Despertou a Coordenada",
+    "debutArc": "Queda de Shiganshina",
+    "status": "Falecido",
+    "quote": "Grisha... não importa no que eu me torne, eu irei procurar você!",
+    "techniques": [
+      "Devoração Fatal de Carla Jaeger e Hannes",
+      "Ativação Involuntária da Coordenada por Toque Físico",
+      "Sorriso Perturbador Eterno"
+    ],
+    "avatar": "/avatars/attack-on-titan/dina-fritz.png"
+  },
+  {
+    "id": "faye-jaeger",
+    "name": "Faye Jaeger",
+    "gender": "Feminino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Liberio"
+    ],
+    "rank": "Criança Eldiana de Liberio",
+    "styleOrPower": "Vontade Inocente de Ver o Dirigível",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "Grisha, olhe! O dirigível está pousando logo além daquele muro!",
+    "techniques": [
+      "Corrida Alegre pelas Ruas de Liberio",
+      "Curiosidade Infantil pelos Céus",
+      "Memória que Inspirou a Vingança de Grisha"
+    ],
+    "avatar": "/avatars/attack-on-titan/faye-jaeger.png"
+  },
+  {
+    "id": "tom-ksaver",
+    "name": "Tom Ksaver",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Unidade de Guerreiros de Marley"
+    ],
+    "rank": "Cientista Chefe de Titãs / Portador do Bestial",
+    "styleOrPower": "Titã Bestial (Forma de Bode) & Pesquisa da Anatomia Titânica",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Meu Titã não serve para a guerra, Zeke... mas jogar beisebol com você é o melhor momento da minha vida.",
+    "techniques": [
+      "Pesquisa da Alteração Genética via Titã Fundador",
+      "Arremesso de Bola de Beisebol",
+      "Mentoria Paterna e Amorosa de Zeke"
+    ],
+    "avatar": "/avatars/attack-on-titan/tom-ksaver.png"
+  },
+  {
+    "id": "grice",
+    "name": "Grice",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Liberio"
+    ],
+    "rank": "Membro dos Restauradores de Eldia",
+    "styleOrPower": "Recrutamento Clandestino de Restauradores",
+    "debutArc": "Retorno a Shiganshina",
+    "status": "Falecido",
+    "quote": "Grisha, nós sabemos como sua irmãzinha morreu... venha conosco lutar pela liberdade!",
+    "techniques": [
+      "Reuniões Clandestinas Noturnas em Liberio",
+      "Disseminação de Textos Proibidos",
+      "Fuga Desesperada dos Titãs na Ilha"
+    ],
+    "avatar": "/avatars/attack-on-titan/grice.png"
+  },
+  {
+    "id": "ramzi",
+    "name": "Ramzi",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Marley / Refugiados"
+    ],
+    "rank": "Menino Refugiado",
+    "styleOrPower": "Roubo de Moedas para Salvar a Família",
+    "debutArc": "Arco de Marley",
+    "status": "Falecido",
+    "quote": "Eren me defendeu quando os comerciantes queriam cortar a minha mão fora!",
+    "techniques": [
+      "Furto Ágil de Bolsas de Dinheiro",
+      "Esconderijo Secreto sob Rochas",
+      "Festa Noturna com a Tropa de Exploração"
+    ],
+    "avatar": "/avatars/attack-on-titan/ramzi.png"
+  },
+  {
+    "id": "halil",
+    "name": "Halil",
+    "gender": "Masculino",
+    "origin": "Império de Marley",
+    "affiliation": [
+      "Civis de Marley / Refugiados"
+    ],
+    "rank": "Menino Refugiado",
+    "styleOrPower": "Irmão Protetor de Ramzi",
+    "debutArc": "O Estrondo & Batalha do Céu e da Terra",
+    "status": "Falecido",
+    "quote": "Ramzi, segure minha mão com força! O chão está tremendo como o fim do mundo!",
+    "techniques": [
+      "Proteção Fraternal em Fuga",
+      "Carregamento do Saco de Moedas de Ouro",
+      "Corrida Desesperada pelas Montanhas"
+    ],
+    "avatar": "/avatars/attack-on-titan/halil.png"
+  },
+  {
+    "id": "maria-fritz",
+    "name": "Maria Fritz",
+    "gender": "Feminino",
+    "origin": "Império Antigo de Eldia",
+    "affiliation": [
+      "Império Antigo de Eldia"
+    ],
+    "rank": "Princesa Primogênita de Eldia",
+    "styleOrPower": "Herança Canibal do Titã Progenitor & Nome da Muralha Maria",
+    "debutArc": "O Estrondo & Batalha do Céu e da Terra",
+    "status": "Falecido",
+    "quote": "As três filhas choravam enquanto eram forçadas a consumir os restos mortais de sua mãe Ymir.",
+    "techniques": [
+      "Divisão Trina do Poder dos Titãs",
+      "Herança Imperial Tribal",
+      "Fundação da Linhagem das Três Muralhas"
+    ],
+    "avatar": "/avatars/attack-on-titan/maria-fritz.png"
+  },
+  {
+    "id": "rose-fritz",
+    "name": "Rose Fritz",
+    "gender": "Feminino",
+    "origin": "Império Antigo de Eldia",
+    "affiliation": [
+      "Império Antigo de Eldia"
+    ],
+    "rank": "Segunda Princesa de Eldia",
+    "styleOrPower": "Herança Canibal do Titã Progenitor & Nome da Muralha Rose",
+    "debutArc": "O Estrondo & Batalha do Céu e da Terra",
+    "status": "Falecido",
+    "quote": "Não parem de comer! O sangue de Ymir deve permanecer para sempre em nossos descendentes!",
+    "techniques": [
+      "Ramificação dos Poderes dos 9 Titãs",
+      "Soberania do Antigo Império",
+      "Consumo Ritualístico Hereditário"
+    ],
+    "avatar": "/avatars/attack-on-titan/rose-fritz.png"
+  },
+  {
+    "id": "sina-fritz",
+    "name": "Sina Fritz",
+    "gender": "Feminino",
+    "origin": "Império Antigo de Eldia",
+    "affiliation": [
+      "Império Antigo de Eldia"
+    ],
+    "rank": "Terceira Princesa de Eldia",
+    "styleOrPower": "Herança Canibal do Titã Progenitor & Nome da Muralha Sina",
+    "debutArc": "O Estrondo & Batalha do Céu e da Terra",
+    "status": "Falecido",
+    "quote": "Eldia governará a terra e os mares enquanto o poder dos titãs fluir em nossa carne!",
+    "techniques": [
+      "Transmissão Geracional dos Titãs",
+      "Expansão Militar Continental de Eldia",
+      "Eternização do Nome da Muralha Mais Interior"
+    ],
+    "avatar": "/avatars/attack-on-titan/sina-fritz.png"
+  }
+]
