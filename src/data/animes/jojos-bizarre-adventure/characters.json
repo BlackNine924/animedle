@@ -1,0 +1,2274 @@
+[
+  {
+    "id": "jonathan-joestar",
+    "name": "Jonathan Joestar",
+    "gender": "Masculino",
+    "species": "Usuário de Hamon",
+    "affiliation": [
+      "Família Joestar",
+      "Grupo Joestar"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Nenhum",
+    "styleOrPower": "Hamon (Ondulação)",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "O coração bate forte, o calor queima como fogo! Gravada pela coragem... Sunlight Yellow Overdrive!",
+    "techniques": [
+      "Sunlight Yellow Overdrive",
+      "Zoom Punch",
+      "Scarlet Overdrive",
+      "Metal Silver Overdrive"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/jonathan-joestar.png"
+  },
+  {
+    "id": "dio-brando",
+    "name": "Dio Brando",
+    "gender": "Masculino",
+    "species": "Vampiro",
+    "affiliation": [
+      "Antagonistas Principais"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Nenhum",
+    "styleOrPower": "Poderes Vampíricos (Máscara de Pedra)",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "Eu rejeito a minha humanidade, JoJo! Vou transcender a humanidade!",
+    "techniques": [
+      "Space Ripper Stingy Eyes",
+      "Toque Congelante Vaporizador",
+      "Regeneração Celular Vampírica"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/dio-brando.png"
+  },
+  {
+    "id": "william-zeppeli",
+    "name": "William A. Zeppeli",
+    "gender": "Masculino",
+    "species": "Usuário de Hamon",
+    "affiliation": [
+      "Grupo Joestar",
+      "Família Zeppeli"
+    ],
+    "origin": "Itália",
+    "stand": "Nenhum",
+    "styleOrPower": "Hamon (Ondulação)",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "A coragem humana é saber o que é o medo e ainda assim torná-lo seu aliado!",
+    "techniques": [
+      "Zoom Punch",
+      "Hamon Cutter",
+      "Sunlight Yellow Overdrive",
+      "Ultimate Deep Pass Overdrive"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/william-zeppeli.png"
+  },
+  {
+    "id": "speedwagon",
+    "name": "Robert E. O. Speedwagon",
+    "gender": "Masculino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Fundação Speedwagon",
+      "Grupo Joestar"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Nenhum",
+    "styleOrPower": "Lâminas no Chapéu",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "Até mesmo na sarjeta de Ogre Street, o cavalheirismo de Jonathan Joestar brilhou como o sol!",
+    "techniques": [
+      "Lançamento de Chapéu com Lâminas",
+      "Calor Corporal de Salvamento"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/speedwagon.png"
+  },
+  {
+    "id": "erina-pendleton",
+    "name": "Erina Pendleton",
+    "gender": "Feminino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Família Joestar"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Nenhum",
+    "styleOrPower": "Nenhuma",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "Eu sempre acreditei e amei o homem nobre que você foi, Jonathan.",
+    "techniques": [
+      "Cuidado Médico Tradicional"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/erina-pendleton.png"
+  },
+  {
+    "id": "bruford",
+    "name": "Bruford",
+    "gender": "Masculino",
+    "species": "Zumbi",
+    "affiliation": [
+      "Cavaleiros das Trevas"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Nenhum",
+    "styleOrPower": "Dança Macabra dos Cabelos",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "Minha alma finalmente se libertou do ódio... receba a espada da Sorte e da Coragem!",
+    "techniques": [
+      "Dança Macabra",
+      "Espada Luck & Pluck"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/bruford.png"
+  },
+  {
+    "id": "tarkus",
+    "name": "Tarkus",
+    "gender": "Masculino",
+    "species": "Zumbi",
+    "affiliation": [
+      "Cavaleiros das Trevas"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Nenhum",
+    "styleOrPower": "Força Bruta e Correntes da Morte",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "Eu esmagarei seus ossos como gravetos quebrados!",
+    "techniques": [
+      "Combate com Correntes",
+      "Esmagamento Brutal"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/tarkus.png"
+  },
+  {
+    "id": "dire",
+    "name": "Dire",
+    "gender": "Masculino",
+    "species": "Usuário de Hamon",
+    "affiliation": [
+      "Mestres de Hamon"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Nenhum",
+    "styleOrPower": "Thunder Cross Split Attack",
+    "debutArc": "Parte 1: Phantom Blood",
+    "status": "Morto",
+    "quote": "Você caiu na armadilha, tolo! Thunder Cross Split Attack!",
+    "techniques": [
+      "Thunder Cross Split Attack",
+      "Hamon Rose"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/dire.png"
+  },
+  {
+    "id": "joseph-joestar",
+    "name": "Joseph Joestar",
+    "gender": "Masculino",
+    "species": "Usuário de Hamon",
+    "affiliation": [
+      "Família Joestar",
+      "Grupo Joestar"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Hermit Purple",
+    "styleOrPower": "Hamon com Clackers",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Vivo",
+    "quote": "Sua próxima frase será: \"Como você sabia?!\"",
+    "techniques": [
+      "Clacker Volley",
+      "Overdrive com Clackers",
+      "Estratégia de Fuga Sagrada",
+      "Hermit Purple"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/joseph-joestar.png"
+  },
+  {
+    "id": "caesar-zeppeli",
+    "name": "Caesar Anthonio Zeppeli",
+    "gender": "Masculino",
+    "species": "Usuário de Hamon",
+    "affiliation": [
+      "Grupo Joestar",
+      "Família Zeppeli"
+    ],
+    "origin": "Itália",
+    "stand": "Nenhum",
+    "styleOrPower": "Hamon de Bolhas de Sabão",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Morto",
+    "quote": "JoJo! Este é o meu último Hamon! Pegue-o de mim!",
+    "techniques": [
+      "Bubble Launcher",
+      "Bubble Barrier",
+      "Bubble Cutter",
+      "Bubble Cutter Gliding"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/caesar-zeppeli.png"
+  },
+  {
+    "id": "lisa-lisa",
+    "name": "Lisa Lisa",
+    "gender": "Feminino",
+    "species": "Usuário de Hamon",
+    "affiliation": [
+      "Mestres de Hamon",
+      "Grupo Joestar",
+      "Família Joestar"
+    ],
+    "origin": "Itália",
+    "stand": "Nenhum",
+    "styleOrPower": "Hamon com Cachecol Condutor",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Vivo",
+    "quote": "Não se atreva a chorar diante de um guerreiro caído enquanto a batalha não terminar.",
+    "techniques": [
+      "Snake Muffler",
+      "Super Aja Overdrive"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/lisa-lisa.png"
+  },
+  {
+    "id": "rudol-von-stroheim",
+    "name": "Rudol von Stroheim",
+    "gender": "Masculino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Exército Alemão",
+      "Grupo Joestar"
+    ],
+    "origin": "Alemanha",
+    "stand": "Nenhum",
+    "styleOrPower": "Cibernética de Combate Alemã",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Morto",
+    "quote": "A ciência alemã é a melhor do mundo inteiro!",
+    "techniques": [
+      "Metralhadora Abdominal 800 tiros/min",
+      "Canhão de Luz Ultravioleta",
+      "Dedo-Projétil"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/rudol-von-stroheim.png"
+  },
+  {
+    "id": "kars",
+    "name": "Kars",
+    "gender": "Masculino",
+    "species": "Homem do Pilar",
+    "affiliation": [
+      "Homens do Pilar",
+      "Antagonistas Principais"
+    ],
+    "origin": "México",
+    "stand": "Nenhum",
+    "styleOrPower": "Modo de Luz (Lâminas de Osso Brilhante)",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Aposentado",
+    "quote": "Eu conquistei o próprio Sol! Eu sou a forma suprema de toda a vida orgânica!",
+    "techniques": [
+      "Lâminas de Luz Resplandecentes",
+      "Mutações de DNA Animal",
+      "Imortalidade Absoluta"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/kars.png"
+  },
+  {
+    "id": "esidisi",
+    "name": "Esidisi",
+    "gender": "Masculino",
+    "species": "Homem do Pilar",
+    "affiliation": [
+      "Homens do Pilar"
+    ],
+    "origin": "México",
+    "stand": "Nenhum",
+    "styleOrPower": "Modo de Fogo (Sangue Fervente)",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Morto",
+    "quote": "Quando fico furioso, eu choro até aliviar minha mente... Agora posso te despedaçar com calma.",
+    "techniques": [
+      "Vasos Sanguíneos Extensíveis Ferventes",
+      "Agulhas Térmicas de Sangue"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/esidisi.png"
+  },
+  {
+    "id": "wamuu",
+    "name": "Wamuu",
+    "gender": "Masculino",
+    "species": "Homem do Pilar",
+    "affiliation": [
+      "Homens do Pilar"
+    ],
+    "origin": "México",
+    "stand": "Nenhum",
+    "styleOrPower": "Modo de Vento (Tempestade de Areia Sagrada)",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Morto",
+    "quote": "Para mim, lutar com dignidade é a única verdade existencial!",
+    "techniques": [
+      "Kamisuna Arashi (Tempestade de Areia Divina)",
+      "Final Mode: Atmospheric Rift"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/wamuu.png"
+  },
+  {
+    "id": "santana",
+    "name": "Santana",
+    "gender": "Masculino",
+    "species": "Homem do Pilar",
+    "affiliation": [
+      "Homens do Pilar"
+    ],
+    "origin": "México",
+    "stand": "Nenhum",
+    "styleOrPower": "Maleabilidade Esquelética e Absorção",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Aposentado",
+    "quote": "Ele se infiltrou pelas frestas de ventilação deslocando todas as articulações corporais!",
+    "techniques": [
+      "Invasão Corpórea",
+      "Costelas de Aprisionamento"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/santana.png"
+  },
+  {
+    "id": "smokey-brown",
+    "name": "Smokey Brown",
+    "gender": "Masculino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Grupo Joestar"
+    ],
+    "origin": "EUA",
+    "stand": "Nenhum",
+    "styleOrPower": "Nenhuma",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Vivo",
+    "quote": "Joseph nunca me julgou pela cor da minha pele, ele simplesmente me protegeu.",
+    "techniques": [
+      "Corrida Tática"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/smokey-brown.png"
+  },
+  {
+    "id": "suzi-q",
+    "name": "Suzi Q",
+    "gender": "Feminino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Família Joestar"
+    ],
+    "origin": "Itália",
+    "stand": "Nenhum",
+    "styleOrPower": "Nenhuma",
+    "debutArc": "Parte 2: Battle Tendency",
+    "status": "Vivo",
+    "quote": "Joseph! Você esqueceu de me enviar um telegrama dizendo que sobreviveu à erupção vulcânica?!",
+    "techniques": [
+      "Assistência Doméstica"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/suzi-q.png"
+  },
+  {
+    "id": "jotaro-kujo",
+    "name": "Jotaro Kujo",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Cruzados da Poeira Estelar",
+      "Grupo Joestar",
+      "Família Joestar"
+    ],
+    "origin": "Japão",
+    "stand": "Star Platinum",
+    "styleOrPower": "Star Platinum",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "Yare yare daze... Você não pode pagar pelo que fez com dinheiro!",
+    "techniques": [
+      "Ora Ora Rush",
+      "Star Finger",
+      "Star Platinum: The World (Parar o Tempo)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/jotaro-kujo.png"
+  },
+  {
+    "id": "noriaki-kakyoin",
+    "name": "Noriaki Kakyoin",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Cruzados da Poeira Estelar",
+      "Grupo Joestar"
+    ],
+    "origin": "Japão",
+    "stand": "Hierophant Green",
+    "styleOrPower": "Hierophant Green",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "Esta é a minha mensagem final... decifre o segredo do Stand de DIO!",
+    "techniques": [
+      "Emerald Splash",
+      "Tentáculos de Hierophant",
+      "Barreira de Esmeralda de 20 Metros"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/noriaki-kakyoin.png"
+  },
+  {
+    "id": "jean-pierre-polnareff",
+    "name": "Jean Pierre Polnareff",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Cruzados da Poeira Estelar",
+      "Grupo Joestar"
+    ],
+    "origin": "França",
+    "stand": "Silver Chariot",
+    "styleOrPower": "Silver Chariot",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "Meu nome é Jean Pierre Polnareff! Pela honra da minha irmã assassinada, você encontrará a ponta da minha lâmina!",
+    "techniques": [
+      "Esgrima Ultrarrápida com Rapieira",
+      "Remoção de Armadura de Prata",
+      "Disparo de Lâmina"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/jean-pierre-polnareff.png"
+  },
+  {
+    "id": "muhammad-avdol",
+    "name": "Muhammad Avdol",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Cruzados da Poeira Estelar",
+      "Grupo Joestar"
+    ],
+    "origin": "Egito",
+    "stand": "Magician's Red",
+    "styleOrPower": "Magician's Red",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "YES, I AM! O fogo ardente de Magician's Red reduzirá tudo a cinzas!",
+    "techniques": [
+      "Crossfire Hurricane",
+      "Crossfire Hurricane Special",
+      "Detecção de Calor Vital"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/muhammad-avdol.png"
+  },
+  {
+    "id": "iggy",
+    "name": "Iggy",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Cruzados da Poeira Estelar",
+      "Grupo Joestar"
+    ],
+    "origin": "EUA",
+    "stand": "The Fool",
+    "styleOrPower": "The Fool",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "Um cão livre e orgulhoso que preferiu morrer lutando a deixar um companheiro ser destruído.",
+    "techniques": [
+      "Manipulação de Areia Metamórfica",
+      "Asas de Areia para Voo",
+      "Clone de Areia"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/iggy.png"
+  },
+  {
+    "id": "dio",
+    "name": "DIO",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Antagonistas Principais"
+    ],
+    "origin": "Inglaterra",
+    "stand": "The World",
+    "styleOrPower": "The World",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "Za Warudo! Toki yo Tomare! Nove segundos é o meu limite atual!",
+    "techniques": [
+      "Parada Temporal (The World)",
+      "Muda Muda Rush",
+      "Lançamento Massivo de Facas",
+      "Road Roller Da!"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/dio.png"
+  },
+  {
+    "id": "vanilla-ice",
+    "name": "Vanilla Ice",
+    "gender": "Masculino",
+    "species": "Vampiro",
+    "affiliation": [
+      "Servos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Cream",
+    "styleOrPower": "Cream",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "Por Lord DIO, até a minha própria cabeça eu corto sem hesitação!",
+    "techniques": [
+      "Vórtice do Vácuo Dimensional",
+      "Invisibilidade de Absorção Esférica"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/vanilla-ice.png"
+  },
+  {
+    "id": "hol-horse",
+    "name": "Hol Horse",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Assassinos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Emperor",
+    "styleOrPower": "Emperor",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Vivo",
+    "quote": "O número dois é sempre mais seguro do que ser o número um!",
+    "techniques": [
+      "Balas de Stand Teleguiadas",
+      "Disparo Rápido do Revólver Emperor"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/hol-horse.png"
+  },
+  {
+    "id": "enya-geil",
+    "name": "Enya Geil",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Servos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Justice",
+    "styleOrPower": "Justice",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "Com o poder de Justice, transformarei cada cadáver desta cidade na minha marionete!",
+    "techniques": [
+      "Névoa de Controle de Cadáveres",
+      "Ilusão de Cidade Fantasma"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/enya-geil.png"
+  },
+  {
+    "id": "j-geil",
+    "name": "J. Geil",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Assassinos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Hanged Man",
+    "styleOrPower": "Hanged Man",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "O homem das duas mãos direitas que se move através dos reflexos de luz.",
+    "techniques": [
+      "Ataque na Velocidade da Luz por Superfícies Reflexivas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/j-geil.png"
+  },
+  {
+    "id": "daniel-j-darby",
+    "name": "Daniel J. D'Arby",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Deuses Egípcios",
+      "Servos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Osiris",
+    "styleOrPower": "Osiris",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Aposentado",
+    "quote": "GOOD! Quando você admite a derrota em seu coração, sua alma se torna minha ficha de pôquer!",
+    "techniques": [
+      "Roubo de Alma por Apostas",
+      "Fichas de Alma de Osiris"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/daniel-j-darby.png"
+  },
+  {
+    "id": "terrence-t-darby",
+    "name": "Terrence T. D'Arby",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Deuses Egípcios",
+      "Servos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Atum",
+    "styleOrPower": "Atum",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Aposentado",
+    "quote": "Atum me responde com SIM ou NÃO diretamente pela vibração da sua alma!",
+    "techniques": [
+      "Leitura de Almas (Sim ou Não)",
+      "Conversão de Almas em Bonecos de Videogame"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/terrence-t-darby.png"
+  },
+  {
+    "id": "pet-shop",
+    "name": "Pet Shop",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Deuses Egípcios",
+      "Servos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Horus",
+    "styleOrPower": "Horus",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Morto",
+    "quote": "O falcão sentinela impiedoso que congela seus alvos até o zero absoluto.",
+    "techniques": [
+      "Estalagmites Gigantes de Gelo Criogênico",
+      "Mísseis de Gelo Teleguiados"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/pet-shop.png"
+  },
+  {
+    "id": "mariah",
+    "name": "Mariah",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Deuses Egípcios",
+      "Servos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Bastet",
+    "styleOrPower": "Bastet",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Aposentado",
+    "quote": "Basta tocar na minha tomada para que seu corpo se torne o ímã mais destrutivo do mundo!",
+    "techniques": [
+      "Magnetização Corporal Exponencial"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/mariah.png"
+  },
+  {
+    "id": "alessi",
+    "name": "Alessi",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Deuses Egípcios",
+      "Servos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Sethan",
+    "styleOrPower": "Sethan",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Aposentado",
+    "quote": "Sethan faz você regredir à infância em questão de segundos!",
+    "techniques": [
+      "Regressão de Idade por Sombra",
+      "Ataque com Machado e Pistola"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/alessi.png"
+  },
+  {
+    "id": "oingo",
+    "name": "Oingo",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Deuses Egípcios",
+      "Servos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Khnum",
+    "styleOrPower": "Khnum",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Aposentado",
+    "quote": "Khnum me permite alterar meu rosto, altura, cheiro e voz para qualquer pessoa!",
+    "techniques": [
+      "Metamorfose Facial Perfeita",
+      "Disfarce"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/oingo.png"
+  },
+  {
+    "id": "boingo",
+    "name": "Boingo",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Deuses Egípcios",
+      "Servos de DIO"
+    ],
+    "origin": "Egito",
+    "stand": "Tohth",
+    "styleOrPower": "Tohth",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Aposentado",
+    "quote": "As previsões em quadrinhos de Tohth nunca falham! É o destino absoluto!",
+    "techniques": [
+      "Previsão em Quadrinhos do Futuro Iminente"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/boingo.png"
+  },
+  {
+    "id": "steely-dan",
+    "name": "Steely Dan",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Assassinos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Lovers",
+    "styleOrPower": "Lovers",
+    "debutArc": "Parte 3: Stardust Crusaders",
+    "status": "Aposentado",
+    "quote": "Qualquer dano que eu receba é multiplicado e transmitido direto para o cérebro da vítima!",
+    "techniques": [
+      "Transmissão Microscópica de Dor Cerebral",
+      "Clonagem Celular de Lovers"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/steely-dan.png"
+  },
+  {
+    "id": "josuke-higashikata",
+    "name": "Josuke Higashikata",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Joestar",
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Crazy Diamond",
+    "styleOrPower": "Crazy Diamond",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "O que foi que você acabou de falar sobre o meu cabelo?! Doraaa!",
+    "techniques": [
+      "Dora Dora Rush",
+      "Restauração e Cura Molecular",
+      "Reconstrução Distorcida de Objetos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/josuke-higashikata.png"
+  },
+  {
+    "id": "okuyasu-nijimura",
+    "name": "Okuyasu Nijimura",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "The Hand",
+    "styleOrPower": "The Hand",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "A mão direita de The Hand apaga o próprio espaço e o que estiver nele da existência!",
+    "techniques": [
+      "Eliminação Espacial pela Mão Direita",
+      "Teletransporte por Vácuo Espacial"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/okuyasu-nijimura.png"
+  },
+  {
+    "id": "koichi-hirose",
+    "name": "Koichi Hirose",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Echoes",
+    "styleOrPower": "Echoes (Act 1, 2 e 3)",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "3 FREEZE! Sinta o peso insuportável da gravidade contra o chão!",
+    "techniques": [
+      "Echoes ACT1 (Efeitos Sonoros)",
+      "Echoes ACT2 (Onomatopeias Tácteis)",
+      "Echoes ACT3 (3 Freeze - Gravidade)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/koichi-hirose.png"
+  },
+  {
+    "id": "rohan-kishibe",
+    "name": "Rohan Kishibe",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Heaven's Door",
+    "styleOrPower": "Heaven's Door",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "Daga kotowaru! (Mas eu recuso!) Uma das coisas que Rohan Kishibe mais adora é dizer não a quem pensa ter vantagem!",
+    "techniques": [
+      "Heaven's Door (Transformar em Livro)",
+      "Edição de Memória e Comandos Absolutos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/rohan-kishibe.png"
+  },
+  {
+    "id": "yoshikage-kira",
+    "name": "Yoshikage Kira",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Antagonistas Principais"
+    ],
+    "origin": "Japão",
+    "stand": "Killer Queen",
+    "styleOrPower": "Killer Queen",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Morto",
+    "quote": "Eu só quero ter uma vida tranquila... Killer Queen já tocou naquela maçaneta!",
+    "techniques": [
+      "Primeira Bomba (Transmutação Explosiva)",
+      "Sheer Heart Attack (Segunda Bomba Teleguiada)",
+      "Bites the Dust (Terceira Bomba / Loop Temporal)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/yoshikage-kira.png"
+  },
+  {
+    "id": "reimi-sugimoto",
+    "name": "Reimi Sugimoto",
+    "gender": "Feminino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Nenhum",
+    "styleOrPower": "Espírito Guardião de Morioh",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Morto",
+    "quote": "Enquanto aquele assassino estiver solto pelas ruas de Morioh, minha alma não poderá descansar.",
+    "techniques": [
+      "Conexão Espiritual do Beco Sem Saída"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/reimi-sugimoto.png"
+  },
+  {
+    "id": "shigekiyo-yangu",
+    "name": "Shigekiyo Yangu (Shigechi)",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Harvest",
+    "styleOrPower": "Harvest",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Morto",
+    "quote": "Eu tenho que avisar o Josuke e o Okuyasu... tenho que proteger meus pais!",
+    "techniques": [
+      "Coleta Massiva de Harvest (500 Unidades)",
+      "Injeção de Substâncias por Agulhas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/shigekiyo-yangu.png"
+  },
+  {
+    "id": "yukako-yamagishi",
+    "name": "Yukako Yamagishi",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Love Deluxe",
+    "styleOrPower": "Love Deluxe",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "Meu amor por você é perfeito, Koichi! Meus cabelos farão de você o homem ideal!",
+    "techniques": [
+      "Manipulação Capilar Destrutiva",
+      "Implante de Fios de Controle"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/yukako-yamagishi.png"
+  },
+  {
+    "id": "mikitaka-hazekura",
+    "name": "Mikitaka Hazekura",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Earth Wind and Fire",
+    "styleOrPower": "Earth Wind and Fire",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "Eu sou um alienígena vindo de Magelan! Ou será que sou apenas um usuário de Stand excêntrico?",
+    "techniques": [
+      "Metamorfose em Qualquer Objeto Inanimado"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/mikitaka-hazekura.png"
+  },
+  {
+    "id": "keicho-nijimura",
+    "name": "Keicho Nijimura",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Irmãos Nijimura"
+    ],
+    "origin": "Japão",
+    "stand": "Bad Company",
+    "styleOrPower": "Bad Company",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Morto",
+    "quote": "Eu preciso encontrar alguém com poder suficiente para conceder uma morte digna ao meu pai.",
+    "techniques": [
+      "Exército em Miniatura (Infantaria, Tanques e Helicópteros Apache)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/keicho-nijimura.png"
+  },
+  {
+    "id": "akira-otoishi",
+    "name": "Akira Otoishi",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Vilões de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Red Hot Chili Pepper",
+    "styleOrPower": "Red Hot Chili Pepper",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "Minha guitarra e Red Hot Chili Pepper vão eletrocutar o mundo do Rock!",
+    "techniques": [
+      "Absorção de Energia Elétrica",
+      "Viagem por Fios de Alta Tensão"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/akira-otoishi.png"
+  },
+  {
+    "id": "yuya-fungami",
+    "name": "Yuya Fungami",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Highway Star",
+    "styleOrPower": "Highway Star",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "Highway Star persegue você a exatamente 60 km/h pelo rastro do seu aroma!",
+    "techniques": [
+      "Perseguição Implacável a 60 km/h",
+      "Drenagem de Nutrientes Vitais",
+      "Olfato Apuradíssimo"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/yuya-fungami.png"
+  },
+  {
+    "id": "tonio-trussardi",
+    "name": "Tonio Trussardi",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Moradores de Morioh"
+    ],
+    "origin": "Itália",
+    "stand": "Pearl Jam",
+    "styleOrPower": "Pearl Jam",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "Minha culinária italiana não apenas encanta o paladar, ela cura o corpo e a mente!",
+    "techniques": [
+      "Culinária Terapêutica Molecular",
+      "Purificação Corporal de Toxinas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/tonio-trussardi.png"
+  },
+  {
+    "id": "aya-tsuji",
+    "name": "Aya Tsuji",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Moradores de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Cinderella",
+    "styleOrPower": "Cinderella",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Morto",
+    "quote": "Com o poder de Cinderella, posso remodelar a fisionomia e o destino amoroso de qualquer mulher.",
+    "techniques": [
+      "Remodelação Estética Facial e Corporal",
+      "Troca de Rosto Biológica"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/aya-tsuji.png"
+  },
+  {
+    "id": "hayato-kawajiri",
+    "name": "Hayato Kawajiri",
+    "gender": "Masculino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Grupo de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Nenhum",
+    "styleOrPower": "Inteligência e Coragem Sem Stand",
+    "debutArc": "Parte 4: Diamond is Unbreakable",
+    "status": "Vivo",
+    "quote": "Eu não sou usuário de Stand, mas não vou deixar esse assassino vencer!",
+    "techniques": [
+      "Dedução Lógica Genial",
+      "Gravação e Espionagem Doméstica"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/hayato-kawajiri.png"
+  },
+  {
+    "id": "giorno-giovanna",
+    "name": "Giorno Giovanna",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Equipe Bucciarati",
+      "Família Joestar"
+    ],
+    "origin": "Itália",
+    "stand": "Gold Experience",
+    "styleOrPower": "Gold Experience",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Vivo",
+    "quote": "Eu, Giorno Giovanna, tenho um sonho que sei ser justo!",
+    "techniques": [
+      "Criação de Vida Orgânica",
+      "Reflexo de Dano Vital",
+      "Cura de Tecidos e Órgãos",
+      "Gold Experience Requiem (Retorno ao Zero)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/giorno-giovanna.png"
+  },
+  {
+    "id": "bruno-bucciarati",
+    "name": "Bruno Bucciarati",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Equipe Bucciarati"
+    ],
+    "origin": "Itália",
+    "stand": "Sticky Fingers",
+    "styleOrPower": "Sticky Fingers",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Arrivederci! O seu destino foi selado no momento em que você traiu a confiança dos inocentes!",
+    "techniques": [
+      "Abertura de Zíperes em Qualquer Superfície",
+      "Desmembramento Tático sem Dano",
+      "Ari Ari Rush"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/bruno-bucciarati.png"
+  },
+  {
+    "id": "guido-mista",
+    "name": "Guido Mista",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Equipe Bucciarati"
+    ],
+    "origin": "Itália",
+    "stand": "Sex Pistols",
+    "styleOrPower": "Sex Pistols",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Vivo",
+    "quote": "Passe-a-passa! O número 4 dá um azar terrível, mas os Pistols nunca erram o alvo!",
+    "techniques": [
+      "Redirecionamento Balístico com Sex Pistols (1 a 7, sem o 4)",
+      "Tiro de Precisão Extrema"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/guido-mista.png"
+  },
+  {
+    "id": "narancia-ghirga",
+    "name": "Narancia Ghirga",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Equipe Bucciarati"
+    ],
+    "origin": "Itália",
+    "stand": "Aerosmith",
+    "styleOrPower": "Aerosmith",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Volare via! Bucciarati me deu um lar e uma razão para viver!",
+    "techniques": [
+      "Bombardeio Aéreo e Metralhadoras de Aerosmith",
+      "Rastreador de Dióxido de Carbono (Respiração)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/narancia-ghirga.png"
+  },
+  {
+    "id": "pannacotta-fugo",
+    "name": "Pannacotta Fugo",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Equipe Bucciarati"
+    ],
+    "origin": "Itália",
+    "stand": "Purple Haze",
+    "styleOrPower": "Purple Haze",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Vivo",
+    "quote": "As cápsulas de Purple Haze liberam um vírus carnívoro que liquefaz carne e ossos em 30 segundos!",
+    "techniques": [
+      "Vírus Carnívoro das Cápsulas das Mãos",
+      "Fúria Descontrolada"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/pannacotta-fugo.png"
+  },
+  {
+    "id": "leone-abbacchio",
+    "name": "Leone Abbacchio",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Equipe Bucciarati"
+    ],
+    "origin": "Itália",
+    "stand": "Moody Blues",
+    "styleOrPower": "Moody Blues",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Moody Blues rebobina o tempo e reproduz com exatidão cada movimento e palavra ocorrida no passado!",
+    "techniques": [
+      "Replay Cronológico de Passos e Ações",
+      "Gravação Facial e Corporal"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/leone-abbacchio.png"
+  },
+  {
+    "id": "trish-una",
+    "name": "Trish Una",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Equipe Bucciarati"
+    ],
+    "origin": "Itália",
+    "stand": "Spice Girl",
+    "styleOrPower": "Spice Girl",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Vivo",
+    "quote": "WANNABEEE! Spice Girl torna qualquer objeto inquebrável ao torná-lo macio como borracha!",
+    "techniques": [
+      "Amaciamento de Matéria tornando-a Elástica e Indestrutível"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/trish-una.png"
+  },
+  {
+    "id": "diavolo",
+    "name": "Diavolo",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Antagonistas Principais"
+    ],
+    "origin": "Itália",
+    "stand": "King Crimson",
+    "styleOrPower": "King Crimson",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "O tempo é apagado, e apenas os resultados permanecem! Ninguém pode escapar do clímax do destino!",
+    "techniques": [
+      "Apagamento Temporal (Salto no Tempo)",
+      "Previsão do Futuro Iminente com Epitaph",
+      "Golpe Perfurante Letal"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/diavolo.png"
+  },
+  {
+    "id": "vinegar-doppio",
+    "name": "Vinegar Doppio",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione"
+    ],
+    "origin": "Itália",
+    "stand": "Epitaph",
+    "styleOrPower": "Epitaph",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Tururururu... Alô, Chefe? É o Doppio!",
+    "techniques": [
+      "Previsão Visual de 10 Segundos com Epitaph",
+      "Braço Parcial de King Crimson"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/vinegar-doppio.png"
+  },
+  {
+    "id": "risotto-nero",
+    "name": "Risotto Nero",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "La Squadra Esecuzioni"
+    ],
+    "origin": "Itália",
+    "stand": "Metallica",
+    "styleOrPower": "Metallica",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Metallica manipula o ferro dentro do seu corpo, transformando seu próprio sangue em lâminas de barbear!",
+    "techniques": [
+      "Materialização de Ferro Orgânico Interno",
+      "Camuflagem Óptica por Partículas de Ferro"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/risotto-nero.png"
+  },
+  {
+    "id": "prosciutto",
+    "name": "Prosciutto",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "La Squadra Esecuzioni"
+    ],
+    "origin": "Itália",
+    "stand": "The Grateful Dead",
+    "styleOrPower": "The Grateful Dead",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Um verdadeiro homem não diz que vai matar; quando ele pensa nisso, o ato já está concluído!",
+    "techniques": [
+      "Envelhecimento Acelerado por Temperatura Corporal"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/prosciutto.png"
+  },
+  {
+    "id": "pesci",
+    "name": "Pesci",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "La Squadra Esecuzioni"
+    ],
+    "origin": "Itália",
+    "stand": "Beach Boy",
+    "styleOrPower": "Beach Boy",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Aniki me ensinou a ter determinação de aço! Beach Boy vai pescar seu coração!",
+    "techniques": [
+      "Linha e Anzol Intangíveis Através de Paredes",
+      "Sensoriamento de Batimentos Cardíacos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/pesci.png"
+  },
+  {
+    "id": "ghiaccio",
+    "name": "Ghiaccio",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "La Squadra Esecuzioni"
+    ],
+    "origin": "Itália",
+    "stand": "White Album",
+    "styleOrPower": "White Album",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Por que todo mundo fala \"Veneza\" em vez de \"Venezia\"?! Isso me deixa furioso!",
+    "techniques": [
+      "Armadura de Gelo Criogênico",
+      "Gently Weeps (Reflexo de Projéteis por Ar Congelado)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/ghiaccio.png"
+  },
+  {
+    "id": "illuso",
+    "name": "Illuso",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "La Squadra Esecuzioni"
+    ],
+    "origin": "Itália",
+    "stand": "Man in the Mirror",
+    "styleOrPower": "Man in the Mirror",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "No meu mundo dos espelhos, apenas eu decido quem e o que tem permissão para entrar!",
+    "techniques": [
+      "Arrasto Seletivo para a Dimensão dos Espelhos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/illuso.png"
+  },
+  {
+    "id": "melone",
+    "name": "Melone",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "La Squadra Esecuzioni"
+    ],
+    "origin": "Itália",
+    "stand": "Baby Face",
+    "styleOrPower": "Baby Face",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Molto bene! Os dados genéticos estão perfeitamente sincronizados!",
+    "techniques": [
+      "Geração de Homúnculo Rastreador Remoto",
+      "Decomposição de Matéria em Blocos Cúbicos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/melone.png"
+  },
+  {
+    "id": "formaggio",
+    "name": "Formaggio",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "La Squadra Esecuzioni"
+    ],
+    "origin": "Itália",
+    "stand": "Little Feet",
+    "styleOrPower": "Little Feet",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Um corte da lâmina de Little Feet é o suficiente para fazer você encolher até virar comida de rato!",
+    "techniques": [
+      "Encolhimento Progressivo de Alvos",
+      "Autoencolhimento Instantâneo"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/formaggio.png"
+  },
+  {
+    "id": "cioccolata",
+    "name": "Cioccolata",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Guarda de Elite"
+    ],
+    "origin": "Itália",
+    "stand": "Green Day",
+    "styleOrPower": "Green Day",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Bom garoto, Secco! O mofo de Green Day devora quem descer de altitude!",
+    "techniques": [
+      "Mofo Necrótico Devorador de Descida",
+      "Cirurgia de Desmembramento Vivo Autônomo"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/cioccolata.png"
+  },
+  {
+    "id": "secco",
+    "name": "Secco",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Passione",
+      "Guarda de Elite"
+    ],
+    "origin": "Itália",
+    "stand": "Oasis",
+    "styleOrPower": "Oasis",
+    "debutArc": "Parte 5: Golden Wind",
+    "status": "Morto",
+    "quote": "Cioccolata me dá cubinhos de açúcar! Eu nado pelo asfalto como se fosse lama líquida!",
+    "techniques": [
+      "Liquefação de Solo e Concreto",
+      "Natação Subterrânea e Cuspe Balístico de Pedra"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/secco.png"
+  },
+  {
+    "id": "jolyne-cujoh",
+    "name": "Jolyne Cujoh",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Joestar",
+      "Grupo da Prisão Green Dolphin Street"
+    ],
+    "origin": "EUA",
+    "stand": "Stone Free",
+    "styleOrPower": "Stone Free",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Yare yare dawa... Eu vou cortar as amarras desse destino injusto!",
+    "techniques": [
+      "Decomposição Corporal em Linhas",
+      "Ora Ora Rush",
+      "Transmissão de Som por Cordas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/jolyne-cujoh.png"
+  },
+  {
+    "id": "ermes-costello",
+    "name": "Ermes Costello",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo da Prisão Green Dolphin Street"
+    ],
+    "origin": "EUA",
+    "stand": "Kiss",
+    "styleOrPower": "Kiss",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Adesivos de Kiss! Quando retiro o selo, as duas cópias colidem e causam um impacto devastador!",
+    "techniques": [
+      "Duplicação de Objetos por Adesivos",
+      "Dano por Colisão ao Remover Adesivo"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/ermes-costello.png"
+  },
+  {
+    "id": "foo-fighters",
+    "name": "Foo Fighters (F.F.)",
+    "gender": "Sem Gênero",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo da Prisão Green Dolphin Street"
+    ],
+    "origin": "EUA",
+    "stand": "Foo Fighters",
+    "styleOrPower": "Foo Fighters",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Eu não sou apenas plâncton... Eu vivi, tive amigos e encontrei meu intelecto humano!",
+    "techniques": [
+      "Disparo Balístico de Plâncton pelos Dedos",
+      "Cura Celular de Ferimentos por Plâncton"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/foo-fighters.png"
+  },
+  {
+    "id": "weather-report",
+    "name": "Weather Report",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo da Prisão Green Dolphin Street"
+    ],
+    "origin": "EUA",
+    "stand": "Weather Report",
+    "styleOrPower": "Weather Report",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Heavy Weather... o arco-íris subliminar que faz qualquer ser vivo acreditar que é um caracol!",
+    "techniques": [
+      "Manipulação Climática e Atmosférica",
+      "Chuva de Sapos Venenosos",
+      "Heavy Weather (Caracóis Subliminares)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/weather-report.png"
+  },
+  {
+    "id": "narciso-anasui",
+    "name": "Narciso Anasui",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo da Prisão Green Dolphin Street"
+    ],
+    "origin": "EUA",
+    "stand": "Diver Down",
+    "styleOrPower": "Diver Down",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Diver Down mergulha na estrutura interna das coisas para reconfigurá-las ou absorver danos!",
+    "techniques": [
+      "Armazenamento de Energia de Impacto em Estruturas",
+      "Mergulho Corpóreo e Reconfiguração"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/narciso-anasui.png"
+  },
+  {
+    "id": "emporio-alnino",
+    "name": "Emporio Alniño",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Grupo da Prisão Green Dolphin Street"
+    ],
+    "origin": "EUA",
+    "stand": "Burning Down the House",
+    "styleOrPower": "Burning Down the House",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Vivo",
+    "quote": "Meu nome é Emporio... A justiça prevalecerá contra o falso paraíso de Pucci!",
+    "techniques": [
+      "Habitação e Interação com Objetos Fantasmas da Sala de Música Queimada",
+      "Oxigênio Puro de Weather Report"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/emporio-alnino.png"
+  },
+  {
+    "id": "enrico-pucci",
+    "name": "Enrico Pucci",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Antagonistas Principais"
+    ],
+    "origin": "EUA",
+    "stand": "Whitesnake",
+    "styleOrPower": "Whitesnake (C-MOON / Made in Heaven)",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "1, 2, 3, 5, 7, 11, 13... Contar números primos acalma a mente. Chegamos ao Paraíso!",
+    "techniques": [
+      "Whitesnake (Extração de Discos de Stand e Memória)",
+      "C-MOON (Gravidade Inversa Repulsiva)",
+      "Made in Heaven (Aceleração Universal Infinita)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/enrico-pucci.png"
+  },
+  {
+    "id": "donatello-versus",
+    "name": "Donatello Versus",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Filhos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Under World",
+    "styleOrPower": "Under World",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Under World escava as memórias do solo terrestre e reencena tragédias do passado!",
+    "techniques": [
+      "Escavação de Memórias do Subsolo",
+      "Recriação de Catástrofes Históricas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/donatello-versus.png"
+  },
+  {
+    "id": "rikiel",
+    "name": "Rikiel",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Filhos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Sky High",
+    "styleOrPower": "Sky High",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Eu comando os Rods, as misteriosas criaturas voadoras que drenam o calor dos nervos humanos!",
+    "techniques": [
+      "Controle de Rods Criptozoológicos",
+      "Drenagem de Temperatura e Paralisia de Órgãos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/rikiel.png"
+  },
+  {
+    "id": "ungalo",
+    "name": "Ungalo",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Filhos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Bohemian Rhapsody",
+    "styleOrPower": "Bohemian Rhapsody",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Aposentado",
+    "quote": "Todos os personagens de histórias de ficção e contos de fadas ganharam vida no mundo real!",
+    "techniques": [
+      "Materialização Mundial de Personagens Fictícios"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/ungalo.png"
+  },
+  {
+    "id": "johngalli-a",
+    "name": "Johngalli A.",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Discípulos de DIO"
+    ],
+    "origin": "EUA",
+    "stand": "Manhattan Transfer",
+    "styleOrPower": "Manhattan Transfer",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Mesmo cego, as correntes de ar revelam onde meu rifle deve disparar com perfeição.",
+    "techniques": [
+      "Rastreamento de Correntes de Ar",
+      "Redirecionamento de Tiros de Sniper"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/johngalli-a.png"
+  },
+  {
+    "id": "sports-maxx",
+    "name": "Sports Maxx",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Criminosos de Green Dolphin"
+    ],
+    "origin": "EUA",
+    "stand": "Limp Bizkit",
+    "styleOrPower": "Limp Bizkit",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Morto",
+    "quote": "Limp Bizkit ressuscita os mortos como zumbis completamente invisíveis!",
+    "techniques": [
+      "Ressurreição Zumbi Invisível"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/sports-maxx.png"
+  },
+  {
+    "id": "miraschon",
+    "name": "Miraschon",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Detentas de Green Dolphin"
+    ],
+    "origin": "EUA",
+    "stand": "Marilyn Manson",
+    "styleOrPower": "Marilyn Manson",
+    "debutArc": "Parte 6: Stone Ocean",
+    "status": "Aposentado",
+    "quote": "Quando você trapaceia em uma aposta, Marilyn Manson cobra o equivalente em órgãos e ouro!",
+    "techniques": [
+      "Cobrador de Apostas Inflexível de Órgãos Vitais"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/miraschon.png"
+  },
+  {
+    "id": "johnny-joestar",
+    "name": "Johnny Joestar",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Joestar",
+      "Corredores da Steel Ball Run"
+    ],
+    "origin": "EUA",
+    "stand": "Tusk",
+    "styleOrPower": "Tusk (ACT 1, 2, 3 e 4)",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Eu só quero recuperar minhas pernas... e o Spin me mostrou o caminho para recomeçar do zero!",
+    "techniques": [
+      "Tiro de Unhas Giratórias (ACT1/ACT2)",
+      "Vórtices de Rotação Espacial (ACT3)",
+      "Rotação Áurea Infinita (ACT4 - Chumimin!)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/johnny-joestar.png"
+  },
+  {
+    "id": "gyro-zeppeli",
+    "name": "Gyro Zeppeli",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Zeppeli",
+      "Corredores da Steel Ball Run"
+    ],
+    "origin": "Itália",
+    "stand": "Ball Breaker",
+    "styleOrPower": "Spin das Esferas de Aço (Ball Breaker)",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Nyo-ho! Lição 5, Johnny: O caminho mais curto foi na verdade um desvio!",
+    "techniques": [
+      "Rotação de Esferas de Aço",
+      "Retângulo Áureo dos Cavalos",
+      "Ball Breaker (Envelhecimento Celular Dimensional)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/gyro-zeppeli.png"
+  },
+  {
+    "id": "funny-valentine",
+    "name": "Funny Valentine",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Antagonistas Principais",
+      "Governo dos EUA"
+    ],
+    "origin": "EUA",
+    "stand": "Dirty Deeds Done Dirt Cheap",
+    "styleOrPower": "Dirty Deeds Done Dirt Cheap (D4C)",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Dojyaaa~n! O meu coração e minhas ações são absolutamente límpidos e pertencem à Justiça!",
+    "techniques": [
+      "D4C (Salto entre Dimensões Paralelas)",
+      "Substituição Corporal Instantânea",
+      "D4C Love Train (Redirecionamento de Misérias)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/funny-valentine.png"
+  },
+  {
+    "id": "diego-brando",
+    "name": "Diego Brando",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Corredores da Steel Ball Run"
+    ],
+    "origin": "Inglaterra",
+    "stand": "Scary Monsters",
+    "styleOrPower": "Scary Monsters",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Eu subirei ao topo desta sociedade podre a qualquer custo!",
+    "techniques": [
+      "Transformação em Dinossauro (Deinonychus)",
+      "Fossilização de Criaturas",
+      "THE WORLD de Outro Universo (Parar o Tempo)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/diego-brando.png"
+  },
+  {
+    "id": "hot-pants",
+    "name": "Hot Pants",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Corredores da Steel Ball Run"
+    ],
+    "origin": "EUA",
+    "stand": "Cream Starter",
+    "styleOrPower": "Cream Starter",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Cream Starter manipula carne orgânica em formato de spray para curar feridas ou sufocar oponentes.",
+    "techniques": [
+      "Spray de Carne Regenerativo e Ofensivo",
+      "Disfarce Facial com Carne"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/hot-pants.png"
+  },
+  {
+    "id": "mountain-tim",
+    "name": "Mountain Tim",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Corredores da Steel Ball Run"
+    ],
+    "origin": "EUA",
+    "stand": "Oh! Lonesome Me",
+    "styleOrPower": "Oh! Lonesome Me",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Eu viajo através das cordas do meu laço como partes do meu próprio corpo.",
+    "techniques": [
+      "Desmembramento e Transporte por Cordas de Laço"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/mountain-tim.png"
+  },
+  {
+    "id": "wekapipo",
+    "name": "Wekapipo",
+    "gender": "Masculino",
+    "species": "Usuário de Spin",
+    "affiliation": [
+      "Guarda Real Napolitana"
+    ],
+    "origin": "Itália",
+    "stand": "Nenhum",
+    "styleOrPower": "Wrecking Ball (Esferas de Aço Satélites)",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "As microesferas de Wrecking Ball causam ataxia do hemisfério esquerdo no cérebro do alvo!",
+    "techniques": [
+      "Wrecking Ball",
+      "Ataxia Sensorial do Lado Esquerdo"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/wekapipo.png"
+  },
+  {
+    "id": "ringo-roadagain",
+    "name": "Ringo Roadagain",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Gunslingers"
+    ],
+    "origin": "EUA",
+    "stand": "Mandom",
+    "styleOrPower": "Mandom",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Bem-vindo ao verdadeiro Mundo dos Homens. O ponteiro do meu relógio volta exatamente 6 segundos!",
+    "techniques": [
+      "Rebobinar o Tempo em 6 Segundos pelo Relógio de Pulso",
+      "Duelo Rápido com Revólver"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/ringo-roadagain.png"
+  },
+  {
+    "id": "blackmore",
+    "name": "Blackmore",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Agentes de Valentine"
+    ],
+    "origin": "EUA",
+    "stand": "Catch the Rainbow",
+    "styleOrPower": "Catch the Rainbow",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Perdoe-me, Senhor... As gotas de chuva congeladas no ar são o meu chão e as minhas lâminas.",
+    "techniques": [
+      "Caminhar sobre Gotas de Chuva",
+      "Gotas de Chuva como Lâminas Cortantes"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/blackmore.png"
+  },
+  {
+    "id": "lucy-steel",
+    "name": "Lucy Steel",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Organizadores da SBR"
+    ],
+    "origin": "EUA",
+    "stand": "Ticket to Ride",
+    "styleOrPower": "Ticket to Ride",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "Com apenas 14 anos, arrisquei minha vida pelo homem que amo e pelo futuro da nossa nação.",
+    "techniques": [
+      "Lágrimas de Lâmina de Vidro Divina",
+      "Conexão com o Cadáver Sagrado"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/lucy-steel.png"
+  },
+  {
+    "id": "steven-steel",
+    "name": "Steven Steel",
+    "gender": "Masculino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Organizadores da SBR"
+    ],
+    "origin": "EUA",
+    "stand": "Nenhum",
+    "styleOrPower": "Nenhuma",
+    "debutArc": "Parte 7: Steel Ball Run",
+    "status": "Morto",
+    "quote": "A Steel Ball Run é a maior corrida a cavalo que a humanidade já testemunhou!",
+    "techniques": [
+      "Organização e Logística Esportiva Continental"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/steven-steel.png"
+  },
+  {
+    "id": "josuke-higashikata-gappy",
+    "name": "Josuke Higashikata (Gappy)",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Higashikata",
+      "Família Joestar"
+    ],
+    "origin": "Japão",
+    "stand": "Soft & Wet",
+    "styleOrPower": "Soft & Wet",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Vivo",
+    "quote": "Quem sou eu? Minhas bolhas roubam algo do mundo: fricção, visão, som... e além com Go Beyond!",
+    "techniques": [
+      "Roubo de Propriedades Físicas por Bolhas de Sabão",
+      "Soft & Wet: Go Beyond (Fios Rotacionais Invisíveis que não existem)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/josuke-higashikata-gappy.png"
+  },
+  {
+    "id": "yasuho-hirose",
+    "name": "Yasuho Hirose",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Aliados de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Paisley Park",
+    "styleOrPower": "Paisley Park",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Vivo",
+    "quote": "Paisley Park nos guia através dos dispositivos eletrônicos pelo caminho mais seguro e correto!",
+    "techniques": [
+      "Navegação e Hackeamento por Dispositivos Digitais",
+      "Direcionamento de Escolhas Ótimas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/yasuho-hirose.png"
+  },
+  {
+    "id": "rai-mamezuku",
+    "name": "Rai Mamezuku",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Aliados de Morioh"
+    ],
+    "origin": "Japão",
+    "stand": "Dog Style",
+    "styleOrPower": "Dog Style",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Morto",
+    "quote": "O cultivo da fruta Locacaca e os segredos do Spin revelam a essência oculta do mundo.",
+    "techniques": [
+      "Desdobramento do Corpo em Tiras de Fita Espiral",
+      "Plantio e Botânica Avançada de Frutas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/rai-mamezuku.png"
+  },
+  {
+    "id": "norisuke-higashikata-iv",
+    "name": "Norisuke Higashikata IV",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Higashikata"
+    ],
+    "origin": "Japão",
+    "stand": "King Nothing",
+    "styleOrPower": "King Nothing",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Vivo",
+    "quote": "Pela proteção e longevidade da Família Higashikata, qualquer sacrifício de pai é válido.",
+    "techniques": [
+      "Rastreamento de Odores em Formato de Quebra-Cabeças de Cartas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/norisuke-higashikata-iv.png"
+  },
+  {
+    "id": "jobin-higashikata",
+    "name": "Jobin Higashikata",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Higashikata",
+      "Locacaca Organization"
+    ],
+    "origin": "Japão",
+    "stand": "Speed King",
+    "styleOrPower": "Speed King",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Morto",
+    "quote": "Todos os dias devem ser as férias de verão! Speed King acumula calor térmico em qualquer ponto!",
+    "techniques": [
+      "Acúmulo e Transferência de Calor Pontual Térmico"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/jobin-higashikata.png"
+  },
+  {
+    "id": "joshu-higashikata",
+    "name": "Joshu Higashikata",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Higashikata"
+    ],
+    "origin": "Japão",
+    "stand": "Nut King Call",
+    "styleOrPower": "Nut King Call",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Vivo",
+    "quote": "Nut King Call prende porcas e parafusos em juntas para soltar partes inteiras sem sangrar!",
+    "techniques": [
+      "Desmontagem e Junção de Articulações por Porcas e Parafusos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/joshu-higashikata.png"
+  },
+  {
+    "id": "daiya-higashikata",
+    "name": "Daiya Higashikata",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Higashikata"
+    ],
+    "origin": "Japão",
+    "stand": "California King Bed",
+    "styleOrPower": "California King Bed",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Vivo",
+    "quote": "Se você se preocupar comigo ou quebrar uma regra, uma lembrança sua vira minha peça de xadrez!",
+    "techniques": [
+      "Roubo de Memórias em Formato de Peças de Xadrez"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/daiya-higashikata.png"
+  },
+  {
+    "id": "hato-higashikata",
+    "name": "Hato Higashikata",
+    "gender": "Feminino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Família Higashikata"
+    ],
+    "origin": "Japão",
+    "stand": "Walking Heart",
+    "styleOrPower": "Walking Heart",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Vivo",
+    "quote": "Meus calcanhares se estendem como estacas perfurantes gigantes para escalar paredes e espetar inimigos!",
+    "techniques": [
+      "Extensão e Endurecimento dos Calcanhares como Lanças"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/hato-higashikata.png"
+  },
+  {
+    "id": "tooru",
+    "name": "Tooru",
+    "gender": "Masculino",
+    "species": "Rocha Humana",
+    "affiliation": [
+      "Antagonistas Principais",
+      "Locacaca Organization"
+    ],
+    "origin": "Japão",
+    "stand": "Wonder of U",
+    "styleOrPower": "Wonder of U",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Morto",
+    "quote": "Você pretendia me perseguir? O próprio fluxo do fluxo da Calamidade colidirá mortalmente contra você!",
+    "techniques": [
+      "Fluxo Inevitável da Calamidade Cósmica",
+      "Materialização Ilusória como Diretor Médico Satoru Akefu"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/tooru.png"
+  },
+  {
+    "id": "tamaki-damo",
+    "name": "Tamaki Damo",
+    "gender": "Masculino",
+    "species": "Rocha Humana",
+    "affiliation": [
+      "Locacaca Organization"
+    ],
+    "origin": "Japão",
+    "stand": "Vitamin C",
+    "styleOrPower": "Vitamin C",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Morto",
+    "quote": "Vitamin C derrete os tecidos de qualquer um que encoste em suas impressões digitais!",
+    "techniques": [
+      "Amolecimento e Liquefação de Tecidos Orgânicos por Impressões Digitais"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/tamaki-damo.png"
+  },
+  {
+    "id": "yotsuyu-yagiyama",
+    "name": "Yotsuyu Yagiyama",
+    "gender": "Masculino",
+    "species": "Rocha Humana",
+    "affiliation": [
+      "Locacaca Organization"
+    ],
+    "origin": "Japão",
+    "stand": "I Am a Rock",
+    "styleOrPower": "I Am a Rock",
+    "debutArc": "Parte 8: JoJolion",
+    "status": "Morto",
+    "quote": "Quando toco em alguém, múltiplos objetos do mesmo tipo convergem em velocidade mortal contra o alvo!",
+    "techniques": [
+      "Atração Magnética Balística de Múltiplos Objetos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/yotsuyu-yagiyama.png"
+  },
+  {
+    "id": "jodio-joestar",
+    "name": "Jodio Joestar",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Gangue de Jodio",
+      "Família Joestar"
+    ],
+    "origin": "EUA",
+    "stand": "November Rain",
+    "styleOrPower": "November Rain",
+    "debutArc": "Parte 9: The JOJOLands",
+    "status": "Vivo",
+    "quote": "Esta é a história de como eu me tornei podre de rico através do mecanismo do mundo!",
+    "techniques": [
+      "Chuva Pesada de Gotas com Pressão Esmagadora (November Rain)"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/jodio-joestar.png"
+  },
+  {
+    "id": "dragona-joestar",
+    "name": "Dragona Joestar",
+    "gender": "Sem Gênero",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Gangue de Jodio",
+      "Família Joestar"
+    ],
+    "origin": "EUA",
+    "stand": "Smooth Operators",
+    "styleOrPower": "Smooth Operators",
+    "debutArc": "Parte 9: The JOJOLands",
+    "status": "Vivo",
+    "quote": "Os pequenos tanques de Smooth Operators deslizam e deslocam coisas de lugar sem rasgar nada!",
+    "techniques": [
+      "Deslocamento e Reposicionamento de Superfícies com Lagartas Mecânicas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/dragona-joestar.png"
+  },
+  {
+    "id": "paco-laburantes",
+    "name": "Paco Laburantes",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Gangue de Jodio"
+    ],
+    "origin": "EUA",
+    "stand": "The Hustle",
+    "styleOrPower": "The Hustle",
+    "debutArc": "Parte 9: The JOJOLands",
+    "status": "Vivo",
+    "quote": "The Hustle permite que meus próprios músculos agarrem qualquer coisa como dedos extras!",
+    "techniques": [
+      "Preensão Muscular e Furto por Contração de Pele e Fibras"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/paco-laburantes.png"
+  },
+  {
+    "id": "usagi-alohaoe",
+    "name": "Usagi Alohaoe",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Gangue de Jodio"
+    ],
+    "origin": "EUA",
+    "stand": "THE MATTEKUDASAI",
+    "styleOrPower": "THE MATTEKUDASAI",
+    "debutArc": "Parte 9: The JOJOLands",
+    "status": "Vivo",
+    "quote": "THE MATTEKUDASAI se transforma em qualquer coisa que outra pessoa desejar que exista!",
+    "techniques": [
+      "Materialização de Desejos de Terceiros a partir de Objetos Existentes"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/usagi-alohaoe.png"
+  },
+  {
+    "id": "charming-man",
+    "name": "Charming Man",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "Gangue de Jodio"
+    ],
+    "origin": "EUA",
+    "stand": "Bigmouth Strikes Again",
+    "styleOrPower": "Bigmouth Strikes Again",
+    "debutArc": "Parte 9: The JOJOLands",
+    "status": "Vivo",
+    "quote": "Minha pele de areia se dissolve e camufla perfeitamente no ambiente para investigar o mistério das Rocha de Lava.",
+    "techniques": [
+      "Dispersão Cutânea em Grãos de Areia / Camuflagem Mímica"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/charming-man.png"
+  },
+  {
+    "id": "meryl-may-qi",
+    "name": "Meryl May Qi",
+    "gender": "Feminino",
+    "species": "Humano Comum",
+    "affiliation": [
+      "Gangue de Jodio"
+    ],
+    "origin": "EUA",
+    "stand": "Nenhum",
+    "styleOrPower": "Comandante de Operações Clandestinas",
+    "debutArc": "Parte 9: The JOJOLands",
+    "status": "Vivo",
+    "quote": "Eu sou diretora de escola de dia e a chefe que coordena os seus golpes de noite.",
+    "techniques": [
+      "Planejamento de Assaltos e Redes Clandestinas"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/meryl-may-qi.png"
+  },
+  {
+    "id": "bobby-jean",
+    "name": "Bobby Jean",
+    "gender": "Masculino",
+    "species": "Usuário de Stand",
+    "affiliation": [
+      "HOWLER"
+    ],
+    "origin": "EUA",
+    "stand": "Glory Days",
+    "styleOrPower": "Glory Days",
+    "debutArc": "Parte 9: The JOJOLands",
+    "status": "Vivo",
+    "quote": "Glory Days desacelera as balas no ar para que alcancem velocidade fatal de surpresa.",
+    "techniques": [
+      "Controle de Velocidade Balística em Disparos Silenciosos"
+    ],
+    "avatar": "/avatars/jojos-bizarre-adventure/bobby-jean.png"
+  }
+]

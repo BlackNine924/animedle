@@ -20,6 +20,7 @@ import recordOfRagnarokCharacters from './data/animes/record-of-ragnarok/charact
 import blueLockCharacters from './data/animes/blue-lock/characters.json';
 import bleachCharacters from './data/animes/bleach/characters.json';
 import dragonBallCharacters from './data/animes/dragon-ball/characters.json';
+import jojosBizarreAdventureCharacters from './data/animes/jojos-bizarre-adventure/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -45,6 +46,8 @@ export const App: React.FC = () => {
     ? bleachCharacters
     : currentAnimeSlug === 'dragon-ball'
     ? dragonBallCharacters
+    : currentAnimeSlug === 'jojos-bizarre-adventure'
+    ? jojosBizarreAdventureCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -177,6 +180,21 @@ export const App: React.FC = () => {
             });
           }
         });
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'jojos-bizarre-adventure') {
+      characters.forEach((c) => {
+        if (c.stand && c.stand !== 'Nenhum' && c.stand !== 'Nenhuma') {
+          items.push({
+            id: `${c.id}-stand`,
+            character: c,
+            abilityType: 'technique',
+            title: 'Nome do Stand',
+            text: c.stand,
+          });
+        }
       });
       return items;
     }
@@ -754,6 +772,8 @@ export const App: React.FC = () => {
                 <Zap size={18} style={{ color: animeConfig.themeColor }} />
                 {currentAnimeSlug === 'naruto'
                   ? 'A quem pertence este jutsu?'
+                  : currentAnimeSlug === 'jojos-bizarre-adventure'
+                  ? 'A quem pertence este Stand?'
                   : `A quem pertence esta ${currentAbilityItem.abilityType === 'domain' ? 'expansão de domínio' : 'técnica'}?`}
               </h3>
               
@@ -763,7 +783,13 @@ export const App: React.FC = () => {
                     ? 'bg-amber-500/15 border-amber-500/40 text-amber-300'
                     : 'bg-purple-500/15 border-purple-500/40 text-purple-300'
                 }`}>
-                  {currentAbilityItem.abilityType === 'domain' ? '🌌 Expansão de Domínio' : currentAnimeSlug === 'naruto' ? '🌀 Jutsu / Técnica' : `✨ ${currentAbilityItem.title}`}
+                  {currentAbilityItem.abilityType === 'domain'
+                    ? '🌌 Expansão de Domínio'
+                    : currentAnimeSlug === 'naruto'
+                    ? '🌀 Jutsu / Técnica'
+                    : currentAnimeSlug === 'jojos-bizarre-adventure'
+                    ? '⭐ Nome do Stand'
+                    : `✨ ${currentAbilityItem.title}`}
                 </span>
                 <p className="text-base sm:text-lg font-black text-white text-center mt-1">
                   "{currentAbilityItem.text}"

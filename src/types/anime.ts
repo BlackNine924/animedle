@@ -39,6 +39,8 @@ export interface Character {
   position?: string;
   // Bleach
   maxRelease?: string;
+  // JoJo
+  stand?: string;
 }
 
 export interface AttributeColumn {

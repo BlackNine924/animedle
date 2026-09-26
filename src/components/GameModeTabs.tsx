@@ -10,7 +10,7 @@ interface GameModeTabsProps {
 }
 
 export const GameModeTabs: React.FC<GameModeTabsProps> = ({ currentMode, onSelectMode, themeColor = '#dc2626', currentAnimeSlug }) => {
-  const abilityLabel = currentAnimeSlug === 'naruto' ? 'Jutsus' : 'Habilidade';
+  const abilityLabel = currentAnimeSlug === 'naruto' ? 'Jutsus' : currentAnimeSlug === 'jojos-bizarre-adventure' ? 'Stands' : 'Habilidade';
 
   let modes: { id: GameMode; label: string; icon: React.ReactNode }[] = [
     { id: 'classic', label: 'Clássico', icon: <Grid size={15} /> },

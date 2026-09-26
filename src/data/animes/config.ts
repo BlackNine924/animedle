@@ -263,8 +263,35 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#8b5cf6',
     accentColor: '#7c3aed',
     banner: '⭐',
-    columns: [],
-    arcs: []
+    logo: '/logo-jojos-bizarre-adventure.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Condição / Natureza', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'origin', label: 'Nacionalidade', type: 'exact' },
+      { key: 'stand', label: 'Stand', type: 'exact' },
+      { key: 'debutArc', label: 'Parte de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Parte 1: Phantom Blood',
+      'Parte 2: Battle Tendency',
+      'Parte 3: Stardust Crusaders',
+      'Parte 4: Diamond is Unbreakable',
+      'Parte 5: Golden Wind',
+      'Parte 6: Stone Ocean',
+      'Parte 7: Steel Ball Run',
+      'Parte 8: JoJolion',
+      'Parte 9: The JOJOLands'
+    ],
+    mangaCoverage: {
+      chapter: 'Parte 9 (The JOJOLands) em Lançamento',
+      status: 'Em Lançamento',
+      source: 'Ultra Jump / Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa cobrindo todas as 9 partes do mangá de Hirohiko Araki, de Phantom Blood ao lançamento contínuo de The JOJOLands.'
+    }
   },
   'jujutsu-kaisen': {
     slug: 'jujutsu-kaisen',
