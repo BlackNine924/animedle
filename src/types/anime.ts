@@ -43,6 +43,8 @@ export interface Character {
   stand?: string;
   // Dandadan
   powerNature?: string;
+  // Tensura
+  disasterRank?: string;
 }
 
 export interface AttributeColumn {

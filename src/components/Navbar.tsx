@@ -117,7 +117,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 {/* Lista de animes com rolagem isolada */}
                 <div className="overflow-y-auto custom-scrollbar py-1 flex-1">
                   {Object.values(ANIMES_CONFIG).map((anime) => {
-                    const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok' || anime.slug === 'blue-lock' || anime.slug === 'bleach' || anime.slug === 'dragon-ball' || anime.slug === 'jojos-bizarre-adventure' || anime.slug === 'dandadan';
+                    const isAvailable = anime.slug === 'demon-slayer' || anime.slug === 'jujutsu-kaisen' || anime.slug === 'one-piece' || anime.slug === 'naruto' || anime.slug === 'solo-leveling' || anime.slug === 'record-of-ragnarok' || anime.slug === 'blue-lock' || anime.slug === 'bleach' || anime.slug === 'dragon-ball' || anime.slug === 'jojos-bizarre-adventure' || anime.slug === 'dandadan' || anime.slug === 'tensei-shitara-slime-datta-ken';
                     const isSelected = anime.slug === currentAnimeSlug;
 
                     return (

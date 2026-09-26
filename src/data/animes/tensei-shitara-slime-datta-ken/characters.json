@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "rimuru-tempest",
+    "name": "Rimuru Tempest",
+    "gender": "Sem Gênero",
+    "species": "Slime / Lorde Demônio",
+    "affiliation": [
+      "Federação Jura Tempest",
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank Especial S (Catástrofe)",
+    "styleOrPower": "Beelzebuth & Raphael",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Eu não sou um slime mau! Mas se alguém tocar na minha família ou no meu povo, não restará nem poeira.",
+    "techniques": [
+      "Beelzebuth (Lorde da Gula)",
+      "Raphael (Senhor da Sabedoria)",
+      "Megiddo (Ira Divina)",
+      "Uriel (Senhor dos Votos)",
+      "Transformação Humana"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rimuru-tempest.png"
+  },
+  {
+    "id": "veldora-tempest",
+    "name": "Veldora Tempest",
+    "gender": "Sem Gênero",
+    "species": "Dragão Verdadeiro",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial S (Catástrofe)",
+    "styleOrPower": "Faust (Senhor da Investigação)",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Kwahahaha! Eu sou o lendário Dragão da Tempestade, Veldora! Temam e admirem minha magnificência!",
+    "techniques": [
+      "Faust (Senhor da Investigação)",
+      "Rugido da Tempestade Negra",
+      "Morte por Vento Cortante",
+      "Artes Secretas de Mangá de Veldora"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/veldora-tempest.png"
+  },
+  {
+    "id": "benimaru",
+    "name": "Benimaru",
+    "gender": "Masculino",
+    "species": "Kijin / Oni",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Amaterasu (Chama Solar) & Hell Flare",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Como comandante-geral do Lorde Rimuru, nenhuma força inimiga ultrapassará as fronteiras de Tempest!",
+    "techniques": [
+      "Amaterasu (Senhor da Chama Solar)",
+      "Hell Flare (Chama do Purgatório)",
+      "Dança da Lâmina Escarlate",
+      "Domínio Militar das Chamas"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/benimaru.png"
+  },
+  {
+    "id": "shuna",
+    "name": "Shuna",
+    "gender": "Feminino",
+    "species": "Kijin / Oni",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Analisador & Magia Sagrada",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Lorde Rimuru, suas roupas novas foram tecidas com as mais nobres sedas mágicas de Tempest!",
+    "techniques": [
+      "Analisador Mágico",
+      "Desintegração Espiritual Invertida",
+      "Barreira Sagrada de Seda",
+      "Controle de Matéria Prima"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shuna.png"
+  },
+  {
+    "id": "shion",
+    "name": "Shion",
+    "gender": "Feminino",
+    "species": "Kijin / Oni",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Susanoo & Cozinheiro",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Lorde Rimuru! Preparei este banquete especial com todo o meu amor e devoção!",
+    "techniques": [
+      "Susanoo (Senhor da Tirania)",
+      "Cozinheiro (Manipulação de Causalidade)",
+      "Corte da Espada Hércules",
+      "Regeneração Infinita"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shion.png"
+  },
+  {
+    "id": "souei",
+    "name": "Souei",
+    "gender": "Masculino",
+    "species": "Kijin / Oni",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Tsukuyomi & Fios Espirituais",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Nas sombras de Tempest, nenhum segredo escapa aos meus fios.",
+    "techniques": [
+      "Tsukuyomi (Senhor das Sombras)",
+      "Fios de Seda Decapitadores",
+      "Clone Sombra Perfeito",
+      "Interrogatório da Morte Indolor"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/souei.png"
+  },
+  {
+    "id": "hakuro",
+    "name": "Hakuro",
+    "gender": "Masculino",
+    "species": "Kijin / Oni",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Espada da Luz Fantasma",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "A espada não mente. Ela apenas reflete a determinação e o foco do seu coração.",
+    "techniques": [
+      "Corte da Flor da Lua (Crest Slash)",
+      "Espada da Luz Fantasma",
+      "Passo Vazio Instantâneo",
+      "Instrução Marcial de Ogro"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/hakuro.png"
+  },
+  {
+    "id": "kurobe",
+    "name": "Kurobe",
+    "gender": "Masculino",
+    "species": "Kijin / Oni",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank B ou Inferior",
+    "styleOrPower": "Forja Divina de Armas",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Cada golpe do meu martelo infunde magia e alma no mais puro metal de magisteel!",
+    "techniques": [
+      "Forja de Armas Divinas",
+      "Refino Supremo de Magisteel",
+      "Criação de Lâminas Lendárias"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kurobe.png"
+  },
+  {
+    "id": "ranga",
+    "name": "Ranga",
+    "gender": "Masculino",
+    "species": "Lobo da Tempestade",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Hastur & Relâmpago Negro da Morte",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Meu mestre! Ordenai e meus relâmpagos negros transformarão vossos inimigos em cinzas!",
+    "techniques": [
+      "Hastur (Senhor do Clima)",
+      "Relâmpago Negro da Morte",
+      "Corrida das Sombras Espirituais",
+      "Duplo Chifre Sísmico"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ranga.png"
+  },
+  {
+    "id": "gobta",
+    "name": "Gobta",
+    "gender": "Masculino",
+    "species": "Hobgoblin",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Invocação e Montaria de Lobo",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Eu sou um gênio incompreendido! Mestre Rimuru, viu o chute que eu dei naquele cara?!",
+    "techniques": [
+      "Invocação Sombra de Lobo",
+      "Chute Espalhafatoso",
+      "Falso Sono de Batalha",
+      "Fusão de Montaria de Lobo"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gobta.png"
+  },
+  {
+    "id": "rigurd",
+    "name": "Rigurd",
+    "gender": "Masculino",
+    "species": "Hobgoblin",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Liderança Tribal & Força Hobgoblin",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Em nome do Grande Lorde Rimuru, a administração de Tempest prosperará dia após dia!",
+    "techniques": [
+      "Grito de Comando Tribal",
+      "Poder Muscular de Rei Goblin",
+      "Administração Governamental Suprema"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rigurd.png"
+  },
+  {
+    "id": "geld",
+    "name": "Geld (Júnior)",
+    "gender": "Masculino",
+    "species": "Alto Orc",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Beelzebub & Muralha de Ferro",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Pelo meu povo e para pagar os erros do passado, meu escudo será a proteção inquebrável de Tempest.",
+    "techniques": [
+      "Beelzebub (Lorde Gourmet)",
+      "Muralha de Ferro Impenetrável",
+      "Punho Titânico de Construção",
+      "Guarda Sagrada de Magisteel"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/geld.png"
+  },
+  {
+    "id": "orc-disaster-geld",
+    "name": "Orc Disaster Geld (Sênior)",
+    "gender": "Masculino",
+    "species": "Lorde dos Orcs",
+    "affiliation": [
+      "Independente"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Fome Devoradora (Starved)",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Morto",
+    "quote": "Comam... devorem tudo... para que meu povo nunca mais passe fome!",
+    "techniques": [
+      "Fome Devoradora (Starved)",
+      "Cutelo Gigante da Fome",
+      "Regeneração por Canibalismo",
+      "Aura do Desastre Orc"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/orc-disaster-geld.png"
+  },
+  {
+    "id": "gabiru",
+    "name": "Gabiru",
+    "gender": "Masculino",
+    "species": "Dragonewt",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Mood Maker & Vórtice Aquático",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Gabiru! Gabiru! Ga-bi-ru! O guerreiro mais audaz sob as ordens do Lorde Rimuru!",
+    "techniques": [
+      "Mood Maker (Criador de Humor)",
+      "Vórtice da Lança do Dragão d'Água",
+      "Voo Dracônico",
+      "Cura com Poção de Hipokute"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gabiru.png"
+  },
+  {
+    "id": "souka",
+    "name": "Souka",
+    "gender": "Feminino",
+    "species": "Dragonewt",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Espionagem Sombra & Agilidade Dracônica",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Irmãozinho, pare de falar bobagens! Estamos a serviço do senhor Souei agora!",
+    "techniques": [
+      "Passo Sombra Rápido",
+      "Lâminas Ocultas de Voo",
+      "Infiltração e Rastreio Dracônico"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/souka.png"
+  },
+  {
+    "id": "diablo",
+    "name": "Diablo",
+    "gender": "Masculino",
+    "species": "Demônio Progenitor",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Azazel & Fim do Desespero",
+    "debutArc": "Arco do Despertar do Lorde Demônio",
+    "status": "Vivo",
+    "quote": "Kufufufu... Servir ao Lorde Rimuru é a maior honra concedida a mim em toda a eternidade.",
+    "techniques": [
+      "Azazel (Senhor da Tentação)",
+      "Fim do Desespero (End of Despair)",
+      "Troca de Morte e Destino",
+      "Ilusão Perfeita do Vazio"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/diablo.png"
+  },
+  {
+    "id": "zegion",
+    "name": "Zegion",
+    "gender": "Masculino",
+    "species": "Insectar",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Mephisto & Golpe Dimensional do Vazio",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Pelo Lorde Rimuru, o soberano que me deu vida e carne divina, destruirei qualquer intruso.",
+    "techniques": [
+      "Mephisto (Senhor da Ilusão)",
+      "Golpe Dimensional do Vazio",
+      "Carapaça Divina de Magisteel",
+      "Onda de Choque de Vácuo"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/zegion.png"
+  },
+  {
+    "id": "apito",
+    "name": "Apito",
+    "gender": "Feminino",
+    "species": "Insectar",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Ferrão Rainha & Produção de Mel Divino",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "O mel mais doce para o Lorde Rimuru, e o veneno mais amargo para quem desafiar Tempest!",
+    "techniques": [
+      "Ferrão Rainha Perfurante",
+      "Enxame Espiritual Ilusório",
+      "Produção de Mel Espiritual Divino"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/apito.png"
+  },
+  {
+    "id": "kumara",
+    "name": "Kumara",
+    "gender": "Feminino",
+    "species": "Fera Espiritual",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Oito Bestas Espirituais de Cauda",
+    "debutArc": "Arco de Walpurgis & O Banquete dos Lordes",
+    "status": "Vivo",
+    "quote": "Lorde Rimuru me libertou das correntes de Clayman. Minhas nove caudas o servirão para sempre!",
+    "techniques": [
+      "Invocação das Oito Bestas Míticas",
+      "Ilusão das Nove Caudas",
+      "Controle Gravitacional da Terra"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kumara.png"
+  },
+  {
+    "id": "adalman",
+    "name": "Adalman",
+    "gender": "Masculino",
+    "species": "Morto-Vivo",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Necromancia Sagrada & Reversão",
+    "debutArc": "Arco do Labirinto Subterrâneo",
+    "status": "Vivo",
+    "quote": "Oh, grande Deus Rimuru! Vosso servo Adalman purificará os hereges com milagres sagrados!",
+    "techniques": [
+      "Necromancia Sagrada Revertida",
+      "Desintegração Esquelética",
+      "Exército de Mortos-Vivos Sagrados"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/adalman.png"
+  },
+  {
+    "id": "albert",
+    "name": "Albert",
+    "gender": "Masculino",
+    "species": "Morto-Vivo",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Esgrima Sagrada da Morte",
+    "debutArc": "Arco do Labirinto Subterrâneo",
+    "status": "Vivo",
+    "quote": "Como a lâmina de Adalman e o paladino de Tempest, cortarei a carne e a alma dos invasores.",
+    "techniques": [
+      "Esgrima Fantasma Sagrada",
+      "Corte Flamejante da Morte",
+      "Defesa Imortal de Escudo"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/albert.png"
+  },
+  {
+    "id": "wenti",
+    "name": "Wenti",
+    "gender": "Feminino",
+    "species": "Dragão Morto-Vivo",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Sopro da Morte Corrosivo",
+    "debutArc": "Arco do Labirinto Subterrâneo",
+    "status": "Vivo",
+    "quote": "*rugido draconiano etéreo ecoando pelos andares profundos do labirinto*",
+    "techniques": [
+      "Sopro de Névoa Corrosiva da Morte",
+      "Garras de Vento Fantasmagórico",
+      "Escamas de Trevas Abissais"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/wenti.png"
+  },
+  {
+    "id": "beretta",
+    "name": "Beretta",
+    "gender": "Sem Gênero",
+    "species": "Majin",
+    "affiliation": [
+      "Federação Jura Tempest",
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Deus Ex Machina & Corpo de Aço Divino",
+    "debutArc": "Arco de Ingracia & Alunos de Shizu",
+    "status": "Vivo",
+    "quote": "Fui criado pelo Lorde Rimuru para guardar a mestra Ramiris. Jamais falharei com meus dois criadores.",
+    "techniques": [
+      "Deus Ex Machina",
+      "Metamorfose Líquida de Magisteel",
+      "Reversão Polar Elemental"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/beretta.png"
+  },
+  {
+    "id": "treyni",
+    "name": "Treyni",
+    "gender": "Feminino",
+    "species": "Dríade",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Vórtice de Folhas & Bênção da Floresta",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Lorde Rimuru, como administradora da Floresta de Jura, reconheço vossa autoridade divina.",
+    "techniques": [
+      "Vórtice Dilacerante de Folhas",
+      "Invocação de Silfides",
+      "Bênção da Árvore Sagrada",
+      "Batata Frita Divina"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/treyni.png"
+  },
+  {
+    "id": "testarossa",
+    "name": "Testarossa",
+    "gender": "Feminino",
+    "species": "Demônio Progenitor",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Belial & Chama da Morte Branca",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Vivo",
+    "quote": "A diplomacia é uma arte refinada... e se falhar, as chamas brancas resolverão tudo com elegância.",
+    "techniques": [
+      "Belial (Senhor do Submundo)",
+      "Chama da Morte Branca (White Flare)",
+      "Controle Mental Supremo",
+      "Cortejo Fúnebre da Morte"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/testarossa.png"
+  },
+  {
+    "id": "ultima",
+    "name": "Ultima",
+    "gender": "Feminino",
+    "species": "Demônio Progenitor",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Samael & Veneno Divino Mortal",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Vivo",
+    "quote": "Ehehe! Vamos brincar um pouquinho? Prometo que meu veneno só queima até a última gota de sangue!",
+    "techniques": [
+      "Samael (Senhor do Veneno)",
+      "Veneno Divino Necrótico",
+      "Explosão Tóxica do Caos",
+      "Chicote Sombrio de Sangue"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ultima.png"
+  },
+  {
+    "id": "carrera",
+    "name": "Carrera",
+    "gender": "Feminino",
+    "species": "Demônio Progenitor",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Abaddon & Colapso Gravitacional",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Vivo",
+    "quote": "Disparar magia de destruição em massa é o meu passatempo favorito! Abram alas para a justiça de Tempest!",
+    "techniques": [
+      "Abaddon (Senhor da Extinção)",
+      "Colapso Gravitacional (Gravitation Collapse)",
+      "Disparo Nuclear da Morte",
+      "Canhão de Destruição Dimensional"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrera.png"
+  },
+  {
+    "id": "moss",
+    "name": "Moss",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Divisão Espiritual & Coleta de Informações",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Vivo",
+    "quote": "Como servo da Senhora Testarossa, cada partícula de poeira neste continente reportará a mim.",
+    "techniques": [
+      "Divisão em Milhões de Clones Espirituais",
+      "Rede de Inteligência do Vazio",
+      "Lâminas Demoníacas Ágeis"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/moss.png"
+  },
+  {
+    "id": "veyron",
+    "name": "Veyron",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Mímica Marcial & Servidão Demoníaca",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Vivo",
+    "quote": "Atender aos caprichos da jovem Senhora Ultima exige um mordomo de habilidades impecáveis.",
+    "techniques": [
+      "Mímica Marcial Perfeita",
+      "Artes Marciais Demoníacas",
+      "Barreira Protetora de Mordomo"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/veyron.png"
+  },
+  {
+    "id": "esprit",
+    "name": "Esprit",
+    "gender": "Feminino",
+    "species": "Demônio",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Magia Espacial & Bombardeio Mágico",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Vivo",
+    "quote": "Seguir a Senhora Carrera nunca é entediante, sempre há algo para explodir pelos ares!",
+    "techniques": [
+      "Bombardeio Mágico Concentrado",
+      "Distorção Espacial Veloz",
+      "Lanças Mágicas Roxas"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/esprit.png"
+  },
+  {
+    "id": "guy-crimson",
+    "name": "Guy Crimson",
+    "gender": "Masculino",
+    "species": "Demônio Progenitor",
+    "affiliation": [
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank Especial S (Catástrofe)",
+    "styleOrPower": "Lucifer (Senhor do Orgulho)",
+    "debutArc": "Arco de Walpurgis & O Banquete dos Lordes",
+    "status": "Vivo",
+    "quote": "Eu sou o ápice de todos os demônios. O árbitro que impede este mundo de se autodestruir.",
+    "techniques": [
+      "Lucifer (Senhor do Orgulho)",
+      "Abismo sem Fim",
+      "Cópia Absoluta de Habilidades",
+      "Espada Vermelha da Aniquilação"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/guy-crimson.png"
+  },
+  {
+    "id": "milim-nava",
+    "name": "Milim Nava",
+    "gender": "Feminino",
+    "species": "Dragonoid",
+    "affiliation": [
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank Especial S (Catástrofe)",
+    "styleOrPower": "Satanael & Drago Nova",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Rimuru é o meu melhor amigo! Quem mexer com o meu melhor amigo vai levar um Drago Nova na cara!",
+    "techniques": [
+      "Satanael (Senhor da Ira)",
+      "Drago Nova (Poeira Estelar Divina)",
+      "Modo de Batalha Dragonoid",
+      "Olho do Dragão Analítico"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/milim-nava.png"
+  },
+  {
+    "id": "ramiris",
+    "name": "Ramiris",
+    "gender": "Feminino",
+    "species": "Fada Sagrada",
+    "affiliation": [
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Labirinto Sem Fim (Small World)",
+    "debutArc": "Arco de Ingracia & Alunos de Shizu",
+    "status": "Vivo",
+    "quote": "Eu sou a rainha das fadas e uma das fundadoras dos Lordes Demônios! Respeitem a minha altura!",
+    "techniques": [
+      "Labirinto Sem Fim (Small World)",
+      "Criação de Dimensões Espirituais",
+      "Ressurreição Garantida no Labirinto"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ramiris.png"
+  },
+  {
+    "id": "luminous-valentine",
+    "name": "Luminous Valentine",
+    "gender": "Feminino",
+    "species": "Vampiro",
+    "affiliation": [
+      "Império Sagrado de Lubelios",
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Asmodeus & Abraço da Vida e Morte",
+    "debutArc": "Arco de Walpurgis & O Banquete dos Lordes",
+    "status": "Vivo",
+    "quote": "Ajoelhem-se perante o seu verdadeiro Deus! Apenas aqueles sob a minha proteção viverão em paz.",
+    "techniques": [
+      "Asmodeus (Senhora da Luxúria)",
+      "Abraço da Vida e da Morte",
+      "Santuário Sagrado de Sangue",
+      "Ressurreição Vampírica"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/luminous-valentine.png"
+  },
+  {
+    "id": "leon-cromwell",
+    "name": "Leon Cromwell",
+    "gender": "Masculino",
+    "species": "Humano (Santo)",
+    "affiliation": [
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Metatron (Senhor da Pureza)",
+    "debutArc": "Arco de Ingracia & Alunos de Shizu",
+    "status": "Vivo",
+    "quote": "Chamem-me de Lorde Demônio ou Herói, não importa. Meu objetivo através dos séculos nunca mudou.",
+    "techniques": [
+      "Metatron (Senhor da Pureza)",
+      "Desintegração Sagrada do Sol",
+      "Espada de Platina da Luz",
+      "Purificação por Radiação Sagrada"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/leon-cromwell.png"
+  },
+  {
+    "id": "dagruel",
+    "name": "Dagruel",
+    "gender": "Masculino",
+    "species": "Gigante",
+    "affiliation": [
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Fúria Sísmica & Força Titânica",
+    "debutArc": "Arco de Walpurgis & O Banquete dos Lordes",
+    "status": "Vivo",
+    "quote": "O peso da terra e a fúria das tempestades repousam nos punhos do povo gigante.",
+    "techniques": [
+      "Fúria Sísmica Titânica",
+      "Imunidade Mágica Absoluta",
+      "Esmagamento Continental",
+      "Corpo de Rocha Indestrutível"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dagruel.png"
+  },
+  {
+    "id": "dino",
+    "name": "Dino",
+    "gender": "Masculino",
+    "species": "Anjo Caído",
+    "affiliation": [
+      "Octagrama (Lordes Demônios)"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Sloth (Preguiça) & Astarte",
+    "debutArc": "Arco de Walpurgis & O Banquete dos Lordes",
+    "status": "Vivo",
+    "quote": "Ahhh, que sono... Por que as pessoas trabalham tanto se dormir é a melhor coisa que existe?",
+    "techniques": [
+      "Sloth (Senhor da Preguiça)",
+      "Astarte (Senhor da Criação)",
+      "Lâmina da Queda Celestial",
+      "Sonolência Paralisante"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dino.png"
+  },
+  {
+    "id": "carrion",
+    "name": "Carion",
+    "gender": "Masculino",
+    "species": "Homem-Fera",
+    "affiliation": [
+      "Reino Bestial de Eurazania"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Rugido Bestial & Metamorfose do Leão",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "O Rei das Feras nunca recua diante de uma batalha digna de sangue e honra!",
+    "techniques": [
+      "Metamorfose do Leão Real",
+      "Rugido Bestial Supersônico",
+      "Garras de Relâmpago Animal"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrion.png"
+  },
+  {
+    "id": "frey",
+    "name": "Frey",
+    "gender": "Feminino",
+    "species": "Harpia",
+    "affiliation": [
+      "Independente"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Garras Supersônicas & Domínio Aéreo",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Nos céus abertos, ninguém é mais veloz ou implacável do que a rainha das harpias.",
+    "techniques": [
+      "Garras Supersônicas Cortantes",
+      "Mergulho Aéreo Mortal",
+      "Turbilhão de Penas de Aço"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/frey.png"
+  },
+  {
+    "id": "clayman",
+    "name": "Clayman",
+    "gender": "Masculino",
+    "species": "Majin",
+    "affiliation": [
+      "Aliança dos Palhaços Moderados"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Marionetista (Puppeteer)",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Morto",
+    "quote": "Tudo acontece conforme o meu roteiro impecável! Dançai sob os meus fios invisíveis!",
+    "techniques": [
+      "Marionetista (Puppeteer)",
+      "Canhão Demoníaco de Sangue",
+      "Manipulação de Marionetes Vivas"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/clayman.png"
+  },
+  {
+    "id": "yuuki-kagurazaka",
+    "name": "Yuuki Kagurazaka",
+    "gender": "Masculino",
+    "species": "Humano (Outromundista)",
+    "affiliation": [
+      "Guilda Livre / Ingracia"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Criador (Creator) & Antihabilidade",
+    "debutArc": "Arco de Ingracia & Alunos de Shizu",
+    "status": "Vivo",
+    "quote": "Este mundo é um jogo tedioso. Eu só quero remodelá-lo de acordo com as minhas regras.",
+    "techniques": [
+      "Criador (Creator)",
+      "Antihabilidade Avareza",
+      "Roubo de Energia Mágica",
+      "Luta Armada de Espadas e Punhos"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/yuuki-kagurazaka.png"
+  },
+  {
+    "id": "laplace",
+    "name": "Laplace",
+    "gender": "Masculino",
+    "species": "Majin",
+    "affiliation": [
+      "Aliança dos Palhaços Moderados"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Ilusões Explosivas & Odisseia do Louco",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Um palhaço ri mesmo quando está chorando por dentro... mas nunca subestime o meu espetáculo!",
+    "techniques": [
+      "Odisseia do Louco",
+      "Ilusões Explosivas de Cartas",
+      "Truque de Fuga Teatral",
+      "Garras Cortantes de Palhaço"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/laplace.png"
+  },
+  {
+    "id": "tear",
+    "name": "Tear",
+    "gender": "Feminino",
+    "species": "Majin",
+    "affiliation": [
+      "Aliança dos Palhaços Moderados"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Bombas de Pesar & Evasão Teatral",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Buaaa! Por que todo mundo é tão mau com a gente? Vou explodir vocês todinhos!",
+    "techniques": [
+      "Bombas Mágicas de Pesar",
+      "Salto Acrobático Sorrateiro",
+      "Voo com Asas Mecânicas"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/tear.png"
+  },
+  {
+    "id": "footman",
+    "name": "Footman",
+    "gender": "Masculino",
+    "species": "Majin",
+    "affiliation": [
+      "Aliança dos Palhaços Moderados"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Corpo Esmagador & Salto Devastador",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Hahaha! Vou esmagar tudo até virar pasta! O show nunca termina!",
+    "techniques": [
+      "Corpo Esmagador Pesado",
+      "Salto Devastador Explosivo",
+      "Impacto de Massa Crítica"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/footman.png"
+  },
+  {
+    "id": "mariabell-rosso",
+    "name": "Mariabell Rosso",
+    "gender": "Feminino",
+    "species": "Humano (Outromundista)",
+    "affiliation": [
+      "Independente"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Ganância (Greed) & Controle Mental",
+    "debutArc": "Arco do Festival de Fundação de Tempest",
+    "status": "Morto",
+    "quote": "O mundo inteiro gira em torno da ganância. Todos os homens não passam de instrumentos para a minha família.",
+    "techniques": [
+      "Ganância (Greed)",
+      "Lavagem Cerebral Hipnótica",
+      "Manipulação Econômica das Sombras"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/mariabell-rosso.png"
+  },
+  {
+    "id": "granbell-rosso",
+    "name": "Granbell Rosso",
+    "gender": "Masculino",
+    "species": "Humano (Santo)",
+    "affiliation": [
+      "Independente"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Esperança (Sariel) & Chama Sagrada",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Morto",
+    "quote": "Para garantir a sobrevivência e supremacia da humanidade, sacrificarei até mesmo a minha própria alma.",
+    "techniques": [
+      "Esperança (Sariel)",
+      "Espada de Chamas Sagradas",
+      "Desintegração Solar"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/granbell-rosso.png"
+  },
+  {
+    "id": "hinata-sakaguchi",
+    "name": "Hinata Sakaguchi",
+    "gender": "Feminino",
+    "species": "Humano (Outromundista / Santo)",
+    "affiliation": [
+      "Império Sagrado de Lubelios"
+    ],
+    "disasterRank": "Rank S (Desastre)",
+    "styleOrPower": "Usurper & Desintegração Sagrada",
+    "debutArc": "Arco do Despertar do Lorde Demônio",
+    "status": "Vivo",
+    "quote": "Monstros são monstros. Não me importo com palavras mansas se você representa uma ameaça aos inocentes.",
+    "techniques": [
+      "Usurper (Usurpador)",
+      "Sete Golpes Arco-Íris (Dead End Rainbow)",
+      "Desintegração Sagrada (Sanctuary Disintegration)",
+      "Espada Rapieira Moonlight"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/hinata-sakaguchi.png"
+  },
+  {
+    "id": "roy-valentin",
+    "name": "Roy Valentin",
+    "gender": "Masculino",
+    "species": "Vampiro",
+    "affiliation": [
+      "Império Sagrado de Lubelios"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Garras de Sangue Vampíricas",
+    "debutArc": "Arco de Walpurgis & O Banquete dos Lordes",
+    "status": "Morto",
+    "quote": "Sou o substituto da Senhora Luminous. Qualquer insolência será punida com sangue!",
+    "techniques": [
+      "Garras de Sangue Vampírico",
+      "Névoa Sombria de Evasão",
+      "Canino Dilacerante"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/roy-valentin.png"
+  },
+  {
+    "id": "louis-valentin",
+    "name": "Louis Valentin",
+    "gender": "Masculino",
+    "species": "Vampiro",
+    "affiliation": [
+      "Império Sagrado de Lubelios"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Milagres Divinos & Barreira Sagrada",
+    "debutArc": "Arco do Confronto Santo-Monstro",
+    "status": "Vivo",
+    "quote": "Como Papa do Império de Lubelios, conduzo o rebanho sob as bênçãos secretas de Nossa Deusa.",
+    "techniques": [
+      "Milagres Divinos da Deusa",
+      "Barreira Sacra Antimonstro",
+      "Manipulação Espiritual da Fé"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/louis-valentin.png"
+  },
+  {
+    "id": "arnaud-bauman",
+    "name": "Arnaud Bauman",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Império Sagrado de Lubelios"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Espada Sagrada do Éter",
+    "debutArc": "Arco do Confronto Santo-Monstro",
+    "status": "Vivo",
+    "quote": "Como capitão dos Cavaleiros Santos e segundo após a Comandante Hinata, purificarei este local!",
+    "techniques": [
+      "Espada Sagrada do Éter",
+      "Corte Triplo Divino",
+      "Encantamento de Luz Celestial"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/arnaud-bauman.png"
+  },
+  {
+    "id": "velgrynd",
+    "name": "Velgrynd",
+    "gender": "Feminino",
+    "species": "Dragão Verdadeiro",
+    "affiliation": [
+      "Império Oriental"
+    ],
+    "disasterRank": "Rank Especial S (Catástrofe)",
+    "styleOrPower": "Raguel (Chamas Cardeais Aceleradoras)",
+    "debutArc": "Arco da Conspiração dos Rosso & Donzelas Demoníacas",
+    "status": "Vivo",
+    "quote": "Por Rudra e pelo Império, minhas chamas queimarão os próprios conceitos do universo!",
+    "techniques": [
+      "Raguel (Senhora da Caridade)",
+      "Chamas Cardeais Aceleradoras",
+      "Incinerar Dimensional",
+      "Sopro de Fogo Dracônico Infinito"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/velgrynd.png"
+  },
+  {
+    "id": "velzard",
+    "name": "Velzard",
+    "gender": "Feminino",
+    "species": "Dragão Verdadeiro",
+    "affiliation": [
+      "Independente"
+    ],
+    "disasterRank": "Rank Especial S (Catástrofe)",
+    "styleOrPower": "Gabriel (Prisão de Gelo Eterno)",
+    "debutArc": "Arco de Walpurgis & O Banquete dos Lordes",
+    "status": "Vivo",
+    "quote": "O gelo absoluto não é apenas ausência de calor, é a paralisação eterna de toda a vida.",
+    "techniques": [
+      "Gabriel (Senhora da Paciência)",
+      "Prisão de Gelo Eterno",
+      "Nevasca Zero Absoluto",
+      "Desaceleração Molecular"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/velzard.png"
+  },
+  {
+    "id": "chloe-aubert",
+    "name": "Chloe Aubert",
+    "gender": "Feminino",
+    "species": "Humano (Outromundista / Santo)",
+    "affiliation": [
+      "Independente",
+      "Império Sagrado de Lubelios"
+    ],
+    "disasterRank": "Rank Especial S (Catástrofe)",
+    "styleOrPower": "Yog-Sothoth (Senhor do Espaço-Tempo)",
+    "debutArc": "Arco de Ingracia & Alunos de Shizu",
+    "status": "Vivo",
+    "quote": "Rimuru-sensei... não importa quantas linhas do tempo eu precise atravessar, eu sempre salvarei você.",
+    "techniques": [
+      "Yog-Sothoth (Senhor do Espaço-Tempo)",
+      "Viagem Temporal Dimensional",
+      "Corte do Fim Temporal",
+      "Lâmina da Luz Espacial"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/chloe-aubert.png"
+  },
+  {
+    "id": "shizue-izawa",
+    "name": "Shizue Izawa",
+    "gender": "Feminino",
+    "species": "Humano (Outromundista)",
+    "affiliation": [
+      "Guilda Livre / Ingracia"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Ifrit (Chamas Devoradoras)",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Morto",
+    "quote": "Rimuru... por favor, devore meu corpo e deixe-me descansar em paz dentro de você.",
+    "techniques": [
+      "Invocação de Ifrit",
+      "Chamas Negras Devoradoras",
+      "Muralha de Chamas Espirituais",
+      "Máscara da Resistência Mágica"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shizue-izawa.png"
+  },
+  {
+    "id": "gazel-dwargo",
+    "name": "Gazel Dwargo",
+    "gender": "Masculino",
+    "species": "Anão",
+    "affiliation": [
+      "Reino Armado de Dwargon"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Espada da Terra Inabalável",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Um rei não governa pela força bruta, mas pelo compromisso inabalável com a justiça de seu povo.",
+    "techniques": [
+      "Espada da Terra Inabalável",
+      "Olho de Falcão Revelador",
+      "Endurecimento Corporal de Ferro",
+      "Arte Sagrada dos Anões"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gazel-dwargo.png"
+  },
+  {
+    "id": "kaijin",
+    "name": "Kaijin",
+    "gender": "Masculino",
+    "species": "Anão",
+    "affiliation": [
+      "Federação Jura Tempest"
+    ],
+    "disasterRank": "Rank B ou Inferior",
+    "styleOrPower": "Engenharia e Armaria Superior",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Seja uma espada de magisteel ou uma cidade inteira, construirei com a melhor técnica de Dwargon!",
+    "techniques": [
+      "Forja Mestre de Magisteel",
+      "Engenharia de Estruturas Élficas",
+      "Armaria Protetora de Elite"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kaijin.png"
+  },
+  {
+    "id": "youm-farmenas",
+    "name": "Youm Farmenas",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Farmenas"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Golpe Decapitador de Espada Longa",
+    "debutArc": "Arco do Ataque dos Ogros & Lorde dos Orcs",
+    "status": "Vivo",
+    "quote": "Eu era apenas um líder de bando qualquer... mas o Lorde Rimuru acreditou em mim e me tornou um rei.",
+    "techniques": [
+      "Golpe Decapitador de Espada Longa",
+      "Comando de Tropas de Infantaria",
+      "Investida de Cavaleiro Campeão"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/youm-farmenas.png"
+  },
+  {
+    "id": "myuran",
+    "name": "Myuran (Mjur)",
+    "gender": "Feminino",
+    "species": "Majin",
+    "affiliation": [
+      "Reino de Farmenas"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Magia Antipartículas & Feitiçaria",
+    "debutArc": "Arco do Despertar do Lorde Demônio",
+    "status": "Vivo",
+    "quote": "Meu coração pertence a Youm, e minha lealdade para sempre ao senhor Rimuru por nos salvar.",
+    "techniques": [
+      "Barreira de Antipartículas Mágicas",
+      "Encantamento de Ilusão Sombra",
+      "Feitiçaria Esotérica de Marionete"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/myuran.png"
+  },
+  {
+    "id": "masayuki-honjou",
+    "name": "Masayuki Honjou",
+    "gender": "Masculino",
+    "species": "Humano (Outromundista)",
+    "affiliation": [
+      "Guilda Livre / Ingracia",
+      "Império Oriental"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Chosen One (Sorte & Carisma Heroico)",
+    "debutArc": "Arco do Festival de Fundação de Tempest",
+    "status": "Vivo",
+    "quote": "Socorro! Eu só queria passar despercebido, como foi que virei o Herói mais famoso do mundo?!",
+    "techniques": [
+      "Chosen One (O Escolhido)",
+      "Carisma Heroico Absoluto",
+      "Inspirar Coragem nos Aliados",
+      "Sorte Inexplicável em Batalha"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/masayuki-honjou.png"
+  },
+  {
+    "id": "albis",
+    "name": "Albis",
+    "gender": "Feminino",
+    "species": "Homem-Fera",
+    "affiliation": [
+      "Reino Bestial de Eurazania"
+    ],
+    "disasterRank": "Rank Especial A (Calamidade)",
+    "styleOrPower": "Transformação em Serpente Celestial",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Como líder dos Três Mosqueteiros de Eurazania, minhas toxinas paralisarão qualquer adversário.",
+    "techniques": [
+      "Transformação em Serpente Celestial",
+      "Névoa Tóxica Paralisante",
+      "Constrição de Escamas Douradas"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/albis.png"
+  },
+  {
+    "id": "suphia",
+    "name": "Suphia",
+    "gender": "Feminino",
+    "species": "Homem-Fera",
+    "affiliation": [
+      "Reino Bestial de Eurazania"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Garras de Tigre Branco",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Vamos ver quem morde mais forte! Um combate corpo a corpo é a linguagem que eu mais entendo!",
+    "techniques": [
+      "Garras Despedaçadoras de Tigre",
+      "Bote Felino da Garra Branca",
+      "Rugido Feral de Impacto"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/suphia.png"
+  },
+  {
+    "id": "phobio",
+    "name": "Phobio",
+    "gender": "Masculino",
+    "species": "Homem-Fera",
+    "affiliation": [
+      "Reino Bestial de Eurazania"
+    ],
+    "disasterRank": "Rank A (Perigo)",
+    "styleOrPower": "Salto Felino de Pantera",
+    "debutArc": "Arco do Rei das Feras & Charybdis",
+    "status": "Vivo",
+    "quote": "Cometi erros por arrogância no passado, mas agora honrarei o Rei Carion com a minha vida!",
+    "techniques": [
+      "Salto Veloz de Pantera Negra",
+      "Lança Cortante Bestial",
+      "Carga Ofensiva Voraz"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/phobio.png"
+  },
+  {
+    "id": "eren",
+    "name": "Eren",
+    "gender": "Feminino",
+    "species": "Elfo",
+    "affiliation": [
+      "Guilda Livre / Ingracia",
+      "Dinastia Feiticeira de Sarion"
+    ],
+    "disasterRank": "Rank B ou Inferior",
+    "styleOrPower": "Feitiços Elementais de Suporte",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Rimuru! Eu conheço uma lenda antiga de um dragão e uma garotinha que se tornou lorde demônio...",
+    "techniques": [
+      "Feitiços de Vento e Fogo",
+      "Magia Básica de Cura",
+      "Lendas Ancestrais de Sarion"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/eren.png"
+  },
+  {
+    "id": "kabal",
+    "name": "Kabal",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Livre / Ingracia"
+    ],
+    "disasterRank": "Rank B ou Inferior",
+    "styleOrPower": "Investida de Escudo Pesado",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Deixa comigo! Meu escudo aguenta qualquer... opa, corre pessoal!",
+    "techniques": [
+      "Investida de Escudo Pesado",
+      "Grito de Provocação",
+      "Golpe Defensivo de Infantaria"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kabal.png"
+  },
+  {
+    "id": "gido",
+    "name": "Gido",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Guilda Livre / Ingracia"
+    ],
+    "disasterRank": "Rank B ou Inferior",
+    "styleOrPower": "Adagas Furtivas & Desarme de Armadilhas",
+    "debutArc": "Arco de Estabelecimento na Floresta de Jura",
+    "status": "Vivo",
+    "quote": "Armadilhas e fechaduras são a minha especialidade! Só não me façam lutar na linha de frente!",
+    "techniques": [
+      "Ataque Furtivo com Adaga",
+      "Desarme de Armadilhas Mecânicas",
+      "Passo Leve de Gatuno"
+    ],
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gido.png"
+  }
+]

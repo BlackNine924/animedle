@@ -622,8 +622,36 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#0ea5e9',
     accentColor: '#0284c7',
     banner: '💧',
-    columns: [],
-    arcs: []
+    logo: '/logo-tensei-shitara-slime-datta-ken.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Raça', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Nação', type: 'array' },
+      { key: 'disasterRank', label: 'Rank de Desastre', type: 'exact' },
+      { key: 'styleOrPower', label: 'Habilidade / Ultimate Skill', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco de Estabelecimento na Floresta de Jura',
+      'Arco do Ataque dos Ogros & Lorde dos Orcs',
+      'Arco do Rei das Feras & Charybdis',
+      'Arco de Ingracia & Alunos de Shizu',
+      'Arco do Despertar do Lorde Demônio',
+      'Arco de Walpurgis & O Banquete dos Lordes',
+      'Arco do Confronto Santo-Monstro',
+      'Arco do Festival de Fundação de Tempest',
+      'Arco do Labirinto Subterrâneo',
+      'Arco da Conspiração dos Rosso & Donzelas Demoníacas'
+    ],
+    mangaCoverage: {
+      chapter: '146',
+      status: 'Em Lançamento',
+      source: 'Monthly Shōnen Sirius (Kodansha)',
+      officialPublisher: 'Kodansha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica cobrindo desde o renascimento de Rimuru na Caverna Selada (Capítulo 1) até o clímax da conspiração dos Rosso e os preparativos contra o Império Oriental (Capítulo 146).'
+    }
   },
   'tokyo-ghoul': {
     slug: 'tokyo-ghoul',
