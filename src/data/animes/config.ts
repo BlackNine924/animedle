@@ -260,8 +260,8 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'jojos-bizarre-adventure',
     title: "JoJo's Bizarre Adventure",
     subtitle: 'Hirohiko Araki',
-    themeColor: '#8b5cf6',
-    accentColor: '#7c3aed',
+    themeColor: '#D946EF',
+    accentColor: '#C026D3',
     banner: '⭐',
     logo: '/logo-jojos-bizarre-adventure.png',
     columns: [
