@@ -26,6 +26,7 @@ import tenseiShitaraSlimeCharacters from './data/animes/tensei-shitara-slime-dat
 import attackOnTitanCharacters from './data/animes/attack-on-titan/characters.json';
 import blackCloverCharacters from './data/animes/black-clover/characters.json';
 import berserkCharacters from './data/animes/berserk/characters.json';
+import chainsawManCharacters from './data/animes/chainsaw-man/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -63,6 +64,8 @@ export const App: React.FC = () => {
     ? blackCloverCharacters
     : currentAnimeSlug === 'berserk'
     ? berserkCharacters
+    : currentAnimeSlug === 'chainsaw-man'
+    ? chainsawManCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -321,6 +324,32 @@ export const App: React.FC = () => {
 
             items.push({
               id: `${c.id}-berserk-power-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: badgeTitle,
+              text: tech,
+            });
+          }
+        });
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'chainsaw-man') {
+      characters.forEach((c) => {
+        const techList = (c.techniques && c.techniques.length > 0) ? c.techniques : (c.styleOrPower ? [c.styleOrPower] : []);
+        techList.forEach((tech, idx) => {
+          if (tech && tech !== 'Nenhum' && tech !== 'Nenhuma') {
+            const isPrimalOrHorseman = tech.includes('Primordial') || tech.includes('Apocalipse') || tech.includes('Herói do Inferno') || tech.includes('Bang') || tech.includes('Trevas') || tech.includes('Controle') || tech.includes('Guerra') || tech.includes('Fome') || tech.includes('Morte') || tech.includes('Queda') || tech.includes('Escuridão') || tech.includes('Envelhecimento');
+            const isHybrid = tech.includes('Chainsaw') || tech.includes('Motosserra') || tech.includes('Bomba') || tech.includes('Katana') || tech.includes('Lança-Chamas') || tech.includes('Espada') || tech.includes('Lança') || tech.includes('Chicote') || tech.includes('Besta');
+            const badgeTitle = isPrimalOrHorseman
+              ? 'Demônio Primordial / Quatro Cavaleiros'
+              : isHybrid
+              ? 'Poder Híbrido / Arma Humana'
+              : 'Poder Demoníaco / Contrato';
+
+            items.push({
+              id: `${c.id}-csm-power-${idx}`,
               character: c,
               abilityType: 'technique',
               title: badgeTitle,

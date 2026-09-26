@@ -186,11 +186,41 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'chainsaw-man',
     title: 'Chainsaw Man',
     subtitle: 'Tatsuki Fujimoto',
-    themeColor: '#ea580c',
-    accentColor: '#c2410c',
+    themeColor: '#EA580C',
+    accentColor: '#C2410C',
     banner: '🪚',
-    columns: [],
-    arcs: []
+    logo: '/logo-chainsaw-man.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Natureza', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Organização', type: 'array' },
+      { key: 'rank', label: 'Ocupação / Cargo', type: 'exact' },
+      { key: 'styleOrPower', label: 'Demônio / Contrato / Arma', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco do Demônio Zumbi & Morcego',
+      'Arco do Demônio da Eternidade',
+      'Arco do Katana Man',
+      'Arco da Garota Bomba',
+      'Arco dos Assassinos Internacionais',
+      'Arco do Demônio da Arma de Fogo',
+      'Arco do Demônio do Controle',
+      'Arco da Guerra & Justiça',
+      'Arco do Aquário',
+      'Arco do Demônio da Queda',
+      'Arco da Igreja do Chainsaw Man',
+      'Arco da Detenção & Demônio do Envelhecimento'
+    ],
+    mangaCoverage: {
+      chapter: '195',
+      status: 'Em Lançamento',
+      source: 'Weekly Shōnen Jump / Shōnen Jump+ (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica de Tatsuki Fujimoto cobrindo a Parte 1 (Saga da Segurança Pública, Capítulos 1 ao 97) e a Parte 2 (Saga da Academia, Capítulos 98 ao 195+).'
+    }
   },
   'dandadan': {
     slug: 'dandadan',
