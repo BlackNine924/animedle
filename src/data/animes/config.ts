@@ -285,12 +285,12 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Parte 9: The JOJOLands'
     ],
     mangaCoverage: {
-      chapter: 'Parte 9 (The JOJOLands) em Lançamento',
+      chapter: '22 (The JOJOLands)',
       status: 'Em Lançamento',
       source: 'Ultra Jump / Weekly Shōnen Jump (Shueisha)',
       officialPublisher: 'Shueisha',
       lastUpdated: 'Setembro / 2026',
-      notes: 'Obra canônica completa cobrindo todas as 9 partes do mangá de Hirohiko Araki, de Phantom Blood ao lançamento contínuo de The JOJOLands.'
+      notes: 'Obra canônica cobrindo as Partes 1 a 8 completas (Capítulos 1 a 957) e a Parte 9 (The JOJOLands) atualizada até o Capítulo 22 (confronto contra a HOWLER Company, Lulu, Bobby Jean e Ningbo), totalizando 979 capítulos.'
     }
   },
   'jujutsu-kaisen': {

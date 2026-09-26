@@ -251,7 +251,15 @@ export function evaluateGuess(
       const gClean = gStr.trim().toLowerCase();
       const tClean = tStr.trim().toLowerCase();
 
-      const isMatch = gClean === tClean;
+      // Normalização de sinônimos idênticos (ex: EUA e Estados Unidos)
+      const normalizeSynonyms = (val: string) => {
+        if (val === 'eua' || val === 'estados unidos' || val === 'estados unidos da américa' || val === 'usa') {
+          return 'estados unidos';
+        }
+        return val;
+      };
+
+      const isMatch = gClean === tClean || normalizeSynonyms(gClean) === normalizeSynonyms(tClean);
 
       const genericValues = ['nenhum', 'nenhuma', 'n/a', 'humano', 'masculino', 'feminino'];
       const isPartialStatus =
