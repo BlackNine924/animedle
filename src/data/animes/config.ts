@@ -350,11 +350,43 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     slug: 'fairy-tail',
     title: 'Fairy Tail',
     subtitle: 'Hiro Mashima',
-    themeColor: '#ec4899',
-    accentColor: '#db2777',
+    themeColor: '#DC2626',
+    accentColor: '#991B1B',
     banner: '👆',
-    columns: [],
-    arcs: []
+    logo: '/logo-fairy-tail.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Linhagem', type: 'exact' },
+      { key: 'affiliation', label: 'Guilda / Afiliação', type: 'array' },
+      { key: 'rank', label: 'Posto / Título', type: 'exact' },
+      { key: 'styleOrPower', label: 'Magia / Habilidade', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco Macao & Daybreak',
+      'Arco Lullaby',
+      'Arco Ilha Galuna',
+      'Arco Phantom Lord',
+      'Arco Torre do Paraíso',
+      'Arco Batalha da Fairy Tail',
+      'Arco Oración Seis',
+      'Arco Edolas',
+      'Arco Ilha Tenrou',
+      'Arco Grandes Jogos Mágicos',
+      'Arco Vila do Sol',
+      'Arco Tartaros',
+      'Arco Avatar',
+      'Arco Império Alvarez'
+    ],
+    mangaCoverage: {
+      chapter: 545,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Magazine (Kodansha)',
+      officialPublisher: 'Kodansha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa de Hiro Mashima (Capítulos 1 ao 545, 63 volumes), desde o início até a derrota final de Zeref e Acnologia na Guerra de Alvarez.'
+    }
   },
   'frieren': {
     slug: 'frieren',

@@ -27,6 +27,7 @@ import attackOnTitanCharacters from './data/animes/attack-on-titan/characters.js
 import blackCloverCharacters from './data/animes/black-clover/characters.json';
 import berserkCharacters from './data/animes/berserk/characters.json';
 import chainsawManCharacters from './data/animes/chainsaw-man/characters.json';
+import fairyTailCharacters from './data/animes/fairy-tail/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -66,6 +67,8 @@ export const App: React.FC = () => {
     ? berserkCharacters
     : currentAnimeSlug === 'chainsaw-man'
     ? chainsawManCharacters
+    : currentAnimeSlug === 'fairy-tail'
+    ? fairyTailCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
@@ -350,6 +353,32 @@ export const App: React.FC = () => {
 
             items.push({
               id: `${c.id}-csm-power-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: badgeTitle,
+              text: tech,
+            });
+          }
+        });
+      });
+      return items;
+    }
+
+    if (currentAnimeSlug === 'fairy-tail') {
+      characters.forEach((c) => {
+        const techList = (c.techniques && c.techniques.length > 0) ? c.techniques : (c.styleOrPower ? [c.styleOrPower] : []);
+        techList.forEach((tech, idx) => {
+          if (tech && tech !== 'Nenhum' && tech !== 'Nenhuma') {
+            const isDragonSlayerOrSupreme = tech.includes('Dragão') || tech.includes('Dragon') || tech.includes('Fairy Law') || tech.includes('Fairy Glitter') || tech.includes('Fairy Sphere') || tech.includes('Ars Magia') || tech.includes('Universe One') || tech.includes('Deus Sema') || tech.includes('Sema') || tech.includes('Iced Shell');
+            const isDemonOrCurse = tech.includes('Maldição') || tech.includes('Demon') || tech.includes('Demônio') || tech.includes('Etherious') || tech.includes('Memento Mori') || tech.includes('Ankhseram');
+            const badgeTitle = isDragonSlayerOrSupreme
+              ? 'Magia de Dragon Slayer / Grande Magia das Fadas'
+              : isDemonOrCurse
+              ? 'Maldição Demoníaca / Magia Negra de Zeref'
+              : 'Magia / Feitiço Especial';
+
+            items.push({
+              id: `${c.id}-ft-magic-${idx}`,
               character: c,
               abilityType: 'technique',
               title: badgeTitle,
