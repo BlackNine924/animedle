@@ -1,6 +1,7 @@
 import React from 'react';
 import { Gamepad2, ArrowRight } from 'lucide-react';
 import { AnimeConfig } from '../../types/anime';
+import { FranchiseEmblem } from '../FranchiseEmblem';
 
 interface AnimeCardProps {
   anime: AnimeConfig;
@@ -14,90 +15,87 @@ export const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onSelect, modesCoun
   return (
     <div
       onClick={() => onSelect(anime.slug)}
-      className="group relative flex items-center gap-3.5 p-3 sm:p-3.5 rounded-2xl bg-[#0d1527]/80 hover:bg-[#111c34] border border-[#202b43] transition-all duration-300 shadow-lg cursor-pointer overflow-hidden select-none hover:-translate-y-0.5 hover:shadow-2xl"
+      className="group relative flex items-stretch h-[126px] sm:h-[132px] rounded-2xl bg-gradient-to-r from-[#0c1426] to-[#0a0f1d] transition-all duration-300 cursor-pointer overflow-hidden select-none"
       style={{
-        boxShadow: '0 4px 20px -2px rgba(0, 0, 0, 0.4)',
+        border: `1.5px solid ${anime.themeColor}90`,
+        boxShadow: `0 6px 20px -3px rgba(0, 0, 0, 0.6), 0 0 14px -2px ${anime.themeColor}28`,
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.borderColor = `${anime.themeColor}90`;
-        e.currentTarget.style.boxShadow = `0 10px 28px -4px ${anime.themeColor}30`;
+        e.currentTarget.style.borderColor = anime.themeColor;
+        e.currentTarget.style.boxShadow = `0 12px 30px -4px ${anime.themeColor}55, 0 0 24px -2px ${anime.themeColor}45`;
+        e.currentTarget.style.transform = 'translateY(-3px)';
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.borderColor = '#202b43';
-        e.currentTarget.style.boxShadow = '0 4px 20px -2px rgba(0, 0, 0, 0.4)';
+        e.currentTarget.style.borderColor = `${anime.themeColor}90`;
+        e.currentTarget.style.boxShadow = `0 6px 20px -3px rgba(0, 0, 0, 0.6), 0 0 14px -2px ${anime.themeColor}28`;
+        e.currentTarget.style.transform = 'translateY(0px)';
       }}
     >
-      {/* Glow sutil no fundo ao passar o mouse */}
+      {/* Glow de fundo no hover */}
       <div
-        className="absolute -right-8 -top-8 w-28 h-28 rounded-full blur-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300 pointer-events-none"
+        className="absolute -right-6 -bottom-6 w-32 h-32 rounded-full blur-2xl opacity-10 group-hover:opacity-30 transition-opacity duration-300 pointer-events-none"
         style={{ backgroundColor: anime.themeColor }}
       />
 
-      {/* Avatar do Personagem (Esquerda) */}
-      <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 bg-[#090d18] border border-white/10 shadow-inner group-hover:scale-105 transition-transform duration-300">
+      {/* Lado Esquerdo: Arte do Personagem com Sangria Total (100% de altura) */}
+      <div className="relative w-[36%] sm:w-[38%] min-w-[95px] max-w-[125px] flex-shrink-0 h-full overflow-hidden bg-[#070b14]">
         <img
           src={coverUrl}
           alt={anime.title}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
           loading="lazy"
           onError={(e) => {
-            // Fallback caso imagem não exista
             if (anime.logo) {
               e.currentTarget.src = anime.logo;
               e.currentTarget.className = 'w-full h-full object-contain p-2';
             }
           }}
         />
-        <div
-          className="absolute inset-0 border-2 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
-          style={{ borderColor: `${anime.themeColor}60` }}
-        />
+        {/* Gradiente suave na borda direita da imagem para fusão orgânica com o painel de texto */}
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-[#0a0f1d]/90 pointer-events-none" />
       </div>
 
-      {/* Detalhes do Anime (Direita) */}
-      <div className="flex-1 min-w-0 flex flex-col justify-between h-full py-0.5">
+      {/* Lado Direito: Informações e Ação */}
+      <div className="flex-1 min-w-0 p-3 sm:p-3.5 flex flex-col justify-between h-full z-10">
         <div>
+          {/* Título e Emblema Oficial da Franquia */}
           <div className="flex items-center gap-2 mb-1">
-            {anime.logo ? (
-              <img src={anime.logo} alt="" className="w-4 h-4 object-contain flex-shrink-0" />
-            ) : (
-              <span className="text-sm flex-shrink-0">{anime.banner}</span>
-            )}
+            <FranchiseEmblem slug={anime.slug} size={18} className="flex-shrink-0" />
             <h3 className="text-sm sm:text-base font-extrabold text-white tracking-tight truncate group-hover:text-slate-100">
               {anime.title}
             </h3>
           </div>
 
-          <div className="flex items-center gap-1.5 text-xs text-slate-400 font-medium">
-            <Gamepad2 size={13} className="text-slate-500" />
+          {/* Contador de Modos */}
+          <div className="flex items-center gap-1.5 text-xs text-slate-400 font-medium ml-0.5">
+            <Gamepad2 size={12} className="text-slate-500" />
             <span>{modesCount} {modesCount === 1 ? 'modo' : 'modos'}</span>
           </div>
         </div>
 
-        {/* Botão Jogar */}
-        <div className="mt-2.5">
+        {/* Botão Largo Outline com Cor Temática */}
+        <div className="mt-2 w-full">
           <button
             onClick={(e) => {
               e.stopPropagation();
               onSelect(anime.slug);
             }}
-            className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold text-white transition-all duration-200 border"
+            className="w-full flex items-center justify-center gap-1.5 py-1.5 px-3 rounded-xl text-xs font-black text-white transition-all duration-200 border shadow-sm group-hover:shadow-md active:scale-95"
             style={{
-              backgroundColor: `${anime.themeColor}18`,
-              borderColor: `${anime.themeColor}70`,
-              color: '#ffffff',
+              backgroundColor: `${anime.themeColor}15`,
+              borderColor: `${anime.themeColor}95`,
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.backgroundColor = `${anime.themeColor}40`;
               e.currentTarget.style.borderColor = anime.themeColor;
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = `${anime.themeColor}18`;
-              e.currentTarget.style.borderColor = `${anime.themeColor}70`;
+              e.currentTarget.style.backgroundColor = `${anime.themeColor}15`;
+              e.currentTarget.style.borderColor = `${anime.themeColor}95`;
             }}
           >
             <span>Jogar</span>
-            <ArrowRight size={13} className="group-hover:translate-x-0.5 transition-transform" />
+            <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
       </div>

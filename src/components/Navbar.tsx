@@ -47,14 +47,17 @@ export const Navbar: React.FC<NavbarProps> = ({
     });
   }, []);
 
-  // Atualiza o favicon dinamicamente com base no anime selecionado
+  const isHome = currentView === 'home';
+  const activeLogo = isHome ? '/logo.png' : (currentAnime.logo || '/logo.png');
+  const activeColor = isHome ? '#3b82f6' : currentAnime.themeColor;
+
+  // Atualiza o favicon dinamicamente com base na visualização / anime selecionado
   useEffect(() => {
-    const logoUrl = currentAnime.logo || '/logo-demon-slayer.png';
     const faviconLink: HTMLLinkElement | null = document.querySelector("link[rel*='icon']");
     if (faviconLink) {
-      faviconLink.href = logoUrl;
+      faviconLink.href = activeLogo;
     }
-  }, [currentAnime]);
+  }, [activeLogo]);
 
   return (
     <header className="sticky top-0 z-40 bg-[#0d1426]/90 backdrop-blur-xl border-b border-[#202b43]">
@@ -70,9 +73,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="relative w-9 h-9 flex items-center justify-center flex-shrink-0">
               <AnimatePresence mode="wait">
                 <motion.img
-                  key={currentAnime.slug}
-                  src={currentAnime.logo || '/logo-demon-slayer.png'}
-                  alt={`${currentAnime.title} Logo`}
+                  key={isHome ? 'home-logo' : currentAnime.slug}
+                  src={activeLogo}
+                  alt="AnimeDLE Logo"
                   initial={{ opacity: 0, scale: 0.88 }}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.88 }}
@@ -84,11 +87,11 @@ export const Navbar: React.FC<NavbarProps> = ({
             <h1 className="text-xl font-black tracking-tight text-white flex items-center gap-0.5">
               Anime
               <motion.span
-                key={currentAnime.slug}
+                key={isHome ? 'home-dle' : currentAnime.slug}
                 initial={{ opacity: 0.7 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.2 }}
-                style={{ color: currentAnime.themeColor }}
+                style={{ color: activeColor }}
               >
                 DLE
               </motion.span>
@@ -99,8 +102,8 @@ export const Navbar: React.FC<NavbarProps> = ({
           <button
             onClick={onGoHome}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all shadow-sm active:scale-95 ${
-              currentView === 'home'
-                ? 'bg-indigo-600 text-white shadow-indigo-600/30 border border-indigo-500'
+              isHome
+                ? 'bg-blue-600 text-white shadow-blue-600/30 border border-blue-500'
                 : 'bg-[#111a2d] hover:bg-[#16223b] border border-[#202b43] text-slate-300 hover:text-white'
             }`}
           >

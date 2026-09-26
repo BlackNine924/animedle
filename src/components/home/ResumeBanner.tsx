@@ -34,7 +34,7 @@ export const ResumeBanner: React.FC<ResumeBannerProps> = ({ onContinue }) => {
 
   // Se for novo jogador ou não tiver jogado recentemente, usa o Destaque do Dia (Opção A)
   const isNewPlayer = !activeSlug || progressGuessesCount === 0;
-  const displaySlug = activeSlug || 'dragon-ball';
+  const displaySlug = activeSlug || 'jujutsu-kaisen';
   const displayAnime = ANIMES_CONFIG[displaySlug] || ANIMES_CONFIG['demon-slayer'];
 
   const modeLabels: Record<string, string> = {
@@ -50,23 +50,24 @@ export const ResumeBanner: React.FC<ResumeBannerProps> = ({ onContinue }) => {
   const coverUrl = `/card-covers/${displaySlug}.png`;
 
   return (
-    <div className="w-full max-w-4xl mx-auto my-4 sm:my-6 px-4">
+    <div className="w-full max-w-4xl mx-auto my-4 sm:my-5 px-4 z-20 relative">
       <div
-        className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0d152a] via-[#111c38] to-[#0d152a] border border-[#26375c] p-4 sm:p-5 shadow-2xl transition-all duration-300 hover:border-indigo-500/60"
+        className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0c142b] via-[#101a36] to-[#0c142b] p-3.5 sm:p-4 shadow-2xl transition-all duration-300"
         style={{
-          boxShadow: '0 8px 32px -4px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05)',
+          border: '1.5px solid #3b82f6',
+          boxShadow: '0 8px 32px -4px rgba(0, 0, 0, 0.7), 0 0 20px -2px rgba(59, 130, 246, 0.35)',
         }}
       >
         {/* Glow de fundo */}
         <div
-          className="absolute -left-12 -top-12 w-48 h-48 rounded-full blur-3xl opacity-20 pointer-events-none"
-          style={{ backgroundColor: isNewPlayer ? '#6366f1' : displayAnime.themeColor }}
+          className="absolute -left-10 -top-10 w-48 h-48 rounded-full blur-3xl opacity-25 pointer-events-none"
+          style={{ backgroundColor: '#3b82f6' }}
         />
 
         <div className="relative z-10 flex flex-col sm:flex-row items-center justify-between gap-4">
           {/* Lado Esquerdo: Capa + Textos */}
           <div className="flex items-center gap-3.5 sm:gap-4 w-full sm:w-auto">
-            <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden flex-shrink-0 bg-[#090d18] border border-white/10 shadow-md">
+            <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden flex-shrink-0 bg-[#070b14] border border-blue-500/40 shadow-lg">
               <img
                 src={coverUrl}
                 alt={displayAnime.title}
@@ -82,16 +83,16 @@ export const ResumeBanner: React.FC<ResumeBannerProps> = ({ onContinue }) => {
             </div>
 
             <div className="min-w-0">
-              <div className="flex items-center gap-1.5 text-xs font-bold text-indigo-400 mb-0.5">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-sky-400 mb-0.5">
                 {isNewPlayer ? (
                   <>
-                    <Sparkles size={13} className="text-indigo-400" />
+                    <Sparkles size={13} className="text-sky-400" />
                     <span>Destaque do Dia</span>
                   </>
                 ) : (
                   <>
-                    <Clock size={13} className="text-cyan-400" />
-                    <span className="text-cyan-400">Continuar jogando</span>
+                    <Clock size={13} className="text-sky-400" />
+                    <span>Continuar jogando</span>
                   </>
                 )}
               </div>
@@ -112,13 +113,13 @@ export const ResumeBanner: React.FC<ResumeBannerProps> = ({ onContinue }) => {
             </div>
           </div>
 
-          {/* Lado Direito: Botão Continuar */}
+          {/* Lado Direito: Botão Sólido Azul/Índigo */}
           <div className="w-full sm:w-auto flex-shrink-0">
             <button
               onClick={() => onContinue(displaySlug, lastMode)}
-              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white font-extrabold px-6 py-2.5 rounded-xl shadow-lg shadow-indigo-600/30 transition-all duration-200 active:scale-95 text-sm"
+              className="w-full sm:w-auto flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-500 hover:from-blue-500 hover:to-indigo-500 text-white font-black px-6 py-2.5 rounded-xl shadow-lg shadow-blue-600/40 transition-all duration-200 active:scale-95 text-sm"
             >
-              <Play size={15} fill="currentColor" />
+              <Play size={14} fill="currentColor" />
               <span>{isNewPlayer ? 'Jogar Agora' : 'Continuar'}</span>
             </button>
           </div>
