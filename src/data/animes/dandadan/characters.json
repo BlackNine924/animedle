@@ -615,26 +615,6 @@
     "avatar": "/avatars/dandadan/guardiao-gelo-fogo.png"
   },
   {
-    "id": "entidade-seis-maldicoes",
-    "name": "Entidade das Seis Maldições",
-    "gender": "Sem Gênero",
-    "species": "Youkai / Espírito",
-    "affiliation": [
-      "Independente"
-    ],
-    "powerNature": "Sobrenatural (Espírito/Youkai)",
-    "styleOrPower": "Hexalogia de Maldições Antigas",
-    "debutArc": "Arco das Seis Maldições",
-    "status": "Vivo",
-    "quote": "Seis pragas foram seladas na escuridão. Quando os selos caírem, a calamidade consumirá o Japão.",
-    "techniques": [
-      "Primeira Praga da Decadência",
-      "Segunda Praga da Desolação",
-      "Selos de Maldição Ancestral"
-    ],
-    "avatar": "/avatars/dandadan/entidade-seis-maldicoes.png"
-  },
-  {
     "id": "rokuro-serpo",
     "name": "Rokuro Serpo",
     "gender": "Masculino",

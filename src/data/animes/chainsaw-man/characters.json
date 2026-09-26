@@ -1418,62 +1418,6 @@
     "avatar": "/avatars/chainsaw-man/mantis-devil.png"
   },
   {
-    "id": "mold-devil",
-    "name": "Mold Devil (Demônio do Mofo)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Segurança Pública"
-    ],
-    "rank": "Demônio dos Fungos e Decomposição",
-    "styleOrPower": "Crescimento Fúngico Pulmonar Interno nos Inimigos",
-    "debutArc": "Arco da Garota Bomba",
-    "status": "Vivo",
-    "quote": "...",
-    "techniques": [
-      "Infecção Fúngica Interna por Esporos",
-      "Sufocamento por Cogumelos"
-    ],
-    "avatar": "/avatars/chainsaw-man/mold-devil.png"
-  },
-  {
-    "id": "skin-devil",
-    "name": "Skin Devil (Demônio da Pele)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Irmãos Imortais Americanos"
-    ],
-    "rank": "Demônio da Metamorfose Cutânea",
-    "styleOrPower": "Troca e Replicação Perfeita de Rosto e Voz a partir de Cadáveres",
-    "debutArc": "Arco dos Assassinos Internacionais",
-    "status": "Vivo",
-    "quote": "...",
-    "techniques": [
-      "Mimetismo de Rosto e Tom de Pele",
-      "Disfarce Vocal e Anatomia Idêntica"
-    ],
-    "avatar": "/avatars/chainsaw-man/skin-devil.png"
-  },
-  {
-    "id": "claw-devil",
-    "name": "Claw Devil (Demônio da Garra)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Kishibe"
-    ],
-    "rank": "Demônio de Lâminas Digitais",
-    "styleOrPower": "Unhas Afiadas Dilacerantes",
-    "debutArc": "Arco do Katana Man",
-    "status": "Vivo",
-    "quote": "...",
-    "techniques": [
-      "Corte Dilacerante com Garras Afiadas"
-    ],
-    "avatar": "/avatars/chainsaw-man/claw-devil.png"
-  },
-  {
     "id": "ear-devil",
     "name": "Ear Devil (Demônio Orelha)",
     "gender": "Nenhum",
@@ -1510,25 +1454,6 @@
       "Apagamento do Conceito Biológico de Bocas"
     ],
     "avatar": "/avatars/chainsaw-man/mouth-devil.png"
-  },
-  {
-    "id": "teeth-devil",
-    "name": "Teeth Devil (Demônio Dentes)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Segurança Pública"
-    ],
-    "rank": "Demônio da Dentição e Mordedura",
-    "styleOrPower": "Dentes de Titânio Perfurantes e Cortantes",
-    "debutArc": "Arco da Detenção & Demônio do Envelhecimento",
-    "status": "Vivo",
-    "quote": "...",
-    "techniques": [
-      "Trituração Máxima com Dentes de Aço",
-      "Esmagamento Ósseo"
-    ],
-    "avatar": "/avatars/chainsaw-man/teeth-devil.png"
   },
   {
     "id": "centipede-devil",
@@ -1664,101 +1589,6 @@
     "avatar": "/avatars/chainsaw-man/stag-beetle-devil.png"
   },
   {
-    "id": "needle-devil",
-    "name": "Needle Devil (Demônio Agulha)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Kishibe"
-    ],
-    "rank": "Demônio de Perfuração Costureira",
-    "styleOrPower": "Espinhos de Agulha Perfurantes Suturantes",
-    "debutArc": "Arco do Katana Man",
-    "status": "Vivo",
-    "quote": "...",
-    "techniques": [
-      "Chuva de Agulhas Perfurantes",
-      "Sutura de Ferimentos"
-    ],
-    "avatar": "/avatars/chainsaw-man/needle-devil.png"
-  },
-  {
-    "id": "car-devil",
-    "name": "Car Devil (Demônio Carro)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Demônios Modernos"
-    ],
-    "rank": "Demônio dos Acidentes Automobilísticos",
-    "styleOrPower": "Velocidade de Colisão com Motores e Rodas Metálicas",
-    "debutArc": "Arco dos Assassinos Internacionais",
-    "status": "Morto",
-    "quote": "...",
-    "techniques": [
-      "Atropelamento em Massa em Alta Velocidade",
-      "Chassi de Aço Reforçado"
-    ],
-    "avatar": "/avatars/chainsaw-man/car-devil.png"
-  },
-  {
-    "id": "house-devil",
-    "name": "House Devil (Demônio Casa)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Demônios de Estruturas"
-    ],
-    "rank": "Demônio Construto Arquitetônico",
-    "styleOrPower": "Paredes e Tetos Vivos que Esmagam Invasores",
-    "debutArc": "Arco da Igreja do Chainsaw Man",
-    "status": "Morto",
-    "quote": "...",
-    "techniques": [
-      "Desabamento Controlado de Vigas",
-      "Trancamento Hermético de Portas"
-    ],
-    "avatar": "/avatars/chainsaw-man/house-devil.png"
-  },
-  {
-    "id": "gravity-devil",
-    "name": "Gravity Devil (Demônio Gravidade)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Forças Primárias"
-    ],
-    "rank": "Demônio da Atração Gravitacional",
-    "styleOrPower": "Aumento ou Redução Brutal da Pressão Gravitacional",
-    "debutArc": "Arco do Demônio da Queda",
-    "status": "Vivo",
-    "quote": "...",
-    "techniques": [
-      "Esmagamento de Gravidade Pesada",
-      "Levitação de Escombros"
-    ],
-    "avatar": "/avatars/chainsaw-man/gravity-devil.png"
-  },
-  {
-    "id": "tank-devil",
-    "name": "Tank Devil (Demônio Tanque)",
-    "gender": "Nenhum",
-    "species": "Demônio",
-    "affiliation": [
-      "Demônio da Guerra (Yoru)"
-    ],
-    "rank": "Demônio Militar Blindado das Guerras Modernas",
-    "styleOrPower": "Canhões de Alto Calibre & Blindagem Militar (Transmutado por Yoru)",
-    "debutArc": "Arco da Detenção & Demônio do Envelhecimento",
-    "status": "Vivo",
-    "quote": "...",
-    "techniques": [
-      "Disparo de Projétil Balístico Pesado",
-      "Esteiras Blindadas Esmagadoras"
-    ],
-    "avatar": "/avatars/chainsaw-man/tank-devil.png"
-  },
-  {
     "id": "fake-chainsaw-man",
     "name": "Fake Chainsaw Man (Falso Chainsaw Man)",
     "gender": "Masculino",
@@ -1797,25 +1627,6 @@
       "Brincos de Balança do Apocalipse"
     ],
     "avatar": "/avatars/chainsaw-man/fami.png"
-  },
-  {
-    "id": "death-devil",
-    "name": "Death Devil (Demônio da Morte)",
-    "gender": "Feminino",
-    "species": "Demônio",
-    "affiliation": [
-      "Cavaleiros do Apocalipse"
-    ],
-    "rank": "O Quarto Cavaleiro do Apocalipse / O Fim de Todas as Coisas",
-    "styleOrPower": "Cessação Irreversível de Todas as Formas de Vida",
-    "debutArc": "Arco da Igreja do Chainsaw Man",
-    "status": "Vivo",
-    "quote": "O Grande Rei do Terror profetizado por Nostradamus está chegando.",
-    "techniques": [
-      "A Morte Suprema e Inevitável",
-      "Aura de Terror Mortal Primordial"
-    ],
-    "avatar": "/avatars/chainsaw-man/death-devil.png"
   },
   {
     "id": "hirofumi-yoshida",
@@ -2032,25 +1843,6 @@
       "Queda da Lâmina de Guilhotina"
     ],
     "avatar": "/avatars/chainsaw-man/guillotine-devil.png"
-  },
-  {
-    "id": "loneliness-fiend",
-    "name": "Loneliness Fiend (Possesso da Solidão)",
-    "gender": "Masculino",
-    "species": "Fiend (Possesso)",
-    "affiliation": [
-      "Segurança Pública"
-    ],
-    "rank": "Fiend de Retenção da Solidão",
-    "styleOrPower": "Aura Depressiva e Agonia Emocional Solitária",
-    "debutArc": "Arco da Detenção & Demônio do Envelhecimento",
-    "status": "Vivo",
-    "quote": "A solidão corrói tudo por dentro...",
-    "techniques": [
-      "Onda de Isolamento Emocional",
-      "Ataque com Membros Estendidos"
-    ],
-    "avatar": "/avatars/chainsaw-man/loneliness-fiend.png"
   },
   {
     "id": "dominion",
@@ -2414,25 +2206,6 @@
     "avatar": "/avatars/chainsaw-man/shin-toma.png"
   },
   {
-    "id": "shinohara",
-    "name": "Shinohara",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Colégio Quarto de Tóquio"
-    ],
-    "rank": "Colega de Classe de Asa Mitaka",
-    "styleOrPower": "Vida Cotidiana Escolar",
-    "debutArc": "Arco da Guerra & Justiça",
-    "status": "Vivo",
-    "quote": "A Asa-san tropeçou no Bucky?!",
-    "techniques": [
-      "Observação de Crise",
-      "Evacuação de Sala"
-    ],
-    "avatar": "/avatars/chainsaw-man/shinohara.png"
-  },
-  {
     "id": "shiina",
     "name": "Shiina",
     "gender": "Feminino",
@@ -2450,25 +2223,6 @@
       "Esquiva em Pânico"
     ],
     "avatar": "/avatars/chainsaw-man/shiina.png"
-  },
-  {
-    "id": "yokota",
-    "name": "Yokota",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Segurança Pública"
-    ],
-    "rank": "Agente de Contenção da Segurança Pública",
-    "styleOrPower": "Bloqueio Policial de Ruas e Isolamento Urbano",
-    "debutArc": "Arco da Igreja do Chainsaw Man",
-    "status": "Vivo",
-    "quote": "Área isolada por ordem da Segurança Pública!",
-    "techniques": [
-      "Fechamento de Tráfego com Fitas de Contenção",
-      "Apoio de Retaguarda"
-    ],
-    "avatar": "/avatars/chainsaw-man/yokota.png"
   },
   {
     "id": "mysterious-man",

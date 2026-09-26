@@ -688,15 +688,15 @@
     "avatar": "/avatars/berserk/gedfring.png"
   },
   {
-    "id": "danan",
-    "name": "Danan",
+    "id": "hanarr",
+    "name": "Hanarr (Mestre Ferreiro dos Anões)",
     "gender": "Masculino",
     "species": "Anão",
     "affiliation": [
       "Ilha dos Elfos (Elfhelm)"
     ],
     "rank": "Mestre Forjador dos Anões",
-    "styleOrPower": "Metalurgia Sobrenatural & Forja da Armadura de Berserker Original",
+    "styleOrPower": "Forja da Armadura de Berserker Original & Metalurgia Sobrenatural",
     "debutArc": "Fantasia",
     "status": "Vivo",
     "quote": "A armadura que forjei com o sangue da fera continua viva no seu peito, humano!",
@@ -705,7 +705,7 @@
       "Manutenção da Armadura de Berserker",
       "Trabalho Mágico em Metais Astrais"
     ],
-    "avatar": "/avatars/berserk/danan.png"
+    "avatar": "/avatars/berserk/hanarr.png"
   },
   {
     "id": "danann",
