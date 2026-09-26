@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "edward-elric",
+    "name": "Edward Elric (Alquimista de Aço)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris / Estado-Maior"
+    ],
+    "rank": "Alquimista Federal",
+    "styleOrPower": "Alquimia sem Círculo de Transmutação & Próteses de Automail",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "A humanidade não pode obter nada sem dar algo em troca. Para obter algo, algo de igual valor deve ser perdido. Essa é a Lei da Troca Equivalente.",
+    "techniques": [
+      "Transmutação Instantânea por Palmas",
+      "Lâmina de Automail de Braço",
+      "Muralha de Pedra Defensiva",
+      "Lança de Aço Transmutada"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/edward-elric.png"
+  },
+  {
+    "id": "alphonse-elric",
+    "name": "Alphonse Elric",
+    "gender": "Masculino",
+    "species": "Armadura com Alma Fixada / Humano",
+    "affiliation": [
+      "Irmãos Elric"
+    ],
+    "rank": "Alquimista & Lutador Marcial",
+    "styleOrPower": "Armadura Oca Indestrutível & Alquimia sem Círculo",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Não sinto frio, fome ou cansaço... mas meu maior desejo é poder sentir o calor das mãos do meu irmão novamente.",
+    "techniques": [
+      "Combate Marcial com Corpo de Aço",
+      "Transmutação Instantânea por Palmas",
+      "Selo de Sangue Protetor",
+      "Muralha Cúbica de Proteção"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/alphonse-elric.png"
+  },
+  {
+    "id": "roy-mustang",
+    "name": "Roy Mustang (Alquimista das Chamas)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris / Estado-Maior"
+    ],
+    "rank": "Coronel / Futuro Führer Geral",
+    "styleOrPower": "Alquimia das Chamas (Estalo de Faíscas Pirocinéticas)",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Quando eu me tornar Führer, todas as oficiais mulheres do exército serão obrigadas a usar minissaias!",
+    "techniques": [
+      "Estalo Explosivo de Oxigênio Concentrado",
+      "Combustão Precisa nos Globos Oculares",
+      "Incêndio em Área em Grande Escala"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/roy-mustang.png"
+  },
+  {
+    "id": "riza-hawkeye",
+    "name": "Riza Hawkeye (Olhos de Gavião)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris / Estado-Maior"
+    ],
+    "rank": "Primeiro-Tenente / Guarda-Costas de Mustang",
+    "styleOrPower": "Tiro de Elite com Fuzil de Precisão & Pistolas Duplas",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Eu puxo o gatilho para que o Coronel não precise manchar suas mãos com mais sangue inocente do que o necessário.",
+    "techniques": [
+      "Tiro de Precisão de Longa Distância",
+      "Disparo Duplo com Pistolas Rápidas",
+      "Guardiã da Tatuagem da Alquimia das Chamas"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/riza-hawkeye.png"
+  },
+  {
+    "id": "winry-rockbell",
+    "name": "Winry Rockbell",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Ateliê Rockbell de Automail"
+    ],
+    "rank": "Engenheira Mestra de Próteses de Automail",
+    "styleOrPower": "Mecânica de Precisão Cirúrgica & Golpe com Chave Inglesa",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Se você quebrar esse braço de novo, Edward Elric, eu vou enfiar esta chave inglesa na sua cabeça!",
+    "techniques": [
+      "Manutenção e Ajuste Fino de Automail",
+      "Golpe Furioso com Chave de Fenda/Inglesa",
+      "Cirurgia Mecânica de Emergência"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/winry-rockbell.png"
+  },
+  {
+    "id": "maes-hughes",
+    "name": "Maes Hughes",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris / Investigação Militar"
+    ],
+    "rank": "Tenente-Coronel (General de Brigada Póstumo)",
+    "styleOrPower": "Arremesso de Facas Ocultas & Inteligência Investigativa",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Dê uma olhada na foto da minha filha Elicia! Ela não é a menina mais linda do mundo inteiro?",
+    "techniques": [
+      "Arremesso Veloz de Facas Táticas",
+      "Dedução Investigativa de Conspirações",
+      "Amor Paterno Incondicional"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/maes-hughes.png"
+  },
+  {
+    "id": "alex-louis-armstrong",
+    "name": "Alex Louis Armstrong (Alquimista do Braço Forte)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris / Estado-Maior"
+    ],
+    "rank": "Major",
+    "styleOrPower": "Alquimia Artística transmitida na Família Armstrong há Gerações",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Vivo",
+    "quote": "Esta técnica artística de endurecimento muscular foi passada na linhagem da família Armstrong por incontáveis gerações!",
+    "techniques": [
+      "Socos Balísticos com Pontas de Rocha",
+      "Descamisa Dramática com Brilhos Mágicos",
+      "Projéteis de Estátuas Faciais Transmutadas"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/alex-louis-armstrong.png"
+  },
+  {
+    "id": "olivier-mira-armstrong",
+    "name": "Olivier Mira Armstrong",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Brigada de Fort Briggs / Exército do Norte"
+    ],
+    "rank": "Major-General / Comandante de Briggs",
+    "styleOrPower": "Esgrima Militar Impiedosa & Lei da Sobrevivência do Mais Forte",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Vivo",
+    "quote": "Em Briggs não há espaço para fraqueza. Aqueles que não suportam o rigor da neve merecem morrer congelados.",
+    "techniques": [
+      "Esgrima Rápida com Sabre Oficial",
+      "Comando Tático Militar Frio",
+      "Artilharia Pesada da Fortaleza"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/olivier-mira-armstrong.png"
+  },
+  {
+    "id": "king-bradley",
+    "name": "King Bradley (Ira / Wrath)",
+    "gender": "Masculino",
+    "species": "Homúnculo / Humano",
+    "affiliation": [
+      "Homúnculos / Pai",
+      "Governo Militar de Amestris"
+    ],
+    "rank": "Führer Presidente / Homúnculo da Ira",
+    "styleOrPower": "O Olho Supremo (Percepção Total da Trajetória) & Esgrima Quádrupla",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Não há nada que você possa fazer que o meu Olho Supremo não possa antecipar e cortar antes de acontecer.",
+    "techniques": [
+      "Olho Supremo de Previsão de Trajetórias",
+      "Corte Supersônico de Mísseis e Balas",
+      "Dança Mortal com Cinco Espadas"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/king-bradley.png"
+  },
+  {
+    "id": "father",
+    "name": "Pai (Father)",
+    "gender": "Masculino",
+    "species": "Homúnculo / Entidade Primordial",
+    "affiliation": [
+      "Homúnculos / Pai"
+    ],
+    "rank": "Criador dos Homúnculos / Deus Autoproclamado",
+    "styleOrPower": "Alquimia Celestial sem Círculo & Criação de Mini-Sol",
+    "debutArc": "Dublith & Ganância",
+    "status": "Falecido",
+    "quote": "Eu me livrei dos sete pecados capitais para me tornar um ser perfeito e conter o próprio Deus dentro de mim.",
+    "techniques": [
+      "Criação de Sol em Miniatura na Palma da Mão",
+      "Bloqueio Total da Alquimia em Amestris",
+      "Tentáculos de Trevas de Almas Absorvidas"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/father.png"
+  },
+  {
+    "id": "van-hohenheim",
+    "name": "Van Hohenheim",
+    "gender": "Masculino",
+    "species": "Pedra Filosofal Viva / Humano Antigo",
+    "affiliation": [
+      "Irmãos Elric",
+      "Antigo Reino de Xerxes"
+    ],
+    "rank": "Pedra Filosofal Humana / Pai dos Irmãos Elric",
+    "styleOrPower": "Alquimia Primordial sem Movimento & Diálogo com 536.000 Almas",
+    "debutArc": "Dublith & Ganância",
+    "status": "Falecido",
+    "quote": "Conversei com cada uma das quinhentas e trinta e seis mil almas dentro de mim... e todas elas concordaram em detê-lo, Pai.",
+    "techniques": [
+      "Alquimia Pura sem Gestos ou Círculos",
+      "Desmantelamento do Círculo Nacional de Transmutação",
+      "Regeneração Celular Infinita"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/van-hohenheim.png"
+  },
+  {
+    "id": "greed",
+    "name": "Ganância (Greed)",
+    "gender": "Masculino",
+    "species": "Homúnculo",
+    "affiliation": [
+      "Homúnculos / Pai",
+      "Clã Yao de Xing"
+    ],
+    "rank": "Homúnculo da Ganância / O Escudo Definitivo",
+    "styleOrPower": "O Escudo Definitivo (Endurecimento da Pele com Grafeno/Carbono)",
+    "debutArc": "Dublith & Ganância",
+    "status": "Falecido",
+    "quote": "Eu quero dinheiro, poder, mulheres... e quero amigos fiéis! A ganância não é pecado quando você luta por quem ama.",
+    "techniques": [
+      "Escudo Supremo de Carbono Impenetrável",
+      "Garras de Grafeno Cortantes",
+      "Regeneração por Pedra Filosofal"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/greed.png"
+  },
+  {
+    "id": "envy",
+    "name": "Inveja (Envy)",
+    "gender": "Sem Gênero",
+    "species": "Homúnculo",
+    "affiliation": [
+      "Homúnculos / Pai"
+    ],
+    "rank": "Homúnculo da Inveja",
+    "styleOrPower": "Metamorfose Física Completa & Forma Gigante de Quimera de Almas",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Humanos são vermes tão patéticos... mas por que vocês continuam se levantando e apoiando uns aos outros?",
+    "techniques": [
+      "Metamorfose Ilusória em Qualquer Pessoa",
+      "Monstro Gigante de Seis Pernas com Rostos Gementes",
+      "Pequena Forma Parasitária de Verme"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/envy.png"
+  },
+  {
+    "id": "lust",
+    "name": "Luxúria (Lust)",
+    "gender": "Feminino",
+    "species": "Homúnculo",
+    "affiliation": [
+      "Homúnculos / Pai"
+    ],
+    "rank": "Homúnculo da Luxúria / A Lança Definitiva",
+    "styleOrPower": "A Lança Definitiva (Unhas Retráteis Hipersônicas que Perfuram Tudo)",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Morrer pelas mãos de um homem com olhos tão determinados e furiosos como os seus... não é uma má maneira de partir.",
+    "techniques": [
+      "Lança Definitiva Perfuradora de Aço",
+      "Alongamento Elástico de Dedos Laminados",
+      "Regeneração Acelerada"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/lust.png"
+  },
+  {
+    "id": "gluttony",
+    "name": "Gula (Gluttony)",
+    "gender": "Masculino",
+    "species": "Homúnculo",
+    "affiliation": [
+      "Homúnculos / Pai"
+    ],
+    "rank": "Homúnculo da Gula / Falso Portão da Verdade",
+    "styleOrPower": "Mandíbula Esmagadora & Abertura Abissal do Portão Falso",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Posso comer ele agora, Lust? Meu estômago está roncando tanto...",
+    "techniques": [
+      "Mordida que Devora Rocha e Metal",
+      "Falso Portão da Verdade no Peito",
+      "Sucção Dimensional de Matéria"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/gluttony.png"
+  },
+  {
+    "id": "sloth",
+    "name": "Preguiça (Sloth)",
+    "gender": "Masculino",
+    "species": "Homúnculo",
+    "affiliation": [
+      "Homúnculos / Pai"
+    ],
+    "rank": "Homúnculo da Preguiça / Escavador do Túnel Nacional",
+    "styleOrPower": "Velocidade Supersônica Incontrolável & Corpo Blindado Colossal",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Falecido",
+    "quote": "Pensar dá trabalho... viver dá trabalho... até morrer... dá muito trabalho...",
+    "techniques": [
+      "Investida Balística na Velocidade do Som",
+      "Músculos Blindados Anti-Artilharia",
+      "Escavação Brutal com Punhos Nus"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/sloth.png"
+  },
+  {
+    "id": "pride",
+    "name": "Orgulho (Pride / Selim Bradley)",
+    "gender": "Masculino",
+    "species": "Homúnculo",
+    "affiliation": [
+      "Homúnculos / Pai"
+    ],
+    "rank": "Primeiro Homúnculo / A Sombra Primordial",
+    "styleOrPower": "Manipulação de Sombras com Dentes e Olhos que Devoram Almas",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Eu sou o primeiro homúnculo gerado pelo Pai. Minhas sombras devoram a própria luz da sua esperança.",
+    "techniques": [
+      "Foices e Lanças de Sombras Perfurantes",
+      "Mandíbulas de Sombra com Olhos Múltiplos",
+      "Devoração de Homúnculos para Absorção de Poderes"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/pride.png"
+  },
+  {
+    "id": "scar",
+    "name": "Scar",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Povo de Ishval",
+      "Guerreiros Vingadores"
+    ],
+    "rank": "Guerreiro Monge de Ishval / Carrasco de Alquimistas Federais",
+    "styleOrPower": "Braço Direito da Decomposição & Braço Esquerdo da Reconstrução",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Vivo",
+    "quote": "Alquimistas Federais que transformaram minha terra natal em cinzas: recebam o julgamento divino de Ishvala!",
+    "techniques": [
+      "Decomposição Molecular pelo Toque",
+      "Reconstrução Transmutativa de Ishval",
+      "Combate Físico Letal de Monge"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/scar.png"
+  },
+  {
+    "id": "ling-yao",
+    "name": "Ling Yao",
+    "gender": "Masculino",
+    "species": "Humano / Hospedeiro de Homúnculo",
+    "affiliation": [
+      "Clã Yao de Xing"
+    ],
+    "rank": "Príncipe Herdeiro do Clã Yao / Futuro Imperador de Xing",
+    "styleOrPower": "Detecção de Chi & Esgrima Imperial de Xing (com Poder de Greed)",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Um rei existe para o seu povo! Sem o seu povo, um rei não passa de um tolo solitário!",
+    "techniques": [
+      "Sensoriamento de Chi / Presenças Vivas",
+      "Espada Chinesa de Xing",
+      "Ativação Compartilhada do Escudo de Carbono"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/ling-yao.png"
+  },
+  {
+    "id": "lan-fan",
+    "name": "Lan Fan",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Yao de Xing"
+    ],
+    "rank": "Guarda-Costas Ninja do Príncipe Ling",
+    "styleOrPower": "Artes Marciais Ocultas de Xing & Prótese de Automail com Lâmina",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Eu cortarei meu próprio braço sem hesitar se isso permitir que meu jovem mestre fuja em segurança!",
+    "techniques": [
+      "Granadas de Luz e Fumaça Táticas",
+      "Golpe Cirúrgico de Automail Laminado",
+      "Rastreamento Furtivo de Chi"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/lan-fan.png"
+  },
+  {
+    "id": "fu",
+    "name": "Fu",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Yao de Xing"
+    ],
+    "rank": "Mestre Guerreiro / Avô de Lan Fan",
+    "styleOrPower": "Esgrima Dupla Ninja de Xing & Sacrifício com Granadas",
+    "debutArc": "Dublith & Ganância",
+    "status": "Falecido",
+    "quote": "A vida de um guerreiro idoso pertence inteiramente à proteção da linhagem imperial do seu senhor.",
+    "techniques": [
+      "Cortes Duplos de Adagas Rápidas",
+      "Ataque Suicida com Dinamites no Peito",
+      "Salto Acrobático com Detecção de Chi"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/fu.png"
+  },
+  {
+    "id": "may-chang",
+    "name": "May Chang",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Clã Chang de Xing"
+    ],
+    "rank": "Princesa do Clã Chang",
+    "styleOrPower": "Rentanjutsu (Alquimia Médica de Xing à Distância com Kunais)",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Com o poder das correntes de Chi da Terra, o Rentanjutsu alcança os feridos onde nenhum outro médico consegue chegar!",
+    "techniques": [
+      "Rentanjutsu com Círculos em Kunais Remotas",
+      "Cura de Pulso Vital de Chi",
+      "Acrobacias Marciais com Xiao-Mei"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/may-chang.png"
+  },
+  {
+    "id": "izumi-curtis",
+    "name": "Izumi Curtis",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Açougue Curtis"
+    ],
+    "rank": "Mestra Alquimista / 'Uma Simples Dona de Casa'",
+    "styleOrPower": "Alquimia sem Círculo & Artes Marciais Brutais de Arremesso",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Quem sou eu? Eu sou apenas uma dona de casa que passava por aqui!",
+    "techniques": [
+      "Arremesso com Força Brutal de Luta Livre",
+      "Transmutação Instantânea por Palmas",
+      "Corte e Reconstituição da Matéria"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/izumi-curtis.png"
+  },
+  {
+    "id": "sig-curtis",
+    "name": "Sig Curtis",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Açougue Curtis"
+    ],
+    "rank": "Açougueiro Mestre / Marido Protetor de Izumi",
+    "styleOrPower": "Força Muscular Bruta & Respeito Muscular Mútuo",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Não ouse erguer a voz para a minha amada esposa!",
+    "techniques": [
+      "Aperto de Mão Rompe-Ossos",
+      "Desmembramento com Machado de Açougue",
+      "Soco Pesado Anti-Sloth"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/sig-curtis.png"
+  },
+  {
+    "id": "solf-j-kimblee",
+    "name": "Solf J. Kimblee (Alquimista Carmesim)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris",
+      "Aliados dos Homúnculos"
+    ],
+    "rank": "Alquimista Federal",
+    "styleOrPower": "Alquimia de Combustão Atômica com Tatuagens de Sol e Lua",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Falecido",
+    "quote": "A beleza do mundo reside no som da destruição quando a matéria é forçada a explodir em perfeita harmonia.",
+    "techniques": [
+      "Palmas Explosivas de Choque Elemental",
+      "Amplificação com Pedra Filosofal Oculta",
+      "Implosão de Corpos Vivos"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/solf-j-kimblee.png"
+  },
+  {
+    "id": "jean-havoc",
+    "name": "Jean Havoc",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Roy Mustang"
+    ],
+    "rank": "Segundo-Tenente",
+    "styleOrPower": "Combate com Fuzil e Submetralhadora & Charuto Constante",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Mulheres e cigarros... as duas coisas que sempre acabam me deixando na mão.",
+    "techniques": [
+      "Tiroteio de Supressão Automática",
+      "Foco Tático em Combate Urbano"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/jean-havoc.png"
+  },
+  {
+    "id": "heymans-breda",
+    "name": "Heymans Breda",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Roy Mustang"
+    ],
+    "rank": "Segundo-Tenente",
+    "styleOrPower": "Estratégia Militar de Xadrez & Tiro Tático",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Pode me chamar de gordinho, mas no tabuleiro de xadrez e nas rotas militares ninguém me supera.",
+    "techniques": [
+      "Planejamento Estratégico de Fuga",
+      "Fogo de Cobertura com Pistola"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/heymans-breda.png"
+  },
+  {
+    "id": "vato-falman",
+    "name": "Vato Falman",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Roy Mustang",
+      "Fort Briggs"
+    ],
+    "rank": "Subtenente",
+    "styleOrPower": "Memória Fotográfica Enciclopédica & Disparo com Canhão",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "De acordo com o código penal militar de Amestris, artigo trinta e dois...",
+    "techniques": [
+      "Consulta Instantânea de Regulamentos e Mapas",
+      "Operação de Artilharia Fixa"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/vato-falman.png"
+  },
+  {
+    "id": "kain-fuery",
+    "name": "Kain Fuery",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Esquadrão de Roy Mustang"
+    ],
+    "rank": "Sargento",
+    "styleOrPower": "Engenharia de Rádio e Comunicações de Guerra",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Sinal interceptado com sucesso, Coronel! Podemos transmitir a mensagem para toda a cidade.",
+    "techniques": [
+      "Interceptação de Rádio Militar",
+      "Transmissão Clandestina de Frequências"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/kain-fuery.png"
+  },
+  {
+    "id": "maria-ross",
+    "name": "Maria Ross",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris",
+      "Aliados de Xing"
+    ],
+    "rank": "Segunda-Tenente",
+    "styleOrPower": "Proteção de Guarda e Tiroteio com Pistola",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Vivo",
+    "quote": "O Coronel Mustang arriscou tudo para salvar minha vida encenando minha morte. Devo tudo a ele.",
+    "techniques": [
+      "Escolta Armada e Segurança",
+      "Disparo Defensivo em Recuo"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/maria-ross.png"
+  },
+  {
+    "id": "denny-brosh",
+    "name": "Denny Brosh",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris"
+    ],
+    "rank": "Sargento",
+    "styleOrPower": "Patrulha Urbana e Lealdade Militar",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Vivo",
+    "quote": "Tenente Ross, espere por mim! Não podemos deixar esses irmãos Elric sozinhos!",
+    "techniques": [
+      "Patrulhamento e Varredura",
+      "Tiro de Advertência com Rifle"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/denny-brosh.png"
+  },
+  {
+    "id": "grumman",
+    "name": "General Grumman",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Comando Oriental de Amestris"
+    ],
+    "rank": "Tenente-General / Futuro Führer",
+    "styleOrPower": "Estratégia Política Maquiavélica & Disfarces Femininos",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "A política militar é um jogo de paciência. Quando os tolos se cansam de guerrear, o mais astuto senta-se no trono.",
+    "techniques": [
+      "Disfarce Completo de Senhora Idosa",
+      "Golpe de Estado Tático sem Sangue"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/grumman.png"
+  },
+  {
+    "id": "miles",
+    "name": "Major Miles",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Brigada de Fort Briggs / Povo de Ishval"
+    ],
+    "rank": "Major / Braço Direito de Olivier Armstrong",
+    "styleOrPower": "Combate Tático na Neve & Liderança Ética Ishvaliana",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Vivo",
+    "quote": "Eu não escondo meus olhos vermelhos de Ishval. Eu permaneço neste exército para mudar Amestris a partir de dentro.",
+    "techniques": [
+      "Sobrevivência Polar Extrema",
+      "Tiro Preciso em Tempestade de Neve"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/miles.png"
+  },
+  {
+    "id": "buccaneer",
+    "name": "Capitão Buccaneer",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Brigada de Fort Briggs"
+    ],
+    "rank": "Capitão de Vanguarda",
+    "styleOrPower": "Automail Motosserra Crocodile & Luta Titânica",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Falecido",
+    "quote": "Mesmo cortado ao meio... eu levarei o Olho Supremo de Wrath comigo para o inferno!",
+    "techniques": [
+      "Golpe Esmagador com Braço Crocodile",
+      "Corte com Serra-Fita Elétrica",
+      "Sacrifício Mortal com Espada Cega"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/buccaneer.png"
+  },
+  {
+    "id": "trisha-elric",
+    "name": "Trisha Elric",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Elric"
+    ],
+    "rank": "Mãe dos Irmãos Elric",
+    "styleOrPower": "Amor Maternal & Espera Paciente por Hohenheim",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Diga a Hohenheim que eu cumpri nossa promessa... e esperei por ele com um sorriso até o fim.",
+    "techniques": [
+      "Cuidado Maternal Incondicional",
+      "Inspiração Moral para os Irmãos Elric"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/trisha-elric.png"
+  },
+  {
+    "id": "pinako-rockbell",
+    "name": "Pinako Rockbell",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Ateliê Rockbell de Automail"
+    ],
+    "rank": "Mestra Veterana de Automail / 'A Pantera de Resembool'",
+    "styleOrPower": "Cirurgia de Alta Precisão & Engenharia Mecânica de Próteses",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Nos meus tempos de juventude, os homens do vilarejo tremiam diante da Pantera de Resembool!",
+    "techniques": [
+      "Cirurgia e Implantação Nervosa de Automail",
+      "Cachimbo Fumegante Repulsor"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/pinako-rockbell.png"
+  },
+  {
+    "id": "shou-tucker",
+    "name": "Shou Tucker (Alquimista da Vida Costurada)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Alquimistas Federais de Amestris"
+    ],
+    "rank": "Alquimista Federal",
+    "styleOrPower": "Alquimia Biológica de Síntese de Quimeras Falantes",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Falecido",
+    "quote": "Edward... por que você chora? Alquimistas sacrificam qualquer coisa em nome do progresso da ciência...",
+    "techniques": [
+      "Fusão Biológica de Quimera Humana-Animal",
+      "Falsificação de Pesquisas com Animais"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/shou-tucker.png"
+  },
+  {
+    "id": "nina-tucker",
+    "name": "Nina Tucker (& Alexander)",
+    "gender": "Feminino",
+    "species": "Quimera Humano-Canina",
+    "affiliation": [
+      "Família Tucker"
+    ],
+    "rank": "Vítima de Transmutação Biológica",
+    "styleOrPower": "Comunicação Humana Trágica em Corpo de Grande Cão",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Falecido",
+    "quote": "Ed... ward... irmãozão... vamos... brincar?",
+    "techniques": [
+      "Fala Dilacerante de Quimera",
+      "Abraço Carinhoso Inocente"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/nina-tucker.png"
+  },
+  {
+    "id": "barry-the-chopper",
+    "name": "Barry o Açougueiro (Número 66)",
+    "gender": "Masculino",
+    "species": "Armadura com Alma Fixada / Humano",
+    "affiliation": [
+      "Laboratório 5 de Amestris"
+    ],
+    "rank": "Assassino em Série / Guarda de Almas",
+    "styleOrPower": "Cutelos Duplos de Açougue & Corpo Blindado Insensível à Dor",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Falecido",
+    "quote": "Eu adoro cortar carne! Quando descobri que podia fatiar pessoas como se fossem bifes, encontrei minha verdadeira vocação!",
+    "techniques": [
+      "Golpes Velozes com Facões de Açougueiro",
+      "Resistência de Armadura Oca de Ferro"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/barry-the-chopper.png"
+  },
+  {
+    "id": "slicer-brothers",
+    "name": "Irmãos Slicer (Número 48)",
+    "gender": "Masculino",
+    "species": "Armadura com Alma Fixada",
+    "affiliation": [
+      "Laboratório 5 de Amestris"
+    ],
+    "rank": "Guardas do Laboratório Secreto 5",
+    "styleOrPower": "Duas Almas em uma Única Armadura de Samurai",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Falecido",
+    "quote": "Você cortou a cabeça? Que pena, o irmão mais velho controla o corpo lá de baixo!",
+    "techniques": [
+      "Esgrima de Katana Dupla Mortal",
+      "Ataque Coordenado com Duas Vontades"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/slicer-brothers.png"
+  },
+  {
+    "id": "cornello",
+    "name": "Padre Cornello",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Igreja de Leto / Liore"
+    ],
+    "rank": "Falso Profeta da Religião de Leto",
+    "styleOrPower": "Milagres Ilusórios via Pedra Filosofal Imperfeita",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Eu sou o mensageiro do Deus do Sol Leto! Com este anel, posso criar vida e transformar barro em ouro!",
+    "techniques": [
+      "Transmutação Violenta de Metralhadora",
+      "Criação de Quimeras de Monstros Artificiais"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/cornello.png"
+  },
+  {
+    "id": "yoki",
+    "name": "Yoki",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Antigo Exército de Amestris / Grupo de Scar"
+    ],
+    "rank": "Ex-Tenente Corrupto / Motorista de Fuga",
+    "styleOrPower": "Fuga Cômica Desesperada & Direção de Veículos",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Vivo",
+    "quote": "Vocês estão olhando para o grande e renomado ex-tenente Yoki! Me respeitem, seus insolentes!",
+    "techniques": [
+      "Atropelamento Providencial de Inimigos",
+      "Súplica Teatral de Rendição"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/yoki.png"
+  },
+  {
+    "id": "heinkel",
+    "name": "Heinkel (Quimera Leão)",
+    "gender": "Masculino",
+    "species": "Quimera Humano-Animal",
+    "affiliation": [
+      "Forças Especiais de Kimblee",
+      "Grupo de Scar e Ed"
+    ],
+    "rank": "Soldado Quimera da Vanguarda",
+    "styleOrPower": "Garras Felinas Afiadas & Faro Sobrenatural de Predador",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Vivo",
+    "quote": "Kimblee nos tratava como animais descartáveis. Mas Ed nos tratou como seres humanos.",
+    "techniques": [
+      "Mordida Dilacerante de Leão",
+      "Ataque com Fuzil e Mandíbulas"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/heinkel.png"
+  },
+  {
+    "id": "darius",
+    "name": "Darius (Quimera Gorila)",
+    "gender": "Masculino",
+    "species": "Quimera Humano-Animal",
+    "affiliation": [
+      "Forças Especiais de Kimblee",
+      "Grupo de Scar e Ed"
+    ],
+    "rank": "Soldado Quimera da Vanguarda",
+    "styleOrPower": "Força Muscular Esmagadora de Gorila & Vigor Físico",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Vivo",
+    "quote": "Quer ver o que acontece quando um gorila furioso acerta a sua cara de homúnculo?",
+    "techniques": [
+      "Arremesso de Homens e Carros",
+      "Soco Martelada de Primata"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/darius.png"
+  },
+  {
+    "id": "zampano",
+    "name": "Zampano (Quimera Javali)",
+    "gender": "Masculino",
+    "species": "Quimera Humano-Animal",
+    "affiliation": [
+      "Forças Especiais de Kimblee",
+      "Grupo de Scar e Ed"
+    ],
+    "rank": "Soldado Quimera de Rastreamento",
+    "styleOrPower": "Disparo Balístico de Espinhos das Costas",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Vivo",
+    "quote": "Meus espinhos encontram o alvo mesmo no meio da nevasca de Briggs.",
+    "techniques": [
+      "Disparo de Chuva de Agulhas Ôsseas",
+      "Investida de Javali Selvagem"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/zampano.png"
+  },
+  {
+    "id": "jerso",
+    "name": "Jerso (Quimera Sapo)",
+    "gender": "Masculino",
+    "species": "Quimera Humano-Animal",
+    "affiliation": [
+      "Forças Especiais de Kimblee",
+      "Grupo de Scar e Ed"
+    ],
+    "rank": "Soldado Quimera de Captura",
+    "styleOrPower": "Disparo de Muco Viscoso Grudento e Ácido da Boca",
+    "debutArc": "Fort Briggs & Norte",
+    "status": "Vivo",
+    "quote": "Uma cusparada minha cola qualquer alquimista na parede feito inseto preso na teia.",
+    "techniques": [
+      "Projétil de Gosma Adesiva Incombustível",
+      "Salto Acrobático Anfíbio"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/jerso.png"
+  },
+  {
+    "id": "tim-marcoh",
+    "name": "Dr. Tim Marcoh (Alquimista de Cristal)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Pesquisadores do Exército de Amestris"
+    ],
+    "rank": "Alquimista Federal / Criador da Pedra Filosofal",
+    "styleOrPower": "Conhecimento Atômico da Pedra Filosofal & Desconstrução de Homúnculos",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Vivo",
+    "quote": "A Pedra Filosofal é feita de vidas humanas vivas arrancadas à força! O que nós fizemos em Ishval foi imperdoável!",
+    "techniques": [
+      "Destruição Reversa de Pedra Filosofal",
+      "Medicina Alquímica Reparadora"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/tim-marcoh.png"
+  },
+  {
+    "id": "knox",
+    "name": "Dr. Knox",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Médicos Legistas de Amestris"
+    ],
+    "rank": "Médico Patologista Forense",
+    "styleOrPower": "Autópsia Forense & Cuidados Médicos Cirúrgicos",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Vivo",
+    "quote": "Passei anos cortando corpos de homens inocentes em Ishval... mas hoje, ser capaz de salvar vidas me fez sentir humano novamente.",
+    "techniques": [
+      "Cirurgia Traumatológica de Guerra",
+      "Autópsia e Análise Toxicológica"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/knox.png"
+  },
+  {
+    "id": "sheska",
+    "name": "Sheska",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Biblioteca Central de Amestris"
+    ],
+    "rank": "Arquivista Militar",
+    "styleOrPower": "Memória Eidética de Todos os Livros Já Lidos na Vida",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Vivo",
+    "quote": "Se eu li uma página sequer uma única vez na vida, posso reescrever o livro inteiro palavra por palavra sem errar uma vírgula!",
+    "techniques": [
+      "Recriação Perfeita de Livros Queimados",
+      "Pesquisa e Catalogação de Documentos"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/sheska.png"
+  },
+  {
+    "id": "paninya",
+    "name": "Paninya",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Vale do Rush"
+    ],
+    "rank": "Ladra Urbana / Atleta de Automail",
+    "styleOrPower": "Canhão Oculto no Automail da Perna Direita & Corrida Veloz",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Com as pernas de automail que o senhor Dominic fez para mim, ninguém no Vale do Rush consegue me pegar!",
+    "techniques": [
+      "Disparo de Canhão Oculto na Perna",
+      "Salto Acrobático sobre Telhados"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/paninya.png"
+  },
+  {
+    "id": "garfiel",
+    "name": "Garfiel",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Vale do Rush / Ateliê Garfiel"
+    ],
+    "rank": "Engenheiro Mestre de Automail",
+    "styleOrPower": "Criação de Automails Fortes & Treinamento de Winry",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Uma chave inglesa nas mãos de quem entende de metal vale mais que qualquer alquimia barata!",
+    "techniques": [
+      "Forja de Ligas Metálicas Resistentes",
+      "Mentoria Mecânica Especializada"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/garfiel.png"
+  },
+  {
+    "id": "dominic-lecoulte",
+    "name": "Dominic LeCoulte",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Engenheiros Eremitas do Vale do Rush"
+    ],
+    "rank": "Engenheiro Lendário de Automail",
+    "styleOrPower": "Automail Durável para Ambientes Extremos e Rochosos",
+    "debutArc": "Dublith & Ganância",
+    "status": "Vivo",
+    "quote": "Eu vim morar no topo deste morro justamente para não ter que ouvir choro de cliente mimado!",
+    "techniques": [
+      "Forja de Próteses Blindadas para Alpinistas",
+      "Parto de Emergência em Tempestade"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/dominic-lecoulte.png"
+  },
+  {
+    "id": "basque-grand",
+    "name": "Basque Grand (Alquimista do Sangue de Ferro)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris"
+    ],
+    "rank": "General de Brigada / Alquimista Federal",
+    "styleOrPower": "Alquimia do Ferro (Criação de Canhões e Armas de Ferro do Solo)",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Falecido",
+    "quote": "A força militar de Amestris é erguida sobre a frieza do ferro e a obediência inquestionável da lei!",
+    "techniques": [
+      "Erupção de Canhões e Artilharia do Chão",
+      "Barreira Fortificada de Ferro Puro"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/basque-grand.png"
+  },
+  {
+    "id": "giolio-comanche",
+    "name": "Giolio Comanche (Alquimista das Armas Prateadas)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Forças Armadas de Amestris"
+    ],
+    "rank": "Alquimista Federal Veterano",
+    "styleOrPower": "Alquimia Giratória de Adagas e Lâminas Prateadas",
+    "debutArc": "Laboratório 5 & Tucker",
+    "status": "Falecido",
+    "quote": "Minhas lâminas giratórias fatiam carne em frações de segundo, seu terrorista de Ishval!",
+    "techniques": [
+      "Chuva Giratória de Adagas Prateadas",
+      "Pé de Perna de Pau com Lâmina Transmutada"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/giolio-comanche.png"
+  },
+  {
+    "id": "isaac-mcdougal",
+    "name": "Isaac McDougal (O Alquimista do Gelo)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Ex-Alquimistas Federais / Rebeldes Anti-Bradley"
+    ],
+    "rank": "Ex-Major / Alquimista Rebelde",
+    "styleOrPower": "Alquimia Criomântica de Gelo e Fervura com Água e Sangue",
+    "debutArc": "Liore & Alquimista de Aço",
+    "status": "Falecido",
+    "quote": "Você não vê, Mustang? Este país inteiro está sendo preparado para um banho de sangue catastrófico pelo próprio Führer!",
+    "techniques": [
+      "Congelamento de Vias com Gelo Gigante",
+      "Fervura Instantânea de Sangue Próprio para Armas",
+      "Icebergs Alquímicos Gigantes"
+    ],
+    "avatar": "/avatars/fullmetal-alchemist/isaac-mcdougal.png"
+  }
+]

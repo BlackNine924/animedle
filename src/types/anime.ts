@@ -47,6 +47,12 @@ export interface Character {
   disasterRank?: string;
   // Black Clover
   magicAttribute?: string;
+  // Haikyuu
+  school?: string;
+  year?: string;
+  styleOrPlay?: string;
+  // Hunter x Hunter
+  nenType?: string;
 }
 
 export interface AttributeColumn {
@@ -57,7 +63,7 @@ export interface AttributeColumn {
 
 export interface MangaCoverage {
   chapter: string | number;
-  status: 'Em Lançamento' | 'Finalizado';
+  status: 'Em Lançamento' | 'Finalizado' | 'Em Lançamento (hiatus frequente)';
   source: string;
   officialPublisher: string;
   lastUpdated: string;

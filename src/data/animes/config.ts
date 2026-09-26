@@ -390,13 +390,39 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
   },
   'frieren': {
     slug: 'frieren',
-    title: 'Frieren',
+    title: 'Frieren: Beyond Journey\'s End',
     subtitle: 'Kanehito Yamada',
     themeColor: '#10b981',
     accentColor: '#059669',
     banner: '🪄',
-    columns: [],
-    arcs: []
+    logo: '/logo-frieren.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'rank', label: 'Graduação / Título', type: 'exact' },
+      { key: 'styleOrPower', label: 'Magia / Especialidade', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'A Jornada do Herói',
+      'Viagem para o Norte',
+      'O Primeiro Exame de Mago',
+      'O Segundo Exame de Mago',
+      'Rumo a Aureliea',
+      'A Terra dos Anões',
+      'O Lago dos Elfos',
+      'Rumo ao Além'
+    ],
+    mangaCoverage: {
+      chapter: 130,
+      status: 'Em Lançamento',
+      source: 'Weekly Shōnen Sunday (Shogakukan)',
+      officialPublisher: 'Shogakukan',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica cobrindo do Cap. 1 ao 130 (início da jornada até os arcos de Aureliea e além), série em publicação semanal.'
+    }
   },
   'fullmetal-alchemist': {
     slug: 'fullmetal-alchemist',
@@ -405,8 +431,37 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#e11d48',
     accentColor: '#be123c',
     banner: '⚗️',
-    columns: [],
-    arcs: []
+    logo: '/logo-fullmetal-alchemist.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'rank', label: 'Posto / Título', type: 'exact' },
+      { key: 'styleOrPower', label: 'Alquimia / Habilidade', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Introdução / Eastcity',
+      'A Pedra Filosofal',
+      'Tucker e Nina',
+      'Encontro com Scar',
+      'O Médico de Rush Valley',
+      'Ishval / Xerxes',
+      'Laboratório 5',
+      'Duplicata de Ed',
+      'Xing e Alkahestria',
+      'Briggs / Aldrich',
+      'Arco Final / Batalha de Central'
+    ],
+    mangaCoverage: {
+      chapter: 108,
+      status: 'Finalizado',
+      source: 'Monthly Shōnen Gangan (Square Enix)',
+      officialPublisher: 'Square Enix',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa (Cap. 1 ao 108, 27 volumes), desde a primeira tentativa de ressurreição da mãe até a batalha final contra o Pai e o epílogo.'
+    }
   },
   'haikyuu': {
     slug: 'haikyuu',
@@ -415,8 +470,37 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#f59e0b',
     accentColor: '#d97706',
     banner: '🏐',
-    columns: [],
-    arcs: []
+    logo: '/logo-haikyuu.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'position', label: 'Posição', type: 'exact' },
+      { key: 'school', label: 'Escola / Time', type: 'exact' },
+      { key: 'year', label: 'Ano Escolar', type: 'exact' },
+      { key: 'styleOrPlay', label: 'Estilo de Jogo', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Início do Clube de Karasuno',
+      'Clínica de Aoba Jousai',
+      'Torneio Interscholastic Miyagi (1ª Rodada)',
+      'Torneio Interscholastic Miyagi (Quartas de Final)',
+      'Torneio Interscholastic Miyagi (Semifinal vs Aoba Jousai)',
+      'Acampamento de Treinamento de Verão',
+      'Partida de Treinamento vs Fukurodani',
+      'Torneio Nacional: Inarizaki',
+      'Torneio Nacional: Nekoma',
+      'Torneio Nacional: Kamomedai',
+      'Arco Final / Elipse Temporal'
+    ],
+    mangaCoverage: {
+      chapter: 402,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa (Cap. 1 ao 402, 45 volumes), desde a estreia de Hinata em Karasuno até o epílogo com a carreira profissional dos jogadores.'
+    }
   },
   'hunter-x-hunter': {
     slug: 'hunter-x-hunter',
@@ -425,8 +509,33 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#22c55e',
     accentColor: '#16a34a',
     banner: '🎣',
-    columns: [],
-    arcs: []
+    logo: '/logo-hunter-x-hunter.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'nenType', label: 'Tipo de Nen', type: 'exact' },
+      { key: 'styleOrPower', label: 'Hatsu / Habilidade', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Exame Hunter',
+      'Torre do Céu (Heavens Arena)',
+      'Ilha Yorknew City',
+      'Greed Island',
+      'Formigas Quimera',
+      'Eleição do Presidente da Associação Hunter',
+      'Sucessão da Família Real de Kakin (Navio Cruiser)'
+    ],
+    mangaCoverage: {
+      chapter: 401,
+      status: 'Em Lançamento (hiatus frequente)',
+      source: 'Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica cobrindo do Cap. 1 ao 401 (série em hiatus frequente de Yoshihiro Togashi), até o arco do Navio Cruiser com a Família Real de Kakin.'
+    }
   },
   'jojos-bizarre-adventure': {
     slug: 'jojos-bizarre-adventure',
@@ -512,8 +621,32 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#10b981',
     accentColor: '#059669',
     banner: '🦖',
-    columns: [],
-    arcs: []
+    logo: '/logo-kaiju-no-8.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie', type: 'exact' },
+      { key: 'affiliation', label: 'Divisão / Grupo', type: 'array' },
+      { key: 'rank', label: 'Posto / Título', type: 'exact' },
+      { key: 'styleOrPower', label: 'Armas & Poderes', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Exame de Recrutamento',
+      'Arco de Treinamento',
+      'Primeira Operação de Campo',
+      'Arco da 1ª Divisão',
+      'Arco da Operação de Combate Conjunto',
+      'Batalha Final contra o Kaiju Nº 9'
+    ],
+    mangaCoverage: {
+      chapter: 110,
+      status: 'Em Lançamento',
+      source: 'Shōnen Jump+ (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica cobrindo do Cap. 1 ao 110 (desde o primeiro exame de recrutamento até os confrontos finais contra o Kaiju Nº 9), série em publicação digital semanal.'
+    }
   },
   'my-hero-academia': {
     slug: 'my-hero-academia',

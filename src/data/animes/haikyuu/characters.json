@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "shoyo-hinata",
+    "name": "Shōyō Hinata",
+    "gender": "Masculino",
+    "position": "Bloqueador Central / Oposto",
+    "school": "Karasuno High",
+    "year": "1º Ano",
+    "styleOrPlay": "Ataque Rápido Bizarro & Salto Máximo Vertical",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador Profissional (Asas São Paulo / MSBY Jackals)",
+    "quote": "A vista do topo... é uma visão que eu nunca conseguiria ver sozinho. Mas se eu não estiver sozinho, eu posso ser capaz de ver!",
+    "techniques": [
+      "Ataque Rápido Bizarro com Olhos Fechados",
+      "Ataque Rápido Novo com Tempo",
+      "Bloqueio com Salto Largo Diagonal",
+      "Recepção com o Peito em Chave"
+    ],
+    "avatar": "/avatars/haikyuu/shoyo-hinata.png"
+  },
+  {
+    "id": "tobio-kageyama",
+    "name": "Tobio Kageyama (Rei da Quadra)",
+    "gender": "Masculino",
+    "position": "Levantador",
+    "school": "Karasuno High",
+    "year": "1º Ano",
+    "styleOrPlay": "Levantamento Cirúrgico Pinpoint & Saque Viagem Destruidor",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador Profissional (Ali Roma / Seleção do Japão)",
+    "quote": "O único que tem o direito de enviar a bola para o atacante sou eu. Eu sou o levantador!",
+    "techniques": [
+      "Levantamento Parado Milimétrico",
+      "Saque Viagem com Efeito Violento",
+      "Segunda Bola de Ataque Furtivo",
+      "Bloqueio Individual de Leitura"
+    ],
+    "avatar": "/avatars/haikyuu/tobio-kageyama.png"
+  },
+  {
+    "id": "kei-tsukishima",
+    "name": "Kei Tsukishima",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Karasuno High",
+    "year": "1º Ano",
+    "styleOrPlay": "Bloqueio de Leitura Analítica (Read Blocking)",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador Profissional (Sendai Frogs V.League)",
+    "quote": "É só um clube de escola. É só um jogo... até o momento em que você para o melhor atacante do país e se vicia completamente no vôlei!",
+    "techniques": [
+      "Bloqueio de Leitura Um Contra Um",
+      "Ponta dos Dedos com Toque Amortecedor",
+      "Finta no Fundo da Quadra",
+      "Ataque Rápido com Atraso de Tempo"
+    ],
+    "avatar": "/avatars/haikyuu/kei-tsukishima.png"
+  },
+  {
+    "id": "tadashi-yamaguchi",
+    "name": "Tadashi Yamaguchi",
+    "gender": "Masculino",
+    "position": "Bloqueador Central / Sacador Especialista",
+    "school": "Karasuno High",
+    "year": "1º Ano",
+    "styleOrPlay": "Saque Flutuante com Salto (Jump Float Serve)",
+    "debutArc": "Formação de Karasuno",
+    "status": "Estudante Universitário / Ex-Capitão de Karasuno",
+    "quote": "Mais do que qualquer coisa no mundo... eu não quero ser o único deixado para trás no banco!",
+    "techniques": [
+      "Saque Flutuante com Salto Imprevisível",
+      "Direcionamento na Linha de Fundo",
+      "Comando de Apoio Emocional"
+    ],
+    "avatar": "/avatars/haikyuu/tadashi-yamaguchi.png"
+  },
+  {
+    "id": "daichi-sawamura",
+    "name": "Daichi Sawamura",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Capitão",
+    "school": "Karasuno High",
+    "year": "3º Ano",
+    "styleOrPlay": "Recepção Inabalável de Base & Liderança de Aço",
+    "debutArc": "Formação de Karasuno",
+    "status": "Policial de Miyagi",
+    "quote": "Nós nunca iremos vencer se não acreditarmos que podemos vencer. Karasuno vai voar novamente!",
+    "techniques": [
+      "Recepção Sólida de Linha Traseira",
+      "Ataque pela Linha de Fundo (Backrow Attack)",
+      "Estabilização Emocional sob Pressão"
+    ],
+    "avatar": "/avatars/haikyuu/daichi-sawamura.png"
+  },
+  {
+    "id": "koshi-sugawara",
+    "name": "Kōshi Sugawara",
+    "gender": "Masculino",
+    "position": "Levantador / Vice-Capitão",
+    "school": "Karasuno High",
+    "year": "3º Ano",
+    "styleOrPlay": "Levantamento Tático Empático & Saque Tático Direcionado",
+    "debutArc": "Formação de Karasuno",
+    "status": "Professor de Escola Primária",
+    "quote": "Eu não sou um gênio como Kageyama, mas conheço o coração e o tempo exato de cada um dos meus atacantes!",
+    "techniques": [
+      "Ataque Sincronizado com Levantador Duplo",
+      "Saque Tático no Vazio",
+      "Comunicação e Sinais Manuais de Quadra"
+    ],
+    "avatar": "/avatars/haikyuu/koshi-sugawara.png"
+  },
+  {
+    "id": "asahi-azumane",
+    "name": "Asahi Azumane",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Ás (Ace)",
+    "school": "Karasuno High",
+    "year": "3º Ano",
+    "styleOrPlay": "Spike Brutal Rompe-Bloqueios & Saque Viagem Potente",
+    "debutArc": "Formação de Karasuno",
+    "status": "Designer de Roupas em Tóquio",
+    "quote": "Quantas vezes eu for bloqueado... bata na bola de novo e de novo! Essa é a função do Ás!",
+    "techniques": [
+      "Spike Pesado de Força Bruta",
+      "Ataque Diferenciado com Pausa no Ar",
+      "Saque Viagem Potente de Ás"
+    ],
+    "avatar": "/avatars/haikyuu/asahi-azumane.png"
+  },
+  {
+    "id": "yu-nishinoya",
+    "name": "Yū Nishinoya (Deus Guardião)",
+    "gender": "Masculino",
+    "position": "Líbero",
+    "school": "Karasuno High",
+    "year": "2º Ano",
+    "styleOrPlay": "Rolling Thunder & Levantamento Acrobático de Líbero",
+    "debutArc": "Formação de Karasuno",
+    "status": "Pescador e Viajante Mundial",
+    "quote": "Vocês só precisam olhar para frente e atacar com tudo. As suas costas pertencem a mim!",
+    "techniques": [
+      "Rolling Thunder (Recepção com Rolamento)",
+      "Levantamento com Salto Atrás da Linha de Três Metros",
+      "Recepção com o Pé no Reflexo"
+    ],
+    "avatar": "/avatars/haikyuu/yu-nishinoya.png"
+  },
+  {
+    "id": "ryunosuke-tanaka",
+    "name": "Ryūnosuke Tanaka",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker)",
+    "school": "Karasuno High",
+    "year": "2º Ano",
+    "styleOrPlay": "Spike Cruzado Extremo (Inner Cross) & Garra Mental Inquebrável",
+    "debutArc": "Formação de Karasuno",
+    "status": "Treinador Pessoal / Marido de Kiyoko",
+    "quote": "Pensar que você é medíocre não é desculpa para abaixar a cabeça! Se sou medíocre, então vou lutar o dobro!",
+    "techniques": [
+      "Corte Extremamente Fechado (Inner Cross)",
+      "Corte em Linha Reta no Limite da Quadra",
+      "Grito de Guerra Desestabilizador"
+    ],
+    "avatar": "/avatars/haikyuu/ryunosuke-tanaka.png"
+  },
+  {
+    "id": "chikara-ennoshita",
+    "name": "Chikara Ennoshita",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Futuro Capitão",
+    "school": "Karasuno High",
+    "year": "2º Ano",
+    "styleOrPlay": "Defesa Tática Equilibrada & Substituição de Emergência",
+    "debutArc": "Formação de Karasuno",
+    "status": "Fisioterapeuta",
+    "quote": "Eu fugi uma vez por covardia... mas agora estou aqui para carregar o peso do time quando Daichi não estiver!",
+    "techniques": [
+      "Recepção de Cobertura de Bloqueio",
+      "Ataque Seguro de Ponta"
+    ],
+    "avatar": "/avatars/haikyuu/chikara-ennoshita.png"
+  },
+  {
+    "id": "hisashi-kinoshita",
+    "name": "Hisashi Kinoshita",
+    "gender": "Masculino",
+    "position": "Ponta / Sacador Especialista",
+    "school": "Karasuno High",
+    "year": "2º Ano",
+    "styleOrPlay": "Saque Flutuante Tático",
+    "debutArc": "Formação de Karasuno",
+    "status": "Trabalhador em Ferrovia",
+    "quote": "Eu quero ser aquele que faz a diferença quando entra na quadra!",
+    "techniques": [
+      "Saque Flutuante Direcionado",
+      "Apoio Tático de Lateral"
+    ],
+    "avatar": "/avatars/haikyuu/hisashi-kinoshita.png"
+  },
+  {
+    "id": "kazuhito-narita",
+    "name": "Kazuhito Narita",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Karasuno High",
+    "year": "2º Ano",
+    "styleOrPlay": "Ataque Rápido Simples & Bloqueio Calmo",
+    "debutArc": "Formação de Karasuno",
+    "status": "Agente Imobiliário",
+    "quote": "Mantenha o ritmo estável quando a rotação pedir.",
+    "techniques": [
+      "Ataque Rápido Clássico",
+      "Bloqueio Posicional Seguro"
+    ],
+    "avatar": "/avatars/haikyuu/kazuhito-narita.png"
+  },
+  {
+    "id": "kiyoko-shimizu",
+    "name": "Kiyoko Shimizu",
+    "gender": "Feminino",
+    "position": "Gerente do Time",
+    "school": "Karasuno High",
+    "year": "3º Ano",
+    "styleOrPlay": "Gestão Logística de Quadra & Atletismo de Barreiras",
+    "debutArc": "Formação de Karasuno",
+    "status": "Funcionária de Loja de Esportes / Esposa de Tanaka",
+    "quote": "Vão em frente. Voem com todas as suas forças!",
+    "techniques": [
+      "Suporte Logístico Impecável",
+      "Entrega da Faixa 'Voem' com Emoção",
+      "Recepção de Bolas com Agilidade de Ex-Atleta"
+    ],
+    "avatar": "/avatars/haikyuu/kiyoko-shimizu.png"
+  },
+  {
+    "id": "hitoka-yachi",
+    "name": "Hitoka Yachi",
+    "gender": "Feminino",
+    "position": "Gerente do Time",
+    "school": "Karasuno High",
+    "year": "1º Ano",
+    "styleOrPlay": "Design Gráfico & Análise de Estatísticas de Quadra",
+    "debutArc": "Campo de Treinamento de Tóquio",
+    "status": "Designer em Agência de Publicidade",
+    "quote": "Mesmo que eu seja a Figurante B... a Figurante B também pode lutar com todo o coração!",
+    "techniques": [
+      "Campanha de Arrecadação com Pôsteres",
+      "Anotação e Coleta de Dados de Ataques"
+    ],
+    "avatar": "/avatars/haikyuu/hitoka-yachi.png"
+  },
+  {
+    "id": "keishin-ukai",
+    "name": "Keishin Ukai",
+    "gender": "Masculino",
+    "position": "Treinador Principal",
+    "school": "Karasuno High",
+    "year": "Comissão Técnica",
+    "styleOrPlay": "Estratégia Total de Ataque Sincronizado & Raça de Miyagi",
+    "debutArc": "Formação de Karasuno",
+    "status": "Treinador de Karasuno & Dono da Loja Sakanoshita",
+    "quote": "O vôlei é um esporte onde você deve sempre olhar para cima! Nunca abaixem a cabeça!",
+    "techniques": [
+      "Formação do Ataque Sincronizado com Quatro Homens",
+      "Leitura de Rotação Inimiga",
+      "Discursos Motivacionais de Vestiário"
+    ],
+    "avatar": "/avatars/haikyuu/keishin-ukai.png"
+  },
+  {
+    "id": "ittetsu-takeda",
+    "name": "Ittetsu Takeda",
+    "gender": "Masculino",
+    "position": "Professor Responsável / Orientador",
+    "school": "Karasuno High",
+    "year": "Comissão Técnica",
+    "styleOrPlay": "Persistência Diplomática & Metáforas Inspiradoras",
+    "debutArc": "Formação de Karasuno",
+    "status": "Professor de Literatura",
+    "quote": "A derrota de hoje não é a prova de que vocês são fracos. É a prova de que vocês têm espaço para crescer e voar mais alto!",
+    "techniques": [
+      "Negociação de Partidas Amistosas de Elite",
+      "Motivação Poética Profunda"
+    ],
+    "avatar": "/avatars/haikyuu/ittetsu-takeda.png"
+  },
+  {
+    "id": "toru-oikawa",
+    "name": "Tōru Oikawa (O Grande Rei)",
+    "gender": "Masculino",
+    "position": "Levantador / Capitão",
+    "school": "Aoba Johsai High",
+    "year": "3º Ano",
+    "styleOrPlay": "Saque Viagem Assassino & Extração de 100% do Potencial dos Atacantes",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador Profissional (Club Atlético San Juan / Seleção da Argentina)",
+    "quote": "O talento é algo que se faz florescer, o instinto é algo que se aprimora!",
+    "techniques": [
+      "Saque Viagem com Potência de Canhão",
+      "Levantamento Perfeito sob Medida para Cada Atacante",
+      "Ataque de Segunda Bola Agressivo"
+    ],
+    "avatar": "/avatars/haikyuu/toru-oikawa.png"
+  },
+  {
+    "id": "hajime-iwaizumi",
+    "name": "Hajime Iwaizumi (Iwa-chan)",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Vice-Capitão / Ás",
+    "school": "Aoba Johsai High",
+    "year": "3º Ano",
+    "styleOrPlay": "Spike Rompe-Bloqueios & Disciplinador de Oikawa",
+    "debutArc": "Formação de Karasuno",
+    "status": "Treinador Atlético da Seleção Japonesa",
+    "quote": "Aquele que não consegue ver o adversário à sua frente não consegue derrotar o adversário que está além dele!",
+    "techniques": [
+      "Spike em Linha Reta Implacável",
+      "Cabeçada Punitiva em Oikawa",
+      "Defesa de Fundo de Quadra de Líder"
+    ],
+    "avatar": "/avatars/haikyuu/hajime-iwaizumi.png"
+  },
+  {
+    "id": "yutaro-kindaichi",
+    "name": "Yūtarō Kindaichi (Cabeça de Nabo)",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Aoba Johsai High",
+    "year": "1º Ano",
+    "styleOrPlay": "Ataque Rápido no Ponto Mais Alto com Oikawa",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador Profissional (Tamaden Elephants V.League)",
+    "quote": "Com os levantamentos de Oikawa-san, eu posso acertar qualquer bola sem medo do bloqueio!",
+    "techniques": [
+      "Ataque Rápido Amplo",
+      "Bloqueio com Alcance Elevado"
+    ],
+    "avatar": "/avatars/haikyuu/yutaro-kindaichi.png"
+  },
+  {
+    "id": "akira-kunimi",
+    "name": "Akira Kunimi",
+    "gender": "Masculino",
+    "position": "Oposto (Opposite Hitter)",
+    "school": "Aoba Johsai High",
+    "year": "1º Ano",
+    "styleOrPlay": "Conservação Extrema de Energia & Explosão Tardia no Final",
+    "debutArc": "Formação de Karasuno",
+    "status": "Estudante Universitário / Jogador de V.League",
+    "quote": "Desperdiçar energia no começo é inútil. Eu guardo todas as minhas forças para vencer no final do set decisivo.",
+    "techniques": [
+      "Ataque Inteligente nos Espaços Vazios",
+      "Largadinha Suave em Buraco de Bloqueio"
+    ],
+    "avatar": "/avatars/haikyuu/akira-kunimi.png"
+  },
+  {
+    "id": "kentaro-kyotani",
+    "name": "Kentarō Kyōtani (Mad Dog)",
+    "gender": "Masculino",
+    "position": "Ponta / Oposto",
+    "school": "Aoba Johsai High",
+    "year": "2º Ano",
+    "styleOrPlay": "Ataques Selvagens de Potência Máxima & Impulso Curvado",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Jogador Profissional (Sendai Frogs)",
+    "quote": "Me dê a bola! Eu vou esmagar esse bloqueio com toda a força do meu corpo!",
+    "techniques": [
+      "Spike com Salto Curvado de Trás",
+      "Saque Viagem Selvagem de Alto Risco"
+    ],
+    "avatar": "/avatars/haikyuu/kentaro-kyotani.png"
+  },
+  {
+    "id": "tetsuro-kuroo",
+    "name": "Tetsurō Kuroo",
+    "gender": "Masculino",
+    "position": "Bloqueador Central / Capitão",
+    "school": "Nekoma High",
+    "year": "3º Ano",
+    "styleOrPlay": "Bloqueio de Fechamento Total & Defesa de Transição Flexível",
+    "debutArc": "Formação de Karasuno",
+    "status": "Membro da Associação Japonesa de Voleibol (JVA)",
+    "quote": "Nós somos como o sangue nas veias: devemos fluir suavemente e transportar oxigênio para que o cérebro possa funcionar no seu ápice.",
+    "techniques": [
+      "Bloqueio de Leitura Fechador de Ângulo",
+      "Ataque de Tempo Diferenciado com Finta",
+      "Recepção de Bloqueador Central"
+    ],
+    "avatar": "/avatars/haikyuu/tetsuro-kuroo.png"
+  },
+  {
+    "id": "kenma-kozume",
+    "name": "Kenma Kozume (O Cérebro)",
+    "gender": "Masculino",
+    "position": "Levantador",
+    "school": "Nekoma High",
+    "year": "2º Ano",
+    "styleOrPlay": "Estratégia Analítica de Gamer & Manipulação Ocular de Bloqueadores",
+    "debutArc": "Formação de Karasuno",
+    "status": "Youtuber / Gamer Profissional / CEO da Bouncing Ball Corp",
+    "quote": "Eu não sou atlético e me canso fácil... mas se eu analisar os padrões do inimigo, posso vencê-los como numa fase de videogame.",
+    "techniques": [
+      "Olhar Falso com Mudança de Direção de Levantamento",
+      "Largadinha Cirúrgica no Meio da Quadra",
+      "Estrangulamento Tático com Armadilhas de Bola"
+    ],
+    "avatar": "/avatars/haikyuu/kenma-kozume.png"
+  },
+  {
+    "id": "taketora-yamamoto",
+    "name": "Taketora Yamamoto",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Ás",
+    "school": "Nekoma High",
+    "year": "2º Ano",
+    "styleOrPlay": "Garra Física de Linha de Frente & Rivalidade com Tanaka",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador Profissional (VC Kanagawa)",
+    "quote": "O verdadeiro Ás de Nekoma é aquele que sustenta a quadra com a melhor defesa e o melhor ataque!",
+    "techniques": [
+      "Spike em Ângulo Fechado",
+      "Recepção de Mergulho de Peito"
+    ],
+    "avatar": "/avatars/haikyuu/taketora-yamamoto.png"
+  },
+  {
+    "id": "morisuke-yaku",
+    "name": "Morisuke Yaku (Líbero Demônio)",
+    "gender": "Masculino",
+    "position": "Líbero",
+    "school": "Nekoma High",
+    "year": "3º Ano",
+    "styleOrPlay": "Posicionamento Perfeito de Antecipação & Recepção Perfeita",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador Profissional (Cheetah da Rússia / Seleção do Japão)",
+    "quote": "O trabalho de um líbero é fazer com que defesas impossíveis pareçam movimentos completamente naturais e fáceis.",
+    "techniques": [
+      "Posicionamento Preventivo de Ângulo",
+      "Recepção sem Ruído na Mão do Levantador"
+    ],
+    "avatar": "/avatars/haikyuu/morisuke-yaku.png"
+  },
+  {
+    "id": "lev-haiba",
+    "name": "Lev Haiba",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Nekoma High",
+    "year": "1º Ano",
+    "styleOrPlay": "Chicoteio com Braços Longos & Bloqueio com Envergadura de Gigante",
+    "debutArc": "Campo de Treinamento de Tóquio",
+    "status": "Modelo Internacional",
+    "quote": "Eu sou o futuro Ás de Nekoma! Com minha altura e envergadura, ninguém passa por cima de mim!",
+    "techniques": [
+      "Ataque Rápido Chicoteado",
+      "Bloqueio com Alcance de Dois Metros"
+    ],
+    "avatar": "/avatars/haikyuu/lev-haiba.png"
+  },
+  {
+    "id": "so-inuoka",
+    "name": "Sō Inuoka",
+    "gender": "Masculino",
+    "position": "Bloqueador Central / Ponta",
+    "school": "Nekoma High",
+    "year": "1º Ano",
+    "styleOrPlay": "Velocidade de Reação Instantânea & Acompanhamento de Hinata",
+    "debutArc": "Formação de Karasuno",
+    "status": "Jogador de Vôlei Universitário",
+    "quote": "Eu consigo acompanhar a velocidade daquele tampinha da Karasuno!",
+    "techniques": [
+      "Bloqueio Veloz Lateral",
+      "Ataque Rápido Simples"
+    ],
+    "avatar": "/avatars/haikyuu/so-inuoka.png"
+  },
+  {
+    "id": "nobuyuki-kai",
+    "name": "Nobuyuki Kai",
+    "gender": "Masculino",
+    "position": "Ponta / Vice-Capitão",
+    "school": "Nekoma High",
+    "year": "3º Ano",
+    "styleOrPlay": "Estabilidade Total de Recepção & Serenidade Zen",
+    "debutArc": "Formação de Karasuno",
+    "status": "Instrutor de Jardinagem",
+    "quote": "Deixe que Kuroo e Yaku façam o barulho; eu mantenho o chão calmo e firme.",
+    "techniques": [
+      "Recepção Amortecedora",
+      "Ataque de Suporte pelas Pontas"
+    ],
+    "avatar": "/avatars/haikyuu/nobuyuki-kai.png"
+  },
+  {
+    "id": "yasufumi-nekomata",
+    "name": "Yasufumi Nekomata",
+    "gender": "Masculino",
+    "position": "Treinador Principal",
+    "school": "Nekoma High",
+    "year": "Comissão Técnica",
+    "styleOrPlay": "Filosofia dos Felinos Flexíveis & A Batalha do Lixão",
+    "debutArc": "Formação de Karasuno",
+    "status": "Treinador Lendário de Nekoma",
+    "quote": "Conectem! O voleibol não é um jogo onde a bola pode tocar o chão nem por um milésimo de segundo!",
+    "techniques": [
+      "Treinamento Focado em Recepção Perfeita",
+      "Rivalidade Eterna com Ukai de Karasuno"
+    ],
+    "avatar": "/avatars/haikyuu/yasufumi-nekomata.png"
+  },
+  {
+    "id": "kotaro-bokuto",
+    "name": "Kōtarō Bokuto",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Capitão / Top 5 Ás Nacional",
+    "school": "Fukurodani Academy",
+    "year": "3º Ano",
+    "styleOrPlay": "Cortes em Linha Reta e Cruzados Perfeitos & Modo Hey Hey Hey",
+    "debutArc": "Campo de Treinamento de Tóquio",
+    "status": "Jogador Profissional (MSBY Black Jackals / Seleção do Japão)",
+    "quote": "Hey, hey, hey! Não há nada mais divertido no mundo inteiro do que jogar com 120% da sua força!",
+    "techniques": [
+      "Spike em Linha Reta Cirúrgico",
+      "Corte Cruzado Ultra Fechado",
+      "Modo Desanimado (Emo Mode) com Retorno Triunfante"
+    ],
+    "avatar": "/avatars/haikyuu/kotaro-bokuto.png"
+  },
+  {
+    "id": "keiji-akaashi",
+    "name": "Keiji Akaashi",
+    "gender": "Masculino",
+    "position": "Levantador / Vice-Capitão",
+    "school": "Fukurodani Academy",
+    "year": "2º Ano",
+    "styleOrPlay": "Gestão Emocional de Bokuto & Levantamentos Impecáveis sob Pressão",
+    "debutArc": "Campo de Treinamento de Tóquio",
+    "status": "Editor de Mangá na Shueisha",
+    "quote": "Bokuto-san, se você acertar este próximo ataque, você voltará a ser o herói de toda a torcida.",
+    "techniques": [
+      "Levantamento Perfeito Rápido",
+      "Calculadora Tática de Moral de Bokuto",
+      "Finta de Segunda Bola com Toque"
+    ],
+    "avatar": "/avatars/haikyuu/keiji-akaashi.png"
+  },
+  {
+    "id": "akinori-konoha",
+    "name": "Akinori Konoha (O Faz-Tudo)",
+    "gender": "Masculino",
+    "position": "Ponta / Oposto",
+    "school": "Fukurodani Academy",
+    "year": "3º Ano",
+    "styleOrPlay": "Versatilidade Completa (Jack of All Trades)",
+    "debutArc": "Campo de Treinamento de Tóquio",
+    "status": "Trabalhador em Farmacêutica",
+    "quote": "Alguém precisa limpar a bagunça quando Bokuto decide inventar moda na quadra.",
+    "techniques": [
+      "Levantamento de Emergência",
+      "Recepção Firme de Saque Viagem"
+    ],
+    "avatar": "/avatars/haikyuu/akinori-konoha.png"
+  },
+  {
+    "id": "tatsuki-washio",
+    "name": "Tatsuki Washio",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Fukurodani Academy",
+    "year": "3º Ano",
+    "styleOrPlay": "Bloqueio Silencioso de Ferro & Saque Flutuante",
+    "debutArc": "Campo de Treinamento de Tóquio",
+    "status": "Jogador Profissional (EJP Raijin V.League)",
+    "quote": "A muralha central de Fukurodani não vacila por causa de gritos.",
+    "techniques": [
+      "Bloqueio de Leitura com Altura",
+      "Ataque Rápido pelo Meio"
+    ],
+    "avatar": "/avatars/haikyuu/tatsuki-washio.png"
+  },
+  {
+    "id": "wakatoshi-ushijima",
+    "name": "Wakatoshi Ushijima (Ushiwaka)",
+    "gender": "Masculino",
+    "position": "Oposto (Opposite Hitter) / Capitão / Top 3 Ás Nacional",
+    "school": "Shiratorizawa Academy",
+    "year": "3º Ano",
+    "styleOrPlay": "Espancamento Canhoto com Rotação Invertida & Força Bruta Pura",
+    "debutArc": "Interhigh Preliminar",
+    "status": "Jogador Profissional (Schweiden Adlers / Orzel Warszawa / Seleção do Japão)",
+    "quote": "Você deveria ter vindo para a Shiratorizawa. O solo infértil não pode produzir colheitas de excelência.",
+    "techniques": [
+      "Spike Canhoto com Efeito Anti-Horário",
+      "Saque Viagem Ultra Pesado de Três Dígitos",
+      "Rompedor de Bloqueio Triplo"
+    ],
+    "avatar": "/avatars/haikyuu/wakatoshi-ushijima.png"
+  },
+  {
+    "id": "satori-tendo",
+    "name": "Satori Tendō (O Monstro da Adivinhação)",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Shiratorizawa Academy",
+    "year": "3º Ano",
+    "styleOrPlay": "Guess Blocking (Bloqueio de Intuição Pura e Adivinhação)",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Chocolatier em Paris",
+    "quote": "Bloquear não é deter a bola... é quebrar o coração do atacante adversário em pedacinhos! Baki baki ni ore!",
+    "techniques": [
+      "Bloqueio Intuitivo de Adivinhação de Olhos",
+      "Toque Suicida com Uma Mão no Ar",
+      "Música Provocadora de Quebra de Moral"
+    ],
+    "avatar": "/avatars/haikyuu/satori-tendo.png"
+  },
+  {
+    "id": "tsutomu-goshiki",
+    "name": "Tsutomu Goshiki",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Futuro Ás",
+    "school": "Shiratorizawa Academy",
+    "year": "1º Ano",
+    "styleOrPlay": "Spike em Linha Reta Super Afiado & Orgulho de Sucessor",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Jogador Profissional (Green Rockets)",
+    "quote": "Ushijima-san, olhe bem para mim! Eu serei o próximo Ás indiscutível da Shiratorizawa!",
+    "techniques": [
+      "Corte Cirúrgico na Linha Lateral",
+      "Saque Viagem Agressivo de Calouro"
+    ],
+    "avatar": "/avatars/haikyuu/tsutomu-goshiki.png"
+  },
+  {
+    "id": "kenjiro-shirabu",
+    "name": "Kenjirō Shirabu",
+    "gender": "Masculino",
+    "position": "Levantador",
+    "school": "Shiratorizawa Academy",
+    "year": "2º Ano",
+    "styleOrPlay": "Levantamentos Altíssimos e Impecáveis para Ushijima",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Estudante de Medicina",
+    "quote": "Eu não preciso de jogadas brilhantes. Meu dever é colocar a bola perfeita na altura exata para o nosso Ás trucidar.",
+    "techniques": [
+      "Levantamento Alto Estabilizado",
+      "Frieza sob Cobrança de Washijō"
+    ],
+    "avatar": "/avatars/haikyuu/kenjiro-shirabu.png"
+  },
+  {
+    "id": "eita-semi",
+    "name": "Eita Semi (Semi-semi)",
+    "gender": "Masculino",
+    "position": "Levantador / Sacador Especialista",
+    "school": "Shiratorizawa Academy",
+    "year": "3º Ano",
+    "styleOrPlay": "Saque Viagem Canhão & Desejo de Autonomia de Levantamento",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Músico de Banda de Rock",
+    "quote": "Quando eu entro na quadra, meu saque é para marcar ponto direto!",
+    "techniques": [
+      "Saque Viagem Explosivo de Ponto Direto",
+      "Levantamento Surpresa com Força"
+    ],
+    "avatar": "/avatars/haikyuu/eita-semi.png"
+  },
+  {
+    "id": "tanji-washijo",
+    "name": "Tanji Washijō",
+    "gender": "Masculino",
+    "position": "Treinador Principal",
+    "school": "Shiratorizawa Academy",
+    "year": "Comissão Técnica",
+    "styleOrPlay": "Filosofia da Força e Altura Absolutas & Rigor Impiedoso",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Treinador Histórico da Shiratorizawa",
+    "quote": "O conceito simples de força e altura sempre triunfará sobre truques pequenos e malabarismos!",
+    "techniques": [
+      "Seleção Rígida de Gigantes Físicos",
+      "Treinamento Espartano com Repetições Infinitas"
+    ],
+    "avatar": "/avatars/haikyuu/tanji-washijo.png"
+  },
+  {
+    "id": "atsumu-miya",
+    "name": "Atsumu Miya",
+    "gender": "Masculino",
+    "position": "Levantador / Gêmeos Miya",
+    "school": "Inarizaki High",
+    "year": "2º Ano",
+    "styleOrPlay": "Saque Híbrido Duplo (Viagem/Flutuante) & Ataque Rápido Freak Copiado",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Jogador Profissional (MSBY Black Jackals / Seleção do Japão)",
+    "quote": "Aquele que não consegue colocar a bola na mão do atacante com a maior facilidade do mundo não merece ser chamado de levantador!",
+    "techniques": [
+      "Saque Híbrido com Contagem de Passos Diferenciada",
+      "Cópia Instantânea do Ataque Rápido Bizarro de Kageyama",
+      "Levantamento Deitado de Costas"
+    ],
+    "avatar": "/avatars/haikyuu/atsumu-miya.png"
+  },
+  {
+    "id": "osamu-miya",
+    "name": "Osamu Miya",
+    "gender": "Masculino",
+    "position": "Oposto (Opposite Hitter) / Gêmeos Miya",
+    "school": "Inarizaki High",
+    "year": "2º Ano",
+    "styleOrPlay": "Sincronia Telepática com Atsumu & Levantamento Freak Invertido",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Proprietário de Loja de Onigiri (Onigiri Miya)",
+    "quote": "Eu sei exatamente o que aquele idiota do meu irmão está pensando antes mesmo dele se mexer.",
+    "techniques": [
+      "Ataque Rápido Invertido (Osamu Levantando para Atsumu)",
+      "Ataque Rápido de Costas",
+      "Spike Potente de Oposto"
+    ],
+    "avatar": "/avatars/haikyuu/osamu-miya.png"
+  },
+  {
+    "id": "shinsuke-kita",
+    "name": "Shinsuke Kita",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Capitão",
+    "school": "Inarizaki High",
+    "year": "3º Ano",
+    "styleOrPlay": "Consistência e Perfeição dos Fundamentos Sem Erros",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Agricultor de Arroz de Alta Qualidade",
+    "quote": "Eu não preciso de milagres. Fazer o básico com 100% de perfeição todos os dias é o que constrói a verdadeira vitória.",
+    "techniques": [
+      "Recepção sem Margem de Erro",
+      "Estabilização Psicológica dos Gêmeos Miya",
+      "Defesa de Fundo Cirúrgica"
+    ],
+    "avatar": "/avatars/haikyuu/shinsuke-kita.png"
+  },
+  {
+    "id": "rintaro-suna",
+    "name": "Rintarō Suna",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Inarizaki High",
+    "year": "2º Ano",
+    "styleOrPlay": "Corte com Flexão do Tronco que Contorna Bloqueios",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Jogador Profissional (EJP Raijin / Seleção do Japão)",
+    "quote": "Quanto mais você tenta fechar o meu ângulo de ataque, mais fácil fica dobrar meu tronco para o outro lado.",
+    "techniques": [
+      "Spike com Ampla Flexibilidade da Cintura",
+      "Bloqueio que Desvia a Bola com Toque"
+    ],
+    "avatar": "/avatars/haikyuu/rintaro-suna.png"
+  },
+  {
+    "id": "aran-ojiro",
+    "name": "Aran Ojiro",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Top 5 Ás Nacional",
+    "school": "Inarizaki High",
+    "year": "3º Ano",
+    "styleOrPlay": "Poder de Fogo Esmagador & Ataques Acima do Bloqueio",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Jogador Profissional (Tachibana Red Falcons / Seleção do Japão)",
+    "quote": "Quando a bola é levantada para mim, não importa quem esteja na rede: eu passo por cima!",
+    "techniques": [
+      "Spike Potente de Três Metros",
+      "Recepção sob Mira Adversária"
+    ],
+    "avatar": "/avatars/haikyuu/aran-ojiro.png"
+  },
+  {
+    "id": "korai-hoshiumi",
+    "name": "Kōrai Hoshiumi (O Pequeno Gigante Atual)",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Ás",
+    "school": "Kamomedai High",
+    "year": "2º Ano",
+    "styleOrPlay": "Salto Espetacular, Técnica Perfeita e Bloqueio com Uso de Dedos",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Jogador Profissional (Schweiden Adlers / Seleção do Japão)",
+    "quote": "Não me chame de 'baixinho desafortunado'! Olhe para a minha técnica e meu salto antes de ter pena de mim!",
+    "techniques": [
+      "Salto Vertical de Mais de Três Metros",
+      "Recepção Perfeita de Todos os Fundamentos",
+      "Uso Deliberado das Mãos do Bloqueador para Wipe-Out"
+    ],
+    "avatar": "/avatars/haikyuu/korai-hoshiumi.png"
+  },
+  {
+    "id": "sachiro-hirugami",
+    "name": "Sachirō Hirugami (O Bloqueador Imóvel)",
+    "gender": "Masculino",
+    "position": "Bloqueador Central",
+    "school": "Kamomedai High",
+    "year": "2º Ano",
+    "styleOrPlay": "Muralha Imóvel Sem Queda em Fintas (Fudo no Hirugami)",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Estudante de Medicina Veterinária",
+    "quote": "Errar uma jogada não mata ninguém. Quando você não tem medo de falhar, seu bloqueio se torna inabalável.",
+    "techniques": [
+      "Bloqueio que Nunca Pula em Fintas",
+      "Braços Travados em Ângulo de Invasão Aérea",
+      "Saque Flutuante Estável"
+    ],
+    "avatar": "/avatars/haikyuu/sachiro-hirugami.png"
+  },
+  {
+    "id": "gao-hakuba",
+    "name": "Gao Hakuba",
+    "gender": "Masculino",
+    "position": "Oposto (Opposite Hitter)",
+    "school": "Kamomedai High",
+    "year": "2º Ano",
+    "styleOrPlay": "Altura de 2,03m & Ataque no Ponto Mais Alto da Rede",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Jogador Profissional (Tachibana Red Falcons)",
+    "quote": "Com mais de dois metros de altura, a bola parece mais fácil de alcançar do que para os outros.",
+    "techniques": [
+      "Bloqueio Monstruoso de Dois Metros",
+      "Spike Descendente Vertical"
+    ],
+    "avatar": "/avatars/haikyuu/gao-hakuba.png"
+  },
+  {
+    "id": "kiyoomi-sakusa",
+    "name": "Kiyoomi Sakusa",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Top 3 Ás Nacional",
+    "school": "Itachiyama Institute",
+    "year": "2º Ano",
+    "styleOrPlay": "Pulsos Hiperflexíveis com Efeito Giratório Absurdo & Germofobia",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Jogador Profissional (MSBY Black Jackals / Seleção do Japão)",
+    "quote": "Eu odeio sujeira, multidões e bolas que não consigo rebater com precisão perfeita.",
+    "techniques": [
+      "Spike com Rotação Anômala de Punho Hipermóvel",
+      "Recepção Suave com Absorção de Efeito",
+      "Saque com Efeito Lateral Venenoso"
+    ],
+    "avatar": "/avatars/haikyuu/kiyoomi-sakusa.png"
+  },
+  {
+    "id": "motoya-komori",
+    "name": "Motoya Komori",
+    "gender": "Masculino",
+    "position": "Líbero / Número 1 Colegial",
+    "school": "Itachiyama Institute",
+    "year": "2º Ano",
+    "styleOrPlay": "Líbero Número 1 do Japão & Recepções Limpas",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Jogador Profissional (EJP Raijin / Seleção do Japão)",
+    "quote": "Não se preocupe, Sakusa! Eu coloco todas as bolas limpas para você bater!",
+    "techniques": [
+      "Recepção Técnica Perfeita sem Rebote",
+      "Leitura Antecipada de Ataques de Três Metros"
+    ],
+    "avatar": "/avatars/haikyuu/motoya-komori.png"
+  },
+  {
+    "id": "takanobu-aone",
+    "name": "Takanobu Aone",
+    "gender": "Masculino",
+    "position": "Bloqueador Central / A Muralha de Ferro",
+    "school": "Date Tech High",
+    "year": "2º Ano",
+    "styleOrPlay": "A Muralha de Ferro Impenetrável (Iron Wall) & Respeito a Hinata",
+    "debutArc": "Interhigh Preliminar",
+    "status": "Trabalhador em Construção Civil",
+    "quote": "*aponta o dedo em silêncio para Hinata em sinal de respeito supremo de bloqueador*",
+    "techniques": [
+      "Bloqueio de Parede Fechada sem Brecha",
+      "Salto Lateral sem Cruzar os Pés",
+      "Ataque Rápido Pesado"
+    ],
+    "avatar": "/avatars/haikyuu/takanobu-aone.png"
+  },
+  {
+    "id": "kenji-futakuchi",
+    "name": "Kenji Futakuchi",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Capitão",
+    "school": "Date Tech High",
+    "year": "2º Ano",
+    "styleOrPlay": "Bloqueio Provocador da Muralha & Ataque de Ponta",
+    "debutArc": "Interhigh Preliminar",
+    "status": "Operador de Usina de Energia",
+    "quote": "A Muralha de Ferro de Date Tech foi reconstruída e agora é mais alta do que nunca!",
+    "techniques": [
+      "Bloqueio Sincronizado Duplo",
+      "Provocação Psicológica na Rede"
+    ],
+    "avatar": "/avatars/haikyuu/kenji-futakuchi.png"
+  },
+  {
+    "id": "kanji-koganegawa",
+    "name": "Kanji Koganegawa",
+    "gender": "Masculino",
+    "position": "Levantador Gigante",
+    "school": "Date Tech High",
+    "year": "1º Ano",
+    "styleOrPlay": "Levantador de 1,93m & Parede com Dois Metros de Bloqueio",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Jogador de V.League Divisão 3",
+    "quote": "Desculpe pelo levantamento torto! Mas no bloqueio eu garanto que não passa nada!",
+    "techniques": [
+      "Bloqueio Alto de Levantador Gigante",
+      "Despejo de Força em Levantamentos Altos"
+    ],
+    "avatar": "/avatars/haikyuu/kanji-koganegawa.png"
+  },
+  {
+    "id": "suguru-daisho",
+    "name": "Suguru Daishō",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Capitão",
+    "school": "Nohebi Academy",
+    "year": "3º Ano",
+    "styleOrPlay": "Jogo Psicológico da Serpente & Fingimento com Juízes",
+    "debutArc": "Torneio Nacional de Primavera",
+    "status": "Comentarista e Jogador de V.League",
+    "quote": "Nohebi joga limpo com o juiz e com veneno na mente do adversário. Isso é inteligência competitiva!",
+    "techniques": [
+      "Largadinha Provocativa",
+      "Corte no Bloqueador para Gerar Bola Fora"
+    ],
+    "avatar": "/avatars/haikyuu/suguru-daisho.png"
+  },
+  {
+    "id": "yuji-terushima",
+    "name": "Yūji Terushima",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Capitão",
+    "school": "Johzenji High",
+    "year": "2º Ano",
+    "styleOrPlay": "Estilo Livre Espontâneo & Ataques Acrobáticos Improvisados",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Cabeleireiro",
+    "quote": "Vôlei é sobre se divertir! Se a jogada for divertida, vale a pena tentar de qualquer jeito!",
+    "techniques": [
+      "Ataque Acrobático com Salto Giratório",
+      "Levantamento sem Posição Fixa"
+    ],
+    "avatar": "/avatars/haikyuu/yuji-terushima.png"
+  },
+  {
+    "id": "yudai-hyakuzawa",
+    "name": "Yūdai Hyakuzawa",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker)",
+    "school": "Kakugawa High",
+    "year": "1º Ano",
+    "styleOrPlay": "Altura Pura de 2,01m & Ataques por Cima da Rede",
+    "debutArc": "Preliminares de Miyagi",
+    "status": "Jogador Profissional de V.League",
+    "quote": "Com a ajuda de Hinata no acampamento, entendi que vôlei é mais do que apenas ser grande.",
+    "techniques": [
+      "Spike Simples no Ponto Mais Alto",
+      "Recepção com Postura Baixa"
+    ],
+    "avatar": "/avatars/haikyuu/yudai-hyakuzawa.png"
+  },
+  {
+    "id": "tenma-udai",
+    "name": "Tenma Udai (O Pequeno Gigante)",
+    "gender": "Masculino",
+    "position": "Ponta (Wing Spiker) / Ás Lendário",
+    "school": "Karasuno High (Graduado)",
+    "year": "Adulto",
+    "styleOrPlay": "A Lenda Inspiradora do Pequeno Gigante & Rebotes no Bloqueio",
+    "debutArc": "Formação de Karasuno",
+    "status": "Mangaká em Tóquio",
+    "quote": "Eu não tinha altura, então aprendi a lutar nas brechas dos dedos dos gigantes!",
+    "techniques": [
+      "Wipe-Out nas Pontas dos Dedos",
+      "Salto Inspirador com Camisa Número 10"
+    ],
+    "avatar": "/avatars/haikyuu/tenma-udai.png"
+  },
+  {
+    "id": "saeko-tanaka",
+    "name": "Saeko Tanaka",
+    "gender": "Feminino",
+    "position": "Líder da Torcida de Karasuno",
+    "school": "Karasuno High (Graduada)",
+    "year": "Adulta",
+    "styleOrPlay": "Bateria Taiko Tradicional & Apoio Enlouquecido nas Arquibancadas",
+    "debutArc": "Campo de Treinamento de Tóquio",
+    "status": "Líder de Grupo de Taiko Tradicional",
+    "quote": "O tambor de Karasuno não vai parar de tocar até o último ponto ser marcado!",
+    "techniques": [
+      "Batida Rítmica Ensurdecedora de Taiko",
+      "Direção de Furgão em Velocidade Máxima"
+    ],
+    "avatar": "/avatars/haikyuu/saeko-tanaka.png"
+  }
+]

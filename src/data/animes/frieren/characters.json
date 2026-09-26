@@ -1,0 +1,909 @@
+[
+  {
+    "id": "frieren",
+    "name": "Frieren",
+    "gender": "Feminino",
+    "species": "Elfo",
+    "affiliation": [
+      "Grupo da Frieren",
+      "Grupo do Herói Himmel"
+    ],
+    "rank": "Maga Elfa Milenar / Aluna de Flamme",
+    "styleOrPower": "Supressão Absoluta de Mana & Zoltraak Canônico",
+    "debutArc": "Fim da Jornada & Reencontros",
+    "status": "Vivo",
+    "quote": "A vida de um humano é passageira, mas os dez anos viajando com eles mudaram toda a minha eternidade.",
+    "techniques": [
+      "Zoltraak (Magia Destruidora de Demônios)",
+      "Supressão Indetectável de Mana",
+      "Magia que Transforma Flores em Campos",
+      "Desmantelamento de Barreiras Antigas"
+    ],
+    "avatar": "/avatars/frieren/frieren.png"
+  },
+  {
+    "id": "fern",
+    "name": "Fern",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo da Frieren"
+    ],
+    "rank": "Maga de Primeira Classe / Aprendiz de Frieren",
+    "styleOrPower": "Velocidade de Disparo Supersônica & Ocultação de Mana",
+    "debutArc": "Fim da Jornada & Reencontros",
+    "status": "Vivo",
+    "quote": "Mestra Frieren, a velocidade no lançamento de magias normais é mais do que suficiente para vencer qualquer mago.",
+    "techniques": [
+      "Disparo Ultra-Rápido de Zoltraak",
+      "Ocultação Total de Liberação Mágica",
+      "Escudo Defensivo Esférico Hexagonal",
+      "Magia de Limpeza de Roupas"
+    ],
+    "avatar": "/avatars/frieren/fern.png"
+  },
+  {
+    "id": "stark",
+    "name": "Stark",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo da Frieren"
+    ],
+    "rank": "Guerreiro da Vanguarda / Aprendiz de Eisen",
+    "styleOrPower": "Corte Destruidor de Rochas & Resistência Sobre-Humana",
+    "debutArc": "Eisen & Stark",
+    "status": "Vivo",
+    "quote": "Eu tremo de medo toda vez antes de lutar... mas meu mestre me ensinou que a coragem é avançar mesmo tremendo!",
+    "techniques": [
+      "Golpe Fendidora de Relâmpago",
+      "Resistência Extrema a Dano Crítico",
+      "Machado Cortador de Penhascos",
+      "Investida Quebra-Dragões"
+    ],
+    "avatar": "/avatars/frieren/stark.png"
+  },
+  {
+    "id": "himmel",
+    "name": "Himmel",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo do Herói Himmel"
+    ],
+    "rank": "O Grande Herói",
+    "styleOrPower": "Esgrima Veloz Heroica & Carisma Inabalável",
+    "debutArc": "Fim da Jornada & Reencontros",
+    "status": "Falecido",
+    "quote": "Frieren, eu quero que construam estátuas nossas por toda parte para que, mesmo após cem anos, você nunca se sinta sozinha.",
+    "techniques": [
+      "Espada Heroica da Velocidade da Luz",
+      "Liderança Inspiradora Lendária",
+      "Golpe Perfurante Anti-Demônio"
+    ],
+    "avatar": "/avatars/frieren/himmel.png"
+  },
+  {
+    "id": "heiter",
+    "name": "Heiter",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo do Herói Himmel",
+      "Igreja Sagrada"
+    ],
+    "rank": "Sacerdote Sagrado",
+    "styleOrPower": "Magia Sagrada da Deusa & Bênçãos de Ressurreição",
+    "debutArc": "Fim da Jornada & Reencontros",
+    "status": "Falecido",
+    "quote": "Mesmo sendo um sacerdote que adora bebidas, a Deusa certamente acolherá a todos nós no paraíso.",
+    "techniques": [
+      "Magia Sagrada Curativa da Deusa",
+      "Três Meses sem Oxigênio",
+      "Bênçãos de Purificação de Veneno"
+    ],
+    "avatar": "/avatars/frieren/heiter.png"
+  },
+  {
+    "id": "eisen",
+    "name": "Eisen",
+    "gender": "Masculino",
+    "species": "Anão",
+    "affiliation": [
+      "Grupo do Herói Himmel"
+    ],
+    "rank": "Guerreiro Titânico Anão",
+    "styleOrPower": "Defesa Absoluta & Força Bruta de Machadadas",
+    "debutArc": "Fim da Jornada & Reencontros",
+    "status": "Vivo",
+    "quote": "Guerreiros ficam de pé mesmo quando seus ossos quebram. Foi isso que ensinei a Stark.",
+    "techniques": [
+      "Corpo Inquebrável de Rocha Anã",
+      "Golpe Esmagador de Crânio",
+      "Queda Ilesa de Quedas Mortais"
+    ],
+    "avatar": "/avatars/frieren/eisen.png"
+  },
+  {
+    "id": "flamme",
+    "name": "Flamme",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Pioneiros da Magia Humana"
+    ],
+    "rank": "A Grande Maga Fundadora",
+    "styleOrPower": "Criação da Magia Sistemática & Engano Perfeito de Mana",
+    "debutArc": "Aura a Guilhotina",
+    "status": "Falecido",
+    "quote": "Engane os demônios pelo resto da sua vida, Frieren. Finja ser fraca até o instante exato de matá-los.",
+    "techniques": [
+      "Técnica de Ocultação Eterna de Mana",
+      "Grimórios Fundamentais da Humanidade",
+      "Barreira Anti-Demônios Milenar"
+    ],
+    "avatar": "/avatars/frieren/flamme.png"
+  },
+  {
+    "id": "serie",
+    "name": "Serie",
+    "gender": "Feminino",
+    "species": "Elfo",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Líder Suprema / O Grimório Vivo",
+    "styleOrPower": "Domínio de Quase Todas as Magias da História Humana",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "A magia é o mundo dos instintos e da ambição. Aqueles sem desejo de poder jamais alcançarão o topo.",
+    "techniques": [
+      "Concessão de Qualquer Feitiço Existente",
+      "Detecção Dimensional de Mana",
+      "Pressão Esmagadora de Mana Primordial"
+    ],
+    "avatar": "/avatars/frieren/serie.png"
+  },
+  {
+    "id": "kraft",
+    "name": "Kraft",
+    "gender": "Masculino",
+    "species": "Elfo",
+    "affiliation": [
+      "Monges Andarilhos da Deusa"
+    ],
+    "rank": "Monge Guerreiro Elfo Ancião",
+    "styleOrPower": "Artes Marciais Sagradas & Devoção à Deusa",
+    "debutArc": "Eisen & Stark",
+    "status": "Vivo",
+    "quote": "Quando você vive tanto tempo quanto nós, Frieren, precisa de alguém no céu para elogiar os seus feitos esquecidos.",
+    "techniques": [
+      "Treinamento Físico Extremo de Monge",
+      "Meditação Sagrada da Deusa",
+      "Combate Desarmado Corporal"
+    ],
+    "avatar": "/avatars/frieren/kraft.png"
+  },
+  {
+    "id": "sein",
+    "name": "Sein",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Grupo da Frieren",
+      "Igreja de Alt"
+    ],
+    "rank": "Sacerdote Prodígio",
+    "styleOrPower": "Magia Sagrada de Alto Nível & Anulação de Maldições",
+    "debutArc": "Eisen & Stark",
+    "status": "Vivo",
+    "quote": "Meu coração sonha em encontrar uma bela mulher mais velha, mas por enquanto vou salvar a vida desses dois jovens.",
+    "techniques": [
+      "Anulação Instantânea de Sono Amaldiçoado",
+      "Cura Sagrada Restauradora",
+      "Detecção de Envenenamento Espiritual"
+    ],
+    "avatar": "/avatars/frieren/sein.png"
+  },
+  {
+    "id": "aura",
+    "name": "Aura a Guilhotina",
+    "gender": "Feminino",
+    "species": "Demônio",
+    "affiliation": [
+      "Sete Sábios da Destruição",
+      "Exército do Rei Demônio"
+    ],
+    "rank": "Sábia da Destruição",
+    "styleOrPower": "Balança da Obediência (Auserlese)",
+    "debutArc": "Aura a Guilhotina",
+    "status": "Falecido",
+    "quote": "Minha balança nunca erra. Aquele que tiver menos mana torna-se escravo obediente para toda a eternidade.",
+    "techniques": [
+      "Auserlese (Balança da Obediência)",
+      "Controle de Exército de Cadáveres Decapitados",
+      "Pesagem Inabalável de Mana"
+    ],
+    "avatar": "/avatars/frieren/aura.png"
+  },
+  {
+    "id": "lugner",
+    "name": "Lügner",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Tropa de Aura a Guilhotina"
+    ],
+    "rank": "Lorde Demônio da Manipulação",
+    "styleOrPower": "Balterie (Magia de Manipulação de Sangue)",
+    "debutArc": "Aura a Guilhotina",
+    "status": "Falecido",
+    "quote": "As palavras dos humanos são ferramentas tão convenientes para enganá-los.",
+    "techniques": [
+      "Balterie (Chicotes e Lanças de Sangue)",
+      "Endurecimento Cristalino de Sangue",
+      "Oratória Dissimulada de Paz"
+    ],
+    "avatar": "/avatars/frieren/lugner.png"
+  },
+  {
+    "id": "linie",
+    "name": "Linie",
+    "gender": "Feminino",
+    "species": "Demônio",
+    "affiliation": [
+      "Tropa de Aura a Guilhotina"
+    ],
+    "rank": "Demônio Guerreira Aprendiz",
+    "styleOrPower": "Lehergand (Mimetismo de Habilidades Marciais por Mana)",
+    "debutArc": "Aura a Guilhotina",
+    "status": "Falecido",
+    "quote": "Eu vejo o fluxo do seu mana e posso replicar perfeitamente a técnica de qualquer guerreiro que já vi.",
+    "techniques": [
+      "Lehergand (Imitação de Movimentos de Eisen)",
+      "Machadada Pesada Copiada",
+      "Visão de Rastros de Mana"
+    ],
+    "avatar": "/avatars/frieren/linie.png"
+  },
+  {
+    "id": "draht",
+    "name": "Draht",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Tropa de Aura a Guilhotina"
+    ],
+    "rank": "Demônio Algoz",
+    "styleOrPower": "Fios Invisíveis Cortantes de Mana",
+    "debutArc": "Aura a Guilhotina",
+    "status": "Falecido",
+    "quote": "Seu pescoço será decepado antes mesmo de você perceber meus fios ao seu redor.",
+    "techniques": [
+      "Fios Cerceadores Invisíveis",
+      "Guilhotina de Teias de Mana",
+      "Estrangulamento Silencioso"
+    ],
+    "avatar": "/avatars/frieren/draht.png"
+  },
+  {
+    "id": "qual",
+    "name": "Qual (O Sábio da Corrupção)",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Exército do Rei Demônio"
+    ],
+    "rank": "Demônio Ancestral / Criador da Magia Perfurante",
+    "styleOrPower": "Zoltraak Original (Magia Perfuradora de Almas)",
+    "debutArc": "Fim da Jornada & Reencontros",
+    "status": "Falecido",
+    "quote": "Humanos... vocês pegaram a minha própria magia e a tornaram um feitiço comum de estudantes?",
+    "techniques": [
+      "Zoltraak Primordial Sem Escudo",
+      "Feixe Concentrado Penetrador de Barreiras",
+      "Flutuação Demoníaca"
+    ],
+    "avatar": "/avatars/frieren/qual.png"
+  },
+  {
+    "id": "denken",
+    "name": "Denken",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental",
+      "Império"
+    ],
+    "rank": "Mago de Primeira Classe / Mago da Corte Imperial",
+    "styleOrPower": "Cataclisma de Fogo de Vento & Combate Corpo a Corpo Brutal",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Se a magia acabar, um verdadeiro homem luta com os próprios punhos até o último suspiro!",
+    "techniques": [
+      "Cataclisma Flamejante Waldgose",
+      "Ventos Cortantes de Destruição",
+      "Trocador de Socos Desesperado"
+    ],
+    "avatar": "/avatars/frieren/denken.png"
+  },
+  {
+    "id": "ubel",
+    "name": "Übel",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Maga de Primeira Classe",
+    "styleOrPower": "Reelseiden (Magia Quase Invisível que Corta Qualquer Coisa Concebível)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Se eu sinto em meu coração que algo pode ser cortado... então isso será cortado!",
+    "techniques": [
+      "Reelseiden (Corte que Fatia Barreira e Cabelo)",
+      "Mimetismo por Empatia de Feitiços Alheios",
+      "Sorge (Magia Paralisante de Contato Visual)"
+    ],
+    "avatar": "/avatars/frieren/ubel.png"
+  },
+  {
+    "id": "land",
+    "name": "Land",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Mago de Primeira Classe",
+    "styleOrPower": "Criação de Clones Perfeitos a Distâncias Continentais",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Eu nunca saí de casa para fazer esse exame. O tempo todo vocês estiveram conversando com uma cópia.",
+    "techniques": [
+      "Clone de Mana Corpóreo Perfeito",
+      "Disparo Sincronizado de Zoltraak via Clone",
+      "Teletransporte de Consciência"
+    ],
+    "avatar": "/avatars/frieren/land.png"
+  },
+  {
+    "id": "wirbel",
+    "name": "Wirbel",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental",
+      "Corpo de Magos do Norte"
+    ],
+    "rank": "Mago de Primeira Classe / Capitão Militar",
+    "styleOrPower": "Sorgenteil (Magia Paralisante por Fixação Ocular)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Na fronteira norte, se você hesitar um segundo para matar o inimigo, todos os seus companheiros morrem.",
+    "techniques": [
+      "Sorgenteil (Imobilização Total por Visão)",
+      "Zoltraak Militar Prático",
+      "Estratégia de Emboscada de Esquadrão"
+    ],
+    "avatar": "/avatars/frieren/wirbel.png"
+  },
+  {
+    "id": "scharf",
+    "name": "Scharf",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental",
+      "Esquadrão de Wirbel"
+    ],
+    "rank": "Mago de Segunda Classe",
+    "styleOrPower": "Jubelbrüll (Magia que Transforma Pétalas em Lâminas de Aço)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Cada pétala ao vento corta tão fundo quanto a mais afiada espada de ferro.",
+    "techniques": [
+      "Jubelbrüll (Pétalas Laminadas Voadoras)",
+      "Chuva de Flores Perfurantes",
+      "Escudo Floral Repulsor"
+    ],
+    "avatar": "/avatars/frieren/scharf.png"
+  },
+  {
+    "id": "ehre",
+    "name": "Ehre",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental",
+      "Esquadrão de Wirbel"
+    ],
+    "rank": "Maga de Segunda Classe / Neta de Lernen",
+    "styleOrPower": "Blandmeer (Magia Balística de Projéteis de Rocha Maciça)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Fui treinada pelo próprio primeiro mago de Serie. Minha artilharia de pedra não tem brechas.",
+    "techniques": [
+      "Blandmeer (Bombardeio de Rocha Sísmica)",
+      "Estilhaçamento de Solo",
+      "Barreira de Terra Rápida"
+    ],
+    "avatar": "/avatars/frieren/ehre.png"
+  },
+  {
+    "id": "richter",
+    "name": "Richter",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental",
+      "Comerciantes de Äußerst"
+    ],
+    "rank": "Mago de Segunda Classe",
+    "styleOrPower": "Esgreant (Manipulação Maciça da Crosta Terrestre)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Magos jovens dependem demais de água e gelo. Mas a terra sob nossos pés é infinita!",
+    "techniques": [
+      "Esgreant (Lanças de Rocha e Terremotos)",
+      "Muralha Sísmica Continental",
+      "Lâminas Ocultas do Subsolo"
+    ],
+    "avatar": "/avatars/frieren/richter.png"
+  },
+  {
+    "id": "laufen",
+    "name": "Laufen",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental",
+      "Grupo de Denken"
+    ],
+    "rank": "Maga de Segunda Classe",
+    "styleOrPower": "Jilwer (Magia Étnica de Super Aceleração e Velocidade Cega)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Ninguém consegue acompanhar meu passo quando o Jilwer é ativado!",
+    "techniques": [
+      "Jilwer (Avanço Instantâneo de Alta Velocidade)",
+      "Arrebatamento Relâmpago de Alvos",
+      "Golpes com Bastão Mágico Veloz"
+    ],
+    "avatar": "/avatars/frieren/laufen.png"
+  },
+  {
+    "id": "kanne",
+    "name": "Kanne",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Maga de Segunda Classe",
+    "styleOrPower": "Reelganzer (Magia de Controle e Manipulação de Água Líquida)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Quando a chuva cai e a água é livre, o poder que Lawine e eu geramos é imparável!",
+    "techniques": [
+      "Reelganzer (Tsunamis e Torrentes de Água)",
+      "Lança Perfurante Aquática",
+      "Combinação Torrencial de Gelo"
+    ],
+    "avatar": "/avatars/frieren/kanne.png"
+  },
+  {
+    "id": "lawine",
+    "name": "Lawine",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Maga de Segunda Classe",
+    "styleOrPower": "Nehilgah (Magia Criomântica de Congelamento Imediato)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Não perca tempo choramingando, Kanne. Vamos congelar tudo antes que nos alcancem.",
+    "techniques": [
+      "Nehilgah (Congelamento Instantâneo de Corpos d'Água)",
+      "Espinhos de Gelo Perfurantes",
+      "Muralha Glacial Protetora"
+    ],
+    "avatar": "/avatars/frieren/lawine.png"
+  },
+  {
+    "id": "duste",
+    "name": "Dünste",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Mago Veterano de Segunda Classe",
+    "styleOrPower": "Magia Elemental Clássica & Suporte Tático",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Minha experiência como veterano me ensinou que calma sob pressão vale mais que mana bruto.",
+    "techniques": [
+      "Projéteis Concentrados de Mana",
+      "Barreira Protetora Triangular",
+      "Magia Defensiva Cooperativa"
+    ],
+    "avatar": "/avatars/frieren/duste.png"
+  },
+  {
+    "id": "ton",
+    "name": "Ton",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Mago Participante",
+    "styleOrPower": "Disparo Elemental Tático",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Um exame de Serie exige foco absoluto a cada segundo.",
+    "techniques": [
+      "Disparos Rítmicos de Mana",
+      "Defesa Esférica Rápida"
+    ],
+    "avatar": "/avatars/frieren/ton.png"
+  },
+  {
+    "id": "edel",
+    "name": "Edel",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Maga de Segunda Classe / Mestre Hipnotizadora",
+    "styleOrPower": "Magia de Hipnose e Controle Mental",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "A mente humana é frágil quando submetida às frequências certas de ilusão.",
+    "techniques": [
+      "Comando Hipnótico Direto",
+      "Indução de Transe Mental",
+      "Desestabilização Psíquica"
+    ],
+    "avatar": "/avatars/frieren/edel.png"
+  },
+  {
+    "id": "blei",
+    "name": "Blei",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental",
+      "Grupo de Edel"
+    ],
+    "rank": "Mago de Segunda Classe",
+    "styleOrPower": "Magia Ofensiva de Choque de Mana",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Protegerei a linha de retaguarda para que nossos especialistas cumpram a prova.",
+    "techniques": [
+      "Golpe Direto de Mana",
+      "Reforço de Barreira Coletiva"
+    ],
+    "avatar": "/avatars/frieren/blei.png"
+  },
+  {
+    "id": "sense",
+    "name": "Sense",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Maga de Primeira Classe / Examinadora da Segunda Etapa",
+    "styleOrPower": "Magia de Controle Absoluto de Cabelo Imbuído com Aço Mágico",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Eu sou uma pacifista por natureza... mas se tiver que lutar, meus cabelos podem perfurar qualquer defesa conhecida.",
+    "techniques": [
+      "Cabelo-Armadura Inviolável",
+      "Tentáculos Perfurantes de Queratina de Aço",
+      "Domínio de Masmorra Labiríntica"
+    ],
+    "avatar": "/avatars/frieren/sense.png"
+  },
+  {
+    "id": "genau",
+    "name": "Genau",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Mago de Primeira Classe / Examinador da Primeira Etapa",
+    "styleOrPower": "Dorganzeil (Asas Negras Laminadas Cortantes de Mana)",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Regras são absolutas. Se o pássaro Stille fugir, sua equipe inteira é reprovada sem exceções.",
+    "techniques": [
+      "Dorganzeil (Asas de Lâminas Negras)",
+      "Barreira Indestrutível de Exame",
+      "Julgamento Frio Implacável"
+    ],
+    "avatar": "/avatars/frieren/genau.png"
+  },
+  {
+    "id": "lernen",
+    "name": "Lernen",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Primeiro Mago de Primeira Classe / Primeiro Aluno de Serie",
+    "styleOrPower": "Visão Perfuradora de Instabilidades de Mana & Disparos de Rochas",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Mestra Serie, se eu perecer sem deixar meu nome na história, meu tempo ao seu lado terá sido em vão.",
+    "techniques": [
+      "Detecção Instantânea da Flutuação de Mana de Frieren",
+      "Disparo de Agulhas de Rocha Compactada",
+      "Golems de Vigilância Mágica"
+    ],
+    "avatar": "/avatars/frieren/lernen.png"
+  },
+  {
+    "id": "falsch",
+    "name": "Falsch",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Mago de Primeira Classe / Examinador",
+    "styleOrPower": "Magia de Olhos Vigilantes & Rastreamento Mágico",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Nenhum movimento nas masmorras escapa ao radar da Associação Mágica.",
+    "techniques": [
+      "Projeção Ocular Remota",
+      "Feitiços de Monitoramento de Mana",
+      "Transmissão Telepática"
+    ],
+    "avatar": "/avatars/frieren/falsch.png"
+  },
+  {
+    "id": "methode",
+    "name": "Methode",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Mágica Continental"
+    ],
+    "rank": "Maga de Primeira Classe / Especialista Polivalente",
+    "styleOrPower": "Magia de Aprisionamento, Cura Sagrada e Carinho Afetuoso",
+    "debutArc": "Exame de Magos de Primeira Classe",
+    "status": "Vivo",
+    "quote": "Pessoas pequenas e fofas como Frieren e Serie simplesmente me dão uma vontade incontrolável de fazer carinho na cabeça.",
+    "techniques": [
+      "Feitiço de Restrição de Movimentos",
+      "Magia Sagrada Médica da Deusa",
+      "Análise e Neutralização de Maldições"
+    ],
+    "avatar": "/avatars/frieren/methode.png"
+  },
+  {
+    "id": "macht",
+    "name": "Macht de El Dorado",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Sete Sábios da Destruição"
+    ],
+    "rank": "O Mais Forte dos Sete Sábios da Destruição",
+    "styleOrPower": "Diagoldze (Transmutação Universal e Eterna em Ouro)",
+    "debutArc": "Planalto do Norte",
+    "status": "Falecido",
+    "quote": "Eu só queria compreender o que é a culpa e a malícia humana... por isso transformei toda a cidade de Weise em ouro puro.",
+    "techniques": [
+      "Diagoldze (Ouro Absoluto Irreversível)",
+      "Capa Dourada Impenetrável",
+      "Esgrima com Espada de Ouro Puro"
+    ],
+    "avatar": "/avatars/frieren/macht.png"
+  },
+  {
+    "id": "solitar",
+    "name": "Solitär",
+    "gender": "Feminino",
+    "species": "Demônio",
+    "affiliation": [
+      "Demônios Independentes"
+    ],
+    "rank": "Grande Demônio Sem Chifres / Erudita de Mana",
+    "styleOrPower": "Densidade Brutal de Mana Pura & Desconstrução de Magia Humana",
+    "debutArc": "Planalto do Norte",
+    "status": "Falecido",
+    "quote": "Os demônios e humanos conversam na mesma língua, mas nossas almas habitam abismos completamente incomunicáveis.",
+    "techniques": [
+      "Projéteis Massivos de Mana Bruta Condensada",
+      "Análise Estrutural e Colapso de Barreiras",
+      "Espadas Invisíveis de Mana Compacta"
+    ],
+    "avatar": "/avatars/frieren/solitar.png"
+  },
+  {
+    "id": "grausam",
+    "name": "Grausam (O Milagroso)",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Sete Sábios da Destruição"
+    ],
+    "rank": "Sábio da Destruição",
+    "styleOrPower": "Magia de Ilusão Mental Absoluta e Sonhos Felizes",
+    "debutArc": "Viagem ao Passado",
+    "status": "Falecido",
+    "quote": "Eu concedo às minhas vítimas a ilusão mais doce de suas vidas... e as mato enquanto elas sorriem.",
+    "techniques": [
+      "Ilusão Onírica Inescapável",
+      "Manipulação de Percepção Temporal",
+      "Ocultação Total de Presença"
+    ],
+    "avatar": "/avatars/frieren/grausam.png"
+  },
+  {
+    "id": "bose",
+    "name": "Böse (O Imortal)",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Sete Sábios da Destruição"
+    ],
+    "rank": "Sábio da Destruição",
+    "styleOrPower": "Barreira Mágica Absoluta e Intransponível",
+    "debutArc": "Viagem ao Passado",
+    "status": "Falecido",
+    "quote": "Nenhuma espada ou magia de mortais jamais conseguirá arranhar a perfeição da minha barreira.",
+    "techniques": [
+      "Barreira Cúbica Impenetrável",
+      "Isolamento Espacial Mágico"
+    ],
+    "avatar": "/avatars/frieren/bose.png"
+  },
+  {
+    "id": "revolte",
+    "name": "Revolte",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Exército Demoníaco do Norte"
+    ],
+    "rank": "General Demônio das Quatro Espadas",
+    "styleOrPower": "Estilo Quádruplo de Espadas Pesadas de Mana",
+    "debutArc": "Planalto do Norte",
+    "status": "Falecido",
+    "quote": "A força das minhas quatro lâminas corta magia, carne e armaduras no mesmo golpe.",
+    "techniques": [
+      "Dança Quádrupla de Lâminas Demoníacas",
+      "Aumento Físico Brutal de Mana",
+      "Golpe de Fenda Cruzada"
+    ],
+    "avatar": "/avatars/frieren/revolte.png"
+  },
+  {
+    "id": "tot",
+    "name": "Tot (A Santa da Sombra)",
+    "gender": "Feminino",
+    "species": "Demônio",
+    "affiliation": [
+      "Sete Sábios da Destruição"
+    ],
+    "rank": "Sábia da Destruição",
+    "styleOrPower": "Maldição Planetária de Morte Lenta",
+    "debutArc": "Planalto do Norte",
+    "status": "Vivo",
+    "quote": "Minha maldição levará séculos para cobrir o mundo, mas quando terminar, nenhuma vida restará.",
+    "techniques": [
+      "Maldição das Sombras Globais",
+      "Manto de Ocultação de Mana"
+    ],
+    "avatar": "/avatars/frieren/tot.png"
+  },
+  {
+    "id": "zart",
+    "name": "Zart",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Exército Demoníaco"
+    ],
+    "rank": "Demônio Espadachim das Sombras",
+    "styleOrPower": "Teletransporte Espacial e Cortes Rápidos",
+    "debutArc": "Viagem ao Passado",
+    "status": "Falecido",
+    "quote": "O espaço entre você e a minha espada não existe.",
+    "techniques": [
+      "Salto Dimensional Ofensivo",
+      "Estocada Súbita de Mana"
+    ],
+    "avatar": "/avatars/frieren/zart.png"
+  },
+  {
+    "id": "schlacht",
+    "name": "Schlacht (O Onisciente)",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Exército do Rei Demônio"
+    ],
+    "rank": "Conselheiro Supremo do Rei Demônio",
+    "styleOrPower": "Previsão do Futuro em Escala de Milênios",
+    "debutArc": "Planalto do Norte",
+    "status": "Desconhecido",
+    "quote": "Eu vi mil futuros possíveis e travei a batalha que garantiu a sobrevivência do plano demoníaco.",
+    "techniques": [
+      "Visão de Futuros Alternativos",
+      "Cálculo Tático Temporal Milenar"
+    ],
+    "avatar": "/avatars/frieren/schlacht.png"
+  },
+  {
+    "id": "demon-king",
+    "name": "Rei Demônio (Demon King)",
+    "gender": "Masculino",
+    "species": "Demônio",
+    "affiliation": [
+      "Exército do Rei Demônio"
+    ],
+    "rank": "Monarca Supremo dos Demônios",
+    "styleOrPower": "Poder Mágico Onipotente e Desejo de Coexistência Através da Aniquilação",
+    "debutArc": "Fim da Jornada & Reencontros",
+    "status": "Falecido",
+    "quote": "Nós queríamos apenas coexistir com a humanidade... reduzindo sua população para números manejáveis.",
+    "techniques": [
+      "Pressão de Mana de Nível Planetário",
+      "Domínio de Maldições Cósmicas",
+      "Comando das Hostes Demoníacas"
+    ],
+    "avatar": "/avatars/frieren/demon-king.png"
+  },
+  {
+    "id": "graf-granat",
+    "name": "Graf Granat",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Nobreza de Granat"
+    ],
+    "rank": "Senhor Feudal da Cidade Fortificada de Granat",
+    "styleOrPower": "Liderança Nobre e Resistência a Tortura",
+    "debutArc": "Aura a Guilhotina",
+    "status": "Vivo",
+    "quote": "A memória do meu filho morto em combate me impede de ceder às mentiras dos demônios.",
+    "techniques": [
+      "Governança de Fortificações",
+      "Resiliência a Interrogatórios"
+    ],
+    "avatar": "/avatars/frieren/graf-granat.png"
+  },
+  {
+    "id": "voll",
+    "name": "Mestre Voll",
+    "gender": "Masculino",
+    "species": "Elfo",
+    "affiliation": [
+      "Protetores da Cordilheira de Klar"
+    ],
+    "rank": "Guerreiro Elfo Ancião",
+    "styleOrPower": "Combate com Lança Pesada e Defesa Perpétua de Vilarejos",
+    "debutArc": "Eisen & Stark",
+    "status": "Vivo",
+    "quote": "Esqueci o rosto da minha esposa humana há séculos... mas ainda empunho minha lança para honrar sua memória.",
+    "techniques": [
+      "Lança Espartana de Ferro Inabalável",
+      "Grito de Provocação Heroico",
+      "Vigilância Secular"
+    ],
+    "avatar": "/avatars/frieren/voll.png"
+  }
+]

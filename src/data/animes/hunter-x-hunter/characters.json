@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "gon-freecss",
+    "name": "Gon Freecss",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter"
+    ],
+    "rank": "Hunter Novato / Filho de Ging",
+    "nenType": "Reforço",
+    "styleOrPower": "Jajanken (Pedra, Papel e Tesoura) & Voto de Vingança",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "Se eu não puder salvar um amigo bem na minha frente, como posso ter a coragem de me chamar de Hunter?",
+    "techniques": [
+      "Jajanken: Pedra (Guu)",
+      "Jajanken: Tesoura (Chii)",
+      "Jajanken: Papel (Paa)",
+      "Transformação de Contrato Adulto"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/gon-freecss.png"
+  },
+  {
+    "id": "killua-zoldyck",
+    "name": "Killua Zoldyck",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Zoldyck",
+      "Associação Hunter"
+    ],
+    "rank": "Ex-Assassino de Elite / Hunter",
+    "nenType": "Transformação",
+    "styleOrPower": "Transmutação Elétrica de Nen & Godspeed (Kanmuru)",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "Gon, você é a minha luz. Às vezes brilha tão forte que quase machuca meus olhos.",
+    "techniques": [
+      "Godspeed: Velocidade Relâmpago (Speed of Lightning)",
+      "Godspeed: Redemoinho (Whirlwind)",
+      "Palma do Trovão (Izutsushi)",
+      "Garras Retráteis de Assassino"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/killua-zoldyck.png"
+  },
+  {
+    "id": "kurapika",
+    "name": "Kurapika",
+    "gender": "Masculino",
+    "species": "Humano (Clã Kurta)",
+    "affiliation": [
+      "Associação Hunter",
+      "Zodíacos (Rato)",
+      "Família Nostrade"
+    ],
+    "rank": "Hunter de Lista Negra / Zodíaco",
+    "nenType": "Materialização / Especialização (Olhos Escarlates)",
+    "styleOrPower": "Correntes de Nen de Cinco Dedos & Emperor Time (Tempo do Imperador)",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "A única coisa que resta para mim são os olhos escarlates roubados do meu povo... e a vingança contra as Aranhas.",
+    "techniques": [
+      "Chain Jail (Corrente do Aprisionamento)",
+      "Judgment Chain (Corrente do Julgamento)",
+      "Holy Chain (Corrente da Cura)",
+      "Steal Chain & Stealth Dolphin"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/kurapika.png"
+  },
+  {
+    "id": "leorio-paradinight",
+    "name": "Leorio Paradinight",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter",
+      "Zodíacos (Javali)"
+    ],
+    "rank": "Estudante de Medicina / Zodíaco",
+    "nenType": "Emissão",
+    "styleOrPower": "Soco Remoto por Pulso Ultrassônico de Nen",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "Eu quero dinheiro sim! Porque com dinheiro eu posso me formar em medicina e salvar vidas de graça para quem não pode pagar!",
+    "techniques": [
+      "Soco Teleportado por Emissão",
+      "Eco-Rastreamento Ultrassônico de Nen",
+      "Combate com Bisturi e Faca"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/leorio-paradinight.png"
+  },
+  {
+    "id": "hisoka-morow",
+    "name": "Hisoka Morow (O Mágico)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Falso Nº 4)"
+    ],
+    "rank": "Hunter / Ilusionista Assassino",
+    "nenType": "Transformação",
+    "styleOrPower": "Bungee Gum (Elasticidade de Borracha e Goma) & Texture Surprise",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "Minha Bungee Gum possui as propriedades tanto da borracha quanto da goma de mascar... e ela nunca se solta!",
+    "techniques": [
+      "Bungee Gum (Borracha Elástica Fixadora)",
+      "Texture Surprise (Textura Enganosa)",
+      "Cartas de Baralho Imbuídas com Shu"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/hisoka-morow.png"
+  },
+  {
+    "id": "illumi-zoldyck",
+    "name": "Illumi Zoldyck",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Zoldyck",
+      "Genei Ryodan (Nº 11)"
+    ],
+    "rank": "Assassino de Elite / Hunter",
+    "nenType": "Manipulação",
+    "styleOrPower": "Agulhas de Nen que Alteram Rostos e Escravizam Mentes",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "O amor por um irmão significa controlá-lo para que ele nunca morra em vão.",
+    "techniques": [
+      "Homens-Agulha (Needlemen)",
+      "Alteração Facial de Gittarackur",
+      "Hipnose Cerebral por Agulha Oculta"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/illumi-zoldyck.png"
+  },
+  {
+    "id": "silva-zoldyck",
+    "name": "Silva Zoldyck",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Zoldyck"
+    ],
+    "rank": "Líder Patriarca da Família Zoldyck",
+    "styleOrPower": "Orbes Gigantes de Energia Destrutiva de Nen & Garras de Veneno",
+    "debutArc": "Família Zoldyck",
+    "status": "Vivo",
+    "quote": "Killua é meu filho. Um dia ele voltará por vontade própria, porque ele é um assassino nato.",
+    "techniques": [
+      "Orbes Explosivas Duplas de Nen",
+      "Imunidade Biológica Total a Toxinas",
+      "Arrancada Silenciosa de Coração"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/silva-zoldyck.png"
+  },
+  {
+    "id": "zeno-zoldyck",
+    "name": "Zeno Zoldyck",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Zoldyck"
+    ],
+    "rank": "Mestre Assassino Ancião / Avô de Killua",
+    "styleOrPower": "Dragon Dive (Chuva de Dragões de Nen) & Dragon Head",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "No meu ramo de negócios, eu mato apenas os alvos contratados. Nunca mato civis por diversão.",
+    "techniques": [
+      "Dragon Dive (Chuva de Mil Flechas de Dragão)",
+      "Dragon Head (Cabeça de Dragão Voadora)",
+      "Dragon Lance (Lança Perfurante de Dragão)"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/zeno-zoldyck.png"
+  },
+  {
+    "id": "kikyo-zoldyck",
+    "name": "Kikyo Zoldyck",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Zoldyck"
+    ],
+    "rank": "Matriarca da Família Zoldyck",
+    "styleOrPower": "Visor Tecnológico Eletrônico & Controle Psicológico Extremo",
+    "debutArc": "Família Zoldyck",
+    "status": "Vivo",
+    "quote": "Ah, Killua! Aquele olhar frio que você me deu ao me esfaquear... foi simplesmente sublime!",
+    "techniques": [
+      "Monitoramento Óptico Digital",
+      "Comando de Guardas de Kukuroo Mountain"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/kikyo-zoldyck.png"
+  },
+  {
+    "id": "milluki-zoldyck",
+    "name": "Milluki Zoldyck",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Zoldyck"
+    ],
+    "rank": "Hacker / Inventor de Armas de Tortura",
+    "styleOrPower": "Bombas em Mosquitos e Drones & Hackeamento Global",
+    "debutArc": "Família Zoldyck",
+    "status": "Vivo",
+    "quote": "Eu nunca preciso sair do meu quarto cheio de figuras colecionáveis para assassinar alguém.",
+    "techniques": [
+      "Mosquito Bomba de Detonação Remota",
+      "Hackeamento de Leilões e Redes"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/milluki-zoldyck.png"
+  },
+  {
+    "id": "kalluto-zoldyck",
+    "name": "Kalluto Zoldyck",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Zoldyck",
+      "Genei Ryodan (Nº 4)"
+    ],
+    "rank": "Assassino / Membro da Trupe Fantasma",
+    "nenType": "Manipulação",
+    "styleOrPower": "Dança do Confete de Papel Cortante & Escuta por Papéis",
+    "debutArc": "Greed Island",
+    "status": "Vivo",
+    "quote": "Eu entrei para a Trupe Fantasma para resgatar meu irmão mais velho.",
+    "techniques": [
+      "Dança do Confete de Papel Laminado",
+      "Escuta Remota em Bonecos de Papel",
+      "Leques Fatiadores de Aço"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/kalluto-zoldyck.png"
+  },
+  {
+    "id": "alluka-zoldyck",
+    "name": "Alluka Zoldyck (Nanika)",
+    "gender": "Feminino",
+    "species": "Humano / Hospedeiro de Entidade do Continente Negro (Ai)",
+    "affiliation": [
+      "Irmãos Zoldyck"
+    ],
+    "rank": "Concessora de Desejos Onipotente",
+    "nenType": "Especialização",
+    "styleOrPower": "Realização Absoluta de Qualquer Desejo através de Três Pedidos",
+    "debutArc": "Eleição do 13º Presidente Hunter",
+    "status": "Vivo",
+    "quote": "Kay! Se você cumprir os três pedidos de Nanika, ela pode realizar qualquer milagre do universo!",
+    "techniques": [
+      "Concessão Onipotente de Desejos",
+      "Morte Instantânea por Recusa de Pedidos",
+      "Cura Milagrosa pelo Amor de Killua"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/alluka-zoldyck.png"
+  },
+  {
+    "id": "gotoh",
+    "name": "Gotoh",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Mordomos da Família Zoldyck"
+    ],
+    "rank": "Mordomo-Chefe",
+    "nenType": "Reforço",
+    "styleOrPower": "Disparo Rotativo de Moedas como Tiros de Artilharia",
+    "debutArc": "Família Zoldyck",
+    "status": "Falecido",
+    "quote": "A segurança e a felicidade do jovem mestre Killua estão acima da minha própria vida.",
+    "techniques": [
+      "Moedas Metralhadora com Giro Reforçado",
+      "Truque de Mãos Ilusionista"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/gotoh.png"
+  },
+  {
+    "id": "canary",
+    "name": "Canary",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Mordomos da Família Zoldyck"
+    ],
+    "rank": "Mordomo Aprendiz de Guarda",
+    "nenType": "Reforço",
+    "styleOrPower": "Combate Marcial com Bengala de Ponta Pesada",
+    "debutArc": "Família Zoldyck",
+    "status": "Vivo",
+    "quote": "Por favor... ajudem o mestre Killua. Ele precisa de amigos de verdade.",
+    "techniques": [
+      "Cem Golpes de Bengala em Ritmo Sombra",
+      "Defesa Territorial do Portão"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/canary.png"
+  },
+  {
+    "id": "tsubone",
+    "name": "Tsubone",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Mordomos Pessoais de Silva Zoldyck"
+    ],
+    "rank": "Mordomo Sênior",
+    "nenType": "Materialização",
+    "styleOrPower": "Transmutação do Próprio Corpo em Veículos Supersônicos a Motor",
+    "debutArc": "Eleição do 13º Presidente Hunter",
+    "status": "Vivo",
+    "quote": "Com o Nen de quem me pilota, posso me transformar na moto ou no planador mais rápido da Terra!",
+    "techniques": [
+      "Transformação em Motocicleta a Motor",
+      "Planador Supersônico de Nen"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/tsubone.png"
+  },
+  {
+    "id": "chrollo-lucilfer",
+    "name": "Chrollo Lucilfer",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Líder / Cabeça da Aranha)"
+    ],
+    "rank": "Líder da Trupe Fantasma",
+    "nenType": "Especialização",
+    "styleOrPower": "Skill Hunter (O Segredo do Ladrão) & Marcador de Página",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "Eu não me importo se a cabeça for cortada, desde que a aranha continue viva e andando para frente.",
+    "techniques": [
+      "Skill Hunter (Roubo e Uso de Habilidades Alheias)",
+      "Indoor Fish (Peixes Carnívoros do Vazio)",
+      "Order Stamp & Sun and Moon"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/chrollo-lucilfer.png"
+  },
+  {
+    "id": "feitan-portor",
+    "name": "Feitan Portor",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 2)"
+    ],
+    "rank": "Torturador da Trupe Fantasma",
+    "nenType": "Transformação",
+    "styleOrPower": "Pain Packer (Sol Escaldante Rising Sun Alimentado pela Própria Dor)",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "Quanto mais você me machuca, mais queima o sol que vai incinerar cada osso do seu corpo!",
+    "techniques": [
+      "Rising Sun (Mini-Sol Ardente de Mil Graus)",
+      "Espada Oculta no Guarda-Chuva",
+      "Velocidade Cega de Imagens Residuais"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/feitan-portor.png"
+  },
+  {
+    "id": "phinks-magcub",
+    "name": "Phinks Magcub",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 5)"
+    ],
+    "rank": "Combatente de Vanguarda",
+    "nenType": "Reforço",
+    "styleOrPower": "Ripper Cyclotron (Soco com Força Multiplicada a Cada Giro de Braço)",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "Cada volta que dou no meu ombro acumula mais Nen destruidor no meu punho!",
+    "techniques": [
+      "Ripper Cyclotron (Soco Furacão Esmagador)",
+      "Quebra de Pescoço Instantânea"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/phinks-magcub.png"
+  },
+  {
+    "id": "nobunaga-hazama",
+    "name": "Nobunaga Hazama",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 1)"
+    ],
+    "rank": "Espadachim da Vanguarda",
+    "nenType": "Reforço",
+    "styleOrPower": "Iaijutsu no Raio de Quatro Metros do En",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "Qualquer um que entrar no meu En de quatro metros será decapitado no mesmo instante.",
+    "techniques": [
+      "Saque Rápido de Katana Iaijutsu",
+      "En Esférico de Quatro Metros"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/nobunaga-hazama.png"
+  },
+  {
+    "id": "shalnark",
+    "name": "Shalnark",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 6)",
+      "Associação Hunter"
+    ],
+    "rank": "Estrategista / Hunter Licenciado",
+    "nenType": "Manipulação",
+    "styleOrPower": "Black Voice (Controle por Celular) & Modo Autopiloto Berserk",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Falecido",
+    "quote": "Se eu espetar esta antena em você, você vira uma marionete sob os comandos do meu telefone!",
+    "techniques": [
+      "Black Voice (Controle Total por Controle Remoto)",
+      "Modo Piloto Automático com Sobrecarga de Nen"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/shalnark.png"
+  },
+  {
+    "id": "uvogin",
+    "name": "Uvogin",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 11)"
+    ],
+    "rank": "O Combatente Mais Forte Fisicamente da Trupe",
+    "nenType": "Reforço",
+    "styleOrPower": "Big Bang Impact (O Poder de um Pequeno Míssil em Cada Soco)",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Falecido",
+    "quote": "Meu sonho é desferir um soco com o mesmo poder destrutivo de uma bomba nuclear!",
+    "techniques": [
+      "Big Bang Impact (Cratera Gigante de Soco)",
+      "Grito Ensurdecedor Rompe-Tímpanos",
+      "Cusparada de Rocha Mortal"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/uvogin.png"
+  },
+  {
+    "id": "machi-komacine",
+    "name": "Machi Komacine",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 3)"
+    ],
+    "rank": "Costureira / Rastreadora",
+    "nenType": "Transformação",
+    "styleOrPower": "Fios e Agulhas de Nen para Sutura Cirúrgica e Marionetes",
+    "debutArc": "Torre Celestial",
+    "status": "Vivo",
+    "quote": "Minhas linhas de Nen reconstroem vasos sanguíneos e músculos em questão de segundos.",
+    "techniques": [
+      "Pontos de Costura de Nen Restauradores",
+      "Fios Invisíveis de Estrangulamento",
+      "Rastreamento por Fios de Agulha"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/machi-komacine.png"
+  },
+  {
+    "id": "pakunoda",
+    "name": "Pakunoda",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 9)"
+    ],
+    "rank": "Interrogadora e Guardiã das Memórias",
+    "nenType": "Especialização",
+    "styleOrPower": "Leitura Psicofísica de Memórias pelo Toque & Balas de Memória",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Falecido",
+    "quote": "Acreditem em mim... e recebam as memórias que salvarão a nossa Aranha!",
+    "techniques": [
+      "Leitura Instantânea de Pensamentos pelo Toque",
+      "Balas de Memória (Memory Bomb)",
+      "Disparo com Revólver Clássico"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/pakunoda.png"
+  },
+  {
+    "id": "shizuku-murasaki",
+    "name": "Shizuku Murasaki",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 8)"
+    ],
+    "rank": "Limpadeira da Trupe Fantasma",
+    "nenType": "Materialização",
+    "styleOrPower": "Blinky (Deme-chan - O Aspirador de Pó que Engole Tudo Não-Vivo)",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "Deme-chan, aspire todo o sangue e os cadáveres deste leilão sem deixar uma única gota!",
+    "techniques": [
+      "Blinky (Aspirador com Dentes Devorador de Matéria)",
+      "Drenagem Total de Sangue por Ferimentos"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/shizuku-murasaki.png"
+  },
+  {
+    "id": "franklin-bordeau",
+    "name": "Franklin Bordeau",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 7)"
+    ],
+    "rank": "Atirador Pesado de Vanguarda",
+    "nenType": "Emissão",
+    "styleOrPower": "Double Machine Gun (Balas de Nen Disparadas pelas Pontas dos Dedos)",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "Arrancar as pontas dos meus dedos aumentou o poder das minhas balas de Nen em dez vezes!",
+    "techniques": [
+      "Double Machine Gun (Metralhadora de Nen Dupla)",
+      "Tiro em Leque Varredor"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/franklin-bordeau.png"
+  },
+  {
+    "id": "bonolenov-ndongo",
+    "name": "Bonolenov Ndongo",
+    "gender": "Masculino",
+    "species": "Humano (Tribo Gyudondond)",
+    "affiliation": [
+      "Genei Ryodan (Nº 10)"
+    ],
+    "rank": "Guerreiro Dançarino Tribal",
+    "nenType": "Materialização",
+    "styleOrPower": "Battle Cantabile (Música de Batalha com Buracos no Corpo que Cria Planetas)",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "O vento que passa pelas perfurações do meu corpo entoa a canção dos deuses da minha tribo!",
+    "techniques": [
+      "Battle Cantabile: Júpiter (Planeta de Rocha Esmagador)",
+      "Melodia Rápida dos Ventos"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/bonolenov-ndongo.png"
+  },
+  {
+    "id": "kortopi",
+    "name": "Kortopi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Genei Ryodan (Nº 12)"
+    ],
+    "rank": "Replicador da Trupe Fantasma",
+    "nenType": "Materialização",
+    "styleOrPower": "Gallery Fake (Cópia Perfeita de Qualquer Objeto ou Prédio por 24 Horas)",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Falecido",
+    "quote": "Posso copiar cinquenta prédios idênticos inteiros apenas tocando na estrutura original com a mão esquerda.",
+    "techniques": [
+      "Gallery Fake (Duplicação Perfeita com Rastreamento)",
+      "Cópia em Massa de Tesouros de Leilão"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/kortopi.png"
+  },
+  {
+    "id": "isaac-netero",
+    "name": "Isaac Netero",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter"
+    ],
+    "rank": "12º Presidente da Associação Hunter / O Humano Mais Forte",
+    "nenType": "Reforço / Emissão / Materialização",
+    "styleOrPower": "100-Type Guanyin Bodhisattva & A Rosa dos Pobres (Miniature Rose)",
+    "debutArc": "Exame Hunter",
+    "status": "Falecido",
+    "quote": "Rei das Formigas... você não sabe nada sobre o potencial infinito de evolução e malícia da humanidade!",
+    "techniques": [
+      "100-Type Guanyin Bodhisattva: Mão Zero",
+      "Soco de Oração Mais Rápido que o Som",
+      "A Bomba Rosa dos Pobres em Miniatura"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/isaac-netero.png"
+  },
+  {
+    "id": "ging-freecss",
+    "name": "Ging Freecss",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter",
+      "Zodíacos (Javali Antigo)"
+    ],
+    "rank": "Double-Star Hunter / Criador de Greed Island",
+    "nenType": "Especialização / Reforço",
+    "styleOrPower": "Mimetismo Instantâneo de Golpes Físicos de Nen & Caça a Ruínas",
+    "debutArc": "Yorknew / Trupe Fantasma",
+    "status": "Vivo",
+    "quote": "Você deve aproveitar os pequenos desvios da jornada ao máximo. Porque é neles que você encontrará o que realmente importa.",
+    "techniques": [
+      "Mimetismo de Habilidades de Nen pelo Toque",
+      "Projéteis de Nen no Solo (Ultrasound)"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/ging-freecss.png"
+  },
+  {
+    "id": "kite",
+    "name": "Kite",
+    "gender": "Masculino",
+    "species": "Humano (Reencarnado como Formiga)",
+    "affiliation": [
+      "Associação Hunter",
+      "Discípulo de Ging"
+    ],
+    "rank": "Contract Hunter",
+    "nenType": "Materialização",
+    "styleOrPower": "Crazy Slots (A Roleta com Palhaço que Escolhe Armas Aleatórias)",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "Uma boa caçada começa no respeito pela presa. E quando a roleta gira, você aceita o que vier com determinação.",
+    "techniques": [
+      "Crazy Slots nº 2: Foice Silenciosa Gigante",
+      "Crazy Slots nº 4: Carabina de Longo Alcance",
+      "Habilidade Secreta de Sobrevivência à Morte"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/kite.png"
+  },
+  {
+    "id": "biscuit-krueger",
+    "name": "Biscuit Krueger (Bisky)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter",
+      "Escola Shingen-ryu"
+    ],
+    "rank": "Double-Star Stone Hunter / Mestra de Wing, Gon e Killua",
+    "nenType": "Transformação",
+    "styleOrPower": "Corpo Titânico Muscular Original & Massagista Mágica Cookie",
+    "debutArc": "Greed Island",
+    "status": "Vivo",
+    "quote": "Eu escondo essa forma musculosa gigante porque prefiro parecer uma garotinha adorável, seus fedelhos insolentes!",
+    "techniques": [
+      "Transformação Muscular Brutal Esmagadora",
+      "Massagista Mágica Cookie (Restauração Física e Mental)",
+      "Treinamento Espartano de Shingen-ryu"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/biscuit-krueger.png"
+  },
+  {
+    "id": "wing",
+    "name": "Wing",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola Shingen-ryu"
+    ],
+    "rank": "Mestre Instrutor de Nen",
+    "nenType": "Reforço",
+    "styleOrPower": "Ensino dos Quatro Princípios Fundamentais (Ten, Zetsu, Ren, Hatsu)",
+    "debutArc": "Torre Celestial",
+    "status": "Vivo",
+    "quote": "O Nen é uma espada de dois gumes. Sem pureza de coração, ele consome a alma de quem o desperta.",
+    "techniques": [
+      "Despertar de Nós de Nen por Toque",
+      "Palma Reforçada Rompe-Pedras"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/wing.png"
+  },
+  {
+    "id": "zushi",
+    "name": "Zushi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Escola Shingen-ryu",
+      "Torre Celestial"
+    ],
+    "rank": "Discípulo Dedicado / Lutador da Torre",
+    "nenType": "Reforço",
+    "styleOrPower": "Karatê Shingen-ryu & Ten Sólido Disciplinado",
+    "debutArc": "Torre Celestial",
+    "status": "Vivo",
+    "quote": "Osu! Eu vou treinar todos os dias até me tornar um verdadeiro mestre!",
+    "techniques": [
+      "Postura Firme de Ten de Karatê",
+      "Soco Básico Reforçado"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/zushi.png"
+  },
+  {
+    "id": "razor",
+    "name": "Razor",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Criadores de Greed Island"
+    ],
+    "rank": "Game Master de Greed Island / Ex-Criminoso",
+    "nenType": "Emissão",
+    "styleOrPower": "Disparo e Saque de Vôlei com Bolas de Canhão de Nen & Quatorze Demônios",
+    "debutArc": "Greed Island",
+    "status": "Vivo",
+    "quote": "Nesta quadra de queimada, cada saque meu tem a força para arrancar a sua cabeça fora.",
+    "techniques": [
+      "Saque de Queimada de Destruição em Massa",
+      "Quatorze Demônios Emitidos",
+      "Recepção com Spike Reforçado"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/razor.png"
+  },
+  {
+    "id": "genthru",
+    "name": "Genthru (O Bombardeiro)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Assassinos de Greed Island"
+    ],
+    "rank": "Jogador Assassino",
+    "nenType": "Transformação / Materialização",
+    "styleOrPower": "Little Flower (Explosão na Palma das Mãos) & Countdown",
+    "debutArc": "Greed Island",
+    "status": "Vivo",
+    "quote": "Ao tocar em você e dizer a palavra 'Bombardeiro', o relógio da sua morte já começou a correr.",
+    "techniques": [
+      "Little Flower (Palmas Explosivas)",
+      "Countdown (Bomba Relógio de Batimentos Cardíacos)"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/genthru.png"
+  },
+  {
+    "id": "meruem",
+    "name": "Meruem (O Rei das Formigas)",
+    "gender": "Masculino",
+    "species": "Formiga Quimera",
+    "affiliation": [
+      "Guarda Real e Exército das Formigas Quimera"
+    ],
+    "rank": "Rei Supremo das Formigas Quimera",
+    "nenType": "Especialização",
+    "styleOrPower": "Síntese de Aura (Consumo de Usuários de Nen) & Fótons de En",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "Komugi... você ainda está aí? Deixe-me segurar a sua mão mais uma vez enquanto a luz se apaga.",
+    "techniques": [
+      "Síntese e Absorção de Nen por Digestão",
+      "Metamorfose com Asas e Canhões de Fótons",
+      "Leitura de Intenções por Fótons de En"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/meruem.png"
+  },
+  {
+    "id": "neferpitou",
+    "name": "Neferpitou (Pitou)",
+    "gender": "Sem Gênero",
+    "species": "Formiga Quimera",
+    "affiliation": [
+      "Guarda Real das Formigas Quimera"
+    ],
+    "rank": "Guarda Real",
+    "nenType": "Especialização",
+    "styleOrPower": "Terpsichora (Marionete Dançante Monstruosa) & Doutor Blythe",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "Eu acho que sou muito forte, nya! Mas preciso proteger o Rei a qualquer custo!",
+    "techniques": [
+      "Terpsichora (Marionete de Combate sem Limite Físico)",
+      "Doctor Blythe (Cirurgião Espiritual Reparador)",
+      "En Gigantesco Irregular de Dois Quilômetros"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/neferpitou.png"
+  },
+  {
+    "id": "shaiapouf",
+    "name": "Shaiapouf (Pouf)",
+    "gender": "Masculino",
+    "species": "Formiga Quimera",
+    "affiliation": [
+      "Guarda Real das Formigas Quimera"
+    ],
+    "rank": "Guarda Real",
+    "nenType": "Manipulação",
+    "styleOrPower": "Beelzebub (Divisão em Bilhões de Mini-Clones) & Escalas Espirituais Hipnóticas",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "Tudo pela glória do Rei! Mesmo que eu tenha que mentir para ele e matar a humana que o corrompe!",
+    "techniques": [
+      "Beelzebub (Decomposição Celular em Miniaturas)",
+      "Spiritual Message (Escalas Alucinógenas Hipnóticas)",
+      "Cocoon de Concessão de Habilidades de Nen"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/shaiapouf.png"
+  },
+  {
+    "id": "menthuthuyoupi",
+    "name": "Menthuthuyoupi (Youpi)",
+    "gender": "Masculino",
+    "species": "Formiga Quimera (Genética de Fera Mágica)",
+    "affiliation": [
+      "Guarda Real das Formigas Quimera"
+    ],
+    "rank": "Guarda Real",
+    "nenType": "Transformação / Reforço",
+    "styleOrPower": "Metamorfose Corporal Monstruosa & Explosões Vulcânicas de Fúria",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "A raiva não é algo para me cegar... aprendi a canalizar a fúria em puro poder destrutivo!",
+    "techniques": [
+      "Rage Blast (Explosão Titânica de Fúria)",
+      "Centauro de Lâminas Múltiplas",
+      "Tentáculos de Carne Chicoteadores"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/menthuthuyoupi.png"
+  },
+  {
+    "id": "komugi",
+    "name": "Komugi",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Gungi / Círculo Íntimo do Rei Meruem"
+    ],
+    "rank": "Campeã Mundial Invicte de Gungi",
+    "nenType": "Especialização",
+    "styleOrPower": "Despertar Inconsciente de Nen através do Jogo de Tabuleiro Gungi",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "Meruem-sama... eu nasci para este dia. Para jogar Gungi com você até o fim.",
+    "techniques": [
+      "Estratégia Insuperável de Gungi",
+      "Despertar da Luz Espiritual pelos Olhos Cegos"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/komugi.png"
+  },
+  {
+    "id": "knuckle-bine",
+    "name": "Knuckle Bine",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter",
+      "Equipe de Extermínio de Formigas"
+    ],
+    "rank": "Beast Hunter / Aluno de Morel",
+    "nenType": "Emissão",
+    "styleOrPower": "A.P.R. (Hakoware - O Banco de Empréstimo de Falência de Nen)",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "O tempo acabou! Você acumulou juros demais e entrou em falência de Nen por trinta dias!",
+    "techniques": [
+      "A.P.R. (Hakoware de Empréstimo com Juros de 10%)",
+      "Toritaten (Mascote Indestrutível Flutuante)",
+      "Luta de Rua com Punhos de Aço"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/knuckle-bine.png"
+  },
+  {
+    "id": "shoot-mcmahon",
+    "name": "Shoot McMahon",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter",
+      "Equipe de Extermínio de Formigas"
+    ],
+    "rank": "Beast Hunter / Aluno de Morel",
+    "nenType": "Materialização",
+    "styleOrPower": "Hotel Rafflesia (Três Mãos Voadoras que Selam Partes do Corpo em uma Jaula)",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "Eu passei a vida inteira com medo... mas voando nesta única perna contra Youpi, eu nunca me senti tão vivo!",
+    "techniques": [
+      "Hotel Rafflesia (Selamento em Gaiola Encolhida)",
+      "Três Mãos Flutuantes Telecinéticas",
+      "Equilíbrio em Perna Única no Ar"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/shoot-mcmahon.png"
+  },
+  {
+    "id": "morel-mackernasey",
+    "name": "Morel Mackernasey",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter",
+      "Equipe de Extermínio de Formigas"
+    ],
+    "rank": "Sea Hunter de Primeira Classe",
+    "nenType": "Manipulação",
+    "styleOrPower": "Deep Purple (Manipulação de Fumaça com Cachimbo Gigante)",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "A capacidade pulmonar de um mergulhador não é brincadeira. Enquanto eu puder respirar, controlo este campo de batalha.",
+    "techniques": [
+      "Deep Purple (Soldados Clones de Fumaça)",
+      "Smoky Jail (Prisão de Fumaça Inquebrável)",
+      "Sopro Gigante de Cachimbo de Ferro"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/morel-mackernasey.png"
+  },
+  {
+    "id": "knov",
+    "name": "Knov",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Associação Hunter",
+      "Equipe de Extermínio de Formigas"
+    ],
+    "rank": "Hunter de Elite",
+    "nenType": "Materialização / Emissão",
+    "styleOrPower": "Hide and Seek (Mansão Quadridimensional de Portais) & Scream",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "Coloquei as portas dimensionais no palácio do Rei... mesmo que o terror daquela aura tenha embranquecido meus cabelos para sempre.",
+    "techniques": [
+      "Hide and Seek (Mansão de Quatro Andares em Dimensão de Bolso)",
+      "Scream (Decapitação por Fechamento de Portal Dimensional)"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/knov.png"
+  },
+  {
+    "id": "palm-siberia",
+    "name": "Palm Siberia",
+    "gender": "Feminino",
+    "species": "Humano / Quimera Híbrida",
+    "affiliation": [
+      "Associação Hunter"
+    ],
+    "rank": "Hunter / Discípula de Knov",
+    "nenType": "Reforço / Especialização",
+    "styleOrPower": "Armadura de Cabelo Black Widow & Clarividência de Sereia de Sangue",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "Gon me viu como mulher quando ninguém mais via. Por ele, eu suportaria qualquer tortura!",
+    "techniques": [
+      "Black Widow (Armadura Endurecida de Cabelos)",
+      "Bola de Cristal de Sangue de Sereia Clarividente"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/palm-siberia.png"
+  },
+  {
+    "id": "meleoron",
+    "name": "Meleoron",
+    "gender": "Masculino",
+    "species": "Formiga Quimera (Camaleão)",
+    "affiliation": [
+      "Equipe de Extermínio de Formigas"
+    ],
+    "rank": "Líder de Esquadrão Quimera",
+    "nenType": "Especialização",
+    "styleOrPower": "God's Accomplice (Invisibilidade e Inexistência Perfeita Enquanto Prende a Respiração)",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "Se eu segurar a minha respiração e tocar em você, nem mesmo o próprio Deus saberá que estamos aqui.",
+    "techniques": [
+      "God's Accomplice (Invisibilidade e Ocultação Total Compartilhada)",
+      "Camuflagem Natural de Camaleão"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/meleoron.png"
+  },
+  {
+    "id": "ikalgo",
+    "name": "Ikalgo",
+    "gender": "Masculino",
+    "species": "Formiga Quimera (Polvo)",
+    "affiliation": [
+      "Equipe de Extermínio de Formigas"
+    ],
+    "rank": "Atirador de Elite / Oficial Quimera",
+    "nenType": "Manipulação",
+    "styleOrPower": "Disparo de Pulgas Balísticas de Tentáculos & Parasitismo de Cadáveres",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "Eu não sou uma lula, droga! Eu sou um polvo orgulhoso e o melhor amigo de Killua!",
+    "techniques": [
+      "Rifle Sniper de Tentáculo com Pulgas",
+      "Parasitismo Cadavérico Marionete"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/ikalgo.png"
+  },
+  {
+    "id": "colt",
+    "name": "Colt",
+    "gender": "Masculino",
+    "species": "Formiga Quimera",
+    "affiliation": [
+      "Exército das Formigas Quimera"
+    ],
+    "rank": "Líder de Esquadrão / Protetor da Rainha",
+    "styleOrPower": "Voo Aéreo Rápido & Lealdade Absoluta Maternal",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "Eu falhei em salvar minha irmã quando era humano... mas juro que protegerei este bebê recém-nascido da Rainha com a minha vida!",
+    "techniques": [
+      "Voo Veloz com Asas de Falcão",
+      "Garras de Caça Aérea"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/colt.png"
+  },
+  {
+    "id": "welfin",
+    "name": "Welfin",
+    "gender": "Masculino",
+    "species": "Formiga Quimera (Lobo)",
+    "affiliation": [
+      "Exército das Formigas Quimera"
+    ],
+    "rank": "Líder de Esquadrão",
+    "nenType": "Materialização",
+    "styleOrPower": "Missileman (Centopeias Negras que Devoram a Cabeça se Houver Mentira)",
+    "debutArc": "Formigas Quimera",
+    "status": "Vivo",
+    "quote": "Komugi...! A palavra que salvou a minha vida diante do olhar do Rei.",
+    "techniques": [
+      "Missileman (Mísseis de Interrogação Infestadores)",
+      "Faro Investigativo Aguçado"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/welfin.png"
+  },
+  {
+    "id": "leol",
+    "name": "Leol (Hagya)",
+    "gender": "Masculino",
+    "species": "Formiga Quimera (Leão)",
+    "affiliation": [
+      "Exército das Formigas Quimera"
+    ],
+    "rank": "Líder de Esquadrão",
+    "nenType": "Especialização",
+    "styleOrPower": "Rental Pod (Empréstimo de Habilidades de Nen Alheias por Gratidão)",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "Se você me deve um favor, sua habilidade de Nen pertence ao meu iPod mágico por uma hora inteira!",
+    "techniques": [
+      "Rental Pod (Uso Temporário de Feitiços Alheios)",
+      "Tornados e Surf com Prancha em Enchente"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/leol.png"
+  },
+  {
+    "id": "cheetu",
+    "name": "Cheetu",
+    "gender": "Masculino",
+    "species": "Formiga Quimera (Chita)",
+    "affiliation": [
+      "Exército das Formigas Quimera"
+    ],
+    "rank": "Líder de Esquadrão",
+    "nenType": "Materialização / Emissão",
+    "styleOrPower": "Velocidade Supersônica e Tag (Pega-Pega em Dimensão Própria)",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "Você tem oito horas para me pegar nesta pista de atletismo dimensional! Boa sorte tentando ser mais rápido que eu!",
+    "techniques": [
+      "Espaço Fechado de Pega-Pega",
+      "Flecha e Besta de Garra",
+      "Velocidade na Fronteira do Som"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/cheetu.png"
+  },
+  {
+    "id": "zazan",
+    "name": "Zazan",
+    "gender": "Feminino",
+    "species": "Formiga Quimera (Escorpião)",
+    "affiliation": [
+      "Exército das Formigas Quimera"
+    ],
+    "rank": "Líder de Esquadrão / Autoproclamada Rainha de Meteor City",
+    "nenType": "Manipulação",
+    "styleOrPower": "Ferrão Mutagênico & Transformação em Réptil Couraçado Monstruoso",
+    "debutArc": "Formigas Quimera",
+    "status": "Falecido",
+    "quote": "Meu veneno transforma humanos em monstros grotescos e leais à minha beleza!",
+    "techniques": [
+      "Ferrão com Vírus Mutagênico",
+      "Forma Monstruosa com Pele de Crocodilo Impenetrável"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/zazan.png"
+  },
+  {
+    "id": "cheadle-yorkshire",
+    "name": "Cheadle Yorkshire",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Zodíacos (Cão)",
+      "Associação Hunter"
+    ],
+    "rank": "14ª Presidente da Associação Hunter / Médica",
+    "nenType": "Manipulação / Reforço",
+    "styleOrPower": "Medicina Forense, Direito Internacional e Liderança Ética",
+    "debutArc": "Eleição do 13º Presidente Hunter",
+    "status": "Vivo",
+    "quote": "A Associação Hunter sob a minha liderança retornará aos princípios da moralidade e da ciência.",
+    "techniques": [
+      "Medicina Viral Preventiva",
+      "Gestão Política Democrática"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/cheadle-yorkshire.png"
+  },
+  {
+    "id": "mizaistom-nana",
+    "name": "Mizaistom Nana",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Zodíacos (Boi)",
+      "Associação Hunter"
+    ],
+    "rank": "Crime Hunter de Duas Estrelas / Advogado",
+    "nenType": "Manipulação",
+    "styleOrPower": "Cartões de Três Cores de Restrição Judicial de Nen",
+    "debutArc": "Eleição do 13º Presidente Hunter",
+    "status": "Vivo",
+    "quote": "Cartão Amarelo: advertência. Cartão Vermelho: imobilização compulsória imediata do tribunal!",
+    "techniques": [
+      "Cartões Judiciais de Paralisação Obrigatória",
+      "Dedução Investigativa de Traidores"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/mizaistom-nana.png"
+  },
+  {
+    "id": "pariston-hill",
+    "name": "Pariston Hill",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Zodíacos (Rato Antigo)",
+      "Expedição de Beyond Netero"
+    ],
+    "rank": "Ex-Vice-Presidente da Associação Hunter",
+    "styleOrPower": "Manipulação Psicológica Política Maquiavélica e Caos Estruturado",
+    "debutArc": "Eleição do 13º Presidente Hunter",
+    "status": "Vivo",
+    "quote": "Eu só quero me divertir vendo as pessoas que eu amo lutarem desesperadamente contra a destruição que eu mesmo causei.",
+    "techniques": [
+      "Manipulação Eleitoral Absoluta",
+      "Controle Clandestino de 5.000 Ovos Quimera"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/pariston-hill.png"
+  },
+  {
+    "id": "beyond-netero",
+    "name": "Beyond Netero",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Expedição ao Continente Negro",
+      "Império Kakin"
+    ],
+    "rank": "Líder da Expedição ao Continente Negro / Filho de Isaac Netero",
+    "styleOrPower": "Vigor Físico Monumental & Exploração de Territórios Proibidos",
+    "debutArc": "Guerra de Sucessão",
+    "status": "Vivo",
+    "quote": "Esperem e observem! Nós desbravaremos o Continente Negro e traremos suas maravilhas de volta!",
+    "techniques": [
+      "Liderança de Exploração Extrema",
+      "Sobrevivência a Calamidades Ancestrais"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/beyond-netero.png"
+  },
+  {
+    "id": "tserriednich-hui-guo-rou",
+    "name": "Tserriednich Hui Guo Rou",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Real de Kakin"
+    ],
+    "rank": "4º Príncipe de Kakin / Prodígio Maligno de Nen",
+    "nenType": "Especialização",
+    "styleOrPower": "Previsão do Futuro em Zetsu de 10 Segundos com Realidade Paralela & Besta Guardiã",
+    "debutArc": "Guerra de Sucessão",
+    "status": "Vivo",
+    "quote": "Mulheres que mentem deveriam ser esfoladas vivas e transformadas em peças decorativas de museu.",
+    "techniques": [
+      "Visão do Futuro Paralelo em Zetsu",
+      "Besta Guardiã de Nen do Vaso de Kakin",
+      "Aprendizado Instantâneo de Gyo e Zetsu"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/tserriednich-hui-guo-rou.png"
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Ninjas de Iga",
+      "Guarda-Costas de Kakin"
+    ],
+    "rank": "Hunter Licenciado / Mestre Ninja",
+    "nenType": "Transformação / Materialização",
+    "styleOrPower": "Hanzo Skill 4 (Projeção Astral Ninja de Clone Fantasma)",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "Como ninja de dezoito gerações, a tortura e a dor física não significam nada para a minha determinação.",
+    "techniques": [
+      "Hanzo Skill 4 (Corpo Astral Fantasma)",
+      "Lâminas Ocultas nos Braços",
+      "Artes Secretas de Furtividade Ninja"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/hanzo.png"
+  },
+  {
+    "id": "tonpa",
+    "name": "Tonpa (O Quebrador de Novatos)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Exame Hunter"
+    ],
+    "rank": "Veterano Profissional em Reprovação (35 participações)",
+    "styleOrPower": "Suco Batizado com Laxante Potente & Sabotagem Psicológica",
+    "debutArc": "Exame Hunter",
+    "status": "Vivo",
+    "quote": "Você quer um pouco de suco geladinho para comemorar o início do exame?",
+    "techniques": [
+      "Oferta Amigável de Bebidas Envenenadas",
+      "Desestabilização Emocional de Calouros"
+    ],
+    "avatar": "/avatars/hunter-x-hunter/tonpa.png"
+  }
+]

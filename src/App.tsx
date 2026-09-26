@@ -28,6 +28,11 @@ import blackCloverCharacters from './data/animes/black-clover/characters.json';
 import berserkCharacters from './data/animes/berserk/characters.json';
 import chainsawManCharacters from './data/animes/chainsaw-man/characters.json';
 import fairyTailCharacters from './data/animes/fairy-tail/characters.json';
+import frierenCharacters from './data/animes/frieren/characters.json';
+import fullmetalAlchemistCharacters from './data/animes/fullmetal-alchemist/characters.json';
+import haikyuuCharacters from './data/animes/haikyuu/characters.json';
+import hunterXHunterCharacters from './data/animes/hunter-x-hunter/characters.json';
+import kaijuNo8Characters from './data/animes/kaiju-no-8/characters.json';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -69,6 +74,16 @@ export const App: React.FC = () => {
     ? chainsawManCharacters
     : currentAnimeSlug === 'fairy-tail'
     ? fairyTailCharacters
+    : currentAnimeSlug === 'frieren'
+    ? frierenCharacters
+    : currentAnimeSlug === 'fullmetal-alchemist'
+    ? fullmetalAlchemistCharacters
+    : currentAnimeSlug === 'haikyuu'
+    ? haikyuuCharacters
+    : currentAnimeSlug === 'hunter-x-hunter'
+    ? hunterXHunterCharacters
+    : currentAnimeSlug === 'kaiju-no-8'
+    ? kaijuNo8Characters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {
