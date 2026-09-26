@@ -111,26 +111,8 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span>Início</span>
           </button>
 
-          {/* Na Home: exibe links rápidos no desktop */}
-          {currentView === 'home' ? (
-            <div className="hidden md:flex items-center gap-1.5 text-xs font-semibold text-slate-400">
-              <button
-                onClick={onOpenHowToPlay}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl hover:text-white hover:bg-[#111a2d] transition-all"
-              >
-                <HelpCircle size={14} className="text-slate-500" />
-                <span>Como jogar</span>
-              </button>
-              <button
-                onClick={onOpenStats}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl hover:text-white hover:bg-[#111a2d] transition-all"
-              >
-                <BarChart2 size={14} className="text-slate-500" />
-                <span>Estatísticas</span>
-              </button>
-            </div>
-          ) : (
-            /* Em Partida: exibe o separador e o seletor dropdown de animes */
+          {/* Em Partida: exibe o separador e o seletor dropdown de animes */}
+          {currentView !== 'home' && (
             <>
               <div className="h-5 w-[1px] bg-[#202b43] hidden sm:block" />
 

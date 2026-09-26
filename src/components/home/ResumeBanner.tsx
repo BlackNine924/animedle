@@ -50,12 +50,12 @@ export const ResumeBanner: React.FC<ResumeBannerProps> = ({ onContinue }) => {
   const coverUrl = `/card-covers/${displaySlug}.png`;
 
   return (
-    <div className="w-full max-w-4xl mx-auto my-4 sm:my-5 px-4 z-20 relative">
+    <div className="w-full max-w-[960px] mx-auto my-3 sm:my-4 px-4 z-20 relative">
       <div
-        className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0c142b] via-[#101a36] to-[#0c142b] p-3.5 sm:p-4 shadow-2xl transition-all duration-300"
+        className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-[#0c142b] via-[#101a36] to-[#0c142b] p-3 sm:p-3.5 shadow-2xl transition-all duration-300"
         style={{
           border: '1.5px solid #3b82f6',
-          boxShadow: '0 8px 32px -4px rgba(0, 0, 0, 0.7), 0 0 20px -2px rgba(59, 130, 246, 0.35)',
+          boxShadow: '0 8px 30px -4px rgba(0, 0, 0, 0.7), 0 0 20px -2px rgba(59, 130, 246, 0.35)',
         }}
       >
         {/* Glow de fundo */}

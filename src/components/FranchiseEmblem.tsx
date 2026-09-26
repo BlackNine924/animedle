@@ -12,8 +12,79 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
   className = '',
 }) => {
   switch (slug) {
+    case 'naruto':
+      // Símbolo Oficial da Aldeia da Folha (Konohagakure)
+      return (
+        <svg
+          width={size}
+          height={size}
+          viewBox="0 0 24 24"
+          fill="none"
+          className={className}
+        >
+          <circle cx="12" cy="12" r="11" fill="#f97316" fillOpacity="0.18" stroke="#f97316" strokeWidth="1.5" />
+          {/* Espiral com bico característico da Folha de Konoha */}
+          <path
+            d="M12 6.5C8.96 6.5 6.5 8.96 6.5 12C6.5 15.04 8.96 17.5 12 17.5C15.04 17.5 17.5 15.04 17.5 12C17.5 9.8 16 8.2 14.5 8.2C13 8.2 11.8 9.4 11.8 11C11.8 12.3 12.8 13.2 13.8 13.2"
+            stroke="#fb923c"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+          />
+          {/* Ponta/triângulo da folha */}
+          <path d="M12 6.5L14 3.5" stroke="#f97316" strokeWidth="2.2" strokeLinecap="round" />
+        </svg>
+      );
+
+    case 'solo-leveling':
+      // Adaga do Caçador Sung Jin-woo (Lâmina curva com brilho azul espectral)
+      return (
+        <svg
+          width={size}
+          height={size}
+          viewBox="0 0 24 24"
+          fill="none"
+          className={className}
+        >
+          <circle cx="12" cy="12" r="11" fill="#3b82f6" fillOpacity="0.18" stroke="#3b82f6" strokeWidth="1.5" />
+          {/* Lâmina da adaga */}
+          <path
+            d="M6 18L10 14M10 14L17.5 6.5C18.2 5.8 19 6.2 19 7C19 8.5 17.5 10.5 15.5 12.5L12 16L10 14Z"
+            fill="#60a5fa"
+            stroke="#93c5fd"
+            strokeWidth="1.2"
+          />
+          {/* Guarda e punho da adaga */}
+          <line x1="8.5" y1="12.5" x2="11.5" y2="15.5" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" />
+          <line x1="6" y1="18" x2="4.5" y2="19.5" stroke="#3b82f6" strokeWidth="2.5" strokeLinecap="round" />
+        </svg>
+      );
+
+    case 'one-piece':
+      // Jolly Roger Oficial dos Chapéus de Palha
+      return (
+        <svg
+          width={size}
+          height={size}
+          viewBox="0 0 24 24"
+          fill="none"
+          className={className}
+        >
+          <circle cx="12" cy="12" r="11" fill="#f59e0b" fillOpacity="0.18" stroke="#f59e0b" strokeWidth="1.5" />
+          {/* Ossos cruzados */}
+          <line x1="5.5" y1="5.5" x2="18.5" y2="18.5" stroke="#fef3c7" strokeWidth="2" strokeLinecap="round" />
+          <line x1="18.5" y1="5.5" x2="5.5" y2="18.5" stroke="#fef3c7" strokeWidth="2" strokeLinecap="round" />
+          {/* Crânio */}
+          <circle cx="12" cy="12.5" r="4.3" fill="#ffffff" stroke="#1e293b" strokeWidth="0.8" />
+          <circle cx="10.5" cy="12.2" r="1" fill="#0f172a" />
+          <circle cx="13.5" cy="12.2" r="1" fill="#0f172a" />
+          {/* Chapéu de Palha com fita vermelha */}
+          <path d="M6.5 10C7.5 7.5 16.5 7.5 17.5 10Z" fill="#fbbf24" stroke="#d97706" strokeWidth="0.7" />
+          <path d="M6 10H18" stroke="#ef4444" strokeWidth="1.3" strokeLinecap="round" />
+        </svg>
+      );
+
     case 'demon-slayer':
-      // Hinokami Kagura / Chamas da Respiração do Sol (Rubro & Ouro)
+      // Chamas da Respiração do Sol / Hinokami Kagura
       return (
         <svg
           width={size}
@@ -35,7 +106,7 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
       );
 
     case 'jujutsu-kaisen':
-      // Energia Amaldiçoada / Espiral de Jujutsu (Índigo & Violeta)
+      // Selo Espiral do Colégio Técnico de Jujutsu de Tóquio
       return (
         <svg
           width={size}
@@ -61,75 +132,8 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
         </svg>
       );
 
-    case 'one-piece':
-      // Jolly Roger do Bando do Chapéu de Palha (Caveira, Chapéu & Ossos Cruzados)
-      return (
-        <svg
-          width={size}
-          height={size}
-          viewBox="0 0 24 24"
-          fill="none"
-          className={className}
-        >
-          <circle cx="12" cy="12" r="11" fill="#f59e0b" fillOpacity="0.18" stroke="#f59e0b" strokeWidth="1.5" />
-          {/* Ossos cruzados */}
-          <line x1="5.5" y1="5.5" x2="18.5" y2="18.5" stroke="#fef3c7" strokeWidth="1.8" strokeLinecap="round" />
-          <line x1="18.5" y1="5.5" x2="5.5" y2="18.5" stroke="#fef3c7" strokeWidth="1.8" strokeLinecap="round" />
-          {/* Cabeça da Caveira */}
-          <circle cx="12" cy="12.5" r="4.2" fill="#ffffff" stroke="#1e293b" strokeWidth="0.8" />
-          {/* Olhos da Caveira */}
-          <circle cx="10.5" cy="12.2" r="1" fill="#0f172a" />
-          <circle cx="13.5" cy="12.2" r="1" fill="#0f172a" />
-          {/* Chapéu de Palha */}
-          <path d="M6.5 10C7.5 7.5 16.5 7.5 17.5 10Z" fill="#fbbf24" stroke="#d97706" strokeWidth="0.7" />
-          <path d="M6 10H18" stroke="#ef4444" strokeWidth="1.2" strokeLinecap="round" />
-        </svg>
-      );
-
-    case 'naruto':
-      // Espiral do Clã Uzumaki / Símbolo da Folha de Konoha
-      return (
-        <svg
-          width={size}
-          height={size}
-          viewBox="0 0 24 24"
-          fill="none"
-          className={className}
-        >
-          <circle cx="12" cy="12" r="11" fill="#f97316" fillOpacity="0.18" stroke="#f97316" strokeWidth="1.5" />
-          <path
-            d="M12 7C9.24 7 7 9.24 7 12C7 14.76 9.24 17 12 17C14.76 17 17 14.76 17 12C17 10 15.6 8.5 14 8.5C12.4 8.5 11 9.8 11 11.5C11 12.8 12.2 13.5 13 13.5"
-            stroke="#fb923c"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-          />
-          <path d="M12 6.5V4" stroke="#f97316" strokeWidth="2" strokeLinecap="round" />
-        </svg>
-      );
-
-    case 'solo-leveling':
-      // Estrela de Quatro Pontas / Adaga Radiante do Monarca das Sombras
-      return (
-        <svg
-          width={size}
-          height={size}
-          viewBox="0 0 24 24"
-          fill="none"
-          className={className}
-        >
-          <circle cx="12" cy="12" r="11" fill="#3b82f6" fillOpacity="0.18" stroke="#3b82f6" strokeWidth="1.5" />
-          <path
-            d="M12 3.5L13.8 9.5L19.8 12L13.8 14.5L12 20.5L10.2 14.5L4.2 12L10.2 9.5L12 3.5Z"
-            fill="#60a5fa"
-            stroke="#93c5fd"
-            strokeWidth="1"
-          />
-          <circle cx="12" cy="12" r="2" fill="#ffffff" />
-        </svg>
-      );
-
     case 'blue-lock':
-      // Pentágono / Chama Azul de Egoísta do Blue Lock
+      // Pentágono Oficial de Blue Lock
       return (
         <svg
           width={size}
@@ -139,19 +143,18 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
           className={className}
         >
           <circle cx="12" cy="12" r="11" fill="#06b6d4" fillOpacity="0.18" stroke="#06b6d4" strokeWidth="1.5" />
-          {/* Pentágono estilo gomo de bola */}
           <polygon
-            points="12,5.5 18,9.8 15.7,17 8.3,17 6,9.8"
+            points="12,5 19,10 16.3,18 7.7,18 5,10"
             fill="#0891b2"
             stroke="#22d3ee"
-            strokeWidth="1.5"
+            strokeWidth="1.6"
           />
-          <circle cx="12" cy="11.5" r="2" fill="#e0f2fe" />
+          <circle cx="12" cy="12" r="2.2" fill="#ffffff" />
         </svg>
       );
 
     case 'record-of-ragnarok':
-      // Asas de Valquíria / Brasão Imperial do Ragnarok
+      // Asas de Valquíria e Lança Imperial (Shuumatsu no Valkyrie)
       return (
         <svg
           width={size}
@@ -162,18 +165,18 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
         >
           <circle cx="12" cy="12" r="11" fill="#e11d48" fillOpacity="0.18" stroke="#e11d48" strokeWidth="1.5" />
           <path
-            d="M12 4.5V19.5M8 7L12 11L16 7M6 10L12 16L18 10"
+            d="M12 4V20M8 7L12 11L16 7M6 10L12 16L18 10"
             stroke="#fda4af"
             strokeWidth="1.8"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
-          <polygon points="12,3.5 14,7 10,7" fill="#ffe4e6" />
+          <polygon points="12,3 14.5,7 9.5,7" fill="#ffe4e6" />
         </svg>
       );
 
     case 'bleach':
-      // Emblema do Shinigami Substituto (Caveira Gokon Tekkō)
+      // Crânio do Shinigami Substituto (Gokon Tekkō)
       return (
         <svg
           width={size}
@@ -183,7 +186,6 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
           className={className}
         >
           <circle cx="12" cy="12" r="11" fill="#ff4d8d" fillOpacity="0.18" stroke="#ff4d8d" strokeWidth="1.5" />
-          {/* Crânio Shinigami com dentes estilizados */}
           <path
             d="M8 8.5C8 6.5 9.8 5 12 5C14.2 5 16 6.5 16 8.5C16 11 15 12.5 14.5 13.5H9.5C9 12.5 8 11 8 8.5Z"
             fill="#fce7f3"
@@ -198,7 +200,7 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
       );
 
     case 'dragon-ball':
-      // Kanji "悟" (Go) de Son Goku / Esfera do Dragão
+      // Kanji "悟" (Go) de Son Goku
       return (
         <svg
           width={size}
@@ -208,7 +210,6 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
           className={className}
         >
           <circle cx="12" cy="12" r="11" fill="#f59e0b" fillOpacity="0.22" stroke="#f59e0b" strokeWidth="1.5" />
-          {/* Kanji 悟 estilizado */}
           <text
             x="12"
             y="16.5"
@@ -224,7 +225,7 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
       );
 
     case 'pokemon':
-      // Pokébola Clássica (Vermelho, Branco e Centro Negro)
+      // Pokébola Clássica Oficial
       return (
         <svg
           width={size}
@@ -234,13 +235,9 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
           className={className}
         >
           <circle cx="12" cy="12" r="11" fill="#1e293b" stroke="#f59e0b" strokeWidth="1.2" />
-          {/* Metade Superior Vermelha */}
           <path d="M2.5 12C2.5 6.75 6.75 2.5 12 2.5C17.25 2.5 21.5 6.75 21.5 12H2.5Z" fill="#ef4444" />
-          {/* Metade Inferior Branca */}
-          <path d="M2.5 12C2.5 17.25 6.75 21.5 12 21.5C17.25 21.5 21.5 17.25 21.5 12H2.5Z" fill="#ffffff" />
-          {/* Faixa Central Preta */}
+          <path d="M2.5 12C2.5 17.25 6.75 2.5 12 21.5C17.25 21.5 21.5 17.25 21.5 12H2.5Z" fill="#ffffff" />
           <rect x="2" y="11" width="20" height="2" fill="#0f172a" />
-          {/* Botão Central */}
           <circle cx="12" cy="12" r="3.2" fill="#ffffff" stroke="#0f172a" strokeWidth="1.8" />
           <circle cx="12" cy="12" r="1.3" fill="#ffffff" stroke="#94a3b8" strokeWidth="0.8" />
         </svg>
@@ -262,15 +259,13 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
             stroke="#94a3b8"
             strokeWidth="1.3"
           />
-          {/* Asa Azul */}
           <path d="M8.5 7L13 10L10 13L14.5 14L9 17.5" stroke="#38bdf8" strokeWidth="1.5" strokeLinecap="round" />
-          {/* Asa Branca */}
           <path d="M15.5 7L11 10L14 13L9.5 14L15 17.5" stroke="#f8fafc" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       );
 
     case 'haikyuu':
-      // Bola de Vôlei Tricolor
+      // Bola de Vôlei Clássica
       return (
         <svg
           width={size}
@@ -343,7 +338,7 @@ export const FranchiseEmblem: React.FC<FranchiseEmblemProps> = ({
       );
 
     case 'dan-da-dan':
-      // Turbobaba / Olho Alienígena Espiral
+      // Turbobaba / Olho Alienígena
       return (
         <svg
           width={size}
