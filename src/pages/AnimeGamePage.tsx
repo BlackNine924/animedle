@@ -32,8 +32,9 @@ export const AnimeGamePage: React.FC = () => {
         className="fixed inset-0 bg-cover bg-center bg-no-repeat pointer-events-none z-0"
         style={{ backgroundImage: `url(/wallpapers/${animeSlug}.png)` }}
       />
-      {/* Overlay escuro uniforme para garantir contraste e legibilidade das tabelas e cards */}
-      <div className="fixed inset-0 bg-[#060b18]/78 pointer-events-none z-0 backdrop-blur-[1px]" />
+      {/* Tela preta sutil e quase imperceptível: mantém nitidez, brilho e qualidade total do wallpaper */}
+      <div className="fixed inset-0 bg-black/30 pointer-events-none z-0" />
+      <div className="fixed inset-0 bg-gradient-to-b from-black/35 via-transparent to-black/45 pointer-events-none z-0" />
 
       {/* Jogo */}
       <div className="relative z-10 w-full min-h-screen">

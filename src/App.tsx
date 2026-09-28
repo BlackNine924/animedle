@@ -799,15 +799,31 @@ export const App: React.FC<{
       {/* Conteúdo Principal — Largura Otimizada (max-w-[1440px]) */}
       <main className="flex-1 max-w-[1440px] w-[calc(100%-32px)] sm:w-[calc(100%-48px)] mx-auto py-8 pb-36 z-10">
         
-        {/* Hero Header sem o texto "Desafio Diário #" */}
-        <div className="text-center my-4">
+        {/* Hero Header com a Logo Oficial do Anime */}
+        <div className="text-center my-4 flex flex-col items-center">
+          {/* Logo Oficial do Anime da pasta /logos/ */}
+          <div className="mb-2 flex justify-center items-center">
+            <img
+              src={`/logos/${currentAnimeSlug}.png`}
+              alt={`${animeConfig.title} Logo`}
+              className="h-24 sm:h-28 md:h-36 w-auto max-w-[280px] sm:max-w-[360px] object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.85)] hover:scale-105 transition-transform duration-300"
+              onError={(e) => {
+                if (animeConfig.logo && (e.currentTarget as HTMLImageElement).src !== animeConfig.logo) {
+                  (e.currentTarget as HTMLImageElement).src = animeConfig.logo;
+                } else {
+                  (e.currentTarget as HTMLImageElement).style.display = 'none';
+                }
+              }}
+            />
+          </div>
+
           {currentMode === 'endless' && (
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#111a2d] border border-[#202b43] text-slate-300 text-xs font-bold mb-3 shadow-sm">
               <InfinityIcon size={14} className="text-amber-400" />
               <span>Modo Treino (Ilimitado)</span>
             </div>
           )}
-          <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight drop-shadow-md">
             Adivinhe o Personagem de <span style={{ color: animeConfig.themeColor }}>{animeConfig.title}</span>
           </h2>
           {animeConfig.mangaCoverage && (

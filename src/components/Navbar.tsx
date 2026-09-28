@@ -69,8 +69,13 @@ export const Navbar: React.FC<NavbarProps> = ({
               <AnimatePresence mode="wait">
                 <motion.img
                   key={currentAnime.slug}
-                  src={currentAnime.logo || '/logo-demon-slayer.png'}
+                  src={`/logos/${currentAnime.slug}.png`}
                   alt={`${currentAnime.title} Logo`}
+                  onError={(e) => {
+                    if (currentAnime.logo && (e.currentTarget as HTMLImageElement).src !== currentAnime.logo) {
+                      (e.currentTarget as HTMLImageElement).src = currentAnime.logo;
+                    }
+                  }}
                   initial={{ opacity: 0, scale: 0.88 }}
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.88 }}
