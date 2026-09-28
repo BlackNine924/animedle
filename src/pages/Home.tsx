@@ -13,7 +13,7 @@ import {
 // ── Filtros de seção ────────────────────────────────────────────────────
 type SectionToggle = { available: boolean; colecoes: boolean; comingSoon: boolean };
 
-// ── Card individual ─────────────────────────────────────────────────────
+// ── Card individual padronizado ─────────────────────────────────────────
 interface AnimeCardProps {
   anime: AnimeEntry;
   onClick: () => void;
@@ -25,25 +25,25 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
 
   return (
     <div
-      className="flex flex-col items-center gap-2 cursor-pointer group"
+      className="flex flex-col items-center gap-2.5 sm:gap-3 cursor-pointer group select-none"
       onClick={onClick}
     >
-      {/* Imagem do card */}
-      <div className="relative w-full overflow-hidden rounded-xl shadow-xl transition-transform duration-300 ease-out group-hover:scale-[1.04] group-hover:shadow-2xl">
+      {/* Moldura do card: proporção 2:3 rígida, bordas arredondadas e sem borda preta externa */}
+      <div className="relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 group-hover:ring-amber-400/60">
         <img
           src={cardSrc}
           alt={anime.name}
-          className="w-full h-auto object-cover block"
+          className="w-full h-full object-cover object-center block"
           loading="lazy"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.opacity = '0.3';
           }}
         />
 
-        {/* Badge "Em Breve" */}
+        {/* Badge "Em Breve" estilizada */}
         {isComingSoon && (
-          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40 rounded-xl">
-            <span className="bg-amber-500 text-black text-[10px] sm:text-xs font-black uppercase tracking-wider px-2.5 py-1 rounded-full shadow-lg">
+          <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/45 backdrop-blur-[0.5px]">
+            <span className="bg-amber-500 text-black text-[11px] sm:text-xs font-black uppercase tracking-widest px-3 py-1 rounded-full shadow-xl">
               Em Breve
             </span>
           </div>
@@ -51,23 +51,23 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
 
         {/* Badge "Coleção" */}
         {anime.type === 'colecao' && anime.implemented && (
-          <div className="absolute top-2 right-2">
-            <span className="bg-purple-600/90 text-white text-[10px] font-bold uppercase tracking-wide px-2 py-0.5 rounded-full">
+          <div className="absolute top-2.5 right-2.5">
+            <span className="bg-purple-600/95 text-white text-[11px] font-extrabold uppercase tracking-wide px-2.5 py-1 rounded-full shadow-lg">
               Coleção
             </span>
           </div>
         )}
       </div>
 
-      {/* Nome do anime */}
-      <span className="text-center text-xs sm:text-sm font-semibold text-slate-200 leading-tight px-1 group-hover:text-amber-300 transition-colors duration-200">
+      {/* Nome do anime: fonte Outfit estilosa, tamanho ampliado e contraste impecável */}
+      <span className="text-center font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug px-1 group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
         {anime.name}
       </span>
     </div>
   );
 };
 
-// ── Grid de cards ────────────────────────────────────────────────────────
+// ── Grid de cards com largura ampliada ───────────────────────────────────
 interface AnimeGridProps {
   animes: AnimeEntry[];
   onSelect: (slug: string) => void;
@@ -83,7 +83,7 @@ const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect }) => {
   }
 
   return (
-    <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-5 gap-4 sm:gap-5">
+    <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-7">
       {animes.map(anime => (
         <AnimeCard key={anime.slug} anime={anime} onClick={() => onSelect(anime.slug)} />
       ))}
@@ -104,20 +104,20 @@ const Section: React.FC<SectionProps> = ({ title, count, children, defaultOpen =
   const [open, setOpen] = useState(defaultOpen);
 
   return (
-    <div className="mb-10">
+    <div className="mb-12">
       <button
-        className="flex items-center gap-3 mb-5 w-full text-left group"
+        className="flex items-center gap-3 mb-6 w-full text-left group"
         onClick={() => setOpen(o => !o)}
       >
-        {icon && <span className="text-xl">{icon}</span>}
-        <h2 className="text-lg sm:text-xl font-black text-slate-100 group-hover:text-amber-300 transition-colors">
+        {icon && <span className="text-2xl">{icon}</span>}
+        <h2 className="text-xl sm:text-2xl font-black text-slate-100 group-hover:text-amber-300 transition-colors tracking-tight">
           {title}
         </h2>
-        <span className="text-sm font-semibold text-slate-500 bg-slate-800 px-2 py-0.5 rounded-full">
+        <span className="text-xs sm:text-sm font-bold text-slate-400 bg-[#0d1426] border border-[#202b43] px-2.5 py-0.5 rounded-full">
           {count}
         </span>
         <span className="ml-auto text-slate-500 group-hover:text-amber-400 transition-colors">
-          {open ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
+          {open ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
         </span>
       </button>
 
@@ -182,27 +182,27 @@ export const Home: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#060b18]">
-      {/* ── Header ────────────────────────────────────────────────────── */}
-      <header className="flex flex-col items-center pt-12 pb-8 px-4">
-        <div className="flex flex-col items-center gap-3 mb-6">
+      {/* ── Header com Logo em destaque ampliado ──────────────────────── */}
+      <header className="flex flex-col items-center pt-10 sm:pt-14 pb-10 px-4">
+        <div className="flex flex-col items-center gap-4 mb-8">
           <img
             src="/logo-main.png"
-            alt="AnimeDle"
-            className="h-16 sm:h-20 w-auto object-contain"
+            alt="AnimeDle Logo"
+            className="h-32 sm:h-44 md:h-56 w-auto object-contain drop-shadow-[0_16px_32px_rgba(0,0,0,0.8)] hover:scale-[1.03] transition-transform duration-300"
             onError={e => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
           />
-          <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-white tracking-tight">
             Anime<span className="text-amber-400">Dle</span>
           </h1>
-          <p className="text-slate-400 text-sm sm:text-base text-center max-w-md leading-relaxed">
+          <p className="text-slate-400 text-sm sm:text-base text-center max-w-lg leading-relaxed">
             Adivinhe o personagem do seu anime favorito. Escolha uma obra e teste seus conhecimentos!
           </p>
         </div>
 
-        {/* ── Barra de pesquisa ────────────────────────────────────────── */}
-        <div className="w-full max-w-xl relative mb-4">
+        {/* ── Barra de pesquisa ampliada ───────────────────────────────── */}
+        <div className="w-full max-w-2xl relative mb-5">
           <Search
-            size={18}
+            size={20}
             className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none"
           />
           <input
@@ -210,17 +210,17 @@ export const Home: React.FC = () => {
             placeholder="Pesquisar anime..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            className="w-full pl-11 pr-4 py-3 rounded-2xl bg-[#0d1426] border border-[#202b43] text-slate-100 placeholder-slate-500 text-sm focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500/50 transition-all"
+            className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-[#0d1426] border border-[#202b43] text-slate-100 placeholder-slate-500 text-sm sm:text-base focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30 transition-all shadow-inner"
           />
         </div>
 
         {/* ── Filtros de gênero ─────────────────────────────────────────── */}
-        <div className="flex flex-wrap justify-center gap-2 mb-3">
+        <div className="flex flex-wrap justify-center gap-2 mb-4">
           <button
             onClick={() => setActiveGenre(null)}
-            className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-200 ${
+            className={`px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold transition-all duration-200 ${
               activeGenre === null
-                ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/20'
+                ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/25'
                 : 'bg-[#0d1426] text-slate-300 border border-[#202b43] hover:border-amber-500/50 hover:text-amber-300'
             }`}
           >
@@ -230,9 +230,9 @@ export const Home: React.FC = () => {
             <button
               key={genre}
               onClick={() => setActiveGenre(genre === activeGenre ? null : genre)}
-              className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all duration-200 ${
+              className={`px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold transition-all duration-200 ${
                 activeGenre === genre
-                  ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/20'
+                  ? 'bg-amber-500 text-black shadow-lg shadow-amber-500/25'
                   : 'bg-[#0d1426] text-slate-300 border border-[#202b43] hover:border-amber-500/50 hover:text-amber-300'
               }`}
             >
@@ -242,8 +242,8 @@ export const Home: React.FC = () => {
         </div>
 
         {/* ── Toggles de seção ─────────────────────────────────────────── */}
-        <div className="flex flex-wrap justify-center gap-2 text-xs text-slate-400">
-          <span className="self-center font-semibold">Buscar em:</span>
+        <div className="flex flex-wrap justify-center gap-2 text-xs sm:text-sm text-slate-400">
+          <span className="self-center font-bold">Buscar em:</span>
           {(
             [
               { key: 'available' as const, label: '🎮 Disponíveis' },
@@ -254,10 +254,10 @@ export const Home: React.FC = () => {
             <button
               key={key}
               onClick={() => toggleSection(key)}
-              className={`px-3 py-1 rounded-full border text-xs font-semibold transition-all duration-200 ${
+              className={`px-3.5 py-1 rounded-full border text-xs sm:text-sm font-bold transition-all duration-200 ${
                 sectionToggles[key]
-                  ? 'border-amber-500/60 text-amber-300 bg-amber-500/10'
-                  : 'border-slate-700 text-slate-600 bg-transparent'
+                  ? 'border-amber-500/60 text-amber-300 bg-amber-500/10 shadow-sm'
+                  : 'border-slate-800 text-slate-600 bg-transparent hover:text-slate-400'
               }`}
             >
               {label}
@@ -266,10 +266,10 @@ export const Home: React.FC = () => {
         </div>
       </header>
 
-      {/* ── Conteúdo principal ────────────────────────────────────────── */}
-      <main className="max-w-screen-xl mx-auto px-4 sm:px-6 pb-20">
+      {/* ── Conteúdo principal ampliado (max-w-[1650px]) ─────────────── */}
+      <main className="max-w-[1650px] mx-auto px-4 sm:px-6 lg:px-10 pb-28">
         {!hasResults && (
-          <p className="text-slate-500 text-center py-16 text-sm">
+          <p className="text-slate-500 text-center py-20 text-base">
             Nenhum anime encontrado para "{searchQuery}".
           </p>
         )}

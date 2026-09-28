@@ -26,21 +26,23 @@ export const AnimeGamePage: React.FC = () => {
 
   // Jogo disponível → wrapper com wallpaper + game
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen w-full bg-[#060b18]">
       {/* Wallpaper fixo de fundo */}
       <div
-        className="fixed inset-0 bg-cover bg-center bg-no-repeat -z-10"
+        className="fixed inset-0 bg-cover bg-center bg-no-repeat pointer-events-none z-0"
         style={{ backgroundImage: `url(/wallpapers/${animeSlug}.png)` }}
       />
-      {/* Overlay escuro uniforme */}
-      <div className="fixed inset-0 bg-black/72 -z-10" />
+      {/* Overlay escuro uniforme para garantir contraste e legibilidade das tabelas e cards */}
+      <div className="fixed inset-0 bg-[#060b18]/78 pointer-events-none z-0 backdrop-blur-[1px]" />
 
       {/* Jogo */}
-      <App
-        animeSlug={animeSlug}
-        onNavigateHome={() => navigate('/')}
-        onNavigateToAnime={(slug: string) => navigate(`/${slug}`)}
-      />
+      <div className="relative z-10 w-full min-h-screen">
+        <App
+          animeSlug={animeSlug}
+          onNavigateHome={() => navigate('/')}
+          onNavigateToAnime={(slug: string) => navigate(`/${slug}`)}
+        />
+      </div>
     </div>
   );
 };

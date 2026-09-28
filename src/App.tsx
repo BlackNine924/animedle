@@ -777,7 +777,7 @@ export const App: React.FC<{
   const zoomScale = isFinished ? 1 : Math.max(1, 3.5 - currentGuesses.length * 0.5);
 
   return (
-    <div className="min-h-screen bg-[#030712] text-[#F5F7FF] flex flex-col font-sans selection:bg-rose-500 selection:text-white relative overflow-x-hidden">
+    <div className="min-h-screen bg-transparent text-[#F5F7FF] flex flex-col font-sans selection:bg-rose-500 selection:text-white relative overflow-x-hidden">
       {/* Background Radial Glow Imperceptível adaptado ao Accent do Anime */}
       <div 
         className="fixed inset-0 pointer-events-none z-0"
