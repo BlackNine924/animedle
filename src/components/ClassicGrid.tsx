@@ -254,7 +254,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
         <thead>
           <tr>
             <th
-              className={`group relative ${isDense ? 'p-1.5 sm:p-2 min-w-[130px] sm:min-w-[150px]' : 'p-2 min-w-[190px]'} text-xs font-black uppercase text-slate-400 tracking-wider text-left cursor-help select-none`}
+              className={`group relative ${isDense ? 'p-1.5 sm:p-2 min-w-[130px] sm:min-w-[150px] max-w-[180px]' : 'p-2 min-w-[190px] max-w-[200px]'} text-xs font-black uppercase text-slate-400 tracking-wider text-left cursor-help select-none`}
               title={getCategoryDescription('Personagem', animeSlug)}
             >
               <span className="inline-flex items-center gap-1.5 border-b border-dotted border-slate-600 group-hover:border-amber-400 group-hover:text-amber-300 transition-colors">
@@ -309,9 +309,24 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                     />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <span className={`${isDense ? 'text-[11px] sm:text-xs' : 'text-xs sm:text-sm'} font-extrabold text-[#F5F7FF] leading-tight block truncate`}>
-                      {guess.character.name}
-                    </span>
+                    {(() => {
+                      const name = guess.character.name;
+                      const parenIdx = name.indexOf('(');
+                      const baseName = parenIdx > 0 ? name.slice(0, parenIdx).trim() : name;
+                      const subtitle = parenIdx > 0 ? name.slice(parenIdx).trim() : null;
+                      return (
+                        <span className="block min-w-0">
+                          <span className={`${isDense ? 'text-[11px] sm:text-xs' : 'text-xs sm:text-sm'} font-extrabold text-[#F5F7FF] leading-tight block`}>
+                            {baseName}
+                          </span>
+                          {subtitle && (
+                            <span className={`${isDense ? 'text-[10px]' : 'text-[11px]'} font-medium text-amber-400/80 leading-snug block mt-0.5`}>
+                              {subtitle}
+                            </span>
+                          )}
+                        </span>
+                      );
+                    })()}
                   </div>
                 </div>
               </td>
