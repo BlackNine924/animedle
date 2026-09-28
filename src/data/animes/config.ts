@@ -679,7 +679,6 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     columns: [
       { key: 'gender', label: 'Gênero', type: 'exact' },
       { key: 'village', label: 'Vila', type: 'exact' },
-      { key: 'clan', label: 'Clã', type: 'exact' },
       { key: 'natureTypes', label: 'Tipos de Natureza', type: 'array' },
       { key: 'jutsuTypes', label: 'Tipos de Jutsu', type: 'array' },
       { key: 'kekkeiGenkai', label: 'Kekkei Genkai', type: 'array' },

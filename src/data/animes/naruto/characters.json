@@ -4487,7 +4487,7 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/teuchi.png",
     "quote": "Um bom ramen aquece qualquer coração ferido!",
-    "styleOrPower": "Culinária de Ramen Ichiraku",
+    "styleOrPower": "Nenhum",
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum"
   },
@@ -4514,7 +4514,7 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/ayame.png",
     "quote": "Bem-vindo ao Ramen Ichiraku! O que vai querer hoje, Naruto?",
-    "styleOrPower": "Atendimento e Culinária de Ramen",
+    "styleOrPower": "Nenhum",
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum"
   },
@@ -4654,7 +4654,7 @@
     "debutArc": "Busca por Tsunade",
     "status": "Viva",
     "avatar": "/avatars/naruto/tonton.png",
-    "quote": "Oink! A porquinha de estimação de Tsunade e Shizune com olfato aguçado.",
+    "quote": "",
     "styleOrPower": "Faro Aguçado",
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum"
@@ -4743,7 +4743,7 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "avatar": "/avatars/naruto/shukaku.png",
-    "quote": "O Ichibi (Uma-Cauda), besta de areia e selamento lendário.",
+    "quote": "",
     "styleOrPower": "Manipulação de Areia e Selamento Fuinjutsu",
     "village": "Suna (Vila Oculta da Areia)",
     "clan": "Nenhum"
@@ -4771,7 +4771,7 @@
     "debutArc": "Missão de Perseguição a Itachi",
     "status": "Viva",
     "avatar": "/avatars/naruto/matatabi.png",
-    "quote": "O Nibi (Duas-Caudas), gato fantasmagórico envolto em chamas azuis.",
+    "quote": "",
     "styleOrPower": "Chamas Azuis de Fogo Infernal",
     "village": "Kumo (Vila Oculta da Nuvem)",
     "clan": "Nenhum"
@@ -4800,7 +4800,7 @@
     "debutArc": "Aparição do Três-Caudas",
     "status": "Vivo",
     "avatar": "/avatars/naruto/isobu.png",
-    "quote": "O Sanbi (Três-Caudas), tartaruga gigante encouraçada de águas profundas.",
+    "quote": "",
     "styleOrPower": "Projéteis de Água e Onda de Choque",
     "village": "Kiri (Vila Oculta da Névoa)",
     "clan": "Nenhum"
@@ -4830,7 +4830,7 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Vivo",
     "avatar": "/avatars/naruto/son-goku.png",
-    "quote": "O Yonbi (Quatro-Caudas), rei dos macacos sábios das cavernas de lava.",
+    "quote": "",
     "styleOrPower": "Liberação de Lava (Yoton)",
     "village": "Iwa (Vila Oculta da Pedra)",
     "clan": "Nenhum"
@@ -4860,7 +4860,7 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Viva",
     "avatar": "/avatars/naruto/kokuo.png",
-    "quote": "O Gobi (Cinco-Caudas), cavalo-baleia pacífico com poder de vapor fervente.",
+    "quote": "",
     "styleOrPower": "Liberação de Vapor (Futton) e Cargas Físicas",
     "village": "Iwa (Vila Oculta da Pedra)",
     "clan": "Nenhum"
@@ -4888,7 +4888,7 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Vivo",
     "avatar": "/avatars/naruto/saiken.png",
-    "quote": "O Rokubi (Seis-Caudas), lesma gigante que expele ácidos e substâncias corrosivas.",
+    "quote": "",
     "styleOrPower": "Gás Ácido Corrosivo e Muco Pegajoso",
     "village": "Kiri (Vila Oculta da Névoa)",
     "clan": "Nenhum"
@@ -4916,7 +4916,7 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Vivo",
     "avatar": "/avatars/naruto/chomei.png",
-    "quote": "O Nanabi (Sete-Caudas), besouro alado jovial apelidado de Número Sete da Sorte.",
+    "quote": "",
     "styleOrPower": "Voo, Pó Cegante e Rajadas de Vento",
     "village": "Taki (Vila Oculta da Cachoeira)",
     "clan": "Nenhum"
@@ -4947,7 +4947,7 @@
     "debutArc": "Missão de Perseguição a Itachi",
     "status": "Vivo",
     "avatar": "/avatars/naruto/gyuki.png",
-    "quote": "O Hachibi (Oito-Caudas), touro-polvo leal parceiro de Killer Bee.",
+    "quote": "",
     "styleOrPower": "Tinta Cegante, Tentáculos e Bijuudama",
     "village": "Kumo (Vila Oculta da Nuvem)",
     "clan": "Nenhum"
@@ -4977,7 +4977,7 @@
     "debutArc": "Introdução",
     "status": "Morto",
     "avatar": "/avatars/naruto/kurama.png",
-    "quote": "A lendária Raposa de Nove-Caudas (Kyuubi) que compartilhou seu chakra com Naruto.",
+    "quote": "",
     "styleOrPower": "Sensoriamento de Emoções Negativas e Bijuudama Devastadora",
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum"
@@ -5101,7 +5101,7 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Selado",
     "avatar": "/avatars/naruto/juubi.png",
-    "quote": "A besta primordial e progenitora de todo o chakra do mundo ninja.",
+    "quote": "",
     "styleOrPower": "Bijuudama Planetária, Cataclismo Tenpenchii & Liberação de Madeira",
     "village": "Nenhuma",
     "clan": "Nenhum"

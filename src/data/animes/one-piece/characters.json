@@ -1010,7 +1010,7 @@
     "fruitType": "Paramecia",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Paramecia (Hisohiso no Mi)",
+    "styleOrPower": "Paramecia (Hiso Hiso no Mi)",
     "debutArc": "East Blue",
     "status": "Viva",
     "quote": "",
@@ -5399,7 +5399,7 @@
     "id": "leo",
     "name": "Leo",
     "gender": "Masculino",
-    "species": "Anão",
+    "species": "Anão (Tontatta)",
     "affiliation": [
       "Grande Frota dos Chapéus de Palha"
     ],
@@ -5584,5 +5584,28 @@
     "status": "Vivo",
     "avatar": "/avatars/one-piece/mont-blanc-cricket.png",
     "quote": "Eu não busco o ouro de Noland para provar nada a ninguém, mas sim para acertar as contas com aquele mentiroso!"
+  },
+  {
+    "id": "viola",
+    "name": "Viola",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Real Riku",
+      "Piratas do Donquixote"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Giro Giro no Mi)",
+    "debutArc": "Dressrosa",
+    "status": "Viva",
+    "avatar": "/avatars/one-piece/viola.png",
+    "quote": "Eu vejo através de todas as mentiras com os meus olhos.",
+    "techniques": [
+      "Peeping Eye",
+      "Hierba Lágrimas",
+      "Clarividência"
+    ]
   }
 ]

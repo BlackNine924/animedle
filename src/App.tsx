@@ -33,6 +33,7 @@ import fullmetalAlchemistCharacters from './data/animes/fullmetal-alchemist/char
 import haikyuuCharacters from './data/animes/haikyuu/characters.json';
 import hunterXHunterCharacters from './data/animes/hunter-x-hunter/characters.json';
 import kaijuNo8Characters from './data/animes/kaiju-no-8/characters.json';
+import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
@@ -163,13 +164,16 @@ export const App: React.FC = () => {
 
     if (currentAnimeSlug === 'naruto') {
       characters.forEach((c) => {
-        if (c.styleOrPower && c.styleOrPower !== 'Nenhuma' && c.styleOrPower !== 'Nenhum') {
-          items.push({
-            id: `${c.id}-jutsu`,
-            character: c,
-            abilityType: 'technique',
-            title: 'Jutsu / Técnica',
-            text: c.styleOrPower,
+        const exclusiveList = NARUTO_EXCLUSIVE_JUTSUS[c.id];
+        if (exclusiveList && exclusiveList.length > 0) {
+          exclusiveList.forEach((j, idx) => {
+            items.push({
+              id: `${c.id}-exclusive-jutsu-${idx}`,
+              character: c,
+              abilityType: 'technique',
+              title: j.title,
+              text: j.text,
+            });
           });
         }
       });
