@@ -38,8 +38,12 @@ import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
 import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
 
-export const App: React.FC = () => {
-  const [currentAnimeSlug, setCurrentAnimeSlug] = useState<string>('demon-slayer');
+
+export const App: React.FC<{
+  animeSlug: string;
+  onNavigateHome: () => void;
+  onNavigateToAnime: (slug: string) => void;
+}> = ({ animeSlug: currentAnimeSlug, onNavigateHome, onNavigateToAnime }) => {
   const [currentMode, setCurrentMode] = useState<GameMode>('classic');
 
   // Seleciona dinamicamente a lista de personagens com base no anime selecionado e ordena em ordem alfabética (A-Z)
@@ -93,13 +97,9 @@ export const App: React.FC = () => {
 
   const animeConfig = ANIMES_CONFIG[currentAnimeSlug] || ANIMES_CONFIG['demon-slayer'];
 
-  // Troca de anime garantindo fechamento de modal de vitória anterior
+  // Troca de anime via navegação por URL (componente remonta automaticamente)
   const handleSelectAnime = (newAnimeSlug: string) => {
-    setCurrentAnimeSlug(newAnimeSlug);
-    if ((newAnimeSlug === 'solo-leveling' || newAnimeSlug === 'blue-lock') && (currentMode === 'quote' || currentMode === 'ability')) {
-      setCurrentMode('classic');
-    }
-    setShowVictoryModal(false);
+    onNavigateToAnime(newAnimeSlug);
   };
 
   // Troca de modo de jogo garantindo fechamento de modal de vitória do modo anterior
@@ -790,6 +790,7 @@ export const App: React.FC = () => {
       <Navbar
         currentAnimeSlug={currentAnimeSlug}
         onSelectAnime={handleSelectAnime}
+        onGoHome={onNavigateHome}
         onOpenHowToPlay={() => setShowHowToPlay(true)}
         onOpenStats={() => setShowStats(true)}
         onResetDaily={handleResetDaily}

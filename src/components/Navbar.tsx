@@ -6,6 +6,7 @@ import { ANIMES_CONFIG } from '../data/animes/config';
 interface NavbarProps {
   currentAnimeSlug: string;
   onSelectAnime: (slug: string) => void;
+  onGoHome?: () => void;
   onOpenHowToPlay: () => void;
   onOpenStats: () => void;
   onResetDaily?: () => void;
@@ -14,6 +15,7 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({
   currentAnimeSlug,
   onSelectAnime,
+  onGoHome,
   onOpenHowToPlay,
   onOpenStats,
   onResetDaily,
@@ -58,7 +60,11 @@ export const Navbar: React.FC<NavbarProps> = ({
         
         {/* Lado Esquerdo: Logo & Anime Selector */}
         <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2.5 cursor-pointer select-none">
+          <div
+            className="flex items-center gap-2.5 cursor-pointer select-none group"
+            onClick={onGoHome}
+            title="Voltar para a Home"
+          >
             <div className="relative w-9 h-9 flex items-center justify-center flex-shrink-0">
               <AnimatePresence mode="wait">
                 <motion.img
