@@ -28,12 +28,12 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
       className="flex flex-col items-center gap-2.5 sm:gap-3 cursor-pointer group select-none"
       onClick={onClick}
     >
-      {/* Moldura do card: proporção 2:3 rígida, bordas arredondadas e sem borda preta externa */}
-      <div className="relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 group-hover:ring-amber-400/60">
+      {/* Moldura do card: proporção 3:4 perfeita, moldura 100% visível sem cortes no topo */}
+      <div className="relative w-full aspect-[3/4] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 group-hover:ring-amber-400/60">
         <img
           src={cardSrc}
           alt={anime.name}
-          className="w-full h-full object-cover object-center block"
+          className="w-full h-full object-contain object-center block"
           loading="lazy"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.opacity = '0.3';

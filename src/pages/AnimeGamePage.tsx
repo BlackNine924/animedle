@@ -8,6 +8,10 @@ export const AnimeGamePage: React.FC = () => {
   const { animeSlug } = useParams<{ animeSlug: string }>();
   const navigate = useNavigate();
 
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior });
+  }, [animeSlug]);
+
   if (!animeSlug) {
     return <Navigate to="/" replace />;
   }
