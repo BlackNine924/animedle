@@ -35,19 +35,22 @@ export const Navbar: React.FC<NavbarProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Pré-carrega todas as logos dos animes em memória para troca 100% instantânea sem delay
+  // Pré-carrega todas as logos e wallpapers dos animes em memória para troca 100% instantânea sem delay
   useEffect(() => {
     Object.values(ANIMES_CONFIG).forEach((anime) => {
-      if (anime.logo) {
-        const img = new Image();
-        img.src = anime.logo;
-      }
+      // Pré-carrega logo oficial
+      const imgLogo = new Image();
+      imgLogo.src = `/logos/${anime.slug}.png`;
+
+      // Pré-carrega wallpaper
+      const imgWall = new Image();
+      imgWall.src = `/wallpapers/${anime.slug}.png`;
     });
   }, []);
 
   // Atualiza o favicon dinamicamente com base no anime selecionado
   useEffect(() => {
-    const logoUrl = currentAnime.logo || '/logo-demon-slayer.png';
+    const logoUrl = `/logos/${currentAnime.slug}.png`;
     const faviconLink: HTMLLinkElement | null = document.querySelector("link[rel*='icon']");
     if (faviconLink) {
       faviconLink.href = logoUrl;
@@ -55,7 +58,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   }, [currentAnime]);
 
   return (
-    <header className="sticky top-0 z-40 bg-[#0d1426]/90 backdrop-blur-xl border-b border-[#202b43]">
+    <header className="sticky top-0 z-40 bg-[#060b18]/40 backdrop-blur-md border-b border-white/10 transition-colors">
       <div className="max-w-[1440px] w-[calc(100%-32px)] sm:w-[calc(100%-48px)] mx-auto h-16 flex items-center justify-between">
         
         {/* Lado Esquerdo: Logo & Anime Selector */}
@@ -66,23 +69,17 @@ export const Navbar: React.FC<NavbarProps> = ({
             title="Voltar para a Home"
           >
             <div className="relative w-9 h-9 flex items-center justify-center flex-shrink-0">
-              <AnimatePresence mode="wait">
-                <motion.img
-                  key={currentAnime.slug}
-                  src={`/logos/${currentAnime.slug}.png`}
-                  alt={`${currentAnime.title} Logo`}
-                  onError={(e) => {
-                    if (currentAnime.logo && (e.currentTarget as HTMLImageElement).src !== currentAnime.logo) {
-                      (e.currentTarget as HTMLImageElement).src = currentAnime.logo;
-                    }
-                  }}
-                  initial={{ opacity: 0, scale: 0.88 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.88 }}
-                  transition={{ duration: 0.18, ease: 'easeOut' }}
-                  className="w-9 h-9 object-contain drop-shadow-md absolute inset-0"
-                />
-              </AnimatePresence>
+              <img
+                key={currentAnime.slug}
+                src={`/logos/${currentAnime.slug}.png`}
+                alt={`${currentAnime.title} Logo`}
+                onError={(e) => {
+                  if (currentAnime.logo && (e.currentTarget as HTMLImageElement).src !== currentAnime.logo) {
+                    (e.currentTarget as HTMLImageElement).src = currentAnime.logo;
+                  }
+                }}
+                className="w-9 h-9 object-contain drop-shadow-md absolute inset-0"
+              />
             </div>
             <h1 className="text-xl font-black tracking-tight text-white flex items-center gap-0.5">
               Anime
