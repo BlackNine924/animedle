@@ -485,7 +485,7 @@
     "id": "tenshinhan",
     "name": "Tenshinhan",
     "gender": "Masculino",
-    "species": "Humano (Descendente de Três Olhos)",
+    "species": "Humano",
     "affiliation": [
       "Guerreiros Z",
       "Escola Garça"
@@ -527,7 +527,6 @@
     ],
     "avatar": "/avatars/dragon-ball/chaos.png"
   },
-
   {
     "id": "tambourine",
     "name": "Tambourine",
@@ -640,7 +639,7 @@
     "id": "senhor-kaioh",
     "name": "Senhor Kaioh do Norte",
     "gender": "Masculino",
-    "species": "Divindade (Shinjin)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Planeta Kaioh"
@@ -1319,7 +1318,7 @@
     "id": "shin",
     "name": "Shin (Supremo Kaioh)",
     "gender": "Sem Gênero",
-    "species": "Divindade (Shinjin / Kaioshin)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Universo 7"
@@ -1341,7 +1340,7 @@
     "id": "kibito",
     "name": "Kibito",
     "gender": "Sem Gênero",
-    "species": "Divindade (Shinjin)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Planeta Supremo Kaioshin"
@@ -1362,7 +1361,7 @@
     "id": "ro-kaioshin",
     "name": "Velho Kaiohshin",
     "gender": "Masculino",
-    "species": "Divindade (Shinjin Fundido)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Planeta Supremo Kaioshin"
@@ -1532,7 +1531,7 @@
     "id": "bills",
     "name": "Bills",
     "gender": "Masculino",
-    "species": "Divindade (Hakaishin)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Universo 7"
@@ -1554,7 +1553,7 @@
     "id": "whis",
     "name": "Whis",
     "gender": "Masculino",
-    "species": "Divindade (Anjo)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Universo 7"
@@ -1597,7 +1596,7 @@
     "id": "champa",
     "name": "Champa",
     "gender": "Masculino",
-    "species": "Divindade (Hakaishin)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Universo 6"
@@ -1618,7 +1617,7 @@
     "id": "vados",
     "name": "Vados",
     "gender": "Feminino",
-    "species": "Divindade (Anjo)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Universo 6"
@@ -1724,7 +1723,7 @@
     "id": "zamasu",
     "name": "Zamasu",
     "gender": "Masculino",
-    "species": "Divindade (Kaioshin / Shinjin)",
+    "species": "Divindade",
     "affiliation": [
       "Reino dos Deuses",
       "Universo 10"
@@ -1768,7 +1767,7 @@
     "id": "daishinkan",
     "name": "Daishinkan",
     "gender": "Masculino",
-    "species": "Divindade (Anjo Supremo)",
+    "species": "Divindade",
     "affiliation": [
       "Palácio de Zen'o",
       "Reino dos Deuses"
@@ -1943,7 +1942,7 @@
     "id": "meerus",
     "name": "Meerus",
     "gender": "Masculino",
-    "species": "Divindade (Anjo Aprendiz / Humano)",
+    "species": "Divindade",
     "affiliation": [
       "Patrulha Galáctica"
     ],

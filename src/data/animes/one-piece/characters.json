@@ -199,7 +199,7 @@
     "id": "jinbe",
     "name": "Jinbe",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Chapéus de Palha",
       "Piratas do Sol",
@@ -344,7 +344,7 @@
     "bounty": 550000000,
     "styleOrPower": "Logia (Mera Mera no Mi)",
     "debutArc": "Alabasta",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Obrigado por me amarem!",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2072-Lc6jEdsueJUK.jpg",
     "techniques": [
@@ -451,7 +451,7 @@
     "bounty": 5046000000,
     "styleOrPower": "Paramecia (Gura Gura no Mi)",
     "debutArc": "Summit War (Marineford)",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "O One Piece é real!",
     "avatar": "/avatars/one-piece/edward-newgate.png",
     "techniques": [
@@ -645,7 +645,7 @@
     "bounty": 5564800000,
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4883-0t76xH00sehO.png",
     "quote": "",
     "techniques": [
@@ -718,7 +718,7 @@
     "id": "arlong",
     "name": "Arlong",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Piratas do Arlong",
       "Piratas do Sol"
@@ -761,7 +761,7 @@
     "id": "hatchan",
     "name": "Hatchan",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Civil",
       "Piratas do Sol",
@@ -794,7 +794,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4890.jpg",
     "quote": "",
     "techniques": [
@@ -805,7 +805,7 @@
     "id": "chew",
     "name": "Chew",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Piratas do Arlong",
       "Piratas do Sol"
@@ -891,7 +891,7 @@
     "id": "kuroobi",
     "name": "Kuroobi",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Piratas do Arlong",
       "Piratas do Sol"
@@ -1667,7 +1667,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9344-20tLwZwAXTX0.png",
     "quote": "",
     "techniques": [
@@ -1687,7 +1687,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "Thriller Bark",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b25393-4BfkE6TdYvRV.jpg",
     "quote": "",
     "techniques": [
@@ -1727,7 +1727,7 @@
     "bounty": 0,
     "styleOrPower": "Paramecia (Suke Suke no Mi)",
     "debutArc": "Thriller Bark",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9655.jpg",
     "quote": "",
     "techniques": [
@@ -1759,7 +1759,7 @@
     "id": "keimi",
     "name": "Keimi",
     "gender": "Feminino",
-    "species": "Sereia",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Civil",
       "Ilha dos Tritões"
@@ -1937,7 +1937,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/nero.png",
     "quote": "",
     "techniques": [
@@ -2171,7 +2171,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n17190-BCsc92WDAZPs.png",
     "quote": "",
     "techniques": [
@@ -2191,7 +2191,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n17191-CxjdmuAITdiU.png",
     "quote": "",
     "techniques": [
@@ -2254,7 +2254,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "Thriller Bark",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17763-EokkfpNw5ZG8.png",
     "quote": "",
     "techniques": [
@@ -2379,7 +2379,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b19271-AqWZCtTJieBx.jpg",
     "quote": "",
     "techniques": [
@@ -2550,7 +2550,7 @@
     "bounty": 320000000,
     "styleOrPower": "Paramecia (Wara Wara no Mi)",
     "debutArc": "Summit War (Marineford)",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20293-37ifsaMz7Kgx.png",
     "quote": "",
     "techniques": [
@@ -3049,7 +3049,7 @@
     "id": "jack",
     "name": "Jack",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Piratas das Feras"
     ],
@@ -3123,7 +3123,7 @@
     "styleOrPower": "Nenhum",
     "quote": "Eu sou Oden! E eu nasci para ferver!",
     "debutArc": "País de Wano",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b149797-UmdR7up3kgoK.png",
     "techniques": [
       "Togen Totsuka",
@@ -3225,7 +3225,7 @@
     "fruitType": "Logia",
     "haki": "Armamento & Observação",
     "bounty": 400000000,
-    "styleOrPower": "Logia (Soot Soot no Mi)",
+    "styleOrPower": "Logia (Susu Susu no Mi)",
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
@@ -3269,7 +3269,7 @@
     "styleOrPower": "Nenhum",
     "quote": "",
     "debutArc": "País de Wano",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b146411-1cWXsUjauDEU.png",
     "techniques": [
       "Comando da Maior Tripulação da História"
@@ -3350,7 +3350,7 @@
     "styleOrPower": "Paramecia (Nomi Nomi no Mi)",
     "quote": "",
     "debutArc": "Egghead",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b282077-sPmt79g4douV.jpg",
     "techniques": [
       "Intelecto de 500 Anos no Futuro",
@@ -3533,7 +3533,7 @@
     "id": "fisher-tiger",
     "name": "Fisher Tiger",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Piratas do Sol"
     ],
@@ -3543,7 +3543,7 @@
     "styleOrPower": "Nenhum",
     "quote": "",
     "debutArc": "Ilha dos Tritões",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21809-NcG6Wa7P6t3k.jpg",
     "techniques": [
       "Tritão Karate",
@@ -3565,7 +3565,7 @@
     "styleOrPower": "Paramecia (Nagi Nagi no Mi)",
     "quote": "Eu te amo, Law!",
     "debutArc": "Dressrosa / Punk Hazard",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b120536-PxdNxEhQwE8d.png",
     "techniques": [
       "Silent Field (Cancelamento do Som)"
@@ -3587,7 +3587,7 @@
     "styleOrPower": "Paramecia (Toki Toki no Mi)",
     "quote": "",
     "debutArc": "País de Wano",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127845-e80CGKpAqW4A.png",
     "techniques": [
       "Viagem Temporal para o Futuro"
@@ -3607,7 +3607,7 @@
     "styleOrPower": "Nenhum",
     "quote": "Zoro, prometemos! Um de nós se tornará o maior espadachim do mundo!",
     "debutArc": "East Blue",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21266-zGRDCl19NYmQ.png",
     "techniques": [
       "Esgrima do Dojo Shimotsuki"
@@ -3671,7 +3671,7 @@
     "styleOrPower": "Nenhum",
     "quote": "",
     "debutArc": "Egghead",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/shaka.png",
     "fruitType": "Nenhuma",
     "techniques": [
@@ -3712,7 +3712,7 @@
     "styleOrPower": "Nenhum",
     "quote": "",
     "debutArc": "Egghead",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b326794-3cqUesvgztGh.png",
     "fruitType": "Nenhuma",
     "techniques": [
@@ -3734,7 +3734,7 @@
     "styleOrPower": "Nenhum",
     "quote": "",
     "debutArc": "Egghead",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/atlas.png",
     "techniques": [
       "Socos Holográficos de Impacto Titânico"
@@ -3776,7 +3776,7 @@
     "styleOrPower": "Zoan Mítica (Gyuki / Ushi-Oni)",
     "quote": "",
     "debutArc": "Egghead",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b299038-H3xhQUX5Xv1p.png",
     "fruitType": "Zoan Mítica",
     "techniques": [
@@ -3948,7 +3948,7 @@
     "styleOrPower": "Nenhum",
     "quote": "",
     "debutArc": "Egghead",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/emet.png",
     "fruitType": "Nenhuma",
     "techniques": [
@@ -4270,7 +4270,7 @@
     "styleOrPower": "Nenhum",
     "fruitType": "Nenhuma",
     "debutArc": "Thriller Bark",
-    "status": "Falecida",
+    "status": "Morta",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9656.jpg"
   },
   {
@@ -4359,7 +4359,7 @@
     "id": "ryuma",
     "name": "Ryuma",
     "gender": "Masculino",
-    "species": "Zumbi (Humano)",
+    "species": "Zumbi",
     "affiliation": [
       "País de Wano",
       "Thriller Bark"
@@ -4369,7 +4369,7 @@
     "styleOrPower": "Nenhum",
     "fruitType": "Nenhuma",
     "debutArc": "Thriller Bark",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/ryuma.png",
     "techniques": [
       "Aubade Coup D'Droit",
@@ -4380,7 +4380,7 @@
     "id": "shirahoshi",
     "name": "Shirahoshi",
     "gender": "Feminino",
-    "species": "Sereia",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Reino Ryugu",
       "Armas Ancestrais"
@@ -4457,7 +4457,7 @@
     "styleOrPower": "Electro",
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126180-ud2y3PGElJDU.jpg"
   },
   {
@@ -4491,7 +4491,7 @@
     "styleOrPower": "Zoan Mítica (Hebi Hebi no Mi, Modelo: Yamata no Orochi)",
     "fruitType": "Zoan Mítica",
     "debutArc": "País de Wano",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b132669-TGXODbAMwtLV.png"
   },
   {
@@ -4549,7 +4549,7 @@
     "id": "kawamatsu",
     "name": "Kawamatsu",
     "gender": "Masculino",
-    "species": "Tritão",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Nove Bainhas Vermelhas",
       "Clã Kozuki"
@@ -4627,7 +4627,7 @@
     "styleOrPower": "Estilo de Espada",
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/ashura-doji.png"
   },
   {
@@ -4970,7 +4970,7 @@
     "id": "hody-jones",
     "name": "Hody Jones",
     "gender": "Masculino",
-    "species": "Tritão (Grande Tubarão Branco)",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Novos Piratas Tritões"
     ],
@@ -4987,7 +4987,7 @@
     "id": "vander-decken-ix",
     "name": "Vander Decken IX",
     "gender": "Masculino",
-    "species": "Tritão (Tubarão Cabeça-de-Touro)",
+    "species": "Tritão / Sereia",
     "affiliation": [
       "Piratas Flying"
     ],
@@ -5014,7 +5014,7 @@
     "bounty": 0,
     "styleOrPower": "Paramecia (Fude Fude no Mi)",
     "debutArc": "Dressrosa / Punk Hazard",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/kurozumi-kanjuro.png",
     "quote": "Eu vivi minha vida inteira no palco, atuando como o mais leal servo dos Kozuki!"
   },
@@ -5031,7 +5031,7 @@
     "bounty": 0,
     "styleOrPower": "Logia (Yuki Yuki no Mi)",
     "debutArc": "Dressrosa / Punk Hazard",
-    "status": "Falecida",
+    "status": "Morta",
     "avatar": "/avatars/one-piece/monet.png",
     "quote": "Jovem Mestre... você é o único destinado a se tornar o Rei dos Piratas!"
   },
@@ -5049,7 +5049,7 @@
     "bounty": 0,
     "styleOrPower": "Oni-Take e Revestimento Completo de Busoshoku",
     "debutArc": "Dressrosa / Punk Hazard",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/vergo.png",
     "quote": "Chame-me de Vice-Almirante Vergo com o devido respeito."
   },
@@ -5220,7 +5220,7 @@
     "bounty": 0,
     "styleOrPower": "Cortes de Espada Retos em Ângulo Reto",
     "debutArc": "Water 7 / Enies Lobby",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/t-bone.png",
     "quote": "Mesmo que meus ossos se quebrem, não permitirei que inocentes sofram ferimentos!"
   },
@@ -5330,16 +5330,16 @@
     "id": "donquixote-mjosgard",
     "name": "Donquixote Mjosgard",
     "gender": "Masculino",
-    "species": "Nobre Mundial (Tenryuubito)",
+    "species": "Humano",
     "affiliation": [
       "Governo Mundial"
     ],
     "fruitType": "Nenhuma",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Clube Físico e Defensor dos Homens-Peixe",
+    "styleOrPower": "Nenhum",
     "debutArc": "Ilha dos Tritões",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/donquixote-mjosgard.png",
     "quote": "A Rainha Otohime me ensinou o que significa ser um verdadeiro ser humano."
   },
@@ -5399,7 +5399,7 @@
     "id": "leo",
     "name": "Leo",
     "gender": "Masculino",
-    "species": "Anão (Tontatta)",
+    "species": "Anão",
     "affiliation": [
       "Grande Frota dos Chapéus de Palha"
     ],
@@ -5512,7 +5512,7 @@
     "bounty": 510000000,
     "styleOrPower": "Pistolas Duplas e Dança de Wano",
     "debutArc": "Summit War (Marineford)",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/izo.png",
     "quote": "Irmão mais velho de Kikunojo e 16º comandante dos Piratas do Barba Branca."
   },
@@ -5529,7 +5529,7 @@
     "bounty": 550000000,
     "styleOrPower": "Força Colossal de Gigante Ancestral",
     "debutArc": "Summit War (Marineford)",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/little-oars-jr.png",
     "quote": "Ace me deu este chapéu de palha para me proteger do sol e da neve... Eu o salvarei!"
   },

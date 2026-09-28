@@ -74,7 +74,7 @@
     "rank": "O Grande Herói",
     "styleOrPower": "Esgrima Veloz Heroica & Carisma Inabalável",
     "debutArc": "Fim da Jornada & Reencontros",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Frieren, eu quero que construam estátuas nossas por toda parte para que, mesmo após cem anos, você nunca se sinta sozinha.",
     "techniques": [
       "Espada Heroica da Velocidade da Luz",
@@ -95,7 +95,7 @@
     "rank": "Sacerdote Sagrado",
     "styleOrPower": "Magia Sagrada da Deusa & Bênçãos de Ressurreição",
     "debutArc": "Fim da Jornada & Reencontros",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Mesmo sendo um sacerdote que adora bebidas, a Deusa certamente acolherá a todos nós no paraíso.",
     "techniques": [
       "Magia Sagrada Curativa da Deusa",
@@ -135,7 +135,7 @@
     "rank": "A Grande Maga Fundadora",
     "styleOrPower": "Criação da Magia Sistemática & Engano Perfeito de Mana",
     "debutArc": "Aura a Guilhotina",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Engane os demônios pelo resto da sua vida, Frieren. Finja ser fraca até o instante exato de matá-los.",
     "techniques": [
       "Técnica de Ocultação Eterna de Mana",
@@ -217,7 +217,7 @@
     "rank": "Sábia da Destruição",
     "styleOrPower": "Balança da Obediência (Auserlese)",
     "debutArc": "Aura a Guilhotina",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Minha balança nunca erra. Aquele que tiver menos mana torna-se escravo obediente para toda a eternidade.",
     "techniques": [
       "Auserlese (Balança da Obediência)",
@@ -237,7 +237,7 @@
     "rank": "Lorde Demônio da Manipulação",
     "styleOrPower": "Balterie (Magia de Manipulação de Sangue)",
     "debutArc": "Aura a Guilhotina",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "As palavras dos humanos são ferramentas tão convenientes para enganá-los.",
     "techniques": [
       "Balterie (Chicotes e Lanças de Sangue)",
@@ -257,7 +257,7 @@
     "rank": "Demônio Guerreira Aprendiz",
     "styleOrPower": "Lehergand (Mimetismo de Habilidades Marciais por Mana)",
     "debutArc": "Aura a Guilhotina",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Eu vejo o fluxo do seu mana e posso replicar perfeitamente a técnica de qualquer guerreiro que já vi.",
     "techniques": [
       "Lehergand (Imitação de Movimentos de Eisen)",
@@ -277,7 +277,7 @@
     "rank": "Demônio Algoz",
     "styleOrPower": "Fios Invisíveis Cortantes de Mana",
     "debutArc": "Aura a Guilhotina",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Seu pescoço será decepado antes mesmo de você perceber meus fios ao seu redor.",
     "techniques": [
       "Fios Cerceadores Invisíveis",
@@ -297,7 +297,7 @@
     "rank": "Demônio Ancestral / Criador da Magia Perfurante",
     "styleOrPower": "Zoltraak Original (Magia Perfuradora de Almas)",
     "debutArc": "Fim da Jornada & Reencontros",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Humanos... vocês pegaram a minha própria magia e a tornaram um feitiço comum de estudantes?",
     "techniques": [
       "Zoltraak Primordial Sem Escudo",
@@ -702,7 +702,7 @@
     "rank": "O Mais Forte dos Sete Sábios da Destruição",
     "styleOrPower": "Diagoldze (Transmutação Universal e Eterna em Ouro)",
     "debutArc": "Planalto do Norte",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Eu só queria compreender o que é a culpa e a malícia humana... por isso transformei toda a cidade de Weise em ouro puro.",
     "techniques": [
       "Diagoldze (Ouro Absoluto Irreversível)",
@@ -722,7 +722,7 @@
     "rank": "Grande Demônio Sem Chifres / Erudita de Mana",
     "styleOrPower": "Densidade Brutal de Mana Pura & Desconstrução de Magia Humana",
     "debutArc": "Planalto do Norte",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Os demônios e humanos conversam na mesma língua, mas nossas almas habitam abismos completamente incomunicáveis.",
     "techniques": [
       "Projéteis Massivos de Mana Bruta Condensada",
@@ -742,7 +742,7 @@
     "rank": "Sábio da Destruição",
     "styleOrPower": "Magia de Ilusão Mental Absoluta e Sonhos Felizes",
     "debutArc": "Viagem ao Passado",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Eu concedo às minhas vítimas a ilusão mais doce de suas vidas... e as mato enquanto elas sorriem.",
     "techniques": [
       "Ilusão Onírica Inescapável",
@@ -762,7 +762,7 @@
     "rank": "Sábio da Destruição",
     "styleOrPower": "Barreira Mágica Absoluta e Intransponível",
     "debutArc": "Viagem ao Passado",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Nenhuma espada ou magia de mortais jamais conseguirá arranhar a perfeição da minha barreira.",
     "techniques": [
       "Barreira Cúbica Impenetrável",
@@ -781,7 +781,7 @@
     "rank": "General Demônio das Quatro Espadas",
     "styleOrPower": "Estilo Quádruplo de Espadas Pesadas de Mana",
     "debutArc": "Planalto do Norte",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "A força das minhas quatro lâminas corta magia, carne e armaduras no mesmo golpe.",
     "techniques": [
       "Dança Quádrupla de Lâminas Demoníacas",
@@ -820,7 +820,7 @@
     "rank": "Demônio Espadachim das Sombras",
     "styleOrPower": "Teletransporte Espacial e Cortes Rápidos",
     "debutArc": "Viagem ao Passado",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "O espaço entre você e a minha espada não existe.",
     "techniques": [
       "Salto Dimensional Ofensivo",
@@ -858,7 +858,7 @@
     "rank": "Monarca Supremo dos Demônios",
     "styleOrPower": "Poder Mágico Onipotente e Desejo de Coexistência Através da Aniquilação",
     "debutArc": "Fim da Jornada & Reencontros",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Nós queríamos apenas coexistir com a humanidade... reduzindo sua população para números manejáveis.",
     "techniques": [
       "Pressão de Mana de Nível Planetário",

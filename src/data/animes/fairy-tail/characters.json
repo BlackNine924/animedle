@@ -2945,7 +2945,7 @@
     "id": "aquarius",
     "name": "Aquarius (A Portadora da Água)",
     "gender": "Feminino",
-    "species": "Espírito Celestial (Sereia)",
+    "species": "Espírito Celestial",
     "affiliation": [
       "Doze Portões do Zodíaco",
       "Lucy Heartfilia",
@@ -2966,7 +2966,7 @@
     "id": "taurus",
     "name": "Taurus (O Touro Dourado)",
     "gender": "Masculino",
-    "species": "Espírito Celestial (Minotauro)",
+    "species": "Espírito Celestial",
     "affiliation": [
       "Doze Portões do Zodíaco",
       "Lucy Heartfilia"
@@ -3028,7 +3028,7 @@
     "id": "sagittarius",
     "name": "Sagittarius (O Arqueiro)",
     "gender": "Masculino",
-    "species": "Espírito Celestial (Homem com Fantasia de Cavalo)",
+    "species": "Espírito Celestial",
     "affiliation": [
       "Doze Portões do Zodíaco",
       "Lucy Heartfilia"
@@ -3109,7 +3109,7 @@
     "id": "capricorn",
     "name": "Capricorn (Caprico)",
     "gender": "Masculino",
-    "species": "Espírito Celestial (Bode de Terno e Óculos)",
+    "species": "Espírito Celestial",
     "affiliation": [
       "Doze Portões do Zodíaco",
       "Lucy Heartfilia",
@@ -3130,7 +3130,7 @@
     "id": "pisces",
     "name": "Pisces (Os Peixes Gêmeos)",
     "gender": "Outro",
-    "species": "Espírito Celestial (Mãe e Filho)",
+    "species": "Espírito Celestial",
     "affiliation": [
       "Doze Portões do Zodíaco",
       "Yukino Agria"
@@ -3170,7 +3170,7 @@
     "id": "ophiuchus",
     "name": "Ophiuchus (O 13º Portão do Serpentário)",
     "gender": "Nenhum",
-    "species": "Espírito Celestial (Serpente Titânica)",
+    "species": "Espírito Celestial",
     "affiliation": [
       "Portão Secreto do Zodíaco",
       "Yukino Agria"

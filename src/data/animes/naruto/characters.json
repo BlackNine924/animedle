@@ -36,7 +36,9 @@
     "id": "naruto-uzumaki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17-phjcWCkRuIhu.png",
     "quote": "Eu nunca vou voltar atrás na minha palavra! Esse é o meu jeito ninja!",
-    "styleOrPower": "Rasengan"
+    "styleOrPower": "Rasengan",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uzumaki"
   },
   {
     "name": "Sasuke Uchiha",
@@ -77,7 +79,9 @@
     "id": "sasuke-uchiha",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b13-SISLEw1oAD7a.png",
     "quote": "Meu único objetivo é a vingança.",
-    "styleOrPower": "Chidori"
+    "styleOrPower": "Chidori",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Sakura Haruno",
@@ -107,7 +111,9 @@
     "status": "Viva",
     "id": "sakura-haruno",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b145-IorfpI8arxeX.png",
-    "styleOrPower": "Força Brutal da Criação"
+    "styleOrPower": "Força Brutal da Criação",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Haruno"
   },
   {
     "name": "Kakashi Hatake",
@@ -144,7 +150,9 @@
     "id": "kakashi-hatake",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b85-mkVBh2yjxjmx.png",
     "quote": "Aqueles que abandonam suas regras são escória, mas aqueles que abandonam seus companheiros são piores que escória.",
-    "styleOrPower": "Raikiri (Raio Cortante)"
+    "styleOrPower": "Raikiri (Raio Cortante)",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hatake"
   },
   {
     "name": "Hinata Hyuuga",
@@ -172,7 +180,9 @@
     "id": "hinata-hyuuga",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1555-Q41GLTV3FvYF.png",
     "quote": "Eu nunca fugirei... e nunca recuarei! Esse é o meu jeito ninja!",
-    "styleOrPower": "Punho Gentil"
+    "styleOrPower": "Punho Gentil",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hyuuga"
   },
   {
     "name": "Shikamaru Nara",
@@ -200,7 +210,9 @@
     "id": "shikamaru-nara",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2007-QaesJlIZDifj.jpg",
     "quote": "Que trabalheira...",
-    "styleOrPower": "Jutsu de Imitação da Sombra"
+    "styleOrPower": "Jutsu de Imitação da Sombra",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Nara"
   },
   {
     "name": "Gaara",
@@ -230,7 +242,9 @@
     "id": "gaara",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1662-4E5J0LX9jZKZ.png",
     "quote": "Eu me tornei a areia que protege os que amo.",
-    "styleOrPower": "Escudo de Areia"
+    "styleOrPower": "Escudo de Areia",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Clã Kazekage"
   },
   {
     "name": "Itachi Uchiha",
@@ -263,11 +277,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Busca por Tsunade",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "itachi-uchiha",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b14-9Kb1E5oel1ke.png",
     "quote": "Perdoe-me, Sasuke... Isso é a última vez.",
-    "styleOrPower": "Amaterasu"
+    "styleOrPower": "Amaterasu",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Kisame Hoshigaki",
@@ -295,10 +311,12 @@
       "Espadachim da Névoa"
     ],
     "debutArc": "Busca por Tsunade",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "kisame-hoshigaki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/2672-oxbHx8n3N7WY.jpg",
-    "styleOrPower": "Samehada"
+    "styleOrPower": "Samehada",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Jiraiya",
@@ -327,11 +345,13 @@
       "Sábio"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "jiraiya",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2423-RO5MyoXSA9OL.png",
     "quote": "Não importa o quanto o mundo te machuque, continue a acreditar nas pessoas.",
-    "styleOrPower": "Rasengan"
+    "styleOrPower": "Rasengan",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Tsunade Senju",
@@ -363,7 +383,9 @@
     "status": "Viva",
     "id": "tsunade-senju",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2767-r61Cj9v8I0wl.png",
-    "styleOrPower": "Cura Celestial"
+    "styleOrPower": "Cura Celestial",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Senju"
   },
   {
     "name": "Orochimaru",
@@ -402,7 +424,9 @@
     "id": "orochimaru",
     "avatar": "/avatars/naruto/orochimaru.png",
     "quote": "Ninguém pode dizer o que é certo ou errado. Isso vale até mesmo para os deuses.",
-    "styleOrPower": "Espada Kusanagi"
+    "styleOrPower": "Espada Kusanagi",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Neji Hyuuga",
@@ -427,11 +451,13 @@
       "Nenhum"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "neji-hyuuga",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1694-TL4obouDwJ7k.jpg",
     "quote": "O destino é imutável. Por mais que lutemos, não podemos mudar nosso destino.",
-    "styleOrPower": "Palma Oito Trigramas: 64 Golpes"
+    "styleOrPower": "Palma Oito Trigramas: 64 Golpes",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hyuuga"
   },
   {
     "name": "Rock Lee",
@@ -456,7 +482,9 @@
     "id": "rock-lee",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306-oUTOO45xInXt.png",
     "quote": "Se você não pode usar ninjutsu, então trabalhe mil vezes mais duro que todos!",
-    "styleOrPower": "Lótus das Folhas"
+    "styleOrPower": "Lótus das Folhas",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Might Guy",
@@ -484,7 +512,9 @@
     "id": "might-guy",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b307-xieUEdhdTVwQ.png",
     "quote": "O poder da juventude vai superar tudo isso!",
-    "styleOrPower": "Lótus Noturna"
+    "styleOrPower": "Lótus Noturna",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Pain (Nagato)",
@@ -517,11 +547,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Resgate do Kazekage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "pain-nagato",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3180-ITMGBLWNBOgV.png",
     "quote": "Você não sabe o que é a dor. Você não sabe o que é a solidão. Não me pregue lições.",
-    "styleOrPower": "Shinra Tensei"
+    "styleOrPower": "Shinra Tensei",
+    "village": "Ame (Vila Oculta da Chuva)",
+    "clan": "Clã Uzumaki"
   },
   {
     "name": "Konan",
@@ -546,11 +578,13 @@
       "Akatsuki"
     ],
     "debutArc": "Conto de Jiraiya, o Destemido",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "konan",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/3179-YVD5zJSYrnPg.jpg",
     "quote": "Jiraiya acreditou em Naruto. E eu acredito na aposta de Jiraiya.",
-    "styleOrPower": "Dança dos Shikigamis"
+    "styleOrPower": "Dança dos Shikigamis",
+    "village": "Ame (Vila Oculta da Chuva)",
+    "clan": "Nenhum"
   },
   {
     "name": "Deidara",
@@ -574,11 +608,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Resgate do Kazekage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "deidara",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1902-JsEFRFwjmtZJ.png",
     "quote": "Arte é uma explosão! Un!",
-    "styleOrPower": "Bomba de Argila C3"
+    "styleOrPower": "Bomba de Argila C3",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Sasori",
@@ -602,11 +638,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Resgate do Kazekage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "sasori",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1900-Dpd9wVWtlvIx.png",
     "quote": "Arte verdadeira é eterna.",
-    "styleOrPower": "Marionete Hiruko"
+    "styleOrPower": "Marionete Hiruko",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Hidan",
@@ -633,7 +671,9 @@
     "status": "Incapacitado",
     "id": "hidan",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2792-lyvtbiT4COp0.jpg",
-    "styleOrPower": "Maldição de Jashin"
+    "styleOrPower": "Maldição de Jashin",
+    "village": "Yu (Vila Oculta das Fontes Termais)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kakuzu",
@@ -662,10 +702,12 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Supressão da Akatsuki",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "kakuzu",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3178-fCqs5wyV0dlJ.jpg",
-    "styleOrPower": "Máscara de Fogo Eterno"
+    "styleOrPower": "Máscara de Fogo Eterno",
+    "village": "Taki (Vila Oculta da Cachoeira)",
+    "clan": "Nenhum"
   },
   {
     "name": "Obito Uchiha",
@@ -703,11 +745,13 @@
       "Jinchuuriki"
     ],
     "debutArc": "Missão de Resgate do Kazekage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "obito-uchiha",
     "avatar": "/avatars/naruto/obito-uchiha.png",
     "quote": "No mundo de vocês, eu fui o Obito Uchiha. No mundo de vocês, esse era o meu nome.",
-    "styleOrPower": "Kamui"
+    "styleOrPower": "Kamui",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Madara Uchiha",
@@ -746,11 +790,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "madara-uchiha",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b53901-HnRKSoHMG5Vg.png",
     "quote": "Desperte, Hashirama. A batalha começa agora.",
-    "styleOrPower": "Susanoo Completo"
+    "styleOrPower": "Susanoo Completo",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Hashirama Senju",
@@ -784,11 +830,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Esmagamento de Konoha",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "hashirama-senju",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n12464-fcgqkCPZoREw.png",
     "quote": "Quando as pessoas se machucam, elas crescem.",
-    "styleOrPower": "Golem de Madeira"
+    "styleOrPower": "Golem de Madeira",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Senju"
   },
   {
     "name": "Zabuza Momochi",
@@ -812,11 +860,13 @@
       "Edo Tensei"
     ],
     "debutArc": "País das Ondas",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "zabuza-momochi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b728-zHw77BzLzQKT.jpg",
     "quote": "Eu nunca tive um desejo, nenhum objetivo, nenhum sonho... Você é o único que chegou tão perto de me matar.",
-    "styleOrPower": "Névoa Homicida Silenciosa"
+    "styleOrPower": "Névoa Homicida Silenciosa",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Haku",
@@ -840,11 +890,13 @@
       "Edo Tensei"
     ],
     "debutArc": "País das Ondas",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "haku",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2039-9NXBvh6H15LD.png",
     "quote": "Quando uma pessoa tem algo verdadeiramente importante a proteger, ela pode se tornar verdadeiramente forte.",
-    "styleOrPower": "Espelho de Cristal de Gelo"
+    "styleOrPower": "Espelho de Cristal de Gelo",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Clã Yuki"
   },
   {
     "name": "Killer Bee",
@@ -875,7 +927,9 @@
     "status": "Vivo",
     "id": "killer-bee",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18473-AiI3mk28a1Nm.png",
-    "styleOrPower": "Espada de Sete Espadas de Biju"
+    "styleOrPower": "Espada de Sete Espadas de Biju",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Clã Yotsuki"
   },
   {
     "name": "A (Quarto Raikage)",
@@ -902,7 +956,9 @@
     "status": "Vivo",
     "id": "a-quarto-raikage",
     "avatar": "/avatars/naruto/a-quarto-raikage.png",
-    "styleOrPower": "Manto de Trovão"
+    "styleOrPower": "Manto de Trovão",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Minato Namikaze",
@@ -934,11 +990,13 @@
       "Sábio"
     ],
     "debutArc": "Kakashi Gaiden",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "minato-namikaze",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2535-Xq9WKNPJQEt3.png",
     "quote": "Eu te amo, Kushina.",
-    "styleOrPower": "Rasengan Voo de Pássaro"
+    "styleOrPower": "Rasengan Voo de Pássaro",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Namikaze"
   },
   {
     "name": "Tobirama Senju",
@@ -971,11 +1029,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Esmagamento de Konoha",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "tobirama-senju",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n12465-y8ByDAvzC5cA.png",
     "quote": "Os Uchiha são amaldiçoados pelo amor.",
-    "styleOrPower": "Hiraishin"
+    "styleOrPower": "Hiraishin",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Senju"
   },
   {
     "name": "Hiruzen Sarutobi",
@@ -1007,11 +1067,13 @@
       "Edo Tensei"
     ],
     "debutArc": "País das Ondas",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "hiruzen-sarutobi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n7571-fKldLuBWUtCO.png",
     "quote": "O Professor é o título mais honrado que já recebi.",
-    "styleOrPower": "Enma Rei Macaco"
+    "styleOrPower": "Enma Rei Macaco",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Sarutobi"
   },
   {
     "name": "Rasa",
@@ -1037,10 +1099,12 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "rasa",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22920-MZPUrxk6WQ8V.png",
-    "quote": "Gaara... você é o meu fracasso."
+    "quote": "Gaara... você é o meu fracasso.",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Clã Kazekage"
   },
   {
     "name": "Terceiro Kazekage",
@@ -1062,9 +1126,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Resgate do Kazekage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "terceiro-kazekage",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/27251.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/27251.jpg",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Oonoki",
@@ -1090,10 +1156,12 @@
       "Kage"
     ],
     "debutArc": "Reunião dos Cinco Kage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "oonoki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23475-OXJU3W3rmDQZ.png",
-    "styleOrPower": "Elemento de Poeira"
+    "styleOrPower": "Elemento de Poeira",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Mu",
@@ -1120,9 +1188,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "mu",
-    "avatar": "/avatars/naruto/mu.png"
+    "avatar": "/avatars/naruto/mu.png",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kurotsuchi",
@@ -1148,7 +1218,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Viva",
     "id": "kurotsuchi",
-    "avatar": "/avatars/naruto/kurotsuchi.png"
+    "avatar": "/avatars/naruto/kurotsuchi.png",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Terceiro Raikage",
@@ -1173,9 +1245,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "terceiro-raikage",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/65133.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/65133.jpg",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Darui",
@@ -1201,7 +1275,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "darui",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23476-f71q8pESrKjk.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23476-f71q8pESrKjk.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Mei Terumi",
@@ -1230,7 +1306,9 @@
     "status": "Viva",
     "id": "mei-terumi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23478-U7n8YUe2gFDW.png",
-    "styleOrPower": "Técnica de Vapor Fervente"
+    "styleOrPower": "Técnica de Vapor Fervente",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Clã Terumi"
   },
   {
     "name": "Yagura Karatachi",
@@ -1256,9 +1334,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Reunião dos Cinco Kage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "yagura-karatachi",
-    "avatar": "/avatars/naruto/yagura-karatachi.png"
+    "avatar": "/avatars/naruto/yagura-karatachi.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Clã Karatachi"
   },
   {
     "name": "Gengetsu Hozuki",
@@ -1287,9 +1367,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "gengetsu-hozuki",
-    "avatar": "/avatars/naruto/gengetsu-hozuki.png"
+    "avatar": "/avatars/naruto/gengetsu-hozuki.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Clã Hozuki"
   },
   {
     "name": "Chojuro",
@@ -1314,7 +1396,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "chojuro",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23418.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23418.jpg",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Mangetsu Hozuki",
@@ -1338,9 +1422,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "mangetsu-hozuki",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62775.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62775.jpg",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Clã Hozuki"
   },
   {
     "name": "Fuguki Suikazan",
@@ -1363,9 +1449,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "fuguki-suikazan",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40785.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40785.jpg",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Ameyuri Ringo",
@@ -1388,9 +1476,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "ameyuri-ringo",
-    "avatar": "/avatars/naruto/ameyuri-ringo.png"
+    "avatar": "/avatars/naruto/ameyuri-ringo.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Jinpachi Munashi",
@@ -1413,9 +1503,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "jinpachi-munashi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64457.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64457.jpg",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Jinin Akebino",
@@ -1437,9 +1529,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "jinin-akebino",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64461.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64461.jpg",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kushimaru Kuriarare",
@@ -1461,9 +1555,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "kushimaru-kuriarare",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64455.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64455.jpg",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Ino Yamanaka",
@@ -1491,7 +1587,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Viva",
     "id": "ino-yamanaka",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2009-H7n38Ns1fr0Y.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2009-H7n38Ns1fr0Y.jpg",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Yamanaka"
   },
   {
     "name": "Chouji Akimichi",
@@ -1518,7 +1616,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "chouji-akimichi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2008-j1oCafEGZucg.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2008-j1oCafEGZucg.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Akimichi"
   },
   {
     "name": "Asuma Sarutobi",
@@ -1543,11 +1643,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "asuma-sarutobi",
     "avatar": "/avatars/naruto/asuma-sarutobi.png",
     "quote": "Os jovens são os reis do tabuleiro de shogi.",
-    "styleOrPower": "Aumento de Chakra de Fogo"
+    "styleOrPower": "Aumento de Chakra de Fogo",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Sarutobi"
   },
   {
     "name": "Kiba Inuzuka",
@@ -1573,7 +1675,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "kiba-inuzuka",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3495-dtw0gHa5SOo6.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3495-dtw0gHa5SOo6.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Inuzuka"
   },
   {
     "name": "Shino Aburame",
@@ -1599,7 +1703,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "shino-aburame",
-    "avatar": "/avatars/naruto/shino-aburame.png"
+    "avatar": "/avatars/naruto/shino-aburame.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Aburame"
   },
   {
     "name": "Kurenai Yuhi",
@@ -1624,7 +1730,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Viva",
     "id": "kurenai-yuhi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4773-mfDggINe9pMD.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4773-mfDggINe9pMD.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Sarutobi"
   },
   {
     "name": "Tenten",
@@ -1648,7 +1756,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Viva",
     "id": "tenten",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3710-OmDNYKi0Xfjk.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3710-OmDNYKi0Xfjk.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Sai",
@@ -1679,7 +1789,9 @@
     "id": "sai",
     "avatar": "/avatars/naruto/sai.png",
     "quote": "Emoções... são algo que ainda estou aprendendo.",
-    "styleOrPower": "Criação de Bestas de Tinta"
+    "styleOrPower": "Criação de Bestas de Tinta",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Yamanaka"
   },
   {
     "name": "Yamato",
@@ -1706,7 +1818,9 @@
     "status": "Vivo",
     "id": "yamato",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2006-FTCz2Eu3cXsI.png",
-    "styleOrPower": "Técnica de Estilo de Madeira"
+    "styleOrPower": "Técnica de Estilo de Madeira",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Iruka Umino",
@@ -1733,7 +1847,9 @@
     "status": "Vivo",
     "id": "iruka-umino",
     "avatar": "/avatars/naruto/iruka-umino.png",
-    "quote": "Naruto! Eu sempre serei o seu professor!"
+    "quote": "Naruto! Eu sempre serei o seu professor!",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Konohamaru Sarutobi",
@@ -1761,7 +1877,9 @@
     "status": "Vivo",
     "id": "konohamaru-sarutobi",
     "avatar": "/avatars/naruto/konohamaru-sarutobi.png",
-    "quote": "Eu serei Hokage um dia, dattebasa!"
+    "quote": "Eu serei Hokage um dia, dattebasa!",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Sarutobi"
   },
   {
     "name": "Shisui Uchiha",
@@ -1790,11 +1908,13 @@
       "Nenhum"
     ],
     "debutArc": "Reunião dos Cinco Kage",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "shisui-uchiha",
     "avatar": "/avatars/naruto/shisui-uchiha.png",
     "quote": "Eu daria meus olhos por Konoha.",
-    "styleOrPower": "Corpo Substituto de Carvão"
+    "styleOrPower": "Corpo Substituto de Carvão",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Kankuro",
@@ -1822,7 +1942,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "kankuro",
-    "avatar": "/avatars/naruto/kankuro.png"
+    "avatar": "/avatars/naruto/kankuro.png",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Clã Kazekage"
   },
   {
     "name": "Temari",
@@ -1847,7 +1969,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Viva",
     "id": "temari",
-    "avatar": "/avatars/naruto/temari.png"
+    "avatar": "/avatars/naruto/temari.png",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Clã Kazekage"
   },
   {
     "name": "Chiyo",
@@ -1871,10 +1995,12 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Resgate do Kazekage",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "chiyo",
     "avatar": "/avatars/naruto/chiyo.png",
-    "styleOrPower": "Técnica de Marionetes Humanas"
+    "styleOrPower": "Técnica de Marionetes Humanas",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Suigetsu Hozuki",
@@ -1903,7 +2029,9 @@
     "id": "suigetsu-hozuki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/1903.jpg",
     "quote": "Preciso daquelas espadas...",
-    "styleOrPower": "Técnica de Liquefeito"
+    "styleOrPower": "Técnica de Liquefeito",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Clã Hozuki"
   },
   {
     "name": "Karin Uzumaki",
@@ -1934,7 +2062,9 @@
     "status": "Viva",
     "id": "karin-uzumaki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3151-HDcp9mHbUvS7.png",
-    "styleOrPower": "Cura pela Mordida"
+    "styleOrPower": "Cura pela Mordida",
+    "village": "Kusa (Vila Oculta da Grama)",
+    "clan": "Clã Uzumaki"
   },
   {
     "name": "Jugo",
@@ -1963,7 +2093,9 @@
     "debutArc": "Missão de Perseguição a Itachi",
     "status": "Vivo",
     "id": "jugo",
-    "avatar": "/avatars/naruto/jugo.png"
+    "avatar": "/avatars/naruto/jugo.png",
+    "village": "Nenhuma",
+    "clan": "Clã Jugo"
   },
   {
     "name": "Kaguya Otsutsuki",
@@ -2000,7 +2132,9 @@
     "id": "kaguya-otsutsuki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126069-CYxn8C4AHwiD.png",
     "quote": "Tudo isso é meu.",
-    "styleOrPower": "Palma Todo-Matadora"
+    "styleOrPower": "Palma Todo-Matadora",
+    "village": "Nenhuma",
+    "clan": "Clã Otsutsuki"
   },
   {
     "name": "Hagoromo Otsutsuki",
@@ -2034,11 +2168,13 @@
       "Jinchuuriki"
     ],
     "debutArc": "Nascimento do Jinchuuriki",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "hagoromo-otsutsuki",
     "avatar": "/avatars/naruto/hagoromo-otsutsuki.png",
     "quote": "O amor é o que nos conecta.",
-    "styleOrPower": "Seis Caminhos"
+    "styleOrPower": "Seis Caminhos",
+    "village": "Nenhuma",
+    "clan": "Clã Otsutsuki"
   },
   {
     "name": "Hamura Otsutsuki",
@@ -2070,9 +2206,11 @@
       "Nenhum"
     ],
     "debutArc": "Ataque de Kaguya Otsutsuki",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "hamura-otsutsuki",
-    "avatar": "/avatars/naruto/hamura-otsutsuki.png"
+    "avatar": "/avatars/naruto/hamura-otsutsuki.png",
+    "village": "Nenhuma",
+    "clan": "Clã Otsutsuki"
   },
   {
     "name": "Indra Otsutsuki",
@@ -2098,9 +2236,11 @@
       "Nenhum"
     ],
     "debutArc": "Ataque de Kaguya Otsutsuki",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "indra-otsutsuki",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b197843-kUcrXaFGesMU.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b197843-kUcrXaFGesMU.jpg",
+    "village": "Nenhuma",
+    "clan": "Clã Otsutsuki"
   },
   {
     "name": "Asura Otsutsuki",
@@ -2127,9 +2267,11 @@
       "Sábio"
     ],
     "debutArc": "Ataque de Kaguya Otsutsuki",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "asura-otsutsuki",
-    "avatar": "/avatars/naruto/asura-otsutsuki.png"
+    "avatar": "/avatars/naruto/asura-otsutsuki.png",
+    "village": "Nenhuma",
+    "clan": "Clã Otsutsuki"
   },
   {
     "name": "Kabuto Yakushi",
@@ -2164,7 +2306,9 @@
     "id": "kabuto-yakushi",
     "avatar": "/avatars/naruto/kabuto-yakushi.png",
     "quote": "Eu não tenho rosto. Eu sempre imitei os outros. Não sei quem sou.",
-    "styleOrPower": "Ressurreição pelo Impuro Mundo"
+    "styleOrPower": "Ressurreição pelo Impuro Mundo",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kimimaro",
@@ -2187,11 +2331,13 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Resgate de Sasuke",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "kimimaro",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3438-h1fxTDdwew0h.png",
     "quote": "Eu vivo apenas para servir ao Senhor Orochimaru.",
-    "styleOrPower": "Dança das Sementes"
+    "styleOrPower": "Dança das Sementes",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Clã Kaguya"
   },
   {
     "name": "Danzo Shimura",
@@ -2222,11 +2368,13 @@
       "Kage"
     ],
     "debutArc": "Missão de Reconhecimento",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "danzo-shimura",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23424-JKRQwUL4qSWN.png",
     "quote": "Eu carrego nas minhas costas o peso das sombras de Konoha.",
-    "styleOrPower": "Izanagi"
+    "styleOrPower": "Izanagi",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Shimura"
   },
   {
     "name": "Yugito Nii",
@@ -2249,9 +2397,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Supressão da Akatsuki",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "yugito-nii",
-    "avatar": "/avatars/naruto/yugito-nii.png"
+    "avatar": "/avatars/naruto/yugito-nii.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Roshi",
@@ -2275,9 +2425,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Missão de Perseguição a Itachi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "roshi",
-    "avatar": "/avatars/naruto/roshi.png"
+    "avatar": "/avatars/naruto/roshi.png",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Han",
@@ -2301,9 +2453,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "han",
-    "avatar": "/avatars/naruto/han.png"
+    "avatar": "/avatars/naruto/han.png",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Utakata",
@@ -2325,9 +2479,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Ataque de Pain",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "utakata",
-    "avatar": "/avatars/naruto/utakata.png"
+    "avatar": "/avatars/naruto/utakata.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Fuu",
@@ -2349,9 +2505,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "fuu",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23220.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23220.jpg",
+    "village": "Taki (Vila Oculta da Cachoeira)",
+    "clan": "Nenhum"
   },
   {
     "name": "C",
@@ -2376,7 +2534,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "c",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23477.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23477.jpg",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Mabui",
@@ -2398,9 +2558,11 @@
       "Nenhum"
     ],
     "debutArc": "Reunião dos Cinco Kage",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "mabui",
-    "avatar": "/avatars/naruto/mabui.png"
+    "avatar": "/avatars/naruto/mabui.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Omoi",
@@ -2424,7 +2586,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "omoi",
-    "avatar": "/avatars/naruto/omoi.png"
+    "avatar": "/avatars/naruto/omoi.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Karui",
@@ -2448,7 +2612,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Viva",
     "id": "karui",
-    "avatar": "/avatars/naruto/karui.png"
+    "avatar": "/avatars/naruto/karui.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Samui",
@@ -2472,7 +2638,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Viva",
     "id": "samui",
-    "avatar": "/avatars/naruto/samui.png"
+    "avatar": "/avatars/naruto/samui.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Dodai",
@@ -2496,7 +2664,9 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Vivo",
     "id": "dodai",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/77437.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/77437.jpg",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Ao",
@@ -2520,7 +2690,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "ao",
-    "avatar": "/avatars/naruto/ao.png"
+    "avatar": "/avatars/naruto/ao.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Akatsuchi",
@@ -2544,7 +2716,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "akatsuchi",
-    "avatar": "/avatars/naruto/akatsuchi.png"
+    "avatar": "/avatars/naruto/akatsuchi.png",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kitsuchi",
@@ -2568,7 +2742,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "kitsuchi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62641.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62641.jpg",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Shizune",
@@ -2593,7 +2769,9 @@
     "status": "Viva",
     "id": "shizune",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4643-tnv8Gc4Uvvui.png",
-    "styleOrPower": "Antídoto para Veneno"
+    "styleOrPower": "Antídoto para Veneno",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Anko Mitarashi",
@@ -2618,7 +2796,9 @@
     "status": "Viva",
     "id": "anko-mitarashi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b809-FhWTN0LFVzRa.png",
-    "styleOrPower": "Espada Serpentina"
+    "styleOrPower": "Espada Serpentina",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Ibiki Morino",
@@ -2642,7 +2822,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "ibiki-morino",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22923-oevCrDnszrEa.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22923-oevCrDnszrEa.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Genma Shiranui",
@@ -2666,7 +2848,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "genma-shiranui",
-    "avatar": "/avatars/naruto/genma-shiranui.png"
+    "avatar": "/avatars/naruto/genma-shiranui.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Hayate Gekko",
@@ -2688,9 +2872,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "hayate-gekko",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n7738-jp6LVMZ3nwXR.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n7738-jp6LVMZ3nwXR.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Izumo Kamizuki",
@@ -2714,7 +2900,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "izumo-kamizuki",
-    "avatar": "/avatars/naruto/izumo-kamizuki.png"
+    "avatar": "/avatars/naruto/izumo-kamizuki.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kotetsu Hagane",
@@ -2738,7 +2926,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "kotetsu-hagane",
-    "avatar": "/avatars/naruto/kotetsu-hagane.png"
+    "avatar": "/avatars/naruto/kotetsu-hagane.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Ebisu",
@@ -2762,7 +2952,9 @@
     "debutArc": "País das Ondas",
     "status": "Vivo",
     "id": "ebisu",
-    "avatar": "/avatars/naruto/ebisu.png"
+    "avatar": "/avatars/naruto/ebisu.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Aoba Yamashiro",
@@ -2786,7 +2978,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "aoba-yamashiro",
-    "avatar": "/avatars/naruto/aoba-yamashiro.png"
+    "avatar": "/avatars/naruto/aoba-yamashiro.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Raido Namiashi",
@@ -2810,7 +3004,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "raido-namiashi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/17298.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/17298.jpg",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kushina Uzumaki",
@@ -2835,10 +3031,12 @@
       "Jinchuuriki"
     ],
     "debutArc": "Conto de Jiraiya, o Destemido",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "kushina-uzumaki",
     "avatar": "/avatars/naruto/kushina-uzumaki.png",
-    "quote": "Não perca a fé em si mesmo, Naruto. Não desista do sonho de se tornar Hokage."
+    "quote": "Não perca a fé em si mesmo, Naruto. Não desista do sonho de se tornar Hokage.",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uzumaki"
   },
   {
     "name": "Shikaku Nara",
@@ -2860,9 +3058,11 @@
       "Nenhum"
     ],
     "debutArc": "Esmagamento de Konoha",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "shikaku-nara",
-    "avatar": "/avatars/naruto/shikaku-nara.png"
+    "avatar": "/avatars/naruto/shikaku-nara.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Nara"
   },
   {
     "name": "Inoichi Yamanaka",
@@ -2887,9 +3087,11 @@
       "Nenhum"
     ],
     "debutArc": "Esmagamento de Konoha",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "inoichi-yamanaka",
-    "avatar": "/avatars/naruto/inoichi-yamanaka.png"
+    "avatar": "/avatars/naruto/inoichi-yamanaka.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Yamanaka"
   },
   {
     "name": "Choza Akimichi",
@@ -2914,7 +3116,9 @@
     "debutArc": "Esmagamento de Konoha",
     "status": "Vivo",
     "id": "choza-akimichi",
-    "avatar": "/avatars/naruto/choza-akimichi.png"
+    "avatar": "/avatars/naruto/choza-akimichi.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Akimichi"
   },
   {
     "name": "Hiashi Hyuuga",
@@ -2939,7 +3143,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "hiashi-hyuuga",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15039-V0DzTR1IPkBb.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15039-V0DzTR1IPkBb.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hyuuga"
   },
   {
     "name": "Hizashi Hyuuga",
@@ -2962,9 +3168,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "hizashi-hyuuga",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22880-zetfiUvZtS7v.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22880-zetfiUvZtS7v.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hyuuga"
   },
   {
     "name": "Fugaku Uchiha",
@@ -2989,10 +3197,12 @@
       "Nenhum"
     ],
     "debutArc": "Missão de Perseguição a Itachi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "fugaku-uchiha",
     "avatar": "/avatars/naruto/fugaku-uchiha.png",
-    "quote": "Sasuke, você deve proteger a honra do nosso clã."
+    "quote": "Sasuke, você deve proteger a honra do nosso clã.",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Mikoto Uchiha",
@@ -3014,9 +3224,11 @@
       "Nenhum"
     ],
     "debutArc": "Missão de Perseguição a Itachi",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "mikoto-uchiha",
-    "avatar": "/avatars/naruto/mikoto-uchiha.png"
+    "avatar": "/avatars/naruto/mikoto-uchiha.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Sakumo Hatake",
@@ -3039,9 +3251,11 @@
       "Nenhum"
     ],
     "debutArc": "Kakashi Gaiden",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "sakumo-hatake",
-    "avatar": "/avatars/naruto/sakumo-hatake.png"
+    "avatar": "/avatars/naruto/sakumo-hatake.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hatake"
   },
   {
     "name": "Rin Nohara",
@@ -3064,9 +3278,11 @@
       "Jinchuuriki"
     ],
     "debutArc": "Kakashi Gaiden",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "rin-nohara",
-    "avatar": "/avatars/naruto/rin-nohara.png"
+    "avatar": "/avatars/naruto/rin-nohara.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Jirobo",
@@ -3088,9 +3304,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "jirobo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8495-i2hdXDIiMbhn.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8495-i2hdXDIiMbhn.png",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kidomaru",
@@ -3112,9 +3330,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "kidomaru",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/8497.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/8497.jpg",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Tayuya",
@@ -3136,9 +3356,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "tayuya",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3052-1V7iclO45tia.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3052-1V7iclO45tia.png",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Sakon e Ukon",
@@ -3160,9 +3382,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "sakon-e-ukon",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8760-q4mTvHasjDud.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8760-q4mTvHasjDud.png",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Guren",
@@ -3188,7 +3412,9 @@
     "debutArc": "Aparição do Três-Caudas",
     "status": "Viva",
     "id": "guren",
-    "avatar": "/avatars/naruto/guren.png"
+    "avatar": "/avatars/naruto/guren.png",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Zetsu",
@@ -3215,9 +3441,11 @@
       "Akatsuki"
     ],
     "debutArc": "Missão de Resgate de Sasuke",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "zetsu-branco",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/3150.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/3150.jpg",
+    "village": "Nenhuma",
+    "clan": "Nenhum"
   },
   {
     "name": "Yahiko",
@@ -3242,10 +3470,12 @@
       "Akatsuki"
     ],
     "debutArc": "Conto de Jiraiya, o Destemido",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "yahiko",
     "avatar": "/avatars/naruto/yahiko.png",
-    "quote": "Enquanto o conceito de vencedor existir, haverá perdedores."
+    "quote": "Enquanto o conceito de vencedor existir, haverá perdedores.",
+    "village": "Ame (Vila Oculta da Chuva)",
+    "clan": "Nenhum"
   },
   {
     "name": "Mizuki",
@@ -3269,7 +3499,9 @@
     "debutArc": "País das Ondas",
     "status": "Vivo",
     "id": "mizuki",
-    "avatar": "/avatars/naruto/mizuki.png"
+    "avatar": "/avatars/naruto/mizuki.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Gamabunta",
@@ -3293,7 +3525,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "gamabunta",
-    "avatar": "/avatars/naruto/gamabunta.png"
+    "avatar": "/avatars/naruto/gamabunta.png",
+    "village": "Monte Myoboku",
+    "clan": "Nenhum"
   },
   {
     "name": "Gamakichi",
@@ -3318,7 +3552,9 @@
     "debutArc": "Esmagamento de Konoha",
     "status": "Vivo",
     "id": "gamakichi",
-    "avatar": "/avatars/naruto/gamakichi.png"
+    "avatar": "/avatars/naruto/gamakichi.png",
+    "village": "Monte Myoboku",
+    "clan": "Nenhum"
   },
   {
     "name": "Fukasaku",
@@ -3345,7 +3581,9 @@
     "debutArc": "Conto de Jiraiya, o Destemido",
     "status": "Vivo",
     "id": "fukasaku",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/24486.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/24486.jpg",
+    "village": "Monte Myoboku",
+    "clan": "Nenhum"
   },
   {
     "name": "Shima",
@@ -3372,7 +3610,9 @@
     "debutArc": "Conto de Jiraiya, o Destemido",
     "status": "Viva",
     "id": "shima",
-    "avatar": "/avatars/naruto/shima.png"
+    "avatar": "/avatars/naruto/shima.png",
+    "village": "Monte Myoboku",
+    "clan": "Nenhum"
   },
   {
     "name": "Manda",
@@ -3393,9 +3633,11 @@
       "Invocação"
     ],
     "debutArc": "Busca por Tsunade",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "manda",
-    "avatar": "/avatars/naruto/manda.png"
+    "avatar": "/avatars/naruto/manda.png",
+    "village": "Caverna Ryuchi",
+    "clan": "Nenhum"
   },
   {
     "name": "Aoda",
@@ -3418,7 +3660,9 @@
     "debutArc": "Quarta Guerra Mundial Shinobi",
     "status": "Vivo",
     "id": "aoda",
-    "avatar": "/avatars/naruto/aoda.png"
+    "avatar": "/avatars/naruto/aoda.png",
+    "village": "Caverna Ryuchi",
+    "clan": "Nenhum"
   },
   {
     "name": "Katsuyu",
@@ -3442,7 +3686,9 @@
     "debutArc": "Busca por Tsunade",
     "status": "Viva",
     "id": "katsuyu",
-    "avatar": "/avatars/naruto/katsuyu.png"
+    "avatar": "/avatars/naruto/katsuyu.png",
+    "village": "Floresta Shikkotsu",
+    "clan": "Nenhum"
   },
   {
     "name": "Kamatari",
@@ -3466,7 +3712,9 @@
     "debutArc": "Missão de Resgate de Sasuke",
     "status": "Vivo",
     "id": "kamatari",
-    "avatar": "/avatars/naruto/kamatari.png"
+    "avatar": "/avatars/naruto/kamatari.png",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Ibuse",
@@ -3488,9 +3736,11 @@
       "Invocação"
     ],
     "debutArc": "Conto de Jiraiya, o Destemido",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "ibuse",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTThT-hL-6SCiQuQbqJUAtUASKKx_oaODGEQTl-n4F1nhax9W5VdFlYcJM&s=10"
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTThT-hL-6SCiQuQbqJUAtUASKKx_oaODGEQTl-n4F1nhax9W5VdFlYcJM&s=10",
+    "village": "Ame (Vila Oculta da Chuva)",
+    "clan": "Nenhum"
   },
   {
     "name": "Baku",
@@ -3513,7 +3763,9 @@
     "debutArc": "Reunião dos Cinco Kage",
     "status": "Vivo",
     "id": "baku",
-    "avatar": "/avatars/naruto/baku.png"
+    "avatar": "/avatars/naruto/baku.png",
+    "village": "Nenhuma",
+    "clan": "Nenhum"
   },
   {
     "name": "Enma",
@@ -3537,7 +3789,9 @@
     "debutArc": "Esmagamento de Konoha",
     "status": "Vivo",
     "id": "enma",
-    "avatar": "/avatars/naruto/enma.png"
+    "avatar": "/avatars/naruto/enma.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Akamaru",
@@ -3562,7 +3816,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "akamaru",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4799-gwSQJlSqWnST.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4799-gwSQJlSqWnST.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Inuzuka"
   },
   {
     "name": "Dosu Kinuta",
@@ -3584,9 +3840,11 @@
       "Nenhum"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "dosu-kinuta",
-    "avatar": "/avatars/naruto/dosu-kinuta.png"
+    "avatar": "/avatars/naruto/dosu-kinuta.png",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Zaku Abumi",
@@ -3607,9 +3865,11 @@
       "Nenhum"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "zaku-abumi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8997-rKFqlm35weig.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8997-rKFqlm35weig.png",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Kin Tsuchi",
@@ -3631,9 +3891,11 @@
       "Nenhum"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "kin-tsuchi",
-    "avatar": "/avatars/naruto/kin-tsuchi.png"
+    "avatar": "/avatars/naruto/kin-tsuchi.png",
+    "village": "Oto (Vila Oculta do Som)",
+    "clan": "Nenhum"
   },
   {
     "name": "Baki",
@@ -3657,7 +3919,9 @@
     "debutArc": "Exame Chūnin",
     "status": "Vivo",
     "id": "baki",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15081-Lu1emOxDIBl3.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15081-Lu1emOxDIBl3.png",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Maki",
@@ -3681,7 +3945,9 @@
     "debutArc": "Missão de Resgate do Kazekage",
     "status": "Viva",
     "id": "maki",
-    "avatar": "/avatars/naruto/maki.png"
+    "avatar": "/avatars/naruto/maki.png",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Yashamaru",
@@ -3703,9 +3969,11 @@
       "Nenhum"
     ],
     "debutArc": "Exame Chūnin",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "yashamaru",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n13017-dAkTOY5P6jMs.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n13017-dAkTOY5P6jMs.png",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Pakura",
@@ -3727,9 +3995,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "pakura",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/63791.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/63791.jpg",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Izuna Uchiha",
@@ -3752,9 +4022,11 @@
       "Nenhum"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "izuna-uchiha",
-    "avatar": "/avatars/naruto/izuna-uchiha.png"
+    "avatar": "/avatars/naruto/izuna-uchiha.png",
+    "village": "Nenhuma",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Tajima Uchiha",
@@ -3776,9 +4048,11 @@
       "Nenhum"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "tajima-uchiha",
-    "avatar": "/avatars/naruto/tajima-uchiha.png"
+    "avatar": "/avatars/naruto/tajima-uchiha.png",
+    "village": "Nenhuma",
+    "clan": "Clã Uchiha"
   },
   {
     "name": "Butsuma Senju",
@@ -3800,9 +4074,11 @@
       "Nenhum"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "butsuma-senju",
-    "avatar": "/avatars/naruto/butsuma-senju.png"
+    "avatar": "/avatars/naruto/butsuma-senju.png",
+    "village": "Nenhuma",
+    "clan": "Clã Senju"
   },
   {
     "name": "Nawaki",
@@ -3824,9 +4100,11 @@
       "Nenhum"
     ],
     "debutArc": "Busca por Tsunade",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "nawaki",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22884-JFSLDfwpdakg.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22884-JFSLDfwpdakg.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Senju"
   },
   {
     "name": "Dan Kato",
@@ -3848,9 +4126,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Busca por Tsunade",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "dan-kato",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22876-k5juKBlTHdBu.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22876-k5juKBlTHdBu.png",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "name": "Mito Uzumaki",
@@ -3873,10 +4153,12 @@
       "Jinchuuriki"
     ],
     "debutArc": "Nascimento do Jinchuuriki",
-    "status": "Falecida",
+    "status": "Morta",
     "id": "mito-uzumaki",
     "avatar": "/avatars/naruto/mito-uzumaki.png",
-    "quote": "O amor é o que contém a besta."
+    "quote": "O amor é o que contém a besta.",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Uzumaki"
   },
   {
     "name": "Reto",
@@ -3897,9 +4179,11 @@
       "Kage"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "reto",
-    "avatar": "/avatars/naruto/reto.png"
+    "avatar": "/avatars/naruto/reto.png",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "name": "Byakuren",
@@ -3920,9 +4204,11 @@
       "Kage"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "byakuren",
-    "avatar": "/avatars/naruto/byakuren.png"
+    "avatar": "/avatars/naruto/byakuren.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Ishikawa",
@@ -3943,9 +4229,11 @@
       "Kage"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "ishikawa",
-    "avatar": "/avatars/naruto/ishikawa.png"
+    "avatar": "/avatars/naruto/ishikawa.png",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "A (Primeiro Raikage)",
@@ -3966,9 +4254,11 @@
       "Kage"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "a-primeiro-raikage",
-    "avatar": "/avatars/naruto/a-primeiro-raikage.png"
+    "avatar": "/avatars/naruto/a-primeiro-raikage.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "name": "Gari",
@@ -3990,9 +4280,11 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "gari",
-    "avatar": "/avatars/naruto/gari.png"
+    "avatar": "/avatars/naruto/gari.png",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "name": "Juzo Biwa",
@@ -4016,9 +4308,11 @@
       "Akatsuki"
     ],
     "debutArc": "Missão de Perseguição a Itachi",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "juzo-biwa",
-    "avatar": "https://i.pinimg.com/736x/c8/ad/13/c8ad13054626abff0346d0073879d4ac.jpg"
+    "avatar": "https://i.pinimg.com/736x/c8/ad/13/c8ad13054626abff0346d0073879d4ac.jpg",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Gozu",
@@ -4040,9 +4334,11 @@
       "Nenhum"
     ],
     "debutArc": "País das Ondas",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "gozu",
-    "avatar": "/avatars/naruto/gozu.png"
+    "avatar": "/avatars/naruto/gozu.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Meizu",
@@ -4064,9 +4360,11 @@
       "Nenhum"
     ],
     "debutArc": "País das Ondas",
-    "status": "Falecido",
+    "status": "Morto",
     "id": "meizu",
-    "avatar": "/avatars/naruto/meizu.png"
+    "avatar": "/avatars/naruto/meizu.png",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "name": "Toneri Otsutsuki",
@@ -4100,7 +4398,9 @@
     "debutArc": "The Last",
     "status": "Incapacitado",
     "id": "toneri-otsutsuki",
-    "avatar": "/avatars/naruto/toneri-otsutsuki.png"
+    "avatar": "/avatars/naruto/toneri-otsutsuki.png",
+    "village": "Nenhuma",
+    "clan": "Clã Otsutsuki"
   },
   {
     "id": "kinkaku",
@@ -4128,8 +4428,10 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
-    "avatar": "/avatars/naruto/kinkaku.png"
+    "status": "Morto",
+    "avatar": "/avatars/naruto/kinkaku.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "id": "ginkaku",
@@ -4157,8 +4459,10 @@
       "Edo Tensei"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Falecido",
-    "avatar": "/avatars/naruto/ginkaku.png"
+    "status": "Morto",
+    "avatar": "/avatars/naruto/ginkaku.png",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "id": "teuchi",
@@ -4183,7 +4487,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/teuchi.png",
     "quote": "Um bom ramen aquece qualquer coração ferido!",
-    "styleOrPower": "Culinária de Ramen Ichiraku"
+    "styleOrPower": "Culinária de Ramen Ichiraku",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "id": "ayame",
@@ -4208,7 +4514,9 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/ayame.png",
     "quote": "Bem-vindo ao Ramen Ichiraku! O que vai querer hoje, Naruto?",
-    "styleOrPower": "Atendimento e Culinária de Ramen"
+    "styleOrPower": "Atendimento e Culinária de Ramen",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "id": "hanabi-hyuuga",
@@ -4235,7 +4543,9 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/hanabi-hyuuga.png",
     "quote": "Irmã mais nova de Hinata e herdeira prodígio do clã Hyuuga.",
-    "styleOrPower": "Juuken (Punho Gentil)"
+    "styleOrPower": "Juuken (Punho Gentil)",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hyuuga"
   },
   {
     "id": "moegi-kazamatsuri",
@@ -4262,7 +4572,9 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/moegi-kazamatsuri.png",
     "quote": "Companheira de equipe de Konohamaru e Udon no Esquadrão Konohamaru.",
-    "styleOrPower": "Ninjutsu e Estilo Madeira"
+    "styleOrPower": "Ninjutsu e Estilo Madeira",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "id": "udon-ise",
@@ -4288,7 +4600,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/udon-ise.png",
     "quote": "Membro do Time Konohamaru que sempre usava óculos com coriza.",
-    "styleOrPower": "Técnicas de Liberação de Água"
+    "styleOrPower": "Técnicas de Liberação de Água",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "id": "pakkun",
@@ -4314,7 +4628,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/pakkun.png",
     "quote": "Sou um cão ninja farejador, não um lutador de frente!",
-    "styleOrPower": "Rastreamento Olfativo e Cães Ninjas"
+    "styleOrPower": "Rastreamento Olfativo e Cães Ninjas",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Hatake"
   },
   {
     "id": "tonton",
@@ -4339,7 +4655,9 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/tonton.png",
     "quote": "Oink! A porquinha de estimação de Tsunade e Shizune com olfato aguçado.",
-    "styleOrPower": "Faro Aguçado"
+    "styleOrPower": "Faro Aguçado",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "id": "torune-aburame",
@@ -4364,10 +4682,12 @@
       "Nenhum"
     ],
     "debutArc": "Reunião dos Cinco Kage",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/naruto/torune-aburame.png",
     "quote": "Guarda-costas de Danzo na Fundação Ne portador dos besouros venenosos rinkaichu.",
-    "styleOrPower": "Insetos Venenosos Rinkaichu"
+    "styleOrPower": "Insetos Venenosos Rinkaichu",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Aburame"
   },
   {
     "id": "foo-yamanaka",
@@ -4391,10 +4711,12 @@
       "Nenhum"
     ],
     "debutArc": "Reunião dos Cinco Kage",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/naruto/foo-yamanaka.png",
     "quote": "Guarda-costas de Danzo Shimura especialista nas técnicas mentais do clã Yamanaka.",
-    "styleOrPower": "Shintenshin no Jutsu e Armadilhas de Transferência"
+    "styleOrPower": "Shintenshin no Jutsu e Armadilhas de Transferência",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Clã Yamanaka"
   },
   {
     "id": "shukaku",
@@ -4422,7 +4744,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/shukaku.png",
     "quote": "O Ichibi (Uma-Cauda), besta de areia e selamento lendário.",
-    "styleOrPower": "Manipulação de Areia e Selamento Fuinjutsu"
+    "styleOrPower": "Manipulação de Areia e Selamento Fuinjutsu",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "id": "matatabi",
@@ -4448,7 +4772,9 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/matatabi.png",
     "quote": "O Nibi (Duas-Caudas), gato fantasmagórico envolto em chamas azuis.",
-    "styleOrPower": "Chamas Azuis de Fogo Infernal"
+    "styleOrPower": "Chamas Azuis de Fogo Infernal",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "id": "isobu",
@@ -4475,7 +4801,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/isobu.png",
     "quote": "O Sanbi (Três-Caudas), tartaruga gigante encouraçada de águas profundas.",
-    "styleOrPower": "Projéteis de Água e Onda de Choque"
+    "styleOrPower": "Projéteis de Água e Onda de Choque",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "id": "son-goku",
@@ -4503,7 +4831,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/son-goku.png",
     "quote": "O Yonbi (Quatro-Caudas), rei dos macacos sábios das cavernas de lava.",
-    "styleOrPower": "Liberação de Lava (Yoton)"
+    "styleOrPower": "Liberação de Lava (Yoton)",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "id": "kokuo",
@@ -4531,7 +4861,9 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/kokuo.png",
     "quote": "O Gobi (Cinco-Caudas), cavalo-baleia pacífico com poder de vapor fervente.",
-    "styleOrPower": "Liberação de Vapor (Futton) e Cargas Físicas"
+    "styleOrPower": "Liberação de Vapor (Futton) e Cargas Físicas",
+    "village": "Iwa (Vila Oculta da Pedra)",
+    "clan": "Nenhum"
   },
   {
     "id": "saiken",
@@ -4557,7 +4889,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/saiken.png",
     "quote": "O Rokubi (Seis-Caudas), lesma gigante que expele ácidos e substâncias corrosivas.",
-    "styleOrPower": "Gás Ácido Corrosivo e Muco Pegajoso"
+    "styleOrPower": "Gás Ácido Corrosivo e Muco Pegajoso",
+    "village": "Kiri (Vila Oculta da Névoa)",
+    "clan": "Nenhum"
   },
   {
     "id": "chomei",
@@ -4583,7 +4917,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/chomei.png",
     "quote": "O Nanabi (Sete-Caudas), besouro alado jovial apelidado de Número Sete da Sorte.",
-    "styleOrPower": "Voo, Pó Cegante e Rajadas de Vento"
+    "styleOrPower": "Voo, Pó Cegante e Rajadas de Vento",
+    "village": "Taki (Vila Oculta da Cachoeira)",
+    "clan": "Nenhum"
   },
   {
     "id": "gyuki",
@@ -4612,7 +4948,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/gyuki.png",
     "quote": "O Hachibi (Oito-Caudas), touro-polvo leal parceiro de Killer Bee.",
-    "styleOrPower": "Tinta Cegante, Tentáculos e Bijuudama"
+    "styleOrPower": "Tinta Cegante, Tentáculos e Bijuudama",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "id": "kurama",
@@ -4637,10 +4975,12 @@
       "Invocação"
     ],
     "debutArc": "Introdução",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/naruto/kurama.png",
     "quote": "A lendária Raposa de Nove-Caudas (Kyuubi) que compartilhou seu chakra com Naruto.",
-    "styleOrPower": "Sensoriamento de Emoções Negativas e Bijuudama Devastadora"
+    "styleOrPower": "Sensoriamento de Emoções Negativas e Bijuudama Devastadora",
+    "village": "Konoha (Vila Oculta da Folha)",
+    "clan": "Nenhum"
   },
   {
     "id": "atsui",
@@ -4666,7 +5006,9 @@
     "status": "Vivo",
     "avatar": "/avatars/naruto/atsui.png",
     "quote": "Irmão de Samui que luta com sua espada flamejante e a palavra quente!",
-    "styleOrPower": "Kenjutsu Flamejante"
+    "styleOrPower": "Kenjutsu Flamejante",
+    "village": "Kumo (Vila Oculta da Nuvem)",
+    "clan": "Nenhum"
   },
   {
     "id": "matsuri",
@@ -4692,7 +5034,9 @@
     "status": "Viva",
     "avatar": "/avatars/naruto/matsuri.png",
     "quote": "A discípula mais leal e devota de Gaara armada com um dardo com corda.",
-    "styleOrPower": "Bukijutsu com Jouhyou"
+    "styleOrPower": "Bukijutsu com Jouhyou",
+    "village": "Suna (Vila Oculta da Areia)",
+    "clan": "Nenhum"
   },
   {
     "id": "hanzo",
@@ -4717,10 +5061,12 @@
       "Nenhum"
     ],
     "debutArc": "Conto de Jiraiya, o Destemido",
-    "status": "Falecido",
+    "status": "Morto",
     "avatar": "/avatars/naruto/hanzo.png",
     "quote": "O líder lendário de Amegakure que batizou os Três Sannin Lendários de Konoha.",
-    "styleOrPower": "Veneno da Salamandra Negra e Kusarigama"
+    "styleOrPower": "Veneno da Salamandra Negra e Kusarigama",
+    "village": "Ame (Vila Oculta da Chuva)",
+    "clan": "Nenhum"
   },
   {
     "id": "juubi",
@@ -4756,6 +5102,8 @@
     "status": "Selado",
     "avatar": "/avatars/naruto/juubi.png",
     "quote": "A besta primordial e progenitora de todo o chakra do mundo ninja.",
-    "styleOrPower": "Bijuudama Planetária, Cataclismo Tenpenchii & Liberação de Madeira"
+    "styleOrPower": "Bijuudama Planetária, Cataclismo Tenpenchii & Liberação de Madeira",
+    "village": "Nenhuma",
+    "clan": "Nenhum"
   }
 ]

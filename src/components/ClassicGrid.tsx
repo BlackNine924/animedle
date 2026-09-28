@@ -246,13 +246,15 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
     };
   };
 
+  const isDense = columns.length >= 8;
+
   return (
     <div className="w-full my-6 overflow-x-auto custom-scrollbar pb-8">
-      <table className="w-full border-separate border-spacing-2.5 min-w-[960px]">
+      <table className={`w-full border-separate ${isDense ? 'border-spacing-1.5 sm:border-spacing-2 min-w-[1020px] lg:min-w-full' : 'border-spacing-2.5 min-w-[960px]'}`}>
         <thead>
           <tr>
             <th
-              className="group relative p-2 text-xs font-black uppercase text-slate-400 tracking-wider text-left min-w-[190px] cursor-help select-none"
+              className={`group relative ${isDense ? 'p-1.5 sm:p-2 min-w-[130px] sm:min-w-[150px]' : 'p-2 min-w-[190px]'} text-xs font-black uppercase text-slate-400 tracking-wider text-left cursor-help select-none`}
               title={getCategoryDescription('Personagem', animeSlug)}
             >
               <span className="inline-flex items-center gap-1.5 border-b border-dotted border-slate-600 group-hover:border-amber-400 group-hover:text-amber-300 transition-colors">
@@ -271,7 +273,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
               return (
                 <th
                   key={col.key}
-                  className="group relative p-2 text-xs font-black uppercase text-slate-400 tracking-wider text-center min-w-[145px] cursor-help select-none"
+                  className={`group relative ${isDense ? 'p-1.5 sm:p-2 min-w-[100px] sm:min-w-[114px] text-[11px] sm:text-xs' : 'p-2 min-w-[145px] text-xs'} font-black uppercase text-slate-400 tracking-wider text-center cursor-help select-none`}
                   title={`${col.label}: ${explanation}`}
                 >
                   <span className="inline-flex items-center justify-center gap-1.5 border-b border-dotted border-slate-600 group-hover:border-amber-400 group-hover:text-amber-300 transition-colors">
@@ -298,8 +300,8 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
               
               {/* Célula do Personagem com Avatar Moderno */}
               <td className="p-0">
-                <div className="flex items-center gap-3 p-3 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-lg min-h-[96px] hover:border-slate-600 transition-colors">
-                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#111a2d] overflow-hidden flex-shrink-0 border-2 border-[#202b43] shadow-md flex items-center justify-center">
+                <div className={`flex items-center gap-2.5 ${isDense ? 'p-2 sm:p-2.5 min-h-[84px] sm:min-h-[88px]' : 'p-3 min-h-[96px]'} bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-lg hover:border-slate-600 transition-colors`}>
+                  <div className={`${isDense ? 'w-10 h-10 sm:w-11 sm:h-11' : 'w-12 h-12 sm:w-14 sm:h-14'} rounded-full bg-[#111a2d] overflow-hidden flex-shrink-0 border-2 border-[#202b43] shadow-md flex items-center justify-center`}>
                     <img
                       src={guess.character.avatar}
                       alt={guess.character.name}
@@ -307,7 +309,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                     />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <span className="text-xs sm:text-sm font-extrabold text-[#F5F7FF] leading-snug block truncate">
+                    <span className={`${isDense ? 'text-[11px] sm:text-xs' : 'text-xs sm:text-sm'} font-extrabold text-[#F5F7FF] leading-tight block truncate`}>
                       {guess.character.name}
                     </span>
                   </div>
@@ -367,7 +369,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                           }
                         }
                       }}
-                      className={`min-h-[96px] p-3 border rounded-2xl flex flex-col items-center justify-center text-center transition-all duration-300 cursor-pointer select-none hover:ring-2 hover:ring-slate-400/50 hover:brightness-110 active:scale-[0.98] ${
+                      className={`${isDense ? 'min-h-[84px] sm:min-h-[88px] p-2 sm:p-2.5' : 'min-h-[96px] p-3'} border rounded-2xl flex flex-col items-center justify-center text-center transition-all duration-300 cursor-pointer select-none hover:ring-2 hover:ring-slate-400/50 hover:brightness-110 active:scale-[0.98] ${
                         isLatest ? 'animate-cardFlip' : ''
                       } ${getStatusCardStyle(status)} ${
                         isSelected ? 'ring-2 ring-amber-400 ring-offset-2 ring-offset-[#070b14]' : ''
@@ -403,8 +405,8 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
                         </div>
                       )}
 
-                      {/* Exibição com texto aumentado para melhor legibilidade */}
-                      <span className="text-xs sm:text-[13px] font-extrabold leading-snug break-words max-w-full text-slate-100">
+                      {/* Exibição com texto responsivo */}
+                      <span className={`${isDense ? 'text-[11px] sm:text-xs font-bold leading-tight' : 'text-xs sm:text-[13px] font-extrabold leading-snug'} break-words max-w-full text-slate-100`}>
                         {displayVal}
                       </span>
 

@@ -48,7 +48,7 @@
     "id": "kurapika",
     "name": "Kurapika",
     "gender": "Masculino",
-    "species": "Humano (Clã Kurta)",
+    "species": "Humano",
     "affiliation": [
       "Associação Hunter",
       "Zodíacos (Rato)",
@@ -266,7 +266,7 @@
     "nenType": "Reforço",
     "styleOrPower": "Disparo Rotativo de Moedas como Tiros de Artilharia",
     "debutArc": "Família Zoldyck",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "A segurança e a felicidade do jovem mestre Killua estão acima da minha própria vida.",
     "techniques": [
       "Moedas Metralhadora com Giro Reforçado",
@@ -409,7 +409,7 @@
     "nenType": "Manipulação",
     "styleOrPower": "Black Voice (Controle por Celular) & Modo Autopiloto Berserk",
     "debutArc": "Yorknew / Trupe Fantasma",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Se eu espetar esta antena em você, você vira uma marionete sob os comandos do meu telefone!",
     "techniques": [
       "Black Voice (Controle Total por Controle Remoto)",
@@ -429,7 +429,7 @@
     "nenType": "Reforço",
     "styleOrPower": "Big Bang Impact (O Poder de um Pequeno Míssil em Cada Soco)",
     "debutArc": "Yorknew / Trupe Fantasma",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Meu sonho é desferir um soco com o mesmo poder destrutivo de uma bomba nuclear!",
     "techniques": [
       "Big Bang Impact (Cratera Gigante de Soco)",
@@ -471,7 +471,7 @@
     "nenType": "Especialização",
     "styleOrPower": "Leitura Psicofísica de Memórias pelo Toque & Balas de Memória",
     "debutArc": "Yorknew / Trupe Fantasma",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Acreditem em mim... e recebam as memórias que salvarão a nossa Aranha!",
     "techniques": [
       "Leitura Instantânea de Pensamentos pelo Toque",
@@ -524,7 +524,7 @@
     "id": "bonolenov-ndongo",
     "name": "Bonolenov Ndongo",
     "gender": "Masculino",
-    "species": "Humano (Tribo Gyudondond)",
+    "species": "Humano",
     "affiliation": [
       "Genei Ryodan (Nº 10)"
     ],
@@ -552,7 +552,7 @@
     "nenType": "Materialização",
     "styleOrPower": "Gallery Fake (Cópia Perfeita de Qualquer Objeto ou Prédio por 24 Horas)",
     "debutArc": "Yorknew / Trupe Fantasma",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Posso copiar cinquenta prédios idênticos inteiros apenas tocando na estrutura original com a mão esquerda.",
     "techniques": [
       "Gallery Fake (Duplicação Perfeita com Rastreamento)",
@@ -572,7 +572,7 @@
     "nenType": "Reforço / Emissão / Materialização",
     "styleOrPower": "100-Type Guanyin Bodhisattva & A Rosa dos Pobres (Miniature Rose)",
     "debutArc": "Exame Hunter",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Rei das Formigas... você não sabe nada sobre o potencial infinito de evolução e malícia da humanidade!",
     "techniques": [
       "100-Type Guanyin Bodhisattva: Mão Zero",
@@ -606,7 +606,7 @@
     "id": "kite",
     "name": "Kite",
     "gender": "Masculino",
-    "species": "Humano (Reencarnado como Formiga)",
+    "species": "Humano",
     "affiliation": [
       "Associação Hunter",
       "Discípulo de Ging"
@@ -740,7 +740,7 @@
     "nenType": "Especialização",
     "styleOrPower": "Síntese de Aura (Consumo de Usuários de Nen) & Fótons de En",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Komugi... você ainda está aí? Deixe-me segurar a sua mão mais uma vez enquanto a luz se apaga.",
     "techniques": [
       "Síntese e Absorção de Nen por Digestão",
@@ -761,7 +761,7 @@
     "nenType": "Especialização",
     "styleOrPower": "Terpsichora (Marionete Dançante Monstruosa) & Doutor Blythe",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Eu acho que sou muito forte, nya! Mas preciso proteger o Rei a qualquer custo!",
     "techniques": [
       "Terpsichora (Marionete de Combate sem Limite Físico)",
@@ -782,7 +782,7 @@
     "nenType": "Manipulação",
     "styleOrPower": "Beelzebub (Divisão em Bilhões de Mini-Clones) & Escalas Espirituais Hipnóticas",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Tudo pela glória do Rei! Mesmo que eu tenha que mentir para ele e matar a humana que o corrompe!",
     "techniques": [
       "Beelzebub (Decomposição Celular em Miniaturas)",
@@ -795,7 +795,7 @@
     "id": "menthuthuyoupi",
     "name": "Menthuthuyoupi (Youpi)",
     "gender": "Masculino",
-    "species": "Formiga Quimera (Genética de Fera Mágica)",
+    "species": "Formiga Quimera",
     "affiliation": [
       "Guarda Real das Formigas Quimera"
     ],
@@ -803,7 +803,7 @@
     "nenType": "Transformação / Reforço",
     "styleOrPower": "Metamorfose Corporal Monstruosa & Explosões Vulcânicas de Fúria",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "A raiva não é algo para me cegar... aprendi a canalizar a fúria em puro poder destrutivo!",
     "techniques": [
       "Rage Blast (Explosão Titânica de Fúria)",
@@ -824,7 +824,7 @@
     "nenType": "Especialização",
     "styleOrPower": "Despertar Inconsciente de Nen através do Jogo de Tabuleiro Gungi",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Meruem-sama... eu nasci para este dia. Para jogar Gungi com você até o fim.",
     "techniques": [
       "Estratégia Insuperável de Gungi",
@@ -943,7 +943,7 @@
     "id": "meleoron",
     "name": "Meleoron",
     "gender": "Masculino",
-    "species": "Formiga Quimera (Camaleão)",
+    "species": "Formiga Quimera",
     "affiliation": [
       "Equipe de Extermínio de Formigas"
     ],
@@ -963,7 +963,7 @@
     "id": "ikalgo",
     "name": "Ikalgo",
     "gender": "Masculino",
-    "species": "Formiga Quimera (Polvo)",
+    "species": "Formiga Quimera",
     "affiliation": [
       "Equipe de Extermínio de Formigas"
     ],
@@ -1002,7 +1002,7 @@
     "id": "welfin",
     "name": "Welfin",
     "gender": "Masculino",
-    "species": "Formiga Quimera (Lobo)",
+    "species": "Formiga Quimera",
     "affiliation": [
       "Exército das Formigas Quimera"
     ],
@@ -1022,7 +1022,7 @@
     "id": "leol",
     "name": "Leol (Hagya)",
     "gender": "Masculino",
-    "species": "Formiga Quimera (Leão)",
+    "species": "Formiga Quimera",
     "affiliation": [
       "Exército das Formigas Quimera"
     ],
@@ -1030,7 +1030,7 @@
     "nenType": "Especialização",
     "styleOrPower": "Rental Pod (Empréstimo de Habilidades de Nen Alheias por Gratidão)",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Se você me deve um favor, sua habilidade de Nen pertence ao meu iPod mágico por uma hora inteira!",
     "techniques": [
       "Rental Pod (Uso Temporário de Feitiços Alheios)",
@@ -1042,7 +1042,7 @@
     "id": "cheetu",
     "name": "Cheetu",
     "gender": "Masculino",
-    "species": "Formiga Quimera (Chita)",
+    "species": "Formiga Quimera",
     "affiliation": [
       "Exército das Formigas Quimera"
     ],
@@ -1050,7 +1050,7 @@
     "nenType": "Materialização / Emissão",
     "styleOrPower": "Velocidade Supersônica e Tag (Pega-Pega em Dimensão Própria)",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Você tem oito horas para me pegar nesta pista de atletismo dimensional! Boa sorte tentando ser mais rápido que eu!",
     "techniques": [
       "Espaço Fechado de Pega-Pega",
@@ -1063,7 +1063,7 @@
     "id": "zazan",
     "name": "Zazan",
     "gender": "Feminino",
-    "species": "Formiga Quimera (Escorpião)",
+    "species": "Formiga Quimera",
     "affiliation": [
       "Exército das Formigas Quimera"
     ],
@@ -1071,7 +1071,7 @@
     "nenType": "Manipulação",
     "styleOrPower": "Ferrão Mutagênico & Transformação em Réptil Couraçado Monstruoso",
     "debutArc": "Formigas Quimera",
-    "status": "Falecido",
+    "status": "Morto",
     "quote": "Meu veneno transforma humanos em monstros grotescos e leais à minha beleza!",
     "techniques": [
       "Ferrão com Vírus Mutagênico",

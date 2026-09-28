@@ -53,6 +53,9 @@ export interface Character {
   styleOrPlay?: string;
   // Hunter x Hunter
   nenType?: string;
+  // Naruto
+  village?: string;
+  clan?: string;
 }
 
 export interface AttributeColumn {

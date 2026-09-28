@@ -142,17 +142,27 @@ export function evaluateGuess(
       const gSpec = (guessedVal as string) || '';
       const tSpec = (targetVal as string) || '';
 
-      if (gSpec === tSpec) {
+      const extractSpeciesTokens = (s: string) => {
+        return s
+          .toLowerCase()
+          .replace(/híbrido|hibrido/g, '')
+          .split(/[\/\(\),]/)
+          .map((t) => t.trim())
+          .filter((t) => t.length > 2);
+      };
+
+      if (gSpec.toLowerCase().trim() === tSpec.toLowerCase().trim()) {
         matches[col.key] = { status: 'correct', value: gSpec };
       } else {
-        const gHasHuman = gSpec.includes('Humano');
-        const tHasHuman = tSpec.includes('Humano');
-        const gHasOni = gSpec.includes('Oni');
-        const tHasOni = tSpec.includes('Oni');
+        const gTokens = extractSpeciesTokens(gSpec);
+        const tTokens = extractSpeciesTokens(tSpec);
 
-        const isPartial = (gHasHuman && tHasHuman) || (gHasOni && tHasOni);
+        const hasOverlap = gTokens.some((gt) =>
+          tTokens.some((tt) => gt.includes(tt) || tt.includes(gt))
+        );
+
         matches[col.key] = {
-          status: isPartial ? 'partial' : 'incorrect',
+          status: hasOverlap ? 'partial' : 'incorrect',
           value: gSpec,
         };
       }
@@ -226,13 +236,15 @@ export function evaluateGuess(
       const normalizeStatusVal = (s: string) => {
         const lower = s.trim().toLowerCase();
         if (lower.startsWith('viv')) return 'vivo';
-        if (lower.startsWith('mort')) return 'morto';
+        if (lower.startsWith('mort') || lower.startsWith('falec')) return 'morto';
         if (lower.startsWith('eliminad')) return 'eliminado';
         if (lower.startsWith('ativ')) return 'ativo';
         if (lower.startsWith('pres')) return 'preso';
         if (lower.startsWith('incapacitad')) return 'incapacitado';
         if (lower.startsWith('curad')) return 'curado';
         if (lower.startsWith('selad')) return 'selado';
+        if (lower.startsWith('profission')) return 'profissional';
+        if (lower.startsWith('staff')) return 'staff';
         return lower;
       };
 
