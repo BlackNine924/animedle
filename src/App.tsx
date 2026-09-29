@@ -99,6 +99,12 @@ export const App: React.FC<{
 
   // Troca de anime via navegação por URL (componente remonta automaticamente)
   const handleSelectAnime = (newAnimeSlug: string) => {
+    if (newAnimeSlug !== currentAnimeSlug) {
+      setEndlessStreak(0);
+      localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
+      localStorage.setItem(`animedle_endless_streak_${newAnimeSlug}`, '0');
+      localStorage.setItem('animedle_last_endless_anime', newAnimeSlug);
+    }
     onNavigateToAnime(newAnimeSlug);
   };
 
@@ -130,7 +136,18 @@ export const App: React.FC<{
   const [endlessTargetIndex, setEndlessTargetIndex] = useState<number>(() =>
     Math.floor(Math.random() * characters.length)
   );
-  const [endlessStreak, setEndlessStreak] = useState<number>(0);
+  const [endlessStreak, setEndlessStreak] = useState<number>(() => {
+    const lastAnime = localStorage.getItem('animedle_last_endless_anime');
+    if (lastAnime && lastAnime !== currentAnimeSlug) {
+      localStorage.setItem(`animedle_endless_streak_${lastAnime}`, '0');
+      localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
+      localStorage.setItem('animedle_last_endless_anime', currentAnimeSlug);
+      return 0;
+    }
+    localStorage.setItem('animedle_last_endless_anime', currentAnimeSlug);
+    const saved = localStorage.getItem(`animedle_endless_streak_${currentAnimeSlug}`);
+    return saved ? parseInt(saved, 10) || 0 : 0;
+  });
 
   // Gera a lista de habilidades/domínios para o modo Habilidade (cada técnica e expansão de domínio é um desafio 100% individual)
   const abilityPool = React.useMemo(() => {
@@ -600,6 +617,19 @@ export const App: React.FC<{
 
     setModeStates(newStates);
     setEndlessTargetIndex(Math.floor(Math.random() * characters.length));
+
+    // Se mudou de anime, reseta a sequência do modo treino. Se recarregou/voltou ao mesmo, mantém.
+    const lastAnime = localStorage.getItem('animedle_last_endless_anime');
+    if (lastAnime && lastAnime !== currentAnimeSlug) {
+      setEndlessStreak(0);
+      localStorage.setItem(`animedle_endless_streak_${lastAnime}`, '0');
+      localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
+      localStorage.setItem('animedle_last_endless_anime', currentAnimeSlug);
+    } else {
+      localStorage.setItem('animedle_last_endless_anime', currentAnimeSlug);
+      const saved = localStorage.getItem(`animedle_endless_streak_${currentAnimeSlug}`);
+      setEndlessStreak(saved ? parseInt(saved, 10) || 0 : 0);
+    }
   }, [currentAnimeSlug]);
 
   // Palpites do modo ativo atual
@@ -669,7 +699,11 @@ export const App: React.FC<{
 
     if (isCorrect) {
       if (currentMode === 'endless') {
-        setEndlessStreak((s) => s + 1);
+        setEndlessStreak((s) => {
+          const next = s + 1;
+          localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, next.toString());
+          return next;
+        });
       }
 
       setShowVictoryModal(true);
@@ -694,6 +728,11 @@ export const App: React.FC<{
   // Função ao Clicar em Desistir
   const handleSurrender = () => {
     if (isFinished) return;
+
+    if (currentMode === 'endless') {
+      setEndlessStreak(0);
+      localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
+    }
 
     setModeStates((prev) => ({
       ...prev,

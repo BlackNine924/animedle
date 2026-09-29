@@ -171,24 +171,39 @@ export function evaluateGuess(
       const tPower = (targetVal as string) || '';
 
       if ('fruitType' in guessed && 'fruitType' in target) {
-        const gFruitType = guessed.fruitType as string;
-        const tFruitType = target.fruitType as string;
-        
-        // Apenas frutas devem entrar:
-        const gVal = gFruitType === 'Nenhuma' ? 'Nenhuma' : gPower;
-        const tVal = tFruitType === 'Nenhuma' ? 'Nenhuma' : tPower;
-        
-        let status = 'incorrect';
-        
-        if (gVal === tVal) {
+        const normalizeFruitCategory = (ft: string): string[] => {
+          const types: string[] = [];
+          if (/logia/i.test(ft)) types.push('Logia');
+          if (/paramecia/i.test(ft)) types.push('Paramecia');
+          if (/zoan/i.test(ft)) types.push('Zoan');
+          if (types.length === 0 || /nenhuma/i.test(ft)) return ['Nenhuma'];
+          return types;
+        };
+
+        const gFruitType = (guessed.fruitType as string) || '';
+        const tFruitType = (target.fruitType as string) || '';
+
+        const gTypes = normalizeFruitCategory(gFruitType);
+        const tTypes = normalizeFruitCategory(tFruitType);
+        const gVal = gTypes.join(' & ');
+
+        let status: MatchStatus = 'incorrect';
+        const exactMatch =
+          gTypes.length === tTypes.length &&
+          gTypes.every((t) => tTypes.includes(t));
+        const hasOverlap = gTypes.some(
+          (t) => t !== 'Nenhuma' && tTypes.includes(t)
+        );
+
+        if (exactMatch) {
           status = 'correct';
-        } else if (gVal !== 'Nenhuma' && tVal !== 'Nenhuma') {
+        } else if (hasOverlap) {
           status = 'partial';
         } else {
           status = 'incorrect';
         }
-        
-        matches[col.key] = { status: status as MatchStatus, value: gVal };
+
+        matches[col.key] = { status, value: gVal };
       } else {
         if (gPower === tPower) {
           matches[col.key] = { status: 'correct', value: gPower };
