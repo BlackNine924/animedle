@@ -33,7 +33,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
         <img
           src={cardSrc}
           alt={anime.name}
-          className="w-full h-full object-contain object-center block"
+          className="w-full h-full object-cover object-center block"
           loading="lazy"
           onError={(e) => {
             (e.currentTarget as HTMLImageElement).style.opacity = '0.3';

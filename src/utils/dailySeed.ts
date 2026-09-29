@@ -327,8 +327,20 @@ export function evaluateGuess(
         normGuessed.includes('Doze Kizuki') &&
         normTarget.includes('Doze Kizuki');
 
+      // Extrai o grupo/família base removendo papéis ou títulos entre parênteses (ex: "Família Kamado (Caçula)" -> "Família Kamado")
+      const getBaseAffiliation = (s: string) => s.replace(/\s*\(.*?\)/g, '').trim().toLowerCase();
+
       const partialMatch = !exactMatch && !kizukiGroupMatch && cleanGuessed.some((item) =>
-        cleanTarget.some((tItem) => item.toLowerCase() === tItem.toLowerCase() || (item.length > 3 && tItem.length > 3 && (item.includes(tItem) || tItem.includes(item))))
+        cleanTarget.some((tItem) => {
+          const iLow = item.toLowerCase();
+          const tLow = tItem.toLowerCase();
+          if (iLow === tLow) return true;
+          if (item.length > 3 && tItem.length > 3 && (item.includes(tItem) || tItem.includes(item))) return true;
+          const baseG = getBaseAffiliation(item);
+          const baseT = getBaseAffiliation(tItem);
+          if (baseG.length > 3 && baseT.length > 3 && baseG === baseT) return true;
+          return false;
+        })
       );
 
       let status: MatchStatus = 'incorrect';
