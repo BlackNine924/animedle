@@ -871,7 +871,15 @@ export const App: React.FC<{
               <span>Modo Treino (Ilimitado)</span>
             </div>
           )}
-          <div className="inline-flex items-center justify-center px-4 sm:px-6 py-2 sm:py-2.5 rounded-2xl bg-[#060b18]/75 backdrop-blur-md border border-white/10 shadow-2xl mb-1 mt-1 max-w-full">
+          <div className="inline-flex items-center justify-center gap-2.5 sm:gap-3 px-4 sm:px-6 py-2 sm:py-2.5 rounded-2xl bg-[#060b18]/75 backdrop-blur-md border border-white/10 shadow-2xl mb-1 mt-1 max-w-full">
+            <img
+              src={`/icons/${currentAnimeSlug}.png`}
+              alt=""
+              className="w-7 h-7 sm:w-9 sm:h-9 object-contain flex-shrink-0 drop-shadow"
+              onError={(e) => {
+                (e.currentTarget as HTMLElement).style.display = 'none';
+              }}
+            />
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
               Adivinhe o Personagem de{' '}
               <span

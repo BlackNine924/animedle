@@ -104,7 +104,14 @@ export const Navbar: React.FC<NavbarProps> = ({
               className="flex items-center gap-2 bg-[#111a2d] hover:bg-[#16223b] border border-[#202b43] hover:border-slate-600 rounded-xl px-3 py-1.5 text-xs font-semibold text-slate-200 transition-all shadow-sm active:scale-95"
             >
               <span className="flex items-center gap-1.5">
-                <span className="text-sm">{currentAnime.banner}</span>
+                <img
+                  src={`/icons/${currentAnime.slug}.png`}
+                  alt=""
+                  className="w-4 h-4 sm:w-5 sm:h-5 object-contain flex-shrink-0"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLElement).style.display = 'none';
+                  }}
+                />
                 <span className="font-bold text-slate-100">{currentAnime.title}</span>
               </span>
               <ChevronDown
@@ -155,7 +162,18 @@ export const Navbar: React.FC<NavbarProps> = ({
                         }`}
                       >
                         <span className="flex items-center gap-2.5">
-                          <span className="text-base">{anime.banner}</span>
+                          {isAvailable ? (
+                            <img
+                              src={`/icons/${anime.slug}.png`}
+                              alt=""
+                              className="w-4 h-4 object-contain flex-shrink-0"
+                              onError={(e) => {
+                                (e.currentTarget as HTMLElement).style.display = 'none';
+                              }}
+                            />
+                          ) : (
+                            <span className="text-base">{anime.banner}</span>
+                          )}
                           <span className="font-semibold">{anime.title}</span>
                         </span>
                         {!isAvailable && (

@@ -59,10 +59,22 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
         )}
       </div>
 
-      {/* Nome do anime: fonte Outfit estilosa, tamanho ampliado e contraste impecável */}
-      <span className="text-center font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug px-1 group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
-        {anime.name}
-      </span>
+      {/* Nome do anime com ícone oficial quando disponível */}
+      <div className="flex items-center justify-center gap-1.5 sm:gap-2 px-1 text-center">
+        {anime.implemented && (
+          <img
+            src={`/icons/${anime.slug}.png`}
+            alt=""
+            className="w-4 h-4 sm:w-5 sm:h-5 object-contain flex-shrink-0 drop-shadow"
+            onError={(e) => {
+              (e.currentTarget as HTMLElement).style.display = 'none';
+            }}
+          />
+        )}
+        <span className="font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
+          {anime.name}
+        </span>
+      </div>
     </div>
   );
 };
