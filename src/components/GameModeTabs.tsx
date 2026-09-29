@@ -9,21 +9,39 @@ interface GameModeTabsProps {
   currentAnimeSlug?: string;
 }
 
-export const GameModeTabs: React.FC<GameModeTabsProps> = ({ currentMode, onSelectMode, themeColor = '#dc2626', currentAnimeSlug }) => {
-  const abilityLabel = currentAnimeSlug === 'naruto' ? 'Jutsus' : currentAnimeSlug === 'jojos-bizarre-adventure' ? 'Stands' : currentAnimeSlug === 'dandadan' ? 'Poderes' : currentAnimeSlug === 'tensei-shitara-slime-datta-ken' ? 'Skills' : currentAnimeSlug === 'attack-on-titan' ? 'Titãs' : (currentAnimeSlug === 'black-clover' || currentAnimeSlug === 'fairy-tail' || currentAnimeSlug === 'frieren') ? 'Magias' : currentAnimeSlug === 'berserk' ? 'Armas & Poderes' : currentAnimeSlug === 'chainsaw-man' ? 'Contratos & Demônios' : currentAnimeSlug === 'fullmetal-alchemist' ? 'Alquimias & Poderes' : currentAnimeSlug === 'haikyuu' ? 'Jogadas & Saques' : currentAnimeSlug === 'hunter-x-hunter' ? 'Nen & Hatsu' : currentAnimeSlug === 'kaiju-no-8' ? 'Armas & Poderes' : 'Habilidade';
+const ALLOWED_QUOTE_ABILITY_ANIMES = ['one-piece', 'naruto', 'demon-slayer', 'jujutsu-kaisen'];
 
-  let modes: { id: GameMode; label: string; icon: React.ReactNode }[] = [
+export const GameModeTabs: React.FC<GameModeTabsProps> = ({
+  currentMode,
+  onSelectMode,
+  themeColor = '#dc2626',
+  currentAnimeSlug = '',
+}) => {
+  const hasQuoteAndAbility = ALLOWED_QUOTE_ABILITY_ANIMES.includes(currentAnimeSlug);
+
+  const abilityLabel =
+    currentAnimeSlug === 'naruto'
+      ? 'Jutsus'
+      : currentAnimeSlug === 'one-piece'
+      ? 'Akuma no Mi'
+      : currentAnimeSlug === 'demon-slayer'
+      ? 'Respirações'
+      : currentAnimeSlug === 'jujutsu-kaisen'
+      ? 'Técnicas & Domínios'
+      : 'Habilidade';
+
+  const modes: { id: GameMode; label: string; icon: React.ReactNode }[] = [
     { id: 'classic', label: 'Clássico', icon: <Grid size={15} /> },
     { id: 'wanted', label: 'Procurado', icon: <Eye size={15} /> },
-    { id: 'quote', label: 'Citação', icon: <MessageSquare size={15} /> },
-    { id: 'ability', label: abilityLabel, icon: <Zap size={15} /> },
+    ...(hasQuoteAndAbility
+      ? [
+          { id: 'quote' as GameMode, label: 'Citação', icon: <MessageSquare size={15} /> },
+          { id: 'ability' as GameMode, label: abilityLabel, icon: <Zap size={15} /> },
+        ]
+      : []),
     { id: 'zoom', label: 'Zoom', icon: <ZoomIn size={15} /> },
     { id: 'endless', label: 'Treino', icon: <InfinityIcon size={15} /> },
   ];
-
-  if (currentAnimeSlug === 'solo-leveling' || currentAnimeSlug === 'blue-lock') {
-    modes = modes.filter((m) => m.id !== 'quote' && m.id !== 'ability');
-  }
 
   const gridColsClass = modes.length === 4 ? 'grid-cols-4 max-w-xl' : 'grid-cols-6 max-w-3xl';
 

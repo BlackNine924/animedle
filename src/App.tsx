@@ -108,6 +108,14 @@ export const App: React.FC<{
     setShowVictoryModal(false);
   };
 
+  // Garante que animes sem os modos citação e habilidade permaneçam no modo clássico
+  React.useEffect(() => {
+    const ALLOWED = ['one-piece', 'naruto', 'demon-slayer', 'jujutsu-kaisen'];
+    if (!ALLOWED.includes(currentAnimeSlug) && (currentMode === 'quote' || currentMode === 'ability')) {
+      setCurrentMode('classic');
+    }
+  }, [currentAnimeSlug, currentMode]);
+
   // Dev Offset Shift Map para trocar de resposta ao clicar no Resetar(dev)
   const [devOffsets, setDevOffsets] = useState<Record<GameMode, number>>({
     classic: 0,

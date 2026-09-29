@@ -181,9 +181,20 @@ export const Home: React.FC = () => {
     filteredComingSoon.length > 0;
 
   return (
-    <div className="min-h-screen bg-[#060b18]">
+    <div className="min-h-screen bg-[#060b18] relative overflow-x-hidden">
+      {/* ── Banner atmosférico atrás da Logo Principal ─────────────────── */}
+      <div className="absolute top-0 left-0 right-0 h-[480px] sm:h-[580px] pointer-events-none z-0 overflow-hidden">
+        <div
+          className="w-full h-full bg-cover bg-center bg-no-repeat opacity-35"
+          style={{ backgroundImage: `url(/home-banner.png)` }}
+        />
+        {/* Gradiente cinematográfico suave fundindo com o azul escuro */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#060b18]/20 via-[#060b18]/50 to-[#060b18]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_30%,_#060b18_100%)] opacity-70" />
+      </div>
+
       {/* ── Header com Logo em destaque ampliado ──────────────────────── */}
-      <header className="flex flex-col items-center pt-10 sm:pt-14 pb-10 px-4">
+      <header className="relative z-10 flex flex-col items-center pt-10 sm:pt-14 pb-10 px-4">
         <div className="flex flex-col items-center gap-4 mb-8">
           <img
             src="/logo-main.png"
@@ -267,7 +278,7 @@ export const Home: React.FC = () => {
       </header>
 
       {/* ── Conteúdo principal ampliado (max-w-[1650px]) ─────────────── */}
-      <main className="max-w-[1650px] mx-auto px-4 sm:px-6 lg:px-10 pb-28">
+      <main className="relative z-10 max-w-[1650px] mx-auto px-4 sm:px-6 lg:px-10 pb-28">
         {!hasResults && (
           <p className="text-slate-500 text-center py-20 text-base">
             Nenhum anime encontrado para "{searchQuery}".
