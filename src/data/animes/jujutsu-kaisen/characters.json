@@ -7,16 +7,16 @@
     "affiliation": [
       "Escola de Jujutsu de Tóquio"
     ],
-    "styleOrPower": "Punho Divergente / KokuSen",
+    "styleOrPower": "Punho Divergente / Kokusen",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Vivo",
     "quote": "Eu não sei como vou me sentir quando morrer, mas não quero me arrepender da forma como vivi!",
-    "ability": "Punho Divergente & KokuSen",
+    "ability": "Punho Divergente & Kokusen",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127212-FVm2tD0erQ5B.png",
-    "domainExpansion": "Domínio da Cidade Natal (Recortes de Memórias)"
+    "domainExpansion": null
   },
   {
     "id": "megumi-fushiguro",
@@ -46,11 +46,11 @@
     "affiliation": [
       "Escola de Jujutsu de Tóquio"
     ],
-    "styleOrPower": "Técnica da Boneca de Vodu",
+    "styleOrPower": "Técnica da Boneca de Palha",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Viva",
     "quote": "Eu amo a mim mesma quando estou bonita e forte! Eu sou a Nobara Kugisaki!",
-    "ability": "Ressonância & Horobiki",
+    "ability": "Ressonância & Grampo (Kanzashi)",
     "grade": "Grau 3",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -86,16 +86,16 @@
       "Escola de Jujutsu de Tóquio",
       "Clã Gojo"
     ],
-    "styleOrPower": "Cópia de Técnicas / Rika",
+    "styleOrPower": "Cópia Incondicional de Técnicas",
     "debutArc": "Inventário Oculto / Morte Prematura",
     "status": "Vivo",
     "quote": "Isso é amor puro.",
-    "ability": "Cópia Incondicional de Técnicas",
+    "ability": "Manifestação Completa de Rika & Técnicas Copiadas",
     "grade": "Grau Especial",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b129571-GHJk7gviHOOw.jpg",
-    "domainExpansion": "Amor Mútuo e Autêntico (Authentic Mutual Love)"
+    "domainExpansion": "Amor Mútuo Autêntico (All-Encompassing Unequivocal Love)"
   },
   {
     "id": "maki-zenin",
@@ -106,11 +106,11 @@
       "Escola de Jujutsu de Tóquio",
       "Clã Zenin"
     ],
-    "styleOrPower": "Restrição Celestial",
+    "styleOrPower": "Restrição Celestial Pura (Zero Energia)",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Viva",
     "quote": "Eu vou me tornar a chefe do clã Zenin e calar a boca de todos vocês.",
-    "ability": "Restrição Celestial Pura",
+    "ability": "Físico Sobre-humano Divino e Imunidade a Barreiras",
     "grade": "Grau 4",
     "era": "Moderna",
     "techniqueType": "Restrição Celestial",
@@ -130,7 +130,7 @@
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Vivo",
     "quote": "Salmão, Atum, Alga secada!",
-    "ability": "Fala Amaldiçoada",
+    "ability": "Comandos Vocais de Alta Tensão",
     "grade": "Semi-Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
@@ -145,11 +145,11 @@
     "affiliation": [
       "Escola de Jujutsu de Tóquio"
     ],
-    "styleOrPower": "Cadáver Amaldiçoado Mutante",
+    "styleOrPower": "Cadáver Mutante Abrupto",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Vivo",
     "quote": "Eu não sou um panda normal! Pandas não falam!",
-    "ability": "Modo Gorila Drumting",
+    "ability": "Três Núcleos (Panda, Gorila, Triceratops)",
     "grade": "Grau 2",
     "era": "Moderna",
     "techniqueType": "Cadáver Amaldiçoado",
@@ -164,16 +164,16 @@
     "affiliation": [
       "Escola de Jujutsu de Tóquio"
     ],
-    "styleOrPower": "Aposta do Amor (Jackpot)",
+    "styleOrPower": "Trem do Amor Puro (Caça-Níqueis)",
     "debutArc": "Preparativos do Jogo do Abate",
     "status": "Vivo",
     "quote": "A febre do jogo nunca esfria!",
-    "ability": "Idle Death Gamble (Jackpot)",
+    "ability": "Jackpot de Energia Amaldiçoada Infinita",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b197584-fK7Jc6DLfx7e.jpg",
-    "domainExpansion": "Aposta Mortífera de Morte Ociosa (Idle Death Gamble)"
+    "domainExpansion": "Aposta Ociosa da Morte (Idle Death Gamble)"
   },
   {
     "id": "kirara-hoshi",
@@ -183,11 +183,11 @@
     "affiliation": [
       "Escola de Jujutsu de Tóquio"
     ],
-    "styleOrPower": "Love Rendezvous (Constelação)",
+    "styleOrPower": "Amor Rendezvous (Constelação Cruzeiro do Sul)",
     "debutArc": "Preparativos do Jogo do Abate",
     "status": "Viva",
     "quote": "Ninguém interfere no jogo do Hakari!",
-    "ability": "Love Rendezvous",
+    "ability": "Atração e Repulsão por Estrelas Marcadas",
     "grade": "Grau 3",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -206,7 +206,7 @@
     "debutArc": "Festival de Intercâmbio de Kyoto",
     "status": "Vivo",
     "quote": "Irmão! Qual é o seu tipo de mulher?",
-    "ability": "Boogie Woogie",
+    "ability": "Troca Instantânea de Posição por Palmas",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -379,7 +379,7 @@
     "debutArc": "Confronto no Cinema",
     "status": "Morto",
     "quote": "Trabalho é uma m****. Exercer feitiçaria é uma m****. Se os dois são ruins, fiquei com o que paga melhor.",
-    "ability": "Proporção 7:3",
+    "ability": "Corte de Linha Crítica 7:3",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -527,11 +527,11 @@
     "affiliation": [
       "Escola de Jujutsu de Tóquio"
     ],
-    "styleOrPower": "Star Rage (Massa Virtual)",
+    "styleOrPower": "Star Rage (Fúria Estelar / Bom-Ba-Ye)",
     "debutArc": "Inventário Oculto / Morte Prematura",
     "status": "Morta",
     "quote": "Qual é o seu tipo de mulher?",
-    "ability": "Star Rage (Massa Virtual)",
+    "ability": "Massa Virtual Infinita & Garuda",
     "grade": "Grau Especial",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -623,11 +623,11 @@
       "Feiticeiros Livres",
       "Clã Zenin"
     ],
-    "styleOrPower": "Restrição Celestial",
+    "styleOrPower": "Restrição Celestial Pura (Zero Energia)",
     "debutArc": "Inventário Oculto / Morte Prematura",
     "status": "Morto",
     "quote": "Não me culpe. Culpe a sua falta de sorte por me encontrar aqui.",
-    "ability": "Restrição Celestial Pura",
+    "ability": "Sentidos Sobre-humanos e Maestria com Armas Amaldiçoadas",
     "grade": "Grau Especial",
     "era": "Moderna",
     "techniqueType": "Restrição Celestial",
@@ -661,16 +661,16 @@
     "affiliation": [
       "Clã Zenin"
     ],
-    "styleOrPower": "Feitiçaria de Projeção Sub-Sônica",
+    "styleOrPower": "Feitiçaria de Projeção",
     "debutArc": "Extermínio de Itadori",
     "status": "Morto",
     "quote": "Eu sou o único digno de ficar ao lado do Toji e do Satoru.",
-    "ability": "Projeção Velocidade da Luz",
+    "ability": "24 Quadros por Segundo",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b208204-1CoWbBOC2Jqr.jpg",
-    "domainExpansion": "Palácio da Lua Célula Matriz (Time Cell Moon Palace)"
+    "domainExpansion": "Palácio da Lua Célula Temporal (Time Cell Moon Palace)"
   },
   {
     "id": "ogi-zenin",
@@ -680,11 +680,11 @@
     "affiliation": [
       "Clã Zenin"
     ],
-    "styleOrPower": "Espada de Chamas Amaldiçoadas",
+    "styleOrPower": "Espírito Ardente",
     "debutArc": "Preparativos do Jogo do Abate",
     "status": "Morto",
     "quote": "Minhas filhas são a razão de eu não ter me tornado o líder do clã!",
-    "ability": "Lâmina Vulcânica",
+    "ability": "Lâminas de Chamas Amaldiçoadas",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -699,11 +699,11 @@
     "affiliation": [
       "Clã Zenin"
     ],
-    "styleOrPower": "Punhos Gigantes Espirituais",
+    "styleOrPower": "Projéteis de Punhos Cadentes",
     "debutArc": "Preparativos do Jogo do Abate",
     "status": "Morto",
     "quote": "A unidade Hei esmagará qualquer rebelde Zenin.",
-    "ability": "Punhos Gigantes",
+    "ability": "Invocação de Punhos Gigantes",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -718,11 +718,11 @@
     "affiliation": [
       "Escola de Jujutsu de Tóquio"
     ],
-    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "styleOrPower": "Recipiente de Plasma Estelar (Sem Técnica)",
     "debutArc": "Inventário Oculto / Morte Prematura",
     "status": "Morta",
     "quote": "Eu quero viver mais... Quero ir para a escola e viajar com todo mundo!",
-    "ability": "Sem Técnica Amaldiçoada",
+    "ability": "Recipiente de Plasma Estelar para Tengen",
     "grade": "Não Classificado",
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
@@ -737,11 +737,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "styleOrPower": "Nenhum (Civil)",
     "debutArc": "Inventário Oculto / Morte Prematura",
     "status": "Vivo",
     "quote": "Tenho um trabalho perfeito para você, Fushiguro.",
-    "ability": "Sem Técnica Amaldiçoada",
+    "ability": "Corretor civil",
     "grade": "Não Classificado",
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
@@ -757,16 +757,16 @@
       "Maldições",
       "Período Heian"
     ],
-    "styleOrPower": "Corte e Fissura",
+    "styleOrPower": "Santuário (Mizushi) / Cortes (Desmantelar e Clivar)",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Morto",
     "quote": "Orgulhe-se. Você é forte.",
-    "ability": "Corte Cleave & Dismantle & Fuga",
+    "ability": "Clivar, Desmantelar & Flecha de Fogo (Fuga)",
     "grade": "Grau Especial",
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133701-rCQuDpHr3UZL.png",
-    "domainExpansion": "Santuário Malevolente (Malevolent Shrine)"
+    "domainExpansion": "Santuário Malevolente (Fukuma Mizushi)"
   },
   {
     "id": "suguru-geto",
@@ -797,16 +797,16 @@
       "Maldições",
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Troca de Cérebro / Gravidade",
+    "styleOrPower": "Troca de Corpos & Gravidade",
     "debutArc": "Incidente de Shibuya",
     "status": "Morto",
     "quote": "Eu vivi por mil anos apenas para ver o potencial da energia amaldiçoada se desencadear no caos.",
-    "ability": "Troca de Corpos & Uzumaki & Sistema Antigravidade",
+    "ability": "Manipulação de Maldições & Sistema Antigravidade",
     "grade": "Grau Especial",
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b289584-KndGudJZm5Ik.jpg",
-    "domainExpansion": "Proliferação de Vórtices (Womb Profusion / Zokushō Tairyō)"
+    "domainExpansion": "Proliferação de Ventres (Womb Profusion)"
   },
   {
     "id": "uraume",
@@ -1027,11 +1027,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Liberador Mítico de Raio",
+    "styleOrPower": "Liberação da Besta Mítica (Genju Kohaku)",
     "debutArc": "Jogo do Abate",
     "status": "Morto",
     "quote": "É assim que os perdedores pensam! Mostre-me o mais forte!",
-    "ability": "Genju Kohaku (Mítico Libertador de Raios)",
+    "ability": "Descarga Elétrica Pura & Besta Mítica",
     "grade": "Grau Especial",
     "era": "Era Edo (Há 400 Anos)",
     "techniqueType": "Inata Própria",
@@ -1046,16 +1046,16 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Domínio de Julgamento Tribunal",
+    "styleOrPower": "Sentença Mortal (Judgeman)",
     "debutArc": "Jogo do Abate",
     "status": "Vivo",
     "quote": "A lei só tem significado quando aplicada com imparcialidade a todos os homens.",
-    "ability": "Judgeman & Pena de Morte (Executioner Sword)",
+    "ability": "Espada do Carrasco & Confisco Judicial",
     "grade": "Grau 1",
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b248818-G9R6TqqElpvG.png",
-    "domainExpansion": "Sentença Mortal (Deadly Sentencing / Judgeman)"
+    "domainExpansion": "Sentença Mortal (Deadly Sentencing)"
   },
   {
     "id": "ryu-ishigori",
@@ -1084,11 +1084,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Manipulação Espacial do Céu",
+    "styleOrPower": "Manipulação do Céu",
     "debutArc": "Jogo do Abate",
     "status": "Viva",
     "quote": "O céu não é um limite, é uma superfície fina que posso agarrar e dobrar!",
-    "ability": "Thin Ice Breaker & Dobra Espacial",
+    "ability": "Dobra Espacial Celestial & Thin Ice Breaker",
     "grade": "Grau 1",
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
@@ -1103,11 +1103,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Comédia Realidade",
+    "styleOrPower": "Comediante (Comedian)",
     "debutArc": "Jogo do Abate",
     "status": "Vivo",
     "quote": "Seria hilário se isso acontecesse agora! Se eu achar engraçado, vira realidade!",
-    "ability": "Comedian (Realidade Cômica)",
+    "ability": "Materialização da Realidade Cômica",
     "grade": "Grau 1",
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
@@ -1142,11 +1142,11 @@
       "Maldições",
       "Período Heian"
     ],
-    "styleOrPower": "Criação de Metal Líquido",
+    "styleOrPower": "Técnica de Construção",
     "debutArc": "Jogo do Abate",
     "status": "Morta",
     "quote": "Meu amor por Sukuna é absoluto e construirá a esfera perfeita!",
-    "ability": "Esfera Perfeita & Armadura de Inseto",
+    "ability": "Metal Líquido & Esfera Perfeita",
     "grade": "Grau Especial",
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
@@ -1161,11 +1161,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Contratos de Recibo de Compras",
+    "styleOrPower": "Recriação por Contrato",
     "debutArc": "Jogo do Abate",
     "status": "Morto",
     "quote": "Posso materializar qualquer objeto ou contrato queimando seus recibos!",
-    "ability": "Recibos Amaldiçoados",
+    "ability": "Invocação e Efeitos por Recibos de Compra",
     "grade": "Grau 1",
     "era": "Ancestral (Reencarnado)",
     "techniqueType": "Inata Própria",
@@ -1199,11 +1199,11 @@
     "affiliation": [
       "Maldições"
     ],
-    "styleOrPower": "Enxame de Baratas Amaldiçoadas",
+    "styleOrPower": "Espada da Vida Partenogenética",
     "debutArc": "Jogo do Abate",
     "status": "Morto",
     "quote": "Comer... procriar... devoured pela fome infinita!",
-    "ability": "Faca da Vida Partenogenética & Baratas",
+    "ability": "Enxames de Baratas Devoradoras",
     "grade": "Grau Especial",
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Invocação / Shikigami",
@@ -1218,11 +1218,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Pena de Mangaká e Visão do Futuro",
+    "styleOrPower": "Pena de Mangaká (G-Pen)",
     "debutArc": "Jogo do Abate",
     "status": "Vivo",
     "quote": "As pessoas desenham mangá para expressar sua alma e desespero!",
-    "ability": "Pena de Tinta G-Pen & Visão de Futuro",
+    "ability": "Previsão do Futuro em Painéis de Tinta",
     "grade": "Grau 2",
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
@@ -1275,11 +1275,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Explosão de Partes do Corpo (Dentes/Olhos)",
+    "styleOrPower": "Explosão de Partes Corporais",
     "debutArc": "Jogo do Abate",
     "status": "Morto",
     "quote": "Arrancar meus próprios dentes e fazê-los explodir é meu estilo de diversão!",
-    "ability": "Explosão de Tecidos",
+    "ability": "Detonação de Dentes e Olhos como Bombas",
     "grade": "Grau 1",
     "era": "Ancestral (Reencarnado)",
     "techniqueType": "Inata Própria",
@@ -1294,11 +1294,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Milagres Armazenados",
+    "styleOrPower": "Armazenamento de Milagres",
     "debutArc": "Festival de Intercâmbio de Kyoto",
     "status": "Morto",
     "quote": "Eu sou um cara de muita sorte! Meus milagres me salvam no final!",
-    "ability": "Milagres Armazenados de Sorte",
+    "ability": "Consumo de Pequenos Milagres para Sobreviver",
     "grade": "Grau 3",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -1313,11 +1313,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Inversa (Inversão de Impactos de Força)",
+    "styleOrPower": "Inversa (Inverse)",
     "debutArc": "Incidente de Shibuya",
     "status": "Morto",
     "quote": "Ataques fortes se tornam fracos, e ataques fracos se tornam fatais!",
-    "ability": "Inversa (Inversão de Danos)",
+    "ability": "Inversão Proporcional de Impactos",
     "grade": "Grau 2",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -1370,11 +1370,11 @@
     "affiliation": [
       "Confronto no Cinema"
     ],
-    "styleOrPower": "Água-Viva Venenosa",
+    "styleOrPower": "Moon Dregs (Água-Viva Venenosa)",
     "debutArc": "Confronto no Cinema",
     "status": "Morto",
     "quote": "Se as pessoas têm corações, isso significa que elas são capazes de crueldade sem fim.",
-    "ability": "Moon Dregs (Água-Viva Venenosa)",
+    "ability": "Tentáculos e Toxinas de Shikigami",
     "grade": "Grau 3",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -1389,11 +1389,11 @@
     "affiliation": [
       "Família Itadori"
     ],
-    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "styleOrPower": "Nenhum (Civil)",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Morto",
     "quote": "Yuji... ajude as pessoas. Não morra sozinho como eu.",
-    "ability": "Sem Técnica Amaldiçoada",
+    "ability": "Civil sem energia amaldiçoada",
     "grade": "Não Classificado",
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
@@ -1408,11 +1408,11 @@
     "affiliation": [
       "Família Itadori"
     ],
-    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "styleOrPower": "Nenhum (Civil)",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Morto",
     "quote": "Deixe a Kaori em paz, pai... ela é minha esposa.",
-    "ability": "Sem Técnica Amaldiçoada",
+    "ability": "Civil sem energia amaldiçoada",
     "grade": "Não Classificado",
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
@@ -1427,11 +1427,11 @@
     "affiliation": [
       "Família Itadori"
     ],
-    "styleOrPower": "Sistema Anti-Gravidade",
+    "styleOrPower": "Sistema Antigravidade",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Morta",
     "quote": "Você tem certeza de que quer falar sobre isso na frente do nosso filho?",
-    "ability": "Sistema Antigravidade",
+    "ability": "Nulificação e Inversão da Gravidade",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -1446,11 +1446,11 @@
     "affiliation": [
       "Família Fushiguro"
     ],
-    "styleOrPower": "Sem Técnica Amaldiçoada",
+    "styleOrPower": "Nenhum (Civil)",
     "debutArc": "Introdução / Feto Amaldiçoado",
     "status": "Morta",
     "quote": "Seja gentil com os outros, Megumi.",
-    "ability": "Sem Técnica Amaldiçoada",
+    "ability": "Civil sem energia amaldiçoada",
     "grade": "Não Classificado",
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
@@ -1507,7 +1507,7 @@
     "debutArc": "Inventário Oculto / Morte Prematura",
     "status": "Vivo",
     "quote": "Meu querido Suguru... nós sempre apoiamos seus ideais.",
-    "ability": "Heart Catch (Agarrar Coração)",
+    "ability": "Mão Gigante Virtual de Agarrar",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -1522,11 +1522,11 @@
     "affiliation": [
       "Feiticeiros Livres"
     ],
-    "styleOrPower": "Hakuna Laana / Chicote Negro",
+    "styleOrPower": "Hakuna Laana",
     "debutArc": "Inventário Oculto / Morte Prematura",
     "status": "Vivo",
     "quote": "Minha dança desvia de qualquer ataque e quebra o ritmo dos meus inimigos.",
-    "ability": "Hakuna Laana & Chicote Negro",
+    "ability": "Evasão Rítmica de Feitiços & Chicote Negro",
     "grade": "Grau 1",
     "era": "Moderna",
     "techniqueType": "Inata Própria",
@@ -1678,7 +1678,7 @@
     "debutArc": "Origem da Obediência",
     "status": "Viva",
     "quote": "O Itadori me elogiou pela minha caligrafia e personalidade no fundamental.",
-    "ability": "Civil sem energia amaldiçoada",
+    "ability": "Civil",
     "grade": "Não Classificado",
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",

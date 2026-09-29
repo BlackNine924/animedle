@@ -50,7 +50,17 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
 
   if (guesses.length === 0) {
     return (
-      <div className="text-center py-14 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-3xl mx-auto my-8 bg-[#0d1426]/40 backdrop-blur-sm">
+      <div className="text-center py-12 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-3xl mx-auto my-8 bg-[#0d1426]/40 backdrop-blur-sm">
+        {animeSlug && (
+          <img
+            src={`/icons/${animeSlug}.png`}
+            alt=""
+            className="w-16 h-16 sm:w-20 sm:h-20 object-contain mx-auto mb-3.5 drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]"
+            onError={(e) => {
+              (e.currentTarget as HTMLElement).style.display = 'none';
+            }}
+          />
+        )}
         <p className="font-extrabold text-[#F5F7FF] text-base">Faça o seu primeiro palpite acima!</p>
         <p className="text-xs mt-1 text-slate-400">Digite o nome de qualquer personagem para comparar seus atributos.</p>
       </div>

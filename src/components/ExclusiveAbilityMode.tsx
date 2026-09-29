@@ -8,13 +8,13 @@ interface ExclusiveAbilityModeProps {
   themeColor: string;
 }
 
-type JJKFilter = 'all' | 'technique' | 'domain' | 'description';
-type BleachFilter = 'all' | 'bankai' | 'zanpakuto' | 'division';
+type JJKFilter = 'technique' | 'domain';
+type BleachFilter = 'bankai' | 'zanpakuto';
 
 interface ChallengeItem {
   id: string;
   character: Character;
-  type: 'technique' | 'domain' | 'bankai' | 'zanpakuto' | 'division' | 'description';
+  type: 'technique' | 'domain' | 'bankai' | 'zanpakuto';
   questionTitle: string;
   badge1: string;
   badge2?: string;
@@ -30,9 +30,9 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
   characters,
   themeColor,
 }) => {
-  // Filters
-  const [jjkFilter, setJjkFilter] = useState<JJKFilter>('all');
-  const [bleachFilter, setBleachFilter] = useState<BleachFilter>('all');
+  // Filters (no random tab, curated modes directly)
+  const [jjkFilter, setJjkFilter] = useState<JJKFilter>('technique');
+  const [bleachFilter, setBleachFilter] = useState<BleachFilter>('bankai');
 
   // Game state (3 Lives / Combo / Score)
   const [lives, setLives] = useState<number>(3);
@@ -68,13 +68,21 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
 
     if (animeSlug === 'jujutsu-kaisen') {
       characters.forEach((c) => {
-        // 1. Inate Technique Challenge
-        if (c.styleOrPower && c.styleOrPower !== 'Nenhum' && c.styleOrPower !== 'Nenhuma' && !c.styleOrPower.includes('Sem Técnica')) {
+        // Exclude civilians, characters without techniques, or pure celestial restriction
+        const isCivilian = c.styleOrPower?.includes('Civil') || c.techniqueType === 'Civil';
+        const hasNoTechnique =
+          !c.styleOrPower ||
+          c.styleOrPower.includes('Nenhum') ||
+          c.styleOrPower.includes('Sem Técnica') ||
+          c.styleOrPower.includes('Restrição Celestial');
+
+        // 1. Innate Technique Challenge
+        if (!isCivilian && !hasNoTechnique) {
           list.push({
             id: `${c.id}-technique`,
             character: c,
             type: 'technique',
-            questionTitle: 'A quem pertence esta técnica?',
+            questionTitle: 'A quem pertence esta técnica inata?',
             badge1: '★ TÉCNICA INATA',
             badge2: c.grade || 'Feiticeiro',
             targetName: c.styleOrPower,
@@ -88,7 +96,12 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
         }
 
         // 2. Domain Expansion Challenge
-        if (c.domainExpansion && c.domainExpansion.trim() !== '' && c.domainExpansion !== 'Nenhum') {
+        if (
+          c.domainExpansion &&
+          c.domainExpansion.trim() !== '' &&
+          c.domainExpansion !== 'Nenhum' &&
+          c.domainExpansion !== 'null'
+        ) {
           list.push({
             id: `${c.id}-domain`,
             character: c,
@@ -102,25 +115,6 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
               { label: 'Técnica Base', value: c.styleOrPower || 'Energia Amaldiçoada' },
               { label: 'Frase de Ativação', value: c.quote ? `"${c.quote}"` : 'Ryoiki Tenkai' },
               { label: 'Afiliação / Clã', value: c.affiliation?.join(', ') || 'Xamã Jujutsu' },
-            ],
-          });
-        }
-
-        // 3. Description Challenge
-        if (c.styleOrPower && c.styleOrPower.length > 5) {
-          list.push({
-            id: `${c.id}-desc`,
-            character: c,
-            type: 'description',
-            questionTitle: 'Qual feiticeiro utiliza esta habilidade?',
-            badge1: '📖 DESCRIÇÃO DE PODER',
-            badge2: c.grade || 'Feiticeiro',
-            targetName: `Usuário da habilidade: "${c.styleOrPower}"`,
-            clues: [
-              { label: 'Arco de estreia', value: c.debutArc || 'Jujutsu Kaisen' },
-              { label: 'Status atual', value: c.status || 'Ativo' },
-              { label: 'Citação do personagem', value: c.quote ? `"${c.quote}"` : 'Energia concentrada' },
-              { label: 'Afiliação / Clã', value: c.affiliation?.join(', ') || 'Escola de Jujutsu' },
             ],
           });
         }
@@ -138,7 +132,7 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
             type: 'bankai',
             questionTitle: 'De quem é esta Bankai?',
             badge1: '🌸 BANKAI',
-            badge2: c.rank || 'Gotei 13',
+            badge2: c.rank || 'Capitão',
             targetName: c.styleOrPower,
             clues: [
               { label: 'Divisão / Esquadrão', value: c.affiliation?.find(a => a.includes('Divisão')) || c.affiliation?.[0] || 'Gotei 13' },
@@ -167,26 +161,6 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
             ],
           });
         }
-
-        // 3. Division / Squad Challenge
-        const divisionAff = c.affiliation?.find(a => a.includes('Divisão'));
-        if (divisionAff) {
-          list.push({
-            id: `${c.id}-division`,
-            character: c,
-            type: 'division',
-            questionTitle: 'Identifique o Shinigami desta Divisão:',
-            badge1: '🛡 DIVISÃO DO GOTEI 13',
-            badge2: c.rank || 'Membro Oficial',
-            targetName: `${divisionAff} — ${c.rank || 'Oficial'}`,
-            clues: [
-              { label: 'Nome da Zanpakutō', value: c.styleOrPower || 'Katana Padrão' },
-              { label: 'Liberação Máxima', value: c.maxRelease || 'Shikai' },
-              { label: 'Arco de estreia', value: c.debutArc || 'Soul Society' },
-              { label: 'Frase do Personagem', value: c.quote ? `"${c.quote}"` : 'Pela Soul Society' },
-            ],
-          });
-        }
       });
     }
 
@@ -196,15 +170,11 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
   // Filtered challenges based on user selection
   const filteredChallenges = useMemo(() => {
     if (animeSlug === 'jujutsu-kaisen') {
-      if (jjkFilter === 'technique') return challenges.filter(c => c.type === 'technique');
       if (jjkFilter === 'domain') return challenges.filter(c => c.type === 'domain');
-      if (jjkFilter === 'description') return challenges.filter(c => c.type === 'description');
-      return challenges;
+      return challenges.filter(c => c.type === 'technique');
     } else {
-      if (bleachFilter === 'bankai') return challenges.filter(c => c.type === 'bankai');
       if (bleachFilter === 'zanpakuto') return challenges.filter(c => c.type === 'zanpakuto');
-      if (bleachFilter === 'division') return challenges.filter(c => c.type === 'division');
-      return challenges;
+      return challenges.filter(c => c.type === 'bankai');
     }
   }, [animeSlug, challenges, jjkFilter, bleachFilter]);
 
@@ -392,15 +362,13 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
         )}
       </div>
 
-      {/* Sub-mode Filter Tabs */}
-      <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
+      {/* Sub-mode Filter Tabs (No Aleatório - direct curated categories) */}
+      <div className="flex flex-wrap items-center justify-center gap-2.5 mb-4">
         {animeSlug === 'jujutsu-kaisen' ? (
           <>
             {[
-              { id: 'all', label: '🎲 Aleatório' },
-              { id: 'technique', label: '★ Técnicas' },
-              { id: 'domain', label: '⛩ Domínios' },
-              { id: 'description', label: '📖 Descrições' },
+              { id: 'technique', label: '★ Técnicas Inatas' },
+              { id: 'domain', label: '⛩ Expansões de Domínio' },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -408,9 +376,9 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
                   setJjkFilter(tab.id as JJKFilter);
                   handleNextChallenge();
                 }}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                className={`px-4 py-2 rounded-xl text-xs font-black transition-all ${
                   jjkFilter === tab.id
-                    ? 'bg-purple-600 text-white shadow-lg shadow-purple-600/30 border border-purple-400/50'
+                    ? 'bg-purple-600 text-white shadow-lg shadow-purple-600/40 border border-purple-400/50 scale-105'
                     : 'bg-[#0f172a] text-slate-400 hover:text-white border border-slate-800'
                 }`}
               >
@@ -421,10 +389,8 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
         ) : (
           <>
             {[
-              { id: 'all', label: '🎲 Aleatório' },
               { id: 'bankai', label: '🌸 Bankai' },
               { id: 'zanpakuto', label: '⚔ Zanpakutō' },
-              { id: 'division', label: '🛡 Divisões' },
             ].map((tab) => (
               <button
                 key={tab.id}
@@ -432,9 +398,9 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
                   setBleachFilter(tab.id as BleachFilter);
                   handleNextChallenge();
                 }}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                className={`px-4 py-2 rounded-xl text-xs font-black transition-all ${
                   bleachFilter === tab.id
-                    ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/30 border border-cyan-400/50'
+                    ? 'bg-cyan-600 text-white shadow-lg shadow-cyan-600/40 border border-cyan-400/50 scale-105'
                     : 'bg-[#0f172a] text-slate-400 hover:text-white border border-slate-800'
                 }`}
               >
@@ -514,82 +480,145 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
           })}
         </div>
 
-        {/* 4 Clickable Alternatives (A, B, C, D) */}
+        {/* Guessing Interface: Typing input for BankaiDLE (Bleach), Alternatives for JJK */}
         {!roundCompleted && !isGameOver && (
           <div className="relative z-10 mt-5">
-            <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 text-center mb-3">
-              Escolha uma das alternativas abaixo:
-            </h3>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl mx-auto">
-              {currentAlternatives.map((char) => {
-                const guessed = roundGuesses.find(g => g.character.id === char.id);
-                const isGuessedWrong = guessed && !guessed.isCorrect;
-                const isGuessedCorrect = guessed && guessed.isCorrect;
-
-                return (
-                  <button
-                    key={char.id}
-                    disabled={Boolean(guessed)}
-                    onClick={() => handleGuessCharacter(char)}
-                    className={`flex items-center gap-3 p-3 rounded-2xl border text-left transition-all transform hover:scale-[1.02] active:scale-[0.98] ${
-                      isGuessedCorrect
-                        ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-500/20'
-                        : isGuessedWrong
-                        ? 'bg-rose-950/40 border-rose-500/50 text-rose-300 opacity-50 cursor-not-allowed'
-                        : 'bg-[#0f172a]/90 hover:bg-[#16213e] border-slate-700/80 hover:border-purple-500/60 text-white shadow-md'
-                    }`}
-                  >
-                    <img
-                      src={char.avatar}
-                      alt={char.name}
-                      className="w-12 h-12 rounded-xl object-cover border border-white/10 flex-shrink-0"
-                    />
-                    <div className="flex-1 min-w-0">
-                      <p className="text-sm font-extrabold truncate text-white">{char.name}</p>
-                      <p className="text-[11px] text-slate-400 truncate">
-                        {Array.isArray(char.affiliation) ? char.affiliation.join(' • ') : (char.affiliation || 'Personagem')}
-                      </p>
-                    </div>
-                    {isGuessedCorrect && <CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0" />}
-                    {isGuessedWrong && <XCircle size={18} className="text-rose-400 flex-shrink-0" />}
-                  </button>
-                );
-              })}
-            </div>
-
-            {/* Ou Pesquise (Search fallback) */}
-            <div className="mt-5 max-w-md mx-auto relative">
-              <div className="relative flex items-center">
-                <Search size={15} className="absolute left-3.5 text-slate-400 pointer-events-none" />
-                <input
-                  type="text"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  placeholder="Ou pesquise outro personagem..."
-                  className="w-full bg-[#070b16] border border-slate-800 focus:border-purple-500 rounded-xl py-2 pl-9 pr-3 text-xs text-white placeholder-slate-500 outline-none transition-all"
-                />
-              </div>
-
-              {searchSuggestions.length > 0 && (
-                <div className="absolute left-0 right-0 top-full mt-1 bg-[#0a101f] border border-purple-500/40 rounded-xl overflow-hidden shadow-2xl z-50 divide-y divide-white/5">
-                  {searchSuggestions.map((char) => (
-                    <div
-                      key={char.id}
-                      onClick={() => handleGuessCharacter(char)}
-                      className="flex items-center gap-2.5 p-2 hover:bg-purple-600/20 cursor-pointer transition-colors"
-                    >
-                      <img
-                        src={char.avatar}
-                        alt={char.name}
-                        className="w-7 h-7 rounded-full object-cover border border-white/20"
-                      />
-                      <span className="text-xs font-bold text-white">{char.name}</span>
-                    </div>
-                  ))}
+            {animeSlug === 'bleach' ? (
+              <div className="max-w-md mx-auto relative">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-300 text-center mb-3">
+                  Digite o nome do Shinigami / Portador da Bankai:
+                </h3>
+                <div className="relative flex items-center">
+                  <Search size={16} className="absolute left-3.5 text-cyan-400 pointer-events-none" />
+                  <input
+                    type="text"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    placeholder="Digite o nome do personagem..."
+                    className="w-full bg-[#070b16] border border-cyan-500/40 focus:border-cyan-400 rounded-2xl py-3 pl-10 pr-4 text-sm text-white placeholder-slate-500 outline-none transition-all shadow-inner"
+                    autoFocus
+                  />
                 </div>
-              )}
-            </div>
+
+                {/* Suggestions dropdown */}
+                {searchSuggestions.length > 0 && (
+                  <div className="absolute left-0 right-0 top-full mt-1.5 bg-[#0a101f] border border-cyan-500/50 rounded-2xl overflow-hidden shadow-2xl z-50 divide-y divide-white/5 max-h-56 overflow-y-auto">
+                    {searchSuggestions.map((char) => (
+                      <div
+                        key={char.id}
+                        onClick={() => handleGuessCharacter(char)}
+                        className="flex items-center gap-3 p-2.5 hover:bg-cyan-600/20 cursor-pointer transition-colors"
+                      >
+                        <img
+                          src={char.avatar}
+                          alt={char.name}
+                          className="w-8 h-8 rounded-full object-cover border border-white/20"
+                        />
+                        <div className="flex flex-col">
+                          <span className="text-xs font-bold text-white">{char.name}</span>
+                          <span className="text-[10px] text-slate-400">
+                            {Array.isArray(char.affiliation) ? char.affiliation.join(' • ') : (char.affiliation || 'Soul Society')}
+                          </span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              /* Jujutsu Kaisen: 4 Alternatives + fallback search */
+              <div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-purple-300 text-center mb-3">
+                  Escolha uma das alternativas abaixo:
+                </h3>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl mx-auto">
+                  {currentAlternatives.map((char) => {
+                    const guessed = roundGuesses.find((g) => g.character.id === char.id);
+                    const isGuessedWrong = guessed && !guessed.isCorrect;
+                    const isGuessedCorrect = guessed && guessed.isCorrect;
+
+                    return (
+                      <button
+                        key={char.id}
+                        disabled={Boolean(guessed)}
+                        onClick={() => handleGuessCharacter(char)}
+                        className={`flex items-center gap-3 p-3 rounded-2xl border text-left transition-all transform hover:scale-[1.02] active:scale-[0.98] ${
+                          isGuessedCorrect
+                            ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-500/20'
+                            : isGuessedWrong
+                            ? 'bg-rose-950/40 border-rose-500/50 text-rose-300 opacity-50 cursor-not-allowed'
+                            : 'bg-[#0f172a]/90 hover:bg-[#16213e] border-slate-700/80 hover:border-purple-500/60 text-white shadow-md'
+                        }`}
+                      >
+                        <img
+                          src={char.avatar}
+                          alt={char.name}
+                          className="w-12 h-12 rounded-xl object-cover border border-white/10 flex-shrink-0"
+                        />
+                        <div className="flex-1 min-w-0">
+                          <p className="text-sm font-extrabold truncate text-white">{char.name}</p>
+                          <p className="text-[11px] text-slate-400 truncate">
+                            {Array.isArray(char.affiliation) ? char.affiliation.join(' • ') : (char.affiliation || 'Personagem')}
+                          </p>
+                        </div>
+                        {isGuessedCorrect && <CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0" />}
+                        {isGuessedWrong && <XCircle size={18} className="text-rose-400 flex-shrink-0" />}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Ou Pesquise (Search fallback) */}
+                <div className="mt-5 max-w-md mx-auto relative">
+                  <div className="relative flex items-center">
+                    <Search size={15} className="absolute left-3.5 text-slate-400 pointer-events-none" />
+                    <input
+                      type="text"
+                      value={searchTerm}
+                      onChange={(e) => setSearchTerm(e.target.value)}
+                      placeholder="Ou pesquise outro personagem..."
+                      className="w-full bg-[#070b16] border border-slate-800 focus:border-purple-500 rounded-xl py-2 pl-9 pr-3 text-xs text-white placeholder-slate-500 outline-none transition-all"
+                    />
+                  </div>
+
+                  {searchSuggestions.length > 0 && (
+                    <div className="absolute left-0 right-0 top-full mt-1 bg-[#0a101f] border border-purple-500/40 rounded-xl overflow-hidden shadow-2xl z-50 divide-y divide-white/5">
+                      {searchSuggestions.map((char) => (
+                        <div
+                          key={char.id}
+                          onClick={() => handleGuessCharacter(char)}
+                          className="flex items-center gap-2.5 p-2 hover:bg-purple-600/20 cursor-pointer transition-colors"
+                        >
+                          <img
+                            src={char.avatar}
+                            alt={char.name}
+                            className="w-7 h-7 rounded-full object-cover border border-white/20"
+                          />
+                          <span className="text-xs font-bold text-white">{char.name}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            {/* Chips de tentativas incorretas na rodada */}
+            {roundGuesses.length > 0 && (
+              <div className="flex flex-wrap items-center justify-center gap-2 mt-3">
+                {roundGuesses.map((g, idx) => (
+                  <div
+                    key={idx}
+                    className="flex items-center gap-1.5 bg-rose-950/40 border border-rose-500/40 px-2.5 py-1 rounded-full text-[11px] text-rose-300 font-semibold"
+                  >
+                    <img src={g.character.avatar} alt="" className="w-4 h-4 rounded-full object-cover" />
+                    <span>{g.character.name}</span>
+                    <span className="text-rose-400">❌</span>
+                  </div>
+                ))}
+              </div>
+            )}
 
             <p className="text-[11px] text-slate-500 text-center mt-3">
               Tentativas restantes nesta pergunta: <span className="font-bold text-white">{3 - roundGuesses.length}/3</span>

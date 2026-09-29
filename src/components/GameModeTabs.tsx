@@ -44,7 +44,7 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
         ]
       : []),
     { id: 'zoom', label: 'Zoom', icon: <ZoomIn size={15} /> },
-    { id: 'endless', label: 'Treino', icon: <InfinityIcon size={15} /> },
+    { id: 'endless', label: 'Infinito', icon: <InfinityIcon size={15} /> },
   ];
 
   const gridColsClass = modes.length === 4 ? 'grid-cols-4 max-w-xl' : 'grid-cols-6 max-w-3xl';

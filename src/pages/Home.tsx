@@ -20,7 +20,8 @@ interface AnimeCardProps {
 }
 
 const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
-  const cardSrc = `/cards/${anime.slug}.png`;
+  const cardWebp = `/cards/${anime.slug}.webp`;
+  const cardPng = `/cards/${anime.slug}.png`;
   const isComingSoon = !anime.implemented;
 
   return (
@@ -30,15 +31,18 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
     >
       {/* Moldura do card: proporção 2:3 padrão (1024x1536), moldura 100% visível sem cortes */}
       <div className="relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 group-hover:ring-amber-400/60">
-        <img
-          src={cardSrc}
-          alt={anime.name}
-          className="w-full h-full object-contain object-center block"
-          loading="lazy"
-          onError={(e) => {
-            (e.currentTarget as HTMLImageElement).style.opacity = '0.3';
-          }}
-        />
+        <picture>
+          <source srcSet={cardWebp} type="image/webp" />
+          <img
+            src={cardPng}
+            alt={anime.name}
+            className="w-full h-full object-contain object-center block"
+            loading="lazy"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).style.opacity = '0.3';
+            }}
+          />
+        </picture>
 
         {/* Badge "Em Breve" estilizada */}
         {isComingSoon && (
@@ -59,22 +63,10 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
         )}
       </div>
 
-      {/* Nome do anime com ícone oficial quando disponível */}
-      <div className="flex items-center justify-center gap-1.5 sm:gap-2 px-1 text-center">
-        {anime.implemented && (
-          <img
-            src={`/icons/${anime.slug}.png`}
-            alt=""
-            className="w-4 h-4 sm:w-5 sm:h-5 object-contain flex-shrink-0 drop-shadow"
-            onError={(e) => {
-              (e.currentTarget as HTMLElement).style.display = 'none';
-            }}
-          />
-        )}
-        <span className="font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
-          {anime.name}
-        </span>
-      </div>
+      {/* Nome do anime: fonte Outfit estilosa, tamanho ampliado e contraste impecável */}
+      <span className="text-center font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug px-1 group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
+        {anime.name}
+      </span>
     </div>
   );
 };
@@ -211,10 +203,43 @@ export const Home: React.FC = () => {
   };
 
   const handleSelect = (slug: string) => {
+    try {
+      const raw = localStorage.getItem('animedle_recent_animes');
+      let recents: string[] = raw ? JSON.parse(raw) : [];
+      recents = [slug, ...recents.filter(s => s !== slug)].slice(0, 10);
+      localStorage.setItem('animedle_recent_animes', JSON.stringify(recents));
+    } catch {}
     // Salva a posição exata do scroll da home antes de navegar
     sessionStorage.setItem('animedle_home_scroll', window.scrollY.toString());
     navigate(`/${slug}`);
   };
+
+  // ── Continue Jogando: Animes recentemente jogados ou com progresso ativo ──
+  const continuePlayingList = useMemo(() => {
+    try {
+      const recentSlugsRaw = localStorage.getItem('animedle_recent_animes');
+      let recentSlugs: string[] = recentSlugsRaw ? JSON.parse(recentSlugsRaw) : [];
+
+      const today = new Date().toISOString().split('T')[0];
+      for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (key && key.startsWith('animedle_progress_') && key.includes(today)) {
+          const match = key.match(/^animedle_progress_([a-z0-9-]+)_/);
+          if (match && match[1] && !recentSlugs.includes(match[1])) {
+            recentSlugs.unshift(match[1]);
+          }
+        }
+      }
+
+      const allImplemented = [...AVAILABLE_ANIMES, ...COLLECTION_ANIMES];
+      return recentSlugs
+        .map(slug => allImplemented.find((a: AnimeEntry) => a.slug === slug))
+        .filter((a): a is AnimeEntry => Boolean(a))
+        .slice(0, 5);
+    } catch {
+      return [];
+    }
+  }, []);
 
   // ── Filtragem ──────────────────────────────────────────────────────────
   const filterAnimes = (list: AnimeEntry[]) => {
@@ -349,6 +374,18 @@ export const Home: React.FC = () => {
           <p className="text-slate-500 text-center py-20 text-base">
             Nenhum anime encontrado para "{searchQuery}".
           </p>
+        )}
+
+        {/* Continue Jogando (exibido no topo quando houver jogos recentes ou em andamento) */}
+        {continuePlayingList.length > 0 && searchQuery.trim() === '' && activeGenre === null && (
+          <Section
+            title="Continue Jogando"
+            count={continuePlayingList.length}
+            icon="⚡"
+            defaultOpen={true}
+          >
+            <AnimeGrid animes={continuePlayingList} onSelect={handleSelect} />
+          </Section>
         )}
 
         {/* Disponíveis */}
