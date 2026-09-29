@@ -920,18 +920,20 @@ export const App: React.FC<{
         />
 
         {/* Quadro de Dicas & Botão Desistir (Dica 2 Inteligente no modo Citação) */}
-        <HintBox
-          targetCharacter={targetCharacter}
-          guessCount={currentGuesses.length}
-          isWon={isFinished}
-          onSurrender={handleSurrender}
-          disabled={isFinished}
-          currentMode={currentMode}
-          currentAnimeSlug={currentAnimeSlug}
-        />
+        {!(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && (
+          <HintBox
+            targetCharacter={targetCharacter}
+            guessCount={currentGuesses.length}
+            isWon={isFinished}
+            onSurrender={handleSurrender}
+            disabled={isFinished}
+            currentMode={currentMode}
+            currentAnimeSlug={currentAnimeSlug}
+          />
+        )}
 
         {/* Card do Personagem Revelado (Exibido ao Acertar ou Desistir em qualquer modo) */}
-        {isFinished && (
+        {isFinished && !(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && (
           <div
             style={{ borderColor: `${animeConfig.themeColor}50` }}
             className="max-w-2xl mx-auto my-6 p-4 sm:p-5 bg-[#0d1426] border rounded-2xl shadow-xl shadow-black/40 flex flex-col sm:flex-row items-center justify-between gap-4 animate-fadeIn"
