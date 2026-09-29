@@ -831,9 +831,20 @@ export const App: React.FC<{
               <span>Modo Treino (Ilimitado)</span>
             </div>
           )}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight drop-shadow-md">
-            Adivinhe o Personagem de <span style={{ color: animeConfig.themeColor }}>{animeConfig.title}</span>
-          </h2>
+          <div className="inline-flex items-center justify-center px-4 sm:px-6 py-2 sm:py-2.5 rounded-2xl bg-[#060b18]/75 backdrop-blur-md border border-white/10 shadow-2xl mb-1 mt-1 max-w-full">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
+              Adivinhe o Personagem de{' '}
+              <span
+                style={{
+                  color: animeConfig.themeColor,
+                  textShadow: `0 0 20px ${animeConfig.themeColor}88, 0 2px 4px rgba(0,0,0,0.95)`,
+                  filter: 'brightness(1.25) contrast(1.15)',
+                }}
+              >
+                {animeConfig.title}
+              </span>
+            </h2>
+          </div>
           {animeConfig.mangaCoverage && (
             <div className="mt-2.5 flex items-center justify-center">
               <button

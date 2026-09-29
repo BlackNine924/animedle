@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, ChevronDown, ChevronUp } from 'lucide-react';
 import {
@@ -28,8 +28,8 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
       className="flex flex-col items-center gap-2.5 sm:gap-3 cursor-pointer group select-none"
       onClick={onClick}
     >
-      {/* Moldura do card: proporção 3:4 perfeita, moldura 100% visível sem cortes no topo */}
-      <div className="relative w-full aspect-[3/4] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 group-hover:ring-amber-400/60">
+      {/* Moldura do card: proporção 2:3 padrão (1024x1536), moldura 100% visível sem cortes */}
+      <div className="relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 group-hover:ring-amber-400/60">
         <img
           src={cardSrc}
           alt={anime.name}
@@ -97,17 +97,36 @@ interface SectionProps {
   count: number;
   children: React.ReactNode;
   defaultOpen?: boolean;
+  isOpen?: boolean;
+  onToggle?: (open: boolean) => void;
   icon?: string;
 }
 
-const Section: React.FC<SectionProps> = ({ title, count, children, defaultOpen = true, icon }) => {
-  const [open, setOpen] = useState(defaultOpen);
+const Section: React.FC<SectionProps> = ({
+  title,
+  count,
+  children,
+  defaultOpen = true,
+  isOpen,
+  onToggle,
+  icon,
+}) => {
+  const [internalOpen, setInternalOpen] = useState(defaultOpen);
+  const open = isOpen !== undefined ? isOpen : internalOpen;
+
+  const handleToggle = () => {
+    if (onToggle) {
+      onToggle(!open);
+    } else {
+      setInternalOpen(o => !o);
+    }
+  };
 
   return (
     <div className="mb-12">
       <button
         className="flex items-center gap-3 mb-6 w-full text-left group"
-        onClick={() => setOpen(o => !o)}
+        onClick={handleToggle}
       >
         {icon && <span className="text-2xl">{icon}</span>}
         <h2 className="text-xl sm:text-2xl font-black text-slate-100 group-hover:text-amber-300 transition-colors tracking-tight">
@@ -142,11 +161,46 @@ export const Home: React.FC = () => {
     comingSoon: true,
   });
 
+  // Estado da aba "Em Breve" salvo no sessionStorage (recolhida por padrão se nunca aberta)
+  const [isComingSoonOpen, setIsComingSoonOpen] = useState<boolean>(() => {
+    return sessionStorage.getItem('animedle_coming_soon_open') === 'true';
+  });
+
+  const handleToggleComingSoon = (open: boolean) => {
+    setIsComingSoonOpen(open);
+    sessionStorage.setItem('animedle_coming_soon_open', String(open));
+  };
+
+  // Restaura favicon para o site e restaura scroll quando voltando de um card
+  useEffect(() => {
+    // 1. Redefine o favicon para o logo principal do site AnimeDLE
+    const faviconLink: HTMLLinkElement | null = document.querySelector("link[rel*='icon']");
+    if (faviconLink) {
+      faviconLink.href = '/favicon.png';
+    }
+
+    // 2. Restaura o scroll para a posição exata se o usuário tiver navegado a partir da home
+    const savedScroll = sessionStorage.getItem('animedle_home_scroll');
+    if (savedScroll !== null) {
+      const targetY = parseInt(savedScroll, 10);
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: targetY, behavior: 'instant' });
+      });
+      const timer = setTimeout(() => {
+        window.scrollTo({ top: targetY, behavior: 'instant' });
+        sessionStorage.removeItem('animedle_home_scroll');
+      }, 50);
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
   const toggleSection = (key: keyof SectionToggle) => {
     setSectionToggles(prev => ({ ...prev, [key]: !prev[key] }));
   };
 
   const handleSelect = (slug: string) => {
+    // Salva a posição exata do scroll da home antes de navegar
+    sessionStorage.setItem('animedle_home_scroll', window.scrollY.toString());
     navigate(`/${slug}`);
   };
 
@@ -309,13 +363,14 @@ export const Home: React.FC = () => {
           </Section>
         )}
 
-        {/* Em Breve — recolhido por padrão */}
+        {/* Em Breve — estado sincronizado com sessionStorage para preservar scroll e abertura */}
         {sectionToggles.comingSoon && (
           <Section
             title="Em Breve"
             count={filteredComingSoon.length}
             icon="🔜"
-            defaultOpen={false}
+            isOpen={isComingSoonOpen}
+            onToggle={handleToggleComingSoon}
           >
             <AnimeGrid animes={filteredComingSoon} onSelect={handleSelect} />
           </Section>
