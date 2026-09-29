@@ -9,7 +9,7 @@ interface GameModeTabsProps {
   currentAnimeSlug?: string;
 }
 
-const ALLOWED_QUOTE_ABILITY_ANIMES = ['one-piece', 'naruto', 'demon-slayer', 'jujutsu-kaisen'];
+const ALLOWED_QUOTE_ABILITY_ANIMES = ['one-piece', 'naruto', 'demon-slayer', 'jujutsu-kaisen', 'bleach'];
 
 export const GameModeTabs: React.FC<GameModeTabsProps> = ({
   currentMode,
@@ -18,6 +18,8 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
   currentAnimeSlug = '',
 }) => {
   const hasQuoteAndAbility = ALLOWED_QUOTE_ABILITY_ANIMES.includes(currentAnimeSlug);
+
+  const isExclusiveAbility = currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach';
 
   const abilityLabel =
     currentAnimeSlug === 'naruto'
@@ -28,15 +30,17 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
       ? 'Respirações'
       : currentAnimeSlug === 'jujutsu-kaisen'
       ? 'Técnicas & Domínios'
+      : currentAnimeSlug === 'bleach'
+      ? 'BankaiDLE'
       : 'Habilidade';
 
-  const modes: { id: GameMode; label: string; icon: React.ReactNode }[] = [
+  const modes: { id: GameMode; label: string; icon: React.ReactNode; isExclusive?: boolean }[] = [
     { id: 'classic', label: 'Clássico', icon: <Grid size={15} /> },
     { id: 'wanted', label: 'Procurado', icon: <Eye size={15} /> },
     ...(hasQuoteAndAbility
       ? [
           { id: 'quote' as GameMode, label: 'Citação', icon: <MessageSquare size={15} /> },
-          { id: 'ability' as GameMode, label: abilityLabel, icon: <Zap size={15} /> },
+          { id: 'ability' as GameMode, label: abilityLabel, icon: <Zap size={15} />, isExclusive: isExclusiveAbility },
         ]
       : []),
     { id: 'zoom', label: 'Zoom', icon: <ZoomIn size={15} /> },
@@ -74,6 +78,11 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
                 {mode.icon}
               </span>
               <span className="hidden md:inline tracking-tight">{mode.label}</span>
+              {mode.isExclusive && (
+                <span className="absolute -top-2.5 left-1/2 -translate-x-1/2 bg-amber-500 text-black text-[9px] font-black uppercase px-1.5 py-0.2 rounded-full tracking-wider shadow-md pointer-events-none whitespace-nowrap">
+                  Exclusivo
+                </span>
+              )}
             </button>
           );
         })}

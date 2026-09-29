@@ -9,6 +9,7 @@ import { HowToPlayModal } from './components/HowToPlayModal';
 import { StatsModal } from './components/StatsModal';
 import { HintBox } from './components/HintBox';
 import { MangaCoverageModal } from './components/MangaCoverageModal';
+import { ExclusiveAbilityMode } from './components/ExclusiveAbilityMode';
 
 import { ANIMES_CONFIG } from './data/animes/config';
 import demonSlayerCharacters from './data/animes/demon-slayer/characters.json';
@@ -116,7 +117,7 @@ export const App: React.FC<{
 
   // Garante que animes sem os modos citação e habilidade permaneçam no modo clássico
   React.useEffect(() => {
-    const ALLOWED = ['one-piece', 'naruto', 'demon-slayer', 'jujutsu-kaisen'];
+    const ALLOWED = ['one-piece', 'naruto', 'demon-slayer', 'jujutsu-kaisen', 'bleach'];
     if (!ALLOWED.includes(currentAnimeSlug) && (currentMode === 'quote' || currentMode === 'ability')) {
       setCurrentMode('classic');
     }
@@ -1049,9 +1050,15 @@ export const App: React.FC<{
           </div>
         )}
 
-        {/* MODO HABILIDADE */}
+        {/* MODO HABILIDADE / MODOS EXCLUSIVOS */}
         {currentMode === 'ability' && (
-          currentAbilityItem ? (
+          (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach') ? (
+            <ExclusiveAbilityMode
+              animeSlug={currentAnimeSlug}
+              characters={characters}
+              themeColor={animeConfig.themeColor}
+            />
+          ) : currentAbilityItem ? (
             <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl">
               <h3 className="font-extrabold text-base text-white flex items-center justify-center gap-2 mb-2">
                 <Zap size={18} style={{ color: animeConfig.themeColor }} />
