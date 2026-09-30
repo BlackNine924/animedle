@@ -1,0 +1,799 @@
+export const NANATSU_CHARACTERS = [
+  {
+    id: "meliodas",
+    name: "Meliodas",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Sete Pecados Capitais", "Clã dos Demônios"],
+    sacredTreasure: "Lostvayne (Espada Demônio)",
+    rankOrTitle: "Pecado da Ira do Dragão / Líder dos Pecados",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Não importa o quanto doa, não importa o quanto seja doloroso... mesmo que eu morra, continuarei mantendo a promessa que fiz a você, Elizabeth!",
+    techniques: [
+      "Full Counter (Reação Total Mágica)",
+      "Hellblaze (Chamas do Purgatório)",
+      "Kami Chigiri (Mil Cortes Divinos)",
+      "Assault Mode (Modo de Assalto Demoníaco)"
+    ],
+    wikiTitle: "Meliodas"
+  },
+  {
+    id: "elizabeth-liones",
+    name: "Elizabeth Liones",
+    gender: "Feminino",
+    species: "Deusa",
+    affiliation: ["Reino de Liones", "Clã das Deusas", "Sete Pecados Capitais"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Princesa de Liones / Reencarnação da Deusa Elizabeth",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Mesmo que você se torne o inimigo de todo o mundo, Meliodas, eu sempre estarei ao seu lado!",
+    techniques: [
+      "Ark (Luz Sagrada Purificadora)",
+      "Invigorate (Cura Milagrosa em Massa)",
+      "Tranquilize (Calmante Espiritual de Feras)",
+      "Despertar dos Quatro Olhos de Deusa"
+    ],
+    wikiTitle: "Elizabeth Liones"
+  },
+  {
+    id: "hawk",
+    name: "Hawk",
+    gender: "Masculino",
+    species: "Besta do Purgatório",
+    affiliation: ["Chapéu de Javali", "Sete Pecados Capitais"],
+    sacredTreasure: "Balor's Magical Eye (Brinco de Balor)",
+    rankOrTitle: "Capitão da Ordem dos Limpadores de Restos",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Eu sou o Capitão Hawk, o porco mais rápido e destemido de toda Britânia!",
+    techniques: [
+      "Transpork (Absorção de Poderes Comendo Criaturas)",
+      "Rolling Ham Attack (Investida Giratória)",
+      "Super Pork Chump (Ataque Pesado Suíno)",
+      "Resistência Vital do Purgatório"
+    ],
+    wikiTitle: "Hawk"
+  },
+  {
+    id: "diane",
+    name: "Diane",
+    gender: "Feminino",
+    species: "Gigante",
+    affiliation: ["Sete Pecados Capitais", "Clã dos Gigantes"],
+    sacredTreasure: "Gideon (Martelo de Guerra)",
+    rankOrTitle: "Pecado da Inveja da Serpente / Rainha dos Gigantes",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "O meu tamanho não define meu coração! Eu lutarei para proteger as pessoas que eu amo com a força da própria Terra!",
+    techniques: [
+      "Creation (Criação e Manipulação da Terra)",
+      "Mother Catastrophe (Mãe Catástrofe)",
+      "Ground Gladius (Gladius de Rocha Colossal)",
+      "Heavy Metal (Endurecimento Metálico Corporal)"
+    ],
+    wikiTitle: "Diane"
+  },
+  {
+    id: "ban",
+    name: "Ban",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Sete Pecados Capitais", "Floresta do Rei das Fadas"],
+    sacredTreasure: "Courechouse (Cajado Sagrado Seccionado)",
+    rankOrTitle: "Pecado da Ganância da Raposa / O Imortal",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Um verdadeiro homem nunca volta atrás em uma promessa feita a quem ama.",
+    techniques: [
+      "Snatch (Roubo de Força Física e Objetos)",
+      "Fox Hunt (Caçada da Raposa com Chicote)",
+      "Physical Hunt (Drenagem de Poder Corporal)",
+      "Gift (Doação de Energia Vital do Purgatório)"
+    ],
+    wikiTitle: "Ban"
+  },
+  {
+    id: "king",
+    name: "King (Harlequin)",
+    gender: "Masculino",
+    species: "Fada",
+    affiliation: ["Sete Pecados Capitais", "Floresta do Rei das Fadas"],
+    sacredTreasure: "Chastiefol (Lança Espiritual)",
+    rankOrTitle: "Pecado da Preguiça do Urso / Rei das Fadas",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Como Rei das Fadas, eu jurei proteger a floresta e a Diane com todas as formas de Chastiefol!",
+    techniques: [
+      "Disaster (Controle de Vida, Morte e Toxinas)",
+      "Chastiefol Primeira Forma: Lança Perfurante",
+      "Chastiefol Segunda Forma: Guardião de Musgo",
+      "Chastiefol Quinta Forma: Increase (Chuva de Lâminas)"
+    ],
+    wikiTitle: "King"
+  },
+  {
+    id: "gowther",
+    name: "Gowther",
+    gender: "Masculino",
+    species: "Boneco",
+    affiliation: ["Sete Pecados Capitais"],
+    sacredTreasure: "Herritt (Arco Duplo)",
+    rankOrTitle: "Pecado da Luxúria da Cabra / Criação do Mago Gowther",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "O que é um coração? Eu não entendia as emoções humanas... até sentir a dor de perder alguém precioso.",
+    techniques: [
+      "Invasion (Invasão Mental e Manipulação de Memória)",
+      "Rewrite Light (Reescrita Luminosa de Lembranças)",
+      "Nightmare Teller (Projeção de Pesadelos Traumáticos)",
+      "Black Out (Apagão Sensorial Instantâneo)"
+    ],
+    wikiTitle: "Gowther"
+  },
+  {
+    id: "merlin",
+    name: "Merlin",
+    gender: "Feminino",
+    species: "Humano",
+    affiliation: ["Sete Pecados Capitais", "Reino de Camelot", "Belialuin"],
+    sacredTreasure: "Aldan (Estrela da Manhã)",
+    rankOrTitle: "Pecado da Gula do Javali / A Maior Maga de Britânia",
+    debutArc: "Arco da Infiltração no Reino & Queda de Hendrickson",
+    status: "Vivo",
+    quote: "A busca pelo conhecimento absoluto não tem fim. Perante a minha magia infinita, o impossível simplesmente deixa de existir.",
+    techniques: [
+      "Infinity (Duração Infinita de Feitiços)",
+      "Absolute Cancel (Cancelamento Mágico Absoluto)",
+      "Perfect Cube (Cubo Perfeito Impenetrável)",
+      "Teletransporte de Alta Escala Dimensional"
+    ],
+    wikiTitle: "Merlin"
+  },
+  {
+    id: "escanor",
+    name: "Escanor",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Sete Pecados Capitais", "Reino de Castellio"],
+    sacredTreasure: "Rhitta (Machado Divino)",
+    rankOrTitle: "Pecado do Orgulho do Leão / O Mestre do Sol",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Sentir ódio de alguém mais fraco do que eu? Tudo o que sinto por você... é pena. Quem decidiu isso?",
+    techniques: [
+      "Sunshine (Graça Solar Divina)",
+      "Cruel Sun (Sol Cruel Incinerador)",
+      "Pride Flare (Explosão de Chama Solar)",
+      "The One (O Invencível no Ápice do Meio-Dia)"
+    ],
+    wikiTitle: "Escanor"
+  },
+  {
+    id: "arthur-pendragon",
+    name: "Arthur Pendragon",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Camelot"],
+    sacredTreasure: "Sequência (Espada Sagrada) & Excalibur",
+    rankOrTitle: "Rei de Camelot / Hospedeiro do Caos",
+    debutArc: "Arco da Infiltração no Reino & Queda de Hendrickson",
+    status: "Vivo",
+    quote: "Eu empunharei a Excalibur para criar um reino onde nenhum inocente precise sofrer com as guerras dos clãs!",
+    techniques: [
+      "Excalibur (Almas dos Maiores Reis Espadachins)",
+      "Poder do Caos Primordial (Criação e Distorção da Realidade)",
+      "Cortes Sagrados de Luz Dourada",
+      "Liderança Nobre de Camelot"
+    ],
+    wikiTitle: "Arthur Pendragon"
+  },
+  {
+    id: "gilthunder",
+    name: "Gilthunder",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Cavaleiro Sagrado de Diamante",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Eu sou mais forte do que qualquer um dos Sete Pecados Capitais... ou pelo menos era isso que eu precisava fingir para salvar Margaret!",
+    techniques: [
+      "Thunderbolt (Manipulação de Eletricidade e Trovão)",
+      "Raitei no Tettsui (Martelo de Ferro do Deus do Trovão)",
+      "Raitei no Ken (Espada Relâmpago Cortante)",
+      "Carga Elétrica de Alta Velocidade"
+    ],
+    wikiTitle: "Gilthunder"
+  },
+  {
+    id: "howzer",
+    name: "Howzer",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Grande Mestre dos Cavaleiros Sagrados",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Vou criar uma tempestade de vento tão furiosa que varrerá qualquer inimigo do reino!",
+    techniques: [
+      "Tempest (Manipulação de Vendavais e Tornados)",
+      "Rising Tornado (Tornado Ascendente Cortante)",
+      "Super Cyclone (Ciclone Destruidor)",
+      "Lança de Pressão Eólica Perfurante"
+    ],
+    wikiTitle: "Howzer"
+  },
+  {
+    id: "griamore",
+    name: "Griamore",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Cavaleiro Sagrado Protetor de Veronica",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Minha barreira é inquebrável enquanto for para defender a Princesa Veronica!",
+    techniques: [
+      "Wall (Barreira Esférica de Energia Protetora)",
+      "Long Wall (Expansão de Parede Mágica Defensiva)",
+      "Defesa de Impacto Contra Ataques Físicos e Mágicos",
+      "Combate de Contenção com Escudo"
+    ],
+    wikiTitle: "Griamore"
+  },
+  {
+    id: "guila",
+    name: "Guila",
+    gender: "Feminino",
+    species: "Humano",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Cavaleira Sagrada da Nova Geração",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Meu irmão Zeal é a coisa mais importante do mundo para mim. Por ele, enfrentarei demônios ou deuses!",
+    techniques: [
+      "Explosion (Detonação de Minas e Chamas Mágicas)",
+      "Shot Bombs (Disparos Concentrados de Esferas Explosivas)",
+      "Brilliant Detonation (Detonação Brilhante em Área)",
+      "Estocadas com Florete Flamejante"
+    ],
+    wikiTitle: "Guila"
+  },
+  {
+    id: "jericho",
+    name: "Jericho",
+    gender: "Feminino",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Cavaleira Sagrada Aprendiz de Gelo",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Eu não sou fraca só por ser mulher! Eu me tornarei uma espadachim formidável!",
+    techniques: [
+      "Ice Fang (Garras de Gelo Herdadas do Irmão Gustaf)",
+      "Cortes de Espada Glaciais Congelantes",
+      "Rajada Espiral de Lâminas de Gelo",
+      "Agilidade Rápida de Combate"
+    ],
+    wikiTitle: "Jericho"
+  },
+  {
+    id: "hendrickson",
+    name: "Hendrickson",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones", "Clã dos Druidas"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Ex-Grande Mestre dos Cavaleiros Sagrados / Druida",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Fui cegado pelas mentiras de Fraudrin... agora dedicarei o restante dos meus dias à redenção e aos deuses druidas.",
+    techniques: [
+      "Acid (Ácido Corrosivo Mágico)",
+      "Purge (Purificação Sagrada de Druida contra Mortos-Vivos)",
+      "Dark Snow (Chuva de Neve Demoníaca Corrosiva)",
+      "Espada Sagrada Refinada de Liones"
+    ],
+    wikiTitle: "Hendrickson"
+  },
+  {
+    id: "dreyfus",
+    name: "Dreyfus",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Grande Mestre dos Cavaleiros Sagrados",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "A determinação de um cavaleiro sagrado reside na solidez inquebrantável da sua vontade!",
+    techniques: [
+      "Break (Poder da Determinação Destruidora de Magia)",
+      "Rakan (Lança Perfuradora Espiritual da Espada)",
+      "Cortes Sísmicos com Espada Pesada",
+      "Resistência Física Sobre-Humana"
+    ],
+    wikiTitle: "Dreyfus"
+  },
+  {
+    id: "zaratras",
+    name: "Zaratras",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Cavaleiros Sagrados", "Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Lendário Grande Mestre dos Cavaleiros Sagrados",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Mesmo que eu tenha sido assassinado no passado, meu espírito retorna para expiar as culpas e salvar meu filho Gilthunder!",
+    techniques: [
+      "Great Thunder (Grande Trovão Divino)",
+      "Purge (Expurgação Espiritual Sagrada)",
+      "Espadachim Supremo de Diamante",
+      "Sacrifício Vital Sagrado"
+    ],
+    wikiTitle: "Zaratras"
+  },
+  {
+    id: "matrona",
+    name: "Matrona",
+    gender: "Feminino",
+    species: "Gigante",
+    affiliation: ["Clã dos Gigantes"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Guerreira Chefe dos Gigantes",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "Os gigantes nascem para a luta, mas aprendi com os humanos que também podemos lutar para proteger quem amamos!",
+    techniques: [
+      "Dança da Terra dos Gigantes",
+      "Bakuha (Explosão Terrestre Sísmica)",
+      "Golpes Físicos Sísmicos com Pés e Punhos",
+      "Manipulação de Pilares Rochosos"
+    ],
+    wikiTitle: "Matrona"
+  },
+  {
+    id: "elaine",
+    name: "Elaine",
+    gender: "Feminino",
+    species: "Fada",
+    affiliation: ["Floresta do Rei das Fadas"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Santa da Fonte da Juventude",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Ban... foram os sete dias mais felizes de toda a minha vida de centenas de anos ao seu lado.",
+    techniques: [
+      "Miracle Wind (Manipulação de Vendavais Suaves e Lâminas de Vento)",
+      "Leitura do Coração e das Emoções",
+      "Voo Levitatório com Asas de Fada",
+      "Guardiã da Água da Imortalidade"
+    ],
+    wikiTitle: "Elaine"
+  },
+  {
+    id: "gelda",
+    name: "Gelda",
+    gender: "Feminino",
+    species: "Vampiro",
+    affiliation: ["Clã dos Vampiros"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Nobre Vampira / Amada de Zeldris",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Vivo",
+    quote: "Zeldris... você me selou para me salvar da execução. Eu esperarei três mil anos por você se for preciso.",
+    techniques: [
+      "Imortalidade e Regeneração Vampírica",
+      "Manipulação e Controle de Sangue Vital",
+      "Garras Cortantes Noturnas",
+      "Resistência à Luz Solar com Magia de Trevas"
+    ],
+    wikiTitle: "Gelda"
+  },
+  {
+    id: "bartra-liones",
+    name: "Bartra Liones",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Rei de Liones",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Minha visão profética me revelou a chegada dos guerreiros sagrados que salvarão Britânia da escuridão!",
+    techniques: [
+      "Vision (Previsão do Futuro e Profecias Divinas)",
+      "Sabedoria Régia e Liderança",
+      "Vontade Inabalável de Soberano",
+      "Proteção Real de Liones"
+    ],
+    wikiTitle: "Bartra Liones"
+  },
+  {
+    id: "helbram",
+    name: "Helbram",
+    gender: "Masculino",
+    species: "Fada",
+    affiliation: ["Floresta do Rei das Fadas", "Cavaleiros Sagrados"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Cardeal / Melhor Amigo de King",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Morto",
+    quote: "Os humanos mataram nossas irmãs fadas apenas para vender suas asas no mercado... eles não merecem perdão!",
+    techniques: [
+      "Link (Canalização do Poder de Múltiplos Cavaleiros Sagrados)",
+      "Espada Sagrada Demoníaca Hunter Wisp",
+      "Metamorfose Humana Perfeita",
+      "Comunicação Espiritual Astral com King"
+    ],
+    wikiTitle: "Helbram"
+  },
+  {
+    id: "zeldris",
+    name: "Zeldris",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Espada Demoníaca Curta",
+    rankOrTitle: "Mandamento da Piedade / Líder dos Mandamentos",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "Perante o poder concedido pelo Rei Demônio, qualquer um que virar as costas para mim cairá em submissão absoluta!",
+    techniques: [
+      "Mandamento da Piedade (Submissão Forçada)",
+      "God (Empréstimo do Poder Mágico do Rei Demônio)",
+      "Ominous Nebula (Nebulosa Sinistra de Atração e Cortes)",
+      "Dies Irae (Chamas Negras do Juízo Final)"
+    ],
+    wikiTitle: "Zeldris"
+  },
+  {
+    id: "estarossa",
+    name: "Estarossa",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Espadas Espirituais de Trevas",
+    rankOrTitle: "Mandamento do Amor / Falsa Identidade de Mael",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "Qualquer um que guardar ódio em seu coração não terá forças para me ferir perante o meu Mandamento do Amor!",
+    techniques: [
+      "Mandamento do Amor (Neutralização de Inimigos com Ódio)",
+      "Full Counter Físico (Reflexão de Ataques Corporais)",
+      "Rebellion (Sete Lâminas Negras de Matança)",
+      "Black Hound (Cão das Chamas do Purgatório)"
+    ],
+    wikiTitle: "Estarossa"
+  },
+  {
+    id: "mael",
+    name: "Mael",
+    gender: "Masculino",
+    species: "Deusa",
+    affiliation: ["Quatro Arcanjos", "Clã das Deusas"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Líder dos Quatro Arcanjos / O Arcanjo da Morte",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Vivo",
+    quote: "A luz do sol não julga os pecados com crueldade, ela simplesmente purifica a escuridão do mundo.",
+    techniques: [
+      "Sunshine (Graça Solar Original Suprema)",
+      "Helios Flare (Erupção Solar Purificadora)",
+      "Quatro Asas Divinas de Deusa",
+      "Bell of Truth (Sino da Verdade e Dissipação de Ilusões)"
+    ],
+    wikiTitle: "Mael"
+  },
+  {
+    id: "derieri",
+    name: "Derieri",
+    gender: "Feminino",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Mandamento da Pureza",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Falando do fundo... cada soco meu acumula o peso e o impacto do anterior. Você não aguentará cinquenta golpes!",
+    techniques: [
+      "Combo Star (Acúmulo Exponencial de Força a Cada Soco)",
+      "Transformação Indura (Besta da Destruição Primordial)",
+      "Mandamento da Pureza",
+      "Manto Corporal de Trevas Demoníacas"
+    ],
+    wikiTitle: "Derieri"
+  },
+  {
+    id: "monspeet",
+    name: "Monspeet",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Mandamento da Reticência",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Derieri, você não precisa dizer nada. Eu sempre entenderei tudo o que você sente sem precisar de palavras.",
+    techniques: [
+      "Gokuencho (Pássaro de Chamas Negras do Purgatório)",
+      "Trick Star (Troca Instantânea de Posição de Dois Objetos)",
+      "Transformação Indura",
+      "Mandamento da Reticência"
+    ],
+    wikiTitle: "Monspeet"
+  },
+  {
+    id: "gloxinia",
+    name: "Gloxinia",
+    gender: "Masculino",
+    species: "Fada",
+    affiliation: ["Dez Mandamentos", "Primeiro Rei das Fadas"],
+    sacredTreasure: "Basquias (Lança Espiritual)",
+    rankOrTitle: "Mandamento do Repouso / Primeiro Rei das Fadas",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "O ódio contra os humanos nos levou a caminhos tortuosos... mas no fim, salvaremos a nova geração de Britânia!",
+    techniques: [
+      "Basquias Primeira Forma: Lança Espiritual Demoníaca",
+      "Basquias Sétima Forma: Moon Rose (Rosa Lunar de Cura Total)",
+      "Invocação de Servos de Madeira e Raízes Gigantes",
+      "Voo com Asas de Borboleta Primordiais"
+    ],
+    wikiTitle: "Gloxinia"
+  },
+  {
+    id: "drole",
+    name: "Drole",
+    gender: "Masculino",
+    species: "Gigante",
+    affiliation: ["Dez Mandamentos", "Primeiro Rei dos Gigantes"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Mandamento da Paciência / Fundador do Clã dos Gigantes",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "A Dança de Drole conecta o corpo do guerreiro com o fluxo eterno do solo terrestre!",
+    techniques: [
+      "Drole Dance (Dança de Fortalecimento com o Solo)",
+      "Giga Pick (Pilar Perfurador de Terra Colossal)",
+      "Quatro Braços de Combate Físico Titânico",
+      "Mandamento da Paciência"
+    ],
+    wikiTitle: "Drole"
+  },
+  {
+    id: "galand",
+    name: "Galand",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Lança Alabarda de Combate",
+    rankOrTitle: "Mandamento da Verdade",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Mentir diante de mim significa se transformar em pedra na mesma hora! Essa é a lei da Verdade!",
+    techniques: [
+      "Critical Over (Superação Crítica de Força Bruta)",
+      "Mandamento da Verdade (Petrificação Imediata de Mentirosos)",
+      "Zanbarazan (Turbilhão de Cortes Devastadores)",
+      "Saltos Sísmicos de Longa Distância"
+    ],
+    wikiTitle: "Galand"
+  },
+  {
+    id: "melascula",
+    name: "Melascula",
+    gender: "Feminino",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Mandamento da Fé",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "A fé vazia queima os olhos dos mortais! As almas dos falecidos retornam sob o comando do meu rancor!",
+    techniques: [
+      "Ressurreição de Almas com Rancor do Purgatório",
+      "Cocoon of Darkness (Casulo de Trevas Impenetrável)",
+      "Forma de Serpente Gigante Venenosa",
+      "Devoração de Almas Humanas"
+    ],
+    wikiTitle: "Melascula"
+  },
+  {
+    id: "grayroad",
+    name: "Grayroad",
+    gender: "Sem Gênero",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Mandamento do Pacifismo",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Selado",
+    quote: "Aquele que tirar uma vida em minha presença terá todo o seu tempo de vida roubado instantaneamente.",
+    techniques: [
+      "Mandamento do Pacifismo (Envelhecimento Acelerado Mortal)",
+      "Geração de Ovos de Demônios Menores",
+      "Jubaku Ensa (Correntes de Maldição Inescapáveis)",
+      "Corpo Coletivo de Rostos Flutuantes de Trevas"
+    ],
+    wikiTitle: "Grayroad"
+  },
+  {
+    id: "fraudrin",
+    name: "Fraudrin",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Dez Mandamentos", "Clã dos Demônios"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Mandamento do Desinteresse (Substituto)",
+    debutArc: "Arco da Infiltração no Reino & Queda de Hendrickson",
+    status: "Morto",
+    quote: "Passei dez anos no corpo de Dreyfus planejando a queda de Liones e a libertação dos Dez Mandamentos!",
+    techniques: [
+      "Full Size (Aumento Titânico de Tamanho e Massa)",
+      "Possessão Espiritual Parasitária",
+      "Autodestruição de Alta Escala com Trevas",
+      "Soco Sísmico de Gigante Demoníaco"
+    ],
+    wikiTitle: "Fraudrin"
+  },
+  {
+    id: "ludociel",
+    name: "Ludociel",
+    gender: "Masculino",
+    species: "Deusa",
+    affiliation: ["Quatro Arcanjos", "Clã das Deusas"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Líder dos Quatro Arcanjos",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Morto",
+    quote: "Os demônios são pragas imundas que devem ser erradicadas da face desta terra em nome da Divindade Suprema!",
+    techniques: [
+      "Flash (Graça da Velocidade Extrema da Luz)",
+      "Gold Ark (Esferas Douradas Purificadoras de Luz)",
+      "Sanctuary (Barreira Sagrada Ofensiva e Defensiva)",
+      "Possessão Sagrada e Purificação Espiritual"
+    ],
+    wikiTitle: "Ludociel"
+  },
+  {
+    id: "sariel",
+    name: "Sariel",
+    gender: "Masculino",
+    species: "Deusa",
+    affiliation: ["Quatro Arcanjos", "Clã das Deusas"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Arcanjo do Tornado",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Morto",
+    quote: "Nossos ventos divinos cortam e despedaçam qualquer treva que ouse desafiar o clã das deusas!",
+    techniques: [
+      "Tornado (Graça do Vento Sagrado Destruidor)",
+      "Omega Ark (Arca Gigante de Luz Espiritual)",
+      "Cortes Microscópicos de Alta Pressão Eólica",
+      "Defesa de Vórtice Sagrado"
+    ],
+    wikiTitle: "Sariel"
+  },
+  {
+    id: "tarmiel",
+    name: "Tarmiel",
+    gender: "Masculino",
+    species: "Deusa",
+    affiliation: ["Quatro Arcanjos", "Clã das Deusas"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Arcanjo do Oceano",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Morto",
+    quote: "Nosso oceano sagrado afoga todas as impurezas do purgatório com misericórdia e luz!",
+    techniques: [
+      "Ocean (Graça do Oceano e Liquefação Corporal)",
+      "Domo Aquático Dimensorial Enkai",
+      "Regeneração Imediata em Forma Líquida",
+      "Pilares de Água Sagrada Pressurizada"
+    ],
+    wikiTitle: "Tarmiel"
+  },
+  {
+    id: "demon-king",
+    name: "Rei Demônio",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Clã dos Demônios"],
+    sacredTreasure: "Espada Espiritual do Purgatório",
+    rankOrTitle: "Soberano Supremo do Clã dos Demônios",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Morto",
+    quote: "Eu sou o governante do Clã dos Demônios e o pai dos dez mandamentos. Todo poder neste mundo me pertence!",
+    techniques: [
+      "The Ruler (Inversão de Qualquer Ataque ou Efeito em Cura)",
+      "Dez Mandamentos Combinados",
+      "Tempestade de Morte do Purgatório",
+      "Manipulação Cósmica de Trevas Absolutas"
+    ],
+    wikiTitle: "Demon King"
+  },
+  {
+    id: "supreme-deity",
+    name: "Divindade Suprema",
+    gender: "Feminino",
+    species: "Deusa",
+    affiliation: ["Clã das Deusas"],
+    sacredTreasure: "Báculo Sagrado dos Dez Céus",
+    rankOrTitle: "Governante Suprema do Clã das Deusas",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Morto",
+    quote: "A luz absoluta não admite sombras. A maldição eterna foi a sentença para aqueles que traíram seu próprio sangue!",
+    techniques: [
+      "Imposição das Quatro Graças Divinas",
+      "Maldição da Reencarnação Eterna",
+      "Purificação Universal com Fogo Santo",
+      "Julgamento de Luz Primordial"
+    ],
+    wikiTitle: "Supreme Deity"
+  },
+  {
+    id: "chandler",
+    name: "Chandler",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Clã dos Demônios"],
+    sacredTreasure: "Cajado Espada de Mestre",
+    rankOrTitle: "Mestre e Mentor de Meliodas / O Demônio Pacifista",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Morto",
+    quote: "Meu jovem mestre Meliodas é o verdadeiro sucessor ao trono! Destruirei qualquer um que cruzar seu caminho!",
+    techniques: [
+      "Full Counter Mágico Original",
+      "True Night (Invocação da Noite Eterna que Amplia Trevas)",
+      "Meteorworks (Chuva Incineradora de Meteoros)",
+      "Forma Bestial do Demônio Original"
+    ],
+    wikiTitle: "Chandler"
+  },
+  {
+    id: "cusack",
+    name: "Cusack",
+    gender: "Masculino",
+    species: "Demônio",
+    affiliation: ["Clã dos Demônios"],
+    sacredTreasure: "Espadas Duplas de Esgrima",
+    rankOrTitle: "Mestre e Mentor de Zeldris / O Ceifador Sombrio",
+    debutArc: "Arco da Guerra Santa dos Três Mil Anos",
+    status: "Morto",
+    quote: "Zeldris é a luz dos meus olhos e o legítimo líder! Ninguém manchará seu destino!",
+    techniques: [
+      "Resonant (Controle Mental e Físico de Corpos Inimigos)",
+      "Esgrima Veloz de Duas Lâminas Negras",
+      "Fusão com Chandler no Demônio Original",
+      "Rajadas Cortantes do Purgatório"
+    ],
+    wikiTitle: "Cusack"
+  },
+  {
+    id: "cath",
+    name: "Cath Palug",
+    gender: "Sem Gênero",
+    species: "Besta do Caos",
+    affiliation: ["Criaturas do Caos"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "A Besta Devoradora do Caos",
+    debutArc: "Arco do Labirinto de Vaizel & Batalha Defensiva",
+    status: "Selado",
+    quote: "Eu quero o poder do Caos! Eu quero devorar Arthur e consumir toda a criação em ruínas eternas!",
+    techniques: [
+      "Manipulação Espaço-Temporal do Caos",
+      "Ilusão de Realidades Alternativas",
+      "Regeneração Infinita por Não-Existência",
+      "Mandíbulas Vorazes Dimensionalmente Expansivas"
+    ],
+    wikiTitle: "Cath"
+  }
+];

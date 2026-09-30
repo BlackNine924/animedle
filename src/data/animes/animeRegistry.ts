@@ -14,13 +14,15 @@ export interface AnimeEntry {
 }
 
 // Slugs com characters.json — detectados automaticamente pelo check de diretórios
-const IMPLEMENTED_SLUGS = new Set([
+export const IMPLEMENTED_SLUGS = new Set([
+  'akame-ga-kill',
   'attack-on-titan',
   'berserk',
   'black-clover',
   'bleach',
   'blue-lock',
   'chainsaw-man',
+  'cyberpunk-edgerunners',
   'dandadan',
   'demon-slayer',
   'dragon-ball',
@@ -32,11 +34,15 @@ const IMPLEMENTED_SLUGS = new Set([
   'jojos-bizarre-adventure',
   'jujutsu-kaisen',
   'kaiju-no-8',
+  'my-hero-academia',
+  'nanatsu-no-taizai',
   'naruto',
   'one-piece',
   'record-of-ragnarok',
+  'shangri-la-frontier',
   'solo-leveling',
   'tensei-shitara-slime-datta-ken',
+  'witch-hat-atelier',
 ]);
 
 const RAW_REGISTRY: Omit<AnimeEntry, 'implemented'>[] = [

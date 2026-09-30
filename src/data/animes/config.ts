@@ -1,6 +1,40 @@
 import { AnimeConfig } from '../../types/anime';
 
 export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
+  'akame-ga-kill': {
+    slug: 'akame-ga-kill',
+    title: 'Akame Ga Kill',
+    subtitle: 'Takahiro & Tetsuya Tashiro',
+    themeColor: '#DC2626',
+    accentColor: '#991B1B',
+    banner: '🗡️',
+    logo: '/logo-akame-ga-kill.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Organização', type: 'array' },
+      { key: 'role', label: 'Ocupação / Posição', type: 'exact' },
+      { key: 'teigu', label: 'Teigu (Arma Imperial)', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco do Recrutamento de Night Raid',
+      'Arco dos Três Monstros (Three Beasts)',
+      'Arco da Formação dos Jaegers',
+      'Arco da Batalha Religiosa do Caminho da Paz',
+      'Arco da Polícia Secreta Wild Hunt',
+      'Arco da Execução de Tatsumi',
+      'Arco da Guerra Final & Queda do Império'
+    ],
+    mangaCoverage: {
+      chapter: 78,
+      status: 'Finalizado',
+      source: 'Gangan Joker (Square Enix)',
+      officialPublisher: 'Square Enix',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa de Takahiro e Tetsuya Tashiro cobrindo todos os 78 capítulos (15 volumes), incluindo o desfecho do mangá e a guerra contra o Império.'
+    }
+  },
   'attack-on-titan': {
     slug: 'attack-on-titan',
     title: 'Attack On Titan',
@@ -220,6 +254,37 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       officialPublisher: 'Shueisha',
       lastUpdated: 'Setembro / 2026',
       notes: 'Obra canônica de Tatsuki Fujimoto cobrindo a Parte 1 (Saga da Segurança Pública, Capítulos 1 ao 97) e a Parte 2 (Saga da Academia, Capítulos 98 ao 195+).'
+    }
+  },
+  'cyberpunk-edgerunners': {
+    slug: 'cyberpunk-edgerunners',
+    title: 'Cyberpunk: Edgerunners',
+    subtitle: 'Studio Trigger & CD Projekt Red',
+    themeColor: '#FCEE09',
+    accentColor: '#00F0FF',
+    banner: '⚡',
+    logo: '/logo-cyberpunk-edgerunners.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Bando', type: 'array' },
+      { key: 'role', label: 'Ocupação / Especialidade', type: 'exact' },
+      { key: 'cyberware', label: 'Implantes Cibernéticos / Cyberware', type: 'exact' },
+      { key: 'debutArc', label: 'Episódios de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Ep. 1-3: Cidade dos Sonhos & Sandevistan',
+      'Ep. 4-6: Tripulação do Maine & Ascensão',
+      'Ep. 7-8: Liderança & Cibermau-súbito (Ciberpsicose)',
+      'Ep. 9-10: Cibersqueleto & Torre Arasaka'
+    ],
+    mangaCoverage: {
+      chapter: '10 Episódios',
+      status: 'Finalizado',
+      source: 'Studio Trigger / Netflix (Canon ao Universo Cyberpunk 2077)',
+      officialPublisher: 'CD Projekt Red',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Série canônica completa de 10 episódios produzida pelo Studio Trigger, cobrindo a ascensão e queda de David Martinez em Night City.'
     }
   },
   'dandadan': {
@@ -650,13 +715,45 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
   },
   'my-hero-academia': {
     slug: 'my-hero-academia',
-    title: 'My Hero Academia',
+    title: 'Boku no Hero Academia',
     subtitle: 'Kohei Horikoshi',
     themeColor: '#00D9A6',
     accentColor: '#16a34a',
     banner: '💥',
-    columns: [],
-    arcs: []
+    logo: '/logo-my-hero-academia.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Equipe', type: 'array' },
+      { key: 'role', label: 'Ocupação / Cargo', type: 'exact' },
+      { key: 'quirk', label: 'Individualidade (Quirk)', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco do Exame de Admissão & Teste de Individualidade',
+      'Arco do Ataque à U.S.J.',
+      'Arco do Festival Esportivo da U.A.',
+      'Arco do Assassino de Heróis (Stain)',
+      'Arco dos Exames Finais & Acampamento na Floresta',
+      'Arco do Resgate de Bakugo & Kamino',
+      'Arco do Exame de Licença Provisória de Herói',
+      'Arco do Shie Hassaikai (Overhaul)',
+      'Arco do Festival Cultural da U.A.',
+      'Arco dos Heróis Profissionais & High-End',
+      'Arco do Treinamento Conjunto (1-A vs 1-B)',
+      'Arco do Exército de Libertação Meta (My Villain Academia)',
+      'Arco da Guerra de Libertação Paranormal',
+      'Arco do Herói Sombrio (Dark Hero / Deku Solo)',
+      'Arco da Guerra Final (Batalha Decisiva de Shizuoka)'
+    ],
+    mangaCoverage: {
+      chapter: 430,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa de Kohei Horikoshi cobrindo todos os 430 capítulos (42 volumes), desde a entrada de Izuku na U.A. até o epílogo dos heróis profissionais.'
+    }
   },
   'nanatsu-no-taizai': {
     slug: 'nanatsu-no-taizai',
@@ -665,8 +762,33 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#8BCF1F',
     accentColor: '#65a30d',
     banner: '🐉',
-    columns: [],
-    arcs: []
+    logo: '/logo-nanatsu-no-taizai.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Clã', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Facção', type: 'array' },
+      { key: 'sacredTreasure', label: 'Tesouro Sagrado / Arma', type: 'exact' },
+      { key: 'rankOrTitle', label: 'Título / Pecado / Posto', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco da Introdução & Reunião dos Pecados',
+      'Arco da Infiltração no Reino & Queda de Hendrickson',
+      'Arco da Ressurreição dos Dez Mandamentos',
+      'Arco do Labirinto de Vaizel & Batalha Defensiva',
+      'Arco da Guerra Santa dos Três Mil Anos',
+      'Arco da Libertação de Camelot & Rei Demônio',
+      'Arco do Fim da Guerra & Caos (Rei Arthur)'
+    ],
+    mangaCoverage: {
+      chapter: 346,
+      status: 'Finalizado',
+      source: 'Weekly Shōnen Magazine (Kodansha)',
+      officialPublisher: 'Kodansha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica completa de Nakaba Suzuki cobrindo todos os 346 capítulos (41 volumes), desde a busca pelos Sete Pecados Capitais até o desfecho do Rei Demônio e o despertar do Caos.'
+    }
   },
   'naruto': {
     slug: 'naruto',
@@ -880,6 +1002,40 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       notes: 'Manhwa canônico completo (Capítulos 1 ao 179 da história principal mais as histórias secundárias e epílogo até o capítulo 200).'
     }
   },
+  'shangri-la-frontier': {
+    slug: 'shangri-la-frontier',
+    title: 'Shangri-La Frontier',
+    subtitle: 'Katarina & Ryosuke Fuji',
+    themeColor: '#06B6D4',
+    accentColor: '#0891B2',
+    banner: '🪶',
+    logo: '/logo-shangri-la-frontier.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie / Forma no Jogo', type: 'exact' },
+      { key: 'affiliation', label: 'Clã / Afiliação', type: 'array' },
+      { key: 'gameClass', label: 'Classe / Especialidade no Jogo', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco de Rabituza & Marca de Lycagon',
+      'Arco da Tumba Oculta de Wezaemon',
+      'Arco do Clã Wolfgang & Treinamento das Trevas',
+      'Arco da Conferência Global de Jogos (GGC)',
+      'Arco do Monstro Abissal Kutanid',
+      'Arco da Revanche Contra Lycagon',
+      'Arco do Maestro Orchestra'
+    ],
+    mangaCoverage: {
+      chapter: 215,
+      status: 'Em Lançamento',
+      source: 'Weekly Shōnen Magazine (Kodansha)',
+      officialPublisher: 'Kodansha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Adaptação canônica do mangá por Ryosuke Fuji cobrindo até o capítulo 215+, incluindo os confrontos contra os Monstros Únicos (Lycagon, Wezaemon, Kutanid e Orchestra).'
+    }
+  },
   'sword-art-online': {
     slug: 'sword-art-online',
     title: 'Sword Art Online',
@@ -937,5 +1093,38 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     banner: '☕',
     columns: [],
     arcs: []
+  },
+  'witch-hat-atelier': {
+    slug: 'witch-hat-atelier',
+    title: 'Witch Hat Atelier',
+    subtitle: 'Kamome Shirahama',
+    themeColor: '#8B5CF6',
+    accentColor: '#7C3AED',
+    banner: '✨',
+    logo: '/logo-witch-hat-atelier.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'magicRole', label: 'Função / Posição', type: 'exact' },
+      { key: 'magicSpecialty', label: 'Especialidade Mágica', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco da Iniciação no Ateliê',
+      'Arco do Primeiro Julgamento & Floresta Misteriosa',
+      'Arco da Serpente Subterrânea & Romon',
+      'Arco da Grande Assembleia das Pratas (Noite do Pacto)',
+      'Arco da Ilha dos Escribas & O Grande Salão',
+      'Arco da Rebelião das Sombras & Desfile dos Reis'
+    ],
+    mangaCoverage: {
+      chapter: 88,
+      status: 'Em Lançamento',
+      source: 'Morning Two (Kodansha)',
+      officialPublisher: 'Kodansha',
+      lastUpdated: 'Setembro / 2026',
+      notes: 'Obra canônica premiada de Kamome Shirahama cobrindo até o capítulo 88+ (13 volumes), detalhando os mistérios da magia dos chapéus pontudos e proscritos.'
+    }
   }
 };

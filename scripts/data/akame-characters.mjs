@@ -1,0 +1,506 @@
+export const AKAME_CHARACTERS = [
+  {
+    id: "tatsumi",
+    name: "Tatsumi",
+    gender: "Masculino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Guerreiro / Espadachim",
+    teigu: "Incursio (Armadura Demoníaca)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Eu vou viver e mudar esse país corrompido, por todas as pessoas que morreram acreditando em mim!",
+    techniques: [
+      "Manifestação e Evolução do Incursio",
+      "Lança Imperial Neuntote",
+      "Golpe de Impacto Supersônico",
+      "Adaptação e Camuflagem Invisível"
+    ],
+    wikiTitle: "Tatsumi"
+  },
+  {
+    id: "akame",
+    name: "Akame",
+    gender: "Feminino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Espadachim Assassina",
+    teigu: "Murasame (Assassina de Um Golpe)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Vivo",
+    quote: "Enterrar... Essa lâmina carrega uma maldição letal imediata. Não há cura para quem é cortado por ela.",
+    techniques: [
+      "Corte Venenoso Letal Murasame",
+      "Técnica Oculta En No Koujin (Marca de Guerra Carmesim)",
+      "Velocidade Ilusória de Combate",
+      "Eliminação Silenciosa de Alvos"
+    ],
+    wikiTitle: "Akame"
+  },
+  {
+    id: "najenda",
+    name: "Najenda",
+    gender: "Feminino",
+    affiliation: ["Night Raid", "Exército Revolucionário", "Ex-Império"],
+    role: "Líder de Night Raid / Comandante",
+    teigu: "Susanoo (Manifestação Magatama)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Vivo",
+    quote: "A justiça dos rebeldes só se concretiza com determinação inabalável e sangue derramado.",
+    techniques: [
+      "Comando Tático e Estratégia de Guerrilha",
+      "Braço Cibernético Mecânico com Gancho de Aço",
+      "Liberação do Potencial Máximo de Susanoo",
+      "Tiro Certeiro com Pistola Imperial"
+    ],
+    wikiTitle: "Najenda"
+  },
+  {
+    id: "esdeath",
+    name: "Esdeath",
+    gender: "Feminino",
+    affiliation: ["Jaegers", "Império", "Exército Imperial"],
+    role: "General do Império / Líder dos Jaegers",
+    teigu: "Demon's Extract (Extrato Demoníaco)",
+    debutArc: "Arco da Formação dos Jaegers",
+    status: "Morto",
+    quote: "Os fracos são destinados a perecer e os fortes a triunfar. Esta é a lei absoluta da natureza!",
+    techniques: [
+      "Mahapadma (Congelamento do Próprio Espaço-Tempo)",
+      "Lanças de Gelo Weissschnabel",
+      "Exército de Cavaleiros de Gelo",
+      "Espada de Gelo e Combate Corpo a Corpo Genial"
+    ],
+    wikiTitle: "Esdeath"
+  },
+  {
+    id: "leone",
+    name: "Leone",
+    gender: "Feminino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Lutadora / Assassina",
+    teigu: "Lionelle (Rei Besta)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Eu cresci na favela da capital... sei exatamente a podridão dos ricos deste império e vou esmagá-los com minhas garras!",
+    techniques: [
+      "Metamorfose Feral Lionelle",
+      "Regeneração Celular Acelerada",
+      "Sentidos Aguçados de Caçadora Bestial",
+      "Golpes Físicos Sísmicos"
+    ],
+    wikiTitle: "Leone"
+  },
+  {
+    id: "mine",
+    name: "Mine",
+    gender: "Feminino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Atiradora de Elite",
+    teigu: "Pumpkin (Artilharia Romana)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Quanto maior o desespero e o perigo, mais poderoso se torna o meu Pumpkin!",
+    techniques: [
+      "Disparo de Alta Potência Pumpkin",
+      "Feixe Concentrado de Energia Espiritual",
+      "Modo Metralhadora de Rajada Contínua",
+      "Tiro Perfurante de Longa Distância"
+    ],
+    wikiTitle: "Mine"
+  },
+  {
+    id: "sheele",
+    name: "Sheele",
+    gender: "Feminino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Assassina",
+    teigu: "Extrase (Tesoura Cortadora)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Sinto muito... Eu sou desastrada em tudo na vida, exceto em matar pessoas perversas.",
+    techniques: [
+      "Corte Guillotina Extrase",
+      "Lampejo de Luz Cegante",
+      "Defesa Absoluta com Lâminas Gigantes",
+      "Decapitação Rápida"
+    ],
+    wikiTitle: "Sheele"
+  },
+  {
+    id: "lubbock",
+    name: "Lubbock",
+    gender: "Masculino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Estrategista / Assassino",
+    teigu: "Cross Tail (Formação de Fios Infinitos)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Você caiu na minha teia! Eu não vou morrer até que a Najenda sorria de verdade!",
+    techniques: [
+      "Lança Perfuradora de Fios Endurecidos",
+      "Armadilha de Teia e Barreira Sensorial",
+      "Perfurador de Coração com Fio Fino",
+      "Amputação Instantânea por Fio Cortante"
+    ],
+    wikiTitle: "Lubbock"
+  },
+  {
+    id: "bulat",
+    name: "Bulat",
+    gender: "Masculino",
+    affiliation: ["Night Raid", "Exército Revolucionário", "Ex-Império"],
+    role: "Guerreiro / Mentor",
+    teigu: "Incursio (Armadura Demoníaca)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Aqueça seu coração e sua paixão! A determinação é o que mantém um guerreiro de pé na batalha!",
+    techniques: [
+      "Estocada Mortal Neuntote",
+      "Camuflagem Invisível Perfeita",
+      "Investida com Força Brutal",
+      "Domínio Absoluto do Incursio"
+    ],
+    wikiTitle: "Bulat"
+  },
+  {
+    id: "chelsea",
+    name: "Chelsea",
+    gender: "Feminino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Assassina Disfarçada",
+    teigu: "Gaea Foundation (Transformação Variada)",
+    debutArc: "Arco dos Três Monstros (Three Beasts)",
+    status: "Morto",
+    quote: "Uma assassina não deve deixar sentimentos interferirem no trabalho. Um único furo na nuca é o bastante.",
+    techniques: [
+      "Metamorfose e Disfarce Impecável Gaea Foundation",
+      "Perfuração Cerebral Silenciosa com Agulha de Acupuntura",
+      "Infiltração Furtiva Atrás das Linhas Inimigas",
+      "Simulação de Voz e Postura"
+    ],
+    wikiTitle: "Chelsea"
+  },
+  {
+    id: "susanoo",
+    name: "Susanoo",
+    gender: "Masculino",
+    affiliation: ["Night Raid", "Exército Revolucionário"],
+    role: "Guerreiro Guardião (Teigu Viva)",
+    teigu: "Susanoo (Manifestação Magatama)",
+    debutArc: "Arco dos Três Monstros (Three Beasts)",
+    status: "Morto",
+    quote: "Sou uma arma biológica imperial feita para proteger e erradicar o mal. E além disso, não tolero desordem!",
+    techniques: [
+      "Manifestação Magatama (Modo Despertado)",
+      "Yata no Kagami (Espelho Refletor de Projéteis)",
+      "Espada de Luz Sagrada Ame no Murakumo",
+      "Regeneração Nuclear Imediata"
+    ],
+    wikiTitle: "Susanoo"
+  },
+  {
+    id: "wave",
+    name: "Wave",
+    gender: "Masculino",
+    affiliation: ["Jaegers", "Império", "Marinha Imperial"],
+    role: "Guerreiro Imperial",
+    teigu: "Grand Chariot (Armadura Carnívora)",
+    debutArc: "Arco da Formação dos Jaegers",
+    status: "Vivo",
+    quote: "Eu vim do interior para servir a marinha e proteger as pessoas inocentes. Jamais deixarei meus companheiros morrerem!",
+    techniques: [
+      "Manifestação Grand Chariot",
+      "Chute Grand Fall de Alta Gravidade",
+      "Voo e Propulsão com Asas Mecânicas",
+      "Uso Duplo de Teigu (Grand Chariot + Mastema)"
+    ],
+    wikiTitle: "Wave"
+  },
+  {
+    id: "kurome",
+    name: "Kurome",
+    gender: "Feminino",
+    affiliation: ["Jaegers", "Império", "Grupo de Assassinato"],
+    role: "Assassina Imperial",
+    teigu: "Yatsufusa (Marcha dos Mortos)",
+    debutArc: "Arco da Formação dos Jaegers",
+    status: "Morto",
+    quote: "Minha irmã Akame me abandonou... Se eu te matar, poderemos ficar juntas para sempre como marionetes.",
+    techniques: [
+      "Invocação de 8 Marionetes Cadavéricas",
+      "Controle de Bestas Perigosas e Guerreiros Falecidos",
+      "Espadachim de Alta Agilidade com Drogas Estimulantes",
+      "Cortes Cirúrgicos Fatais"
+    ],
+    wikiTitle: "Kurome"
+  },
+  {
+    id: "bols",
+    name: "Bols",
+    gender: "Masculino",
+    affiliation: ["Jaegers", "Império", "Esquadrão de Incineração"],
+    role: "Combatente Pesado",
+    teigu: "Rubicante (Purgatório Gigante)",
+    debutArc: "Arco da Formação dos Jaegers",
+    status: "Morto",
+    quote: "Eu sei que sou um pecador que queimou vilas inteiras... Sei que receberei meu castigo, mas quero voltar para minha família.",
+    techniques: [
+      "Lança-Chamas de Fogo Inextinguível Rubicante",
+      "Magma Drive (Disparo de Fogo a Longa Distância)",
+      "Autodestruição Emergencial de Alta Potência",
+      "Resistência Física Pesada"
+    ],
+    wikiTitle: "Bols"
+  },
+  {
+    id: "seryu-ubiquitous",
+    name: "Seryu Ubiquitous",
+    gender: "Feminino",
+    affiliation: ["Jaegers", "Império", "Guarda Imperial"],
+    role: "Oficial Fanática da Guarda",
+    teigu: "Hekatonkheires (Koro)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "O mal deve ser erradicado sem piedade! Pela justiça absoluta do Capitão Ogre e do Império!",
+    techniques: [
+      "Berserk Gigante de Koro (Hekatonkheires)",
+      "Dez Armas de Julgamento Cirúrgicas Modificadas",
+      "Projéteis e Mísseis Corporais embutidos",
+      "Bomba Suicida Espiritual de Destruição Total"
+    ],
+    wikiTitle: "Seryu Ubiquitous"
+  },
+  {
+    id: "dr-stylish",
+    name: "Dr. Stylish",
+    gender: "Masculino",
+    affiliation: ["Jaegers", "Império", "Cientista"],
+    role: "Cientista Imperial",
+    teigu: "Perfector (Luvas da Criação)",
+    debutArc: "Arco da Formação dos Jaegers",
+    status: "Morto",
+    quote: "A beleza e a ciência devem ser perfeitamente estilosas! Meus soldados modificados são arte pura!",
+    techniques: [
+      "Cirurgia de Precisão Microscópica Perfector",
+      "Gás Paralisante Inodoro",
+      "Injeção e Transformação em Monstro Gigante",
+      "Criação de Exército de Ciborgues e Zumbis"
+    ],
+    wikiTitle: "Dr. Stylish"
+  },
+  {
+    id: "run",
+    name: "Run",
+    gender: "Masculino",
+    affiliation: ["Jaegers", "Império"],
+    role: "Assessor / Combatente Alado",
+    teigu: "Mastema (Asas de Mil Léguas)",
+    debutArc: "Arco da Formação dos Jaegers",
+    status: "Morto",
+    quote: "O Império está podre por dentro. Eu me juntei a eles para mudar as coisas pelo próprio topo.",
+    techniques: [
+      "Voo Supersônico com Asas de Plumas Mastema",
+      "Chuva de Penas Perfuradoras Afiadas",
+      "Reflexão de Flechas e Disparos",
+      "Análise Estratégica e Rastreamento Aéreo"
+    ],
+    wikiTitle: "Run"
+  },
+  {
+    id: "budo",
+    name: "General Budo",
+    gender: "Masculino",
+    affiliation: ["Império", "Guarda Imperial"],
+    role: "Grande General do Império",
+    teigu: "Adramelech (Trovão da Fúria)",
+    debutArc: "Arco da Formação dos Jaegers",
+    status: "Morto",
+    quote: "Meu dever incondicional é defender a linhagem imperial, mesmo que isso custe minha própria vida!",
+    techniques: [
+      "Descarga de Raios Furiosos Adramelech",
+      "Explosão Plasmática Solidified Lightning",
+      "Voo por Levitacão Eletromagnética",
+      "Soco de Choque Esmagador"
+    ],
+    wikiTitle: "Budo"
+  },
+  {
+    id: "honest",
+    name: "Primeiro-Ministro Honest",
+    gender: "Masculino",
+    affiliation: ["Império"],
+    role: "Primeiro-Ministro / Tirano",
+    teigu: "Erastone (Destruidor de Teigu)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Comer carne saborosa, manipular o tolo imperador e governar este país nas sombras... que paraíso!",
+    techniques: [
+      "Destruição de Teigu por Ondas Mágicas Erastone",
+      "Artes Marciais do Templo Imperial Shingu",
+      "Manipulação Política e Chantagem",
+      "Consumo de Carne Enriquecida com Energia Vital"
+    ],
+    wikiTitle: "Honest"
+  },
+  {
+    id: "makoto",
+    name: "Imperador Makoto",
+    gender: "Masculino",
+    affiliation: ["Império"],
+    role: "Imperador do Império",
+    teigu: "Shikoutazer (Teigu Suprema)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "Eu sou o Imperador! Aqueles que desafiarem meu reinado serão dizimados pela ira sagrada de Shikoutazer!",
+    techniques: [
+      "Disparo de Laser Orbital Shikoutazer",
+      "Mísseis de Alta Escala Destrutiva",
+      "Modo Purgação Sangrenta do Gigante Imperial",
+      "Barreira Defensiva Sagrada Inviolável"
+    ],
+    wikiTitle: "Makoto"
+  },
+  {
+    id: "zank",
+    name: "Headhunter Zank",
+    gender: "Masculino",
+    affiliation: ["Independentes", "Ex-Império"],
+    role: "Caçador de Cabeças / Carrasco",
+    teigu: "Spectator (Olho Onipotente)",
+    debutArc: "Arco do Recrutamento de Night Raid",
+    status: "Morto",
+    quote: "As vozes das pessoas que decapitei não param de gritar na minha cabeça... por isso preciso continuar cortando!",
+    techniques: [
+      "Visão do Futuro Próximo e Leitura de Movimentos",
+      "Clarividência e Visão Através de Barreiras",
+      "Ilusão Psicológica da Pessoa Mais Amada",
+      "Cortes Velozes com Lâminas Ocultas"
+    ],
+    wikiTitle: "Zank"
+  },
+  {
+    id: "daidara",
+    name: "Daidara",
+    gender: "Masculino",
+    affiliation: ["Três Monstros (Three Beasts)", "Império"],
+    role: "Guerreiro de Esdeath",
+    teigu: "Belvaac (Machado Duplo)",
+    debutArc: "Arco dos Três Monstros (Three Beasts)",
+    status: "Morto",
+    quote: "Minha experiência de combate só aumenta a cada cabeça decepada pelo meu Belvaac!",
+    techniques: [
+      "Arremesso Bumerangue Teleguiado Belvaac",
+      "Fendimento Sísmico Terrestre",
+      "Combate Brutal de Longo Alcance",
+      "Força Física Titânica"
+    ],
+    wikiTitle: "Daidara"
+  },
+  {
+    id: "nyau",
+    name: "Nyau",
+    gender: "Masculino",
+    affiliation: ["Três Monstros (Three Beasts)", "Império"],
+    role: "Guerreiro de Esdeath",
+    teigu: "Scream (Flauta Musical)",
+    debutArc: "Arco dos Três Monstros (Three Beasts)",
+    status: "Morto",
+    quote: "Eu adoro arrancar a pele do rosto dos meus inimigos e colecioná-las como souvenir fofo!",
+    techniques: [
+      "Melodia Desmoralizadora Scream (Redução de Força)",
+      "Auto-Hipertrofia Muscular por Ressonância Sonora",
+      "Agilidade Felina e Garras Cortantes",
+      "Ataque Psicoacústico Paralisante"
+    ],
+    wikiTitle: "Nyau"
+  },
+  {
+    id: "liver",
+    name: "General Liver",
+    gender: "Masculino",
+    affiliation: ["Três Monstros (Three Beasts)", "Império"],
+    role: "Comandante de Esdeath",
+    teigu: "Black Marlin (Dragão Aquático)",
+    debutArc: "Arco dos Três Monstros (Three Beasts)",
+    status: "Morto",
+    quote: "A General Esdeath me resgatou do calabouço quando fui traído... minha vida e minha lealdade pertencem a ela!",
+    techniques: [
+      "Manipulação de Correntes de Água Black Marlin",
+      "Lanças Perfuradoras de Sangue",
+      "Lâminas D'água Pressurizadas Cortantes",
+      "Esgrima Imperial Refinada"
+    ],
+    wikiTitle: "Liver"
+  },
+  {
+    id: "syura",
+    name: "Syura",
+    gender: "Masculino",
+    affiliation: ["Wild Hunt", "Império"],
+    role: "Comandante da Wild Hunt",
+    teigu: "Shambhala (Portal Dimensional)",
+    debutArc: "Arco da Polícia Secreta Wild Hunt",
+    status: "Morto",
+    quote: "Eu sou o filho do Primeiro-Ministro Honest! Tudo e todos neste mundo existem apenas para o meu prazer!",
+    techniques: [
+      "Teletransporte Instantâneo de Tropas Shambhala",
+      "Teleporte Espacial Forçado de Inimigos",
+      "Artes Marciais do Templo Imperial Kohou",
+      "Ataque Furtivo Espaço-Temporal"
+    ],
+    wikiTitle: "Syura"
+  },
+  {
+    id: "champ",
+    name: "Champ",
+    gender: "Masculino",
+    affiliation: ["Wild Hunt", "Império"],
+    role: "Palhaço Carrasco",
+    teigu: "Ace Solution (Esferas Elementais)",
+    debutArc: "Arco da Polícia Secreta Wild Hunt",
+    status: "Morto",
+    quote: "Crianças boas não devem chorar... venham brincar com as esferas mágicas do Champ!",
+    techniques: [
+      "Arremesso de Orbes de Fogo, Gelo e Relâmpago",
+      "Explosão Elemental em Área",
+      "Saltos Acrobáticos Enganadores",
+      "Fogo de Supressão Múltiplo"
+    ],
+    wikiTitle: "Champ"
+  },
+  {
+    id: "dorothea",
+    name: "Dorothea",
+    gender: "Feminino",
+    affiliation: ["Wild Hunt", "Império"],
+    role: "Alquimista",
+    teigu: "Blood (Presas Vampíricas)",
+    debutArc: "Arco da Polícia Secreta Wild Hunt",
+    status: "Morto",
+    quote: "Sangue fresco e corpos fortes... com alquimia poderei alcançar a juventude eterna!",
+    techniques: [
+      "Drenagem de Sangue e Vitalidade Blood",
+      "Invocação de Quimeras Alquímicas",
+      "Fortalecimento Físico por Sangue Ingerido",
+      "Cura Instantânea por Vampirismo"
+    ],
+    wikiTitle: "Dorothea"
+  },
+  {
+    id: "izou",
+    name: "Izou",
+    gender: "Masculino",
+    affiliation: ["Wild Hunt", "Império"],
+    role: "Samurai Espadachim",
+    teigu: "Kotetsu (Espada Sem Teigu)",
+    debutArc: "Arco da Polícia Secreta Wild Hunt",
+    status: "Morto",
+    quote: "Minha amada espada Kotetsu tem sede de sangue... ela precisa se alimentar de guerreiros valorosos!",
+    techniques: [
+      "Iaijutsu (Saque Rápido da Katana)",
+      "Corte Perfeito de Alta Velocidade",
+      "Desvio de Balas com a Lâmina",
+      "Combate de Contragolpe Letal"
+    ],
+    wikiTitle: "Izou"
+  }
+];

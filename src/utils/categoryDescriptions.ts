@@ -96,6 +96,61 @@ export const ANIME_CATEGORY_DESCRIPTIONS: Record<string, Record<string, string>>
     'Técnica Marcante': 'Ataque icônico de ki ou técnica marcial emblemática (ex: Kamehameha, Final Flash, Makankosappo, Genki Dama, Kienzan, Hakai).',
     'Arco de Estreia': 'Primeiro arco canônico em que o personagem faz sua estreia (desde a Saga de Pilaf até Dragon Ball Super).',
     'Status': 'Condição vital do personagem no cânone atual de Dragon Ball (Vivo ou Morto).'
+  },
+  'akame-ga-kill': {
+    'Personagem': 'Identificação e avatar do assassino, guerreiro imperial ou rebelde de Akame Ga Kill.',
+    'Gênero': 'Gênero do personagem (Masculino ou Feminino).',
+    'Afiliação / Organização': 'Grupo ou facção ao qual pertence (ex: Night Raid, Jaegers, Wild Hunt, Império, Exército Revolucionário).',
+    'Ocupação / Posição': 'Papel exercido na guerra (ex: Espadachim Assassina, General do Império, Atiradora de Elite, Primeiro-Ministro).',
+    'Teigu (Arma Imperial)': 'Arma Imperial lendária empunhada pelo guerreiro (ex: Murasame, Incursio, Demon\'s Extract, Pumpkin, Sem Teigu).',
+    'Arco de Estreia': 'Primeiro arco canônico em que o personagem é introduzido.',
+    'Status': 'Condição vital do personagem no término da obra (Vivo ou Morto).'
+  },
+  'cyberpunk-edgerunners': {
+    'Personagem': 'Identificação e avatar do mercenário, netrunner ou corporativo de Night City.',
+    'Gênero': 'Gênero do personagem (Masculino ou Feminino).',
+    'Afiliação / Bando': 'Equipe edgerunner, gangue ou corporação (ex: Tripulação do Maine, Edgerunners, Arasaka, Militech).',
+    'Ocupação / Especialidade': 'Função exercida na tripulação (ex: Solo / Líder, Netrunner, Especialista em Artilharia, Fixer).',
+    'Implantes Cibernéticos / Cyberware': 'Cibernética ou implante militar mais marcante (ex: Sandevistan Militar, Monowire, Cibersqueleto, Braços Cibernéticos).',
+    'Episódios de Estreia': 'Episódios da série em que o personagem faz sua primeira aparição.',
+    'Status': 'Condição vital do personagem ao final de Cyberpunk: Edgerunners (Vivo ou Morto).'
+  },
+  'my-hero-academia': {
+    'Personagem': 'Identificação e avatar do herói, estudante ou vilão de Boku no Hero Academia.',
+    'Gênero': 'Gênero do personagem (Masculino ou Feminino).',
+    'Afiliação / Equipe': 'Escola, turma, agência ou organização de vilões (ex: U.A. High School, Turma 1-A, Heróis Profissionais, Liga dos Vilões).',
+    'Ocupação / Cargo': 'Papel na sociedade de super-humanos (ex: Estudante da U.A., Herói Profissional, Vilão, Diretor).',
+    'Individualidade (Quirk)': 'Poder genético singular manifestado pelo indivíduo (ex: One For All, Explosion, Half-Cold Half-Hot, Decay, All For One).',
+    'Arco de Estreia': 'Primeiro arco em que o personagem estreia na narrativa.',
+    'Status': 'Condição vital atual do personagem no cânone oficial (Vivo, Morto, Preso).'
+  },
+  'nanatsu-no-taizai': {
+    'Personagem': 'Identificação e avatar do herói, cavaleiro sagrado, demônio ou deusa de Nanatsu no Taizai.',
+    'Gênero': 'Gênero do personagem (Masculino, Feminino ou Sem Gênero).',
+    'Espécie / Clã': 'Linhagem de clã ou raça primordial (ex: Demônio, Deusa, Gigante, Fada, Humano, Besta).',
+    'Afiliação / Facção': 'Facção à qual jurou fidelidade (ex: Sete Pecados Capitais, Dez Mandamentos, Quatro Arcanjos, Cavaleiros Sagrados).',
+    'Tesouro Sagrado / Arma': 'Tesouro sagrado empunhado pelo guerreiro (ex: Lostvayne, Gideon, Chastiefol, Rhitta, Courechouse, Sem Tesouro Sagrado).',
+    'Título / Pecado / Posto': 'Pecado capital, mandamento sagrado ou patente (ex: Pecado da Ira, Mandamento da Piedade, Grande Mestre).',
+    'Arco de Estreia': 'Primeiro arco canônico em que o personagem surge na história.',
+    'Status': 'Condição vital do personagem na conclusão da Guerra Santa (Vivo, Morto, Selado).'
+  },
+  'shangri-la-frontier': {
+    'Personagem': 'Identificação e avatar do jogador, NPC ou Monstro Único de Shangri-La Frontier.',
+    'Gênero': 'Gênero do personagem ou avatar no jogo (Masculino, Feminino ou Sem Gênero).',
+    'Espécie / Forma no Jogo': 'Natureza da entidade no VRMMO (ex: Humano (Player), Coelho Vorpal (NPC), Monstro Único / Sete Colossos).',
+    'Clã / Afiliação': 'Clã de jogadores ou facção do mundo do jogo (ex: Clã Wolfgang, Clã Schwarz Wolf, Reino de Rabituza, Sete Colossos).',
+    'Classe / Especialidade no Jogo': 'Estilo de jogo, classe ou arquétipo de combate (ex: Mercenário Espadachim Duplo, Paladino Tanque, Colosso das Sombras).',
+    'Arco de Estreia': 'Arco do mangá/anime em que o personagem faz sua aparição.',
+    'Status': 'Condição atual do jogador ou criatura no mundo de SLF (Vivo ou Derrotado).'
+  },
+  'witch-hat-atelier': {
+    'Personagem': 'Identificação e avatar do aprendiz, mestre bruxo ou sentinela de Witch Hat Atelier.',
+    'Gênero': 'Gênero do personagem (Masculino ou Feminino).',
+    'Afiliação / Grupo': 'Círculo mágico ou grupo ao qual pertence (ex: Ateliê de Qifrey, Bruxos de Chapéu Pontudo, Cavaleiros da Moral, Bruxos de Aba Larga).',
+    'Função / Posição': 'Cargo ou papel no mundo dos bruxos (ex: Aprendiz de Bruxa, Mestre Bruxo, Sentinela, Sábio da Educação).',
+    'Especialidade Mágica': 'Tipo de feitiçaria ou assinatura mágica do bruxo (ex: Magia de Luz, Magia de Fogo, Magia Proibida de Memória, Magia de Voo).',
+    'Arco de Estreia': 'Arco narrativo em que o personagem é introduzido.',
+    'Status': 'Condição do personagem no curso da história (Vivo ou Morto).'
   }
 };
 

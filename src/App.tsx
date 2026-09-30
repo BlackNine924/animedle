@@ -34,6 +34,12 @@ import fullmetalAlchemistCharacters from './data/animes/fullmetal-alchemist/char
 import haikyuuCharacters from './data/animes/haikyuu/characters.json';
 import hunterXHunterCharacters from './data/animes/hunter-x-hunter/characters.json';
 import kaijuNo8Characters from './data/animes/kaiju-no-8/characters.json';
+import akameGaKillCharacters from './data/animes/akame-ga-kill/characters.json';
+import cyberpunkCharacters from './data/animes/cyberpunk-edgerunners/characters.json';
+import myHeroAcademiaCharacters from './data/animes/my-hero-academia/characters.json';
+import nanatsuNoTaizaiCharacters from './data/animes/nanatsu-no-taizai/characters.json';
+import shangriLaCharacters from './data/animes/shangri-la-frontier/characters.json';
+import witchHatAtelierCharacters from './data/animes/witch-hat-atelier/characters.json';
 import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
@@ -90,6 +96,18 @@ export const App: React.FC<{
     ? hunterXHunterCharacters
     : currentAnimeSlug === 'kaiju-no-8'
     ? kaijuNo8Characters
+    : currentAnimeSlug === 'akame-ga-kill'
+    ? akameGaKillCharacters
+    : currentAnimeSlug === 'cyberpunk-edgerunners'
+    ? cyberpunkCharacters
+    : currentAnimeSlug === 'my-hero-academia'
+    ? myHeroAcademiaCharacters
+    : currentAnimeSlug === 'nanatsu-no-taizai'
+    ? nanatsuNoTaizaiCharacters
+    : currentAnimeSlug === 'shangri-la-frontier'
+    ? shangriLaCharacters
+    : currentAnimeSlug === 'witch-hat-atelier'
+    ? witchHatAtelierCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {

@@ -1,0 +1,1028 @@
+export const MHA_CHARACTERS = [
+  {
+    id: "izuku-midoriya",
+    name: "Izuku Midoriya (Deku)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "One For All (Gearshift, Fa Jin, Danger Sense, Blackwhip, Smokescreen, Float)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Um herói é alguém que quebra seus próprios limites e estende a mão para salvar quem está em perigo!",
+    techniques: [
+      "Detroit Smash / Delaware Smash",
+      "One For All: Full Cowl (Shoot Style)",
+      "Blackwhip (Chicote Negro de Confinamento)",
+      "Gearshift Overdrive & Faux 100%"
+    ],
+    wikiTitle: "Izuku Midoriya"
+  },
+  {
+    id: "katsuki-bakugo",
+    name: "Katsuki Bakugo (Dynamight)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Explosion (Explosão de Suor de Nitroglicerina)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Não me importa quem seja o inimigo... eu vou vencer todos eles e me tornar o herói número um definitivo!",
+    techniques: [
+      "Howitzer Impact (Impacto Obuseiro)",
+      "AP Shot (Disparo Perfurador de Blindagem)",
+      "Stun Grenade (Granada de Atordoamento Luminoso)",
+      "Strafe Panzer & Explosão Corporal Total"
+    ],
+    wikiTitle: "Katsuki Bakugo"
+  },
+  {
+    id: "shoto-todoroki",
+    name: "Shoto Todoroki (Shoto)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A", "Família Todoroki"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Half-Cold Half-Hot (Meio-Frio Meio-Quente)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Este poder é meu, não do meu pai! Eu serei o herói que escolhi ser!",
+    techniques: [
+      "Heaven-Piercing Ice Wall (Geleira Gigante Perfuradora)",
+      "Flashfreeze Heatwave (Onda Térmica Explosiva)",
+      "Prominence Burn Glacial (Great Glacial Abarth)",
+      "Fosforo (Chama Fria do Equilíbrio Perfeito)"
+    ],
+    wikiTitle: "Shoto Todoroki"
+  },
+  {
+    id: "ochaco-uraraka",
+    name: "Ochaco Uraraka (Uravity)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Heroína",
+    quirk: "Zero Gravity (Gravidade Zero)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Se os heróis protegem as pessoas... quem é que protege os heróis quando eles estão sofrendo?",
+    techniques: [
+      "Gunhead Martial Arts (Artes Marciais de Retenção)",
+      "Meteor Storm (Chuva de Escombros Gravitacionais)",
+      "Zero Gravity Despertado (Levitação em Massa)",
+      "Comet Home Run"
+    ],
+    wikiTitle: "Ochaco Uraraka"
+  },
+  {
+    id: "tenya-iida",
+    name: "Tenya Iida (Ingenium)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A", "Família Iida"],
+    role: "Estudante da U.A. / Representante de Classe",
+    quirk: "Engine (Motores a Jato nas Panturrilhas)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Eu herdei o nome Ingenium do meu irmão! Enquanto minhas pernas se moverem, correrei para resgatar quem precisa!",
+    techniques: [
+      "Recipro Burst (Aceleração Instantânea Hipersônica)",
+      "Recipro Turbo (Modo Contínuo de Alta Velocidade)",
+      "Recipro Extend",
+      "Chutes de Impacto de Alta Rotação"
+    ],
+    wikiTitle: "Tenya Iida"
+  },
+  {
+    id: "eijiro-kirishima",
+    name: "Eijiro Kirishima (Red Riot)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Hardening (Endurecimento Corporal)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Um verdadeiro homem nunca hesita em ser o escudo dos seus amigos!",
+    techniques: [
+      "Red Riot Unbreakable (Forma Inquebrável Suprema)",
+      "Red Gauntlet (Soco de Aço Endurecido)",
+      "Red Counter",
+      "Defesa Absoluta de Impacto Blindado"
+    ],
+    wikiTitle: "Eijiro Kirishima"
+  },
+  {
+    id: "tsuyu-asui",
+    name: "Tsuyu Asui (Froppy)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Heroína",
+    quirk: "Frog (Fisiologia de Rã)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Pode me chamar de Tsuyu-chan! Fico feliz em ajudar em qualquer resgate aquático!",
+    techniques: [
+      "Língua Extensível de 20 Metros",
+      "Camuflagem Mimética de Anfíbio",
+      "Saltos Acrobáticos de Grande Altura",
+      "Secreção de Muco Paralisante Suave"
+    ],
+    wikiTitle: "Tsuyu Asui"
+  },
+  {
+    id: "denki-kaminari",
+    name: "Denki Kaminari (Chargebolt)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Electrification (Descarga Elétrica)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Yay! Hora de fritar os vilões com 1.300.000 volts... contanto que meu cérebro não dê curto!",
+    techniques: [
+      "Descarga Elétrica Indiscriminada (1.3 Milhões de Volts)",
+      "Ponteiro Rastreador Eletrostático de Precisão",
+      "Para-Raios Humano de Absorção Elétrica",
+      "Eletrochoque de Curto Alcance"
+    ],
+    wikiTitle: "Denki Kaminari"
+  },
+  {
+    id: "fumikage-tokoyami",
+    name: "Fumikage Tokoyami (Tsukuyomi)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Dark Shadow (Entidade de Sombras Consciente)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Que o banquete das trevas consuma os malfeitores na calada da noite!",
+    techniques: [
+      "Black Abyss (Armadura de Sombras Envolvente)",
+      "Sabbath (Voo Propulsionado por Dark Shadow)",
+      "Ragnarok (Fúria Noturna Colossal de Sombras)",
+      "Garra de Sombra Cortante Perfurante"
+    ],
+    wikiTitle: "Fumikage Tokoyami"
+  },
+  {
+    id: "momo-yaoyorozu",
+    name: "Momo Yaoyorozu (Creati)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Vice-Representante",
+    quirk: "Creation (Criação de Matéria Molecular a partir de Lipídios)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Com o conhecimento da estrutura molecular dos materiais, posso forjar qualquer ferramenta para garantir a vitória!",
+    techniques: [
+      "Canhão de Artilharia de Alta Potência",
+      "Escudos de Titânio e Lança de Liga Metálica",
+      "Criação de Sedativos e Máscaras de Gás",
+      "Estratégia Tática em Tempo Real"
+    ],
+    wikiTitle: "Momo Yaoyorozu"
+  },
+  {
+    id: "kyoka-jiro",
+    name: "Kyoka Jiro (Earphone Jack)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Heroína",
+    quirk: "Earphone Jack (Plugues Auriculares com Ondas Sônicas)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "A música e as vibrações sonoras podem abalar as estruturas mais sólidas do inimigo!",
+    techniques: [
+      "Heartbeat Fuzz (Amplificação dos Batimentos Cardíacos)",
+      "Ecolocalização Sísmica Subterrânea",
+      "Chicoteamento com Cabos Auriculares",
+      "Disparo Sônico Destruidor de Rochas"
+    ],
+    wikiTitle: "Kyoka Jiro"
+  },
+  {
+    id: "mina-ashido",
+    name: "Mina Ashido (Pinky)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Heroína",
+    quirk: "Acid (Secreção e Controle de Ácido Corrosivo)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Vamos dançar e queimar os obstáculos! Ninguém derruba o otimismo da Pinky!",
+    techniques: [
+      "Acid Lay (Deslizamento Rápido em Ácido)",
+      "Acidman (Manto Protetor e Ofensivo de Ácido Espesso)",
+      "Disparo Cáustico Dissolvente de Blindagens",
+      "Movimentos de Dança de Rua Evasivos"
+    ],
+    wikiTitle: "Mina Ashido"
+  },
+  {
+    id: "hanta-sero",
+    name: "Hanta Sero (Cellophane)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Tape (Dispensadores de Fita Adesiva nos Cotovelos)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Minha fita é perfeita para balançar pelos prédios e prender vilões em um piscar de olhos!",
+    techniques: [
+      "Balanço e Locomoção Urbana Acelerada",
+      "Captura e Enfaixamento Instantâneo de Alvos",
+      "Fita Adesiva Reforçada de Alta Aderência",
+      "Armadilha Teia em Ruas e Prédios"
+    ],
+    wikiTitle: "Hanta Sero"
+  },
+  {
+    id: "yuga-aoyama",
+    name: "Yuga Aoyama (Can't Stop Twinkling)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Navel Laser (Laser de Alta Potência Umbilical)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Je brille! Meu brilho francês cegará todos os vilões deste mundo!",
+    techniques: [
+      "Disparo Laser Umbilical Concentrado",
+      "Propulsão e Voo a Laser",
+      "Canhão de Feixe Contínuo com Cinto Protetor",
+      "Espada de Luz de Plasma"
+    ],
+    wikiTitle: "Yuga Aoyama"
+  },
+  {
+    id: "mezo-shoji",
+    name: "Mezo Shoji (Tentacole)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Dupli-Arms (Tentáculos com Órgãos Replicáveis)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Mesmo que as pessoas tenham preconceito com mutantes, eu usarei meus braços apenas para proteger e acolher!",
+    techniques: [
+      "Replicação de Olhos e Ouvidos Sensoriais",
+      "Golpes de Impacto com Seis Braços Gigantes",
+      "Escudo Protetor Corporal Envolvente",
+      "Resgate Físico em Massa"
+    ],
+    wikiTitle: "Mezo Shoji"
+  },
+  {
+    id: "toru-hagakure",
+    name: "Toru Hagakure (Invisible Girl)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Heroína",
+    quirk: "Invisibility (Refração de Luz e Invisibilidade Absoluta)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Você não consegue me ver, mas garanto que estou bem atrás de você pronta para agir!",
+    techniques: [
+      "Invisibilidade Permanente e Furtividade Total",
+      "Warp Refraction (Clarão Solar Cegante Refratado)",
+      "Infiltração Furtiva Sem Detecção",
+      "Emboscada Corporal"
+    ],
+    wikiTitle: "Toru Hagakure"
+  },
+  {
+    id: "mashirao-ojiro",
+    name: "Mashirao Ojiro (Tailman)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Tail (Cauda Musculosa e Poderosa)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "A dedicação honesta às artes marciais é a base do meu heroísmo!",
+    techniques: [
+      "Golpe de Cauda de Ruptura Concussiva",
+      "Salto e Giro de Cauda Acrobático",
+      "Artes Marciais Ojiro Karate",
+      "Defesa e Bloqueio com Músculo Caudal"
+    ],
+    wikiTitle: "Mashirao Ojiro"
+  },
+  {
+    id: "koji-koda",
+    name: "Koji Koda (Anima)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Anivoice (Comunicação e Comando de Animais)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Mesmo que eu seja tímido, quando meus amigos precisam, peço a todos os pássaros e insetos que voem ao nosso lado!",
+    techniques: [
+      "Enxame de Insetos e Aves de Ataque",
+      "Rastreamento Aéreo por Pássaros Aliados",
+      "Comando de Feras Terrestres",
+      "Força Física Mutante Silenciosa"
+    ],
+    wikiTitle: "Koji Koda"
+  },
+  {
+    id: "rikido-sato",
+    name: "Rikido Sato (Sugarman)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Sugar Rush (Aumento Quíntuplo de Força por Consumo de Açúcar)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Um pouco de bolo de açúcar e eu quebro paredes de concreto como se fossem biscoito!",
+    techniques: [
+      "Aumento Quíntuplo de Força Muscular",
+      "Socos Concussivos de Alta Carga",
+      "Culinária de Doces Estimulantes",
+      "Resistência a Impactos Físicos"
+    ],
+    wikiTitle: "Rikido Sato"
+  },
+  {
+    id: "minoru-mineta",
+    name: "Minoru Mineta (Grape Juice)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-A"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Pop Off (Esferas Superadesivas do Couro Cabeludo)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Eu quero ser popular e descolado com as garotas! Mas não vou deixar meus amigos serem derrotados!",
+    techniques: [
+      "Grape Rush (Chuva de Esferas Aderentes)",
+      "Quique e Rebote pelas Próprias Esferas",
+      "Confinamento Total de Inimigos no Chão",
+      "Bloqueio de Passagens e Portas"
+    ],
+    wikiTitle: "Minoru Mineta"
+  },
+  {
+    id: "shota-aizawa",
+    name: "Shota Aizawa (Eraser Head)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Heróis Profissionais"],
+    role: "Herói Profissional / Professor da Turma 1-A",
+    quirk: "Erasure (Apagamento de Individualidades pelo Olhar)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Não há nada mais irracional do que esperança cega. Um herói deve estar pronto para agir de forma lógica e implacável.",
+    techniques: [
+      "Apagamento de Individualidades com o Olhar (Erasure)",
+      "Combate de Faixas de Fibra de Carbono Especial",
+      "Golpes de Facas e Imobilização Tática",
+      "Análise Rápida de Fraquezas de Vilões"
+    ],
+    wikiTitle: "Shota Aizawa"
+  },
+  {
+    id: "all-might",
+    name: "Toshinori Yagi (All Might)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Heróis Profissionais"],
+    role: "Símbolo da Paz / Ex-Herói Nº 1 / Professor",
+    quirk: "One For All (O Oitavo Sucessor)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Está tudo bem agora. Sabe por quê? Porque EU ESTOU AQUI! (Watashi ga kita!)",
+    techniques: [
+      "United States of Smash",
+      "Texas Smash / Detroit Smash",
+      "Carolina Smash / Oklahoma Smash",
+      "Armadura Armored All Might (Hércules)"
+    ],
+    wikiTitle: "All Might"
+  },
+  {
+    id: "present-mic",
+    name: "Hizashi Yamada (Present Mic)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Heróis Profissionais"],
+    role: "Herói Profissional / Locutor / Professor",
+    quirk: "Voice (Ondas Sônicas Devastadoras da Voz)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "YEAAAH! Sejam bem-vindos ao show! O som da minha voz vai estourar os tímpanos de vocês!",
+    techniques: [
+      "Grito Sônico Destruidor de Concreto",
+      "Canalização Direcional de Ruído Ensudercedor",
+      "Locução Esportiva e Comentários do Festival",
+      "Defesa Acústica Desestabilizadora"
+    ],
+    wikiTitle: "Hizashi Yamada"
+  },
+  {
+    id: "midnight",
+    name: "Nemuri Kayama (Midnight)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Heróis Profissionais"],
+    role: "Heroína Profissional / Professora",
+    quirk: "Somnambulist (Névoa de Aroma Sonífero Corporal)",
+    debutArc: "Arco do Festival Esportivo da U.A.",
+    status: "Morto",
+    quote: "A juventude é tão empolgante! Uma pitada da minha fragrância e todos os garotos cairão em sono profundo!",
+    techniques: [
+      "Emissão de Gás Sonífero por Rasgo de Traje",
+      "Chicote de Combate de Couro",
+      "Sedação Imediata de Multidões",
+      "Árbitra do Festival Esportivo da U.A."
+    ],
+    wikiTitle: "Nemuri Kayama"
+  },
+  {
+    id: "nezu",
+    name: "Diretor Nezu",
+    gender: "Masculino",
+    affiliation: ["U.A. High School"],
+    role: "Diretor da U.A. High School",
+    quirk: "High Spec (Superinteligência Humana Superior)",
+    debutArc: "Arco do Ataque à U.S.J.",
+    status: "Vivo",
+    quote: "Sou um rato, um urso ou um cachorro? Nada disso importa, porque sou o Diretor Nezu, dono da mente mais brilhante do Japão!",
+    techniques: [
+      "Cálculo Estratégico e Preditivo Imediato",
+      "Planejamento de Confinamento e Fortificação da U.A.",
+      "Comando de Mechas e Guindastes com Precisão Numérica",
+      "Administração da Academia de Heróis"
+    ],
+    wikiTitle: "Nezu"
+  },
+  {
+    id: "mirio-togata",
+    name: "Mirio Togata (Lemillion)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Big 3"],
+    role: "Estudante da U.A. / Big 3",
+    quirk: "Permeation (Permeabilidade Intangível de Matéria)",
+    debutArc: "Arco do Exame de Licença Provisória de Herói",
+    status: "Vivo",
+    quote: "Eu serei o Lemillion! Um herói capaz de salvar pelo menos um milhão de pessoas com um sorriso no rosto!",
+    techniques: [
+      "Intangibilidade Total e Deslocamento pelo Solo",
+      "Phantom Menace (Ataques Cegos Ultrarrápidos em Ricochete)",
+      "Combate Corpo a Corpo sem Quirk de Alta Maestria",
+      "Aparência Intocável Esmagadora"
+    ],
+    wikiTitle: "Mirio Togata"
+  },
+  {
+    id: "nejire-hado",
+    name: "Nejire Hado (Nejire-chan)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Big 3"],
+    role: "Estudante da U.A. / Big 3",
+    quirk: "Wave Motion (Ondas Espirais de Energia Vital)",
+    debutArc: "Arco do Exame de Licença Provisória de Herói",
+    status: "Vivo",
+    quote: "Por que você tem essa cara? O que sua individualidade faz? É tão incrível flutuar e lançar espirais de energia!",
+    techniques: [
+      "Nejire Wave (Canhão Espiral de Alta Energia)",
+      "Nejire Flood (Onda Espiral Devastadora)",
+      "Voo Levitatório Estável com Propulsão Espiral",
+      "Disparos de Pressão Concentrada"
+    ],
+    wikiTitle: "Nejire Hado"
+  },
+  {
+    id: "tamaki-amajiki",
+    name: "Tamaki Amajiki (Suneater)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Big 3"],
+    role: "Estudante da U.A. / Big 3",
+    quirk: "Manifest (Manifestação Corporal de Alimentos Consumidos)",
+    debutArc: "Arco do Exame de Licença Provisória de Herói",
+    status: "Vivo",
+    quote: "Mesmo que eu queira enfiar a cabeça na parede por timidez... eu sou o Suneater que devorará até o próprio sol para proteger vocês!",
+    techniques: [
+      "Chimera Kraken (Tentáculos Gigantes de Polvo com Carapaça)",
+      "Asas de Gaivota e Bico de Ave de Rapina",
+      "Chifres e Cascos de Touro Perfurantes",
+      "Vast Hybrid (Canhão de Plasma de Alimentos)"
+    ],
+    wikiTitle: "Tamaki Amajiki"
+  },
+  {
+    id: "hitoshi-shinso",
+    name: "Hitoshi Shinso",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Curso Geral / Curso de Heróis"],
+    role: "Estudante da U.A. / Herói em Treinamento",
+    quirk: "Brainwashing (Lavagem Cerebral Ativada por Resposta Verbal)",
+    debutArc: "Arco do Festival Esportivo da U.A.",
+    status: "Vivo",
+    quote: "Disseram que minha individualidade era feita para vilões... mas eu vou ser um verdadeiro herói que salva pessoas!",
+    techniques: [
+      "Comando Mental de Alvos (Lavagem Cerebral)",
+      "Modulador de Voz Artificial de Cordas Vocais",
+      "Faixas de Captura Estilo Aizawa",
+      "Gatilho Psicológico de Provocação"
+    ],
+    wikiTitle: "Hitoshi Shinso"
+  },
+  {
+    id: "neito-monoma",
+    name: "Neito Monoma (Phantom Thief)",
+    gender: "Masculino",
+    affiliation: ["U.A. High School", "Turma 1-B"],
+    role: "Estudante da U.A. / Herói",
+    quirk: "Copy (Cópia de Até 4 Individualidades por Toque)",
+    debutArc: "Arco do Festival Esportivo da U.A.",
+    status: "Vivo",
+    quote: "A Turma 1-A acha que é o centro do universo? A Turma 1-B e eu mostraremos que a vitória pertence a quem tem estratégia!",
+    techniques: [
+      "Cópia Simultânea de Múltiplos Quirks por Toque",
+      "Uso de Warp Gate de Kurogiri",
+      "Enganação Psicológica e Blefes com Relógio",
+      "Cópia Tática em Cadeia de Suporte"
+    ],
+    wikiTitle: "Neito Monoma"
+  },
+  {
+    id: "itsuka-kendo",
+    name: "Itsuka Kendo (Battle Fist)",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Turma 1-B"],
+    role: "Estudante da U.A. / Representante da Turma 1-B",
+    quirk: "Big Fist (Ampliação Gigante das Mãos)",
+    debutArc: "Arco do Festival Esportivo da U.A.",
+    status: "Vivo",
+    quote: "Como irmã mais velha da Turma 1-B, vou colocar a cabeça no lugar do Monoma e liderar nossa equipe para a vitória!",
+    techniques: [
+      "Tapas Gigantes de Alta Pressão Eólica",
+      "Agarramento e Esmagamento com Punhos Colossais",
+      "Escudo Bloqueador com Mãos Blindadas",
+      "Liderança Tática Marcial"
+    ],
+    wikiTitle: "Itsuka Kendo"
+  },
+  {
+    id: "mei-hatsume",
+    name: "Mei Hatsume",
+    gender: "Feminino",
+    affiliation: ["U.A. High School", "Curso de Suporte"],
+    role: "Estudante da U.A. / Desenvolvedora de Suporte",
+    quirk: "Zoom (Visão Telescópica de Até 5 Quilômetros)",
+    debutArc: "Arco do Festival Esportivo da U.A.",
+    status: "Vivo",
+    quote: "Olhem para os meus bebês inventados! Qualquer herói precisa dos melhores equipamentos da Hatsume para brilhar!",
+    techniques: [
+      "Visão Microscópica e Telescópica de Longa Distância",
+      "Desenvolvimento Rápido de Gadgets e Trajes de Suporte",
+      "Mochilas Propulsoras e Luvas de Ar Comprimido",
+      "Manutenção Tecnológica de Emergência"
+    ],
+    wikiTitle: "Mei Hatsume"
+  },
+  {
+    id: "endeavor",
+    name: "Enji Todoroki (Endeavor)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais", "Agência de Endeavor"],
+    role: "Herói Profissional Nº 1",
+    quirk: "Hellflame (Chamas Infernais de Alta Temperatura)",
+    debutArc: "Arco do Festival Esportivo da U.A.",
+    status: "Vivo",
+    quote: "Não me peçam para ser como All Might... apenas olhem para mim e vejam o que um homem imperfeito faz para proteger todos!",
+    techniques: [
+      "Prominence Burn (Incandescência Solar Destruidora)",
+      "Hell Spider (Teia de Raios Incineradores de Fogo)",
+      "Jet Burn (Soco Propelido a Plasma Flamejante)",
+      "Voo por Propulsão Ígnea Contínua"
+    ],
+    wikiTitle: "Endeavor"
+  },
+  {
+    id: "hawks",
+    name: "Keigo Takami (Hawks)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais", "Comissão de Segurança Pública"],
+    role: "Herói Profissional Nº 2 / Agente Duplo",
+    quirk: "Fierce Wings (Asas Escarlates de Penas Rígidas e Sensoriais)",
+    debutArc: "Arco dos Heróis Profissionais & High-End",
+    status: "Vivo",
+    quote: "Eu só quero um mundo pacífico onde os heróis tenham tanto tempo livre que possam ficar entediados.",
+    techniques: [
+      "Voo Supersônico com Asas Escarlates",
+      "Lâminas de Penas Rígidas Cortantes",
+      "Rastreamento Acústico por Vibração de Penas",
+      "Resgate Simultâneo de Dezenas de Civis"
+    ],
+    wikiTitle: "Hawks"
+  },
+  {
+    id: "best-jeanist",
+    name: "Tsunagu Hakamada (Best Jeanist)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais"],
+    role: "Herói Profissional Nº 3",
+    quirk: "Fiber Master (Manipulação de Fibras Têxteis e Fios)",
+    debutArc: "Arco do Festival Esportivo da U.A.",
+    status: "Vivo",
+    quote: "Mesmo um único fio pode conter a força de um furacão quando entrelaçado com disciplina e elegância.",
+    techniques: [
+      "Confinamento Imediato de Inimigos com Roupas",
+      "Fios de Aço de Alta Tensão de Guindastes",
+      "Estruturas Têxteis Protetoras de Cidade",
+      "Controle das Roupas dos Oponentes"
+    ],
+    wikiTitle: "Best Jeanist"
+  },
+  {
+    id: "edgeshot",
+    name: "Shinya Kamihara (Edgeshot)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais", "Lurkers"],
+    role: "Herói Profissional Nº 4 / Ninja",
+    quirk: "Foldabody (Dobra Corporal Fina como Fio de Papel)",
+    debutArc: "Arco do Resgate de Bakugo & Kamino",
+    status: "Vivo",
+    quote: "A arte ninja de transformar o corpo em uma agulha cirúrgica atravessará o coração de qualquer ameaça!",
+    techniques: [
+      "Transformação Fina como Lâmina Cirúrgica",
+      "Ataque Perfurador na Velocidade do Som",
+      "Infiltração Interna em Veias e Órgãos",
+      "Sutura Cardíaca de Emergência"
+    ],
+    wikiTitle: "Edgeshot"
+  },
+  {
+    id: "mirko",
+    name: "Rumi Usagiyama (Mirko)",
+    gender: "Feminino",
+    affiliation: ["Heróis Profissionais"],
+    role: "Heroína Profissional Nº 5",
+    quirk: "Rabbit (Fisiologia e Força de Coelho)",
+    debutArc: "Arco dos Heróis Profissionais & High-End",
+    status: "Vivo",
+    quote: "Eu não me importo de morrer em combate se for lutando com tudo o que tenho até o último suspiro!",
+    techniques: [
+      "Luna Ring (Chute Giratório Decapitador)",
+      "Luna Fall (Pisada Sísmica Descendente)",
+      "Saltos e Velocidade Sobre-Humana com Pernas Fortes",
+      "Audição Aguçada com Orelhas de Coelho"
+    ],
+    wikiTitle: "Mirko"
+  },
+  {
+    id: "gran-torino",
+    name: "Sorahiko Torino (Gran Torino)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais", "Ex-Mentor de All Might"],
+    role: "Herói Profissional Veterano",
+    quirk: "Jet (Propulsão de Ar Comprimido pelos Pés)",
+    debutArc: "Arco do Assassino de Heróis (Stain)",
+    status: "Vivo",
+    quote: "Toshinori e Izuku... os dois eram cabeças-duras que precisavam aprender a respirar antes de dar um soco!",
+    techniques: [
+      "Deslocamento e Rebotes Ultrarrápidos em Paredes",
+      "Chutes Aéreos de Impacto Surpresa",
+      "Imobilização Rápida no Solo",
+      "Treinamento de Controle de Energia One For All"
+    ],
+    wikiTitle: "Gran Torino"
+  },
+  {
+    id: "sir-nighteye",
+    name: "Mirai Sasaki (Sir Nighteye)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais", "Ex-Parceiro de All Might"],
+    role: "Herói Profissional / Agência Nighteye",
+    quirk: "Foresight (Previsão do Futuro pelo Olhar)",
+    debutArc: "Arco do Shie Hassaikai (Overhaul)",
+    status: "Morto",
+    quote: "Um mundo sem energia e sem sorrisos não tem futuro. Nunca percam a esperança e continuem sorrindo!",
+    techniques: [
+      "Visão Detalhada do Futuro de um Indivíduo (Foresight)",
+      "Arremesso Mortal de Selos Hiperdensos de 5kg",
+      "Combate Evasivo com Esquiva Absoluta",
+      "Investigação e Dedução Criminal Brilhante"
+    ],
+    wikiTitle: "Sir Nighteye"
+  },
+  {
+    id: "fat-gum",
+    name: "Taishiro Toyomitsu (Fat Gum)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais", "Agência Fat Gum"],
+    role: "Herói Profissional / Especialista em Absorção",
+    quirk: "Fat Absorption (Absorção de Impacto e Força por Gordura Corporal)",
+    debutArc: "Arco do Shie Hassaikai (Overhaul)",
+    status: "Vivo",
+    quote: "Pode me bater o quanto quiser! Toda a sua força será acumulada na minha banha e devolvida num único contra-ataque!",
+    techniques: [
+      "Absorção e Amortecimento de Balas e Socos",
+      "Queima Instantânea de Gordura em Força Muscular Pura",
+      "Spear of Retaliation (Soco Supremo Devastador)",
+      "Escudo Protetor Humano para Aliados"
+    ],
+    wikiTitle: "Fat Gum"
+  },
+  {
+    id: "mt-lady",
+    name: "Yu Takeyama (Mt. Lady)",
+    gender: "Feminino",
+    affiliation: ["Heróis Profissionais", "Lurkers"],
+    role: "Heroína Profissional",
+    quirk: "Gigantification (Crescimento Corporal para Mais de 20 Metros)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "Cuidado aí embaixo! Mt. Lady chegou para esmagar os vilões com passos gigantes!",
+    techniques: [
+      "Canyon Cannon (Voadora Gigante Colossal)",
+      "Titan Cliff (Bloqueio Físico com Corpo Gigante)",
+      "Passos Sísmicos Esmagadores",
+      "Imobilização de Gigantes Inimigos"
+    ],
+    wikiTitle: "Mt. Lady"
+  },
+  {
+    id: "kamui-woods",
+    name: "Shinji Nishiya (Kamui Woods)",
+    gender: "Masculino",
+    affiliation: ["Heróis Profissionais", "Lurkers"],
+    role: "Herói Profissional",
+    quirk: "Arbor (Manipulação e Crescimento de Madeira a partir do Corpo)",
+    debutArc: "Arco do Exame de Admissão & Teste de Individualidade",
+    status: "Vivo",
+    quote: "A justiça florescerá nas raízes inquebráveis deste herói de madeira!",
+    techniques: [
+      "Lacquered Chain Prison (Prisão de Raízes Lacradas)",
+      "Galhos Extensíveis de Confinamento em Massa",
+      "Locomoção Arbórea entre Prédios",
+      "Escudo de Troncos Reforçados"
+    ],
+    wikiTitle: "Kamui Woods"
+  },
+  {
+    id: "tomura-shigaraki",
+    name: "Tomura Shigaraki (Tenko Shimura)",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Frente de Libertação Paranormal"],
+    role: "Líder Supremo dos Vilões",
+    quirk: "Decay (Desintegração Instantânea ao Toque) & All For One",
+    debutArc: "Arco do Ataque à U.S.J.",
+    status: "Morto",
+    quote: "Eu não quero governar o mundo... eu quero destruir tudo o que nasceu dessa sociedade de heróis hipócrita!",
+    techniques: [
+      "Decay Despertado (Desintegração em Cadeia de Cidades Inteiras)",
+      "All For One (Roubo e Combinação de Quirks)",
+      "Super Regeneração Celular Imediata",
+      "Corpo Biologicamente Modificado no Nível de All Might"
+    ],
+    wikiTitle: "Tomura Shigaraki"
+  },
+  {
+    id: "all-for-one",
+    name: "All For One (Shigaraki)",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Império do Crime Subterrâneo"],
+    role: "O Maior Vilão da História do Japão",
+    quirk: "All For One (Roubo, Acúmulo e Transferência de Individualidades)",
+    debutArc: "Arco do Resgate de Bakugo & Kamino",
+    status: "Morto",
+    quote: "Todas as individualidades existem para serem tomadas por mim. Eu sou o Rei Demônio que orquestra a tragédia humana!",
+    techniques: [
+      "Roubo Permanente de Quirks por Toque",
+      "Combinação de Canhões de Ar, Reversão e Espigões Ósseos",
+      "Warp Mud (Gosma Negra de Teletransporte)",
+      "Forçar Ativação de Quirks de Terceiros"
+    ],
+    wikiTitle: "All For One"
+  },
+  {
+    id: "dabi",
+    name: "Dabi (Toya Todoroki)",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Frente de Libertação Paranormal", "Família Todoroki"],
+    role: "Tenente dos Vilões / O Filho Renegado",
+    quirk: "Blueflame (Cremation - Chamas Azuis Incineradoras)",
+    debutArc: "Arco dos Exames Finais & Acampamento na Floresta",
+    status: "Morto",
+    quote: "O passado nunca morre, Endeavor! Dance comigo no inferno enquanto seu legado queima diante do país inteiro!",
+    techniques: [
+      "Flashfire Fist de Chamas Azuis Superaquecidas",
+      "Hell Spider de Fogo Azul",
+      "Prominence Burn Autodestrutivo",
+      "Esferas de Fogo e Chamas Incineradoras de Florestas"
+    ],
+    wikiTitle: "Dabi"
+  },
+  {
+    id: "himiko-toga",
+    name: "Himiko Toga",
+    gender: "Feminino",
+    affiliation: ["Liga dos Vilões", "Frente de Libertação Paranormal"],
+    role: "Assassina da Liga / Tenente",
+    quirk: "Transform (Metamorfose e Uso de Quirks Ingerindo Sangue)",
+    debutArc: "Arco dos Exames Finais & Acampamento na Floresta",
+    status: "Morto",
+    quote: "Eu só quero amar, ser livre e viver no mundo das pessoas que eu admiro... sugando o sangue de quem eu mais amo!",
+    techniques: [
+      "Metamorfose Perfeita a partir do Sangue da Vítima",
+      "Uso de Quirks das Pessoas que Ama (Transformação Despertada)",
+      "Infiltração Furtiva Sem Presença ou Sede de Sangue",
+      "Combate Ágil com Facas e Seringas Sugadoras"
+    ],
+    wikiTitle: "Himiko Toga"
+  },
+  {
+    id: "twice",
+    name: "Twice (Jin Bubaigawara)",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Frente de Libertação Paranormal"],
+    role: "Membro da Liga / Divisão de Vanguarda",
+    quirk: "Double (Criação de Clones Perfeitos de Si e Outros)",
+    debutArc: "Arco dos Exames Finais & Acampamento na Floresta",
+    status: "Morto",
+    quote: "Eu morreria pelos meus amigos da Liga! Eles foram os únicos que me aceitaram como sou!",
+    techniques: [
+      "Sad Man's Parade (Desfile do Homem Triste - Milhares de Clones)",
+      "Clonagem de Aliados com Dados de Medição",
+      "Fita Métrica de Combate e Lâminas Ocultas",
+      "Enxame Humano Invasor"
+    ],
+    wikiTitle: "Twice"
+  },
+  {
+    id: "mr-compress",
+    name: "Mr. Compress (Atsuhiro Sako)",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Frente de Libertação Paranormal"],
+    role: "Mágico Ilusionista / Tenente",
+    quirk: "Compress (Compactação de Objetos e Pessoas em Pequenas Mármores)",
+    debutArc: "Arco dos Exames Finais & Acampamento na Floresta",
+    status: "Preso",
+    quote: "A mágica do entretenimento exige carisma e surpresa! Vejam o alvo desaparecer nas pontas dos meus dedos!",
+    techniques: [
+      "Compactação Instantânea de Alvos e Escombros",
+      "Mutilação Seletiva por Compressão Parcial",
+      "Ilusionismo de Moedas e Truques com Fumaça",
+      "Fuga Acrobática de Mágico"
+    ],
+    wikiTitle: "Mr. Compress"
+  },
+  {
+    id: "spinner",
+    name: "Spinner (Shuichi Iguchi)",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Frente de Libertação Paranormal"],
+    role: "Comandante dos Mutantes / Tenente",
+    quirk: "Gecko (Aderência em Paredes) & Quirks Concedidos por AFO",
+    debutArc: "Arco dos Exames Finais & Acampamento na Floresta",
+    status: "Preso",
+    quote: "Eu segui Stain e escolhi apoiar Tomura Shigaraki até o fim. Nós daremos voz a todos os rejeitados deste mundo!",
+    techniques: [
+      "Espada Gigante Forjada de Dezenas de Lâminas",
+      "Escalada em Paredes por Fisiologia Gecko",
+      "Transformação Monstruosa de Gigantificação e Escamas",
+      "Liderança do Regimento dos Heteromorfos"
+    ],
+    wikiTitle: "Spinner"
+  },
+  {
+    id: "kurogiri",
+    name: "Kurogiri (Oboro Shirakumo)",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Nomu de Alta Inteligência"],
+    role: "Provedor de Transporte da Liga / Nomu",
+    quirk: "Warp Gate (Portais Espaciais de Névoa Escura)",
+    debutArc: "Arco do Ataque à U.S.J.",
+    status: "Morto",
+    quote: "Eu sou a névoa que conecta qualquer lugar deste mundo às ordens do mestre Shigaraki.",
+    techniques: [
+      "Abertura de Portais de Teletransporte de Grande Escala",
+      "Separação Forçada de Esquadrões de Heróis",
+      "Manto Protetor de Névoa Negra Intangível",
+      "Redirecionamento de Ataques para o Próprio Inimigo"
+    ],
+    wikiTitle: "Kurogiri"
+  },
+  {
+    id: "gigantomachia",
+    name: "Gigantomachia",
+    gender: "Masculino",
+    affiliation: ["Liga dos Vilões", "Guarda-Costas de All For One"],
+    role: "Calamidade Andante / Servo Fiel de AFO",
+    quirk: "Sete Individualidades (Endurecimento, Crescimento Gigante, Resistência à Dor, Cão Farejador, etc.)",
+    debutArc: "Arco dos Exames Finais & Acampamento na Floresta",
+    status: "Morto",
+    quote: "A voz do Mestre... o chamado do meu Senhor... tudo o que estiver no meu caminho será esmagado sob meus passos!",
+    techniques: [
+      "Gigantificação até o Tamanho de uma Montanha",
+      "Investida Destruidora de Florestas e Cidades",
+      "Cavada Subterrânea em Alta Velocidade",
+      "Rugido Sísmico Desestabilizador"
+    ],
+    wikiTitle: "Gigantomachia"
+  },
+  {
+    id: "overhaul",
+    name: "Kai Chisaki (Overhaul)",
+    gender: "Masculino",
+    affiliation: ["Shie Hassaikai (Yakuza)"],
+    role: "Líder do Shie Hassaikai / Yakuza",
+    quirk: "Overhaul (Desconstrução e Reconstrução Molecular Imediata)",
+    debutArc: "Arco do Shie Hassaikai (Overhaul)",
+    status: "Preso",
+    quote: "As individualidades são uma doença que infectou a humanidade! Eu trarei a ordem de volta purificando este mundo podre!",
+    techniques: [
+      "Desconstrução Instantânea de Corpos ao Toque",
+      "Manipulação Sísmica de Estacas e Paredes de Rocha",
+      "Fusão e Reconstrução Corporal com Subordinados",
+      "Criação das Balas Destruidoras de Individualidade"
+    ],
+    wikiTitle: "Overhaul"
+  },
+  {
+    id: "re-destro",
+    name: "Rikiya Yotsubashi (Re-Destro)",
+    gender: "Masculino",
+    affiliation: ["Exército de Libertação Meta", "Frente de Libertação Paranormal"],
+    role: "Comandante do Exército Meta / CEO da Detnerat",
+    quirk: "Stress (Conversão de Estresse Mental em Força e Tamanho Titânico)",
+    debutArc: "Arco do Exército de Libertação Meta (My Villain Academia)",
+    status: "Preso",
+    quote: "O uso livre das nossas individualidades é um direito humano fundamental! Libertem o estresse e quebrem as amarras da sociedade!",
+    techniques: [
+      "Liberação de Estresse Corporal a 100% e 150%",
+      "Massa Gigante Negra de Força Demolidora",
+      "Claustro (Armadura Mecânica Detnerat Amplificadora)",
+      "Ondas de Choque Concussivas com Punhos de Estresse"
+    ],
+    wikiTitle: "Re-Destro"
+  },
+  {
+    id: "lady-nagant",
+    name: "Kaina Tsutsumi (Lady Nagant)",
+    gender: "Feminino",
+    affiliation: ["Ex-Segurança Pública", "Independentes"],
+    role: "Atiradora de Elite / Ex-Heroína Assassina",
+    quirk: "Rifle (Braço Fuzil de Longo Alcance) & Air Walk",
+    debutArc: "Arco do Herói Sombrio (Dark Hero / Deku Solo)",
+    status: "Vivo",
+    quote: "A sociedade de heróis foi construída sobre assassinatos secretos e mentiras... eu cansei de fingir que esse sistema era justo.",
+    techniques: [
+      "Sniping com Alcance de mais de 3 Quilômetros",
+      "Balas de Cabelo Modeladas Curvadas e Especiais",
+      "Air Walk (Caminhada e Mobilidade Aérea Estável)",
+      "Disparos Perfurantes Duplos em Ângulo Cego"
+    ],
+    wikiTitle: "Lady Nagant"
+  },
+  {
+    id: "gentle-criminal",
+    name: "Gentle Criminal (Danjuro Tobita)",
+    gender: "Masculino",
+    affiliation: ["Gentle & La Brava"],
+    role: "Cavalheiro Ladrão / Criminoso Celebridade",
+    quirk: "Elasticity (Transforma Qualquer Superfície e o Próprio Ar em Elástico)",
+    debutArc: "Arco do Festival Cultural da U.A.",
+    status: "Vivo",
+    quote: "Eu sou o Gentle Criminal! Posso não ter sido um herói dos livros, mas gravarei meu nome na história com cavalheirismo!",
+    techniques: [
+      "Gently Trampoline (Criação de Paredes e Trampolins de Ar Elástico)",
+      "Reflexão de Ataques Físicos e Balas",
+      "Gently Sandwich (Compressão Elástica)",
+      "Lover Mode (Aumento Extremo de Poder pelo Amor de La Brava)"
+    ],
+    wikiTitle: "Gentle Criminal"
+  },
+  {
+    id: "la-brava",
+    name: "La Brava (Manami Aiba)",
+    gender: "Feminino",
+    affiliation: ["Gentle & La Brava"],
+    role: "Hacker / Parceira de Gentle",
+    quirk: "Love (Fortalecimento Extremo da Pessoa Mais Amada)",
+    debutArc: "Arco do Festival Cultural da U.A.",
+    status: "Vivo",
+    quote: "Gentle é a minha luz na escuridão! Meu amor por ele concederá o poder necessário para superar qualquer barreira!",
+    techniques: [
+      "Ativação do Quirk Love (Multiplicação de Força por Amor)",
+      "Hacking Cibernético e Invasão de Redes de Segurança",
+      "Edição e Transmissão de Vídeos Virais",
+      "Suporte Tático Digital em Tempo Real"
+    ],
+    wikiTitle: "La Brava"
+  },
+  {
+    id: "stain",
+    name: "Chizome Akaguro (Hero Killer Stain)",
+    gender: "Masculino",
+    affiliation: ["Independentes"],
+    role: "O Assassino de Heróis",
+    quirk: "Bloodcurdle (Paralisação Temporal de Alvos ao Ingerir Sangue)",
+    debutArc: "Arco do Assassino de Heróis (Stain)",
+    status: "Morto",
+    quote: "Tanto os heróis gananciosos quanto os vilões vazios devem ser expurgados! O único homem que tem direito de me derrotar... é o verdadeiro All Might!",
+    techniques: [
+      "Paralisação Motora Absoluta por Ingestão de Sangue",
+      "Combate Letal com Katanas e Facas de Arremesso",
+      "Velocidade e Agilidade Extrema de Predador",
+      "Presença Psicológica Paralisadora de Vontade"
+    ],
+    wikiTitle: "Stain"
+  }
+];

@@ -56,6 +56,21 @@ export interface Character {
   // Naruto
   village?: string;
   clan?: string;
+  // Cyberpunk & Akame & Others
+  role?: string;
+  cyberware?: string;
+  teigu?: string;
+  // Witch Hat Atelier
+  magicRole?: string;
+  magicSpecialty?: string;
+  // Shangri-La Frontier
+  gameClass?: string;
+  // Nanatsu no Taizai
+  sacredTreasure?: string;
+  magicOrPower?: string;
+  rankOrTitle?: string;
+  // My Hero Academia
+  quirk?: string;
 }
 
 export interface AttributeColumn {
