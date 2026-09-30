@@ -96,149 +96,105 @@ const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect }) => {
   );
 };
 
-// ── Carrossel "Continue Jogando" (Exibe 3 logos com animação clean) ─────
-interface ContinuePlayingCarouselProps {
+// ── "Continue Jogando" (Foco de anime único: apenas 3 animes com logo em PNG e setas) ─────
+interface ContinuePlayingFocusProps {
   animes: AnimeEntry[];
   onSelect: (slug: string) => void;
 }
 
-const ContinuePlayingCarousel: React.FC<ContinuePlayingCarouselProps> = ({ animes, onSelect }) => {
-  const [currentPage, setCurrentPage] = useState(0);
-  const itemsPerPage = 3;
-  const totalPages = Math.ceil(animes.length / itemsPerPage);
+const ContinuePlayingFocus: React.FC<ContinuePlayingFocusProps> = ({ animes, onSelect }) => {
+  // Limita estritamente a apenas os 3 animes mais recentes
+  const topThree = useMemo(() => animes.slice(0, 3), [animes]);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const safePage = Math.min(currentPage, Math.max(0, totalPages - 1));
+  if (topThree.length === 0) return null;
 
-  const visibleAnimes = useMemo(() => {
-    const start = safePage * itemsPerPage;
-    return animes.slice(start, start + itemsPerPage);
-  }, [animes, safePage]);
+  const safeIndex = currentIndex % topThree.length;
+  const currentAnime = topThree[safeIndex];
 
-  const handlePrev = () => {
-    setCurrentPage(prev => (prev > 0 ? prev - 1 : totalPages - 1));
+  const handlePrev = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIndex(prev => (prev > 0 ? prev - 1 : topThree.length - 1));
   };
 
-  const handleNext = () => {
-    setCurrentPage(prev => (prev < totalPages - 1 ? prev + 1 : 0));
+  const handleNext = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentIndex(prev => (prev + 1) % topThree.length);
   };
-
-  if (animes.length === 0) return null;
 
   return (
-    <div className="mb-10 p-4 sm:p-6 rounded-3xl bg-[#090e1c]/80 border border-amber-500/25 backdrop-blur-md shadow-2xl">
-      {/* Cabeçalho da seção com título e botões de navegação */}
-      <div className="flex items-center justify-between gap-4 mb-5">
-        <div className="flex items-center gap-3">
-          <span className="text-2xl select-none">⚡</span>
-          <h2 className="text-xl sm:text-2xl font-black text-slate-100 tracking-tight flex items-center gap-2">
-            <span>Continue Jogando</span>
-            <span className="text-xs sm:text-sm font-bold text-slate-400 bg-[#0d1426] border border-[#202b43] px-2.5 py-0.5 rounded-full">
-              {animes.length}
-            </span>
-          </h2>
+    <div className="mb-10 max-w-xl mx-auto px-4">
+      {/* Container Foco de Anime Único */}
+      <div className="relative p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-[#0f172a]/90 via-[#0b1222]/90 to-[#070b16] border border-amber-500/30 shadow-2xl backdrop-blur-md flex flex-col items-center justify-center">
+        {/* Título discreto de status */}
+        <div className="flex items-center gap-2 mb-4 text-xs font-black uppercase tracking-widest text-amber-400 select-none">
+          <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping inline-block" />
+          <span>Continue Jogando</span>
         </div>
 
-        {totalPages > 1 && (
-          <div className="flex items-center gap-2">
+        {/* Área central com Setas + Logo em PNG Único */}
+        <div className="flex items-center justify-between w-full gap-3 sm:gap-6">
+          {topThree.length > 1 ? (
             <button
               onClick={handlePrev}
-              aria-label="Página anterior"
-              className="p-2 rounded-xl bg-[#0d1426] hover:bg-[#16223d] border border-[#202b43] hover:border-amber-400/50 text-slate-300 hover:text-white transition-all duration-200 active:scale-95 shadow-sm cursor-pointer"
+              aria-label="Anime anterior"
+              className="p-2.5 sm:p-3 rounded-2xl bg-[#0d1426] hover:bg-[#16223d] border border-[#202b43] hover:border-amber-400/60 text-slate-300 hover:text-white transition-all active:scale-95 cursor-pointer shadow-lg flex-shrink-0"
             >
-              <ChevronLeft size={18} />
+              <ChevronLeft size={22} />
             </button>
-            <span className="text-xs font-bold text-slate-400 px-1 select-none">
-              {safePage + 1} / {totalPages}
-            </span>
+          ) : <div className="w-10" />}
+
+          {/* Logo oficial em PNG com modo foco interativo */}
+          <div
+            key={currentAnime.slug}
+            onClick={() => onSelect(currentAnime.slug)}
+            className="flex-1 flex flex-col items-center justify-center cursor-pointer group py-2 animate-in fade-in zoom-in-95 duration-200"
+            title={`Jogar ${currentAnime.name}`}
+          >
+            <div className="h-28 sm:h-36 max-w-[280px] sm:max-w-[340px] flex items-center justify-center">
+              <img
+                src={`/logos/${currentAnime.slug}.png`}
+                alt={currentAnime.name}
+                className="max-h-28 sm:max-h-36 w-auto object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.85)] group-hover:scale-105 transition-transform duration-300 select-none"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.opacity = '0.5';
+                }}
+              />
+            </div>
+            <p className="text-xs sm:text-sm font-bold text-slate-300 group-hover:text-amber-300 transition-colors mt-3 text-center">
+              {currentAnime.name}
+            </p>
+          </div>
+
+          {topThree.length > 1 ? (
             <button
               onClick={handleNext}
-              aria-label="Próxima página"
-              className="p-2 rounded-xl bg-[#0d1426] hover:bg-[#16223d] border border-[#202b43] hover:border-amber-400/50 text-slate-300 hover:text-white transition-all duration-200 active:scale-95 shadow-sm cursor-pointer"
+              aria-label="Próximo anime"
+              className="p-2.5 sm:p-3 rounded-2xl bg-[#0d1426] hover:bg-[#16223d] border border-[#202b43] hover:border-amber-400/60 text-slate-300 hover:text-white transition-all active:scale-95 cursor-pointer shadow-lg flex-shrink-0"
             >
-              <ChevronRight size={18} />
+              <ChevronRight size={22} />
             </button>
+          ) : <div className="w-10" />}
+        </div>
+
+        {/* Indicadores de pontinhos (1 a 3 animes) */}
+        {topThree.length > 1 && (
+          <div className="flex items-center justify-center gap-2 mt-4">
+            {topThree.map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => setCurrentIndex(idx)}
+                aria-label={`Ir para anime ${idx + 1}`}
+                className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+                  idx === safeIndex
+                    ? 'w-6 bg-amber-400 shadow-sm shadow-amber-400/50'
+                    : 'w-2 bg-slate-700 hover:bg-slate-500'
+                }`}
+              />
+            ))}
           </div>
         )}
       </div>
-
-      {/* Grid de 3 cards com animação clean */}
-      <div
-        key={safePage}
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 animate-in fade-in zoom-in-95 duration-300"
-      >
-        {visibleAnimes.map((anime) => {
-          const logoWebp = `/logos/${anime.slug}.webp`;
-          const logoPng = `/logos/${anime.slug}.png`;
-
-          return (
-            <div
-              key={anime.slug}
-              onClick={() => onSelect(anime.slug)}
-              className="group relative flex flex-col justify-between p-5 sm:p-6 rounded-3xl bg-gradient-to-b from-[#0f172a]/95 via-[#0b1222]/90 to-[#070b16] border border-[#202b43] hover:border-amber-400/60 shadow-xl hover:shadow-[0_16px_36px_rgba(0,0,0,0.6)] transition-all duration-300 hover:-translate-y-1.5 cursor-pointer overflow-hidden backdrop-blur-md"
-            >
-              {/* Efeito de brilho no topo do card ao passar o mouse */}
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400/0 group-hover:via-amber-400/70 to-transparent transition-all duration-500" />
-
-              {/* Tag superior de status */}
-              <div className="flex items-center justify-between w-full mb-2">
-                <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase tracking-wider text-amber-400 bg-amber-500/15 border border-amber-500/30 px-2.5 py-1 rounded-full">
-                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-ping inline-block" />
-                  Em Progresso
-                </span>
-                <span className="text-lg select-none group-hover:scale-110 transition-transform">
-                  {ANIMES_CONFIG[anime.slug]?.banner || '⚡'}
-                </span>
-              </div>
-
-              {/* Centro: Logo oficial do anime em alta definição com animação clean */}
-              <div className="h-24 sm:h-28 flex items-center justify-center my-3 w-full px-2">
-                <picture className="max-h-full max-w-full flex items-center justify-center">
-                  <source srcSet={logoWebp} type="image/webp" />
-                  <img
-                    src={logoPng}
-                    alt={anime.name}
-                    className="max-h-24 sm:max-h-28 w-auto max-w-[220px] object-contain drop-shadow-[0_8px_20px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-300"
-                    onError={(e) => {
-                      (e.currentTarget as HTMLImageElement).style.opacity = '0.4';
-                    }}
-                  />
-                </picture>
-              </div>
-
-              {/* Rodapé: Título e Botão de Continuar */}
-              <div className="w-full mt-2 flex flex-col items-center">
-                <p className="font-['Outfit',sans-serif] text-sm sm:text-base font-extrabold text-white group-hover:text-amber-300 transition-colors text-center truncate w-full mb-3">
-                  {anime.name}
-                </p>
-                <button
-                  className="w-full py-2.5 px-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 group-hover:from-amber-400 group-hover:to-amber-500 text-black font-black text-xs sm:text-sm tracking-wide shadow-md shadow-amber-500/20 flex items-center justify-center gap-2 transition-all duration-200 active:scale-95"
-                >
-                  <Play size={14} className="fill-black" />
-                  <span>Continuar Jogo</span>
-                </button>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Pontinhos indicadores (Dots) */}
-      {totalPages > 1 && (
-        <div className="flex items-center justify-center gap-1.5 mt-5">
-          {Array.from({ length: totalPages }).map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => setCurrentPage(idx)}
-              aria-label={`Ir para página ${idx + 1}`}
-              className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
-                idx === safePage
-                  ? 'w-6 bg-amber-400 shadow-sm shadow-amber-400/50'
-                  : 'w-2 bg-slate-700 hover:bg-slate-500'
-              }`}
-            />
-          ))}
-        </div>
-      )}
     </div>
   );
 };
@@ -524,9 +480,9 @@ export const Home: React.FC = () => {
           </p>
         )}
 
-        {/* Continue Jogando: Carrossel com 3 logos oficiais e animação clean */}
+        {/* Continue Jogando: Foco de anime único com logo em PNG e setas */}
         {continuePlayingList.length > 0 && searchQuery.trim() === '' && activeGenre === null && (
-          <ContinuePlayingCarousel animes={continuePlayingList} onSelect={handleSelect} />
+          <ContinuePlayingFocus animes={continuePlayingList} onSelect={handleSelect} />
         )}
 
         {/* Disponíveis */}
