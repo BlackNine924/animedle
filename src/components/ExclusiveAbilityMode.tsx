@@ -182,16 +182,7 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const currentChallenge = filteredChallenges[currentIndex % Math.max(1, filteredChallenges.length)];
 
-  // 4 Alternatives: 1 correct + 3 random distractors
-  const currentAlternatives = useMemo(() => {
-    if (!currentChallenge) return [];
-    const correct = currentChallenge.character;
-    const others = characters.filter(c => c.id !== correct.id);
-    // Shuffle others and take 3
-    const shuffledOthers = [...others].sort(() => 0.5 - Math.random()).slice(0, 3);
-    const options = [correct, ...shuffledOthers].sort(() => 0.5 - Math.random());
-    return options;
-  }, [currentChallenge, characters]);
+
 
   // Next round
   const handleNextChallenge = () => {
@@ -480,129 +471,69 @@ export const ExclusiveAbilityMode: React.FC<ExclusiveAbilityModeProps> = ({
           })}
         </div>
 
-        {/* Guessing Interface: Typing input for BankaiDLE (Bleach), Alternatives for JJK */}
+        {/* Guessing Interface: Typing input with suggestions dropdown for both Bleach and JJK */}
         {!roundCompleted && !isGameOver && (
           <div className="relative z-10 mt-5">
-            {animeSlug === 'bleach' ? (
-              <div className="max-w-md mx-auto relative">
-                <h3 className="text-xs font-bold uppercase tracking-wider text-cyan-300 text-center mb-3">
-                  Digite o nome do Shinigami / Portador da Bankai:
-                </h3>
-                <div className="relative flex items-center">
-                  <Search size={16} className="absolute left-3.5 text-cyan-400 pointer-events-none" />
-                  <input
-                    type="text"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Digite o nome do personagem..."
-                    className="w-full bg-[#070b16] border border-cyan-500/40 focus:border-cyan-400 rounded-2xl py-3 pl-10 pr-4 text-sm text-white placeholder-slate-500 outline-none transition-all shadow-inner"
-                    autoFocus
-                  />
-                </div>
+            <div className="max-w-md mx-auto relative">
+              <h3 className={`text-xs font-bold uppercase tracking-wider text-center mb-3 ${
+                animeSlug === 'bleach' ? 'text-cyan-300' : 'text-purple-300'
+              }`}>
+                {animeSlug === 'bleach'
+                  ? 'Digite o nome do Shinigami / Portador da Bankai:'
+                  : 'Digite o nome do Feiticeiro / Usuário da Técnica:'}
+              </h3>
+              <div className="relative flex items-center">
+                <Search
+                  size={16}
+                  className={`absolute left-3.5 pointer-events-none ${
+                    animeSlug === 'bleach' ? 'text-cyan-400' : 'text-purple-400'
+                  }`}
+                />
+                <input
+                  type="text"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  placeholder="Digite o nome do personagem..."
+                  className={`w-full bg-[#070b16] border rounded-2xl py-3 pl-10 pr-4 text-sm text-white placeholder-slate-500 outline-none transition-all shadow-inner ${
+                    animeSlug === 'bleach'
+                      ? 'border-cyan-500/40 focus:border-cyan-400'
+                      : 'border-purple-500/40 focus:border-purple-400'
+                  }`}
+                  autoFocus
+                />
+              </div>
 
-                {/* Suggestions dropdown */}
-                {searchSuggestions.length > 0 && (
-                  <div className="absolute left-0 right-0 top-full mt-1.5 bg-[#0a101f] border border-cyan-500/50 rounded-2xl overflow-hidden shadow-2xl z-50 divide-y divide-white/5 max-h-56 overflow-y-auto">
-                    {searchSuggestions.map((char) => (
-                      <div
-                        key={char.id}
-                        onClick={() => handleGuessCharacter(char)}
-                        className="flex items-center gap-3 p-2.5 hover:bg-cyan-600/20 cursor-pointer transition-colors"
-                      >
-                        <img
-                          src={char.avatar}
-                          alt={char.name}
-                          className="w-8 h-8 rounded-full object-cover border border-white/20"
-                        />
-                        <div className="flex flex-col">
-                          <span className="text-xs font-bold text-white">{char.name}</span>
-                          <span className="text-[10px] text-slate-400">
-                            {Array.isArray(char.affiliation) ? char.affiliation.join(' • ') : (char.affiliation || 'Soul Society')}
-                          </span>
-                        </div>
+              {/* Suggestions dropdown */}
+              {searchSuggestions.length > 0 && (
+                <div className={`absolute left-0 right-0 top-full mt-1.5 bg-[#0a101f] border rounded-2xl overflow-hidden shadow-2xl z-50 divide-y divide-white/5 max-h-56 overflow-y-auto ${
+                  animeSlug === 'bleach' ? 'border-cyan-500/50' : 'border-purple-500/50'
+                }`}>
+                  {searchSuggestions.map((char) => (
+                    <div
+                      key={char.id}
+                      onClick={() => handleGuessCharacter(char)}
+                      className={`flex items-center gap-3 p-2.5 cursor-pointer transition-colors ${
+                        animeSlug === 'bleach' ? 'hover:bg-cyan-600/20' : 'hover:bg-purple-600/20'
+                      }`}
+                    >
+                      <img
+                        src={char.avatar}
+                        alt={char.name}
+                        className="w-8 h-8 rounded-full object-cover border border-white/20"
+                      />
+                      <div className="flex flex-col">
+                        <span className="text-xs font-bold text-white">{char.name}</span>
+                        <span className="text-[10px] text-slate-400">
+                          {Array.isArray(char.affiliation)
+                            ? char.affiliation.join(' • ')
+                            : (char.affiliation || (animeSlug === 'bleach' ? 'Soul Society' : 'Jujutsu'))}
+                        </span>
                       </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ) : (
-              /* Jujutsu Kaisen: 4 Alternatives + fallback search */
-              <div>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-purple-300 text-center mb-3">
-                  Escolha uma das alternativas abaixo:
-                </h3>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl mx-auto">
-                  {currentAlternatives.map((char) => {
-                    const guessed = roundGuesses.find((g) => g.character.id === char.id);
-                    const isGuessedWrong = guessed && !guessed.isCorrect;
-                    const isGuessedCorrect = guessed && guessed.isCorrect;
-
-                    return (
-                      <button
-                        key={char.id}
-                        disabled={Boolean(guessed)}
-                        onClick={() => handleGuessCharacter(char)}
-                        className={`flex items-center gap-3 p-3 rounded-2xl border text-left transition-all transform hover:scale-[1.02] active:scale-[0.98] ${
-                          isGuessedCorrect
-                            ? 'bg-emerald-950/60 border-emerald-500 text-emerald-200 shadow-lg shadow-emerald-500/20'
-                            : isGuessedWrong
-                            ? 'bg-rose-950/40 border-rose-500/50 text-rose-300 opacity-50 cursor-not-allowed'
-                            : 'bg-[#0f172a]/90 hover:bg-[#16213e] border-slate-700/80 hover:border-purple-500/60 text-white shadow-md'
-                        }`}
-                      >
-                        <img
-                          src={char.avatar}
-                          alt={char.name}
-                          className="w-12 h-12 rounded-xl object-cover border border-white/10 flex-shrink-0"
-                        />
-                        <div className="flex-1 min-w-0">
-                          <p className="text-sm font-extrabold truncate text-white">{char.name}</p>
-                          <p className="text-[11px] text-slate-400 truncate">
-                            {Array.isArray(char.affiliation) ? char.affiliation.join(' • ') : (char.affiliation || 'Personagem')}
-                          </p>
-                        </div>
-                        {isGuessedCorrect && <CheckCircle2 size={18} className="text-emerald-400 flex-shrink-0" />}
-                        {isGuessedWrong && <XCircle size={18} className="text-rose-400 flex-shrink-0" />}
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {/* Ou Pesquise (Search fallback) */}
-                <div className="mt-5 max-w-md mx-auto relative">
-                  <div className="relative flex items-center">
-                    <Search size={15} className="absolute left-3.5 text-slate-400 pointer-events-none" />
-                    <input
-                      type="text"
-                      value={searchTerm}
-                      onChange={(e) => setSearchTerm(e.target.value)}
-                      placeholder="Ou pesquise outro personagem..."
-                      className="w-full bg-[#070b16] border border-slate-800 focus:border-purple-500 rounded-xl py-2 pl-9 pr-3 text-xs text-white placeholder-slate-500 outline-none transition-all"
-                    />
-                  </div>
-
-                  {searchSuggestions.length > 0 && (
-                    <div className="absolute left-0 right-0 top-full mt-1 bg-[#0a101f] border border-purple-500/40 rounded-xl overflow-hidden shadow-2xl z-50 divide-y divide-white/5">
-                      {searchSuggestions.map((char) => (
-                        <div
-                          key={char.id}
-                          onClick={() => handleGuessCharacter(char)}
-                          className="flex items-center gap-2.5 p-2 hover:bg-purple-600/20 cursor-pointer transition-colors"
-                        >
-                          <img
-                            src={char.avatar}
-                            alt={char.name}
-                            className="w-7 h-7 rounded-full object-cover border border-white/20"
-                          />
-                          <span className="text-xs font-bold text-white">{char.name}</span>
-                        </div>
-                      ))}
                     </div>
-                  )}
+                  ))}
                 </div>
-              </div>
-            )}
+              )}
+            </div>
 
             {/* Chips de tentativas incorretas na rodada */}
             {roundGuesses.length > 0 && (

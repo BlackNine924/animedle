@@ -35,22 +35,18 @@ export const Navbar: React.FC<NavbarProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  // Pré-carrega todas as logos e wallpapers dos animes em memória para troca 100% instantânea sem delay
+  // Pré-carrega o wallpaper e logo do anime atual em WebP para exibição ultra rápida
   useEffect(() => {
-    Object.values(ANIMES_CONFIG).forEach((anime) => {
-      // Pré-carrega logo oficial
-      const imgLogo = new Image();
-      imgLogo.src = `/logos/${anime.slug}.png`;
-
-      // Pré-carrega wallpaper
-      const imgWall = new Image();
-      imgWall.src = `/wallpapers/${anime.slug}.png`;
-    });
-  }, []);
+    if (!currentAnime?.slug) return;
+    const imgWall = new Image();
+    imgWall.src = `/wallpapers/${currentAnime.slug}.webp`;
+    const imgLogo = new Image();
+    imgLogo.src = `/logos/${currentAnime.slug}.webp`;
+  }, [currentAnime?.slug]);
 
   // Atualiza o favicon dinamicamente com base no anime selecionado
   useEffect(() => {
-    const logoUrl = `/logos/${currentAnime.slug}.png`;
+    const logoUrl = `/logos/${currentAnime.slug}.webp`;
     const faviconLink: HTMLLinkElement | null = document.querySelector("link[rel*='icon']");
     if (faviconLink) {
       faviconLink.href = logoUrl;
@@ -69,17 +65,20 @@ export const Navbar: React.FC<NavbarProps> = ({
             title="Voltar para a Home"
           >
             <div className="relative w-9 h-9 flex items-center justify-center flex-shrink-0">
-              <img
-                key={currentAnime.slug}
-                src={`/logos/${currentAnime.slug}.png`}
-                alt={`${currentAnime.title} Logo`}
-                onError={(e) => {
-                  if (currentAnime.logo && (e.currentTarget as HTMLImageElement).src !== currentAnime.logo) {
-                    (e.currentTarget as HTMLImageElement).src = currentAnime.logo;
-                  }
-                }}
-                className="w-9 h-9 object-contain drop-shadow-md absolute inset-0"
-              />
+              <picture className="w-9 h-9 absolute inset-0 flex items-center justify-center">
+                <source srcSet={`/logos/${currentAnime.slug}.webp`} type="image/webp" />
+                <img
+                  key={currentAnime.slug}
+                  src={`/logos/${currentAnime.slug}.png`}
+                  alt={`${currentAnime.title} Logo`}
+                  onError={(e) => {
+                    if (currentAnime.logo && (e.currentTarget as HTMLImageElement).src !== currentAnime.logo) {
+                      (e.currentTarget as HTMLImageElement).src = currentAnime.logo;
+                    }
+                  }}
+                  className="w-9 h-9 object-contain drop-shadow-md"
+                />
+              </picture>
             </div>
             <h1 className="text-xl font-black tracking-tight text-white flex items-center gap-0.5">
               Anime

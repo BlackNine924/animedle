@@ -851,18 +851,23 @@ export const App: React.FC<{
         <div className="text-center my-4 flex flex-col items-center">
           {/* Logo Oficial do Anime da pasta /logos/ */}
           <div className="mb-2 flex justify-center items-center">
-            <img
-              src={`/logos/${currentAnimeSlug}.png`}
-              alt={`${animeConfig.title} Logo`}
-              className="h-24 sm:h-28 md:h-36 w-auto max-w-[280px] sm:max-w-[360px] object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.85)] hover:scale-105 transition-transform duration-300"
-              onError={(e) => {
-                if (animeConfig.logo && (e.currentTarget as HTMLImageElement).src !== animeConfig.logo) {
-                  (e.currentTarget as HTMLImageElement).src = animeConfig.logo;
-                } else {
-                  (e.currentTarget as HTMLImageElement).style.display = 'none';
-                }
-              }}
-            />
+            <picture className="flex justify-center items-center">
+              <source srcSet={`/logos/${currentAnimeSlug}.webp`} type="image/webp" />
+              <img
+                src={`/logos/${currentAnimeSlug}.png`}
+                alt={`${animeConfig.title} Logo`}
+                fetchPriority="high"
+                decoding="async"
+                className="h-24 sm:h-28 md:h-36 w-auto max-w-[280px] sm:max-w-[360px] object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.85)] hover:scale-105 transition-transform duration-300"
+                onError={(e) => {
+                  if (animeConfig.logo && (e.currentTarget as HTMLImageElement).src !== animeConfig.logo) {
+                    (e.currentTarget as HTMLImageElement).src = animeConfig.logo;
+                  } else {
+                    (e.currentTarget as HTMLImageElement).style.display = 'none';
+                  }
+                }}
+              />
+            </picture>
           </div>
 
           {currentMode === 'endless' && (

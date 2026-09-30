@@ -13,22 +13,31 @@ export const ComingSoon: React.FC<ComingSoonProps> = ({ anime }) => {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Wallpaper de fundo */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(/wallpapers/${anime.slug}.png)` }}
-      />
+      <picture className="absolute inset-0 pointer-events-none">
+        <source srcSet={`/wallpapers/${anime.slug}.webp`} type="image/webp" />
+        <img
+          src={`/wallpapers/${anime.slug}.png`}
+          alt=""
+          fetchPriority="high"
+          decoding="async"
+          className="w-full h-full object-cover object-center"
+        />
+      </picture>
       {/* Overlay escuro */}
       <div className="absolute inset-0 bg-black/65" />
 
       {/* Conteúdo */}
       <div className="relative z-10 flex flex-col items-center gap-6 px-6 text-center">
         {/* Logo do anime */}
-        <img
-          src={`/logos/${anime.slug}.png`}
-          alt={anime.name}
-          className="h-24 sm:h-32 w-auto object-contain drop-shadow-2xl"
-          onError={e => { (e.currentTarget as HTMLImageElement).style.opacity = '0'; }}
-        />
+        <picture className="h-24 sm:h-32 w-auto flex items-center justify-center">
+          <source srcSet={`/logos/${anime.slug}.webp`} type="image/webp" />
+          <img
+            src={`/logos/${anime.slug}.png`}
+            alt={anime.name}
+            className="h-24 sm:h-32 w-auto object-contain drop-shadow-2xl"
+            onError={e => { (e.currentTarget as HTMLImageElement).style.opacity = '0'; }}
+          />
+        </picture>
 
         {/* Badge */}
         <span className="bg-amber-500 text-black text-xs font-black uppercase tracking-widest px-4 py-1.5 rounded-full shadow-lg shadow-amber-500/30">

@@ -9,6 +9,7 @@ import {
   AnimeGenre,
   AnimeEntry,
 } from '../data/animes/animeRegistry';
+import { ANIMES_CONFIG } from '../data/animes/config';
 
 // ── Filtros de seção ────────────────────────────────────────────────────
 type SectionToggle = { available: boolean; colecoes: boolean; comingSoon: boolean };
@@ -376,16 +377,43 @@ export const Home: React.FC = () => {
           </p>
         )}
 
-        {/* Continue Jogando (exibido no topo quando houver jogos recentes ou em andamento) */}
+        {/* Continue Jogando: Barra horizontal compacta e elegante de cápsulas (chips) */}
         {continuePlayingList.length > 0 && searchQuery.trim() === '' && activeGenre === null && (
-          <Section
-            title="Continue Jogando"
-            count={continuePlayingList.length}
-            icon="⚡"
-            defaultOpen={true}
-          >
-            <AnimeGrid animes={continuePlayingList} onSelect={handleSelect} />
-          </Section>
+          <div className="mb-8 p-3 sm:p-4 rounded-2xl bg-[#090e1c]/80 border border-amber-500/25 backdrop-blur-md shadow-lg shadow-black/40">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs sm:text-sm tracking-wide uppercase">
+                <span className="flex h-2 w-2 relative">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                </span>
+                <span>Continue Jogando</span>
+                <span className="text-[11px] font-bold text-slate-400 bg-amber-500/15 border border-amber-500/30 px-2 py-0.5 rounded-full">
+                  {continuePlayingList.length}
+                </span>
+              </div>
+
+              {/* Lista horizontal de cápsulas */}
+              <div className="flex items-center gap-2.5 overflow-x-auto no-scrollbar py-1">
+                {continuePlayingList.map((anime) => (
+                  <button
+                    key={anime.slug}
+                    onClick={() => handleSelect(anime.slug)}
+                    className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-[#0d1527] hover:bg-[#14203b] border border-slate-700/80 hover:border-amber-400/60 text-slate-200 hover:text-white transition-all duration-200 group flex-shrink-0 shadow-sm active:scale-95"
+                  >
+                    <span className="text-base select-none group-hover:scale-110 transition-transform">
+                      {ANIMES_CONFIG[anime.slug]?.banner || '⚡'}
+                    </span>
+                    <span className="text-xs sm:text-sm font-bold text-slate-100 group-hover:text-amber-300 transition-colors">
+                      {anime.name}
+                    </span>
+                    <span className="text-[10px] font-black uppercase tracking-wider text-amber-400 bg-amber-500/15 px-1.5 py-0.5 rounded-md group-hover:bg-amber-400 group-hover:text-black transition-colors">
+                      ▶ Retomar
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
         )}
 
         {/* Disponíveis */}

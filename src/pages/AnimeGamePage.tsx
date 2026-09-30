@@ -31,11 +31,17 @@ export const AnimeGamePage: React.FC = () => {
   // Jogo disponível → wrapper com wallpaper + game
   return (
     <div className="relative min-h-screen w-full bg-[#060b18]">
-      {/* Wallpaper fixo de fundo */}
-      <div
-        className="fixed inset-0 bg-cover bg-center bg-no-repeat pointer-events-none z-0"
-        style={{ backgroundImage: `url(/wallpapers/${animeSlug}.png)` }}
-      />
+      {/* Wallpaper fixo de fundo com WebP otimizado e carregamento prioritário */}
+      <picture className="fixed inset-0 pointer-events-none z-0">
+        <source srcSet={`/wallpapers/${animeSlug}.webp`} type="image/webp" />
+        <img
+          src={`/wallpapers/${animeSlug}.png`}
+          alt=""
+          fetchPriority="high"
+          decoding="async"
+          className="w-full h-full object-cover object-center"
+        />
+      </picture>
       {/* Tela preta sutil e quase imperceptível: mantém nitidez, brilho e qualidade total do wallpaper */}
       <div className="fixed inset-0 bg-black/30 pointer-events-none z-0" />
       <div className="fixed inset-0 bg-gradient-to-b from-black/35 via-transparent to-black/45 pointer-events-none z-0" />
