@@ -38,20 +38,49 @@ async function run() {
     if (slug === 'record-of-ragnarok') slug = 'record-of-ragnarok';
 
     const destSub = path.join(DEST_LOGOS, `${slug}.png`);
+    const destWebp = path.join(DEST_LOGOS, `${slug}.webp`);
     const destRoot = path.join(DEST_ROOT, `logo-${slug}.png`);
 
-    // Standardize to trimmed transparent PNG
     try {
-      const trimmed = await sharp(srcPath).trim().toBuffer();
-      fs.writeFileSync(destSub, trimmed);
-      fs.writeFileSync(destRoot, trimmed);
+      const meta = await sharp(srcPath).metadata();
+      let img = sharp(srcPath);
+
+      // If logo has no alpha channel or is 3-channel RGB (black background)
+      if (!meta.hasAlpha || meta.channels === 3) {
+        const { data, info } = await sharp(srcPath).raw().toBuffer({ resolveWithObject: true });
+        const rgba = Buffer.alloc(info.width * info.height * 4);
+        for (let i = 0; i < info.width * info.height; i++) {
+          const r = data[i * info.channels];
+          const g = data[i * info.channels + 1];
+          const b = data[i * info.channels + 2];
+          const max = Math.max(r, g, b);
+          rgba[i * 4] = r;
+          rgba[i * 4 + 1] = g;
+          rgba[i * 4 + 2] = b;
+          if (max < 8) {
+            rgba[i * 4 + 3] = 0;
+          } else if (max < 32) {
+            rgba[i * 4 + 3] = Math.round(((max - 8) / 24) * 255);
+          } else {
+            rgba[i * 4 + 3] = 255;
+          }
+        }
+        img = sharp(rgba, { raw: { width: info.width, height: info.height, channels: 4 } });
+      }
+
+      const trimmedPng = await img.clone().trim().png({ quality: 95 }).toBuffer();
+      const trimmedWebp = await img.clone().trim().webp({ quality: 95 }).toBuffer();
+
+      fs.writeFileSync(destSub, trimmedPng);
+      fs.writeFileSync(destWebp, trimmedWebp);
+      fs.writeFileSync(destRoot, trimmedPng);
     } catch {
       fs.copyFileSync(srcPath, destSub);
       fs.copyFileSync(srcPath, destRoot);
     }
   }
 
-  console.log('[OK] All logos synchronized and standardized!');
+  console.log('[OK] All logos synchronized, background-cleared, and standardized to PNG & WebP!');
 }
 
 run().catch(console.error);

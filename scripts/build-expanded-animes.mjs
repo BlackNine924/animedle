@@ -63,50 +63,85 @@ async function fetchWikiThumbnail(domain, title) {
 }
 
 async function processAvatarTightFace(buffer, outputPath) {
-  const meta = await sharp(buffer).metadata();
-  const w = meta.width;
-  const h = meta.height;
+  const { data, info } = await sharp(buffer).raw().toBuffer({ resolveWithObject: true });
+  const w = info.width;
+  const h = info.height;
 
-  let pipeline = sharp(buffer);
+  // Background detector (transparent OR white OR black)
+  const isBg = (idx) => {
+    if (info.channels === 4 && data[idx + 3] < 40) return true;
+    const r = data[idx], g = data[idx + 1], b = data[idx + 2];
+    if (r > 240 && g > 240 && b > 240) return true;
+    if (r < 12 && g < 12 && b < 12) return true;
+    return false;
+  };
 
-  if (h > w * 1.8) {
-    // Tall full-body character sprite
-    // Head and face occupy roughly the top 28% of height, centered horizontally
-    const size = Math.min(w, Math.round(h * 0.28));
-    const top = Math.round(h * 0.01);
-    const left = Math.max(0, Math.round((w - size) / 2));
-    pipeline = pipeline.extract({
-      left: Math.max(0, left),
-      top: Math.max(0, top),
-      width: Math.min(size, w - Math.max(0, left)),
-      height: Math.min(size, h - Math.max(0, top))
-    });
-  } else if (h >= w) {
-    // Portrait / bust / half-body (e.g. 600x800, 230x345, 400x500)
-    // Use full width 'w' as square side, so face and chin are never cut off
-    const side = w;
-    // Offset slightly from top (between 0 and 15% of vertical overflow)
-    const overflow = h - side;
-    const top = Math.max(0, Math.min(Math.round(overflow * 0.12), overflow));
-    pipeline = pipeline.extract({
-      left: 0,
-      top: top,
-      width: side,
-      height: Math.min(side, h - top)
-    });
-  } else {
-    // Landscape / wide illustration (w > h)
-    const side = h;
-    const left = Math.max(0, Math.round((w - side) / 2));
-    pipeline = pipeline.extract({
-      left: left,
-      top: 0,
-      width: Math.min(side, w - left),
-      height: side
-    });
+  let bgCount = 0;
+  let minY = h, maxY = 0, minX = w, maxX = 0;
+  for (let y = 0; y < h; y++) {
+    for (let x = 0; x < w; x++) {
+      const idx = (y * w + x) * info.channels;
+      if (isBg(idx)) {
+        bgCount++;
+      } else {
+        if (y < minY) minY = y;
+        if (y > maxY) maxY = y;
+        if (x < minX) minX = x;
+        if (x > maxX) maxX = x;
+      }
+    }
   }
 
-  await pipeline
+  const hasBackground = bgCount > (w * h * 0.10) && maxY > minY;
+  let left, top, cropW, cropH;
+
+  if (hasBackground && (maxY - minY) > 300) {
+    const charH = maxY - minY;
+
+    // Face is located between 5% and 35% of character height
+    const faceStartY = minY + Math.round(charH * 0.05);
+    const faceEndY = minY + Math.max(60, Math.round(charH * 0.32));
+    let faceMinX = w, faceMaxX = 0;
+    for (let y = faceStartY; y < faceEndY; y++) {
+      for (let x = 0; x < w; x++) {
+        const idx = (y * w + x) * info.channels;
+        if (!isBg(idx)) {
+          if (x < faceMinX) faceMinX = x;
+          if (x > faceMaxX) faceMaxX = x;
+        }
+      }
+    }
+
+    const faceCenterX = faceMaxX > faceMinX ? Math.round((faceMinX + faceMaxX) / 2) : Math.round((minX + maxX) / 2);
+    // Box size: 36% of character height captures head, face, and collar
+    const boxSize = Math.min(w, h, Math.round(charH * 0.36));
+    cropW = boxSize;
+    cropH = boxSize;
+    top = minY;
+    left = Math.max(0, Math.min(w - boxSize, faceCenterX - Math.round(boxSize / 2)));
+  } else {
+    // Bust portrait without isolated background (like Lucy)
+    if (h >= w) {
+      const side = w;
+      cropW = side;
+      cropH = side;
+      const overflow = h - side;
+      top = Math.max(0, Math.min(Math.round(overflow * 0.12), overflow));
+      left = 0;
+    } else {
+      const side = h;
+      cropW = side;
+      cropH = side;
+      top = 0;
+      left = Math.round((w - side) / 2);
+    }
+  }
+
+  cropW = Math.max(1, Math.min(cropW, w - left));
+  cropH = Math.max(1, Math.min(cropH, h - top));
+
+  await sharp(buffer)
+    .extract({ left, top, width: cropW, height: cropH })
     .resize(240, 240, { fit: 'cover', position: 'top' })
     .png({ quality: 95 })
     .toFile(outputPath);

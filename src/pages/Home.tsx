@@ -152,14 +152,17 @@ const ContinuePlayingFocus: React.FC<ContinuePlayingFocusProps> = ({ animes, onS
             title={`Jogar ${currentAnime.name}`}
           >
             <div className="h-28 sm:h-36 max-w-[280px] sm:max-w-[340px] flex items-center justify-center">
-              <img
-                src={`/logos/${currentAnime.slug}.png`}
-                alt={currentAnime.name}
-                className="max-h-28 sm:max-h-36 w-auto object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.85)] group-hover:scale-105 transition-transform duration-300 select-none"
-                onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).style.opacity = '0.5';
-                }}
-              />
+              <picture className="flex items-center justify-center">
+                <source srcSet={`/logos/${currentAnime.slug}.webp`} type="image/webp" />
+                <img
+                  src={`/logos/${currentAnime.slug}.png`}
+                  alt={currentAnime.name}
+                  className="max-h-28 sm:max-h-36 w-auto object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.85)] group-hover:scale-105 transition-transform duration-300 select-none"
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).style.opacity = '0.5';
+                  }}
+                />
+              </picture>
             </div>
             <p className="text-xs sm:text-sm font-bold text-slate-300 group-hover:text-amber-300 transition-colors mt-3 text-center">
               {currentAnime.name}

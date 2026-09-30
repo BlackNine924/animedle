@@ -94,11 +94,24 @@ async function run() {
 
   // 4. Witch Hat Atelier -> pure Grimoire + quill (transparent source)
   {
-    const buf = await sharp(path.join(ICONS_DIR, 'Witch Hat Atelier Icons.png'))
-      .extract({ left: 845, top: 400, width: 380, height: 580 })
-      .png()
-      .toBuffer();
-    await saveIcon(sharp(buf), 'witch-hat-atelier');
+    const { data, info } = await sharp(path.join(ICONS_DIR, 'Witch Hat Atelier Icons.png'))
+      .extract({ left: 745, top: 380, width: 505, height: 600 })
+      .raw()
+      .toBuffer({ resolveWithObject: true });
+
+    for (let y = 0; y < info.height; y++) {
+      for (let x = 0; x < info.width; x++) {
+        const idx = (y * info.width + x) * 4;
+        const origX = x + 745;
+        const origY = y + 380;
+        if (origX < 765 && origY < 560) {
+          data[idx+3] = 0;
+        }
+      }
+    }
+
+    const clean = sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } });
+    await saveIcon(clean, 'witch-hat-atelier');
   }
 
   // 5. Nanatsu No Taizai -> pure Lostvayne dragon handle sword (transparent source)
