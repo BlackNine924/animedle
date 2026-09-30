@@ -1191,5 +1191,337 @@
       "Presença Psicológica Paralisadora de Vontade"
     ],
     "avatar": "/avatars/my-hero-academia/stain.png"
+  },
+  {
+    "id": "tetsutetsu",
+    "name": "Tetsutetsu Tetsutetsu (Real Steel)",
+    "gender": "Masculino",
+    "affiliation": [
+      "U.A. High School",
+      "Turma 1-B"
+    ],
+    "role": "Herói em Treinamento",
+    "quirk": "Steel (Transformação Corporal em Aço Rígido)",
+    "debutArc": "Arco do Festival Esportivo da U.A.",
+    "status": "Vivo",
+    "quote": "Meu sangue ferve com determinação inquebrável! Meu corpo é feito de puro aço!",
+    "techniques": [
+      "Blindagem Corpórea de Aço Temperado",
+      "Punhos de Aço Demolidores",
+      "Resistência a Calor Extremo e Impacto"
+    ],
+    "avatar": "/avatars/my-hero-academia/tetsutetsu.png"
+  },
+  {
+    "id": "ibara-shiozaki",
+    "name": "Ibara Shiozaki (Vine)",
+    "gender": "Feminino",
+    "affiliation": [
+      "U.A. High School",
+      "Turma 1-B"
+    ],
+    "role": "Heroína em Treinamento",
+    "quirk": "Vines (Cabelos de Vinhas Espinhosas com Manipulação Extrema)",
+    "debutArc": "Arco do Festival Esportivo da U.A.",
+    "status": "Vivo",
+    "quote": "A pureza da justiça florescerá sobre os ímpios com a bênção das vinhas sagradas.",
+    "techniques": [
+      "Crucifixão Rápida com Vinhas",
+      "Escudo de Vinhas Espinhosas",
+      "Rastreamento e Penetração Subterrânea"
+    ],
+    "avatar": "/avatars/my-hero-academia/ibara-shiozaki.png"
+  },
+  {
+    "id": "juzo-honenuki",
+    "name": "Juzo Honenuki (Mudman)",
+    "gender": "Masculino",
+    "affiliation": [
+      "U.A. High School",
+      "Turma 1-B"
+    ],
+    "role": "Herói em Treinamento",
+    "quirk": "Softening (Amolecimento Instantâneo de Qualquer Superfície)",
+    "debutArc": "Arco do Festival Esportivo da U.A.",
+    "status": "Vivo",
+    "quote": "A rigidez não é párea para a fluidez! O chão sob seus pés agora é lama movediça!",
+    "techniques": [
+      "Amolecimento de Solo e Estruturas Urbanas",
+      "Natação Subterrânea Veloz em Terreno Amolecido",
+      "Endurecimento Repentino para Aprisionamento"
+    ],
+    "avatar": "/avatars/my-hero-academia/juzo-honenuki.png"
+  },
+  {
+    "id": "jurota-shishida",
+    "name": "Jurota Shishida (Gevaudan)",
+    "gender": "Masculino",
+    "affiliation": [
+      "U.A. High School",
+      "Turma 1-B"
+    ],
+    "role": "Herói em Treinamento",
+    "quirk": "Beast (Transformação em Besta Gigante Feroz)",
+    "debutArc": "Arco do Festival Esportivo da U.A.",
+    "status": "Vivo",
+    "quote": "Com a nobreza de um cavalheiro e a ferocidade de uma fera primal!",
+    "techniques": [
+      "Amplificação Brutal de Força Muscular e Tamanho",
+      "Investida Demolidora Bestial",
+      "Olfato e Audição Sobrenaturais de Caçador"
+    ],
+    "avatar": "/avatars/my-hero-academia/jurota-shishida.png"
+  },
+  {
+    "id": "kinoko-komori",
+    "name": "Kinoko Komori (Shemage)",
+    "gender": "Feminino",
+    "affiliation": [
+      "U.A. High School",
+      "Turma 1-B"
+    ],
+    "role": "Heroína em Treinamento",
+    "quirk": "Mushroom (Geração e Dispersão Rápida de Cogumelos e Esporos)",
+    "debutArc": "Arco do Festival Esportivo da U.A.",
+    "status": "Vivo",
+    "quote": "Shroom shroom! Cogumelos brotando por todos os lados até na sua garganta!",
+    "techniques": [
+      "Proliferação de Cogumelos Asfixiantes",
+      "Nuvem de Esporos Desorientadores",
+      "Crescimento Acelerado por Umidade"
+    ],
+    "avatar": "/avatars/my-hero-academia/kinoko-komori.png"
+  },
+  {
+    "id": "setsuna-tokage",
+    "name": "Setsuna Tokage (Lizardy)",
+    "gender": "Feminino",
+    "affiliation": [
+      "U.A. High School",
+      "Turma 1-B"
+    ],
+    "role": "Heroína em Treinamento (Recomendada)",
+    "quirk": "Lizard Tail Splitter (Divisão Corpórea em até 50 Partes Flutuantes)",
+    "debutArc": "Arco do Festival Esportivo da U.A.",
+    "status": "Vivo",
+    "quote": "Posso dividir meu corpo em dezenas de pedaços e atacar você de todos os ângulos!",
+    "techniques": [
+      "Divisão Corpórea e Voo em Enxame",
+      "Ataque Multidirecional com Membros Telecinéticos",
+      "Regeneração Rápida de Partes Destruídas"
+    ],
+    "avatar": "/avatars/my-hero-academia/setsuna-tokage.png"
+  },
+  {
+    "id": "inasa-yoarashi",
+    "name": "Inasa Yoarashi (Gale Force)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Colégio Shiketsu"
+    ],
+    "role": "Herói em Treinamento",
+    "quirk": "Whirlwind (Manipulação de Rajadas de Vento e Furacões)",
+    "debutArc": "Arco do Exame de Licença Provisória de Herói",
+    "status": "Vivo",
+    "quote": "Minha paixão pelo heroísmo arde como um turbilhão incontrolável!",
+    "techniques": [
+      "Furacão Turbilhonante de Alta Pressão",
+      "Controle Preciso de dezenas de Correntes de Ar",
+      "Voo e Levitação por Sucção Aérea"
+    ],
+    "avatar": "/avatars/my-hero-academia/inasa-yoarashi.png"
+  },
+  {
+    "id": "camie-utsushimi",
+    "name": "Camie Utsushimi (Maboromicamie)",
+    "gender": "Feminino",
+    "affiliation": [
+      "Colégio Shiketsu"
+    ],
+    "role": "Heroína em Treinamento",
+    "quirk": "Glamour (Criação de Ilusões Visuais e Sonoras a partir da Respiração)",
+    "debutArc": "Arco do Exame de Licença Provisória de Herói",
+    "status": "Vivo",
+    "quote": "Criar ilusões deslumbrantes é a vibe perfeita para enganar os inimigos!",
+    "techniques": [
+      "Ilusões Holográficas Realistas de Grande Porte",
+      "Distração Sensorial Completa",
+      "Névoa de Fumaça Ilusória"
+    ],
+    "avatar": "/avatars/my-hero-academia/camie-utsushimi.png"
+  },
+  {
+    "id": "seiji-shishikura",
+    "name": "Seiji Shishikura (Sisicross)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Colégio Shiketsu"
+    ],
+    "role": "Herói em Treinamento",
+    "quirk": "Meatball (Manipulação e Moldagem da Carne de Inimigos)",
+    "debutArc": "Arco do Exame de Licença Provisória de Herói",
+    "status": "Vivo",
+    "quote": "Heróis indignos que desonram a dignidade da profissão devem ser transformados em almôndegas de carne!",
+    "techniques": [
+      "Disparo de Dedo de Carne Guiado",
+      "Transformação Instantânea de Alvos em Almôndegas Vivas",
+      "Moldagem Protetora de Carne Própria"
+    ],
+    "avatar": "/avatars/my-hero-academia/seiji-shishikura.png"
+  },
+  {
+    "id": "ryukyu",
+    "name": "Ryukyu (Ryuko Tatsuma)",
+    "gender": "Feminino",
+    "affiliation": [
+      "Heróis Profissionais",
+      "Agência Ryukyu"
+    ],
+    "role": "Heroína Profissional Nº 10",
+    "quirk": "Dragon (Metamorfose em Dragão Ocidental Alado Gigante)",
+    "debutArc": "Arco do Shie Hassaikai (Overhaul)",
+    "status": "Vivo",
+    "quote": "Com asas abertas e garras afiadas, protegerei todos que estiverem sob minha guarda!",
+    "techniques": [
+      "Transformação em Dragão Alado",
+      "Garras Cortantes Demolidoras de Aço",
+      "Voo Rápido com Capacidade de Transporte de Equipe"
+    ],
+    "avatar": "/avatars/my-hero-academia/ryukyu.png"
+  },
+  {
+    "id": "crust",
+    "name": "Crust",
+    "gender": "Masculino",
+    "affiliation": [
+      "Heróis Profissionais"
+    ],
+    "role": "Herói Profissional Nº 6",
+    "quirk": "Shield (Geração de Escudos de Pedra Rígida a partir do Corpo)",
+    "debutArc": "Arco dos Heróis Profissionais & High-End",
+    "status": "Morto",
+    "quote": "Um herói de verdade jamais chora diante do dever... Aizawa, você é a chave para o futuro!",
+    "techniques": [
+      "Formação de Escudo Corporal Diamantado",
+      "Arremesso Balístico de Placas de Escudo",
+      "Barreira Protetora de Auto-Sacrifício"
+    ],
+    "avatar": "/avatars/my-hero-academia/crust.png"
+  },
+  {
+    "id": "wash",
+    "name": "Wash",
+    "gender": "Masculino",
+    "affiliation": [
+      "Heróis Profissionais"
+    ],
+    "role": "Herói Profissional Nº 8",
+    "quirk": "Clean Bubbler (Geração de Bolhas Gigantes de Sabão para Resgate e Lavagem)",
+    "debutArc": "Arco dos Heróis Profissionais & High-End",
+    "status": "Vivo",
+    "quote": "Washa wash! Limpando os desastres e lavando os problemas com bolhas de esperança!",
+    "techniques": [
+      "Enclausuramento de Civis em Bolhas Protetoras Flutuantes",
+      "Jato de Espuma Deslizante de Contenção",
+      "Descontaminação Química Imediata"
+    ],
+    "avatar": "/avatars/my-hero-academia/wash.png"
+  },
+  {
+    "id": "muscular",
+    "name": "Muscular (Goto Imasuji)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Liga dos Vilões",
+      "Esquadrão de Ação de Vanguarda"
+    ],
+    "role": "Vilão Sádico Assassino",
+    "quirk": "Muscle Augmentation (Multiplicação e Expansão Hipertrófica de Fibras Musculares)",
+    "debutArc": "Arco dos Exames Finais & Acampamento na Floresta",
+    "status": "Preso",
+    "quote": "Eu só quero usar o meu poder com toda a intensidade e sentir a emoção de matar!",
+    "techniques": [
+      "Expansão Muscular Extrema de Ruptura Dérmica",
+      "Soco Esmagador de Penhascos",
+      "Armadura de Fibras Musculares Impenetrável"
+    ],
+    "avatar": "/avatars/my-hero-academia/muscular.png"
+  },
+  {
+    "id": "chronostasis",
+    "name": "Hari Kurono (Chronostasis)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Shie Hassaikai"
+    ],
+    "role": "Braço Direito de Overhaul",
+    "quirk": "Chronostasis (Ponteiros de Relógio no Cabelo que Reduzem o Tempo do Alvo)",
+    "debutArc": "Arco do Shie Hassaikai (Overhaul)",
+    "status": "Preso",
+    "quote": "Basta um toque dos meus ponteiros para você desacelerar tanto que parecerá uma estátua.",
+    "techniques": [
+      "Estocada com Cabelo em Formato de Ponteiro",
+      "Desaceleração Temporal Extrema de Vítimas",
+      "Tiro Certeiro com Balas Destruidoras de Quirk"
+    ],
+    "avatar": "/avatars/my-hero-academia/chronostasis.png"
+  },
+  {
+    "id": "star-and-stripe",
+    "name": "Star and Stripe (Cathleen Bate)",
+    "gender": "Feminino",
+    "affiliation": [
+      "Heróis dos Estados Unidos"
+    ],
+    "role": "Heroína Nº 1 dos EUA",
+    "quirk": "New Order (Imposição de Novas Regras e Leis Físicas sobre a Realidade)",
+    "debutArc": "Arco da Guerra Final (Batalha Decisiva de Shizuoka)",
+    "status": "Morto",
+    "quote": "Desde o dia em que aquele herói japonês me salvou, jurei ser tão grande quanto o All Might!",
+    "techniques": [
+      "New Order: Manipulação de Leis da Matéria e Espaço",
+      "Keraunos (Lança de Plasma Atmosférico)",
+      "Gigante de Vácuo Kiasma",
+      "Comando Póstumo de Destruição Interna de Quirks"
+    ],
+    "avatar": "/avatars/my-hero-academia/star-and-stripe.png"
+  },
+  {
+    "id": "nana-shimura",
+    "name": "Nana Shimura",
+    "gender": "Feminino",
+    "affiliation": [
+      "Portadores do One For All"
+    ],
+    "role": "Sétima Portadora do One For All / Mentora de All Might",
+    "quirk": "Float (Levitação e Voo Livre) & One For All",
+    "debutArc": "Arco do Resgate de Bakugo & Kamino",
+    "status": "Morto",
+    "quote": "Quando você tiver que salvar alguém, essa pessoa já estará aterrorizada. Então você deve sorrir, para dar esperança a ela!",
+    "techniques": [
+      "Float (Voo e Controle de Altitude)",
+      "Socos Potencializados com One For All 7ª Geração",
+      "Ensino dos Valores Fundamentais do Símbolo da Paz"
+    ],
+    "avatar": "/avatars/my-hero-academia/nana-shimura.png"
+  },
+  {
+    "id": "yoichi-shigaraki",
+    "name": "Yoichi Shigaraki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Portadores do One For All"
+    ],
+    "role": "Primeiro Portador do One For All",
+    "quirk": "Transference & Stockpile (Gênese do One For All)",
+    "debutArc": "Arco do Resgate de Bakugo & Kamino",
+    "status": "Morto",
+    "quote": "Meu irmão... seu mal nunca subjugará a vontade inquebrável daqueles que escolheram a justiça!",
+    "techniques": [
+      "Passagem da Chama do One For All Entre Gerações",
+      "Comunhão Espiritual no Núcleo dos Vestígios",
+      "Resistência Psicológica Inabalável contra All For One"
+    ],
+    "avatar": "/avatars/my-hero-academia/yoichi-shigaraki.png"
   }
 ]

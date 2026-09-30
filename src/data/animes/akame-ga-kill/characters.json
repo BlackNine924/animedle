@@ -592,5 +592,254 @@
       "Combate de Contragolpe Letal"
     ],
     "avatar": "/avatars/akame-ga-kill/izou.png"
+  },
+  {
+    "id": "cosmina",
+    "name": "Cosmina",
+    "gender": "Feminino",
+    "affiliation": [
+      "Wild Hunt",
+      "Império"
+    ],
+    "role": "Assassina / Cantora",
+    "teigu": "Heavy Gazer (Microfone das Ondas Sonoras)",
+    "debutArc": "Arco da Polícia Secreta Wild Hunt",
+    "status": "Morto",
+    "quote": "A minha voz e as minhas canções vão rasgar seus tímpanos até a loucura!",
+    "techniques": [
+      "Ondas Sonoras Destrutivas Heavy Gazer",
+      "Confusão Auditiva e Paralisia Mental",
+      "Transformação em Quimera Bestial Gigante",
+      "Ataque Sônico Direcional"
+    ],
+    "avatar": "/avatars/akame-ga-kill/cosmina.png"
+  },
+  {
+    "id": "enshin",
+    "name": "Enshin",
+    "gender": "Masculino",
+    "affiliation": [
+      "Wild Hunt",
+      "Império"
+    ],
+    "role": "Pirata / Assassino",
+    "teigu": "Shamshir (Cimitarra Espacial de Vácuo)",
+    "debutArc": "Arco da Polícia Secreta Wild Hunt",
+    "status": "Morto",
+    "quote": "Mulheres fracas e homens tolos... na lâmina da minha Shamshir todos morrem com o corte da lua.",
+    "techniques": [
+      "Lâminas de Vácuo Cortantes Shamshir",
+      "Ataques Giratórios em Alta Velocidade",
+      "Combate de Curta Distância Impiedoso",
+      "Disparo de Vácuo em Meia-Lua"
+    ],
+    "avatar": "/avatars/akame-ga-kill/enshin.png"
+  },
+  {
+    "id": "ibara",
+    "name": "Ibara",
+    "gender": "Masculino",
+    "affiliation": [
+      "Quatro Demônios Rakshasa",
+      "Templo Kouken",
+      "Império"
+    ],
+    "role": "Artista Marcial / Guarda-Costas",
+    "teigu": "Nenhum (Controle Corpóreo Extremo)",
+    "debutArc": "Arco da Batalha Religiosa do Caminho da Paz",
+    "status": "Morto",
+    "quote": "Nós do Templo Kouken aperfeiçoamos nossos corpos a ponto de superar qualquer Teigu comum!",
+    "techniques": [
+      "Manipulação Corpórea Flexível e Articular",
+      "Cortes Perfurocontundentes com os Dedos",
+      "Esquiva Elástica Sobrenatural",
+      "Golpes de Esmagamento Rakshasa"
+    ],
+    "avatar": "/avatars/akame-ga-kill/ibara.png"
+  },
+  {
+    "id": "sten",
+    "name": "Sten",
+    "gender": "Masculino",
+    "affiliation": [
+      "Quatro Demônios Rakshasa",
+      "Templo Kouken",
+      "Império"
+    ],
+    "role": "Artista Marcial / Carrasco",
+    "teigu": "Nenhum (Força Bruta e Chi)",
+    "debutArc": "Arco da Batalha Religiosa do Caminho da Paz",
+    "status": "Morto",
+    "quote": "Seu Teigu não significa nada diante da densidade e da força dos meus punhos!",
+    "techniques": [
+      "Fortalecimento Muscular e Resistência a Lâminas",
+      "Punho Sônico Demolidor de Rocha",
+      "Agarrão Esmagador de Ossos",
+      "Investida Destruidora de Impacto"
+    ],
+    "avatar": "/avatars/akame-ga-kill/sten.png"
+  },
+  {
+    "id": "mez",
+    "name": "Mez",
+    "gender": "Feminino",
+    "affiliation": [
+      "Quatro Demônios Rakshasa",
+      "Templo Kouken",
+      "Império"
+    ],
+    "role": "Artista Marcial / Assassina",
+    "teigu": "Nenhum (Suor Explosivo e Agilidade)",
+    "debutArc": "Arco da Batalha Religiosa do Caminho da Paz",
+    "status": "Morto",
+    "quote": "Meu suor é inflamável e meus reflexos são letais... você não pode me tocar!",
+    "techniques": [
+      "Secreção de Suor Oleoso Inflamável",
+      "Detonação Explosiva por Fagulha",
+      "Combate Acrobático Letal",
+      "Acrobacias Aéreas e Esquiva Contorcionista"
+    ],
+    "avatar": "/avatars/akame-ga-kill/mez.png"
+  },
+  {
+    "id": "suzuka",
+    "name": "Suzuka",
+    "gender": "Feminino",
+    "affiliation": [
+      "Quatro Demônios Rakshasa",
+      "Templo Kouken",
+      "Império"
+    ],
+    "role": "Artista Marcial Masoquista",
+    "teigu": "Nenhum (Endurecimento Corpóreo)",
+    "debutArc": "Arco da Batalha Religiosa do Caminho da Paz",
+    "status": "Vivo",
+    "quote": "A dor que sinto só me faz ficar mais rápida, mais forte e completamente extasiada!",
+    "techniques": [
+      "Endurecimento Dérmico e Resistência a Dor Extrema",
+      "Golpes Contundentes em Pontos Vitais",
+      "Movimentação Rastejante de Alta Velocidade",
+      "Combate de Sobrevivência Prolongada"
+    ],
+    "avatar": "/avatars/akame-ga-kill/suzuka.png"
+  },
+  {
+    "id": "ogre",
+    "name": "Capitão Ogre",
+    "gender": "Masculino",
+    "affiliation": [
+      "Guarda Imperial",
+      "Império"
+    ],
+    "role": "Capitão da Guarda Imperial / Corrupto",
+    "teigu": "Nenhum (Espada Imperial)",
+    "debutArc": "Arco do Recrutamento de Night Raid",
+    "status": "Morto",
+    "quote": "Na Capital eu sou a lei! Quem cruza o meu caminho vai direto para a forca.",
+    "techniques": [
+      "Esgrima Pesada da Guarda Imperial",
+      "Golpes de Esmagamento com Espadão",
+      "Comando de Esquadrão e Intimidação",
+      "Corte Decapitador de Execução"
+    ],
+    "avatar": "/avatars/akame-ga-kill/ogre.png"
+  },
+  {
+    "id": "gozuki",
+    "name": "Gozuki",
+    "gender": "Masculino",
+    "affiliation": [
+      "Elite Seven",
+      "Império"
+    ],
+    "role": "Líder e Instrutor de Assassinos",
+    "teigu": "Murasame (Portador Original)",
+    "debutArc": "Arco do Recrutamento de Night Raid",
+    "status": "Morto",
+    "quote": "Eu criei vocês sete para serem as armas mais perfeitas e mortais que o Império já viu.",
+    "techniques": [
+      "Maestria Absoluta de Assassinato e Furtividade",
+      "Técnicas Ancestrais de Corte de Murasame",
+      "Leitura de Intenção Assassina",
+      "Combate Letal Sem Armadura"
+    ],
+    "avatar": "/avatars/akame-ga-kill/gozuki.png"
+  },
+  {
+    "id": "sayo",
+    "name": "Sayo",
+    "gender": "Feminino",
+    "affiliation": [
+      "Vila de Tatsumi"
+    ],
+    "role": "Aldeã / Amiga de Infância",
+    "teigu": "Nenhum",
+    "debutArc": "Arco do Recrutamento de Night Raid",
+    "status": "Morto",
+    "quote": "Tatsumi, Ieyasu... prometemos salvar a nossa aldeia da pobreza, não foi?",
+    "techniques": [
+      "Técnicas de Arco e Flecha da Aldeia",
+      "Espírito Inquebrável e Coragem",
+      "Caça e Rastreamento na Floresta"
+    ],
+    "avatar": "/avatars/akame-ga-kill/sayo.png"
+  },
+  {
+    "id": "ieyasu",
+    "name": "Ieyasu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Vila de Tatsumi"
+    ],
+    "role": "Aldeão / Amigo de Infância",
+    "teigu": "Nenhum",
+    "debutArc": "Arco do Recrutamento de Night Raid",
+    "status": "Morto",
+    "quote": "Tatsumi... não chore por nós... vá em frente e cumpra o nosso sonho...",
+    "techniques": [
+      "Combate Rústico com Espada",
+      "Resistência Física Heroica",
+      "Lealdade Incondicional"
+    ],
+    "avatar": "/avatars/akame-ga-kill/ieyasu.png"
+  },
+  {
+    "id": "aria",
+    "name": "Aria",
+    "gender": "Feminino",
+    "affiliation": [
+      "Nobreza da Capital"
+    ],
+    "role": "Nobre Sádica",
+    "teigu": "Nenhum",
+    "debutArc": "Arco do Recrutamento de Night Raid",
+    "status": "Morto",
+    "quote": "Aqueles caipiras inúteis são apenas brinquedos para eu cortar o cabelo e torturar no celeiro!",
+    "techniques": [
+      "Dissimulação e Falsa Inocência",
+      "Manipulação de Viajantes Ingênuos",
+      "Uso de Venenos Paralisantes"
+    ],
+    "avatar": "/avatars/akame-ga-kill/aria.png"
+  },
+  {
+    "id": "bolic",
+    "name": "Bolic",
+    "gender": "Masculino",
+    "affiliation": [
+      "Caminho da Paz",
+      "Império"
+    ],
+    "role": "Conselheiro Religioso / Espião Imperial",
+    "teigu": "Nenhum",
+    "debutArc": "Arco da Batalha Religiosa do Caminho da Paz",
+    "status": "Morto",
+    "quote": "O Primeiro-Ministro Honest me deu todo o poder para subverter a religião a favor do Império.",
+    "techniques": [
+      "Controle Mental por Drogas e Hipnose",
+      "Infiltração Religiosa e Política",
+      "Proteção de Guarda-Costas Rakshasa"
+    ],
+    "avatar": "/avatars/akame-ga-kill/bolic.png"
   }
 ]

@@ -412,5 +412,178 @@ export const SHANGRI_LA_CHARACTERS = [
       "Feitiços Arcanos de Análise e Registro"
     ],
     wikiTitle: "Professor"
+  },
+  {
+    id: "ritsu-amachi",
+    name: "Ritsu Amachi",
+    gender: "Feminino",
+    species: "Humano (Mundo Real)",
+    affiliation: ["Utopia Entertainment", "Desenvolvedores de ShanFro"],
+    gameClass: "Criadora & Diretora Geral de Shangri-La Frontier",
+    debutArc: "Arco de Rabituza & Marca de Lycagon",
+    status: "Vivo",
+    quote: "Nós criamos o mundo mais perfeito e impiedoso já concebido pela realidade virtual.",
+    techniques: [
+      "Supervisão e Programação da Engine de ShanFro",
+      "Monitoramento do Despertar dos Monstros Únicos",
+      "Gerenciamento de Servidores Globais"
+    ],
+    wikiTitle: "Ritsu Amachi"
+  },
+  {
+    id: "mana-iwamaki",
+    name: "Mana Iwamaki",
+    gender: "Feminino",
+    species: "Humano (Mundo Real)",
+    affiliation: ["Utopia Entertainment", "Desenvolvedores de ShanFro"],
+    gameClass: "Diretora de Inteligência Artificial e Cenários",
+    debutArc: "Arco de Rabituza & Marca de Lycagon",
+    status: "Vivo",
+    quote: "A IA dos Monstros Únicos evolui a cada batalha, reagindo organicamente às táticas dos jogadores.",
+    techniques: [
+      "Desenvolvimento de IAs Autônomas Dinâmicas",
+      "Roteirização das Linhas do Tempo da Era Antiga",
+      "Criação de Missões de Cenário Únicas"
+    ],
+    wikiTitle: "Mana Iwamaki"
+  },
+  {
+    id: "megumi-natsume",
+    name: "Megumi Natsume",
+    gender: "Feminino",
+    species: "Humano (Mundo Real)",
+    affiliation: ["Utopia Entertainment", "Desenvolvedores de ShanFro"],
+    gameClass: "Supervisora de Balanceamento e Dados",
+    debutArc: "Arco da Tumba Oculta de Wezaemon",
+    status: "Vivo",
+    quote: "A derrota de Wezaemon não estava nos cálculos dos próximos dez anos... quem são esses jogadores?!",
+    techniques: [
+      "Controle de Balanceamento e Drop Rates",
+      "Análise de Desempenho e Telemetria em Tempo Real",
+      "Auditoria de Conquistas Globais de Servidor"
+    ],
+    wikiTitle: "Megumi Natsume"
+  },
+  {
+    id: "ceecrue",
+    name: "Ceecrue",
+    gender: "Feminino",
+    species: "Coelho Vorpal (NPC)",
+    affiliation: ["Reino de Rabituza", "Família de Vysache"],
+    gameClass: "Atendente e Camareira Vorpal",
+    debutArc: "Arco de Rabituza & Marca de Lycagon",
+    status: "Vivo",
+    quote: "Irmão Sunraku, tome um banho quente e descanse em Rabituza antes da próxima jornada vorpah!",
+    techniques: [
+      "Hospitalidade e Recuperação Vorpal",
+      "Preparo de Banquete Energético de Rabituza",
+      "Esquiva Ágil de Pequeno Porte"
+    ],
+    wikiTitle: "Ceecrue"
+  },
+  {
+    id: "mia-rabbit",
+    name: "Mia",
+    gender: "Feminino",
+    species: "Coelho Vorpal (NPC)",
+    affiliation: ["Reino de Rabituza", "Família de Vysache"],
+    gameClass: "Estudante e Filhote de Rabituza",
+    debutArc: "Arco de Rabituza & Marca de Lycagon",
+    status: "Vivo",
+    quote: "Vorpah! Eu também quero ficar forte igual ao papai Vysache e o irmão Sunraku!",
+    techniques: [
+      "Acrobacias Vorpais Velozes",
+      "Apoio Moral e Charme Vorpal",
+      "Navegação Subterrânea por Tocas"
+    ],
+    wikiTitle: "Mia (Shangri-La Frontier)"
+  },
+  {
+    id: "reiji-yamamoto",
+    name: "Reiji Yamamoto",
+    gender: "Masculino",
+    species: "Humano (Mundo Real)",
+    affiliation: ["Amigos de Rakuro", "Jogadores de Kusoge"],
+    gameClass: "Jogador Veterano e Colega de Escola",
+    debutArc: "Arco de Rabituza & Marca de Lycagon",
+    status: "Vivo",
+    quote: "Rakuro, você ainda tá perdendo tempo zerando jogos quebrados e cheios de bugs?!",
+    techniques: [
+      "Conhecimento de Jogos de Luta e Kusoge",
+      "Táticas Competitivas Multijogador",
+      "Adaptação a Controles Travados e Imprecisos"
+    ],
+    wikiTitle: "Reiji Yamamoto"
+  },
+  {
+    id: "megu-hizutome",
+    name: "Megu Hizutome",
+    gender: "Feminino",
+    species: "Humano (Mundo Real)",
+    affiliation: ["Família Hizutome"],
+    role: "Irmã Mais Nova de Sunraku",
+    gameClass: "Estudante / Irmã Crítica",
+    debutArc: "Arco de Rabituza & Marca de Lycagon",
+    status: "Vivo",
+    quote: "Lá está meu irmão de novo com o capacete de VR gritando feito louco no quarto...",
+    techniques: [
+      "Broncas Fraternas Severas",
+      "Tratamento com Insetos e Animais de Estimação",
+      "Paciência com Irmão Viciado em Jogos"
+    ],
+    wikiTitle: "Megu Hizutome"
+  },
+  {
+    id: "orchestra",
+    name: "Orchestra (O Eco)",
+    gender: "Desconhecido",
+    species: "Monstro Único (Sete Colossos)",
+    affiliation: ["Sete Monstros Únicos"],
+    gameClass: "Monstro Único Sinfônico & Ressonante",
+    debutArc: "Arco do Maestro Orchestra",
+    status: "Vivo",
+    quote: "...",
+    techniques: [
+      "Ressonância Musical e Ondas Sonoras Destrutivas",
+      "Invocação de Instrumentos de Destruição em Massa",
+      "Harmonia Caótica e Desorientação Sensorial",
+      "Movimento Rítmico Imprevisível"
+    ],
+    wikiTitle: "Orchestra"
+  },
+  {
+    id: "siegwurm",
+    name: "Siegwurm the Dragon King",
+    gender: "Masculino",
+    species: "Monstro Único (Sete Colossos)",
+    affiliation: ["Sete Monstros Únicos"],
+    gameClass: "Rei Dragão Dourado Primordial",
+    debutArc: "Arco de Rabituza & Marca de Lycagon",
+    status: "Vivo",
+    quote: "Guerreiros mortais, vossa ambição é a chama que acende o juízo dos céus!",
+    techniques: [
+      "Sopro de Luz Solar Divina em Larga Escala",
+      "Voo Hipersônico e Pressão Atmosférica",
+      "Escamas Douradas Invulneráveis a Magia Comum",
+      "Rugido Sísmico dos Céus"
+    ],
+    wikiTitle: "Siegwurm"
+  },
+  {
+    id: "faeria",
+    name: "Faeria",
+    gender: "Feminino",
+    species: "Humano (Player)",
+    affiliation: ["Clã Ashura-kai", "Clã Assassino (PK)"],
+    gameClass: "Assassina e Ladra de Alta Velocidade",
+    debutArc: "Arco da Tumba Oculta de Wezaemon",
+    status: "Vivo",
+    quote: "A regra do Ashura-kai é clara: alvos marcados não saem vivos da nossa mira!",
+    techniques: [
+      "Ataque Furtivo com Adagas Gêmeas",
+      "Passos das Sombras e Emboscada",
+      "Golpes Críticos Venenosos"
+    ],
+    wikiTitle: "Faeria"
   }
 ];

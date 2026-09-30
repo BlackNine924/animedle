@@ -358,5 +358,159 @@ export const WITCH_HAT_CHARACTERS = [
       "Contenção com Correntes Mágicas"
     ],
     wikiTitle: "Galga"
+  },
+  {
+    id: "deanreldy-ezrest",
+    name: "Deanreldy Ezrest",
+    gender: "Feminino",
+    affiliation: ["O Grande Salão (The Great Hall)", "Conselho dos Sábios"],
+    magicRole: "Reitora do Grande Salão de Bruxaria",
+    magicSpecialty: "Jurisprudência Mágica e Pacto das Pratas",
+    debutArc: "Arco da Ilha dos Escribas & O Grande Salão",
+    status: "Vivo",
+    quote: "A magia é uma responsabilidade perigosa demais para ser compartilhada com o mundo sem regras estritas.",
+    techniques: [
+      "Decretos Rúnicos do Grande Salão",
+      "Magia de Contenção de Alta Ordem",
+      "Arbitragem e Selamento de Pactos Mágicos",
+      "Escudos Arcanos Presidenciais"
+    ],
+    wikiTitle: "Deanreldy Ezrest"
+  },
+  {
+    id: "zayamaia-ezrest",
+    name: "Zayamaia Ezrest",
+    gender: "Masculino",
+    affiliation: ["O Grande Salão (The Great Hall)"],
+    magicRole: "Mestre Bruxo e Arquivista",
+    magicSpecialty: "História Arcana e Preservação de Grimórios",
+    debutArc: "Arco da Ilha dos Escribas & O Grande Salão",
+    status: "Vivo",
+    quote: "Os erros do passado foram gravados em pedra para que nenhuma nova geração os repita.",
+    techniques: [
+      "Restauração e Conservação de Pergaminhos Mágicos",
+      "Glifos Protetores de Biblioteca",
+      "Encantamentos de Leitura Veloz e Catalogação"
+    ],
+    wikiTitle: "Zayamaia Ezrest"
+  },
+  {
+    id: "princess-mia",
+    name: "Princesa Mia",
+    gender: "Feminino",
+    affiliation: ["Realeza de Karugan", "Cidadãos Não-Magos"],
+    magicRole: "Princesa Herdeira",
+    magicSpecialty: "Nenhuma (Não-Bruxa / Curiosa pelas Artes)",
+    debutArc: "Arco da Rebelião das Sombras & Desfile dos Reis",
+    status: "Vivo",
+    quote: "Por que as pessoas comuns não podem saber como a magia cura e protege?",
+    techniques: [
+      "Diplomacia e Autoridade Real",
+      "Empatia e Julgamento Ético",
+      "Liderança Civil em Tempos de Crise"
+    ],
+    wikiTitle: "Princess Mia"
+  },
+  {
+    id: "brushbuddy",
+    name: "Pincelino (Brushbuddy)",
+    gender: "Desconhecido",
+    affiliation: ["Ateliê de Qifrey", "Mascote Mágico"],
+    magicRole: "Fudemushi / Companheiro Mágico",
+    magicSpecialty: "Absorção de Tinta Mágica e Rastreamento",
+    debutArc: "Arco da Iniciação no Ateliê",
+    status: "Vivo",
+    quote: "*Squeak squeak!*",
+    techniques: [
+      "Auxílio na Limpeza e Aplicação de Tintas Rúnicas",
+      "Sensibilidade a Fluxos Mágicos Anômalos",
+      "Salto e Aconchego Protetor"
+    ],
+    wikiTitle: "Brushbuddy"
+  },
+  {
+    id: "kukrow",
+    name: "Kukrow",
+    gender: "Masculino",
+    affiliation: ["O Grande Salão (The Great Hall)"],
+    magicRole: "Escriba e Pesquisador",
+    magicSpecialty: "Magia Geológica e Cristalização",
+    debutArc: "Arco da Ilha dos Escribas & O Grande Salão",
+    status: "Vivo",
+    quote: "A precisão milimétrica de uma linha desenhada determina o equilíbrio do mundo.",
+    techniques: [
+      "Desenho Rápido de Glifos em Relevo",
+      "Cristalização Estrutural de Rochas",
+      "Análise Petrográfica de Runas Antigas"
+    ],
+    wikiTitle: "Kukrow"
+  },
+  {
+    id: "lagrah",
+    name: "Lagrah",
+    gender: "Masculino",
+    affiliation: ["Cavaleiros da Moral (Knights Moralis)"],
+    magicRole: "Tenente dos Cavaleiros da Moral",
+    magicSpecialty: "Magia de Rastreamento e Confinamento Rápido",
+    debutArc: "Arco da Serpente Subterrânea & Romon",
+    status: "Vivo",
+    quote: "Onde houver magia proibida, nossa justiça alcançará sem hesitação.",
+    techniques: [
+      "Perseguição Veloz com Calçados de Vento",
+      "Correntes Rúnicas de Contenção de Bruxo",
+      "Inspeção e Confisco de Grimórios Ilícitos"
+    ],
+    wikiTitle: "Lagrah"
+  },
+  {
+    id: "restys",
+    name: "Restys",
+    gender: "Masculino",
+    affiliation: ["Chapéus de Aba Larga (Brimmed Caps)"],
+    magicRole: "Bruxo Proscrito",
+    magicSpecialty: "Magia Médica Proibida e Modificação Corporal",
+    debutArc: "Arco da Grande Assembleia das Pratas (Noite do Pacto)",
+    status: "Vivo",
+    quote: "As leis dos sábios deixam milhares de pessoas morrerem quando poderiam ser salvas por magia viva!",
+    techniques: [
+      "Desenho Direto de Glifos na Carne Viva",
+      "Regeneração Acelerada Transgressora",
+      "Magia de Quimera e Distorção Biológica"
+    ],
+    wikiTitle: "Restys"
+  },
+  {
+    id: "riliphin",
+    name: "Riliphin",
+    gender: "Feminino",
+    affiliation: ["Ateliês Independentes"],
+    magicRole: "Jovem Bruxa Aprendiz",
+    magicSpecialty: "Magia Aquática e de Refrigeração",
+    debutArc: "Arco da Grande Assembleia das Pratas (Noite do Pacto)",
+    status: "Vivo",
+    quote: "Cada ateliê tem sua própria forma de enxergar e desenhar a magia!",
+    techniques: [
+      "Glifos Hidrocinéticos de Condensação",
+      "Pintura Fluida com Tinta Mágica Aquosa",
+      "Manipulação de Correntes de Água Purificada"
+    ],
+    wikiTitle: "Riliphin"
+  },
+  {
+    id: "atwert",
+    name: "Atwert",
+    gender: "Masculino",
+    affiliation: ["O Grande Salão (The Great Hall)"],
+    magicRole: "Mestre Avaliador de Exames Mágicos",
+    magicSpecialty: "Avaliação e Julgamento de Glifos",
+    debutArc: "Arco do Primeiro Julgamento & Floresta Misteriosa",
+    status: "Vivo",
+    quote: "Para se tornar uma bruxa de verdade, sua intenção deve ser tão pura quanto suas linhas no papel.",
+    techniques: [
+      "Juízo Técnico de Desenho Rúnico",
+      "Criação de Provas Mágicas Adaptativas",
+      "Distorção Espacial Controlada de Treinamento"
+    ],
+    wikiTitle: "Atwert"
   }
 ];

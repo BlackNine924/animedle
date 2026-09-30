@@ -795,5 +795,311 @@ export const NANATSU_CHARACTERS = [
       "Mandíbulas Vorazes Dimensionalmente Expansivas"
     ],
     wikiTitle: "Cath"
+  },
+  {
+    id: "denzel-liones",
+    name: "Denzel Liones",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Pleiades do Céu Azul"],
+    sacredTreasure: "Espada Sagrada com Runa da Deusa",
+    rankOrTitle: "Grande Cavaleiro Sagrado / Capitão das Pleiades",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Sacrificarei meu próprio corpo para convocar a deusa Nerobasta e banir os Dez Mandamentos!",
+    techniques: [
+      "Dead Man's Joke (Encantamento da Sentença de Morte)",
+      "Invocação da Deusa Nerobasta",
+      "Esgrima Sagrada de Liones"
+    ],
+    wikiTitle: "Denzel Liones"
+  },
+  {
+    id: "deathpierce",
+    name: "Deathpierce",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Pleiades do Céu Azul"],
+    sacredTreasure: "Rapieira Sagrada Melody",
+    rankOrTitle: "Cavaleiro Sagrado de Diamante",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "Minha espada não precisa de corte brutal, o ritmo da minha melodia descontrola o fluxo mágico dos inimigos.",
+    techniques: [
+      "Melody (Distorção do Tempo e Ritmo Mágico)",
+      "Estocada de Alta Velocidade",
+      "Combate de Apoio e Neutralização Arcana"
+    ],
+    wikiTitle: "Deathpierce"
+  },
+  {
+    id: "dogged",
+    name: "Dogged",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Pleiades do Céu Azul"],
+    sacredTreasure: "Manoplas de Ferro Pesado",
+    rankOrTitle: "Cavaleiro Sagrado de Platina",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Minha força de impacto pode pulverizar rochas gigantescas num piscar de olhos!",
+    techniques: [
+      "Boost (Amplificação de Força Física de Impacto)",
+      "Golpe Destruidor de Rochas",
+      "Investida Brutal de Cavaleiro"
+    ],
+    wikiTitle: "Dogged"
+  },
+  {
+    id: "arden",
+    name: "Arden",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Pleiades do Céu Azul"],
+    sacredTreasure: "Arco e Aljava Encantada",
+    rankOrTitle: "Cavaleiro Sagrado de Platina",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "Cada flecha minha que atinge você aumenta exponencialmente o peso e o custo das suas magias!",
+    techniques: [
+      "Vain (Amplificador de Consumo Mágico do Inimigo)",
+      "Disparos Múltiplos com Flechas Especiais",
+      "Tiro Certeiro de Longo Alcance"
+    ],
+    wikiTitle: "Arden"
+  },
+  {
+    id: "deldry",
+    name: "Deldry",
+    gender: "Feminino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Pleiades do Céu Azul"],
+    sacredTreasure: "Báculo de Encantamento do Amor",
+    rankOrTitle: "Cavaleira Sagrada de Platina",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "Olhe nos meus olhos... você se sente dominado pelo amor incondicional por mim!",
+    techniques: [
+      "Love Drive (Feitiço de Fascinação e Servidão Amorosa)",
+      "Comando Mental de Alvos Encantados",
+      "Evasão e Ilusão Romântica"
+    ],
+    wikiTitle: "Deldry"
+  },
+  {
+    id: "golgius",
+    name: "Golgius",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Weird Fangs (Presas Esquisitas)"],
+    sacredTreasure: "Lâminas Ocultas e Facas Arremessáveis",
+    rankOrTitle: "Cavaleiro Sagrado de Prata",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Você não pode lutar contra aquilo que não pode enxergar!",
+    techniques: [
+      "Transparency (Invisibilidade Óptica Completa)",
+      "Ataque Furtivo com Lâminas Ocultas",
+      "Arremesso Rápido de Adagas Envenenadas"
+    ],
+    wikiTitle: "Golgius"
+  },
+  {
+    id: "friesia",
+    name: "Friesia",
+    gender: "Feminino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Weird Fangs (Presas Esquisitas)"],
+    sacredTreasure: "Chicote do Inseto Rainha",
+    rankOrTitle: "Cavaleira Sagrada de Prata",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Meus insetos famintos vão devorar você até não sobrar nem os ossos!",
+    techniques: [
+      "Storm Wind (Invocação de Enxames Vorazes de Insetos)",
+      "Golpes Cortantes com Chicote",
+      "Corrosão e Veneno Entomológico"
+    ],
+    wikiTitle: "Friesia"
+  },
+  {
+    id: "ruin",
+    name: "Ruin",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Weird Fangs (Presas Esquisitas)"],
+    sacredTreasure: "Armadura Pesada e Cajado do Sino",
+    rankOrTitle: "Cavaleiro Sagrado de Prata",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "O tilintar do meu sino vai fazer você enxergar seus melhores amigos como seus piores inimigos!",
+    techniques: [
+      "Ilusão Sinestésica pelo Sino dos Sentidos",
+      "Geração de Alucinações de Batalha",
+      "Golpes Pesados com Maça Blindada"
+    ],
+    wikiTitle: "Ruin"
+  },
+  {
+    id: "jude",
+    name: "Jude",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Weird Fangs (Presas Esquisitas)"],
+    sacredTreasure: "Estacas de Tortura de Baste",
+    rankOrTitle: "Cavaleiro Sagrado de Prata / Carrasco de Baste",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Morto",
+    quote: "Nenhum prisioneiro escapou vivo do Calabouço de Baste pelas minhas mãos!",
+    techniques: [
+      "Arremesso Perfurante de Estacas Pesadas",
+      "Técnicas de Tortura e Imobilização",
+      "Combate de Curto Alcance Sádico"
+    ],
+    wikiTitle: "Jude"
+  },
+  {
+    id: "slader",
+    name: "Slader",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Dawn Roar (Rugido do Alvorecer)"],
+    sacredTreasure: "Espada Serrilhada Bakuzan",
+    rankOrTitle: "Líder dos Cavaleiros Sagrados Dawn Roar",
+    debutArc: "Arco da Infiltração no Reino & Queda de Hendrickson",
+    status: "Vivo",
+    quote: "A minha presença paralisa qualquer um com a pura intenção assassina de uma fera faminta!",
+    techniques: [
+      "Overpower (Paralisia Completa por Pressão Psicológica e Olhar)",
+      "Espadão Serrilhado Giratório Corta-Gigantes",
+      "Acrobacias e Investidas Felinas"
+    ],
+    wikiTitle: "Slader"
+  },
+  {
+    id: "simon",
+    name: "Simon",
+    gender: "Masculino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Dawn Roar (Rugido do Alvorecer)"],
+    sacredTreasure: "Katana Cerimonial do Leste",
+    rankOrTitle: "Cavaleiro Sagrado Dawn Roar",
+    debutArc: "Arco da Infiltração no Reino & Queda de Hendrickson",
+    status: "Vivo",
+    quote: "O corte da minha katana corta a névoa e separa a vida da morte em silêncio.",
+    techniques: [
+      "Esgrima Rápida Oriental Iai",
+      "Passos Leves e Furtivos",
+      "Corte Perfeito de Precisão"
+    ],
+    wikiTitle: "Simon"
+  },
+  {
+    id: "margaret-liones",
+    name: "Margaret Liones",
+    gender: "Feminino",
+    species: "Humano (Portadora da Graça)",
+    affiliation: ["Família Real de Liones"],
+    sacredTreasure: "Sem Tesouro Sagrado",
+    rankOrTitle: "Primeira Princesa de Liones / Receptáculo de Ludociel",
+    debutArc: "Arco da Infiltração no Reino & Queda de Hendrickson",
+    status: "Vivo",
+    quote: "Gilthunder, eu acredito na sua honra e sei que você sempre lutará pela justiça do nosso reino.",
+    techniques: [
+      "Canalização da Graça Relâmpago de Ludociel",
+      "Resistência Espiritual Heroica",
+      "Liderança Moral Real"
+    ],
+    wikiTitle: "Margaret Liones"
+  },
+  {
+    id: "veronica-liones",
+    name: "Veronica Liones",
+    gender: "Feminino",
+    affiliation: ["Família Real de Liones"],
+    species: "Humano",
+    sacredTreasure: "Pingente da Deusa (Goddess Amber)",
+    rankOrTitle: "Segunda Princesa de Liones",
+    debutArc: "Arco da Introdução & Reunião dos Pecados",
+    status: "Vivo",
+    quote: "Elizabeth, você é minha irmãzinha querida e eu vou te proteger de qualquer perigo deste mundo!",
+    techniques: [
+      "Esgrima e Combate Corpo a Corpo Militar",
+      "Uso de Âmbar da Deusa para Selamento Demoníaco",
+      "Determinação Feroz e Lealdade"
+    ],
+    wikiTitle: "Veronica Liones"
+  },
+  {
+    id: "vivian",
+    name: "Vivian",
+    gender: "Feminino",
+    species: "Humano",
+    affiliation: ["Reino de Liones", "Discípula de Merlin"],
+    sacredTreasure: "Cajado Mágico Espiral",
+    rankOrTitle: "Maga da Corte de Liones",
+    debutArc: "Arco da Infiltração no Reino & Queda de Hendrickson",
+    status: "Vivo",
+    quote: "Eu sou a maior discípula de Merlin e ninguém tirará o Gilthunder de mim!",
+    techniques: [
+      "Teletransporte Dimensional Rápido",
+      "Feitiços Elementais de Gelo, Fogo e Vento",
+      "Criação de Ilusões e Prisões Arcanas"
+    ],
+    wikiTitle: "Vivian"
+  },
+  {
+    id: "wild",
+    name: "Wild",
+    gender: "Masculino",
+    species: "Javali do Purgatório",
+    affiliation: ["Criaturas do Purgatório", "Irmão Mais Velho de Hawk"],
+    sacredTreasure: "Presas de Javali Gigante",
+    rankOrTitle: "O Guerreiro Solitário do Purgatório",
+    debutArc: "Arco da Libertação de Camelot & Rei Demônio",
+    status: "Morto",
+    quote: "Por milhões de anos procurei meu irmão mais novo no Purgatório... Meliodas, Ban, vamos voltar juntos!",
+    techniques: [
+      "Wild Full Throttle (Investida Sísmica que Supera a Fisiologia Demoníaca)",
+      "Presas Brocadoras de Alta Resistência",
+      "Resistência Suprema ao Clima Extremo do Purgatório"
+    ],
+    wikiTitle: "Wild"
+  },
+  {
+    id: "zhivago",
+    name: "Zhivago",
+    gender: "Masculino",
+    species: "Homem-Fera (Homem-Raposa)",
+    affiliation: ["Família de Ban"],
+    sacredTreasure: "Garras Naturais",
+    rankOrTitle: "Pai Adotivo de Ban / Mestre Ladrão",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Morto",
+    quote: "Ban... meu filho... me perdoe por não ter chegado a tempo naquele dia...",
+    techniques: [
+      "Transformação entre Humano e Homem-Raposa",
+      "Técnicas Supremas de Furto e Camuflagem",
+      "Sacrifício de Alma para Salvação de Ban"
+    ],
+    wikiTitle: "Zhivago"
+  },
+  {
+    id: "gerheade",
+    name: "Gerheade",
+    gender: "Feminino",
+    species: "Fada",
+    affiliation: ["Clã das Fadas", "Irmã do Primeiro Rei Fada"],
+    sacredTreasure: "Cajado Floral Rúnico",
+    rankOrTitle: "Conselheira da Floresta do Rei Fada",
+    debutArc: "Arco da Ressurreição dos Dez Mandamentos",
+    status: "Vivo",
+    quote: "Eu vi a tragédia da primeira Guerra Santa... não permitirei que o Clã dos Demônios destrua nosso lar novamente!",
+    techniques: [
+      "Manipulação de Raízes e Plantas Espinhosas",
+      "Voo Levitatório Mágico",
+      "Feitiços Curativos Naturais"
+    ],
+    wikiTitle: "Gerheade"
   }
 ];
