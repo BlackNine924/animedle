@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, ChevronDown, ChevronUp } from 'lucide-react';
+import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Play } from 'lucide-react';
 import {
   AVAILABLE_ANIMES,
   COLLECTION_ANIMES,
@@ -92,6 +92,153 @@ const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect }) => {
       {animes.map(anime => (
         <AnimeCard key={anime.slug} anime={anime} onClick={() => onSelect(anime.slug)} />
       ))}
+    </div>
+  );
+};
+
+// ── Carrossel "Continue Jogando" (Exibe 3 logos com animação clean) ─────
+interface ContinuePlayingCarouselProps {
+  animes: AnimeEntry[];
+  onSelect: (slug: string) => void;
+}
+
+const ContinuePlayingCarousel: React.FC<ContinuePlayingCarouselProps> = ({ animes, onSelect }) => {
+  const [currentPage, setCurrentPage] = useState(0);
+  const itemsPerPage = 3;
+  const totalPages = Math.ceil(animes.length / itemsPerPage);
+
+  const safePage = Math.min(currentPage, Math.max(0, totalPages - 1));
+
+  const visibleAnimes = useMemo(() => {
+    const start = safePage * itemsPerPage;
+    return animes.slice(start, start + itemsPerPage);
+  }, [animes, safePage]);
+
+  const handlePrev = () => {
+    setCurrentPage(prev => (prev > 0 ? prev - 1 : totalPages - 1));
+  };
+
+  const handleNext = () => {
+    setCurrentPage(prev => (prev < totalPages - 1 ? prev + 1 : 0));
+  };
+
+  if (animes.length === 0) return null;
+
+  return (
+    <div className="mb-10 p-4 sm:p-6 rounded-3xl bg-[#090e1c]/80 border border-amber-500/25 backdrop-blur-md shadow-2xl">
+      {/* Cabeçalho da seção com título e botões de navegação */}
+      <div className="flex items-center justify-between gap-4 mb-5">
+        <div className="flex items-center gap-3">
+          <span className="text-2xl select-none">⚡</span>
+          <h2 className="text-xl sm:text-2xl font-black text-slate-100 tracking-tight flex items-center gap-2">
+            <span>Continue Jogando</span>
+            <span className="text-xs sm:text-sm font-bold text-slate-400 bg-[#0d1426] border border-[#202b43] px-2.5 py-0.5 rounded-full">
+              {animes.length}
+            </span>
+          </h2>
+        </div>
+
+        {totalPages > 1 && (
+          <div className="flex items-center gap-2">
+            <button
+              onClick={handlePrev}
+              aria-label="Página anterior"
+              className="p-2 rounded-xl bg-[#0d1426] hover:bg-[#16223d] border border-[#202b43] hover:border-amber-400/50 text-slate-300 hover:text-white transition-all duration-200 active:scale-95 shadow-sm cursor-pointer"
+            >
+              <ChevronLeft size={18} />
+            </button>
+            <span className="text-xs font-bold text-slate-400 px-1 select-none">
+              {safePage + 1} / {totalPages}
+            </span>
+            <button
+              onClick={handleNext}
+              aria-label="Próxima página"
+              className="p-2 rounded-xl bg-[#0d1426] hover:bg-[#16223d] border border-[#202b43] hover:border-amber-400/50 text-slate-300 hover:text-white transition-all duration-200 active:scale-95 shadow-sm cursor-pointer"
+            >
+              <ChevronRight size={18} />
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* Grid de 3 cards com animação clean */}
+      <div
+        key={safePage}
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 animate-in fade-in zoom-in-95 duration-300"
+      >
+        {visibleAnimes.map((anime) => {
+          const logoWebp = `/logos/${anime.slug}.webp`;
+          const logoPng = `/logos/${anime.slug}.png`;
+
+          return (
+            <div
+              key={anime.slug}
+              onClick={() => onSelect(anime.slug)}
+              className="group relative flex flex-col justify-between p-5 sm:p-6 rounded-3xl bg-gradient-to-b from-[#0f172a]/95 via-[#0b1222]/90 to-[#070b16] border border-[#202b43] hover:border-amber-400/60 shadow-xl hover:shadow-[0_16px_36px_rgba(0,0,0,0.6)] transition-all duration-300 hover:-translate-y-1.5 cursor-pointer overflow-hidden backdrop-blur-md"
+            >
+              {/* Efeito de brilho no topo do card ao passar o mouse */}
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400/0 group-hover:via-amber-400/70 to-transparent transition-all duration-500" />
+
+              {/* Tag superior de status */}
+              <div className="flex items-center justify-between w-full mb-2">
+                <span className="inline-flex items-center gap-1.5 text-[11px] font-black uppercase tracking-wider text-amber-400 bg-amber-500/15 border border-amber-500/30 px-2.5 py-1 rounded-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-ping inline-block" />
+                  Em Progresso
+                </span>
+                <span className="text-lg select-none group-hover:scale-110 transition-transform">
+                  {ANIMES_CONFIG[anime.slug]?.banner || '⚡'}
+                </span>
+              </div>
+
+              {/* Centro: Logo oficial do anime em alta definição com animação clean */}
+              <div className="h-24 sm:h-28 flex items-center justify-center my-3 w-full px-2">
+                <picture className="max-h-full max-w-full flex items-center justify-center">
+                  <source srcSet={logoWebp} type="image/webp" />
+                  <img
+                    src={logoPng}
+                    alt={anime.name}
+                    className="max-h-24 sm:max-h-28 w-auto max-w-[220px] object-contain drop-shadow-[0_8px_20px_rgba(0,0,0,0.7)] group-hover:scale-105 transition-transform duration-300"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLImageElement).style.opacity = '0.4';
+                    }}
+                  />
+                </picture>
+              </div>
+
+              {/* Rodapé: Título e Botão de Continuar */}
+              <div className="w-full mt-2 flex flex-col items-center">
+                <p className="font-['Outfit',sans-serif] text-sm sm:text-base font-extrabold text-white group-hover:text-amber-300 transition-colors text-center truncate w-full mb-3">
+                  {anime.name}
+                </p>
+                <button
+                  className="w-full py-2.5 px-4 rounded-2xl bg-gradient-to-r from-amber-500 to-amber-600 group-hover:from-amber-400 group-hover:to-amber-500 text-black font-black text-xs sm:text-sm tracking-wide shadow-md shadow-amber-500/20 flex items-center justify-center gap-2 transition-all duration-200 active:scale-95"
+                >
+                  <Play size={14} className="fill-black" />
+                  <span>Continuar Jogo</span>
+                </button>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Pontinhos indicadores (Dots) */}
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-1.5 mt-5">
+          {Array.from({ length: totalPages }).map((_, idx) => (
+            <button
+              key={idx}
+              onClick={() => setCurrentPage(idx)}
+              aria-label={`Ir para página ${idx + 1}`}
+              className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+                idx === safePage
+                  ? 'w-6 bg-amber-400 shadow-sm shadow-amber-400/50'
+                  : 'w-2 bg-slate-700 hover:bg-slate-500'
+              }`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
@@ -377,43 +524,9 @@ export const Home: React.FC = () => {
           </p>
         )}
 
-        {/* Continue Jogando: Barra horizontal compacta e elegante de cápsulas (chips) */}
+        {/* Continue Jogando: Carrossel com 3 logos oficiais e animação clean */}
         {continuePlayingList.length > 0 && searchQuery.trim() === '' && activeGenre === null && (
-          <div className="mb-8 p-3 sm:p-4 rounded-2xl bg-[#090e1c]/80 border border-amber-500/25 backdrop-blur-md shadow-lg shadow-black/40">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-              <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs sm:text-sm tracking-wide uppercase">
-                <span className="flex h-2 w-2 relative">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
-                </span>
-                <span>Continue Jogando</span>
-                <span className="text-[11px] font-bold text-slate-400 bg-amber-500/15 border border-amber-500/30 px-2 py-0.5 rounded-full">
-                  {continuePlayingList.length}
-                </span>
-              </div>
-
-              {/* Lista horizontal de cápsulas */}
-              <div className="flex items-center gap-2.5 overflow-x-auto no-scrollbar py-1">
-                {continuePlayingList.map((anime) => (
-                  <button
-                    key={anime.slug}
-                    onClick={() => handleSelect(anime.slug)}
-                    className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-[#0d1527] hover:bg-[#14203b] border border-slate-700/80 hover:border-amber-400/60 text-slate-200 hover:text-white transition-all duration-200 group flex-shrink-0 shadow-sm active:scale-95"
-                  >
-                    <span className="text-base select-none group-hover:scale-110 transition-transform">
-                      {ANIMES_CONFIG[anime.slug]?.banner || '⚡'}
-                    </span>
-                    <span className="text-xs sm:text-sm font-bold text-slate-100 group-hover:text-amber-300 transition-colors">
-                      {anime.name}
-                    </span>
-                    <span className="text-[10px] font-black uppercase tracking-wider text-amber-400 bg-amber-500/15 px-1.5 py-0.5 rounded-md group-hover:bg-amber-400 group-hover:text-black transition-colors">
-                      ▶ Retomar
-                    </span>
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
+          <ContinuePlayingCarousel animes={continuePlayingList} onSelect={handleSelect} />
         )}
 
         {/* Disponíveis */}

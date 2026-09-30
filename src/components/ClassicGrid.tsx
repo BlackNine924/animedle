@@ -55,7 +55,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
           <img
             src={`/icons/${animeSlug}.png`}
             alt=""
-            className="w-16 h-16 sm:w-20 sm:h-20 object-contain mx-auto mb-3.5 drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]"
+            className="w-10 h-10 sm:w-12 sm:h-12 object-contain mx-auto mb-3 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]"
             onError={(e) => {
               (e.currentTarget as HTMLElement).style.display = 'none';
             }}
