@@ -67,65 +67,105 @@ async function processAvatarTightFace(buffer, outputPath) {
   const w = info.width;
   const h = info.height;
 
-  // Background detector (transparent OR white OR black)
-  const isBg = (idx) => {
-    if (info.channels === 4 && data[idx + 3] < 40) return true;
-    const r = data[idx], g = data[idx + 1], b = data[idx + 2];
-    if (r > 240 && g > 240 && b > 240) return true;
-    if (r < 12 && g < 12 && b < 12) return true;
-    return false;
-  };
+  let isFullBodyTransparent = false;
+  let charMinY = h, charMaxY = 0, charMinX = w, charMaxX = 0;
 
-  let bgCount = 0;
-  let minY = h, maxY = 0, minX = w, maxX = 0;
-  for (let y = 0; y < h; y++) {
-    for (let x = 0; x < w; x++) {
-      const idx = (y * w + x) * info.channels;
-      if (isBg(idx)) {
-        bgCount++;
-      } else {
-        if (y < minY) minY = y;
-        if (y > maxY) maxY = y;
-        if (x < minX) minX = x;
-        if (x > maxX) maxX = x;
-      }
-    }
-  }
-
-  const hasBackground = bgCount > (w * h * 0.10) && maxY > minY;
-  let left, top, cropW, cropH;
-
-  if (hasBackground && (maxY - minY) > 300) {
-    const charH = maxY - minY;
-
-    // Face is located between 5% and 35% of character height
-    const faceStartY = minY + Math.round(charH * 0.05);
-    const faceEndY = minY + Math.max(60, Math.round(charH * 0.32));
-    let faceMinX = w, faceMaxX = 0;
-    for (let y = faceStartY; y < faceEndY; y++) {
+  // ONLY treat as transparent character sprite if image actually has an alpha channel
+  if (info.channels === 4) {
+    let transparentCount = 0;
+    for (let y = 0; y < h; y++) {
       for (let x = 0; x < w; x++) {
-        const idx = (y * w + x) * info.channels;
-        if (!isBg(idx)) {
-          if (x < faceMinX) faceMinX = x;
-          if (x > faceMaxX) faceMaxX = x;
+        const idx = (y * w + x) * 4;
+        if (data[idx + 3] < 40) {
+          transparentCount++;
+        } else {
+          if (y < charMinY) charMinY = y;
+          if (y > charMaxY) charMaxY = y;
+          if (x < charMinX) charMinX = x;
+          if (x > charMaxX) charMaxX = x;
         }
       }
     }
 
-    const faceCenterX = faceMaxX > faceMinX ? Math.round((faceMinX + faceMaxX) / 2) : Math.round((minX + maxX) / 2);
-    // Box size: 36% of character height captures head, face, and collar
-    const boxSize = Math.min(w, h, Math.round(charH * 0.36));
-    cropW = boxSize;
-    cropH = boxSize;
-    top = minY;
-    left = Math.max(0, Math.min(w - boxSize, faceCenterX - Math.round(boxSize / 2)));
+    const charH = charMaxY - charMinY;
+    // Transparent character sheet sprite (like MHA, Witch Hat, Shangri-La)
+    if (transparentCount > (w * h * 0.12) && charH > 350) {
+      isFullBodyTransparent = true;
+    }
+  }
+
+  let left, top, cropW, cropH;
+
+  if (isFullBodyTransparent) {
+    const charH = charMaxY - charMinY;
+
+    // 1. Try to find face via top-most skin tone cluster (e.g. Deku with huge cape)
+    let firstFaceY = null;
+    let faceMinX = w, faceMaxX = 0;
+
+    for (let y = charMinY; y < Math.min(h, charMinY + Math.round(charH * 0.55)); y++) {
+      let rowSkin = 0;
+      let rowMinX = w, rowMaxX = 0;
+      for (let x = 0; x < w; x++) {
+        const idx = (y * w + x) * 4;
+        if (data[idx + 3] < 50) continue;
+        const r = data[idx], g = data[idx+1], b = data[idx+2];
+        if (r > 190 && g > 130 && g < 210 && b > 100 && b < 185 && r > g && g > b) {
+          rowSkin++;
+          if (x < rowMinX) rowMinX = x;
+          if (x > rowMaxX) rowMaxX = x;
+        }
+      }
+      if (rowSkin >= 10 && firstFaceY === null) {
+        firstFaceY = y;
+      }
+      if (firstFaceY !== null && y < firstFaceY + 120 && rowSkin >= 5) {
+        if (rowMinX < faceMinX) faceMinX = rowMinX;
+        if (rowMaxX > faceMaxX) faceMaxX = rowMaxX;
+      }
+    }
+
+    if (firstFaceY !== null && faceMaxX > faceMinX) {
+      // Skin face detected!
+      const faceCenterX = Math.round((faceMinX + faceMaxX) / 2);
+      const faceCenterY = firstFaceY + 30; // Eyes/nose level
+      const boxSize = Math.min(w, h, Math.round(charH * 0.38));
+      cropW = boxSize;
+      cropH = boxSize;
+      top = Math.max(0, Math.min(h - boxSize, faceCenterY - Math.round(boxSize * 0.45)));
+      left = Math.max(0, Math.min(w - boxSize, faceCenterX - Math.round(boxSize / 2)));
+    } else {
+      // Pointed hat, mask, or non-human face (Beldaruit, Sunraku, Emul)
+      const topSpan = Math.round(charH * 0.12);
+      let topMinX = w, topMaxX = 0;
+      for (let y = charMinY; y < charMinY + topSpan; y++) {
+        for (let x = 0; x < w; x++) {
+          if (data[(y * w + x) * 4 + 3] >= 40) {
+            if (x < topMinX) topMinX = x;
+            if (x > topMaxX) topMaxX = x;
+          }
+        }
+      }
+      const topW = topMaxX - topMinX;
+      const topCenterX = topMaxX > topMinX ? Math.round((topMinX + topMaxX) / 2) : Math.round((charMinX + charMaxX) / 2);
+      const hasPointyHat = topW < (charH * 0.16);
+
+      const factor = hasPointyHat ? 0.45 : 0.38;
+      const boxSize = Math.min(w, h, Math.round(charH * factor));
+      cropW = boxSize;
+      cropH = boxSize;
+      top = charMinY;
+      left = Math.max(0, Math.min(w - boxSize, topCenterX - Math.round(boxSize / 2)));
+    }
   } else {
-    // Bust portrait without isolated background (like Lucy)
+    // Standard bust portrait or anime scene screenshot (Cyberpunk, Akame, Nanatsu, etc.)
+    // Keep full width/height square centered on upper body so chin/eyes/hair are never cut
     if (h >= w) {
       const side = w;
       cropW = side;
       cropH = side;
       const overflow = h - side;
+      // 12% overflow offset starts slightly below the very top capturing head and face
       top = Math.max(0, Math.min(Math.round(overflow * 0.12), overflow));
       left = 0;
     } else {

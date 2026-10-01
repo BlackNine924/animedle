@@ -307,21 +307,22 @@ export const CYBERPUNK_CHARACTERS = [
     wikiTitle: "Maxim Kuznetsov"
   },
   {
-    id: "douglas",
-    name: "Douglas",
-    gender: "Masculino",
-    affiliation: ["Arasaka", "Corporações"],
-    role: "Agente de Segurança / Guarda-Costas",
-    cyberware: "Braços Cibernéticos e Blindagem Subdérmica Arasaka",
-    debutArc: "Episódios 4-6: A Ascensão no Bando de Maine",
+    id: "sasha-yakovleva",
+    name: "Sasha Yakovleva",
+    gender: "Feminino",
+    affiliation: ["Tripulação do Maine", "Edgerunners"],
+    role: "Netrunner da Tripulação do Maine (Predecessora)",
+    cyberware: "Cyberdeck Avançado & Conectores Neurais",
+    debutArc: "Cyberpunk: Edgerunners - Let You Down",
     status: "Morto",
-    quote: "Qualquer ameaça contra a diretoria da Arasaka será neutralizada no ato.",
+    quote: "Se eu cair, lembrem-se de mim com um brinde no Afterlife.",
     techniques: [
-      "Tiro Tático de Precisão",
-      "Combate Próximo Corporativo",
-      "Neutralização Rápida de Intrusos"
+      "Infiltração Virtual de Alta Velocidade",
+      "Hackeamento de Instalações da BioTechnica",
+      "Extração de Dados Criptografados",
+      "Combate com Armas de Fogo Leves"
     ],
-    wikiTitle: "Douglas (Edgerunners)"
+    wikiTitle: "Sasha Yakovleva"
   },
   {
     id: "kate",
@@ -338,7 +339,7 @@ export const CYBERPUNK_CHARACTERS = [
       "Acesso a Sistemas Confidenciais Arasaka",
       "Protocolos de Segurança Executiva"
     ],
-    wikiTitle: "Kate (Edgerunners)"
+    wikiTitle: "Kate"
   },
   {
     id: "claire-russell",
@@ -406,6 +407,6 @@ export const CYBERPUNK_CHARACTERS = [
       "Blindagem Militar Resistente a Mísseis",
       "Sistemas de Suporte Médico de Emergência"
     ],
-    wikiTitle: "Delamain"
+    wikiTitle: "Delamain (AI)"
   }
 ];
