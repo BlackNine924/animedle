@@ -33,47 +33,132 @@ async function fetchWikiThumbnail(title) {
 }
 
 async function processAvatar(buffer, outputPath) {
-  const meta = await sharp(buffer).metadata();
-  const width = meta.width;
-  const height = meta.height;
+  const { data, info } = await sharp(buffer).raw().toBuffer({ resolveWithObject: true });
+  const w = info.width;
+  const h = info.height;
 
-  // Se for retrato vertical típico de ficheiro fandom/mangá, focar estritamente no topo/rosto
-  if (height > width * 1.25) {
-    const size = Math.round(width * 0.90);
-    const top = Math.round(height * 0.03);
-    const left = Math.round((width - size) / 2);
+  let isFullBodyTransparent = false;
+  let charMinY = h, charMaxY = 0, charMinX = w, charMaxX = 0;
 
-    await sharp(buffer)
-      .extract({
-        left: Math.max(0, left),
-        top: Math.max(0, top),
-        width: Math.min(size, width),
-        height: Math.min(size, height - top)
-      })
-      .resize(240, 240, { fit: 'cover' })
-      .png({ quality: 90 })
-      .toFile(outputPath);
-  } else if (width > height * 1.25) {
-    const size = Math.min(height, Math.round(width * 0.70));
-    const left = Math.round((width - size) / 2);
-    const top = Math.round((height - size) / 2);
+  if (info.channels === 4) {
+    let transparentCount = 0;
+    for (let y = 0; y < h; y++) {
+      for (let x = 0; x < w; x++) {
+        const idx = (y * w + x) * 4;
+        if (data[idx + 3] < 40) {
+          transparentCount++;
+        } else {
+          if (y < charMinY) charMinY = y;
+          if (y > charMaxY) charMaxY = y;
+          if (x < charMinX) charMinX = x;
+          if (x > charMaxX) charMaxX = x;
+        }
+      }
+    }
 
-    await sharp(buffer)
-      .extract({
-        left: Math.max(0, left),
-        top: Math.max(0, top),
-        width: size,
-        height: size
-      })
-      .resize(240, 240, { fit: 'cover' })
-      .png({ quality: 90 })
-      .toFile(outputPath);
-  } else {
-    await sharp(buffer)
-      .resize(240, 240, { fit: 'cover', position: 'center' })
-      .png({ quality: 90 })
-      .toFile(outputPath);
+    const charH = charMaxY - charMinY;
+    if (transparentCount > (w * h * 0.12) && charH > 350) {
+      isFullBodyTransparent = true;
+    }
   }
+
+  let left, top, cropW, cropH;
+
+  if (isFullBodyTransparent) {
+    const charH = charMaxY - charMinY;
+    const charW = charMaxX - charMinX;
+
+    // Check if small mascot creature like Pochita
+    const isMascot = (charW / charH) > 0.50 && charH < 600;
+
+    if (isMascot) {
+      const boxSize = Math.min(w, h, Math.round(charH * 0.65));
+      cropW = boxSize;
+      cropH = boxSize;
+      top = charMinY + Math.round(charH * 0.07);
+      left = Math.max(0, Math.min(w - boxSize, Math.round((charMinX + charMaxX) / 2) - Math.round(boxSize / 2)));
+    } else {
+      // 1. Detect human face via skin tone cluster
+      let firstFaceY = null;
+      let faceMinX = w, faceMaxX = 0;
+
+      for (let y = charMinY; y < Math.min(h, charMinY + Math.round(charH * 0.55)); y++) {
+        let rowSkin = 0;
+        let rowMinX = w, rowMaxX = 0;
+        for (let x = 0; x < w; x++) {
+          const idx = (y * w + x) * 4;
+          if (data[idx + 3] < 50) continue;
+          const r = data[idx], g = data[idx+1], b = data[idx+2];
+          if (r > 190 && g > 130 && g < 210 && b > 100 && b < 185 && r > g && g > b) {
+            rowSkin++;
+            if (x < rowMinX) rowMinX = x;
+            if (x > rowMaxX) rowMaxX = x;
+          }
+        }
+        if (rowSkin >= 10 && firstFaceY === null) {
+          firstFaceY = y;
+        }
+        if (firstFaceY !== null && y < firstFaceY + 120 && rowSkin >= 5) {
+          if (rowMinX < faceMinX) faceMinX = rowMinX;
+          if (rowMaxX > faceMaxX) faceMaxX = rowMaxX;
+        }
+      }
+
+      if (firstFaceY !== null && faceMaxX > faceMinX) {
+        // Human face centered tight (captures face, hair, neck and collar - no torso/pants)
+        const faceCenterX = Math.round((faceMinX + faceMaxX) / 2);
+        const faceCenterY = firstFaceY + 30;
+        const boxSize = Math.min(w, h, Math.round(charH * 0.28));
+        cropW = boxSize;
+        cropH = boxSize;
+        top = Math.max(0, Math.min(h - boxSize, faceCenterY - Math.round(boxSize * 0.45)));
+        left = Math.max(0, Math.min(w - boxSize, faceCenterX - Math.round(boxSize / 2)));
+      } else {
+        // Demon head / mask without skin tone (Darkness Devil, Katana Man, Gun Devil, etc.)
+        const topSpan = Math.round(charH * 0.15);
+        let topMinX = w, topMaxX = 0;
+        for (let y = charMinY; y < charMinY + topSpan; y++) {
+          for (let x = 0; x < w; x++) {
+            if (data[(y * w + x) * 4 + 3] >= 40) {
+              if (x < topMinX) topMinX = x;
+              if (x > topMaxX) topMaxX = x;
+            }
+          }
+        }
+        const topCenterX = topMaxX > topMinX ? Math.round((topMinX + topMaxX) / 2) : Math.round((charMinX + charMaxX) / 2);
+        const boxSize = Math.min(w, h, Math.round(charH * 0.35));
+        cropW = boxSize;
+        cropH = boxSize;
+        top = charMinY;
+        left = Math.max(0, Math.min(w - boxSize, topCenterX - Math.round(boxSize / 2)));
+      }
+    }
+  } else {
+    // 3-channel scene screenshot or bust shot
+    if (h >= w) {
+      const side = w;
+      cropW = side;
+      cropH = side;
+      const overflow = h - side;
+      top = Math.max(0, Math.min(Math.round(overflow * 0.12), overflow));
+      left = 0;
+    } else {
+      const side = h;
+      cropW = side;
+      cropH = side;
+      top = 0;
+      left = Math.round((w - side) / 2);
+    }
+  }
+
+  cropW = Math.max(1, Math.min(cropW, w - left));
+  cropH = Math.max(1, Math.min(cropH, h - top));
+
+  await sharp(buffer)
+    .extract({ left, top, width: cropW, height: cropH })
+    .resize(240, 240, { fit: 'cover', position: 'top' })
+    .png({ quality: 95 })
+    .toFile(outputPath);
 }
 
 async function buildChainsawMan() {
