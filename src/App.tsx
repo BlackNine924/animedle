@@ -10,6 +10,7 @@ import { StatsModal } from './components/StatsModal';
 import { HintBox } from './components/HintBox';
 import { MangaCoverageModal } from './components/MangaCoverageModal';
 import { ExclusiveAbilityMode } from './components/ExclusiveAbilityMode';
+import { AnimeGridMode } from './components/AnimeGridMode';
 
 import { ANIMES_CONFIG } from './data/animes/config';
 import demonSlayerCharacters from './data/animes/demon-slayer/characters.json';
@@ -161,6 +162,7 @@ export const App: React.FC<{
     ability: 0,
     zoom: 0,
     endless: 0,
+    grid: 0,
   });
 
   // Modo Treino (Infinito): Personagem Aleatório e Contador de Sequência
@@ -590,6 +592,7 @@ export const App: React.FC<{
     ability: { guesses: [], isWon: false },
     zoom: { guesses: [], isWon: false },
     endless: { guesses: [], isWon: false },
+    grid: { guesses: [], isWon: false },
   });
 
   // Modais
@@ -627,6 +630,7 @@ export const App: React.FC<{
       ability: { guesses: [], isWon: false },
       zoom: { guesses: [], isWon: false },
       endless: { guesses: [], isWon: false },
+      grid: { guesses: [], isWon: false },
     };
 
     modesList.forEach((mode) => {
@@ -955,7 +959,7 @@ export const App: React.FC<{
         />
 
         {/* Quadro de Dicas & Botão Desistir (Dica 2 Inteligente no modo Citação) */}
-        {!(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && (
+        {!(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && currentMode !== 'grid' && (
           <HintBox
             targetCharacter={targetCharacter}
             guessCount={currentGuesses.length}
@@ -968,7 +972,7 @@ export const App: React.FC<{
         )}
 
         {/* Card do Personagem Revelado (Exibido ao Acertar ou Desistir em qualquer modo) */}
-        {isFinished && !(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && (
+        {isFinished && !(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && currentMode !== 'grid' && (
           <div
             style={{ borderColor: `${animeConfig.themeColor}50` }}
             className="max-w-2xl mx-auto my-6 p-4 sm:p-5 bg-[#0d1426] border rounded-2xl shadow-xl shadow-black/40 flex flex-col sm:flex-row items-center justify-between gap-4 animate-fadeIn"
@@ -1175,6 +1179,16 @@ export const App: React.FC<{
 
             <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
           </div>
+        )}
+
+        {/* MODO GRID 3x3 */}
+        {currentMode === 'grid' && (
+          <AnimeGridMode
+            characters={characters}
+            themeColor={animeConfig.themeColor}
+            animeTitle={animeConfig.title}
+            animeSlug={currentAnimeSlug}
+          />
         )}
 
         {/* MODO TREINO (INFINITO) */}

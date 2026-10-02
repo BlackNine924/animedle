@@ -117,7 +117,7 @@ export interface GuessResult {
   isCorrect: boolean;
 }
 
-export type GameMode = 'classic' | 'wanted' | 'quote' | 'ability' | 'zoom' | 'endless';
+export type GameMode = 'classic' | 'wanted' | 'quote' | 'ability' | 'zoom' | 'endless' | 'grid';
 
 export interface GameStats {
   played: number;
