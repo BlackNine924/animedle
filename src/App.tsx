@@ -11,6 +11,8 @@ import { HintBox } from './components/HintBox';
 import { MangaCoverageModal } from './components/MangaCoverageModal';
 import { ExclusiveAbilityMode } from './components/ExclusiveAbilityMode';
 import { AnimeGridMode } from './components/AnimeGridMode';
+import { AchievementToast } from './components/AchievementToast';
+import { unlockAchievement } from './data/achievements';
 
 import { ANIMES_CONFIG } from './data/animes/config';
 import demonSlayerCharacters from './data/animes/demon-slayer/characters.json';
@@ -737,6 +739,8 @@ export const App: React.FC<{
         setEndlessStreak((s) => {
           const next = s + 1;
           localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, next.toString());
+          if (next >= 5) unlockAchievement('endless_streak_5');
+          if (next >= 10) unlockAchievement('endless_streak_10');
           return next;
         });
       }
@@ -1163,9 +1167,10 @@ export const App: React.FC<{
                 alt="Zoom Detalhe"
                 style={{
                   transform: `scale(${zoomScale})`,
-                  transformOrigin: 'center center',
+                  transformOrigin: '50% 36%',
+                  transition: 'transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)',
                 }}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover select-none pointer-events-none"
               />
             </div>
 
@@ -1239,17 +1244,21 @@ export const App: React.FC<{
           onClose={() => setShowVictoryModal(false)}
           themeColor={animeConfig.themeColor}
           animeTitle={animeConfig.title}
+          currentMode={currentMode}
         />
       )}
 
       {showHowToPlay && <HowToPlayModal onClose={() => setShowHowToPlay(false)} />}
-      {showStats && <StatsModal stats={stats} onClose={() => setShowStats(false)} />}
+      {showStats && <StatsModal stats={stats} onClose={() => setShowStats(false)} themeColor={animeConfig.themeColor} />}
       {showMangaCoverage && (
         <MangaCoverageModal
           animeConfig={animeConfig}
           onClose={() => setShowMangaCoverage(false)}
         />
       )}
+
+      {/* Notificação Flutuante de Conquistas */}
+      <AchievementToast />
     </div>
   );
 };

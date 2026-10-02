@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Character } from '../types/anime';
 import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, HelpCircle, Sparkles } from 'lucide-react';
+import { unlockAchievement, logDailyActivity } from '../data/achievements';
 
 interface GridCriterion {
   id: string;
@@ -279,6 +280,15 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
 
   const isGameOver = guessesLeft === 0 || cells.filter(Boolean).length === 9;
   const score = cells.filter(Boolean).length;
+
+  useEffect(() => {
+    if (isGameOver) {
+      logDailyActivity();
+      if (score === 9) {
+        unlockAchievement('grid_master');
+      }
+    }
+  }, [isGameOver, score]);
 
   if (!gridDefinition) {
     return (
