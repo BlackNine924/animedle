@@ -220,7 +220,7 @@ export const generateVictoryCardBlob = async (options: ShareCardOptions): Promis
   // 9. Rodapé com Watermark e Chamada
   ctx.fillStyle = '#64748b';
   ctx.font = '600 14px Inter, system-ui, sans-serif';
-  ctx.fillText('Jogue todos os dias em https://animedle.online', 400, 810);
+  ctx.fillText('Jogue todos os dias em https://animedle-9og.pages.dev', 400, 810);
 
   ctx.fillStyle = 'rgba(255, 255, 255, 0.35)';
   ctx.font = '500 12px Inter, system-ui, sans-serif';
@@ -243,24 +243,7 @@ export const downloadOrShareImageCard = async (
   const blob = await generateVictoryCardBlob(options);
   if (!blob) return false;
 
-  // Compartilhamento nativo quando suportado
-  if (navigator.share && navigator.canShare) {
-    try {
-      const file = new File([blob], filename, { type: 'image/png' });
-      if (navigator.canShare({ files: [file] })) {
-        await navigator.share({
-          files: [file],
-          title: `AnimeDLE - ${options.animeTitle}`,
-          text: `Acertei o personagem diário de ${options.animeTitle}! Jogue em https://animedle.online`,
-        });
-        return true;
-      }
-    } catch (e) {
-      // Se o usuário fechar a janela de share, continua para download
-    }
-  }
-
-  // Fallback: Download direto do arquivo PNG
+  // Download direto do arquivo PNG (nunca abre o painel nativo do Windows)
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;

@@ -605,7 +605,7 @@ export const App: React.FC<{
         : validCharactersForMode[dailyIndex % validCharactersForMode.length]);
 
   // Armazenamento de estado independente por modo
-  const [modeStates, setModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean }>>({
+  const [modeStates, setModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
     classic: { guesses: [], isWon: false },
     wanted: { guesses: [], isWon: false },
     quote: { guesses: [], isWon: false },
@@ -643,7 +643,7 @@ export const App: React.FC<{
   useEffect(() => {
     const todayStr = new Date().toISOString().split('T')[0];
     const modesList: GameMode[] = ['classic', 'wanted', 'quote', 'ability', 'zoom'];
-    const newStates: Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean }> = {
+    const newStates: Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }> = {
       classic: { guesses: [], isWon: false },
       wanted: { guesses: [], isWon: false },
       quote: { guesses: [], isWon: false },
@@ -663,6 +663,7 @@ export const App: React.FC<{
             guesses: parsed.guesses || [],
             isWon: parsed.isWon || false,
             isSurrendered: parsed.isSurrendered || false,
+            isLost: parsed.isLost || false,
           };
         } catch (e) {
           // ignore
@@ -692,7 +693,8 @@ export const App: React.FC<{
   const currentGuesses = modeStates[currentMode]?.guesses || [];
   const currentIsWon = modeStates[currentMode]?.isWon || false;
   const currentIsSurrendered = modeStates[currentMode]?.isSurrendered || false;
-  const isFinished = currentIsWon || currentIsSurrendered;
+  const currentIsLost = modeStates[currentMode]?.isLost || false;
+  const isFinished = currentIsWon || currentIsSurrendered || currentIsLost;
 
   // Função ao realizar um palpite no modo ativo
   const handleSelectCharacter = (guessedChar: Character) => {
@@ -735,7 +737,8 @@ export const App: React.FC<{
     const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 4;
     // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota!
     const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 7;
-    const isSurrenderedState = isWantedLoss || isZoomLoss;
+    const isDefeat = isWantedLoss || isZoomLoss;
+    const isSurrenderedState = isDefeat;
 
     setModeStates((prev) => ({
       ...prev,
@@ -743,6 +746,7 @@ export const App: React.FC<{
         guesses: updatedGuesses,
         isWon: isCorrect,
         isSurrendered: isSurrenderedState,
+        isLost: isDefeat,
       },
     }));
 
@@ -751,7 +755,12 @@ export const App: React.FC<{
       const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
       localStorage.setItem(
         savedKey,
-        JSON.stringify({ guesses: updatedGuesses, isWon: isCorrect, isSurrendered: isSurrenderedState })
+        JSON.stringify({
+          guesses: updatedGuesses,
+          isWon: isCorrect,
+          isSurrendered: isSurrenderedState,
+          isLost: isDefeat,
+        })
       );
     }
 
@@ -780,7 +789,7 @@ export const App: React.FC<{
           maxStreak: newMax,
         };
       });
-    } else if (isWantedLoss) {
+    } else if (isDefeat) {
       setShowVictoryModal(true);
     }
   };
@@ -1119,6 +1128,7 @@ export const App: React.FC<{
         {/* MODO HABILIDADE / MODOS EXCLUSIVOS */}
         {currentMode === 'ability' && (
           <ExclusiveAnimeMode
+            key={`${currentAnimeSlug}-${currentMode}`}
             animeSlug={currentAnimeSlug}
             characters={characters}
             themeColor={animeConfig.themeColor}
@@ -1169,6 +1179,7 @@ export const App: React.FC<{
         {/* MODO GRID 3x3 */}
         {currentMode === 'grid' && (
           <AnimeGridMode
+            key={`grid-${currentAnimeSlug}`}
             characters={characters}
             themeColor={animeConfig.themeColor}
             animeTitle={animeConfig.title}
@@ -1221,6 +1232,7 @@ export const App: React.FC<{
           totalGuesses={currentGuesses.length}
           stats={stats}
           isSurrendered={currentIsSurrendered}
+          isLost={currentIsLost}
           onClose={() => setShowVictoryModal(false)}
           themeColor={animeConfig.themeColor}
           animeTitle={animeConfig.title}

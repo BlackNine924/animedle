@@ -1,24 +1,27 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Character } from '../types/anime';
 import { ExclusiveChallenge, getChallengesForAnime } from '../data/exclusiveChallenges';
+import { CharacterSearchInput } from './CharacterSearchInput';
 import {
   Heart,
   Flame,
   Trophy,
-  CheckCircle2,
   XCircle,
   ArrowRight,
   RotateCcw,
   Eye,
-  Search,
   Sparkles,
   AlertTriangle,
   Share2,
-  HelpCircle,
-  Check
+  Lightbulb,
+  Check,
+  Image as ImageIcon,
+  Loader2,
+  X
 } from 'lucide-react';
 import { unlockAchievement, logDailyActivity } from '../data/achievements';
 import { reportChallengeInconsistency } from '../services/firebase';
+import { downloadOrShareImageCard } from '../utils/shareImage';
 import confetti from 'canvas-confetti';
 
 interface ExclusiveAnimeModeProps {
@@ -28,6 +31,7 @@ interface ExclusiveAnimeModeProps {
 }
 
 interface SavedDailyExclusiveState {
+  challengeId: string;
   completed: boolean;
   won: boolean;
   score: number;
@@ -47,7 +51,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   const todayStr = useMemo(() => new Date().toISOString().split('T')[0], []);
   const dailyStorageKey = `animedle_${animeSlug}_exclusive_daily_${todayStr}`;
 
-  // Índice diário pseudo-aleatório baseado na data
+  // Índice diário baseado na data
   const dailyIndex = useMemo(() => {
     if (challenges.length === 0) return 0;
     let hash = 0;
@@ -59,83 +63,6 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   }, [challenges, todayStr]);
 
   const [currentIndex, setCurrentIndex] = useState<number>(dailyIndex);
-
-  // Vidas estritas: 3 vidas (1 erro = -1 vida)
-  const [lives, setLives] = useState<number>(3);
-  const [score, setScore] = useState<number>(0);
-  const [combo, setCombo] = useState<number>(0);
-  const [maxCombo, setMaxCombo] = useState<number>(0);
-
-  const [roundCompleted, setRoundCompleted] = useState<boolean>(false);
-  const [isWonRound, setIsWonRound] = useState<boolean>(false);
-  const [isGameOver, setIsGameOver] = useState<boolean>(false);
-
-  const [revealedClues, setRevealedClues] = useState<Record<number, boolean>>({});
-  const [searchTerm, setSearchTerm] = useState<string>('');
-  const [roundGuesses, setRoundGuesses] = useState<
-    { charId: string; charName: string; isCorrect: boolean }[]
-  >([]);
-
-  const [showFeedbackModal, setShowFeedbackModal] = useState<boolean>(false);
-  const [feedbackDetails, setFeedbackDetails] = useState<string>('');
-  const [feedbackStatus, setFeedbackStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
-  const [showCopied, setShowCopied] = useState<boolean>(false);
-
-  // Carrega estado diário se existir
-  useEffect(() => {
-    if (!isEndless) {
-      const saved = localStorage.getItem(dailyStorageKey);
-      if (saved) {
-        try {
-          const parsed: SavedDailyExclusiveState = JSON.parse(saved);
-          setRoundCompleted(parsed.completed);
-          setIsWonRound(parsed.won);
-          setLives(parsed.lives);
-          setScore(parsed.score);
-          setRoundGuesses(parsed.guesses || []);
-          setRevealedClues(parsed.revealedClues || {});
-          setIsGameOver(!parsed.won && parsed.lives <= 0);
-          setCurrentIndex(dailyIndex);
-          return;
-        } catch (e) {}
-      }
-      // Se não havia estado salvo no diário, inicializa limpo
-      setLives(3);
-      setRoundCompleted(false);
-      setIsWonRound(false);
-      setIsGameOver(false);
-      setRoundGuesses([]);
-      setRevealedClues({});
-      setCurrentIndex(dailyIndex);
-    } else {
-      // Modo Infinito: limpa e sorteia
-      setLives(3);
-      setRoundCompleted(false);
-      setIsWonRound(false);
-      setIsGameOver(false);
-      setRoundGuesses([]);
-      setRevealedClues({});
-      setScore(0);
-      setCombo(0);
-      setCurrentIndex(Math.floor(Math.random() * Math.max(1, challenges.length)));
-    }
-  }, [isEndless, dailyStorageKey, dailyIndex, challenges.length]);
-
-  // Salva no localStorage quando o diário for finalizado
-  useEffect(() => {
-    if (!isEndless && roundCompleted) {
-      const stateToSave: SavedDailyExclusiveState = {
-        completed: roundCompleted,
-        won: isWonRound,
-        score,
-        lives,
-        guesses: roundGuesses,
-        revealedClues,
-      };
-      localStorage.setItem(dailyStorageKey, JSON.stringify(stateToSave));
-    }
-  }, [isEndless, roundCompleted, isWonRound, score, lives, roundGuesses, revealedClues, dailyStorageKey]);
-
   const currentChallenge: ExclusiveChallenge | undefined =
     challenges[currentIndex % Math.max(1, challenges.length)];
 
@@ -144,20 +71,99 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     return characters.find((c) => c.id === currentChallenge.targetCharacterId) || null;
   }, [currentChallenge, characters]);
 
-  // Autocomplete search suggestions
-  const searchSuggestions = useMemo(() => {
-    if (!searchTerm.trim()) return [];
-    const term = searchTerm.toLowerCase();
-    const guessedIds = new Set(roundGuesses.map((g) => g.charId));
-    return characters
-      .filter((c) => !guessedIds.has(c.id) && c.name.toLowerCase().includes(term))
-      .slice(0, 6);
-  }, [searchTerm, characters, roundGuesses]);
+  // Vidas estritas: 3 vidas (1 erro = -1 vida)
+  const [lives, setLives] = useState<number>(3);
+  // Pontos base da rodada inicial: 100 pts. Revelar pistas desconta 15 pts imediatamente em tempo real!
+  const [roundBaseScore, setRoundBaseScore] = useState<number>(100);
+  const [totalScore, setTotalScore] = useState<number>(0);
+  const [combo, setCombo] = useState<number>(0);
 
-  // Revelar Dica (-15 pontos reais)
+  const [roundCompleted, setRoundCompleted] = useState<boolean>(false);
+  const [isWonRound, setIsWonRound] = useState<boolean>(false);
+  const [isGameOver, setIsGameOver] = useState<boolean>(false);
+
+  // Modais de Vitória e Derrota
+  const [showResultModal, setShowResultModal] = useState<boolean>(false);
+  const [revealedClues, setRevealedClues] = useState<Record<number, boolean>>({});
+  const [roundGuesses, setRoundGuesses] = useState<
+    { charId: string; charName: string; isCorrect: boolean }[]
+  >([]);
+
+  // Reportar inconsistência e compartilhamento
+  const [showFeedbackModal, setShowFeedbackModal] = useState<boolean>(false);
+  const [feedbackDetails, setFeedbackDetails] = useState<string>('');
+  const [feedbackStatus, setFeedbackStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  const [showCopied, setShowCopied] = useState<boolean>(false);
+  const [isDownloadingImage, setIsDownloadingImage] = useState<boolean>(false);
+
+  // Carrega estado diário estritamente correspondente ao desafio de hoje
+  useEffect(() => {
+    if (!isEndless && currentChallenge) {
+      const saved = localStorage.getItem(dailyStorageKey);
+      if (saved) {
+        try {
+          const parsed: SavedDailyExclusiveState = JSON.parse(saved);
+          if (parsed.challengeId === currentChallenge.id) {
+            setRoundCompleted(parsed.completed);
+            setIsWonRound(parsed.won);
+            setLives(parsed.lives);
+            setTotalScore(parsed.score);
+            setRoundGuesses(parsed.guesses || []);
+            setRevealedClues(parsed.revealedClues || {});
+            setIsGameOver(!parsed.won && parsed.lives <= 0);
+            setShowResultModal(parsed.completed);
+            return;
+          }
+        } catch (e) {}
+      }
+      // Se não havia estado salvo ou o desafio diário é novo, inicializa limpo
+      setLives(3);
+      setRoundBaseScore(100);
+      setRoundCompleted(false);
+      setIsWonRound(false);
+      setIsGameOver(false);
+      setShowResultModal(false);
+      setRoundGuesses([]);
+      setRevealedClues({});
+      setCurrentIndex(dailyIndex);
+    } else {
+      // Modo Infinito: limpa e sorteia novo desafio
+      setLives(3);
+      setRoundBaseScore(100);
+      setRoundCompleted(false);
+      setIsWonRound(false);
+      setIsGameOver(false);
+      setShowResultModal(false);
+      setRoundGuesses([]);
+      setRevealedClues({});
+      setTotalScore(0);
+      setCombo(0);
+      setCurrentIndex(Math.floor(Math.random() * Math.max(1, challenges.length)));
+    }
+  }, [isEndless, dailyStorageKey, dailyIndex, currentChallenge?.id, challenges.length]);
+
+  // Salva no localStorage quando o diário for finalizado
+  useEffect(() => {
+    if (!isEndless && roundCompleted && currentChallenge) {
+      const stateToSave: SavedDailyExclusiveState = {
+        challengeId: currentChallenge.id,
+        completed: roundCompleted,
+        won: isWonRound,
+        score: totalScore,
+        lives,
+        guesses: roundGuesses,
+        revealedClues,
+      };
+      localStorage.setItem(dailyStorageKey, JSON.stringify(stateToSave));
+    }
+  }, [isEndless, roundCompleted, isWonRound, totalScore, lives, roundGuesses, revealedClues, dailyStorageKey, currentChallenge?.id]);
+
+  // Revelar Dica com desconto imediato de 15 pontos em tempo real
   const handleRevealClue = (idx: number) => {
     if (revealedClues[idx] || roundCompleted || isGameOver) return;
     setRevealedClues((prev) => ({ ...prev, [idx]: true }));
+    // Desconta imediatamente 15 pontos do valor potencial da rodada
+    setRoundBaseScore((prev) => Math.max(25, prev - 15));
   };
 
   // Processa o Palpite (Regra estrita: 1 erro = -1 vida)
@@ -174,25 +180,21 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       { charId: guessedChar.id, charName: guessedChar.name, isCorrect },
     ];
     setRoundGuesses(newGuesses);
-    setSearchTerm('');
 
     if (isCorrect) {
       // Acerto!
       setIsWonRound(true);
       setRoundCompleted(true);
-      confetti({ particleCount: 70, spread: 70, origin: { y: 0.7 } });
+      setShowResultModal(true);
+      confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
       logDailyActivity();
       unlockAchievement('exclusive_master');
 
-      // Cálculo de pontuação com desconto real de dicas (-15 pts cada)
-      const cluesPenalty = Object.keys(revealedClues).length * 15;
-      const basePoints = Math.max(25, 100 - cluesPenalty);
       const currentMult = Math.max(1, combo + 1);
-      const earned = basePoints * currentMult;
+      const earned = roundBaseScore * currentMult;
 
-      setScore((s) => s + earned);
+      setTotalScore((s) => s + earned);
       setCombo((c) => c + 1);
-      setMaxCombo((m) => Math.max(m, combo + 1));
     } else {
       // Errou: Perde exatamente 1 vida!
       const newLives = lives - 1;
@@ -200,10 +202,11 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       setCombo(0);
 
       if (newLives <= 0) {
-        // Esgotou as 3 vidas: Derrota!
+        // Esgotou as 3 vidas: Derrota! Abre modal de derrota imediatamente
         setIsWonRound(false);
         setRoundCompleted(true);
         setIsGameOver(true);
+        setShowResultModal(true);
       }
     }
   };
@@ -213,12 +216,12 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     if (!isEndless || lives <= 0) return;
     setRevealedClues({});
     setRoundGuesses([]);
-    setSearchTerm('');
+    setRoundBaseScore(100);
     setRoundCompleted(false);
     setIsWonRound(false);
+    setShowResultModal(false);
     setFeedbackStatus('idle');
     setFeedbackDetails('');
-    // Escolhe aleatoriamente outro desafio diferente do atual
     let nextIdx = Math.floor(Math.random() * challenges.length);
     if (challenges.length > 1 && nextIdx === currentIndex) {
       nextIdx = (nextIdx + 1) % challenges.length;
@@ -229,15 +232,15 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   // Reiniciar Modo Infinito após derrota
   const handleRestartEndless = () => {
     setLives(3);
-    setScore(0);
+    setRoundBaseScore(100);
+    setTotalScore(0);
     setCombo(0);
-    setMaxCombo(0);
     setIsGameOver(false);
     setRoundCompleted(false);
     setIsWonRound(false);
+    setShowResultModal(false);
     setRevealedClues({});
     setRoundGuesses([]);
-    setSearchTerm('');
     setFeedbackStatus('idle');
     setFeedbackDetails('');
     setCurrentIndex(Math.floor(Math.random() * challenges.length));
@@ -265,21 +268,43 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     }
   };
 
-  // Compartilhar Resultado Diário
+  // Compartilhar Resultado Diário em Texto
   const handleShareDaily = () => {
-    let text = `AnimeDLE Exclusivo (${currentChallenge?.category || 'Desafio'}) - ${todayStr}\n`;
+    let text = `⚔️ AnimeDLE Exclusivo (${currentChallenge?.category || 'Desafio'}) - ${todayStr}\n`;
     text += isWonRound
-      ? `👑 Vitória com ${lives}/3 vidas restantes! (+${score} pts)\n`
+      ? `👑 Vitória com ${lives}/3 vidas restantes! (+${roundBaseScore} pts)\n`
       : `💀 Derrota após 3 tentativas.\n`;
     const hearts = Array(3)
       .fill(0)
       .map((_, i) => (i < lives ? '❤️' : '🖤'))
       .join('');
     text += `Vidas: ${hearts}\n\n`;
-    text += `Jogue em: https://animedle.online`;
+    text += `Jogue em: https://animedle-9og.pages.dev`;
     navigator.clipboard.writeText(text);
     setShowCopied(true);
     setTimeout(() => setShowCopied(false), 2500);
+  };
+
+  // Baixar Imagem do Card de Vitória / Desafio diretamente
+  const handleDownloadImage = async () => {
+    if (!targetCharacter || !currentChallenge) return;
+    setIsDownloadingImage(true);
+    await downloadOrShareImageCard(
+      {
+        animeTitle: animeSlug.toUpperCase(),
+        themeColor,
+        animeSlug,
+        characterName: targetCharacter.name,
+        characterAvatar: targetCharacter.avatar,
+        characterSub: currentChallenge.targetTitle,
+        modeName: currentChallenge.category,
+        totalGuesses: roundGuesses.length,
+        isWon: isWonRound,
+        streak: combo,
+      },
+      `animedle-exclusivo-${targetCharacter.id}.png`
+    );
+    setIsDownloadingImage(false);
   };
 
   if (challenges.length === 0) {
@@ -294,7 +319,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
 
   return (
     <div className="max-w-3xl mx-auto my-6 px-3">
-      {/* 1. Header com Alternador Diário / Infinito & Indicador de Vidas Estritas */}
+      {/* 1. Header com Alternador Diário / Infinito & Indicador de Vidas e Pontos */}
       <div className="bg-[#0d1426] border border-[#202b43] rounded-2xl p-4 mb-5 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-3">
         {/* Toggle Diário / Infinito */}
         <div className="flex items-center gap-1.5 p-1 bg-[#111a2d] rounded-xl border border-[#202b43]">
@@ -320,7 +345,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
           </button>
         </div>
 
-        {/* Status: 3 Vidas (1 erro = -1 vida) & Pontuação */}
+        {/* Status: 3 Vidas (1 erro = -1 vida) & Pontos da Rodada em Tempo Real */}
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1.5 bg-[#111a2d] px-3 py-1.5 rounded-xl border border-[#202b43]">
             <span className="text-[10px] uppercase font-black text-slate-400 mr-1">Vidas:</span>
@@ -337,26 +362,27 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
             ))}
           </div>
 
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-black text-amber-400">{score} pts</span>
+          <div className="flex items-center gap-2 bg-[#111a2d] px-3 py-1.5 rounded-xl border border-[#202b43]">
+            <span className="text-[10px] uppercase font-bold text-slate-400">Valendo:</span>
+            <span className="text-xs font-black text-amber-400 transition-all">{roundBaseScore} pts</span>
             {combo > 1 && (
-              <span className="flex items-center gap-0.5 text-[10px] font-black bg-amber-500/20 text-amber-400 px-2 py-0.5 rounded-md border border-amber-500/40">
-                <Flame size={12} /> x{combo}
+              <span className="flex items-center gap-0.5 text-[10px] font-black bg-amber-500/20 text-amber-400 px-1.5 py-0.5 rounded border border-amber-500/40">
+                <Flame size={11} /> x{combo}
               </span>
             )}
           </div>
         </div>
       </div>
 
-      {/* 2. Bloco de DICAS SEPARADO ACIMA do Bloco Principal (Padrão HintBox) */}
+      {/* 2. Bloco Universal de Pistas da Rodada (Lâmpada piscando + Pistas da rodada) */}
       {currentChallenge && (
-        <div className="bg-[#0b101e] border border-[#1d273d] rounded-2xl p-4 sm:p-5 mb-5 shadow-lg">
-          <div className="flex items-center justify-between mb-3 border-b border-[#1b253b] pb-2.5">
-            <div className="flex items-center gap-2 text-slate-300 text-xs font-extrabold uppercase tracking-wider">
-              <HelpCircle size={15} className="text-amber-400" />
-              <span>Dicas Disponíveis</span>
+        <div className="max-w-3xl mx-auto my-6 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-xl shadow-black/20">
+          <div className="flex items-center justify-between border-b border-[#202b43] pb-3 mb-3.5">
+            <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
+              <Lightbulb size={16} className="text-amber-400 animate-pulse" />
+              <span>Pistas da rodada</span>
             </div>
-            <span className="text-[11px] text-slate-500 font-bold">
+            <span className="text-[11px] text-slate-400 font-bold">
               Custo: <strong className="text-amber-400">-15 pts cada</strong>
             </span>
           </div>
@@ -369,20 +395,20 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
                   key={idx}
                   className={`p-3 rounded-xl border transition-all ${
                     isRevealed
-                      ? 'bg-[#121c32] border-[#22304d] text-slate-200'
-                      : 'bg-[#0d1426] border-[#18233a] text-slate-500'
+                      ? 'bg-[#111a2d] border-[#202b43] text-slate-200 shadow-sm'
+                      : 'bg-[#090e1a] border-[#18233a] text-slate-500'
                   }`}
                 >
-                  <div className="flex items-center justify-between mb-1">
+                  <div className="flex items-center justify-between mb-1.5">
                     <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">
-                      Dica {idx + 1}: {clue.label}
+                      Pista {idx + 1}: {clue.label}
                     </span>
                     {!isRevealed && !roundCompleted && (
                       <button
                         onClick={() => handleRevealClue(idx)}
                         className="flex items-center gap-1 text-[10px] font-extrabold text-amber-400 hover:text-amber-300 transition-colors bg-amber-500/10 hover:bg-amber-500/20 px-2 py-0.5 rounded-lg border border-amber-500/30"
                       >
-                        <Eye size={11} /> Revelar (-15)
+                        <Eye size={11} /> Revelar (-15 pts)
                       </button>
                     )}
                   </div>
@@ -403,7 +429,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       {/* 3. Card Principal do Desafio Exclusivo */}
       {currentChallenge && (
         <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl p-5 sm:p-7 shadow-2xl relative text-center mb-6">
-          {/* Badge da Categoria Sanitizado (sem spoilers) */}
+          {/* Badge da Categoria Sanitizado */}
           <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#111a2d] border border-[#202b43] text-xs font-black mb-3 shadow-sm">
             <Sparkles size={13} style={{ color: themeColor }} />
             <span style={{ color: themeColor }}>{currentChallenge.badgeTitle}</span>
@@ -413,7 +439,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
             {currentChallenge.questionTitle}
           </h3>
 
-          {/* Destaque do Alvo (Nome da Técnica / Fruta / Titã / etc.) */}
+          {/* Destaque do Alvo */}
           <div
             style={{ borderColor: `${themeColor}70` }}
             className="p-5 sm:p-6 bg-gradient-to-b from-[#111a2d] to-[#0c1324] border-2 rounded-2xl my-4 shadow-inner"
@@ -423,48 +449,20 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
             </h2>
           </div>
 
-          {/* 4. Campo de Busca Autocomplete Exclusivo (SEM ALTERNATIVAS RÁPIDAS) */}
+          {/* 4. Campo de Busca Autocomplete Exatamente Igual ao Modo Clássico */}
           {!roundCompleted && !isGameOver && (
-            <div className="mt-6 max-w-md mx-auto">
-              <span className="text-[11px] uppercase font-bold text-slate-400 block mb-2">
-                Digite o nome do personagem correspondente:
+            <div className="mt-4">
+              <span className="text-[11px] uppercase font-bold text-slate-400 block mb-1">
+                Selecione ou pesquise o personagem correspondente:
               </span>
 
-              <div className="relative">
-                <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400" />
-                <input
-                  type="text"
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  placeholder="Pesquise o personagem..."
-                  className="w-full bg-[#111a2d] border border-[#202b43] rounded-xl pl-10 pr-4 py-3 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-amber-400 shadow-inner"
-                />
-
-                {/* Dropdown do Autocomplete */}
-                {searchSuggestions.length > 0 && (
-                  <div className="absolute left-0 right-0 top-full mt-1.5 bg-[#0e1628] border border-[#202b43] rounded-2xl overflow-hidden shadow-2xl z-30 max-h-60 overflow-y-auto">
-                    {searchSuggestions.map((char) => (
-                      <button
-                        key={char.id}
-                        onClick={() => handleMakeGuess(char)}
-                        className="w-full p-2.5 sm:p-3 flex items-center gap-3 hover:bg-[#152038] text-left transition-colors border-b border-[#18233a] last:border-0"
-                      >
-                        <img
-                          src={char.avatar}
-                          alt={char.name}
-                          className="w-9 h-9 rounded-full object-cover border border-slate-600 shadow-sm"
-                          onError={(e) => {
-                            (e.target as HTMLElement).style.display = 'none';
-                          }}
-                        />
-                        <span className="text-xs sm:text-sm font-bold text-white truncate">
-                          {char.name}
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
+              <CharacterSearchInput
+                characters={characters}
+                guessedCharacterIds={roundGuesses.map((g) => g.charId)}
+                onSelectCharacter={handleMakeGuess}
+                disabled={roundCompleted || isGameOver}
+                themeColor={themeColor}
+              />
             </div>
           )}
 
@@ -483,133 +481,202 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
             </div>
           )}
 
-          {/* 5. Banner de Vitória da Rodada */}
-          {roundCompleted && isWonRound && (
-            <div className="mt-6 p-5 sm:p-6 bg-[#111a2d] border border-emerald-500/40 rounded-2xl animate-fade-in shadow-xl text-left">
-              <div className="flex flex-col sm:flex-row items-center gap-4">
-                {targetCharacter && (
-                  <img
-                    src={targetCharacter.avatar}
-                    alt={targetCharacter.name}
-                    className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl object-cover border-2 border-emerald-500 shadow-lg flex-shrink-0"
-                  />
-                )}
-                <div className="flex-1 min-w-0 text-center sm:text-left">
-                  <span className="inline-block px-3 py-0.5 rounded-full text-[10px] font-black uppercase tracking-wider mb-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/40">
-                    ✓ Resposta Correta!
-                  </span>
-                  <h4 className="text-xl font-black text-white truncate">
-                    {targetCharacter?.name || currentChallenge.targetCharacterName}
-                  </h4>
-                  {currentChallenge.contextExplanation && (
-                    <p className="text-xs sm:text-sm text-slate-300 mt-1.5 leading-relaxed">
-                      {currentChallenge.contextExplanation}
-                    </p>
-                  )}
-                </div>
-              </div>
-
-              {/* Botões de Ação na Vitória */}
-              <div className="flex flex-wrap items-center justify-between gap-3 mt-5 pt-3 border-t border-[#202b43]">
-                <button
-                  onClick={() => setShowFeedbackModal(true)}
-                  className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-slate-200 transition-colors"
-                >
-                  <AlertTriangle size={13} /> Reportar inconsistência
-                </button>
-
-                {!isEndless ? (
-                  <button
-                    onClick={handleShareDaily}
-                    className="flex items-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold rounded-xl text-xs shadow-lg transition-all ml-auto"
-                  >
-                    <Share2 size={14} />
-                    <span>{showCopied ? 'Resultado Copiado!' : 'Compartilhar Diário'}</span>
-                  </button>
-                ) : (
-                  <button
-                    onClick={handleNextChallenge}
-                    style={{ backgroundColor: themeColor }}
-                    className="flex items-center gap-2 px-5 py-2.5 text-white font-extrabold rounded-xl text-xs shadow-lg hover:opacity-90 active:scale-95 transition-all ml-auto"
-                  >
-                    <span>Próximo Desafio</span>
-                    <ArrowRight size={14} />
-                  </button>
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* 6. Modal / Banner de Derrota Dedicado (0 Vidas) */}
-          {roundCompleted && !isWonRound && (
-            <div className="mt-6 p-6 bg-gradient-to-b from-rose-950/40 to-[#0d1426] border-2 border-rose-500/40 rounded-2xl text-center animate-scale-in shadow-2xl">
-              <div className="w-14 h-14 mx-auto mb-2 rounded-2xl bg-rose-500/20 border border-rose-500/30 flex items-center justify-center text-rose-400">
-                <XCircle size={32} />
-              </div>
-              <h3 className="text-xl font-black text-white">Derrota! As 3 vidas acabaram.</h3>
-              <p className="text-xs text-slate-400 mt-1 mb-4">
-                A resposta correta para este desafio era:
-              </p>
-
-              {/* Revelação do Personagem Correto */}
-              {targetCharacter && (
-                <div className="inline-flex items-center gap-3 p-3 bg-[#111a2d] border border-[#202b43] rounded-2xl max-w-sm mb-4">
-                  <img
-                    src={targetCharacter.avatar}
-                    alt={targetCharacter.name}
-                    className="w-12 h-12 rounded-xl object-cover border border-rose-500/50"
-                  />
-                  <div className="text-left">
-                    <span className="text-sm font-black text-white block">
-                      {targetCharacter.name}
-                    </span>
-                    <span className="text-[10px] text-slate-400">
-                      {currentChallenge.targetTitle}
-                    </span>
-                  </div>
-                </div>
-              )}
-
-              {currentChallenge.contextExplanation && (
-                <p className="text-xs text-slate-300 max-w-md mx-auto mb-5 leading-relaxed">
-                  {currentChallenge.contextExplanation}
-                </p>
-              )}
-
-              <div className="flex flex-wrap items-center justify-center gap-3">
-                <button
-                  onClick={() => setShowFeedbackModal(true)}
-                  className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-slate-200 transition-colors mr-2"
-                >
-                  <AlertTriangle size={13} /> Reportar inconsistência
-                </button>
-
-                {!isEndless ? (
-                  <button
-                    onClick={handleShareDaily}
-                    className="flex items-center gap-2 px-6 py-2.5 bg-slate-700 hover:bg-slate-600 text-white font-extrabold rounded-xl text-xs shadow-lg transition-all"
-                  >
-                    <Share2 size={14} />
-                    <span>{showCopied ? 'Resultado Copiado!' : 'Compartilhar Desafio'}</span>
-                  </button>
-                ) : (
-                  <button
-                    onClick={handleRestartEndless}
-                    className="flex items-center gap-2 px-6 py-2.5 bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white font-extrabold rounded-xl text-xs shadow-xl active:scale-95 transition-all"
-                  >
-                    <RotateCcw size={14} />
-                    <span>Tentar Novamente</span>
-                  </button>
-                )}
-              </div>
+          {/* Botão para Reabrir Resultado caso já tenha concluído */}
+          {roundCompleted && (
+            <div className="mt-5">
+              <button
+                onClick={() => setShowResultModal(true)}
+                style={{ backgroundColor: isWonRound ? '#10b981' : '#f43f5e' }}
+                className="px-6 py-2.5 text-white font-extrabold text-xs rounded-xl shadow-lg hover:opacity-90 active:scale-95 transition-all"
+              >
+                Ver Resultado Completo & Compartilhar
+              </button>
             </div>
           )}
         </div>
       )}
 
+      {/* 5. MODAL DE DERROTA REAL (Full-screen Overlay Popup) */}
+      {showResultModal && !isWonRound && isGameOver && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-fadeIn">
+          <div className="bg-[#0d1426] border-2 border-rose-500/50 rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl relative text-center">
+            {/* Botão fechar modal */}
+            <button
+              onClick={() => setShowResultModal(false)}
+              className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-white rounded-xl hover:bg-white/10 transition-colors"
+            >
+              <X size={18} />
+            </button>
+
+            {/* Ícone de Derrota */}
+            <div className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-3 border bg-rose-500/10 text-rose-400 border-rose-500/40 shadow-lg shadow-rose-500/20 animate-shake">
+              <XCircle size={36} />
+            </div>
+
+            <h2 className="text-2xl font-black text-white">Derrota!</h2>
+            <p className="text-xs text-rose-400 font-bold mt-1 mb-4">
+              Suas 3 vidas se esgotaram nesta rodada.
+            </p>
+
+            {/* Revelação do Personagem Secreto com Avatar e Lore */}
+            {targetCharacter && (
+              <div className="my-4 p-4 bg-[#111a2d] border border-[#202b43] rounded-2xl flex items-center gap-4 text-left shadow-inner">
+                <img
+                  src={targetCharacter.avatar}
+                  alt={targetCharacter.name}
+                  className="w-16 h-16 rounded-2xl object-cover border-2 border-rose-500 shadow-md flex-shrink-0"
+                  onError={(e) => {
+                    (e.target as HTMLElement).style.display = 'none';
+                  }}
+                />
+                <div className="min-w-0 flex-1">
+                  <span className="text-[10px] uppercase font-bold text-slate-400 block">
+                    Personagem Correto:
+                  </span>
+                  <h3 className="font-black text-lg text-white truncate">
+                    {targetCharacter.name}
+                  </h3>
+                  <p className="text-[11px] text-slate-400 truncate">
+                    {currentChallenge?.targetTitle}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {currentChallenge?.contextExplanation && (
+              <p className="text-xs text-slate-300 leading-relaxed text-left bg-[#101729] p-3 rounded-xl border border-[#1d273f] mb-4">
+                {currentChallenge.contextExplanation}
+              </p>
+            )}
+
+            {/* Ações da Derrota */}
+            <div className="space-y-2.5 mt-5">
+              {!isEndless ? (
+                <button
+                  onClick={handleShareDaily}
+                  className="w-full flex items-center justify-center gap-2 bg-slate-700 hover:bg-slate-600 text-white font-bold py-3 px-4 rounded-xl text-xs shadow-lg transition-all"
+                >
+                  <Share2 size={15} />
+                  <span>{showCopied ? 'Resultado Copiado!' : 'Compartilhar Desafio'}</span>
+                </button>
+              ) : (
+                <button
+                  onClick={handleRestartEndless}
+                  className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white font-extrabold py-3 px-4 rounded-xl text-xs shadow-lg transition-all active:scale-95"
+                >
+                  <RotateCcw size={15} />
+                  <span>Tentar Novamente</span>
+                </button>
+              )}
+
+              <button
+                onClick={() => setShowFeedbackModal(true)}
+                className="w-full flex items-center justify-center gap-1.5 py-2 text-[11px] text-slate-400 hover:text-slate-200 transition-colors"
+              >
+                <AlertTriangle size={13} /> Reportar inconsistência neste desafio
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 6. MODAL DE VITÓRIA REAL (Full-screen Overlay Popup) */}
+      {showResultModal && isWonRound && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-fadeIn">
+          <div className="bg-[#0d1426] border-2 border-emerald-500/50 rounded-3xl max-w-md w-full p-6 sm:p-7 shadow-2xl relative text-center">
+            {/* Botão fechar modal */}
+            <button
+              onClick={() => setShowResultModal(false)}
+              className="absolute top-4 right-4 p-1.5 text-slate-400 hover:text-white rounded-xl hover:bg-white/10 transition-colors"
+            >
+              <X size={18} />
+            </button>
+
+            {/* Ícone de Vitória */}
+            <div className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-3 border bg-emerald-500/10 text-emerald-400 border-emerald-500/40 shadow-lg shadow-emerald-500/20 animate-bounce">
+              <Trophy size={36} />
+            </div>
+
+            <h2 className="text-2xl font-black text-white">Excelente Trabalho!</h2>
+            <div className="inline-block mt-1 px-3.5 py-1 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 text-xs font-black">
+              ✓ Acertou com {lives}/3 vidas restantes! (+{roundBaseScore} pts)
+            </div>
+
+            {/* Card do Personagem Revelado */}
+            {targetCharacter && (
+              <div className="my-4 p-4 bg-[#111a2d] border border-[#202b43] rounded-2xl flex items-center gap-4 text-left shadow-inner">
+                <img
+                  src={targetCharacter.avatar}
+                  alt={targetCharacter.name}
+                  className="w-16 h-16 rounded-2xl object-cover border-2 border-emerald-400 shadow-md flex-shrink-0"
+                  onError={(e) => {
+                    (e.target as HTMLElement).style.display = 'none';
+                  }}
+                />
+                <div className="min-w-0 flex-1">
+                  <h3 style={{ color: themeColor }} className="font-black text-lg truncate">
+                    {targetCharacter.name}
+                  </h3>
+                  <p className="text-[11px] text-slate-300 truncate">
+                    {currentChallenge?.targetTitle}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {currentChallenge?.contextExplanation && (
+              <p className="text-xs text-slate-300 leading-relaxed text-left bg-[#101729] p-3 rounded-xl border border-[#1d273f] mb-4">
+                {currentChallenge.contextExplanation}
+              </p>
+            )}
+
+            {/* Ações da Vitória */}
+            <div className="space-y-2.5 mt-5">
+              <div className="flex gap-2.5">
+                <button
+                  onClick={handleShareDaily}
+                  style={{ backgroundColor: themeColor }}
+                  className="flex-1 flex items-center justify-center gap-2 text-white font-bold py-3 px-3 rounded-xl text-xs shadow-lg transition-all hover:opacity-90 active:scale-95"
+                >
+                  <Share2 size={15} />
+                  <span>{showCopied ? 'Copiado!' : 'Copiar Texto'}</span>
+                </button>
+
+                <button
+                  onClick={handleDownloadImage}
+                  disabled={isDownloadingImage}
+                  className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold py-3 px-3 rounded-xl text-xs shadow-lg transition-all active:scale-95 disabled:opacity-50"
+                >
+                  {isDownloadingImage ? <Loader2 size={15} className="animate-spin" /> : <ImageIcon size={15} />}
+                  <span>{isDownloadingImage ? 'Gerando...' : 'Baixar Imagem'}</span>
+                </button>
+              </div>
+
+              {isEndless && (
+                <button
+                  onClick={handleNextChallenge}
+                  style={{ backgroundColor: themeColor }}
+                  className="w-full flex items-center justify-center gap-2 py-3 px-4 text-white font-black rounded-xl text-xs shadow-lg hover:opacity-90 active:scale-95 transition-all"
+                >
+                  <span>Próximo Desafio</span>
+                  <ArrowRight size={15} />
+                </button>
+              )}
+
+              <button
+                onClick={() => setShowFeedbackModal(true)}
+                className="w-full flex items-center justify-center gap-1.5 py-1.5 text-[11px] text-slate-400 hover:text-slate-200 transition-colors"
+              >
+                <AlertTriangle size={13} /> Reportar inconsistência neste desafio
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* 7. Modal de Reportar Inconsistência conectado ao Firebase RTDB */}
       {showFeedbackModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fade-in">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
           <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-md w-full p-5 sm:p-6 text-center shadow-2xl">
             <h4 className="text-base font-black text-white mb-2 flex items-center justify-center gap-2">
               <AlertTriangle size={18} className="text-amber-400" /> Reportar Inconsistência

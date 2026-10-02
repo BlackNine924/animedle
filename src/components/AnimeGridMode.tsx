@@ -144,7 +144,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
       }
       text += rowStr + '\n';
     }
-    text += '\nJogue em: https://animedle.online';
+    text += '\nJogue em: https://animedle-9og.pages.dev';
     navigator.clipboard.writeText(text);
     setShowCopied(true);
     setTimeout(() => setShowCopied(false), 2500);
@@ -511,12 +511,34 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
 
+    // Arco de Estreia
+    const arcMap: Record<string, number> = {};
+    characters.forEach((c) => {
+      if (c.debutArc && c.debutArc.trim().length > 2) {
+        const arc = c.debutArc.trim();
+        arcMap[arc] = (arcMap[arc] || 0) + 1;
+      }
+    });
+    Object.entries(arcMap).forEach(([arc, count]) => {
+      if (count >= 3) {
+        list.push({
+          id: `arc_${arc}`,
+          label: arc,
+          category: 'Arco de Estreia',
+          test: (c) => (c.debutArc || '').trim() === arc,
+        });
+      }
+    });
+
     return list;
   }, [characters]);
 
-  // Função para gerar uma grade 3x3 válida (onde todas as 9 células têm ao menos 1 candidato)
+  // Função para gerar uma grade 3x3 válida (onde todas as 9 células têm ao menos 1 candidato e NENHUMA categoria se repete)
   const generateValidGrid = (seedStr: string): { rows: GridCriterion[]; cols: GridCriterion[] } | null => {
     if (availableCriteria.length < 6) return null;
+
+    const uniqueCategories = Array.from(new Set(availableCriteria.map((c) => c.category)));
+    if (uniqueCategories.length < 2) return null;
 
     let hash = 0;
     for (let i = 0; i < seedStr.length; i++) {
@@ -528,13 +550,35 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       return hash - Math.floor(hash);
     };
 
-    for (let attempt = 0; attempt < 250; attempt++) {
-      const shuffled = [...availableCriteria].sort(() => pseudoRandom() - 0.5);
+    // Prioriza categorias canônicas sobre genéricas (Gênero e Status)
+    const canonicalOrder = ['Afiliação', 'Estilo / Poder', 'Posição / Categoria', 'Arco de Estreia', 'Gênero', 'Status'];
+    const sortedCriteria = [...availableCriteria].sort((a, b) => {
+      const idxA = canonicalOrder.indexOf(a.category);
+      const idxB = canonicalOrder.indexOf(b.category);
+      const orderA = idxA === -1 ? 99 : idxA;
+      const orderB = idxB === -1 ? 99 : idxB;
+      return orderA - orderB;
+    });
+
+    const targetDistinctCategories = Math.min(6, uniqueCategories.length);
+
+    // Tentativas com restrição máxima (6 categorias 100% distintas)
+    for (let attempt = 0; attempt < 500; attempt++) {
+      const shuffled = [...sortedCriteria].sort(() => pseudoRandom() - 0.5);
       const rows = shuffled.slice(0, 3);
       const cols = shuffled.slice(3, 6);
 
       const rowIds = new Set(rows.map((r) => r.id));
       if (cols.some((c) => rowIds.has(c.id))) continue;
+
+      const rowCats = new Set(rows.map((r) => r.category));
+      if (rowCats.size < Math.min(3, uniqueCategories.length)) continue;
+
+      const colCats = new Set(cols.map((c) => c.category));
+      if (colCats.size < Math.min(3, uniqueCategories.length)) continue;
+
+      const allCats = new Set([...rowCats, ...colCats]);
+      if (allCats.size < targetDistinctCategories) continue;
 
       let allValid = true;
       for (const r of rows) {
@@ -553,10 +597,39 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     }
 
-    return {
-      rows: availableCriteria.slice(0, 3),
-      cols: availableCriteria.slice(3, 6),
-    };
+    // Fallback: se não encontrou com 6 categorias distintas, busca com ao menos linhas e colunas internamente distintas
+    for (let attempt = 0; attempt < 300; attempt++) {
+      const shuffled = [...sortedCriteria].sort(() => pseudoRandom() - 0.5);
+      const rows = shuffled.slice(0, 3);
+      const cols = shuffled.slice(3, 6);
+
+      const rowIds = new Set(rows.map((r) => r.id));
+      if (cols.some((c) => rowIds.has(c.id))) continue;
+
+      const rowCats = new Set(rows.map((r) => r.category));
+      if (rowCats.size < 3) continue;
+
+      const colCats = new Set(cols.map((c) => c.category));
+      if (colCats.size < 3) continue;
+
+      let allValid = true;
+      for (const r of rows) {
+        for (const col of cols) {
+          const matchCount = characters.filter((ch) => r.test(ch) && col.test(ch)).length;
+          if (matchCount === 0) {
+            allValid = false;
+            break;
+          }
+        }
+        if (!allValid) break;
+      }
+
+      if (allValid) {
+        return { rows, cols };
+      }
+    }
+
+    return null;
   };
 
   const [isEndless, setIsEndless] = useState<boolean>(false);

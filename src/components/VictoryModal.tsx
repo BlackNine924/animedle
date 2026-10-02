@@ -11,6 +11,7 @@ interface VictoryModalProps {
   totalGuesses: number;
   stats: GameStats;
   isSurrendered?: boolean;
+  isLost?: boolean;
   onClose: () => void;
   themeColor?: string;
   animeTitle?: string;
@@ -23,6 +24,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
   totalGuesses,
   stats,
   isSurrendered = false,
+  isLost = false,
   onClose,
   themeColor = '#dc2626',
   animeTitle = 'Demon Slayer',
@@ -37,7 +39,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
     // Registra dia ativo no calendário de frequência (Retenção 3)
     logDailyActivity();
 
-    if (!isSurrendered) {
+    if (!isSurrendered && !isLost) {
       confetti({
         particleCount: 100,
         spread: 70,
@@ -68,12 +70,14 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [isSurrendered, currentMode, totalGuesses, stats.currentStreak]);
+  }, [isSurrendered, isLost, currentMode, totalGuesses, stats.currentStreak]);
 
   const handleShare = () => {
-    const text = isSurrendered
-      ? `⚔️ AnimeDLE - ${animeTitle}\nDesisti do desafio diário, mas descobri o personagem (${targetCharacter.name})! 🔥\nJogue em animedle.com`
-      : `⚔️ AnimeDLE - ${animeTitle}\nAcertei o personagem diário (${targetCharacter.name}) em ${totalGuesses} ${totalGuesses === 1 ? 'tentativa' : 'tentativas'}! 🔥\nSequência atual: ${stats.currentStreak} vitória(s)!\nJogue em animedle.com`;
+    const text = isLost
+      ? `⚔️ AnimeDLE - ${animeTitle}\nFui derrotado no desafio diário (${targetCharacter.name}) após esgotar as tentativas! 💀\nJogue em https://animedle-9og.pages.dev`
+      : isSurrendered
+      ? `⚔️ AnimeDLE - ${animeTitle}\nDesisti do desafio diário, mas descobri o personagem (${targetCharacter.name})! 🔥\nJogue em https://animedle-9og.pages.dev`
+      : `⚔️ AnimeDLE - ${animeTitle}\nAcertei o personagem diário (${targetCharacter.name}) em ${totalGuesses} ${totalGuesses === 1 ? 'tentativa' : 'tentativas'}! 🔥\nSequência atual: ${stats.currentStreak} vitória(s)!\nJogue em https://animedle-9og.pages.dev`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
@@ -100,7 +104,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
       characterSub: `${targetCharacter.species} • ${Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation}`,
       modeName: modeNames[currentMode] || currentMode,
       totalGuesses,
-      isWon: !isSurrendered,
+      isWon: !isSurrendered && !isLost,
       streak: stats.currentStreak,
     }, `animedle-${targetCharacter.id}.png`);
 
@@ -111,28 +115,30 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md animate-fadeIn">
       <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-md w-full p-6 shadow-2xl relative text-center">
         
-        {/* Banner de Vitória / Desistência */}
+        {/* Banner de Vitória / Derrota / Desistência */}
         <div
           style={
-            isSurrendered
+            isSurrendered || isLost
               ? undefined
               : { backgroundColor: `${themeColor}20`, borderColor: `${themeColor}60`, color: themeColor }
           }
           className={`w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 border ${
-            isSurrendered
-              ? 'bg-rose-500/10 text-rose-400 border-rose-500/30'
+            isLost
+              ? 'bg-rose-500/20 text-rose-400 border-rose-500/40'
+              : isSurrendered
+              ? 'bg-amber-500/10 text-amber-400 border-amber-500/30'
               : 'animate-bounce'
           }`}
         >
-          {isSurrendered ? <Flag size={32} /> : <Trophy size={32} />}
+          {isLost ? <span className="text-3xl">💀</span> : isSurrendered ? <Flag size={32} /> : <Trophy size={32} />}
         </div>
 
         <h2 className="text-2xl font-black text-[#F5F7FF]">
-          {isSurrendered ? 'Você Desistiu!' : 'Excelente Trabalho!'}
+          {isLost ? '💀 Derrota!' : isSurrendered ? 'Você Desistiu!' : 'Excelente Trabalho!'}
         </h2>
         
         {/* Destaque de Quantidade de Tentativas Utilizadas ao Acertar */}
-        {!isSurrendered ? (
+        {!isSurrendered && !isLost ? (
           <div
             style={{ backgroundColor: `${themeColor}20`, borderColor: `${themeColor}60`, color: themeColor }}
             className="inline-block mt-2 px-3.5 py-1 rounded-full border text-xs font-black"
@@ -141,7 +147,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
           </div>
         ) : (
           <p className="text-xs text-slate-400 mt-1">
-            Aqui está o personagem secreto de hoje:
+            {isLost ? 'Você esgotou todas as chances no Zoom 1x!' : 'Aqui está o personagem secreto de hoje:'}
           </p>
         )}
 
