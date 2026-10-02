@@ -1,0 +1,1951 @@
+[
+  {
+    "id": "saitama",
+    "name": "Saitama",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Grupo de Saitama"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Eu sou apenas um cara que é herói por diversão.",
+    "techniques": [
+      "Soco Normal",
+      "Socos Normais Consecutivos",
+      "Série Séria: Soco Sério",
+      "Espirro Sério Cósmico"
+    ],
+    "avatar": "/avatars/one-punch-man/saitama.png",
+    "rank": "Classe A (Ex-Classe B)",
+    "styleOrPower": "Força Sobre-humana Ilimitada"
+  },
+  {
+    "id": "blast",
+    "name": "Blast",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Não espere que alguém venha te salvar. Quando a hora chegar, você mesmo terá que se proteger.",
+    "techniques": [
+      "Portais Dimensionais Cósmicos",
+      "Canhão Gravitacional",
+      "Manipulação de Espaço-Tempo"
+    ],
+    "avatar": "/avatars/one-punch-man/blast.png",
+    "rank": "Classe S (Rank 1)",
+    "styleOrPower": "Manipulação Espaço-Temporal & Portais Dimensionais"
+  },
+  {
+    "id": "tatsumaki",
+    "name": "Tatsumaki (Tornado do Terror)",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Vocês da Classe S são todos patéticos. Se eu não fizer tudo sozinha, nada se resolve.",
+    "techniques": [
+      "Psicocinese Suprema",
+      "Barreira Telecinética Absoluta",
+      "Torção Psíquica Continental",
+      "Chuva de Meteoros Psíquica"
+    ],
+    "avatar": "/avatars/one-punch-man/tatsumaki.png",
+    "rank": "Classe S (Rank 2)",
+    "styleOrPower": "Poder Psíquico / Esper"
+  },
+  {
+    "id": "bang",
+    "name": "Bang (Silver Fang)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Dojô do Punho da Água Corrente"
+    ],
+    "debutArc": "Arco do Exame de Heróis & Meteoro",
+    "status": "Vivo",
+    "quote": "A juventude é impetuosa, mas a água que flui pelas pedras nunca se cansa de polir seus limites.",
+    "techniques": [
+      "Punho da Água Corrente Esmagadora de Pedras",
+      "Presa Instantânea da Água Viva",
+      "Punho Cruzado da Fenda do Dragão (com Bomb)"
+    ],
+    "avatar": "/avatars/one-punch-man/bang.png",
+    "rank": "Classe S (Rank 3)",
+    "styleOrPower": "Artes Marciais (Punho da Água Corrente Esmagadora de Pedras)"
+  },
+  {
+    "id": "atomic-samurai",
+    "name": "Atomic Samurai (Kamikaze)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Conselho de Espadachins"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Eu só reconheço os fortes. Se quer meu respeito, me mostre do que sua espada é capaz!",
+    "techniques": [
+      "Corte Atômico (Atomic Slash)",
+      "Corte Atômico Behemoth",
+      "Espada Solar Sun Blade"
+    ],
+    "avatar": "/avatars/one-punch-man/atomic-samurai.png",
+    "rank": "Classe S (Rank 4)",
+    "styleOrPower": "Esgrima Suprema (Kenjutsu)"
+  },
+  {
+    "id": "child-emperor",
+    "name": "Child Emperor (Isamu)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Ex-Assistente de Bofoi"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "A idade não define inteligência nem liderança tática em combate.",
+    "techniques": [
+      "Mochila Escolar Multifuncional",
+      "Robô Mecha Brave Giant",
+      "Cão Rastreador Tecnológico",
+      "Canhão do Milênio 1000x"
+    ],
+    "avatar": "/avatars/one-punch-man/child-emperor.png",
+    "rank": "Classe S (Rank 5)",
+    "styleOrPower": "Cibernética / Tecnologia / Intelecto Genial"
+  },
+  {
+    "id": "metal-knight",
+    "name": "Metal Knight (Dr. Bofoi)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Exame de Heróis & Meteoro",
+    "status": "Vivo",
+    "quote": "A segurança da humanidade não depende de sentimentos, e sim de superioridade bélica absoluta.",
+    "techniques": [
+      "Robô Autônomo de Guerra Bofoi",
+      "Mísseis de Fusão Termonuclear",
+      "Drones de Reconstrução Instantânea da Cidade A"
+    ],
+    "avatar": "/avatars/one-punch-man/metal-knight.png",
+    "rank": "Classe S (Rank 6)",
+    "styleOrPower": "Cibernética / Armamento Pesado / Drones Remotos"
+  },
+  {
+    "id": "king",
+    "name": "King (O Homem Mais Forte da Terra)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Grupo de Saitama"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Dizem que o King Engine ruge antes da batalha... mas na verdade é só meu coração quase explodindo de pavor!",
+    "techniques": [
+      "Rugido do Motor King (King Engine)",
+      "Canhão da Chama do Purgatório do Rei (Blefe)",
+      "Habilidade Suprema em Videogames"
+    ],
+    "avatar": "/avatars/one-punch-man/king.png",
+    "rank": "Classe S (Rank 7)",
+    "styleOrPower": "Presença Intimidatória / Sorte Suprema"
+  },
+  {
+    "id": "zombieman",
+    "name": "Zombieman",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Ex-Cobaia da Casa da Evolução"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Eu não posso morrer. Não importa quantas vezes me façam em pedaços, eu sempre volto para acabar com a luta.",
+    "techniques": [
+      "Regeneração Imortal Infinita",
+      "Canhão Desert Eagle Customizado",
+      "Cutelo de Machete de Titânio",
+      "Guerra de Atrito Biológica"
+    ],
+    "avatar": "/avatars/one-punch-man/zombieman.png",
+    "rank": "Classe S (Rank 8)",
+    "styleOrPower": "Regeneração Celular Absoluta & Armamento Balístico"
+  },
+  {
+    "id": "drive-knight",
+    "name": "Drive Knight (Cavaleiro Mecânico)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Cuidado com Metal Knight. Ele é o verdadeiro inimigo.",
+    "techniques": [
+      "Transformação Tática: Torre (Rook)",
+      "Transformação Tática: Cavalo (Knight)",
+      "Transformação Tática: Ouro (Gold)",
+      "Lança de Energia Térmica"
+    ],
+    "avatar": "/avatars/one-punch-man/drive-knight.png",
+    "rank": "Classe S (Rank 9)",
+    "styleOrPower": "Cibernética / Transformação Tática (Shogi Box)"
+  },
+  {
+    "id": "pig-god",
+    "name": "Pig God (Deus Porco)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Mastigar, devorar e proteger meus companheiros. Meu estômago cuida de qualquer veneno.",
+    "techniques": [
+      "Devoração Rápida de Monstros",
+      "Resistência Extrema a Toxinas Digestivas",
+      "Ataque Secreto Final (Armazenado)"
+    ],
+    "avatar": "/avatars/one-punch-man/pig-god.png",
+    "rank": "Classe S (Rank 10)",
+    "styleOrPower": "Digestão Absoluta & Força Corporal Massiva"
+  },
+  {
+    "id": "superalloy-darkshine",
+    "name": "Superalloy Darkshine",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Meus músculos blindados refletem qualquer golpe com o brilho da perfeição!",
+    "techniques": [
+      "Superalloy Bazooka",
+      "Superalloy Double Bazooka",
+      "Armadura Muscular Cintilante"
+    ],
+    "avatar": "/avatars/one-punch-man/superalloy-darkshine.png",
+    "rank": "Classe S (Rank 11)",
+    "styleOrPower": "Músculos Impenetráveis & Fisiculturismo"
+  },
+  {
+    "id": "watchdog-man",
+    "name": "Watchdog Man (Homem Cão de Guarda)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Protetor da Cidade Q"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "A Cidade Q está sob minha guarda. Nenhum monstro sai daqui com vida.",
+    "techniques": [
+      "Ataque Canino Quádruplo Veloz",
+      "Patada Esmagadora Feral",
+      "Esquiva Instintiva de Predador"
+    ],
+    "avatar": "/avatars/one-punch-man/watchdog-man.png",
+    "rank": "Classe S (Rank 12)",
+    "styleOrPower": "Combate Quadrúpede Feral & Força Animal"
+  },
+  {
+    "id": "flashy-flash",
+    "name": "Flashy Flash (Flash Veloz)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Vila Ninja (44ª Turma)"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Treinar até que seus movimentos fiquem além do alcance da percepção humana: esse é o caminho ninja.",
+    "techniques": [
+      "Flashy Slash (Corte Luzente)",
+      "Punhos Meteóricos da Velocidade da Luz",
+      "Técnica Ninja da Vila Oculta: Passos Fluídos"
+    ],
+    "avatar": "/avatars/one-punch-man/flashy-flash.png",
+    "rank": "Classe S (Rank 13)",
+    "styleOrPower": "Ninjutsu da Vila Ninja & Velocidade da Luz"
+  },
+  {
+    "id": "genos",
+    "name": "Genos (Cyborg Demoníaco)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Grupo de Saitama"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Sensei Saitama, por favor, me ensine o segredo da sua força sobre-humana!",
+    "techniques": [
+      "Canhão de Incineração",
+      "Metralhadora de Golpes de Aço",
+      "Modo Espada de Alta Voltagem",
+      "Núcleo de Fusão Explosivo"
+    ],
+    "avatar": "/avatars/one-punch-man/genos.png",
+    "rank": "Classe S (Rank 14)",
+    "styleOrPower": "Cibernética / Incineração / Armamento de Combate"
+  },
+  {
+    "id": "metal-bat",
+    "name": "Metal Bat (Bad / Bastão de Metal)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Enquanto eu tiver meu espírito de luta e uma promessa feita pra minha irmã Zenko, eu nunca caio!",
+    "techniques": [
+      "Balanço de Dragão Selvagem",
+      "Tornado do Furacão com Bastão",
+      "Ressonância do Espírito de Luta"
+    ],
+    "avatar": "/avatars/one-punch-man/metal-bat.png",
+    "rank": "Classe S (Rank 15)",
+    "styleOrPower": "Espírito de Luta Ilimitado & Bastão Indestrutível"
+  },
+  {
+    "id": "tanktop-master",
+    "name": "Tanktop Master (Mestre de Regata)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Exército Tanktop"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "A regata não é apenas uma peça de roupa... ela é a personificação da liberdade e força muscular!",
+    "techniques": [
+      "Tanktop Punch",
+      "Tanktop Tackle",
+      "Arremesso de Poste Teleférico Tanktop"
+    ],
+    "avatar": "/avatars/one-punch-man/tanktop-master.png",
+    "rank": "Classe S (Rank 16)",
+    "styleOrPower": "Força Muscular Pura do Poder da Regata"
+  },
+  {
+    "id": "puri-puri-prisoner",
+    "name": "Puri-Puri Prisoner",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Prisão Smelly Lid"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "O amor verdadeiro quebra qualquer corrente e supera qualquer dor monstruosa!",
+    "techniques": [
+      "Angel Rush (Investida Angelical)",
+      "Angel Dash",
+      "Abraço do Amor Profundo",
+      "Evolução do Amor Ceroulas"
+    ],
+    "avatar": "/avatars/one-punch-man/puri-puri-prisoner.png",
+    "rank": "Classe S (Rank 17)",
+    "styleOrPower": "Amor Apaixonado & Fisiologia Angelical Extrema"
+  },
+  {
+    "id": "amai-mask",
+    "name": "Amai Mask (Sweet Mask)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Um herói deve ser belo, impecável e absolutamente impiedoso contra o mal!",
+    "techniques": [
+      "Golpes Mortais Perfurantes de Mãos Vazias",
+      "Regeneração Monstruosa Acelerada",
+      "Chute Cortante Facial"
+    ],
+    "avatar": "/avatars/one-punch-man/amai-mask.png",
+    "rank": "Classe A (Rank 1)",
+    "styleOrPower": "Artes Marciais Híbridas & Fisiologia Monstruosa Oculta"
+  },
+  {
+    "id": "iaian",
+    "name": "Iaian",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Discípulos de Atomic Samurai"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Mestre Kamikaze confiou em nós para representar o espírito da lâmina!",
+    "techniques": [
+      "Saque Rápido com Katana Única",
+      "Corte Retalhador Espelhado",
+      "Postura Defensiva do Espadachim de Aço"
+    ],
+    "avatar": "/avatars/one-punch-man/iaian.png",
+    "rank": "Classe A (Rank 2)",
+    "styleOrPower": "Esgrima Iaijutsu (Saque Rápido)"
+  },
+  {
+    "id": "okamaitachi",
+    "name": "Okamaitachi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Discípulos de Atomic Samurai"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "A lâmina de uma donzela cortará até a brisa mais graciosa!",
+    "techniques": [
+      "Corte de Ar Kamaitachi",
+      "Dança das Pétalas Afiadas",
+      "Espada Voadora Eólica"
+    ],
+    "avatar": "/avatars/one-punch-man/okamaitachi.png",
+    "rank": "Classe A (Rank 3)",
+    "styleOrPower": "Lâminas Eólicas Cortantes"
+  },
+  {
+    "id": "bushidrill",
+    "name": "Bushidrill",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Discípulos de Atomic Samurai"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Nenhuma carapaça monstruosa resiste à broca do espírito bushidô!",
+    "techniques": [
+      "Perfuração Furiosa de Broca",
+      "Espiral de Diamante",
+      "Investida Rotatória Terrestre"
+    ],
+    "avatar": "/avatars/one-punch-man/bushidrill.png",
+    "rank": "Classe A (Rank 4)",
+    "styleOrPower": "Lança Perfuradora Espiral / Broca"
+  },
+  {
+    "id": "heavy-tank-fundoshi",
+    "name": "Heavy Tank Fundoshi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Meu fundoshi e minha tonelagem esmagam qualquer delinquente!",
+    "techniques": [
+      "Soco Blindado Fundoshi",
+      "Arremesso Sísmico de Peso Máximo"
+    ],
+    "avatar": "/avatars/one-punch-man/heavy-tank-fundoshi.png",
+    "rank": "Classe A (Rank 5)",
+    "styleOrPower": "Força Bruta Pesada de Fundoshi"
+  },
+  {
+    "id": "blue-fire",
+    "name": "Blue Fire",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Chamas azuis purificam os criminosos que ousam desafiar a Associação!",
+    "techniques": [
+      "Rajada de Fogo Azul Oculta",
+      "Incêndio Concentrado de Manga"
+    ],
+    "avatar": "/avatars/one-punch-man/blue-fire.png",
+    "rank": "Classe A (Rank 6)",
+    "styleOrPower": "Lança-Chamas Oculto nas Mangas"
+  },
+  {
+    "id": "magic-trick-man",
+    "name": "Magic Trick Man",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Para o meu próximo truque, farei o monstro desaparecer em pedaços!",
+    "techniques": [
+      "Baralho de Lâminas Arremessáveis",
+      "Ilusão de Fumaça com Cartola"
+    ],
+    "avatar": "/avatars/one-punch-man/magic-trick-man.png",
+    "rank": "Classe A (Rank 7)",
+    "styleOrPower": "Ilusionismo e Cartas Afiadas Cortantes"
+  },
+  {
+    "id": "death-gatling",
+    "name": "Death Gatling",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Nós, heróis da Classe A, não somos inferiores à Classe S! Vou provar derrotando o Caçador de Heróis!",
+    "techniques": [
+      "Fogo de Supressão Mortal",
+      "Death Shower (Chuva da Morte Contínua)"
+    ],
+    "avatar": "/avatars/one-punch-man/death-gatling.png",
+    "rank": "Classe A (Rank 8)",
+    "styleOrPower": "Metralhadora Gatling no Braço Esquerdo"
+  },
+  {
+    "id": "tanktop-vegetarian",
+    "name": "Tanktop Vegetarian",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Exército Tanktop"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "A dieta vegana aliada ao poder da regata é imbatível!",
+    "techniques": [
+      "Tanktop Punch Vegetal",
+      "Bloqueio Orgânico Muscular"
+    ],
+    "avatar": "/avatars/one-punch-man/tanktop-vegetarian.png",
+    "rank": "Classe A (Rank 9)",
+    "styleOrPower": "Força Nutricional Vegetariana e Regata"
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "Hoje a Cidade J testemunhou o ápice da minha lança Shoot Stinger!",
+    "techniques": [
+      "Shoot Stinger Espiral Gigante",
+      "Perfurações Múltiplas Contínuas"
+    ],
+    "avatar": "/avatars/one-punch-man/stinger.png",
+    "rank": "Classe A (Rank 10)",
+    "styleOrPower": "Lança de Broca de Bambu (Shoot Stinger)"
+  },
+  {
+    "id": "twin-tail",
+    "name": "Twin Tail",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Combate de olhos vendados para amplificar meus outros sentidos circenses!",
+    "techniques": [
+      "Malabarismo com Pesos e Facas Cortantes",
+      "Acrobacias Circenses com Olhos Vendados"
+    ],
+    "avatar": "/avatars/one-punch-man/twin-tail.png",
+    "rank": "Classe A (Rank 11)",
+    "styleOrPower": "Malabarismo Letal e Truques Circenses"
+  },
+  {
+    "id": "great-philosopher",
+    "name": "Great Philosopher",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "O peso do conhecimento filosófico esmagará qualquer ignorância!",
+    "techniques": [
+      "Esmagamento do Tratado Filosófico de 3 Toneladas"
+    ],
+    "avatar": "/avatars/one-punch-man/great-philosopher.png",
+    "rank": "Classe A (Rank 13)",
+    "styleOrPower": "Livro de Filosofia Gigante de 3 Toneladas"
+  },
+  {
+    "id": "butterfly-dx",
+    "name": "Butterfly DX",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Voe como uma borboleta, ataque com precisão do alto dos céus!",
+    "techniques": [
+      "Mergulho Alado Mortal",
+      "Ataque Borboleta Supersônico"
+    ],
+    "avatar": "/avatars/one-punch-man/butterfly-dx.png",
+    "rank": "Classe A (Rank 16)",
+    "styleOrPower": "Voo com Asas Mecânicas e Mergulho Aéreo"
+  },
+  {
+    "id": "lightning-genji",
+    "name": "Lightning Genji",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "A velocidade dos patins e a descarga de milhões de volts te paralisarão!",
+    "techniques": [
+      "Descarga Dupla de Alta Tensão",
+      "Aceleração com Patins a Jato"
+    ],
+    "avatar": "/avatars/one-punch-man/lightning-genji.png",
+    "rank": "Classe A (Rank 17)",
+    "styleOrPower": "Bastões de Choque Elétricos e Patins Turbo"
+  },
+  {
+    "id": "lightning-max",
+    "name": "Lightning Max",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "Chute Relâmpago Voador! A força explosiva da pólvora impulsiona meu espírito marcial!",
+    "techniques": [
+      "Lightning Flying Kick Explosivo",
+      "Combinações com Pólvora Turbo nos Sapatos"
+    ],
+    "avatar": "/avatars/one-punch-man/lightning-max.png",
+    "rank": "Classe A (Rank 19)",
+    "styleOrPower": "Sapatos com Pólvora Explosiva & Artes Marciais"
+  },
+  {
+    "id": "one-shotter",
+    "name": "One-Shotter",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Um disparo, uma baixa. O atirador de elite nunca erra o alvo.",
+    "techniques": [
+      "Tiro de Precisão Penetrante à Distância Extrema",
+      "Bala Rastreadora de Olho Mecânico"
+    ],
+    "avatar": "/avatars/one-punch-man/one-shotter.png",
+    "rank": "Classe A (Rank 22)",
+    "styleOrPower": "Rifle de Precisão Sniper de Longo Alcance"
+  },
+  {
+    "id": "heavy-kong",
+    "name": "Heavy Kong",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Sinta o peso do soco de um gorila enfurecido!",
+    "techniques": [
+      "Pancada Esmagadora de Gorila",
+      "Batida Sísmica no Solo"
+    ],
+    "avatar": "/avatars/one-punch-man/heavy-kong.png",
+    "rank": "Classe A (Rank 34)",
+    "styleOrPower": "Estilo Primata Gorila e Força Bruta"
+  },
+  {
+    "id": "feather",
+    "name": "Feather",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Leve como uma pluma, afiado como uma lâmina de falcão.",
+    "techniques": [
+      "Acrobacia das Asas de Rapina",
+      "Garras Cortantes de Aço"
+    ],
+    "avatar": "/avatars/one-punch-man/feather.png",
+    "rank": "Classe A (Rank 34)",
+    "styleOrPower": "Acrobacias Aéreas e Lâminas de Garras"
+  },
+  {
+    "id": "air",
+    "name": "Air",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Meu bumerangue corta o vento e sempre retorna com a presa!",
+    "techniques": [
+      "Arremesso Cortante de Bumerangue Australiano"
+    ],
+    "avatar": "/avatars/one-punch-man/air.png",
+    "rank": "Classe A (Rank 35)",
+    "styleOrPower": "Bumerangue Gigante de Caça"
+  },
+  {
+    "id": "chain-n-toad",
+    "name": "Chain'n'toad",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "O estilo Kusarigama do sapo encurrala até os alvos mais ariscos!",
+    "techniques": [
+      "Foice Giratória Envolvente",
+      "Corrente Aprisionadora de Ferro"
+    ],
+    "avatar": "/avatars/one-punch-man/chain-n-toad.png",
+    "rank": "Classe A (Rank 36)",
+    "styleOrPower": "Kusarigama (Foice com Corrente) com Máscara de Sapo"
+  },
+  {
+    "id": "sneck",
+    "name": "Sneck (Punho Mordida de Serpente)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Exame de Heróis & Meteoro",
+    "status": "Vivo",
+    "quote": "Eu sou o examinador do teste de heróis! Não ouse subestimar os veteranos da Classe A!",
+    "techniques": [
+      "Mordida Rápida da Serpente",
+      "Esquiva Serpenteante com Traje Especial"
+    ],
+    "avatar": "/avatars/one-punch-man/sneck.png",
+    "rank": "Classe A (Rank 37)",
+    "styleOrPower": "Terno de Pele de Serpente e Punho Venenoso"
+  },
+  {
+    "id": "golden-ball",
+    "name": "Golden Ball",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "Minhas esferas de liga de ouro puro atravessam concreto como se fosse manteiga.",
+    "techniques": [
+      "Disparo de Balas Douradas de Ricochete",
+      "Esfera de Perfuração Supersônica"
+    ],
+    "avatar": "/avatars/one-punch-man/golden-ball.png",
+    "rank": "Classe A (Rank 26)",
+    "styleOrPower": "Estilingue Tático e Esferas de Ouro Cortantes"
+  },
+  {
+    "id": "spring-mustachio",
+    "name": "Spring Mustachio",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Conselho de Espadachins"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "A nobreza da esgrima ocidental reside na pontada perfeita que perfura a armadura do monstro.",
+    "techniques": [
+      "Perfuração da Rosa Espiral (Tomboy Rose)",
+      "Estocada Ilimitada com Florete Retrátil"
+    ],
+    "avatar": "/avatars/one-punch-man/spring-mustachio.png",
+    "rank": "Classe A (Rank 28)",
+    "styleOrPower": "Florete Espiral Extensível de Esgrima Nobre"
+  },
+  {
+    "id": "smile-man",
+    "name": "Smile Man",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Mantenha sempre um sorriso no rosto enquanto defende os cidadãos indefesos!",
+    "techniques": [
+      "Golpe Contundente de Kendama Pesado",
+      "Truque de Ioiô Sísmico"
+    ],
+    "avatar": "/avatars/one-punch-man/smile-man.png",
+    "rank": "Classe A (Rank 27)",
+    "styleOrPower": "Kendama Gigante de Aço"
+  },
+  {
+    "id": "crescent-eyebrow",
+    "name": "Crescent Eyebrow",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "Sob a luz da lua crescente, minha lança dita a justiça!",
+    "techniques": [
+      "Estocada Dupla da Lua Crescente"
+    ],
+    "avatar": "/avatars/one-punch-man/crescent-eyebrow.png",
+    "rank": "Classe A (Rank 25)",
+    "styleOrPower": "Lança de Duas Pontas em Lua Crescente"
+  },
+  {
+    "id": "narcisstory",
+    "name": "Narcisstory",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "A beleza é o poder mais letal do universo.",
+    "techniques": [
+      "Chuva de Pétalas Cortantes Espinhosas"
+    ],
+    "avatar": "/avatars/one-punch-man/narcisstory.png",
+    "rank": "Classe A (Rank 29)",
+    "styleOrPower": "Rosas Venenosas Afiadas e Narcisismo"
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "As raízes da natureza me fornecem força inesgotável para imobilizar o mal.",
+    "techniques": [
+      "Aprisionamento de Cipós Espinhosos",
+      "Chicote Botânico Constritor"
+    ],
+    "avatar": "/avatars/one-punch-man/green.png",
+    "rank": "Classe A (Rank 24)",
+    "styleOrPower": "Manipulação de Vinhas e Plantas Vivas pelo Corpo"
+  },
+  {
+    "id": "fubuki",
+    "name": "Fubuki (Blizzard do Inferno)",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Grupo Fubuki"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "A Classe B é meu reino. Junte-se ao Grupo Fubuki ou pereça sob a tempestade do inferno!",
+    "techniques": [
+      "Tempestade do Inferno (Hell Storm)",
+      "Cura Psíquica Celular",
+      "Barreira Telecinética Defensiva"
+    ],
+    "avatar": "/avatars/one-punch-man/fubuki.png",
+    "rank": "Classe B (Rank 1)",
+    "styleOrPower": "Poder Psíquico / Esper"
+  },
+  {
+    "id": "eyelashes",
+    "name": "Eyelashes",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Grupo Fubuki"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Tudo pela glória e honra de Lady Fubuki!",
+    "techniques": [
+      "Corte Rápido de Curvador de Cílios Metálico",
+      "Combate Tático do Grupo Fubuki"
+    ],
+    "avatar": "/avatars/one-punch-man/eyelashes.png",
+    "rank": "Classe B (Rank 2)",
+    "styleOrPower": "Curvadores de Cílios de Aço Cortantes"
+  },
+  {
+    "id": "mountain-ape",
+    "name": "Mountain Ape",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Grupo Fubuki"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Ninguém desrespeita a líder Fubuki na minha presença!",
+    "techniques": [
+      "Investida Corporal da Montanha",
+      "Abraço de Urso Esmagador"
+    ],
+    "avatar": "/avatars/one-punch-man/mountain-ape.png",
+    "rank": "Classe B (Rank 3)",
+    "styleOrPower": "Músculos e Força Física de Primata"
+  },
+  {
+    "id": "captain-mizuki",
+    "name": "Captain Mizuki",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Treinamento diário, medalhas e suor: nenhum monstro supera uma verdadeira atleta!",
+    "techniques": [
+      "Arremesso de Dardo Perfurante",
+      "Lançamento de Martelo Sísmico",
+      "Vara de Salto Esmagadora de Carapaças"
+    ],
+    "avatar": "/avatars/one-punch-man/captain-mizuki.png",
+    "rank": "Classe B (Rank 71)",
+    "styleOrPower": "Atletismo Olímpico e Equipamento Esportivo de Combate"
+  },
+  {
+    "id": "lily-of-the-three-section-staff",
+    "name": "Lily of the Three-Section Staff",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Grupo Fubuki"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Vou apoiar a senhorita Fubuki com a precisão do meu bastão!",
+    "techniques": [
+      "Dança Rotatória de Bastão Articulado",
+      "Golpe Perfurante Triplo"
+    ],
+    "avatar": "/avatars/one-punch-man/lily-of-the-three-section-staff.png",
+    "rank": "Classe B (Rank 74)",
+    "styleOrPower": "Bastão de Três Seções (Sansetsukon)"
+  },
+  {
+    "id": "needle-star",
+    "name": "Needle Star",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Minha bola de espinhos tritura os dentes desses monstros!",
+    "techniques": [
+      "Golpe Contundente de Mangual Espinhoso"
+    ],
+    "avatar": "/avatars/one-punch-man/needle-star.png",
+    "rank": "Classe B (Rank 60)",
+    "styleOrPower": "Mangual de Espinhos Estrelar (Morning Star)"
+  },
+  {
+    "id": "darkness-blade",
+    "name": "Darkness Blade",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "A escuridão ancestral aprisionada nesta lâmina finalmente acordará!",
+    "techniques": [
+      "Corte das Trevas Noturnas Profundas"
+    ],
+    "avatar": "/avatars/one-punch-man/darkness-blade.png",
+    "rank": "Classe B (Rank 50)",
+    "styleOrPower": "Espada Negra e Síndrome de Oitava Série (Chunibyo)"
+  },
+  {
+    "id": "tanktop-black-hole",
+    "name": "Tanktop Black Hole",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Exército Tanktop"
+    ],
+    "debutArc": "Arco do Exame de Heróis & Meteoro",
+    "status": "Vivo",
+    "quote": "Minhas mãos têm força de gravidade de um buraco negro! Você não é nada, novato Saitama!",
+    "techniques": [
+      "Agarre de Esmagamento do Buraco Negro"
+    ],
+    "avatar": "/avatars/one-punch-man/tanktop-black-hole.png",
+    "rank": "Classe B (Rank 81)",
+    "styleOrPower": "Força de Aperto Muscular de 200kg"
+  },
+  {
+    "id": "bone",
+    "name": "Bone",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Beber litros diários de leite torna meus ossos mais duros que o titânio!",
+    "techniques": [
+      "Cabeçada de Ossos Fortificados com Cálcio"
+    ],
+    "avatar": "/avatars/one-punch-man/bone.png",
+    "rank": "Classe B (Rank 77)",
+    "styleOrPower": "Consumo Massivo de Leite e Fortalecimento Ósseo"
+  },
+  {
+    "id": "shooter",
+    "name": "Shooter",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Cada flecha carrega toxina suficiente para derrubar um urso!",
+    "techniques": [
+      "Chuva de Flechas Envenenadas"
+    ],
+    "avatar": "/avatars/one-punch-man/shooter.png",
+    "rank": "Classe B (Rank 99)",
+    "styleOrPower": "Arco e Flechas com Veneno Silvestre"
+  },
+  {
+    "id": "mumen-rider",
+    "name": "Mumen Rider (Satoru)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Não importa se não tenho chance de vencer! Tenho que lutar aqui e agora, porque sou um herói!",
+    "techniques": [
+      "Justice Crash (Arremesso da Bicicleta)",
+      "Justice Tackle",
+      "Justice Punch"
+    ],
+    "avatar": "/avatars/one-punch-man/mumen-rider.png",
+    "rank": "Classe C (Rank 1)",
+    "styleOrPower": "Bicicleta da Justiça & Vontade Heroica Inabalável"
+  },
+  {
+    "id": "tanktop-tiger",
+    "name": "Tanktop Tiger",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis",
+      "Exército Tanktop"
+    ],
+    "debutArc": "Arco do Exame de Heróis & Meteoro",
+    "status": "Vivo",
+    "quote": "A regata de tigre me dá a ferocidade das selvas!",
+    "techniques": [
+      "Garras do Tigre de Regata"
+    ],
+    "avatar": "/avatars/one-punch-man/tanktop-tiger.png",
+    "rank": "Classe C (Rank 6)",
+    "styleOrPower": "Regata Estampada de Tigre e Fúria Selvagem"
+  },
+  {
+    "id": "d-pad",
+    "name": "D-Pad",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "Cima, baixo, esquerda, direita e soco! O combo perfeito!",
+    "techniques": [
+      "Sequência de Golpes do Direcional D-Pad"
+    ],
+    "avatar": "/avatars/one-punch-man/d-pad.png",
+    "rank": "Classe C (Rank 22)",
+    "styleOrPower": "Controle de Videogame e Combinações de Botões"
+  },
+  {
+    "id": "gearsper",
+    "name": "Gearsper",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Mesmo que meu capacete queime meus neurônios, vou erguer essas torres para salvar a todos!",
+    "techniques": [
+      "Onda Telecinética Desesperada de Sobrecarga",
+      "Capacete Amplificador de Ondas Psíquicas"
+    ],
+    "avatar": "/avatars/one-punch-man/gearsper.png",
+    "rank": "Classe C (Rank 133)",
+    "styleOrPower": "Poder Psíquico / Esper em Treinamento"
+  },
+  {
+    "id": "poison",
+    "name": "Poison",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Um único arranhão com minha adaga e o veneno paralisará seus órgãos vitais.",
+    "techniques": [
+      "Golpe Furtivo de Lâmina Envenenada"
+    ],
+    "avatar": "/avatars/one-punch-man/poison.png",
+    "rank": "Classe C (Rank 300)",
+    "styleOrPower": "Faca com Veneno Mortal de Anfíbio"
+  },
+  {
+    "id": "red-muffler",
+    "name": "Red Muffler",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "O cachecol vermelho voa como o estandarte da coragem dos heróis da Classe C!",
+    "techniques": [
+      "Chute Heroico do Cachecol Carmesim"
+    ],
+    "avatar": "/avatars/one-punch-man/red-muffler.png",
+    "rank": "Classe C (Rank 89)",
+    "styleOrPower": "Artes Marciais e Cachecol Vermelho"
+  },
+  {
+    "id": "armored-chief-clerk",
+    "name": "Armored Chief Clerk",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Vivo",
+    "quote": "A burocracia e a defesa dos cidadãos andam de mãos dadas!",
+    "techniques": [
+      "Barricada Protetora Blindada"
+    ],
+    "avatar": "/avatars/one-punch-man/armored-chief-clerk.png",
+    "rank": "Classe C (Rank 111)",
+    "styleOrPower": "Armadura de Escritório e Escudo Protetor"
+  },
+  {
+    "id": "garou",
+    "name": "Garou (O Caçador de Heróis)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Caçador Solitário",
+      "Ex-Discípulo de Bang"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "O monstro sempre perde no final? Que se dane essa história! Eu vou vencer e me tornar o Terror Absoluto!",
+    "techniques": [
+      "Punho da Água Corrente Esmagadora de Pedras",
+      "Punho Cortante de Vento e Redemoinho de Ferro",
+      "Punho Devastador do Monstro da Calamidade",
+      "Adaptação e Evolução Instantânea em Batalha"
+    ],
+    "avatar": "/avatars/one-punch-man/garou.png",
+    "rank": "Nível Desastre: Dragão+ / Acima de Dragão",
+    "styleOrPower": "Artes Marciais Adaptativas (Punho Esmagador de Pedras & Punho Monstro)"
+  },
+  {
+    "id": "cosmic-fear-garou",
+    "name": "Garou Cósmico (Cosmic Fear Garou)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Avatar Escolhido por Deus"
+    ],
+    "debutArc": "Arco de Garou Cósmico & Clímax",
+    "status": "Derrotado",
+    "quote": "Eu agora conheço todas as correntes de energia do cosmos. O próprio universo se move no ritmo dos meus punhos!",
+    "techniques": [
+      "Modo Saitama",
+      "Fissão Nuclear Consecutiva",
+      "Explosão de Raios Gama",
+      "Manipulação Espaço-Temporal Hiperdimensional"
+    ],
+    "avatar": "/avatars/one-punch-man/cosmic-fear-garou.png",
+    "rank": "Nível Desastre: Deus",
+    "styleOrPower": "Manipulação Cósmica e Fissão Nuclear Espacial"
+  },
+  {
+    "id": "boros",
+    "name": "Lorde Boros (Dominador do Universo)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ladrões da Matéria Negra"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Morto",
+    "quote": "Vim através dos confins da galáxia para encontrar alguém capaz de me proporcionar uma batalha de verdade!",
+    "techniques": [
+      "Meteoric Burst (Estouro Meteórico)",
+      "Canhão da Estrela em Colapso (Collapsing Star Roaring Cannon)",
+      "Regeneração Vital Instantânea de Núcleo"
+    ],
+    "avatar": "/avatars/one-punch-man/boros.png",
+    "rank": "Nível Desastre: Dragão+ (Beirando Deus)",
+    "styleOrPower": "Energia Latente Cósmica & Regeneração Infinita"
+  },
+  {
+    "id": "melzargard",
+    "name": "Melzargard",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ladrões da Matéria Negra"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Morto",
+    "quote": "Não adianta nos cortar, criaturas insignificantes. Nosso corpo se regenera infinitamente ao redor das nossas pérolas!",
+    "techniques": [
+      "Divisão e Metamorfose em Asas e Martelos",
+      "Regeneração Plasmática por Esferas"
+    ],
+    "avatar": "/avatars/one-punch-man/melzargard.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Múltiplas Cabeças, Metamorfose Corporal e Esferas Vitais"
+  },
+  {
+    "id": "geryuganshoop",
+    "name": "Geryuganshoop",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ladrões da Matéria Negra"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Morto",
+    "quote": "Eu sou o maior telecinético de todo o universo! Minha gravidade rivaliza com a de um buraco negro!",
+    "techniques": [
+      "Chuva de Escombros Telecinética Subluz",
+      "Onda Gravitacional de Buraco Negro"
+    ],
+    "avatar": "/avatars/one-punch-man/geryuganshoop.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Telecinese Cósmica Gravitacional Extrema"
+  },
+  {
+    "id": "groribas",
+    "name": "Groribas",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ladrões da Matéria Negra"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Morto",
+    "quote": "Eu possuo mais de vinte técnicas secretas mortais de mastigação...",
+    "techniques": [
+      "Ácido Corrosivo Espesso",
+      "Mordida Tripla Esmagadora de Mandíbulas"
+    ],
+    "avatar": "/avatars/one-punch-man/groribas.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Mordidas de Mandíbulas Múltiplas e Cuspe Ácido"
+  },
+  {
+    "id": "orochi",
+    "name": "Rei dos Monstros Orochi",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco do Super Torneio de Artes Marciais",
+    "status": "Morto",
+    "quote": "Eu sou a personificação de todos os sacrifícios e do ápice da monstruosidade terrena.",
+    "techniques": [
+      "Canhões de Chamas de Serpentes Gigantes",
+      "Absorção de Magma do Núcleo da Terra",
+      "Mimetismo Instantâneo de Artes Marciais"
+    ],
+    "avatar": "/avatars/one-punch-man/orochi.png",
+    "rank": "Nível Desastre: Dragão+",
+    "styleOrPower": "Dragões de Fogo 생체, Absorção de Energia do Núcleo da Terra e Genialidade Marcial"
+  },
+  {
+    "id": "psykos",
+    "name": "Psykos",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco do Super Torneio de Artes Marciais",
+    "status": "Vivo",
+    "quote": "A humanidade precisa ser erradicada. Eu vi o futuro da Terra no Terceiro Olho e nada mais importa além do caos!",
+    "techniques": [
+      "Raio Telecinético Concentrado",
+      "Fusão Psíquica Orochi-Psykos",
+      "Corte Continental Psíquico"
+    ],
+    "avatar": "/avatars/one-punch-man/psykos.png",
+    "rank": "Nível Desastre: Dragão+",
+    "styleOrPower": "Poder Psíquico / Esper & Elixir Monstruoso"
+  },
+  {
+    "id": "gyoro-gyoro",
+    "name": "Gyoro Gyoro",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Morto",
+    "quote": "A Associação de Monstros trará a nova ordem mundial onde os heróis serão devorados!",
+    "techniques": [
+      "Controle Gravitacional de Marionete",
+      "Raios Ópticos Telecinéticos"
+    ],
+    "avatar": "/avatars/one-punch-man/gyoro-gyoro.png",
+    "rank": "Nível Desastre: Demônio+",
+    "styleOrPower": "Marionete de Carne Psíquica com Olho Gigante"
+  },
+  {
+    "id": "black-sperm",
+    "name": "Black Sperm (Golden Sperm / Platinum Sperm)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Você está zombando de mim? Tenho 54 trilhões de células prontas para te esmagar!",
+    "techniques": [
+      "Divisão Celular Infinita",
+      "Fusão em Golden Sperm",
+      "Forma Suprema Platinum Sperm (Velocidade Relativística)"
+    ],
+    "avatar": "/avatars/one-punch-man/black-sperm.png",
+    "rank": "Nível Desastre: Dragão+",
+    "styleOrPower": "Multiplicação em Trilhões de Clones e Fusões de Ouro e Platina"
+  },
+  {
+    "id": "homeless-emperor",
+    "name": "Homeless Emperor (Imperador Mendigo)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros",
+      "Abençoado por Deus"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Morto",
+    "quote": "A Mãe Natureza me escolheu através de Deus para purificar este mundo de parasitas humanos.",
+    "techniques": [
+      "Bombardeio Contínuo de Orbes de Energia",
+      "Orbe Gigante da Aniquilação Solar"
+    ],
+    "avatar": "/avatars/one-punch-man/homeless-emperor.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Esferas de Energia Luminosa Pura Destrutiva concedidas por Deus"
+  },
+  {
+    "id": "fuhrer-ugly",
+    "name": "Fuhrer Ugly (Presidente Feio / Vomited)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Morto",
+    "quote": "Eu odeio gente bonita e heróis populares! Vou esmagar seus rostos até ficarem piores do que o meu!",
+    "techniques": [
+      "Soco da Baixa Autoestima Esmagador",
+      "Ácido Monstruoso Derretedor Digestivo"
+    ],
+    "avatar": "/avatars/one-punch-man/fuhrer-ugly.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Força de Inferioridade Ugmon e Ácido Digestivo de Gums"
+  },
+  {
+    "id": "gums",
+    "name": "Gums (Gengivas)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Morto",
+    "quote": "Nhom... nhom... triturar e engolir tudo sem parar!",
+    "techniques": [
+      "Mordida Trituradora Gigante",
+      "Ácido Estomacal Dilacerador"
+    ],
+    "avatar": "/avatars/one-punch-man/gums.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Mandíbula Voraz Insaciável e Ácido Digestivo Letal"
+  },
+  {
+    "id": "nyan",
+    "name": "Nyan",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Gatos entram em qualquer fresta de milímetros... inclusive dentro do seu corpo!",
+    "techniques": [
+      "Penetração em Frestas Microscópicas",
+      "Garras Retalhadoras Felinas"
+    ],
+    "avatar": "/avatars/one-punch-man/nyan.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Flexibilidade Felina Extrema e Garras Cortantes de Aço"
+  },
+  {
+    "id": "overgrown-rover",
+    "name": "Overgrown Rover (Rover)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros",
+      "Animal de Estimação de Saitama"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Au! Au! (Dispara salvas gigantescas de esferas de calor destrutivo)",
+    "techniques": [
+      "Disparos Múltiplos de Bombas de Calor",
+      "Carapaça Canina Impenetrável",
+      "Comportamento de Cachorrinho Treinado por Saitama"
+    ],
+    "avatar": "/avatars/one-punch-man/overgrown-rover.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Bombas de Energia Explosivas Bucais e Carapaça Blindada"
+  },
+  {
+    "id": "elder-centipede",
+    "name": "Elder Centipede (Centopéia Anciã)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Morto",
+    "quote": "Blast... onde está você, Blast?! Eu voltei das profundezas para me vingar!",
+    "techniques": [
+      "Marcha Sísmica Centopéica",
+      "Muda Regenerativa Instantânea de Exoesqueleto"
+    ],
+    "avatar": "/avatars/one-punch-man/elder-centipede.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Carapaça Blindada Gigantesca e Troca Contínua de Pele"
+  },
+  {
+    "id": "gouketsu",
+    "name": "Gouketsu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco do Super Torneio de Artes Marciais",
+    "status": "Morto",
+    "quote": "Vocês humanos são insetos frágeis. A Associação de Monstros é o ápice da força evoluída!",
+    "techniques": [
+      "Impacto de Ar com Punho Monstruoso",
+      "Pressão Esmagadora de Artes Marciais"
+    ],
+    "avatar": "/avatars/one-punch-man/gouketsu.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Artes Marciais Monstruosas e Força de Quatro Olhos"
+  },
+  {
+    "id": "phoenix-man",
+    "name": "Phoenix Man (Homem Fênix)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Derrotado",
+    "quote": "A cada vez que morro, as chamas da fênix me ressuscitam mais forte e imponente!",
+    "techniques": [
+      "Ressurreição da Fênix Radiante",
+      "Modo Fênix Flamejante Brilhante",
+      "Espaço Espiritual da Fantasia Phoenix"
+    ],
+    "avatar": "/avatars/one-punch-man/phoenix-man.png",
+    "rank": "Nível Desastre: Dragão (Evoluído)",
+    "styleOrPower": "Ressurreição Térmica Infinita com Traje de Pássaro"
+  },
+  {
+    "id": "carnage-kabuto",
+    "name": "Carnage Kabuto (Escaravelho Carniceiro)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Casa da Evolução"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Morto",
+    "quote": "Meu instinto assassino não tem limites! No Modo Carnage eu fico em fúria por uma semana inteira!",
+    "techniques": [
+      "Modo Carnage de Fúria Incontrolável",
+      "Golpe de Pressão Supersônica com Chifre"
+    ],
+    "avatar": "/avatars/one-punch-man/carnage-kabuto.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Fisiologia de Besouro Rinoceronte & Modo Carnage"
+  },
+  {
+    "id": "mosquito-girl",
+    "name": "Mosquito Girl (Garota Mosquito)",
+    "gender": "Feminino",
+    "affiliation": [
+      "Casa da Evolução"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Tragam-me mais sangue! Mais e mais até meu corpo se tingir de vermelho rubro!",
+    "techniques": [
+      "Enxame Sugador de Sangue em Massa",
+      "Transformação Rubra de Velocidade Hipersônica"
+    ],
+    "avatar": "/avatars/one-punch-man/mosquito-girl.png",
+    "rank": "Nível Desastre: Demônio+",
+    "styleOrPower": "Controle de Enxame de Mosquitos e Absorção de Sangue"
+  },
+  {
+    "id": "beast-king",
+    "name": "Beast King (Rei das Feras)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Casa da Evolução"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Morto",
+    "quote": "Eu sou o animal mais temível do topo da cadeia alimentar da Casa da Evolução!",
+    "techniques": [
+      "Garras do Leão Cortador de Aço",
+      "Fúria das Feras Selvagens"
+    ],
+    "avatar": "/avatars/one-punch-man/beast-king.png",
+    "rank": "Nível Desastre: Demônio",
+    "styleOrPower": "Garras de Leão Feral e Rugidos Cortantes"
+  },
+  {
+    "id": "armored-gorilla",
+    "name": "Armored Gorilla (Gorila Blindado)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Casa da Evolução",
+      "Loja de Takoyaki de Genus"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Desculpe, estava fingindo falar como um robô. Agora trabalho pacificamente vendendo takoyaki com o Dr. Genus.",
+    "techniques": [
+      "Soco Blindado de Gorila Cibernético",
+      "Preparo Especial de Takoyaki"
+    ],
+    "avatar": "/avatars/one-punch-man/armored-gorilla.png",
+    "rank": "Nível Desastre: Demônio",
+    "styleOrPower": "Cibernética Pesada de Gorila e Cozinha de Takoyaki"
+  },
+  {
+    "id": "deep-sea-king",
+    "name": "Deep Sea King (Rei dos Mares Profundos)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Povo do Mar Profundo"
+    ],
+    "debutArc": "Arco do Rei dos Mares Profundos",
+    "status": "Morto",
+    "quote": "A superfície pertence a nós, o Povo do Mar! Quando a chuva cai, minha verdadeira força desperta!",
+    "techniques": [
+      "Soco Hidratado de Velocidade Oceânica",
+      "Moreia Bucal Perfuradora",
+      "Cuspe de Ácido Altamente Corrosivo"
+    ],
+    "avatar": "/avatars/one-punch-man/deep-sea-king.png",
+    "rank": "Nível Desastre: Demônio+",
+    "styleOrPower": "Fisiologia de Monstro Marinho, Ácido Bucal e Hidratação"
+  },
+  {
+    "id": "vaccine-man",
+    "name": "Vaccine Man (Homem Vacina)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Força da Mãe Terra"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Morto",
+    "quote": "Eu sou a vacina nascida da Mãe Terra para erradicar a praga humana que polui este planeta!",
+    "techniques": [
+      "Disparos de Esferas Energéticas da Terra",
+      "Metamorfose Monstruosa com Asas e Chifres"
+    ],
+    "avatar": "/avatars/one-punch-man/vaccine-man.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Esferas de Energia de Antimatéria e Metamorfose Gigante"
+  },
+  {
+    "id": "crablante",
+    "name": "Crablante (Homem Caranguejo)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Monstro Transformado por Obsessão"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Morto",
+    "quote": "Comi tanto caranguejo que me transformei em um monstro caranguejo! Kkuku!",
+    "techniques": [
+      "Ataque de Pinça Esmagadora de Concreto"
+    ],
+    "avatar": "/avatars/one-punch-man/crablante.png",
+    "rank": "Nível Desastre: Tigre",
+    "styleOrPower": "Pinças de Caranguejo Esmagadoras"
+  },
+  {
+    "id": "beefcake",
+    "name": "Beefcake (Marugori)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Irmãos Cientistas Mutantes"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Morto",
+    "quote": "Bebi o esteroide Biceps Brachii do meu irmão! Agora sou o ser humano mais forte e gigantesco do mundo!",
+    "techniques": [
+      "Onda de Choque Sísmica de Passadas Gigantes",
+      "Pancadas Consecutivas Dilaceradoras de Cidades"
+    ],
+    "avatar": "/avatars/one-punch-man/beefcake.png",
+    "rank": "Nível Desastre: Demônio+ (Poder de Dragão)",
+    "styleOrPower": "Tamanho Colossal e Força Sísmica Esmagadora"
+  },
+  {
+    "id": "speed-o-sound-sonic",
+    "name": "Speed-o'-Sound Sonic (Sonic)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Vila Ninja (44ª Turma)",
+      "Rival Autoproclamado de Saitama"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Saitama! Eu juro que minhas técnicas ninja vão decepar seu pescoço na próxima vez!",
+    "techniques": [
+      "Enterro de Dez Sombras (Ten Shadows Burial)",
+      "Shuriken Explosiva Teleguiada",
+      "Passos Silenciosos da Velocidade do Som"
+    ],
+    "avatar": "/avatars/one-punch-man/speed-o-sound-sonic.png",
+    "rank": "Nível Desastre: Demônio+ / Dragão",
+    "styleOrPower": "Ninjutsu Assassinato da Velocidade do Som & Shurikens"
+  },
+  {
+    "id": "hellfire-flame",
+    "name": "Hellfire Flame",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros",
+      "Vila Ninja (37ª Turma)"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Os ninjas que consom células de monstro superam a própria luz!",
+    "techniques": [
+      "Lâmina Flamejante de Ignição Ninja",
+      "Transformação Monstruosa Hipersônica"
+    ],
+    "avatar": "/avatars/one-punch-man/hellfire-flame.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Ninjutsu de Fogo e Velocidade Hipersônica Monstruosa"
+  },
+  {
+    "id": "gale-wind",
+    "name": "Gale Wind",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros",
+      "Vila Ninja (37ª Turma)"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Com nossas células de monstro, Flashy Flash não passa de uma lembrança do passado da vila!",
+    "techniques": [
+      "Tornado Cortante de Vento Ninja",
+      "Golpe Voador Hipersônico"
+    ],
+    "avatar": "/avatars/one-punch-man/gale-wind.png",
+    "rank": "Nível Desastre: Dragão",
+    "styleOrPower": "Ninjutsu de Vento e Esgrima Cortante Hipersônica"
+  },
+  {
+    "id": "royal-ripper",
+    "name": "Royal Ripper (Estripador Real)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Morto",
+    "quote": "Eu adoro cortar, fatiar e ver o medo nos olhos das crianças e dos heróis!",
+    "techniques": [
+      "Frenesi de Lâminas Retalhadoras Enfaixadas"
+    ],
+    "avatar": "/avatars/one-punch-man/royal-ripper.png",
+    "rank": "Nível Desastre: Demônio",
+    "styleOrPower": "Lâminas no Lugar das Mãos e Sadismo Insano"
+  },
+  {
+    "id": "bug-god",
+    "name": "Bug God (Deus Inseto)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Morto",
+    "quote": "Os insetos são perfeitos na natureza! Nenhuma técnica humana arranha minha carapaça divina!",
+    "techniques": [
+      "Transformação Muscular em Inseto Primordial",
+      "Socos Múltiplos com Quatro Punhos Blindados"
+    ],
+    "avatar": "/avatars/one-punch-man/bug-god.png",
+    "rank": "Nível Desastre: Demônio+",
+    "styleOrPower": "Exoesqueleto Impenetrável de Insetos e Braços Múltiplos"
+  },
+  {
+    "id": "awakened-cockroach",
+    "name": "Awakened Cockroach (Barata Despertada)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco do Super Torneio de Artes Marciais",
+    "status": "Morto",
+    "quote": "Minhas seis pernas e instinto de sobrevivência me permitem desviar de qualquer ataque antes mesmo de ele acontecer!",
+    "techniques": [
+      "Esquiva Perfeita de Barata",
+      "Investida Cortante com Seis Membros"
+    ],
+    "avatar": "/avatars/one-punch-man/awakened-cockroach.png",
+    "rank": "Nível Desastre: Demônio",
+    "styleOrPower": "Velocidade de Esquiva Instintiva de Barata"
+  },
+  {
+    "id": "pure-blood",
+    "name": "Pure Blood (Vampiro Puro-Sangue)",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Monstros"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Morto",
+    "quote": "Diferente dessas aberrações criadas artificialmente, eu sou um verdadeiro monstro puro de linhagem nobre!",
+    "techniques": [
+      "Regeneração Instantânea por Ingestão Sanguínea",
+      "Enxame de Morcegos Vorazes"
+    ],
+    "avatar": "/avatars/one-punch-man/pure-blood.png",
+    "rank": "Nível Desastre: Demônio",
+    "styleOrPower": "Fisiologia Vampírica, Regeneração por Sangue e Asas de Morcego"
+  },
+  {
+    "id": "manako",
+    "name": "Manako",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Monstros (Desertora)",
+      "Aliada de Saitama e Flash"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Por favor, não me matem! Meu olho pode servir de lanterna nas cavernas escuras!",
+    "techniques": [
+      "Feixe de Luz com Olho Lanterna",
+      "Corrida Desesperada de Fuga"
+    ],
+    "avatar": "/avatars/one-punch-man/manako.png",
+    "rank": "Nível Desastre: Lobo",
+    "styleOrPower": "Iluminação com Grande Olho Único e Fuga Cômica"
+  },
+  {
+    "id": "suiryu",
+    "name": "Suiryu",
+    "gender": "Masculino",
+    "affiliation": [
+      "Lutador Autônomo",
+      "Associação Neo Heróis"
+    ],
+    "debutArc": "Arco do Super Torneio de Artes Marciais",
+    "status": "Vivo",
+    "quote": "Eu só quero viver uma vida boa e divertida. Mas quando vi os heróis caírem... entendi o que significa proteger alguém.",
+    "techniques": [
+      "Punho do Vazio (Void Fist)",
+      "Chute Tremor de Terra do Tigre do Vazio",
+      "Punho da Serpente Celestial do Vazio"
+    ],
+    "avatar": "/avatars/one-punch-man/suiryu.png",
+    "rank": "Classe A+ / Nível Dragão Marcial",
+    "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)"
+  },
+  {
+    "id": "suiko",
+    "name": "Suiko",
+    "gender": "Feminino",
+    "affiliation": [
+      "Associação de Heróis (Classe A)"
+    ],
+    "debutArc": "Arco das Irmãs Psíquicas & Neo Heróis",
+    "status": "Vivo",
+    "quote": "Eu não sou despreocupada como meu irmão Suiryu. Eu luto para honrar nosso avô!",
+    "techniques": [
+      "Estilo do Punho do Vazio Adaptado",
+      "Combinações de Chutes Giratórios"
+    ],
+    "avatar": "/avatars/one-punch-man/suiko.png",
+    "rank": "Classe A",
+    "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)"
+  },
+  {
+    "id": "bomb",
+    "name": "Bomb",
+    "gender": "Masculino",
+    "affiliation": [
+      "Dojô do Punho do Vento Cortante"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Bang é meu irmão mais novo, mas quando lutamos lado a lado, nem um monstro colossal nos detém!",
+    "techniques": [
+      "Punho do Vento Cortante de Redemoinho de Ferro",
+      "Corte Tornado Dilacerador"
+    ],
+    "avatar": "/avatars/one-punch-man/bomb.png",
+    "rank": "Nível Classe S / Grão-Mestre Marcial",
+    "styleOrPower": "Artes Marciais (Punho do Vento Cortante de Redemoinho de Ferro)"
+  },
+  {
+    "id": "dr-genus",
+    "name": "Dr. Genus",
+    "gender": "Masculino",
+    "affiliation": [
+      "Ex-Líder da Casa da Evolução",
+      "Loja de Takoyaki"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Saitama removeu seu Limitador por puro esforço e determinação... ele quebrou a própria lei biológica estabelecida por Deus.",
+    "techniques": [
+      "Teoria da Remoção do Limitador Humano",
+      "Clonagem Celular Perfeita e Juventude Eterna"
+    ],
+    "avatar": "/avatars/one-punch-man/dr-genus.png",
+    "rank": "Civil / Intelecto Científico Genial",
+    "styleOrPower": "Engenharia Genética, Clonagem e Teoria do Limitador"
+  },
+  {
+    "id": "dr-kuseno",
+    "name": "Dr. Kuseno",
+    "gender": "Masculino",
+    "affiliation": [
+      "Cientista Aliado de Genos"
+    ],
+    "debutArc": "Arco da Introdução & Casa da Evolução",
+    "status": "Vivo",
+    "quote": "Genos, não se deixe consumir pelo ódio contra o Ciborgue Louco. Mantenha sua humanidade viva.",
+    "techniques": [
+      "Armaduras e Upgrades Cibernéticos de Alta Performance para Genos"
+    ],
+    "avatar": "/avatars/one-punch-man/dr-kuseno.png",
+    "rank": "Civil / Intelecto Científico Genial",
+    "styleOrPower": "Engenharia Cibernética e Criação de Núcleos de Energia"
+  },
+  {
+    "id": "tareo",
+    "name": "Tareo",
+    "gender": "Masculino",
+    "affiliation": [
+      "Civil / Fã de Heróis"
+    ],
+    "debutArc": "Arco da Caçada aos Heróis (Garou)",
+    "status": "Vivo",
+    "quote": "Tio Garou! Não desista! Para mim você é muito mais legal do que qualquer outro herói!",
+    "techniques": [
+      "Guia Ilustrado dos Heróis da Associação"
+    ],
+    "avatar": "/avatars/one-punch-man/tareo.png",
+    "rank": "Civil",
+    "styleOrPower": "Conhecimento Enciclopédico do Livro de Heróis e Monstros"
+  },
+  {
+    "id": "god",
+    "name": "Deus (God)",
+    "gender": "Assexuado",
+    "affiliation": [
+      "Entidade Cósmica Primordial"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Abrace meu poder e se torne meu apóstolo para purificar as falhas desta criação.",
+    "techniques": [
+      "Concessão do Poder Cósmico do Conhecimento Universal",
+      "Retirada Instantânea de Vida e Poder"
+    ],
+    "avatar": "/avatars/one-punch-man/god.png",
+    "rank": "Nível Desastre: Deus Absoluto",
+    "styleOrPower": "Concessão Cósmica de Poderes, Manipulação Espacial e Ilusões Mentais"
+  },
+  {
+    "id": "sitch",
+    "name": "Sitch",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão Alienígena (Lorde Boros)",
+    "status": "Vivo",
+    "quote": "A profecia de Shibabawa diz: A Terra está em perigo mortal! Preparem todos os heróis da Classe S!",
+    "techniques": [
+      "Mobilização Geral de Heróis da Classe S",
+      "Coordenação Tática de Desastres Nível Dragão e Deus"
+    ],
+    "avatar": "/avatars/one-punch-man/sitch.png",
+    "rank": "Ministro de Operações de Emergência",
+    "styleOrPower": "Liderança Estratégica e Alerta da Profecia de Shibabawa"
+  },
+  {
+    "id": "sekingar",
+    "name": "Sekingar",
+    "gender": "Masculino",
+    "affiliation": [
+      "Associação de Heróis"
+    ],
+    "debutArc": "Arco da Invasão à Associação de Monstros",
+    "status": "Vivo",
+    "quote": "Eu mesmo estarei na linha de frente liderando os heróis da superfície!",
+    "techniques": [
+      "Raio Laser Ocular Secreto",
+      "Comando Tático de Esquadrões de Suporte"
+    ],
+    "avatar": "/avatars/one-punch-man/sekingar.png",
+    "rank": "Diretor de Operações de Campo",
+    "styleOrPower": "Comando Tático e Olho Biônico com Laser"
+  }
+]

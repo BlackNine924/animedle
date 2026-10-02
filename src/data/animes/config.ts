@@ -887,8 +887,34 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#D9B13A',
     accentColor: '#ca8a04',
     banner: '👊',
-    columns: [],
-    arcs: []
+    logo: '/logo-one-punch-man.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Grupo', type: 'array' },
+      { key: 'rank', label: 'Classe / Nível de Ameaça', type: 'exact' },
+      { key: 'styleOrPower', label: 'Estilo de Combate / Poder', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco da Introdução & Casa da Evolução',
+      'Arco do Exame de Heróis & Meteoro',
+      'Arco do Rei dos Mares Profundos',
+      'Arco da Invasão Alienígena (Lorde Boros)',
+      'Arco da Caçada aos Heróis (Garou)',
+      'Arco do Super Torneio de Artes Marciais',
+      'Arco da Invasão à Associação de Monstros',
+      'Arco de Garou Cósmico & Clímax',
+      'Arco das Irmãs Psíquicas & Neo Heróis'
+    ],
+    mangaCoverage: {
+      chapter: 206,
+      status: 'Em Lançamento',
+      source: 'Tonari no Young Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Outubro / 2026',
+      notes: 'Obra canônica completa de ONE e Yusuke Murata abrangendo todos os 105 personagens chave, desde o surgimento da Casa da Evolução até o clímax da Guerra contra a Associação de Monstros e a ascensão dos Neo Heróis.'
+    }
   },
   'pokemon': {
     slug: 'pokemon',
@@ -948,8 +974,37 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#F7A8C4',
     accentColor: '#e11d48',
     banner: '💖',
-    columns: [],
-    arcs: []
+    logo: '/logo-romance.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'origin', label: 'Obra de Origem', type: 'exact' },
+      { key: 'role', label: 'Papel na Dinâmica', type: 'exact' },
+      { key: 'archetype', label: 'Arquétipo', type: 'exact' },
+      { key: 'debutArc', label: 'Ambiente Principal', type: 'arc' },
+      { key: 'status', label: 'Status Amoroso', type: 'status' },
+    ],
+    arcs: [
+      'Ensino Médio',
+      'Ensino Médio (Academia Shuchiin)',
+      'Ensino Médio (Clube de Serviços)',
+      'Ensino Médio (Biblioteca Escolar)',
+      'Ensino Médio / Ateliê Familiar',
+      'Ensino Médio / Concertos Musicais',
+      'Ensino Médio / Síndrome da Puberdade',
+      'Universitário',
+      'Universitário / Coabitação',
+      'Coabitação / Vida Sob o Mesmo Teto',
+      'Coabitação / Treinamento de Casais',
+      'Mansão Isolada / Época Vitoriana'
+    ],
+    mangaCoverage: {
+      chapter: 'Múltiplas Obras',
+      status: 'Finalizado',
+      source: 'Shonen Jump / Magazine / Dengeki / Square Enix',
+      officialPublisher: 'Diversas Editoras',
+      lastUpdated: 'Outubro / 2026',
+      notes: 'Megapack crossover especial reunindo os maiores romances, haréns e comédias românticas dos animes e mangás.'
+    }
   },
   'solo-leveling': {
     slug: 'solo-leveling',
@@ -1043,8 +1098,32 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#58CCFF',
     accentColor: '#2563eb',
     banner: '⚔️',
-    columns: [],
-    arcs: []
+    logo: '/logo-sword-art-online.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Guilda', type: 'array' },
+      { key: 'origin', label: 'Mundo VR / Jogo Principal', type: 'exact' },
+      { key: 'styleOrPower', label: 'Arma / Estilo de Combate', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco Aincrad (SAO)',
+      'Arco Fairy Dance (ALO)',
+      'Arco Phantom Bullet (GGO)',
+      'Arco Mother\'s Rosario',
+      'Arco Ordinal Scale',
+      'Arco Alicization (Human Realm)',
+      'Arco War of Underworld'
+    ],
+    mangaCoverage: {
+      chapter: 28,
+      status: 'Em Lançamento',
+      source: 'Dengeki Bunko (Kadokawa)',
+      officialPublisher: 'ASCII Media Works',
+      lastUpdated: 'Outubro / 2026',
+      notes: 'Obra canônica completa de Reki Kawahara abrangendo todas as eras de VRMMORPG: Aincrad, ALfheim, Gun Gale Online, Ordinal Scale e a grande simulação do Underworld (Alicization e War of Underworld).'
+    }
   },
   'tensei-shitara-slime-datta-ken': {
     slug: 'tensei-shitara-slime-datta-ken',
@@ -1091,8 +1170,35 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
     themeColor: '#C1121F',
     accentColor: '#b91c1c',
     banner: '☕',
-    columns: [],
-    arcs: []
+    logo: '/logo-tokyo-ghoul.png',
+    columns: [
+      { key: 'gender', label: 'Gênero', type: 'exact' },
+      { key: 'species', label: 'Espécie', type: 'exact' },
+      { key: 'affiliation', label: 'Afiliação / Organização', type: 'array' },
+      { key: 'rcTypeOrQuinque', label: 'Tipo de Rc / Quinque', type: 'exact' },
+      { key: 'rank', label: 'Rank Ghoul / Posto CCG', type: 'exact' },
+      { key: 'debutArc', label: 'Arco de Estreia', type: 'arc' },
+      { key: 'status', label: 'Status', type: 'status' },
+    ],
+    arcs: [
+      'Arco da Introdução & Mado',
+      'Arco do Gourmet (Shuu Tsukiyama)',
+      'Arco do Aogiri Tree & Tortura no 11º Distrito',
+      'Arco da Invasão ao Laboratório de Kanou',
+      'Arco do Ataque à Coruja (Ataque ao Anteiku)',
+      'Arco do Leilão de Ghouls (Torishimari)',
+      'Arco do Extermínio da Família Tsukiyama (Rosewald)',
+      'Arco da Invasão à Ilha Ruishima & Prisão Cochlea',
+      'Arco do Dragão & Guerra Final dos Ghouls'
+    ],
+    mangaCoverage: {
+      chapter: 322,
+      status: 'Finalizado',
+      source: 'Weekly Young Jump (Shueisha)',
+      officialPublisher: 'Shueisha',
+      lastUpdated: 'Outubro / 2026',
+      notes: 'Obra canônica completa de Sui Ishida cobrindo toda a saga de Ken Kaneki em Tokyo Ghoul (143 capítulos) e Tokyo Ghoul:re (179 capítulos), desde o transplante inicial até a queda do Dragão e a união definitiva entre humanos e ghouls.'
+    }
   },
   'witch-hat-atelier': {
     slug: 'witch-hat-atelier',

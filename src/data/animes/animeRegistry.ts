@@ -38,10 +38,14 @@ export const IMPLEMENTED_SLUGS = new Set([
   'nanatsu-no-taizai',
   'naruto',
   'one-piece',
+  'one-punch-man',
   'record-of-ragnarok',
+  'romance',
   'shangri-la-frontier',
   'solo-leveling',
+  'sword-art-online',
   'tensei-shitara-slime-datta-ken',
+  'tokyo-ghoul',
   'witch-hat-atelier',
 ]);
 

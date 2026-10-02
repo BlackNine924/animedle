@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "ken-kaneki",
+    "name": "Ken Kaneki (Haise Sasaki / O Rei Caolho)",
+    "gender": "Masculino",
+    "species": "Meio-Ghoul / Ghoul Caolho Artificial",
+    "affiliation": [
+      "Anteiku",
+      "CCG (Esquadrão Quinx)",
+      "Goat",
+      "Aogiri Tree"
+    ],
+    "rcTypeOrQuinque": "Rinkaku / Kakuja Completo (Dragão)",
+    "rank": "Classe SSS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Eu não sou o protagonista de um romance ou algo assim... Eu sou apenas um estudante que gosta de ler. Mas... se você fosse escrever uma história comigo no papel principal, certamente seria... uma tragédia.",
+    "techniques": [
+      "Kagune Rinkaku Quádruplo",
+      "Kakuja da Centopéia",
+      "Kakuja do Rei Caolho Espadachim",
+      "Forma Dragão Gigante"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/ken-kaneki.png"
+  },
+  {
+    "id": "touka-kirishima",
+    "name": "Touka Kirishima (Rabbit)",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Cafeteria :re",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Ukaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "O que você sabe sobre mim?! Nós temos que viver escondidos, comendo cadáveres humanos enquanto vocês andam sob a luz do sol!",
+    "techniques": [
+      "Asas de Chamas Ukaku",
+      "Disparos Cristais de Kagune",
+      "Combate Feroz de Alta Velocidade"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/touka-kirishima.png"
+  },
+  {
+    "id": "yoshimura",
+    "name": "Yoshimura (Kuzen / A Coruja Não-Mata)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Ex-Organização V"
+    ],
+    "rcTypeOrQuinque": "Ukaku / Kakuja",
+    "rank": "Classe SSS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "Nós somos seres que tiram vidas para sobreviver. Não há salvação para nós, exceto dar abrigo àqueles que sofrem.",
+    "techniques": [
+      "Kakuja da Coruja Não-Mata",
+      "Lâminas Gigantes Ukaku de Ombros",
+      "Disparos de Projéteis Concentrados"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/yoshimura.png"
+  },
+  {
+    "id": "renji-yomo",
+    "name": "Renji Yomo (Raven / Corvo)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Cafeteria :re",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Ukaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Eu apenas protejo os laços que restaram daqueles que perdi no passado.",
+    "techniques": [
+      "Descarga Elétrica de Kagune Ukaku",
+      "Ataques de Projéteis Tempestuosos",
+      "Mestre em Artes Marciais Desarmadas"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/renji-yomo.png"
+  },
+  {
+    "id": "nishiki-nishio",
+    "name": "Nishiki Nishio (Serpente)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Universidade Kamii",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Bikaku",
+    "rank": "Classe S~SS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "A Kimi é humana, mas ela é a única razão pela qual continuo vivo neste mundo podre.",
+    "techniques": [
+      "Cauda Serpentina Perfuradora Bikaku",
+      "Chute Acrobático com Extensão de Cauda"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/nishiki-nishio.png"
+  },
+  {
+    "id": "enji-koma",
+    "name": "Enji Koma (O Macaco Diabo)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Bando En"
+    ],
+    "rcTypeOrQuinque": "Bikaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "Você sabia? Na minha juventude eu era conhecido como o temível Macaco Diabo do 20º Distrito!",
+    "techniques": [
+      "Kagune Bikaku Ágil de Cauda de Macaco",
+      "Acrobacias Aéreas Ferozes"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/enji-koma.png"
+  },
+  {
+    "id": "kaya-irimi",
+    "name": "Kaya Irimi (O Cão Negro)",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Bando Black Dobers"
+    ],
+    "rcTypeOrQuinque": "Ukaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "As Black Dobers não recuam diante dos investigadores do CCG!",
+    "techniques": [
+      "Asas de Cão Negro Ukaku",
+      "Agilidade Urbana e Combate em Grupo"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kaya-irimi.png"
+  },
+  {
+    "id": "hinami-fueguchi",
+    "name": "Hinami Fueguchi (Yotsume)",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Aogiri Tree",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Quimera (Rinkaku + Koukaku)",
+    "rank": "Classe SS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Onii-chan... eu não quero ver mais ninguém morrendo por minha causa...",
+    "techniques": [
+      "Kagune Quimera Rinkaku (Tentáculos Quádruplos)",
+      "Kagune Quimera Koukaku (Pétalas Escudo de Lâminas)",
+      "Audição e Sensoriamento Sobre-humano"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/hinami-fueguchi.png"
+  },
+  {
+    "id": "ryouko-fueguchi",
+    "name": "Ryouko Fueguchi",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Anteiku",
+      "Família Fueguchi"
+    ],
+    "rcTypeOrQuinque": "Koukaku",
+    "rank": "Classe B",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "Hinami, corra! Por favor, viva!",
+    "techniques": [
+      "Kagune Koukaku em Forma de Asas Protetoras"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/ryouko-fueguchi.png"
+  },
+  {
+    "id": "koutarou-amon",
+    "name": "Koutarou Amon (Floppy)",
+    "gender": "Masculino",
+    "species": "Meio-Ghoul (Ex-Humano)",
+    "affiliation": [
+      "CCG",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Ukaku / Kakuja (Ex-Quinque Doujima & Kura)",
+    "rank": "Primeira Classe / Classe SS Ghoul",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Este mundo está errado! E enquanto eu viver, buscarei a justiça!",
+    "techniques": [
+      "Kagune Ukaku Gigante",
+      "Kakuja Amon Espada Titânica",
+      "Quinque Doujima 1/2 e Kura"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/koutarou-amon.png"
+  },
+  {
+    "id": "kureo-mado",
+    "name": "Kureo Mado",
+    "gender": "Masculino",
+    "affiliation": [
+      "CCG"
+    ],
+    "rcTypeOrQuinque": "Quinque (Especialista em Múltiplos Quinques)",
+    "rank": "Investigador de Primeira Classe",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "Ghouls fingindo ter sentimentos e família... que piada grotesca. Vocês são apenas monstros a serem dissecados em Quinques!",
+    "techniques": [
+      "Quinque Fueguchi One (Rinkaku)",
+      "Quinque Fueguchi Two (Koukaku)",
+      "Colecionador Obsessivo de Quinques"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kureo-mado.png"
+  },
+  {
+    "id": "akira-mado",
+    "name": "Akira Mado",
+    "gender": "Feminino",
+    "affiliation": [
+      "CCG",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Quinque (Amatsu & Fueguchi)",
+    "rank": "Investigador Especial Associado",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Vivo",
+    "quote": "Eu não odeio você, Haise. Eu apenas não sei como lidar com as marcas que meu pai e o Kaneki deixaram.",
+    "techniques": [
+      "Quinque Amatsu (Koukaku/Bikaku Quimera)",
+      "Análise Tática Racional Dedutiva"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/akira-mado.png"
+  },
+  {
+    "id": "kishou-arima",
+    "name": "Kishou Arima (O Ceifador Branco do CCG)",
+    "gender": "Masculino",
+    "species": "Meio-Humano (Jardim do Sol Branco)",
+    "affiliation": [
+      "CCG (Esquadrão S3)",
+      "Organização V",
+      "Rei Caolho Secreto"
+    ],
+    "rcTypeOrQuinque": "Quinque (IXA, Narukami & Coruja SSS)",
+    "rank": "Investigador Especial (Lenda Suprema)",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Morto",
+    "quote": "Eu sempre odiei a mim mesmo por só saber tirar vidas. Haise... obrigado por ser meu filho.",
+    "techniques": [
+      "Quinque IXA (Koukaku - Lança e Escudo Absoluto)",
+      "Quinque Narukami (Ukaku - Raios de Alta Tensão)",
+      "Quinque Coruja SSS (Kakuja Armadilha)",
+      "Reflexos Imbatíveis de Meio-Humano"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kishou-arima.png"
+  },
+  {
+    "id": "juuzou-suzuya",
+    "name": "Juuzou Suzuya (Rei Suzuya)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG (Esquadrão Suzuya)"
+    ],
+    "rcTypeOrQuinque": "Quinque (13's Jason & Arata Joker)",
+    "rank": "Investigador Especial (Sucessor de Arima)",
+    "debutArc": "Arco do Gourmet (Shuu Tsukiyama)",
+    "status": "Vivo",
+    "quote": "Por que você está chorando? A morte não é triste nem assustadora... é só o fim da brincadeira.",
+    "techniques": [
+      "Quinque 13's Jason (Rinkaku Grande Foice)",
+      "Armadura Kakuja Arata Joker",
+      "Lançamento Mortal de Facas Scorpion 1/56"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/juuzou-suzuya.png"
+  },
+  {
+    "id": "yukinori-shinohara",
+    "name": "Yukinori Shinohara",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG"
+    ],
+    "rcTypeOrQuinque": "Quinque (Demon Yamada 1 & Arata Proto)",
+    "rank": "Investigador Especial",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Juuzou, se você morrer, eu vou ficar muito triste. Então cuide-se na batalha.",
+    "techniques": [
+      "Armadura Kakuja Arata Proto",
+      "Quinque Demon Yamada 1 (Bikaku)"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/yukinori-shinohara.png"
+  },
+  {
+    "id": "iwao-kuroiwa",
+    "name": "Iwao Kuroiwa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG"
+    ],
+    "rcTypeOrQuinque": "Quinque (Kuroiwa Special & Arata)",
+    "rank": "Investigador Especial",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Morto",
+    "quote": "A honra do CCG não pode se curvar a conspirações sujas da família Washuu!",
+    "techniques": [
+      "Armadura Kakuja Arata Completa",
+      "Quinque Kuroiwa Special (Koukaku Espada Gigante)"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/iwao-kuroiwa.png"
+  },
+  {
+    "id": "takeomi-kuroiwa",
+    "name": "Takeomi Kuroiwa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG (Esquadrão Itou / Suzuya)"
+    ],
+    "rcTypeOrQuinque": "Quinque (Tsunagi & Bikaku)",
+    "rank": "Investigador de Primeira Classe",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "Eu herdei a disciplina e a musculatura do meu pai para proteger aqueles que amo.",
+    "techniques": [
+      "Força Muscular Humana Sobre-humana",
+      "Golpes com Quinque Pesado"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/takeomi-kuroiwa.png"
+  },
+  {
+    "id": "kousuke-houji",
+    "name": "Kousuke Houji",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG"
+    ],
+    "rcTypeOrQuinque": "Quinque (Hollow & Chi She)",
+    "rank": "Investigador Especial",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Morto",
+    "quote": "Tatara... nosso confronto na China ainda reverbera no sangue da Chi She Lian.",
+    "techniques": [
+      "Quinque Hollow (Koukaku)",
+      "Quinque Chi She (Lança-Chamas de Fogo Kagune)"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kousuke-houji.png"
+  },
+  {
+    "id": "chuu-hachikawa",
+    "name": "Chuu Hachikawa",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG"
+    ],
+    "rcTypeOrQuinque": "Quinque (Kouhi)",
+    "rank": "Investigador Associado",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Morto",
+    "quote": "Meu rosto desfigurado pelo Cão Negro é a marca do ódio eterno que sinto pelos ghouls!",
+    "techniques": [
+      "Quinque Kouhi (Ukaku Fuzil Atirador)"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/chuu-hachikawa.png"
+  },
+  {
+    "id": "take-hirako",
+    "name": "Take Hirako",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG (Ex-Parceiro de Arima)",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Quinque (Nagomi & Yukimura 1/3)",
+    "rank": "Investigador de Primeira Classe",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Vivo",
+    "quote": "Minha última ordem de Kishou Arima foi ajudar o Rei Caolho a escapar vivo de Cochlea.",
+    "techniques": [
+      "Quinque Nagomi (Rinkaku Lâmina Curva)",
+      "Esgrima Precisa e Fria de Suporte"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/take-hirako.png"
+  },
+  {
+    "id": "koori-ui",
+    "name": "Koori Ui",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG (Esquadrão Arima)"
+    ],
+    "rcTypeOrQuinque": "Quinque (Taruhi)",
+    "rank": "Investigador Especial",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "Arima-san era nossa bússola. Sem ele, o CCG perdeu o rumo.",
+    "techniques": [
+      "Quinque Taruhi (Koukaku Lança)",
+      "Mobilidade e Acrobacia com Fumaça de Cigarro"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/koori-ui.png"
+  },
+  {
+    "id": "itsuki-marude",
+    "name": "Itsuki Marude",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG (Comandante Supremo Tático)"
+    ],
+    "rcTypeOrQuinque": "Armas de Fogo e Balas Q (Quinque)",
+    "rank": "Comandante Chefe do CCG",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Vivo",
+    "quote": "Eu odeio Quinques nojentos! Uma boa espingarda com balas Q resolve qualquer problema!",
+    "techniques": [
+      "Estratégia Militar e Comando de Batalhões",
+      "Tiro Certeiro com Fuzil de Assalto"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/itsuki-marude.png"
+  },
+  {
+    "id": "matsuri-washuu",
+    "name": "Matsuri Washuu",
+    "gender": "Masculino",
+    "species": "Ghoul Puro (Família Principal Washuu)",
+    "affiliation": [
+      "CCG",
+      "Clã Washuu"
+    ],
+    "rcTypeOrQuinque": "Kagune Koukaku Espada",
+    "rank": "Comandante Especial de Divisão",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "A linhagem Washuu governou o Japão e o CCG pelas sombras por séculos!",
+    "techniques": [
+      "Esgrima de Família Washuu",
+      "Comando Tático Autoritário"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/matsuri-washuu.png"
+  },
+  {
+    "id": "kuki-urie",
+    "name": "Kuki Urie",
+    "gender": "Masculino",
+    "species": "Quinx",
+    "affiliation": [
+      "CCG (Líder do Esquadrão Quinx)"
+    ],
+    "rcTypeOrQuinque": "Koukaku (Lâmina / Escudo / Framing 5)",
+    "rank": "Investigador Especial",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "Promoção, mérito, poder... No início eu só pensava em subir de classe. Mas agora eu luto pelos meus companheiros!",
+    "techniques": [
+      "Kagune Koukaku Espada Gigante com Frame 5 Desbloqueado",
+      "Ginkui (Quinque Rinkaku)",
+      "Sentido Olfativo Canino Apurado"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kuki-urie.png"
+  },
+  {
+    "id": "ginshi-shirazu",
+    "name": "Ginshi Shirazu",
+    "gender": "Masculino",
+    "species": "Quinx",
+    "affiliation": [
+      "CCG (Esquadrão Quinx)"
+    ],
+    "rcTypeOrQuinque": "Ukaku (Mísseis de Espinhos Balísticos)",
+    "rank": "Investigador de Segunda Classe",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Morto",
+    "quote": "Eu preciso desse dinheiro para pagar o tratamento da minha irmã Haru no hospital!",
+    "techniques": [
+      "Disparos Contínuos de Espinhos Ukaku",
+      "Nutcracker (Quinque Quimera)"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/ginshi-shirazu.png"
+  },
+  {
+    "id": "toru-mutsuki",
+    "name": "Toru Mutsuki",
+    "gender": "Feminino",
+    "species": "Quinx",
+    "affiliation": [
+      "CCG (Esquadrão Quinx / Oggai)"
+    ],
+    "rcTypeOrQuinque": "Bikaku (Adagas e Facas Segmentadas)",
+    "rank": "Investigador Especial Associado",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "Sensei Sasaki... se você não puder ser meu, então ninguém mais terá você!",
+    "techniques": [
+      "Kagune Bikaku Múltiplo Arremessável",
+      "Armadilha de Fios Kagune de Bikaku",
+      "Arremesso Letal de Facas Ifraft"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/toru-mutsuki.png"
+  },
+  {
+    "id": "saiko-yonebayashi",
+    "name": "Saiko Yonebayashi",
+    "gender": "Feminino",
+    "species": "Quinx",
+    "affiliation": [
+      "CCG (Esquadrão Quinx)"
+    ],
+    "rcTypeOrQuinque": "Rinkaku (Martelo Gigante / Mãos Colossais)",
+    "rank": "Investigador de Primeira Classe",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "Maman... não nos abandone! Nós somos uma família!",
+    "techniques": [
+      "Kagune Rinkaku Gigantesco Metamorfo",
+      "Martelo Esmagador Biológico",
+      "Bokujiki (Quinque Koukaku)"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/saiko-yonebayashi.png"
+  },
+  {
+    "id": "hsiao-hai-ping",
+    "name": "Hsiao Hai-ping",
+    "gender": "Feminino",
+    "species": "Meio-Humano / Quinx",
+    "affiliation": [
+      "CCG (Segunda Geração Quinx)",
+      "Jardim do Sol Branco"
+    ],
+    "rcTypeOrQuinque": "Koukaku (Garras e Lança de Perna)",
+    "rank": "Investigador de Primeira Classe",
+    "debutArc": "Arco da Invasão à Ilha Ruishima & Prisão Cochlea",
+    "status": "Vivo",
+    "quote": "Nascida no Jardim do Sol Branco, a agilidade do meu corpo supera os limites convencionais!",
+    "techniques": [
+      "Kagune Koukaku em Esporões de Perna",
+      "Kuushiru (Quinque Rinkaku)",
+      "Combate de Artes Marciais Chinesas"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/hsiao-hai-ping.png"
+  },
+  {
+    "id": "shuu-tsukiyama",
+    "name": "Shuu Tsukiyama (O Gourmet)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Clã Tsukiyama",
+      "Anteiku",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Koukaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco do Gourmet (Shuu Tsukiyama)",
+    "status": "Vivo",
+    "quote": "Trés bien! Kaneki-ken! Seu aroma é a mais refinada iguaria gastronômica deste universo decadente!",
+    "techniques": [
+      "Kagune Koukaku Espada Espiral Envolvente",
+      "Esgrima Francesa com Kagune Blindado"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/shuu-tsukiyama.png"
+  },
+  {
+    "id": "mirumo-tsukiyama",
+    "name": "Mirumo Tsukiyama",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Líder do Grupo Financeiro Tsukiyama"
+    ],
+    "rcTypeOrQuinque": "Koukaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco do Extermínio da Família Tsukiyama (Rosewald)",
+    "status": "Vivo",
+    "quote": "Shuu, viva. Para um pai, ver o filho continuar a viver é o maior banquete de todos.",
+    "techniques": [
+      "Kagune Koukaku Protetor de Escudo"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/mirumo-tsukiyama.png"
+  },
+  {
+    "id": "matsumae",
+    "name": "Matsumae",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Clã Tsukiyama (Cavaleira Protetora)"
+    ],
+    "rcTypeOrQuinque": "Koukaku (Lança e Escudo Valquíria)",
+    "rank": "Classe S",
+    "debutArc": "Arco do Extermínio da Família Tsukiyama (Rosewald)",
+    "status": "Morto",
+    "quote": "Eu sou a espada e o escudo do jovem mestre Shuu Tsukiyama!",
+    "techniques": [
+      "Kagune Koukaku Parede de Escudos e Lança Valquíria"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/matsumae.png"
+  },
+  {
+    "id": "kanae-von-rosewald",
+    "name": "Kanae von Rosewald (Karren)",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Clã Rosewald",
+      "Clã Tsukiyama Serva"
+    ],
+    "rcTypeOrQuinque": "Rinkaku (Modificado por Eto Yoshimura)",
+    "rank": "Classe S+",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Morto",
+    "quote": "Shuu-sama... eu te amei como uma mulher, não apenas como uma serva leal...",
+    "techniques": [
+      "Kagune Rinkaku Gigante Espinhoso",
+      "Regeneração Monstruosa Costurada por Eto"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kanae-von-rosewald.png"
+  },
+  {
+    "id": "chie-hori",
+    "name": "Chie Hori (A Pequena Fotógrafa)",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Aliada Íntima de Shuu Tsukiyama"
+    ],
+    "rcTypeOrQuinque": "Nenhum (Fotografia e Câmera)",
+    "rank": "Civil",
+    "debutArc": "Arco do Gourmet (Shuu Tsukiyama)",
+    "status": "Vivo",
+    "quote": "Ghouls e humanos... eu só quero tirar fotos fascinantes de momentos inesquecíveis.",
+    "techniques": [
+      "Inteligência e Espionagem com Câmeras",
+      "Contatos Secretos no Submundo de Tóquio"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/chie-hori.png"
+  },
+  {
+    "id": "eto-yoshimura",
+    "name": "Eto Yoshimura (Sen Takatsuki / Coruja de Um Olho Só)",
+    "gender": "Feminino",
+    "species": "Meio-Ghoul Natural (Híbrida Nascida)",
+    "affiliation": [
+      "Aogiri Tree (Fundadora)",
+      "Autora Literária"
+    ],
+    "rcTypeOrQuinque": "Ukaku / Kakuja Supremo Monstruoso",
+    "rank": "Classe SSS",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Morto",
+    "quote": "Eu sou a Coruja de Um Olho Só. Este mundo está podre de raiz, e eu vou arrancar as máscaras dos mentirosos!",
+    "techniques": [
+      "Kakuja da Coruja Gigante com Múltiplas Bocas Falantes",
+      "Disparo de Projéteis Kakuja Devastadores",
+      "Modificação Cirúrgica de Células Rc em Terceiros"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/eto-yoshimura.png"
+  },
+  {
+    "id": "tatara",
+    "name": "Tatara",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Aogiri Tree (Comandante Militar)",
+      "Ex-Chi She Lian"
+    ],
+    "rcTypeOrQuinque": "Bikaku / Kakuja de Fogo",
+    "rank": "Classe SS+",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Morto",
+    "quote": "Houji... você pagará pelo que fez ao meu irmão Yan na China!",
+    "techniques": [
+      "Kakuja Armadura Vermelha Flamejante",
+      "Chamas de Alta Temperatura Kagune de 4000°C"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/tatara.png"
+  },
+  {
+    "id": "noro",
+    "name": "Noro (Noroi)",
+    "gender": "Masculino",
+    "species": "Ghoul / Monstruosidade Kakuja Parcial",
+    "affiliation": [
+      "Aogiri Tree",
+      "Protetor de Eto"
+    ],
+    "rcTypeOrQuinque": "Bikaku / Kakuja Parasita",
+    "rank": "Classe SS~SSS",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Morto",
+    "quote": "... (Silêncio absoluto enquanto devora oponentes)",
+    "techniques": [
+      "Kagune Bikaku Boca Gigante Devoradora",
+      "Regeneração Corporal Instantânea de Decapitação e Partição"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/noro.png"
+  },
+  {
+    "id": "ayato-kirishima",
+    "name": "Ayato Kirishima (Black Rabbit)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Aogiri Tree",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Ukaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Vivo",
+    "quote": "Touka é fraca como meu pai foi! Eu entrei na Aogiri para ter poder suficiente para proteger quem eu quero!",
+    "techniques": [
+      "Asas Ukaku Cortantes em Espadas",
+      "Chuva de Projéteis Cristalinos Supersônicos"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/ayato-kirishima.png"
+  },
+  {
+    "id": "yakumo-oomori",
+    "name": "Yakumo Oomori (Yamori / Jason do 13º Distrito)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Aogiri Tree (Ternos Brancos)"
+    ],
+    "rcTypeOrQuinque": "Rinkaku / Meio-Kakuja",
+    "rank": "Classe S",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Morto",
+    "quote": "Quanto é mil menos sete? Estale os dedos e vamos começar a sessão de tortura!",
+    "techniques": [
+      "Meio-Kakuja Garra Blindada de Jason",
+      "Tentáculos Rinkaku Esmagadores",
+      "Alicate de Tortura Cirúrgica"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/yakumo-oomori.png"
+  },
+  {
+    "id": "naki",
+    "name": "Naki",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Aogiri Tree",
+      "Líder dos Ternos Brancos",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Koukaku",
+    "rank": "Classe S",
+    "debutArc": "Arco da Invasão ao Laboratório de Kanou",
+    "status": "Vivo",
+    "quote": "Aniki Yamori! Eu vou chorar e lutar com tudo para manter o legado dos Ternos Brancos!",
+    "techniques": [
+      "Kagune Koukaku Espada Curva de Braço",
+      "Fúria Emocional de Combate Desesperado"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/naki.png"
+  },
+  {
+    "id": "miza-kusakari",
+    "name": "Miza Kusakari (Três Lâminas)",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Aogiri Tree (Líder do Clã Blades)",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Bikaku",
+    "rank": "Classe S",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "O clã das Três Lâminas nunca recua frente aos investigadores!",
+    "techniques": [
+      "Três Caudas Bikaku em Formato de Lâminas Afiadas"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/miza-kusakari.png"
+  },
+  {
+    "id": "kazuichi-banjou",
+    "name": "Kazuichi Banjou",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Líder do 11º Distrito",
+      "Grupo de Kaneki",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Ukaku (Habilidade Rara de Cura)",
+    "rank": "Classe A",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Vivo",
+    "quote": "Kaneki-san me salvou quando ninguém mais acreditava em mim. Eu sou o médico dos seus aliados!",
+    "techniques": [
+      "Kagune Ukaku em Esporos Regenerativos de Cura de Feridas Mortais"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kazuichi-banjou.png"
+  },
+  {
+    "id": "uta",
+    "name": "Uta (Sem Rosto / Criador de Máscaras)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Pierrot (Palhaços)",
+      "Estúdio HySy ArtMask",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Koukaku / Kakuja Monstruoso de Olhos e Braços",
+    "rank": "Classe SS~SSS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Nós precisamos de máscaras porque o mundo é um palco, e ninguém pode ser verdadeiramente livre sem um disfarce.",
+    "techniques": [
+      "Metamorfose Facial Perfeita de Outras Pessoas",
+      "Kakuja Colossal de Múltiplos Braços e Olhos",
+      "Kagune Koukaku"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/uta.png"
+  },
+  {
+    "id": "itori",
+    "name": "Itori",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Pierrot (Palhaços)",
+      "Bar Helter Skelter"
+    ],
+    "rcTypeOrQuinque": "Bikaku / Kakuja",
+    "rank": "Classe SS",
+    "debutArc": "Arco do Gourmet (Shuu Tsukiyama)",
+    "status": "Vivo",
+    "quote": "A tragédia de vocês é a comédia mais divertida da nossa plateia de palhaços!",
+    "techniques": [
+      "Manipulação Psicológica e Rede de Informações do Submundo",
+      "Kagune Bikaku"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/itori.png"
+  },
+  {
+    "id": "nico",
+    "name": "Nico",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Pierrot (Palhaços)",
+      "Ex-Aogiri Tree"
+    ],
+    "rcTypeOrQuinque": "Rinkaku (Cura e Tentáculos Florais)",
+    "rank": "Classe S",
+    "debutArc": "Arco do Aogiri Tree & Tortura no 11º Distrito",
+    "status": "Vivo",
+    "quote": "Ai que horror lutar com violência! Mas se machucarem um homem bonito, eu posso curá-lo com meu toque!",
+    "techniques": [
+      "Kagune Rinkaku Curativo",
+      "Regeneração Imediata de Danos Críticos"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/nico.png"
+  },
+  {
+    "id": "roma-hoito",
+    "name": "Roma Hoito (Dodgy Mother / Palhaço Cigano)",
+    "gender": "Feminino",
+    "species": "Ghoul Puro",
+    "affiliation": [
+      "Pierrot (Fundadora Lendária)",
+      "Ex-Anteiku"
+    ],
+    "rcTypeOrQuinque": "Rinkaku / Kakuja Dodgy Mother Colossal",
+    "rank": "Classe SSS",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Morto",
+    "quote": "Eu vivi por mais de 50 anos fingindo ser uma garotinha desajeitada... para rir da desgraça humana!",
+    "techniques": [
+      "Kakuja Dodgy Mother Titânica com Cabeça Monstruosa",
+      "Tentáculos Rinkaku Múltiplos"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/roma-hoito.png"
+  },
+  {
+    "id": "nimura-furuta",
+    "name": "Nimura Furuta (Souta Washuu-Furuta / Kichimura)",
+    "gender": "Masculino",
+    "species": "Meio-Ghoul Artificial / Meio-Humano",
+    "affiliation": [
+      "CCG (Diretor Chefe)",
+      "Pierrot",
+      "Organização V",
+      "Clã Washuu"
+    ],
+    "rcTypeOrQuinque": "Rinkaku (Kagune de Rize Kamishiro)",
+    "rank": "Classe SSS",
+    "debutArc": "Arco do Gourmet (Shuu Tsukiyama)",
+    "status": "Morto",
+    "quote": "Paz mundial? Coexistência? Não seja ridículo! Eu só queria criar uma super piada e destruir tudo porque o mundo é um tédio sem graça!",
+    "techniques": [
+      "Kagune Rinkaku Colossal Despertado de Rize",
+      "Espada Quinque Roten",
+      "Artes Marciais do Jardim do Sol Branco"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/nimura-furuta.png"
+  },
+  {
+    "id": "donato-porpora",
+    "name": "Donato Porpora (O Padre / Crown)",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Pierrot (Líder Crown)",
+      "Prisão Cochlea (Ex-Prisioneiro)"
+    ],
+    "rcTypeOrQuinque": "Koukaku (Clones e Fios Retalhadores)",
+    "rank": "Classe SS",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "Koutarou... você foi a única criança humana que eu nunca tive coragem de devorar no orfanato.",
+    "techniques": [
+      "Clonagem por Kagune Koukaku",
+      "Manipulação de Marionetes à Distância"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/donato-porpora.png"
+  },
+  {
+    "id": "rize-kamishiro",
+    "name": "Rize Kamishiro (A Comilona / Binge Eater)",
+    "gender": "Feminino",
+    "species": "Ghoul de Sangue Puro Washuu",
+    "affiliation": [
+      "Clã Washuu (Fugitiva)"
+    ],
+    "rcTypeOrQuinque": "Rinkaku (A Matriz do Dragão)",
+    "rank": "Classe S+ (Potencial SSS)",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "Não existe essa coisa de destino. É simplesmente a combinação de uma circunstância com outra. E quem cria essas circunstâncias? Quem é? É você mesmo.",
+    "techniques": [
+      "Tentáculos Rinkaku Monstruosos de Regeneração Ilimitada",
+      "Fonte do DNA do Dragão"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/rize-kamishiro.png"
+  },
+  {
+    "id": "dr-kanou",
+    "name": "Dr. Akihiro Kanou",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Ex-Hospital Kanou",
+      "Aogiri Tree",
+      "Criador dos Meio-Ghouls"
+    ],
+    "rcTypeOrQuinque": "Cirurgia de Transplante de Kakuhou",
+    "rank": "Civil / Cientista",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Morto",
+    "quote": "Humanos são uma espécie frágil e limitada. A gaiola do mundo só pode ser quebrada fundindo o homem com o ghoul!",
+    "techniques": [
+      "Cirurgia de Hibridização Kakuhou Kanou",
+      "Criação dos Oggai e Meio-Ghouls Artificiais"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/dr-kanou.png"
+  },
+  {
+    "id": "kurona-yasuhisa",
+    "name": "Kurona Yasuhisa (Kuro)",
+    "gender": "Feminino",
+    "species": "Meio-Ghoul Artificial",
+    "affiliation": [
+      "Cobaias de Kanou",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Rinkaku / Quimera Fusão com Nashiro",
+    "rank": "Classe SS",
+    "debutArc": "Arco da Invasão ao Laboratório de Kanou",
+    "status": "Vivo",
+    "quote": "Nashiro vive dentro de mim... e juntas destruiremos o Dr. Kanou!",
+    "techniques": [
+      "Kagune Rinkaku Duplo Absorvido",
+      "Braços Múltiplos Cortantes Rinkaku"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kurona-yasuhisa.png"
+  },
+  {
+    "id": "nashiro-yasuhisa",
+    "name": "Nashiro Yasuhisa (Shiro)",
+    "gender": "Feminino",
+    "species": "Meio-Ghoul Artificial",
+    "affiliation": [
+      "Cobaias de Kanou"
+    ],
+    "rcTypeOrQuinque": "Rinkaku",
+    "rank": "Classe A~S",
+    "debutArc": "Arco da Invasão ao Laboratório de Kanou",
+    "status": "Morto",
+    "quote": "Kuro... por favor não me deixe sozinha no escuro...",
+    "techniques": [
+      "Kagune Rinkaku Gêmeo Perfurante"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/nashiro-yasuhisa.png"
+  },
+  {
+    "id": "seidou-takizawa",
+    "name": "Seidou Takizawa (Owl / Coruja)",
+    "gender": "Masculino",
+    "species": "Meio-Ghoul Artificial (Experimento de Kanou)",
+    "affiliation": [
+      "Ex-CCG (Segunda Classe)",
+      "Aogiri Tree",
+      "Goat"
+    ],
+    "rcTypeOrQuinque": "Ukaku / Kakuja da Coruja de Yoshimura",
+    "rank": "Classe SS+",
+    "debutArc": "Arco do Gourmet (Shuu Tsukiyama)",
+    "status": "Vivo",
+    "quote": "Gostoso... o gosto do cérebro de um investigador que costumava ser meu colega... hahahaha!",
+    "techniques": [
+      "Kakuja da Coruja Monstruosa com Foice Ukaku",
+      "Disparo de Lâminas Kakuja e Garras Dilaceradoras"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/seidou-takizawa.png"
+  },
+  {
+    "id": "hideyoshi-nagachika",
+    "name": "Hideyoshi Nagachika (Hide / Scarecrow)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Melhor Amigo de Kaneki",
+      "CCG (Assistente)",
+      "Líder da Resistência"
+    ],
+    "rcTypeOrQuinque": "Nenhum (Comunicação e Disfarce de Espantalho)",
+    "rank": "Civil / Estrategista",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Kaneki... eu sempre soube que você era um ghoul. Mas isso não muda nada: você é meu melhor amigo!",
+    "techniques": [
+      "Dedução e Raciocínio Tático Brilhante",
+      "Disfarce de Espantalho com Sintetizador de Voz"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/hideyoshi-nagachika.png"
+  },
+  {
+    "id": "kimi-nishino",
+    "name": "Kimi Nishino",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Namorada de Nishiki Nishio",
+      "Pesquisadora de Kanou / CCG"
+    ],
+    "rcTypeOrQuinque": "Nenhum (Ciência Médica)",
+    "rank": "Civil",
+    "debutArc": "Arco do Gourmet (Shuu Tsukiyama)",
+    "status": "Vivo",
+    "quote": "Não me importa se o Nishiki é um monstro. O amor dele por mim é mais humano do que o de qualquer outra pessoa.",
+    "techniques": [
+      "Pesquisa em Fisiologia Médica de Células Rc"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kimi-nishino.png"
+  },
+  {
+    "id": "yoriko-kosaka",
+    "name": "Yoriko Kosaka",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "Melhor Amiga de Touka",
+      "Esposa de Takeomi Kuroiwa"
+    ],
+    "rcTypeOrQuinque": "Nenhum (Culinária)",
+    "rank": "Civil",
+    "debutArc": "Arco da Introdução & Mado",
+    "status": "Vivo",
+    "quote": "Touka-chan, eu fiz pão fresco pra gente comer juntas!",
+    "techniques": [
+      "Cozinha e Panificação Caseira com Carinho"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/yoriko-kosaka.png"
+  },
+  {
+    "id": "shikorae",
+    "name": "Shikorae (Rio)",
+    "gender": "Masculino",
+    "species": "Ghoul (Portador de Todos os 4 Tipos de Rc)",
+    "affiliation": [
+      "Aogiri Tree",
+      "Pierrot"
+    ],
+    "rcTypeOrQuinque": "Quimera Total (Ukaku, Koukaku, Rinkaku, Bikaku)",
+    "rank": "Classe S~SS",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "Kekeke... comer, matar, torturar... quatro kagunes de uma vez só!",
+    "techniques": [
+      "Quatro Kagunes Simultâneos",
+      "Mutações Descontroladas de Células Rc"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/shikorae.png"
+  },
+  {
+    "id": "big-madam",
+    "name": "Big Madam",
+    "gender": "Masculino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Restaurante Ghoul / Leilão",
+      "Ex-Dona de Juuzou"
+    ],
+    "rcTypeOrQuinque": "Bikaku",
+    "rank": "Classe SS",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Morto",
+    "quote": "Juuzou, meu querido bonequinho de estimação... mamãe cuidou tão bem de você!",
+    "techniques": [
+      "Kagune Bikaku Gigante Esmagador",
+      "Subterrâneo Financeiro de Leilão"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/big-madam.png"
+  },
+  {
+    "id": "nutcracker",
+    "name": "Nutcracker (Quebra-Nozes)",
+    "gender": "Feminino",
+    "species": "Ghoul",
+    "affiliation": [
+      "Leilão Ghoul"
+    ],
+    "rcTypeOrQuinque": "Quimera (Koukaku + Bikaku)",
+    "rank": "Classe S",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Morto",
+    "quote": "Eu só quero comer testículos e ficar bonita e rica...",
+    "techniques": [
+      "Armadilhas Kagune de Boca Dentada no Solo",
+      "Extensões Koukaku e Bikaku"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/nutcracker.png"
+  },
+  {
+    "id": "kiyoko-aura",
+    "name": "Kiyoko Aura",
+    "gender": "Feminino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG"
+    ],
+    "rcTypeOrQuinque": "Quinque (Zebizu - Ukaku)",
+    "rank": "Investigador Especial (Primeira Mulher Especial)",
+    "debutArc": "Arco da Invasão à Ilha Ruishima & Prisão Cochlea",
+    "status": "Vivo",
+    "quote": "Como a primeira mulher a atingir o posto de Investigador Especial, eu protejo a vanguarda com dignidade.",
+    "techniques": [
+      "Quinque Zebizu (Lançador de Mísseis Ukaku)",
+      "Liderança de Batalhão Pesado"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/kiyoko-aura.png"
+  },
+  {
+    "id": "shinsanpei-aura",
+    "name": "Shinsanpei Aura",
+    "gender": "Masculino",
+    "species": "Quinx",
+    "affiliation": [
+      "CCG (Segunda Geração Quinx)"
+    ],
+    "rcTypeOrQuinque": "Rinkaku (Espada e Mãos Triplas)",
+    "rank": "Investigador de Segunda Classe",
+    "debutArc": "Arco da Invasão à Ilha Ruishima & Prisão Cochlea",
+    "status": "Vivo",
+    "quote": "Kaneki destruiu as pernas da minha tia Kiyoko... Eu nunca o perdoarei!",
+    "techniques": [
+      "Kagune Rinkaku em Forma de Espada de Três Lâminas"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/shinsanpei-aura.png"
+  },
+  {
+    "id": "hanbee-abara",
+    "name": "Hanbee Abara",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "CCG (Parceiro de Juuzou Suzuya)"
+    ],
+    "rcTypeOrQuinque": "Quinque (Silver Skull)",
+    "rank": "Investigador de Primeira Classe",
+    "debutArc": "Arco do Leilão de Ghouls (Torishimari)",
+    "status": "Vivo",
+    "quote": "Suzuya-senpai... eu sou covarde por natureza, mas por você eu enfrento a própria morte!",
+    "techniques": [
+      "Quinque Silver Skull (Koukaku Katana Longa)",
+      "Velocidade de Corrida com Pernas Longas"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/hanbee-abara.png"
+  },
+  {
+    "id": "tsuneyoshi-washuu",
+    "name": "Tsuneyoshi Washuu (O Presidente do CCG)",
+    "gender": "Masculino",
+    "species": "Ghoul Puro (Patriarca Washuu)",
+    "affiliation": [
+      "CCG (Presidente)",
+      "Clã Washuu"
+    ],
+    "rcTypeOrQuinque": "Kagune Washuu Puro",
+    "rank": "Líder Absoluto do CCG",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Morto",
+    "quote": "A humanidade é o gado que sustenta a realeza dos Washuu há milênios.",
+    "techniques": [
+      "Governança Autocrática Oculta",
+      "Linhagem Sanguínea Monstruosa de Ghoul Puro"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/tsuneyoshi-washuu.png"
+  },
+  {
+    "id": "yoshitoki-washuu",
+    "name": "Yoshitoki Washuu",
+    "gender": "Masculino",
+    "species": "Ghoul Puro",
+    "affiliation": [
+      "CCG (Diretor de Operações)"
+    ],
+    "rcTypeOrQuinque": "Kagune Washuu Koukaku",
+    "rank": "Diretor Geral do CCG",
+    "debutArc": "Arco do Ataque à Coruja (Ataque ao Anteiku)",
+    "status": "Morto",
+    "quote": "Marude... você descobriu nosso segredo. É uma pena, éramos bons amigos.",
+    "techniques": [
+      "Força de Ghoul Washuu de Alta Densidade"
+    ],
+    "avatar": "/avatars/tokyo-ghoul/yoshitoki-washuu.png"
+  }
+]

@@ -1,0 +1,1143 @@
+[
+  {
+    "id": "kaguya-shinomiya",
+    "name": "Kaguya Shinomiya",
+    "gender": "Feminino",
+    "origin": "Kaguya-sama: Love Is War",
+    "role": "Heroína Principal",
+    "archetype": "Tsundere / Ojou-sama",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Academia Shuchiin)",
+    "quote": "O Kawaii Koto... Se você realmente quer que eu saia com você, Presidente, terá que confessar primeiro!",
+    "techniques": [
+      "Guerra Psicológica de Confissão",
+      "Arquearia Tradicional Kyudo",
+      "Persona Gelo Kaguya"
+    ],
+    "avatar": "/avatars/romance/kaguya-shinomiya.png"
+  },
+  {
+    "id": "miyuki-shirogane",
+    "name": "Miyuki Shirogane",
+    "gender": "Masculino",
+    "origin": "Kaguya-sama: Love Is War",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Trabalhador Incansável",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Academia Shuchiin)",
+    "quote": "O primeiro a confessar o amor é o perdedor da relação! Eu farei Shinomiya se confessar custe o que custar!",
+    "techniques": [
+      "Estudo Diário de 14 Horas",
+      "Olhar Intimidatório de Falta de Sono",
+      "Treinamento Secreto com Fujiwara"
+    ],
+    "avatar": "/avatars/romance/miyuki-shirogane.png"
+  },
+  {
+    "id": "chika-fujiwara",
+    "name": "Chika Fujiwara",
+    "gender": "Feminino",
+    "origin": "Kaguya-sama: Love Is War",
+    "role": "Cupido / Secretária Caótica",
+    "archetype": "Bakadere / Agente do Caos",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio (Academia Shuchiin)",
+    "quote": "Love Detective Chika! Eu resolvo qualquer dilema amoroso com jogos de tabuleiro e doces!",
+    "techniques": [
+      "Chika Dance",
+      "Trapaças Criativas em Jogos",
+      "Jornal Dobrado Corretivo"
+    ],
+    "avatar": "/avatars/romance/chika-fujiwara.png"
+  },
+  {
+    "id": "yuu-ishigami",
+    "name": "Yuu Ishigami",
+    "gender": "Masculino",
+    "origin": "Kaguya-sama: Love Is War",
+    "role": "Tesoureiro / Melhor Amigo",
+    "archetype": "Nerd / Introvertido Realista",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio (Academia Shuchiin)",
+    "quote": "Eu quero ir para casa e morrer... Mas obrigado por acreditarem em mim.",
+    "techniques": [
+      "Contabilidade Forense de Dados",
+      "Gamer Hardcore",
+      "Percepção Social Afiada"
+    ],
+    "avatar": "/avatars/romance/yuu-ishigami.png"
+  },
+  {
+    "id": "miko-iino",
+    "name": "Miko Iino",
+    "gender": "Feminino",
+    "origin": "Kaguya-sama: Love Is War",
+    "role": "Heroína / Comitê de Moral",
+    "archetype": "Tsundere / Idealista Rígida",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio (Academia Shuchiin)",
+    "quote": "A moral e a ordem dos alunos devem ser preservadas com punho de ferro!",
+    "techniques": [
+      "Inspeção de Moral Escolar",
+      "Audição de Áudios de Relaxamento Estranhos"
+    ],
+    "avatar": "/avatars/romance/miko-iino.png"
+  },
+  {
+    "id": "ai-hayasaka",
+    "name": "Ai Hayasaka",
+    "gender": "Feminino",
+    "origin": "Kaguya-sama: Love Is War",
+    "role": "Serva Fiel / Falsa Gyaru",
+    "archetype": "Kuudere / Gyaru Camaleônica",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio (Academia Shuchiin)",
+    "quote": "Kaguya-sama... você realmente não tem salvação quando o assunto é o Presidente.",
+    "techniques": [
+      "Múltiplas Identidades (Gyaru, Valet, Maid)",
+      "Hacking e Espionagem Doméstica"
+    ],
+    "avatar": "/avatars/romance/ai-hayasaka.png"
+  },
+  {
+    "id": "izumi-miyamura",
+    "name": "Izumi Miyamura",
+    "gender": "Masculino",
+    "origin": "Horimiya",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Piercings e Tatuagens Ocultas",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu costumava pensar que estava sozinho no escuro, até você me puxar para a sua luz, Hori-san.",
+    "techniques": [
+      "Transformação Estilo Piercing/Tatuagem",
+      "Cozinha e Confeitaria Familiar"
+    ],
+    "avatar": "/avatars/romance/izumi-miyamura.png"
+  },
+  {
+    "id": "kyouko-hori",
+    "name": "Kyouko Hori",
+    "gender": "Feminino",
+    "origin": "Horimiya",
+    "role": "Heroína Principal",
+    "archetype": "Deredere / Dona de Casa Dedicada",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Miyamura é meu e de mais ninguém! E eu adoro quando ele age com firmeza comigo...",
+    "techniques": [
+      "Administração Doméstica e Cuidados com Souta",
+      "Notas Perfeitas de Liderança Escolar"
+    ],
+    "avatar": "/avatars/romance/kyouko-hori.png"
+  },
+  {
+    "id": "toru-ishikawa",
+    "name": "Toru Ishikawa",
+    "gender": "Masculino",
+    "origin": "Horimiya",
+    "role": "Melhor Amigo / Cupido",
+    "archetype": "Deredere / Confiável e Honesto",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu fui rejeitado pela Hori, mas o Miyamura é o cara mais legal do mundo para ser meu melhor amigo.",
+    "techniques": [
+      "Apoio Emocional aos Amigos",
+      "Sonhos Surreais com Bichos de Pelúcia"
+    ],
+    "avatar": "/avatars/romance/toru-ishikawa.png"
+  },
+  {
+    "id": "yuki-yoshikawa",
+    "name": "Yuki Yoshikawa",
+    "gender": "Feminino",
+    "origin": "Horimiya",
+    "role": "Melhor Amiga / Cupido",
+    "archetype": "Deredere / Insegura e Meiga",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu sempre acabo fingindo que não quero as coisas que mais amo... mas com o Toru é diferente.",
+    "techniques": [
+      "Mangás Shoujo",
+      "Casacos com Mangas Longas Fofas"
+    ],
+    "avatar": "/avatars/romance/yuki-yoshikawa.png"
+  },
+  {
+    "id": "taiga-aisaka",
+    "name": "Taiga Aisaka (Tigresa de Bolso)",
+    "gender": "Feminino",
+    "origin": "Toradora!",
+    "role": "Heroína Principal",
+    "archetype": "Tsundere Suprema (Rainha do Bokken)",
+    "status": "Casados",
+    "quote": "Desde tempos antigos, o dragão é a única criatura igual ao tigre! Ryuuji, você é meu dragão!",
+    "techniques": [
+      "Espada de Madeira Bokken",
+      "Chutes Voadores de Taiga",
+      "Tigresa em Fúria"
+    ],
+    "avatar": "/avatars/romance/taiga-aisaka.png"
+  },
+  {
+    "id": "ryuuji-takasu",
+    "name": "Ryuuji Takasu",
+    "gender": "Masculino",
+    "origin": "Toradora!",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Olhar de Delinquente",
+    "status": "Casados",
+    "quote": "Mesmo que meus olhos assustem todo mundo, eu vou limpar cada canto da sua casa e cuidar da sua comida, Taiga!",
+    "techniques": [
+      "Obsessão por Limpeza e Desinfetante",
+      "Culinária de Restaurante de Alto Padrão",
+      "Olhar Aterrorizante Herdado do Pai"
+    ],
+    "avatar": "/avatars/romance/ryuuji-takasu.png"
+  },
+  {
+    "id": "minori-kushieda",
+    "name": "Minori Kushieda",
+    "gender": "Feminino",
+    "origin": "Toradora!",
+    "role": "Heroína / Melhor Amiga",
+    "archetype": "Deredere / Energia Solar Inesgotável",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Acreditar em fantasmas é como acreditar no amor... Se você nunca viu um, isso não significa que ele não exista!",
+    "techniques": [
+      "Capitã do Clube de Softball",
+      "Trabalhar em Três Empregos de Meio-Período ao Mesmo Tempo"
+    ],
+    "avatar": "/avatars/romance/minori-kushieda.png"
+  },
+  {
+    "id": "ami-kawashima",
+    "name": "Ami Kawashima",
+    "gender": "Feminino",
+    "origin": "Toradora!",
+    "role": "Rival / Modelo Falsa",
+    "archetype": "Do-S / Tsundere Madura",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Vocês estão brincando de casinha feliz enquanto a realidade está prestes a quebrar todos vocês em pedaços.",
+    "techniques": [
+      "Dupla Personalidade de Modelo Fofa / Princesa Sádica",
+      "Percepção Psicológica Adulta"
+    ],
+    "avatar": "/avatars/romance/ami-kawashima.png"
+  },
+  {
+    "id": "marin-kitagawa",
+    "name": "Marin Kitagawa",
+    "gender": "Feminino",
+    "origin": "Sono Bisque Doll wa Koi wo Suru",
+    "role": "Heroína Principal",
+    "archetype": "Gyaru / Otaku Apaixonada",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Gojo-kun! Não tem nada mais incrível no mundo do que amar intensamente o que você gosta!",
+    "techniques": [
+      "Cosplays Deslumbrantes (Shizuku-tan, Black Lobelia)",
+      "Expressões de Paixão Incontrolável por Gojo"
+    ],
+    "avatar": "/avatars/romance/marin-kitagawa.png"
+  },
+  {
+    "id": "wakana-gojo",
+    "name": "Wakana Gojo",
+    "gender": "Masculino",
+    "origin": "Sono Bisque Doll wa Koi wo Suru",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Artesão Dedicado",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio / Ateliê Familiar",
+    "quote": "Quando olho para os trajes que fiz para você, Kitagawa-san... você é tão linda que tira o meu fôlego.",
+    "techniques": [
+      "Confecção de Bonecas Hina Tradicionais",
+      "Costura Profissional e Modelagem de Cosplays",
+      "Maquiagem Artística Facial"
+    ],
+    "avatar": "/avatars/romance/wakana-gojo.png"
+  },
+  {
+    "id": "sajuna-inui",
+    "name": "Sajuna Inui (Juju)",
+    "gender": "Feminino",
+    "origin": "Sono Bisque Doll wa Koi wo Suru",
+    "role": "Cosplayer Veterana",
+    "archetype": "Tsundere / Ojou-sama Reservada",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu não faço cosplay para me exibir. Eu faço para me tornar a garota mágica que sempre admirei nas telas.",
+    "techniques": [
+      "Direção Fotográfica Profissional de Cosplay",
+      "Composição de Cenários de Terror e Fantasia"
+    ],
+    "avatar": "/avatars/romance/sajuna-inui.png"
+  },
+  {
+    "id": "futaro-uesugi",
+    "name": "Futaro Uesugi",
+    "gender": "Masculino",
+    "origin": "The Quintessential Quintuplets",
+    "role": "Protagonista Masculino",
+    "archetype": "Nerd / Tutor Incansável",
+    "status": "Casados",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu vou fazer todas as cinco tirarem nota máxima e se formarem juntas com orgulho!",
+    "techniques": [
+      "Plano de Estudos Customizado Quíntuplo",
+      "Resistência Econômica Extrema"
+    ],
+    "avatar": "/avatars/romance/futaro-uesugi.png"
+  },
+  {
+    "id": "miku-nakano",
+    "name": "Miku Nakano",
+    "gender": "Feminino",
+    "origin": "The Quintessential Quintuplets",
+    "role": "Terceira Irmã Quíntupla",
+    "archetype": "Kuudere / Dandere Histórica",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Futaro... eu gosto de generais do período Sengoku. E eu gosto de você.",
+    "techniques": [
+      "Conhecimento Enciclopédico dos Generais Sengoku",
+      "Aprimoramento Contínuo em Confeitaria e Pães"
+    ],
+    "avatar": "/avatars/romance/miku-nakano.png"
+  },
+  {
+    "id": "nino-nakano",
+    "name": "Nino Nakano",
+    "gender": "Feminino",
+    "origin": "The Quintessential Quintuplets",
+    "role": "Segunda Irmã Quíntupla",
+    "archetype": "Tsundere / Atacante Implacável",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu não vou recuar nem fingir! Eu amo você, Futaro, e vou fazer você olhar só pra mim!",
+    "techniques": [
+      "Confissão Direta na Garupa da Moto",
+      "Cozinha Gourmet de Alta Qualidade"
+    ],
+    "avatar": "/avatars/romance/nino-nakano.png"
+  },
+  {
+    "id": "yotsuba-nakano",
+    "name": "Yotsuba Nakano",
+    "gender": "Feminino",
+    "origin": "The Quintessential Quintuplets",
+    "role": "Quarta Irmã Quíntupla (A Noiva)",
+    "archetype": "Deredere / Energia Atlética Abnegada",
+    "status": "Casados",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu sempre estive ao seu lado desde o início em Kyoto... e agora posso te amar sem culpa.",
+    "techniques": [
+      "Faixa de Cabelo de Orelhas de Coelho",
+      "Atletismo de Alta Performance e Suporte a Clubes"
+    ],
+    "avatar": "/avatars/romance/yotsuba-nakano.png"
+  },
+  {
+    "id": "ichika-nakano",
+    "name": "Ichika Nakano",
+    "gender": "Feminino",
+    "origin": "The Quintessential Quintuplets",
+    "role": "Primeira Irmã Quíntupla",
+    "archetype": "Onee-san / Atriz Charmosa",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Como a irmã mais velha, eu deveria ceder... Mas no amor, mentiras também são permitidas.",
+    "techniques": [
+      "Atuação Profissional de Cinema",
+      "Charme Sedutor de Irmã Mais Velha"
+    ],
+    "avatar": "/avatars/romance/ichika-nakano.png"
+  },
+  {
+    "id": "itsuki-nakano",
+    "name": "Itsuki Nakano",
+    "gender": "Feminino",
+    "origin": "The Quintessential Quintuplets",
+    "role": "Quinta Irmã Quíntupla",
+    "archetype": "Tsundere / Glutona Dedicada",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Uesugi-kun! O estômago cheio é o primeiro passo para o sucesso nos estudos!",
+    "techniques": [
+      "Devoração Rápida de Doces e Almoço",
+      "Preparo para a Carreira de Professora"
+    ],
+    "avatar": "/avatars/romance/itsuki-nakano.png"
+  },
+  {
+    "id": "chizuru-mizuhara",
+    "name": "Chizuru Mizuhara (Ichinose)",
+    "gender": "Feminino",
+    "origin": "Rent-a-Girlfriend",
+    "role": "Heroína Principal / Namorada de Aluguel",
+    "archetype": "Tsundere / Atriz Perfeccionista",
+    "status": "Noivado Falso / Coabitação",
+    "debutArc": "Universitário / Coabitação",
+    "quote": "Eu sou uma namorada de aluguel profissional Diamond. Não confunda serviço com sentimentos reais... a não ser que você não consiga evitar.",
+    "techniques": [
+      "Atuação de Namorada Impecável Nota 5 Estrelas",
+      "Carreira de Atriz de Teatro",
+      "Vida Disfarçada com Óculos e Tranças"
+    ],
+    "avatar": "/avatars/romance/chizuru-mizuhara.png"
+  },
+  {
+    "id": "kazuya-kinoshita",
+    "name": "Kazuya Kinoshita",
+    "gender": "Masculino",
+    "origin": "Rent-a-Girlfriend",
+    "role": "Protagonista Masculino",
+    "archetype": "Nerd / Desajeitado Persistente",
+    "status": "Noivado Falso / Coabitação",
+    "debutArc": "Universitário / Coabitação",
+    "quote": "Mizuhara! Eu vou produzir um filme inteiro para você se tornar a maior estrela do Japão!",
+    "techniques": [
+      "Financiamento Coletivo de Longa-Metragem",
+      "Capacidade Infinita de Pagar Aluguel por Encontro"
+    ],
+    "avatar": "/avatars/romance/kazuya-kinoshita.png"
+  },
+  {
+    "id": "ruka-sarashina",
+    "name": "Ruka Sarashina",
+    "gender": "Feminino",
+    "origin": "Rent-a-Girlfriend",
+    "role": "Falsa Namorada / Concorrente",
+    "archetype": "Deredere / Apaixonada Implacável",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Universitário",
+    "quote": "Kazuya-kun faz meu batimento cardíaco finalmente passar de 90 BPM! Eu sou sua namorada de verdade!",
+    "techniques": [
+      "Monitor Cardíaco no Pulso",
+      "Ataque Frontal Inabalável de Ciúmes"
+    ],
+    "avatar": "/avatars/romance/ruka-sarashina.png"
+  },
+  {
+    "id": "mami-nanami",
+    "name": "Mami Nanami",
+    "gender": "Feminino",
+    "origin": "Rent-a-Girlfriend",
+    "role": "Ex-Namorada / Antagonista",
+    "archetype": "Yandere / Do-S Manipuladora",
+    "status": "Solteiro(a)",
+    "debutArc": "Universitário",
+    "quote": "Kazu-kun... você achou mesmo que encontraria o amor verdadeiro depois de terminar comigo?",
+    "techniques": [
+      "Manipulação Psicológica em Redes Sociais",
+      "Sorriso Falso Inocente"
+    ],
+    "avatar": "/avatars/romance/mami-nanami.png"
+  },
+  {
+    "id": "sumi-sakurasawa",
+    "name": "Sumi Sakurasawa",
+    "gender": "Feminino",
+    "origin": "Rent-a-Girlfriend",
+    "role": "Namorada de Aluguel Tímida",
+    "archetype": "Dandere Extrema / Pura e Meiga",
+    "status": "Paixão Não Correspondida",
+    "debutArc": "Universitário",
+    "quote": "... (Acena timidamente com cartazes fofos para se comunicar)",
+    "techniques": [
+      "Comunicação Gestual Fofa",
+      "Esforço Monumental para Falar em Público"
+    ],
+    "avatar": "/avatars/romance/sumi-sakurasawa.png"
+  },
+  {
+    "id": "mahiru-shiina",
+    "name": "Mahiru Shiina (O Anjo)",
+    "gender": "Feminino",
+    "origin": "Meu Anjo de Vizinha Me Mima Demais",
+    "role": "Heroína Principal / Vizinha",
+    "archetype": "Kuudere / Deredere Doméstica",
+    "status": "Namorando",
+    "debutArc": "Coabitação / Vida Sob o Mesmo Teto",
+    "quote": "Fujimiya-san, se você continuar comendo porcarias e deixando seu quarto imundo, terei que vir aqui cozinhar todos os dias!",
+    "techniques": [
+      "Culinária Caseira Perfeita de Conforto",
+      "Guarda-Chuva Sob a Tempestade",
+      "Aura Angelical da Escola"
+    ],
+    "avatar": "/avatars/romance/mahiru-shiina.png"
+  },
+  {
+    "id": "amane-fujimiya",
+    "name": "Amane Fujimiya",
+    "gender": "Masculino",
+    "origin": "Meu Anjo de Vizinha Me Mima Demais",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Reservado Carinhoso",
+    "status": "Namorando",
+    "debutArc": "Coabitação / Vida Sob o Mesmo Teto",
+    "quote": "Shiina... você não é um anjo inalcançável. Você é apenas uma garota preciosa que eu quero fazer feliz todos os dias.",
+    "techniques": [
+      "Cuidado Afetuoso e Paciência",
+      "Limpeza Mútua de Apartamento"
+    ],
+    "avatar": "/avatars/romance/amane-fujimiya.png"
+  },
+  {
+    "id": "alya-kujou",
+    "name": "Alisa Mikhailovna Kujou (Alya)",
+    "gender": "Feminino",
+    "origin": "Alya Sometimes Hides Her Feelings in Russian",
+    "role": "Heroína Principal",
+    "archetype": "Tsundere Russa / Ojou-sama",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Iskrenne govorya, ya lyublyu tebya... (Mas em japonês: Você é tão preguiçoso, Kuze-kun!)",
+    "techniques": [
+      "Confissões de Amor Apaixonadas em Russo",
+      "Cabelos Prateados Deslumbrantes",
+      "Candidatura à Presidência do Conselho Estudantil"
+    ],
+    "avatar": "/avatars/romance/alya-kujou.png"
+  },
+  {
+    "id": "masachika-kuze",
+    "name": "Masachika Kuze",
+    "gender": "Masculino",
+    "origin": "Alya Sometimes Hides Her Feelings in Russian",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Otaku Fluente em Russo",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Ela acha que não entendo russo... Mas cada palavra fofa e embaraçosa que ela sussurra vai direto no meu coração!",
+    "techniques": [
+      "Fluência Secreta em Língua Russa",
+      "Estratégia Eleitoral Escolar de Alto Q.I."
+    ],
+    "avatar": "/avatars/romance/masachika-kuze.png"
+  },
+  {
+    "id": "yuki-suou",
+    "name": "Yuki Suou",
+    "gender": "Feminino",
+    "origin": "Alya Sometimes Hides Her Feelings in Russian",
+    "role": "Irmã Falsa / Nobre Rival",
+    "archetype": "Do-S / Otaku Camuflada",
+    "status": "Irmã / Família",
+    "debutArc": "Ensino Médio",
+    "quote": "Meu querido irmão Masachika... quando as portas se fecham, nós somos otakus inseparáveis!",
+    "techniques": [
+      "Comportamento Perfeito da Aristocracia Suou",
+      "Provocações Provocantes ao Irmão"
+    ],
+    "avatar": "/avatars/romance/yuki-suou.png"
+  },
+  {
+    "id": "hayase-nagatoro",
+    "name": "Hayase Nagatoro",
+    "gender": "Feminino",
+    "origin": "Don't Toy with Me Miss Nagatoro",
+    "role": "Heroína Principal",
+    "archetype": "Do-S / Gyaru Brincalhona",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Kimo-kimo... Senpai, você é tão pervertido e tímido! Mas só eu tenho o direito de zoar com você!",
+    "techniques": [
+      "Provocações Físicas e Caretas Flexíveis",
+      "Faixa Preta de Judô Tradicional"
+    ],
+    "avatar": "/avatars/romance/hayase-nagatoro.png"
+  },
+  {
+    "id": "naoto-hachioji",
+    "name": "Naoto Hachioji (Senpai)",
+    "gender": "Masculino",
+    "origin": "Don't Toy with Me Miss Nagatoro",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Artista Tímido",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Nagatoro... eu quero desenhar você mais do que qualquer paisagem do mundo.",
+    "techniques": [
+      "Pintura a Óleo e Retratos Vivos",
+      "Coragem de Declarar seus Sentimentos"
+    ],
+    "avatar": "/avatars/romance/naoto-hachioji.png"
+  },
+  {
+    "id": "rentarou-aijou",
+    "name": "Rentarou Aijou (O Monstro do Amor)",
+    "gender": "Masculino",
+    "origin": "The 100 Girlfriends Who Really Love You",
+    "role": "Protagonista Masculino Supremo",
+    "archetype": "Deredere Divino / Amor Infinito",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Se qualquer uma das minhas 100 namoradas chorar, eu desafiarei os próprios deuses para fazê-la sorrir!",
+    "techniques": [
+      "Amor Absoluto por 100 Almas Gêmeas",
+      "Força Sobre-humana Alimentada pelo Amor",
+      "Monólogo de Confissão de Duas Páginas Sem Fôlego"
+    ],
+    "avatar": "/avatars/romance/rentarou-aijou.png"
+  },
+  {
+    "id": "hakari-hanazono",
+    "name": "Hakari Hanazono",
+    "gender": "Feminino",
+    "origin": "The 100 Girlfriends Who Really Love You",
+    "role": "Heroína do Harém (1ª Namorada)",
+    "archetype": "Deredere / Apaixonada Ojou-sama",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Rentarou-kun! Meu coração e meu corpo estão fervendo de amor por você!",
+    "techniques": [
+      "Ataque de Afeto Ultra-Sedutor",
+      "Planejamento Romântico Conspiratório com Karane"
+    ],
+    "avatar": "/avatars/romance/hakari-hanazono.png"
+  },
+  {
+    "id": "karane-inda",
+    "name": "Karane Inda",
+    "gender": "Feminino",
+    "origin": "The 100 Girlfriends Who Really Love You",
+    "role": "Heroína do Harém (2ª Namorada)",
+    "archetype": "Tsundere de Força Brutal",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "N-Não é como se eu quisesse beijar você, seu idiota! Hmph!",
+    "techniques": [
+      "Soco Tsundere que Quebra Concreto",
+      "Twintails Eletrizadas de Vergonha"
+    ],
+    "avatar": "/avatars/romance/karane-inda.png"
+  },
+  {
+    "id": "shizuka-yoshimoto",
+    "name": "Shizuka Yoshimoto",
+    "gender": "Feminino",
+    "origin": "The 100 Girlfriends Who Really Love You",
+    "role": "Heroína do Harém (3ª Namorada)",
+    "archetype": "Dandere / Rato de Biblioteca",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "... (Usa aplicativo de celular para ler passagens de livros românticos)",
+    "techniques": [
+      "Comunicação por Textos de Livro com Voz Digital",
+      "Fofura Animal Silvestre"
+    ],
+    "avatar": "/avatars/romance/shizuka-yoshimoto.png"
+  },
+  {
+    "id": "nano-eiai",
+    "name": "Nano Eiai",
+    "gender": "Feminino",
+    "origin": "The 100 Girlfriends Who Really Love You",
+    "role": "Heroína do Harém (4ª Namorada)",
+    "archetype": "Kuudere / Eficiência Lógica Pura",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Sentimentos amorosos são ineficientes... a não ser quando se trata de Rentarou.",
+    "techniques": [
+      "Cálculo Otimizado de Tempo e Eficiência",
+      "Memória Fotográfica Absoluta"
+    ],
+    "avatar": "/avatars/romance/nano-eiai.png"
+  },
+  {
+    "id": "kusuri-yakuzen",
+    "name": "Kusuri Yakuzen",
+    "gender": "Feminino",
+    "origin": "The 100 Girlfriends Who Really Love You",
+    "role": "Heroína do Harém (5ª Namorada)",
+    "archetype": "Cientista Maluca / Bakadere",
+    "status": "Em Disputa / Harém",
+    "debutArc": "Ensino Médio",
+    "quote": "Yay, nanoda! Minhas drogas químicas resolvem qualquer problema, nanoda!",
+    "techniques": [
+      "Elixires Químicos Bizarros",
+      "Metamorfose entre Forma Infantil e Adulta"
+    ],
+    "avatar": "/avatars/romance/kusuri-yakuzen.png"
+  },
+  {
+    "id": "tsukasa-yuzaki",
+    "name": "Tsukasa Yuzaki (Tsukuyomi)",
+    "gender": "Feminino",
+    "origin": "TONIKAWA: Over The Moon For You",
+    "role": "Heroína Principal / Esposa",
+    "archetype": "Kuudere / Deredere Apaixonada",
+    "status": "Casados",
+    "quote": "Eu só concordei em sair com você se a gente se casasse primeiro! Agora somos marido e mulher para sempre.",
+    "techniques": [
+      "Imortalidade da Princesa da Lua Kaguyahime",
+      "Culinária e Vida a Dois Aconchegante",
+      "Amor por Filmes e Jogos Retrô"
+    ],
+    "avatar": "/avatars/romance/tsukasa-yuzaki.png"
+  },
+  {
+    "id": "nasa-yuzaki",
+    "name": "Nasa Yuzaki",
+    "gender": "Masculino",
+    "origin": "TONIKAWA: Over The Moon For You",
+    "role": "Protagonista Masculino / Marido",
+    "archetype": "Gênio Prático / Amor Devoto",
+    "status": "Casados",
+    "quote": "Meu nome é Nasa, e eu vou voar mais rápido que a luz para provar que meu amor pela minha esposa é infinito!",
+    "techniques": [
+      "Cálculo Mental Instantâneo de Engenharia",
+      "Devoção Inabalável à Esposa Tsukasa"
+    ],
+    "avatar": "/avatars/romance/nasa-yuzaki.png"
+  },
+  {
+    "id": "akari-watanabe",
+    "name": "Akari Watanabe",
+    "gender": "Feminino",
+    "origin": "More than a Married Couple but Not Lovers",
+    "role": "Heroína Principal / Falsa Esposa",
+    "archetype": "Gyaru / Tsundere Doce",
+    "status": "Noivado Falso / Coabitação",
+    "debutArc": "Coabitação / Treinamento de Casais",
+    "quote": "Jiro! Não pense que só porque estamos fingindo ser casados você pode olhar pras minhas pernas... bobo!",
+    "techniques": [
+      "Moda Gyaru Estilosa",
+      "Cuidados Amorosos e Jantares em Coabitação"
+    ],
+    "avatar": "/avatars/romance/akari-watanabe.png"
+  },
+  {
+    "id": "jiro-yakuin",
+    "name": "Jiro Yakuin",
+    "gender": "Masculino",
+    "origin": "More than a Married Couple but Not Lovers",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Gamer Introvertido",
+    "status": "Noivado Falso / Coabitação",
+    "debutArc": "Coabitação / Treinamento de Casais",
+    "quote": "Nosso objetivo era conseguir nota A para trocar de parceiros... mas por que não quero me separar de você, Akari?",
+    "techniques": [
+      "Treinamento Prático de Casamento Escolar",
+      "Apoio Sincero nas Dificuldades"
+    ],
+    "avatar": "/avatars/romance/jiro-yakuin.png"
+  },
+  {
+    "id": "tomo-aizawa",
+    "name": "Tomo Aizawa",
+    "gender": "Feminino",
+    "origin": "Tomo-chan Is a Girl",
+    "role": "Heroína Principal",
+    "archetype": "Tomboy / Tsundere Forte",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Jun! Eu me confessei pra você! Quando é que você vai começar a me ver como uma garota de verdade?!",
+    "techniques": [
+      "Golpes Demolidores de Karatê Tradicional",
+      "Esforço para Usar Saias e Agir Fofo"
+    ],
+    "avatar": "/avatars/romance/tomo-aizawa.png"
+  },
+  {
+    "id": "junichirou-kubota",
+    "name": "Junichirou Kubota (Jun)",
+    "gender": "Masculino",
+    "origin": "Tomo-chan Is a Girl",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Cabeça-Dura Leal",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Tomo é meu melhor amigo desde criança... Mas agora meu coração dispara toda vez que olho nos olhos dela!",
+    "techniques": [
+      "Resistência e Músculos de Judô",
+      "Instinto Protetor Inabalável"
+    ],
+    "avatar": "/avatars/romance/junichirou-kubota.png"
+  },
+  {
+    "id": "micchon-shikimori",
+    "name": "Micchon Shikimori",
+    "gender": "Feminino",
+    "origin": "Shikimori's Not Just a Cutie",
+    "role": "Heroína Principal",
+    "archetype": "Deredere / Protetora Incrível (Ikemen)",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Izumi-san, eu não sou apenas uma garota fofa. Eu vou te proteger de qualquer azar deste mundo!",
+    "techniques": [
+      "Olhar Frio Badass de Guarda-Costas",
+      "Reflexos Atléticos Instantâneos de Proteção"
+    ],
+    "avatar": "/avatars/romance/micchon-shikimori.png"
+  },
+  {
+    "id": "yuu-izumi",
+    "name": "Yuu Izumi",
+    "gender": "Masculino",
+    "origin": "Shikimori's Not Just a Cutie",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Imã de Azar",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu atraio todos os acidentes possíveis, mas ter a Shikimori-san ao meu lado é a maior sorte da minha vida!",
+    "techniques": [
+      "Resiliência Inabalável contra Má Sorte Extrema",
+      "Gentileza Infinita com Todos"
+    ],
+    "avatar": "/avatars/romance/yuu-izumi.png"
+  },
+  {
+    "id": "duke-bocchan",
+    "name": "Duke (Bocchan)",
+    "gender": "Masculino",
+    "origin": "The Duke of Death and His Maid",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Amaldiçoado Solitário",
+    "status": "Casados",
+    "debutArc": "Mansão Isolada / Época Vitoriana",
+    "quote": "Eu fui amaldiçoado: tudo o que eu tocar morrerá na hora. Alice... meu maior desejo é poder segurar sua mão.",
+    "techniques": [
+      "Música e Piano de Concerto",
+      "Toque da Morte Vegetal e Animal (Maldição Quebrada)"
+    ],
+    "avatar": "/avatars/romance/duke-bocchan.png"
+  },
+  {
+    "id": "alice-lendrott",
+    "name": "Alice Lendrott",
+    "gender": "Feminino",
+    "origin": "The Duke of Death and His Maid",
+    "role": "Heroína Principal / Criada",
+    "archetype": "Do-S / Provocadora Romântica",
+    "status": "Casados",
+    "debutArc": "Mansão Isolada / Época Vitoriana",
+    "quote": "Bocchan, você fica tão fofo quando fica corado com as minhas provocações!",
+    "techniques": [
+      "Vestido Vitoriano com Espartilho",
+      "Provocações no Limite da Distância de Segurança"
+    ],
+    "avatar": "/avatars/romance/alice-lendrott.png"
+  },
+  {
+    "id": "masamune-makabe",
+    "name": "Masamune Makabe",
+    "gender": "Masculino",
+    "origin": "Masamune-kun's Revenge",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Narcisista Falso",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu mudei meu corpo e meu nome por 8 anos para fazer a Princesa Brutal se apaixonar e então rejeitá-la!",
+    "techniques": [
+      "Musculação e Dieta Rígida Sem Calorias",
+      "Plano de Vingança do Porquinho"
+    ],
+    "avatar": "/avatars/romance/masamune-makabe.png"
+  },
+  {
+    "id": "aki-adagaki",
+    "name": "Aki Adagaki (A Princesa Brutal)",
+    "gender": "Feminino",
+    "origin": "Masamune-kun's Revenge",
+    "role": "Heroína Principal",
+    "archetype": "Tsundere / Ojou-sama com Apetite Voraz",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Homens são patéticos e merecem apelidos humilhantes! Mas... por que você nunca desiste de mim, Makabe?",
+    "techniques": [
+      "Apelidos Destruidores de Autoestima",
+      "Lanches Escondidos de Três Porções"
+    ],
+    "avatar": "/avatars/romance/aki-adagaki.png"
+  },
+  {
+    "id": "hachiman-hikigaya",
+    "name": "Hachiman Hikigaya",
+    "gender": "Masculino",
+    "origin": "Oregairu",
+    "role": "Protagonista Masculino",
+    "archetype": "Nerd / Olhos de Peixe Morto Cínico",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Clube de Serviços)",
+    "quote": "A juventude é uma ilusão criada por hipócritas... Mas mesmo assim, eu quero algo genuíno!",
+    "techniques": [
+      "Auto-Sacrifício Social para Resolver Conflitos",
+      "Olhos de Peixe Podre Intransponíveis"
+    ],
+    "avatar": "/avatars/romance/hachiman-hikigaya.png"
+  },
+  {
+    "id": "yukino-yukinoshita",
+    "name": "Yukino Yukinoshita",
+    "gender": "Feminino",
+    "origin": "Oregairu",
+    "role": "Heroína Principal",
+    "archetype": "Kuudere / Donzela de Gelo",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Clube de Serviços)",
+    "quote": "Se você se machucar para salvar os outros de novo, Hikigaya-kun... eu nunca vou perdoar você.",
+    "techniques": [
+      "Língua Afiada Lógica Imbatível",
+      "Amor Secreto por Pan-san (O Panda)"
+    ],
+    "avatar": "/avatars/romance/yukino-yukinoshita.png"
+  },
+  {
+    "id": "yui-yuigahama",
+    "name": "Yui Yuigahama",
+    "gender": "Feminino",
+    "origin": "Oregairu",
+    "role": "Heroína / Membro do Clube",
+    "archetype": "Deredere / Doce e Compreensiva",
+    "status": "Paixão Não Correspondida",
+    "debutArc": "Ensino Médio (Clube de Serviços)",
+    "quote": "Yahallo! Eu quero tudo... Eu quero que nós três continuemos juntos pra sempre!",
+    "techniques": [
+      "Sable Cookies Queimados",
+      "Leitura de Atmosfera Social Escolar"
+    ],
+    "avatar": "/avatars/romance/yui-yuigahama.png"
+  },
+  {
+    "id": "mai-sakurajima",
+    "name": "Mai Sakurajima",
+    "gender": "Feminino",
+    "origin": "Rascal Does Not Dream of Bunny Girl Senpai",
+    "role": "Heroína Principal",
+    "archetype": "Kuudere / Tsundere Madura",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio / Síndrome da Puberdade",
+    "quote": "Sakuta... se eu esquecer de você ou desaparecer da vista de todos, você ainda vai se lembrar de mim?",
+    "techniques": [
+      "Fantasia de Coelhinha na Biblioteca",
+      "Atriz Nacional Famosa",
+      "Pisar no Pé de Sakuta com Carinho"
+    ],
+    "avatar": "/avatars/romance/mai-sakurajima.png"
+  },
+  {
+    "id": "sakuta-azusagawa",
+    "name": "Sakuta Azusagawa",
+    "gender": "Masculino",
+    "origin": "Rascal Does Not Dream of Bunny Girl Senpai",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Cara de Pau Sem Vergonha",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio / Síndrome da Puberdade",
+    "quote": "Mai-san! Eu amo você mais do que a minha própria vida! Eu gritarei seu nome no meio do pátio escolar!",
+    "techniques": [
+      "Declaração aos Berros no Pátio",
+      "Resolução da Síndrome da Puberdade"
+    ],
+    "avatar": "/avatars/romance/sakuta-azusagawa.png"
+  },
+  {
+    "id": "kaori-miyazono",
+    "name": "Kaori Miyazono",
+    "gender": "Feminino",
+    "origin": "Shigatsu wa Kimi no Uso",
+    "role": "Heroína Principal",
+    "archetype": "Deredere / Espírito Livre Musical",
+    "status": "Paixão Não Correspondida",
+    "debutArc": "Ensino Médio / Concertos Musicais",
+    "quote": "Kousei... você conseguiu me alcançar? A primavera que te conheci foi uma mentira cheia de cores.",
+    "techniques": [
+      "Violino Apaixonado e Rebelde",
+      "Carta de Despedida de Abril"
+    ],
+    "avatar": "/avatars/romance/kaori-miyazono.png"
+  },
+  {
+    "id": "kousei-arima",
+    "name": "Kousei Arima",
+    "gender": "Masculino",
+    "origin": "Shigatsu wa Kimi no Uso",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Pianista Prodigioso",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio / Concertos Musicais",
+    "quote": "A música transcende as palavras... Quando toco, eu consigo ver você sorrindo no palco de novo.",
+    "techniques": [
+      "Piano de Metrônomo Humano",
+      "Tocar com as Cores de Kaori"
+    ],
+    "avatar": "/avatars/romance/kousei-arima.png"
+  },
+  {
+    "id": "sawako-kuronuma",
+    "name": "Sawako Kuronuma (Sadako)",
+    "gender": "Feminino",
+    "origin": "Kimi ni Todoke",
+    "role": "Heroína Principal",
+    "archetype": "Dandere / Pura e Radiante",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Kazehaya-kun é como o sol que iluminou todas as sombras ao meu redor.",
+    "techniques": [
+      "Aura Espiritual Involuntária",
+      "Doces e Chocolates Feitos à Mão"
+    ],
+    "avatar": "/avatars/romance/sawako-kuronuma.png"
+  },
+  {
+    "id": "shouta-kazehaya",
+    "name": "Shouta Kazehaya",
+    "gender": "Masculino",
+    "origin": "Kimi ni Todoke",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Menino de Ouro Popular",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Kuronuma... eu não consigo tirar meus olhos de você desde o dia em que nos vimos sob as cerejeiras.",
+    "techniques": [
+      "Sorriso Solar que Conquista a Todos",
+      "Honestidade Emocional Cristalina"
+    ],
+    "avatar": "/avatars/romance/shouta-kazehaya.png"
+  },
+  {
+    "id": "anna-yamada",
+    "name": "Anna Yamada",
+    "gender": "Feminino",
+    "origin": "The Dangers in My Heart",
+    "role": "Heroína Principal",
+    "archetype": "Deredere / Modelo Alta e Glutona",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Biblioteca Escolar)",
+    "quote": "Ichikawa... se esconda aqui comigo na biblioteca para dividirmos meus doces!",
+    "techniques": [
+      "Comer Lanches Secretos na Biblioteca",
+      "Abraço de Altura Protetor"
+    ],
+    "avatar": "/avatars/romance/anna-yamada.png"
+  },
+  {
+    "id": "kyotaro-ichikawa",
+    "name": "Kyotaro Ichikawa",
+    "gender": "Masculino",
+    "origin": "The Dangers in My Heart",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Chunibyo em Cura",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Biblioteca Escolar)",
+    "quote": "Eu costumava pensar em coisas sombrias... Mas agora eu só quero proteger o sorriso puro da Yamada.",
+    "techniques": [
+      "Leitura de Enciclopédias de Casos Estranhos",
+      "Cavalheirismo Silencioso"
+    ],
+    "avatar": "/avatars/romance/kyotaro-ichikawa.png"
+  },
+  {
+    "id": "chitoge-kirisaki",
+    "name": "Chitoge Kirisaki",
+    "gender": "Feminino",
+    "origin": "Nisekoi",
+    "role": "Heroína Principal / Falsa Namorada",
+    "archetype": "Tsundere / Meia-Americana Forte",
+    "status": "Casados",
+    "debutArc": "Ensino Médio",
+    "quote": "Moyashi! (Seu palmito magrelo!) Não pense que gosto de fingir ser sua namorada!",
+    "techniques": [
+      "Soco de Gorila Feroz",
+      "Fita de Cabelo Vermelha Lendária"
+    ],
+    "avatar": "/avatars/romance/chitoge-kirisaki.png"
+  },
+  {
+    "id": "raku-ichijou",
+    "name": "Raku Ichijou",
+    "gender": "Masculino",
+    "origin": "Nisekoi",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Herdeiro Yakuza Cuidadoso",
+    "status": "Casados",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu só queria encontrar a garota da promessa do cadeado de dez anos atrás!",
+    "techniques": [
+      "Cadeado da Promessa de Infância",
+      "Cozinha Doméstica que Acalma Yakuzas"
+    ],
+    "avatar": "/avatars/romance/raku-ichijou.png"
+  },
+  {
+    "id": "kosaki-onodera",
+    "name": "Kosaki Onodera",
+    "gender": "Feminino",
+    "origin": "Nisekoi",
+    "role": "Heroína / A Paixão de Infância",
+    "archetype": "Dandere / Doce e Gentil",
+    "status": "Paixão Não Correspondida",
+    "debutArc": "Ensino Médio",
+    "quote": "Ichijou-kun... se eu dissesse que você é a pessoa da minha promessa, você acreditaria?",
+    "techniques": [
+      "Chave da Promessa",
+      "Confeitaria Doce Japonesa Familiar"
+    ],
+    "avatar": "/avatars/romance/kosaki-onodera.png"
+  },
+  {
+    "id": "nagisa-furukawa",
+    "name": "Nagisa Furukawa (Okazaki)",
+    "gender": "Feminino",
+    "origin": "Clannad",
+    "role": "Heroína Principal / Esposa",
+    "archetype": "Dandere / Doce e Frágil",
+    "status": "Casados",
+    "quote": "Dango, dango, dango, dango, dango daikazoku... Tomoya-kun, o clube de teatro renasceu!",
+    "techniques": [
+      "Canção da Grande Família Dango",
+      "Teatro Dramático Emocional"
+    ],
+    "avatar": "/avatars/romance/nagisa-furukawa.png"
+  },
+  {
+    "id": "tomoya-okazaki",
+    "name": "Tomoya Okazaki",
+    "gender": "Masculino",
+    "origin": "Clannad",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Pai Protetor Redimido",
+    "status": "Casados",
+    "quote": "Nagisa... você mudou a minha vida inteira. Eu nunca me arrependerei de ter te conhecido naquela ladeira de cerejeiras.",
+    "techniques": [
+      "Trabalho Duro de Eletricista",
+      "Amor Eterno por Ushio e Nagisa"
+    ],
+    "avatar": "/avatars/romance/tomoya-okazaki.png"
+  },
+  {
+    "id": "tohru-honda",
+    "name": "Tohru Honda",
+    "gender": "Feminino",
+    "origin": "Fruits Basket",
+    "role": "Heroína Principal",
+    "archetype": "Deredere / Bondade Curativa Absoluta",
+    "status": "Casados",
+    "quote": "A maldição não pode apagar o amor e o calor que vocês têm no coração!",
+    "techniques": [
+      "Abraço Curador de Almas Feridas",
+      "Cozinha Caseira que Conforta o Clã Sohma"
+    ],
+    "avatar": "/avatars/romance/tohru-honda.png"
+  },
+  {
+    "id": "kyo-sohma",
+    "name": "Kyo Sohma (O Gato Amaldiçoado)",
+    "gender": "Masculino",
+    "origin": "Fruits Basket",
+    "role": "Protagonista Masculino",
+    "archetype": "Tsundere Feral / Redimido",
+    "status": "Casados",
+    "quote": "Tohru... quando você me viu na minha forma verdadeira e não fugiu de medo... eu soube que nunca mais te soltaria.",
+    "techniques": [
+      "Artes Marciais do Estilo Sohma",
+      "Superação da Forma Verdadeira Monstruosa"
+    ],
+    "avatar": "/avatars/romance/kyo-sohma.png"
+  }
+]

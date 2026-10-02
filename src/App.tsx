@@ -40,6 +40,10 @@ import myHeroAcademiaCharacters from './data/animes/my-hero-academia/characters.
 import nanatsuNoTaizaiCharacters from './data/animes/nanatsu-no-taizai/characters.json';
 import shangriLaCharacters from './data/animes/shangri-la-frontier/characters.json';
 import witchHatAtelierCharacters from './data/animes/witch-hat-atelier/characters.json';
+import onePunchManCharacters from './data/animes/one-punch-man/characters.json';
+import tokyoGhoulCharacters from './data/animes/tokyo-ghoul/characters.json';
+import swordArtOnlineCharacters from './data/animes/sword-art-online/characters.json';
+import romanceCharacters from './data/animes/romance/characters.json';
 import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
 import { Character, GameMode, GuessResult, GameStats } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
@@ -108,6 +112,14 @@ export const App: React.FC<{
     ? shangriLaCharacters
     : currentAnimeSlug === 'witch-hat-atelier'
     ? witchHatAtelierCharacters
+    : currentAnimeSlug === 'one-punch-man'
+    ? onePunchManCharacters
+    : currentAnimeSlug === 'tokyo-ghoul'
+    ? tokyoGhoulCharacters
+    : currentAnimeSlug === 'sword-art-online'
+    ? swordArtOnlineCharacters
+    : currentAnimeSlug === 'romance'
+    ? romanceCharacters
     : demonSlayerCharacters) as Character[];
 
   const characters = React.useMemo(() => {

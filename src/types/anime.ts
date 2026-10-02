@@ -71,6 +71,10 @@ export interface Character {
   rankOrTitle?: string;
   // My Hero Academia
   quirk?: string;
+  // Tokyo Ghoul
+  rcTypeOrQuinque?: string;
+  // Romance Crossover
+  archetype?: string;
 }
 
 export interface AttributeColumn {
