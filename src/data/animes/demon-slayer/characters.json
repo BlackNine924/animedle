@@ -31,7 +31,10 @@
       "Hinokami Kagura: Gen'nichi Kou (Arco do Céu Flamejante)",
       "Hinokami Kagura: Kasha (Roda de Fogo)",
       "Hinokami Kagura: Shiyō no Esaku (Corte de Raios Solares)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tanjiro-kamado-demon-king",
@@ -52,7 +55,10 @@
       "Grito Chocado Supressivo Demoníaco",
       "Tentáculos Ósseos Primal e Esferas de Sangue",
       "Regeneração Suprema do Rei Oni"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nezuko-kamado-human",
@@ -67,7 +73,10 @@
     "status": "Curado",
     "quote": "Eu amo muito a minha família!",
     "ability": "Cuidado Familiar",
-    "avatar": "https://i.pinimg.com/736x/a5/9d/2f/a59d2faa0197ba1254d21003d567b9a4.jpg"
+    "avatar": "https://i.pinimg.com/736x/a5/9d/2f/a59d2faa0197ba1254d21003d567b9a4.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nezuko-kamado-demon",
@@ -87,7 +96,10 @@
     "techniques": [
       "Bakketsu (Sangue Explosivo)",
       "Garras Demoníacas Flamejantes"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zenitsu-agatsuma",
@@ -109,7 +121,10 @@
       "Primeira Forma: Hekireki Issen - Hachiren (Lampejo do Trovão - Oito Dobras)",
       "Primeira Forma: Hekireki Issen - Godshin (Lampejo do Trovão - Velocidade Divina)",
       "Sétima Forma: Honoikazuchi no Kami (Deus do Trovão Flamejante)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "inosuke-hashibira",
@@ -136,7 +151,10 @@
       "Oitava Presa: Investida Explosiva (Bakuretsu Shingeki)",
       "Nona Presa: Corte Sinuoso Estendido (Uneri Unerisaki)",
       "Décima Presa: Garras Giratórias Rápidas (Enten Sen'ga)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kanao-tsuyuri",
@@ -159,7 +177,10 @@
       "Quinta Forma: Mutō Kaku (Peônia sem Peonagem)",
       "Sexta Forma: Azami no Ukon (Cardo Vermelho)",
       "Forma Final: Higan Shuganku (Olhos Vermelhos do Equinócio)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "genya-shinazugawa",
@@ -178,7 +199,10 @@
     "techniques": [
       "Assimilação Demoníaca (Oni Repast)",
       "Disparo de Espingarda com Munição de Sangue"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "giyu-tomioka",
@@ -207,7 +231,10 @@
       "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
       "Décima Forma: Seisei Ruten (Dragão da Mudança)",
       "Décima Primeira Forma: Nagi (Calmaria)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shinobu-kocho",
@@ -230,7 +257,10 @@
       "Dança do Espinho da Abelha: Nabiki Asahi (Picada Verdadeira)",
       "Dança da Libélula: Fugan - Rokkaku Chūgatsu (Hexágono de Olhos Compostos)",
       "Dança da Centopeia: Hyakusoku Jabara (Zigue-zague das Cem Pernas)"
-    ]
+    ],
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kyojuro-rengoku",
@@ -254,7 +284,10 @@
       "Quarta Forma: Sei-en no Uneri (Onda de Chamas Florescentes)",
       "Quinta Forma: Enosuke (Tigre de Fogo)",
       "Nona Forma: Rengoku (Chamas Ferozes / Rengoku)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tengen-uzui",
@@ -275,7 +308,10 @@
       "Primeira Forma: Todoroki (Ressoador)",
       "Quarta Forma: Kyōzan Muken (Corte Perfeito da Fenda Ressoante)",
       "Quinta Forma: Kiringaku (Partitura Musical Estrondosa)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "muichiro-tokito",
@@ -300,7 +336,10 @@
       "Quinta Forma: Kairou Kasumi (Névoa de Mar das Nuvens)",
       "Sexta Forma: Tsukirin no Kasumi (Névoa da Lua Nebulosa)",
       "Sétima Forma: Oboro (Névoa Oculta)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mitsuri-kanroji",
@@ -323,7 +362,10 @@
       "Terceira Forma: Koi Neko Shigure (Chuva de Gato Amável)",
       "Quinta Forma: Yura Meki Renjō - Shiren (Garradas Trêmulas de Amor)",
       "Sexta Forma: Neko Fuugatsu - Koi Kaze (Vento do Amor da Garra de Gato)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "obanai-iguro",
@@ -346,7 +388,10 @@
       "Terceira Forma: Unekuri Giri (Corte Sinuoso)",
       "Quarta Forma: Jinjan no Kyōraku (Serpente de Duas Cabeças)",
       "Quinta Forma: Enen Chōda (Serpente Deslizante Gigante)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sanemi-shinazugawa",
@@ -373,7 +418,10 @@
       "Sétima Forma: Keikou - Tengu Kaze (Vento Tengu da Brisa)",
       "Oitava Forma: Rekka Kaze Giri (Corte do Vento da Brisa Flamejante)",
       "Nona Forma: Idaten Kaze (Vento Nobre Idaten)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gyomei-himejima",
@@ -396,7 +444,10 @@
       "Terceira Forma: Ganseki skin (Pele de Rocha)",
       "Quarta Forma: Ryūmyaku Seikyō (Conquista do Dragão de Rocha)",
       "Quinta Forma: Aragan no Gyōkō (Arco da Rocha Espiritual)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kanae-kocho",
@@ -418,7 +469,10 @@
       "Quarta Forma: Hanakoromo (Manto de Flores)",
       "Quinta Forma: Mutō Kaku (Peônia sem Peonagem)",
       "Sexta Forma: Azami no Ukon (Cardo Vermelho)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sakonji-urokodaki",
@@ -446,7 +500,10 @@
       "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
       "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
       "Décima Forma: Seisei Ruten (Dragão da Mudança)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sabito",
@@ -473,7 +530,10 @@
       "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
       "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
       "Décima Forma: Seisei Ruten (Dragão da Mudança)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "makomo",
@@ -500,7 +560,10 @@
       "Oitava Forma: Taki Tsubo (Jarro da Cachoeira)",
       "Nona Forma: Suiryū Shibuki (Respingos d'Água Caóticos)",
       "Décima Forma: Seisei Ruten (Dragão da Mudança)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jigoro-kuwajima",
@@ -524,7 +587,10 @@
       "Quarta Forma: Enrai",
       "Quinta Forma: Atsurai",
       "Sexta Forma: Dengou Raigou"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hotaru-haganezuka",
@@ -540,7 +606,10 @@
     "status": "Vivo",
     "quote": "Vou te matar por quebrar a minha espada!",
     "ability": "Polimento Extremo de Lâmina Nichirin",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138990-E5kiUoLigpyX.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138990-E5kiUoLigpyX.jpg",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kozo-kanamori",
@@ -555,7 +624,10 @@
     "status": "Vivo",
     "quote": "Fiz esta espada pensando no estilo único do Tokito-sama.",
     "ability": "Forja Especializada Nichirin",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b206331-ss70JxaeUkeU.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b206331-ss70JxaeUkeU.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kotetsu",
@@ -570,7 +642,10 @@
     "status": "Vivo",
     "quote": "Seu fracassado! Continue treinando até vomitar!",
     "ability": "Operação de Treinamento Automatizado",
-    "avatar": "/avatars/demon-slayer/kotetsu.png"
+    "avatar": "/avatars/demon-slayer/kotetsu.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tecchin-tecchikawahara",
@@ -585,7 +660,10 @@
     "status": "Vivo",
     "quote": "Ferreiros são artistas de lâminas!",
     "ability": "Liderança de Artesãos",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b299978-KMYqUZV1ejla.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b299978-KMYqUZV1ejla.jpg",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kagaya-ubuyashiki",
@@ -601,7 +679,10 @@
     "status": "Morto",
     "quote": "Meus amados filhos caçadores...",
     "ability": "Ressonância Vocal de Acalento",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137808-4yA8XQUDrAho.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137808-4yA8XQUDrAho.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "amane-ubuyashiki",
@@ -616,7 +697,10 @@
     "status": "Morto",
     "quote": "Estar ao lado do meu esposo até o fim é meu desejo.",
     "ability": "Suporte Estratégico",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b221375-cMlefDNTlcD6.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b221375-cMlefDNTlcD6.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kiriya-ubuyashiki",
@@ -632,7 +716,10 @@
     "status": "Vivo",
     "quote": "A batalha do Castelo Infinito deve ser coordenada até o último segundo!",
     "ability": "Mapeamento Psíquico por Pássaros Usame",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139460-jA7lAHb17aLL.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139460-jA7lAHb17aLL.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kanata-ubuyashiki",
@@ -647,7 +734,10 @@
     "status": "Vivo",
     "quote": "Sejam bem-vindos à Seleção Final.",
     "ability": "Assistente da Seleção Final",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b153220-QH10oCcepSdz.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b153220-QH10oCcepSdz.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aoi-kanzaki",
@@ -663,7 +753,10 @@
     "status": "Vivo",
     "quote": "Tive sorte na Seleção Final, por isso fico na Mansão ajudando na recuperação.",
     "ability": "Cuidados Médicos e Farmacologia",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b145288-1sZG1vJmysmY.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b145288-1sZG1vJmysmY.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "murata",
@@ -678,7 +771,10 @@
     "status": "Vivo",
     "quote": "Eu também sou um caçador de demônios!",
     "ability": "Sobrevivência Incrível",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b171150-3Ju2DXBVq41F.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b171150-3Ju2DXBVq41F.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tamayo",
@@ -698,7 +794,10 @@
     "techniques": [
       "Aroma da Ilusão (Bikou no Kou)",
       "Sangue Visual da Verdade"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yushiro",
@@ -718,7 +817,10 @@
     "techniques": [
       "Vendas de Ocultação de Papel (Ocultação de Presença)",
       "Compartilhamento de Visão Oftálmica"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chachamaru",
@@ -734,7 +836,10 @@
     "status": "Vivo",
     "quote": "Miau! *Transporta soro anti-Kekkijutsu*",
     "ability": "Papel de Ocultação e Aplicação de Soro Antidemoníaco",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b268212-cdX6j5xYomyU.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b268212-cdX6j5xYomyU.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "muzan-kibutsuji",
@@ -755,7 +860,10 @@
       "Chicotadas de Tentáculos Espinhosos",
       "Sangue Demoníaco Proliferador e Maldição da Carne",
       "Onda de Choque de Sangue e Demolição Celular"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kokushibo",
@@ -783,7 +891,10 @@
       "Décima Forma: Senmetsu Tsuki - Sengetsukou (Luas Cortantes e Destrutivas)",
       "Décima Quarta Forma: Kyoushou - Senmen Tsuki (Catástrofe de Luas Caóticas)",
       "Décima Sexta Forma: Getsukou - Kataware Tsuki (Arco da Lua em Ruínas)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "doma",
@@ -807,7 +918,10 @@
       "Suiren Bosatsu (Lótus do Gelo Celestial / Bodhisattva de Gelo)",
       "Tsurara no Onna (Princesas de Gelo)",
       "Kareshibana (Jardim de Flores Secas Congeladas)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "akaza",
@@ -832,7 +946,10 @@
       "Kiyoshiki (Punho de Metal Aniquilador)",
       "Kuuashiki (Punho do Vazio Aniquilador)",
       "Kishin Shouryuu (Estilo do Dragão Demoníaco)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hantengu",
@@ -850,7 +967,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b260323-2zytvxsXp7rG.png",
     "techniques": [
       "Divisão em Demônios de Emoção Primal"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sekido",
@@ -868,7 +988,10 @@
     "avatar": "https://i.pinimg.com/236x/f2/90/5a/f2905a1ded96fa71a6aea746f9a76a10.jpg",
     "techniques": [
       "Descargas Elétricas e Cetro de Trovão (Raijin)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "karaku",
@@ -886,7 +1009,10 @@
     "avatar": "https://preview.redd.it/what-type-of-pleasure-is-karaku-v0-qoaq5p3mxxwe1.jpg?width=319&format=pjpg&auto=webp&s=39a39cc4d61df943cb1bc9384db9597a375db16f",
     "techniques": [
       "Raios de Vento Devastadores com Leque (Uchiwa)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aizetsu",
@@ -904,7 +1030,10 @@
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCk4Vj-MhUEKQlo8ajMoLp-9ZeyHzWDlt9QOKelfK5BiTTx_y4B2byYTY&s=10",
     "techniques": [
       "Estocadas de Lança de Sangue (Yari)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "urogi",
@@ -922,7 +1051,10 @@
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw49RYiKGm5ZhYjbA1__T8PXH57PPyEglHpPHK7Z_mRNoH9gevWdcQJgiC&s=10",
     "techniques": [
       "Grito Ultrassônico e Garras de Aves"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zohakuten",
@@ -942,7 +1074,10 @@
       "Dragões de Madeira de Cinco Cabeças (Mugatsu)",
       "Grito Ultrassônico de Madeira",
       "Raios e Tempestade de Vento de Madeira"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gyokko",
@@ -963,7 +1098,10 @@
       "Kraken de Espinhos Marinhos de Água",
       "Peixes Agulha Venenosos de Vaso",
       "Vaso de Prisão de Água"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "daki",
@@ -982,7 +1120,10 @@
     "techniques": [
       "Cortes de Faixas de Seda Óssea",
       "Vórtice de Faixas de Seda Afiadas"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gyutaro",
@@ -1001,7 +1142,10 @@
     "techniques": [
       "Tobichigama (Hozes de Sangue Venenoso)",
       "Vórtice Curvo de Hozes Venenosas"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaigaku-human",
@@ -1024,7 +1168,10 @@
       "Quarta Forma: Enrai",
       "Quinta Forma: Atsurai",
       "Sexta Forma: Dengou Raigou"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaigaku-demon",
@@ -1046,7 +1193,10 @@
       "Quarta Forma: Enrai (Trovão Negro)",
       "Quinta Forma: Atsurai Thunder (Trovão Negro)",
       "Sexta Forma: Dengou Raigou (Trovão Negro)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "enmu",
@@ -1066,7 +1216,10 @@
       "Gatilho de Sono por Bilhete de Trem",
       "Boca na Mão de Hipnose e Sussurros",
       "Fusão com o Trem Infinito e Olhos de Sono"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rui",
@@ -1086,7 +1239,10 @@
       "Teias de Sangue Resistentes",
       "Kokushi Rourou (Prisão de Teias de Sangue)",
       "Rotentō (Corte de Roda de Teias)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kyogai",
@@ -1105,7 +1261,10 @@
     "techniques": [
       "Golpes de Tambor de Rotação Espacial",
       "Garras Invisíveis Espaciais de Tambor"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "susamaru",
@@ -1123,7 +1282,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138810-1d6mUy8lzr8K.png",
     "techniques": [
       "Temaris de Sangue com Braços Múltiplos"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yahaba",
@@ -1141,7 +1303,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138811-V9NNgNp9dAjq.png",
     "techniques": [
       "Flechas Vetoriais Koketsu (Manipulação de Vetores)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "temple-demon",
@@ -1159,7 +1324,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138989-2ZWGyfLbCxtV.png",
     "techniques": [
       "Regeneração e Braços Múltiplos"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hand-demon",
@@ -1177,7 +1345,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138988-xU0pGFRXSweT.png",
     "techniques": [
       "Braços Gigantes de Carne"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "swamp-demon",
@@ -1195,7 +1366,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b138812-Imqj3sSfpcso.jpg",
     "techniques": [
       "Dimensão de Pântano Negro"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mother-spider-demon",
@@ -1213,7 +1387,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b141692-WQtsdIB6qfUF.png",
     "techniques": [
       "Fios de Marionete Humana"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "father-spider-demon",
@@ -1231,7 +1408,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b141693-18yNfOx3iopF.png",
     "techniques": [
       "Transformação de Pele de Pedra"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tanjuro-kamado",
@@ -1246,7 +1426,10 @@
     "status": "Morto",
     "quote": "Respire fundo e continue dançando para o Deus do Fogo.",
     "ability": "Dança da Hinokami Kagura Sem Exaustão",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b206330-dDKOKM4O2pVg.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b206330-dDKOKM4O2pVg.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kie-kamado",
@@ -1261,7 +1444,10 @@
     "status": "Morto",
     "quote": "Tome cuidado na montanha, Tanjiro.",
     "ability": "Nenhum",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196849-xnYBt0Jf5Htf.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196849-xnYBt0Jf5Htf.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "takeo-kamado",
@@ -1276,7 +1462,10 @@
     "status": "Morto",
     "quote": "Eu também quero ajudar a cortar lenha!",
     "ability": "Nenhum",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196852-zzu0xZXJrFr9.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196852-zzu0xZXJrFr9.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hanako-kamado",
@@ -1291,7 +1480,10 @@
     "status": "Morto",
     "quote": "Tanjiro, me leva com você!",
     "ability": "Nenhum",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196853-3MBhoPxBTvrN.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196853-3MBhoPxBTvrN.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shigeru-kamado",
@@ -1306,7 +1498,10 @@
     "status": "Morto",
     "quote": "Volte logo, irmãozinho!",
     "ability": "Nenhum",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196851-r5px2ZuOU9I2.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196851-r5px2ZuOU9I2.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rokuta-kamado",
@@ -1321,7 +1516,10 @@
     "status": "Morto",
     "quote": "*Dorme nos ombros do Tanjiro*",
     "ability": "Nenhum",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b207857-sn24LyeKSrPr.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b207857-sn24LyeKSrPr.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shinjuro-rengoku",
@@ -1337,7 +1535,10 @@
     "status": "Vivo",
     "quote": "Kyojuro... você lutou bravamente até o fim!",
     "ability": "Guarda de Elite do Novo Líder Ubuyashiki",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193379-54MeZxQdvZ9o.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193379-54MeZxQdvZ9o.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ruka-rengoku",
@@ -1352,7 +1553,10 @@
     "status": "Morto",
     "quote": "Aqueles que nascem fortes têm o dever de proteger os fracos.",
     "ability": "Nenhum",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193378-dSruD7x4KzQA.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193378-dSruD7x4KzQA.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "senjuro-rengoku",
@@ -1367,7 +1571,10 @@
     "status": "Vivo",
     "quote": "Mesmo que eu não consiga ser um Hashira, ajudarei com os registros da família.",
     "ability": "Pesquisa Histórica da Respiração",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193380-W10Kx339cY4D.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193380-W10Kx339cY4D.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hinatsuru",
@@ -1383,7 +1590,10 @@
     "status": "Vivo",
     "quote": "Se derrotarmos a Lua Superior, vamos viver como humanos normais.",
     "ability": "Disparo de Balestra de Kunais",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250556-tZ6egykZTk4Y.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250556-tZ6egykZTk4Y.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "makio",
@@ -1399,7 +1609,10 @@
     "status": "Vivo",
     "quote": "Suma, cale a boca e lute!",
     "ability": "Agilidade e Espionagem Shinobi",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250554-tPaaPn3oAwNf.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250554-tPaaPn3oAwNf.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "suma",
@@ -1415,7 +1628,10 @@
     "status": "Vivo",
     "quote": "Tengen-sama! Nós vamos morrer!",
     "ability": "Resgate e Evasão Ninja",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250555-jmjxCYpywW03.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b250555-jmjxCYpywW03.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "keizo",
@@ -1430,7 +1646,10 @@
     "status": "Morto",
     "quote": "Hakuji, você vai herdar o meu dojo e cuidar da minha filha!",
     "ability": "Estilo Soryu de Combate Desarmado",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b372391-sCs5eizjYrsy.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b372391-sCs5eizjYrsy.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "koyuki",
@@ -1445,7 +1664,10 @@
     "status": "Morto",
     "quote": "Hakuji-san... obrigada por ter me protegido.",
     "ability": "Nenhum",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonorBRO31WjYl3kTAzQr_y-Nl38OaBKB2D0IKMC6A90nRFdc759c0IR6W&s=10"
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTonorBRO31WjYl3kTAzQr_y-Nl38OaBKB2D0IKMC6A90nRFdc759c0IR6W&s=10",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoriichi-tsugikuni",
@@ -1469,7 +1691,10 @@
       "Hinokami Kagura: Kasha (Roda de Fogo)",
       "Hinokami Kagura: Shiyō no Esaku (Corte de Raios Solares)",
       "Décima Terceira Forma: Dança do Deus do Fogo Unificada"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hairo",
@@ -1487,7 +1712,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b194462-1O0lBhOkAvPQ.jpg",
     "techniques": [
       "Sombras Armadas e Tiroteio Demoníaco"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nakime",
@@ -1506,7 +1734,10 @@
     "quote": "",
     "techniques": [
       "Biwa de Reposicionamento do Castelo Infinito"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "michikatsu-tsugikuni",
@@ -1527,7 +1758,10 @@
       "Primeira Forma: Yamidzuki - Yoi no Miya (Lua Sombria)",
       "Segunda Forma: Shusa no Yojitsuki",
       "Terceira Forma: Gakyo - Tsugari Tsuki"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hakuji",
@@ -1542,7 +1776,10 @@
     "status": "Morto",
     "quote": "Eu vou ficar mais forte do que qualquer um para proteger quem eu amo!",
     "ability": "Artes Marciais do Estilo Soryu",
-    "avatar": "https://i.redd.it/lb106e6x6juf1.jpg"
+    "avatar": "https://i.redd.it/lb106e6x6juf1.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mukago",
@@ -1559,7 +1796,10 @@
     "quote": "Por favor, poupe minha vida, Muzan-sama!",
     "ability": "Medo Extremo dos Caçadores e Hashiras",
     "avatar": "/avatars/demon-slayer/mukago.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wakuraba",
@@ -1576,7 +1816,10 @@
     "quote": "Tentar fugir do castelo era sua única chance desesperada de sobrevivência.",
     "ability": "Agilidade e Regeneração Aprimorada",
     "avatar": "/avatars/demon-slayer/wakuraba.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rokkuro",
@@ -1593,7 +1836,10 @@
     "quote": "Se você me der mais do seu sangue, com certeza ficarei mais forte!",
     "ability": "Suplica por mais sangue de Muzan",
     "avatar": "/avatars/demon-slayer/rokkuro.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kamanue",
@@ -1610,7 +1856,10 @@
     "quote": "Não posso prever os pensamentos de Muzan-sama...",
     "ability": "Primeira vítima do expurgo das Luas Inferiores",
     "avatar": "/avatars/demon-slayer/kamanue.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "naho-takada",
@@ -1627,7 +1876,10 @@
     "quote": "Uma das três meninas que ajudam nos cuidados dos caçadores feridos na Mansão Borboleta.",
     "ability": "Tratamento e Reabilitação de Pacientes",
     "avatar": "/avatars/demon-slayer/naho-takada.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kiyo-terauchi",
@@ -1644,7 +1896,10 @@
     "quote": "Auxiliar dedicada da Mansão Borboleta que ajuda no treino de recuperação.",
     "ability": "Tratamento e Reabilitação de Pacientes",
     "avatar": "/avatars/demon-slayer/kiyo-terauchi.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sumi-nakahara",
@@ -1661,7 +1916,10 @@
     "quote": "Sempre torcendo pela recuperação completa de Tanjiro e seus amigos.",
     "ability": "Tratamento e Reabilitação de Pacientes",
     "avatar": "/avatars/demon-slayer/sumi-nakahara.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "goto",
@@ -1678,7 +1936,10 @@
     "quote": "Acorda logo, Tanjiro! Você tem ideia do trabalho que deu trazer você até aqui?!",
     "ability": "Operações de Campo e Resgate de Feridos",
     "avatar": "/avatars/demon-slayer/goto.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ozaki",
@@ -1694,7 +1955,10 @@
     "quote": "Por favor, fujam! Tragam caçadores de ranking superior!",
     "ability": "Espadachim do Esquadrão controlada pelas teias da Família Aranha",
     "avatar": "/avatars/demon-slayer/ozaki.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "spider-brother",
@@ -1710,7 +1974,10 @@
     "quote": "Você vai se transformar em uma aranha dentro de trinta minutos!",
     "ability": "Veneno de Mutação Aracnídea",
     "avatar": "/avatars/demon-slayer/spider-brother.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "spider-sister-older",
@@ -1726,6 +1993,9 @@
     "quote": "Tudo o que eu fiz foi para sobreviver nesta família de mentira!",
     "ability": "Casulos Dissolventes de Carne",
     "avatar": "/avatars/demon-slayer/spider-sister-older.png",
-    "techniques": []
+    "techniques": [],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

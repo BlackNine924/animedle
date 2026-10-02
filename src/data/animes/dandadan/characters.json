@@ -19,7 +19,10 @@
       "Aura Gigante de Punho",
       "Agarrão Psíquico"
     ],
-    "avatar": "/avatars/dandadan/momo-ayase.png"
+    "avatar": "/avatars/dandadan/momo-ayase.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ken-takakura",
@@ -41,7 +44,10 @@
       "Cabeçada Turbo",
       "Salto Aerodinâmico"
     ],
-    "avatar": "/avatars/dandadan/ken-takakura.png"
+    "avatar": "/avatars/dandadan/ken-takakura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "seiko-ayase",
@@ -63,7 +69,10 @@
       "Técnica de Confinamento",
       "Bastão Espiritual"
     ],
-    "avatar": "/avatars/dandadan/seiko-ayase.png"
+    "avatar": "/avatars/dandadan/seiko-ayase.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "turbo-vovó",
@@ -83,7 +92,10 @@
       "Corpo Possuído de Maneki-neko",
       "Maldição Espiritual de Velocidade"
     ],
-    "avatar": "/avatars/dandadan/turbo-vovó.png"
+    "avatar": "/avatars/dandadan/turbo-vovó.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aira-shiratori",
@@ -105,7 +117,10 @@
       "Agilidade Acrobática",
       "Dança Graciosa Silky"
     ],
-    "avatar": "/avatars/dandadan/aira-shiratori.png"
+    "avatar": "/avatars/dandadan/aira-shiratori.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jin-enjoji",
@@ -126,7 +141,10 @@
       "Concha de Rancor e Futebol",
       "Explosão de Ki Espiritual"
     ],
-    "avatar": "/avatars/dandadan/jin-enjoji.png"
+    "avatar": "/avatars/dandadan/jin-enjoji.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "olho-maligno",
@@ -148,7 +166,10 @@
       "Aura de Ódio Ancestral",
       "Impacto Sísmico"
     ],
-    "avatar": "/avatars/dandadan/olho-maligno.png"
+    "avatar": "/avatars/dandadan/olho-maligno.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vamola",
@@ -169,7 +190,10 @@
       "Rugido Sônico Cósmico",
       "Canhão de Fótons"
     ],
-    "avatar": "/avatars/dandadan/vamola.png"
+    "avatar": "/avatars/dandadan/vamola.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kinta-sakata",
@@ -191,7 +215,10 @@
       "Metamorfose Nanotecnológica",
       "Chute Transformador Mecha"
     ],
-    "avatar": "/avatars/dandadan/kinta-sakata.png"
+    "avatar": "/avatars/dandadan/kinta-sakata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rin-sawaki",
@@ -213,7 +240,10 @@
       "Aura Musical de Suporte",
       "Grito Ultrassônico"
     ],
-    "avatar": "/avatars/dandadan/rin-sawaki.png"
+    "avatar": "/avatars/dandadan/rin-sawaki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "unji-zuma",
@@ -235,7 +265,10 @@
       "Lâmina Dilacerante Danmara",
       "Barreira de Chuva Espiritual"
     ],
-    "avatar": "/avatars/dandadan/unji-zuma.png"
+    "avatar": "/avatars/dandadan/unji-zuma.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "daiki-hasegawa",
@@ -256,7 +289,10 @@
       "Imobilização Policial",
       "Tática Investigativa Especial"
     ],
-    "avatar": "/avatars/dandadan/daiki-hasegawa.png"
+    "avatar": "/avatars/dandadan/daiki-hasegawa.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "manjiro",
@@ -276,7 +312,10 @@
       "Barreira de Mantras Xintoístas",
       "Cânticos de Exorcismo"
     ],
-    "avatar": "/avatars/dandadan/manjiro.png"
+    "avatar": "/avatars/dandadan/manjiro.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chiquitita",
@@ -296,7 +335,10 @@
       "Impacto de Cavitação Subaquático",
       "Carga Voraz de Alta Velocidade"
     ],
-    "avatar": "/avatars/dandadan/chiquitita.png"
+    "avatar": "/avatars/dandadan/chiquitita.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pejin",
@@ -317,7 +359,10 @@
       "Onda de Choque de Cavitação",
       "Boxe Marinho de Impacto Puro"
     ],
-    "avatar": "/avatars/dandadan/pejin.png"
+    "avatar": "/avatars/dandadan/pejin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "taro",
@@ -337,7 +382,10 @@
       "Abraço de Concreto e Resina",
       "Impacto Corporal Desarticulado"
     ],
-    "avatar": "/avatars/dandadan/taro.png"
+    "avatar": "/avatars/dandadan/taro.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hana",
@@ -357,7 +405,10 @@
       "Dança Anatômica Romântica",
       "Defesa Escultural de Fibra"
     ],
-    "avatar": "/avatars/dandadan/hana.png"
+    "avatar": "/avatars/dandadan/hana.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "banga",
@@ -377,7 +428,10 @@
       "Comando de Traje de Fótons",
       "Engenharia de Armadura Antiga"
     ],
-    "avatar": "/avatars/dandadan/banga.png"
+    "avatar": "/avatars/dandadan/banga.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mai-kawabanga",
@@ -395,7 +449,10 @@
     "techniques": [
       "Passos de Balé Clássico"
     ],
-    "avatar": "/avatars/dandadan/mai-kawabanga.png"
+    "avatar": "/avatars/dandadan/mai-kawabanga.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hakuto",
@@ -414,7 +471,10 @@
       "Combate de Rua com Porrete",
       "Tackle de Gangue"
     ],
-    "avatar": "/avatars/dandadan/hakuto.png"
+    "avatar": "/avatars/dandadan/hakuto.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "suda-ko",
@@ -433,7 +493,10 @@
       "Golpes Desesperados de Rua",
       "Defesa Coletiva com Bastão"
     ],
-    "avatar": "/avatars/dandadan/suda-ko.png"
+    "avatar": "/avatars/dandadan/suda-ko.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "futa-zuma",
@@ -451,7 +514,10 @@
     "techniques": [
       "Fuga Rápida"
     ],
-    "avatar": "/avatars/dandadan/futa-zuma.png"
+    "avatar": "/avatars/dandadan/futa-zuma.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "koki-yukishiro",
@@ -471,7 +537,10 @@
       "Sensibilidade Mediúnica de Facas",
       "Leitura de Rastros Místicos"
     ],
-    "avatar": "/avatars/dandadan/koki-yukishiro.png"
+    "avatar": "/avatars/dandadan/koki-yukishiro.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alice-yukishiro",
@@ -491,7 +560,10 @@
       "Visão Extrassensorial Remota",
       "Escudo Mental Mediúnico"
     ],
-    "avatar": "/avatars/dandadan/alice-yukishiro.png"
+    "avatar": "/avatars/dandadan/alice-yukishiro.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "acrobatic-silky",
@@ -511,7 +583,10 @@
       "Dança Acrobática Macabra",
       "Rede de Fios Capilares Asfixiantes"
     ],
-    "avatar": "/avatars/dandadan/acrobatic-silky.png"
+    "avatar": "/avatars/dandadan/acrobatic-silky.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kashima-reiko",
@@ -532,7 +607,10 @@
       "Teletransporte por Superfícies Refletoras",
       "Ilusão Perfeita de Reflexo"
     ],
-    "avatar": "/avatars/dandadan/kashima-reiko.png"
+    "avatar": "/avatars/dandadan/kashima-reiko.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "onbusuman",
@@ -552,7 +630,10 @@
       "Esmagamento Gravitacional",
       "Aderência Inescapável"
     ],
-    "avatar": "/avatars/dandadan/onbusuman.png"
+    "avatar": "/avatars/dandadan/onbusuman.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guarda-chuva-youkai",
@@ -572,7 +653,10 @@
       "Chuva Torrencial Cortante",
       "Barreira Espiral Hermética"
     ],
-    "avatar": "/avatars/dandadan/guarda-chuva-youkai.png"
+    "avatar": "/avatars/dandadan/guarda-chuva-youkai.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "typhoon-human",
@@ -592,7 +676,10 @@
       "Rajada Ciclônica de Alta Pressão",
       "Lâminas de Vento Furacão"
     ],
-    "avatar": "/avatars/dandadan/typhoon-human.png"
+    "avatar": "/avatars/dandadan/typhoon-human.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guardiao-gelo-fogo",
@@ -612,7 +699,10 @@
       "Congelamento Absoluto de Alma",
       "Vórtice Termal Bipolar"
     ],
-    "avatar": "/avatars/dandadan/guardiao-gelo-fogo.png"
+    "avatar": "/avatars/dandadan/guardiao-gelo-fogo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rokuro-serpo",
@@ -633,7 +723,10 @@
       "Teletransporte de Emergência",
       "Análise Molecular Tecnológica"
     ],
-    "avatar": "/avatars/dandadan/rokuro-serpo.png"
+    "avatar": "/avatars/dandadan/rokuro-serpo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "serpoianos",
@@ -654,7 +747,10 @@
       "Fusão Tecnológica de Criptídeo",
       "Teletransporte Quântico"
     ],
-    "avatar": "/avatars/dandadan/serpoianos.png"
+    "avatar": "/avatars/dandadan/serpoianos.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "flatwoods-monster",
@@ -674,7 +770,10 @@
       "Campo Repulsor de Alta Voltagem",
       "Nuvem de Gás Asfixiante"
     ],
-    "avatar": "/avatars/dandadan/flatwoods-monster.png"
+    "avatar": "/avatars/dandadan/flatwoods-monster.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nessie",
@@ -694,7 +793,10 @@
       "Bote Subaquático Supersônico",
       "Impacto de Cauda Blindada"
     ],
-    "avatar": "/avatars/dandadan/nessie.png"
+    "avatar": "/avatars/dandadan/nessie.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dover-demon",
@@ -714,7 +816,10 @@
       "Garras Ácidas Corrosivas",
       "Salto Predatório"
     ],
-    "avatar": "/avatars/dandadan/dover-demon.png"
+    "avatar": "/avatars/dandadan/dover-demon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kur-emperor",
@@ -734,7 +839,10 @@
       "Escudo Bélico de Matéria Escura",
       "Invocação de Batalhões Dragão"
     ],
-    "avatar": "/avatars/dandadan/kur-emperor.png"
+    "avatar": "/avatars/dandadan/kur-emperor.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "clown-dragon-knight",
@@ -754,7 +862,10 @@
       "Garras Energéticas de Plasma",
       "Teletransporte Ilusório"
     ],
-    "avatar": "/avatars/dandadan/clown-dragon-knight.png"
+    "avatar": "/avatars/dandadan/clown-dragon-knight.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "coat-dragon-knight",
@@ -774,7 +885,10 @@
       "Disparo Contínuo de Raios",
       "Blindagem Antipartículas"
     ],
-    "avatar": "/avatars/dandadan/coat-dragon-knight.png"
+    "avatar": "/avatars/dandadan/coat-dragon-knight.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "diamond-dragon-knight",
@@ -794,7 +908,10 @@
       "Bombardeio Sônico",
       "Barreira de Refração Quântica"
     ],
-    "avatar": "/avatars/dandadan/diamond-dragon-knight.png"
+    "avatar": "/avatars/dandadan/diamond-dragon-knight.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "saint-germain",
@@ -815,7 +932,10 @@
       "Manipulação Temporal de Selos",
       "Disparo Hiperespiritual"
     ],
-    "avatar": "/avatars/dandadan/saint-germain.png"
+    "avatar": "/avatars/dandadan/saint-germain.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "natsu-kito",
@@ -835,7 +955,10 @@
       "Hipnose Coletiva de Vilarejo",
       "Maldição de Submissão Sangrenta"
     ],
-    "avatar": "/avatars/dandadan/natsu-kito.png"
+    "avatar": "/avatars/dandadan/natsu-kito.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jugenmu-kito",
@@ -854,7 +977,10 @@
       "Golpe Esmagador com Porrete",
       "Armadilhas de Caça Ancestral"
     ],
-    "avatar": "/avatars/dandadan/jugenmu-kito.png"
+    "avatar": "/avatars/dandadan/jugenmu-kito.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsubame-kito",
@@ -873,7 +999,10 @@
       "Encantamento de Seda Negra",
       "Ritual de Paralisia Espiritual"
     ],
-    "avatar": "/avatars/dandadan/tsubame-kito.png"
+    "avatar": "/avatars/dandadan/tsubame-kito.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsuchinoko",
@@ -893,7 +1022,10 @@
       "Bote Subterrâneo Sísmico",
       "Constrição de Verme Gigante"
     ],
-    "avatar": "/avatars/dandadan/tsuchinoko.png"
+    "avatar": "/avatars/dandadan/tsuchinoko.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cursed-house-child",
@@ -912,7 +1044,10 @@
       "Manifestação Poltergeist de Rancor",
       "Muralha de Ilusões Funestas"
     ],
-    "avatar": "/avatars/dandadan/cursed-house-child.png"
+    "avatar": "/avatars/dandadan/cursed-house-child.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "music-room-portraits",
@@ -933,7 +1068,10 @@
       "Bombardeio de Molduras Assombradas",
       "Ressonância Cacofônica"
     ],
-    "avatar": "/avatars/dandadan/music-room-portraits.png"
+    "avatar": "/avatars/dandadan/music-room-portraits.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "earthbound-spirit-crab",
@@ -953,7 +1091,10 @@
       "Fusão Espiritual de Rancor",
       "Jato de Lama Represada"
     ],
-    "avatar": "/avatars/dandadan/earthbound-spirit-crab.png"
+    "avatar": "/avatars/dandadan/earthbound-spirit-crab.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gilles-de-rais",
@@ -973,7 +1114,10 @@
       "Invocação de Sombras Medievais",
       "Névoa Sombria de Agonia"
     ],
-    "avatar": "/avatars/dandadan/gilles-de-rais.png"
+    "avatar": "/avatars/dandadan/gilles-de-rais.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lord-of-the-flies",
@@ -993,7 +1137,10 @@
       "Maldição Ocular Putrefata",
       "Nuvem de Pestilência"
     ],
-    "avatar": "/avatars/dandadan/lord-of-the-flies.png"
+    "avatar": "/avatars/dandadan/lord-of-the-flies.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kamikure",
@@ -1013,7 +1160,10 @@
       "Barreira Sagrada Provincial",
       "Punição dos Espíritos da Terra"
     ],
-    "avatar": "/avatars/dandadan/kamikure.png"
+    "avatar": "/avatars/dandadan/kamikure.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "black-haircutter",
@@ -1033,7 +1183,10 @@
       "Emboscada das Sombras Capilares",
       "Fios Trançados Cortantes"
     ],
-    "avatar": "/avatars/dandadan/black-haircutter.png"
+    "avatar": "/avatars/dandadan/black-haircutter.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "black-paladins",
@@ -1053,7 +1206,10 @@
       "Muralha de Aço Espectral",
       "Formação de Cerco Danmara"
     ],
-    "avatar": "/avatars/dandadan/black-paladins.png"
+    "avatar": "/avatars/dandadan/black-paladins.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vakappa",
@@ -1073,7 +1229,10 @@
       "Luta Aquática Corporal",
       "Proteção de Carapaça Mística"
     ],
-    "avatar": "/avatars/dandadan/vakappa.png"
+    "avatar": "/avatars/dandadan/vakappa.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toramaru-sodenashi",
@@ -1093,7 +1252,10 @@
       "Instinto de Caça Aguçado",
       "Artes Marciais Sobrenaturais"
     ],
-    "avatar": "/avatars/dandadan/toramaru-sodenashi.png"
+    "avatar": "/avatars/dandadan/toramaru-sodenashi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "baison",
@@ -1113,7 +1275,10 @@
       "Aposta do Tabuleiro Espiritual",
       "Barreira de Cartas Seladas"
     ],
-    "avatar": "/avatars/dandadan/baison.png"
+    "avatar": "/avatars/dandadan/baison.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "beam",
@@ -1133,7 +1298,10 @@
       "Barreira de Luz Repulsora",
       "Propulsão de Fótons"
     ],
-    "avatar": "/avatars/dandadan/beam.png"
+    "avatar": "/avatars/dandadan/beam.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sumerian-platoon-leader",
@@ -1153,7 +1321,10 @@
       "Formação de Escudo Sumeriano",
       "Investida Heroica de Sacrifício"
     ],
-    "avatar": "/avatars/dandadan/sumerian-platoon-leader.png"
+    "avatar": "/avatars/dandadan/sumerian-platoon-leader.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jet-booster-kur",
@@ -1173,7 +1344,10 @@
       "Bombardeio de Fótons Pesado",
       "Mergulho Aéreo Causal"
     ],
-    "avatar": "/avatars/dandadan/jet-booster-kur.png"
+    "avatar": "/avatars/dandadan/jet-booster-kur.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "head-exosuit-kur",
@@ -1193,7 +1367,10 @@
       "Escudo Bélico de Partículas",
       "Sinalizador de Fogo de Esquadrão"
     ],
-    "avatar": "/avatars/dandadan/head-exosuit-kur.png"
+    "avatar": "/avatars/dandadan/head-exosuit-kur.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mantis-exosuit-kur",
@@ -1213,7 +1390,10 @@
       "Salto Predatório de Alta Velocidade",
       "Defesa Cruzada de Lâminas"
     ],
-    "avatar": "/avatars/dandadan/mantis-exosuit-kur.png"
+    "avatar": "/avatars/dandadan/mantis-exosuit-kur.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "masked-eyepatch-dragon-knight",
@@ -1233,7 +1413,10 @@
       "Espada Gravitacional Pesada",
       "Blindagem Antibalística"
     ],
-    "avatar": "/avatars/dandadan/masked-eyepatch-dragon-knight.png"
+    "avatar": "/avatars/dandadan/masked-eyepatch-dragon-knight.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "naki-kito",
@@ -1253,7 +1436,10 @@
       "Salto Evasivo na Floresta",
       "Facas Rituais de Sacrifício"
     ],
-    "avatar": "/avatars/dandadan/naki-kito.png"
+    "avatar": "/avatars/dandadan/naki-kito.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "juichi-kito",
@@ -1272,7 +1458,10 @@
       "Estocada com Lança de Caça",
       "Armadilha de Espinhos Subterrânea"
     ],
-    "avatar": "/avatars/dandadan/juichi-kito.png"
+    "avatar": "/avatars/dandadan/juichi-kito.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "anzu",
@@ -1292,7 +1481,10 @@
       "Apoio Moral Gyaru",
       "Estilo de Moda e Maquiagem"
     ],
-    "avatar": "/avatars/dandadan/anzu.png"
+    "avatar": "/avatars/dandadan/anzu.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mika-adachi",
@@ -1312,6 +1504,9 @@
       "Apoio de Amizade",
       "Conselhos de Romance"
     ],
-    "avatar": "/avatars/dandadan/mika-adachi.png"
+    "avatar": "/avatars/dandadan/mika-adachi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

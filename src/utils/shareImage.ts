@@ -58,34 +58,29 @@ export const generateVictoryCardBlob = async (options: ShareCardOptions): Promis
   ctx.lineWidth = 1;
   ctx.strokeRect(24, 24, 752, 912);
 
-  // 3. Topo: Logo Oficial do Anime ou Nome AnimeDLE
+  // 3. Topo: Logo Oficial do Anime ou Nome AnimeDLE (Tamanho aumentado e sem texto redundante)
   let logoDrawn = false;
   if (options.animeSlug) {
     const logoImg = await loadCanvasImage(`/logos/${options.animeSlug}.png`);
     if (logoImg && logoImg.width > 0) {
-      const maxW = 200;
-      const maxH = 65;
+      const maxW = 340;
+      const maxH = 95;
       const scale = Math.min(maxW / logoImg.width, maxH / logoImg.height);
       const w = logoImg.width * scale;
       const h = logoImg.height * scale;
-      ctx.drawImage(logoImg, 400 - w / 2, 42 - h / 2 + 15, w, h);
+      ctx.drawImage(logoImg, 400 - w / 2, 58 - h / 2, w, h);
       logoDrawn = true;
     }
   }
 
   if (!logoDrawn) {
     ctx.fillStyle = '#ffffff';
-    ctx.font = '900 28px Inter, system-ui, sans-serif';
+    ctx.font = '900 36px Inter, system-ui, sans-serif';
     ctx.textAlign = 'center';
-    ctx.fillText('ANIME', 370, 65);
+    ctx.fillText('ANIME', 360, 68);
     ctx.fillStyle = options.themeColor;
-    ctx.fillText('DLE', 425, 65);
+    ctx.fillText('DLE', 430, 68);
   }
-
-  ctx.fillStyle = '#94a3b8';
-  ctx.font = '600 13px Inter, system-ui, sans-serif';
-  ctx.textAlign = 'center';
-  ctx.fillText('DESAFIO DIÁRIO DE ANIME', 400, 95);
 
   // Linha separadora
   ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';

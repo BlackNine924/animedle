@@ -19,7 +19,10 @@
     "techniques": [
       "Gear 5 (Nika)",
       "Bajrang Gun"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nico-robin",
@@ -42,7 +45,10 @@
     "techniques": [
       "Demonio Fleur",
       "Mil Fleur"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "roronoa-zoro",
@@ -63,7 +69,10 @@
     "techniques": [
       "Asura",
       "Corte do Rei do Inferno (Enma)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "franky",
@@ -85,7 +94,10 @@
     "techniques": [
       "Radical Beam",
       "General Franky"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sanji",
@@ -107,7 +119,10 @@
     "techniques": [
       "Ifrit Jambe",
       "Diable Jambe"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tony-tony-chopper",
@@ -128,7 +143,10 @@
     "techniques": [
       "Monster Point",
       "Kung Fu Point"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nami",
@@ -150,7 +168,10 @@
     "techniques": [
       "Thunderbolt Tempo",
       "Zeus Breeze Tempo"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "usopp",
@@ -171,7 +192,10 @@
     "techniques": [
       "Pop Greens",
       "Hissatsu Green Star"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "brook",
@@ -193,7 +217,10 @@
     "techniques": [
       "Esgrima Soul Solid",
       "Corte Congelante"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jinbe",
@@ -216,7 +243,10 @@
     "techniques": [
       "Gyo-Jin Karate",
       "Vagabond Drill"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "buggy",
@@ -241,7 +271,10 @@
     "techniques": [
       "Bara Bara Festival",
       "Muggy Ball"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nefertari-vivi",
@@ -263,7 +296,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b726-DqAIpscMuYYx.png",
     "techniques": [
       "Peacock Slasher"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shanks",
@@ -286,7 +322,10 @@
     "techniques": [
       "Kamusari (Divine Departure)",
       "Gryphon"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "enel",
@@ -307,7 +346,10 @@
     "techniques": [
       "Raigo",
       "200 Milhões de Volts Amaru"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dracule-mihawk",
@@ -328,7 +370,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2064-OpnF4nLi6bvL.png",
     "techniques": [
       "Corte Supremo com Lâmina Negra Yoru"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "portgas-d-ace",
@@ -350,7 +395,10 @@
     "techniques": [
       "Hiken (Punho de Fogo)",
       "Dai Enkai: Entei"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kuro",
@@ -370,7 +418,10 @@
     "quote": "",
     "techniques": [
       "Shakushi (Passagem da Morte)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bellamy",
@@ -391,7 +442,10 @@
     "quote": "",
     "techniques": [
       "Spring Hopper"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "crocodile",
@@ -414,7 +468,10 @@
     "techniques": [
       "Desert Spada",
       "Sables"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tashigi",
@@ -434,7 +491,10 @@
     "quote": "",
     "techniques": [
       "Corte de Katana com Armamento"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "edward-newgate-barba-branca",
@@ -457,7 +517,10 @@
     "techniques": [
       "Impacto Sísmico de Terremoto",
       "Bisento Murakumogiri"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kuzan",
@@ -479,7 +542,10 @@
     "techniques": [
       "Ice Age",
       "Ice Saber"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "smoker",
@@ -500,7 +566,10 @@
     "techniques": [
       "White Blow",
       "Jitte de Kairouseki"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "donquixote-doflamingo",
@@ -522,7 +591,10 @@
     "techniques": [
       "God Thread",
       "Parasite"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "galdino",
@@ -545,7 +617,10 @@
     "techniques": [
       "Armadura de Cera",
       "Doru Doru Arts"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kureha",
@@ -566,7 +641,10 @@
     "quote": "",
     "techniques": [
       "Tratamento Médico de Precisão"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kumadori",
@@ -588,7 +666,10 @@
     "techniques": [
       "Shigan",
       "Controle Capilar (Shugyo)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bentham",
@@ -610,7 +691,10 @@
     "techniques": [
       "Okama Kenpo",
       "Cópia de Aparência"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ben-beckman",
@@ -630,7 +714,10 @@
     "quote": "",
     "techniques": [
       "Disparo Tático de Fuzil"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "roger-gold",
@@ -650,7 +737,10 @@
     "quote": "",
     "techniques": [
       "Kamusari (Divine Departure)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dragon",
@@ -671,7 +761,10 @@
     "techniques": [
       "Ryusoken",
       "Rajada de Vento"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lucky-roux",
@@ -691,7 +784,10 @@
     "quote": "",
     "techniques": [
       "Saque Rápido de Pistola"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jango",
@@ -712,7 +808,10 @@
     "quote": "",
     "techniques": [
       "Hipnose com Pêndulo de Anel"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arlong",
@@ -734,7 +833,10 @@
     "techniques": [
       "Shark On Darts",
       "Tooth Gum"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nojiko",
@@ -755,7 +857,10 @@
     "quote": "",
     "techniques": [
       "Disparo de Defesa Comunitária"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hatchan",
@@ -778,7 +883,10 @@
     "techniques": [
       "Tako Shinju",
       "Shin-Kyu-Doryu"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bellemere",
@@ -799,7 +907,10 @@
     "quote": "",
     "techniques": [
       "Combate de Espingarda Naval"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chew",
@@ -821,7 +932,10 @@
     "techniques": [
       "Mizudoppo",
       "Hyakuretsu Mizudoppo"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "genzo",
@@ -843,7 +957,10 @@
     "techniques": [
       "Defesa de Vila",
       "Catavento"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "johnny",
@@ -864,7 +981,10 @@
     "quote": "",
     "techniques": [
       "Corte Duplo com Yosaku"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yosaku",
@@ -885,7 +1005,10 @@
     "quote": "",
     "techniques": [
       "Corte Duplo com Johnny"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kuroobi",
@@ -907,7 +1030,10 @@
     "techniques": [
       "Hyakukai Satsu",
       "Kachiage Kaisatsu"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mohji",
@@ -929,7 +1055,10 @@
     "techniques": [
       "Ataque do Leão Richie",
       "Chicote"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cabaji",
@@ -951,7 +1080,10 @@
     "techniques": [
       "Kamikaze Hyakugoma",
       "Sopros de Fogo"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "richie",
@@ -973,7 +1105,10 @@
     "techniques": [
       "Patada de Leão",
       "Mordida"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alvida",
@@ -996,7 +1131,10 @@
     "techniques": [
       "Sube Sube Spur",
       "Clava de Ferro"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "apis",
@@ -1017,7 +1155,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/5412.jpg",
     "techniques": [
       "Comunicação Telepática Animal"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "laboon",
@@ -1038,7 +1179,10 @@
     "quote": "",
     "techniques": [
       "Cabeçada de Baleia das Ilhas"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "igaram",
@@ -1059,7 +1203,10 @@
     "quote": "",
     "techniques": [
       "Igarappai (Tiroteio de Saxofone e Cabelo)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miss-monday",
@@ -1080,7 +1227,10 @@
     "quote": "",
     "techniques": [
       "Soco de Soco Inglês Muscular"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mikita",
@@ -1100,7 +1250,10 @@
     "quote": "",
     "techniques": [
       "10,000 Kilo Press"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gem",
@@ -1121,7 +1274,10 @@
     "techniques": [
       "Nose Fancy Cannon",
       "Bombas de Meleca"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marianne",
@@ -1141,7 +1297,10 @@
     "quote": "",
     "techniques": [
       "Pintura de Controle de Humor (Vermelho/Verde/Azul)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dorry",
@@ -1161,7 +1320,10 @@
     "quote": "",
     "techniques": [
       "Hakoku Sovereignty com Brogy"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "brogy",
@@ -1181,7 +1343,10 @@
     "quote": "",
     "techniques": [
       "Hakoku Sovereignty com Dorry"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wapol",
@@ -1203,7 +1368,10 @@
     "techniques": [
       "Baku Baku Factory",
       "Wapol House"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dalton",
@@ -1224,7 +1392,10 @@
     "techniques": [
       "Fiddle Banisher",
       "Investida Bisão"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rob-lucci",
@@ -1247,7 +1418,10 @@
     "techniques": [
       "Rokuogan",
       "Formas Despertadas de Leopardo"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "iceburg",
@@ -1269,7 +1443,10 @@
     "techniques": [
       "Liderança de Galley-La",
       "Construção de Navios"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kalifa",
@@ -1292,7 +1469,10 @@
     "techniques": [
       "Golden Hour",
       "Soap Sheep"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaku",
@@ -1315,7 +1495,10 @@
     "techniques": [
       "Rankyaku Kiri Shigure",
       "Giraffe Man"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chimney",
@@ -1335,7 +1518,10 @@
     "quote": "",
     "techniques": [
       "Assistência de Navegação com Gonbe"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "spandam",
@@ -1357,7 +1543,10 @@
     "quote": "",
     "techniques": [
       "Elephant Chop com Funkfreed"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "don-achino",
@@ -1377,7 +1566,10 @@
     "quote": "",
     "techniques": [
       "Calor Extremo de 10.000 Graus"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bartholomew-kuma",
@@ -1400,7 +1592,10 @@
     "techniques": [
       "Ursus Shock",
       "Teletransporte por Patas"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "moria-gecko",
@@ -1422,7 +1617,10 @@
     "techniques": [
       "Shadows' Asgard",
       "Brick Bat"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "doctor-hogback",
@@ -1442,7 +1640,10 @@
     "quote": "",
     "techniques": [
       "Criação e Enxerto de Corpos Zumbis"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "perona",
@@ -1463,7 +1664,10 @@
     "techniques": [
       "Negative Hollow",
       "Mini Hollow"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wyper",
@@ -1484,7 +1688,10 @@
     "techniques": [
       "Disparo de Reject Dial",
       "Bazuca de Queima"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "garp",
@@ -1506,7 +1713,10 @@
     "techniques": [
       "Galaxy Impact",
       "Galaxy Divide"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "paulie",
@@ -1528,7 +1738,10 @@
     "techniques": [
       "Half Knot",
       "Round Table com Cordas"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pell",
@@ -1549,7 +1762,10 @@
     "techniques": [
       "Tobizaru",
       "Voos de Alta Velocidade"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "krieg-don",
@@ -1570,7 +1786,10 @@
     "techniques": [
       "Gás Venenoso MH5",
       "Lança de Batalha"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gin",
@@ -1590,7 +1809,10 @@
     "quote": "",
     "techniques": [
       "Combate de Bastões Pesados"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marco",
@@ -1611,7 +1833,10 @@
     "techniques": [
       "Chamas Azuis de Ressurreição",
       "Houba"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lafitte",
@@ -1632,7 +1857,10 @@
     "techniques": [
       "Hipnose",
       "Voo com Asas Brancas"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "morgan",
@@ -1652,7 +1880,10 @@
     "quote": "",
     "techniques": [
       "Corte Brutal de Machado Acoplado"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nefertari-cobra",
@@ -1672,7 +1903,10 @@
     "quote": "",
     "techniques": [
       "Governança da Casa de Nefertari"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oars",
@@ -1692,7 +1926,10 @@
     "quote": "",
     "techniques": [
       "Gomu Gomu no Gatling de Zumbi"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yasopp",
@@ -1712,7 +1949,10 @@
     "quote": "",
     "techniques": [
       "Sniper de Visão Futura"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "absalom",
@@ -1733,7 +1973,10 @@
     "techniques": [
       "Invisibilidade",
       "Canhões Ocultos de Braço"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaya",
@@ -1753,7 +1996,10 @@
     "quote": "",
     "techniques": [
       "Tratamento de Enfermagem"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "keimi",
@@ -1774,7 +2020,10 @@
     "quote": "",
     "techniques": [
       "Resgate e Veloz Natação de Sereia"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gaimon",
@@ -1794,7 +2043,10 @@
     "quote": "",
     "techniques": [
       "Disparo de Espingarda de Dentro do Baú"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zeff",
@@ -1815,7 +2067,10 @@
     "quote": "",
     "techniques": [
       "Chutes de Destruição e Culinária"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "conis",
@@ -1836,7 +2091,10 @@
     "techniques": [
       "Suporte de Waver",
       "Suiteru Dial"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pagaya",
@@ -1856,7 +2114,10 @@
     "quote": "",
     "techniques": [
       "Manutenção de Dials e Wavers"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "porche",
@@ -1876,7 +2137,10 @@
     "quote": "",
     "techniques": [
       "Shuriken de Bastão de Flores Cutie"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "blueno",
@@ -1899,7 +2163,10 @@
     "techniques": [
       "Air Door",
       "Tekkai"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fukurou",
@@ -1921,7 +2188,10 @@
     "techniques": [
       "Jugon",
       "Soru de Alta Velocidade"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nero",
@@ -1943,7 +2213,10 @@
     "techniques": [
       "Soru",
       "Kamie com Pistolas Duplas"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jyabura",
@@ -1965,7 +2238,10 @@
     "techniques": [
       "Tekkai Kenpo",
       "Wolf Pack Strike"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rockstar",
@@ -1985,7 +2261,10 @@
     "quote": "",
     "techniques": [
       "Espada de Vibração Cortante"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "koby",
@@ -2007,7 +2286,10 @@
     "techniques": [
       "Honesty Impact",
       "Soru"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "helmeppo",
@@ -2029,7 +2311,10 @@
     "techniques": [
       "Corte Duplo de Kukri",
       "Rokushiki"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sengoku",
@@ -2049,7 +2334,10 @@
     "quote": "",
     "techniques": [
       "Ondas de Choque de Buda Dourado"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "babe",
@@ -2069,7 +2357,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/13109.jpg",
     "techniques": [
       "Rebatida de Bombas Lassoo"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "law-trafalgar",
@@ -2091,7 +2382,10 @@
     "techniques": [
       "Kroom (Anesth/Puncture Wille)",
       "Room Gamma Knife"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eustass-kid",
@@ -2112,7 +2406,10 @@
     "techniques": [
       "Damned Punk",
       "Assign"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "boa-hancock",
@@ -2134,7 +2431,10 @@
     "techniques": [
       "Mero Mero Mellow",
       "Slave Arrow"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "silvers-rayleigh",
@@ -2156,7 +2456,10 @@
     "techniques": [
       "Corte de Armamento Avançado",
       "Emissão de Conquistador"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "calgara",
@@ -2176,7 +2479,10 @@
     "quote": "",
     "techniques": [
       "Arremesso de Esfera Gigante de Aço"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "norland-montblanc",
@@ -2197,7 +2503,10 @@
     "techniques": [
       "Corte de Espada Longa",
       "Botânica Marítima"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bepo",
@@ -2218,7 +2527,10 @@
     "techniques": [
       "Forma Sulong",
       "Chutes de Kung Fu"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gedatsu",
@@ -2239,7 +2551,10 @@
     "techniques": [
       "Swamp Burger",
       "Jet Punch"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yorki",
@@ -2259,7 +2574,10 @@
     "quote": "",
     "techniques": [
       "Corte de Sabre Pirata"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "spandine",
@@ -2280,7 +2598,10 @@
     "quote": "",
     "techniques": [
       "Comando do Buster Call de Ohara"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mohmoo",
@@ -2301,7 +2622,10 @@
     "quote": "",
     "techniques": [
       "Investida Subaquática de Vaca Marinha"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kung-fu-dugong",
@@ -2321,7 +2645,10 @@
     "quote": "",
     "techniques": [
       "Socos e Defesas de Artes Marciais"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "killer",
@@ -2342,7 +2669,10 @@
     "techniques": [
       "Soni Sonic",
       "Kamaa Sonic"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "duval",
@@ -2363,7 +2693,10 @@
     "quote": "",
     "techniques": [
       "Disparo de Harpão com Búfalo de Montaria"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hiluluk",
@@ -2384,7 +2717,10 @@
     "quote": "",
     "techniques": [
       "Pó de Flor de Cerejeira Milagrosa"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pappag",
@@ -2405,7 +2741,10 @@
     "techniques": [
       "Fala Humana",
       "Moda Marítima"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hina",
@@ -2425,7 +2764,10 @@
     "quote": "",
     "techniques": [
       "Kimori Cage (Gaiolas de Aço)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miss-merry-christmas",
@@ -2446,7 +2788,10 @@
     "techniques": [
       "Mogu Mogu Impact",
       "Escavação de Túneis"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shakuyaku",
@@ -2467,7 +2812,10 @@
     "quote": "",
     "techniques": [
       "Combate Corporal de ex-Imperatriz Kuja"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "scratchmen-apoo",
@@ -2489,7 +2837,10 @@
     "techniques": [
       "Tataki",
       "Cut Musical Explosions"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "drake-x",
@@ -2513,7 +2864,10 @@
     "techniques": [
       "Mordida de Alossauro",
       "Machadinha/Sabre"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "capone-bege",
@@ -2534,7 +2888,10 @@
     "techniques": [
       "Big Father",
       "Tropas Internas de Canhão"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "basil-hawkins",
@@ -2556,7 +2913,10 @@
     "techniques": [
       "Goma no Soga",
       "Bonecos Vodou de Palha"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "urouge",
@@ -2577,7 +2937,10 @@
     "techniques": [
       "Expansão Corporal Titânica",
       "Maça Gigante"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jewelry-bonney",
@@ -2599,7 +2962,10 @@
     "techniques": [
       "Futuro Distorcido (Nika Futuro)",
       "Alteração de Idade"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "saint-charloss",
@@ -2619,7 +2985,10 @@
     "quote": "",
     "techniques": [
       "Disparo Sem Hesitação de Nobre Mundial"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "saul-jaguar",
@@ -2641,7 +3010,10 @@
     "techniques": [
       "Arremesso de Navios",
       "Proteção de Livros em Elbaf"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sandersonia-boa",
@@ -2662,7 +3034,10 @@
     "techniques": [
       "Hebigami Yatsuka",
       "Haki de Armamento"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marigold-boa",
@@ -2683,7 +3058,10 @@
     "techniques": [
       "Sopro de Fogo Salivar",
       "Halberd Kuja"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "borsalino",
@@ -2704,7 +3082,10 @@
     "techniques": [
       "Yasakani no Magatama",
       "Ama no Murakumo"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jean-bart",
@@ -2724,7 +3105,10 @@
     "quote": "",
     "techniques": [
       "Escudo Humano de Proteção"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-katakuri",
@@ -2745,7 +3129,10 @@
     "techniques": [
       "Peerless Donuts",
       "Visão Futura (Kenbunshoku)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-linlin",
@@ -2768,7 +3155,10 @@
     "techniques": [
       "Ikkoku Sovereignty",
       "Prometheus/Zeus/Hera"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-perospero",
@@ -2789,7 +3179,10 @@
     "techniques": [
       "Candy Maiden",
       "Candy Wave"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-cracker",
@@ -2810,7 +3203,10 @@
     "techniques": [
       "Pretzel",
       "Soldados de Biscoito Infinitos"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-smoothie",
@@ -2831,7 +3227,10 @@
     "techniques": [
       "Extratora de Líquidos",
       "Espada Gigante"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-pudding",
@@ -2851,7 +3250,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n134006-ZmzLQ5FrdtnL.jpg",
     "techniques": [
       "Edição e Extração de Memórias"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vinsmoke-judge",
@@ -2872,7 +3274,10 @@
     "techniques": [
       "Raiko Spear",
       "Wall com Exército Clone"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vinsmoke-reiju",
@@ -2892,7 +3297,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127891-FSRMoIQeDyV8.png",
     "techniques": [
       "Absorção e Disparo de Veneno Lethal"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vinsmoke-ichiji",
@@ -2913,7 +3321,10 @@
     "techniques": [
       "Sparking Valkyrie",
       "Lasers de Fogo"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vinsmoke-niji",
@@ -2934,7 +3345,10 @@
     "techniques": [
       "Henry Needle",
       "Velocidade Elétrica"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vinsmoke-yonji",
@@ -2955,7 +3369,10 @@
     "techniques": [
       "Winch Danton",
       "Braço Mecânico Titânico"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaidou",
@@ -2978,7 +3395,10 @@
     "techniques": [
       "Bolo Breath",
       "Raimei Hakke (Thunder Bagua)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yamato",
@@ -3000,7 +3420,10 @@
     "techniques": [
       "Narikabura Arrow",
       "Raimei Hakke"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "king",
@@ -3021,7 +3444,10 @@
     "techniques": [
       "Karyudon (Dragão de Fogo Lunaria)",
       "Espada de Serra"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "queen",
@@ -3043,7 +3469,10 @@
     "techniques": [
       "Brachio Snake",
       "Tecnologias Germa Replicadas"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jack",
@@ -3064,7 +3493,10 @@
     "techniques": [
       "Investida de Mamute",
       "Shotel Duplo"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ulti",
@@ -3085,7 +3517,10 @@
     "techniques": [
       "Ul-Meteor",
       "Cabeçada de Impacto"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "page-one",
@@ -3105,7 +3540,10 @@
     "quote": "",
     "techniques": [
       "Mordida e Garras de Espinossauro"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kozuki-oden",
@@ -3128,7 +3566,10 @@
     "techniques": [
       "Togen Totsuka",
       "Paradise Waterfall"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kozuki-momonosuke",
@@ -3150,7 +3591,10 @@
     "techniques": [
       "Bolo Breath",
       "Nuvens de Chama (Homura-dama)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kinemon",
@@ -3170,7 +3614,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b67345-YYWagqYcgghY.png",
     "techniques": [
       "Kitsunebiri (Corte de Fogo)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sabo",
@@ -3191,7 +3638,10 @@
     "techniques": [
       "Ryusoken: Kaen Ryuo",
       "Hiken"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "emporio-ivankov",
@@ -3212,7 +3662,10 @@
     "techniques": [
       "Death Wink",
       "Injeção de Hormônios de Cura"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "karasu",
@@ -3233,7 +3686,10 @@
     "techniques": [
       "Corvos de Fuligem",
       "Revoada Tática"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "belo-betty",
@@ -3253,7 +3709,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126146-s6wTxJ8EKDvJ.png",
     "techniques": [
       "Encorajamento da Vontade das Massas"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rocks-d-xebec",
@@ -3273,7 +3732,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b146411-1cWXsUjauDEU.png",
     "techniques": [
       "Comando da Maior Tripulação da História"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "imu",
@@ -3293,7 +3755,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128130-X9N46ajhSMOi.png",
     "techniques": [
       "Destruição do Trono Vazio"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "loki",
@@ -3313,7 +3778,10 @@
     "avatar": "/avatars/one-piece/loki.png",
     "techniques": [
       "Força Solar Destrutiva de Elbaf"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hajrudin",
@@ -3333,7 +3801,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b244046-IaFJvmTJk56a.png",
     "techniques": [
       "Gungnir (Soco de 10.000 Toneladas)"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vegapunk",
@@ -3355,7 +3826,10 @@
     "techniques": [
       "Intelecto de 500 Anos no Futuro",
       "Punk Records"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "daz-bones",
@@ -3377,7 +3851,10 @@
     "techniques": [
       "Spider",
       "Atomic Spurt (Lâminas de Aço)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zala",
@@ -3398,7 +3875,10 @@
     "techniques": [
       "Stinger Hedge",
       "Espinhos de Aço"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gerd",
@@ -3419,7 +3899,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n128683-o0E5UUG6yxlg.png",
     "techniques": [
       "Corte de Machado Gigante de Elbaf"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "road",
@@ -3440,7 +3923,10 @@
     "techniques": [
       "Navegação em Elbaf",
       "Esgrima de Gigante"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "stussy",
@@ -3462,7 +3948,10 @@
     "techniques": [
       "Kami-e",
       "Mordida de Sedação de Sangue"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lilith",
@@ -3484,7 +3973,10 @@
     "techniques": [
       "Bubble Gun de Kairouseki",
       "Controle Mecha"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "s-hawk",
@@ -3505,7 +3997,10 @@
     "quote": "",
     "techniques": [
       "Corte de Lâmina Negra com Asas Lunaria"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "s-snake",
@@ -3527,7 +4022,10 @@
     "techniques": [
       "Mero Mero Mellow",
       "Laser de Pacifista"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fisher-tiger",
@@ -3548,7 +4046,10 @@
     "techniques": [
       "Tritão Karate",
       "Invasão a Mariejois"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "corazon",
@@ -3569,7 +4070,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b120536-PxdNxEhQwE8d.png",
     "techniques": [
       "Silent Field (Cancelamento do Som)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kozuki-toki",
@@ -3591,7 +4095,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127845-e80CGKpAqW4A.png",
     "techniques": [
       "Viagem Temporal para o Futuro"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kuina",
@@ -3611,7 +4118,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21266-zGRDCl19NYmQ.png",
     "techniques": [
       "Esgrima do Dojo Shimotsuki"
-    ]
+    ],
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "s-bear",
@@ -3633,7 +4143,10 @@
     "techniques": [
       "Ursus Shock",
       "Lasers de Pacifista"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "s-shark",
@@ -3655,7 +4168,10 @@
     "techniques": [
       "Karatê Tritão",
       "Natação em Solo Solido"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shaka",
@@ -3677,7 +4193,10 @@
     "techniques": [
       "Análise Tática de Segurança",
       "Capacete de Transmissão"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "edison",
@@ -3697,7 +4216,10 @@
     "fruitType": "Nenhuma",
     "techniques": [
       "Brainstorming Científico de Alta Velocidade"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pythagoras",
@@ -3717,7 +4239,10 @@
     "fruitType": "Nenhuma",
     "techniques": [
       "Coleta e Processamento de Dados de Combate"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "atlas",
@@ -3738,7 +4263,10 @@
     "avatar": "/avatars/one-piece/atlas.png",
     "techniques": [
       "Socos Holográficos de Impacto Titânico"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "york",
@@ -3760,7 +4288,10 @@
     "techniques": [
       "Controle dos Seraphims",
       "Pacifistas"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jaygarcia-saturn",
@@ -3782,7 +4313,10 @@
     "techniques": [
       "Invocação Ritual",
       "Telepatia de Estado"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "topman-warcury",
@@ -3804,7 +4338,10 @@
     "techniques": [
       "Rugido de Haki Conquistador",
       "Invulnerabilidade"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marcus-mars",
@@ -3826,7 +4363,10 @@
     "techniques": [
       "Sopro de Fogo Divino",
       "Voo de Alta Velocidade"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ethanbaron-v-nusjuro",
@@ -3847,7 +4387,10 @@
     "fruitType": "Zoan Mítica",
     "techniques": [
       "Esgrima Congelante de Kitetsu com Velocidade Cavalar"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shepherd-ju-peter",
@@ -3869,7 +4412,10 @@
     "techniques": [
       "Devoração Subterrânea",
       "Sucção Gigantesca"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "scopper-gaban",
@@ -3890,7 +4436,10 @@
     "techniques": [
       "Esgrima de Machados Duplos",
       "Haki Avançado"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shiki",
@@ -3912,7 +4461,10 @@
     "techniques": [
       "Levitação de Objetos",
       "Espadas Lança-Pés"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sakazuki",
@@ -3933,7 +4485,10 @@
     "techniques": [
       "Dai Funka",
       "Meigo (Cão de Magma)"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "emet",
@@ -3953,7 +4508,10 @@
     "fruitType": "Nenhuma",
     "techniques": [
       "Nó de Haki Conquistador Guardado de Joy Boy"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "figarland-garling",
@@ -3975,7 +4533,10 @@
     "fruitType": "Nenhuma",
     "techniques": [
       "Esgrima Sagrada de Mariejois"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-oven",
@@ -3996,7 +4557,10 @@
     "techniques": [
       "Atsukai Kaiyosui (Fervura do Mar)",
       "Kaen Shokudan"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-brulee",
@@ -4017,7 +4581,10 @@
     "techniques": [
       "Mundo dos Espelhos (Mirro-World)",
       "Reflexão de Ataques"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-galette",
@@ -4037,7 +4604,10 @@
     "fruitType": "Paramecia",
     "techniques": [
       "Imobilização por Calda de Manteiga"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charlotte-mont-dor",
@@ -4058,7 +4628,10 @@
     "techniques": [
       "Prisão de Livros",
       "Ilusão de Leitura"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "edward-weevil",
@@ -4075,7 +4648,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/edward-weevil.png"
+    "avatar": "/avatars/one-piece/edward-weevil.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miss-bakkin",
@@ -4092,7 +4668,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
-    "avatar": "/avatars/one-piece/miss-bakkin.png"
+    "avatar": "/avatars/one-piece/miss-bakkin.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "issho-fujitora",
@@ -4108,7 +4687,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/issho-fujitora.png"
+    "avatar": "/avatars/one-piece/issho-fujitora.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aramaki-ryokugyu",
@@ -4124,7 +4706,10 @@
     "fruitType": "Logia",
     "debutArc": "País de Wano",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/aramaki-ryokugyu.png"
+    "avatar": "/avatars/one-piece/aramaki-ryokugyu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "doll",
@@ -4140,7 +4725,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Egghead",
     "status": "Viva",
-    "avatar": "/avatars/one-piece/doll.png"
+    "avatar": "/avatars/one-piece/doll.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hibari",
@@ -4157,7 +4745,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Egghead",
     "status": "Viva",
-    "avatar": "/avatars/one-piece/hibari.png"
+    "avatar": "/avatars/one-piece/hibari.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kujaku",
@@ -4174,7 +4765,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Egghead",
     "status": "Viva",
-    "avatar": "/avatars/one-piece/kujaku.png"
+    "avatar": "/avatars/one-piece/kujaku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "prince-grus",
@@ -4191,7 +4785,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Egghead",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/prince-grus.png"
+    "avatar": "/avatars/one-piece/prince-grus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oimo",
@@ -4207,7 +4804,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/oimo.png"
+    "avatar": "/avatars/one-piece/oimo.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kashi",
@@ -4223,7 +4823,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/kashi.png"
+    "avatar": "/avatars/one-piece/kashi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "peepley-lulu",
@@ -4239,7 +4842,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21807.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21807.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tilestone",
@@ -4255,7 +4861,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/tilestone.png"
+    "avatar": "/avatars/one-piece/tilestone.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "victoria-cindry",
@@ -4271,7 +4880,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Thriller Bark",
     "status": "Morta",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9656.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9656.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lola",
@@ -4288,7 +4900,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Thriller Bark",
     "status": "Viva",
-    "avatar": "/avatars/one-piece/lola.png"
+    "avatar": "/avatars/one-piece/lola.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sommers",
@@ -4304,7 +4919,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/sommers.png"
+    "avatar": "/avatars/one-piece/sommers.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "killingham",
@@ -4320,7 +4938,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEueLuZSHvAOvN25m2tHvFtsyKvxqG3oIkbDr4RaWVsN5k4IFaRlw6Kb4&s=10"
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEueLuZSHvAOvN25m2tHvFtsyKvxqG3oIkbDr4RaWVsN5k4IFaRlw6Kb4&s=10",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gunko",
@@ -4336,7 +4957,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Viva",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5r846k9iEhPtdaCkVlKkNTd37kVng3il8lfolK7q5Qw6X3jewJ6oM9So&s=10"
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5r846k9iEhPtdaCkVlKkNTd37kVng3il8lfolK7q5Qw6X3jewJ6oM9So&s=10",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rei-harald",
@@ -4353,7 +4977,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRHKD1gcznD4QY0M3nYH5VlCzxmFVGZPIrujlwtHeUrHRi7ochvZNjgA&s=10"
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRHKD1gcznD4QY0M3nYH5VlCzxmFVGZPIrujlwtHeUrHRi7ochvZNjgA&s=10",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryuma",
@@ -4374,7 +5001,10 @@
     "techniques": [
       "Aubade Coup D'Droit",
       "Corte do Dragão"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shirahoshi",
@@ -4391,7 +5021,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Ilha dos Tritões",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40273.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40273.jpg",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bartolomeo",
@@ -4408,7 +5041,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85647-WfwG1ixb2qZL.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85647-WfwG1ixb2qZL.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cavendish",
@@ -4425,7 +5061,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85649-c73lmX9J1dMq.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85649-c73lmX9J1dMq.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "koala",
@@ -4441,7 +5080,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b43093-STjuKaQk68Ex.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b43093-STjuKaQk68Ex.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pedro",
@@ -4458,7 +5100,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126180-ud2y3PGElJDU.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126180-ud2y3PGElJDU.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "carrot",
@@ -4475,7 +5120,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126179-bxjxEfrqtiuN.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126179-bxjxEfrqtiuN.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurozumi-orochi",
@@ -4492,7 +5140,10 @@
     "fruitType": "Zoan Mítica",
     "debutArc": "País de Wano",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b132669-TGXODbAMwtLV.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b132669-TGXODbAMwtLV.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kozuki-hiyori",
@@ -4509,7 +5160,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b131435-9xVeZr0tDlyP.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b131435-9xVeZr0tDlyP.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "denjiro",
@@ -4526,7 +5180,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Vivo",
-    "avatar": "/avatars/one-piece/denjiro.png"
+    "avatar": "/avatars/one-piece/denjiro.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kikunojo",
@@ -4543,7 +5200,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127913-fKFTGlwZA9JH.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127913-fKFTGlwZA9JH.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kawamatsu",
@@ -4560,7 +5220,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128125-y2O4HRu9pPe5.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128125-y2O4HRu9pPe5.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "inuarashi",
@@ -4577,7 +5240,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126182-fyFwu3Ih1yej.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126182-fyFwu3Ih1yej.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nekomamushi",
@@ -4594,7 +5260,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126181-kleTMK1K9tda.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126181-kleTMK1K9tda.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "raizo",
@@ -4611,7 +5280,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b191777-Rxyxt4tjjxfs.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b191777-Rxyxt4tjjxfs.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ashura-doji",
@@ -4628,7 +5300,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Morto",
-    "avatar": "/avatars/one-piece/ashura-doji.png"
+    "avatar": "/avatars/one-piece/ashura-doji.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "magellan",
@@ -4645,7 +5320,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22618-ki6mxLc2f9Tm.png"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22618-ki6mxLc2f9Tm.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shiryu",
@@ -4667,7 +5345,10 @@
     "techniques": [
       "Espadachim Mestre com Nodachi Raiu",
       "Invisibilidade Suke Suke"
-    ]
+    ],
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jozu",
@@ -4683,7 +5364,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21559.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21559.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vista",
@@ -4699,7 +5383,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b27202-0ck7epXFLmls.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b27202-0ck7epXFLmls.jpg",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "foxy",
@@ -4715,7 +5402,10 @@
     "fruitType": "Paramecia",
     "debutArc": "Long Ring Long Land",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/22412.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/22412.jpg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rebecca",
@@ -4732,7 +5422,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b85651-4Xxt9NtEWjju.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b85651-4Xxt9NtEWjju.jpg",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kyros",
@@ -4749,7 +5442,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126109-aMp1clod63vA.jpg"
+    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126109-aMp1clod63vA.jpg",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shamrock",
@@ -4767,7 +5463,10 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2RgWrP_heB3vZ5O5YPtiOM401RzNGXbw2781OBCCrxvx--YUcIxrr5xU&s=10"
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2RgWrP_heB3vZ5O5YPtiOM401RzNGXbw2781OBCCrxvx--YUcIxrr5xU&s=10",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marshall-d-teach",
@@ -4794,7 +5493,10 @@
       "Kurouzu",
       "Gekishin",
       "Shima Yurashi"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jesus-burgess",
@@ -4815,7 +5517,10 @@
     "techniques": [
       "Hadou Elbow",
       "Galleon Lariat"
-    ]
+    ],
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "van-augur",
@@ -4836,7 +5541,10 @@
     "techniques": [
       "Tiroteio de Extremo Alcance com Senriku",
       "Teletransporte Dimensional Instantâneo"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "avalo-pizarro",
@@ -4856,7 +5564,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b31182-pJB5DBtafLRS.jpg",
     "techniques": [
       "Fusão e Controle Territorial da Ilha Hachinosu"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "catarina-devon",
@@ -4877,7 +5588,10 @@
     "techniques": [
       "Metamorfose Perfeita em Qualquer Pessoa",
       "Combate com Chicote e Lança"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sanjuan-wolf",
@@ -4897,7 +5611,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b31183-UC8Ha8SPZuOn.jpg",
     "techniques": [
       "Tamanho Gigantesco Ultrapassando 180 Metros"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vasco-shot",
@@ -4917,7 +5634,10 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b31180-oizvWyQt7UfK.jpg",
     "techniques": [
       "Manipulação e Cuspe de Licor Flamejante"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "doc-q",
@@ -4938,7 +5658,10 @@
     "techniques": [
       "Infecção por Doenças (Shiku Shiku no Mi)",
       "Maçãs Explosivas em Conjunto com Stronger"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "caesar-clown",
@@ -4964,7 +5687,10 @@
       "Shinokuni",
       "Blue Sword",
       "Karakuni"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hody-jones",
@@ -4981,7 +5707,10 @@
     "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/hody-jones.png",
-    "quote": "Os humanos são uma raça inferior que merece ser eliminada!"
+    "quote": "Os humanos são uma raça inferior que merece ser eliminada!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vander-decken-ix",
@@ -4998,7 +5727,10 @@
     "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/vander-decken-ix.png",
-    "quote": "Shirahoshi, meu amor eterno só terminará com a sua morte!"
+    "quote": "Shirahoshi, meu amor eterno só terminará com a sua morte!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurozumi-kanjuro",
@@ -5016,7 +5748,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Morto",
     "avatar": "/avatars/one-piece/kurozumi-kanjuro.png",
-    "quote": "Eu vivi minha vida inteira no palco, atuando como o mais leal servo dos Kozuki!"
+    "quote": "Eu vivi minha vida inteira no palco, atuando como o mais leal servo dos Kozuki!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "monet",
@@ -5033,7 +5768,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Morta",
     "avatar": "/avatars/one-piece/monet.png",
-    "quote": "Jovem Mestre... você é o único destinado a se tornar o Rei dos Piratas!"
+    "quote": "Jovem Mestre... você é o único destinado a se tornar o Rei dos Piratas!",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vergo",
@@ -5051,7 +5789,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Morto",
     "avatar": "/avatars/one-piece/vergo.png",
-    "quote": "Chame-me de Vice-Almirante Vergo com o devido respeito."
+    "quote": "Chame-me de Vice-Almirante Vergo com o devido respeito.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "trebol",
@@ -5068,7 +5809,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/trebol.png",
-    "quote": "Nee, nee, Doffy! Você nasceu com o sangue de um rei supremo!"
+    "quote": "Nee, nee, Doffy! Você nasceu com o sangue de um rei supremo!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "diamante",
@@ -5085,7 +5829,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/diamante.png",
-    "quote": "O herói do Coliseu Corrida sou eu, Diamante!"
+    "quote": "O herói do Coliseu Corrida sou eu, Diamante!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pica",
@@ -5102,7 +5849,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/pica.png",
-    "quote": "Qualquer um que rir da minha voz será esmagado pela rocha!"
+    "quote": "Qualquer um que rir da minha voz será esmagado pela rocha!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sugar",
@@ -5119,7 +5869,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
     "avatar": "/avatars/one-piece/sugar.png",
-    "quote": "Um simples toque da minha mão e o mundo inteiro esquecerá que você existiu."
+    "quote": "Um simples toque da minha mão e o mundo inteiro esquecerá que você existiu.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "senor-pink",
@@ -5136,7 +5889,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/senor-pink.png",
-    "quote": "Homens de verdade bebem com orgulho e nunca recuam de um duelo leal."
+    "quote": "Homens de verdade bebem com orgulho e nunca recuam de um duelo leal.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "whos-who",
@@ -5153,7 +5909,10 @@
     "debutArc": "País de Wano",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/whos-who.png",
-    "quote": "Eu perdi todo o meu futuro na CP9 por causa de uma simples Gomu Gomu no Mi!"
+    "quote": "Eu perdi todo o meu futuro na CP9 por causa de uma simples Gomu Gomu no Mi!",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sasaki-op",
@@ -5170,7 +5929,10 @@
     "debutArc": "País de Wano",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/sasaki-op.png",
-    "quote": "A couraça e o helicóptero de um Tricerátops são absolutos!"
+    "quote": "A couraça e o helicóptero de um Tricerátops são absolutos!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "black-maria",
@@ -5187,7 +5949,10 @@
     "debutArc": "País de Wano",
     "status": "Viva",
     "avatar": "/avatars/one-piece/black-maria.png",
-    "quote": "Venha cá, garotinho mimado... deixe-me cuidar de você."
+    "quote": "Venha cá, garotinho mimado... deixe-me cuidar de você.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sentomaru",
@@ -5205,7 +5970,10 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/sentomaru.png",
-    "quote": "Minha boca é mais dura que o aço! E minha defesa é impenetrável!"
+    "quote": "Minha boca é mais dura que o aço! E minha defesa é impenetrável!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "t-bone",
@@ -5222,7 +5990,10 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Morto",
     "avatar": "/avatars/one-piece/t-bone.png",
-    "quote": "Mesmo que meus ossos se quebrem, não permitirei que inocentes sofram ferimentos!"
+    "quote": "Mesmo que meus ossos se quebrem, não permitirei que inocentes sofram ferimentos!",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "momonga",
@@ -5239,7 +6010,10 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/momonga.png",
-    "quote": "A dor de uma faca esfaqueando a própria mão limpa a mente de pensamentos vis."
+    "quote": "A dor de uma faca esfaqueando a própria mão limpa a mente de pensamentos vis.",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "onigumo",
@@ -5256,7 +6030,10 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/onigumo.png",
-    "quote": "Mesmo que tenhamos que afundar nossos próprios navios, a Justiça Absoluta prevalecerá!"
+    "quote": "Mesmo que tenhamos que afundar nossos próprios navios, a Justiça Absoluta prevalecerá!",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "doberman",
@@ -5273,7 +6050,10 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/doberman.png",
-    "quote": "Piratas não devem ser perdoados sob circunstância alguma!"
+    "quote": "Piratas não devem ser perdoados sob circunstância alguma!",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bogard",
@@ -5290,7 +6070,10 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/bogard.png",
-    "quote": "O silencioso braço-direito do Herói da Marinha Monkey D. Garp."
+    "quote": "O silencioso braço-direito do Herói da Marinha Monkey D. Garp.",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "brannew",
@@ -5307,7 +6090,10 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/brannew.png",
-    "quote": "Atenção a todos os oficiais: este é o homem que devemos monitorar!"
+    "quote": "Atenção a todos os oficiais: este é o homem que devemos monitorar!",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kong",
@@ -5324,7 +6110,10 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kong.png",
-    "quote": "Ex-Almirante de Frota que supervisiona o exército, a marinha e a Cipher Pol."
+    "quote": "Ex-Almirante de Frota que supervisiona o exército, a marinha e a Cipher Pol.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "donquixote-mjosgard",
@@ -5341,7 +6130,10 @@
     "debutArc": "Ilha dos Tritões",
     "status": "Morto",
     "avatar": "/avatars/one-piece/donquixote-mjosgard.png",
-    "quote": "A Rainha Otohime me ensinou o que significa ser um verdadeiro ser humano."
+    "quote": "A Rainha Otohime me ensinou o que significa ser um verdadeiro ser humano.",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hannyabal",
@@ -5359,7 +6151,10 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/hannyabal.png",
-    "quote": "Se escória como vocês sair para as ruas, o mundo se encherá de terror e pranto!"
+    "quote": "Se escória como vocês sair para as ruas, o mundo se encherá de terror e pranto!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sai",
@@ -5376,7 +6171,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/sai.png",
-    "quote": "Eu sou Don Sai, 13º líder da Marinha Happo e comandante da 3ª divisão dos Chapéus de Palha!"
+    "quote": "Eu sou Don Sai, 13º líder da Marinha Happo e comandante da 3ª divisão dos Chapéus de Palha!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "baby-5",
@@ -5393,7 +6191,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
     "avatar": "/avatars/one-piece/baby-5.png",
-    "quote": "Você... precisa de mim?! Então farei qualquer coisa por você!"
+    "quote": "Você... precisa de mim?! Então farei qualquer coisa por você!",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "leo",
@@ -5410,7 +6211,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/leo.png",
-    "quote": "Líder dos Tontatta e comandante da 5ª divisão da Grande Frota dos Chapéus de Palha!"
+    "quote": "Líder dos Tontatta e comandante da 5ª divisão da Grande Frota dos Chapéus de Palha!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ideo",
@@ -5427,7 +6231,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/ideo.png",
-    "quote": "Campeão de artes marciais do Novo Mundo e líder da Aliança de Artes Marciais XXX."
+    "quote": "Campeão de artes marciais do Novo Mundo e líder da Aliança de Artes Marciais XXX.",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "blue-gilly",
@@ -5444,7 +6251,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/blue-gilly.png",
-    "quote": "Chutes de chicote de longo alcance e velocidade incrível."
+    "quote": "Chutes de chicote de longo alcance e velocidade incrível.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "orlumbus",
@@ -5461,7 +6271,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/orlumbus.png",
-    "quote": "Comandante da Grande Frota Yonta Maria com 56 navios de guerra."
+    "quote": "Comandante da Grande Frota Yonta Maria com 56 navios de guerra.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "elizabello-ii",
@@ -5479,7 +6292,10 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/elizabello-ii.png",
-    "quote": "Rei de Prodence que pode derrubar um imperador com uma hora de aquecimento!"
+    "quote": "Rei de Prodence que pode derrubar um imperador com uma hora de aquecimento!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "inazuma",
@@ -5496,7 +6312,10 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/inazuma.png",
-    "quote": "Braço-direito de Emporio Ivankov capaz de cortar qualquer superfície como papel."
+    "quote": "Braço-direito de Emporio Ivankov capaz de cortar qualquer superfície como papel.",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "izo",
@@ -5514,7 +6333,10 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Morto",
     "avatar": "/avatars/one-piece/izo.png",
-    "quote": "Irmão mais velho de Kikunojo e 16º comandante dos Piratas do Barba Branca."
+    "quote": "Irmão mais velho de Kikunojo e 16º comandante dos Piratas do Barba Branca.",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "little-oars-jr",
@@ -5531,7 +6353,10 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Morto",
     "avatar": "/avatars/one-piece/little-oars-jr.png",
-    "quote": "Ace me deu este chapéu de palha para me proteger do sol e da neve... Eu o salvarei!"
+    "quote": "Ace me deu este chapéu de palha para me proteger do sol e da neve... Eu o salvarei!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pekoms",
@@ -5549,7 +6374,10 @@
     "debutArc": "Ilha dos Tritões",
     "status": "Desconhecido",
     "avatar": "/avatars/one-piece/pekoms.png",
-    "quote": "Aqueles que confiam demais na intocabilidade da Logia morrem jovens no Novo Mundo, gao!"
+    "quote": "Aqueles que confiam demais na intocabilidade da Logia morrem jovens no Novo Mundo, gao!",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tamago",
@@ -5566,7 +6394,10 @@
     "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/tamago.png",
-    "quote": "Bonsoir! Um cavalheiro das pernas longas que sempre bebe seu chá com elegância."
+    "quote": "Bonsoir! Um cavalheiro das pernas longas que sempre bebe seu chá com elegância.",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mont-blanc-cricket",
@@ -5583,7 +6414,10 @@
     "debutArc": "Skypiea",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/mont-blanc-cricket.png",
-    "quote": "Eu não busco o ouro de Noland para provar nada a ninguém, mas sim para acertar as contas com aquele mentiroso!"
+    "quote": "Eu não busco o ouro de Noland para provar nada a ninguém, mas sim para acertar as contas com aquele mentiroso!",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "viola",
@@ -5606,6 +6440,323 @@
       "Peeping Eye",
       "Hierba Lágrimas",
       "Clarividência"
-    ]
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "fullbody",
+    "name": "Fullbody (Punho de Ferro)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha - Quartel General",
+      "Tropa da Hina"
+    ],
+    "rank": "Tenente da Marinha",
+    "styleOrPower": "Estilo de Boxe com Soqueiras de Ferro",
+    "debutArc": "Arco do Baratie",
+    "status": "Vivo",
+    "quote": "Um cavalheiro sabe apreciar um vinho tinto de qualidade... Garçom, tem uma mosca na minha sopa!",
+    "techniques": [
+      "Soco Direto de Soqueira",
+      "Dança Sincronizada com Jango"
+    ],
+    "combatType": "Corpo a Corpo",
+    "roleOrArchetype": "Antagonista / Suporte Cômico",
+    "hairColor": "Loiro",
+    "avatar": "/avatars/one-piece/fullbody.png"
+  },
+  {
+    "id": "patty",
+    "name": "Patty",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Restaurante Baratie"
+    ],
+    "rank": "Cozinheiro de Combate",
+    "styleOrPower": "Combate com Bazuca de Carne e Pratos",
+    "debutArc": "Arco do Baratie",
+    "status": "Vivo",
+    "quote": "Bem-vindo ao Baratie, seu desgraçado! Coma tudo ou enfio essa frigideira na sua goela!",
+    "techniques": [
+      "Meatball Cannon (Canhão Almôndega)",
+      "Arremesso de Cutelo"
+    ],
+    "combatType": "Longo Alcance / Projéteis",
+    "roleOrArchetype": "Suporte Cômico",
+    "hairColor": "Preto",
+    "avatar": "/avatars/one-piece/patty.png"
+  },
+  {
+    "id": "carne",
+    "name": "Carne",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Restaurante Baratie"
+    ],
+    "rank": "Cozinheiro de Carnes",
+    "styleOrPower": "Estilo de Facas Duplas de Açougueiro",
+    "debutArc": "Arco do Baratie",
+    "status": "Vivo",
+    "quote": "Aqui no Baratie nós servimos boa comida e socos na cara de piratas caloteiros!",
+    "techniques": [
+      "Malabarismo Cortante de Facas",
+      "Desossa Rápida de Monstros"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "roleOrArchetype": "Suporte Cômico",
+    "hairColor": "Castanho",
+    "avatar": "/avatars/one-piece/carne.png"
+  },
+  {
+    "id": "pearl",
+    "name": "Pearl (O Intocável)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas da Armada de Krieg"
+    ],
+    "rank": "Comandante de Defesa",
+    "styleOrPower": "Escudos de Ferro Corporais & Fogo",
+    "debutArc": "Arco do Baratie",
+    "status": "Vivo",
+    "quote": "Eu nunca perdi uma gota de sangue em combate! Se eu sangrar, a selva inteira pega fogo!",
+    "techniques": [
+      "Fire Pearl Present",
+      "Defesa Absoluta de Placas de Ferro"
+    ],
+    "combatType": "Magia / Sobrenatural",
+    "roleOrArchetype": "Antagonista",
+    "hairColor": "Castanho",
+    "avatar": "/avatars/one-piece/pearl.png"
+  },
+  {
+    "id": "capitao-nezumi",
+    "name": "Capitão Nezumi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha - 16ª Divisão"
+    ],
+    "rank": "Capitão Corrupto da Marinha",
+    "styleOrPower": "Armas de Fogo & Corrupção",
+    "debutArc": "Arco de Arlong Park",
+    "status": "Vivo",
+    "quote": "Chichi! Confisque todo o tesouro da ladra Nami em nome da justiça da Marinha!",
+    "techniques": [
+      "Tiro Covarde de Pistola",
+      "Conluio Financeiro com Homens-Peixe"
+    ],
+    "combatType": "Longo Alcance / Projéteis",
+    "roleOrArchetype": "Antagonista",
+    "hairColor": "Castanho",
+    "avatar": "/avatars/one-piece/capitao-nezumi.png"
+  },
+  {
+    "id": "buchi",
+    "name": "Buchi (Irmãos Nyaban)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas do Gato Preto"
+    ],
+    "rank": "Combatente do Bando",
+    "styleOrPower": "Garras de Gato e Salto Hipnótico Esmagador",
+    "debutArc": "Arco da Vila Syrup",
+    "status": "Vivo",
+    "quote": "Quando o Jango me hipnotiza, meu corpo fica dez vezes mais pesado e destrói rochas!",
+    "techniques": [
+      "Cat Attack Esmagador",
+      "Garras Cortantes de Felino"
+    ],
+    "combatType": "Corpo a Corpo",
+    "roleOrArchetype": "Antagonista",
+    "hairColor": "Preto",
+    "avatar": "/avatars/one-piece/buchi.png"
+  },
+  {
+    "id": "chaka",
+    "name": "Chaka (O Chacal)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Reino de Alabasta",
+      "Guarda Real"
+    ],
+    "rank": "Comandante da Guarda Real de Alabasta",
+    "styleOrPower": "Inu Inu no Mi: Modelo Chacal (Zoan)",
+    "debutArc": "Arco de Alabasta",
+    "status": "Vivo",
+    "quote": "Eu sou o Deus Guardião de Alabasta! Enquanto eu respirar, Crocodile não tomará o palácio!",
+    "techniques": [
+      "Transformação em Chacal Veloz",
+      "Corte Rápido de Espada Zoan"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "roleOrArchetype": "Suporte",
+    "hairColor": "Preto",
+    "avatar": "/avatars/one-piece/chaka.png"
+  },
+  {
+    "id": "koza",
+    "name": "Koza",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Exército Rebelde de Alabasta"
+    ],
+    "rank": "Líder dos Rebeldes",
+    "styleOrPower": "Esgrima com Sabre de Deserto",
+    "debutArc": "Arco de Alabasta",
+    "status": "Vivo",
+    "quote": "Nós não estamos lutando por ganância, estamos lutando pela água e pela sobrevivência do nosso povo!",
+    "techniques": [
+      "Investida Rebelde do Deserto",
+      "Liderança Militar Popular"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "roleOrArchetype": "Suporte",
+    "hairColor": "Loiro",
+    "avatar": "/avatars/one-piece/koza.png"
+  },
+  {
+    "id": "wiper",
+    "name": "Wiper (O Demônio da Guerra)",
+    "gender": "Masculino",
+    "species": "Humano (Shandia)",
+    "affiliation": [
+      "Povo Shandia de Skypiea",
+      "Guarda de Deus"
+    ],
+    "rank": "Líder Guerreiro de Shandia",
+    "styleOrPower": "Burn Bazooka & Reject Dial de Triplo Impacto",
+    "debutArc": "Arco de Skypiea",
+    "status": "Vivo",
+    "quote": "Pela luz de Shandora! Eu acenderei o Fogo de Shandora nem que meu corpo se desintegre pelo Reject Dial!",
+    "techniques": [
+      "Reject Dial Suicida",
+      "Burn Bazooka de Chamas Azuis"
+    ],
+    "combatType": "Longo Alcance / Projéteis",
+    "roleOrArchetype": "Rival / Suporte",
+    "hairColor": "Castanho",
+    "avatar": "/avatars/one-piece/wiper.png"
+  },
+  {
+    "id": "kokoro",
+    "name": "Kokoro",
+    "gender": "Feminino",
+    "species": "Tritão / Sereia (Icefish)",
+    "affiliation": [
+      "Companhia do Trem Marinho Shift",
+      "Tom's Workers"
+    ],
+    "rank": "Condutora do Rocketman",
+    "styleOrPower": "Natação de Sereia & Condução Ferroviária",
+    "debutArc": "Arco de Water 7",
+    "status": "Vivo",
+    "quote": "Nagagaga! Segurem-se firme, porque o Rocketman não tem freios nem trilhos!",
+    "techniques": [
+      "Condução Suicida de Trem Marinho",
+      "Nado Rápido de Resgate"
+    ],
+    "combatType": "Não-Combatente",
+    "roleOrArchetype": "Suporte",
+    "hairColor": "Verde",
+    "avatar": "/avatars/one-piece/kokoro.png"
+  },
+  {
+    "id": "zambai",
+    "name": "Zambai",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Franky Family"
+    ],
+    "rank": "Líder Operacional da Franky Family",
+    "styleOrPower": "Bazucas e Katana de Demolição",
+    "debutArc": "Arco de Water 7",
+    "status": "Vivo",
+    "quote": "Aniki! Nós daremos a nossa vida para resgatar o Franky-aniki de Enies Lobby!",
+    "techniques": [
+      "Disparo de Míssil da Família",
+      "Corte de Demolição com Katana"
+    ],
+    "combatType": "Longo Alcance / Projéteis",
+    "roleOrArchetype": "Suporte",
+    "hairColor": "Preto",
+    "avatar": "/avatars/one-piece/zambai.png"
+  },
+  {
+    "id": "hyouzou",
+    "name": "Hyouzou",
+    "gender": "Masculino",
+    "species": "Tritão (Polvo de Anéis Azuis)",
+    "affiliation": [
+      "Novos Piratas Tritões"
+    ],
+    "rank": "Espadachim Chefe Mercenário",
+    "styleOrPower": "Estilo das Oito Espadas Bêbadas & Veneno Letal",
+    "debutArc": "Arco da Ilha dos Tritões",
+    "status": "Derrotado",
+    "quote": "Hic... O dinheiro compra a minha espada, mas o saquê dita o ritmo dos meus oito tentáculos!",
+    "techniques": [
+      "Kagetsu Hachijyuu (Oito Espadas Venenosas)",
+      "Embriaguez com Energy Steroids"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "roleOrArchetype": "Antagonista",
+    "hairColor": "Verde",
+    "avatar": "/avatars/one-piece/hyouzou.png"
+  },
+  {
+    "id": "wadatsumi",
+    "name": "Wadatsumi",
+    "gender": "Masculino",
+    "species": "Tritão Gigante (Peixe-Tigre)",
+    "affiliation": [
+      "Piratas do Sol",
+      "Piratas Voadores"
+    ],
+    "rank": "Combatente Colossal",
+    "styleOrPower": "Força Muscular Titânica & Inflar Corpo",
+    "debutArc": "Arco da Ilha dos Tritões",
+    "status": "Vivo",
+    "quote": "Eu não sou bobo! Eu fico gigante que nem uma montanha submarina!",
+    "techniques": [
+      "Mega Soco Colossal",
+      "Mega Balão Submarino"
+    ],
+    "combatType": "Corpo a Corpo",
+    "roleOrArchetype": "Suporte",
+    "hairColor": "Ruivo",
+    "avatar": "/avatars/one-piece/wadatsumi.png"
+  },
+  {
+    "id": "yasuie",
+    "name": "Shimotsuki Yasuie (Tonoyasu)",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Família Shimotsuki de Wano",
+      "Vila Ebisu"
+    ],
+    "rank": "Ex-Daimyo de Hakumai",
+    "styleOrPower": "Sorriso Eterno do SMILE & Sacrifício Nobre",
+    "debutArc": "Arco do País de Wano",
+    "status": "Morto",
+    "quote": "Hahaha! O povo de Ebisu ri para não chorar! Eu morrerei sorrindo para proteger a rebelião dos Nove Bainhas!",
+    "techniques": [
+      "Retórica Nobre de Daimyo",
+      "Desvio das Suspeitas de Orochi"
+    ],
+    "combatType": "Não-Combatente",
+    "roleOrArchetype": "Mentor / Suporte",
+    "hairColor": "Azul",
+    "avatar": "/avatars/one-piece/yasuie.png"
   }
 ]

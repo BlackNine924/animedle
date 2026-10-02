@@ -1005,49 +1005,15 @@ export const App: React.FC<{
           />
         )}
 
-        {/* Card do Personagem Revelado (Exibido ao Acertar ou Desistir em qualquer modo) */}
-        {isFinished && currentMode !== 'ability' && currentMode !== 'grid' && (
-          <div
-            style={{ borderColor: `${animeConfig.themeColor}50` }}
-            className="max-w-2xl mx-auto my-6 p-4 sm:p-5 bg-[#0d1426] border rounded-2xl shadow-xl shadow-black/40 flex flex-col sm:flex-row items-center justify-between gap-4 animate-fadeIn"
-          >
-            <div className="flex items-center gap-4 min-w-0">
-              <div
-                style={{ borderColor: `${animeConfig.themeColor}60` }}
-                className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-[#111a2d] border-2 overflow-hidden flex-shrink-0 shadow-md"
-              >
-                <img
-                  src={targetCharacter.avatar}
-                  alt={targetCharacter.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="text-left min-w-0">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider ${
-                    currentIsWon
-                      ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
-                      : 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
-                  }`}>
-                    {currentIsWon
-                      ? `✓ Acertou em ${currentGuesses.length} ${currentGuesses.length === 1 ? 'tentativa' : 'tentativas'}!`
-                      : '🚩 Desistência'}
-                  </span>
-                  <span className="text-xs text-slate-400 font-semibold">Personagem Secreto</span>
-                </div>
-                <h3 className="text-lg sm:text-xl font-black text-white truncate">{targetCharacter.name}</h3>
-                <p className="text-xs text-slate-300 font-medium truncate mt-0.5">
-                  {targetCharacter.species} • {Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation.join(', ') : targetCharacter.affiliation}
-                </p>
-              </div>
-            </div>
-
+        {/* Botão Discreto para Reabrir o Modal de Resultado quando fechado */}
+        {isFinished && !showVictoryModal && currentMode !== 'ability' && currentMode !== 'grid' && (
+          <div className="max-w-md mx-auto my-4 text-center animate-fadeIn">
             <button
               onClick={() => setShowVictoryModal(true)}
               style={{ backgroundColor: animeConfig.themeColor }}
-              className="flex-shrink-0 w-full sm:w-auto px-4 py-2.5 text-white text-xs font-bold rounded-xl shadow-md transition-all hover:opacity-90 active:scale-95"
+              className="inline-flex items-center gap-2 px-6 py-2.5 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:opacity-90"
             >
-              Ver Estatísticas & Compartilhar
+              <span>{currentIsWon ? '🏆 Ver Painel de Vitória' : '💀 Ver Personagem Secreto'}</span>
             </button>
           </div>
         )}
@@ -1130,6 +1096,7 @@ export const App: React.FC<{
           <ExclusiveAnimeMode
             key={`${currentAnimeSlug}-${currentMode}`}
             animeSlug={currentAnimeSlug}
+            animeTitle={animeConfig.title}
             characters={characters}
             themeColor={animeConfig.themeColor}
           />

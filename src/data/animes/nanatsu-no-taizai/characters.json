@@ -19,7 +19,10 @@
       "Kami Chigiri (Mil Cortes Divinos)",
       "Assault Mode (Modo de Assalto Demoníaco)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/meliodas.png"
+    "avatar": "/avatars/nanatsu-no-taizai/meliodas.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "elizabeth-liones",
@@ -42,7 +45,10 @@
       "Tranquilize (Calmante Espiritual de Feras)",
       "Despertar dos Quatro Olhos de Deusa"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/elizabeth-liones.png"
+    "avatar": "/avatars/nanatsu-no-taizai/elizabeth-liones.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hawk",
@@ -64,7 +70,10 @@
       "Super Pork Chump (Ataque Pesado Suíno)",
       "Resistência Vital do Purgatório"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/hawk.png"
+    "avatar": "/avatars/nanatsu-no-taizai/hawk.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "diane",
@@ -86,7 +95,10 @@
       "Ground Gladius (Gladius de Rocha Colossal)",
       "Heavy Metal (Endurecimento Metálico Corporal)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/diane.png"
+    "avatar": "/avatars/nanatsu-no-taizai/diane.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ban",
@@ -108,7 +120,10 @@
       "Physical Hunt (Drenagem de Poder Corporal)",
       "Gift (Doação de Energia Vital do Purgatório)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/ban.png"
+    "avatar": "/avatars/nanatsu-no-taizai/ban.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "king",
@@ -130,7 +145,10 @@
       "Chastiefol Segunda Forma: Guardião de Musgo",
       "Chastiefol Quinta Forma: Increase (Chuva de Lâminas)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/king.png"
+    "avatar": "/avatars/nanatsu-no-taizai/king.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gowther",
@@ -151,7 +169,10 @@
       "Nightmare Teller (Projeção de Pesadelos Traumáticos)",
       "Black Out (Apagão Sensorial Instantâneo)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/gowther.png"
+    "avatar": "/avatars/nanatsu-no-taizai/gowther.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "merlin",
@@ -174,7 +195,10 @@
       "Perfect Cube (Cubo Perfeito Impenetrável)",
       "Teletransporte de Alta Escala Dimensional"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/merlin.png"
+    "avatar": "/avatars/nanatsu-no-taizai/merlin.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "escanor",
@@ -196,7 +220,10 @@
       "Pride Flare (Explosão de Chama Solar)",
       "The One (O Invencível no Ápice do Meio-Dia)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/escanor.png"
+    "avatar": "/avatars/nanatsu-no-taizai/escanor.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arthur-pendragon",
@@ -217,7 +244,10 @@
       "Cortes Sagrados de Luz Dourada",
       "Liderança Nobre de Camelot"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/arthur-pendragon.png"
+    "avatar": "/avatars/nanatsu-no-taizai/arthur-pendragon.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gilthunder",
@@ -239,7 +269,10 @@
       "Raitei no Ken (Espada Relâmpago Cortante)",
       "Carga Elétrica de Alta Velocidade"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/gilthunder.png"
+    "avatar": "/avatars/nanatsu-no-taizai/gilthunder.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "howzer",
@@ -261,7 +294,10 @@
       "Super Cyclone (Ciclone Destruidor)",
       "Lança de Pressão Eólica Perfurante"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/howzer.png"
+    "avatar": "/avatars/nanatsu-no-taizai/howzer.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "griamore",
@@ -283,7 +319,10 @@
       "Defesa de Impacto Contra Ataques Físicos e Mágicos",
       "Combate de Contenção com Escudo"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/griamore.png"
+    "avatar": "/avatars/nanatsu-no-taizai/griamore.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guila",
@@ -305,7 +344,10 @@
       "Brilliant Detonation (Detonação Brilhante em Área)",
       "Estocadas com Florete Flamejante"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/guila.png"
+    "avatar": "/avatars/nanatsu-no-taizai/guila.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jericho",
@@ -326,7 +368,11 @@
       "Rajada Espiral de Lâminas de Gelo",
       "Agilidade Rápida de Combate"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/jericho.png"
+    "avatar": "/avatars/nanatsu-no-taizai/jericho.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hendrickson",
@@ -349,7 +395,10 @@
       "Dark Snow (Chuva de Neve Demoníaca Corrosiva)",
       "Espada Sagrada Refinada de Liones"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/hendrickson.png"
+    "avatar": "/avatars/nanatsu-no-taizai/hendrickson.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dreyfus",
@@ -371,7 +420,10 @@
       "Cortes Sísmicos com Espada Pesada",
       "Resistência Física Sobre-Humana"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/dreyfus.png"
+    "avatar": "/avatars/nanatsu-no-taizai/dreyfus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zaratras",
@@ -393,7 +445,10 @@
       "Espadachim Supremo de Diamante",
       "Sacrifício Vital Sagrado"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/zaratras.png"
+    "avatar": "/avatars/nanatsu-no-taizai/zaratras.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "matrona",
@@ -414,7 +469,10 @@
       "Golpes Físicos Sísmicos com Pés e Punhos",
       "Manipulação de Pilares Rochosos"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/matrona.png"
+    "avatar": "/avatars/nanatsu-no-taizai/matrona.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "elaine",
@@ -435,7 +493,10 @@
       "Voo Levitatório com Asas de Fada",
       "Guardiã da Água da Imortalidade"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/elaine.png"
+    "avatar": "/avatars/nanatsu-no-taizai/elaine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gelda",
@@ -456,7 +517,10 @@
       "Garras Cortantes Noturnas",
       "Resistência à Luz Solar com Magia de Trevas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/gelda.png"
+    "avatar": "/avatars/nanatsu-no-taizai/gelda.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bartra-liones",
@@ -477,7 +541,10 @@
       "Vontade Inabalável de Soberano",
       "Proteção Real de Liones"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/bartra-liones.png"
+    "avatar": "/avatars/nanatsu-no-taizai/bartra-liones.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "helbram",
@@ -499,7 +566,10 @@
       "Metamorfose Humana Perfeita",
       "Comunicação Espiritual Astral com King"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/helbram.png"
+    "avatar": "/avatars/nanatsu-no-taizai/helbram.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zeldris",
@@ -521,7 +591,10 @@
       "Ominous Nebula (Nebulosa Sinistra de Atração e Cortes)",
       "Dies Irae (Chamas Negras do Juízo Final)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/zeldris.png"
+    "avatar": "/avatars/nanatsu-no-taizai/zeldris.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "estarossa",
@@ -543,7 +616,10 @@
       "Rebellion (Sete Lâminas Negras de Matança)",
       "Black Hound (Cão das Chamas do Purgatório)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/estarossa.png"
+    "avatar": "/avatars/nanatsu-no-taizai/estarossa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mael",
@@ -565,7 +641,10 @@
       "Quatro Asas Divinas de Deusa",
       "Bell of Truth (Sino da Verdade e Dissipação de Ilusões)"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/mael.png"
+    "avatar": "/avatars/nanatsu-no-taizai/mael.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "derieri",
@@ -587,7 +666,10 @@
       "Mandamento da Pureza",
       "Manto Corporal de Trevas Demoníacas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/derieri.png"
+    "avatar": "/avatars/nanatsu-no-taizai/derieri.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "monspeet",
@@ -609,7 +691,10 @@
       "Transformação Indura",
       "Mandamento da Reticência"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/monspeet.png"
+    "avatar": "/avatars/nanatsu-no-taizai/monspeet.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gloxinia",
@@ -631,7 +716,10 @@
       "Invocação de Servos de Madeira e Raízes Gigantes",
       "Voo com Asas de Borboleta Primordiais"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/gloxinia.png"
+    "avatar": "/avatars/nanatsu-no-taizai/gloxinia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "drole",
@@ -653,7 +741,10 @@
       "Quatro Braços de Combate Físico Titânico",
       "Mandamento da Paciência"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/drole.png"
+    "avatar": "/avatars/nanatsu-no-taizai/drole.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "galand",
@@ -675,7 +766,10 @@
       "Zanbarazan (Turbilhão de Cortes Devastadores)",
       "Saltos Sísmicos de Longa Distância"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/galand.png"
+    "avatar": "/avatars/nanatsu-no-taizai/galand.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "melascula",
@@ -697,7 +791,10 @@
       "Forma de Serpente Gigante Venenosa",
       "Devoração de Almas Humanas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/melascula.png"
+    "avatar": "/avatars/nanatsu-no-taizai/melascula.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grayroad",
@@ -719,7 +816,10 @@
       "Jubaku Ensa (Correntes de Maldição Inescapáveis)",
       "Corpo Coletivo de Rostos Flutuantes de Trevas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/grayroad.png"
+    "avatar": "/avatars/nanatsu-no-taizai/grayroad.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fraudrin",
@@ -741,7 +841,10 @@
       "Autodestruição de Alta Escala com Trevas",
       "Soco Sísmico de Gigante Demoníaco"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/fraudrin.png"
+    "avatar": "/avatars/nanatsu-no-taizai/fraudrin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ludociel",
@@ -763,7 +866,10 @@
       "Sanctuary (Barreira Sagrada Ofensiva e Defensiva)",
       "Possessão Sagrada e Purificação Espiritual"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/ludociel.png"
+    "avatar": "/avatars/nanatsu-no-taizai/ludociel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sariel",
@@ -785,7 +891,10 @@
       "Cortes Microscópicos de Alta Pressão Eólica",
       "Defesa de Vórtice Sagrado"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/sariel.png"
+    "avatar": "/avatars/nanatsu-no-taizai/sariel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tarmiel",
@@ -807,7 +916,10 @@
       "Regeneração Imediata em Forma Líquida",
       "Pilares de Água Sagrada Pressurizada"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/tarmiel.png"
+    "avatar": "/avatars/nanatsu-no-taizai/tarmiel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "demon-king",
@@ -828,7 +940,10 @@
       "Tempestade de Morte do Purgatório",
       "Manipulação Cósmica de Trevas Absolutas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/demon-king.png"
+    "avatar": "/avatars/nanatsu-no-taizai/demon-king.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "supreme-deity",
@@ -849,7 +964,10 @@
       "Purificação Universal com Fogo Santo",
       "Julgamento de Luz Primordial"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/supreme-deity.png"
+    "avatar": "/avatars/nanatsu-no-taizai/supreme-deity.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chandler",
@@ -870,7 +988,10 @@
       "Meteorworks (Chuva Incineradora de Meteoros)",
       "Forma Bestial do Demônio Original"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/chandler.png"
+    "avatar": "/avatars/nanatsu-no-taizai/chandler.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cusack",
@@ -891,7 +1012,10 @@
       "Fusão com Chandler no Demônio Original",
       "Rajadas Cortantes do Purgatório"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/cusack.png"
+    "avatar": "/avatars/nanatsu-no-taizai/cusack.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cath",
@@ -912,7 +1036,10 @@
       "Regeneração Infinita por Não-Existência",
       "Mandíbulas Vorazes Dimensionalmente Expansivas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/cath.png"
+    "avatar": "/avatars/nanatsu-no-taizai/cath.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "denzel-liones",
@@ -933,7 +1060,10 @@
       "Invocação da Deusa Nerobasta",
       "Esgrima Sagrada de Liones"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/denzel-liones.png"
+    "avatar": "/avatars/nanatsu-no-taizai/denzel-liones.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "deathpierce",
@@ -954,7 +1084,10 @@
       "Estocada de Alta Velocidade",
       "Combate de Apoio e Neutralização Arcana"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/deathpierce.png"
+    "avatar": "/avatars/nanatsu-no-taizai/deathpierce.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dogged",
@@ -975,7 +1108,10 @@
       "Golpe Destruidor de Rochas",
       "Investida Brutal de Cavaleiro"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/dogged.png"
+    "avatar": "/avatars/nanatsu-no-taizai/dogged.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arden",
@@ -996,7 +1132,10 @@
       "Disparos Múltiplos com Flechas Especiais",
       "Tiro Certeiro de Longo Alcance"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/arden.png"
+    "avatar": "/avatars/nanatsu-no-taizai/arden.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "deldry",
@@ -1017,7 +1156,10 @@
       "Comando Mental de Alvos Encantados",
       "Evasão e Ilusão Romântica"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/deldry.png"
+    "avatar": "/avatars/nanatsu-no-taizai/deldry.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "golgius",
@@ -1038,7 +1180,10 @@
       "Ataque Furtivo com Lâminas Ocultas",
       "Arremesso Rápido de Adagas Envenenadas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/golgius.png"
+    "avatar": "/avatars/nanatsu-no-taizai/golgius.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "friesia",
@@ -1059,7 +1204,10 @@
       "Golpes Cortantes com Chicote",
       "Corrosão e Veneno Entomológico"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/friesia.png"
+    "avatar": "/avatars/nanatsu-no-taizai/friesia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ruin",
@@ -1080,7 +1228,10 @@
       "Geração de Alucinações de Batalha",
       "Golpes Pesados com Maça Blindada"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/ruin.png"
+    "avatar": "/avatars/nanatsu-no-taizai/ruin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jude",
@@ -1101,7 +1252,10 @@
       "Técnicas de Tortura e Imobilização",
       "Combate de Curto Alcance Sádico"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/jude.png"
+    "avatar": "/avatars/nanatsu-no-taizai/jude.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "slader",
@@ -1122,7 +1276,10 @@
       "Espadão Serrilhado Giratório Corta-Gigantes",
       "Acrobacias e Investidas Felinas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/slader.png"
+    "avatar": "/avatars/nanatsu-no-taizai/slader.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "simon",
@@ -1143,7 +1300,10 @@
       "Passos Leves e Furtivos",
       "Corte Perfeito de Precisão"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/simon.png"
+    "avatar": "/avatars/nanatsu-no-taizai/simon.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "margaret-liones",
@@ -1163,7 +1323,10 @@
       "Resistência Espiritual Heroica",
       "Liderança Moral Real"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/margaret-liones.png"
+    "avatar": "/avatars/nanatsu-no-taizai/margaret-liones.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "veronica-liones",
@@ -1183,7 +1346,10 @@
       "Uso de Âmbar da Deusa para Selamento Demoníaco",
       "Determinação Feroz e Lealdade"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/veronica-liones.png"
+    "avatar": "/avatars/nanatsu-no-taizai/veronica-liones.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vivian",
@@ -1204,7 +1370,10 @@
       "Feitiços Elementais de Gelo, Fogo e Vento",
       "Criação de Ilusões e Prisões Arcanas"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/vivian.png"
+    "avatar": "/avatars/nanatsu-no-taizai/vivian.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wild",
@@ -1225,7 +1394,10 @@
       "Presas Brocadoras de Alta Resistência",
       "Resistência Suprema ao Clima Extremo do Purgatório"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/wild.png"
+    "avatar": "/avatars/nanatsu-no-taizai/wild.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zhivago",
@@ -1245,7 +1417,10 @@
       "Técnicas Supremas de Furto e Camuflagem",
       "Sacrifício de Alma para Salvação de Ban"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/zhivago.png"
+    "avatar": "/avatars/nanatsu-no-taizai/zhivago.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gerheade",
@@ -1266,6 +1441,9 @@
       "Voo Levitatório Mágico",
       "Feitiços Curativos Naturais"
     ],
-    "avatar": "/avatars/nanatsu-no-taizai/gerheade.png"
+    "avatar": "/avatars/nanatsu-no-taizai/gerheade.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

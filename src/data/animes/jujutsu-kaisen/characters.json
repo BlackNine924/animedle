@@ -16,7 +16,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127212-FVm2tD0erQ5B.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "megumi-fushiguro",
@@ -36,7 +39,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126635-L0y3I92JSUkN.png",
-    "domainExpansion": "Jardim das Sombras Quimera (Chimera Shadow Garden)"
+    "domainExpansion": "Jardim das Sombras Quimera (Chimera Shadow Garden)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nobara-kugisaki",
@@ -55,7 +61,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133700-f6sOO3TcgLV6.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "satoru-gojo",
@@ -75,7 +84,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127691-9zqh1xpIubn7.png",
-    "domainExpansion": "Vazio Incalculável (Unlimited Void)"
+    "domainExpansion": "Vazio Incalculável (Unlimited Void)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuta-okkotsu",
@@ -95,7 +107,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b129571-GHJk7gviHOOw.jpg",
-    "domainExpansion": "Amor Mútuo Autêntico (All-Encompassing Unequivocal Love)"
+    "domainExpansion": "Amor Mútuo Autêntico (All-Encompassing Unequivocal Love)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "maki-zenin",
@@ -115,7 +130,10 @@
     "era": "Moderna",
     "techniqueType": "Restrição Celestial",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b134167-5TCytk45YByD.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toge-inumaki",
@@ -135,7 +153,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157115-kdhRYQdVhH95.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "panda",
@@ -154,7 +175,10 @@
     "era": "Moderna",
     "techniqueType": "Cadáver Amaldiçoado",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137974-9qnK3DPrvLKh.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kinji-hakari",
@@ -173,7 +197,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b197584-fK7Jc6DLfx7e.jpg",
-    "domainExpansion": "Aposta Ociosa da Morte (Idle Death Gamble)"
+    "domainExpansion": "Aposta Ociosa da Morte (Idle Death Gamble)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kirara-hoshi",
@@ -192,7 +219,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b243828-YGzd637cKhDp.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aoi-todo",
@@ -211,7 +241,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b137975-6TH7PiLWJaqy.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mai-zenin",
@@ -231,7 +264,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b134168-FdWz5w2LqpeF.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kasumi-miwa",
@@ -250,7 +286,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b156848-Rf0tuoQCNyZV.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kokichi-muta",
@@ -269,7 +308,10 @@
     "era": "Moderna",
     "techniqueType": "Restrição Celestial",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210154-nIn9DX39GFKP.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "noritoshi-kamo",
@@ -289,7 +331,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157866-UWDtYBoG71PD.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "momo-nishimiya",
@@ -308,7 +353,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157868-Ui2Wht3M6tlM.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoshinobu-gakuganji",
@@ -327,7 +375,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157867-dHdd8ZECuzHx.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "utahime-iori",
@@ -346,7 +397,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157864-rejVYNx0kQZr.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arata-nitta",
@@ -365,7 +419,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b320325-uGhurK5IhUeO.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kento-nanami",
@@ -384,7 +441,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133704-8wLTGjc234q2.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shoko-ieiri",
@@ -403,7 +463,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b158154-UCqbiULli62P.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "masamichi-yaga",
@@ -422,7 +485,10 @@
     "era": "Moderna",
     "techniqueType": "Cadáver Amaldiçoado",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b189237-ZxNJwVPL8DvW.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kiyotaka-ijichi",
@@ -441,7 +507,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b189238-ItSLams6lRk9.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "takuma-ino",
@@ -460,7 +529,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157865-X9ENX9OzWevS.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "atsuya-kusakabe",
@@ -479,7 +551,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b205234-nrush17kFWaE.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mei-mei",
@@ -498,7 +573,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157215-I3TQJu8nkDwD.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ui-ui",
@@ -517,7 +595,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b217290-dEovi2HxGOnV.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuki-tsukumo",
@@ -536,7 +617,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b196502-aBvtPFr9lGm2.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tengen",
@@ -555,7 +639,10 @@
     "era": "Período Nara (Ancestral)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b217291-zKcyXtXLZZJy.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "akari-nitta",
@@ -574,7 +661,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210846-XcRQ643Ne8Pb.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yu-haibara",
@@ -593,7 +683,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b281725-qJOgelbFp32B.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "misato-kuroi",
@@ -612,7 +705,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b255175-rOyuWgBm6W9M.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toji-fushiguro",
@@ -632,7 +728,10 @@
     "era": "Moderna",
     "techniqueType": "Restrição Celestial",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b162722-btzdghBizxKS.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "naobito-zenin",
@@ -651,7 +750,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b188432-WePQBJsEuSts.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "naoya-zenin",
@@ -670,7 +772,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b208204-1CoWbBOC2Jqr.jpg",
-    "domainExpansion": "Palácio da Lua Célula Temporal (Time Cell Moon Palace)"
+    "domainExpansion": "Palácio da Lua Célula Temporal (Time Cell Moon Palace)",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ogi-zenin",
@@ -689,7 +794,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b227443-nPWnp2f0jwNA.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jinichi-zenin",
@@ -708,7 +816,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "/avatars/jujutsu-kaisen/jinichi-zenin.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "riko-amanai",
@@ -727,7 +838,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b203015-ez2Io1gxIQOP.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shiu-kong",
@@ -746,7 +860,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b303313-5ELI3hDVjNwP.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryomen-sukuna",
@@ -766,7 +883,10 @@
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133701-rCQuDpHr3UZL.png",
-    "domainExpansion": "Santuário Malevolente (Fukuma Mizushi)"
+    "domainExpansion": "Santuário Malevolente (Fukuma Mizushi)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "suguru-geto",
@@ -786,7 +906,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133699-FCnXaISgazAi.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kenjaku",
@@ -806,7 +929,10 @@
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b289584-KndGudJZm5Ik.jpg",
-    "domainExpansion": "Proliferação de Ventres (Womb Profusion)"
+    "domainExpansion": "Proliferação de Ventres (Womb Profusion)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "uraume",
@@ -826,7 +952,10 @@
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210830-rJ8LVEvLUqjE.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mahito",
@@ -845,7 +974,10 @@
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b133702-Y7JRG5vAvjIL.png",
-    "domainExpansion": "Auto-Encarnação da Perfeição (Self-Embodiment of Perfection)"
+    "domainExpansion": "Auto-Encarnação da Perfeição (Self-Embodiment of Perfection)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jogo",
@@ -864,7 +996,10 @@
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b156991-niYjdp9CxO4w.png",
-    "domainExpansion": "Caixão da Montanha de Ferro (Coffin of the Iron Mountain)"
+    "domainExpansion": "Caixão da Montanha de Ferro (Coffin of the Iron Mountain)",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hanami",
@@ -883,7 +1018,10 @@
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b172743-4Y5SXqED6A3G.jpg",
-    "domainExpansion": "Mar Cerimonial de Luz (Ceremonial Sea of Light)"
+    "domainExpansion": "Mar Cerimonial de Luz (Ceremonial Sea of Light)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dagon",
@@ -902,7 +1040,10 @@
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b204383-5oTlVPpaCnM2.jpg",
-    "domainExpansion": "Horizonte do Esquife Cativante (Horizon of the Captivating Skiff)"
+    "domainExpansion": "Horizonte do Esquife Cativante (Horizon of the Captivating Skiff)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "choso",
@@ -922,7 +1063,10 @@
     "era": "Feto Amaldiçoado (Era Meiji)",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157116-2jYQf3y8NeTZ.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eso",
@@ -941,7 +1085,10 @@
     "era": "Feto Amaldiçoado (Era Meiji)",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210831-wsucHRbSZjbV.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kechizu",
@@ -960,7 +1107,10 @@
     "era": "Feto Amaldiçoado (Era Meiji)",
     "techniqueType": "Inata Herdada",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b210832-d1Fg0CePSU86.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rika-orimoto",
@@ -979,7 +1129,10 @@
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Invocação / Shikigami",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b208533-EXiA1hR5l585.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mahoraga",
@@ -998,7 +1151,10 @@
     "era": "Invocação / Shikigami",
     "techniqueType": "Invocação / Shikigami",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b319339-B50Yn0NHXCua.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "smallpox-deity",
@@ -1017,7 +1173,10 @@
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306263-P94VBlsmRYOb.png",
-    "domainExpansion": "Lápide de Pedra (Graveyard Domain)"
+    "domainExpansion": "Lápide de Pedra (Graveyard Domain)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hajime-kashimo",
@@ -1036,7 +1195,10 @@
     "era": "Era Edo (Há 400 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b248143-w5ZilMdkvpbe.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hiromi-higuruma",
@@ -1055,7 +1217,10 @@
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b248818-G9R6TqqElpvG.png",
-    "domainExpansion": "Sentença Mortal (Deadly Sentencing)"
+    "domainExpansion": "Sentença Mortal (Deadly Sentencing)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryu-ishigori",
@@ -1074,7 +1239,10 @@
     "era": "Era Edo (Há 400 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b280468-FKEIVFFwPmJ7.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "takako-uro",
@@ -1093,7 +1261,10 @@
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b283136-NvWh6wRYmFnn.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fumihiko-takaba",
@@ -1112,7 +1283,10 @@
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b280467-w8N3PAfEJmnc.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hana-kurusu",
@@ -1131,7 +1305,10 @@
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b220724-PiTAVLDqbWQn.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yorozu",
@@ -1151,7 +1328,10 @@
     "era": "Período Heian (Há 1000 Anos)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306195-Xqsc5ZLjWvk6.png",
-    "domainExpansion": "Três Vezes Aflição (Three-Fold Affliction)"
+    "domainExpansion": "Três Vezes Aflição (Three-Fold Affliction)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reggie-star",
@@ -1170,7 +1350,10 @@
     "era": "Ancestral (Reencarnado)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306194-Ndnj1bqwzVxD.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dhruv-lakdawala",
@@ -1189,7 +1372,10 @@
     "era": "Guerra Wa (Há 2000 Anos)",
     "techniqueType": "Invocação / Shikigami",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306266-sBf9Whr0tUlO.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurourushi",
@@ -1208,7 +1394,10 @@
     "era": "Espírito Amaldiçoado",
     "techniqueType": "Invocação / Shikigami",
     "avatar": "/avatars/jujutsu-kaisen/kurourushi.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charles-bernard",
@@ -1227,7 +1416,10 @@
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "/avatars/jujutsu-kaisen/charles-bernard.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hagane-daido",
@@ -1246,7 +1438,10 @@
     "era": "Ancestral (Reencarnado)",
     "techniqueType": "Restrição Celestial",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306265-M5XOMzUHkwPR.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rokujushi-miyo",
@@ -1265,7 +1460,10 @@
     "era": "Ancestral (Reencarnado)",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306264-4qG4kcepuurT.png",
-    "domainExpansion": "Arena de Sumô Sagrada"
+    "domainExpansion": "Arena de Sumô Sagrada",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "iori-hazenoki",
@@ -1284,7 +1482,10 @@
     "era": "Ancestral (Reencarnado)",
     "techniqueType": "Inata Própria",
     "avatar": "/avatars/jujutsu-kaisen/iori-hazenoki.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "haruta-shigemo",
@@ -1303,7 +1504,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b209694-xSS6FxN4al3l.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jiro-awasaka",
@@ -1322,7 +1526,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306253-PYrfBHAfYvsb.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "juzo-kumiya",
@@ -1341,7 +1548,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b207988-GB9ZpnPA6dWQ.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ogami-granny",
@@ -1360,7 +1570,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b306252-YS8dqn5XWzgT.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "junpei-yoshino",
@@ -1379,7 +1592,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b157214-ROBNoXVEXRNy.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wasuke-itadori",
@@ -1398,7 +1614,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b194074-SnbrUkHIyM62.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jin-itadori",
@@ -1417,7 +1636,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b283137-nqjpjzZC0AYo.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaori-itadori",
@@ -1436,7 +1658,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b380084-ddKGDd50c36B.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsumiki-fushiguro",
@@ -1455,7 +1680,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b193479-aGNRmbU5jNwR.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mimiko-hasaba",
@@ -1474,7 +1702,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b228986-TXJuABOhrxRA.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nanako-hasaba",
@@ -1493,7 +1724,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b228987-Su63YTP33b6W.jpg",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "larue",
@@ -1512,7 +1746,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b268297-zQ48F3PoVldl.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miguel",
@@ -1531,7 +1768,10 @@
     "era": "Moderna",
     "techniqueType": "Inata Própria",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b272175-wBjreG7iB9n2.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "finger-bearer",
@@ -1550,7 +1790,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "/avatars/jujutsu-kaisen/finger-bearer.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grasshopper-curse",
@@ -1569,7 +1812,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "/avatars/jujutsu-kaisen/grasshopper-curse.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "remi",
@@ -1588,7 +1834,10 @@
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "/avatars/jujutsu-kaisen/remi.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "haba",
@@ -1607,7 +1856,10 @@
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "/avatars/jujutsu-kaisen/haba.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hanyu",
@@ -1626,7 +1878,10 @@
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "/avatars/jujutsu-kaisen/hanyu.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "amai-rin",
@@ -1645,7 +1900,10 @@
     "era": "Moderna (Jogo do Abate)",
     "techniqueType": "Inata Própria",
     "avatar": "/avatars/jujutsu-kaisen/amai-rin.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nobuko-takada",
@@ -1664,7 +1922,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "/avatars/jujutsu-kaisen/nobuko-takada.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuko-ozawa",
@@ -1683,7 +1944,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "/avatars/jujutsu-kaisen/yuko-ozawa.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sasaki",
@@ -1702,7 +1966,10 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "/avatars/jujutsu-kaisen/sasaki.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "iguchi",
@@ -1721,6 +1988,9 @@
     "era": "Moderna",
     "techniqueType": "Sem Técnica Inata",
     "avatar": "/avatars/jujutsu-kaisen/iguchi.png",
-    "domainExpansion": null
+    "domainExpansion": null,
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

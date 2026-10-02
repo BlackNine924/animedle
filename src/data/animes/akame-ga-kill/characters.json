@@ -18,7 +18,11 @@
       "Golpe de Impacto Supersônico",
       "Adaptação e Camuflagem Invisível"
     ],
-    "avatar": "/avatars/akame-ga-kill/tatsumi.png"
+    "avatar": "/avatars/akame-ga-kill/tatsumi.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Guerreiro / Espadachim",
+    "species": "Humano"
   },
   {
     "id": "akame",
@@ -39,7 +43,11 @@
       "Velocidade Ilusória de Combate",
       "Eliminação Silenciosa de Alvos"
     ],
-    "avatar": "/avatars/akame-ga-kill/akame.png"
+    "avatar": "/avatars/akame-ga-kill/akame.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Espadachim Assassina",
+    "species": "Humano"
   },
   {
     "id": "najenda",
@@ -61,7 +69,11 @@
       "Liberação do Potencial Máximo de Susanoo",
       "Tiro Certeiro com Pistola Imperial"
     ],
-    "avatar": "/avatars/akame-ga-kill/najenda.png"
+    "avatar": "/avatars/akame-ga-kill/najenda.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Líder de Night Raid / Comandante",
+    "species": "Humano"
   },
   {
     "id": "esdeath",
@@ -83,7 +95,11 @@
       "Exército de Cavaleiros de Gelo",
       "Espada de Gelo e Combate Corpo a Corpo Genial"
     ],
-    "avatar": "/avatars/akame-ga-kill/esdeath.png"
+    "avatar": "/avatars/akame-ga-kill/esdeath.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "General do Império / Líder dos Jaegers",
+    "species": "Humano"
   },
   {
     "id": "leone",
@@ -104,7 +120,11 @@
       "Sentidos Aguçados de Caçadora Bestial",
       "Golpes Físicos Sísmicos"
     ],
-    "avatar": "/avatars/akame-ga-kill/leone.png"
+    "avatar": "/avatars/akame-ga-kill/leone.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Lutadora / Assassina",
+    "species": "Humano"
   },
   {
     "id": "mine",
@@ -125,7 +145,11 @@
       "Modo Metralhadora de Rajada Contínua",
       "Tiro Perfurante de Longa Distância"
     ],
-    "avatar": "/avatars/akame-ga-kill/mine.png"
+    "avatar": "/avatars/akame-ga-kill/mine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Atiradora de Elite",
+    "species": "Humano"
   },
   {
     "id": "sheele",
@@ -146,7 +170,11 @@
       "Defesa Absoluta com Lâminas Gigantes",
       "Decapitação Rápida"
     ],
-    "avatar": "/avatars/akame-ga-kill/sheele.png"
+    "avatar": "/avatars/akame-ga-kill/sheele.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Assassina",
+    "species": "Humano"
   },
   {
     "id": "lubbock",
@@ -167,7 +195,11 @@
       "Perfurador de Coração com Fio Fino",
       "Amputação Instantânea por Fio Cortante"
     ],
-    "avatar": "/avatars/akame-ga-kill/lubbock.png"
+    "avatar": "/avatars/akame-ga-kill/lubbock.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Estrategista / Assassino",
+    "species": "Humano"
   },
   {
     "id": "bulat",
@@ -189,7 +221,11 @@
       "Investida com Força Brutal",
       "Domínio Absoluto do Incursio"
     ],
-    "avatar": "/avatars/akame-ga-kill/bulat.png"
+    "avatar": "/avatars/akame-ga-kill/bulat.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Guerreiro / Mentor",
+    "species": "Humano"
   },
   {
     "id": "chelsea",
@@ -210,7 +246,11 @@
       "Infiltração Furtiva Atrás das Linhas Inimigas",
       "Simulação de Voz e Postura"
     ],
-    "avatar": "/avatars/akame-ga-kill/chelsea.png"
+    "avatar": "/avatars/akame-ga-kill/chelsea.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Assassina Disfarçada",
+    "species": "Humano"
   },
   {
     "id": "susanoo",
@@ -231,7 +271,11 @@
       "Espada de Luz Sagrada Ame no Murakumo",
       "Regeneração Nuclear Imediata"
     ],
-    "avatar": "/avatars/akame-ga-kill/susanoo.png"
+    "avatar": "/avatars/akame-ga-kill/susanoo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Guerreiro Guardião (Teigu Viva)",
+    "species": "Humano"
   },
   {
     "id": "wave",
@@ -253,7 +297,11 @@
       "Voo e Propulsão com Asas Mecânicas",
       "Uso Duplo de Teigu (Grand Chariot + Mastema)"
     ],
-    "avatar": "/avatars/akame-ga-kill/wave.png"
+    "avatar": "/avatars/akame-ga-kill/wave.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Guerreiro Imperial",
+    "species": "Humano"
   },
   {
     "id": "kurome",
@@ -275,7 +323,11 @@
       "Espadachim de Alta Agilidade com Drogas Estimulantes",
       "Cortes Cirúrgicos Fatais"
     ],
-    "avatar": "/avatars/akame-ga-kill/kurome.png"
+    "avatar": "/avatars/akame-ga-kill/kurome.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Assassina Imperial",
+    "species": "Humano"
   },
   {
     "id": "bols",
@@ -297,7 +349,11 @@
       "Autodestruição Emergencial de Alta Potência",
       "Resistência Física Pesada"
     ],
-    "avatar": "/avatars/akame-ga-kill/bols.png"
+    "avatar": "/avatars/akame-ga-kill/bols.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Combatente Pesado",
+    "species": "Humano"
   },
   {
     "id": "seryu-ubiquitous",
@@ -319,7 +375,11 @@
       "Projéteis e Mísseis Corporais embutidos",
       "Bomba Suicida Espiritual de Destruição Total"
     ],
-    "avatar": "/avatars/akame-ga-kill/seryu-ubiquitous.png"
+    "avatar": "/avatars/akame-ga-kill/seryu-ubiquitous.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Oficial Fanática da Guarda",
+    "species": "Humano"
   },
   {
     "id": "dr-stylish",
@@ -341,7 +401,11 @@
       "Injeção e Transformação em Monstro Gigante",
       "Criação de Exército de Ciborgues e Zumbis"
     ],
-    "avatar": "/avatars/akame-ga-kill/dr-stylish.png"
+    "avatar": "/avatars/akame-ga-kill/dr-stylish.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Cientista Imperial",
+    "species": "Humano"
   },
   {
     "id": "run",
@@ -362,7 +426,11 @@
       "Reflexão de Flechas e Disparos",
       "Análise Estratégica e Rastreamento Aéreo"
     ],
-    "avatar": "/avatars/akame-ga-kill/run.png"
+    "avatar": "/avatars/akame-ga-kill/run.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Assessor / Combatente Alado",
+    "species": "Humano"
   },
   {
     "id": "budo",
@@ -383,7 +451,11 @@
       "Voo por Levitacão Eletromagnética",
       "Soco de Choque Esmagador"
     ],
-    "avatar": "/avatars/akame-ga-kill/budo.png"
+    "avatar": "/avatars/akame-ga-kill/budo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Grande General do Império",
+    "species": "Humano"
   },
   {
     "id": "honest",
@@ -403,7 +475,11 @@
       "Manipulação Política e Chantagem",
       "Consumo de Carne Enriquecida com Energia Vital"
     ],
-    "avatar": "/avatars/akame-ga-kill/honest.png"
+    "avatar": "/avatars/akame-ga-kill/honest.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Primeiro-Ministro / Tirano",
+    "species": "Humano"
   },
   {
     "id": "makoto",
@@ -423,7 +499,11 @@
       "Modo Purgação Sangrenta do Gigante Imperial",
       "Barreira Defensiva Sagrada Inviolável"
     ],
-    "avatar": "/avatars/akame-ga-kill/makoto.png"
+    "avatar": "/avatars/akame-ga-kill/makoto.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Imperador do Império",
+    "species": "Humano"
   },
   {
     "id": "zank",
@@ -444,7 +524,11 @@
       "Ilusão Psicológica da Pessoa Mais Amada",
       "Cortes Velozes com Lâminas Ocultas"
     ],
-    "avatar": "/avatars/akame-ga-kill/zank.png"
+    "avatar": "/avatars/akame-ga-kill/zank.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Caçador de Cabeças / Carrasco",
+    "species": "Humano"
   },
   {
     "id": "daidara",
@@ -465,7 +549,11 @@
       "Combate Brutal de Longo Alcance",
       "Força Física Titânica"
     ],
-    "avatar": "/avatars/akame-ga-kill/daidara.png"
+    "avatar": "/avatars/akame-ga-kill/daidara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Guerreiro de Esdeath",
+    "species": "Humano"
   },
   {
     "id": "nyau",
@@ -486,7 +574,11 @@
       "Agilidade Felina e Garras Cortantes",
       "Ataque Psicoacústico Paralisante"
     ],
-    "avatar": "/avatars/akame-ga-kill/nyau.png"
+    "avatar": "/avatars/akame-ga-kill/nyau.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Guerreiro de Esdeath",
+    "species": "Humano"
   },
   {
     "id": "liver",
@@ -507,7 +599,11 @@
       "Lâminas D'água Pressurizadas Cortantes",
       "Esgrima Imperial Refinada"
     ],
-    "avatar": "/avatars/akame-ga-kill/liver.png"
+    "avatar": "/avatars/akame-ga-kill/liver.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Comandante de Esdeath",
+    "species": "Humano"
   },
   {
     "id": "syura",
@@ -528,7 +624,11 @@
       "Artes Marciais do Templo Imperial Kohou",
       "Ataque Furtivo Espaço-Temporal"
     ],
-    "avatar": "/avatars/akame-ga-kill/syura.png"
+    "avatar": "/avatars/akame-ga-kill/syura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Comandante da Wild Hunt",
+    "species": "Humano"
   },
   {
     "id": "champ",
@@ -549,7 +649,11 @@
       "Saltos Acrobáticos Enganadores",
       "Fogo de Supressão Múltiplo"
     ],
-    "avatar": "/avatars/akame-ga-kill/champ.png"
+    "avatar": "/avatars/akame-ga-kill/champ.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Palhaço Carrasco",
+    "species": "Humano"
   },
   {
     "id": "dorothea",
@@ -570,7 +674,11 @@
       "Fortalecimento Físico por Sangue Ingerido",
       "Cura Instantânea por Vampirismo"
     ],
-    "avatar": "/avatars/akame-ga-kill/dorothea.png"
+    "avatar": "/avatars/akame-ga-kill/dorothea.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Alquimista",
+    "species": "Humano"
   },
   {
     "id": "izou",
@@ -591,7 +699,11 @@
       "Desvio de Balas com a Lâmina",
       "Combate de Contragolpe Letal"
     ],
-    "avatar": "/avatars/akame-ga-kill/izou.png"
+    "avatar": "/avatars/akame-ga-kill/izou.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Samurai Espadachim",
+    "species": "Humano"
   },
   {
     "id": "cosmina",
@@ -612,7 +724,11 @@
       "Transformação em Quimera Bestial Gigante",
       "Ataque Sônico Direcional"
     ],
-    "avatar": "/avatars/akame-ga-kill/cosmina.png"
+    "avatar": "/avatars/akame-ga-kill/cosmina.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Assassina / Cantora",
+    "species": "Humano"
   },
   {
     "id": "enshin",
@@ -633,7 +749,11 @@
       "Combate de Curta Distância Impiedoso",
       "Disparo de Vácuo em Meia-Lua"
     ],
-    "avatar": "/avatars/akame-ga-kill/enshin.png"
+    "avatar": "/avatars/akame-ga-kill/enshin.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Pirata / Assassino",
+    "species": "Humano"
   },
   {
     "id": "ibara",
@@ -655,7 +775,11 @@
       "Esquiva Elástica Sobrenatural",
       "Golpes de Esmagamento Rakshasa"
     ],
-    "avatar": "/avatars/akame-ga-kill/ibara.png"
+    "avatar": "/avatars/akame-ga-kill/ibara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Artista Marcial / Guarda-Costas",
+    "species": "Humano"
   },
   {
     "id": "sten",
@@ -677,7 +801,11 @@
       "Agarrão Esmagador de Ossos",
       "Investida Destruidora de Impacto"
     ],
-    "avatar": "/avatars/akame-ga-kill/sten.png"
+    "avatar": "/avatars/akame-ga-kill/sten.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Artista Marcial / Carrasco",
+    "species": "Humano"
   },
   {
     "id": "mez",
@@ -699,7 +827,11 @@
       "Combate Acrobático Letal",
       "Acrobacias Aéreas e Esquiva Contorcionista"
     ],
-    "avatar": "/avatars/akame-ga-kill/mez.png"
+    "avatar": "/avatars/akame-ga-kill/mez.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Artista Marcial / Assassina",
+    "species": "Humano"
   },
   {
     "id": "suzuka",
@@ -721,7 +853,11 @@
       "Movimentação Rastejante de Alta Velocidade",
       "Combate de Sobrevivência Prolongada"
     ],
-    "avatar": "/avatars/akame-ga-kill/suzuka.png"
+    "avatar": "/avatars/akame-ga-kill/suzuka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Artista Marcial Masoquista",
+    "species": "Humano"
   },
   {
     "id": "ogre",
@@ -742,7 +878,11 @@
       "Comando de Esquadrão e Intimidação",
       "Corte Decapitador de Execução"
     ],
-    "avatar": "/avatars/akame-ga-kill/ogre.png"
+    "avatar": "/avatars/akame-ga-kill/ogre.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Capitão da Guarda Imperial / Corrupto",
+    "species": "Humano"
   },
   {
     "id": "gozuki",
@@ -763,7 +903,11 @@
       "Leitura de Intenção Assassina",
       "Combate Letal Sem Armadura"
     ],
-    "avatar": "/avatars/akame-ga-kill/gozuki.png"
+    "avatar": "/avatars/akame-ga-kill/gozuki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Líder e Instrutor de Assassinos",
+    "species": "Humano"
   },
   {
     "id": "sayo",
@@ -782,7 +926,11 @@
       "Espírito Inquebrável e Coragem",
       "Caça e Rastreamento na Floresta"
     ],
-    "avatar": "/avatars/akame-ga-kill/sayo.png"
+    "avatar": "/avatars/akame-ga-kill/sayo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aldeã / Amiga de Infância",
+    "species": "Humano"
   },
   {
     "id": "ieyasu",
@@ -801,7 +949,11 @@
       "Resistência Física Heroica",
       "Lealdade Incondicional"
     ],
-    "avatar": "/avatars/akame-ga-kill/ieyasu.png"
+    "avatar": "/avatars/akame-ga-kill/ieyasu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aldeão / Amigo de Infância",
+    "species": "Humano"
   },
   {
     "id": "aria",
@@ -820,7 +972,11 @@
       "Manipulação de Viajantes Ingênuos",
       "Uso de Venenos Paralisantes"
     ],
-    "avatar": "/avatars/akame-ga-kill/aria.png"
+    "avatar": "/avatars/akame-ga-kill/aria.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Nobre Sádica",
+    "species": "Humano"
   },
   {
     "id": "bolic",
@@ -840,6 +996,10 @@
       "Infiltração Religiosa e Política",
       "Proteção de Guarda-Costas Rakshasa"
     ],
-    "avatar": "/avatars/akame-ga-kill/bolic.png"
+    "avatar": "/avatars/akame-ga-kill/bolic.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Conselheiro Religioso / Espião Imperial",
+    "species": "Humano"
   }
 ]

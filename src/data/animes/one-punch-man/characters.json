@@ -18,7 +18,11 @@
     ],
     "avatar": "/avatars/one-punch-man/saitama.png",
     "rank": "Classe A (Ex-Classe B)",
-    "styleOrPower": "Força Sobre-humana Ilimitada"
+    "styleOrPower": "Força Sobre-humana Ilimitada",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "blast",
@@ -37,7 +41,11 @@
     ],
     "avatar": "/avatars/one-punch-man/blast.png",
     "rank": "Classe S (Rank 1)",
-    "styleOrPower": "Manipulação Espaço-Temporal & Portais Dimensionais"
+    "styleOrPower": "Manipulação Espaço-Temporal & Portais Dimensionais",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tatsumaki",
@@ -57,7 +65,11 @@
     ],
     "avatar": "/avatars/one-punch-man/tatsumaki.png",
     "rank": "Classe S (Rank 2)",
-    "styleOrPower": "Poder Psíquico / Esper"
+    "styleOrPower": "Poder Psíquico / Esper",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "bang",
@@ -77,7 +89,11 @@
     ],
     "avatar": "/avatars/one-punch-man/bang.png",
     "rank": "Classe S (Rank 3)",
-    "styleOrPower": "Artes Marciais (Punho da Água Corrente Esmagadora de Pedras)"
+    "styleOrPower": "Artes Marciais (Punho da Água Corrente Esmagadora de Pedras)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "atomic-samurai",
@@ -97,7 +113,11 @@
     ],
     "avatar": "/avatars/one-punch-man/atomic-samurai.png",
     "rank": "Classe S (Rank 4)",
-    "styleOrPower": "Esgrima Suprema (Kenjutsu)"
+    "styleOrPower": "Esgrima Suprema (Kenjutsu)",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "child-emperor",
@@ -118,7 +138,11 @@
     ],
     "avatar": "/avatars/one-punch-man/child-emperor.png",
     "rank": "Classe S (Rank 5)",
-    "styleOrPower": "Cibernética / Tecnologia / Intelecto Genial"
+    "styleOrPower": "Cibernética / Tecnologia / Intelecto Genial",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "metal-knight",
@@ -137,7 +161,11 @@
     ],
     "avatar": "/avatars/one-punch-man/metal-knight.png",
     "rank": "Classe S (Rank 6)",
-    "styleOrPower": "Cibernética / Armamento Pesado / Drones Remotos"
+    "styleOrPower": "Cibernética / Armamento Pesado / Drones Remotos",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "king",
@@ -157,7 +185,11 @@
     ],
     "avatar": "/avatars/one-punch-man/king.png",
     "rank": "Classe S (Rank 7)",
-    "styleOrPower": "Presença Intimidatória / Sorte Suprema"
+    "styleOrPower": "Presença Intimidatória / Sorte Suprema",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "zombieman",
@@ -178,7 +210,11 @@
     ],
     "avatar": "/avatars/one-punch-man/zombieman.png",
     "rank": "Classe S (Rank 8)",
-    "styleOrPower": "Regeneração Celular Absoluta & Armamento Balístico"
+    "styleOrPower": "Regeneração Celular Absoluta & Armamento Balístico",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "drive-knight",
@@ -198,7 +234,11 @@
     ],
     "avatar": "/avatars/one-punch-man/drive-knight.png",
     "rank": "Classe S (Rank 9)",
-    "styleOrPower": "Cibernética / Transformação Tática (Shogi Box)"
+    "styleOrPower": "Cibernética / Transformação Tática (Shogi Box)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "pig-god",
@@ -217,7 +257,11 @@
     ],
     "avatar": "/avatars/one-punch-man/pig-god.png",
     "rank": "Classe S (Rank 10)",
-    "styleOrPower": "Digestão Absoluta & Força Corporal Massiva"
+    "styleOrPower": "Digestão Absoluta & Força Corporal Massiva",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "superalloy-darkshine",
@@ -236,7 +280,11 @@
     ],
     "avatar": "/avatars/one-punch-man/superalloy-darkshine.png",
     "rank": "Classe S (Rank 11)",
-    "styleOrPower": "Músculos Impenetráveis & Fisiculturismo"
+    "styleOrPower": "Músculos Impenetráveis & Fisiculturismo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "watchdog-man",
@@ -256,7 +304,11 @@
     ],
     "avatar": "/avatars/one-punch-man/watchdog-man.png",
     "rank": "Classe S (Rank 12)",
-    "styleOrPower": "Combate Quadrúpede Feral & Força Animal"
+    "styleOrPower": "Combate Quadrúpede Feral & Força Animal",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "flashy-flash",
@@ -276,7 +328,11 @@
     ],
     "avatar": "/avatars/one-punch-man/flashy-flash.png",
     "rank": "Classe S (Rank 13)",
-    "styleOrPower": "Ninjutsu da Vila Ninja & Velocidade da Luz"
+    "styleOrPower": "Ninjutsu da Vila Ninja & Velocidade da Luz",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "genos",
@@ -297,7 +353,11 @@
     ],
     "avatar": "/avatars/one-punch-man/genos.png",
     "rank": "Classe S (Rank 14)",
-    "styleOrPower": "Cibernética / Incineração / Armamento de Combate"
+    "styleOrPower": "Cibernética / Incineração / Armamento de Combate",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "metal-bat",
@@ -316,7 +376,11 @@
     ],
     "avatar": "/avatars/one-punch-man/metal-bat.png",
     "rank": "Classe S (Rank 15)",
-    "styleOrPower": "Espírito de Luta Ilimitado & Bastão Indestrutível"
+    "styleOrPower": "Espírito de Luta Ilimitado & Bastão Indestrutível",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tanktop-master",
@@ -336,7 +400,11 @@
     ],
     "avatar": "/avatars/one-punch-man/tanktop-master.png",
     "rank": "Classe S (Rank 16)",
-    "styleOrPower": "Força Muscular Pura do Poder da Regata"
+    "styleOrPower": "Força Muscular Pura do Poder da Regata",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "puri-puri-prisoner",
@@ -357,7 +425,11 @@
     ],
     "avatar": "/avatars/one-punch-man/puri-puri-prisoner.png",
     "rank": "Classe S (Rank 17)",
-    "styleOrPower": "Amor Apaixonado & Fisiologia Angelical Extrema"
+    "styleOrPower": "Amor Apaixonado & Fisiologia Angelical Extrema",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "amai-mask",
@@ -376,7 +448,11 @@
     ],
     "avatar": "/avatars/one-punch-man/amai-mask.png",
     "rank": "Classe A (Rank 1)",
-    "styleOrPower": "Artes Marciais Híbridas & Fisiologia Monstruosa Oculta"
+    "styleOrPower": "Artes Marciais Híbridas & Fisiologia Monstruosa Oculta",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "iaian",
@@ -396,7 +472,11 @@
     ],
     "avatar": "/avatars/one-punch-man/iaian.png",
     "rank": "Classe A (Rank 2)",
-    "styleOrPower": "Esgrima Iaijutsu (Saque Rápido)"
+    "styleOrPower": "Esgrima Iaijutsu (Saque Rápido)",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "okamaitachi",
@@ -416,7 +496,11 @@
     ],
     "avatar": "/avatars/one-punch-man/okamaitachi.png",
     "rank": "Classe A (Rank 3)",
-    "styleOrPower": "Lâminas Eólicas Cortantes"
+    "styleOrPower": "Lâminas Eólicas Cortantes",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "bushidrill",
@@ -436,7 +520,11 @@
     ],
     "avatar": "/avatars/one-punch-man/bushidrill.png",
     "rank": "Classe A (Rank 4)",
-    "styleOrPower": "Lança Perfuradora Espiral / Broca"
+    "styleOrPower": "Lança Perfuradora Espiral / Broca",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "heavy-tank-fundoshi",
@@ -454,7 +542,11 @@
     ],
     "avatar": "/avatars/one-punch-man/heavy-tank-fundoshi.png",
     "rank": "Classe A (Rank 5)",
-    "styleOrPower": "Força Bruta Pesada de Fundoshi"
+    "styleOrPower": "Força Bruta Pesada de Fundoshi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "blue-fire",
@@ -472,7 +564,11 @@
     ],
     "avatar": "/avatars/one-punch-man/blue-fire.png",
     "rank": "Classe A (Rank 6)",
-    "styleOrPower": "Lança-Chamas Oculto nas Mangas"
+    "styleOrPower": "Lança-Chamas Oculto nas Mangas",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "magic-trick-man",
@@ -490,7 +586,11 @@
     ],
     "avatar": "/avatars/one-punch-man/magic-trick-man.png",
     "rank": "Classe A (Rank 7)",
-    "styleOrPower": "Ilusionismo e Cartas Afiadas Cortantes"
+    "styleOrPower": "Ilusionismo e Cartas Afiadas Cortantes",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "death-gatling",
@@ -508,7 +608,11 @@
     ],
     "avatar": "/avatars/one-punch-man/death-gatling.png",
     "rank": "Classe A (Rank 8)",
-    "styleOrPower": "Metralhadora Gatling no Braço Esquerdo"
+    "styleOrPower": "Metralhadora Gatling no Braço Esquerdo",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tanktop-vegetarian",
@@ -527,7 +631,11 @@
     ],
     "avatar": "/avatars/one-punch-man/tanktop-vegetarian.png",
     "rank": "Classe A (Rank 9)",
-    "styleOrPower": "Força Nutricional Vegetariana e Regata"
+    "styleOrPower": "Força Nutricional Vegetariana e Regata",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "stinger",
@@ -545,7 +653,11 @@
     ],
     "avatar": "/avatars/one-punch-man/stinger.png",
     "rank": "Classe A (Rank 10)",
-    "styleOrPower": "Lança de Broca de Bambu (Shoot Stinger)"
+    "styleOrPower": "Lança de Broca de Bambu (Shoot Stinger)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "twin-tail",
@@ -563,7 +675,11 @@
     ],
     "avatar": "/avatars/one-punch-man/twin-tail.png",
     "rank": "Classe A (Rank 11)",
-    "styleOrPower": "Malabarismo Letal e Truques Circenses"
+    "styleOrPower": "Malabarismo Letal e Truques Circenses",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "great-philosopher",
@@ -580,7 +696,11 @@
     ],
     "avatar": "/avatars/one-punch-man/great-philosopher.png",
     "rank": "Classe A (Rank 13)",
-    "styleOrPower": "Livro de Filosofia Gigante de 3 Toneladas"
+    "styleOrPower": "Livro de Filosofia Gigante de 3 Toneladas",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "butterfly-dx",
@@ -598,7 +718,11 @@
     ],
     "avatar": "/avatars/one-punch-man/butterfly-dx.png",
     "rank": "Classe A (Rank 16)",
-    "styleOrPower": "Voo com Asas Mecânicas e Mergulho Aéreo"
+    "styleOrPower": "Voo com Asas Mecânicas e Mergulho Aéreo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lightning-genji",
@@ -616,7 +740,11 @@
     ],
     "avatar": "/avatars/one-punch-man/lightning-genji.png",
     "rank": "Classe A (Rank 17)",
-    "styleOrPower": "Bastões de Choque Elétricos e Patins Turbo"
+    "styleOrPower": "Bastões de Choque Elétricos e Patins Turbo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lightning-max",
@@ -634,7 +762,11 @@
     ],
     "avatar": "/avatars/one-punch-man/lightning-max.png",
     "rank": "Classe A (Rank 19)",
-    "styleOrPower": "Sapatos com Pólvora Explosiva & Artes Marciais"
+    "styleOrPower": "Sapatos com Pólvora Explosiva & Artes Marciais",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "one-shotter",
@@ -652,7 +784,11 @@
     ],
     "avatar": "/avatars/one-punch-man/one-shotter.png",
     "rank": "Classe A (Rank 22)",
-    "styleOrPower": "Rifle de Precisão Sniper de Longo Alcance"
+    "styleOrPower": "Rifle de Precisão Sniper de Longo Alcance",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "heavy-kong",
@@ -670,7 +806,11 @@
     ],
     "avatar": "/avatars/one-punch-man/heavy-kong.png",
     "rank": "Classe A (Rank 34)",
-    "styleOrPower": "Estilo Primata Gorila e Força Bruta"
+    "styleOrPower": "Estilo Primata Gorila e Força Bruta",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "feather",
@@ -688,7 +828,11 @@
     ],
     "avatar": "/avatars/one-punch-man/feather.png",
     "rank": "Classe A (Rank 34)",
-    "styleOrPower": "Acrobacias Aéreas e Lâminas de Garras"
+    "styleOrPower": "Acrobacias Aéreas e Lâminas de Garras",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "air",
@@ -705,7 +849,11 @@
     ],
     "avatar": "/avatars/one-punch-man/air.png",
     "rank": "Classe A (Rank 35)",
-    "styleOrPower": "Bumerangue Gigante de Caça"
+    "styleOrPower": "Bumerangue Gigante de Caça",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "chain-n-toad",
@@ -723,7 +871,11 @@
     ],
     "avatar": "/avatars/one-punch-man/chain-n-toad.png",
     "rank": "Classe A (Rank 36)",
-    "styleOrPower": "Kusarigama (Foice com Corrente) com Máscara de Sapo"
+    "styleOrPower": "Kusarigama (Foice com Corrente) com Máscara de Sapo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sneck",
@@ -741,7 +893,11 @@
     ],
     "avatar": "/avatars/one-punch-man/sneck.png",
     "rank": "Classe A (Rank 37)",
-    "styleOrPower": "Terno de Pele de Serpente e Punho Venenoso"
+    "styleOrPower": "Terno de Pele de Serpente e Punho Venenoso",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "golden-ball",
@@ -759,7 +915,11 @@
     ],
     "avatar": "/avatars/one-punch-man/golden-ball.png",
     "rank": "Classe A (Rank 26)",
-    "styleOrPower": "Estilingue Tático e Esferas de Ouro Cortantes"
+    "styleOrPower": "Estilingue Tático e Esferas de Ouro Cortantes",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "spring-mustachio",
@@ -778,7 +938,11 @@
     ],
     "avatar": "/avatars/one-punch-man/spring-mustachio.png",
     "rank": "Classe A (Rank 28)",
-    "styleOrPower": "Florete Espiral Extensível de Esgrima Nobre"
+    "styleOrPower": "Florete Espiral Extensível de Esgrima Nobre",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "smile-man",
@@ -796,7 +960,11 @@
     ],
     "avatar": "/avatars/one-punch-man/smile-man.png",
     "rank": "Classe A (Rank 27)",
-    "styleOrPower": "Kendama Gigante de Aço"
+    "styleOrPower": "Kendama Gigante de Aço",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "crescent-eyebrow",
@@ -813,7 +981,11 @@
     ],
     "avatar": "/avatars/one-punch-man/crescent-eyebrow.png",
     "rank": "Classe A (Rank 25)",
-    "styleOrPower": "Lança de Duas Pontas em Lua Crescente"
+    "styleOrPower": "Lança de Duas Pontas em Lua Crescente",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "narcisstory",
@@ -830,7 +1002,11 @@
     ],
     "avatar": "/avatars/one-punch-man/narcisstory.png",
     "rank": "Classe A (Rank 29)",
-    "styleOrPower": "Rosas Venenosas Afiadas e Narcisismo"
+    "styleOrPower": "Rosas Venenosas Afiadas e Narcisismo",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "green",
@@ -848,7 +1024,11 @@
     ],
     "avatar": "/avatars/one-punch-man/green.png",
     "rank": "Classe A (Rank 24)",
-    "styleOrPower": "Manipulação de Vinhas e Plantas Vivas pelo Corpo"
+    "styleOrPower": "Manipulação de Vinhas e Plantas Vivas pelo Corpo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "fubuki",
@@ -868,7 +1048,11 @@
     ],
     "avatar": "/avatars/one-punch-man/fubuki.png",
     "rank": "Classe B (Rank 1)",
-    "styleOrPower": "Poder Psíquico / Esper"
+    "styleOrPower": "Poder Psíquico / Esper",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eyelashes",
@@ -887,7 +1071,11 @@
     ],
     "avatar": "/avatars/one-punch-man/eyelashes.png",
     "rank": "Classe B (Rank 2)",
-    "styleOrPower": "Curvadores de Cílios de Aço Cortantes"
+    "styleOrPower": "Curvadores de Cílios de Aço Cortantes",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "mountain-ape",
@@ -906,7 +1094,11 @@
     ],
     "avatar": "/avatars/one-punch-man/mountain-ape.png",
     "rank": "Classe B (Rank 3)",
-    "styleOrPower": "Músculos e Força Física de Primata"
+    "styleOrPower": "Músculos e Força Física de Primata",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "captain-mizuki",
@@ -925,7 +1117,11 @@
     ],
     "avatar": "/avatars/one-punch-man/captain-mizuki.png",
     "rank": "Classe B (Rank 71)",
-    "styleOrPower": "Atletismo Olímpico e Equipamento Esportivo de Combate"
+    "styleOrPower": "Atletismo Olímpico e Equipamento Esportivo de Combate",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lily-of-the-three-section-staff",
@@ -944,7 +1140,11 @@
     ],
     "avatar": "/avatars/one-punch-man/lily-of-the-three-section-staff.png",
     "rank": "Classe B (Rank 74)",
-    "styleOrPower": "Bastão de Três Seções (Sansetsukon)"
+    "styleOrPower": "Bastão de Três Seções (Sansetsukon)",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "needle-star",
@@ -961,7 +1161,11 @@
     ],
     "avatar": "/avatars/one-punch-man/needle-star.png",
     "rank": "Classe B (Rank 60)",
-    "styleOrPower": "Mangual de Espinhos Estrelar (Morning Star)"
+    "styleOrPower": "Mangual de Espinhos Estrelar (Morning Star)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "darkness-blade",
@@ -978,7 +1182,11 @@
     ],
     "avatar": "/avatars/one-punch-man/darkness-blade.png",
     "rank": "Classe B (Rank 50)",
-    "styleOrPower": "Espada Negra e Síndrome de Oitava Série (Chunibyo)"
+    "styleOrPower": "Espada Negra e Síndrome de Oitava Série (Chunibyo)",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "tanktop-black-hole",
@@ -996,7 +1204,11 @@
     ],
     "avatar": "/avatars/one-punch-man/tanktop-black-hole.png",
     "rank": "Classe B (Rank 81)",
-    "styleOrPower": "Força de Aperto Muscular de 200kg"
+    "styleOrPower": "Força de Aperto Muscular de 200kg",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "bone",
@@ -1013,7 +1225,11 @@
     ],
     "avatar": "/avatars/one-punch-man/bone.png",
     "rank": "Classe B (Rank 77)",
-    "styleOrPower": "Consumo Massivo de Leite e Fortalecimento Ósseo"
+    "styleOrPower": "Consumo Massivo de Leite e Fortalecimento Ósseo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "shooter",
@@ -1030,7 +1246,11 @@
     ],
     "avatar": "/avatars/one-punch-man/shooter.png",
     "rank": "Classe B (Rank 99)",
-    "styleOrPower": "Arco e Flechas com Veneno Silvestre"
+    "styleOrPower": "Arco e Flechas com Veneno Silvestre",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "mumen-rider",
@@ -1049,7 +1269,11 @@
     ],
     "avatar": "/avatars/one-punch-man/mumen-rider.png",
     "rank": "Classe C (Rank 1)",
-    "styleOrPower": "Bicicleta da Justiça & Vontade Heroica Inabalável"
+    "styleOrPower": "Bicicleta da Justiça & Vontade Heroica Inabalável",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tanktop-tiger",
@@ -1067,7 +1291,11 @@
     ],
     "avatar": "/avatars/one-punch-man/tanktop-tiger.png",
     "rank": "Classe C (Rank 6)",
-    "styleOrPower": "Regata Estampada de Tigre e Fúria Selvagem"
+    "styleOrPower": "Regata Estampada de Tigre e Fúria Selvagem",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "d-pad",
@@ -1084,7 +1312,11 @@
     ],
     "avatar": "/avatars/one-punch-man/d-pad.png",
     "rank": "Classe C (Rank 22)",
-    "styleOrPower": "Controle de Videogame e Combinações de Botões"
+    "styleOrPower": "Controle de Videogame e Combinações de Botões",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gearsper",
@@ -1102,7 +1334,11 @@
     ],
     "avatar": "/avatars/one-punch-man/gearsper.png",
     "rank": "Classe C (Rank 133)",
-    "styleOrPower": "Poder Psíquico / Esper em Treinamento"
+    "styleOrPower": "Poder Psíquico / Esper em Treinamento",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "poison",
@@ -1119,7 +1355,11 @@
     ],
     "avatar": "/avatars/one-punch-man/poison.png",
     "rank": "Classe C (Rank 300)",
-    "styleOrPower": "Faca com Veneno Mortal de Anfíbio"
+    "styleOrPower": "Faca com Veneno Mortal de Anfíbio",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "red-muffler",
@@ -1136,7 +1376,11 @@
     ],
     "avatar": "/avatars/one-punch-man/red-muffler.png",
     "rank": "Classe C (Rank 89)",
-    "styleOrPower": "Artes Marciais e Cachecol Vermelho"
+    "styleOrPower": "Artes Marciais e Cachecol Vermelho",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "armored-chief-clerk",
@@ -1153,7 +1397,11 @@
     ],
     "avatar": "/avatars/one-punch-man/armored-chief-clerk.png",
     "rank": "Classe C (Rank 111)",
-    "styleOrPower": "Armadura de Escritório e Escudo Protetor"
+    "styleOrPower": "Armadura de Escritório e Escudo Protetor",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "garou",
@@ -1174,7 +1422,11 @@
     ],
     "avatar": "/avatars/one-punch-man/garou.png",
     "rank": "Nível Desastre: Dragão+ / Acima de Dragão",
-    "styleOrPower": "Artes Marciais Adaptativas (Punho Esmagador de Pedras & Punho Monstro)"
+    "styleOrPower": "Artes Marciais Adaptativas (Punho Esmagador de Pedras & Punho Monstro)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "cosmic-fear-garou",
@@ -1194,7 +1446,11 @@
     ],
     "avatar": "/avatars/one-punch-man/cosmic-fear-garou.png",
     "rank": "Nível Desastre: Deus",
-    "styleOrPower": "Manipulação Cósmica e Fissão Nuclear Espacial"
+    "styleOrPower": "Manipulação Cósmica e Fissão Nuclear Espacial",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Divindade / Ser Celestial"
   },
   {
     "id": "boros",
@@ -1213,7 +1469,11 @@
     ],
     "avatar": "/avatars/one-punch-man/boros.png",
     "rank": "Nível Desastre: Dragão+ (Beirando Deus)",
-    "styleOrPower": "Energia Latente Cósmica & Regeneração Infinita"
+    "styleOrPower": "Energia Latente Cósmica & Regeneração Infinita",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Divindade / Ser Celestial"
   },
   {
     "id": "melzargard",
@@ -1231,7 +1491,11 @@
     ],
     "avatar": "/avatars/one-punch-man/melzargard.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Múltiplas Cabeças, Metamorfose Corporal e Esferas Vitais"
+    "styleOrPower": "Múltiplas Cabeças, Metamorfose Corporal e Esferas Vitais",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "geryuganshoop",
@@ -1249,7 +1513,11 @@
     ],
     "avatar": "/avatars/one-punch-man/geryuganshoop.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Telecinese Cósmica Gravitacional Extrema"
+    "styleOrPower": "Telecinese Cósmica Gravitacional Extrema",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "groribas",
@@ -1267,7 +1535,11 @@
     ],
     "avatar": "/avatars/one-punch-man/groribas.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Mordidas de Mandíbulas Múltiplas e Cuspe Ácido"
+    "styleOrPower": "Mordidas de Mandíbulas Múltiplas e Cuspe Ácido",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "orochi",
@@ -1286,7 +1558,11 @@
     ],
     "avatar": "/avatars/one-punch-man/orochi.png",
     "rank": "Nível Desastre: Dragão+",
-    "styleOrPower": "Dragões de Fogo 생체, Absorção de Energia do Núcleo da Terra e Genialidade Marcial"
+    "styleOrPower": "Dragões de Fogo 생체, Absorção de Energia do Núcleo da Terra e Genialidade Marcial",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "psykos",
@@ -1305,7 +1581,11 @@
     ],
     "avatar": "/avatars/one-punch-man/psykos.png",
     "rank": "Nível Desastre: Dragão+",
-    "styleOrPower": "Poder Psíquico / Esper & Elixir Monstruoso"
+    "styleOrPower": "Poder Psíquico / Esper & Elixir Monstruoso",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gyoro-gyoro",
@@ -1323,7 +1603,11 @@
     ],
     "avatar": "/avatars/one-punch-man/gyoro-gyoro.png",
     "rank": "Nível Desastre: Demônio+",
-    "styleOrPower": "Marionete de Carne Psíquica com Olho Gigante"
+    "styleOrPower": "Marionete de Carne Psíquica com Olho Gigante",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "black-sperm",
@@ -1342,7 +1626,11 @@
     ],
     "avatar": "/avatars/one-punch-man/black-sperm.png",
     "rank": "Nível Desastre: Dragão+",
-    "styleOrPower": "Multiplicação em Trilhões de Clones e Fusões de Ouro e Platina"
+    "styleOrPower": "Multiplicação em Trilhões de Clones e Fusões de Ouro e Platina",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "homeless-emperor",
@@ -1361,7 +1649,11 @@
     ],
     "avatar": "/avatars/one-punch-man/homeless-emperor.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Esferas de Energia Luminosa Pura Destrutiva concedidas por Deus"
+    "styleOrPower": "Esferas de Energia Luminosa Pura Destrutiva concedidas por Deus",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Divindade / Ser Celestial"
   },
   {
     "id": "fuhrer-ugly",
@@ -1379,7 +1671,11 @@
     ],
     "avatar": "/avatars/one-punch-man/fuhrer-ugly.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Força de Inferioridade Ugmon e Ácido Digestivo de Gums"
+    "styleOrPower": "Força de Inferioridade Ugmon e Ácido Digestivo de Gums",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gums",
@@ -1397,7 +1693,11 @@
     ],
     "avatar": "/avatars/one-punch-man/gums.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Mandíbula Voraz Insaciável e Ácido Digestivo Letal"
+    "styleOrPower": "Mandíbula Voraz Insaciável e Ácido Digestivo Letal",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "nyan",
@@ -1415,7 +1715,11 @@
     ],
     "avatar": "/avatars/one-punch-man/nyan.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Flexibilidade Felina Extrema e Garras Cortantes de Aço"
+    "styleOrPower": "Flexibilidade Felina Extrema e Garras Cortantes de Aço",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "overgrown-rover",
@@ -1435,7 +1739,11 @@
     ],
     "avatar": "/avatars/one-punch-man/overgrown-rover.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Bombas de Energia Explosivas Bucais e Carapaça Blindada"
+    "styleOrPower": "Bombas de Energia Explosivas Bucais e Carapaça Blindada",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "elder-centipede",
@@ -1453,7 +1761,11 @@
     ],
     "avatar": "/avatars/one-punch-man/elder-centipede.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Carapaça Blindada Gigantesca e Troca Contínua de Pele"
+    "styleOrPower": "Carapaça Blindada Gigantesca e Troca Contínua de Pele",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gouketsu",
@@ -1471,7 +1783,11 @@
     ],
     "avatar": "/avatars/one-punch-man/gouketsu.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Artes Marciais Monstruosas e Força de Quatro Olhos"
+    "styleOrPower": "Artes Marciais Monstruosas e Força de Quatro Olhos",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "phoenix-man",
@@ -1490,7 +1806,11 @@
     ],
     "avatar": "/avatars/one-punch-man/phoenix-man.png",
     "rank": "Nível Desastre: Dragão (Evoluído)",
-    "styleOrPower": "Ressurreição Térmica Infinita com Traje de Pássaro"
+    "styleOrPower": "Ressurreição Térmica Infinita com Traje de Pássaro",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "carnage-kabuto",
@@ -1508,7 +1828,11 @@
     ],
     "avatar": "/avatars/one-punch-man/carnage-kabuto.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Fisiologia de Besouro Rinoceronte & Modo Carnage"
+    "styleOrPower": "Fisiologia de Besouro Rinoceronte & Modo Carnage",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "mosquito-girl",
@@ -1526,7 +1850,11 @@
     ],
     "avatar": "/avatars/one-punch-man/mosquito-girl.png",
     "rank": "Nível Desastre: Demônio+",
-    "styleOrPower": "Controle de Enxame de Mosquitos e Absorção de Sangue"
+    "styleOrPower": "Controle de Enxame de Mosquitos e Absorção de Sangue",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "beast-king",
@@ -1544,7 +1872,11 @@
     ],
     "avatar": "/avatars/one-punch-man/beast-king.png",
     "rank": "Nível Desastre: Demônio",
-    "styleOrPower": "Garras de Leão Feral e Rugidos Cortantes"
+    "styleOrPower": "Garras de Leão Feral e Rugidos Cortantes",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "armored-gorilla",
@@ -1563,7 +1895,11 @@
     ],
     "avatar": "/avatars/one-punch-man/armored-gorilla.png",
     "rank": "Nível Desastre: Demônio",
-    "styleOrPower": "Cibernética Pesada de Gorila e Cozinha de Takoyaki"
+    "styleOrPower": "Cibernética Pesada de Gorila e Cozinha de Takoyaki",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "deep-sea-king",
@@ -1582,7 +1918,11 @@
     ],
     "avatar": "/avatars/one-punch-man/deep-sea-king.png",
     "rank": "Nível Desastre: Demônio+",
-    "styleOrPower": "Fisiologia de Monstro Marinho, Ácido Bucal e Hidratação"
+    "styleOrPower": "Fisiologia de Monstro Marinho, Ácido Bucal e Hidratação",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "vaccine-man",
@@ -1600,7 +1940,11 @@
     ],
     "avatar": "/avatars/one-punch-man/vaccine-man.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Esferas de Energia de Antimatéria e Metamorfose Gigante"
+    "styleOrPower": "Esferas de Energia de Antimatéria e Metamorfose Gigante",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "crablante",
@@ -1617,7 +1961,11 @@
     ],
     "avatar": "/avatars/one-punch-man/crablante.png",
     "rank": "Nível Desastre: Tigre",
-    "styleOrPower": "Pinças de Caranguejo Esmagadoras"
+    "styleOrPower": "Pinças de Caranguejo Esmagadoras",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "beefcake",
@@ -1635,7 +1983,11 @@
     ],
     "avatar": "/avatars/one-punch-man/beefcake.png",
     "rank": "Nível Desastre: Demônio+ (Poder de Dragão)",
-    "styleOrPower": "Tamanho Colossal e Força Sísmica Esmagadora"
+    "styleOrPower": "Tamanho Colossal e Força Sísmica Esmagadora",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "speed-o-sound-sonic",
@@ -1655,7 +2007,11 @@
     ],
     "avatar": "/avatars/one-punch-man/speed-o-sound-sonic.png",
     "rank": "Nível Desastre: Demônio+ / Dragão",
-    "styleOrPower": "Ninjutsu Assassinato da Velocidade do Som & Shurikens"
+    "styleOrPower": "Ninjutsu Assassinato da Velocidade do Som & Shurikens",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "hellfire-flame",
@@ -1674,7 +2030,11 @@
     ],
     "avatar": "/avatars/one-punch-man/hellfire-flame.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Ninjutsu de Fogo e Velocidade Hipersônica Monstruosa"
+    "styleOrPower": "Ninjutsu de Fogo e Velocidade Hipersônica Monstruosa",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gale-wind",
@@ -1693,7 +2053,11 @@
     ],
     "avatar": "/avatars/one-punch-man/gale-wind.png",
     "rank": "Nível Desastre: Dragão",
-    "styleOrPower": "Ninjutsu de Vento e Esgrima Cortante Hipersônica"
+    "styleOrPower": "Ninjutsu de Vento e Esgrima Cortante Hipersônica",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "royal-ripper",
@@ -1710,7 +2074,11 @@
     ],
     "avatar": "/avatars/one-punch-man/royal-ripper.png",
     "rank": "Nível Desastre: Demônio",
-    "styleOrPower": "Lâminas no Lugar das Mãos e Sadismo Insano"
+    "styleOrPower": "Lâminas no Lugar das Mãos e Sadismo Insano",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "bug-god",
@@ -1728,7 +2096,11 @@
     ],
     "avatar": "/avatars/one-punch-man/bug-god.png",
     "rank": "Nível Desastre: Demônio+",
-    "styleOrPower": "Exoesqueleto Impenetrável de Insetos e Braços Múltiplos"
+    "styleOrPower": "Exoesqueleto Impenetrável de Insetos e Braços Múltiplos",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "awakened-cockroach",
@@ -1746,7 +2118,11 @@
     ],
     "avatar": "/avatars/one-punch-man/awakened-cockroach.png",
     "rank": "Nível Desastre: Demônio",
-    "styleOrPower": "Velocidade de Esquiva Instintiva de Barata"
+    "styleOrPower": "Velocidade de Esquiva Instintiva de Barata",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "pure-blood",
@@ -1764,7 +2140,11 @@
     ],
     "avatar": "/avatars/one-punch-man/pure-blood.png",
     "rank": "Nível Desastre: Demônio",
-    "styleOrPower": "Fisiologia Vampírica, Regeneração por Sangue e Asas de Morcego"
+    "styleOrPower": "Fisiologia Vampírica, Regeneração por Sangue e Asas de Morcego",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "manako",
@@ -1783,7 +2163,11 @@
     ],
     "avatar": "/avatars/one-punch-man/manako.png",
     "rank": "Nível Desastre: Lobo",
-    "styleOrPower": "Iluminação com Grande Olho Único e Fuga Cômica"
+    "styleOrPower": "Iluminação com Grande Olho Único e Fuga Cômica",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "suiryu",
@@ -1803,7 +2187,11 @@
     ],
     "avatar": "/avatars/one-punch-man/suiryu.png",
     "rank": "Classe A+ / Nível Dragão Marcial",
-    "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)"
+    "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "suiko",
@@ -1821,7 +2209,11 @@
     ],
     "avatar": "/avatars/one-punch-man/suiko.png",
     "rank": "Classe A",
-    "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)"
+    "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "bomb",
@@ -1839,7 +2231,11 @@
     ],
     "avatar": "/avatars/one-punch-man/bomb.png",
     "rank": "Nível Classe S / Grão-Mestre Marcial",
-    "styleOrPower": "Artes Marciais (Punho do Vento Cortante de Redemoinho de Ferro)"
+    "styleOrPower": "Artes Marciais (Punho do Vento Cortante de Redemoinho de Ferro)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "dr-genus",
@@ -1858,7 +2254,11 @@
     ],
     "avatar": "/avatars/one-punch-man/dr-genus.png",
     "rank": "Civil / Intelecto Científico Genial",
-    "styleOrPower": "Engenharia Genética, Clonagem e Teoria do Limitador"
+    "styleOrPower": "Engenharia Genética, Clonagem e Teoria do Limitador",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "dr-kuseno",
@@ -1875,7 +2275,11 @@
     ],
     "avatar": "/avatars/one-punch-man/dr-kuseno.png",
     "rank": "Civil / Intelecto Científico Genial",
-    "styleOrPower": "Engenharia Cibernética e Criação de Núcleos de Energia"
+    "styleOrPower": "Engenharia Cibernética e Criação de Núcleos de Energia",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tareo",
@@ -1892,7 +2296,11 @@
     ],
     "avatar": "/avatars/one-punch-man/tareo.png",
     "rank": "Civil",
-    "styleOrPower": "Conhecimento Enciclopédico do Livro de Heróis e Monstros"
+    "styleOrPower": "Conhecimento Enciclopédico do Livro de Heróis e Monstros",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "god",
@@ -1910,7 +2318,11 @@
     ],
     "avatar": "/avatars/one-punch-man/god.png",
     "rank": "Nível Desastre: Deus Absoluto",
-    "styleOrPower": "Concessão Cósmica de Poderes, Manipulação Espacial e Ilusões Mentais"
+    "styleOrPower": "Concessão Cósmica de Poderes, Manipulação Espacial e Ilusões Mentais",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Divindade / Ser Celestial"
   },
   {
     "id": "sitch",
@@ -1928,7 +2340,11 @@
     ],
     "avatar": "/avatars/one-punch-man/sitch.png",
     "rank": "Ministro de Operações de Emergência",
-    "styleOrPower": "Liderança Estratégica e Alerta da Profecia de Shibabawa"
+    "styleOrPower": "Liderança Estratégica e Alerta da Profecia de Shibabawa",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sekingar",
@@ -1946,6 +2362,10 @@
     ],
     "avatar": "/avatars/one-punch-man/sekingar.png",
     "rank": "Diretor de Operações de Campo",
-    "styleOrPower": "Comando Tático e Olho Biônico com Laser"
+    "styleOrPower": "Comando Tático e Olho Biônico com Laser",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   }
 ]

@@ -18,7 +18,11 @@
       "Iluminação Esférica Cristalina",
       "Feitiço de Pirotecnia e Flechas de Vento"
     ],
-    "avatar": "/avatars/witch-hat-atelier/coco.png"
+    "avatar": "/avatars/witch-hat-atelier/coco.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "agott",
@@ -40,7 +44,11 @@
       "Barreiras Prismáticas Geométricas",
       "Combinação de Círculos Mágicos Complexos"
     ],
-    "avatar": "/avatars/witch-hat-atelier/agott.png"
+    "avatar": "/avatars/witch-hat-atelier/agott.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tetia",
@@ -61,7 +69,11 @@
       "Guarda-Chuva Flutuador Aerodinâmico",
       "Disparo de Brisa Suave Purificadora"
     ],
-    "avatar": "/avatars/witch-hat-atelier/tetia.png"
+    "avatar": "/avatars/witch-hat-atelier/tetia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "richeh",
@@ -82,7 +94,11 @@
       "Dissimulação de Sombras Iluminadas",
       "Glifos Microscópicos de Alta Eficiência"
     ],
-    "avatar": "/avatars/witch-hat-atelier/richeh.png"
+    "avatar": "/avatars/witch-hat-atelier/richeh.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "qifrey",
@@ -103,7 +119,11 @@
       "Chicote de Água Pressurizada Cortante",
       "Desenho Instantâneo com Capa de Tinta"
     ],
-    "avatar": "/avatars/witch-hat-atelier/qifrey.png"
+    "avatar": "/avatars/witch-hat-atelier/qifrey.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "olruggio",
@@ -124,7 +144,11 @@
       "Escudos Térmicos Repelentes",
       "Barreira Sentinela de Alarme Contra Intrusos"
     ],
-    "avatar": "/avatars/witch-hat-atelier/olruggio.png"
+    "avatar": "/avatars/witch-hat-atelier/olruggio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "beldaruit",
@@ -145,7 +169,11 @@
       "Leitura Mental Permissiva e Oratória Arcana",
       "Glifos Arcaicos de Restauração em Massa"
     ],
-    "avatar": "/avatars/witch-hat-atelier/beldaruit.png"
+    "avatar": "/avatars/witch-hat-atelier/beldaruit.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tartah",
@@ -166,7 +194,11 @@
       "Luz Guia Prateada na Escuridão",
       "Manipulação de Tinta Mágica Adaptativa"
     ],
-    "avatar": "/avatars/witch-hat-atelier/tartah.png"
+    "avatar": "/avatars/witch-hat-atelier/tartah.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "custas",
@@ -187,7 +219,11 @@
       "Manipulação Acústica Via Alaúde Encantado",
       "Ataques com Rajadas Eólicas Cortantes"
     ],
-    "avatar": "/avatars/witch-hat-atelier/custas.png"
+    "avatar": "/avatars/witch-hat-atelier/custas.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "iguin",
@@ -207,7 +243,11 @@
       "Manipulação de Memórias e Hipnose Arcana",
       "Portais de Sombra e Fuga Subterrânea"
     ],
-    "avatar": "/avatars/witch-hat-atelier/iguin.png"
+    "avatar": "/avatars/witch-hat-atelier/iguin.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ininia",
@@ -227,7 +267,11 @@
       "Ilusão Espelhada de Duplos",
       "Desenho Oculto com Sangue Encantado"
     ],
-    "avatar": "/avatars/witch-hat-atelier/ininia.png"
+    "avatar": "/avatars/witch-hat-atelier/ininia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sasaran",
@@ -247,7 +291,11 @@
       "Camuflagem em Superfícies Sombrias",
       "Glifos Explosivos de Fumaça Negra"
     ],
-    "avatar": "/avatars/witch-hat-atelier/sasaran.png"
+    "avatar": "/avatars/witch-hat-atelier/sasaran.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "utowin",
@@ -267,7 +315,11 @@
       "Estocada com Lança Encantada de Alta Precisão",
       "Barreira Seladora Esférica"
     ],
-    "avatar": "/avatars/witch-hat-atelier/utowin.png"
+    "avatar": "/avatars/witch-hat-atelier/utowin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "alaira",
@@ -287,7 +339,11 @@
       "Estabilização Vital por Glifos Protetores",
       "Purificação de Toxinas e Venenos Mágicos"
     ],
-    "avatar": "/avatars/witch-hat-atelier/alaira.png"
+    "avatar": "/avatars/witch-hat-atelier/alaira.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "luluci",
@@ -307,7 +363,11 @@
       "Barreira Insonorizada de Prisão",
       "Disparo de Dardos Eletrostáticos Mágicos"
     ],
-    "avatar": "/avatars/witch-hat-atelier/luluci.png"
+    "avatar": "/avatars/witch-hat-atelier/luluci.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "dagda",
@@ -327,7 +387,11 @@
       "Golpe com Clava Mágica de Impacto",
       "Defesa de Escudo Terrestre"
     ],
-    "avatar": "/avatars/witch-hat-atelier/dagda.png"
+    "avatar": "/avatars/witch-hat-atelier/dagda.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "nolnoa",
@@ -347,7 +411,11 @@
       "Conservação Eterna de Pergaminhos",
       "Troca Mágica de Objetos por Balança de Precisão"
     ],
-    "avatar": "/avatars/witch-hat-atelier/nolnoa.png"
+    "avatar": "/avatars/witch-hat-atelier/nolnoa.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "euini",
@@ -368,7 +436,11 @@
       "Sinalizador Luminoso de Resgate Aéreo",
       "Criação de Redes Flutuantes de Amortecimento"
     ],
-    "avatar": "/avatars/witch-hat-atelier/euini.png"
+    "avatar": "/avatars/witch-hat-atelier/euini.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "easthies",
@@ -388,7 +460,11 @@
       "Cerco Mágico de Confinamento Absoluto",
       "Corte com Espada Inquisitória Rúnica"
     ],
-    "avatar": "/avatars/witch-hat-atelier/easthies.png"
+    "avatar": "/avatars/witch-hat-atelier/easthies.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "galga",
@@ -408,7 +484,11 @@
       "Domo Repulsor de Glifos",
       "Contenção com Correntes Mágicas"
     ],
-    "avatar": "/avatars/witch-hat-atelier/galga.png"
+    "avatar": "/avatars/witch-hat-atelier/galga.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "deanreldy-ezrest",
@@ -429,7 +509,11 @@
       "Arbitragem e Selamento de Pactos Mágicos",
       "Escudos Arcanos Presidenciais"
     ],
-    "avatar": "/avatars/witch-hat-atelier/deanreldy-ezrest.png"
+    "avatar": "/avatars/witch-hat-atelier/deanreldy-ezrest.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "zayamaia-ezrest",
@@ -448,7 +532,11 @@
       "Glifos Protetores de Biblioteca",
       "Encantamentos de Leitura Veloz e Catalogação"
     ],
-    "avatar": "/avatars/witch-hat-atelier/zayamaia-ezrest.png"
+    "avatar": "/avatars/witch-hat-atelier/zayamaia-ezrest.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "princess-mia",
@@ -468,7 +556,11 @@
       "Empatia e Julgamento Ético",
       "Liderança Civil em Tempos de Crise"
     ],
-    "avatar": "/avatars/witch-hat-atelier/princess-mia.png"
+    "avatar": "/avatars/witch-hat-atelier/princess-mia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "brushbuddy",
@@ -488,7 +580,11 @@
       "Sensibilidade a Fluxos Mágicos Anômalos",
       "Salto e Aconchego Protetor"
     ],
-    "avatar": "/avatars/witch-hat-atelier/brushbuddy.png"
+    "avatar": "/avatars/witch-hat-atelier/brushbuddy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kukrow",
@@ -507,7 +603,11 @@
       "Cristalização Estrutural de Rochas",
       "Análise Petrográfica de Runas Antigas"
     ],
-    "avatar": "/avatars/witch-hat-atelier/kukrow.png"
+    "avatar": "/avatars/witch-hat-atelier/kukrow.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lagrah",
@@ -526,7 +626,11 @@
       "Correntes Rúnicas de Contenção de Bruxo",
       "Inspeção e Confisco de Grimórios Ilícitos"
     ],
-    "avatar": "/avatars/witch-hat-atelier/lagrah.png"
+    "avatar": "/avatars/witch-hat-atelier/lagrah.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "restys",
@@ -545,7 +649,11 @@
       "Regeneração Acelerada Transgressora",
       "Magia de Quimera e Distorção Biológica"
     ],
-    "avatar": "/avatars/witch-hat-atelier/restys.png"
+    "avatar": "/avatars/witch-hat-atelier/restys.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "riliphin",
@@ -564,7 +672,11 @@
       "Pintura Fluida com Tinta Mágica Aquosa",
       "Manipulação de Correntes de Água Purificada"
     ],
-    "avatar": "/avatars/witch-hat-atelier/riliphin.png"
+    "avatar": "/avatars/witch-hat-atelier/riliphin.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "atwert",
@@ -583,6 +695,10 @@
       "Criação de Provas Mágicas Adaptativas",
       "Distorção Espacial Controlada de Treinamento"
     ],
-    "avatar": "/avatars/witch-hat-atelier/atwert.png"
+    "avatar": "/avatars/witch-hat-atelier/atwert.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   }
 ]

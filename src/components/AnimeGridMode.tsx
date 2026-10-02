@@ -467,7 +467,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
     Object.entries(affMap).forEach(([aff, count]) => {
-      if (count >= 3) {
+      if (count >= 2) {
         list.push({
           id: `aff_${aff}`,
           label: aff,
@@ -477,36 +477,100 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
 
-    // Ranks / Posições
-    const rankMap: Record<string, number> = {};
+    // Tipo de Combate / Atuação
+    const combatMap: Record<string, number> = {};
     characters.forEach((c) => {
-      const r = c.rank || c.role || c.archetype || c.origin;
-      if (r && r.length > 2) rankMap[r] = (rankMap[r] || 0) + 1;
+      if (c.combatType) combatMap[c.combatType] = (combatMap[c.combatType] || 0) + 1;
     });
-    Object.entries(rankMap).forEach(([rank, count]) => {
-      if (count >= 3) {
+    Object.entries(combatMap).forEach(([ct, count]) => {
+      if (count >= 2) {
         list.push({
-          id: `rank_${rank}`,
-          label: rank,
-          category: 'Posição / Categoria',
-          test: (c) => c.rank === rank || c.role === rank || c.archetype === rank || c.origin === rank,
+          id: `combat_${ct}`,
+          label: ct,
+          category: 'Tipo de Combate',
+          test: (c) => c.combatType === ct,
         });
       }
     });
 
-    // Estilos de Combate / Poder / Espécie
+    // Cor de Cabelo
+    const hairMap: Record<string, number> = {};
+    characters.forEach((c) => {
+      if (c.hairColor) hairMap[c.hairColor] = (hairMap[c.hairColor] || 0) + 1;
+    });
+    Object.entries(hairMap).forEach(([hc, count]) => {
+      if (count >= 2) {
+        list.push({
+          id: `hair_${hc}`,
+          label: hc,
+          category: 'Cor de Cabelo',
+          test: (c) => c.hairColor === hc,
+        });
+      }
+    });
+
+    // Papel na Trama / Arquétipo
+    const roleMap: Record<string, number> = {};
+    characters.forEach((c) => {
+      const r = c.roleOrArchetype || c.role || c.archetype;
+      if (r) roleMap[r] = (roleMap[r] || 0) + 1;
+    });
+    Object.entries(roleMap).forEach(([r, count]) => {
+      if (count >= 2) {
+        list.push({
+          id: `role_${r}`,
+          label: r,
+          category: 'Papel na Trama',
+          test: (c) => c.roleOrArchetype === r || c.role === r || c.archetype === r,
+        });
+      }
+    });
+
+    // Espécie / Natureza
+    const specMap: Record<string, number> = {};
+    characters.forEach((c) => {
+      if (c.species) specMap[c.species] = (specMap[c.species] || 0) + 1;
+    });
+    Object.entries(specMap).forEach(([sp, count]) => {
+      if (count >= 2) {
+        list.push({
+          id: `spec_${sp}`,
+          label: sp,
+          category: 'Espécie / Natureza',
+          test: (c) => c.species === sp,
+        });
+      }
+    });
+
+    // Obra de Origem (Essencial para Romance)
+    const originMap: Record<string, number> = {};
+    characters.forEach((c) => {
+      if (c.origin) originMap[c.origin] = (originMap[c.origin] || 0) + 1;
+    });
+    Object.entries(originMap).forEach(([orig, count]) => {
+      if (count >= 2) {
+        list.push({
+          id: `orig_${orig}`,
+          label: orig,
+          category: 'Obra de Origem',
+          test: (c) => c.origin === orig,
+        });
+      }
+    });
+
+    // Estilos de Combate / Poder
     const styleMap: Record<string, number> = {};
     characters.forEach((c) => {
-      const s = c.styleOrPower || c.species || c.rcTypeOrQuinque;
+      const s = c.styleOrPower || c.rcTypeOrQuinque;
       if (s && s.length > 2) styleMap[s] = (styleMap[s] || 0) + 1;
     });
     Object.entries(styleMap).forEach(([st, count]) => {
-      if (count >= 3) {
+      if (count >= 2) {
         list.push({
           id: `style_${st}`,
           label: st,
           category: 'Estilo / Poder',
-          test: (c) => c.styleOrPower === st || c.species === st || c.rcTypeOrQuinque === st,
+          test: (c) => c.styleOrPower === st || c.rcTypeOrQuinque === st,
         });
       }
     });
@@ -520,7 +584,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
     Object.entries(arcMap).forEach(([arc, count]) => {
-      if (count >= 3) {
+      if (count >= 2) {
         list.push({
           id: `arc_${arc}`,
           label: arc,
@@ -533,12 +597,9 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
     return list;
   }, [characters]);
 
-  // Função para gerar uma grade 3x3 válida (onde todas as 9 células têm ao menos 1 candidato e NENHUMA categoria se repete)
+  // Função para gerar uma grade 3x3 válida garantindo 100% de interseção e categorias sem repetição
   const generateValidGrid = (seedStr: string): { rows: GridCriterion[]; cols: GridCriterion[] } | null => {
     if (availableCriteria.length < 6) return null;
-
-    const uniqueCategories = Array.from(new Set(availableCriteria.map((c) => c.category)));
-    if (uniqueCategories.length < 2) return null;
 
     let hash = 0;
     for (let i = 0; i < seedStr.length; i++) {
@@ -550,82 +611,61 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       return hash - Math.floor(hash);
     };
 
-    // Prioriza categorias canônicas sobre genéricas (Gênero e Status)
-    const canonicalOrder = ['Afiliação', 'Estilo / Poder', 'Posição / Categoria', 'Arco de Estreia', 'Gênero', 'Status'];
-    const sortedCriteria = [...availableCriteria].sort((a, b) => {
-      const idxA = canonicalOrder.indexOf(a.category);
-      const idxB = canonicalOrder.indexOf(b.category);
-      const orderA = idxA === -1 ? 99 : idxA;
-      const orderB = idxB === -1 ? 99 : idxB;
-      return orderA - orderB;
-    });
+    // Embaralha critérios determinísticamente
+    const shuffled = [...availableCriteria].sort(() => pseudoRandom() - 0.5);
 
-    const targetDistinctCategories = Math.min(6, uniqueCategories.length);
+    // Algoritmo construtivo com filtragem ativa de colunas
+    for (let i = 0; i < shuffled.length; i++) {
+      const r1 = shuffled[i];
+      for (let j = i + 1; j < shuffled.length; j++) {
+        const r2 = shuffled[j];
+        if (r2.category === r1.category) continue;
+        for (let k = j + 1; k < Math.min(shuffled.length, j + 35); k++) {
+          const r3 = shuffled[k];
+          if (r3.category === r1.category || r3.category === r2.category) continue;
+          const rows = [r1, r2, r3];
+          const rowCats = new Set([r1.category, r2.category, r3.category]);
+          const rowIds = new Set([r1.id, r2.id, r3.id]);
 
-    // Tentativas com restrição máxima (6 categorias 100% distintas)
-    for (let attempt = 0; attempt < 500; attempt++) {
-      const shuffled = [...sortedCriteria].sort(() => pseudoRandom() - 0.5);
-      const rows = shuffled.slice(0, 3);
-      const cols = shuffled.slice(3, 6);
+          // Filtra somente colunas que possuem ao menos 1 candidato com as 3 linhas
+          const validCols = availableCriteria.filter((col) => {
+            if (rowIds.has(col.id)) return false;
+            return (
+              characters.some((c) => r1.test(c) && col.test(c)) &&
+              characters.some((c) => r2.test(c) && col.test(c)) &&
+              characters.some((c) => r3.test(c) && col.test(c))
+            );
+          });
 
-      const rowIds = new Set(rows.map((r) => r.id));
-      if (cols.some((c) => rowIds.has(c.id))) continue;
+          // 1. Tenta achar 3 colunas com 3 categorias distintas entre si e das 3 linhas (6 categorias 100% distintas)
+          const distinctCols = validCols.filter((col) => !rowCats.has(col.category));
+          for (let c1Idx = 0; c1Idx < distinctCols.length; c1Idx++) {
+            const c1 = distinctCols[c1Idx];
+            for (let c2Idx = c1Idx + 1; c2Idx < distinctCols.length; c2Idx++) {
+              const c2 = distinctCols[c2Idx];
+              if (c2.category === c1.category) continue;
+              for (let c3Idx = c2Idx + 1; c3Idx < distinctCols.length; c3Idx++) {
+                const c3 = distinctCols[c3Idx];
+                if (c3.category === c1.category || c3.category === c2.category) continue;
+                return { rows, cols: [c1, c2, c3] };
+              }
+            }
+          }
 
-      const rowCats = new Set(rows.map((r) => r.category));
-      if (rowCats.size < Math.min(3, uniqueCategories.length)) continue;
-
-      const colCats = new Set(cols.map((c) => c.category));
-      if (colCats.size < Math.min(3, uniqueCategories.length)) continue;
-
-      const allCats = new Set([...rowCats, ...colCats]);
-      if (allCats.size < targetDistinctCategories) continue;
-
-      let allValid = true;
-      for (const r of rows) {
-        for (const col of cols) {
-          const matchCount = characters.filter((ch) => r.test(ch) && col.test(ch)).length;
-          if (matchCount === 0) {
-            allValid = false;
-            break;
+          // 2. Se não encontrou 6 categorias distintas, busca com 3 colunas distintas entre si
+          for (let c1Idx = 0; c1Idx < validCols.length; c1Idx++) {
+            const c1 = validCols[c1Idx];
+            for (let c2Idx = c1Idx + 1; c2Idx < validCols.length; c2Idx++) {
+              const c2 = validCols[c2Idx];
+              if (c2.category === c1.category) continue;
+              for (let c3Idx = c2Idx + 1; c3Idx < validCols.length; c3Idx++) {
+                const c3 = validCols[c3Idx];
+                if (c3.category === c1.category || c3.category === c2.category) continue;
+                return { rows, cols: [c1, c2, c3] };
+              }
+            }
           }
         }
-        if (!allValid) break;
-      }
-
-      if (allValid) {
-        return { rows, cols };
-      }
-    }
-
-    // Fallback: se não encontrou com 6 categorias distintas, busca com ao menos linhas e colunas internamente distintas
-    for (let attempt = 0; attempt < 300; attempt++) {
-      const shuffled = [...sortedCriteria].sort(() => pseudoRandom() - 0.5);
-      const rows = shuffled.slice(0, 3);
-      const cols = shuffled.slice(3, 6);
-
-      const rowIds = new Set(rows.map((r) => r.id));
-      if (cols.some((c) => rowIds.has(c.id))) continue;
-
-      const rowCats = new Set(rows.map((r) => r.category));
-      if (rowCats.size < 3) continue;
-
-      const colCats = new Set(cols.map((c) => c.category));
-      if (colCats.size < 3) continue;
-
-      let allValid = true;
-      for (const r of rows) {
-        for (const col of cols) {
-          const matchCount = characters.filter((ch) => r.test(ch) && col.test(ch)).length;
-          if (matchCount === 0) {
-            allValid = false;
-            break;
-          }
-        }
-        if (!allValid) break;
-      }
-
-      if (allValid) {
-        return { rows, cols };
       }
     }
 

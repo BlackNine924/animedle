@@ -21,7 +21,10 @@
       "Kakuja do Rei Caolho Espadachim",
       "Forma Dragão Gigante"
     ],
-    "avatar": "/avatars/tokyo-ghoul/ken-kaneki.png"
+    "avatar": "/avatars/tokyo-ghoul/ken-kaneki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "touka-kirishima",
@@ -43,7 +46,10 @@
       "Disparos Cristais de Kagune",
       "Combate Feroz de Alta Velocidade"
     ],
-    "avatar": "/avatars/tokyo-ghoul/touka-kirishima.png"
+    "avatar": "/avatars/tokyo-ghoul/touka-kirishima.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoshimura",
@@ -64,7 +70,10 @@
       "Lâminas Gigantes Ukaku de Ombros",
       "Disparos de Projéteis Concentrados"
     ],
-    "avatar": "/avatars/tokyo-ghoul/yoshimura.png"
+    "avatar": "/avatars/tokyo-ghoul/yoshimura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "renji-yomo",
@@ -86,7 +95,10 @@
       "Ataques de Projéteis Tempestuosos",
       "Mestre em Artes Marciais Desarmadas"
     ],
-    "avatar": "/avatars/tokyo-ghoul/renji-yomo.png"
+    "avatar": "/avatars/tokyo-ghoul/renji-yomo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nishiki-nishio",
@@ -107,7 +119,10 @@
       "Cauda Serpentina Perfuradora Bikaku",
       "Chute Acrobático com Extensão de Cauda"
     ],
-    "avatar": "/avatars/tokyo-ghoul/nishiki-nishio.png"
+    "avatar": "/avatars/tokyo-ghoul/nishiki-nishio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "enji-koma",
@@ -127,7 +142,10 @@
       "Kagune Bikaku Ágil de Cauda de Macaco",
       "Acrobacias Aéreas Ferozes"
     ],
-    "avatar": "/avatars/tokyo-ghoul/enji-koma.png"
+    "avatar": "/avatars/tokyo-ghoul/enji-koma.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaya-irimi",
@@ -147,7 +165,10 @@
       "Asas de Cão Negro Ukaku",
       "Agilidade Urbana e Combate em Grupo"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kaya-irimi.png"
+    "avatar": "/avatars/tokyo-ghoul/kaya-irimi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hinami-fueguchi",
@@ -169,7 +190,10 @@
       "Kagune Quimera Koukaku (Pétalas Escudo de Lâminas)",
       "Audição e Sensoriamento Sobre-humano"
     ],
-    "avatar": "/avatars/tokyo-ghoul/hinami-fueguchi.png"
+    "avatar": "/avatars/tokyo-ghoul/hinami-fueguchi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryouko-fueguchi",
@@ -188,7 +212,10 @@
     "techniques": [
       "Kagune Koukaku em Forma de Asas Protetoras"
     ],
-    "avatar": "/avatars/tokyo-ghoul/ryouko-fueguchi.png"
+    "avatar": "/avatars/tokyo-ghoul/ryouko-fueguchi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "koutarou-amon",
@@ -209,7 +236,10 @@
       "Kakuja Amon Espada Titânica",
       "Quinque Doujima 1/2 e Kura"
     ],
-    "avatar": "/avatars/tokyo-ghoul/koutarou-amon.png"
+    "avatar": "/avatars/tokyo-ghoul/koutarou-amon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kureo-mado",
@@ -228,7 +258,11 @@
       "Quinque Fueguchi Two (Koukaku)",
       "Colecionador Obsessivo de Quinques"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kureo-mado.png"
+    "avatar": "/avatars/tokyo-ghoul/kureo-mado.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "akira-mado",
@@ -247,7 +281,11 @@
       "Quinque Amatsu (Koukaku/Bikaku Quimera)",
       "Análise Tática Racional Dedutiva"
     ],
-    "avatar": "/avatars/tokyo-ghoul/akira-mado.png"
+    "avatar": "/avatars/tokyo-ghoul/akira-mado.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kishou-arima",
@@ -270,7 +308,10 @@
       "Quinque Coruja SSS (Kakuja Armadilha)",
       "Reflexos Imbatíveis de Meio-Humano"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kishou-arima.png"
+    "avatar": "/avatars/tokyo-ghoul/kishou-arima.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "juuzou-suzuya",
@@ -290,7 +331,10 @@
       "Armadura Kakuja Arata Joker",
       "Lançamento Mortal de Facas Scorpion 1/56"
     ],
-    "avatar": "/avatars/tokyo-ghoul/juuzou-suzuya.png"
+    "avatar": "/avatars/tokyo-ghoul/juuzou-suzuya.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yukinori-shinohara",
@@ -309,7 +353,10 @@
       "Armadura Kakuja Arata Proto",
       "Quinque Demon Yamada 1 (Bikaku)"
     ],
-    "avatar": "/avatars/tokyo-ghoul/yukinori-shinohara.png"
+    "avatar": "/avatars/tokyo-ghoul/yukinori-shinohara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "iwao-kuroiwa",
@@ -328,7 +375,10 @@
       "Armadura Kakuja Arata Completa",
       "Quinque Kuroiwa Special (Koukaku Espada Gigante)"
     ],
-    "avatar": "/avatars/tokyo-ghoul/iwao-kuroiwa.png"
+    "avatar": "/avatars/tokyo-ghoul/iwao-kuroiwa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "takeomi-kuroiwa",
@@ -347,7 +397,10 @@
       "Força Muscular Humana Sobre-humana",
       "Golpes com Quinque Pesado"
     ],
-    "avatar": "/avatars/tokyo-ghoul/takeomi-kuroiwa.png"
+    "avatar": "/avatars/tokyo-ghoul/takeomi-kuroiwa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kousuke-houji",
@@ -366,7 +419,10 @@
       "Quinque Hollow (Koukaku)",
       "Quinque Chi She (Lança-Chamas de Fogo Kagune)"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kousuke-houji.png"
+    "avatar": "/avatars/tokyo-ghoul/kousuke-houji.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chuu-hachikawa",
@@ -384,7 +440,10 @@
     "techniques": [
       "Quinque Kouhi (Ukaku Fuzil Atirador)"
     ],
-    "avatar": "/avatars/tokyo-ghoul/chuu-hachikawa.png"
+    "avatar": "/avatars/tokyo-ghoul/chuu-hachikawa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "take-hirako",
@@ -404,7 +463,10 @@
       "Quinque Nagomi (Rinkaku Lâmina Curva)",
       "Esgrima Precisa e Fria de Suporte"
     ],
-    "avatar": "/avatars/tokyo-ghoul/take-hirako.png"
+    "avatar": "/avatars/tokyo-ghoul/take-hirako.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "koori-ui",
@@ -423,7 +485,10 @@
       "Quinque Taruhi (Koukaku Lança)",
       "Mobilidade e Acrobacia com Fumaça de Cigarro"
     ],
-    "avatar": "/avatars/tokyo-ghoul/koori-ui.png"
+    "avatar": "/avatars/tokyo-ghoul/koori-ui.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "itsuki-marude",
@@ -442,7 +507,10 @@
       "Estratégia Militar e Comando de Batalhões",
       "Tiro Certeiro com Fuzil de Assalto"
     ],
-    "avatar": "/avatars/tokyo-ghoul/itsuki-marude.png"
+    "avatar": "/avatars/tokyo-ghoul/itsuki-marude.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "matsuri-washuu",
@@ -462,7 +530,10 @@
       "Esgrima de Família Washuu",
       "Comando Tático Autoritário"
     ],
-    "avatar": "/avatars/tokyo-ghoul/matsuri-washuu.png"
+    "avatar": "/avatars/tokyo-ghoul/matsuri-washuu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "kuki-urie",
@@ -482,7 +553,10 @@
       "Ginkui (Quinque Rinkaku)",
       "Sentido Olfativo Canino Apurado"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kuki-urie.png"
+    "avatar": "/avatars/tokyo-ghoul/kuki-urie.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ginshi-shirazu",
@@ -501,7 +575,10 @@
       "Disparos Contínuos de Espinhos Ukaku",
       "Nutcracker (Quinque Quimera)"
     ],
-    "avatar": "/avatars/tokyo-ghoul/ginshi-shirazu.png"
+    "avatar": "/avatars/tokyo-ghoul/ginshi-shirazu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toru-mutsuki",
@@ -521,7 +598,10 @@
       "Armadilha de Fios Kagune de Bikaku",
       "Arremesso Letal de Facas Ifraft"
     ],
-    "avatar": "/avatars/tokyo-ghoul/toru-mutsuki.png"
+    "avatar": "/avatars/tokyo-ghoul/toru-mutsuki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "saiko-yonebayashi",
@@ -541,7 +621,10 @@
       "Martelo Esmagador Biológico",
       "Bokujiki (Quinque Koukaku)"
     ],
-    "avatar": "/avatars/tokyo-ghoul/saiko-yonebayashi.png"
+    "avatar": "/avatars/tokyo-ghoul/saiko-yonebayashi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hsiao-hai-ping",
@@ -562,7 +645,10 @@
       "Kuushiru (Quinque Rinkaku)",
       "Combate de Artes Marciais Chinesas"
     ],
-    "avatar": "/avatars/tokyo-ghoul/hsiao-hai-ping.png"
+    "avatar": "/avatars/tokyo-ghoul/hsiao-hai-ping.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shuu-tsukiyama",
@@ -583,7 +669,10 @@
       "Kagune Koukaku Espada Espiral Envolvente",
       "Esgrima Francesa com Kagune Blindado"
     ],
-    "avatar": "/avatars/tokyo-ghoul/shuu-tsukiyama.png"
+    "avatar": "/avatars/tokyo-ghoul/shuu-tsukiyama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mirumo-tsukiyama",
@@ -601,7 +690,10 @@
     "techniques": [
       "Kagune Koukaku Protetor de Escudo"
     ],
-    "avatar": "/avatars/tokyo-ghoul/mirumo-tsukiyama.png"
+    "avatar": "/avatars/tokyo-ghoul/mirumo-tsukiyama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "matsumae",
@@ -619,7 +711,10 @@
     "techniques": [
       "Kagune Koukaku Parede de Escudos e Lança Valquíria"
     ],
-    "avatar": "/avatars/tokyo-ghoul/matsumae.png"
+    "avatar": "/avatars/tokyo-ghoul/matsumae.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kanae-von-rosewald",
@@ -639,7 +734,10 @@
       "Kagune Rinkaku Gigante Espinhoso",
       "Regeneração Monstruosa Costurada por Eto"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kanae-von-rosewald.png"
+    "avatar": "/avatars/tokyo-ghoul/kanae-von-rosewald.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chie-hori",
@@ -658,7 +756,10 @@
       "Inteligência e Espionagem com Câmeras",
       "Contatos Secretos no Submundo de Tóquio"
     ],
-    "avatar": "/avatars/tokyo-ghoul/chie-hori.png"
+    "avatar": "/avatars/tokyo-ghoul/chie-hori.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eto-yoshimura",
@@ -679,7 +780,10 @@
       "Disparo de Projéteis Kakuja Devastadores",
       "Modificação Cirúrgica de Células Rc em Terceiros"
     ],
-    "avatar": "/avatars/tokyo-ghoul/eto-yoshimura.png"
+    "avatar": "/avatars/tokyo-ghoul/eto-yoshimura.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tatara",
@@ -699,7 +803,10 @@
       "Kakuja Armadura Vermelha Flamejante",
       "Chamas de Alta Temperatura Kagune de 4000°C"
     ],
-    "avatar": "/avatars/tokyo-ghoul/tatara.png"
+    "avatar": "/avatars/tokyo-ghoul/tatara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "noro",
@@ -719,7 +826,10 @@
       "Kagune Bikaku Boca Gigante Devoradora",
       "Regeneração Corporal Instantânea de Decapitação e Partição"
     ],
-    "avatar": "/avatars/tokyo-ghoul/noro.png"
+    "avatar": "/avatars/tokyo-ghoul/noro.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ayato-kirishima",
@@ -739,7 +849,10 @@
       "Asas Ukaku Cortantes em Espadas",
       "Chuva de Projéteis Cristalinos Supersônicos"
     ],
-    "avatar": "/avatars/tokyo-ghoul/ayato-kirishima.png"
+    "avatar": "/avatars/tokyo-ghoul/ayato-kirishima.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yakumo-oomori",
@@ -759,7 +872,10 @@
       "Tentáculos Rinkaku Esmagadores",
       "Alicate de Tortura Cirúrgica"
     ],
-    "avatar": "/avatars/tokyo-ghoul/yakumo-oomori.png"
+    "avatar": "/avatars/tokyo-ghoul/yakumo-oomori.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "naki",
@@ -780,7 +896,10 @@
       "Kagune Koukaku Espada Curva de Braço",
       "Fúria Emocional de Combate Desesperado"
     ],
-    "avatar": "/avatars/tokyo-ghoul/naki.png"
+    "avatar": "/avatars/tokyo-ghoul/naki.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miza-kusakari",
@@ -799,7 +918,10 @@
     "techniques": [
       "Três Caudas Bikaku em Formato de Lâminas Afiadas"
     ],
-    "avatar": "/avatars/tokyo-ghoul/miza-kusakari.png"
+    "avatar": "/avatars/tokyo-ghoul/miza-kusakari.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kazuichi-banjou",
@@ -819,7 +941,10 @@
     "techniques": [
       "Kagune Ukaku em Esporos Regenerativos de Cura de Feridas Mortais"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kazuichi-banjou.png"
+    "avatar": "/avatars/tokyo-ghoul/kazuichi-banjou.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "uta",
@@ -841,7 +966,10 @@
       "Kakuja Colossal de Múltiplos Braços e Olhos",
       "Kagune Koukaku"
     ],
-    "avatar": "/avatars/tokyo-ghoul/uta.png"
+    "avatar": "/avatars/tokyo-ghoul/uta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "itori",
@@ -861,7 +989,10 @@
       "Manipulação Psicológica e Rede de Informações do Submundo",
       "Kagune Bikaku"
     ],
-    "avatar": "/avatars/tokyo-ghoul/itori.png"
+    "avatar": "/avatars/tokyo-ghoul/itori.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nico",
@@ -881,7 +1012,10 @@
       "Kagune Rinkaku Curativo",
       "Regeneração Imediata de Danos Críticos"
     ],
-    "avatar": "/avatars/tokyo-ghoul/nico.png"
+    "avatar": "/avatars/tokyo-ghoul/nico.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "roma-hoito",
@@ -901,7 +1035,10 @@
       "Kakuja Dodgy Mother Titânica com Cabeça Monstruosa",
       "Tentáculos Rinkaku Múltiplos"
     ],
-    "avatar": "/avatars/tokyo-ghoul/roma-hoito.png"
+    "avatar": "/avatars/tokyo-ghoul/roma-hoito.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nimura-furuta",
@@ -924,7 +1061,10 @@
       "Espada Quinque Roten",
       "Artes Marciais do Jardim do Sol Branco"
     ],
-    "avatar": "/avatars/tokyo-ghoul/nimura-furuta.png"
+    "avatar": "/avatars/tokyo-ghoul/nimura-furuta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "donato-porpora",
@@ -944,7 +1084,10 @@
       "Clonagem por Kagune Koukaku",
       "Manipulação de Marionetes à Distância"
     ],
-    "avatar": "/avatars/tokyo-ghoul/donato-porpora.png"
+    "avatar": "/avatars/tokyo-ghoul/donato-porpora.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rize-kamishiro",
@@ -963,7 +1106,10 @@
       "Tentáculos Rinkaku Monstruosos de Regeneração Ilimitada",
       "Fonte do DNA do Dragão"
     ],
-    "avatar": "/avatars/tokyo-ghoul/rize-kamishiro.png"
+    "avatar": "/avatars/tokyo-ghoul/rize-kamishiro.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dr-kanou",
@@ -984,7 +1130,10 @@
       "Cirurgia de Hibridização Kakuhou Kanou",
       "Criação dos Oggai e Meio-Ghouls Artificiais"
     ],
-    "avatar": "/avatars/tokyo-ghoul/dr-kanou.png"
+    "avatar": "/avatars/tokyo-ghoul/dr-kanou.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurona-yasuhisa",
@@ -1004,7 +1153,10 @@
       "Kagune Rinkaku Duplo Absorvido",
       "Braços Múltiplos Cortantes Rinkaku"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kurona-yasuhisa.png"
+    "avatar": "/avatars/tokyo-ghoul/kurona-yasuhisa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nashiro-yasuhisa",
@@ -1022,7 +1174,10 @@
     "techniques": [
       "Kagune Rinkaku Gêmeo Perfurante"
     ],
-    "avatar": "/avatars/tokyo-ghoul/nashiro-yasuhisa.png"
+    "avatar": "/avatars/tokyo-ghoul/nashiro-yasuhisa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "seidou-takizawa",
@@ -1043,7 +1198,10 @@
       "Kakuja da Coruja Monstruosa com Foice Ukaku",
       "Disparo de Lâminas Kakuja e Garras Dilaceradoras"
     ],
-    "avatar": "/avatars/tokyo-ghoul/seidou-takizawa.png"
+    "avatar": "/avatars/tokyo-ghoul/seidou-takizawa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hideyoshi-nagachika",
@@ -1064,7 +1222,10 @@
       "Dedução e Raciocínio Tático Brilhante",
       "Disfarce de Espantalho com Sintetizador de Voz"
     ],
-    "avatar": "/avatars/tokyo-ghoul/hideyoshi-nagachika.png"
+    "avatar": "/avatars/tokyo-ghoul/hideyoshi-nagachika.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kimi-nishino",
@@ -1083,7 +1244,10 @@
     "techniques": [
       "Pesquisa em Fisiologia Médica de Células Rc"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kimi-nishino.png"
+    "avatar": "/avatars/tokyo-ghoul/kimi-nishino.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoriko-kosaka",
@@ -1102,7 +1266,10 @@
     "techniques": [
       "Cozinha e Panificação Caseira com Carinho"
     ],
-    "avatar": "/avatars/tokyo-ghoul/yoriko-kosaka.png"
+    "avatar": "/avatars/tokyo-ghoul/yoriko-kosaka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shikorae",
@@ -1122,7 +1289,10 @@
       "Quatro Kagunes Simultâneos",
       "Mutações Descontroladas de Células Rc"
     ],
-    "avatar": "/avatars/tokyo-ghoul/shikorae.png"
+    "avatar": "/avatars/tokyo-ghoul/shikorae.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "big-madam",
@@ -1142,7 +1312,10 @@
       "Kagune Bikaku Gigante Esmagador",
       "Subterrâneo Financeiro de Leilão"
     ],
-    "avatar": "/avatars/tokyo-ghoul/big-madam.png"
+    "avatar": "/avatars/tokyo-ghoul/big-madam.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nutcracker",
@@ -1161,7 +1334,10 @@
       "Armadilhas Kagune de Boca Dentada no Solo",
       "Extensões Koukaku e Bikaku"
     ],
-    "avatar": "/avatars/tokyo-ghoul/nutcracker.png"
+    "avatar": "/avatars/tokyo-ghoul/nutcracker.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kiyoko-aura",
@@ -1180,7 +1356,10 @@
       "Quinque Zebizu (Lançador de Mísseis Ukaku)",
       "Liderança de Batalhão Pesado"
     ],
-    "avatar": "/avatars/tokyo-ghoul/kiyoko-aura.png"
+    "avatar": "/avatars/tokyo-ghoul/kiyoko-aura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shinsanpei-aura",
@@ -1198,7 +1377,10 @@
     "techniques": [
       "Kagune Rinkaku em Forma de Espada de Três Lâminas"
     ],
-    "avatar": "/avatars/tokyo-ghoul/shinsanpei-aura.png"
+    "avatar": "/avatars/tokyo-ghoul/shinsanpei-aura.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hanbee-abara",
@@ -1217,7 +1399,10 @@
       "Quinque Silver Skull (Koukaku Katana Longa)",
       "Velocidade de Corrida com Pernas Longas"
     ],
-    "avatar": "/avatars/tokyo-ghoul/hanbee-abara.png"
+    "avatar": "/avatars/tokyo-ghoul/hanbee-abara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsuneyoshi-washuu",
@@ -1237,7 +1422,10 @@
       "Governança Autocrática Oculta",
       "Linhagem Sanguínea Monstruosa de Ghoul Puro"
     ],
-    "avatar": "/avatars/tokyo-ghoul/tsuneyoshi-washuu.png"
+    "avatar": "/avatars/tokyo-ghoul/tsuneyoshi-washuu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "yoshitoki-washuu",
@@ -1255,6 +1443,9 @@
     "techniques": [
       "Força de Ghoul Washuu de Alta Densidade"
     ],
-    "avatar": "/avatars/tokyo-ghoul/yoshitoki-washuu.png"
+    "avatar": "/avatars/tokyo-ghoul/yoshitoki-washuu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

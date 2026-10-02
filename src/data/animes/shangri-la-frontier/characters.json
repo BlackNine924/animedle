@@ -17,7 +17,10 @@
       "Habilidades de Fúria Crítica (Critical Hit Mastery)",
       "Resistência à Maldição de Lycagon (Sem Armadura no Torso)"
     ],
-    "avatar": "/avatars/shangri-la-frontier/sunraku.png"
+    "avatar": "/avatars/shangri-la-frontier/sunraku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "psyger-0",
@@ -37,7 +40,10 @@
       "Dano Máximo com Espada Santa dos Heróis",
       "Armadura Titânica Invulnerável"
     ],
-    "avatar": "/avatars/shangri-la-frontier/psyger-0.png"
+    "avatar": "/avatars/shangri-la-frontier/psyger-0.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arthur-pencilgon",
@@ -58,7 +64,10 @@
       "Uso Criativo de Itens Raros e Venenos",
       "Ataques Suicidas Calculados"
     ],
-    "avatar": "/avatars/shangri-la-frontier/arthur-pencilgon.png"
+    "avatar": "/avatars/shangri-la-frontier/arthur-pencilgon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oikatzo",
@@ -78,7 +87,10 @@
       "Salto Triplo e Mobilidade Aérea Acrobática",
       "Golpes de Impacto com Manoplas Reforçadas"
     ],
-    "avatar": "/avatars/shangri-la-frontier/oikatzo.png"
+    "avatar": "/avatars/shangri-la-frontier/oikatzo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "emul",
@@ -99,7 +111,10 @@
       "Barreira Protetora de Força Mágica",
       "Transformação Humanoide Disfarçada"
     ],
-    "avatar": "/avatars/shangri-la-frontier/emul.png"
+    "avatar": "/avatars/shangri-la-frontier/emul.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "viceash",
@@ -119,7 +134,10 @@
       "Imposição de Provações Vorpais Sagradas",
       "Presença Intimidadora Esmagadora"
     ],
-    "avatar": "/avatars/shangri-la-frontier/viceash.png"
+    "avatar": "/avatars/shangri-la-frontier/viceash.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lycagon",
@@ -139,7 +157,10 @@
       "Velocidade Sobrenatural Intocável",
       "Criação de Clones de Sombra e Ilusão Lunar"
     ],
-    "avatar": "/avatars/shangri-la-frontier/lycagon.png"
+    "avatar": "/avatars/shangri-la-frontier/lycagon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wezaemon",
@@ -160,7 +181,10 @@
       "Corte do Relâmpago Trovão de Morte Instantânea",
       "Terceira Fase: Armadura Flamejante de Cinzas"
     ],
-    "avatar": "/avatars/shangri-la-frontier/wezaemon.png"
+    "avatar": "/avatars/shangri-la-frontier/wezaemon.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "setsuna",
@@ -180,7 +204,10 @@
       "Liberação da Alma do Colosso",
       "Concessão da História Oculta de Shangri-La"
     ],
-    "avatar": "/avatars/shangri-la-frontier/setsuna.png"
+    "avatar": "/avatars/shangri-la-frontier/setsuna.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kutanid",
@@ -200,7 +227,10 @@
       "Vórtice Abissal de Alta Pressão Oceânica",
       "Manipulação de Criaturas Marinhas Ancestrais"
     ],
-    "avatar": "/avatars/shangri-la-frontier/kutanid.png"
+    "avatar": "/avatars/shangri-la-frontier/kutanid.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "psyger-100",
@@ -220,7 +250,10 @@
       "Habilidades de Liderança e Bônus de Moral",
       "Golpes Pesados com Armadura Completa"
     ],
-    "avatar": "/avatars/shangri-la-frontier/psyger-100.png"
+    "avatar": "/avatars/shangri-la-frontier/psyger-100.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "animalia",
@@ -240,7 +273,10 @@
       "Fotografia Mágica de Espécimes Raros",
       "Evasão Tática com Feitiços de Fumaça"
     ],
-    "avatar": "/avatars/shangri-la-frontier/animalia.png"
+    "avatar": "/avatars/shangri-la-frontier/animalia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "orcelott",
@@ -260,7 +296,10 @@
       "Tiro Rastreador de Ponto Fraco",
       "Recuo Tático e Armadilhas de Solo"
     ],
-    "avatar": "/avatars/shangri-la-frontier/orcelott.png"
+    "avatar": "/avatars/shangri-la-frontier/orcelott.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rust",
@@ -280,7 +319,10 @@
       "Combate de Apoio Aéreo e Armas de Fogo Pesadas",
       "Cálculo Balístico em Tempo Real"
     ],
-    "avatar": "/avatars/shangri-la-frontier/rust.png"
+    "avatar": "/avatars/shangri-la-frontier/rust.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mold",
@@ -300,7 +342,10 @@
       "Escudo de Energia Protetor de Retaguarda",
       "Assistência Estratégica Mecanizada"
     ],
-    "avatar": "/avatars/shangri-la-frontier/mold.png"
+    "avatar": "/avatars/shangri-la-frontier/mold.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bilac",
@@ -320,7 +365,10 @@
       "Uso de Martelo Gigante de Batalha",
       "Refinamento de Heranças da Era Antiga"
     ],
-    "avatar": "/avatars/shangri-la-frontier/bilac.png"
+    "avatar": "/avatars/shangri-la-frontier/bilac.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aramis",
@@ -340,7 +388,10 @@
       "Etiqueta de Duelo e Guarda Perfeita",
       "Golpe Perfurante de Alta Rapidez"
     ],
-    "avatar": "/avatars/shangri-la-frontier/aramis.png"
+    "avatar": "/avatars/shangri-la-frontier/aramis.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsukuyo-tsukuri",
@@ -360,7 +411,10 @@
       "Análise de Inteligência Artificial de NPCs",
       "Desenvolvimento de Mecânicas de Jogo Revolucionárias"
     ],
-    "avatar": "/avatars/shangri-la-frontier/tsukuyo-tsukuri.png"
+    "avatar": "/avatars/shangri-la-frontier/tsukuyo-tsukuri.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kyogoku-ryuguin",
@@ -380,7 +434,10 @@
       "Corte Cruzado de Duas Espadas",
       "Leitura de Guarda Inimiga"
     ],
-    "avatar": "/avatars/shangri-la-frontier/kyogoku-ryuguin.png"
+    "avatar": "/avatars/shangri-la-frontier/kyogoku-ryuguin.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sylvia-goldberg",
@@ -400,7 +457,10 @@
       "Pressão Ofensiva Esmagadora Implacável",
       "Adaptação Psicológica Instantânea Contra Adversários"
     ],
-    "avatar": "/avatars/shangri-la-frontier/sylvia-goldberg.png"
+    "avatar": "/avatars/shangri-la-frontier/sylvia-goldberg.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "akane-oki",
@@ -420,7 +480,10 @@
       "Ataques Furtivos das Sombras",
       "Disparo de Adagas de Arremesso Tóxicas"
     ],
-    "avatar": "/avatars/shangri-la-frontier/akane-oki.png"
+    "avatar": "/avatars/shangri-la-frontier/akane-oki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "peatz",
@@ -440,7 +503,10 @@
       "Sinalização Tática de Perigo",
       "Esquiva Saltitante Rápida"
     ],
-    "avatar": "/avatars/shangri-la-frontier/peatz.png"
+    "avatar": "/avatars/shangri-la-frontier/peatz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "professor",
@@ -460,7 +526,10 @@
       "Suporte Enciclopédico de Fraquezas de Chefes",
       "Feitiços Arcanos de Análise e Registro"
     ],
-    "avatar": "/avatars/shangri-la-frontier/professor.png"
+    "avatar": "/avatars/shangri-la-frontier/professor.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ritsu-amachi",
@@ -480,7 +549,10 @@
       "Monitoramento do Despertar dos Monstros Únicos",
       "Gerenciamento de Servidores Globais"
     ],
-    "avatar": "/avatars/shangri-la-frontier/ritsu-amachi.png"
+    "avatar": "/avatars/shangri-la-frontier/ritsu-amachi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mana-iwamaki",
@@ -500,7 +572,10 @@
       "Roteirização das Linhas do Tempo da Era Antiga",
       "Criação de Missões de Cenário Únicas"
     ],
-    "avatar": "/avatars/shangri-la-frontier/mana-iwamaki.png"
+    "avatar": "/avatars/shangri-la-frontier/mana-iwamaki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "megumi-natsume",
@@ -520,7 +595,10 @@
       "Análise de Desempenho e Telemetria em Tempo Real",
       "Auditoria de Conquistas Globais de Servidor"
     ],
-    "avatar": "/avatars/shangri-la-frontier/megumi-natsume.png"
+    "avatar": "/avatars/shangri-la-frontier/megumi-natsume.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ceecrue",
@@ -540,7 +618,10 @@
       "Preparo de Banquete Energético de Rabituza",
       "Esquiva Ágil de Pequeno Porte"
     ],
-    "avatar": "/avatars/shangri-la-frontier/ceecrue.png"
+    "avatar": "/avatars/shangri-la-frontier/ceecrue.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mia-rabbit",
@@ -560,7 +641,10 @@
       "Apoio Moral e Charme Vorpal",
       "Navegação Subterrânea por Tocas"
     ],
-    "avatar": "/avatars/shangri-la-frontier/mia-rabbit.png"
+    "avatar": "/avatars/shangri-la-frontier/mia-rabbit.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reiji-yamamoto",
@@ -580,7 +664,10 @@
       "Táticas Competitivas Multijogador",
       "Adaptação a Controles Travados e Imprecisos"
     ],
-    "avatar": "/avatars/shangri-la-frontier/reiji-yamamoto.png"
+    "avatar": "/avatars/shangri-la-frontier/reiji-yamamoto.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "megu-hizutome",
@@ -600,7 +687,10 @@
       "Tratamento com Insetos e Animais de Estimação",
       "Paciência com Irmão Viciado em Jogos"
     ],
-    "avatar": "/avatars/shangri-la-frontier/megu-hizutome.png"
+    "avatar": "/avatars/shangri-la-frontier/megu-hizutome.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Irmã Mais Nova de Sunraku"
   },
   {
     "id": "orchestra",
@@ -620,7 +710,10 @@
       "Harmonia Caótica e Desorientação Sensorial",
       "Movimento Rítmico Imprevisível"
     ],
-    "avatar": "/avatars/shangri-la-frontier/orchestra.png"
+    "avatar": "/avatars/shangri-la-frontier/orchestra.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "siegwurm",
@@ -640,7 +733,10 @@
       "Escamas Douradas Invulneráveis a Magia Comum",
       "Rugido Sísmico dos Céus"
     ],
-    "avatar": "/avatars/shangri-la-frontier/siegwurm.png"
+    "avatar": "/avatars/shangri-la-frontier/siegwurm.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "faeria",
@@ -660,6 +756,9 @@
       "Passos das Sombras e Emboscada",
       "Golpes Críticos Venenosos"
     ],
-    "avatar": "/avatars/shangri-la-frontier/faeria.png"
+    "avatar": "/avatars/shangri-la-frontier/faeria.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

@@ -15,7 +15,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu não vim aqui para jogar em equipe. Eu vim aqui para ser o maior atacante do mundo!",
-    "avatar": "/avatars/blue-lock/yoichi-isagi.png"
+    "avatar": "/avatars/blue-lock/yoichi-isagi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "meguru-bachira",
@@ -33,7 +36,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Há um monstro dentro de mim... e ele me diz para seguir em frente!",
-    "avatar": "/avatars/blue-lock/meguru-bachira.png"
+    "avatar": "/avatars/blue-lock/meguru-bachira.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rensuke-kunigami",
@@ -52,7 +58,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu quero me tornar um herói do futebol. Não importa o que aconteça, não vou quebrar minhas regras.",
-    "avatar": "/avatars/blue-lock/rensuke-kunigami.png"
+    "avatar": "/avatars/blue-lock/rensuke-kunigami.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hyoma-chigiri",
@@ -70,7 +79,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Minha velocidade é a minha corrente e a minha libertação. Ninguém vai me alcançar!",
-    "avatar": "/avatars/blue-lock/hyoma-chigiri.png"
+    "avatar": "/avatars/blue-lock/hyoma-chigiri.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "seishiro-nagi",
@@ -88,7 +100,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Futebol é tão problemático... mas vencer é muito divertido.",
-    "avatar": "/avatars/blue-lock/seishiro-nagi.png"
+    "avatar": "/avatars/blue-lock/seishiro-nagi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reo-mikage",
@@ -106,7 +121,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu posso ter tudo o que quiser no mundo. E o que eu quero agora é a Copa do Mundo!",
-    "avatar": "/avatars/blue-lock/reo-mikage.png"
+    "avatar": "/avatars/blue-lock/reo-mikage.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shoei-barou",
@@ -124,7 +142,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu sou o Rei deste campo. Vocês são apenas os servos que existem para me passar a bola!",
-    "avatar": "/avatars/blue-lock/shoei-barou.png"
+    "avatar": "/avatars/blue-lock/shoei-barou.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rin-itoshi",
@@ -142,7 +163,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Futebol morno não me interessa. Eu só existo para destruir meu irmão e todo mundo no meu caminho.",
-    "avatar": "/avatars/blue-lock/rin-itoshi.png"
+    "avatar": "/avatars/blue-lock/rin-itoshi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryusei-shidou",
@@ -160,7 +184,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Um gol é uma explosão biológica! Deixe o futebol fecundar o mundo!",
-    "avatar": "/avatars/blue-lock/ryusei-shidou.png"
+    "avatar": "/avatars/blue-lock/ryusei-shidou.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gin-gagamaru",
@@ -178,7 +205,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Comer com as mãos é bom... agarrar bolas difíceis também.",
-    "avatar": "/avatars/blue-lock/gin-gagamaru.png"
+    "avatar": "/avatars/blue-lock/gin-gagamaru.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jingo-raichi",
@@ -196,7 +226,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Futebol sexy é sobre marcação sem parar até o desespero do adversário!",
-    "avatar": "/avatars/blue-lock/jingo-raichi.png"
+    "avatar": "/avatars/blue-lock/jingo-raichi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jyubei-aryu",
@@ -214,7 +247,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Isso não foi glamouroso... Minha envergadura é a personificação da elegância estética.",
-    "avatar": "/avatars/blue-lock/jyubei-aryu.png"
+    "avatar": "/avatars/blue-lock/jyubei-aryu.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aoshi-tokimitsu",
@@ -232,7 +268,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Desculpe, desculpe! Eu fico tão nervoso que não consigo parar de correr e empurrar!",
-    "avatar": "/avatars/blue-lock/aoshi-tokimitsu.png"
+    "avatar": "/avatars/blue-lock/aoshi-tokimitsu.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yo-hiori",
@@ -250,7 +289,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "O futebol não precisa ser uma expectativa imposta pelos meus pais. Pode ser o meu próprio jogo.",
-    "avatar": "/avatars/blue-lock/yo-hiori.png"
+    "avatar": "/avatars/blue-lock/yo-hiori.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kenyu-yukimiya",
@@ -268,7 +310,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Mesmo que minha visão esteja se apagando, o meu sonho nunca vai se perder no escuro!",
-    "avatar": "/avatars/blue-lock/kenyu-yukimiya.png"
+    "avatar": "/avatars/blue-lock/kenyu-yukimiya.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tabito-karasu",
@@ -286,7 +331,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Você é medíocre. E no futebol, corvos como eu devoram os elos mais fracos primeiro.",
-    "avatar": "/avatars/blue-lock/tabito-karasu.png"
+    "avatar": "/avatars/blue-lock/tabito-karasu.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eita-otoya",
@@ -304,7 +352,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Sombras não fazem barulho. Quando você notar, eu já estou comemorando o gol.",
-    "avatar": "/avatars/blue-lock/eita-otoya.png"
+    "avatar": "/avatars/blue-lock/eita-otoya.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zantetsu-tsurugi",
@@ -322,7 +373,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Meus primeiros passos são idiotamente rápidos. Não tente me parar!",
-    "avatar": "/avatars/blue-lock/zantetsu-tsurugi.png"
+    "avatar": "/avatars/blue-lock/zantetsu-tsurugi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ikki-niko",
@@ -340,7 +394,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu não sou o herói, sou aquele que controla as engrenagens de trás para quebrar o ataque rival.",
-    "avatar": "/avatars/blue-lock/ikki-niko.png"
+    "avatar": "/avatars/blue-lock/ikki-niko.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ranze-kurona",
@@ -358,7 +415,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Toca e vai, vai e toca. Enquanto você correr, eu sou sua órbita, Isagi.",
-    "avatar": "/avatars/blue-lock/ranze-kurona.png"
+    "avatar": "/avatars/blue-lock/ranze-kurona.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jin-kiyora",
@@ -376,7 +436,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu escolho o lado que me dá a melhor chance de sobreviver e brilhar na borda do campo.",
-    "avatar": "/avatars/blue-lock/jin-kiyora.png"
+    "avatar": "/avatars/blue-lock/jin-kiyora.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nijiro-nanase",
@@ -394,7 +457,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Não tenho o talento de vocês, mas vou me esforçar duas vezes mais para estar em campo!",
-    "avatar": "/avatars/blue-lock/nijiro-nanase.png"
+    "avatar": "/avatars/blue-lock/nijiro-nanase.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gurimu-igarashi",
@@ -412,7 +478,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu não quero herdar o templo do meu pai! Eu vou viver do futebol de qualquer jeito!",
-    "avatar": "/avatars/blue-lock/gurimu-igarashi.png"
+    "avatar": "/avatars/blue-lock/gurimu-igarashi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kento-cho",
@@ -430,7 +499,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "No jogo aéreo, pouca gente no Blue Lock consegue competir com a minha impulsão.",
-    "avatar": "/avatars/blue-lock/kento-cho.png"
+    "avatar": "/avatars/blue-lock/kento-cho.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hajime-nishioka",
@@ -448,7 +520,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Eles me chamam de Messi de Aomori por uma razão. Meu drible fala por si.",
-    "avatar": "/avatars/blue-lock/hajime-nishioka.png"
+    "avatar": "/avatars/blue-lock/hajime-nishioka.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shizuka-haiji",
@@ -466,7 +541,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "O meio-campo precisa de calma para conectar as jogadas ofensivas.",
-    "avatar": "/avatars/blue-lock/shizuka-haiji.png"
+    "avatar": "/avatars/blue-lock/shizuka-haiji.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kyohei-shiguma",
@@ -484,7 +562,10 @@
     "debutArc": "Terceira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Nenhum atacante passa fácil pelo meu bloqueio físico.",
-    "avatar": "/avatars/blue-lock/kyohei-shiguma.png"
+    "avatar": "/avatars/blue-lock/kyohei-shiguma.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oliver-aiku",
@@ -502,7 +583,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu queria ser atacante, mas o futebol japonês me transformou no muro intransponível que esmaga egoístas.",
-    "avatar": "/avatars/blue-lock/oliver-aiku.png"
+    "avatar": "/avatars/blue-lock/oliver-aiku.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shuto-sendo",
@@ -520,7 +604,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Eu quero casar com uma celebridade bonita e ser milionário! Esse é o meu combustível!",
-    "avatar": "/avatars/blue-lock/shuto-sendo.png"
+    "avatar": "/avatars/blue-lock/shuto-sendo.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gen-fukaku",
@@ -538,7 +625,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "A meta do Japão Sub-20 é o meu posto de honra.",
-    "avatar": "/avatars/blue-lock/gen-fukaku.png"
+    "avatar": "/avatars/blue-lock/gen-fukaku.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kazuma-nio",
@@ -556,7 +646,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Uma vez que eu mordo a sua canela taticamente, não solto até o apito final.",
-    "avatar": "/avatars/blue-lock/kazuma-nio.png"
+    "avatar": "/avatars/blue-lock/kazuma-nio.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "teppei-neru",
@@ -574,7 +667,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "A lateral direita é minha avenida. Tente passar na velocidade se puder!",
-    "avatar": "/avatars/blue-lock/teppei-neru.png"
+    "avatar": "/avatars/blue-lock/teppei-neru.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miroku-darai",
@@ -592,7 +688,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Desarmar sem cometer falta é a mais pura arte zen da defesa.",
-    "avatar": "/avatars/blue-lock/miroku-darai.png"
+    "avatar": "/avatars/blue-lock/miroku-darai.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "haru-hayate",
@@ -610,7 +709,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Equilíbrio tático é o que sustenta um time campeão.",
-    "avatar": "/avatars/blue-lock/haru-hayate.png"
+    "avatar": "/avatars/blue-lock/haru-hayate.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "teru-kitsunezato",
@@ -628,7 +730,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Astúcia de raposa para quebrar as linhas adversárias.",
-    "avatar": "/avatars/blue-lock/teru-kitsunezato.png"
+    "avatar": "/avatars/blue-lock/teru-kitsunezato.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "itsuki-wakatsuki",
@@ -646,7 +751,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "A defesa não dá espaço para vaidades.",
-    "avatar": "/avatars/blue-lock/itsuki-wakatsuki.png"
+    "avatar": "/avatars/blue-lock/itsuki-wakatsuki.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryosuke-kira",
@@ -663,7 +771,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Isso é uma piada! Futebol não é sobre egoísmo, é sobre trabalho em equipe!",
-    "avatar": "/avatars/blue-lock/ryosuke-kira.png"
+    "avatar": "/avatars/blue-lock/ryosuke-kira.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "asahi-naruhaya",
@@ -680,7 +791,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Eu não sou um gênio como você, Isagi... Mas eu precisava vencer pelos meus irmãos!",
-    "avatar": "/avatars/blue-lock/asahi-naruhaya.png"
+    "avatar": "/avatars/blue-lock/asahi-naruhaya.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wataru-kuon",
@@ -697,7 +811,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Trair meus companheiros foi a única forma que achei para não ser deixado para trás.",
-    "avatar": "/avatars/blue-lock/wataru-kuon.png"
+    "avatar": "/avatars/blue-lock/wataru-kuon.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "okuhito-iemon",
@@ -714,7 +831,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Mesmo que eu queira ser atacante, eu seguro a barra no gol pelo Time Z.",
-    "avatar": "/avatars/blue-lock/okuhito-iemon.png"
+    "avatar": "/avatars/blue-lock/okuhito-iemon.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yudai-imamura",
@@ -731,7 +851,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Meu estilo de jogo é tão leve e solto quanto meu jeito de curtir a vida.",
-    "avatar": "/avatars/blue-lock/yudai-imamura.png"
+    "avatar": "/avatars/blue-lock/yudai-imamura.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "keisuke-wanima",
@@ -748,7 +871,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Eu e meu irmão sabemos exatamente o que o outro vai fazer antes mesmo de tocar na bola!",
-    "avatar": "/avatars/blue-lock/keisuke-wanima.png"
+    "avatar": "/avatars/blue-lock/keisuke-wanima.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "junichi-wanima",
@@ -766,7 +892,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Ativo / Sobrevivente",
     "quote": "Grrr...! (Mesmo sem meu irmão, eu vou continuar devorando o campo!)",
-    "avatar": "/avatars/blue-lock/junichi-wanima.png"
+    "avatar": "/avatars/blue-lock/junichi-wanima.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hibiki-okawa",
@@ -783,7 +912,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "O artilheiro do Time Y só precisa de um toque para mandar a bola pro fundo das redes.",
-    "avatar": "/avatars/blue-lock/hibiki-okawa.png"
+    "avatar": "/avatars/blue-lock/hibiki-okawa.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "michael-kaiser",
@@ -801,7 +933,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "O impossível não existe no meu cardápio. Eu sou o imperador e este campo me pertence!",
-    "avatar": "/avatars/blue-lock/michael-kaiser.png"
+    "avatar": "/avatars/blue-lock/michael-kaiser.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alexis-ness",
@@ -818,7 +953,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "O futebol é a pura magia da lógica... e Kaiser é o meu verdadeiro rei!",
-    "avatar": "/avatars/blue-lock/alexis-ness.png"
+    "avatar": "/avatars/blue-lock/alexis-ness.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sae-itoshi",
@@ -836,7 +974,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Profissional",
     "quote": "O futebol japonês é patético e provinciano. Eu preferi me tornar o melhor meia do mundo.",
-    "avatar": "/avatars/blue-lock/sae-itoshi.png"
+    "avatar": "/avatars/blue-lock/sae-itoshi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "don-lorenzo",
@@ -854,7 +995,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Dentes de ouro, dinheiro no bolso... No campo dos Ubers, eu devoro o seu atacante estrela!",
-    "avatar": "/avatars/blue-lock/don-lorenzo.png"
+    "avatar": "/avatars/blue-lock/don-lorenzo.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charles-chevalier",
@@ -871,7 +1015,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Jogar com passes previsíveis é tão chato! Eu só quero me divertir com jogadas malucas!",
-    "avatar": "/avatars/blue-lock/charles-chevalier.png"
+    "avatar": "/avatars/blue-lock/charles-chevalier.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "agi",
@@ -889,7 +1036,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "A criatividade precisa ser amparada pelo raciocínio científico e a biomecânica.",
-    "avatar": "/avatars/blue-lock/agi.png"
+    "avatar": "/avatars/blue-lock/agi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "benedict-grim",
@@ -906,7 +1056,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "A mecânica do Bastard München exige rigor e disciplina nas alas.",
-    "avatar": "/avatars/blue-lock/benedict-grim.png"
+    "avatar": "/avatars/blue-lock/benedict-grim.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "erik-gesner",
@@ -923,7 +1076,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Jogadores de Blue Lock não deveriam se intrometer no sistema alemão do Kaiser.",
-    "avatar": "/avatars/blue-lock/erik-gesner.png"
+    "avatar": "/avatars/blue-lock/erik-gesner.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ignacio-lara",
@@ -940,7 +1096,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Na Catalunha aprendemos que a defesa constrói a liberdade do ataque.",
-    "avatar": "/avatars/blue-lock/ignacio-lara.png"
+    "avatar": "/avatars/blue-lock/ignacio-lara.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "teddy-knight",
@@ -958,7 +1117,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Profissional",
     "quote": "Aceitar a própria incompetência e se render ao coletivo do sistema é a maior força que um jogador pode ter.",
-    "avatar": "/avatars/blue-lock/teddy-knight.png"
+    "avatar": "/avatars/blue-lock/teddy-knight.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lockhart",
@@ -975,7 +1137,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Profissional",
     "quote": "No ar inglês ninguém ganha de mim. Bola na área é rede!",
-    "avatar": "/avatars/blue-lock/lockhart.png"
+    "avatar": "/avatars/blue-lock/lockhart.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "coach-fox",
@@ -992,7 +1157,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Staff",
     "quote": "Egos individuais são falhos. O sistema disciplinado é perfeito e eterno.",
-    "avatar": "/avatars/blue-lock/coach-fox.png"
+    "avatar": "/avatars/blue-lock/coach-fox.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "achanpong",
@@ -1009,7 +1177,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Profissional",
     "quote": "Como capitão inglês, mantenho a ordem e o ritmo impecável dos nossos movimentos.",
-    "avatar": "/avatars/blue-lock/achanpong.png"
+    "avatar": "/avatars/blue-lock/achanpong.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rooke",
@@ -1026,7 +1197,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Profissional",
     "quote": "A muralha inglesa não cede diante de nenhum egoísta.",
-    "avatar": "/avatars/blue-lock/rooke.png"
+    "avatar": "/avatars/blue-lock/rooke.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "noel-noa",
@@ -1043,7 +1217,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Não me venha com sentimentos. Se não puder expressar sua vitória em números e lógica, você não presta para jogar comigo.",
-    "avatar": "/avatars/blue-lock/noel-noa.png"
+    "avatar": "/avatars/blue-lock/noel-noa.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chris-prince",
@@ -1060,7 +1237,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Um corpo perfeito gera o futebol perfeito. Olhe para os meus músculos e aprenda o que é um superstar!",
-    "avatar": "/avatars/blue-lock/chris-prince.png"
+    "avatar": "/avatars/blue-lock/chris-prince.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marc-snuffy",
@@ -1077,7 +1257,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Futebol é um trabalho profissional. Se você não tiver um plano de negócios para sua carreira, você quebra.",
-    "avatar": "/avatars/blue-lock/marc-snuffy.png"
+    "avatar": "/avatars/blue-lock/marc-snuffy.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lavinho",
@@ -1094,7 +1277,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Profissional",
     "quote": "Imite a minha ginga se quiser, mas para ser um dançarino de verdade você tem que expressar sua própria loucura!",
-    "avatar": "/avatars/blue-lock/lavinho.png"
+    "avatar": "/avatars/blue-lock/lavinho.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "julien-loki",
@@ -1111,7 +1297,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Profissional",
     "quote": "A juventude não é desculpa para perder. A velocidade é a lei absoluta do futebol moderno.",
-    "avatar": "/avatars/blue-lock/julien-loki.png"
+    "avatar": "/avatars/blue-lock/julien-loki.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "leonardo-luna",
@@ -1128,7 +1317,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Profissional",
     "quote": "Bons garotos japoneses... Vocês são tão fofos achando que entendem o futebol do mundo real.",
-    "avatar": "/avatars/blue-lock/leonardo-luna.png"
+    "avatar": "/avatars/blue-lock/leonardo-luna.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "adam-blake",
@@ -1145,7 +1337,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Profissional",
     "quote": "Mulheres e dinheiro! Eu jogo para ser o mais forte e curtir a vida como um verdadeiro monstro!",
-    "avatar": "/avatars/blue-lock/adam-blake.png"
+    "avatar": "/avatars/blue-lock/adam-blake.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pablo-cavasoz",
@@ -1162,7 +1357,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Profissional",
     "quote": "A curva da bola é a minha poesia. Na bola parada ninguém me supera.",
-    "avatar": "/avatars/blue-lock/pablo-cavasoz.png"
+    "avatar": "/avatars/blue-lock/pablo-cavasoz.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dada-silva",
@@ -1179,7 +1377,10 @@
     "debutArc": "Segunda Seleção",
     "status": "Profissional",
     "quote": "Samba e salto pesado! No combate corpo a corpo não tem conversa!",
-    "avatar": "/avatars/blue-lock/dada-silva.png"
+    "avatar": "/avatars/blue-lock/dada-silva.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jinpachi-ego",
@@ -1196,7 +1397,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Staff",
     "quote": "Joguem fora o bom senso do futebol japonês. Sejam os egoístas supremos que o mundo teme!",
-    "avatar": "/avatars/blue-lock/jinpachi-ego.png"
+    "avatar": "/avatars/blue-lock/jinpachi-ego.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "anri-teieri",
@@ -1214,7 +1418,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Staff",
     "quote": "Eu não me importo com a política da JFU. Eu quero ver o Japão campeão do mundo!",
-    "avatar": "/avatars/blue-lock/anri-teieri.png"
+    "avatar": "/avatars/blue-lock/anri-teieri.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hirotoshi-buratsuta",
@@ -1231,7 +1438,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Staff",
     "quote": "Futebol é entretenimento e negócio. Se gerar dinheiro e manchete, eu assino embaixo.",
-    "avatar": "/avatars/blue-lock/hirotoshi-buratsuta.png"
+    "avatar": "/avatars/blue-lock/hirotoshi-buratsuta.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yasumori-hoichi",
@@ -1249,7 +1459,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Staff",
     "quote": "Que jogada espetacular no gramado do Blue Lock! O mundo inteiro está de olho!",
-    "avatar": "/avatars/blue-lock/yasumori-hoichi.png"
+    "avatar": "/avatars/blue-lock/yasumori-hoichi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryo-nameoka",
@@ -1266,7 +1479,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Nós fomos para o campeonato nacional e você ficou pelo caminho, Isagi!",
-    "avatar": "/avatars/blue-lock/ryo-nameoka.png"
+    "avatar": "/avatars/blue-lock/ryo-nameoka.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "innocent-onazi",
@@ -1283,7 +1499,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Nós carregamos os sonhos de toda a África nesta Copa do Mundo Sub-20!",
-    "avatar": "/avatars/blue-lock/innocent-onazi.png"
+    "avatar": "/avatars/blue-lock/innocent-onazi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "godwin-kuso",
@@ -1300,7 +1519,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Nossa velocidade e garra vão superar qualquer tática egoísta do Japão!",
-    "avatar": "/avatars/blue-lock/godwin-kuso.png"
+    "avatar": "/avatars/blue-lock/godwin-kuso.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oboabona",
@@ -1317,7 +1539,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Nenhum atacante japonês vai passar pela muralha verde da Nigéria.",
-    "avatar": "/avatars/blue-lock/oboabona.png"
+    "avatar": "/avatars/blue-lock/oboabona.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bello",
@@ -1334,7 +1559,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "O meio de campo pertence aos guerreiros da África. Lutaremos até o fim!",
-    "avatar": "/avatars/blue-lock/bello.png"
+    "avatar": "/avatars/blue-lock/bello.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "coach-gambari",
@@ -1351,7 +1579,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Staff",
     "quote": "Honrem a bandeira nigeriana com disciplina, garra e união inabalável!",
-    "avatar": "/avatars/blue-lock/coach-gambari.png"
+    "avatar": "/avatars/blue-lock/coach-gambari.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vivian-hugo",
@@ -1369,7 +1600,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "O futebol é uma partitura elegante... e eu sou o maestro que dita cada compasso da França.",
-    "avatar": "/avatars/blue-lock/vivian-hugo.png"
+    "avatar": "/avatars/blue-lock/vivian-hugo.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "camus",
@@ -1386,7 +1620,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Na ponta direita francesa, velocidade e técnica andam sempre lado a lado.",
-    "avatar": "/avatars/blue-lock/camus.png"
+    "avatar": "/avatars/blue-lock/camus.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bats",
@@ -1403,7 +1640,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Conectar a defesa aos nossos atacantes mundiais é a minha especialidade.",
-    "avatar": "/avatars/blue-lock/bats.png"
+    "avatar": "/avatars/blue-lock/bats.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gabin",
@@ -1421,7 +1661,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "A zaga da França não tem espaço para hesitações ou falhas de concentração.",
-    "avatar": "/avatars/blue-lock/gabin.png"
+    "avatar": "/avatars/blue-lock/gabin.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chapa",
@@ -1439,7 +1682,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Pela lateral esquerda do PXG e da França, ninguém cria perigo impunemente.",
-    "avatar": "/avatars/blue-lock/chapa.png"
+    "avatar": "/avatars/blue-lock/chapa.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "renoir",
@@ -1456,7 +1702,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "O gol da França Sub-20 está sob a minha custódia e proteção total.",
-    "avatar": "/avatars/blue-lock/renoir.png"
+    "avatar": "/avatars/blue-lock/renoir.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arthur",
@@ -1474,7 +1723,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Ativo / Sobrevivente",
     "quote": "O estilo do Manshine City exige intensidade física máxima de ponta a ponta.",
-    "avatar": "/avatars/blue-lock/arthur.png"
+    "avatar": "/avatars/blue-lock/arthur.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "young",
@@ -1492,7 +1744,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Ativo / Sobrevivente",
     "quote": "Trabalhar as transições rápidas é a chave para o ataque da Inglaterra.",
-    "avatar": "/avatars/blue-lock/young.png"
+    "avatar": "/avatars/blue-lock/young.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "niang",
@@ -1509,7 +1764,10 @@
     "debutArc": "Copa do Mundo Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Na zaga inglesa, impomos nosso poder físico para anular qualquer jogada.",
-    "avatar": "/avatars/blue-lock/niang.png"
+    "avatar": "/avatars/blue-lock/niang.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "busby",
@@ -1527,7 +1785,10 @@
     "debutArc": "Liga Neo Egoísta (NEL)",
     "status": "Ativo / Sobrevivente",
     "quote": "Segurança e disciplina na linha de trás: essa é a base do futebol inglês.",
-    "avatar": "/avatars/blue-lock/busby.png"
+    "avatar": "/avatars/blue-lock/busby.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ken-shimura",
@@ -1544,7 +1805,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "Mesmo no banco, estou pronto para provar meu valor pelo futebol japonês!",
-    "avatar": "/avatars/blue-lock/ken-shimura.png"
+    "avatar": "/avatars/blue-lock/ken-shimura.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "beita-tsuru",
@@ -1561,7 +1825,10 @@
     "debutArc": "Partida contra a Seleção Japão Sub-20",
     "status": "Ativo / Sobrevivente",
     "quote": "A defesa do Japão Sub-20 é unida e luta até o último apito.",
-    "avatar": "/avatars/blue-lock/beita-tsuru.png"
+    "avatar": "/avatars/blue-lock/beita-tsuru.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yu-bachira",
@@ -1578,7 +1845,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Staff",
     "quote": "Se ninguém te entender, Meguru, continue ouvindo o seu monstro e dance com a bola!",
-    "avatar": "/avatars/blue-lock/yu-bachira.png"
+    "avatar": "/avatars/blue-lock/yu-bachira.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "issei-isagi",
@@ -1595,7 +1865,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Staff",
     "quote": "Vá com tudo, Yoichi! Seu pai sempre vai torcer por você em qualquer lugar do mundo!",
-    "avatar": "/avatars/blue-lock/issei-isagi.png"
+    "avatar": "/avatars/blue-lock/issei-isagi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "iyo-isagi",
@@ -1612,7 +1885,10 @@
     "debutArc": "Primeira Seleção",
     "status": "Staff",
     "quote": "Coma bastante para ficar forte, Yoichi! Sua mãe está torcendo pelo seu sucesso!",
-    "avatar": "/avatars/blue-lock/iyo-isagi.png"
+    "avatar": "/avatars/blue-lock/iyo-isagi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tomoya-tada",
@@ -1629,6 +1905,9 @@
     "debutArc": "Primeira Seleção",
     "status": "Eliminado",
     "quote": "Desculpa ter perdido aquele gol, Isagi... Nós éramos \"um por todos e todos por um\"!",
-    "avatar": "/avatars/blue-lock/tomoya-tada.png"
+    "avatar": "/avatars/blue-lock/tomoya-tada.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

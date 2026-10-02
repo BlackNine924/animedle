@@ -19,7 +19,11 @@
       "Endurecimento Estrutural",
       "Iniciação do Estrondo"
     ],
-    "avatar": "/avatars/attack-on-titan/eren-jaeger.png"
+    "avatar": "/avatars/attack-on-titan/eren-jaeger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "mikasa-ackerman",
@@ -40,7 +44,11 @@
       "Maestria com Lâminas Duplas",
       "Disparo Preciso de Lança do Trovão"
     ],
-    "avatar": "/avatars/attack-on-titan/mikasa-ackerman.png"
+    "avatar": "/avatars/attack-on-titan/mikasa-ackerman.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "armin-arlert",
@@ -61,7 +69,11 @@
       "Emissão de Vapor Superaquecido",
       "Dedução Tática Brilhante"
     ],
-    "avatar": "/avatars/attack-on-titan/armin-arlert.png"
+    "avatar": "/avatars/attack-on-titan/armin-arlert.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "jean-kirstein",
@@ -82,7 +94,11 @@
       "Comando Tático de Esquadrão",
       "Bombardeio com Lança do Trovão"
     ],
-    "avatar": "/avatars/attack-on-titan/jean-kirstein.png"
+    "avatar": "/avatars/attack-on-titan/jean-kirstein.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "sasha-braus",
@@ -103,7 +119,11 @@
       "Audição e Rastreamento Selvagem",
       "Tiro de Lança do Trovão"
     ],
-    "avatar": "/avatars/attack-on-titan/sasha-braus.png"
+    "avatar": "/avatars/attack-on-titan/sasha-braus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "connie-springer",
@@ -124,7 +144,11 @@
       "Corte Preciso de Nuca",
       "Investida com Lança do Trovão"
     ],
-    "avatar": "/avatars/attack-on-titan/connie-springer.png"
+    "avatar": "/avatars/attack-on-titan/connie-springer.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "historia-reiss",
@@ -146,7 +170,11 @@
       "Autoridade Soberana de Paradis",
       "Memória Hereditária Real"
     ],
-    "avatar": "/avatars/attack-on-titan/historia-reiss.png"
+    "avatar": "/avatars/attack-on-titan/historia-reiss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ymir-104",
@@ -167,7 +195,11 @@
       "Escalada Rápida em Torres",
       "Combate Feroz em Florestas"
     ],
-    "avatar": "/avatars/attack-on-titan/ymir-104.png"
+    "avatar": "/avatars/attack-on-titan/ymir-104.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "marco-bott",
@@ -187,7 +219,11 @@
       "Comando de Pelotão de Recrutas",
       "Voo Coordenado de DMT"
     ],
-    "avatar": "/avatars/attack-on-titan/marco-bott.png"
+    "avatar": "/avatars/attack-on-titan/marco-bott.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "floch-forster",
@@ -209,7 +245,11 @@
       "Liderança de Fanáticos Jaegeristas",
       "Ataque Suicida com Lança do Trovão"
     ],
-    "avatar": "/avatars/attack-on-titan/floch-forster.png"
+    "avatar": "/avatars/attack-on-titan/floch-forster.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "thomas-wagner",
@@ -229,7 +269,11 @@
       "Ataque Frontal em Esquadrão",
       "Corte com Lâminas de Aço Ultra-Duro"
     ],
-    "avatar": "/avatars/attack-on-titan/thomas-wagner.png"
+    "avatar": "/avatars/attack-on-titan/thomas-wagner.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "mina-carolina",
@@ -249,7 +293,11 @@
       "Corte Rápido de Tendão",
       "Voo Urbano em Trost"
     ],
-    "avatar": "/avatars/attack-on-titan/mina-carolina.png"
+    "avatar": "/avatars/attack-on-titan/mina-carolina.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "nac-tias",
@@ -269,7 +317,11 @@
       "Ataque Coordenado com Lâminas",
       "Salto de Propulsão a Gás"
     ],
-    "avatar": "/avatars/attack-on-titan/nac-tias.png"
+    "avatar": "/avatars/attack-on-titan/nac-tias.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "mylius-zeramuski",
@@ -289,7 +341,11 @@
       "Disparo Duplo de Gancho",
       "Manobra de Evasão em Telhados"
     ],
-    "avatar": "/avatars/attack-on-titan/mylius-zeramuski.png"
+    "avatar": "/avatars/attack-on-titan/mylius-zeramuski.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "samuel-linke-jackson",
@@ -310,7 +366,11 @@
       "Tiro de Precisão com Pistola",
       "Guarda Defensiva de Porto"
     ],
-    "avatar": "/avatars/attack-on-titan/samuel-linke-jackson.png"
+    "avatar": "/avatars/attack-on-titan/samuel-linke-jackson.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "daz",
@@ -331,7 +391,11 @@
       "Gatilho de Ignição à Distância",
       "Defesa Armada do Porto"
     ],
-    "avatar": "/avatars/attack-on-titan/daz.png"
+    "avatar": "/avatars/attack-on-titan/daz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "louise",
@@ -352,7 +416,11 @@
       "Manobra Rápida com Lança do Trovão",
       "Disparo Antipessoal"
     ],
-    "avatar": "/avatars/attack-on-titan/louise.png"
+    "avatar": "/avatars/attack-on-titan/louise.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "surma",
@@ -373,7 +441,11 @@
       "Comando de Novos Cadetes",
       "Evacuação de Sobreviventes"
     ],
-    "avatar": "/avatars/attack-on-titan/surma.png"
+    "avatar": "/avatars/attack-on-titan/surma.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "levi-ackerman",
@@ -393,7 +465,11 @@
       "Retalhação Instantânea do Titã Bestial",
       "Salto e Esquiva Sobre-humana"
     ],
-    "avatar": "/avatars/attack-on-titan/levi-ackerman.png"
+    "avatar": "/avatars/attack-on-titan/levi-ackerman.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "erwin-smith",
@@ -413,7 +489,11 @@
       "Golpe de Estado Tático em Mitras",
       "Investida Suicida dos Devotados"
     ],
-    "avatar": "/avatars/attack-on-titan/erwin-smith.png"
+    "avatar": "/avatars/attack-on-titan/erwin-smith.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "hange-zoe",
@@ -433,7 +513,11 @@
       "Abate Múltiplo de Titãs Colossais no Ar",
       "Disparo Duplo de Lança do Trovão"
     ],
-    "avatar": "/avatars/attack-on-titan/hange-zoe.png"
+    "avatar": "/avatars/attack-on-titan/hange-zoe.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "mike-zacharias",
@@ -453,7 +537,11 @@
       "Corte Quádruplo Simultâneo",
       "Retalhação Solo contra Horda"
     ],
-    "avatar": "/avatars/attack-on-titan/mike-zacharias.png"
+    "avatar": "/avatars/attack-on-titan/mike-zacharias.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "moblit-berner",
@@ -473,7 +561,11 @@
       "Esboço Científico Rápido em Campo",
       "Disparo Defensivo de Gancho"
     ],
-    "avatar": "/avatars/attack-on-titan/moblit-berner.png"
+    "avatar": "/avatars/attack-on-titan/moblit-berner.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "nanaba",
@@ -493,7 +585,11 @@
       "Corte Cirúrgico de Tendões de Aquiles",
       "Voo Espiral com Lâminas Duplas"
     ],
-    "avatar": "/avatars/attack-on-titan/nanaba.png"
+    "avatar": "/avatars/attack-on-titan/nanaba.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gelgar",
@@ -513,7 +609,11 @@
       "Manobra de Defesa Circular",
       "Corte Descendente em Queda Livre"
     ],
-    "avatar": "/avatars/attack-on-titan/gelgar.png"
+    "avatar": "/avatars/attack-on-titan/gelgar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lynne",
@@ -533,7 +633,11 @@
       "Sinalização por Fumaça Colorida",
       "Ataque Rápido com DMT"
     ],
-    "avatar": "/avatars/attack-on-titan/lynne.png"
+    "avatar": "/avatars/attack-on-titan/lynne.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "henning",
@@ -553,7 +657,11 @@
       "Disparo Rápido de Sinalizador",
       "Voo Defensivo Tridimensional"
     ],
-    "avatar": "/avatars/attack-on-titan/henning.png"
+    "avatar": "/avatars/attack-on-titan/henning.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "klaus",
@@ -573,7 +681,11 @@
       "Combate Coordenado de Ruas",
       "Apoio a Batedores"
     ],
-    "avatar": "/avatars/attack-on-titan/klaus.png"
+    "avatar": "/avatars/attack-on-titan/klaus.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "petra-ral",
@@ -593,7 +705,11 @@
       "Coordenação Impecável de Ataque Triplo",
       "Acrobacia na Floresta de Árvores Gigantes"
     ],
-    "avatar": "/avatars/attack-on-titan/petra-ral.png"
+    "avatar": "/avatars/attack-on-titan/petra-ral.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "oluo-bozado",
@@ -613,7 +729,11 @@
       "Voo Rasante Agressivo",
       "Corte Profundo de Nuca"
     ],
-    "avatar": "/avatars/attack-on-titan/oluo-bozado.png"
+    "avatar": "/avatars/attack-on-titan/oluo-bozado.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eld-jinn",
@@ -633,7 +753,11 @@
       "Corte Sincronizado de Nuca",
       "Manobra de Pinça Aérea"
     ],
-    "avatar": "/avatars/attack-on-titan/eld-jinn.png"
+    "avatar": "/avatars/attack-on-titan/eld-jinn.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "gunther-schultz",
@@ -653,7 +777,11 @@
       "Ataque Rápido de Lâmina Dupla",
       "Alerta de Fumaça Verde"
     ],
-    "avatar": "/avatars/attack-on-titan/gunther-schultz.png"
+    "avatar": "/avatars/attack-on-titan/gunther-schultz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ilse-langnar",
@@ -673,7 +801,11 @@
       "Evasão Terrestre Sem Gás",
       "Escrita Rápida em Caderno de Campo"
     ],
-    "avatar": "/avatars/attack-on-titan/ilse-langnar.png"
+    "avatar": "/avatars/attack-on-titan/ilse-langnar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "keith-shadis",
@@ -694,7 +826,11 @@
       "Treinamento Psicológico Marcial",
       "Combate Tático com Lanças do Trovão"
     ],
-    "avatar": "/avatars/attack-on-titan/keith-shadis.png"
+    "avatar": "/avatars/attack-on-titan/keith-shadis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "nifa",
@@ -714,7 +850,11 @@
       "Voo Silencioso de Telhado",
       "Manobra de Escolta Urbana"
     ],
-    "avatar": "/avatars/attack-on-titan/nifa.png"
+    "avatar": "/avatars/attack-on-titan/nifa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "keiji",
@@ -734,7 +874,11 @@
       "Disparo Rápido de Pistola",
       "Combate Tridimensional Urbano"
     ],
-    "avatar": "/avatars/attack-on-titan/keiji.png"
+    "avatar": "/avatars/attack-on-titan/keiji.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "abel",
@@ -754,7 +898,11 @@
       "Perseguição de Carruagens",
       "Ataque com Lâminas de Aço"
     ],
-    "avatar": "/avatars/attack-on-titan/abel.png"
+    "avatar": "/avatars/attack-on-titan/abel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "dirk",
@@ -774,7 +922,11 @@
       "Formação de Cerco Tridimensional",
       "Combate Contra Titãs Menores"
     ],
-    "avatar": "/avatars/attack-on-titan/dirk.png"
+    "avatar": "/avatars/attack-on-titan/dirk.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "marlene",
@@ -794,7 +946,11 @@
       "Manobra de Cobertura com DMT",
       "Ataque Rápido a Nucas de Titãs"
     ],
-    "avatar": "/avatars/attack-on-titan/marlene.png"
+    "avatar": "/avatars/attack-on-titan/marlene.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "varis",
@@ -814,7 +970,11 @@
       "Vigilância Armada de Prisioneiro",
       "Ataque Titânico Descontrolado"
     ],
-    "avatar": "/avatars/attack-on-titan/varis.png"
+    "avatar": "/avatars/attack-on-titan/varis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "dot-pyxis",
@@ -834,7 +994,11 @@
       "Artilharia Pesada Coordenada",
       "Bebedor Resiliente de Álcool"
     ],
-    "avatar": "/avatars/attack-on-titan/dot-pyxis.png"
+    "avatar": "/avatars/attack-on-titan/dot-pyxis.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "hannes",
@@ -854,7 +1018,11 @@
       "Resgate Veloz a Cavalo",
       "Disparo Preciso de Gancho"
     ],
-    "avatar": "/avatars/attack-on-titan/hannes.png"
+    "avatar": "/avatars/attack-on-titan/hannes.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "ian-dietrich",
@@ -874,7 +1042,11 @@
       "Resgate Heroico da Boca de Titã",
       "Corte Decisivo de Tendões"
     ],
-    "avatar": "/avatars/attack-on-titan/ian-dietrich.png"
+    "avatar": "/avatars/attack-on-titan/ian-dietrich.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "rico-brzenska",
@@ -894,7 +1066,11 @@
       "Corte Preciso de Olhos de Titã",
       "Coordenação Defensiva da Muralha Rose"
     ],
-    "avatar": "/avatars/attack-on-titan/rico-brzenska.png"
+    "avatar": "/avatars/attack-on-titan/rico-brzenska.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "mitabi-jarnach",
@@ -914,7 +1090,11 @@
       "Corte com Espadas em Solo Aberto",
       "Sacrifício por Trost"
     ],
-    "avatar": "/avatars/attack-on-titan/mitabi-jarnach.png"
+    "avatar": "/avatars/attack-on-titan/mitabi-jarnach.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "kitz-weilman",
@@ -934,7 +1114,11 @@
       "Defesa da Linha de Frente da Muralha Rose",
       "Retirada Estratégica em Pânico"
     ],
-    "avatar": "/avatars/attack-on-titan/kitz-weilman.png"
+    "avatar": "/avatars/attack-on-titan/kitz-weilman.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "anka-rheinberger",
@@ -954,7 +1138,11 @@
       "Coordenação de Relatórios de Mensageiros",
       "Gestão de Tropas da Guarnição"
     ],
-    "avatar": "/avatars/attack-on-titan/anka-rheinberger.png"
+    "avatar": "/avatars/attack-on-titan/anka-rheinberger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gustav",
@@ -974,7 +1162,11 @@
       "Manobra de Escolta de Estado-Maior",
       "Análise de Abastecimento de Gás"
     ],
-    "avatar": "/avatars/attack-on-titan/gustav.png"
+    "avatar": "/avatars/attack-on-titan/gustav.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lobov",
@@ -995,7 +1187,11 @@
       "Voo com DMT Pesado",
       "Tiro de Fuzil Militar"
     ],
-    "avatar": "/avatars/attack-on-titan/lobov.png"
+    "avatar": "/avatars/attack-on-titan/lobov.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "darius-zackly",
@@ -1015,7 +1211,11 @@
       "Comando Supremo das Três Divisões",
       "Criação da Cadeira Mecânica de Tortura"
     ],
-    "avatar": "/avatars/attack-on-titan/darius-zackly.png"
+    "avatar": "/avatars/attack-on-titan/darius-zackly.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "nile-dok",
@@ -1035,7 +1235,11 @@
       "Investigação Forense Interna",
       "Defesa da Família com Espingarda"
     ],
-    "avatar": "/avatars/attack-on-titan/nile-dok.png"
+    "avatar": "/avatars/attack-on-titan/nile-dok.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "kenny-ackerman",
@@ -1055,7 +1259,11 @@
       "Lâminas Ocultas de Garganta",
       "Emboscada Urbana Fatal"
     ],
-    "avatar": "/avatars/attack-on-titan/kenny-ackerman.png"
+    "avatar": "/avatars/attack-on-titan/kenny-ackerman.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "traute-caven",
@@ -1075,7 +1283,11 @@
       "Manobra de Gancho Invertido",
       "Emboscada em Cavernas Subterrâneas"
     ],
-    "avatar": "/avatars/attack-on-titan/traute-caven.png"
+    "avatar": "/avatars/attack-on-titan/traute-caven.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "marlo-freudenberg",
@@ -1096,7 +1308,11 @@
       "Carga Heroica em Shiganshina",
       "Combate Urbano Contra Policiais Corruptos"
     ],
-    "avatar": "/avatars/attack-on-titan/marlo-freudenberg.png"
+    "avatar": "/avatars/attack-on-titan/marlo-freudenberg.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hitch-dreyse",
@@ -1116,7 +1332,11 @@
       "Escolta a Cavalo",
       "Tiroteio Policial Urbano"
     ],
-    "avatar": "/avatars/attack-on-titan/hitch-dreyse.png"
+    "avatar": "/avatars/attack-on-titan/hitch-dreyse.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "boris-feulner",
@@ -1136,7 +1356,11 @@
       "Tiro de Fuzil Padrão",
       "Controle de Multidões"
     ],
-    "avatar": "/avatars/attack-on-titan/boris-feulner.png"
+    "avatar": "/avatars/attack-on-titan/boris-feulner.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "roeg",
@@ -1156,7 +1380,11 @@
       "Comando Policial em Mitras",
       "Transformação em Titã Puro"
     ],
-    "avatar": "/avatars/attack-on-titan/roeg.png"
+    "avatar": "/avatars/attack-on-titan/roeg.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "djel-sannes",
@@ -1176,7 +1404,11 @@
       "Ocultação de Homicídios de Estado",
       "Lealdade Cega à Coroa"
     ],
-    "avatar": "/avatars/attack-on-titan/djel-sannes.png"
+    "avatar": "/avatars/attack-on-titan/djel-sannes.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "ralph",
@@ -1196,7 +1428,11 @@
       "Ocultação de Provas da Coroa",
       "Vigilância da Polícia Secreta"
     ],
-    "avatar": "/avatars/attack-on-titan/ralph.png"
+    "avatar": "/avatars/attack-on-titan/ralph.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "dennis-aiblinger",
@@ -1216,7 +1452,11 @@
       "Controle de Tráfego de Muralha",
       "Supervisão de Cadetes"
     ],
-    "avatar": "/avatars/attack-on-titan/dennis-aiblinger.png"
+    "avatar": "/avatars/attack-on-titan/dennis-aiblinger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "rod-reiss",
@@ -1236,7 +1476,11 @@
       "Arrasto Devastador de Solo",
       "Manipulação Genealógica Real"
     ],
-    "avatar": "/avatars/attack-on-titan/rod-reiss.png"
+    "avatar": "/avatars/attack-on-titan/rod-reiss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "frieda-reiss",
@@ -1256,7 +1500,11 @@
       "Juramento de Renúncia à Guerra",
       "Combate Feroz de Titã Fundador"
     ],
-    "avatar": "/avatars/attack-on-titan/frieda-reiss.png"
+    "avatar": "/avatars/attack-on-titan/frieda-reiss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "uri-reiss",
@@ -1276,7 +1524,11 @@
       "Captura Telecinética Titânica",
       "Transmissão Hereditária Pacifista"
     ],
-    "avatar": "/avatars/attack-on-titan/uri-reiss.png"
+    "avatar": "/avatars/attack-on-titan/uri-reiss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "rei-fritz-fantoche",
@@ -1296,7 +1548,11 @@
       "Postura de Monarca Silencioso",
       "Sobrevivência ao Golpe de Estado"
     ],
-    "avatar": "/avatars/attack-on-titan/rei-fritz-fantoche.png"
+    "avatar": "/avatars/attack-on-titan/rei-fritz-fantoche.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "alma",
@@ -1316,7 +1572,11 @@
       "Rejeição Afetiva Materna",
       "Convivência no Campo"
     ],
-    "avatar": "/avatars/attack-on-titan/alma.png"
+    "avatar": "/avatars/attack-on-titan/alma.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "dirk-reiss",
@@ -1336,7 +1596,11 @@
       "Herança Genética Real",
       "Fuga Desesperada em Pânico"
     ],
-    "avatar": "/avatars/attack-on-titan/dirk-reiss.png"
+    "avatar": "/avatars/attack-on-titan/dirk-reiss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "deltoff",
@@ -1356,7 +1620,11 @@
       "Suborno de Oficiais de Mitras",
       "Imunidade Mental à Coordenada"
     ],
-    "avatar": "/avatars/attack-on-titan/deltoff.png"
+    "avatar": "/avatars/attack-on-titan/deltoff.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "grisha-jaeger",
@@ -1377,7 +1645,11 @@
       "Injeção de Fluido Espinhal Titânico",
       "Cura da Peste Negra de Shiganshina"
     ],
-    "avatar": "/avatars/attack-on-titan/grisha-jaeger.png"
+    "avatar": "/avatars/attack-on-titan/grisha-jaeger.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "carla-jaeger",
@@ -1397,7 +1669,11 @@
       "Sacrifício Maternal Supremo",
       "Palavras de Amor Eterno"
     ],
-    "avatar": "/avatars/attack-on-titan/carla-jaeger.png"
+    "avatar": "/avatars/attack-on-titan/carla-jaeger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "pastor-nick",
@@ -1417,7 +1693,11 @@
       "Resistência Extrema a Tortura Mortal",
       "Proteção do Segredo de Historia"
     ],
-    "avatar": "/avatars/attack-on-titan/pastor-nick.png"
+    "avatar": "/avatars/attack-on-titan/pastor-nick.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "dimo-reeves",
@@ -1437,7 +1717,11 @@
       "Bloqueio de Portões Mercantis em Trost",
       "Acordo Secreto com Erwin"
     ],
-    "avatar": "/avatars/attack-on-titan/dimo-reeves.png"
+    "avatar": "/avatars/attack-on-titan/dimo-reeves.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "flegel-reeves",
@@ -1457,7 +1741,11 @@
       "Discurso Inspirador aos Cidadãos",
       "Gestão de Abastecimento Comercial"
     ],
-    "avatar": "/avatars/attack-on-titan/flegel-reeves.png"
+    "avatar": "/avatars/attack-on-titan/flegel-reeves.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "artur-braus",
@@ -1477,7 +1765,11 @@
       "Rastreamento em Florestas",
       "Perdão e Acolhimento a Inimigos"
     ],
-    "avatar": "/avatars/attack-on-titan/artur-braus.png"
+    "avatar": "/avatars/attack-on-titan/artur-braus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lisa-braus",
@@ -1497,7 +1789,11 @@
       "Acolhimento Maternal de Órfãos",
       "Trabalho Comunitário Agrícola"
     ],
-    "avatar": "/avatars/attack-on-titan/lisa-braus.png"
+    "avatar": "/avatars/attack-on-titan/lisa-braus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kaya",
@@ -1517,7 +1813,11 @@
       "Ataque com Faca em Defesa da Memória de Sasha",
       "Amizade e Reconciliação com Gabi"
     ],
-    "avatar": "/avatars/attack-on-titan/kaya.png"
+    "avatar": "/avatars/attack-on-titan/kaya.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kuchel-ackerman",
@@ -1537,7 +1837,11 @@
       "Proteção do Filho no Leito de Morte",
       "Linhagem Sanguínea Ackerman"
     ],
-    "avatar": "/avatars/attack-on-titan/kuchel-ackerman.png"
+    "avatar": "/avatars/attack-on-titan/kuchel-ackerman.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "reiner-braun",
@@ -1558,7 +1862,11 @@
       "Blindagem Corporal de Placas Ósseas",
       "Transferência Neural da Consciência"
     ],
-    "avatar": "/avatars/attack-on-titan/reiner-braun.png"
+    "avatar": "/avatars/attack-on-titan/reiner-braun.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "bertholdt-hoover",
@@ -1579,7 +1887,11 @@
       "Vapor Escaldante que Carboniza Ossos",
       "Detonação Atômica de Queda Livre"
     ],
-    "avatar": "/avatars/attack-on-titan/bertholdt-hoover.png"
+    "avatar": "/avatars/attack-on-titan/bertholdt-hoover.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "annie-leonhart",
@@ -1600,7 +1912,11 @@
       "Chute Giratório Decapitador de Muay Thai",
       "Grito de Chamado de Titãs Puros"
     ],
-    "avatar": "/avatars/attack-on-titan/annie-leonhart.png"
+    "avatar": "/avatars/attack-on-titan/annie-leonhart.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "zeke-jaeger",
@@ -1621,7 +1937,11 @@
       "Grito de Despertar Titânico via Fluido Espinhal",
       "Plano de Eutanásia de Eldia"
     ],
-    "avatar": "/avatars/attack-on-titan/zeke-jaeger.png"
+    "avatar": "/avatars/attack-on-titan/zeke-jaeger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "marcel-galliard",
@@ -1641,7 +1961,11 @@
       "Manto Protetor Heroico",
       "Agilidade em Terrenos Acidentados"
     ],
-    "avatar": "/avatars/attack-on-titan/marcel-galliard.png"
+    "avatar": "/avatars/attack-on-titan/marcel-galliard.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "porco-galliard",
@@ -1661,7 +1985,11 @@
       "Garras Cortantes de Rocha",
       "Investida Feroz de Trincheira"
     ],
-    "avatar": "/avatars/attack-on-titan/porco-galliard.png"
+    "avatar": "/avatars/attack-on-titan/porco-galliard.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "pieck-finger",
@@ -1681,7 +2009,11 @@
       "Canhão Panzer Quádruplo Teleguiado",
       "Múltiplas Transformações Rápidas Sucessivas"
     ],
-    "avatar": "/avatars/attack-on-titan/pieck-finger.png"
+    "avatar": "/avatars/attack-on-titan/pieck-finger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "lara-tybur",
@@ -1701,7 +2033,11 @@
       "Forja de Martelo Titânico e Besta",
       "Controle Remoto عبر Cabo de Cristal"
     ],
-    "avatar": "/avatars/attack-on-titan/lara-tybur.png"
+    "avatar": "/avatars/attack-on-titan/lara-tybur.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "falco-grice",
@@ -1721,7 +2057,11 @@
       "Bico Ósseo Esmagador",
       "Transporte Aéreo da Aliança na Batalha Final"
     ],
-    "avatar": "/avatars/attack-on-titan/falco-grice.png"
+    "avatar": "/avatars/attack-on-titan/falco-grice.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "gabi-braun",
@@ -1741,7 +2081,11 @@
       "Lançamento de Granadas em Trem Blindado",
       "Tiro de Precisão de Longo Alcance"
     ],
-    "avatar": "/avatars/attack-on-titan/gabi-braun.png"
+    "avatar": "/avatars/attack-on-titan/gabi-braun.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "colt-grice",
@@ -1761,7 +2105,11 @@
       "Tiroteio de Trincheira no Forte Slava",
       "Liderança Tática dos Candidatos"
     ],
-    "avatar": "/avatars/attack-on-titan/colt-grice.png"
+    "avatar": "/avatars/attack-on-titan/colt-grice.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "udo",
@@ -1781,7 +2129,11 @@
       "Tradução Poliglota Intercontinental",
       "Tratamento de Feridos em Trincheira"
     ],
-    "avatar": "/avatars/attack-on-titan/udo.png"
+    "avatar": "/avatars/attack-on-titan/udo.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "zofia",
@@ -1801,7 +2153,11 @@
       "Escavação Defensiva de Trincheira",
       "Tiroteio com Carabina"
     ],
-    "avatar": "/avatars/attack-on-titan/zofia.png"
+    "avatar": "/avatars/attack-on-titan/zofia.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "theo-magath",
@@ -1821,7 +2177,11 @@
       "Tiro Certeiro de Canhão na Nuca do Titã Fundador",
       "Comando Supremo das Forças Armadas de Marley"
     ],
-    "avatar": "/avatars/attack-on-titan/theo-magath.png"
+    "avatar": "/avatars/attack-on-titan/theo-magath.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "willy-tybur",
@@ -1841,7 +2201,11 @@
       "Revelação da Verdade sobre Karl Fritz e Helos",
       "Unificação Diplomática Global"
     ],
-    "avatar": "/avatars/attack-on-titan/willy-tybur.png"
+    "avatar": "/avatars/attack-on-titan/willy-tybur.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "general-calvi",
@@ -1861,7 +2225,11 @@
       "Supervisão da Campanha do Oriente Médio",
       "Comando de Oficiais Superiores"
     ],
-    "avatar": "/avatars/attack-on-titan/general-calvi.png"
+    "avatar": "/avatars/attack-on-titan/general-calvi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "sargento-gross",
@@ -1881,7 +2249,11 @@
       "Administração de Fluido Espinhal na Muralha da Fronteira",
       "Chute de Prisioneiros da Muralha"
     ],
-    "avatar": "/avatars/attack-on-titan/sargento-gross.png"
+    "avatar": "/avatars/attack-on-titan/sargento-gross.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "koslow",
@@ -1901,7 +2273,11 @@
       "Comando de Fuzileiros em Shiganshina",
       "Tiro de Carabina de Infantaria"
     ],
-    "avatar": "/avatars/attack-on-titan/koslow.png"
+    "avatar": "/avatars/attack-on-titan/koslow.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "sr-leonhart",
@@ -1921,7 +2297,11 @@
       "Levante Armado na Zona de Internamento",
       "Tiroteio no Pátio de Trem"
     ],
-    "avatar": "/avatars/attack-on-titan/sr-leonhart.png"
+    "avatar": "/avatars/attack-on-titan/sr-leonhart.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "karina-braun",
@@ -1941,7 +2321,11 @@
       "Costura de Braçadeiras de Honra",
       "Redenção Maternal na Fortaleza Salta"
     ],
-    "avatar": "/avatars/attack-on-titan/karina-braun.png"
+    "avatar": "/avatars/attack-on-titan/karina-braun.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sr-jaeger",
@@ -1961,7 +2345,11 @@
       "Trabalho Comunitário no Gueto",
       "Colapso Mental ao Rever Eren no Hospital"
     ],
-    "avatar": "/avatars/attack-on-titan/sr-jaeger.png"
+    "avatar": "/avatars/attack-on-titan/sr-jaeger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sra-jaeger",
@@ -1981,7 +2369,11 @@
       "Preparo de Jantares em Liberio",
       "Lamento pela Perda de Faye e Grisha"
     ],
-    "avatar": "/avatars/attack-on-titan/sra-jaeger.png"
+    "avatar": "/avatars/attack-on-titan/sra-jaeger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "secretario-muller",
@@ -2001,7 +2393,11 @@
       "Cessar-Fogo Histórico com Soldados Eldianos",
       "Defesa da Fortaleza de Fort Salta"
     ],
-    "avatar": "/avatars/attack-on-titan/secretario-muller.png"
+    "avatar": "/avatars/attack-on-titan/secretario-muller.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "yelena",
@@ -2022,7 +2418,11 @@
       "Execução com Frio Assassinato de Desertores",
       "Operação de Infiltração em Paradis"
     ],
-    "avatar": "/avatars/attack-on-titan/yelena.png"
+    "avatar": "/avatars/attack-on-titan/yelena.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "onyankopon",
@@ -2042,7 +2442,11 @@
       "Pouso de Emergência Heroico do Hidroavião",
       "Manutenção Mecânica Avançada"
     ],
-    "avatar": "/avatars/attack-on-titan/onyankopon.png"
+    "avatar": "/avatars/attack-on-titan/onyankopon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "niccolo",
@@ -2062,7 +2466,11 @@
       "Golpe com Garrafa Contaminada",
       "Defesa Apaixonada da Família Braus"
     ],
-    "avatar": "/avatars/attack-on-titan/niccolo.png"
+    "avatar": "/avatars/attack-on-titan/niccolo.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "griez",
@@ -2082,7 +2490,11 @@
       "Insulto à Memória de Sasha Braus",
       "Vigilância de Restaurante de Prisão"
     ],
-    "avatar": "/avatars/attack-on-titan/griez.png"
+    "avatar": "/avatars/attack-on-titan/griez.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kiyomi-azumabito",
@@ -2102,7 +2514,11 @@
       "Golpe com Chave de Braço Marcial em Soldado",
       "Gestão da Frota de Navios de Hizuru"
     ],
-    "avatar": "/avatars/attack-on-titan/kiyomi-azumabito.png"
+    "avatar": "/avatars/attack-on-titan/kiyomi-azumabito.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ymir-fritz",
@@ -2122,7 +2538,11 @@
       "Manifestação Cósmica da Árvore dos Caminhos",
       "Liberação de Todo o Poder dos Titãs"
     ],
-    "avatar": "/avatars/attack-on-titan/ymir-fritz.png"
+    "avatar": "/avatars/attack-on-titan/ymir-fritz.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Divindade / Ser Celestial"
   },
   {
     "id": "karl-fritz",
@@ -2143,7 +2563,11 @@
       "Pacto de Renúncia de Guerra Inquebrável",
       "Apagamento da Memória da Humanidade"
     ],
-    "avatar": "/avatars/attack-on-titan/karl-fritz.png"
+    "avatar": "/avatars/attack-on-titan/karl-fritz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eren-kruger",
@@ -2163,7 +2587,11 @@
       "Infiltração de Alta Patente em Marley",
       "Visão de Memórias do Futuro"
     ],
-    "avatar": "/avatars/attack-on-titan/eren-kruger.png"
+    "avatar": "/avatars/attack-on-titan/eren-kruger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "dina-fritz",
@@ -2183,7 +2611,11 @@
       "Ativação Involuntária da Coordenada por Toque Físico",
       "Sorriso Perturbador Eterno"
     ],
-    "avatar": "/avatars/attack-on-titan/dina-fritz.png"
+    "avatar": "/avatars/attack-on-titan/dina-fritz.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "faye-jaeger",
@@ -2203,7 +2635,11 @@
       "Curiosidade Infantil pelos Céus",
       "Memória que Inspirou a Vingança de Grisha"
     ],
-    "avatar": "/avatars/attack-on-titan/faye-jaeger.png"
+    "avatar": "/avatars/attack-on-titan/faye-jaeger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tom-ksaver",
@@ -2223,7 +2659,11 @@
       "Arremesso de Bola de Beisebol",
       "Mentoria Paterna e Amorosa de Zeke"
     ],
-    "avatar": "/avatars/attack-on-titan/tom-ksaver.png"
+    "avatar": "/avatars/attack-on-titan/tom-ksaver.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "grice",
@@ -2243,7 +2683,11 @@
       "Disseminação de Textos Proibidos",
       "Fuga Desesperada dos Titãs na Ilha"
     ],
-    "avatar": "/avatars/attack-on-titan/grice.png"
+    "avatar": "/avatars/attack-on-titan/grice.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ramzi",
@@ -2263,7 +2707,11 @@
       "Esconderijo Secreto sob Rochas",
       "Festa Noturna com a Tropa de Exploração"
     ],
-    "avatar": "/avatars/attack-on-titan/ramzi.png"
+    "avatar": "/avatars/attack-on-titan/ramzi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "halil",
@@ -2283,7 +2731,11 @@
       "Carregamento do Saco de Moedas de Ouro",
       "Corrida Desesperada pelas Montanhas"
     ],
-    "avatar": "/avatars/attack-on-titan/halil.png"
+    "avatar": "/avatars/attack-on-titan/halil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "maria-fritz",
@@ -2303,7 +2755,11 @@
       "Herança Imperial Tribal",
       "Fundação da Linhagem das Três Muralhas"
     ],
-    "avatar": "/avatars/attack-on-titan/maria-fritz.png"
+    "avatar": "/avatars/attack-on-titan/maria-fritz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "rose-fritz",
@@ -2323,7 +2779,11 @@
       "Soberania do Antigo Império",
       "Consumo Ritualístico Hereditário"
     ],
-    "avatar": "/avatars/attack-on-titan/rose-fritz.png"
+    "avatar": "/avatars/attack-on-titan/rose-fritz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   },
   {
     "id": "sina-fritz",
@@ -2343,6 +2803,10 @@
       "Expansão Militar Continental de Eldia",
       "Eternização do Nome da Muralha Mais Interior"
     ],
-    "avatar": "/avatars/attack-on-titan/sina-fritz.png"
+    "avatar": "/avatars/attack-on-titan/sina-fritz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Portador de Titã / Humano"
   }
 ]

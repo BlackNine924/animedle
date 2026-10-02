@@ -14,7 +14,10 @@
     "status": "Vivo",
     "quote": "Surgiu do caos e da impotência. Sou Sung Jinwoo, o Caçador mais fraco.",
     "avatar": "/avatars/solo-leveling/sung-jinwoo.png",
-    "styleOrPower": "Extração de Sombras & Velocidade"
+    "styleOrPower": "Extração de Sombras & Velocidade",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cha-hae-in",
@@ -29,7 +32,10 @@
     "debutArc": "O Portal da Guilda dos Caçadores",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/cha-hae-in.png",
-    "styleOrPower": "Esgrima de Luz"
+    "styleOrPower": "Esgrima de Luz",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "go-gunhee",
@@ -44,7 +50,10 @@
     "debutArc": "Dungeons e Prisioneiros",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/go-gunhee.png",
-    "styleOrPower": "Punho Celestial"
+    "styleOrPower": "Punho Celestial",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "thomas-andre",
@@ -59,7 +68,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/thomas-andre.png",
-    "styleOrPower": "Telecinese (Reinforcement)"
+    "styleOrPower": "Telecinese (Reinforcement)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "liu-zhigang",
@@ -74,7 +86,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/liu-zhigang.png",
-    "styleOrPower": "Esgrima de Espada Dupla"
+    "styleOrPower": "Esgrima de Espada Dupla",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lennart-niermann",
@@ -89,7 +104,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/lennart-niermann.png",
-    "styleOrPower": "Magia Elemental"
+    "styleOrPower": "Magia Elemental",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "christopher-reed",
@@ -104,7 +122,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/christopher-reed.png",
-    "styleOrPower": "Transformação de Fogo"
+    "styleOrPower": "Transformação de Fogo",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hwang-dongsoo",
@@ -119,7 +140,10 @@
     "debutArc": "Dungeons e Lagartos",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/hwang-dongsoo.png",
-    "styleOrPower": "Força Bruta"
+    "styleOrPower": "Força Bruta",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoo-jinho",
@@ -134,7 +158,10 @@
     "debutArc": "Dungeons e Lagartos",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/yoo-jinho.png",
-    "styleOrPower": "Defesa com Escudo"
+    "styleOrPower": "Defesa com Escudo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lee-joohee",
@@ -149,7 +176,10 @@
     "debutArc": "O Arco da Dungeon Dupla",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/lee-joohee.png",
-    "styleOrPower": "Magia de Cura"
+    "styleOrPower": "Magia de Cura",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "choi-jong-in",
@@ -164,7 +194,10 @@
     "debutArc": "Dungeons e Prisioneiros",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/choi-jong-in.png",
-    "styleOrPower": "Magia de Fogo de Grande Escala"
+    "styleOrPower": "Magia de Fogo de Grande Escala",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "baek-yoonho",
@@ -179,7 +212,10 @@
     "debutArc": "O arco do Portal Vermelho",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/baek-yoonho.png",
-    "styleOrPower": "Transformação Bestial"
+    "styleOrPower": "Transformação Bestial",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lim-tae-gyu",
@@ -194,7 +230,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/lim-tae-gyu.png",
-    "styleOrPower": "Tiro com Arco Mágico"
+    "styleOrPower": "Tiro com Arco Mágico",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "antares",
@@ -209,7 +248,10 @@
     "debutArc": "O arco da Guerra dos Monarcas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/antares.png",
-    "styleOrPower": "Sopro da Destruição & Metamorfose"
+    "styleOrPower": "Sopro da Destruição & Metamorfose",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "legia",
@@ -224,7 +266,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/legia.png",
-    "styleOrPower": "Gigantismo & Manipulação de Mana"
+    "styleOrPower": "Gigantismo & Manipulação de Mana",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "querehsha",
@@ -239,7 +284,10 @@
     "debutArc": "O arco da Guerra dos Monarcas",
     "status": "Morta",
     "avatar": "/avatars/solo-leveling/querehsha.png",
-    "styleOrPower": "Veneno & Invocação de Insetos"
+    "styleOrPower": "Veneno & Invocação de Insetos",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "baran",
@@ -254,7 +302,10 @@
     "debutArc": "Retorno ao Castelo Demoníaco",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/baran.png",
-    "styleOrPower": "Relâmpago Negro & Esgrima"
+    "styleOrPower": "Relâmpago Negro & Esgrima",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ashborn",
@@ -270,7 +321,10 @@
     "debutArc": "De volta à dungeon dupla",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/ashborn.png",
-    "styleOrPower": "Autoridade das Sombras & Domínio"
+    "styleOrPower": "Autoridade das Sombras & Domínio",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "beru",
@@ -285,7 +339,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/beru.png",
-    "styleOrPower": "Absorção de Habilidades & Garras Venenosas"
+    "styleOrPower": "Absorção de Habilidades & Garras Venenosas",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "igris",
@@ -300,7 +357,10 @@
     "debutArc": "Mudança de Job",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/igris.png",
-    "styleOrPower": "Esgrima de Espada Grande & Telecinese"
+    "styleOrPower": "Esgrima de Espada Grande & Telecinese",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaisel",
@@ -315,7 +375,10 @@
     "debutArc": "Retorno ao Castelo Demoníaco",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/kaisel.png",
-    "styleOrPower": "Voo & Sopro Sombrio"
+    "styleOrPower": "Voo & Sopro Sombrio",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sung-ilhwan",
@@ -330,7 +393,10 @@
     "debutArc": "O Arco da Dungeon Dupla",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/sung-ilhwan.png",
-    "styleOrPower": "Telecinese & Combate Corpo a Corpo"
+    "styleOrPower": "Telecinese & Combate Corpo a Corpo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "park-kyung-hye",
@@ -345,7 +411,10 @@
     "debutArc": "O Arco da Dungeon Dupla",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/park-kyung-hye.png",
-    "styleOrPower": "Nenhuma"
+    "styleOrPower": "Nenhuma",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sung-jinah",
@@ -360,7 +429,10 @@
     "debutArc": "O Arco da Dungeon Dupla",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/sung-jinah.png",
-    "styleOrPower": "Nenhuma"
+    "styleOrPower": "Nenhuma",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "woo-jinchul",
@@ -375,7 +447,10 @@
     "debutArc": "Dungeons e Prisioneiros",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/woo-jinchul.png",
-    "styleOrPower": "Combate Corpo a Corpo"
+    "styleOrPower": "Combate Corpo a Corpo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ahn-sangmin",
@@ -390,7 +465,10 @@
     "debutArc": "O arco do Portal Vermelho",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/ahn-sangmin.png",
-    "styleOrPower": "Gestão de Guilda"
+    "styleOrPower": "Gestão de Guilda",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kim-sangshik",
@@ -405,7 +483,10 @@
     "debutArc": "O Arco da Dungeon Dupla",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kim-sangshik.png",
-    "styleOrPower": "Esgrima Básica"
+    "styleOrPower": "Esgrima Básica",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "park-beomshik",
@@ -420,7 +501,10 @@
     "debutArc": "O Arco da Dungeon Dupla",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/park-beomshik.png",
-    "styleOrPower": "Combate Físico"
+    "styleOrPower": "Combate Físico",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "min-byunggu",
@@ -435,7 +519,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/min-byunggu.png",
-    "styleOrPower": "Cura & Camuflagem"
+    "styleOrPower": "Cura & Camuflagem",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "song-chiyul",
@@ -450,7 +537,10 @@
     "debutArc": "O Arco da Dungeon Dupla",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/song-chiyul.png",
-    "styleOrPower": "Kumdo & Magia de Fogo"
+    "styleOrPower": "Kumdo & Magia de Fogo",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ma-dongwook",
@@ -465,7 +555,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/ma-dongwook.png",
-    "styleOrPower": "Gigantismo & Defesa"
+    "styleOrPower": "Gigantismo & Defesa",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "han-seomi",
@@ -480,7 +573,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/han-seomi.png",
-    "styleOrPower": "Aumento de Atributos (Buff)"
+    "styleOrPower": "Aumento de Atributos (Buff)",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "park-heejin",
@@ -495,7 +591,10 @@
     "debutArc": "O arco do Portal Vermelho",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/park-heejin.png",
-    "styleOrPower": "Magia de Detecção"
+    "styleOrPower": "Magia de Detecção",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kim-chul",
@@ -510,7 +609,10 @@
     "debutArc": "O arco do Portal Vermelho",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kim-chul.png",
-    "styleOrPower": "Provocação & Escudo"
+    "styleOrPower": "Provocação & Escudo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kang-taeshik",
@@ -525,7 +627,10 @@
     "debutArc": "Dungeons e Prisioneiros",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kang-taeshik.png",
-    "styleOrPower": "Ocultamento & Adaga"
+    "styleOrPower": "Ocultamento & Adaga",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hwang-dongseok",
@@ -540,7 +645,10 @@
     "debutArc": "Dungeons e Lagartos",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/hwang-dongseok.png",
-    "styleOrPower": "Liderança & Machado"
+    "styleOrPower": "Liderança & Machado",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lee-minsung",
@@ -555,7 +663,10 @@
     "debutArc": "O Arco de Recrutamento",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/lee-minsung.png",
-    "styleOrPower": "Combate Físico"
+    "styleOrPower": "Combate Físico",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "goto-ryuji",
@@ -570,7 +681,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/goto-ryuji.png",
-    "styleOrPower": "Esgrima Battojutsu"
+    "styleOrPower": "Esgrima Battojutsu",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kanae-tawata",
@@ -585,7 +699,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/kanae-tawata.png",
-    "styleOrPower": "Esgrima Dupla"
+    "styleOrPower": "Esgrima Dupla",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kumamoto",
@@ -600,7 +717,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/kumamoto.png",
-    "styleOrPower": "Fúria Bestial"
+    "styleOrPower": "Fúria Bestial",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kenzo-tanaka",
@@ -615,7 +735,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/kenzo-tanaka.png",
-    "styleOrPower": "Administração Política"
+    "styleOrPower": "Administração Política",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kei",
@@ -630,7 +753,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kei.png",
-    "styleOrPower": "Percepção Sensorial Aumentada"
+    "styleOrPower": "Percepção Sensorial Aumentada",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "minoru-hoshino",
@@ -645,7 +771,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/minoru-hoshino.png",
-    "styleOrPower": "Defesa com Escudo"
+    "styleOrPower": "Defesa com Escudo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reiji-sugimoto",
@@ -660,7 +789,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/reiji-sugimoto.png",
-    "styleOrPower": "Esgrima Samurai"
+    "styleOrPower": "Esgrima Samurai",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tatsumi-fujishima",
@@ -675,7 +807,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/tatsumi-fujishima.png",
-    "styleOrPower": "Esgrima Kendo"
+    "styleOrPower": "Esgrima Kendo",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "siddharth-bachchan",
@@ -690,7 +825,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/siddharth-bachchan.png",
-    "styleOrPower": "Autoridade do Governante & Força Bruta"
+    "styleOrPower": "Autoridade do Governante & Força Bruta",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "norma-selner",
@@ -705,7 +843,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/norma-selner.png",
-    "styleOrPower": "Desbloqueio de Potencial"
+    "styleOrPower": "Desbloqueio de Potencial",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "david-brennon",
@@ -720,7 +861,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/david-brennon.png",
-    "styleOrPower": "Diplomacia"
+    "styleOrPower": "Diplomacia",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "laura",
@@ -735,7 +879,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/laura.png",
-    "styleOrPower": "Gestão de Operações"
+    "styleOrPower": "Gestão de Operações",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sillad",
@@ -750,7 +897,10 @@
     "debutArc": "O arco da Guerra dos Monarcas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/sillad.png",
-    "styleOrPower": "Magia de Gelo Espiritual"
+    "styleOrPower": "Magia de Gelo Espiritual",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rakan",
@@ -765,7 +915,10 @@
     "debutArc": "O arco da Guerra dos Monarcas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/rakan.png",
-    "styleOrPower": "Garras Bestiais & Caça"
+    "styleOrPower": "Garras Bestiais & Caça",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tarnak",
@@ -780,7 +933,10 @@
     "debutArc": "O arco da Guerra dos Monarcas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/tarnak.png",
-    "styleOrPower": "Armadura Inquebrável"
+    "styleOrPower": "Armadura Inquebrável",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yogumunt",
@@ -795,7 +951,10 @@
     "debutArc": "O arco da Guerra dos Monarcas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/yogumunt.png",
-    "styleOrPower": "Magia de Transfiguração"
+    "styleOrPower": "Magia de Transfiguração",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "iron",
@@ -810,7 +969,10 @@
     "debutArc": "O arco do Portal Vermelho",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/iron.png",
-    "styleOrPower": "Provocação & Força Bruta"
+    "styleOrPower": "Provocação & Força Bruta",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tusk",
@@ -825,7 +987,10 @@
     "debutArc": "O Portal da Guilda dos Caçadores",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/tusk.png",
-    "styleOrPower": "Magia de Fogo & Gravidade"
+    "styleOrPower": "Magia de Fogo & Gravidade",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tank",
@@ -840,7 +1005,10 @@
     "debutArc": "O arco do Portal Vermelho",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/tank.png",
-    "styleOrPower": "Investida & Fúria"
+    "styleOrPower": "Investida & Fúria",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "greed",
@@ -855,7 +1023,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/greed.png",
-    "styleOrPower": "Combate Corporal Sombrio"
+    "styleOrPower": "Combate Corporal Sombrio",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jima",
@@ -870,7 +1041,10 @@
     "debutArc": "O Arco de Recrutamento",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/jima.png",
-    "styleOrPower": "Tridente de Água"
+    "styleOrPower": "Tridente de Água",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "o-arquiteto",
@@ -885,7 +1059,10 @@
     "debutArc": "De volta à dungeon dupla",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/o-arquiteto.png",
-    "styleOrPower": "Criação de Dungeons & Autômatos"
+    "styleOrPower": "Criação de Dungeons & Autômatos",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kargalgan",
@@ -900,7 +1077,10 @@
     "debutArc": "O Portal da Guilda dos Caçadores",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kargalgan.png",
-    "styleOrPower": "Magia de Proteção & Maldições"
+    "styleOrPower": "Magia de Proteção & Maldições",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kasaka",
@@ -915,7 +1095,10 @@
     "debutArc": "Dungeon Instanciada",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kasaka.png",
-    "styleOrPower": "Presas Venenosas & Escamas"
+    "styleOrPower": "Presas Venenosas & Escamas",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vulcan",
@@ -930,7 +1113,10 @@
     "debutArc": "O Arco do Castelo Demoníaco",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/vulcan.png",
-    "styleOrPower": "Clava Flamejante & Fúria"
+    "styleOrPower": "Clava Flamejante & Fúria",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jonas",
@@ -945,7 +1131,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/jonas.png",
-    "styleOrPower": "Combate Corporal Elevado"
+    "styleOrPower": "Combate Corporal Elevado",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoo-soohyun",
@@ -960,7 +1149,10 @@
     "debutArc": "Arco da Guilda Ahjin",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/yoo-soohyun.png",
-    "styleOrPower": "Tiro de Precisão"
+    "styleOrPower": "Tiro de Precisão",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "han-song-i",
@@ -975,7 +1167,10 @@
     "debutArc": "O arco do Portal Vermelho",
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/han-song-i.png",
-    "styleOrPower": "Furtividade"
+    "styleOrPower": "Furtividade",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "akari-shimizu",
@@ -990,7 +1185,10 @@
     "debutArc": "O arco da Ilha de Jeju",
     "status": "Morta",
     "avatar": "/avatars/solo-leveling/akari-shimizu.png",
-    "styleOrPower": "Cura Divina"
+    "styleOrPower": "Cura Divina",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "son-ki-hoon",
@@ -1005,7 +1203,10 @@
     "debutArc": "O Portal da Guilda dos Caçadores",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/son-ki-hoon.png",
-    "styleOrPower": "Barreira de Escudo"
+    "styleOrPower": "Barreira de Escudo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bellion",
@@ -1020,7 +1221,10 @@
     "debutArc": "O arco da batalha final",
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/bellion.png",
-    "styleOrPower": "Chicote-Espada Centopeia & Voo"
+    "styleOrPower": "Chicote-Espada Centopeia & Voo",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "kamish",
@@ -1035,7 +1239,10 @@
     "debutArc": "A Conferência Internacional de Guildas",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kamish.png",
-    "styleOrPower": "Sopro de Fogo Dragônico"
+    "styleOrPower": "Sopro de Fogo Dragônico",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jo-kyuhwan",
@@ -1050,7 +1257,10 @@
     "debutArc": "Dungeons e Lagartos",
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/jo-kyuhwan.png",
-    "styleOrPower": "Explosão Mágica"
+    "styleOrPower": "Explosão Mágica",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gina",
@@ -1066,7 +1276,10 @@
     "status": "Viva",
     "quote": "Caçadora de Rank A da divisão de magos da Guilda Hunters.",
     "avatar": "/avatars/solo-leveling/gina.png",
-    "styleOrPower": "Telecinese"
+    "styleOrPower": "Telecinese",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ippei-izawa",
@@ -1082,7 +1295,10 @@
     "status": "Morto",
     "quote": "Caçador Rank S japonês da Guilda Draw Sword.",
     "avatar": "/avatars/solo-leveling/ippei-izawa.png",
-    "styleOrPower": "Combate Corporal"
+    "styleOrPower": "Combate Corporal",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mari-ishida",
@@ -1098,7 +1314,10 @@
     "status": "Morta",
     "quote": "Caçadora Rank S da Guilda Draw Sword e usuária de lâminas duplas.",
     "avatar": "/avatars/solo-leveling/mari-ishida.png",
-    "styleOrPower": "Combate com Lâminas"
+    "styleOrPower": "Combate com Lâminas",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "groctar",
@@ -1114,6 +1333,9 @@
     "status": "Morto",
     "quote": "Lorde dos Altos Orcs que invadiu o mundo humano.",
     "avatar": "/avatars/solo-leveling/groctar.png",
-    "styleOrPower": "Força Bruta & Fúria dos Orcs"
+    "styleOrPower": "Força Bruta & Fúria dos Orcs",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

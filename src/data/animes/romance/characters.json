@@ -14,7 +14,11 @@
       "Arquearia Tradicional Kyudo",
       "Persona Gelo Kaguya"
     ],
-    "avatar": "/avatars/romance/kaguya-shinomiya.png"
+    "avatar": "/avatars/romance/kaguya-shinomiya.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "miyuki-shirogane",
@@ -31,7 +35,11 @@
       "Olhar Intimidatório de Falta de Sono",
       "Treinamento Secreto com Fujiwara"
     ],
-    "avatar": "/avatars/romance/miyuki-shirogane.png"
+    "avatar": "/avatars/romance/miyuki-shirogane.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "chika-fujiwara",
@@ -48,7 +56,11 @@
       "Trapaças Criativas em Jogos",
       "Jornal Dobrado Corretivo"
     ],
-    "avatar": "/avatars/romance/chika-fujiwara.png"
+    "avatar": "/avatars/romance/chika-fujiwara.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Cupido / Secretária Caótica",
+    "species": "Humano"
   },
   {
     "id": "yuu-ishigami",
@@ -65,7 +77,11 @@
       "Gamer Hardcore",
       "Percepção Social Afiada"
     ],
-    "avatar": "/avatars/romance/yuu-ishigami.png"
+    "avatar": "/avatars/romance/yuu-ishigami.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Tesoureiro / Melhor Amigo",
+    "species": "Humano"
   },
   {
     "id": "miko-iino",
@@ -81,7 +97,11 @@
       "Inspeção de Moral Escolar",
       "Audição de Áudios de Relaxamento Estranhos"
     ],
-    "avatar": "/avatars/romance/miko-iino.png"
+    "avatar": "/avatars/romance/miko-iino.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína / Comitê de Moral",
+    "species": "Humano"
   },
   {
     "id": "ai-hayasaka",
@@ -97,7 +117,11 @@
       "Múltiplas Identidades (Gyaru, Valet, Maid)",
       "Hacking e Espionagem Doméstica"
     ],
-    "avatar": "/avatars/romance/ai-hayasaka.png"
+    "avatar": "/avatars/romance/ai-hayasaka.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Serva Fiel / Falsa Gyaru",
+    "species": "Humano"
   },
   {
     "id": "izumi-miyamura",
@@ -113,7 +137,11 @@
       "Transformação Estilo Piercing/Tatuagem",
       "Cozinha e Confeitaria Familiar"
     ],
-    "avatar": "/avatars/romance/izumi-miyamura.png"
+    "avatar": "/avatars/romance/izumi-miyamura.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "kyouko-hori",
@@ -129,7 +157,11 @@
       "Administração Doméstica e Cuidados com Souta",
       "Notas Perfeitas de Liderança Escolar"
     ],
-    "avatar": "/avatars/romance/kyouko-hori.png"
+    "avatar": "/avatars/romance/kyouko-hori.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "toru-ishikawa",
@@ -145,7 +177,11 @@
       "Apoio Emocional aos Amigos",
       "Sonhos Surreais com Bichos de Pelúcia"
     ],
-    "avatar": "/avatars/romance/toru-ishikawa.png"
+    "avatar": "/avatars/romance/toru-ishikawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Melhor Amigo / Cupido",
+    "species": "Humano"
   },
   {
     "id": "yuki-yoshikawa",
@@ -161,7 +197,11 @@
       "Mangás Shoujo",
       "Casacos com Mangas Longas Fofas"
     ],
-    "avatar": "/avatars/romance/yuki-yoshikawa.png"
+    "avatar": "/avatars/romance/yuki-yoshikawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Melhor Amiga / Cupido",
+    "species": "Humano"
   },
   {
     "id": "taiga-aisaka",
@@ -177,7 +217,11 @@
       "Chutes Voadores de Taiga",
       "Tigresa em Fúria"
     ],
-    "avatar": "/avatars/romance/taiga-aisaka.png"
+    "avatar": "/avatars/romance/taiga-aisaka.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "ryuuji-takasu",
@@ -193,7 +237,11 @@
       "Culinária de Restaurante de Alto Padrão",
       "Olhar Aterrorizante Herdado do Pai"
     ],
-    "avatar": "/avatars/romance/ryuuji-takasu.png"
+    "avatar": "/avatars/romance/ryuuji-takasu.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "minori-kushieda",
@@ -209,7 +257,11 @@
       "Capitã do Clube de Softball",
       "Trabalhar em Três Empregos de Meio-Período ao Mesmo Tempo"
     ],
-    "avatar": "/avatars/romance/minori-kushieda.png"
+    "avatar": "/avatars/romance/minori-kushieda.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína / Melhor Amiga",
+    "species": "Humano"
   },
   {
     "id": "ami-kawashima",
@@ -225,7 +277,11 @@
       "Dupla Personalidade de Modelo Fofa / Princesa Sádica",
       "Percepção Psicológica Adulta"
     ],
-    "avatar": "/avatars/romance/ami-kawashima.png"
+    "avatar": "/avatars/romance/ami-kawashima.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Rival / Modelo Falsa",
+    "species": "Humano"
   },
   {
     "id": "marin-kitagawa",
@@ -241,7 +297,11 @@
       "Cosplays Deslumbrantes (Shizuku-tan, Black Lobelia)",
       "Expressões de Paixão Incontrolável por Gojo"
     ],
-    "avatar": "/avatars/romance/marin-kitagawa.png"
+    "avatar": "/avatars/romance/marin-kitagawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "wakana-gojo",
@@ -258,7 +318,11 @@
       "Costura Profissional e Modelagem de Cosplays",
       "Maquiagem Artística Facial"
     ],
-    "avatar": "/avatars/romance/wakana-gojo.png"
+    "avatar": "/avatars/romance/wakana-gojo.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "sajuna-inui",
@@ -274,7 +338,11 @@
       "Direção Fotográfica Profissional de Cosplay",
       "Composição de Cenários de Terror e Fantasia"
     ],
-    "avatar": "/avatars/romance/sajuna-inui.png"
+    "avatar": "/avatars/romance/sajuna-inui.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Cosplayer Veterana",
+    "species": "Humano"
   },
   {
     "id": "futaro-uesugi",
@@ -290,7 +358,11 @@
       "Plano de Estudos Customizado Quíntuplo",
       "Resistência Econômica Extrema"
     ],
-    "avatar": "/avatars/romance/futaro-uesugi.png"
+    "avatar": "/avatars/romance/futaro-uesugi.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "miku-nakano",
@@ -306,7 +378,11 @@
       "Conhecimento Enciclopédico dos Generais Sengoku",
       "Aprimoramento Contínuo em Confeitaria e Pães"
     ],
-    "avatar": "/avatars/romance/miku-nakano.png"
+    "avatar": "/avatars/romance/miku-nakano.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Terceira Irmã Quíntupla",
+    "species": "Humano"
   },
   {
     "id": "nino-nakano",
@@ -322,7 +398,11 @@
       "Confissão Direta na Garupa da Moto",
       "Cozinha Gourmet de Alta Qualidade"
     ],
-    "avatar": "/avatars/romance/nino-nakano.png"
+    "avatar": "/avatars/romance/nino-nakano.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Segunda Irmã Quíntupla",
+    "species": "Humano"
   },
   {
     "id": "yotsuba-nakano",
@@ -338,7 +418,11 @@
       "Faixa de Cabelo de Orelhas de Coelho",
       "Atletismo de Alta Performance e Suporte a Clubes"
     ],
-    "avatar": "/avatars/romance/yotsuba-nakano.png"
+    "avatar": "/avatars/romance/yotsuba-nakano.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Quarta Irmã Quíntupla (A Noiva)",
+    "species": "Humano"
   },
   {
     "id": "ichika-nakano",
@@ -354,7 +438,11 @@
       "Atuação Profissional de Cinema",
       "Charme Sedutor de Irmã Mais Velha"
     ],
-    "avatar": "/avatars/romance/ichika-nakano.png"
+    "avatar": "/avatars/romance/ichika-nakano.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Primeira Irmã Quíntupla",
+    "species": "Humano"
   },
   {
     "id": "itsuki-nakano",
@@ -370,7 +458,11 @@
       "Devoração Rápida de Doces e Almoço",
       "Preparo para a Carreira de Professora"
     ],
-    "avatar": "/avatars/romance/itsuki-nakano.png"
+    "avatar": "/avatars/romance/itsuki-nakano.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Quinta Irmã Quíntupla",
+    "species": "Humano"
   },
   {
     "id": "chizuru-mizuhara",
@@ -387,7 +479,11 @@
       "Carreira de Atriz de Teatro",
       "Vida Disfarçada com Óculos e Tranças"
     ],
-    "avatar": "/avatars/romance/chizuru-mizuhara.png"
+    "avatar": "/avatars/romance/chizuru-mizuhara.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Heroína Principal / Namorada de Aluguel",
+    "species": "Humano"
   },
   {
     "id": "kazuya-kinoshita",
@@ -403,7 +499,11 @@
       "Financiamento Coletivo de Longa-Metragem",
       "Capacidade Infinita de Pagar Aluguel por Encontro"
     ],
-    "avatar": "/avatars/romance/kazuya-kinoshita.png"
+    "avatar": "/avatars/romance/kazuya-kinoshita.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "ruka-sarashina",
@@ -419,7 +519,11 @@
       "Monitor Cardíaco no Pulso",
       "Ataque Frontal Inabalável de Ciúmes"
     ],
-    "avatar": "/avatars/romance/ruka-sarashina.png"
+    "avatar": "/avatars/romance/ruka-sarashina.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Falsa Namorada / Concorrente",
+    "species": "Humano"
   },
   {
     "id": "mami-nanami",
@@ -435,7 +539,11 @@
       "Manipulação Psicológica em Redes Sociais",
       "Sorriso Falso Inocente"
     ],
-    "avatar": "/avatars/romance/mami-nanami.png"
+    "avatar": "/avatars/romance/mami-nanami.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Ex-Namorada / Antagonista",
+    "species": "Humano"
   },
   {
     "id": "sumi-sakurasawa",
@@ -451,7 +559,11 @@
       "Comunicação Gestual Fofa",
       "Esforço Monumental para Falar em Público"
     ],
-    "avatar": "/avatars/romance/sumi-sakurasawa.png"
+    "avatar": "/avatars/romance/sumi-sakurasawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Namorada de Aluguel Tímida",
+    "species": "Humano"
   },
   {
     "id": "mahiru-shiina",
@@ -468,7 +580,11 @@
       "Guarda-Chuva Sob a Tempestade",
       "Aura Angelical da Escola"
     ],
-    "avatar": "/avatars/romance/mahiru-shiina.png"
+    "avatar": "/avatars/romance/mahiru-shiina.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal / Vizinha",
+    "species": "Humano"
   },
   {
     "id": "amane-fujimiya",
@@ -484,7 +600,11 @@
       "Cuidado Afetuoso e Paciência",
       "Limpeza Mútua de Apartamento"
     ],
-    "avatar": "/avatars/romance/amane-fujimiya.png"
+    "avatar": "/avatars/romance/amane-fujimiya.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "alya-kujou",
@@ -501,7 +621,11 @@
       "Cabelos Prateados Deslumbrantes",
       "Candidatura à Presidência do Conselho Estudantil"
     ],
-    "avatar": "/avatars/romance/alya-kujou.png"
+    "avatar": "/avatars/romance/alya-kujou.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "masachika-kuze",
@@ -517,7 +641,11 @@
       "Fluência Secreta em Língua Russa",
       "Estratégia Eleitoral Escolar de Alto Q.I."
     ],
-    "avatar": "/avatars/romance/masachika-kuze.png"
+    "avatar": "/avatars/romance/masachika-kuze.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "yuki-suou",
@@ -533,7 +661,11 @@
       "Comportamento Perfeito da Aristocracia Suou",
       "Provocações Provocantes ao Irmão"
     ],
-    "avatar": "/avatars/romance/yuki-suou.png"
+    "avatar": "/avatars/romance/yuki-suou.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Irmã Falsa / Nobre Rival",
+    "species": "Humano"
   },
   {
     "id": "hayase-nagatoro",
@@ -549,7 +681,11 @@
       "Provocações Físicas e Caretas Flexíveis",
       "Faixa Preta de Judô Tradicional"
     ],
-    "avatar": "/avatars/romance/hayase-nagatoro.png"
+    "avatar": "/avatars/romance/hayase-nagatoro.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "naoto-hachioji",
@@ -565,7 +701,11 @@
       "Pintura a Óleo e Retratos Vivos",
       "Coragem de Declarar seus Sentimentos"
     ],
-    "avatar": "/avatars/romance/naoto-hachioji.png"
+    "avatar": "/avatars/romance/naoto-hachioji.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "rentarou-aijou",
@@ -582,7 +722,11 @@
       "Força Sobre-humana Alimentada pelo Amor",
       "Monólogo de Confissão de Duas Páginas Sem Fôlego"
     ],
-    "avatar": "/avatars/romance/rentarou-aijou.png"
+    "avatar": "/avatars/romance/rentarou-aijou.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista Masculino Supremo",
+    "species": "Humano"
   },
   {
     "id": "hakari-hanazono",
@@ -598,7 +742,11 @@
       "Ataque de Afeto Ultra-Sedutor",
       "Planejamento Romântico Conspiratório com Karane"
     ],
-    "avatar": "/avatars/romance/hakari-hanazono.png"
+    "avatar": "/avatars/romance/hakari-hanazono.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína do Harém (1ª Namorada)",
+    "species": "Humano"
   },
   {
     "id": "karane-inda",
@@ -614,7 +762,11 @@
       "Soco Tsundere que Quebra Concreto",
       "Twintails Eletrizadas de Vergonha"
     ],
-    "avatar": "/avatars/romance/karane-inda.png"
+    "avatar": "/avatars/romance/karane-inda.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína do Harém (2ª Namorada)",
+    "species": "Humano"
   },
   {
     "id": "shizuka-yoshimoto",
@@ -630,7 +782,11 @@
       "Comunicação por Textos de Livro com Voz Digital",
       "Fofura Animal Silvestre"
     ],
-    "avatar": "/avatars/romance/shizuka-yoshimoto.png"
+    "avatar": "/avatars/romance/shizuka-yoshimoto.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína do Harém (3ª Namorada)",
+    "species": "Humano"
   },
   {
     "id": "nano-eiai",
@@ -646,7 +802,11 @@
       "Cálculo Otimizado de Tempo e Eficiência",
       "Memória Fotográfica Absoluta"
     ],
-    "avatar": "/avatars/romance/nano-eiai.png"
+    "avatar": "/avatars/romance/nano-eiai.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína do Harém (4ª Namorada)",
+    "species": "Humano"
   },
   {
     "id": "kusuri-yakuzen",
@@ -662,7 +822,11 @@
       "Elixires Químicos Bizarros",
       "Metamorfose entre Forma Infantil e Adulta"
     ],
-    "avatar": "/avatars/romance/kusuri-yakuzen.png"
+    "avatar": "/avatars/romance/kusuri-yakuzen.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína do Harém (5ª Namorada)",
+    "species": "Humano"
   },
   {
     "id": "tsukasa-yuzaki",
@@ -678,7 +842,11 @@
       "Culinária e Vida a Dois Aconchegante",
       "Amor por Filmes e Jogos Retrô"
     ],
-    "avatar": "/avatars/romance/tsukasa-yuzaki.png"
+    "avatar": "/avatars/romance/tsukasa-yuzaki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal / Esposa",
+    "species": "Humano"
   },
   {
     "id": "nasa-yuzaki",
@@ -693,7 +861,11 @@
       "Cálculo Mental Instantâneo de Engenharia",
       "Devoção Inabalável à Esposa Tsukasa"
     ],
-    "avatar": "/avatars/romance/nasa-yuzaki.png"
+    "avatar": "/avatars/romance/nasa-yuzaki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino / Marido",
+    "species": "Humano"
   },
   {
     "id": "akari-watanabe",
@@ -709,7 +881,11 @@
       "Moda Gyaru Estilosa",
       "Cuidados Amorosos e Jantares em Coabitação"
     ],
-    "avatar": "/avatars/romance/akari-watanabe.png"
+    "avatar": "/avatars/romance/akari-watanabe.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal / Falsa Esposa",
+    "species": "Humano"
   },
   {
     "id": "jiro-yakuin",
@@ -725,7 +901,11 @@
       "Treinamento Prático de Casamento Escolar",
       "Apoio Sincero nas Dificuldades"
     ],
-    "avatar": "/avatars/romance/jiro-yakuin.png"
+    "avatar": "/avatars/romance/jiro-yakuin.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "tomo-aizawa",
@@ -741,7 +921,11 @@
       "Golpes Demolidores de Karatê Tradicional",
       "Esforço para Usar Saias e Agir Fofo"
     ],
-    "avatar": "/avatars/romance/tomo-aizawa.png"
+    "avatar": "/avatars/romance/tomo-aizawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "junichirou-kubota",
@@ -757,7 +941,11 @@
       "Resistência e Músculos de Judô",
       "Instinto Protetor Inabalável"
     ],
-    "avatar": "/avatars/romance/junichirou-kubota.png"
+    "avatar": "/avatars/romance/junichirou-kubota.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "micchon-shikimori",
@@ -773,7 +961,11 @@
       "Olhar Frio Badass de Guarda-Costas",
       "Reflexos Atléticos Instantâneos de Proteção"
     ],
-    "avatar": "/avatars/romance/micchon-shikimori.png"
+    "avatar": "/avatars/romance/micchon-shikimori.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "yuu-izumi",
@@ -789,7 +981,11 @@
       "Resiliência Inabalável contra Má Sorte Extrema",
       "Gentileza Infinita com Todos"
     ],
-    "avatar": "/avatars/romance/yuu-izumi.png"
+    "avatar": "/avatars/romance/yuu-izumi.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "duke-bocchan",
@@ -805,7 +1001,11 @@
       "Música e Piano de Concerto",
       "Toque da Morte Vegetal e Animal (Maldição Quebrada)"
     ],
-    "avatar": "/avatars/romance/duke-bocchan.png"
+    "avatar": "/avatars/romance/duke-bocchan.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "alice-lendrott",
@@ -821,7 +1021,11 @@
       "Vestido Vitoriano com Espartilho",
       "Provocações no Limite da Distância de Segurança"
     ],
-    "avatar": "/avatars/romance/alice-lendrott.png"
+    "avatar": "/avatars/romance/alice-lendrott.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal / Criada",
+    "species": "Humano"
   },
   {
     "id": "masamune-makabe",
@@ -837,7 +1041,11 @@
       "Musculação e Dieta Rígida Sem Calorias",
       "Plano de Vingança do Porquinho"
     ],
-    "avatar": "/avatars/romance/masamune-makabe.png"
+    "avatar": "/avatars/romance/masamune-makabe.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "aki-adagaki",
@@ -853,7 +1061,11 @@
       "Apelidos Destruidores de Autoestima",
       "Lanches Escondidos de Três Porções"
     ],
-    "avatar": "/avatars/romance/aki-adagaki.png"
+    "avatar": "/avatars/romance/aki-adagaki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "hachiman-hikigaya",
@@ -869,7 +1081,11 @@
       "Auto-Sacrifício Social para Resolver Conflitos",
       "Olhos de Peixe Podre Intransponíveis"
     ],
-    "avatar": "/avatars/romance/hachiman-hikigaya.png"
+    "avatar": "/avatars/romance/hachiman-hikigaya.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "yukino-yukinoshita",
@@ -885,7 +1101,11 @@
       "Língua Afiada Lógica Imbatível",
       "Amor Secreto por Pan-san (O Panda)"
     ],
-    "avatar": "/avatars/romance/yukino-yukinoshita.png"
+    "avatar": "/avatars/romance/yukino-yukinoshita.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "yui-yuigahama",
@@ -901,7 +1121,11 @@
       "Sable Cookies Queimados",
       "Leitura de Atmosfera Social Escolar"
     ],
-    "avatar": "/avatars/romance/yui-yuigahama.png"
+    "avatar": "/avatars/romance/yui-yuigahama.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína / Membro do Clube",
+    "species": "Humano"
   },
   {
     "id": "mai-sakurajima",
@@ -918,7 +1142,11 @@
       "Atriz Nacional Famosa",
       "Pisar no Pé de Sakuta com Carinho"
     ],
-    "avatar": "/avatars/romance/mai-sakurajima.png"
+    "avatar": "/avatars/romance/mai-sakurajima.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "sakuta-azusagawa",
@@ -934,7 +1162,11 @@
       "Declaração aos Berros no Pátio",
       "Resolução da Síndrome da Puberdade"
     ],
-    "avatar": "/avatars/romance/sakuta-azusagawa.png"
+    "avatar": "/avatars/romance/sakuta-azusagawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "kaori-miyazono",
@@ -950,7 +1182,11 @@
       "Violino Apaixonado e Rebelde",
       "Carta de Despedida de Abril"
     ],
-    "avatar": "/avatars/romance/kaori-miyazono.png"
+    "avatar": "/avatars/romance/kaori-miyazono.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "kousei-arima",
@@ -966,7 +1202,11 @@
       "Piano de Metrônomo Humano",
       "Tocar com as Cores de Kaori"
     ],
-    "avatar": "/avatars/romance/kousei-arima.png"
+    "avatar": "/avatars/romance/kousei-arima.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "sawako-kuronuma",
@@ -982,7 +1222,11 @@
       "Aura Espiritual Involuntária",
       "Doces e Chocolates Feitos à Mão"
     ],
-    "avatar": "/avatars/romance/sawako-kuronuma.png"
+    "avatar": "/avatars/romance/sawako-kuronuma.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "shouta-kazehaya",
@@ -998,7 +1242,11 @@
       "Sorriso Solar que Conquista a Todos",
       "Honestidade Emocional Cristalina"
     ],
-    "avatar": "/avatars/romance/shouta-kazehaya.png"
+    "avatar": "/avatars/romance/shouta-kazehaya.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "anna-yamada",
@@ -1014,7 +1262,11 @@
       "Comer Lanches Secretos na Biblioteca",
       "Abraço de Altura Protetor"
     ],
-    "avatar": "/avatars/romance/anna-yamada.png"
+    "avatar": "/avatars/romance/anna-yamada.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "kyotaro-ichikawa",
@@ -1030,7 +1282,11 @@
       "Leitura de Enciclopédias de Casos Estranhos",
       "Cavalheirismo Silencioso"
     ],
-    "avatar": "/avatars/romance/kyotaro-ichikawa.png"
+    "avatar": "/avatars/romance/kyotaro-ichikawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "chitoge-kirisaki",
@@ -1046,7 +1302,11 @@
       "Soco de Gorila Feroz",
       "Fita de Cabelo Vermelha Lendária"
     ],
-    "avatar": "/avatars/romance/chitoge-kirisaki.png"
+    "avatar": "/avatars/romance/chitoge-kirisaki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Heroína Principal / Falsa Namorada",
+    "species": "Humano"
   },
   {
     "id": "raku-ichijou",
@@ -1062,7 +1322,11 @@
       "Cadeado da Promessa de Infância",
       "Cozinha Doméstica que Acalma Yakuzas"
     ],
-    "avatar": "/avatars/romance/raku-ichijou.png"
+    "avatar": "/avatars/romance/raku-ichijou.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "kosaki-onodera",
@@ -1078,7 +1342,11 @@
       "Chave da Promessa",
       "Confeitaria Doce Japonesa Familiar"
     ],
-    "avatar": "/avatars/romance/kosaki-onodera.png"
+    "avatar": "/avatars/romance/kosaki-onodera.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína / A Paixão de Infância",
+    "species": "Humano"
   },
   {
     "id": "nagisa-furukawa",
@@ -1093,7 +1361,11 @@
       "Canção da Grande Família Dango",
       "Teatro Dramático Emocional"
     ],
-    "avatar": "/avatars/romance/nagisa-furukawa.png"
+    "avatar": "/avatars/romance/nagisa-furukawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal / Esposa",
+    "species": "Humano"
   },
   {
     "id": "tomoya-okazaki",
@@ -1108,7 +1380,11 @@
       "Trabalho Duro de Eletricista",
       "Amor Eterno por Ushio e Nagisa"
     ],
-    "avatar": "/avatars/romance/tomoya-okazaki.png"
+    "avatar": "/avatars/romance/tomoya-okazaki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "tohru-honda",
@@ -1123,7 +1399,11 @@
       "Abraço Curador de Almas Feridas",
       "Cozinha Caseira que Conforta o Clã Sohma"
     ],
-    "avatar": "/avatars/romance/tohru-honda.png"
+    "avatar": "/avatars/romance/tohru-honda.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "kyo-sohma",
@@ -1138,7 +1418,11 @@
       "Artes Marciais do Estilo Sohma",
       "Superação da Forma Verdadeira Monstruosa"
     ],
-    "avatar": "/avatars/romance/kyo-sohma.png"
+    "avatar": "/avatars/romance/kyo-sohma.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "zero-two",
@@ -1155,7 +1439,11 @@
       "Sangue de Urassauro Real",
       "Chifres Carmesins Místicos"
     ],
-    "avatar": "/avatars/romance/zero-two.png"
+    "avatar": "/avatars/romance/zero-two.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
   },
   {
     "id": "hiro",
@@ -1172,7 +1460,11 @@
       "Mutação de Urassauro Azul",
       "Nomeador de Crianças Parasitas"
     ],
-    "avatar": "/avatars/romance/hiro.png"
+    "avatar": "/avatars/romance/hiro.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
   },
   {
     "id": "ichigo-franxx",
@@ -1189,7 +1481,11 @@
       "Liderança Tática do Esquadrão 13",
       "Comando Defensivo"
     ],
-    "avatar": "/avatars/romance/ichigo.png"
+    "avatar": "/avatars/romance/ichigo.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Líder de Esquadrão / Amiga de Infância",
+    "species": "Humano"
   },
   {
     "id": "goro-franxx",
@@ -1206,7 +1502,11 @@
       "Exploração da Terra Renascida",
       "Suporte Estratégico"
     ],
-    "avatar": "/avatars/romance/goro.png"
+    "avatar": "/avatars/romance/goro.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Melhor Amigo / Parceiro de Franxx",
+    "species": "Humano"
   },
   {
     "id": "kokoro-franxx",
@@ -1223,7 +1523,11 @@
       "Cultivo de Flores e Estufa",
       "Maternidade da Nova Civilização"
     ],
-    "avatar": "/avatars/romance/kokoro.png"
+    "avatar": "/avatars/romance/kokoro.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Pistil e Mãe da Nova Geração",
+    "species": "Humano"
   },
   {
     "id": "mitsuru-franxx",
@@ -1240,7 +1544,11 @@
       "Superação de Elixir de Células Amarelas",
       "Artilharia de Lança Pesada"
     ],
-    "avatar": "/avatars/romance/mitsuru.png"
+    "avatar": "/avatars/romance/mitsuru.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Piloto Franxx / Marido",
+    "species": "Humano"
   },
   {
     "id": "zorome-franxx",
@@ -1257,7 +1565,11 @@
       "Acrobacias Ágeis de Combate",
       "Garras de Dardo Duplo"
     ],
-    "avatar": "/avatars/romance/zorome.png"
+    "avatar": "/avatars/romance/zorome.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Piloto Impulsivo",
+    "species": "Humano"
   },
   {
     "id": "miku-franxx",
@@ -1274,7 +1586,11 @@
       "Reflexos Rápidos de Esquiva",
       "Espírito Rebelde"
     ],
-    "avatar": "/avatars/romance/miku.png"
+    "avatar": "/avatars/romance/miku.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Parceira de Zorome",
+    "species": "Humano"
   },
   {
     "id": "ikuno-franxx",
@@ -1291,7 +1607,11 @@
       "Pesquisa Científica da Síndrome de Envelhecimento",
       "Tiroteio de Feixes Alados"
     ],
-    "avatar": "/avatars/romance/ikuno.png"
+    "avatar": "/avatars/romance/ikuno.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Pesquisadora e Médica",
+    "species": "Humano"
   },
   {
     "id": "futoshi-franxx",
@@ -1308,7 +1628,11 @@
       "Panificação Tradicional de Pão",
       "Força Física de Defesa"
     ],
-    "avatar": "/avatars/romance/futoshi.png"
+    "avatar": "/avatars/romance/futoshi.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Piloto e Padeiro da Nova Era",
+    "species": "Humano"
   },
   {
     "id": "taiki-inomata",
@@ -1325,7 +1649,11 @@
       "Salto Smash de Badminton",
       "Coabitação Secreta Familiar"
     ],
-    "avatar": "/avatars/romance/taiki-inomata.png"
+    "avatar": "/avatars/romance/taiki-inomata.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino (Badminton)",
+    "species": "Humano"
   },
   {
     "id": "chinatsu-kano",
@@ -1342,7 +1670,11 @@
       "Capitã Estelar do Time de Basquete",
       "Fita de Cabelo da Sorte"
     ],
-    "avatar": "/avatars/romance/chinatsu-kano.png"
+    "avatar": "/avatars/romance/chinatsu-kano.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Heroína Principal (Basquete)",
+    "species": "Humano"
   },
   {
     "id": "hina-chono",
@@ -1359,7 +1691,11 @@
       "Flexibilidade de Nível Nacional",
       "Declaração Direta e Sincera"
     ],
-    "avatar": "/avatars/romance/hina-chono.png"
+    "avatar": "/avatars/romance/hina-chono.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Amiga de Infância (Ginástica Rítmica)",
+    "species": "Humano"
   },
   {
     "id": "kyo-kasahara",
@@ -1376,7 +1712,11 @@
       "Conselheiro Emocional de Taiki",
       "Análise de Adversários"
     ],
-    "avatar": "/avatars/romance/kyo-kasahara.png"
+    "avatar": "/avatars/romance/kyo-kasahara.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Melhor Amigo (Badminton)",
+    "species": "Humano"
   },
   {
     "id": "karen-matsuoka",
@@ -1393,6 +1733,810 @@
       "Incentivadora Oficial de Chinatsu",
       "Conversas de Vestiário"
     ],
-    "avatar": "/avatars/romance/karen-matsuoka.png"
+    "avatar": "/avatars/romance/karen-matsuoka.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Colega e Amiga do Basquete",
+    "species": "Humano"
+  },
+  {
+    "id": "naoya-mukai",
+    "name": "Naoya Mukai",
+    "gender": "Masculino",
+    "origin": "Girlfriend, Girlfriend",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Honestidade Brutal",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu não consigo escolher entre vocês duas! Eu amo a Saki e a Nagisa de verdade, então vou me esforçar o dobro para fazer ambas felizes!",
+    "techniques": [
+      "Curva de 90 Graus Pedindo Desculpas",
+      "Dedicação Extrema ao Namoro Duplo"
+    ],
+    "avatar": "/avatars/romance/naoya-mukai.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "saki-saki",
+    "name": "Saki Saki",
+    "gender": "Feminino",
+    "origin": "Girlfriend, Girlfriend",
+    "role": "Heroína Principal / Primeira Namorada",
+    "archetype": "Tsundere / Enérgica e Insegura",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Naoya! Você não tem vergonha na cara de propor ter duas namoradas ao mesmo tempo?! Mas... eu não quero terminar com você!",
+    "techniques": [
+      "Golpes Cômicos de Frustração",
+      "Amor Genuíno por Nagisa e Naoya"
+    ],
+    "avatar": "/avatars/romance/saki-saki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal / Primeira Namorada",
+    "species": "Humano"
+  },
+  {
+    "id": "nagisa-minase",
+    "name": "Nagisa Minase",
+    "gender": "Feminino",
+    "origin": "Girlfriend, Girlfriend",
+    "role": "Segunda Namorada",
+    "archetype": "Dandere / Dedicação Culinária Absoluta",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu passei meses cozinhando e me aperfeiçoando só para ter a coragem de me confessar para você, Naoya-kun!",
+    "techniques": [
+      "Culinária Gourmet Caseira",
+      "Bento Perfeito com Corações"
+    ],
+    "avatar": "/avatars/romance/nagisa-minase.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Segunda Namorada",
+    "species": "Humano"
+  },
+  {
+    "id": "rika-hoshizaki",
+    "name": "Rika Hoshizaki (Mirika)",
+    "gender": "Feminino",
+    "origin": "Girlfriend, Girlfriend",
+    "role": "Terceira Pretendente / MeTuber Famosa",
+    "archetype": "Tsundere / MeTuber Provocadora",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu sou a MeTuber número um! Não tem como você não se apaixonar por uma garota fofa e famosa como eu!",
+    "techniques": [
+      "Transmissões ao Vivo Atraentes",
+      "Acampamento Teimoso no Jardim"
+    ],
+    "avatar": "/avatars/romance/rika-hoshizaki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Terceira Pretendente / MeTuber Famosa",
+    "species": "Humano"
+  },
+  {
+    "id": "shino-kiryuu",
+    "name": "Shino Kiryuu",
+    "gender": "Feminino",
+    "origin": "Girlfriend, Girlfriend",
+    "role": "Quarta Pretendente / Amiga de Infância",
+    "archetype": "Kuudere / Racional e Esgrimista",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Relacionamento poliamoroso é moralmente inaceitável! Eu vou proteger a Saki... mesmo que meu coração bata mais forte pelo Naoya.",
+    "techniques": [
+      "Postura Rígida de Esgrima Tradicional",
+      "Esconder Sentimentos com Frieza"
+    ],
+    "avatar": "/avatars/romance/shino-kiryuu.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Quarta Pretendente / Amiga de Infância",
+    "species": "Humano"
+  },
+  {
+    "id": "nagi-umino",
+    "name": "Nagi Umino",
+    "gender": "Masculino",
+    "origin": "A Couple of Cuckoos",
+    "role": "Protagonista Masculino",
+    "archetype": "Nerd / Estudioso Incansável",
+    "status": "Noivo(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Nós fomos trocados na maternidade e agora nossos pais querem que nos casemos?! Eu só quero tirar a nota máxima!",
+    "techniques": [
+      "Cronograma de Estudos de 16 Horas",
+      "Cozinha Doméstica do Restaurante Familiar"
+    ],
+    "avatar": "/avatars/romance/nagi-umino.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "erika-amano",
+    "name": "Erika Amano",
+    "gender": "Feminino",
+    "origin": "A Couple of Cuckoos",
+    "role": "Heroína Principal / Noiva Trocada",
+    "archetype": "Ojou-sama / Influenciadora Fofa",
+    "status": "Noivo(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Finja ser meu namorado para afastar esse casamento arranjado! Espera... você é o garoto com quem me trocaram?!",
+    "techniques": [
+      "Fotos Virais de Moda no Instagram",
+      "Carisma Inocente de Mansão"
+    ],
+    "avatar": "/avatars/romance/erika-amano.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal / Noiva Trocada",
+    "species": "Humano"
+  },
+  {
+    "id": "sachi-umino",
+    "name": "Sachi Umino",
+    "gender": "Feminino",
+    "origin": "A Couple of Cuckoos",
+    "role": "Irmã Não-Biológica",
+    "archetype": "Tsundere / Complexo de Irmão Protetora",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Você sempre vai ser meu irmão mais velho, Nagi! Eu não vou deixar nenhuma garota estranha roubar você!",
+    "techniques": [
+      "Olhar Ciumento com Beicinho",
+      "Apoio no Restaurante Umino"
+    ],
+    "avatar": "/avatars/romance/sachi-umino.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Irmã Não-Biológica",
+    "species": "Humano"
+  },
+  {
+    "id": "hiro-segawa",
+    "name": "Hiro Segawa",
+    "gender": "Feminino",
+    "origin": "A Couple of Cuckoos",
+    "role": "A Primeira Colocada Escolar / Miko",
+    "archetype": "Deredere / Competitiva Intelectual",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio (Santuário Xintoísta)",
+    "quote": "Se você quiser que eu saia com você, Umino-kun, terá que me superar no ranking das provas pelo menos uma vez!",
+    "techniques": [
+      "Primeiro Lugar Invicto em Todas as Matérias",
+      "Rituais Sagrados do Templo"
+    ],
+    "avatar": "/avatars/romance/hiro-segawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "A Primeira Colocada Escolar / Miko",
+    "species": "Humano"
+  },
+  {
+    "id": "tsubasa-shiki",
+    "name": "Tsubasa Shiki",
+    "gender": "Masculino",
+    "origin": "Hokkaido Gals Are Super Adorable",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Estudante Disciplinado",
+    "status": "Namorando",
+    "debutArc": "Kitami (Hokkaido)",
+    "quote": "Eu me mudei de Tóquio para o gelo de Hokkaido esperando isolamento, mas o sorriso caloroso da Fuyuki mudou meu mundo.",
+    "techniques": [
+      "Caminhada Congelante na Neve de Kitami",
+      "Lealdade Emocional Tímida"
+    ],
+    "avatar": "/avatars/romance/tsubasa-shiki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "minami-fuyuki",
+    "name": "Minami Fuyuki",
+    "gender": "Feminino",
+    "origin": "Hokkaido Gals Are Super Adorable",
+    "role": "Heroína Principal / Gyaru de Hokkaido",
+    "archetype": "Gyaru / Namara Menkoi e Calorosa",
+    "status": "Namorando",
+    "debutArc": "Kitami (Hokkaido)",
+    "quote": "Namara menkoi! Está um frio de rachar aqui fora, Shiki-chi! Segura a minha mão no bolso do casaco!",
+    "techniques": [
+      "Dialeto Doce de Hokkaido (Dosanko-ben)",
+      "Aquecer Mãos no Mesmo Bolso"
+    ],
+    "avatar": "/avatars/romance/minami-fuyuki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal / Gyaru de Hokkaido",
+    "species": "Humano"
+  },
+  {
+    "id": "sayuri-akino",
+    "name": "Sayuri Akino",
+    "gender": "Feminino",
+    "origin": "Hokkaido Gals Are Super Adorable",
+    "role": "Heroína / Colega Gamer Tímida",
+    "archetype": "Kuudere / Dandere Gamer",
+    "status": "Solteiro(a)",
+    "debutArc": "Kitami (Hokkaido)",
+    "quote": "Eu sempre tive vergonha de suar ou de me aproximar das pessoas... mas jogar com você me fez esquecer todo o medo.",
+    "techniques": [
+      "Habilidade de Mestre em Jogos de Luta",
+      "Cabelo Preto Tradicional Reservado"
+    ],
+    "avatar": "/avatars/romance/sayuri-akino.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína / Colega Gamer Tímida",
+    "species": "Humano"
+  },
+  {
+    "id": "rena-natsukawa",
+    "name": "Rena Natsukawa",
+    "gender": "Feminino",
+    "origin": "Hokkaido Gals Are Super Adorable",
+    "role": "Senpai / Vizinha Madura",
+    "archetype": "Onee-san / Bela e Confiante",
+    "status": "Solteiro(a)",
+    "debutArc": "Kitami (Hokkaido)",
+    "quote": "Você é fofo demais quando fica sem jeito com as senpais, Tsubasa-kun!",
+    "techniques": [
+      "Cosplay Perfeito Artesanal",
+      "Aura Protetora de Irmã Mais Velha"
+    ],
+    "avatar": "/avatars/romance/rena-natsukawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Senpai / Vizinha Madura",
+    "species": "Humano"
+  },
+  {
+    "id": "yuu-ayatsuji",
+    "name": "Yuu Ayatsuji",
+    "gender": "Masculino",
+    "origin": "Dealing with Mikadono Sisters Is a Breeze",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Mestre do Lar Protetor",
+    "status": "Solteiro(a)",
+    "debutArc": "Mansão Mikadono",
+    "quote": "Vocês três são gênios em seus talentos mundiais, mas em casa são um desastre! Deixem a comida e o cuidado comigo!",
+    "techniques": [
+      "Banquete Caseiro que Acalma Prodígios",
+      "Gestão Doméstica Inabalável"
+    ],
+    "avatar": "/avatars/romance/yuu-ayatsuji.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "miwa-mikadono",
+    "name": "Miwa Mikadono",
+    "gender": "Feminino",
+    "origin": "Dealing with Mikadono Sisters Is a Breeze",
+    "role": "Segunda Irmã / Mestre de Shogi",
+    "archetype": "Kuudere / Gênio Estrategista Frágil",
+    "status": "Solteiro(a)",
+    "debutArc": "Mansão Mikadono",
+    "quote": "No tabuleiro eu antecipo vinte jogadas... Mas perto do Yuu, meu coração faz movimentos que não consigo prever.",
+    "techniques": [
+      "Visão de Jogo Absoluta em Shogi",
+      "Expressão Serena Escondendo Paixão"
+    ],
+    "avatar": "/avatars/romance/miwa-mikadono.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Segunda Irmã / Mestre de Shogi",
+    "species": "Humano"
+  },
+  {
+    "id": "niko-mikadono",
+    "name": "Niko Mikadono",
+    "gender": "Feminino",
+    "origin": "Dealing with Mikadono Sisters Is a Breeze",
+    "role": "Terceira Irmã / Campeã de Artes Marciais",
+    "archetype": "Tsundere / Atleta Musculosa e Tímida",
+    "status": "Solteiro(a)",
+    "debutArc": "Mansão Mikadono",
+    "quote": "Eu consigo derrubar faixas pretas adultos com um golpe! Então por que eu tremo toda vez que você elogia meu kimono?!",
+    "techniques": [
+      "Golpe de Judô Imparável",
+      "Vergonha Extrema com Roupas Fofas"
+    ],
+    "avatar": "/avatars/romance/niko-mikadono.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Terceira Irmã / Campeã de Artes Marciais",
+    "species": "Humano"
+  },
+  {
+    "id": "kazuki-mikadono",
+    "name": "Kazuki Mikadono",
+    "gender": "Feminino",
+    "origin": "Dealing with Mikadono Sisters Is a Breeze",
+    "role": "Primeira Irmã / Atriz Prodigiosa",
+    "archetype": "Deredere / Camaleoa Dramática",
+    "status": "Solteiro(a)",
+    "debutArc": "Mansão Mikadono",
+    "quote": "Eu encaro qualquer personagem no palco com perfeição. Mas o papel de garota apaixonada por você é o mais difícil de atuar!",
+    "techniques": [
+      "Atuação Teatral Magnética",
+      "Sorriso Cativante de Cinema"
+    ],
+    "avatar": "/avatars/romance/kazuki-mikadono.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Primeira Irmã / Atriz Prodigiosa",
+    "species": "Humano"
+  },
+  {
+    "id": "arata-shiunji",
+    "name": "Arata Shiunji",
+    "gender": "Masculino",
+    "origin": "The Shiunji Family Children",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Irmão Mais Velho Dedicado",
+    "status": "Solteiro(a)",
+    "debutArc": "Mansão Shiunji",
+    "quote": "Nós crescemos como sete irmãos... Descobrir que não compartilhamos laços de sangue mudou o significado dos olhares de vocês.",
+    "techniques": [
+      "Cuidado Fraternal que Vira Tensão Romântica",
+      "Honestidade Familiar Protetora"
+    ],
+    "avatar": "/avatars/romance/arata-shiunji.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "banri-shiunji",
+    "name": "Banri Shiunji",
+    "gender": "Feminino",
+    "origin": "The Shiunji Family Children",
+    "role": "Primeira Filha",
+    "archetype": "Onee-san / Gentil e Universitária",
+    "status": "Solteiro(a)",
+    "debutArc": "Mansão Shiunji",
+    "quote": "Arata... agora que sabemos que não somos irmãos biológicos, eu não preciso mais esconder o quanto te acho especial.",
+    "techniques": [
+      "Aura de Maturidade Elegante",
+      "Conselhos Carinhosos"
+    ],
+    "avatar": "/avatars/romance/banri-shiunji.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Primeira Filha",
+    "species": "Humano"
+  },
+  {
+    "id": "ouka-shiunji",
+    "name": "Ouka Shiunji",
+    "gender": "Feminino",
+    "origin": "The Shiunji Family Children",
+    "role": "Quarta Filha",
+    "archetype": "Tsundere / Competitiva e Teimosa",
+    "status": "Solteiro(a)",
+    "debutArc": "Mansão Shiunji",
+    "quote": "Não pense que só porque não somos parentes de sangue eu vou agir diferente com você, idiota!",
+    "techniques": [
+      "Pisar Firme Desconversando Sentimentos",
+      "Expressão Vermelha ao Olhar de Perto"
+    ],
+    "avatar": "/avatars/romance/ouka-shiunji.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Quarta Filha",
+    "species": "Humano"
+  },
+  {
+    "id": "risa-koizumi",
+    "name": "Risa Koizumi",
+    "gender": "Feminino",
+    "origin": "Lovely Complex",
+    "role": "Heroína Principal / Alta e Engraçada",
+    "archetype": "Bakadere / Expressiva e Determinada",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Osaka)",
+    "quote": "O que tem se eu sou mais alta que você, Ootani?! O tamanho do meu amor é muito maior do que qualquer diferença de altura!",
+    "techniques": [
+      "Dupla Cômica All Hanshin Kyojin",
+      "Declaração Apaixonada aos Prantos no Terraço"
+    ],
+    "avatar": "/avatars/romance/risa-koizumi.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Heroína Principal / Alta e Engraçada",
+    "species": "Humano"
+  },
+  {
+    "id": "atsushi-ootani",
+    "name": "Atsushi Ootani",
+    "gender": "Masculino",
+    "origin": "Lovely Complex",
+    "role": "Protagonista Masculino / Baixinho Enérgico",
+    "archetype": "Tsundere / Capitão de Basquete Orgulhoso",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio (Osaka)",
+    "quote": "Koizumi! Você é uma gigante barulhenta... mas eu não consigo mais imaginar a minha vida sem as suas palhaçadas.",
+    "techniques": [
+      "Arremessos de Três Pontos Velozes",
+      "Beijo no Pátio na Festa de Aniversário"
+    ],
+    "avatar": "/avatars/romance/atsushi-ootani.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino / Baixinho Enérgico",
+    "species": "Humano"
+  },
+  {
+    "id": "medaka-kuroiwa",
+    "name": "Medaka Kuroiwa",
+    "gender": "Masculino",
+    "origin": "Medaka Kuroiwa is Impervious to My Charms",
+    "role": "Protagonista Masculino / Futuro Monge",
+    "archetype": "Kuudere / Disciplina de Ferro Antissedução",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu sou um aspirante a monge do templo! As regras budistas proíbem pensamentos impuros com mulheres!",
+    "techniques": [
+      "Mantras de Meditação para Bloquear Encantos",
+      "Expressão de Pedra Indomável"
+    ],
+    "avatar": "/avatars/romance/medaka-kuroiwa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino / Futuro Monge",
+    "species": "Humano"
+  },
+  {
+    "id": "mona-kawai",
+    "name": "Mona Kawai",
+    "gender": "Feminino",
+    "origin": "Medaka Kuroiwa is Impervious to My Charms",
+    "role": "Heroína Principal / Rainha da Escola",
+    "archetype": "Deredere / Sedutora Obstinada",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Todo garoto nesta escola se ajoelha pelo meu sorriso! Kuroiwa, eu juro que vou fazer você se apaixonar por mim!",
+    "techniques": [
+      "Olhar Cativante 100% Eficaz",
+      "Sorriso Radiante com Dialeto de Kansai Secreto"
+    ],
+    "avatar": "/avatars/romance/mona-kawai.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal / Rainha da Escola",
+    "species": "Humano"
+  },
+  {
+    "id": "ryuuto-kashima",
+    "name": "Ryuuto Kashima",
+    "gender": "Masculino",
+    "origin": "Our Dating Story: The Experienced You and The Inexperienced Me",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Honesto e Respeitoso",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Eu perdi um jogo de punição e confessei meu amor por você... mas quero te conhecer de verdade e com respeito, Shirakawa-san.",
+    "techniques": [
+      "Honestidade Pura que Conquista Gyarus",
+      "Respeito ao Tempo da Companheira"
+    ],
+    "avatar": "/avatars/romance/ryuuto-kashima.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "runa-shirakawa",
+    "name": "Runa Shirakawa",
+    "gender": "Feminino",
+    "origin": "Our Dating Story: The Experienced You and The Inexperienced Me",
+    "role": "Heroína Principal / Gyaru Doce",
+    "archetype": "Gyaru / Inocente e Franca",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Todo mundo só me julgava pela minha aparência... Kashima-kun, você foi o primeiro a se importar com o meu coração.",
+    "techniques": [
+      "Maquiagem Gyaru Encantadora",
+      "Carinho Espontâneo e Doce"
+    ],
+    "avatar": "/avatars/romance/runa-shirakawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Heroína Principal / Gyaru Doce",
+    "species": "Humano"
+  },
+  {
+    "id": "hideki-nishimura",
+    "name": "Hideki Nishimura (Lucian)",
+    "gender": "Masculino",
+    "origin": "And you thought there is never a girl online?",
+    "role": "Protagonista Masculino / Cavaleiro Online",
+    "archetype": "Deredere / Jogador Sensato",
+    "status": "Casados no Jogo / Namorando",
+    "debutArc": "Jogo de MMORPG & Clube Escolar",
+    "quote": "Ako! O jogo é o jogo e a realidade é a realidade! Você não pode me chamar de marido no meio da sala de aula!",
+    "techniques": [
+      "Armadura de Cavaleiro do MMORPG",
+      "Paciência Infinita para Ensinar a Realidade"
+    ],
+    "avatar": "/avatars/romance/hideki-nishimura.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista Masculino / Cavaleiro Online",
+    "species": "Humano"
+  },
+  {
+    "id": "ako-tamaki",
+    "name": "Ako Tamaki (Ako)",
+    "gender": "Feminino",
+    "origin": "And you thought there is never a girl online?",
+    "role": "Heroína Principal / Sacerdotisa Devota",
+    "archetype": "Yandere / Dandere Viciada em Games",
+    "status": "Casados no Jogo / Namorando",
+    "debutArc": "Jogo de MMORPG & Clube Escolar",
+    "quote": "Lucian é o meu marido no jogo e na vida real pra sempre! Pessoas normais da realidade não entendem o nosso amor!",
+    "techniques": [
+      "Cura e Suporte no MMORPG",
+      "Apego Cego Inseparável ao Marido"
+    ],
+    "avatar": "/avatars/romance/ako-tamaki.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Heroína Principal / Sacerdotisa Devota",
+    "species": "Humano"
+  },
+  {
+    "id": "yuu-natsume",
+    "name": "Yuu Natsume",
+    "gender": "Masculino",
+    "origin": "Can a Boy-Girl Friendship Survive?",
+    "role": "Protagonista Masculino",
+    "archetype": "Dandere / Artesão e Botânico",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Nós juramos que amizade entre homem e mulher existe para sempre! Então por que cada toque entre nós parece faísca agora?",
+    "techniques": [
+      "Acessórios de Flores Secas Feitos à Mão",
+      "Pacto de Amizade Inabalável"
+    ],
+    "avatar": "/avatars/romance/yuu-natsume.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "himari-inuzuka",
+    "name": "Himari Inuzuka",
+    "gender": "Feminino",
+    "origin": "Can a Boy-Girl Friendship Survive?",
+    "role": "Heroína Principal / Melhor Amiga de Infância",
+    "archetype": "Tsundere / Enérgica e Protetora",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Yuu é meu melhor amigo e parceiro de negócios! Amor? Isso estragaria tudo... Mas por que sinto ciúmes quando outras chegam perto?",
+    "techniques": [
+      "Vendas e Empreendedorismo Estudantil",
+      "Cumplicidade de Mais de Dez Anos"
+    ],
+    "avatar": "/avatars/romance/himari-inuzuka.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal / Melhor Amiga de Infância",
+    "species": "Humano"
+  },
+  {
+    "id": "maki-gamou",
+    "name": "Maki Gamou (Gamo-chan)",
+    "gender": "Feminino",
+    "origin": "Don't Toy with Me Miss Nagatoro",
+    "role": "Melhor Amiga da Nagatoro / Líder do Grupo",
+    "archetype": "Gyaru / Provocadora Líder",
+    "status": "Solteiro(a)",
+    "debutArc": "Clube de Arte",
+    "quote": "Paisen! Você está vermelho que nem um pimentão de novo! Deixa a Hayacchi cuidar do restante!",
+    "techniques": [
+      "Provocações em Dupla com Nagatoro",
+      "Apoio Secreto ao Romance dos Dois"
+    ],
+    "avatar": "/avatars/romance/maki-gamou.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Melhor Amiga da Nagatoro / Líder do Grupo",
+    "species": "Humano"
+  },
+  {
+    "id": "yosshi",
+    "name": "Yosshi",
+    "gender": "Feminino",
+    "origin": "Don't Toy with Me Miss Nagatoro",
+    "role": "Amiga Enérgica do Grupo",
+    "archetype": "Gyaru / Fiel e Cômica",
+    "status": "Solteiro(a)",
+    "debutArc": "Clube de Arte",
+    "quote": "Isso mesmo, isso mesmo! Paisen é um alvo fácil demais!",
+    "techniques": [
+      "Repetir as Frases da Gamo-chan",
+      "Ahoge Saltitante Inconfundível"
+    ],
+    "avatar": "/avatars/romance/yosshi.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Amiga Enérgica do Grupo",
+    "species": "Humano"
+  },
+  {
+    "id": "sakura-nagatoro",
+    "name": "Sakura",
+    "gender": "Feminino",
+    "origin": "Don't Toy with Me Miss Nagatoro",
+    "role": "Amiga Doce e Flertadora",
+    "archetype": "Gyaru / Conquistadora Gentil",
+    "status": "Solteiro(a)",
+    "debutArc": "Clube de Arte",
+    "quote": "Paisen é tão doce e fofo! Se a Hayase não quiser, eu posso ficar com ele?",
+    "techniques": [
+      "Flertes Suaves Desconcertantes",
+      "Conselhos Amorosos Perspicazes"
+    ],
+    "avatar": "/avatars/romance/sakura-nagatoro.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Amiga Doce e Flertadora",
+    "species": "Humano"
+  },
+  {
+    "id": "sana-sunomiya",
+    "name": "Sana Sunomiya (Presidente)",
+    "gender": "Feminino",
+    "origin": "Don't Toy with Me Miss Nagatoro",
+    "role": "Ex-Presidente do Clube de Arte",
+    "archetype": "Kuudere / Artista da Beleza Corporal",
+    "status": "Solteiro(a)",
+    "debutArc": "Clube de Arte",
+    "quote": "A verdadeira arte reside na paixão e na nudez pura da alma! Mostre-me sua convicção, Hachioji!",
+    "techniques": [
+      "Pintura a Óleo de Nudez Artística",
+      "Discursos Imponentes sobre o Amor e Arte"
+    ],
+    "avatar": "/avatars/romance/sana-sunomiya.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Ex-Presidente do Clube de Arte",
+    "species": "Humano"
+  },
+  {
+    "id": "hahari-hanazono",
+    "name": "Hahari Hanazono",
+    "gender": "Feminino",
+    "origin": "The 100 Girlfriends Who Really Love You",
+    "role": "Namorada / Mãe da Hakari / Presidente da Escola",
+    "archetype": "Yandere / Rica e Sedutora Voraz",
+    "status": "Namorando",
+    "debutArc": "Mansão Hanazono",
+    "quote": "Rentarou-chan! Eu pretendia separar você da minha filha, mas agora meu coração pertence a você também!",
+    "techniques": [
+      "Comprar a Escola Inteira por Capricho",
+      "Amor Materno e Romântico Explosivo"
+    ],
+    "avatar": "/avatars/romance/hahari-hanazono.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Namorada / Mãe da Hakari / Presidente da Escola",
+    "species": "Humano"
+  },
+  {
+    "id": "maria-mikhailovna-kujou",
+    "name": "Maria Mikhailovna Kujou (Masha)",
+    "gender": "Feminino",
+    "origin": "Alya Sometimes Hides Her Feelings in Russian",
+    "role": "Irmã Mais Velha da Alya / Presidente do Conselho",
+    "archetype": "Deredere / Carinho Maternal e Fofo",
+    "status": "Solteiro(a)",
+    "debutArc": "Conselho Estudantil",
+    "quote": "Kuze-kun! Você é tão gentil e atencioso... Alya tem muita sorte de ter você ao lado dela.",
+    "techniques": [
+      "Abraços Suaves e Calmantes",
+      "Russo Fluente Doce"
+    ],
+    "avatar": "/avatars/romance/maria-mikhailovna-kujou.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Irmã Mais Velha da Alya / Presidente do Conselho",
+    "species": "Humano"
+  },
+  {
+    "id": "misuzu-gundou",
+    "name": "Misuzu Gundou",
+    "gender": "Feminino",
+    "origin": "Tomo-chan Is a Girl",
+    "role": "Melhor Amiga de Infância da Tomo",
+    "archetype": "Kuudere / Estrategista Sádica",
+    "status": "Solteiro(a)",
+    "debutArc": "Ensino Médio",
+    "quote": "Você quer ser tratada como mulher pelo Jun, Tomo? Então pare de bater nele e use a cabeça pelo menos uma vez.",
+    "techniques": [
+      "Manipulação Psicológica Fria",
+      "Olhar Desdenhoso Mortal"
+    ],
+    "avatar": "/avatars/romance/misuzu-gundou.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Melhor Amiga de Infância da Tomo",
+    "species": "Humano"
+  },
+  {
+    "id": "carol-olston",
+    "name": "Carol Olston",
+    "gender": "Feminino",
+    "origin": "Tomo-chan Is a Girl",
+    "role": "Colega Britânica Rica e Avoada",
+    "archetype": "Bakadere / Fofa e Inesperadamente Esperta",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio",
+    "quote": "Tomo-chan! Eu posso te ensinar a arte da fofura e do charme feminino ocidental!",
+    "techniques": [
+      "Aura Angelical de Algodão-Doce",
+      "Família Nobre com Guarda-Costas"
+    ],
+    "avatar": "/avatars/romance/carol-olston.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Colega Britânica Rica e Avoada",
+    "species": "Humano"
+  },
+  {
+    "id": "yuki-sohma",
+    "name": "Yuki Sohma (O Rato)",
+    "gender": "Masculino",
+    "origin": "Fruits Basket",
+    "role": "Príncipe da Escola / O Rato do Zodíaco",
+    "archetype": "Kuudere / Nobre e Elegante",
+    "status": "Namorando",
+    "debutArc": "Mansão Shigure",
+    "quote": "Tohru-san me ensinou que eu não sou um monstro defeituoso... Ela foi o céu aberto para a minha liberdade.",
+    "techniques": [
+      "Artes Marciais Elegantes do Clã Sohma",
+      "Fã-Clube Escolar Devoto 'Príncipe Yuki'"
+    ],
+    "avatar": "/avatars/romance/yuki-sohma.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Príncipe da Escola / O Rato do Zodíaco",
+    "species": "Humano"
+  },
+  {
+    "id": "shigure-sohma",
+    "name": "Shigure Sohma (O Cão)",
+    "gender": "Masculino",
+    "origin": "Fruits Basket",
+    "role": "Guardião da Mansão / O Cão do Zodíaco",
+    "archetype": "Do-S / Escritor Cínico e Manipulador",
+    "status": "Namorando",
+    "debutArc": "Mansão Shigure",
+    "quote": "Eu faria qualquer coisa, manipularia qualquer pessoa... tudo para ter Akito em meus braços e quebrar esse laço eterno.",
+    "techniques": [
+      "Manipulação Emocional Subterrânea",
+      "Romances Literários de Sucesso"
+    ],
+    "avatar": "/avatars/romance/shigure-sohma.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Guardião da Mansão / O Cão do Zodíaco",
+    "species": "Humano"
   }
 ]

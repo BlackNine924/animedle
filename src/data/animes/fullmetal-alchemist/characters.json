@@ -18,7 +18,10 @@
       "Muralha de Pedra Defensiva",
       "Lança de Aço Transmutada"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/edward-elric.png"
+    "avatar": "/avatars/fullmetal-alchemist/edward-elric.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alphonse-elric",
@@ -39,7 +42,10 @@
       "Selo de Sangue Protetor",
       "Muralha Cúbica de Proteção"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/alphonse-elric.png"
+    "avatar": "/avatars/fullmetal-alchemist/alphonse-elric.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "roy-mustang",
@@ -59,7 +65,10 @@
       "Combustão Precisa nos Globos Oculares",
       "Incêndio em Área em Grande Escala"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/roy-mustang.png"
+    "avatar": "/avatars/fullmetal-alchemist/roy-mustang.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "riza-hawkeye",
@@ -79,7 +88,10 @@
       "Disparo Duplo com Pistolas Rápidas",
       "Guardiã da Tatuagem da Alquimia das Chamas"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/riza-hawkeye.png"
+    "avatar": "/avatars/fullmetal-alchemist/riza-hawkeye.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "winry-rockbell",
@@ -99,7 +111,10 @@
       "Golpe Furioso com Chave de Fenda/Inglesa",
       "Cirurgia Mecânica de Emergência"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/winry-rockbell.png"
+    "avatar": "/avatars/fullmetal-alchemist/winry-rockbell.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "maes-hughes",
@@ -119,7 +134,10 @@
       "Dedução Investigativa de Conspirações",
       "Amor Paterno Incondicional"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/maes-hughes.png"
+    "avatar": "/avatars/fullmetal-alchemist/maes-hughes.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alex-louis-armstrong",
@@ -139,7 +157,10 @@
       "Descamisa Dramática com Brilhos Mágicos",
       "Projéteis de Estátuas Faciais Transmutadas"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/alex-louis-armstrong.png"
+    "avatar": "/avatars/fullmetal-alchemist/alex-louis-armstrong.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "olivier-mira-armstrong",
@@ -159,7 +180,10 @@
       "Comando Tático Militar Frio",
       "Artilharia Pesada da Fortaleza"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/olivier-mira-armstrong.png"
+    "avatar": "/avatars/fullmetal-alchemist/olivier-mira-armstrong.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "king-bradley",
@@ -180,7 +204,10 @@
       "Corte Supersônico de Mísseis e Balas",
       "Dança Mortal com Cinco Espadas"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/king-bradley.png"
+    "avatar": "/avatars/fullmetal-alchemist/king-bradley.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "father",
@@ -200,7 +227,10 @@
       "Bloqueio Total da Alquimia em Amestris",
       "Tentáculos de Trevas de Almas Absorvidas"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/father.png"
+    "avatar": "/avatars/fullmetal-alchemist/father.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "van-hohenheim",
@@ -221,7 +251,10 @@
       "Desmantelamento do Círculo Nacional de Transmutação",
       "Regeneração Celular Infinita"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/van-hohenheim.png"
+    "avatar": "/avatars/fullmetal-alchemist/van-hohenheim.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "greed",
@@ -242,7 +275,10 @@
       "Garras de Grafeno Cortantes",
       "Regeneração por Pedra Filosofal"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/greed.png"
+    "avatar": "/avatars/fullmetal-alchemist/greed.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "envy",
@@ -262,7 +298,10 @@
       "Monstro Gigante de Seis Pernas com Rostos Gementes",
       "Pequena Forma Parasitária de Verme"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/envy.png"
+    "avatar": "/avatars/fullmetal-alchemist/envy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lust",
@@ -282,7 +321,10 @@
       "Alongamento Elástico de Dedos Laminados",
       "Regeneração Acelerada"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/lust.png"
+    "avatar": "/avatars/fullmetal-alchemist/lust.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gluttony",
@@ -302,7 +344,10 @@
       "Falso Portão da Verdade no Peito",
       "Sucção Dimensional de Matéria"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/gluttony.png"
+    "avatar": "/avatars/fullmetal-alchemist/gluttony.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sloth",
@@ -322,7 +367,10 @@
       "Músculos Blindados Anti-Artilharia",
       "Escavação Brutal com Punhos Nus"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/sloth.png"
+    "avatar": "/avatars/fullmetal-alchemist/sloth.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pride",
@@ -342,7 +390,10 @@
       "Mandíbulas de Sombra com Olhos Múltiplos",
       "Devoração de Homúnculos para Absorção de Poderes"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/pride.png"
+    "avatar": "/avatars/fullmetal-alchemist/pride.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "scar",
@@ -363,7 +414,10 @@
       "Reconstrução Transmutativa de Ishval",
       "Combate Físico Letal de Monge"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/scar.png"
+    "avatar": "/avatars/fullmetal-alchemist/scar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ling-yao",
@@ -383,7 +437,10 @@
       "Espada Chinesa de Xing",
       "Ativação Compartilhada do Escudo de Carbono"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/ling-yao.png"
+    "avatar": "/avatars/fullmetal-alchemist/ling-yao.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lan-fan",
@@ -403,7 +460,10 @@
       "Golpe Cirúrgico de Automail Laminado",
       "Rastreamento Furtivo de Chi"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/lan-fan.png"
+    "avatar": "/avatars/fullmetal-alchemist/lan-fan.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fu",
@@ -423,7 +483,10 @@
       "Ataque Suicida com Dinamites no Peito",
       "Salto Acrobático com Detecção de Chi"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/fu.png"
+    "avatar": "/avatars/fullmetal-alchemist/fu.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "may-chang",
@@ -443,7 +506,10 @@
       "Cura de Pulso Vital de Chi",
       "Acrobacias Marciais com Xiao-Mei"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/may-chang.png"
+    "avatar": "/avatars/fullmetal-alchemist/may-chang.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "izumi-curtis",
@@ -463,7 +529,10 @@
       "Transmutação Instantânea por Palmas",
       "Corte e Reconstituição da Matéria"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/izumi-curtis.png"
+    "avatar": "/avatars/fullmetal-alchemist/izumi-curtis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sig-curtis",
@@ -483,7 +552,10 @@
       "Desmembramento com Machado de Açougue",
       "Soco Pesado Anti-Sloth"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/sig-curtis.png"
+    "avatar": "/avatars/fullmetal-alchemist/sig-curtis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "solf-j-kimblee",
@@ -504,7 +576,10 @@
       "Amplificação com Pedra Filosofal Oculta",
       "Implosão de Corpos Vivos"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/solf-j-kimblee.png"
+    "avatar": "/avatars/fullmetal-alchemist/solf-j-kimblee.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jean-havoc",
@@ -523,7 +598,10 @@
       "Tiroteio de Supressão Automática",
       "Foco Tático em Combate Urbano"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/jean-havoc.png"
+    "avatar": "/avatars/fullmetal-alchemist/jean-havoc.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "heymans-breda",
@@ -542,7 +620,10 @@
       "Planejamento Estratégico de Fuga",
       "Fogo de Cobertura com Pistola"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/heymans-breda.png"
+    "avatar": "/avatars/fullmetal-alchemist/heymans-breda.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vato-falman",
@@ -562,7 +643,10 @@
       "Consulta Instantânea de Regulamentos e Mapas",
       "Operação de Artilharia Fixa"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/vato-falman.png"
+    "avatar": "/avatars/fullmetal-alchemist/vato-falman.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kain-fuery",
@@ -581,7 +665,10 @@
       "Interceptação de Rádio Militar",
       "Transmissão Clandestina de Frequências"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/kain-fuery.png"
+    "avatar": "/avatars/fullmetal-alchemist/kain-fuery.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "maria-ross",
@@ -601,7 +688,10 @@
       "Escolta Armada e Segurança",
       "Disparo Defensivo em Recuo"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/maria-ross.png"
+    "avatar": "/avatars/fullmetal-alchemist/maria-ross.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "denny-brosh",
@@ -620,7 +710,10 @@
       "Patrulhamento e Varredura",
       "Tiro de Advertência com Rifle"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/denny-brosh.png"
+    "avatar": "/avatars/fullmetal-alchemist/denny-brosh.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grumman",
@@ -639,7 +732,10 @@
       "Disfarce Completo de Senhora Idosa",
       "Golpe de Estado Tático sem Sangue"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/grumman.png"
+    "avatar": "/avatars/fullmetal-alchemist/grumman.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miles",
@@ -658,7 +754,10 @@
       "Sobrevivência Polar Extrema",
       "Tiro Preciso em Tempestade de Neve"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/miles.png"
+    "avatar": "/avatars/fullmetal-alchemist/miles.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "buccaneer",
@@ -678,7 +777,10 @@
       "Corte com Serra-Fita Elétrica",
       "Sacrifício Mortal com Espada Cega"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/buccaneer.png"
+    "avatar": "/avatars/fullmetal-alchemist/buccaneer.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "trisha-elric",
@@ -697,7 +799,10 @@
       "Cuidado Maternal Incondicional",
       "Inspiração Moral para os Irmãos Elric"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/trisha-elric.png"
+    "avatar": "/avatars/fullmetal-alchemist/trisha-elric.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pinako-rockbell",
@@ -716,7 +821,10 @@
       "Cirurgia e Implantação Nervosa de Automail",
       "Cachimbo Fumegante Repulsor"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/pinako-rockbell.png"
+    "avatar": "/avatars/fullmetal-alchemist/pinako-rockbell.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shou-tucker",
@@ -735,7 +843,10 @@
       "Fusão Biológica de Quimera Humana-Animal",
       "Falsificação de Pesquisas com Animais"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/shou-tucker.png"
+    "avatar": "/avatars/fullmetal-alchemist/shou-tucker.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nina-tucker",
@@ -754,7 +865,10 @@
       "Fala Dilacerante de Quimera",
       "Abraço Carinhoso Inocente"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/nina-tucker.png"
+    "avatar": "/avatars/fullmetal-alchemist/nina-tucker.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "barry-the-chopper",
@@ -773,7 +887,10 @@
       "Golpes Velozes com Facões de Açougueiro",
       "Resistência de Armadura Oca de Ferro"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/barry-the-chopper.png"
+    "avatar": "/avatars/fullmetal-alchemist/barry-the-chopper.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "slicer-brothers",
@@ -792,7 +909,10 @@
       "Esgrima de Katana Dupla Mortal",
       "Ataque Coordenado com Duas Vontades"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/slicer-brothers.png"
+    "avatar": "/avatars/fullmetal-alchemist/slicer-brothers.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cornello",
@@ -811,7 +931,10 @@
       "Transmutação Violenta de Metralhadora",
       "Criação de Quimeras de Monstros Artificiais"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/cornello.png"
+    "avatar": "/avatars/fullmetal-alchemist/cornello.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoki",
@@ -830,7 +953,10 @@
       "Atropelamento Providencial de Inimigos",
       "Súplica Teatral de Rendição"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/yoki.png"
+    "avatar": "/avatars/fullmetal-alchemist/yoki.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "heinkel",
@@ -850,7 +976,10 @@
       "Mordida Dilacerante de Leão",
       "Ataque com Fuzil e Mandíbulas"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/heinkel.png"
+    "avatar": "/avatars/fullmetal-alchemist/heinkel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "darius",
@@ -870,7 +999,10 @@
       "Arremesso de Homens e Carros",
       "Soco Martelada de Primata"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/darius.png"
+    "avatar": "/avatars/fullmetal-alchemist/darius.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zampano",
@@ -890,7 +1022,10 @@
       "Disparo de Chuva de Agulhas Ôsseas",
       "Investida de Javali Selvagem"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/zampano.png"
+    "avatar": "/avatars/fullmetal-alchemist/zampano.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jerso",
@@ -910,7 +1045,10 @@
       "Projétil de Gosma Adesiva Incombustível",
       "Salto Acrobático Anfíbio"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/jerso.png"
+    "avatar": "/avatars/fullmetal-alchemist/jerso.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tim-marcoh",
@@ -929,7 +1067,10 @@
       "Destruição Reversa de Pedra Filosofal",
       "Medicina Alquímica Reparadora"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/tim-marcoh.png"
+    "avatar": "/avatars/fullmetal-alchemist/tim-marcoh.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "knox",
@@ -948,7 +1089,10 @@
       "Cirurgia Traumatológica de Guerra",
       "Autópsia e Análise Toxicológica"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/knox.png"
+    "avatar": "/avatars/fullmetal-alchemist/knox.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sheska",
@@ -967,7 +1111,10 @@
       "Recriação Perfeita de Livros Queimados",
       "Pesquisa e Catalogação de Documentos"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/sheska.png"
+    "avatar": "/avatars/fullmetal-alchemist/sheska.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "paninya",
@@ -986,7 +1133,10 @@
       "Disparo de Canhão Oculto na Perna",
       "Salto Acrobático sobre Telhados"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/paninya.png"
+    "avatar": "/avatars/fullmetal-alchemist/paninya.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "garfiel",
@@ -1005,7 +1155,10 @@
       "Forja de Ligas Metálicas Resistentes",
       "Mentoria Mecânica Especializada"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/garfiel.png"
+    "avatar": "/avatars/fullmetal-alchemist/garfiel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "dominic-lecoulte",
@@ -1024,7 +1177,10 @@
       "Forja de Próteses Blindadas para Alpinistas",
       "Parto de Emergência em Tempestade"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/dominic-lecoulte.png"
+    "avatar": "/avatars/fullmetal-alchemist/dominic-lecoulte.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "basque-grand",
@@ -1043,7 +1199,10 @@
       "Erupção de Canhões e Artilharia do Chão",
       "Barreira Fortificada de Ferro Puro"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/basque-grand.png"
+    "avatar": "/avatars/fullmetal-alchemist/basque-grand.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "giolio-comanche",
@@ -1062,7 +1221,10 @@
       "Chuva Giratória de Adagas Prateadas",
       "Pé de Perna de Pau com Lâmina Transmutada"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/giolio-comanche.png"
+    "avatar": "/avatars/fullmetal-alchemist/giolio-comanche.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "isaac-mcdougal",
@@ -1082,6 +1244,9 @@
       "Fervura Instantânea de Sangue Próprio para Armas",
       "Icebergs Alquímicos Gigantes"
     ],
-    "avatar": "/avatars/fullmetal-alchemist/isaac-mcdougal.png"
+    "avatar": "/avatars/fullmetal-alchemist/isaac-mcdougal.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

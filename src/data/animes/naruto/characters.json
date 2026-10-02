@@ -38,7 +38,11 @@
     "quote": "Eu nunca vou voltar atrás na minha palavra! Esse é o meu jeito ninja!",
     "styleOrPower": "Rasengan",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uzumaki"
+    "clan": "Clã Uzumaki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Sasuke Uchiha",
@@ -81,7 +85,11 @@
     "quote": "Meu único objetivo é a vingança.",
     "styleOrPower": "Chidori",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Sakura Haruno",
@@ -113,7 +121,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b145-IorfpI8arxeX.png",
     "styleOrPower": "Força Brutal da Criação",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Haruno"
+    "clan": "Clã Haruno",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kakashi Hatake",
@@ -152,7 +164,11 @@
     "quote": "Aqueles que abandonam suas regras são escória, mas aqueles que abandonam seus companheiros são piores que escória.",
     "styleOrPower": "Raikiri (Raio Cortante)",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hatake"
+    "clan": "Clã Hatake",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hinata Hyuuga",
@@ -182,7 +198,11 @@
     "quote": "Eu nunca fugirei... e nunca recuarei! Esse é o meu jeito ninja!",
     "styleOrPower": "Punho Gentil",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hyuuga"
+    "clan": "Clã Hyuuga",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Shikamaru Nara",
@@ -212,7 +232,11 @@
     "quote": "Que trabalheira...",
     "styleOrPower": "Jutsu de Imitação da Sombra",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Nara"
+    "clan": "Clã Nara",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Gaara",
@@ -244,7 +268,11 @@
     "quote": "Eu me tornei a areia que protege os que amo.",
     "styleOrPower": "Escudo de Areia",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Clã Kazekage"
+    "clan": "Clã Kazekage",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Itachi Uchiha",
@@ -283,7 +311,11 @@
     "quote": "Perdoe-me, Sasuke... Isso é a última vez.",
     "styleOrPower": "Amaterasu",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kisame Hoshigaki",
@@ -316,7 +348,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/2672-oxbHx8n3N7WY.jpg",
     "styleOrPower": "Samehada",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Jiraiya",
@@ -351,7 +387,11 @@
     "quote": "Não importa o quanto o mundo te machuque, continue a acreditar nas pessoas.",
     "styleOrPower": "Rasengan",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Tsunade Senju",
@@ -385,7 +425,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2767-r61Cj9v8I0wl.png",
     "styleOrPower": "Cura Celestial",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Senju"
+    "clan": "Clã Senju",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Orochimaru",
@@ -426,7 +470,11 @@
     "quote": "Ninguém pode dizer o que é certo ou errado. Isso vale até mesmo para os deuses.",
     "styleOrPower": "Espada Kusanagi",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "name": "Neji Hyuuga",
@@ -457,7 +505,11 @@
     "quote": "O destino é imutável. Por mais que lutemos, não podemos mudar nosso destino.",
     "styleOrPower": "Palma Oito Trigramas: 64 Golpes",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hyuuga"
+    "clan": "Clã Hyuuga",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Rock Lee",
@@ -484,7 +536,11 @@
     "quote": "Se você não pode usar ninjutsu, então trabalhe mil vezes mais duro que todos!",
     "styleOrPower": "Lótus das Folhas",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Might Guy",
@@ -514,7 +570,11 @@
     "quote": "O poder da juventude vai superar tudo isso!",
     "styleOrPower": "Lótus Noturna",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Pain (Nagato)",
@@ -553,7 +613,11 @@
     "quote": "Você não sabe o que é a dor. Você não sabe o que é a solidão. Não me pregue lições.",
     "styleOrPower": "Shinra Tensei",
     "village": "Ame (Vila Oculta da Chuva)",
-    "clan": "Clã Uzumaki"
+    "clan": "Clã Uzumaki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Konan",
@@ -584,7 +648,11 @@
     "quote": "Jiraiya acreditou em Naruto. E eu acredito na aposta de Jiraiya.",
     "styleOrPower": "Dança dos Shikigamis",
     "village": "Ame (Vila Oculta da Chuva)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Deidara",
@@ -614,7 +682,11 @@
     "quote": "Arte é uma explosão! Un!",
     "styleOrPower": "Bomba de Argila C3",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Sasori",
@@ -644,7 +716,11 @@
     "quote": "Arte verdadeira é eterna.",
     "styleOrPower": "Marionete Hiruko",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hidan",
@@ -673,7 +749,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2792-lyvtbiT4COp0.jpg",
     "styleOrPower": "Maldição de Jashin",
     "village": "Yu (Vila Oculta das Fontes Termais)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "name": "Kakuzu",
@@ -707,7 +787,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3178-fCqs5wyV0dlJ.jpg",
     "styleOrPower": "Máscara de Fogo Eterno",
     "village": "Taki (Vila Oculta da Cachoeira)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Obito Uchiha",
@@ -751,7 +835,11 @@
     "quote": "No mundo de vocês, eu fui o Obito Uchiha. No mundo de vocês, esse era o meu nome.",
     "styleOrPower": "Kamui",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Madara Uchiha",
@@ -796,7 +884,11 @@
     "quote": "Desperte, Hashirama. A batalha começa agora.",
     "styleOrPower": "Susanoo Completo",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hashirama Senju",
@@ -836,7 +928,11 @@
     "quote": "Quando as pessoas se machucam, elas crescem.",
     "styleOrPower": "Golem de Madeira",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Senju"
+    "clan": "Clã Senju",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Zabuza Momochi",
@@ -866,7 +962,11 @@
     "quote": "Eu nunca tive um desejo, nenhum objetivo, nenhum sonho... Você é o único que chegou tão perto de me matar.",
     "styleOrPower": "Névoa Homicida Silenciosa",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Haku",
@@ -896,7 +996,11 @@
     "quote": "Quando uma pessoa tem algo verdadeiramente importante a proteger, ela pode se tornar verdadeiramente forte.",
     "styleOrPower": "Espelho de Cristal de Gelo",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Clã Yuki"
+    "clan": "Clã Yuki",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Killer Bee",
@@ -929,7 +1033,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18473-AiI3mk28a1Nm.png",
     "styleOrPower": "Espada de Sete Espadas de Biju",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Clã Yotsuki"
+    "clan": "Clã Yotsuki",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "name": "A (Quarto Raikage)",
@@ -958,7 +1066,11 @@
     "avatar": "/avatars/naruto/a-quarto-raikage.png",
     "styleOrPower": "Manto de Trovão",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Minato Namikaze",
@@ -996,7 +1108,11 @@
     "quote": "Eu te amo, Kushina.",
     "styleOrPower": "Rasengan Voo de Pássaro",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Namikaze"
+    "clan": "Clã Namikaze",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Tobirama Senju",
@@ -1035,7 +1151,11 @@
     "quote": "Os Uchiha são amaldiçoados pelo amor.",
     "styleOrPower": "Hiraishin",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Senju"
+    "clan": "Clã Senju",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hiruzen Sarutobi",
@@ -1073,7 +1193,11 @@
     "quote": "O Professor é o título mais honrado que já recebi.",
     "styleOrPower": "Enma Rei Macaco",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Sarutobi"
+    "clan": "Clã Sarutobi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Rasa",
@@ -1104,7 +1228,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22920-MZPUrxk6WQ8V.png",
     "quote": "Gaara... você é o meu fracasso.",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Clã Kazekage"
+    "clan": "Clã Kazekage",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Terceiro Kazekage",
@@ -1130,7 +1258,11 @@
     "id": "terceiro-kazekage",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/27251.jpg",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Oonoki",
@@ -1161,7 +1293,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23475-OXJU3W3rmDQZ.png",
     "styleOrPower": "Elemento de Poeira",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Mu",
@@ -1192,7 +1328,11 @@
     "id": "mu",
     "avatar": "/avatars/naruto/mu.png",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kurotsuchi",
@@ -1220,7 +1360,11 @@
     "id": "kurotsuchi",
     "avatar": "/avatars/naruto/kurotsuchi.png",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Terceiro Raikage",
@@ -1249,7 +1393,11 @@
     "id": "terceiro-raikage",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/65133.jpg",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Darui",
@@ -1277,7 +1425,11 @@
     "id": "darui",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23476-f71q8pESrKjk.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Mei Terumi",
@@ -1308,7 +1460,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b23478-U7n8YUe2gFDW.png",
     "styleOrPower": "Técnica de Vapor Fervente",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Clã Terumi"
+    "clan": "Clã Terumi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Yagura Karatachi",
@@ -1338,7 +1494,11 @@
     "id": "yagura-karatachi",
     "avatar": "/avatars/naruto/yagura-karatachi.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Clã Karatachi"
+    "clan": "Clã Karatachi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Gengetsu Hozuki",
@@ -1371,7 +1531,11 @@
     "id": "gengetsu-hozuki",
     "avatar": "/avatars/naruto/gengetsu-hozuki.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Clã Hozuki"
+    "clan": "Clã Hozuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Chojuro",
@@ -1398,7 +1562,11 @@
     "id": "chojuro",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23418.jpg",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Mangetsu Hozuki",
@@ -1426,7 +1594,11 @@
     "id": "mangetsu-hozuki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62775.jpg",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Clã Hozuki"
+    "clan": "Clã Hozuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Fuguki Suikazan",
@@ -1453,7 +1625,11 @@
     "id": "fuguki-suikazan",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40785.jpg",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Ameyuri Ringo",
@@ -1480,7 +1656,11 @@
     "id": "ameyuri-ringo",
     "avatar": "/avatars/naruto/ameyuri-ringo.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Jinpachi Munashi",
@@ -1507,7 +1687,11 @@
     "id": "jinpachi-munashi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64457.jpg",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Jinin Akebino",
@@ -1533,7 +1717,11 @@
     "id": "jinin-akebino",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64461.jpg",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kushimaru Kuriarare",
@@ -1559,7 +1747,11 @@
     "id": "kushimaru-kuriarare",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/64455.jpg",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Ino Yamanaka",
@@ -1589,7 +1781,11 @@
     "id": "ino-yamanaka",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2009-H7n38Ns1fr0Y.jpg",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Yamanaka"
+    "clan": "Clã Yamanaka",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Chouji Akimichi",
@@ -1618,7 +1814,11 @@
     "id": "chouji-akimichi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2008-j1oCafEGZucg.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Akimichi"
+    "clan": "Clã Akimichi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Asuma Sarutobi",
@@ -1649,7 +1849,11 @@
     "quote": "Os jovens são os reis do tabuleiro de shogi.",
     "styleOrPower": "Aumento de Chakra de Fogo",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Sarutobi"
+    "clan": "Clã Sarutobi",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kiba Inuzuka",
@@ -1677,7 +1881,11 @@
     "id": "kiba-inuzuka",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3495-dtw0gHa5SOo6.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Inuzuka"
+    "clan": "Clã Inuzuka",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Shino Aburame",
@@ -1705,7 +1913,11 @@
     "id": "shino-aburame",
     "avatar": "/avatars/naruto/shino-aburame.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Aburame"
+    "clan": "Clã Aburame",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kurenai Yuhi",
@@ -1732,7 +1944,11 @@
     "id": "kurenai-yuhi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4773-mfDggINe9pMD.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Sarutobi"
+    "clan": "Clã Sarutobi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Tenten",
@@ -1758,7 +1974,11 @@
     "id": "tenten",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3710-OmDNYKi0Xfjk.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Sai",
@@ -1791,7 +2011,11 @@
     "quote": "Emoções... são algo que ainda estou aprendendo.",
     "styleOrPower": "Criação de Bestas de Tinta",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Yamanaka"
+    "clan": "Clã Yamanaka",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Yamato",
@@ -1820,7 +2044,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2006-FTCz2Eu3cXsI.png",
     "styleOrPower": "Técnica de Estilo de Madeira",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Iruka Umino",
@@ -1849,7 +2077,11 @@
     "avatar": "/avatars/naruto/iruka-umino.png",
     "quote": "Naruto! Eu sempre serei o seu professor!",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Konohamaru Sarutobi",
@@ -1879,7 +2111,11 @@
     "avatar": "/avatars/naruto/konohamaru-sarutobi.png",
     "quote": "Eu serei Hokage um dia, dattebasa!",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Sarutobi"
+    "clan": "Clã Sarutobi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Shisui Uchiha",
@@ -1914,7 +2150,11 @@
     "quote": "Eu daria meus olhos por Konoha.",
     "styleOrPower": "Corpo Substituto de Carvão",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kankuro",
@@ -1944,7 +2184,11 @@
     "id": "kankuro",
     "avatar": "/avatars/naruto/kankuro.png",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Clã Kazekage"
+    "clan": "Clã Kazekage",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Temari",
@@ -1971,7 +2215,11 @@
     "id": "temari",
     "avatar": "/avatars/naruto/temari.png",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Clã Kazekage"
+    "clan": "Clã Kazekage",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Chiyo",
@@ -2000,7 +2248,11 @@
     "avatar": "/avatars/naruto/chiyo.png",
     "styleOrPower": "Técnica de Marionetes Humanas",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Suigetsu Hozuki",
@@ -2031,7 +2283,11 @@
     "quote": "Preciso daquelas espadas...",
     "styleOrPower": "Técnica de Liquefeito",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Clã Hozuki"
+    "clan": "Clã Hozuki",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Karin Uzumaki",
@@ -2064,7 +2320,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3151-HDcp9mHbUvS7.png",
     "styleOrPower": "Cura pela Mordida",
     "village": "Kusa (Vila Oculta da Grama)",
-    "clan": "Clã Uzumaki"
+    "clan": "Clã Uzumaki",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Jugo",
@@ -2095,7 +2355,11 @@
     "id": "jugo",
     "avatar": "/avatars/naruto/jugo.png",
     "village": "Nenhuma",
-    "clan": "Clã Jugo"
+    "clan": "Clã Jugo",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kaguya Otsutsuki",
@@ -2134,7 +2398,11 @@
     "quote": "Tudo isso é meu.",
     "styleOrPower": "Palma Todo-Matadora",
     "village": "Nenhuma",
-    "clan": "Clã Otsutsuki"
+    "clan": "Clã Otsutsuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hagoromo Otsutsuki",
@@ -2174,7 +2442,11 @@
     "quote": "O amor é o que nos conecta.",
     "styleOrPower": "Seis Caminhos",
     "village": "Nenhuma",
-    "clan": "Clã Otsutsuki"
+    "clan": "Clã Otsutsuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hamura Otsutsuki",
@@ -2210,7 +2482,11 @@
     "id": "hamura-otsutsuki",
     "avatar": "/avatars/naruto/hamura-otsutsuki.png",
     "village": "Nenhuma",
-    "clan": "Clã Otsutsuki"
+    "clan": "Clã Otsutsuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Indra Otsutsuki",
@@ -2240,7 +2516,11 @@
     "id": "indra-otsutsuki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b197843-kUcrXaFGesMU.jpg",
     "village": "Nenhuma",
-    "clan": "Clã Otsutsuki"
+    "clan": "Clã Otsutsuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Asura Otsutsuki",
@@ -2271,7 +2551,11 @@
     "id": "asura-otsutsuki",
     "avatar": "/avatars/naruto/asura-otsutsuki.png",
     "village": "Nenhuma",
-    "clan": "Clã Otsutsuki"
+    "clan": "Clã Otsutsuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kabuto Yakushi",
@@ -2308,7 +2592,11 @@
     "quote": "Eu não tenho rosto. Eu sempre imitei os outros. Não sei quem sou.",
     "styleOrPower": "Ressurreição pelo Impuro Mundo",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kimimaro",
@@ -2337,7 +2625,11 @@
     "quote": "Eu vivo apenas para servir ao Senhor Orochimaru.",
     "styleOrPower": "Dança das Sementes",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Clã Kaguya"
+    "clan": "Clã Kaguya",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Danzo Shimura",
@@ -2374,7 +2666,11 @@
     "quote": "Eu carrego nas minhas costas o peso das sombras de Konoha.",
     "styleOrPower": "Izanagi",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Shimura"
+    "clan": "Clã Shimura",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Yugito Nii",
@@ -2401,7 +2697,11 @@
     "id": "yugito-nii",
     "avatar": "/avatars/naruto/yugito-nii.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Roshi",
@@ -2429,7 +2729,11 @@
     "id": "roshi",
     "avatar": "/avatars/naruto/roshi.png",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Han",
@@ -2457,7 +2761,11 @@
     "id": "han",
     "avatar": "/avatars/naruto/han.png",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Utakata",
@@ -2483,7 +2791,11 @@
     "id": "utakata",
     "avatar": "/avatars/naruto/utakata.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Fuu",
@@ -2509,7 +2821,11 @@
     "id": "fuu",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23220.jpg",
     "village": "Taki (Vila Oculta da Cachoeira)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "C",
@@ -2536,7 +2852,11 @@
     "id": "c",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/23477.jpg",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Mabui",
@@ -2562,7 +2882,11 @@
     "id": "mabui",
     "avatar": "/avatars/naruto/mabui.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Omoi",
@@ -2588,7 +2912,11 @@
     "id": "omoi",
     "avatar": "/avatars/naruto/omoi.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Karui",
@@ -2614,7 +2942,11 @@
     "id": "karui",
     "avatar": "/avatars/naruto/karui.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Samui",
@@ -2640,7 +2972,11 @@
     "id": "samui",
     "avatar": "/avatars/naruto/samui.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Dodai",
@@ -2666,7 +3002,11 @@
     "id": "dodai",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/77437.jpg",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Ao",
@@ -2692,7 +3032,11 @@
     "id": "ao",
     "avatar": "/avatars/naruto/ao.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Akatsuchi",
@@ -2718,7 +3062,11 @@
     "id": "akatsuchi",
     "avatar": "/avatars/naruto/akatsuchi.png",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kitsuchi",
@@ -2744,7 +3092,11 @@
     "id": "kitsuchi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/62641.jpg",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Shizune",
@@ -2771,7 +3123,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4643-tnv8Gc4Uvvui.png",
     "styleOrPower": "Antídoto para Veneno",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Anko Mitarashi",
@@ -2798,7 +3154,11 @@
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b809-FhWTN0LFVzRa.png",
     "styleOrPower": "Espada Serpentina",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "name": "Ibiki Morino",
@@ -2824,7 +3184,11 @@
     "id": "ibiki-morino",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22923-oevCrDnszrEa.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Genma Shiranui",
@@ -2850,7 +3214,11 @@
     "id": "genma-shiranui",
     "avatar": "/avatars/naruto/genma-shiranui.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hayate Gekko",
@@ -2876,7 +3244,11 @@
     "id": "hayate-gekko",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n7738-jp6LVMZ3nwXR.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Izumo Kamizuki",
@@ -2902,7 +3274,11 @@
     "id": "izumo-kamizuki",
     "avatar": "/avatars/naruto/izumo-kamizuki.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kotetsu Hagane",
@@ -2928,7 +3304,11 @@
     "id": "kotetsu-hagane",
     "avatar": "/avatars/naruto/kotetsu-hagane.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Ebisu",
@@ -2954,7 +3334,11 @@
     "id": "ebisu",
     "avatar": "/avatars/naruto/ebisu.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Aoba Yamashiro",
@@ -2980,7 +3364,11 @@
     "id": "aoba-yamashiro",
     "avatar": "/avatars/naruto/aoba-yamashiro.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Raido Namiashi",
@@ -3006,7 +3394,11 @@
     "id": "raido-namiashi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/17298.jpg",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kushina Uzumaki",
@@ -3036,7 +3428,11 @@
     "avatar": "/avatars/naruto/kushina-uzumaki.png",
     "quote": "Não perca a fé em si mesmo, Naruto. Não desista do sonho de se tornar Hokage.",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uzumaki"
+    "clan": "Clã Uzumaki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Shikaku Nara",
@@ -3062,7 +3458,11 @@
     "id": "shikaku-nara",
     "avatar": "/avatars/naruto/shikaku-nara.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Nara"
+    "clan": "Clã Nara",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Inoichi Yamanaka",
@@ -3091,7 +3491,11 @@
     "id": "inoichi-yamanaka",
     "avatar": "/avatars/naruto/inoichi-yamanaka.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Yamanaka"
+    "clan": "Clã Yamanaka",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Choza Akimichi",
@@ -3118,7 +3522,11 @@
     "id": "choza-akimichi",
     "avatar": "/avatars/naruto/choza-akimichi.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Akimichi"
+    "clan": "Clã Akimichi",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hiashi Hyuuga",
@@ -3145,7 +3553,11 @@
     "id": "hiashi-hyuuga",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15039-V0DzTR1IPkBb.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hyuuga"
+    "clan": "Clã Hyuuga",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Hizashi Hyuuga",
@@ -3172,7 +3584,11 @@
     "id": "hizashi-hyuuga",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22880-zetfiUvZtS7v.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hyuuga"
+    "clan": "Clã Hyuuga",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Fugaku Uchiha",
@@ -3202,7 +3618,11 @@
     "avatar": "/avatars/naruto/fugaku-uchiha.png",
     "quote": "Sasuke, você deve proteger a honra do nosso clã.",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Mikoto Uchiha",
@@ -3228,7 +3648,11 @@
     "id": "mikoto-uchiha",
     "avatar": "/avatars/naruto/mikoto-uchiha.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Sakumo Hatake",
@@ -3255,7 +3679,11 @@
     "id": "sakumo-hatake",
     "avatar": "/avatars/naruto/sakumo-hatake.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hatake"
+    "clan": "Clã Hatake",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Rin Nohara",
@@ -3282,7 +3710,11 @@
     "id": "rin-nohara",
     "avatar": "/avatars/naruto/rin-nohara.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Jirobo",
@@ -3308,7 +3740,11 @@
     "id": "jirobo",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8495-i2hdXDIiMbhn.png",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kidomaru",
@@ -3334,7 +3770,11 @@
     "id": "kidomaru",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/8497.jpg",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Tayuya",
@@ -3360,7 +3800,11 @@
     "id": "tayuya",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n3052-1V7iclO45tia.png",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Sakon e Ukon",
@@ -3386,7 +3830,11 @@
     "id": "sakon-e-ukon",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8760-q4mTvHasjDud.png",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Guren",
@@ -3414,7 +3862,11 @@
     "id": "guren",
     "avatar": "/avatars/naruto/guren.png",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Zetsu",
@@ -3445,7 +3897,11 @@
     "id": "zetsu-branco",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/3150.jpg",
     "village": "Nenhuma",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Yahiko",
@@ -3475,7 +3931,11 @@
     "avatar": "/avatars/naruto/yahiko.png",
     "quote": "Enquanto o conceito de vencedor existir, haverá perdedores.",
     "village": "Ame (Vila Oculta da Chuva)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Mizuki",
@@ -3501,7 +3961,11 @@
     "id": "mizuki",
     "avatar": "/avatars/naruto/mizuki.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Gamabunta",
@@ -3527,7 +3991,11 @@
     "id": "gamabunta",
     "avatar": "/avatars/naruto/gamabunta.png",
     "village": "Monte Myoboku",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Gamakichi",
@@ -3554,7 +4022,11 @@
     "id": "gamakichi",
     "avatar": "/avatars/naruto/gamakichi.png",
     "village": "Monte Myoboku",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Fukasaku",
@@ -3583,7 +4055,11 @@
     "id": "fukasaku",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/24486.jpg",
     "village": "Monte Myoboku",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Shima",
@@ -3612,7 +4088,11 @@
     "id": "shima",
     "avatar": "/avatars/naruto/shima.png",
     "village": "Monte Myoboku",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Manda",
@@ -3637,7 +4117,11 @@
     "id": "manda",
     "avatar": "/avatars/naruto/manda.png",
     "village": "Caverna Ryuchi",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Aoda",
@@ -3662,7 +4146,11 @@
     "id": "aoda",
     "avatar": "/avatars/naruto/aoda.png",
     "village": "Caverna Ryuchi",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Katsuyu",
@@ -3688,7 +4176,11 @@
     "id": "katsuyu",
     "avatar": "/avatars/naruto/katsuyu.png",
     "village": "Floresta Shikkotsu",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kamatari",
@@ -3714,7 +4206,11 @@
     "id": "kamatari",
     "avatar": "/avatars/naruto/kamatari.png",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Ibuse",
@@ -3740,7 +4236,11 @@
     "id": "ibuse",
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTThT-hL-6SCiQuQbqJUAtUASKKx_oaODGEQTl-n4F1nhax9W5VdFlYcJM&s=10",
     "village": "Ame (Vila Oculta da Chuva)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Baku",
@@ -3765,7 +4265,11 @@
     "id": "baku",
     "avatar": "/avatars/naruto/baku.png",
     "village": "Nenhuma",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Enma",
@@ -3791,7 +4295,11 @@
     "id": "enma",
     "avatar": "/avatars/naruto/enma.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Akamaru",
@@ -3818,7 +4326,11 @@
     "id": "akamaru",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4799-gwSQJlSqWnST.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Inuzuka"
+    "clan": "Clã Inuzuka",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Dosu Kinuta",
@@ -3844,7 +4356,11 @@
     "id": "dosu-kinuta",
     "avatar": "/avatars/naruto/dosu-kinuta.png",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Zaku Abumi",
@@ -3869,7 +4385,11 @@
     "id": "zaku-abumi",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n8997-rKFqlm35weig.png",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Kin Tsuchi",
@@ -3895,7 +4415,11 @@
     "id": "kin-tsuchi",
     "avatar": "/avatars/naruto/kin-tsuchi.png",
     "village": "Oto (Vila Oculta do Som)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Baki",
@@ -3921,7 +4445,11 @@
     "id": "baki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n15081-Lu1emOxDIBl3.png",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Maki",
@@ -3947,7 +4475,11 @@
     "id": "maki",
     "avatar": "/avatars/naruto/maki.png",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Yashamaru",
@@ -3973,7 +4505,11 @@
     "id": "yashamaru",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n13017-dAkTOY5P6jMs.png",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Pakura",
@@ -3999,7 +4535,11 @@
     "id": "pakura",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/63791.jpg",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Izuna Uchiha",
@@ -4026,7 +4566,11 @@
     "id": "izuna-uchiha",
     "avatar": "/avatars/naruto/izuna-uchiha.png",
     "village": "Nenhuma",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Tajima Uchiha",
@@ -4052,7 +4596,11 @@
     "id": "tajima-uchiha",
     "avatar": "/avatars/naruto/tajima-uchiha.png",
     "village": "Nenhuma",
-    "clan": "Clã Uchiha"
+    "clan": "Clã Uchiha",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Butsuma Senju",
@@ -4078,7 +4626,11 @@
     "id": "butsuma-senju",
     "avatar": "/avatars/naruto/butsuma-senju.png",
     "village": "Nenhuma",
-    "clan": "Clã Senju"
+    "clan": "Clã Senju",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Nawaki",
@@ -4104,7 +4656,11 @@
     "id": "nawaki",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22884-JFSLDfwpdakg.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Senju"
+    "clan": "Clã Senju",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Dan Kato",
@@ -4130,7 +4686,11 @@
     "id": "dan-kato",
     "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n22876-k5juKBlTHdBu.png",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Mito Uzumaki",
@@ -4158,7 +4718,11 @@
     "avatar": "/avatars/naruto/mito-uzumaki.png",
     "quote": "O amor é o que contém a besta.",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Uzumaki"
+    "clan": "Clã Uzumaki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Reto",
@@ -4183,7 +4747,11 @@
     "id": "reto",
     "avatar": "/avatars/naruto/reto.png",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Byakuren",
@@ -4208,7 +4776,11 @@
     "id": "byakuren",
     "avatar": "/avatars/naruto/byakuren.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Ishikawa",
@@ -4233,7 +4805,11 @@
     "id": "ishikawa",
     "avatar": "/avatars/naruto/ishikawa.png",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "A (Primeiro Raikage)",
@@ -4258,7 +4834,11 @@
     "id": "a-primeiro-raikage",
     "avatar": "/avatars/naruto/a-primeiro-raikage.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Gari",
@@ -4284,7 +4864,11 @@
     "id": "gari",
     "avatar": "/avatars/naruto/gari.png",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Juzo Biwa",
@@ -4312,7 +4896,11 @@
     "id": "juzo-biwa",
     "avatar": "https://i.pinimg.com/736x/c8/ad/13/c8ad13054626abff0346d0073879d4ac.jpg",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Gozu",
@@ -4338,7 +4926,11 @@
     "id": "gozu",
     "avatar": "/avatars/naruto/gozu.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Meizu",
@@ -4364,7 +4956,11 @@
     "id": "meizu",
     "avatar": "/avatars/naruto/meizu.png",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "name": "Toneri Otsutsuki",
@@ -4400,7 +4996,11 @@
     "id": "toneri-otsutsuki",
     "avatar": "/avatars/naruto/toneri-otsutsuki.png",
     "village": "Nenhuma",
-    "clan": "Clã Otsutsuki"
+    "clan": "Clã Otsutsuki",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kinkaku",
@@ -4431,7 +5031,11 @@
     "status": "Morto",
     "avatar": "/avatars/naruto/kinkaku.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ginkaku",
@@ -4462,7 +5066,11 @@
     "status": "Morto",
     "avatar": "/avatars/naruto/ginkaku.png",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "teuchi",
@@ -4489,7 +5097,11 @@
     "quote": "Um bom ramen aquece qualquer coração ferido!",
     "styleOrPower": "Nenhum",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ayame",
@@ -4516,7 +5128,11 @@
     "quote": "Bem-vindo ao Ramen Ichiraku! O que vai querer hoje, Naruto?",
     "styleOrPower": "Nenhum",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hanabi-hyuuga",
@@ -4545,7 +5161,11 @@
     "quote": "Irmã mais nova de Hinata e herdeira prodígio do clã Hyuuga.",
     "styleOrPower": "Juuken (Punho Gentil)",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hyuuga"
+    "clan": "Clã Hyuuga",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "moegi-kazamatsuri",
@@ -4574,7 +5194,11 @@
     "quote": "Companheira de equipe de Konohamaru e Udon no Esquadrão Konohamaru.",
     "styleOrPower": "Ninjutsu e Estilo Madeira",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "udon-ise",
@@ -4602,7 +5226,11 @@
     "quote": "Membro do Time Konohamaru que sempre usava óculos com coriza.",
     "styleOrPower": "Técnicas de Liberação de Água",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "pakkun",
@@ -4630,7 +5258,11 @@
     "quote": "Sou um cão ninja farejador, não um lutador de frente!",
     "styleOrPower": "Rastreamento Olfativo e Cães Ninjas",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Hatake"
+    "clan": "Clã Hatake",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tonton",
@@ -4657,7 +5289,11 @@
     "quote": "",
     "styleOrPower": "Faro Aguçado",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "torune-aburame",
@@ -4687,7 +5323,11 @@
     "quote": "Guarda-costas de Danzo na Fundação Ne portador dos besouros venenosos rinkaichu.",
     "styleOrPower": "Insetos Venenosos Rinkaichu",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Aburame"
+    "clan": "Clã Aburame",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "foo-yamanaka",
@@ -4716,7 +5356,11 @@
     "quote": "Guarda-costas de Danzo Shimura especialista nas técnicas mentais do clã Yamanaka.",
     "styleOrPower": "Shintenshin no Jutsu e Armadilhas de Transferência",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Clã Yamanaka"
+    "clan": "Clã Yamanaka",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "shukaku",
@@ -4746,7 +5390,11 @@
     "quote": "",
     "styleOrPower": "Manipulação de Areia e Selamento Fuinjutsu",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "matatabi",
@@ -4774,7 +5422,11 @@
     "quote": "",
     "styleOrPower": "Chamas Azuis de Fogo Infernal",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "isobu",
@@ -4803,7 +5455,11 @@
     "quote": "",
     "styleOrPower": "Projéteis de Água e Onda de Choque",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "son-goku",
@@ -4833,7 +5489,11 @@
     "quote": "",
     "styleOrPower": "Liberação de Lava (Yoton)",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kokuo",
@@ -4863,7 +5523,11 @@
     "quote": "",
     "styleOrPower": "Liberação de Vapor (Futton) e Cargas Físicas",
     "village": "Iwa (Vila Oculta da Pedra)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "saiken",
@@ -4891,7 +5555,11 @@
     "quote": "",
     "styleOrPower": "Gás Ácido Corrosivo e Muco Pegajoso",
     "village": "Kiri (Vila Oculta da Névoa)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "chomei",
@@ -4919,7 +5587,11 @@
     "quote": "",
     "styleOrPower": "Voo, Pó Cegante e Rajadas de Vento",
     "village": "Taki (Vila Oculta da Cachoeira)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gyuki",
@@ -4950,7 +5622,11 @@
     "quote": "",
     "styleOrPower": "Tinta Cegante, Tentáculos e Bijuudama",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kurama",
@@ -4980,7 +5656,11 @@
     "quote": "",
     "styleOrPower": "Sensoriamento de Emoções Negativas e Bijuudama Devastadora",
     "village": "Konoha (Vila Oculta da Folha)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "atsui",
@@ -5008,7 +5688,11 @@
     "quote": "Irmão de Samui que luta com sua espada flamejante e a palavra quente!",
     "styleOrPower": "Kenjutsu Flamejante",
     "village": "Kumo (Vila Oculta da Nuvem)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "matsuri",
@@ -5036,7 +5720,11 @@
     "quote": "A discípula mais leal e devota de Gaara armada com um dardo com corda.",
     "styleOrPower": "Bukijutsu com Jouhyou",
     "village": "Suna (Vila Oculta da Areia)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hanzo",
@@ -5066,7 +5754,11 @@
     "quote": "O líder lendário de Amegakure que batizou os Três Sannin Lendários de Konoha.",
     "styleOrPower": "Veneno da Salamandra Negra e Kusarigama",
     "village": "Ame (Vila Oculta da Chuva)",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "juubi",
@@ -5104,6 +5796,10 @@
     "quote": "",
     "styleOrPower": "Bijuudama Planetária, Cataclismo Tenpenchii & Liberação de Madeira",
     "village": "Nenhuma",
-    "clan": "Nenhum"
+    "clan": "Nenhum",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   }
 ]

@@ -21,7 +21,10 @@
       "Teletransporte",
       "Instinto Superior"
     ],
-    "avatar": "/avatars/dragon-ball/son-goku.png"
+    "avatar": "/avatars/dragon-ball/son-goku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bulma",
@@ -43,7 +46,10 @@
       "Cápsulas Hoi-Poi",
       "Máquina do Tempo"
     ],
-    "avatar": "/avatars/dragon-ball/bulma.png"
+    "avatar": "/avatars/dragon-ball/bulma.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mestre-kame",
@@ -65,7 +71,10 @@
       "Bankoku Bikkuri Sho",
       "Zanzoken"
     ],
-    "avatar": "/avatars/dragon-ball/mestre-kame.png"
+    "avatar": "/avatars/dragon-ball/mestre-kame.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yamcha",
@@ -87,7 +96,10 @@
       "Sokidan",
       "Kamehameha"
     ],
-    "avatar": "/avatars/dragon-ball/yamcha.png"
+    "avatar": "/avatars/dragon-ball/yamcha.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oolong",
@@ -107,7 +119,10 @@
       "Metamorfose",
       "Disfarce"
     ],
-    "avatar": "/avatars/dragon-ball/oolong.png"
+    "avatar": "/avatars/dragon-ball/oolong.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pual",
@@ -127,7 +142,10 @@
       "Metamorfose Ilimitada",
       "Voo"
     ],
-    "avatar": "/avatars/dragon-ball/pual.png"
+    "avatar": "/avatars/dragon-ball/pual.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chichi",
@@ -147,7 +165,10 @@
       "Artes Marciais do Castelo de Fogo",
       "Ataque de Lâmina"
     ],
-    "avatar": "/avatars/dragon-ball/chichi.png"
+    "avatar": "/avatars/dragon-ball/chichi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rei-cutelo",
@@ -168,7 +189,10 @@
       "Golpe com Machado Gigante",
       "Força Sobre-humana"
     ],
-    "avatar": "/avatars/dragon-ball/rei-cutelo.png"
+    "avatar": "/avatars/dragon-ball/rei-cutelo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pilaf",
@@ -188,7 +212,10 @@
       "Pilaf Machine",
       "Invenções Bélicas"
     ],
-    "avatar": "/avatars/dragon-ball/pilaf.png"
+    "avatar": "/avatars/dragon-ball/pilaf.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shu",
@@ -208,7 +235,10 @@
       "Uso de Katana Ninja",
       "Armamentos da Gangue de Pilaf"
     ],
-    "avatar": "/avatars/dragon-ball/shu.png"
+    "avatar": "/avatars/dragon-ball/shu.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mai",
@@ -229,7 +259,10 @@
       "Tiro de Precisão com Sniper",
       "Granadas e Artilharia"
     ],
-    "avatar": "/avatars/dragon-ball/mai.png"
+    "avatar": "/avatars/dragon-ball/mai.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kuririn",
@@ -252,7 +285,10 @@
       "Kamehameha",
       "Kakusandan"
     ],
-    "avatar": "/avatars/dragon-ball/kuririn.png"
+    "avatar": "/avatars/dragon-ball/kuririn.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lunch",
@@ -272,7 +308,10 @@
       "Disparo de Metralhadora",
       "Espirro Transformador"
     ],
-    "avatar": "/avatars/dragon-ball/lunch.png"
+    "avatar": "/avatars/dragon-ball/lunch.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nam",
@@ -292,7 +331,10 @@
       "Tenku Pekeji-Ken",
       "Salto Aéreo Gigante"
     ],
-    "avatar": "/avatars/dragon-ball/nam.png"
+    "avatar": "/avatars/dragon-ball/nam.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mestre-karin",
@@ -314,7 +356,10 @@
       "Água dos Deuses",
       "Percepção de Ki"
     ],
-    "avatar": "/avatars/dragon-ball/mestre-karin.png"
+    "avatar": "/avatars/dragon-ball/mestre-karin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vovo-gohan",
@@ -335,7 +380,10 @@
       "Zanzoken",
       "Artes Marciais da Tartaruga"
     ],
-    "avatar": "/avatars/dragon-ball/vovo-gohan.png"
+    "avatar": "/avatars/dragon-ball/vovo-gohan.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vovo-uranai",
@@ -356,7 +404,10 @@
       "Invocação de Almas do Outro Mundo",
       "Teletransporte Espiritual"
     ],
-    "avatar": "/avatars/dragon-ball/vovo-uranai.png"
+    "avatar": "/avatars/dragon-ball/vovo-uranai.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tao-pai-pai",
@@ -377,7 +428,10 @@
       "Arremesso de Coluna com Voo",
       "Lâmina Oculta Cibernética"
     ],
-    "avatar": "/avatars/dragon-ball/tao-pai-pai.png"
+    "avatar": "/avatars/dragon-ball/tao-pai-pai.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "general-blue",
@@ -397,7 +451,10 @@
       "Olhar Telecinético Paralisante",
       "Combate Corpo a Corpo"
     ],
-    "avatar": "/avatars/dragon-ball/general-blue.png"
+    "avatar": "/avatars/dragon-ball/general-blue.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "comandante-red",
@@ -417,7 +474,10 @@
       "Comando do Exército Red Ribbon",
       "Controle Militar"
     ],
-    "avatar": "/avatars/dragon-ball/comandante-red.png"
+    "avatar": "/avatars/dragon-ball/comandante-red.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "conselheiro-black",
@@ -437,7 +497,10 @@
       "Disparo de Mísseis Mecha",
       "Canhão de Feixe de Plasma"
     ],
-    "avatar": "/avatars/dragon-ball/conselheiro-black.png"
+    "avatar": "/avatars/dragon-ball/conselheiro-black.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "androide-8",
@@ -458,7 +521,10 @@
       "Soco Destruidor de Aço",
       "Resistência Blindada"
     ],
-    "avatar": "/avatars/dragon-ball/androide-8.png"
+    "avatar": "/avatars/dragon-ball/androide-8.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mestre-tsuru",
@@ -479,7 +545,10 @@
       "Bukujutsu",
       "Telepatia"
     ],
-    "avatar": "/avatars/dragon-ball/mestre-tsuru.png"
+    "avatar": "/avatars/dragon-ball/mestre-tsuru.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tenshinhan",
@@ -503,7 +572,10 @@
       "Taiyoken",
       "Shishin no Ken"
     ],
-    "avatar": "/avatars/dragon-ball/tenshinhan.png"
+    "avatar": "/avatars/dragon-ball/tenshinhan.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chaos",
@@ -525,7 +597,10 @@
       "Dodonpa",
       "Autodestruição Sacrificial"
     ],
-    "avatar": "/avatars/dragon-ball/chaos.png"
+    "avatar": "/avatars/dragon-ball/chaos.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tambourine",
@@ -545,7 +620,10 @@
       "Feixe Ocular Destruidor",
       "Ataque de Garras Aéreas"
     ],
-    "avatar": "/avatars/dragon-ball/tambourine.png"
+    "avatar": "/avatars/dragon-ball/tambourine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yajirobe",
@@ -566,7 +644,10 @@
       "Corte de Katana Veloz",
       "Força Samurai"
     ],
-    "avatar": "/avatars/dragon-ball/yajirobe.png"
+    "avatar": "/avatars/dragon-ball/yajirobe.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kami-sama",
@@ -588,7 +669,10 @@
       "Mafuba Reverso",
       "Visão Onipresente"
     ],
-    "avatar": "/avatars/dragon-ball/kami-sama.png"
+    "avatar": "/avatars/dragon-ball/kami-sama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sr-popo",
@@ -610,7 +694,10 @@
       "Engolir Ataques de Ki",
       "Guardião da Sala do Tempo"
     ],
-    "avatar": "/avatars/dragon-ball/sr-popo.png"
+    "avatar": "/avatars/dragon-ball/sr-popo.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "piccolo",
@@ -633,7 +720,10 @@
       "Regeneração Namekuseijin",
       "Gigantificação"
     ],
-    "avatar": "/avatars/dragon-ball/piccolo.png"
+    "avatar": "/avatars/dragon-ball/piccolo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "senhor-kaioh",
@@ -655,7 +745,10 @@
       "Genki Dama",
       "Telepatia Universal"
     ],
-    "avatar": "/avatars/dragon-ball/senhor-kaioh.png"
+    "avatar": "/avatars/dragon-ball/senhor-kaioh.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "raditz",
@@ -677,7 +770,10 @@
       "Saturday Crush",
       "Transformação Oozaru"
     ],
-    "avatar": "/avatars/dragon-ball/raditz.png"
+    "avatar": "/avatars/dragon-ball/raditz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nappa",
@@ -699,7 +795,10 @@
       "Bomber DX",
       "Canhão Quebrador"
     ],
-    "avatar": "/avatars/dragon-ball/nappa.png"
+    "avatar": "/avatars/dragon-ball/nappa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vegeta",
@@ -723,7 +822,10 @@
       "Final Explosion",
       "Ultra Ego"
     ],
-    "avatar": "/avatars/dragon-ball/vegeta.png"
+    "avatar": "/avatars/dragon-ball/vegeta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "son-gohan",
@@ -745,7 +847,10 @@
       "Kamehameha Paterno",
       "Estado Definitivo (Ultimate Gohan)"
     ],
-    "avatar": "/avatars/dragon-ball/son-gohan.png"
+    "avatar": "/avatars/dragon-ball/son-gohan.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bardock",
@@ -767,7 +872,10 @@
       "Rebellion Trigger",
       "Visão Precoce do Futuro"
     ],
-    "avatar": "/avatars/dragon-ball/bardock.png"
+    "avatar": "/avatars/dragon-ball/bardock.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dende",
@@ -789,7 +897,10 @@
       "Invocação de Porunga",
       "Aprimoramento das Esferas da Terra"
     ],
-    "avatar": "/avatars/dragon-ball/dende.png"
+    "avatar": "/avatars/dragon-ball/dende.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grande-patriarca",
@@ -810,7 +921,10 @@
       "Criação das Esferas de Porunga",
       "Telepatia"
     ],
-    "avatar": "/avatars/dragon-ball/grande-patriarca.png"
+    "avatar": "/avatars/dragon-ball/grande-patriarca.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nail",
@@ -831,7 +945,10 @@
       "Fusão Namekuseijin",
       "Regeneração"
     ],
-    "avatar": "/avatars/dragon-ball/nail.png"
+    "avatar": "/avatars/dragon-ball/nail.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zarbon",
@@ -852,7 +969,10 @@
       "Elegant Blaster",
       "Disparo de Bombardeio"
     ],
-    "avatar": "/avatars/dragon-ball/zarbon.png"
+    "avatar": "/avatars/dragon-ball/zarbon.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dodoria",
@@ -872,7 +992,10 @@
       "Canhão de Boca de Ki",
       "Investida Máxima"
     ],
-    "avatar": "/avatars/dragon-ball/dodoria.png"
+    "avatar": "/avatars/dragon-ball/dodoria.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "capitao-ginyu",
@@ -894,7 +1017,10 @@
       "Galaxy Dynamite",
       "Poses de Batalha Especiais"
     ],
-    "avatar": "/avatars/dragon-ball/capitao-ginyu.png"
+    "avatar": "/avatars/dragon-ball/capitao-ginyu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "recoome",
@@ -916,7 +1042,10 @@
       "Recoome Kick",
       "Recoome Ultra Fighting Miracle Bomber"
     ],
-    "avatar": "/avatars/dragon-ball/recoome.png"
+    "avatar": "/avatars/dragon-ball/recoome.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "burter",
@@ -938,7 +1067,10 @@
       "Speed Up",
       "Ataque Combinado Purple Comet"
     ],
-    "avatar": "/avatars/dragon-ball/burter.png"
+    "avatar": "/avatars/dragon-ball/burter.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jeice",
@@ -960,7 +1092,10 @@
       "Continuous Crusher Ball",
       "Purple Comet Crash"
     ],
-    "avatar": "/avatars/dragon-ball/jeice.png"
+    "avatar": "/avatars/dragon-ball/jeice.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guldo",
@@ -982,7 +1117,10 @@
       "Paralisia Telecinética",
       "Espinho Telecinético de Tronco"
     ],
-    "avatar": "/avatars/dragon-ball/guldo.png"
+    "avatar": "/avatars/dragon-ball/guldo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "freeza",
@@ -1005,7 +1143,10 @@
       "Golden Freeza",
       "Black Freeza"
     ],
-    "avatar": "/avatars/dragon-ball/freeza.png"
+    "avatar": "/avatars/dragon-ball/freeza.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rei-cold",
@@ -1025,7 +1166,10 @@
       "Super Ray Cannon",
       "Golpe de Espada do Destino"
     ],
-    "avatar": "/avatars/dragon-ball/rei-cold.png"
+    "avatar": "/avatars/dragon-ball/rei-cold.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "trunks-do-futuro",
@@ -1049,7 +1193,10 @@
       "Mafuba",
       "Super Saiyajin Rage"
     ],
-    "avatar": "/avatars/dragon-ball/trunks-do-futuro.png"
+    "avatar": "/avatars/dragon-ball/trunks-do-futuro.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dr-gero",
@@ -1070,7 +1217,10 @@
       "Olhar Laser Perfurante",
       "Bionic Punisher"
     ],
-    "avatar": "/avatars/dragon-ball/dr-gero.png"
+    "avatar": "/avatars/dragon-ball/dr-gero.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "androide-19",
@@ -1091,7 +1241,10 @@
       "Raios Oculares de Plasma",
       "Canhão de Fótons"
     ],
-    "avatar": "/avatars/dragon-ball/androide-19.png"
+    "avatar": "/avatars/dragon-ball/androide-19.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "androide-18",
@@ -1114,7 +1267,10 @@
       "Sadistic 18",
       "Accel Dance"
     ],
-    "avatar": "/avatars/dragon-ball/androide-18.png"
+    "avatar": "/avatars/dragon-ball/androide-18.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "androide-17",
@@ -1138,7 +1294,10 @@
       "Endgame Blast",
       "Velocidade Ilimitada"
     ],
-    "avatar": "/avatars/dragon-ball/androide-17.png"
+    "avatar": "/avatars/dragon-ball/androide-17.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "androide-16",
@@ -1159,7 +1318,10 @@
       "Rocket Punch",
       "Autodestruição Nuclear"
     ],
-    "avatar": "/avatars/dragon-ball/androide-16.png"
+    "avatar": "/avatars/dragon-ball/androide-16.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cell",
@@ -1182,7 +1344,10 @@
       "Criação de Cell Juniores",
       "Absorção Caudal"
     ],
-    "avatar": "/avatars/dragon-ball/cell.png"
+    "avatar": "/avatars/dragon-ball/cell.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mr-satan",
@@ -1203,7 +1368,10 @@
       "Satan Miracle Special Ultra Super Megaton Punch",
       "Carisma e Apelo Global"
     ],
-    "avatar": "/avatars/dragon-ball/mr-satan.png"
+    "avatar": "/avatars/dragon-ball/mr-satan.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "trunks",
@@ -1225,7 +1393,10 @@
       "Buster Blaster",
       "Dança da Fusão"
     ],
-    "avatar": "/avatars/dragon-ball/trunks.png"
+    "avatar": "/avatars/dragon-ball/trunks.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "son-goten",
@@ -1246,7 +1417,10 @@
       "Assault!",
       "Dança da Fusão"
     ],
-    "avatar": "/avatars/dragon-ball/son-goten.png"
+    "avatar": "/avatars/dragon-ball/son-goten.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gotenks",
@@ -1268,7 +1442,10 @@
       "Ultra Buu Buu Volleyball",
       "Super Saiyajin 3"
     ],
-    "avatar": "/avatars/dragon-ball/gotenks.png"
+    "avatar": "/avatars/dragon-ball/gotenks.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vegetto",
@@ -1290,7 +1467,10 @@
       "Big Bang Flash",
       "Super Saiyajin Blue"
     ],
-    "avatar": "/avatars/dragon-ball/vegetto.png"
+    "avatar": "/avatars/dragon-ball/vegetto.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "videl",
@@ -1312,7 +1492,10 @@
       "Eagle Kick",
       "Controle Básico de Ki"
     ],
-    "avatar": "/avatars/dragon-ball/videl.png"
+    "avatar": "/avatars/dragon-ball/videl.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shin",
@@ -1334,7 +1517,10 @@
       "Telecinese Imobilizadora",
       "Teletransporte Divino (Kai Kai)"
     ],
-    "avatar": "/avatars/dragon-ball/shin.png"
+    "avatar": "/avatars/dragon-ball/shin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kibito",
@@ -1355,7 +1541,10 @@
       "Kai Kai (Teletransporte Divino)",
       "Cura Mística"
     ],
-    "avatar": "/avatars/dragon-ball/kibito.png"
+    "avatar": "/avatars/dragon-ball/kibito.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ro-kaioshin",
@@ -1377,7 +1566,10 @@
       "Doação de Vida Divina",
       "Fusão Potara"
     ],
-    "avatar": "/avatars/dragon-ball/ro-kaioshin.png"
+    "avatar": "/avatars/dragon-ball/ro-kaioshin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "babidi",
@@ -1398,7 +1590,10 @@
       "Controle da Maldade Alheia",
       "Barreira de Feitiço"
     ],
-    "avatar": "/avatars/dragon-ball/babidi.png"
+    "avatar": "/avatars/dragon-ball/babidi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dabura",
@@ -1420,7 +1615,10 @@
       "Espada de Trevas Mágica",
       "Sopro de Chamas Malignas"
     ],
-    "avatar": "/avatars/dragon-ball/dabura.png"
+    "avatar": "/avatars/dragon-ball/dabura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "majin-boo",
@@ -1442,7 +1640,10 @@
       "Imitação Instantânea de Técnicas",
       "Kamehameha"
     ],
-    "avatar": "/avatars/dragon-ball/majin-boo.png"
+    "avatar": "/avatars/dragon-ball/majin-boo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "super-boo",
@@ -1463,7 +1664,10 @@
       "Grito Dimensional (Vice Shout)",
       "Absorção com Tecido Corporal"
     ],
-    "avatar": "/avatars/dragon-ball/super-boo.png"
+    "avatar": "/avatars/dragon-ball/super-boo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kid-boo",
@@ -1484,7 +1688,10 @@
       "Teletransporte Kai Kai",
       "Elasticidade Caótica"
     ],
-    "avatar": "/avatars/dragon-ball/kid-boo.png"
+    "avatar": "/avatars/dragon-ball/kid-boo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "uub",
@@ -1504,7 +1711,10 @@
       "Explosão de Ki Divino Primitivo",
       "Kiai Esferoidal"
     ],
-    "avatar": "/avatars/dragon-ball/uub.png"
+    "avatar": "/avatars/dragon-ball/uub.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pan",
@@ -1525,7 +1735,10 @@
       "Bukujutsu (Voo)",
       "Golpes Ágeis de Saiyajin"
     ],
-    "avatar": "/avatars/dragon-ball/pan.png"
+    "avatar": "/avatars/dragon-ball/pan.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bills",
@@ -1547,7 +1760,10 @@
       "Esfera da Destruição Solar",
       "Instinto Superior Incompleto"
     ],
-    "avatar": "/avatars/dragon-ball/bills.png"
+    "avatar": "/avatars/dragon-ball/bills.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "whis",
@@ -1569,7 +1785,10 @@
       "Teletransporte Cósmico",
       "Criação de Barreiras Invulneráveis"
     ],
-    "avatar": "/avatars/dragon-ball/whis.png"
+    "avatar": "/avatars/dragon-ball/whis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jaco",
@@ -1590,7 +1809,10 @@
       "Foguetes Propulsores",
       "Visão Microscópica e Telescópica"
     ],
-    "avatar": "/avatars/dragon-ball/jaco.png"
+    "avatar": "/avatars/dragon-ball/jaco.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "champa",
@@ -1611,7 +1833,10 @@
       "Hakai",
       "Super Esferas da Destruição"
     ],
-    "avatar": "/avatars/dragon-ball/champa.png"
+    "avatar": "/avatars/dragon-ball/champa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vados",
@@ -1633,7 +1858,10 @@
       "Manipulação Temporal",
       "Cajado Angelical"
     ],
-    "avatar": "/avatars/dragon-ball/vados.png"
+    "avatar": "/avatars/dragon-ball/vados.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hit",
@@ -1654,7 +1882,10 @@
       "Golpe Perfurante Invisível",
       "Armazenamento Temporal de Bolso"
     ],
-    "avatar": "/avatars/dragon-ball/hit.png"
+    "avatar": "/avatars/dragon-ball/hit.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cabba",
@@ -1676,7 +1907,10 @@
       "Impulse Edge",
       "Super Saiyajin 2"
     ],
-    "avatar": "/avatars/dragon-ball/cabba.png"
+    "avatar": "/avatars/dragon-ball/cabba.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "frost",
@@ -1697,7 +1931,10 @@
       "Chaos Beam",
       "Metamorfose"
     ],
-    "avatar": "/avatars/dragon-ball/frost.png"
+    "avatar": "/avatars/dragon-ball/frost.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zen-o",
@@ -1717,7 +1954,10 @@
       "Apagamento Universal Absoluto",
       "Invulnerabilidade Divina Total"
     ],
-    "avatar": "/avatars/dragon-ball/zen-o.png"
+    "avatar": "/avatars/dragon-ball/zen-o.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zamasu",
@@ -1739,7 +1979,10 @@
       "Imortalidade Absoluta",
       "Anel do Tempo"
     ],
-    "avatar": "/avatars/dragon-ball/zamasu.png"
+    "avatar": "/avatars/dragon-ball/zamasu.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "goku-black",
@@ -1761,7 +2004,10 @@
       "Lâmina Divina Violenta",
       "Fenda Dimensional com Foice"
     ],
-    "avatar": "/avatars/dragon-ball/goku-black.png"
+    "avatar": "/avatars/dragon-ball/goku-black.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "daishinkan",
@@ -1783,7 +2029,10 @@
       "Imobilização Multiversal",
       "Ressurreição Divina"
     ],
-    "avatar": "/avatars/dragon-ball/daishinkan.png"
+    "avatar": "/avatars/dragon-ball/daishinkan.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jiren",
@@ -1806,7 +2055,10 @@
       "Barreira de Ki Ocular",
       "Força Sobrepujante a Deuses"
     ],
-    "avatar": "/avatars/dragon-ball/jiren.png"
+    "avatar": "/avatars/dragon-ball/jiren.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toppo",
@@ -1829,7 +2081,10 @@
       "Justice Rear Naked Choke",
       "Aura de Destruição"
     ],
-    "avatar": "/avatars/dragon-ball/toppo.png"
+    "avatar": "/avatars/dragon-ball/toppo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dyspo",
@@ -1851,7 +2106,10 @@
       "Justice Cannon",
       "Justice Crush"
     ],
-    "avatar": "/avatars/dragon-ball/dyspo.png"
+    "avatar": "/avatars/dragon-ball/dyspo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "caulifla",
@@ -1873,7 +2131,10 @@
       "Super Saiyajin 2",
       "Golpes Selvagens de Rua"
     ],
-    "avatar": "/avatars/dragon-ball/caulifla.png"
+    "avatar": "/avatars/dragon-ball/caulifla.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kale",
@@ -1894,7 +2155,10 @@
       "Gigantic Impact",
       "Super Saiyajin Berserker"
     ],
-    "avatar": "/avatars/dragon-ball/kale.png"
+    "avatar": "/avatars/dragon-ball/kale.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kefla",
@@ -1915,7 +2179,10 @@
       "Ray Blast Laser",
       "Super Saiyajin 2"
     ],
-    "avatar": "/avatars/dragon-ball/kefla.png"
+    "avatar": "/avatars/dragon-ball/kefla.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "moro",
@@ -1936,7 +2203,10 @@
       "Absorção Mágica de Seven-Three",
       "Cópia de Habilidades Angelicais"
     ],
-    "avatar": "/avatars/dragon-ball/moro.png"
+    "avatar": "/avatars/dragon-ball/moro.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "meerus",
@@ -1957,7 +2227,10 @@
       "Armas de Captura Galáctica",
       "Bastão de Neutralização"
     ],
-    "avatar": "/avatars/dragon-ball/meerus.png"
+    "avatar": "/avatars/dragon-ball/meerus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "broly",
@@ -1980,7 +2253,10 @@
       "Estado de Ira (Ikari)",
       "Super Saiyajin Lendário"
     ],
-    "avatar": "/avatars/dragon-ball/broly.png"
+    "avatar": "/avatars/dragon-ball/broly.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cheelai",
@@ -2001,7 +2277,10 @@
       "Disparo Laser Portátil",
       "Uso do Radar de Esferas"
     ],
-    "avatar": "/avatars/dragon-ball/cheelai.png"
+    "avatar": "/avatars/dragon-ball/cheelai.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "granolah",
@@ -2022,7 +2301,10 @@
       "Tiros Perfurantes de Dois Dedos",
       "Visão de Fluxo Sanguíneo"
     ],
-    "avatar": "/avatars/dragon-ball/granolah.png"
+    "avatar": "/avatars/dragon-ball/granolah.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gas",
@@ -2043,7 +2325,10 @@
       "Telecinese Gravitacional",
       "Teletransporte Veloz"
     ],
-    "avatar": "/avatars/dragon-ball/gas.png"
+    "avatar": "/avatars/dragon-ball/gas.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gamma-1",
@@ -2065,7 +2350,10 @@
       "Cálculo Tático Instantâneo",
       "Voo com Capa Propulsora"
     ],
-    "avatar": "/avatars/dragon-ball/gamma-1.png"
+    "avatar": "/avatars/dragon-ball/gamma-1.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gamma-2",
@@ -2087,7 +2375,10 @@
       "Blaster Flash Estilizado",
       "Golpe Heroico Espetacular"
     ],
-    "avatar": "/avatars/dragon-ball/gamma-2.png"
+    "avatar": "/avatars/dragon-ball/gamma-2.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dr-hedo",
@@ -2108,7 +2399,10 @@
       "Engenharia de Bio-Androides",
       "Pele Revestida à Prova de Balas"
     ],
-    "avatar": "/avatars/dragon-ball/dr-hedo.png"
+    "avatar": "/avatars/dragon-ball/dr-hedo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cell-max",
@@ -2129,6 +2423,9 @@
       "Esfera Planetária Vermelha",
       "Rugido Sônico"
     ],
-    "avatar": "/avatars/dragon-ball/cell-max.png"
+    "avatar": "/avatars/dragon-ball/cell-max.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

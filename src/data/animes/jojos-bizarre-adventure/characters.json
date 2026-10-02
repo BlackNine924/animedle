@@ -20,7 +20,10 @@
       "Scarlet Overdrive",
       "Metal Silver Overdrive"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/jonathan-joestar.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/jonathan-joestar.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dio-brando",
@@ -41,7 +44,10 @@
       "Toque Congelante Vaporizador",
       "Regeneração Celular Vampírica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/dio-brando.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/dio-brando.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "william-zeppeli",
@@ -64,7 +70,10 @@
       "Sunlight Yellow Overdrive",
       "Ultimate Deep Pass Overdrive"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/william-zeppeli.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/william-zeppeli.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "speedwagon",
@@ -85,7 +94,10 @@
       "Lançamento de Chapéu com Lâminas",
       "Calor Corporal de Salvamento"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/speedwagon.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/speedwagon.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "erina-pendleton",
@@ -104,7 +116,10 @@
     "techniques": [
       "Cuidado Médico Tradicional"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/erina-pendleton.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/erina-pendleton.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bruford",
@@ -124,7 +139,10 @@
       "Dança Macabra",
       "Espada Luck & Pluck"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/bruford.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/bruford.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tarkus",
@@ -144,7 +162,10 @@
       "Combate com Correntes",
       "Esmagamento Brutal"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tarkus.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tarkus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dire",
@@ -164,7 +185,10 @@
       "Thunder Cross Split Attack",
       "Hamon Rose"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/dire.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/dire.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "joseph-joestar",
@@ -187,7 +211,10 @@
       "Estratégia de Fuga Sagrada",
       "Hermit Purple"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/joseph-joestar.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/joseph-joestar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "caesar-zeppeli",
@@ -210,7 +237,10 @@
       "Bubble Cutter",
       "Bubble Cutter Gliding"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/caesar-zeppeli.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/caesar-zeppeli.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lisa-lisa",
@@ -232,7 +262,10 @@
       "Snake Muffler",
       "Super Aja Overdrive"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/lisa-lisa.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/lisa-lisa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rudol-von-stroheim",
@@ -254,7 +287,10 @@
       "Canhão de Luz Ultravioleta",
       "Dedo-Projétil"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/rudol-von-stroheim.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/rudol-von-stroheim.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kars",
@@ -276,7 +312,10 @@
       "Mutações de DNA Animal",
       "Imortalidade Absoluta"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/kars.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/kars.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "esidisi",
@@ -296,7 +335,10 @@
       "Vasos Sanguíneos Extensíveis Ferventes",
       "Agulhas Térmicas de Sangue"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/esidisi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/esidisi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wamuu",
@@ -316,7 +358,10 @@
       "Kamisuna Arashi (Tempestade de Areia Divina)",
       "Final Mode: Atmospheric Rift"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/wamuu.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/wamuu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "santana",
@@ -336,7 +381,10 @@
       "Invasão Corpórea",
       "Costelas de Aprisionamento"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/santana.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/santana.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "smokey-brown",
@@ -355,7 +403,10 @@
     "techniques": [
       "Corrida Tática"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/smokey-brown.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/smokey-brown.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "suzi-q",
@@ -374,7 +425,10 @@
     "techniques": [
       "Assistência Doméstica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/suzi-q.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/suzi-q.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jotaro-kujo",
@@ -397,7 +451,10 @@
       "Star Finger",
       "Star Platinum: The World (Parar o Tempo)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/jotaro-kujo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/jotaro-kujo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "noriaki-kakyoin",
@@ -419,7 +476,10 @@
       "Tentáculos de Hierophant",
       "Barreira de Esmeralda de 20 Metros"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/noriaki-kakyoin.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/noriaki-kakyoin.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jean-pierre-polnareff",
@@ -441,7 +501,10 @@
       "Remoção de Armadura de Prata",
       "Disparo de Lâmina"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/jean-pierre-polnareff.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/jean-pierre-polnareff.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "muhammad-avdol",
@@ -463,7 +526,10 @@
       "Crossfire Hurricane Special",
       "Detecção de Calor Vital"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/muhammad-avdol.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/muhammad-avdol.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "iggy",
@@ -485,7 +551,10 @@
       "Asas de Areia para Voo",
       "Clone de Areia"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/iggy.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/iggy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dio",
@@ -507,7 +576,10 @@
       "Lançamento Massivo de Facas",
       "Road Roller Da!"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/dio.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/dio.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vanilla-ice",
@@ -527,7 +599,10 @@
       "Vórtice do Vácuo Dimensional",
       "Invisibilidade de Absorção Esférica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/vanilla-ice.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/vanilla-ice.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hol-horse",
@@ -547,7 +622,10 @@
       "Balas de Stand Teleguiadas",
       "Disparo Rápido do Revólver Emperor"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/hol-horse.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/hol-horse.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "enya-geil",
@@ -567,7 +645,10 @@
       "Névoa de Controle de Cadáveres",
       "Ilusão de Cidade Fantasma"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/enya-geil.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/enya-geil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "j-geil",
@@ -586,7 +667,10 @@
     "techniques": [
       "Ataque na Velocidade da Luz por Superfícies Reflexivas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/j-geil.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/j-geil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "daniel-j-darby",
@@ -607,7 +691,10 @@
       "Roubo de Alma por Apostas",
       "Fichas de Alma de Osiris"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/daniel-j-darby.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/daniel-j-darby.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "terrence-t-darby",
@@ -628,7 +715,10 @@
       "Leitura de Almas (Sim ou Não)",
       "Conversão de Almas em Bonecos de Videogame"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/terrence-t-darby.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/terrence-t-darby.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pet-shop",
@@ -649,7 +739,10 @@
       "Estalagmites Gigantes de Gelo Criogênico",
       "Mísseis de Gelo Teleguiados"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/pet-shop.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/pet-shop.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mariah",
@@ -669,7 +762,10 @@
     "techniques": [
       "Magnetização Corporal Exponencial"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mariah.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mariah.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alessi",
@@ -690,7 +786,10 @@
       "Regressão de Idade por Sombra",
       "Ataque com Machado e Pistola"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/alessi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/alessi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oingo",
@@ -711,7 +810,10 @@
       "Metamorfose Facial Perfeita",
       "Disfarce"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/oingo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/oingo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "boingo",
@@ -731,7 +833,10 @@
     "techniques": [
       "Previsão em Quadrinhos do Futuro Iminente"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/boingo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/boingo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "steely-dan",
@@ -751,7 +856,10 @@
       "Transmissão Microscópica de Dor Cerebral",
       "Clonagem Celular de Lovers"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/steely-dan.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/steely-dan.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "josuke-higashikata",
@@ -773,7 +881,10 @@
       "Restauração e Cura Molecular",
       "Reconstrução Distorcida de Objetos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/josuke-higashikata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/josuke-higashikata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "okuyasu-nijimura",
@@ -793,7 +904,10 @@
       "Eliminação Espacial pela Mão Direita",
       "Teletransporte por Vácuo Espacial"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/okuyasu-nijimura.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/okuyasu-nijimura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "koichi-hirose",
@@ -814,7 +928,10 @@
       "Echoes ACT2 (Onomatopeias Tácteis)",
       "Echoes ACT3 (3 Freeze - Gravidade)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/koichi-hirose.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/koichi-hirose.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rohan-kishibe",
@@ -834,7 +951,10 @@
       "Heaven's Door (Transformar em Livro)",
       "Edição de Memória e Comandos Absolutos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/rohan-kishibe.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/rohan-kishibe.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoshikage-kira",
@@ -855,7 +975,10 @@
       "Sheer Heart Attack (Segunda Bomba Teleguiada)",
       "Bites the Dust (Terceira Bomba / Loop Temporal)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/yoshikage-kira.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/yoshikage-kira.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reimi-sugimoto",
@@ -874,7 +997,10 @@
     "techniques": [
       "Conexão Espiritual do Beco Sem Saída"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/reimi-sugimoto.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/reimi-sugimoto.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shigekiyo-yangu",
@@ -894,7 +1020,10 @@
       "Coleta Massiva de Harvest (500 Unidades)",
       "Injeção de Substâncias por Agulhas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/shigekiyo-yangu.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/shigekiyo-yangu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yukako-yamagishi",
@@ -914,7 +1043,10 @@
       "Manipulação Capilar Destrutiva",
       "Implante de Fios de Controle"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/yukako-yamagishi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/yukako-yamagishi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mikitaka-hazekura",
@@ -933,7 +1065,10 @@
     "techniques": [
       "Metamorfose em Qualquer Objeto Inanimado"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mikitaka-hazekura.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mikitaka-hazekura.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "keicho-nijimura",
@@ -952,7 +1087,10 @@
     "techniques": [
       "Exército em Miniatura (Infantaria, Tanques e Helicópteros Apache)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/keicho-nijimura.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/keicho-nijimura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "akira-otoishi",
@@ -972,7 +1110,10 @@
       "Absorção de Energia Elétrica",
       "Viagem por Fios de Alta Tensão"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/akira-otoishi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/akira-otoishi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuya-fungami",
@@ -993,7 +1134,10 @@
       "Drenagem de Nutrientes Vitais",
       "Olfato Apuradíssimo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/yuya-fungami.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/yuya-fungami.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tonio-trussardi",
@@ -1013,7 +1157,10 @@
       "Culinária Terapêutica Molecular",
       "Purificação Corporal de Toxinas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tonio-trussardi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tonio-trussardi.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aya-tsuji",
@@ -1033,7 +1180,10 @@
       "Remodelação Estética Facial e Corporal",
       "Troca de Rosto Biológica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/aya-tsuji.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/aya-tsuji.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hayato-kawajiri",
@@ -1053,7 +1203,10 @@
       "Dedução Lógica Genial",
       "Gravação e Espionagem Doméstica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/hayato-kawajiri.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/hayato-kawajiri.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "giorno-giovanna",
@@ -1077,7 +1230,10 @@
       "Cura de Tecidos e Órgãos",
       "Gold Experience Requiem (Retorno ao Zero)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/giorno-giovanna.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/giorno-giovanna.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bruno-bucciarati",
@@ -1099,7 +1255,10 @@
       "Desmembramento Tático sem Dano",
       "Ari Ari Rush"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/bruno-bucciarati.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/bruno-bucciarati.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guido-mista",
@@ -1120,7 +1279,10 @@
       "Redirecionamento Balístico com Sex Pistols (1 a 7, sem o 4)",
       "Tiro de Precisão Extrema"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/guido-mista.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/guido-mista.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "narancia-ghirga",
@@ -1141,7 +1303,10 @@
       "Bombardeio Aéreo e Metralhadoras de Aerosmith",
       "Rastreador de Dióxido de Carbono (Respiração)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/narancia-ghirga.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/narancia-ghirga.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pannacotta-fugo",
@@ -1162,7 +1327,10 @@
       "Vírus Carnívoro das Cápsulas das Mãos",
       "Fúria Descontrolada"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/pannacotta-fugo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/pannacotta-fugo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "leone-abbacchio",
@@ -1183,7 +1351,10 @@
       "Replay Cronológico de Passos e Ações",
       "Gravação Facial e Corporal"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/leone-abbacchio.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/leone-abbacchio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "trish-una",
@@ -1203,7 +1374,10 @@
     "techniques": [
       "Amaciamento de Matéria tornando-a Elástica e Indestrutível"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/trish-una.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/trish-una.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "diavolo",
@@ -1225,7 +1399,10 @@
       "Previsão do Futuro Iminente com Epitaph",
       "Golpe Perfurante Letal"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/diavolo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/diavolo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vinegar-doppio",
@@ -1245,7 +1422,10 @@
       "Previsão Visual de 10 Segundos com Epitaph",
       "Braço Parcial de King Crimson"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/vinegar-doppio.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/vinegar-doppio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "risotto-nero",
@@ -1266,7 +1446,10 @@
       "Materialização de Ferro Orgânico Interno",
       "Camuflagem Óptica por Partículas de Ferro"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/risotto-nero.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/risotto-nero.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "prosciutto",
@@ -1286,7 +1469,10 @@
     "techniques": [
       "Envelhecimento Acelerado por Temperatura Corporal"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/prosciutto.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/prosciutto.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pesci",
@@ -1307,7 +1493,10 @@
       "Linha e Anzol Intangíveis Através de Paredes",
       "Sensoriamento de Batimentos Cardíacos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/pesci.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/pesci.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ghiaccio",
@@ -1328,7 +1517,10 @@
       "Armadura de Gelo Criogênico",
       "Gently Weeps (Reflexo de Projéteis por Ar Congelado)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/ghiaccio.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/ghiaccio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "illuso",
@@ -1348,7 +1540,10 @@
     "techniques": [
       "Arrasto Seletivo para a Dimensão dos Espelhos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/illuso.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/illuso.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "melone",
@@ -1369,7 +1564,10 @@
       "Geração de Homúnculo Rastreador Remoto",
       "Decomposição de Matéria em Blocos Cúbicos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/melone.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/melone.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "formaggio",
@@ -1390,7 +1588,10 @@
       "Encolhimento Progressivo de Alvos",
       "Autoencolhimento Instantâneo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/formaggio.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/formaggio.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cioccolata",
@@ -1411,7 +1612,10 @@
       "Mofo Necrótico Devorador de Descida",
       "Cirurgia de Desmembramento Vivo Autônomo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/cioccolata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/cioccolata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "secco",
@@ -1432,7 +1636,10 @@
       "Liquefação de Solo e Concreto",
       "Natação Subterrânea e Cuspe Balístico de Pedra"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/secco.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/secco.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jolyne-cujoh",
@@ -1454,7 +1661,10 @@
       "Ora Ora Rush",
       "Transmissão de Som por Cordas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/jolyne-cujoh.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/jolyne-cujoh.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ermes-costello",
@@ -1474,7 +1684,10 @@
       "Duplicação de Objetos por Adesivos",
       "Dano por Colisão ao Remover Adesivo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/ermes-costello.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/ermes-costello.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "foo-fighters",
@@ -1494,7 +1707,10 @@
       "Disparo Balístico de Plâncton pelos Dedos",
       "Cura Celular de Ferimentos por Plâncton"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/foo-fighters.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/foo-fighters.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "weather-report",
@@ -1515,7 +1731,10 @@
       "Chuva de Sapos Venenosos",
       "Heavy Weather (Caracóis Subliminares)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/weather-report.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/weather-report.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "narciso-anasui",
@@ -1535,7 +1754,10 @@
       "Armazenamento de Energia de Impacto em Estruturas",
       "Mergulho Corpóreo e Reconfiguração"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/narciso-anasui.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/narciso-anasui.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "emporio-alnino",
@@ -1555,7 +1777,10 @@
       "Habitação e Interação com Objetos Fantasmas da Sala de Música Queimada",
       "Oxigênio Puro de Weather Report"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/emporio-alnino.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/emporio-alnino.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "enrico-pucci",
@@ -1576,7 +1801,10 @@
       "C-MOON (Gravidade Inversa Repulsiva)",
       "Made in Heaven (Aceleração Universal Infinita)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/enrico-pucci.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/enrico-pucci.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "donatello-versus",
@@ -1596,7 +1824,10 @@
       "Escavação de Memórias do Subsolo",
       "Recriação de Catástrofes Históricas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/donatello-versus.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/donatello-versus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rikiel",
@@ -1616,7 +1847,10 @@
       "Controle de Rods Criptozoológicos",
       "Drenagem de Temperatura e Paralisia de Órgãos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/rikiel.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/rikiel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ungalo",
@@ -1635,7 +1869,10 @@
     "techniques": [
       "Materialização Mundial de Personagens Fictícios"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/ungalo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/ungalo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "johngalli-a",
@@ -1655,7 +1892,10 @@
       "Rastreamento de Correntes de Ar",
       "Redirecionamento de Tiros de Sniper"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/johngalli-a.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/johngalli-a.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sports-maxx",
@@ -1674,7 +1914,10 @@
     "techniques": [
       "Ressurreição Zumbi Invisível"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/sports-maxx.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/sports-maxx.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miraschon",
@@ -1693,7 +1936,10 @@
     "techniques": [
       "Cobrador de Apostas Inflexível de Órgãos Vitais"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/miraschon.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/miraschon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "johnny-joestar",
@@ -1715,7 +1961,10 @@
       "Vórtices de Rotação Espacial (ACT3)",
       "Rotação Áurea Infinita (ACT4 - Chumimin!)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/johnny-joestar.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/johnny-joestar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gyro-zeppeli",
@@ -1737,7 +1986,10 @@
       "Retângulo Áureo dos Cavalos",
       "Ball Breaker (Envelhecimento Celular Dimensional)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/gyro-zeppeli.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/gyro-zeppeli.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "funny-valentine",
@@ -1759,7 +2011,10 @@
       "Substituição Corporal Instantânea",
       "D4C Love Train (Redirecionamento de Misérias)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/funny-valentine.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/funny-valentine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "diego-brando",
@@ -1780,7 +2035,10 @@
       "Fossilização de Criaturas",
       "THE WORLD de Outro Universo (Parar o Tempo)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/diego-brando.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/diego-brando.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hot-pants",
@@ -1800,7 +2058,10 @@
       "Spray de Carne Regenerativo e Ofensivo",
       "Disfarce Facial com Carne"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/hot-pants.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/hot-pants.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mountain-tim",
@@ -1819,7 +2080,10 @@
     "techniques": [
       "Desmembramento e Transporte por Cordas de Laço"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mountain-tim.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mountain-tim.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wekapipo",
@@ -1839,7 +2103,10 @@
       "Wrecking Ball",
       "Ataxia Sensorial do Lado Esquerdo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/wekapipo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/wekapipo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ringo-roadagain",
@@ -1859,7 +2126,10 @@
       "Rebobinar o Tempo em 6 Segundos pelo Relógio de Pulso",
       "Duelo Rápido com Revólver"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/ringo-roadagain.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/ringo-roadagain.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "blackmore",
@@ -1879,7 +2149,10 @@
       "Caminhar sobre Gotas de Chuva",
       "Gotas de Chuva como Lâminas Cortantes"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/blackmore.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/blackmore.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lucy-steel",
@@ -1899,7 +2172,10 @@
       "Lágrimas de Lâmina de Vidro Divina",
       "Conexão com o Cadáver Sagrado"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/lucy-steel.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/lucy-steel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "steven-steel",
@@ -1918,7 +2194,10 @@
     "techniques": [
       "Organização e Logística Esportiva Continental"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/steven-steel.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/steven-steel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "josuke-higashikata-gappy",
@@ -1939,7 +2218,10 @@
       "Roubo de Propriedades Físicas por Bolhas de Sabão",
       "Soft & Wet: Go Beyond (Fios Rotacionais Invisíveis que não existem)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/josuke-higashikata-gappy.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/josuke-higashikata-gappy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yasuho-hirose",
@@ -1959,7 +2241,10 @@
       "Navegação e Hackeamento por Dispositivos Digitais",
       "Direcionamento de Escolhas Ótimas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/yasuho-hirose.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/yasuho-hirose.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rai-mamezuku",
@@ -1979,7 +2264,10 @@
       "Desdobramento do Corpo em Tiras de Fita Espiral",
       "Plantio e Botânica Avançada de Frutas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/rai-mamezuku.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/rai-mamezuku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "norisuke-higashikata-iv",
@@ -1998,7 +2286,10 @@
     "techniques": [
       "Rastreamento de Odores em Formato de Quebra-Cabeças de Cartas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/norisuke-higashikata-iv.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/norisuke-higashikata-iv.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jobin-higashikata",
@@ -2018,7 +2309,10 @@
     "techniques": [
       "Acúmulo e Transferência de Calor Pontual Térmico"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/jobin-higashikata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/jobin-higashikata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "joshu-higashikata",
@@ -2037,7 +2331,10 @@
     "techniques": [
       "Desmontagem e Junção de Articulações por Porcas e Parafusos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/joshu-higashikata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/joshu-higashikata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "daiya-higashikata",
@@ -2056,7 +2353,10 @@
     "techniques": [
       "Roubo de Memórias em Formato de Peças de Xadrez"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/daiya-higashikata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/daiya-higashikata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hato-higashikata",
@@ -2075,7 +2375,10 @@
     "techniques": [
       "Extensão e Endurecimento dos Calcanhares como Lanças"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/hato-higashikata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/hato-higashikata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tooru",
@@ -2096,7 +2399,10 @@
       "Fluxo Inevitável da Calamidade Cósmica",
       "Materialização Ilusória como Diretor Médico Satoru Akefu"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tooru.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tooru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tamaki-damo",
@@ -2115,7 +2421,10 @@
     "techniques": [
       "Amolecimento e Liquefação de Tecidos Orgânicos por Impressões Digitais"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tamaki-damo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tamaki-damo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yotsuyu-yagiyama",
@@ -2134,7 +2443,10 @@
     "techniques": [
       "Atração Magnética Balística de Múltiplos Objetos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/yotsuyu-yagiyama.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/yotsuyu-yagiyama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jodio-joestar",
@@ -2154,7 +2466,10 @@
     "techniques": [
       "Chuva Pesada de Gotas com Pressão Esmagadora (November Rain)"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/jodio-joestar.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/jodio-joestar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dragona-joestar",
@@ -2174,7 +2489,10 @@
     "techniques": [
       "Deslocamento e Reposicionamento de Superfícies com Lagartas Mecânicas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/dragona-joestar.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/dragona-joestar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "paco-laburantes",
@@ -2193,7 +2511,10 @@
     "techniques": [
       "Preensão Muscular e Furto por Contração de Pele e Fibras"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/paco-laburantes.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/paco-laburantes.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "usagi-alohaoe",
@@ -2212,7 +2533,10 @@
     "techniques": [
       "Materialização de Desejos de Terceiros a partir de Objetos Existentes"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/usagi-alohaoe.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/usagi-alohaoe.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charming-man",
@@ -2231,7 +2555,10 @@
     "techniques": [
       "Dispersão Cutânea em Grãos de Areia / Camuflagem Mímica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/charming-man.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/charming-man.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "meryl-may-qi",
@@ -2250,7 +2577,10 @@
     "techniques": [
       "Planejamento de Assaltos e Redes Clandestinas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/meryl-may-qi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/meryl-may-qi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bobby-jean",
@@ -2269,7 +2599,10 @@
     "techniques": [
       "Controle de Velocidade Balística em Disparos Silenciosos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/bobby-jean.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/bobby-jean.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tonpetty",
@@ -2291,7 +2624,10 @@
       "Hamon Healing",
       "Ondulação Profunda"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tonpetty.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tonpetty.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "straizo-p1",
@@ -2312,7 +2648,10 @@
       "Hamon Overdrive",
       "Chute de Hamon"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/straizo-p1.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/straizo-p1.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "poco",
@@ -2332,7 +2671,10 @@
       "Coragem Inabalável",
       "Infiltração Pequena"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/poco.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/poco.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wang-chan",
@@ -2352,7 +2694,10 @@
       "Agilidade Sobrenatural",
       "Ataque com Garras"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/wang-chan.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/wang-chan.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "george-joestar-i",
@@ -2372,7 +2717,10 @@
       "Amor Paternal",
       "Nobreza Britânica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/george-joestar-i.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/george-joestar-i.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jack-the-ripper",
@@ -2392,7 +2740,10 @@
       "Lâminas Corporais Ocultas",
       "Ataque Furtivo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/jack-the-ripper.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/jack-the-ripper.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "doobie",
@@ -2411,7 +2762,10 @@
     "techniques": [
       "Liberação de Víboras Venenosas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/doobie.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/doobie.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "straizo-vampire",
@@ -2431,7 +2785,10 @@
       "Space Ripper Stingy Eyes",
       "Auto-destruição por Hamon"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/straizo-vampire.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/straizo-vampire.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "loggins",
@@ -2452,7 +2809,10 @@
       "Hamon Overdrive",
       "Treinamento Rigoroso"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/loggins.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/loggins.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "messina",
@@ -2473,7 +2833,10 @@
       "Hamon Overdrive",
       "Guarda de Lisa Lisa"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/messina.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/messina.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "donovan",
@@ -2493,7 +2856,10 @@
       "Facas de Arremesso",
       "Emboscada no Deserto"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/donovan.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/donovan.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mark",
@@ -2513,7 +2879,10 @@
     "techniques": [
       "Condução Veicular"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mark.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mark.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wired-beck",
@@ -2533,7 +2902,10 @@
       "Espinhos Corporais",
       "Vampirismo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/wired-beck.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/wired-beck.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mario-zeppeli",
@@ -2553,7 +2925,10 @@
       "Hamon Overdrive",
       "Sacrifício Heroico"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mario-zeppeli.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mario-zeppeli.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gray-fly",
@@ -2575,7 +2950,10 @@
       "Arremesso de Língua Secundária",
       "Voo Hipersônico"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/gray-fly.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/gray-fly.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fake-captain-tennille",
@@ -2597,7 +2975,10 @@
       "Cracas Drenadoras de Energia",
       "Escamas Cortantes"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/fake-captain-tennille.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/fake-captain-tennille.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "forever",
@@ -2619,7 +3000,10 @@
       "Manipulação Estrutural de Navio",
       "Guindastes e Paredes Vivas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/forever.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/forever.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "devo-the-cursed",
@@ -2641,7 +3025,10 @@
       "Possessão Vodu",
       "Ataque com Navalha e Arpão"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/devo-the-cursed.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/devo-the-cursed.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rubber-soul",
@@ -2663,7 +3050,10 @@
       "Dissolução Ácida",
       "Mimetismo Físico Perfeito"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/rubber-soul.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/rubber-soul.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nena",
@@ -2685,7 +3075,10 @@
       "Parasitismo Físico",
       "Crescimento Acelerado de Membros"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/nena.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/nena.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zz",
@@ -2707,7 +3100,10 @@
       "Disparo de Gasolina Pressurizada",
       "Transformação Todo-Terreno"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/zz.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/zz.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arabia-fats",
@@ -2729,7 +3125,10 @@
       "Disparos de Energia Térmica",
       "Camuflagem de Espelhos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/arabia-fats.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/arabia-fats.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mannish-boy",
@@ -2751,7 +3150,10 @@
       "Domínio Onírico",
       "Manipulação Psíquica de Sonhos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mannish-boy.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mannish-boy.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cameo",
@@ -2773,7 +3175,10 @@
       "Materialização em Argila",
       "Criação de Clones Falsos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/cameo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/cameo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "midler",
@@ -2795,7 +3200,10 @@
       "Fusão com Minerais e Metais",
       "Mandíbula de Diamante"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/midler.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/midler.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "anubis",
@@ -2817,7 +3225,10 @@
       "Possessão de Portador",
       "Adaptação e Corte Através de Objetos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/anubis.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/anubis.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nukesaku",
@@ -2837,7 +3248,10 @@
       "Rosto Duplo Dissimulado",
       "Regeneração Vampírica Menor"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/nukesaku.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/nukesaku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "holy-kujo",
@@ -2857,7 +3271,10 @@
       "Amor Maternal",
       "Despertar Espiritual Involuntário"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/holy-kujo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/holy-kujo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tamami-kobayashi",
@@ -2879,7 +3296,10 @@
       "Amplificação de Culpa",
       "Indução de Suicídio por Desespero"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tamami-kobayashi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tamami-kobayashi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toshikazu-hazamada",
@@ -2900,7 +3320,10 @@
       "Controle de Movimento Sincronizado",
       "Cópia Facial e Vocal"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/toshikazu-hazamada.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/toshikazu-hazamada.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "anjuro-katagiri",
@@ -2921,7 +3344,10 @@
       "Infiltração Interna em Fluídos",
       "Fusão com Vapor de Água"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/anjuro-katagiri.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/anjuro-katagiri.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shizuka-joestar",
@@ -2942,7 +3368,10 @@
       "Invisibilidade Reativa por Estresse",
       "Transparência de Toque"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/shizuka-joestar.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/shizuka-joestar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoshihiro-kira",
@@ -2963,7 +3392,10 @@
       "Prisão Fotográfica de Realidade",
       "Disparo da Flecha"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/yoshihiro-kira.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/yoshihiro-kira.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ken-oyanagi",
@@ -2984,7 +3416,10 @@
       "Roubo de Energia Espiritual em 5 Rodadas",
       "Buraco na Bochecha"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/ken-oyanagi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/ken-oyanagi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toyohiro-kanedaichi",
@@ -3005,7 +3440,10 @@
       "Reflexão Cinética Perfeita",
       "Metamorfose em Ferro"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/toyohiro-kanedaichi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/toyohiro-kanedaichi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "terunosuke-miyamoto",
@@ -3026,7 +3464,10 @@
       "Aprisionamento em Papel Dobrado",
       "Ocultação de Armas em Folhas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/terunosuke-miyamoto.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/terunosuke-miyamoto.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "masazo-kinoto",
@@ -3047,7 +3488,10 @@
       "Fixação Espinhal",
       "Sussurro Psicológico Incessante"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/masazo-kinoto.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/masazo-kinoto.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "polpo",
@@ -3068,7 +3512,10 @@
       "Movimentação pelas Sombras",
       "Perfuração de Alma com Flecha"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/polpo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/polpo.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mario-zucchero",
@@ -3089,7 +3536,10 @@
       "Desinflar Corpos e Barcos",
       "Esconderijo sob Superfícies Desinfladas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mario-zucchero.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mario-zucchero.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sale",
@@ -3110,7 +3560,10 @@
       "Fixação Vetorial no Espaço",
       "Tap-Tap de Acúmulo Cinético"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/sale.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/sale.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "squalo",
@@ -3131,7 +3584,10 @@
       "Salto entre Líquidos",
       "Adaptação de Tamanho Conforme Volume"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/squalo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/squalo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tiziano",
@@ -3152,7 +3608,10 @@
       "Inversão Forçada da Verdade",
       "Manipulação de Língua"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tiziano.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tiziano.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "carne",
@@ -3173,7 +3632,10 @@
       "Perseguição do Objeto Mais Rápido",
       "Consumo Infinito de Matéria"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/carne.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/carne.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "scolippi",
@@ -3194,7 +3656,10 @@
       "Profecia da Morte Esculpida",
       "Eutanásia Predestinada"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/scolippi.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/scolippi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pericolo",
@@ -3214,7 +3679,10 @@
       "Segredo de Estado",
       "Sacrifício por Lealdade"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/pericolo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/pericolo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gwess",
@@ -3235,7 +3703,10 @@
       "Redução de Escala Corporal",
       "Fantasia de Animal"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/gwess.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/gwess.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lang-rangler",
@@ -3257,7 +3728,10 @@
       "Gravidade Zero Progressiva",
       "Disparo de Parafusos Centrífugos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/lang-rangler.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/lang-rangler.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "viviano-westwood",
@@ -3278,7 +3752,10 @@
       "Atração Balística de Meteoros",
       "Luta Corpo a Corpo Brutal"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/viviano-westwood.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/viviano-westwood.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kenzou",
@@ -3299,7 +3776,10 @@
       "Leitura de Feng Shui Assassino",
       "Golpes nos Pontos Vitais"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/kenzou.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/kenzou.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "d-an-g",
@@ -3321,7 +3801,10 @@
       "Digestão Ácida Silenciosa",
       "Stand Automático Indestrutível"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/d-an-g.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/d-an-g.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guccio",
@@ -3343,7 +3826,10 @@
       "Transmissão Elétrica em Água",
       "Indução de Instinto Primitivo Assassino"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/guccio.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/guccio.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miu-miu",
@@ -3364,7 +3850,10 @@
       "Restrição Mnemônica a 3 Fatos",
       "Manipulação Psicológica"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/miu-miu.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/miu-miu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "romeo-jisso",
@@ -3384,7 +3873,10 @@
       "Status Social e Riqueza",
       "Apoio com Helicóptero Tardio"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/romeo-jisso.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/romeo-jisso.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sandman",
@@ -3406,7 +3898,10 @@
       "Solidificação Sonora",
       "Velocidade Extrema a Pé"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/sandman.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/sandman.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pocoloco",
@@ -3427,7 +3922,10 @@
       "Otimismo e Encorajamento",
       "Sorte Cósmica Passiva"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/pocoloco.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/pocoloco.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oyecomova",
@@ -3448,7 +3946,10 @@
       "Pinos Explosivos",
       "Detonação em Fumaça e Água"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/oyecomova.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/oyecomova.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pork-pie-hat-kid",
@@ -3469,7 +3970,10 @@
       "Iscas Dimensionais",
       "Pesca Aérea de Alvos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/pork-pie-hat-kid.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/pork-pie-hat-kid.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dr-ferdinand",
@@ -3491,7 +3995,10 @@
       "Infecção Dinossáurica",
       "Camuflagem Fóssil"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/dr-ferdinand.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/dr-ferdinand.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fritz-von-stroheim",
@@ -3512,7 +4019,10 @@
       "Prótese Mecânica com Metralhadora",
       "Montaria Veloz"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/fritz-von-stroheim.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/fritz-von-stroheim.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eleven-men",
@@ -3533,7 +4043,10 @@
       "Troca Corporal Instantânea",
       "Fogo Cruzado com Revólveres"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/eleven-men.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/eleven-men.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mike-o",
@@ -3554,7 +4067,10 @@
       "Cães de Balão Metálico",
       "Infiltração Cutânea Explosiva"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mike-o.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mike-o.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "magenta-magenta",
@@ -3576,7 +4092,10 @@
       "Invulnerabilidade Absoluta",
       "Deflexão de Dano para o Solo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/magenta-magenta.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/magenta-magenta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "axl-ro",
@@ -3597,7 +4116,10 @@
       "Manifestação de Culpa e Pecado",
       "Transferência Kármica de Morte"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/axl-ro.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/axl-ro.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "d-i-s-c-o",
@@ -3618,7 +4140,10 @@
       "Grade Cartesiana de Impacto",
       "Teletransporte de Ácido e Agulhas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/d-i-s-c-o.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/d-i-s-c-o.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "scarlet-valentine",
@@ -3638,7 +4163,10 @@
       "Intriga Política",
       "Sedução e Conspiração"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/scarlet-valentine.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/scarlet-valentine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "norisuke-higashikata-i",
@@ -3659,7 +4187,10 @@
       "Montaria Resistente",
       "Visão Empreendedora"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/norisuke-higashikata-i.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/norisuke-higashikata-i.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kei-nijimura",
@@ -3681,7 +4212,10 @@
       "Nevasca e Rajadas Congelantes",
       "Invocação ao Abrir Objetos"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/kei-nijimura.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/kei-nijimura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsurugi-higashikata",
@@ -3702,7 +4236,10 @@
       "Distorção Perceptiva e Ilusão",
       "Animar Dobraduras de Papel"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/tsurugi-higashikata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/tsurugi-higashikata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mitsuba-higashikata",
@@ -3723,7 +4260,10 @@
       "Manipulação Vetorial",
       "Defesa contra Pressão"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/mitsuba-higashikata.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/mitsuba-higashikata.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "holy-joestar-kira",
@@ -3744,7 +4284,10 @@
       "Medicina Avançada",
       "Vínculo Materno"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/holy-joestar-kira.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/holy-joestar-kira.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "josefumi-kujo",
@@ -3766,7 +4309,10 @@
       "Plunder de Propriedades",
       "Enxerto da Nova Locacaca"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/josefumi-kujo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/josefumi-kujo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoshikage-kira-part-8",
@@ -3788,7 +4334,10 @@
       "Sheer Heart Attack Direcionado",
       "Bolhas Explosivas"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/yoshikage-kira-part-8.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/yoshikage-kira-part-8.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "karera-sakunami",
@@ -3809,7 +4358,10 @@
       "Germinação Rápida de Cabelo",
       "Geração de Chamas com Cabelo"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/karera-sakunami.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/karera-sakunami.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ojiro-sasame",
@@ -3830,7 +4382,10 @@
       "Marionetismo Biológico",
       "Surf e Agilidade"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/ojiro-sasame.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/ojiro-sasame.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aisho-dainenjiyama",
@@ -3851,7 +4406,10 @@
       "Tornado Teleguiado Respiratório",
       "Fisiologia de Rocha Humana"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/aisho-dainenjiyama.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/aisho-dainenjiyama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "a-phex-brothers",
@@ -3873,7 +4431,10 @@
       "Gás Corrosivo",
       "Fisiologia de Rocha Humana"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/a-phex-brothers.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/a-phex-brothers.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "urban-guerrilla",
@@ -3894,7 +4455,10 @@
       "Lise Celular Cutânea",
       "Montaria no Mascote Doberman de Pedra Doremifasolati Do"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/urban-guerrilla.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/urban-guerrilla.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "poor-tom",
@@ -3915,7 +4479,10 @@
       "Despressurização Atmosférica Mortal",
       "Ilusões Corporais"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/poor-tom.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/poor-tom.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wu-tomoki",
@@ -3937,7 +4504,10 @@
       "Fragmentação Silicosa",
       "Controle Interno de Órgãos Alheios"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/wu-tomoki.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/wu-tomoki.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dolomite",
@@ -3958,7 +4528,10 @@
       "Zumbificação em Linha Reta Teleguiada",
       "Sensação Térmica em Lagoa"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/dolomite.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/dolomite.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "satoru-akefu",
@@ -3979,7 +4552,10 @@
       "Fluxo da Calamidade",
       "Passagem através de Matéria Sólida"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/satoru-akefu.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/satoru-akefu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lulu",
@@ -4000,7 +4576,10 @@
       "Infiltração Vascular Microscópica",
       "Indução de Aneurisma"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/lulu.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/lulu.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ningbo",
@@ -4021,7 +4600,10 @@
       "Cristalização Terrestre",
       "Resistência Rochosa"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/ningbo.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/ningbo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "acca-howler",
@@ -4041,6 +4623,9 @@
       "Controle Corporativo de Infraestrutura",
       "Influência Política Havaiana"
     ],
-    "avatar": "/avatars/jojos-bizarre-adventure/acca-howler.png"
+    "avatar": "/avatars/jojos-bizarre-adventure/acca-howler.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

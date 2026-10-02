@@ -9,14 +9,18 @@ import { logDailyActivity, unlockAchievement } from '../data/achievements';
 interface VictoryModalProps {
   targetCharacter: Character;
   totalGuesses: number;
-  stats: GameStats;
+  stats?: GameStats;
   isSurrendered?: boolean;
   isLost?: boolean;
   onClose: () => void;
+  onNext?: () => void;
+  nextButtonLabel?: string;
   themeColor?: string;
   animeTitle?: string;
   animeSlug?: string;
   currentMode?: string;
+  customSubtitle?: string;
+  contextExplanation?: string;
 }
 
 export const VictoryModal: React.FC<VictoryModalProps> = ({
@@ -26,14 +30,25 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
   isSurrendered = false,
   isLost = false,
   onClose,
+  onNext,
+  nextButtonLabel = 'Próximo Desafio',
   themeColor = '#dc2626',
   animeTitle = 'Demon Slayer',
   animeSlug,
   currentMode = 'classic',
+  customSubtitle,
+  contextExplanation,
 }) => {
   const [timer, setTimer] = useState(getTimeUntilNextReset());
   const [copied, setCopied] = useState(false);
   const [isGeneratingImage, setIsGeneratingImage] = useState(false);
+
+  const safeStats = stats || {
+    wins: 1,
+    currentStreak: 1,
+    maxStreak: 1,
+    totalGames: 1,
+  };
 
   useEffect(() => {
     // Registra dia ativo no calendário de frequência (Retenção 3)
@@ -57,10 +72,10 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
       if (currentMode === 'quote' && totalGuesses <= 2) {
         unlockAchievement('quote_master');
       }
-      if (stats.currentStreak >= 3) {
+      if (safeStats.currentStreak >= 3) {
         unlockAchievement('streak_3');
       }
-      if (stats.currentStreak >= 7) {
+      if (safeStats.currentStreak >= 7) {
         unlockAchievement('streak_7');
       }
     }
@@ -70,14 +85,14 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [isSurrendered, isLost, currentMode, totalGuesses, stats.currentStreak]);
+  }, [isSurrendered, isLost, currentMode, totalGuesses, safeStats.currentStreak]);
 
   const handleShare = () => {
     const text = isLost
       ? `⚔️ AnimeDLE - ${animeTitle}\nFui derrotado no desafio diário (${targetCharacter.name}) após esgotar as tentativas! 💀\nJogue em https://animedle-9og.pages.dev`
       : isSurrendered
       ? `⚔️ AnimeDLE - ${animeTitle}\nDesisti do desafio diário, mas descobri o personagem (${targetCharacter.name})! 🔥\nJogue em https://animedle-9og.pages.dev`
-      : `⚔️ AnimeDLE - ${animeTitle}\nAcertei o personagem diário (${targetCharacter.name}) em ${totalGuesses} ${totalGuesses === 1 ? 'tentativa' : 'tentativas'}! 🔥\nSequência atual: ${stats.currentStreak} vitória(s)!\nJogue em https://animedle-9og.pages.dev`;
+      : `⚔️ AnimeDLE - ${animeTitle}\nAcertei o personagem diário (${targetCharacter.name}) em ${totalGuesses} ${totalGuesses === 1 ? 'tentativa' : 'tentativas'}! 🔥\nSequência atual: ${safeStats.currentStreak} vitória(s)!\nJogue em https://animedle-9og.pages.dev`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
@@ -93,6 +108,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
       zoom: 'Zoom / Olhos',
       endless: 'Treino',
       grid: 'Grid 3×3',
+      exclusive: 'Modo Exclusivo',
     };
 
     await downloadOrShareImageCard({
@@ -101,11 +117,11 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
       animeSlug,
       characterName: targetCharacter.name,
       characterAvatar: targetCharacter.avatar,
-      characterSub: `${targetCharacter.species} • ${Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation}`,
+      characterSub: `${targetCharacter.species || ''} • ${Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : (targetCharacter.affiliation || targetCharacter.origin || '')}`,
       modeName: modeNames[currentMode] || currentMode,
       totalGuesses,
       isWon: !isSurrendered && !isLost,
-      streak: stats.currentStreak,
+      streak: safeStats.currentStreak,
     }, `animedle-${targetCharacter.id}.png`);
 
     setIsGeneratingImage(false);
@@ -138,7 +154,14 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
         </h2>
         
         {/* Destaque de Quantidade de Tentativas Utilizadas ao Acertar */}
-        {!isSurrendered && !isLost ? (
+        {customSubtitle ? (
+          <div
+            style={{ backgroundColor: `${themeColor}20`, borderColor: `${themeColor}60`, color: themeColor }}
+            className="inline-block mt-2 px-3.5 py-1 rounded-full border text-xs font-black"
+          >
+            {customSubtitle}
+          </div>
+        ) : !isSurrendered && !isLost ? (
           <div
             style={{ backgroundColor: `${themeColor}20`, borderColor: `${themeColor}60`, color: themeColor }}
             className="inline-block mt-2 px-3.5 py-1 rounded-full border text-xs font-black"
@@ -147,7 +170,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
           </div>
         ) : (
           <p className="text-xs text-slate-400 mt-1">
-            {isLost ? 'Você esgotou todas as chances no Zoom 1x!' : 'Aqui está o personagem secreto de hoje:'}
+            {isLost ? 'Você esgotou todas as chances no desafio!' : 'Aqui está o personagem secreto de hoje:'}
           </p>
         )}
 
@@ -165,13 +188,20 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
           <div className="flex-1 min-w-0">
             <h3 style={{ color: themeColor }} className="font-extrabold text-lg truncate">{targetCharacter.name}</h3>
             <p className="text-xs text-slate-300 font-medium truncate">
-              {targetCharacter.species} • {Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation}
+              {targetCharacter.species || ''} {targetCharacter.affiliation ? `• ${Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation}` : targetCharacter.origin ? `• ${targetCharacter.origin}` : ''}
             </p>
             <p className="text-[11px] text-slate-400 italic mt-0.5 truncate">
-              "{targetCharacter.quote || targetCharacter.styleOrPower}"
+              "{targetCharacter.quote || targetCharacter.styleOrPower || ''}"
             </p>
           </div>
         </div>
+
+        {/* Explicação contextual lore se fornecida */}
+        {contextExplanation && (
+          <p className="text-xs text-slate-300 leading-relaxed text-left bg-[#101729] p-3 rounded-xl border border-[#1d273f] my-3">
+            {contextExplanation}
+          </p>
+        )}
 
         {/* Resumo de Estatísticas */}
         <div className="grid grid-cols-3 gap-2 my-4">
@@ -183,11 +213,11 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
             <span className="text-[10px] text-slate-400 uppercase font-bold flex items-center justify-center gap-1">
               <Flame size={12} className="text-amber-500" /> Sequência
             </span>
-            <p className="text-lg font-extrabold text-amber-400">{stats.currentStreak}</p>
+            <p className="text-lg font-extrabold text-amber-400">{safeStats.currentStreak}</p>
           </div>
           <div className="bg-[#111a2d]/80 border border-[#202b43] rounded-xl p-2.5">
             <span className="text-[10px] text-slate-400 uppercase font-bold">Vitórias</span>
-            <p className="text-lg font-extrabold text-emerald-400">{stats.wins}</p>
+            <p className="text-lg font-extrabold text-emerald-400">{safeStats.wins}</p>
           </div>
         </div>
 
@@ -201,10 +231,20 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
 
         {/* Botões de Ação */}
         <div className="space-y-2.5">
+          {onNext && (
+            <button
+              onClick={onNext}
+              style={{ backgroundColor: themeColor }}
+              className="w-full flex items-center justify-center gap-2 text-white font-extrabold py-3 px-4 rounded-xl text-xs shadow-lg transition-all hover:brightness-110 active:scale-95"
+            >
+              <span>{nextButtonLabel}</span>
+            </button>
+          )}
+
           <div className="flex gap-2.5">
             <button
               onClick={handleShare}
-              style={{ backgroundColor: themeColor }}
+              style={onNext ? { backgroundColor: '#1e293b' } : { backgroundColor: themeColor }}
               className="flex-1 flex items-center justify-center gap-2 text-white font-bold py-3 px-3 rounded-xl text-xs shadow-lg transition-all hover:opacity-90 active:scale-95"
             >
               {copied ? <CheckCircle2 size={16} /> : <Share2 size={16} />}

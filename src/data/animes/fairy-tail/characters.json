@@ -18,7 +18,10 @@
       "Lótus Carmesim: Punho do Dragão do Fogo",
       "Modo Dragão de Fogo e Relâmpago"
     ],
-    "avatar": "/avatars/fairy-tail/natsu-dragneel.png"
+    "avatar": "/avatars/fairy-tail/natsu-dragneel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lucy-heartfilia",
@@ -40,7 +43,10 @@
       "Star Dress: Forma de Loke",
       "Chicote do Rio das Estrelas"
     ],
-    "avatar": "/avatars/fairy-tail/lucy-heartfilia.png"
+    "avatar": "/avatars/fairy-tail/lucy-heartfilia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "happy",
@@ -61,7 +67,10 @@
       "Ataque com Peixe Voador",
       "Manobra de Evasão Aérea"
     ],
-    "avatar": "/avatars/fairy-tail/happy.png"
+    "avatar": "/avatars/fairy-tail/happy.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gray-fullbuster",
@@ -82,7 +91,10 @@
       "Espada Zero de Destruição do Demônio de Gelo",
       "Ice-Make: Canhão"
     ],
-    "avatar": "/avatars/fairy-tail/gray-fullbuster.png"
+    "avatar": "/avatars/fairy-tail/gray-fullbuster.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "erza-scarlet",
@@ -103,7 +115,10 @@
       "Armadura Nakagami",
       "Espada Celestial de Fadas"
     ],
-    "avatar": "/avatars/fairy-tail/erza-scarlet.png"
+    "avatar": "/avatars/fairy-tail/erza-scarlet.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wendy-marvell",
@@ -125,7 +140,10 @@
       "Encantamento: Deus Corona & Vernier",
       "Arte Secreta: Broca Celestial"
     ],
-    "avatar": "/avatars/fairy-tail/wendy-marvell.png"
+    "avatar": "/avatars/fairy-tail/wendy-marvell.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "carla",
@@ -146,7 +164,10 @@
       "Visão Precoce do Futuro",
       "Forma Humana de Combate Marcial Branco"
     ],
-    "avatar": "/avatars/fairy-tail/carla.png"
+    "avatar": "/avatars/fairy-tail/carla.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gajeel-redfox",
@@ -168,7 +189,10 @@
       "Bastonete do Dragão de Ferro",
       "Modo Dragão de Ferro e Sombras"
     ],
-    "avatar": "/avatars/fairy-tail/gajeel-redfox.png"
+    "avatar": "/avatars/fairy-tail/gajeel-redfox.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "panther-lily",
@@ -189,7 +213,10 @@
       "Corte com Espada Bustermarm",
       "Voo com Aera Tático"
     ],
-    "avatar": "/avatars/fairy-tail/panther-lily.png"
+    "avatar": "/avatars/fairy-tail/panther-lily.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "juvia-lockser",
@@ -211,7 +238,10 @@
       "Corpo de Água Intangível",
       "Magia Uníssona com Gray"
     ],
-    "avatar": "/avatars/fairy-tail/juvia-lockser.png"
+    "avatar": "/avatars/fairy-tail/juvia-lockser.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "laxus-dreyar",
@@ -233,7 +263,10 @@
       "Alabarda do Céu do Dragão do Raio",
       "Fada Brilhante (Fairy Glitter)"
     ],
-    "avatar": "/avatars/fairy-tail/laxus-dreyar.png"
+    "avatar": "/avatars/fairy-tail/laxus-dreyar.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mirajane-strauss",
@@ -255,7 +288,10 @@
       "Satan Soul: Mirajane Seilah (Macro)",
       "Soul Extinction"
     ],
-    "avatar": "/avatars/fairy-tail/mirajane-strauss.png"
+    "avatar": "/avatars/fairy-tail/mirajane-strauss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "elfman-strauss",
@@ -276,7 +312,10 @@
       "Beast Soul: Homem-Macaco",
       "Beast Soul: Sand Beast"
     ],
-    "avatar": "/avatars/fairy-tail/elfman-strauss.png"
+    "avatar": "/avatars/fairy-tail/elfman-strauss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lisanna-strauss",
@@ -298,7 +337,10 @@
       "Animal Soul: Peixe",
       "Animal Soul: Serpente"
     ],
-    "avatar": "/avatars/fairy-tail/lisanna-strauss.png"
+    "avatar": "/avatars/fairy-tail/lisanna-strauss.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cana-alberona",
@@ -318,7 +360,10 @@
       "Chuva de Cartas Flamejantes e Glaciais",
       "Adivinhação de Tarô e Barreira Protetora"
     ],
-    "avatar": "/avatars/fairy-tail/cana-alberona.png"
+    "avatar": "/avatars/fairy-tail/cana-alberona.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gildarts-clive",
@@ -338,7 +383,10 @@
       "Desmontagem Molecular de Magia",
       "Impacto de Todos os Céus de Empyrean"
     ],
-    "avatar": "/avatars/fairy-tail/gildarts-clive.png"
+    "avatar": "/avatars/fairy-tail/gildarts-clive.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "makarov-dreyar",
@@ -360,7 +408,10 @@
       "Fúria do Titã de Luz",
       "Fogo e Vento Elemental"
     ],
-    "avatar": "/avatars/fairy-tail/makarov-dreyar.png"
+    "avatar": "/avatars/fairy-tail/makarov-dreyar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "mavis-vermillion",
@@ -381,7 +432,10 @@
       "Fairy Law (Lei das Fadas)",
       "Ilusões Militares de Exército"
     ],
-    "avatar": "/avatars/fairy-tail/mavis-vermillion.png"
+    "avatar": "/avatars/fairy-tail/mavis-vermillion.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "precht-gaebolg",
@@ -403,7 +457,10 @@
       "Gênesis do Demônio do Olho do Abismo",
       "Grimoire Heart Fonte de Vida"
     ],
-    "avatar": "/avatars/fairy-tail/precht-gaebolg.png"
+    "avatar": "/avatars/fairy-tail/precht-gaebolg.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "freed-justine",
@@ -425,7 +482,10 @@
       "Barreira Rúnica de Bloqueio de Idade",
       "Dark Écriture: Forma das Trevas"
     ],
-    "avatar": "/avatars/fairy-tail/freed-justine.png"
+    "avatar": "/avatars/fairy-tail/freed-justine.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "bickslow",
@@ -446,7 +506,10 @@
       "Barion Formation",
       "Controle de Corpos com Olhos da Figura"
     ],
-    "avatar": "/avatars/fairy-tail/bickslow.png"
+    "avatar": "/avatars/fairy-tail/bickslow.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "evergreen",
@@ -467,7 +530,10 @@
       "Metralhadora de Agulhas de Fadas",
       "Bomba de Pólen Mágico"
     ],
-    "avatar": "/avatars/fairy-tail/evergreen.png"
+    "avatar": "/avatars/fairy-tail/evergreen.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "levy-mcgarden",
@@ -489,7 +555,10 @@
       "Solid Script: Silent (Silêncio)",
       "Decodificação de Línguas Antigas"
     ],
-    "avatar": "/avatars/fairy-tail/levy-mcgarden.png"
+    "avatar": "/avatars/fairy-tail/levy-mcgarden.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "jet",
@@ -509,7 +578,10 @@
       "Corrida de Alta Velocidade",
       "Golpe com Impulso Acelerado"
     ],
-    "avatar": "/avatars/fairy-tail/jet.png"
+    "avatar": "/avatars/fairy-tail/jet.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "droy",
@@ -529,7 +601,10 @@
       "Knuckle Plant (Soco de Planta Carnívora)",
       "Crescimento de Vinhas de Contenção"
     ],
-    "avatar": "/avatars/fairy-tail/droy.png"
+    "avatar": "/avatars/fairy-tail/droy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "macao-conbolt",
@@ -548,7 +623,10 @@
       "Purple Flare: Punho Flamejante",
       "Chamas Púrpuras Aderentes"
     ],
-    "avatar": "/avatars/fairy-tail/macao-conbolt.png"
+    "avatar": "/avatars/fairy-tail/macao-conbolt.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "romeo-conbolt",
@@ -568,7 +646,10 @@
       "Fogo Azul Glacial",
       "Fogo Roxo Pegajoso"
     ],
-    "avatar": "/avatars/fairy-tail/romeo-conbolt.png"
+    "avatar": "/avatars/fairy-tail/romeo-conbolt.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wakaba-mine",
@@ -587,7 +668,10 @@
       "Fumaça Espiã Moldada",
       "Punhos de Fumaça Asfixiante"
     ],
-    "avatar": "/avatars/fairy-tail/wakaba-mine.png"
+    "avatar": "/avatars/fairy-tail/wakaba-mine.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alzack-connell",
@@ -606,7 +690,10 @@
       "Tiro de Balas de Furacão",
       "Disparo Rápido Duplo de Pistolas"
     ],
-    "avatar": "/avatars/fairy-tail/alzack-connell.png"
+    "avatar": "/avatars/fairy-tail/alzack-connell.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bisca-connell",
@@ -625,7 +712,10 @@
       "Disparo Preciso de Sniper Mágico",
       "Tiro de Larga Escala com Fuzil de Assalto"
     ],
-    "avatar": "/avatars/fairy-tail/bisca-connell.png"
+    "avatar": "/avatars/fairy-tail/bisca-connell.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "asuka-connell",
@@ -644,7 +734,10 @@
       "Disparo Certeiro com Pistola de Rolha",
       "Comando Fofo dos Pais"
     ],
-    "avatar": "/avatars/fairy-tail/asuka-connell.png"
+    "avatar": "/avatars/fairy-tail/asuka-connell.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "max-alors",
@@ -663,7 +756,10 @@
       "Sandstorm (Tempestade de Areia)",
       "Sand Wall de Defesa"
     ],
-    "avatar": "/avatars/fairy-tail/max-alors.png"
+    "avatar": "/avatars/fairy-tail/max-alors.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "warren-rocko",
@@ -682,7 +778,10 @@
       "Transmissão Telepática em Massa",
       "Radar de Localização Mental"
     ],
-    "avatar": "/avatars/fairy-tail/warren-rocko.png"
+    "avatar": "/avatars/fairy-tail/warren-rocko.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nab-lasaro",
@@ -701,7 +800,10 @@
       "Espírito do Javali Furioso",
       "Espírito da Águia Veloz"
     ],
-    "avatar": "/avatars/fairy-tail/nab-lasaro.png"
+    "avatar": "/avatars/fairy-tail/nab-lasaro.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vijeeter-ecor",
@@ -720,7 +822,10 @@
       "Dança da Coragem",
       "Passo Enevoado de Confusão"
     ],
-    "avatar": "/avatars/fairy-tail/vijeeter-ecor.png"
+    "avatar": "/avatars/fairy-tail/vijeeter-ecor.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "laki-olietta",
@@ -739,7 +844,10 @@
       "Wood-Make: Distância para Amantes",
       "Represa de Troncos de Madeira"
     ],
-    "avatar": "/avatars/fairy-tail/laki-olietta.png"
+    "avatar": "/avatars/fairy-tail/laki-olietta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reedus-jonah",
@@ -758,7 +866,10 @@
       "Pintura Viva de Feras",
       "Ilustração de Retirada Tática"
     ],
-    "avatar": "/avatars/fairy-tail/reedus-jonah.png"
+    "avatar": "/avatars/fairy-tail/reedus-jonah.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kinana",
@@ -778,7 +889,10 @@
       "Suporte aos Clientes da Taverna",
       "Ressonância Mental com Cobra"
     ],
-    "avatar": "/avatars/fairy-tail/kinana.png"
+    "avatar": "/avatars/fairy-tail/kinana.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "porlyusica",
@@ -797,7 +911,10 @@
       "Tratamento de Ferimentos Mágicos Fatais",
       "Antídotos Especiais para Venenos de Dragão"
     ],
-    "avatar": "/avatars/fairy-tail/porlyusica.png"
+    "avatar": "/avatars/fairy-tail/porlyusica.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mest-gryder",
@@ -817,7 +934,10 @@
       "Teletransporte Instantâneo Coletivo",
       "Alteração e Apagamento de Memória"
     ],
-    "avatar": "/avatars/fairy-tail/mest-gryder.png"
+    "avatar": "/avatars/fairy-tail/mest-gryder.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuri-dreyar",
@@ -836,7 +956,10 @@
       "Relâmpago Primordial",
       "Combate Físico com Armas de Caçador"
     ],
-    "avatar": "/avatars/fairy-tail/yuri-dreyar.png"
+    "avatar": "/avatars/fairy-tail/yuri-dreyar.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "warrod-sequen",
@@ -856,7 +979,10 @@
       "Reflorestamento de Terras Devastadas",
       "Árvores Gigantescas de Transporte"
     ],
-    "avatar": "/avatars/fairy-tail/warrod-sequen.png"
+    "avatar": "/avatars/fairy-tail/warrod-sequen.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zera",
@@ -876,7 +1002,10 @@
       "Conexão Telepática Coletiva das Fadas",
       "Ilusão Despertadora"
     ],
-    "avatar": "/avatars/fairy-tail/zera.png"
+    "avatar": "/avatars/fairy-tail/zera.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sting-eucliffe",
@@ -897,7 +1026,10 @@
       "White Shadow Dragon Mode",
       "Dragon Force da Luz"
     ],
-    "avatar": "/avatars/fairy-tail/sting-eucliffe.png"
+    "avatar": "/avatars/fairy-tail/sting-eucliffe.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "rogue-cheney",
@@ -918,7 +1050,10 @@
       "Garras do Dragão das Sombras",
       "White Shadow Dragon Mode"
     ],
-    "avatar": "/avatars/fairy-tail/rogue-cheney.png"
+    "avatar": "/avatars/fairy-tail/rogue-cheney.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lector",
@@ -937,7 +1072,10 @@
       "Voo com Aera",
       "Apoio Moral Inabalável"
     ],
-    "avatar": "/avatars/fairy-tail/lector.png"
+    "avatar": "/avatars/fairy-tail/lector.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "frosch",
@@ -956,7 +1094,10 @@
       "Voo com Aera",
       "Fofura Extrema Pacificadora"
     ],
-    "avatar": "/avatars/fairy-tail/frosch.png"
+    "avatar": "/avatars/fairy-tail/frosch.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yukino-agria",
@@ -976,7 +1117,10 @@
       "Invocação de Pisces",
       "Abertura do 13º Portão: Ophiuchus"
     ],
-    "avatar": "/avatars/fairy-tail/yukino-agria.png"
+    "avatar": "/avatars/fairy-tail/yukino-agria.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "minerva-orland",
@@ -999,7 +1143,10 @@
       "Yagdo Rigora",
       "Forma Demoníaca de Neo-Minerva"
     ],
-    "avatar": "/avatars/fairy-tail/minerva-orland.png"
+    "avatar": "/avatars/fairy-tail/minerva-orland.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rufus-lore",
@@ -1019,7 +1166,10 @@
       "Memory-Make: Esquecimento de Feitiços",
       "Ilusão por Memória"
     ],
-    "avatar": "/avatars/fairy-tail/rufus-lore.png"
+    "avatar": "/avatars/fairy-tail/rufus-lore.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "orga-nanagear",
@@ -1039,7 +1189,10 @@
       "Soco de Eletricidade Negra",
       "Canções Mágicas de Batalha"
     ],
-    "avatar": "/avatars/fairy-tail/orga-nanagear.png"
+    "avatar": "/avatars/fairy-tail/orga-nanagear.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jiemma",
@@ -1059,7 +1212,10 @@
       "Explosão de Palma Destruidora",
       "Forma Demoníaca de Chifres de Éter"
     ],
-    "avatar": "/avatars/fairy-tail/jiemma.png"
+    "avatar": "/avatars/fairy-tail/jiemma.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "dobengal",
@@ -1078,7 +1234,10 @@
       "Passo Fantasma Ninja",
       "Corte Veloz das Sombras"
     ],
-    "avatar": "/avatars/fairy-tail/dobengal.png"
+    "avatar": "/avatars/fairy-tail/dobengal.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jura-neekis",
@@ -1099,7 +1258,10 @@
       "Golpe Esmagador da Terra Firme",
       "Paredão de Rocha de Titânio"
     ],
-    "avatar": "/avatars/fairy-tail/jura-neekis.png"
+    "avatar": "/avatars/fairy-tail/jura-neekis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lyon-vastia",
@@ -1119,7 +1281,10 @@
       "Ice-Make: Dragão de Gelo",
       "Ice-Make: Macaco de Neve"
     ],
-    "avatar": "/avatars/fairy-tail/lyon-vastia.png"
+    "avatar": "/avatars/fairy-tail/lyon-vastia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sherria-blendy",
@@ -1139,7 +1304,10 @@
       "Dança das Plumas do Deus do Céu",
       "Auto-Cura Divina Instantânea"
     ],
-    "avatar": "/avatars/fairy-tail/sherria-blendy.png"
+    "avatar": "/avatars/fairy-tail/sherria-blendy.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sherry-blendy",
@@ -1159,7 +1327,10 @@
       "Controle de Marionetes de Pedra",
       "Subjugação de Criaturas Espirituais"
     ],
-    "avatar": "/avatars/fairy-tail/sherry-blendy.png"
+    "avatar": "/avatars/fairy-tail/sherry-blendy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuka-suzuki",
@@ -1178,7 +1349,10 @@
       "Onda de Cancelamento de Feitiços",
       "Barreira Circular Ressonante"
     ],
-    "avatar": "/avatars/fairy-tail/yuka-suzuki.png"
+    "avatar": "/avatars/fairy-tail/yuka-suzuki.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toby-horhorta",
@@ -1197,7 +1371,10 @@
       "Garras de Veneno Paralisante",
       "Salto Acrobático Canino"
     ],
-    "avatar": "/avatars/fairy-tail/toby-horhorta.png"
+    "avatar": "/avatars/fairy-tail/toby-horhorta.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ooba-babasaama",
@@ -1216,7 +1393,10 @@
       "Rodopio Mágico de Punição",
       "Comando de Guilda dos Giratórios"
     ],
-    "avatar": "/avatars/fairy-tail/ooba-babasaama.png"
+    "avatar": "/avatars/fairy-tail/ooba-babasaama.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ichiya-vandalay-kotobuki",
@@ -1238,7 +1418,10 @@
       "Smiling Scent Parfum",
       "Investida do Christina"
     ],
-    "avatar": "/avatars/fairy-tail/ichiya-vandalay-kotobuki.png"
+    "avatar": "/avatars/fairy-tail/ichiya-vandalay-kotobuki.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "hibiki-lates",
@@ -1258,7 +1441,10 @@
       "Download de Feitiços Complexos em Aliados",
       "Telas Virtuais de Proteção Archive"
     ],
-    "avatar": "/avatars/fairy-tail/hibiki-lates.png"
+    "avatar": "/avatars/fairy-tail/hibiki-lates.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ren-akatsuki",
@@ -1278,7 +1464,10 @@
       "Lufada de Vácuo Cortante",
       "Bolsão de Ar Protetor"
     ],
-    "avatar": "/avatars/fairy-tail/ren-akatsuki.png"
+    "avatar": "/avatars/fairy-tail/ren-akatsuki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eve-tearm",
@@ -1298,7 +1487,10 @@
       "White Blizzard (Nevasca Branca)",
       "Esferas Cortantes de Neve Congelante"
     ],
-    "avatar": "/avatars/fairy-tail/eve-tearm.png"
+    "avatar": "/avatars/fairy-tail/eve-tearm.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bob",
@@ -1318,7 +1510,10 @@
       "Atravessar Matéria Sólida",
       "Encantamento de Charme de Pegasus"
     ],
-    "avatar": "/avatars/fairy-tail/bob.png"
+    "avatar": "/avatars/fairy-tail/bob.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "jenny-realight",
@@ -1337,7 +1532,10 @@
       "Machina Soul: Canhões de Laser",
       "Mísseis de Alta Frequência Mecânica"
     ],
-    "avatar": "/avatars/fairy-tail/jenny-realight.png"
+    "avatar": "/avatars/fairy-tail/jenny-realight.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nichiya",
@@ -1357,7 +1555,10 @@
       "Voo com Aera",
       "Parfum Men Compartilhado com Ichiya"
     ],
-    "avatar": "/avatars/fairy-tail/nichiya.png"
+    "avatar": "/avatars/fairy-tail/nichiya.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "kagura-mikazuchi",
@@ -1377,7 +1578,10 @@
       "Distorção Gravitacional Territorial",
       "Corte Supremo da Espada Desembainhada"
     ],
-    "avatar": "/avatars/fairy-tail/kagura-mikazuchi.png"
+    "avatar": "/avatars/fairy-tail/kagura-mikazuchi.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "millianna",
@@ -1398,7 +1602,10 @@
       "Garras Cortantes de Felino",
       "Kitten Blast"
     ],
-    "avatar": "/avatars/fairy-tail/millianna.png"
+    "avatar": "/avatars/fairy-tail/millianna.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arana-webb",
@@ -1417,7 +1624,10 @@
       "Rede Adesiva de Fios de Teia",
       "Fio Cortante Transversal"
     ],
-    "avatar": "/avatars/fairy-tail/arana-webb.png"
+    "avatar": "/avatars/fairy-tail/arana-webb.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "risley-law",
@@ -1436,7 +1646,10 @@
       "Metamorfose Instantânea entre Robusta e Esbelta",
       "Esmagamento de Gravidade Pesada"
     ],
-    "avatar": "/avatars/fairy-tail/risley-law.png"
+    "avatar": "/avatars/fairy-tail/risley-law.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "beth-vanderwood",
@@ -1455,7 +1668,10 @@
       "Disparo de Cenouras Teleguiadas",
       "Bombardeio de Vegetais Mágicos"
     ],
-    "avatar": "/avatars/fairy-tail/beth-vanderwood.png"
+    "avatar": "/avatars/fairy-tail/beth-vanderwood.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bacchus-groh",
@@ -1474,7 +1690,10 @@
       "Golpe da Palma Bêbada Quebra-Rocha",
       "Impacto da Palma de Cerberus"
     ],
-    "avatar": "/avatars/fairy-tail/bacchus-groh.png"
+    "avatar": "/avatars/fairy-tail/bacchus-groh.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rocker",
@@ -1493,7 +1712,10 @@
       "Giro Perfurante de Broca",
       "Ataque Furadeira Subterrânea"
     ],
-    "avatar": "/avatars/fairy-tail/rocker.png"
+    "avatar": "/avatars/fairy-tail/rocker.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jellal-fernandes",
@@ -1516,7 +1738,10 @@
       "Meteor (Velocidade Cósmica)",
       "Altairis (Orbe da Escuridão Estelar)"
     ],
-    "avatar": "/avatars/fairy-tail/jellal-fernandes.png"
+    "avatar": "/avatars/fairy-tail/jellal-fernandes.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "ultear-milkovich",
@@ -1538,7 +1763,10 @@
       "Orbe do Arco do Tempo",
       "Ice-Make Moldado de Ur"
     ],
-    "avatar": "/avatars/fairy-tail/ultear-milkovich.png"
+    "avatar": "/avatars/fairy-tail/ultear-milkovich.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "meredy",
@@ -1559,7 +1787,10 @@
       "Maguilty Sodom (Espadas de Emoção)",
       "Maguilty Water com Juvia"
     ],
-    "avatar": "/avatars/fairy-tail/meredy.png"
+    "avatar": "/avatars/fairy-tail/meredy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ur",
@@ -1579,7 +1810,10 @@
       "Ice-Make: Rosas Glaciais",
       "Ice-Make: Escudo de Ur"
     ],
-    "avatar": "/avatars/fairy-tail/ur.png"
+    "avatar": "/avatars/fairy-tail/ur.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "silver-fullbuster",
@@ -1599,7 +1833,10 @@
       "Congelamento Instantâneo da Vila do Sol",
       "Transmissão da Marca de Devil Slayer para Gray"
     ],
-    "avatar": "/avatars/fairy-tail/silver-fullbuster.png"
+    "avatar": "/avatars/fairy-tail/silver-fullbuster.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jose-porla",
@@ -1620,7 +1857,10 @@
       "Canhão de Destruição Júpiter",
       "Feitiço do Gigante MK II"
     ],
-    "avatar": "/avatars/fairy-tail/jose-porla.png"
+    "avatar": "/avatars/fairy-tail/jose-porla.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "aria",
@@ -1640,7 +1880,10 @@
       "Espaço Aéreo Zero",
       "Lâminas Cortantes de Vácuo"
     ],
-    "avatar": "/avatars/fairy-tail/aria.png"
+    "avatar": "/avatars/fairy-tail/aria.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "sol",
@@ -1659,7 +1902,10 @@
       "Dança da Rocha Esmagadora",
       "Lama da Memória Culposa"
     ],
-    "avatar": "/avatars/fairy-tail/sol.png"
+    "avatar": "/avatars/fairy-tail/sol.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "totomaru",
@@ -1679,7 +1925,10 @@
       "Fogo Laranja Fedorento",
       "Manipulação do Fogo Alheio"
     ],
-    "avatar": "/avatars/fairy-tail/totomaru.png"
+    "avatar": "/avatars/fairy-tail/totomaru.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "erigor",
@@ -1699,7 +1948,10 @@
       "Tempestade da Foice da Morte",
       "Flauta Lullaby"
     ],
-    "avatar": "/avatars/fairy-tail/erigor.png"
+    "avatar": "/avatars/fairy-tail/erigor.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "kageyama",
@@ -1718,7 +1970,10 @@
       "Estocada das Sombras Pontiagudas",
       "Passagem nas Paredes pelas Sombras"
     ],
-    "avatar": "/avatars/fairy-tail/kageyama.png"
+    "avatar": "/avatars/fairy-tail/kageyama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rayule",
@@ -1736,7 +1991,10 @@
     "techniques": [
       "Cortes Cruzados com Lâminas de Pulso"
     ],
-    "avatar": "/avatars/fairy-tail/rayule.png"
+    "avatar": "/avatars/fairy-tail/rayule.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "simon",
@@ -1756,7 +2014,10 @@
       "Escudo Protetor de Trevas",
       "Bloqueio do Feitiço Mortal de Jellal"
     ],
-    "avatar": "/avatars/fairy-tail/simon.png"
+    "avatar": "/avatars/fairy-tail/simon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sho",
@@ -1775,7 +2036,10 @@
       "Selamento em Carta Baralho",
       "Disparo Cortante de Cartas Gigantes"
     ],
-    "avatar": "/avatars/fairy-tail/sho.png"
+    "avatar": "/avatars/fairy-tail/sho.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wally-buchanan",
@@ -1795,7 +2059,10 @@
       "Desmontagem em Cubos Poligonais",
       "Tiros de Pistola Tática"
     ],
-    "avatar": "/avatars/fairy-tail/wally-buchanan.png"
+    "avatar": "/avatars/fairy-tail/wally-buchanan.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ikaruga",
@@ -1815,7 +2082,10 @@
       "Chamas da Fênix Vermelha",
       "Despedaçamento de Armaduras de Erza"
     ],
-    "avatar": "/avatars/fairy-tail/ikaruga.png"
+    "avatar": "/avatars/fairy-tail/ikaruga.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "fukuro",
@@ -1834,7 +2104,10 @@
       "Engolimento Digestivo de Natsu",
       "Uso Temporário das Chamas do Dragão"
     ],
-    "avatar": "/avatars/fairy-tail/fukuro.png"
+    "avatar": "/avatars/fairy-tail/fukuro.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "vidaldus-taka",
@@ -1853,7 +2126,10 @@
       "Lavagem Cerebral Rocker em Juvia",
       "Absorção de Água com Cabelo Rastafári"
     ],
-    "avatar": "/avatars/fairy-tail/vidaldus-taka.png"
+    "avatar": "/avatars/fairy-tail/vidaldus-taka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ivan-dreyar",
@@ -1873,7 +2149,10 @@
       "Shikigami de Papel Ilusório",
       "Projeção Mágica de Alexei"
     ],
-    "avatar": "/avatars/fairy-tail/ivan-dreyar.png"
+    "avatar": "/avatars/fairy-tail/ivan-dreyar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "flare-corona",
@@ -1893,7 +2172,10 @@
       "Cabelo Flamejante Teleguiado",
       "Chicote Incendiário com Cabelo"
     ],
-    "avatar": "/avatars/fairy-tail/flare-corona.png"
+    "avatar": "/avatars/fairy-tail/flare-corona.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurohebi",
@@ -1912,7 +2194,10 @@
       "Garras de Areia da Serpente",
       "Evasão Arenosa Subterrânea"
     ],
-    "avatar": "/avatars/fairy-tail/kurohebi.png"
+    "avatar": "/avatars/fairy-tail/kurohebi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nullpudding",
@@ -1931,7 +2216,10 @@
       "Espetos Metálicos Corporais",
       "Rolamento Espinhoso"
     ],
-    "avatar": "/avatars/fairy-tail/nullpudding.png"
+    "avatar": "/avatars/fairy-tail/nullpudding.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "obra",
@@ -1951,7 +2239,10 @@
       "Anulação Total de Mana",
       "Fuga das Sombras com Criatura Oculta"
     ],
-    "avatar": "/avatars/fairy-tail/obra.png"
+    "avatar": "/avatars/fairy-tail/obra.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "brain",
@@ -1971,7 +2262,10 @@
       "Dark Rondo",
       "Comando das Seis Chaves de Selo"
     ],
-    "avatar": "/avatars/fairy-tail/brain.png"
+    "avatar": "/avatars/fairy-tail/brain.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "midnight",
@@ -1992,7 +2286,10 @@
       "Distorção de Visão Espacial",
       "Spiral Pain"
     ],
-    "avatar": "/avatars/fairy-tail/midnight.png"
+    "avatar": "/avatars/fairy-tail/midnight.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cobra",
@@ -2014,7 +2311,10 @@
       "Leitura da Mente por Audição",
       "Companheirismo com Cubellios"
     ],
-    "avatar": "/avatars/fairy-tail/cobra.png"
+    "avatar": "/avatars/fairy-tail/cobra.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sorano-agria",
@@ -2034,7 +2334,10 @@
       "Invocação de Anjos das Moedas Celestiais",
       "Chuva de Luz Purificadora"
     ],
-    "avatar": "/avatars/fairy-tail/sorano-agria.png"
+    "avatar": "/avatars/fairy-tail/sorano-agria.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "racer",
@@ -2055,7 +2358,10 @@
       "Disparo de Mísseis em Alta Velocidade",
       "Passo Relâmpago de Corrida"
     ],
-    "avatar": "/avatars/fairy-tail/racer.png"
+    "avatar": "/avatars/fairy-tail/racer.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hoteye",
@@ -2075,7 +2381,10 @@
       "Transformação do Solo em Lama Movediça",
       "Ondas Terrestres Amaciadas"
     ],
-    "avatar": "/avatars/fairy-tail/hoteye.png"
+    "avatar": "/avatars/fairy-tail/hoteye.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "klodoa",
@@ -2095,7 +2404,10 @@
       "Disparos de Energia Negra",
       "Voo Giratório Flutuante"
     ],
-    "avatar": "/avatars/fairy-tail/klodoa.png"
+    "avatar": "/avatars/fairy-tail/klodoa.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bluenote-stinger",
@@ -2115,7 +2427,10 @@
       "Buraco Negro Gravitacional (Black Hole)",
       "Esmagamento Gravitacional em Área"
     ],
-    "avatar": "/avatars/fairy-tail/bluenote-stinger.png"
+    "avatar": "/avatars/fairy-tail/bluenote-stinger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "azuma",
@@ -2135,7 +2450,10 @@
       "Terra Clamorosa",
       "Absorção do Poder da Árvore Tenrou"
     ],
-    "avatar": "/avatars/fairy-tail/azuma.png"
+    "avatar": "/avatars/fairy-tail/azuma.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rustyrose",
@@ -2155,7 +2473,10 @@
       "Braço de Demônio da Imaginação",
       "Geração de Feras Míticas"
     ],
-    "avatar": "/avatars/fairy-tail/rustyrose.png"
+    "avatar": "/avatars/fairy-tail/rustyrose.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zancrow",
@@ -2175,7 +2496,10 @@
       "Jantar do Deus do Fogo",
       "Scythe do Deus do Fogo"
     ],
-    "avatar": "/avatars/fairy-tail/zancrow.png"
+    "avatar": "/avatars/fairy-tail/zancrow.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kain-hikaru",
@@ -2195,7 +2519,10 @@
       "Transformação de Ferro no Boneco",
       "Pisada Gigante"
     ],
-    "avatar": "/avatars/fairy-tail/kain-hikaru.png"
+    "avatar": "/avatars/fairy-tail/kain-hikaru.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zoldeo",
@@ -2214,7 +2541,10 @@
       "Subordinação de Magos",
       "Possessão Corporal Espiritual"
     ],
-    "avatar": "/avatars/fairy-tail/zoldeo.png"
+    "avatar": "/avatars/fairy-tail/zoldeo.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mard-geer-tartaros",
@@ -2234,7 +2564,10 @@
       "Prisão de Espinhos Venenosos",
       "Forma Verdadeira Etherious Mard Geer"
     ],
-    "avatar": "/avatars/fairy-tail/mard-geer-tartaros.png"
+    "avatar": "/avatars/fairy-tail/mard-geer-tartaros.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "kyoka",
@@ -2254,7 +2587,10 @@
       "Roubo dos Cinco Sentidos",
       "Garras de Falcão Demoníaco"
     ],
-    "avatar": "/avatars/fairy-tail/kyoka.png"
+    "avatar": "/avatars/fairy-tail/kyoka.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "seilah",
@@ -2274,7 +2610,10 @@
       "Liberação de Limitadores Corporais",
       "Forma Demoníaca com Asas de Olhos"
     ],
-    "avatar": "/avatars/fairy-tail/seilah.png"
+    "avatar": "/avatars/fairy-tail/seilah.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jackal",
@@ -2294,7 +2633,10 @@
       "Criação de Esferas Explosivas",
       "Autodestruição em Massa de Tartaros"
     ],
-    "avatar": "/avatars/fairy-tail/jackal.png"
+    "avatar": "/avatars/fairy-tail/jackal.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tempester",
@@ -2314,7 +2656,10 @@
       "Nuvem Letal de Partículas Anti-Magia",
       "Chamas e Relâmpagos Naturais"
     ],
-    "avatar": "/avatars/fairy-tail/tempester.png"
+    "avatar": "/avatars/fairy-tail/tempester.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "torafuzar",
@@ -2334,7 +2679,10 @@
       "Pele Blindada de Tubarão Espadarte",
       "Lâminas de Braço"
     ],
-    "avatar": "/avatars/fairy-tail/torafuzar.png"
+    "avatar": "/avatars/fairy-tail/torafuzar.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ezel",
@@ -2354,7 +2702,10 @@
       "Tentáculos de Espada Quádrupla",
       "Modo Etherious Cortador"
     ],
-    "avatar": "/avatars/fairy-tail/ezel.png"
+    "avatar": "/avatars/fairy-tail/ezel.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "franmalth",
@@ -2374,7 +2725,10 @@
       "Mimetismo dos Poderes de Hades",
       "Estiramento Elástico"
     ],
-    "avatar": "/avatars/fairy-tail/franmalth.png"
+    "avatar": "/avatars/fairy-tail/franmalth.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "keyes",
@@ -2393,7 +2747,10 @@
       "Controle Necromântico de Silver",
       "Nuvem Corporal de Partículas de Barreira"
     ],
-    "avatar": "/avatars/fairy-tail/keyes.png"
+    "avatar": "/avatars/fairy-tail/keyes.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lamy",
@@ -2412,7 +2769,10 @@
       "Evasão Escorregadia",
       "Operação do Núcleo de Ressurreição Demoníaca"
     ],
-    "avatar": "/avatars/fairy-tail/lamy.png"
+    "avatar": "/avatars/fairy-tail/lamy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zeref-dragneel",
@@ -2434,7 +2794,10 @@
       "Fada do Coração (Fairy Heart)",
       "Criação dos Livros de Zeref"
     ],
-    "avatar": "/avatars/fairy-tail/zeref-dragneel.png"
+    "avatar": "/avatars/fairy-tail/zeref-dragneel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "august",
@@ -2455,7 +2818,10 @@
       "Cópia e Anulação Mágica Imediata",
       "Magia dos Quatro Elementos Primordiais"
     ],
-    "avatar": "/avatars/fairy-tail/august.png"
+    "avatar": "/avatars/fairy-tail/august.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "irene-belserion",
@@ -2476,7 +2842,10 @@
       "Deus Sema (Meteoro Celeste Divino)",
       "Forma Verdadeira de Dragão Sábio"
     ],
-    "avatar": "/avatars/fairy-tail/irene-belserion.png"
+    "avatar": "/avatars/fairy-tail/irene-belserion.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "larcade-dragneel",
@@ -2496,7 +2865,10 @@
       "Fome Coletiva Insaciável",
       "R.I.P. (Sono Eterno Mortal)"
     ],
-    "avatar": "/avatars/fairy-tail/larcade-dragneel.png"
+    "avatar": "/avatars/fairy-tail/larcade-dragneel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "invel-yura",
@@ -2516,7 +2888,10 @@
       "Armadura Glacial Verdadeira de Kamui",
       "Nevasca da Morte Branca"
     ],
-    "avatar": "/avatars/fairy-tail/invel-yura.png"
+    "avatar": "/avatars/fairy-tail/invel-yura.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "brandish-mu",
@@ -2537,7 +2912,10 @@
       "Encolhimento de Ferimentos e Tumores",
       "Aumento Gigante de Aliados"
     ],
-    "avatar": "/avatars/fairy-tail/brandish-mu.png"
+    "avatar": "/avatars/fairy-tail/brandish-mu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dimaria-yesta",
@@ -2557,7 +2935,10 @@
       "God Soul: Chronos",
       "Lâminas Esmagadoras do Tempo"
     ],
-    "avatar": "/avatars/fairy-tail/dimaria-yesta.png"
+    "avatar": "/avatars/fairy-tail/dimaria-yesta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ajeel-raml",
@@ -2577,7 +2958,10 @@
       "Sand Monster",
       "Desidratação por Sucção Arenosa"
     ],
-    "avatar": "/avatars/fairy-tail/ajeel-raml.png"
+    "avatar": "/avatars/fairy-tail/ajeel-raml.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "god-serena",
@@ -2599,7 +2983,10 @@
       "Inundação do Dragão da Água",
       "Corte do Dragão do Vento"
     ],
-    "avatar": "/avatars/fairy-tail/god-serena.png"
+    "avatar": "/avatars/fairy-tail/god-serena.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bloodman",
@@ -2619,7 +3006,10 @@
       "Esferas de Morte de Partículas Tóxicas",
       "Submersão do Tenchi Kaimei"
     ],
-    "avatar": "/avatars/fairy-tail/bloodman.png"
+    "avatar": "/avatars/fairy-tail/bloodman.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wahl-icht",
@@ -2639,7 +3029,10 @@
       "Canhão de Éter Étherion em Miniatura",
       "Metamorfose em Forma Balística Pesada"
     ],
-    "avatar": "/avatars/fairy-tail/wahl-icht.png"
+    "avatar": "/avatars/fairy-tail/wahl-icht.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "neinhart",
@@ -2658,7 +3051,10 @@
       "Invocação das Histórias de Inimigos Mortos (Ur, Hades, Simon...)",
       "Rajada de Vento Negro"
     ],
-    "avatar": "/avatars/fairy-tail/neinhart.png"
+    "avatar": "/avatars/fairy-tail/neinhart.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jacob-lessio",
@@ -2678,7 +3074,10 @@
       "Furtividade Absoluta Invisível",
       "Olhar Modesto (Pudor Extremo perante Mulheres)"
     ],
-    "avatar": "/avatars/fairy-tail/jacob-lessio.png"
+    "avatar": "/avatars/fairy-tail/jacob-lessio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marin-hollow",
@@ -2698,7 +3097,10 @@
       "Cancelamento Espacial",
       "Relaxation Room"
     ],
-    "avatar": "/avatars/fairy-tail/marin-hollow.png"
+    "avatar": "/avatars/fairy-tail/marin-hollow.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yajeel",
@@ -2717,7 +3119,10 @@
       "Conselho Político",
       "Mediação de Guerra"
     ],
-    "avatar": "/avatars/fairy-tail/yajeel.png"
+    "avatar": "/avatars/fairy-tail/yajeel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "igneel",
@@ -2738,7 +3143,10 @@
       "Garras de Fogo Dilacerantes de Acnologia",
       "Chamas Eternas da Criação"
     ],
-    "avatar": "/avatars/fairy-tail/igneel.png"
+    "avatar": "/avatars/fairy-tail/igneel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grandeeney",
@@ -2758,7 +3166,10 @@
       "Brisa Restauradora dos Céus",
       "Destruição de Lacrimas de Face"
     ],
-    "avatar": "/avatars/fairy-tail/grandeeney.png"
+    "avatar": "/avatars/fairy-tail/grandeeney.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "metalicana",
@@ -2778,7 +3189,10 @@
       "Rugido de Ferro Esmagador",
       "Escamas de Aço Blindadas"
     ],
-    "avatar": "/avatars/fairy-tail/metalicana.png"
+    "avatar": "/avatars/fairy-tail/metalicana.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "weisslogia",
@@ -2798,7 +3212,10 @@
       "Luz Purificadora de Face",
       "Rugido Sagrado"
     ],
-    "avatar": "/avatars/fairy-tail/weisslogia.png"
+    "avatar": "/avatars/fairy-tail/weisslogia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "skiadrum",
@@ -2818,7 +3235,10 @@
       "Névoa de Sombras Esmagadoras",
       "Destruição de Face"
     ],
-    "avatar": "/avatars/fairy-tail/skiadrum.png"
+    "avatar": "/avatars/fairy-tail/skiadrum.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "acnologia",
@@ -2839,7 +3259,10 @@
       "Chuva Estelar do Fim dos Tempos",
       "Forma Humana Assassina de Deuses"
     ],
-    "avatar": "/avatars/fairy-tail/acnologia.png"
+    "avatar": "/avatars/fairy-tail/acnologia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "atlas-flame",
@@ -2859,7 +3282,10 @@
       "Chamas do Inferno que Queimam Magia",
       "Voo Incendiário"
     ],
-    "avatar": "/avatars/fairy-tail/atlas-flame.png"
+    "avatar": "/avatars/fairy-tail/atlas-flame.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zirconis",
@@ -2878,7 +3304,10 @@
       "Desintegração de Roupas Humanas",
       "Rugido de Jade"
     ],
-    "avatar": "/avatars/fairy-tail/zirconis.png"
+    "avatar": "/avatars/fairy-tail/zirconis.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "motherglare",
@@ -2897,7 +3326,10 @@
       "Chuva de Ovos com Criaturas Dracônicas",
       "Rugido Perfurante"
     ],
-    "avatar": "/avatars/fairy-tail/motherglare.png"
+    "avatar": "/avatars/fairy-tail/motherglare.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "celestial-spirit-king",
@@ -2918,7 +3350,10 @@
       "Meteor Blade (Corte Estelar de Espada Gigante)",
       "Paralisação Temporal Cósmica"
     ],
-    "avatar": "/avatars/fairy-tail/celestial-spirit-king.png"
+    "avatar": "/avatars/fairy-tail/celestial-spirit-king.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "loke-leo",
@@ -2939,7 +3374,10 @@
       "Punho de Luz Solar Regulus",
       "Rajada Omnidirecional de Luz"
     ],
-    "avatar": "/avatars/fairy-tail/loke-leo.png"
+    "avatar": "/avatars/fairy-tail/loke-leo.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "aquarius",
@@ -2960,7 +3398,10 @@
       "Tsunami Gigantesco com Jarro",
       "Redemoinho Dilacerante de Água"
     ],
-    "avatar": "/avatars/fairy-tail/aquarius.png"
+    "avatar": "/avatars/fairy-tail/aquarius.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "taurus",
@@ -2980,7 +3421,10 @@
       "Golpe Rachador de Terra com Machado Labrys",
       "Investida de Chifres de Touro"
     ],
-    "avatar": "/avatars/fairy-tail/taurus.png"
+    "avatar": "/avatars/fairy-tail/taurus.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "virgo",
@@ -3001,7 +3445,10 @@
       "Spica Drive",
       "Correntes Subterrâneas"
     ],
-    "avatar": "/avatars/fairy-tail/virgo.png"
+    "avatar": "/avatars/fairy-tail/virgo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aries",
@@ -3022,7 +3469,10 @@
       "Wool Wall",
       "Wool Shot"
     ],
-    "avatar": "/avatars/fairy-tail/aries.png"
+    "avatar": "/avatars/fairy-tail/aries.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sagittarius",
@@ -3042,7 +3492,10 @@
       "Disparo Triplo de Flechas Explosivas",
       "Chuva de Flechas de Fogo"
     ],
-    "avatar": "/avatars/fairy-tail/sagittarius.png"
+    "avatar": "/avatars/fairy-tail/sagittarius.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cancer",
@@ -3062,7 +3515,10 @@
       "Cortes Ultrarrápidos de Tesoura Dupla",
       "Corte de Alta Frequência Ebi"
     ],
-    "avatar": "/avatars/fairy-tail/cancer.png"
+    "avatar": "/avatars/fairy-tail/cancer.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gemini",
@@ -3082,7 +3538,10 @@
       "Mimetismo de Forma e Feitiços",
       "Urano Metria Conjunto com Lucy"
     ],
-    "avatar": "/avatars/fairy-tail/gemini.png"
+    "avatar": "/avatars/fairy-tail/gemini.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "scorpio",
@@ -3103,7 +3562,10 @@
       "Sand Buster (Tornado da Cauda)",
       "Canhão Arenoso Teleguiado"
     ],
-    "avatar": "/avatars/fairy-tail/scorpio.png"
+    "avatar": "/avatars/fairy-tail/scorpio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "capricorn",
@@ -3124,7 +3586,10 @@
       "Combate de Artes Marciais San-Guan",
       "Salto Perfurante com Chifres"
     ],
-    "avatar": "/avatars/fairy-tail/capricorn.png"
+    "avatar": "/avatars/fairy-tail/capricorn.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pisces",
@@ -3144,7 +3609,10 @@
       "Investida dos Peixes Voadores",
       "Disparo Aquático com Lanças de Mãe e Filho"
     ],
-    "avatar": "/avatars/fairy-tail/pisces.png"
+    "avatar": "/avatars/fairy-tail/pisces.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "libra",
@@ -3164,7 +3632,10 @@
       "Inversão e Aumento Gravitacional Esmagador",
       "Levitação de Alvos"
     ],
-    "avatar": "/avatars/fairy-tail/libra.png"
+    "avatar": "/avatars/fairy-tail/libra.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ophiuchus",
@@ -3184,7 +3655,10 @@
       "Mordida Gigantesca da Serpente de Éter",
       "Constrição Titânica"
     ],
-    "avatar": "/avatars/fairy-tail/ophiuchus.png"
+    "avatar": "/avatars/fairy-tail/ophiuchus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "plue",
@@ -3204,7 +3678,10 @@
       "Dança da Alegria",
       "Conforto Emocional Infinito"
     ],
-    "avatar": "/avatars/fairy-tail/plue.png"
+    "avatar": "/avatars/fairy-tail/plue.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "horologium",
@@ -3224,7 +3701,10 @@
       "Abrigo à Prova de Explosões e Frio",
       "Transmissão da Voz de Lucy"
     ],
-    "avatar": "/avatars/fairy-tail/horologium.png"
+    "avatar": "/avatars/fairy-tail/horologium.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "crux",
@@ -3244,7 +3724,10 @@
       "Varredura de Registros Mágicos Estelares",
       "Sonolência Astrológica"
     ],
-    "avatar": "/avatars/fairy-tail/crux.png"
+    "avatar": "/avatars/fairy-tail/crux.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lyra",
@@ -3264,7 +3747,10 @@
       "Melodia Harmoniosa da Alma",
       "Canto Tranquilizador"
     ],
-    "avatar": "/avatars/fairy-tail/lyra.png"
+    "avatar": "/avatars/fairy-tail/lyra.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hisui-e-fiore",
@@ -3283,7 +3769,10 @@
       "Abertura do Portão Eclipse",
       "Gottfried com Lucy e Yukino"
     ],
-    "avatar": "/avatars/fairy-tail/hisui-e-fiore.png"
+    "avatar": "/avatars/fairy-tail/hisui-e-fiore.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arcadios",
@@ -3302,7 +3791,10 @@
       "Mergulho Protetor em Magma",
       "Esgrima de Cavaleiro Real"
     ],
-    "avatar": "/avatars/fairy-tail/arcadios.png"
+    "avatar": "/avatars/fairy-tail/arcadios.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "kamika",
@@ -3321,7 +3813,10 @@
       "Papel Vermelho Flamejante",
       "Papel Roxo Venenoso"
     ],
-    "avatar": "/avatars/fairy-tail/kamika.png"
+    "avatar": "/avatars/fairy-tail/kamika.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cosmos",
@@ -3340,7 +3835,10 @@
       "Esporos do Sono Profundo",
       "Flores Vorazes de Engolimento"
     ],
-    "avatar": "/avatars/fairy-tail/cosmos.png"
+    "avatar": "/avatars/fairy-tail/cosmos.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kama",
@@ -3359,7 +3857,10 @@
       "Dança das Foices Duplas",
       "Corte em Cruz Dilacerante"
     ],
-    "avatar": "/avatars/fairy-tail/kama.png"
+    "avatar": "/avatars/fairy-tail/kama.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "uosuke",
@@ -3378,7 +3879,10 @@
       "Zona de Lava Ardente",
       "Zona Gravitacional Aquática"
     ],
-    "avatar": "/avatars/fairy-tail/uosuke.png"
+    "avatar": "/avatars/fairy-tail/uosuke.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "neppa",
@@ -3397,7 +3901,10 @@
       "Jato Corrosivo Ácido",
       "Névoa de Ácido"
     ],
-    "avatar": "/avatars/fairy-tail/neppa.png"
+    "avatar": "/avatars/fairy-tail/neppa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gran-doma",
@@ -3416,7 +3923,10 @@
       "Ativação do Satélite Étherion",
       "Sanções Mágicas de Alta Corte"
     ],
-    "avatar": "/avatars/fairy-tail/gran-doma.png"
+    "avatar": "/avatars/fairy-tail/gran-doma.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lahar",
@@ -3435,7 +3945,10 @@
       "Contenção Rúnica de Prisioneiros",
       "Disparo Rúnico com Doranbolt"
     ],
-    "avatar": "/avatars/fairy-tail/lahar.png"
+    "avatar": "/avatars/fairy-tail/lahar.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "org",
@@ -3454,7 +3967,10 @@
       "Voto Decisivo no Conselho",
       "Barreira Mágica Governamental"
     ],
-    "avatar": "/avatars/fairy-tail/org.png"
+    "avatar": "/avatars/fairy-tail/org.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "michello",
@@ -3473,7 +3989,10 @@
       "Selo Orgânico de Bloqueio de Face",
       "Proteção Pessoal"
     ],
-    "avatar": "/avatars/fairy-tail/michello.png"
+    "avatar": "/avatars/fairy-tail/michello.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "belno",
@@ -3492,7 +4011,10 @@
       "Selo Orgânico de Face",
       "Conselho de Pacificação"
     ],
-    "avatar": "/avatars/fairy-tail/belno.png"
+    "avatar": "/avatars/fairy-tail/belno.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wolfheim",
@@ -3511,7 +4033,10 @@
       "Transformação na Besta Titânica Selvagem",
       "Impacto de Garras Demolidores"
     ],
-    "avatar": "/avatars/fairy-tail/wolfheim.png"
+    "avatar": "/avatars/fairy-tail/wolfheim.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hyberion",
@@ -3530,7 +4055,10 @@
       "Paralisia Sanguínea Vampírica",
       "Colapso Circulatório à Distância"
     ],
-    "avatar": "/avatars/fairy-tail/hyberion.png"
+    "avatar": "/avatars/fairy-tail/hyberion.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "anna-heartfilia",
@@ -3551,7 +4079,10 @@
       "Tecelagem com Escamas de Dragão",
       "Piloto da Christina de Fuga"
     ],
-    "avatar": "/avatars/fairy-tail/anna-heartfilia.png"
+    "avatar": "/avatars/fairy-tail/anna-heartfilia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "layla-heartfilia",
@@ -3571,7 +4102,10 @@
       "Invocação Múltipla de Chaves de Ouro",
       "Abertura do Portão com Compensação de Mana Vital"
     ],
-    "avatar": "/avatars/fairy-tail/layla-heartfilia.png"
+    "avatar": "/avatars/fairy-tail/layla-heartfilia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jude-heartfilia",
@@ -3591,6 +4125,9 @@
       "Contratos de Guilda Mercantil",
       "Carta de Amor e Desculpas Paternal"
     ],
-    "avatar": "/avatars/fairy-tail/jude-heartfilia.png"
+    "avatar": "/avatars/fairy-tail/jude-heartfilia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

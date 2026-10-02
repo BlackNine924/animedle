@@ -10,7 +10,11 @@
     "styleOrPower": "Sky Breaker (Devastador de Céis)",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/lu-bu.png"
+    "avatar": "/avatars/record-of-ragnarok/lu-bu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "thor",
@@ -23,7 +27,11 @@
     "styleOrPower": "Geirröd Thor's Hammer",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/thor.png"
+    "avatar": "/avatars/record-of-ragnarok/thor.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "adao",
@@ -36,7 +44,11 @@
     "styleOrPower": "Olhos do Senhor (Reflexão Divina)",
     "debutArc": "2ª Rodada: Adão vs Zeus",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/adao.png"
+    "avatar": "/avatars/record-of-ragnarok/adao.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "zeus",
@@ -49,7 +61,11 @@
     "styleOrPower": "Soco que Supera o Tempo",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/zeus.png"
+    "avatar": "/avatars/record-of-ragnarok/zeus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sasaki-kojiro",
@@ -62,7 +78,11 @@
     "styleOrPower": "Varredura dos Mil Céus (Evolução Contínua)",
     "debutArc": "3ª Rodada: Sasaki Kojiro vs Poseidon",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/sasaki-kojiro.png"
+    "avatar": "/avatars/record-of-ragnarok/sasaki-kojiro.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "poseidon",
@@ -75,7 +95,11 @@
     "styleOrPower": "Amfitrite & Inundação de Medusa",
     "debutArc": "3ª Rodada: Sasaki Kojiro vs Poseidon",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/poseidon.png"
+    "avatar": "/avatars/record-of-ragnarok/poseidon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "jack-o-estripador",
@@ -88,7 +112,11 @@
     "styleOrPower": "Transformação de Objetos em Armas Divinas",
     "debutArc": "4ª Rodada: Jack, o Estripador vs Hércules",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/jack-o-estripador.png"
+    "avatar": "/avatars/record-of-ragnarok/jack-o-estripador.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hercules",
@@ -101,7 +129,11 @@
     "styleOrPower": "Técnicas dos 12 Trabalhos",
     "debutArc": "4ª Rodada: Jack, o Estripador vs Hércules",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/hercules.png"
+    "avatar": "/avatars/record-of-ragnarok/hercules.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "raiden-tameemon",
@@ -115,7 +147,10 @@
     "styleOrPower": "Liberação do Sumô dos Teppo",
     "debutArc": "5ª Rodada: Raiden Tameemon vs Shiva",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/raiden-tameemon.png"
+    "avatar": "/avatars/record-of-ragnarok/raiden-tameemon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shiva",
@@ -128,7 +163,11 @@
     "styleOrPower": "Tandava Karma (Fogo da Destruição)",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/shiva.png"
+    "avatar": "/avatars/record-of-ragnarok/shiva.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "buda",
@@ -141,7 +180,11 @@
     "styleOrPower": "Oito Consciências (Iluminação Futura)",
     "debutArc": "5ª Rodada: Raiden Tameemon vs Shiva",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/buda.png"
+    "avatar": "/avatars/record-of-ragnarok/buda.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "zerofuku",
@@ -154,7 +197,11 @@
     "styleOrPower": "Absorção de Infortúnio & Fúria",
     "debutArc": "6ª Rodada: Buda vs Zerofuku / Hajun",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/zerofuku.png"
+    "avatar": "/avatars/record-of-ragnarok/zerofuku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hajun",
@@ -167,7 +214,11 @@
     "styleOrPower": "Demon Altar Glory & Perfuração Óssea",
     "debutArc": "6ª Rodada: Buda vs Zerofuku / Hajun",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/hajun.png"
+    "avatar": "/avatars/record-of-ragnarok/hajun.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "qin-shi-huang",
@@ -180,7 +231,11 @@
     "styleOrPower": "Artes Marciais Chi You & Visão de Mana",
     "debutArc": "7ª Rodada: Qin Shi Huang vs Hades",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/qin-shi-huang.png"
+    "avatar": "/avatars/record-of-ragnarok/qin-shi-huang.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hades",
@@ -193,7 +248,11 @@
     "styleOrPower": "Ichor: Desmos (Sangue Divino)",
     "debutArc": "6ª Rodada: Buda vs Zerofuku / Hajun",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/hades.png"
+    "avatar": "/avatars/record-of-ragnarok/hades.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "nikola-tesla",
@@ -206,7 +265,11 @@
     "styleOrPower": "Passo de Gênia & Campo de Giga Volts",
     "debutArc": "8ª Rodada: Nikola Tesla vs Belzebuth",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/nikola-tesla.png"
+    "avatar": "/avatars/record-of-ragnarok/nikola-tesla.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "belzebuth",
@@ -219,7 +282,11 @@
     "styleOrPower": "Vibração de Alta Frequência & Anemia",
     "debutArc": "6ª Rodada: Buda vs Zerofuku / Hajun",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/belzebuth.png"
+    "avatar": "/avatars/record-of-ragnarok/belzebuth.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "leonidas",
@@ -232,7 +299,11 @@
     "styleOrPower": "Esparta Phalanx & Lançamento de Escudo",
     "debutArc": "9ª Rodada: Leonidas vs Apolo",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/leonidas.png"
+    "avatar": "/avatars/record-of-ragnarok/leonidas.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "apolo",
@@ -245,7 +316,11 @@
     "styleOrPower": "Boxe de Sol & Arco da Luz Solar",
     "debutArc": "9ª Rodada: Leonidas vs Apolo",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/apolo.png"
+    "avatar": "/avatars/record-of-ragnarok/apolo.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "okita-souji",
@@ -258,7 +333,11 @@
     "styleOrPower": "Estilo Tennen Rishin-ryu",
     "debutArc": "5ª Rodada: Raiden Tameemon vs Shiva",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/okita-souji.png"
+    "avatar": "/avatars/record-of-ragnarok/okita-souji.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "susanoo",
@@ -271,7 +350,11 @@
     "styleOrPower": "Corte das Mil Lâminas Primordiais",
     "debutArc": "10ª Rodada: Okita Souji vs Susanoo-no-Mikoto",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/susanoo.png"
+    "avatar": "/avatars/record-of-ragnarok/susanoo.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "brunhilde",
@@ -284,7 +367,11 @@
     "styleOrPower": "Invocação de Völundr & Estratégia",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Viva",
-    "avatar": "/avatars/record-of-ragnarok/brunhilde.png"
+    "avatar": "/avatars/record-of-ragnarok/brunhilde.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "goll",
@@ -297,7 +384,11 @@
     "styleOrPower": "Nenhuma",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Viva",
-    "avatar": "/avatars/record-of-ragnarok/goll.png"
+    "avatar": "/avatars/record-of-ragnarok/goll.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "odin",
@@ -310,7 +401,11 @@
     "styleOrPower": "Decaimento Cósmico & Magia Rúnica",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/odin.png"
+    "avatar": "/avatars/record-of-ragnarok/odin.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "loki",
@@ -323,7 +418,11 @@
     "styleOrPower": "Metamorfose & Magia de Ilusão",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Morto",
-    "avatar": "/avatars/record-of-ragnarok/loki.png"
+    "avatar": "/avatars/record-of-ragnarok/loki.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hermes",
@@ -336,7 +435,11 @@
     "styleOrPower": "Música Celestial & Percepção Divina",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/hermes.png"
+    "avatar": "/avatars/record-of-ragnarok/hermes.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ares",
@@ -349,7 +452,11 @@
     "styleOrPower": "Táticas Militares Grega",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/ares.png"
+    "avatar": "/avatars/record-of-ragnarok/ares.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "nostradamus",
@@ -362,7 +469,11 @@
     "styleOrPower": "Previsão do Futuro & Magia Proibida",
     "debutArc": "7ª Rodada: Qin Shi Huang vs Hades",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/nostradamus.png"
+    "avatar": "/avatars/record-of-ragnarok/nostradamus.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kintoki-sakata",
@@ -375,7 +486,11 @@
     "styleOrPower": "Aura Divina de Gǫllnir & Machado Primordial",
     "debutArc": "7ª Rodada: Qin Shi Huang vs Hades",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/kintoki-sakata.png"
+    "avatar": "/avatars/record-of-ragnarok/kintoki-sakata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "simo-hayha",
@@ -388,7 +503,11 @@
     "styleOrPower": "Morte Branca (Tiro de Precisão Inesgotável)",
     "debutArc": "9ª Rodada: Leonidas vs Apolo",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/simo-hayha.png"
+    "avatar": "/avatars/record-of-ragnarok/simo-hayha.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "anubis",
@@ -401,7 +520,11 @@
     "styleOrPower": "Guiamento das Almas & Magia de Decomposição",
     "debutArc": "10ª Rodada: Okita Souji vs Susanoo-no-Mikoto",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/anubis.png"
+    "avatar": "/avatars/record-of-ragnarok/anubis.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "afrodite",
@@ -414,7 +537,11 @@
     "styleOrPower": "Encantamento Celestial",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Viva",
-    "avatar": "/avatars/record-of-ragnarok/afrodite.png"
+    "avatar": "/avatars/record-of-ragnarok/afrodite.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "heimdall",
@@ -427,6 +554,10 @@
     "styleOrPower": "Voz Amplificada Cósmica",
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
-    "avatar": "/avatars/record-of-ragnarok/heimdall.png"
+    "avatar": "/avatars/record-of-ragnarok/heimdall.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   }
 ]

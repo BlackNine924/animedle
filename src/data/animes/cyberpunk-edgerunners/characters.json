@@ -19,7 +19,11 @@
       "Manipulação de Gravidade com Cibersqueleto",
       "Resistência Elevada à Ciberpsicose"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/david-martinez.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/david-martinez.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Solo / Líder Edgerunner",
+    "species": "Humano"
   },
   {
     "id": "lucy",
@@ -41,7 +45,11 @@
       "Infiltração e Roubo de Dados Arasaka",
       "Desconexão Forçada e Fuga Virtual"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/lucy.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/lucy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Netrunner",
+    "species": "Humano"
   },
   {
     "id": "rebecca",
@@ -63,7 +71,11 @@
       "Combate de Curta Distância Caótico",
       "Estabilidade de Disparo com Braços Gigantes"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/rebecca.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/rebecca.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Solo / Especialista em Artilharia Pesada",
+    "species": "Humano"
   },
   {
     "id": "maine",
@@ -85,7 +97,11 @@
       "Liderança Tática de Incursão",
       "Sobrecarga de Fúria Ciberpsicótica"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/maine.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/maine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Líder Edgerunner / Solo Veterano",
+    "species": "Humano"
   },
   {
     "id": "dorio",
@@ -105,7 +121,11 @@
       "Proteção Balística e Cobertura",
       "Supressão Tática com Rifles Automáticos"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/dorio.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/dorio.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Guarda-Costas / Solo de Suporte",
+    "species": "Humano"
   },
   {
     "id": "kiwi",
@@ -125,7 +145,11 @@
       "Espionagem e Monitoramento de Redes Arasaka",
       "Vírus Neural e Sobrecarga de Cibernéticos"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/kiwi.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/kiwi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Netrunner Veterana",
+    "species": "Humano"
   },
   {
     "id": "pilar",
@@ -146,7 +170,11 @@
       "Alcance Estendido com Braços Mecânicos",
       "Hackeamento Rápido de Portas e Veículos"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/pilar.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/pilar.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Techie / Armeiro",
+    "species": "Humano"
   },
   {
     "id": "falco",
@@ -166,7 +194,11 @@
       "Disparo com Pistola em Perseguição Veicular",
       "Rotas de Extração e Contrabando em Night City"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/falco.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/falco.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Piloto de Fuga / Motorista Especialista",
+    "species": "Humano"
   },
   {
     "id": "gloria-martinez",
@@ -186,7 +218,11 @@
       "Recuperação Clandestina de Cromo Militar",
       "Navegação pela Periferia de Santo Domingo"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/gloria-martinez.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/gloria-martinez.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Técnica de Emergência / Socorrista",
+    "species": "Humano"
   },
   {
     "id": "faraday",
@@ -207,7 +243,11 @@
       "Chantagem, Espionagem e Contratação de Esquadrões",
       "Visualização Multiespectral com Quatro Olhos"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/faraday.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/faraday.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Fixer Corporativo de Alto Escalão",
+    "species": "Humano"
   },
   {
     "id": "adam-smasher",
@@ -228,7 +268,11 @@
       "Canhão de Feixe de Partículas e Armamento Pesado",
       "Sandevistan de Nível Militar Corporativo Pesado"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/adam-smasher.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/adam-smasher.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Ciborgue Assassino Chefe da Arasaka",
+    "species": "Humano"
   },
   {
     "id": "ripperdoc",
@@ -247,7 +291,11 @@
       "Fornecimento de Imunossupressores contra Ciberpsicose",
       "Venda de Cromo no Mercado Negro"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/ripperdoc.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/ripperdoc.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Ripperdoc Clandestino",
+    "species": "Humano"
   },
   {
     "id": "katsuo-tanaka",
@@ -266,7 +314,11 @@
       "Combate de Boxe Assistido por Bio-Chip",
       "Conexão com Recursos da Academia Arasaka"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/katsuo-tanaka.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/katsuo-tanaka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Estudante Privilegiado Arasaka",
+    "species": "Humano"
   },
   {
     "id": "tanaka",
@@ -285,7 +337,11 @@
       "Trava de Criptografia Neural Deep-Dive",
       "Comando de Esquadrões de Segurança da Arasaka"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/tanaka.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/tanaka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Executivo Corporativo Arasaka",
+    "species": "Humano"
   },
   {
     "id": "julio",
@@ -304,7 +360,11 @@
       "Disparo com Rifle Automático",
       "Investida com Granada de Fragmentação"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/julio.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/julio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Solo Novato",
+    "species": "Humano"
   },
   {
     "id": "jimmy-kurosaki",
@@ -323,7 +383,11 @@
       "Edição e Calibração de Braindances Ilegais X-BD",
       "Interrupção de Cyberware com Pulsos PEM Oculares"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/jimmy-kurosaki.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/jimmy-kurosaki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Editor e Diretor de Braindances (BD Tuner)",
+    "species": "Humano"
   },
   {
     "id": "james-norris",
@@ -343,7 +407,11 @@
       "Disparo Massivo de Granadas e Projéteis",
       "Combate Letal contra Esquadrão MaxTac"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/james-norris.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/james-norris.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Ex-Tenente Militar / Primeiro Ciberpsicopata",
+    "species": "Humano"
   },
   {
     "id": "maxim-kuznetsov",
@@ -363,7 +431,11 @@
       "Criptografia de Dados BioTechnica",
       "Comunicação Via Satélite Blindada"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/maxim-kuznetsov.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/maxim-kuznetsov.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Executivo / Alvo Corporativo",
+    "species": "Humano"
   },
   {
     "id": "sasha-yakovleva",
@@ -384,7 +456,11 @@
       "Extração de Dados Criptografados",
       "Combate com Armas de Fogo Leves"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/sasha-yakovleva.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/sasha-yakovleva.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Netrunner da Tripulação do Maine (Predecessora)",
+    "species": "Humano"
   },
   {
     "id": "kate",
@@ -404,7 +480,11 @@
       "Acesso a Sistemas Confidenciais Arasaka",
       "Protocolos de Segurança Executiva"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/kate.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/kate.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Secretária Executiva / Contato",
+    "species": "Humano"
   },
   {
     "id": "claire-russell",
@@ -424,7 +504,11 @@
       "Pilotagem e Direção Defensiva",
       "Manejo de Espingarda de Calibre Pesado"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/claire-russell.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/claire-russell.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Bartender do Afterlife / Piloto",
+    "species": "Humano"
   },
   {
     "id": "rogue-amendiares",
@@ -444,7 +528,11 @@
       "Atiradora de Elite Veterana",
       "Liderança Militar do Submundo"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/rogue-amendiares.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/rogue-amendiares.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Rainha dos Fixers / Dona do Afterlife",
+    "species": "Humano"
   },
   {
     "id": "wakako-okada",
@@ -464,7 +552,11 @@
       "Influência Política com as Facções de Night City",
       "Lavagem de Dinheiro e Contratos Secretos"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/wakako-okada.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/wakako-okada.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Fixer de Westbrook & Japantown",
+    "species": "Humano"
   },
   {
     "id": "delamain",
@@ -483,6 +575,10 @@
       "Blindagem Militar Resistente a Mísseis",
       "Sistemas de Suporte Médico de Emergência"
     ],
-    "avatar": "/avatars/cyberpunk-edgerunners/delamain.png"
+    "avatar": "/avatars/cyberpunk-edgerunners/delamain.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Inteligência Artificial / Serviço de Táxi Blindado",
+    "species": "Humano"
   }
 ]

@@ -16,7 +16,11 @@
       "Bloqueio com Salto Largo Diagonal",
       "Recepção com o Peito em Chave"
     ],
-    "avatar": "/avatars/haikyuu/shoyo-hinata.png"
+    "avatar": "/avatars/haikyuu/shoyo-hinata.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tobio-kageyama",
@@ -35,7 +39,11 @@
       "Segunda Bola de Ataque Furtivo",
       "Bloqueio Individual de Leitura"
     ],
-    "avatar": "/avatars/haikyuu/tobio-kageyama.png"
+    "avatar": "/avatars/haikyuu/tobio-kageyama.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kei-tsukishima",
@@ -54,7 +62,11 @@
       "Finta no Fundo da Quadra",
       "Ataque Rápido com Atraso de Tempo"
     ],
-    "avatar": "/avatars/haikyuu/kei-tsukishima.png"
+    "avatar": "/avatars/haikyuu/kei-tsukishima.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tadashi-yamaguchi",
@@ -72,7 +84,11 @@
       "Direcionamento na Linha de Fundo",
       "Comando de Apoio Emocional"
     ],
-    "avatar": "/avatars/haikyuu/tadashi-yamaguchi.png"
+    "avatar": "/avatars/haikyuu/tadashi-yamaguchi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   },
   {
     "id": "daichi-sawamura",
@@ -90,7 +106,11 @@
       "Ataque pela Linha de Fundo (Backrow Attack)",
       "Estabilização Emocional sob Pressão"
     ],
-    "avatar": "/avatars/haikyuu/daichi-sawamura.png"
+    "avatar": "/avatars/haikyuu/daichi-sawamura.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "koshi-sugawara",
@@ -108,7 +128,11 @@
       "Saque Tático no Vazio",
       "Comunicação e Sinais Manuais de Quadra"
     ],
-    "avatar": "/avatars/haikyuu/koshi-sugawara.png"
+    "avatar": "/avatars/haikyuu/koshi-sugawara.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "asahi-azumane",
@@ -126,7 +150,11 @@
       "Ataque Diferenciado com Pausa no Ar",
       "Saque Viagem Potente de Ás"
     ],
-    "avatar": "/avatars/haikyuu/asahi-azumane.png"
+    "avatar": "/avatars/haikyuu/asahi-azumane.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "yu-nishinoya",
@@ -144,7 +172,11 @@
       "Levantamento com Salto Atrás da Linha de Três Metros",
       "Recepção com o Pé no Reflexo"
     ],
-    "avatar": "/avatars/haikyuu/yu-nishinoya.png"
+    "avatar": "/avatars/haikyuu/yu-nishinoya.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "ryunosuke-tanaka",
@@ -162,7 +194,11 @@
       "Corte em Linha Reta no Limite da Quadra",
       "Grito de Guerra Desestabilizador"
     ],
-    "avatar": "/avatars/haikyuu/ryunosuke-tanaka.png"
+    "avatar": "/avatars/haikyuu/ryunosuke-tanaka.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "chikara-ennoshita",
@@ -179,7 +215,11 @@
       "Recepção de Cobertura de Bloqueio",
       "Ataque Seguro de Ponta"
     ],
-    "avatar": "/avatars/haikyuu/chikara-ennoshita.png"
+    "avatar": "/avatars/haikyuu/chikara-ennoshita.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hisashi-kinoshita",
@@ -196,7 +236,11 @@
       "Saque Flutuante Direcionado",
       "Apoio Tático de Lateral"
     ],
-    "avatar": "/avatars/haikyuu/hisashi-kinoshita.png"
+    "avatar": "/avatars/haikyuu/hisashi-kinoshita.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kazuhito-narita",
@@ -213,7 +257,11 @@
       "Ataque Rápido Clássico",
       "Bloqueio Posicional Seguro"
     ],
-    "avatar": "/avatars/haikyuu/kazuhito-narita.png"
+    "avatar": "/avatars/haikyuu/kazuhito-narita.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kiyoko-shimizu",
@@ -231,7 +279,11 @@
       "Entrega da Faixa 'Voem' com Emoção",
       "Recepção de Bolas com Agilidade de Ex-Atleta"
     ],
-    "avatar": "/avatars/haikyuu/kiyoko-shimizu.png"
+    "avatar": "/avatars/haikyuu/kiyoko-shimizu.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hitoka-yachi",
@@ -248,7 +300,11 @@
       "Campanha de Arrecadação com Pôsteres",
       "Anotação e Coleta de Dados de Ataques"
     ],
-    "avatar": "/avatars/haikyuu/hitoka-yachi.png"
+    "avatar": "/avatars/haikyuu/hitoka-yachi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "keishin-ukai",
@@ -266,7 +322,11 @@
       "Leitura de Rotação Inimiga",
       "Discursos Motivacionais de Vestiário"
     ],
-    "avatar": "/avatars/haikyuu/keishin-ukai.png"
+    "avatar": "/avatars/haikyuu/keishin-ukai.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "ittetsu-takeda",
@@ -283,7 +343,11 @@
       "Negociação de Partidas Amistosas de Elite",
       "Motivação Poética Profunda"
     ],
-    "avatar": "/avatars/haikyuu/ittetsu-takeda.png"
+    "avatar": "/avatars/haikyuu/ittetsu-takeda.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "toru-oikawa",
@@ -301,7 +365,11 @@
       "Levantamento Perfeito sob Medida para Cada Atacante",
       "Ataque de Segunda Bola Agressivo"
     ],
-    "avatar": "/avatars/haikyuu/toru-oikawa.png"
+    "avatar": "/avatars/haikyuu/toru-oikawa.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "hajime-iwaizumi",
@@ -319,7 +387,11 @@
       "Cabeçada Punitiva em Oikawa",
       "Defesa de Fundo de Quadra de Líder"
     ],
-    "avatar": "/avatars/haikyuu/hajime-iwaizumi.png"
+    "avatar": "/avatars/haikyuu/hajime-iwaizumi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "yutaro-kindaichi",
@@ -336,7 +408,11 @@
       "Ataque Rápido Amplo",
       "Bloqueio com Alcance Elevado"
     ],
-    "avatar": "/avatars/haikyuu/yutaro-kindaichi.png"
+    "avatar": "/avatars/haikyuu/yutaro-kindaichi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "akira-kunimi",
@@ -353,7 +429,11 @@
       "Ataque Inteligente nos Espaços Vazios",
       "Largadinha Suave em Buraco de Bloqueio"
     ],
-    "avatar": "/avatars/haikyuu/akira-kunimi.png"
+    "avatar": "/avatars/haikyuu/akira-kunimi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kentaro-kyotani",
@@ -370,7 +450,11 @@
       "Spike com Salto Curvado de Trás",
       "Saque Viagem Selvagem de Alto Risco"
     ],
-    "avatar": "/avatars/haikyuu/kentaro-kyotani.png"
+    "avatar": "/avatars/haikyuu/kentaro-kyotani.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tetsuro-kuroo",
@@ -388,7 +472,11 @@
       "Ataque de Tempo Diferenciado com Finta",
       "Recepção de Bloqueador Central"
     ],
-    "avatar": "/avatars/haikyuu/tetsuro-kuroo.png"
+    "avatar": "/avatars/haikyuu/tetsuro-kuroo.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kenma-kozume",
@@ -406,7 +494,11 @@
       "Largadinha Cirúrgica no Meio da Quadra",
       "Estrangulamento Tático com Armadilhas de Bola"
     ],
-    "avatar": "/avatars/haikyuu/kenma-kozume.png"
+    "avatar": "/avatars/haikyuu/kenma-kozume.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "taketora-yamamoto",
@@ -423,7 +515,11 @@
       "Spike em Ângulo Fechado",
       "Recepção de Mergulho de Peito"
     ],
-    "avatar": "/avatars/haikyuu/taketora-yamamoto.png"
+    "avatar": "/avatars/haikyuu/taketora-yamamoto.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "morisuke-yaku",
@@ -440,7 +536,11 @@
       "Posicionamento Preventivo de Ângulo",
       "Recepção sem Ruído na Mão do Levantador"
     ],
-    "avatar": "/avatars/haikyuu/morisuke-yaku.png"
+    "avatar": "/avatars/haikyuu/morisuke-yaku.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lev-haiba",
@@ -457,7 +557,11 @@
       "Ataque Rápido Chicoteado",
       "Bloqueio com Alcance de Dois Metros"
     ],
-    "avatar": "/avatars/haikyuu/lev-haiba.png"
+    "avatar": "/avatars/haikyuu/lev-haiba.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "so-inuoka",
@@ -474,7 +578,11 @@
       "Bloqueio Veloz Lateral",
       "Ataque Rápido Simples"
     ],
-    "avatar": "/avatars/haikyuu/so-inuoka.png"
+    "avatar": "/avatars/haikyuu/so-inuoka.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "nobuyuki-kai",
@@ -491,7 +599,11 @@
       "Recepção Amortecedora",
       "Ataque de Suporte pelas Pontas"
     ],
-    "avatar": "/avatars/haikyuu/nobuyuki-kai.png"
+    "avatar": "/avatars/haikyuu/nobuyuki-kai.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "yasufumi-nekomata",
@@ -508,7 +620,11 @@
       "Treinamento Focado em Recepção Perfeita",
       "Rivalidade Eterna com Ukai de Karasuno"
     ],
-    "avatar": "/avatars/haikyuu/yasufumi-nekomata.png"
+    "avatar": "/avatars/haikyuu/yasufumi-nekomata.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "kotaro-bokuto",
@@ -526,7 +642,11 @@
       "Corte Cruzado Ultra Fechado",
       "Modo Desanimado (Emo Mode) com Retorno Triunfante"
     ],
-    "avatar": "/avatars/haikyuu/kotaro-bokuto.png"
+    "avatar": "/avatars/haikyuu/kotaro-bokuto.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "keiji-akaashi",
@@ -544,7 +664,11 @@
       "Calculadora Tática de Moral de Bokuto",
       "Finta de Segunda Bola com Toque"
     ],
-    "avatar": "/avatars/haikyuu/keiji-akaashi.png"
+    "avatar": "/avatars/haikyuu/keiji-akaashi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "akinori-konoha",
@@ -561,7 +685,11 @@
       "Levantamento de Emergência",
       "Recepção Firme de Saque Viagem"
     ],
-    "avatar": "/avatars/haikyuu/akinori-konoha.png"
+    "avatar": "/avatars/haikyuu/akinori-konoha.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tatsuki-washio",
@@ -578,7 +706,11 @@
       "Bloqueio de Leitura com Altura",
       "Ataque Rápido pelo Meio"
     ],
-    "avatar": "/avatars/haikyuu/tatsuki-washio.png"
+    "avatar": "/avatars/haikyuu/tatsuki-washio.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "wakatoshi-ushijima",
@@ -596,7 +728,11 @@
       "Saque Viagem Ultra Pesado de Três Dígitos",
       "Rompedor de Bloqueio Triplo"
     ],
-    "avatar": "/avatars/haikyuu/wakatoshi-ushijima.png"
+    "avatar": "/avatars/haikyuu/wakatoshi-ushijima.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "satori-tendo",
@@ -614,7 +750,11 @@
       "Toque Suicida com Uma Mão no Ar",
       "Música Provocadora de Quebra de Moral"
     ],
-    "avatar": "/avatars/haikyuu/satori-tendo.png"
+    "avatar": "/avatars/haikyuu/satori-tendo.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tsutomu-goshiki",
@@ -631,7 +771,11 @@
       "Corte Cirúrgico na Linha Lateral",
       "Saque Viagem Agressivo de Calouro"
     ],
-    "avatar": "/avatars/haikyuu/tsutomu-goshiki.png"
+    "avatar": "/avatars/haikyuu/tsutomu-goshiki.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kenjiro-shirabu",
@@ -648,7 +792,11 @@
       "Levantamento Alto Estabilizado",
       "Frieza sob Cobrança de Washijō"
     ],
-    "avatar": "/avatars/haikyuu/kenjiro-shirabu.png"
+    "avatar": "/avatars/haikyuu/kenjiro-shirabu.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eita-semi",
@@ -665,7 +813,11 @@
       "Saque Viagem Explosivo de Ponto Direto",
       "Levantamento Surpresa com Força"
     ],
-    "avatar": "/avatars/haikyuu/eita-semi.png"
+    "avatar": "/avatars/haikyuu/eita-semi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tanji-washijo",
@@ -682,7 +834,11 @@
       "Seleção Rígida de Gigantes Físicos",
       "Treinamento Espartano com Repetições Infinitas"
     ],
-    "avatar": "/avatars/haikyuu/tanji-washijo.png"
+    "avatar": "/avatars/haikyuu/tanji-washijo.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade",
+    "species": "Humano"
   },
   {
     "id": "atsumu-miya",
@@ -700,7 +856,11 @@
       "Cópia Instantânea do Ataque Rápido Bizarro de Kageyama",
       "Levantamento Deitado de Costas"
     ],
-    "avatar": "/avatars/haikyuu/atsumu-miya.png"
+    "avatar": "/avatars/haikyuu/atsumu-miya.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "osamu-miya",
@@ -718,7 +878,11 @@
       "Ataque Rápido de Costas",
       "Spike Potente de Oposto"
     ],
-    "avatar": "/avatars/haikyuu/osamu-miya.png"
+    "avatar": "/avatars/haikyuu/osamu-miya.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "shinsuke-kita",
@@ -736,7 +900,11 @@
       "Estabilização Psicológica dos Gêmeos Miya",
       "Defesa de Fundo Cirúrgica"
     ],
-    "avatar": "/avatars/haikyuu/shinsuke-kita.png"
+    "avatar": "/avatars/haikyuu/shinsuke-kita.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "rintaro-suna",
@@ -753,7 +921,11 @@
       "Spike com Ampla Flexibilidade da Cintura",
       "Bloqueio que Desvia a Bola com Toque"
     ],
-    "avatar": "/avatars/haikyuu/rintaro-suna.png"
+    "avatar": "/avatars/haikyuu/rintaro-suna.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "aran-ojiro",
@@ -770,7 +942,11 @@
       "Spike Potente de Três Metros",
       "Recepção sob Mira Adversária"
     ],
-    "avatar": "/avatars/haikyuu/aran-ojiro.png"
+    "avatar": "/avatars/haikyuu/aran-ojiro.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "korai-hoshiumi",
@@ -788,7 +964,11 @@
       "Recepção Perfeita de Todos os Fundamentos",
       "Uso Deliberado das Mãos do Bloqueador para Wipe-Out"
     ],
-    "avatar": "/avatars/haikyuu/korai-hoshiumi.png"
+    "avatar": "/avatars/haikyuu/korai-hoshiumi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sachiro-hirugami",
@@ -806,7 +986,11 @@
       "Braços Travados em Ângulo de Invasão Aérea",
       "Saque Flutuante Estável"
     ],
-    "avatar": "/avatars/haikyuu/sachiro-hirugami.png"
+    "avatar": "/avatars/haikyuu/sachiro-hirugami.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "gao-hakuba",
@@ -823,7 +1007,11 @@
       "Bloqueio Monstruoso de Dois Metros",
       "Spike Descendente Vertical"
     ],
-    "avatar": "/avatars/haikyuu/gao-hakuba.png"
+    "avatar": "/avatars/haikyuu/gao-hakuba.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kiyoomi-sakusa",
@@ -841,7 +1029,11 @@
       "Recepção Suave com Absorção de Efeito",
       "Saque com Efeito Lateral Venenoso"
     ],
-    "avatar": "/avatars/haikyuu/kiyoomi-sakusa.png"
+    "avatar": "/avatars/haikyuu/kiyoomi-sakusa.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "motoya-komori",
@@ -858,7 +1050,11 @@
       "Recepção Técnica Perfeita sem Rebote",
       "Leitura Antecipada de Ataques de Três Metros"
     ],
-    "avatar": "/avatars/haikyuu/motoya-komori.png"
+    "avatar": "/avatars/haikyuu/motoya-komori.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "takanobu-aone",
@@ -876,7 +1072,11 @@
       "Salto Lateral sem Cruzar os Pés",
       "Ataque Rápido Pesado"
     ],
-    "avatar": "/avatars/haikyuu/takanobu-aone.png"
+    "avatar": "/avatars/haikyuu/takanobu-aone.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kenji-futakuchi",
@@ -893,7 +1093,11 @@
       "Bloqueio Sincronizado Duplo",
       "Provocação Psicológica na Rede"
     ],
-    "avatar": "/avatars/haikyuu/kenji-futakuchi.png"
+    "avatar": "/avatars/haikyuu/kenji-futakuchi.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "kanji-koganegawa",
@@ -910,7 +1114,11 @@
       "Bloqueio Alto de Levantador Gigante",
       "Despejo de Força em Levantamentos Altos"
     ],
-    "avatar": "/avatars/haikyuu/kanji-koganegawa.png"
+    "avatar": "/avatars/haikyuu/kanji-koganegawa.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "suguru-daisho",
@@ -927,7 +1135,11 @@
       "Largadinha Provocativa",
       "Corte no Bloqueador para Gerar Bola Fora"
     ],
-    "avatar": "/avatars/haikyuu/suguru-daisho.png"
+    "avatar": "/avatars/haikyuu/suguru-daisho.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "yuji-terushima",
@@ -944,7 +1156,11 @@
       "Ataque Acrobático com Salto Giratório",
       "Levantamento sem Posição Fixa"
     ],
-    "avatar": "/avatars/haikyuu/yuji-terushima.png"
+    "avatar": "/avatars/haikyuu/yuji-terushima.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "yudai-hyakuzawa",
@@ -961,7 +1177,11 @@
       "Spike Simples no Ponto Mais Alto",
       "Recepção com Postura Baixa"
     ],
-    "avatar": "/avatars/haikyuu/yudai-hyakuzawa.png"
+    "avatar": "/avatars/haikyuu/yudai-hyakuzawa.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "tenma-udai",
@@ -978,7 +1198,11 @@
       "Wipe-Out nas Pontas dos Dedos",
       "Salto Inspirador com Camisa Número 10"
     ],
-    "avatar": "/avatars/haikyuu/tenma-udai.png"
+    "avatar": "/avatars/haikyuu/tenma-udai.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "saeko-tanaka",
@@ -995,6 +1219,10 @@
       "Batida Rítmica Ensurdecedora de Taiko",
       "Direção de Furgão em Velocidade Máxima"
     ],
-    "avatar": "/avatars/haikyuu/saeko-tanaka.png"
+    "avatar": "/avatars/haikyuu/saeko-tanaka.png",
+    "combatType": "Esportista / Atleta",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder",
+    "species": "Humano"
   }
 ]

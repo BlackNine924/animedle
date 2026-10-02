@@ -19,7 +19,11 @@
       "Aincrad Style: Sonic Leap",
       "Armament Full Control: Noite Estrelada"
     ],
-    "avatar": "/avatars/sword-art-online/kirito.png"
+    "avatar": "/avatars/sword-art-online/kirito.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "asuna",
@@ -40,7 +44,11 @@
       "Mother's Rosario (Herdado de Yuuki)",
       "Criação Geográfica de Stacia"
     ],
-    "avatar": "/avatars/sword-art-online/asuna.png"
+    "avatar": "/avatars/sword-art-online/asuna.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "yui",
@@ -59,7 +67,11 @@
       "Manipulação de Dados e Hack de Servidores",
       "Forma de Fada de Navegação Pixie"
     ],
-    "avatar": "/avatars/sword-art-online/yui.png"
+    "avatar": "/avatars/sword-art-online/yui.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "klein",
@@ -79,7 +91,11 @@
       "Hizaguruma",
       "Liderança Protetora Fuurinkazan"
     ],
-    "avatar": "/avatars/sword-art-online/klein.png"
+    "avatar": "/avatars/sword-art-online/klein.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "agil",
@@ -99,7 +115,11 @@
       "Lumberjack Strike",
       "Negociação Mercantil de Itens Raros"
     ],
-    "avatar": "/avatars/sword-art-online/agil.png"
+    "avatar": "/avatars/sword-art-online/agil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "silica",
@@ -118,7 +138,11 @@
       "Rapid Bite",
       "Hálito de Cura e Bolhas de Pina"
     ],
-    "avatar": "/avatars/sword-art-online/silica.png"
+    "avatar": "/avatars/sword-art-online/silica.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "pina",
@@ -137,7 +161,11 @@
       "Cegueira com Rajada de Bolhas",
       "Ressurreição com Flor de Pneuma"
     ],
-    "avatar": "/avatars/sword-art-online/pina.png"
+    "avatar": "/avatars/sword-art-online/pina.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "lisbeth",
@@ -155,7 +183,11 @@
       "Forja de Minério Cristalino de Dragão",
       "Golpe Sísmico de Maça Pesada"
     ],
-    "avatar": "/avatars/sword-art-online/lisbeth.png"
+    "avatar": "/avatars/sword-art-online/lisbeth.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sachi",
@@ -173,7 +205,11 @@
       "Estocada Defensiva de Lança",
       "Mensagem de Cristal Gravada"
     ],
-    "avatar": "/avatars/sword-art-online/sachi.png"
+    "avatar": "/avatars/sword-art-online/sachi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "keita",
@@ -190,7 +226,11 @@
     "techniques": [
       "Liderança de Guilda Colegial Amadora"
     ],
-    "avatar": "/avatars/sword-art-online/keita.png"
+    "avatar": "/avatars/sword-art-online/keita.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "heathcliff",
@@ -210,7 +250,11 @@
       "Divine Sword",
       "Reflexos Perfeitos de Administrador do Sistema"
     ],
-    "avatar": "/avatars/sword-art-online/heathcliff.png"
+    "avatar": "/avatars/sword-art-online/heathcliff.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "kuradeel",
@@ -229,7 +273,11 @@
       "Água Paralisante Dissimulada",
       "Corte Assassino Desleal"
     ],
-    "avatar": "/avatars/sword-art-online/kuradeel.png"
+    "avatar": "/avatars/sword-art-online/kuradeel.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "diabel",
@@ -248,7 +296,11 @@
       "Comando Tático de Raid de 44 Homens",
       "Investida de Cavaleiro Nobre"
     ],
-    "avatar": "/avatars/sword-art-online/diabel.png"
+    "avatar": "/avatars/sword-art-online/diabel.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "kibaou",
@@ -266,7 +318,11 @@
       "Discursos Inflamados no Dialeto de Kansai",
       "Carga Militar do Exército de Aincrad"
     ],
-    "avatar": "/avatars/sword-art-online/kibaou.png"
+    "avatar": "/avatars/sword-art-online/kibaou.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "rosalia",
@@ -284,7 +340,11 @@
       "Emboscada com Corredores Assassinos Laranja",
       "Espetada de Lança Cruzada"
     ],
-    "avatar": "/avatars/sword-art-online/rosalia.png"
+    "avatar": "/avatars/sword-art-online/rosalia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "poh",
@@ -304,7 +364,11 @@
       "Invisibilidade com Manto de Camuflagem",
       "Incitação ao Ódio Coletivo Mental"
     ],
-    "avatar": "/avatars/sword-art-online/poh.png"
+    "avatar": "/avatars/sword-art-online/poh.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "red-eyed-xaxa",
@@ -323,7 +387,11 @@
       "Lâmina Oculta com Veneno Paralisante",
       "Disfarce Assassino Espectral"
     ],
-    "avatar": "/avatars/sword-art-online/red-eyed-xaxa.png"
+    "avatar": "/avatars/sword-art-online/red-eyed-xaxa.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "johnny-black",
@@ -342,7 +410,11 @@
       "Ataque Furtivo com Foice Kukri Envenenada",
       "Injeção Letal de Toxina Paralisante"
     ],
-    "avatar": "/avatars/sword-art-online/johnny-black.png"
+    "avatar": "/avatars/sword-art-online/johnny-black.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "leafa",
@@ -362,7 +434,11 @@
       "Corte Tornado de Vento",
       "Regeneração Absoluta da Terra de Terraria"
     ],
-    "avatar": "/avatars/sword-art-online/leafa.png"
+    "avatar": "/avatars/sword-art-online/leafa.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "recon",
@@ -380,7 +456,11 @@
       "Feitiço de Autodestruição Sacrificial",
       "Magia Furtiva de Ilusão Óptica Sylph"
     ],
-    "avatar": "/avatars/sword-art-online/recon.png"
+    "avatar": "/avatars/sword-art-online/recon.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sakuya",
@@ -398,7 +478,11 @@
       "Magia de Vento em Área de Alto Nível",
       "Corte Gracioso de Espada Oriental"
     ],
-    "avatar": "/avatars/sword-art-online/sakuya.png"
+    "avatar": "/avatars/sword-art-online/sakuya.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "alicia-rue",
@@ -416,7 +500,11 @@
       "Agilidade Felina Alada",
       "Magia de Suporte em Grupo"
     ],
-    "avatar": "/avatars/sword-art-online/alicia-rue.png"
+    "avatar": "/avatars/sword-art-online/alicia-rue.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eugene",
@@ -434,7 +522,11 @@
       "Corte Intangível Fantasma com Gram",
       "Voo Pesado com Propulsão de Chamas Salamander"
     ],
-    "avatar": "/avatars/sword-art-online/eugene.png"
+    "avatar": "/avatars/sword-art-online/eugene.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "oberon",
@@ -453,7 +545,11 @@
       "Comando de Gravidade Ilimitada de Administrador",
       "Manipulação Ilícita de Conexões Neurais"
     ],
-    "avatar": "/avatars/sword-art-online/oberon.png"
+    "avatar": "/avatars/sword-art-online/oberon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sinon",
@@ -473,7 +569,11 @@
       "Pistola Automática MP7",
       "Voo Livre e Arco Solar de Solus"
     ],
-    "avatar": "/avatars/sword-art-online/sinon.png"
+    "avatar": "/avatars/sword-art-online/sinon.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "death-gun",
@@ -492,7 +592,11 @@
       "Estocada de Sabre de Baioneta Estelar",
       "Bala Rastreadora de Parada Cardíaca no Mundo Real"
     ],
-    "avatar": "/avatars/sword-art-online/death-gun.png"
+    "avatar": "/avatars/sword-art-online/death-gun.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "spiegel",
@@ -510,7 +614,11 @@
     "techniques": [
       "Combate Tático com Armas Leves de GGO"
     ],
-    "avatar": "/avatars/sword-art-online/spiegel.png"
+    "avatar": "/avatars/sword-art-online/spiegel.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "yuuki",
@@ -528,7 +636,11 @@
       "Original Sword Skill: Mother's Rosario (11 Golpes Consecutivos)",
       "Velocidade de Reação Absoluta com Medicuboid"
     ],
-    "avatar": "/avatars/sword-art-online/yuuki.png"
+    "avatar": "/avatars/sword-art-online/yuuki.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "siune",
@@ -545,7 +657,11 @@
     "techniques": [
       "Magia de Alta Regeneração Aquática Undine"
     ],
-    "avatar": "/avatars/sword-art-online/siune.png"
+    "avatar": "/avatars/sword-art-online/siune.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eiji",
@@ -564,7 +680,11 @@
       "Acrobacias Amplificadas pelo Traje Augma",
       "Esgrima Veloz de Realidade Aumentada"
     ],
-    "avatar": "/avatars/sword-art-online/eiji.png"
+    "avatar": "/avatars/sword-art-online/eiji.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "yuna",
@@ -582,7 +702,11 @@
       "Buffs de Canção de Batalha de Realidade Aumentada",
       "Manifestação Holográfica Musical"
     ],
-    "avatar": "/avatars/sword-art-online/yuna.png"
+    "avatar": "/avatars/sword-art-online/yuna.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eugeo",
@@ -603,7 +727,11 @@
       "Florescer Glacial Sagrado",
       "Espada Vermelha Sangue de Fusão com Kirito"
     ],
-    "avatar": "/avatars/sword-art-online/eugeo.png"
+    "avatar": "/avatars/sword-art-online/eugeo.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "alice-zuberg",
@@ -623,7 +751,11 @@
       "Artes Sagradas Elementais de Luz",
       "Dança das Lâminas de Osmanthus"
     ],
-    "avatar": "/avatars/sword-art-online/alice-zuberg.png"
+    "avatar": "/avatars/sword-art-online/alice-zuberg.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "bercouli",
@@ -641,7 +773,11 @@
       "Armament Full Control: Corte do Vazio Passado no Tempo",
       "Urashagiri (Corte Temporal Retrógrado)"
     ],
-    "avatar": "/avatars/sword-art-online/bercouli.png"
+    "avatar": "/avatars/sword-art-online/bercouli.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "fanatio",
@@ -659,7 +795,11 @@
       "Armament Full Control: Raios de Luz Térmica Laser Concentrados",
       "Reflexão Múltipla de Lâminas Solares"
     ],
-    "avatar": "/avatars/sword-art-online/fanatio.png"
+    "avatar": "/avatars/sword-art-online/fanatio.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "deusolbert",
@@ -676,7 +816,11 @@
     "techniques": [
       "Armament Full Control: Disparos de Flechas Incandescentes de Pássaro de Fogo"
     ],
-    "avatar": "/avatars/sword-art-online/deusolbert.png"
+    "avatar": "/avatars/sword-art-online/deusolbert.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "eldrie",
@@ -694,7 +838,11 @@
       "Armament Full Control: Chicote Metamorfo em Cobras Glaciais Múltiplas",
       "Sacrifício Espiritual com Fios de Vida"
     ],
-    "avatar": "/avatars/sword-art-online/eldrie.png"
+    "avatar": "/avatars/sword-art-online/eldrie.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sheyta",
@@ -711,7 +859,11 @@
     "techniques": [
       "Armament Full Control: Lâmina de Fio Zero que Corta Qualquer Matéria"
     ],
-    "avatar": "/avatars/sword-art-online/sheyta.png"
+    "avatar": "/avatars/sword-art-online/sheyta.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "linel",
@@ -728,7 +880,11 @@
     "techniques": [
       "Golpe Furtivo Paralisante com Adaga Untada"
     ],
-    "avatar": "/avatars/sword-art-online/linel.png"
+    "avatar": "/avatars/sword-art-online/linel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "fizel",
@@ -745,7 +901,11 @@
     "techniques": [
       "Golpe Furtivo Paralisante com Adaga Untada"
     ],
-    "avatar": "/avatars/sword-art-online/fizel.png"
+    "avatar": "/avatars/sword-art-online/fizel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "quinella",
@@ -764,7 +924,11 @@
       "Manipulação de Módulos de Fluctlight e Memórias",
       "Artes Sagradas Absolutas"
     ],
-    "avatar": "/avatars/sword-art-online/quinella.png"
+    "avatar": "/avatars/sword-art-online/quinella.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "cardinal",
@@ -782,7 +946,11 @@
       "Artes Sagradas Primordiais de Espaço e Cura",
       "Criação de Portais na Biblioteca Infinita"
     ],
-    "avatar": "/avatars/sword-art-online/cardinal.png"
+    "avatar": "/avatars/sword-art-online/cardinal.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "selka-zuberg",
@@ -799,7 +967,11 @@
     "techniques": [
       "Artes Sagradas de Cura de Ferimentos Graves"
     ],
-    "avatar": "/avatars/sword-art-online/selka-zuberg.png"
+    "avatar": "/avatars/sword-art-online/selka-zuberg.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "sortiliena-serlut",
@@ -816,7 +988,11 @@
     "techniques": [
       "Estilo de Espada Flexível da Família Serlut"
     ],
-    "avatar": "/avatars/sword-art-online/sortiliena-serlut.png"
+    "avatar": "/avatars/sword-art-online/sortiliena-serlut.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "ronie-arabel",
@@ -834,7 +1010,11 @@
       "Artes Sagradas Elementais Térmicas",
       "Espada Básica de Cavalaria"
     ],
-    "avatar": "/avatars/sword-art-online/ronie-arabel.png"
+    "avatar": "/avatars/sword-art-online/ronie-arabel.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "tiese-shtolienen",
@@ -852,7 +1032,11 @@
       "Artes Sagradas Elementais Glaciais",
       "Guarda da Espada da Rosa Azul"
     ],
-    "avatar": "/avatars/sword-art-online/tiese-shtolienen.png"
+    "avatar": "/avatars/sword-art-online/tiese-shtolienen.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "gabriel-miller",
@@ -872,7 +1056,11 @@
       "Comandos do Deus da Escuridão Vecta",
       "Forma Angelical do Vazio Infinito"
     ],
-    "avatar": "/avatars/sword-art-online/gabriel-miller.png"
+    "avatar": "/avatars/sword-art-online/gabriel-miller.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "iskahn",
@@ -890,7 +1078,11 @@
       "Punhos Incandescentes Esmagadores de Rochas",
       "Artes Marciais do Dark Territory"
     ],
-    "avatar": "/avatars/sword-art-online/iskahn.png"
+    "avatar": "/avatars/sword-art-online/iskahn.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   },
   {
     "id": "shasta",
@@ -907,7 +1099,11 @@
     "techniques": [
       "Tornado de Vontade Espiritual Pura do Cavaleiro das Trevas"
     ],
-    "avatar": "/avatars/sword-art-online/shasta.png"
+    "avatar": "/avatars/sword-art-online/shasta.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Demônio / Maldição / Sobrenatural"
   },
   {
     "id": "seijirou-kikuoka",
@@ -924,6 +1120,10 @@
     "techniques": [
       "Coordenação e Recursos Estratégicos da Rath Ocean Turtle"
     ],
-    "avatar": "/avatars/sword-art-online/seijirou-kikuoka.png"
+    "avatar": "/avatars/sword-art-online/seijirou-kikuoka.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   }
 ]

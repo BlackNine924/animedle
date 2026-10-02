@@ -19,7 +19,10 @@
       "Magia que Transforma Flores em Campos",
       "Desmantelamento de Barreiras Antigas"
     ],
-    "avatar": "/avatars/frieren/frieren.png"
+    "avatar": "/avatars/frieren/frieren.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fern",
@@ -40,7 +43,10 @@
       "Escudo Defensivo Esférico Hexagonal",
       "Magia de Limpeza de Roupas"
     ],
-    "avatar": "/avatars/frieren/fern.png"
+    "avatar": "/avatars/frieren/fern.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "stark",
@@ -61,7 +67,10 @@
       "Machado Cortador de Penhascos",
       "Investida Quebra-Dragões"
     ],
-    "avatar": "/avatars/frieren/stark.png"
+    "avatar": "/avatars/frieren/stark.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "himmel",
@@ -81,7 +90,10 @@
       "Liderança Inspiradora Lendária",
       "Golpe Perfurante Anti-Demônio"
     ],
-    "avatar": "/avatars/frieren/himmel.png"
+    "avatar": "/avatars/frieren/himmel.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "heiter",
@@ -102,7 +114,10 @@
       "Três Meses sem Oxigênio",
       "Bênçãos de Purificação de Veneno"
     ],
-    "avatar": "/avatars/frieren/heiter.png"
+    "avatar": "/avatars/frieren/heiter.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eisen",
@@ -122,7 +137,10 @@
       "Golpe Esmagador de Crânio",
       "Queda Ilesa de Quedas Mortais"
     ],
-    "avatar": "/avatars/frieren/eisen.png"
+    "avatar": "/avatars/frieren/eisen.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "flamme",
@@ -142,7 +160,10 @@
       "Grimórios Fundamentais da Humanidade",
       "Barreira Anti-Demônios Milenar"
     ],
-    "avatar": "/avatars/frieren/flamme.png"
+    "avatar": "/avatars/frieren/flamme.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "serie",
@@ -162,7 +183,10 @@
       "Detecção Dimensional de Mana",
       "Pressão Esmagadora de Mana Primordial"
     ],
-    "avatar": "/avatars/frieren/serie.png"
+    "avatar": "/avatars/frieren/serie.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "kraft",
@@ -182,7 +206,10 @@
       "Meditação Sagrada da Deusa",
       "Combate Desarmado Corporal"
     ],
-    "avatar": "/avatars/frieren/kraft.png"
+    "avatar": "/avatars/frieren/kraft.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sein",
@@ -203,7 +230,10 @@
       "Cura Sagrada Restauradora",
       "Detecção de Envenenamento Espiritual"
     ],
-    "avatar": "/avatars/frieren/sein.png"
+    "avatar": "/avatars/frieren/sein.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aura",
@@ -224,7 +254,10 @@
       "Controle de Exército de Cadáveres Decapitados",
       "Pesagem Inabalável de Mana"
     ],
-    "avatar": "/avatars/frieren/aura.png"
+    "avatar": "/avatars/frieren/aura.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lugner",
@@ -244,7 +277,10 @@
       "Endurecimento Cristalino de Sangue",
       "Oratória Dissimulada de Paz"
     ],
-    "avatar": "/avatars/frieren/lugner.png"
+    "avatar": "/avatars/frieren/lugner.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "linie",
@@ -264,7 +300,10 @@
       "Machadada Pesada Copiada",
       "Visão de Rastros de Mana"
     ],
-    "avatar": "/avatars/frieren/linie.png"
+    "avatar": "/avatars/frieren/linie.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "draht",
@@ -284,7 +323,10 @@
       "Guilhotina de Teias de Mana",
       "Estrangulamento Silencioso"
     ],
-    "avatar": "/avatars/frieren/draht.png"
+    "avatar": "/avatars/frieren/draht.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "qual",
@@ -304,7 +346,10 @@
       "Feixe Concentrado Penetrador de Barreiras",
       "Flutuação Demoníaca"
     ],
-    "avatar": "/avatars/frieren/qual.png"
+    "avatar": "/avatars/frieren/qual.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "denken",
@@ -325,7 +370,10 @@
       "Ventos Cortantes de Destruição",
       "Trocador de Socos Desesperado"
     ],
-    "avatar": "/avatars/frieren/denken.png"
+    "avatar": "/avatars/frieren/denken.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ubel",
@@ -345,7 +393,10 @@
       "Mimetismo por Empatia de Feitiços Alheios",
       "Sorge (Magia Paralisante de Contato Visual)"
     ],
-    "avatar": "/avatars/frieren/ubel.png"
+    "avatar": "/avatars/frieren/ubel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "land",
@@ -365,7 +416,10 @@
       "Disparo Sincronizado de Zoltraak via Clone",
       "Teletransporte de Consciência"
     ],
-    "avatar": "/avatars/frieren/land.png"
+    "avatar": "/avatars/frieren/land.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wirbel",
@@ -386,7 +440,10 @@
       "Zoltraak Militar Prático",
       "Estratégia de Emboscada de Esquadrão"
     ],
-    "avatar": "/avatars/frieren/wirbel.png"
+    "avatar": "/avatars/frieren/wirbel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "scharf",
@@ -407,7 +464,10 @@
       "Chuva de Flores Perfurantes",
       "Escudo Floral Repulsor"
     ],
-    "avatar": "/avatars/frieren/scharf.png"
+    "avatar": "/avatars/frieren/scharf.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ehre",
@@ -428,7 +488,10 @@
       "Estilhaçamento de Solo",
       "Barreira de Terra Rápida"
     ],
-    "avatar": "/avatars/frieren/ehre.png"
+    "avatar": "/avatars/frieren/ehre.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "richter",
@@ -449,7 +512,10 @@
       "Muralha Sísmica Continental",
       "Lâminas Ocultas do Subsolo"
     ],
-    "avatar": "/avatars/frieren/richter.png"
+    "avatar": "/avatars/frieren/richter.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "laufen",
@@ -470,7 +536,10 @@
       "Arrebatamento Relâmpago de Alvos",
       "Golpes com Bastão Mágico Veloz"
     ],
-    "avatar": "/avatars/frieren/laufen.png"
+    "avatar": "/avatars/frieren/laufen.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kanne",
@@ -490,7 +559,10 @@
       "Lança Perfurante Aquática",
       "Combinação Torrencial de Gelo"
     ],
-    "avatar": "/avatars/frieren/kanne.png"
+    "avatar": "/avatars/frieren/kanne.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lawine",
@@ -510,7 +582,10 @@
       "Espinhos de Gelo Perfurantes",
       "Muralha Glacial Protetora"
     ],
-    "avatar": "/avatars/frieren/lawine.png"
+    "avatar": "/avatars/frieren/lawine.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "duste",
@@ -530,7 +605,10 @@
       "Barreira Protetora Triangular",
       "Magia Defensiva Cooperativa"
     ],
-    "avatar": "/avatars/frieren/duste.png"
+    "avatar": "/avatars/frieren/duste.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ton",
@@ -549,7 +627,10 @@
       "Disparos Rítmicos de Mana",
       "Defesa Esférica Rápida"
     ],
-    "avatar": "/avatars/frieren/ton.png"
+    "avatar": "/avatars/frieren/ton.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "edel",
@@ -569,7 +650,10 @@
       "Indução de Transe Mental",
       "Desestabilização Psíquica"
     ],
-    "avatar": "/avatars/frieren/edel.png"
+    "avatar": "/avatars/frieren/edel.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "blei",
@@ -589,7 +673,10 @@
       "Golpe Direto de Mana",
       "Reforço de Barreira Coletiva"
     ],
-    "avatar": "/avatars/frieren/blei.png"
+    "avatar": "/avatars/frieren/blei.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sense",
@@ -609,7 +696,10 @@
       "Tentáculos Perfurantes de Queratina de Aço",
       "Domínio de Masmorra Labiríntica"
     ],
-    "avatar": "/avatars/frieren/sense.png"
+    "avatar": "/avatars/frieren/sense.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "genau",
@@ -629,7 +719,10 @@
       "Barreira Indestrutível de Exame",
       "Julgamento Frio Implacável"
     ],
-    "avatar": "/avatars/frieren/genau.png"
+    "avatar": "/avatars/frieren/genau.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lernen",
@@ -649,7 +742,10 @@
       "Disparo de Agulhas de Rocha Compactada",
       "Golems de Vigilância Mágica"
     ],
-    "avatar": "/avatars/frieren/lernen.png"
+    "avatar": "/avatars/frieren/lernen.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "falsch",
@@ -669,7 +765,10 @@
       "Feitiços de Monitoramento de Mana",
       "Transmissão Telepática"
     ],
-    "avatar": "/avatars/frieren/falsch.png"
+    "avatar": "/avatars/frieren/falsch.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "methode",
@@ -689,7 +788,10 @@
       "Magia Sagrada Médica da Deusa",
       "Análise e Neutralização de Maldições"
     ],
-    "avatar": "/avatars/frieren/methode.png"
+    "avatar": "/avatars/frieren/methode.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "macht",
@@ -709,7 +811,10 @@
       "Capa Dourada Impenetrável",
       "Esgrima com Espada de Ouro Puro"
     ],
-    "avatar": "/avatars/frieren/macht.png"
+    "avatar": "/avatars/frieren/macht.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "solitar",
@@ -729,7 +834,10 @@
       "Análise Estrutural e Colapso de Barreiras",
       "Espadas Invisíveis de Mana Compacta"
     ],
-    "avatar": "/avatars/frieren/solitar.png"
+    "avatar": "/avatars/frieren/solitar.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grausam",
@@ -749,7 +857,10 @@
       "Manipulação de Percepção Temporal",
       "Ocultação Total de Presença"
     ],
-    "avatar": "/avatars/frieren/grausam.png"
+    "avatar": "/avatars/frieren/grausam.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bose",
@@ -768,7 +879,10 @@
       "Barreira Cúbica Impenetrável",
       "Isolamento Espacial Mágico"
     ],
-    "avatar": "/avatars/frieren/bose.png"
+    "avatar": "/avatars/frieren/bose.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "revolte",
@@ -788,7 +902,10 @@
       "Aumento Físico Brutal de Mana",
       "Golpe de Fenda Cruzada"
     ],
-    "avatar": "/avatars/frieren/revolte.png"
+    "avatar": "/avatars/frieren/revolte.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tot",
@@ -807,7 +924,10 @@
       "Maldição das Sombras Globais",
       "Manto de Ocultação de Mana"
     ],
-    "avatar": "/avatars/frieren/tot.png"
+    "avatar": "/avatars/frieren/tot.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zart",
@@ -826,7 +946,10 @@
       "Salto Dimensional Ofensivo",
       "Estocada Súbita de Mana"
     ],
-    "avatar": "/avatars/frieren/zart.png"
+    "avatar": "/avatars/frieren/zart.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "schlacht",
@@ -845,7 +968,10 @@
       "Visão de Futuros Alternativos",
       "Cálculo Tático Temporal Milenar"
     ],
-    "avatar": "/avatars/frieren/schlacht.png"
+    "avatar": "/avatars/frieren/schlacht.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "demon-king",
@@ -865,7 +991,10 @@
       "Domínio de Maldições Cósmicas",
       "Comando das Hostes Demoníacas"
     ],
-    "avatar": "/avatars/frieren/demon-king.png"
+    "avatar": "/avatars/frieren/demon-king.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "graf-granat",
@@ -884,7 +1013,10 @@
       "Governança de Fortificações",
       "Resiliência a Interrogatórios"
     ],
-    "avatar": "/avatars/frieren/graf-granat.png"
+    "avatar": "/avatars/frieren/graf-granat.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "voll",
@@ -904,6 +1036,31 @@
       "Grito de Provocação Heroico",
       "Vigilância Secular"
     ],
-    "avatar": "/avatars/frieren/voll.png"
+    "avatar": "/avatars/frieren/voll.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "stoltz",
+    "name": "Stoltz",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Aldeia dos Guerreiros"
+    ],
+    "rank": "Irmão Mais Velho de Stark",
+    "styleOrPower": "Técnica da Túnica Imaculada & Machado Pesado",
+    "debutArc": "Arco da Travessia do Norte",
+    "status": "Morto",
+    "quote": "Stark... mesmo que seu casaco fique sujo de lama e sangue, você ainda é o meu irmão mais novo precioso.",
+    "techniques": [
+      "Corte Preciso Sem Sujar a Roupa",
+      "Golpe Rompe-Chão de Machado"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "roleOrArchetype": "Mentor / Suporte",
+    "hairColor": "Ruivo",
+    "avatar": "/avatars/frieren/stoltz.png"
   }
 ]

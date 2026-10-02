@@ -20,7 +20,10 @@
       "Uriel (Senhor dos Votos)",
       "Transformação Humana"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rimuru-tempest.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rimuru-tempest.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "veldora-tempest",
@@ -41,7 +44,10 @@
       "Morte por Vento Cortante",
       "Artes Secretas de Mangá de Veldora"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/veldora-tempest.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/veldora-tempest.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "benimaru",
@@ -62,7 +68,10 @@
       "Dança da Lâmina Escarlate",
       "Domínio Militar das Chamas"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/benimaru.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/benimaru.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shuna",
@@ -83,7 +92,10 @@
       "Barreira Sagrada de Seda",
       "Controle de Matéria Prima"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shuna.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shuna.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shion",
@@ -104,7 +116,10 @@
       "Corte da Espada Hércules",
       "Regeneração Infinita"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shion.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shion.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "souei",
@@ -125,7 +140,10 @@
       "Clone Sombra Perfeito",
       "Interrogatório da Morte Indolor"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/souei.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/souei.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hakuro",
@@ -146,7 +164,10 @@
       "Passo Vazio Instantâneo",
       "Instrução Marcial de Ogro"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/hakuro.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/hakuro.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurobe",
@@ -166,7 +187,10 @@
       "Refino Supremo de Magisteel",
       "Criação de Lâminas Lendárias"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kurobe.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kurobe.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ranga",
@@ -187,7 +211,10 @@
       "Corrida das Sombras Espirituais",
       "Duplo Chifre Sísmico"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ranga.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ranga.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gobta",
@@ -208,7 +235,10 @@
       "Falso Sono de Batalha",
       "Fusão de Montaria de Lobo"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gobta.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gobta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rigurd",
@@ -228,7 +258,10 @@
       "Poder Muscular de Rei Goblin",
       "Administração Governamental Suprema"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rigurd.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rigurd.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "geld",
@@ -249,7 +282,10 @@
       "Punho Titânico de Construção",
       "Guarda Sagrada de Magisteel"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/geld.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/geld.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "orc-disaster-geld",
@@ -270,7 +306,10 @@
       "Regeneração por Canibalismo",
       "Aura do Desastre Orc"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/orc-disaster-geld.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/orc-disaster-geld.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gabiru",
@@ -291,7 +330,10 @@
       "Voo Dracônico",
       "Cura com Poção de Hipokute"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gabiru.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gabiru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "souka",
@@ -311,7 +353,10 @@
       "Lâminas Ocultas de Voo",
       "Infiltração e Rastreio Dracônico"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/souka.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/souka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "diablo",
@@ -332,7 +377,10 @@
       "Troca de Morte e Destino",
       "Ilusão Perfeita do Vazio"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/diablo.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/diablo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zegion",
@@ -353,7 +401,10 @@
       "Carapaça Divina de Magisteel",
       "Onda de Choque de Vácuo"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/zegion.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/zegion.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "apito",
@@ -373,7 +424,10 @@
       "Enxame Espiritual Ilusório",
       "Produção de Mel Espiritual Divino"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/apito.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/apito.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kumara",
@@ -393,7 +447,10 @@
       "Ilusão das Nove Caudas",
       "Controle Gravitacional da Terra"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kumara.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kumara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "adalman",
@@ -413,7 +470,10 @@
       "Desintegração Esquelética",
       "Exército de Mortos-Vivos Sagrados"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/adalman.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/adalman.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "albert",
@@ -433,7 +493,10 @@
       "Corte Flamejante da Morte",
       "Defesa Imortal de Escudo"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/albert.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/albert.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wenti",
@@ -453,7 +516,10 @@
       "Garras de Vento Fantasmagórico",
       "Escamas de Trevas Abissais"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/wenti.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/wenti.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "beretta",
@@ -474,7 +540,10 @@
       "Metamorfose Líquida de Magisteel",
       "Reversão Polar Elemental"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/beretta.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/beretta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "treyni",
@@ -495,7 +564,10 @@
       "Bênção da Árvore Sagrada",
       "Batata Frita Divina"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/treyni.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/treyni.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "testarossa",
@@ -516,7 +588,10 @@
       "Controle Mental Supremo",
       "Cortejo Fúnebre da Morte"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/testarossa.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/testarossa.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ultima",
@@ -537,7 +612,10 @@
       "Explosão Tóxica do Caos",
       "Chicote Sombrio de Sangue"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ultima.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ultima.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "carrera",
@@ -558,7 +636,10 @@
       "Disparo Nuclear da Morte",
       "Canhão de Destruição Dimensional"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrera.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrera.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "moss",
@@ -578,7 +659,10 @@
       "Rede de Inteligência do Vazio",
       "Lâminas Demoníacas Ágeis"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/moss.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/moss.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "veyron",
@@ -598,7 +682,10 @@
       "Artes Marciais Demoníacas",
       "Barreira Protetora de Mordomo"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/veyron.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/veyron.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "esprit",
@@ -618,7 +705,10 @@
       "Distorção Espacial Veloz",
       "Lanças Mágicas Roxas"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/esprit.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/esprit.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guy-crimson",
@@ -639,7 +729,10 @@
       "Cópia Absoluta de Habilidades",
       "Espada Vermelha da Aniquilação"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/guy-crimson.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/guy-crimson.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "milim-nava",
@@ -660,7 +753,10 @@
       "Modo de Batalha Dragonoid",
       "Olho do Dragão Analítico"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/milim-nava.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/milim-nava.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ramiris",
@@ -680,7 +776,10 @@
       "Criação de Dimensões Espirituais",
       "Ressurreição Garantida no Labirinto"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ramiris.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ramiris.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "luminous-valentine",
@@ -702,7 +801,10 @@
       "Santuário Sagrado de Sangue",
       "Ressurreição Vampírica"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/luminous-valentine.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/luminous-valentine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "leon-cromwell",
@@ -723,7 +825,10 @@
       "Espada de Platina da Luz",
       "Purificação por Radiação Sagrada"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/leon-cromwell.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/leon-cromwell.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dagruel",
@@ -744,7 +849,10 @@
       "Esmagamento Continental",
       "Corpo de Rocha Indestrutível"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dagruel.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dagruel.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dino",
@@ -765,7 +873,10 @@
       "Lâmina da Queda Celestial",
       "Sonolência Paralisante"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dino.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dino.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "carrion",
@@ -785,7 +896,10 @@
       "Rugido Bestial Supersônico",
       "Garras de Relâmpago Animal"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrion.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrion.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "frey",
@@ -805,7 +919,10 @@
       "Mergulho Aéreo Mortal",
       "Turbilhão de Penas de Aço"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/frey.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/frey.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "clayman",
@@ -825,7 +942,10 @@
       "Canhão Demoníaco de Sangue",
       "Manipulação de Marionetes Vivas"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/clayman.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/clayman.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuuki-kagurazaka",
@@ -846,7 +966,10 @@
       "Roubo de Energia Mágica",
       "Luta Armada de Espadas e Punhos"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/yuuki-kagurazaka.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/yuuki-kagurazaka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "laplace",
@@ -867,7 +990,10 @@
       "Truque de Fuga Teatral",
       "Garras Cortantes de Palhaço"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/laplace.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/laplace.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tear",
@@ -887,7 +1013,10 @@
       "Salto Acrobático Sorrateiro",
       "Voo com Asas Mecânicas"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/tear.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/tear.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "footman",
@@ -907,7 +1036,10 @@
       "Salto Devastador Explosivo",
       "Impacto de Massa Crítica"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/footman.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/footman.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mariabell-rosso",
@@ -927,7 +1059,10 @@
       "Lavagem Cerebral Hipnótica",
       "Manipulação Econômica das Sombras"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/mariabell-rosso.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/mariabell-rosso.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "granbell-rosso",
@@ -947,7 +1082,10 @@
       "Espada de Chamas Sagradas",
       "Desintegração Solar"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/granbell-rosso.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/granbell-rosso.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hinata-sakaguchi",
@@ -968,7 +1106,10 @@
       "Desintegração Sagrada (Sanctuary Disintegration)",
       "Espada Rapieira Moonlight"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/hinata-sakaguchi.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/hinata-sakaguchi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "roy-valentin",
@@ -988,7 +1129,10 @@
       "Névoa Sombria de Evasão",
       "Canino Dilacerante"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/roy-valentin.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/roy-valentin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "louis-valentin",
@@ -1008,7 +1152,10 @@
       "Barreira Sacra Antimonstro",
       "Manipulação Espiritual da Fé"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/louis-valentin.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/louis-valentin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "arnaud-bauman",
@@ -1028,7 +1175,10 @@
       "Corte Triplo Divino",
       "Encantamento de Luz Celestial"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/arnaud-bauman.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/arnaud-bauman.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "velgrynd",
@@ -1049,7 +1199,10 @@
       "Incinerar Dimensional",
       "Sopro de Fogo Dracônico Infinito"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/velgrynd.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/velgrynd.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "velzard",
@@ -1070,7 +1223,10 @@
       "Nevasca Zero Absoluto",
       "Desaceleração Molecular"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/velzard.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/velzard.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chloe-aubert",
@@ -1092,7 +1248,10 @@
       "Corte do Fim Temporal",
       "Lâmina da Luz Espacial"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/chloe-aubert.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/chloe-aubert.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shizue-izawa",
@@ -1113,7 +1272,10 @@
       "Muralha de Chamas Espirituais",
       "Máscara da Resistência Mágica"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shizue-izawa.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shizue-izawa.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gazel-dwargo",
@@ -1134,7 +1296,10 @@
       "Endurecimento Corporal de Ferro",
       "Arte Sagrada dos Anões"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gazel-dwargo.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gazel-dwargo.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaijin",
@@ -1154,7 +1319,10 @@
       "Engenharia de Estruturas Élficas",
       "Armaria Protetora de Elite"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kaijin.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kaijin.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "youm-farmenas",
@@ -1174,7 +1342,10 @@
       "Comando de Tropas de Infantaria",
       "Investida de Cavaleiro Campeão"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/youm-farmenas.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/youm-farmenas.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "myuran",
@@ -1194,7 +1365,10 @@
       "Encantamento de Ilusão Sombra",
       "Feitiçaria Esotérica de Marionete"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/myuran.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/myuran.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "masayuki-honjou",
@@ -1216,7 +1390,10 @@
       "Inspirar Coragem nos Aliados",
       "Sorte Inexplicável em Batalha"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/masayuki-honjou.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/masayuki-honjou.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "albis",
@@ -1236,7 +1413,10 @@
       "Névoa Tóxica Paralisante",
       "Constrição de Escamas Douradas"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/albis.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/albis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "suphia",
@@ -1256,7 +1436,10 @@
       "Bote Felino da Garra Branca",
       "Rugido Feral de Impacto"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/suphia.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/suphia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "phobio",
@@ -1276,7 +1459,10 @@
       "Lança Cortante Bestial",
       "Carga Ofensiva Voraz"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/phobio.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/phobio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eren",
@@ -1297,7 +1483,10 @@
       "Magia Básica de Cura",
       "Lendas Ancestrais de Sarion"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/eren.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/eren.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kabal",
@@ -1317,7 +1506,10 @@
       "Grito de Provocação",
       "Golpe Defensivo de Infantaria"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kabal.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kabal.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gido",
@@ -1337,7 +1529,10 @@
       "Desarme de Armadilhas Mecânicas",
       "Passo Leve de Gatuno"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gido.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gido.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "misery",
@@ -1357,7 +1552,10 @@
       "Comando de Demônios Menores",
       "Barreira Sagrada de Gelo Escarlate"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/misery.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/misery.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rain",
@@ -1377,7 +1575,10 @@
       "Névoa Ilusória Azul",
       "Disparo de Água Ácida da Morte"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rain.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rain.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "charybdis",
@@ -1397,7 +1598,10 @@
       "Disparo Teleguiado de Espinhos",
       "Voo Celestial de Megalodonte"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/charybdis.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/charybdis.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ifrit",
@@ -1417,7 +1621,10 @@
       "Corpo Flamejante Incandescente",
       "Multiplicação de Labaredas Vivas"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ifrit.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ifrit.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kenya-misaki",
@@ -1437,7 +1644,10 @@
       "Investida Heroica",
       "Canalização de Espírito Sagrado"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kenya-misaki.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kenya-misaki.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ryota-sekiguchi",
@@ -1457,7 +1667,10 @@
       "Fúria do Berserk Controlada",
       "Barreira Protetora Fluida"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ryota-sekiguchi.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/ryota-sekiguchi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gale-gibson",
@@ -1477,7 +1690,10 @@
       "Muralha de Terra",
       "Golpe de Impacto Rochoso"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gale-gibson.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/gale-gibson.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alice-rondo",
@@ -1497,7 +1713,10 @@
       "Fios Invisíveis de Marionete",
       "Ataque Rotativo de Pelúcias"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/alice-rondo.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/alice-rondo.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "garm",
@@ -1517,7 +1736,10 @@
       "Alfaiataria de Fio Mágico",
       "Criação de Vestes Nobres"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/garm.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/garm.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dord",
@@ -1537,7 +1759,10 @@
       "Encantamento de Acessórios",
       "Escultura de Magisteel"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dord.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/dord.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "myrd",
@@ -1557,7 +1782,10 @@
       "Planejamento Urbano Rápido",
       "Estruturação de Aquedutos Mágicos"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/myrd.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/myrd.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "edmaris",
@@ -1577,7 +1805,10 @@
       "Decreto de Renúncia",
       "Mediação Nobre de Farmenas"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/edmaris.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/edmaris.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "razen",
@@ -1598,7 +1829,10 @@
       "Invocação Arcana de Quimeras",
       "Encantamento Gehenna"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/razen.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/razen.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shogo-taguchi",
@@ -1618,7 +1852,10 @@
       "Usurpador de Vida",
       "Punho de Choque Marcial"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shogo-taguchi.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/shogo-taguchi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kyoya-tachibana",
@@ -1638,7 +1875,10 @@
       "Corte do Vácuo Invisível",
       "Aceleração Temporal Sensorial"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kyoya-tachibana.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kyoya-tachibana.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kirara-mizutani",
@@ -1658,7 +1898,10 @@
       "Manipulação Psicológica",
       "Sugestão Mental Forçada"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kirara-mizutani.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kirara-mizutani.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "leonard-jester",
@@ -1678,7 +1921,10 @@
       "Disparo Sagrado Astral",
       "Comando de Regimento Santo"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/leonard-jester.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/leonard-jester.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bacchus",
@@ -1698,7 +1944,10 @@
       "Muralha Sísmica Sagrada",
       "Endurecimento Corporal de Rocha"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/bacchus.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/bacchus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "litus",
@@ -1718,7 +1967,10 @@
       "Vórtice Aquático Sagrado",
       "Cura com Água Benta"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/litus.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/litus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fritz",
@@ -1738,7 +1990,10 @@
       "Passo Rápido do Vento",
       "Disparo Aéreo Mágico"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/fritz.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/fritz.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "abiru",
@@ -1758,7 +2013,10 @@
       "Comando das Tribos do Pântano",
       "Escamas de Defesa Aquática"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/abiru.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/abiru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "trya",
@@ -1778,7 +2036,10 @@
       "Bênção das Folhas de Jura",
       "Encantamento de Cura Natural"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/trya.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/trya.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rigur",
@@ -1798,7 +2059,10 @@
       "Patrulha Rápida com Lobos",
       "Táticas de Caça em Equipe"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rigur.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rigur.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "haruna",
@@ -1818,7 +2082,10 @@
       "Supervisão Doméstica Real",
       "Acolhimento Nobre de Hóspedes"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/haruna.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/haruna.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "elmesia",
@@ -1838,7 +2105,10 @@
       "Barreira Mística Imperial",
       "Negociação Financeira Continental"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/elmesia.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/elmesia.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "erald-grimwald",
@@ -1858,7 +2128,10 @@
       "Diplomacia Internacional de Sarion",
       "Feitiços de Vento Mágico"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/erald-grimwald.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/erald-grimwald.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bernie",
@@ -1879,7 +2152,10 @@
       "Análise Tática de Batalha",
       "Magia Dimensional de Suporte"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/bernie.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/bernie.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jiwu",
@@ -1900,7 +2176,10 @@
       "Golpe de Palma Espiritual",
       "Esquiva Fluida de Chi"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/jiwu.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/jiwu.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rudra",
@@ -1921,7 +2200,10 @@
       "Subjugação Imperial Absoluta",
       "Espada Dourada do Imperador"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rudra.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/rudra.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tatsuya-kondou",
@@ -1941,7 +2223,10 @@
       "Tiro com Bala Necrótica Amaldiçoada",
       "Infiltração Tática Imperial"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/tatsuya-kondou.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/tatsuya-kondou.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "damrada",
@@ -1961,7 +2246,10 @@
       "Deslocamento Sombrio de Negócios",
       "Arte Marcial Imperial Secreta"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/damrada.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/damrada.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "calgurio",
@@ -1981,7 +2269,10 @@
       "Comando de Divisão Blindada",
       "Estratégia Ofensiva Pesada"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/calgurio.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/calgurio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kagali",
@@ -2002,7 +2293,10 @@
       "Criação de Homúnculos e Majins",
       "Manipulação Espiritual Sombria"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kagali.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/kagali.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "feldway",
@@ -2022,6 +2316,9 @@
       "Lâmina Divina Primordial",
       "Purificação Cósmica Celestial"
     ],
-    "avatar": "/avatars/tensei-shitara-slime-datta-ken/feldway.png"
+    "avatar": "/avatars/tensei-shitara-slime-datta-ken/feldway.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

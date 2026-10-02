@@ -14,6 +14,9 @@ export interface Character {
   origin?: string;
   quote?: string;
   ability?: string;
+  combatType?: string;
+  hairColor?: string;
+  roleOrArchetype?: string;
   grade?: string;
   era?: string;
   techniqueType?: string;

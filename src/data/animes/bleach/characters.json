@@ -20,7 +20,10 @@
       "Gran Rey Cero",
       "Bankai: Tensa Zangetsu"
     ],
-    "avatar": "/avatars/bleach/ichigo-kurosaki.png"
+    "avatar": "/avatars/bleach/ichigo-kurosaki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rukia-kuchiki",
@@ -43,7 +46,10 @@
       "San no Mai, Shirafune",
       "Hakka no Togame"
     ],
-    "avatar": "/avatars/bleach/rukia-kuchiki.png"
+    "avatar": "/avatars/bleach/rukia-kuchiki.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "orihime-inoue",
@@ -65,7 +71,10 @@
       "Koten Zanshun",
       "Shiten Koshun"
     ],
-    "avatar": "/avatars/bleach/orihime-inoue.png"
+    "avatar": "/avatars/bleach/orihime-inoue.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "uryu-ishida",
@@ -88,7 +97,10 @@
       "Sprenger",
       "The Antithesis"
     ],
-    "avatar": "/avatars/bleach/uryu-ishida.png"
+    "avatar": "/avatars/bleach/uryu-ishida.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yasutora-sado",
@@ -108,7 +120,10 @@
       "El Directo",
       "La Muerte"
     ],
-    "avatar": "/avatars/bleach/yasutora-sado.png"
+    "avatar": "/avatars/bleach/yasutora-sado.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kisuke-urahara",
@@ -131,7 +146,10 @@
       "Kannonbiraki Benihime Aratame",
       "Hado #99: Goryutenmetsu"
     ],
-    "avatar": "/avatars/bleach/kisuke-urahara.png"
+    "avatar": "/avatars/bleach/kisuke-urahara.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "yoruichi-shihoin",
@@ -154,7 +172,10 @@
       "Hankki",
       "Utsusemi"
     ],
-    "avatar": "/avatars/bleach/yoruichi-shihoin.png"
+    "avatar": "/avatars/bleach/yoruichi-shihoin.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "isshin-kurosaki",
@@ -176,7 +197,10 @@
       "Agitowari",
       "Onikopin"
     ],
-    "avatar": "/avatars/bleach/isshin-kurosaki.png"
+    "avatar": "/avatars/bleach/isshin-kurosaki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "ryuken-ishida",
@@ -196,7 +220,10 @@
       "Disparo de Flechas Espirituais",
       "Hirenkyaku"
     ],
-    "avatar": "/avatars/bleach/ryuken-ishida.png"
+    "avatar": "/avatars/bleach/ryuken-ishida.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kon",
@@ -216,7 +243,10 @@
       "Salto Ampliado",
       "Investida Desesperada"
     ],
-    "avatar": "/avatars/bleach/kon.png"
+    "avatar": "/avatars/bleach/kon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yamamoto-genryusai",
@@ -238,7 +268,10 @@
       "Zanka no Tachi: Higashi",
       "Zanka no Tachi: Minami (Kaka Jumanokushi Daisojin)"
     ],
-    "avatar": "/avatars/bleach/yamamoto-genryusai.png"
+    "avatar": "/avatars/bleach/yamamoto-genryusai.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "chojiro-sasakibe",
@@ -257,7 +290,10 @@
     "techniques": [
       "Koko Gonryo Rikyu"
     ],
-    "avatar": "/avatars/bleach/chojiro-sasakibe.png"
+    "avatar": "/avatars/bleach/chojiro-sasakibe.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shunsui-kyoraku",
@@ -281,7 +317,10 @@
       "Irooni",
       "Katen Kyokotsu: Karamatsu Shinju"
     ],
-    "avatar": "/avatars/bleach/shunsui-kyoraku.png"
+    "avatar": "/avatars/bleach/shunsui-kyoraku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "nanao-ise",
@@ -301,7 +340,10 @@
       "Reflexão Divina",
       "Hado e Bakudo de Alto Grau"
     ],
-    "avatar": "/avatars/bleach/nanao-ise.png"
+    "avatar": "/avatars/bleach/nanao-ise.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "soi-fon",
@@ -323,7 +365,10 @@
       "Jakaho Raikoben",
       "Mukyu Shunko"
     ],
-    "avatar": "/avatars/bleach/soi-fon.png"
+    "avatar": "/avatars/bleach/soi-fon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "marechiyo-omaeda",
@@ -342,7 +387,10 @@
     "techniques": [
       "Golpe Demolidor de Gegetsuburi"
     ],
-    "avatar": "/avatars/bleach/marechiyo-omaeda.png"
+    "avatar": "/avatars/bleach/marechiyo-omaeda.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rojuro-otoribashi",
@@ -363,7 +411,10 @@
       "Kinshara Sogikyoku: Ju No Kyoku",
       "Kinshara Butodan"
     ],
-    "avatar": "/avatars/bleach/rojuro-otoribashi.png"
+    "avatar": "/avatars/bleach/rojuro-otoribashi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "izuru-kira",
@@ -383,7 +434,10 @@
       "Dobra de Peso de Wabisuke",
       "Bakudo #73: Tozansho"
     ],
-    "avatar": "/avatars/bleach/izuru-kira.png"
+    "avatar": "/avatars/bleach/izuru-kira.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "retsu-unohana",
@@ -405,7 +459,10 @@
       "Minazuki (Ácido/Cura)",
       "Bankai: Minazuki (Lâmina Sangrenta)"
     ],
-    "avatar": "/avatars/bleach/retsu-unohana.png"
+    "avatar": "/avatars/bleach/retsu-unohana.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "isane-kotetsu",
@@ -425,7 +482,10 @@
       "Bakudo #58: Kakushitsuijaku",
       "Kaido"
     ],
-    "avatar": "/avatars/bleach/isane-kotetsu.png"
+    "avatar": "/avatars/bleach/isane-kotetsu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shinji-hirako",
@@ -447,7 +507,10 @@
       "Cero do Vizard",
       "Bankai: Sakasama Yokoshima Hapo Fusagari"
     ],
-    "avatar": "/avatars/bleach/shinji-hirako.png"
+    "avatar": "/avatars/bleach/shinji-hirako.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "momo-hinamori",
@@ -467,7 +530,10 @@
       "Esferas de Fogo de Tobiume",
       "Redes de Kido Combinado"
     ],
-    "avatar": "/avatars/bleach/momo-hinamori.png"
+    "avatar": "/avatars/bleach/momo-hinamori.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "byakuya-kuchiki",
@@ -491,7 +557,10 @@
       "Shukei: Hakuteiken",
       "Hado #33: Sokatsui"
     ],
-    "avatar": "/avatars/bleach/byakuya-kuchiki.png"
+    "avatar": "/avatars/bleach/byakuya-kuchiki.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "renji-abarai",
@@ -512,7 +581,10 @@
       "Hihio Zabimaru",
       "Soo Zabimaru: Zaga Teppo"
     ],
-    "avatar": "/avatars/bleach/renji-abarai.png"
+    "avatar": "/avatars/bleach/renji-abarai.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sajin-komamura",
@@ -533,7 +605,10 @@
       "Kokujo Tengen Myoo: Dangai Joe",
       "Técnica de Metamorfose Humana"
     ],
-    "avatar": "/avatars/bleach/sajin-komamura.png"
+    "avatar": "/avatars/bleach/sajin-komamura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "tetsuzaemon-iba",
@@ -553,7 +628,10 @@
       "Corte de Shikai",
       "Combate Corpo a Corpo Masculino"
     ],
-    "avatar": "/avatars/bleach/tetsuzaemon-iba.png"
+    "avatar": "/avatars/bleach/tetsuzaemon-iba.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "lisa-yadomaru",
@@ -574,7 +652,10 @@
       "Golpe Giratório de Haguro Tonbo",
       "Máscara Hollow de Vizard"
     ],
-    "avatar": "/avatars/bleach/lisa-yadomaru.png"
+    "avatar": "/avatars/bleach/lisa-yadomaru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kensei-muguruma",
@@ -596,7 +677,10 @@
       "Tekken Tachikaze",
       "Sandan Bakusaitsuki"
     ],
-    "avatar": "/avatars/bleach/kensei-muguruma.png"
+    "avatar": "/avatars/bleach/kensei-muguruma.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "shuhei-hisagi",
@@ -617,7 +701,10 @@
       "Fushi no Kojyo",
       "Hado #63: Raikoho"
     ],
-    "avatar": "/avatars/bleach/shuhei-hisagi.png"
+    "avatar": "/avatars/bleach/shuhei-hisagi.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "toshiro-hitsugaya",
@@ -639,7 +726,10 @@
       "Guncho Tsurara",
       "Daiguren Hyorinmaru Completa (Forma Adulta)"
     ],
-    "avatar": "/avatars/bleach/toshiro-hitsugaya.png"
+    "avatar": "/avatars/bleach/toshiro-hitsugaya.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "rangiku-matsumoto",
@@ -659,7 +749,10 @@
       "Haineko no Hai",
       "Bakudo #77: Tenteikura"
     ],
-    "avatar": "/avatars/bleach/rangiku-matsumoto.png"
+    "avatar": "/avatars/bleach/rangiku-matsumoto.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kenpachi-zaraki",
@@ -680,7 +773,10 @@
       "Corte com Duas Mãos (Kendo)",
       "Bankai Demoníaca de Nozarashi"
     ],
-    "avatar": "/avatars/bleach/kenpachi-zaraki.png"
+    "avatar": "/avatars/bleach/kenpachi-zaraki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "yachiru-kusajishi",
@@ -699,7 +795,10 @@
     "techniques": [
       "Sanpo Kenju (Criaturas Espirituais Gemeas)"
     ],
-    "avatar": "/avatars/bleach/yachiru-kusajishi.png"
+    "avatar": "/avatars/bleach/yachiru-kusajishi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ikkaku-madarame",
@@ -719,7 +818,10 @@
       "Divida, Hozukimaru",
       "Ryumon Hozukimaru"
     ],
-    "avatar": "/avatars/bleach/ikkaku-madarame.png"
+    "avatar": "/avatars/bleach/ikkaku-madarame.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yumichika-ayasegawa",
@@ -739,7 +841,10 @@
       "Drenagem Espiritual de Ruri'iro Kujaku",
       "Fuji Kujaku"
     ],
-    "avatar": "/avatars/bleach/yumichika-ayasegawa.png"
+    "avatar": "/avatars/bleach/yumichika-ayasegawa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mayuri-kurotsuchi",
@@ -761,7 +866,10 @@
       "Konjiki Ashisogi Jizo: Makai Fukuin Shotai",
       "Drogas de Percepção Temporal"
     ],
-    "avatar": "/avatars/bleach/mayuri-kurotsuchi.png"
+    "avatar": "/avatars/bleach/mayuri-kurotsuchi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "nemu-kurotsuchi",
@@ -781,7 +889,10 @@
       "Sobrecarga Celular de Potência",
       "Cura Anatômica Orgânica"
     ],
-    "avatar": "/avatars/bleach/nemu-kurotsuchi.png"
+    "avatar": "/avatars/bleach/nemu-kurotsuchi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jushiro-ukitake",
@@ -801,7 +912,10 @@
       "Absorção e Refração de Energia de Sogyo no Kotowari",
       "Kamikake (Invocação de Mimihagi)"
     ],
-    "avatar": "/avatars/bleach/jushiro-ukitake.png"
+    "avatar": "/avatars/bleach/jushiro-ukitake.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "sosuke-aizen",
@@ -824,7 +938,10 @@
       "Fusão do Hogyoku",
       "Fragor"
     ],
-    "avatar": "/avatars/bleach/sosuke-aizen.png"
+    "avatar": "/avatars/bleach/sosuke-aizen.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "gin-ichimaru",
@@ -846,7 +963,10 @@
       "Kamishini no Yari",
       "Korose, Kamishini no Yari (Veneno Celular)"
     ],
-    "avatar": "/avatars/bleach/gin-ichimaru.png"
+    "avatar": "/avatars/bleach/gin-ichimaru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "kaname-tosen",
@@ -869,7 +989,10 @@
       "Resurrección: Grillar Grillo",
       "Los Nueve Aspectos"
     ],
-    "avatar": "/avatars/bleach/kaname-tosen.png"
+    "avatar": "/avatars/bleach/kaname-tosen.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "ichibe-hyosube",
@@ -890,7 +1013,10 @@
       "Shirafude Ichimonji (Renomeação)",
       "Futen Taisatsuryo"
     ],
-    "avatar": "/avatars/bleach/ichibe-hyosube.png"
+    "avatar": "/avatars/bleach/ichibe-hyosube.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "oetsu-nimaiya",
@@ -910,7 +1036,10 @@
       "Corte Absoluto de Sayafushi",
       "Controle da Forja Espiritual"
     ],
-    "avatar": "/avatars/bleach/oetsu-nimaiya.png"
+    "avatar": "/avatars/bleach/oetsu-nimaiya.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tenjiro-kirinji",
@@ -931,7 +1060,10 @@
       "Água Branca Espiritual",
       "Água Vermelha Infernal"
     ],
-    "avatar": "/avatars/bleach/tenjiro-kirinji.png"
+    "avatar": "/avatars/bleach/tenjiro-kirinji.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "senjumaru-shutara",
@@ -951,7 +1083,10 @@
       "Tecelagem Espiritual Oculta",
       "Bankai: Shatatsu Karagara Shigaramino Tsuji"
     ],
-    "avatar": "/avatars/bleach/senjumaru-shutara.png"
+    "avatar": "/avatars/bleach/senjumaru-shutara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kirio-hikifune",
@@ -971,7 +1106,10 @@
       "Gikon (Alma Provisória)",
       "Jaula da Árvore Espiritual de Kuryu"
     ],
-    "avatar": "/avatars/bleach/kirio-hikifune.png"
+    "avatar": "/avatars/bleach/kirio-hikifune.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "coyote-starrk",
@@ -992,7 +1130,10 @@
       "Lobos de Almas Espirituais",
       "Colmillo"
     ],
-    "avatar": "/avatars/bleach/coyote-starrk.png"
+    "avatar": "/avatars/bleach/coyote-starrk.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "baraggan-louisenbairn",
@@ -1013,7 +1154,10 @@
       "Gran Caida",
       "Senescencia"
     ],
-    "avatar": "/avatars/bleach/baraggan-louisenbairn.png"
+    "avatar": "/avatars/bleach/baraggan-louisenbairn.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tier-harribel",
@@ -1035,7 +1179,10 @@
       "Tridente",
       "Hirviendo"
     ],
-    "avatar": "/avatars/bleach/tier-harribel.png"
+    "avatar": "/avatars/bleach/tier-harribel.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ulquiorra-cifer",
@@ -1057,7 +1204,10 @@
       "Resurrección: Segunda Etapa",
       "Solita Vista"
     ],
-    "avatar": "/avatars/bleach/ulquiorra-cifer.png"
+    "avatar": "/avatars/bleach/ulquiorra-cifer.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nnoitra-gilga",
@@ -1078,7 +1228,10 @@
       "Hierro Supremo",
       "Indice Radar"
     ],
-    "avatar": "/avatars/bleach/nnoitra-gilga.png"
+    "avatar": "/avatars/bleach/nnoitra-gilga.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grimmjow-jaegerjaquez",
@@ -1099,7 +1252,10 @@
       "Desgarrón",
       "Gran Rey Cero"
     ],
-    "avatar": "/avatars/bleach/grimmjow-jaegerjaquez.png"
+    "avatar": "/avatars/bleach/grimmjow-jaegerjaquez.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zommari-rureaux",
@@ -1120,7 +1276,10 @@
       "Gemelos Sonido",
       "El Embrion"
     ],
-    "avatar": "/avatars/bleach/zommari-rureaux.png"
+    "avatar": "/avatars/bleach/zommari-rureaux.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "szayelaporro-granz",
@@ -1141,7 +1300,10 @@
       "Clonagem Celular",
       "Renascimento Gabriel"
     ],
-    "avatar": "/avatars/bleach/szayelaporro-granz.png"
+    "avatar": "/avatars/bleach/szayelaporro-granz.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aaroniero-arruruerie",
@@ -1161,7 +1323,10 @@
       "Nejibana Copiada",
       "Forma Monstruosa de 33.000 Hollows"
     ],
-    "avatar": "/avatars/bleach/aaroniero-arruruerie.png"
+    "avatar": "/avatars/bleach/aaroniero-arruruerie.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yammy-llargo",
@@ -1182,7 +1347,10 @@
       "Bala Gigante",
       "Transformação Colossal Titânica"
     ],
-    "avatar": "/avatars/bleach/yammy-llargo.png"
+    "avatar": "/avatars/bleach/yammy-llargo.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nelliel-tu-odelschwanck",
@@ -1203,7 +1371,10 @@
       "Cero Doble",
       "Lanzador Verde"
     ],
-    "avatar": "/avatars/bleach/nelliel-tu-odelschwanck.png"
+    "avatar": "/avatars/bleach/nelliel-tu-odelschwanck.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wonderweiss-margela",
@@ -1223,7 +1394,10 @@
       "Vagido da Selagem de Chamas",
       "Centenas de Punhos Extinguir"
     ],
-    "avatar": "/avatars/bleach/wonderweiss-margela.png"
+    "avatar": "/avatars/bleach/wonderweiss-margela.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yhwach",
@@ -1245,7 +1419,10 @@
       "Sankt Altar",
       "Zankt Bogen"
     ],
-    "avatar": "/avatars/bleach/yhwach.png"
+    "avatar": "/avatars/bleach/yhwach.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "jugram-haschwalth",
@@ -1265,7 +1442,10 @@
       "The Balance",
       "Freund Schild (Escudo do Infortúnio)"
     ],
-    "avatar": "/avatars/bleach/jugram-haschwalth.png"
+    "avatar": "/avatars/bleach/jugram-haschwalth.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gerard-valkyrie",
@@ -1286,7 +1466,10 @@
       "Hoffnung (Espada da Esperança)",
       "Aschetonig"
     ],
-    "avatar": "/avatars/bleach/gerard-valkyrie.png"
+    "avatar": "/avatars/bleach/gerard-valkyrie.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "lille-barro",
@@ -1307,7 +1490,10 @@
       "Vollständig: Jilliel",
       "Intangibilidade Celestial"
     ],
-    "avatar": "/avatars/bleach/lille-barro.png"
+    "avatar": "/avatars/bleach/lille-barro.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pernida-parnkgjas",
@@ -1327,7 +1513,10 @@
       "Nervos Invasivos de The Compulsory",
       "Mimetismo Genético Adaptativo"
     ],
-    "avatar": "/avatars/bleach/pernida-parnkgjas.png"
+    "avatar": "/avatars/bleach/pernida-parnkgjas.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "askin-nakk-le-vaar",
@@ -1350,7 +1539,10 @@
       "Gift Ring",
       "Vollständig: Hasshein"
     ],
-    "avatar": "/avatars/bleach/askin-nakk-le-vaar.png"
+    "avatar": "/avatars/bleach/askin-nakk-le-vaar.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bazz-b",
@@ -1370,7 +1562,10 @@
       "Burner Finger 1 a 4",
       "Burning Full Fingers"
     ],
-    "avatar": "/avatars/bleach/bazz-b.png"
+    "avatar": "/avatars/bleach/bazz-b.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bambietta-basterbine",
@@ -1390,7 +1585,10 @@
       "The Explode",
       "Vollständig com Asas Bombardeadas"
     ],
-    "avatar": "/avatars/bleach/bambietta-basterbine.png"
+    "avatar": "/avatars/bleach/bambietta-basterbine.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "candice-catnipp",
@@ -1410,7 +1608,10 @@
       "Electrocution",
       "Galvano Javelin"
     ],
-    "avatar": "/avatars/bleach/candice-catnipp.png"
+    "avatar": "/avatars/bleach/candice-catnipp.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "giselle-gewelle",
@@ -1430,7 +1631,10 @@
       "Zumbificação Sanguínea",
       "Comando de Marionetes"
     ],
-    "avatar": "/avatars/bleach/giselle-gewelle.png"
+    "avatar": "/avatars/bleach/giselle-gewelle.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "meninas-mcallon",
@@ -1449,7 +1653,10 @@
     "techniques": [
       "Superforça Muscular Esmagadora"
     ],
-    "avatar": "/avatars/bleach/meninas-mcallon.png"
+    "avatar": "/avatars/bleach/meninas-mcallon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "liltotto-lamperd",
@@ -1468,7 +1675,10 @@
     "techniques": [
       "Mandíbula Monstruosa Canibal"
     ],
-    "avatar": "/avatars/bleach/liltotto-lamperd.png"
+    "avatar": "/avatars/bleach/liltotto-lamperd.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "as-nodt",
@@ -1488,7 +1698,10 @@
       "Espinhos do Pânico Induzido",
       "Vollständig: Tatarforas"
     ],
-    "avatar": "/avatars/bleach/as-nodt.png"
+    "avatar": "/avatars/bleach/as-nodt.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mask-de-masculine",
@@ -1509,7 +1722,10 @@
       "Star Lariat",
       "Star Laser Mortal"
     ],
-    "avatar": "/avatars/bleach/mask-de-masculine.png"
+    "avatar": "/avatars/bleach/mask-de-masculine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gremmy-thoumeaux",
@@ -1530,7 +1746,10 @@
       "Vácuo Espacial",
       "Armas Bélicas da Imaginação"
     ],
-    "avatar": "/avatars/bleach/gremmy-thoumeaux.png"
+    "avatar": "/avatars/bleach/gremmy-thoumeaux.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "quilge-opie",
@@ -1551,7 +1770,10 @@
       "Vollständig: Biskiel",
       "Ransotengai"
     ],
-    "avatar": "/avatars/bleach/quilge-opie.png"
+    "avatar": "/avatars/bleach/quilge-opie.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kugo-ginjo",
@@ -1572,7 +1794,10 @@
       "Getsuga Tensho Roubado",
       "Bankai de Cross of Scaffold"
     ],
-    "avatar": "/avatars/bleach/kugo-ginjo.png"
+    "avatar": "/avatars/bleach/kugo-ginjo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "shukuro-tsukishima",
@@ -1592,7 +1817,10 @@
       "Inserção no Passado de Book of the End",
       "Corte Psíquico"
     ],
-    "avatar": "/avatars/bleach/shukuro-tsukishima.png"
+    "avatar": "/avatars/bleach/shukuro-tsukishima.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "riruka-dokugamine",
@@ -1612,7 +1840,10 @@
       "Encolhimento em Caixa Dollhouse",
       "Disparo de Pelúcia"
     ],
-    "avatar": "/avatars/bleach/riruka-dokugamine.png"
+    "avatar": "/avatars/bleach/riruka-dokugamine.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yukio-hans-vorarlberna",
@@ -1632,7 +1863,10 @@
       "Dimensão de Pixel Isolada",
       "Monstros de 8-bits"
     ],
-    "avatar": "/avatars/bleach/yukio-hans-vorarlberna.png"
+    "avatar": "/avatars/bleach/yukio-hans-vorarlberna.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kazui-kurosaki",
@@ -1652,6 +1886,164 @@
       "Manto de Shinigami Instintivo",
       "Abertura de Portões Espirituais"
     ],
-    "avatar": "/avatars/bleach/kazui-kurosaki.png"
+    "avatar": "/avatars/bleach/kazui-kurosaki.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "hanataro-yamada",
+    "name": "Hanataro Yamada",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Gotei 13 - 4ª Divisão"
+    ],
+    "rank": "7º Oficial da 4ª Divisão",
+    "styleOrPower": "Zanpakuto Hisagomaru (Absorção de Ferimentos e Disparo)",
+    "debutArc": "Arco da Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Eu sou apenas um membro da divisão de alívio médico... mas jurei ajudar a Kuchiki-san e o Kurosaki-san!",
+    "techniques": [
+      "Curativo Espiritual Kaido",
+      "Ategaki de Energia Curativa Convertida em Golpe"
+    ],
+    "combatType": "Magia / Sobrenatural",
+    "roleOrArchetype": "Suporte Cômico",
+    "hairColor": "Preto",
+    "avatar": "/avatars/bleach/hanataro-yamada.png"
+  },
+  {
+    "id": "jidanbo-ikkanzaka",
+    "name": "Jidanbo Ikkanzaka",
+    "gender": "Masculino",
+    "species": "Alma / Guardião Gigante",
+    "affiliation": [
+      "Seireitei - Portão Hakutomon"
+    ],
+    "rank": "Guardião do Portão Oeste",
+    "styleOrPower": "Machados Gêmeos Gigantescos & Força Bruta",
+    "debutArc": "Arco da Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Ninguém passa pelo Portão Hakutomon sem permissão! Esse é o meu dever há trezentos anos!",
+    "techniques": [
+      "Jidanbo Strike de Machados",
+      "Abertura dos Portões de Sekiseki"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "roleOrArchetype": "Suporte",
+    "hairColor": "Preto",
+    "avatar": "/avatars/bleach/jidanbo-ikkanzaka.png"
+  },
+  {
+    "id": "ganju-shiba",
+    "name": "Ganju Shiba",
+    "gender": "Masculino",
+    "species": "Alma / Clã Nobre Shiba",
+    "affiliation": [
+      "Família Shiba de Rukongai"
+    ],
+    "rank": "Líder dos Rebeldes de Rukongai",
+    "styleOrPower": "Manipulação de Areia (Seppa) & Montaria de Javali",
+    "debutArc": "Arco da Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Eu odiava os Shinigami pela morte do meu irmão Kaien... mas você me mostrou o verdadeiro significado de coragem, Ichigo!",
+    "techniques": [
+      "Seppa (Transformação de Pedra em Areia)",
+      "Fogos de Artifício Explosivos Shiba"
+    ],
+    "combatType": "Magia / Sobrenatural",
+    "roleOrArchetype": "Rival / Suporte",
+    "hairColor": "Castanho",
+    "avatar": "/avatars/bleach/ganju-shiba.png"
+  },
+  {
+    "id": "kukaku-shiba",
+    "name": "Kukaku Shiba",
+    "gender": "Feminino",
+    "species": "Alma / Clã Nobre Shiba",
+    "affiliation": [
+      "Família Shiba de Rukongai"
+    ],
+    "rank": "Líder do Clã Shiba / Mestre em Pirotecnia",
+    "styleOrPower": "Canhão Espiritual Flor de Lótus & Kido de Nível Alto",
+    "debutArc": "Arco da Sociedade das Almas",
+    "status": "Vivo",
+    "quote": "Eu vou disparar vocês direto no coração da Seireitei com o meu canhão de fogos! Aguentem firme a esfera de reishi!",
+    "techniques": [
+      "Canhão Pirotécnico de Seireitei",
+      "Kido sem Encantamento Destrutivo"
+    ],
+    "combatType": "Magia / Sobrenatural",
+    "roleOrArchetype": "Mentor / Suporte",
+    "hairColor": "Preto",
+    "avatar": "/avatars/bleach/kukaku-shiba.png"
+  },
+  {
+    "id": "tessai-tsukabishi",
+    "name": "Tessai Tsukabishi",
+    "gender": "Masculino",
+    "species": "Shinigami",
+    "affiliation": [
+      "Loja Urahara",
+      "Corpo Kido"
+    ],
+    "rank": "Ex-Grande Comandante do Corpo Kido",
+    "styleOrPower": "Kidos Proibidos de Espaço-Tempo & Bakudo Mestre",
+    "debutArc": "Arco do Shinigami Substituto",
+    "status": "Vivo",
+    "quote": "Na Loja Urahara nós vendemos doces e itens espirituais... mas se ameaçarem nossos amigos, liberarei Hadou de nível 99!",
+    "techniques": [
+      "Jikanteishi (Parada Temporal)",
+      "Kuukan Teni (Teletransporte Espacial)"
+    ],
+    "combatType": "Magia / Sobrenatural",
+    "roleOrArchetype": "Mentor / Suporte",
+    "hairColor": "Preto",
+    "avatar": "/avatars/bleach/tessai-tsukabishi.png"
+  },
+  {
+    "id": "dordoni-alessandro",
+    "name": "Dordoni Alessandro Del Socaccio",
+    "gender": "Masculino",
+    "species": "Arrancar (Privaron Espada)",
+    "affiliation": [
+      "Las Noches - Exército de Aizen"
+    ],
+    "rank": "Privaron Espada Nº 103",
+    "styleOrPower": "Resurrección Giralda (Ciclones de Chutes de Pássaro)",
+    "debutArc": "Arco do Hueco Mundo",
+    "status": "Morto",
+    "quote": "Bebê! Mostre-me sua Bankai e sua máscara Hollow completas! Eu quero lutar com honra de guerreiro contra você!",
+    "techniques": [
+      "El Uno Chute Tornado",
+      "Cero Barocan"
+    ],
+    "combatType": "Corpo a Corpo",
+    "roleOrArchetype": "Antagonista",
+    "hairColor": "Preto",
+    "avatar": "/avatars/bleach/dordoni-alessandro.png"
+  },
+  {
+    "id": "cirucci-sanderwicci",
+    "name": "Cirucci Sanderwicci",
+    "gender": "Feminino",
+    "species": "Arrancar (Privaron Espada)",
+    "affiliation": [
+      "Las Noches - Exército de Aizen"
+    ],
+    "rank": "Privaron Espada Nº 105",
+    "styleOrPower": "Resurrección Golondrina (Chicote de Disco Vibratório Cortante)",
+    "debutArc": "Arco do Hueco Mundo",
+    "status": "Vivo",
+    "quote": "Quincy impertinente! Minhas lâminas de Reishi giratórias vão fatiar todas as suas flechas antes de você piscar!",
+    "techniques": [
+      "Ala de Andorinha Cortante",
+      "Lâminas de Plumas Telecinéticas"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "roleOrArchetype": "Antagonista",
+    "hairColor": "Roxo",
+    "avatar": "/avatars/bleach/cirucci-sanderwicci.png"
   }
 ]

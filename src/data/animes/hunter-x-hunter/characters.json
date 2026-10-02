@@ -19,7 +19,10 @@
       "Jajanken: Papel (Paa)",
       "Transformação de Contrato Adulto"
     ],
-    "avatar": "/avatars/hunter-x-hunter/gon-freecss.png"
+    "avatar": "/avatars/hunter-x-hunter/gon-freecss.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "killua-zoldyck",
@@ -42,7 +45,10 @@
       "Palma do Trovão (Izutsushi)",
       "Garras Retráteis de Assassino"
     ],
-    "avatar": "/avatars/hunter-x-hunter/killua-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/killua-zoldyck.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurapika",
@@ -66,7 +72,10 @@
       "Holy Chain (Corrente da Cura)",
       "Steal Chain & Stealth Dolphin"
     ],
-    "avatar": "/avatars/hunter-x-hunter/kurapika.png"
+    "avatar": "/avatars/hunter-x-hunter/kurapika.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "leorio-paradinight",
@@ -88,7 +97,10 @@
       "Eco-Rastreamento Ultrassônico de Nen",
       "Combate com Bisturi e Faca"
     ],
-    "avatar": "/avatars/hunter-x-hunter/leorio-paradinight.png"
+    "avatar": "/avatars/hunter-x-hunter/leorio-paradinight.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hisoka-morow",
@@ -109,7 +121,10 @@
       "Texture Surprise (Textura Enganosa)",
       "Cartas de Baralho Imbuídas com Shu"
     ],
-    "avatar": "/avatars/hunter-x-hunter/hisoka-morow.png"
+    "avatar": "/avatars/hunter-x-hunter/hisoka-morow.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "illumi-zoldyck",
@@ -131,7 +146,10 @@
       "Alteração Facial de Gittarackur",
       "Hipnose Cerebral por Agulha Oculta"
     ],
-    "avatar": "/avatars/hunter-x-hunter/illumi-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/illumi-zoldyck.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "silva-zoldyck",
@@ -151,7 +169,10 @@
       "Imunidade Biológica Total a Toxinas",
       "Arrancada Silenciosa de Coração"
     ],
-    "avatar": "/avatars/hunter-x-hunter/silva-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/silva-zoldyck.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "zeno-zoldyck",
@@ -171,7 +192,10 @@
       "Dragon Head (Cabeça de Dragão Voadora)",
       "Dragon Lance (Lança Perfurante de Dragão)"
     ],
-    "avatar": "/avatars/hunter-x-hunter/zeno-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/zeno-zoldyck.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "kikyo-zoldyck",
@@ -190,7 +214,10 @@
       "Monitoramento Óptico Digital",
       "Comando de Guardas de Kukuroo Mountain"
     ],
-    "avatar": "/avatars/hunter-x-hunter/kikyo-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/kikyo-zoldyck.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "milluki-zoldyck",
@@ -209,7 +236,10 @@
       "Mosquito Bomba de Detonação Remota",
       "Hackeamento de Leilões e Redes"
     ],
-    "avatar": "/avatars/hunter-x-hunter/milluki-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/milluki-zoldyck.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kalluto-zoldyck",
@@ -231,7 +261,10 @@
       "Escuta Remota em Bonecos de Papel",
       "Leques Fatiadores de Aço"
     ],
-    "avatar": "/avatars/hunter-x-hunter/kalluto-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/kalluto-zoldyck.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "alluka-zoldyck",
@@ -252,7 +285,10 @@
       "Morte Instantânea por Recusa de Pedidos",
       "Cura Milagrosa pelo Amor de Killua"
     ],
-    "avatar": "/avatars/hunter-x-hunter/alluka-zoldyck.png"
+    "avatar": "/avatars/hunter-x-hunter/alluka-zoldyck.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gotoh",
@@ -272,7 +308,10 @@
       "Moedas Metralhadora com Giro Reforçado",
       "Truque de Mãos Ilusionista"
     ],
-    "avatar": "/avatars/hunter-x-hunter/gotoh.png"
+    "avatar": "/avatars/hunter-x-hunter/gotoh.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "canary",
@@ -292,7 +331,10 @@
       "Cem Golpes de Bengala em Ritmo Sombra",
       "Defesa Territorial do Portão"
     ],
-    "avatar": "/avatars/hunter-x-hunter/canary.png"
+    "avatar": "/avatars/hunter-x-hunter/canary.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsubone",
@@ -312,7 +354,10 @@
       "Transformação em Motocicleta a Motor",
       "Planador Supersônico de Nen"
     ],
-    "avatar": "/avatars/hunter-x-hunter/tsubone.png"
+    "avatar": "/avatars/hunter-x-hunter/tsubone.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "chrollo-lucilfer",
@@ -333,7 +378,10 @@
       "Indoor Fish (Peixes Carnívoros do Vazio)",
       "Order Stamp & Sun and Moon"
     ],
-    "avatar": "/avatars/hunter-x-hunter/chrollo-lucilfer.png"
+    "avatar": "/avatars/hunter-x-hunter/chrollo-lucilfer.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "feitan-portor",
@@ -354,7 +402,10 @@
       "Espada Oculta no Guarda-Chuva",
       "Velocidade Cega de Imagens Residuais"
     ],
-    "avatar": "/avatars/hunter-x-hunter/feitan-portor.png"
+    "avatar": "/avatars/hunter-x-hunter/feitan-portor.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "phinks-magcub",
@@ -374,7 +425,10 @@
       "Ripper Cyclotron (Soco Furacão Esmagador)",
       "Quebra de Pescoço Instantânea"
     ],
-    "avatar": "/avatars/hunter-x-hunter/phinks-magcub.png"
+    "avatar": "/avatars/hunter-x-hunter/phinks-magcub.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nobunaga-hazama",
@@ -394,7 +448,10 @@
       "Saque Rápido de Katana Iaijutsu",
       "En Esférico de Quatro Metros"
     ],
-    "avatar": "/avatars/hunter-x-hunter/nobunaga-hazama.png"
+    "avatar": "/avatars/hunter-x-hunter/nobunaga-hazama.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shalnark",
@@ -415,7 +472,10 @@
       "Black Voice (Controle Total por Controle Remoto)",
       "Modo Piloto Automático com Sobrecarga de Nen"
     ],
-    "avatar": "/avatars/hunter-x-hunter/shalnark.png"
+    "avatar": "/avatars/hunter-x-hunter/shalnark.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "uvogin",
@@ -436,7 +496,10 @@
       "Grito Ensurdecedor Rompe-Tímpanos",
       "Cusparada de Rocha Mortal"
     ],
-    "avatar": "/avatars/hunter-x-hunter/uvogin.png"
+    "avatar": "/avatars/hunter-x-hunter/uvogin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "machi-komacine",
@@ -457,7 +520,10 @@
       "Fios Invisíveis de Estrangulamento",
       "Rastreamento por Fios de Agulha"
     ],
-    "avatar": "/avatars/hunter-x-hunter/machi-komacine.png"
+    "avatar": "/avatars/hunter-x-hunter/machi-komacine.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pakunoda",
@@ -478,7 +544,10 @@
       "Balas de Memória (Memory Bomb)",
       "Disparo com Revólver Clássico"
     ],
-    "avatar": "/avatars/hunter-x-hunter/pakunoda.png"
+    "avatar": "/avatars/hunter-x-hunter/pakunoda.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shizuku-murasaki",
@@ -498,7 +567,10 @@
       "Blinky (Aspirador com Dentes Devorador de Matéria)",
       "Drenagem Total de Sangue por Ferimentos"
     ],
-    "avatar": "/avatars/hunter-x-hunter/shizuku-murasaki.png"
+    "avatar": "/avatars/hunter-x-hunter/shizuku-murasaki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "franklin-bordeau",
@@ -518,7 +590,10 @@
       "Double Machine Gun (Metralhadora de Nen Dupla)",
       "Tiro em Leque Varredor"
     ],
-    "avatar": "/avatars/hunter-x-hunter/franklin-bordeau.png"
+    "avatar": "/avatars/hunter-x-hunter/franklin-bordeau.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bonolenov-ndongo",
@@ -538,7 +613,10 @@
       "Battle Cantabile: Júpiter (Planeta de Rocha Esmagador)",
       "Melodia Rápida dos Ventos"
     ],
-    "avatar": "/avatars/hunter-x-hunter/bonolenov-ndongo.png"
+    "avatar": "/avatars/hunter-x-hunter/bonolenov-ndongo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kortopi",
@@ -558,7 +636,10 @@
       "Gallery Fake (Duplicação Perfeita com Rastreamento)",
       "Cópia em Massa de Tesouros de Leilão"
     ],
-    "avatar": "/avatars/hunter-x-hunter/kortopi.png"
+    "avatar": "/avatars/hunter-x-hunter/kortopi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "isaac-netero",
@@ -579,7 +660,10 @@
       "Soco de Oração Mais Rápido que o Som",
       "A Bomba Rosa dos Pobres em Miniatura"
     ],
-    "avatar": "/avatars/hunter-x-hunter/isaac-netero.png"
+    "avatar": "/avatars/hunter-x-hunter/isaac-netero.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ging-freecss",
@@ -600,7 +684,10 @@
       "Mimetismo de Habilidades de Nen pelo Toque",
       "Projéteis de Nen no Solo (Ultrasound)"
     ],
-    "avatar": "/avatars/hunter-x-hunter/ging-freecss.png"
+    "avatar": "/avatars/hunter-x-hunter/ging-freecss.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kite",
@@ -622,7 +709,10 @@
       "Crazy Slots nº 4: Carabina de Longo Alcance",
       "Habilidade Secreta de Sobrevivência à Morte"
     ],
-    "avatar": "/avatars/hunter-x-hunter/kite.png"
+    "avatar": "/avatars/hunter-x-hunter/kite.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "biscuit-krueger",
@@ -644,7 +734,10 @@
       "Massagista Mágica Cookie (Restauração Física e Mental)",
       "Treinamento Espartano de Shingen-ryu"
     ],
-    "avatar": "/avatars/hunter-x-hunter/biscuit-krueger.png"
+    "avatar": "/avatars/hunter-x-hunter/biscuit-krueger.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "wing",
@@ -664,7 +757,10 @@
       "Despertar de Nós de Nen por Toque",
       "Palma Reforçada Rompe-Pedras"
     ],
-    "avatar": "/avatars/hunter-x-hunter/wing.png"
+    "avatar": "/avatars/hunter-x-hunter/wing.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "zushi",
@@ -685,7 +781,10 @@
       "Postura Firme de Ten de Karatê",
       "Soco Básico Reforçado"
     ],
-    "avatar": "/avatars/hunter-x-hunter/zushi.png"
+    "avatar": "/avatars/hunter-x-hunter/zushi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "razor",
@@ -706,7 +805,10 @@
       "Quatorze Demônios Emitidos",
       "Recepção com Spike Reforçado"
     ],
-    "avatar": "/avatars/hunter-x-hunter/razor.png"
+    "avatar": "/avatars/hunter-x-hunter/razor.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "genthru",
@@ -726,7 +828,10 @@
       "Little Flower (Palmas Explosivas)",
       "Countdown (Bomba Relógio de Batimentos Cardíacos)"
     ],
-    "avatar": "/avatars/hunter-x-hunter/genthru.png"
+    "avatar": "/avatars/hunter-x-hunter/genthru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "meruem",
@@ -747,7 +852,10 @@
       "Metamorfose com Asas e Canhões de Fótons",
       "Leitura de Intenções por Fótons de En"
     ],
-    "avatar": "/avatars/hunter-x-hunter/meruem.png"
+    "avatar": "/avatars/hunter-x-hunter/meruem.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "neferpitou",
@@ -768,7 +876,10 @@
       "Doctor Blythe (Cirurgião Espiritual Reparador)",
       "En Gigantesco Irregular de Dois Quilômetros"
     ],
-    "avatar": "/avatars/hunter-x-hunter/neferpitou.png"
+    "avatar": "/avatars/hunter-x-hunter/neferpitou.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shaiapouf",
@@ -789,7 +900,10 @@
       "Spiritual Message (Escalas Alucinógenas Hipnóticas)",
       "Cocoon de Concessão de Habilidades de Nen"
     ],
-    "avatar": "/avatars/hunter-x-hunter/shaiapouf.png"
+    "avatar": "/avatars/hunter-x-hunter/shaiapouf.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "menthuthuyoupi",
@@ -810,7 +924,10 @@
       "Centauro de Lâminas Múltiplas",
       "Tentáculos de Carne Chicoteadores"
     ],
-    "avatar": "/avatars/hunter-x-hunter/menthuthuyoupi.png"
+    "avatar": "/avatars/hunter-x-hunter/menthuthuyoupi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "komugi",
@@ -830,7 +947,10 @@
       "Estratégia Insuperável de Gungi",
       "Despertar da Luz Espiritual pelos Olhos Cegos"
     ],
-    "avatar": "/avatars/hunter-x-hunter/komugi.png"
+    "avatar": "/avatars/hunter-x-hunter/komugi.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "knuckle-bine",
@@ -852,7 +972,10 @@
       "Toritaten (Mascote Indestrutível Flutuante)",
       "Luta de Rua com Punhos de Aço"
     ],
-    "avatar": "/avatars/hunter-x-hunter/knuckle-bine.png"
+    "avatar": "/avatars/hunter-x-hunter/knuckle-bine.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shoot-mcmahon",
@@ -874,7 +997,10 @@
       "Três Mãos Flutuantes Telecinéticas",
       "Equilíbrio em Perna Única no Ar"
     ],
-    "avatar": "/avatars/hunter-x-hunter/shoot-mcmahon.png"
+    "avatar": "/avatars/hunter-x-hunter/shoot-mcmahon.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "morel-mackernasey",
@@ -896,7 +1022,10 @@
       "Smoky Jail (Prisão de Fumaça Inquebrável)",
       "Sopro Gigante de Cachimbo de Ferro"
     ],
-    "avatar": "/avatars/hunter-x-hunter/morel-mackernasey.png"
+    "avatar": "/avatars/hunter-x-hunter/morel-mackernasey.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "knov",
@@ -917,7 +1046,10 @@
       "Hide and Seek (Mansão de Quatro Andares em Dimensão de Bolso)",
       "Scream (Decapitação por Fechamento de Portal Dimensional)"
     ],
-    "avatar": "/avatars/hunter-x-hunter/knov.png"
+    "avatar": "/avatars/hunter-x-hunter/knov.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "palm-siberia",
@@ -937,7 +1069,10 @@
       "Black Widow (Armadura Endurecida de Cabelos)",
       "Bola de Cristal de Sangue de Sereia Clarividente"
     ],
-    "avatar": "/avatars/hunter-x-hunter/palm-siberia.png"
+    "avatar": "/avatars/hunter-x-hunter/palm-siberia.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "meleoron",
@@ -957,7 +1092,10 @@
       "God's Accomplice (Invisibilidade e Ocultação Total Compartilhada)",
       "Camuflagem Natural de Camaleão"
     ],
-    "avatar": "/avatars/hunter-x-hunter/meleoron.png"
+    "avatar": "/avatars/hunter-x-hunter/meleoron.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "ikalgo",
@@ -977,7 +1115,10 @@
       "Rifle Sniper de Tentáculo com Pulgas",
       "Parasitismo Cadavérico Marionete"
     ],
-    "avatar": "/avatars/hunter-x-hunter/ikalgo.png"
+    "avatar": "/avatars/hunter-x-hunter/ikalgo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "colt",
@@ -996,7 +1137,10 @@
       "Voo Veloz com Asas de Falcão",
       "Garras de Caça Aérea"
     ],
-    "avatar": "/avatars/hunter-x-hunter/colt.png"
+    "avatar": "/avatars/hunter-x-hunter/colt.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "welfin",
@@ -1016,7 +1160,10 @@
       "Missileman (Mísseis de Interrogação Infestadores)",
       "Faro Investigativo Aguçado"
     ],
-    "avatar": "/avatars/hunter-x-hunter/welfin.png"
+    "avatar": "/avatars/hunter-x-hunter/welfin.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "leol",
@@ -1036,7 +1183,10 @@
       "Rental Pod (Uso Temporário de Feitiços Alheios)",
       "Tornados e Surf com Prancha em Enchente"
     ],
-    "avatar": "/avatars/hunter-x-hunter/leol.png"
+    "avatar": "/avatars/hunter-x-hunter/leol.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "cheetu",
@@ -1057,7 +1207,10 @@
       "Flecha e Besta de Garra",
       "Velocidade na Fronteira do Som"
     ],
-    "avatar": "/avatars/hunter-x-hunter/cheetu.png"
+    "avatar": "/avatars/hunter-x-hunter/cheetu.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "zazan",
@@ -1077,7 +1230,10 @@
       "Ferrão com Vírus Mutagênico",
       "Forma Monstruosa com Pele de Crocodilo Impenetrável"
     ],
-    "avatar": "/avatars/hunter-x-hunter/zazan.png"
+    "avatar": "/avatars/hunter-x-hunter/zazan.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "cheadle-yorkshire",
@@ -1098,7 +1254,10 @@
       "Medicina Viral Preventiva",
       "Gestão Política Democrática"
     ],
-    "avatar": "/avatars/hunter-x-hunter/cheadle-yorkshire.png"
+    "avatar": "/avatars/hunter-x-hunter/cheadle-yorkshire.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mizaistom-nana",
@@ -1119,7 +1278,10 @@
       "Cartões Judiciais de Paralisação Obrigatória",
       "Dedução Investigativa de Traidores"
     ],
-    "avatar": "/avatars/hunter-x-hunter/mizaistom-nana.png"
+    "avatar": "/avatars/hunter-x-hunter/mizaistom-nana.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pariston-hill",
@@ -1139,7 +1301,10 @@
       "Manipulação Eleitoral Absoluta",
       "Controle Clandestino de 5.000 Ovos Quimera"
     ],
-    "avatar": "/avatars/hunter-x-hunter/pariston-hill.png"
+    "avatar": "/avatars/hunter-x-hunter/pariston-hill.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "beyond-netero",
@@ -1159,7 +1324,10 @@
       "Liderança de Exploração Extrema",
       "Sobrevivência a Calamidades Ancestrais"
     ],
-    "avatar": "/avatars/hunter-x-hunter/beyond-netero.png"
+    "avatar": "/avatars/hunter-x-hunter/beyond-netero.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "tserriednich-hui-guo-rou",
@@ -1180,7 +1348,10 @@
       "Besta Guardiã de Nen do Vaso de Kakin",
       "Aprendizado Instantâneo de Gyo e Zetsu"
     ],
-    "avatar": "/avatars/hunter-x-hunter/tserriednich-hui-guo-rou.png"
+    "avatar": "/avatars/hunter-x-hunter/tserriednich-hui-guo-rou.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hanzo",
@@ -1202,7 +1373,10 @@
       "Lâminas Ocultas nos Braços",
       "Artes Secretas de Furtividade Ninja"
     ],
-    "avatar": "/avatars/hunter-x-hunter/hanzo.png"
+    "avatar": "/avatars/hunter-x-hunter/hanzo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "tonpa",
@@ -1221,6 +1395,9 @@
       "Oferta Amigável de Bebidas Envenenadas",
       "Desestabilização Emocional de Calouros"
     ],
-    "avatar": "/avatars/hunter-x-hunter/tonpa.png"
+    "avatar": "/avatars/hunter-x-hunter/tonpa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

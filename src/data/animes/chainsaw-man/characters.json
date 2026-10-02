@@ -20,7 +20,10 @@
       "Regeneração com Sangue",
       "Disparo das Correntes de Motosserra"
     ],
-    "avatar": "/avatars/chainsaw-man/denji.png"
+    "avatar": "/avatars/chainsaw-man/denji.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pochita",
@@ -41,7 +44,10 @@
       "Coração Vital de Denji",
       "Forma Verdadeira de Quatro Braços"
     ],
-    "avatar": "/avatars/chainsaw-man/pochita.png"
+    "avatar": "/avatars/chainsaw-man/pochita.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "makima",
@@ -63,7 +69,10 @@
       "Contrato Governamental de Imunidade",
       "Manipulação Sensorial através de Animais"
     ],
-    "avatar": "/avatars/chainsaw-man/makima.png"
+    "avatar": "/avatars/chainsaw-man/makima.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "aki-hayakawa",
@@ -84,7 +93,10 @@
       "Clarividência com Demônio do Futuro",
       "Disparo Balístico (Possesso da Arma)"
     ],
-    "avatar": "/avatars/chainsaw-man/aki-hayakawa.png"
+    "avatar": "/avatars/chainsaw-man/aki-hayakawa.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "power",
@@ -105,7 +117,10 @@
       "Chifres Extensíveis de Sangue",
       "Contrato de Sangue com Denji"
     ],
-    "avatar": "/avatars/chainsaw-man/power.png"
+    "avatar": "/avatars/chainsaw-man/power.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "asa-mitaka",
@@ -126,7 +141,10 @@
       "Uniforme Espada Blindada",
       "Super Lança de Aquário de Um Milhão de Ienes"
     ],
-    "avatar": "/avatars/chainsaw-man/asa-mitaka.png"
+    "avatar": "/avatars/chainsaw-man/asa-mitaka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yoru",
@@ -148,7 +166,10 @@
       "Fúria Armada da Guerra",
       "Espada de Quarto"
     ],
-    "avatar": "/avatars/chainsaw-man/yoru.png"
+    "avatar": "/avatars/chainsaw-man/yoru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nayuta",
@@ -169,7 +190,10 @@
       "Alteração de Memórias e Sentimentos",
       "Comando Canino Mental"
     ],
-    "avatar": "/avatars/chainsaw-man/nayuta.png"
+    "avatar": "/avatars/chainsaw-man/nayuta.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kishibe",
@@ -189,7 +213,10 @@
       "Evasão e Contra-Ataque Letal",
       "Treinamento Espartano Implacável"
     ],
-    "avatar": "/avatars/chainsaw-man/kishibe.png"
+    "avatar": "/avatars/chainsaw-man/kishibe.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "himeno",
@@ -209,7 +236,10 @@
       "Sacrifício Total ao Demônio Fantasma",
       "Agarrão Ectoplásmico à Distância"
     ],
-    "avatar": "/avatars/chainsaw-man/himeno.png"
+    "avatar": "/avatars/chainsaw-man/himeno.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kobeni-higashiyama",
@@ -229,7 +259,10 @@
       "Assassínio Veloz com Faca",
       "Passos de Dança de Sobrevivência no DDR"
     ],
-    "avatar": "/avatars/chainsaw-man/kobeni-higashiyama.png"
+    "avatar": "/avatars/chainsaw-man/kobeni-higashiyama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hirokazu-arai",
@@ -249,7 +282,10 @@
       "Invocação da Cabeça da Raposa",
       "Interposição de Corpo Protetor"
     ],
-    "avatar": "/avatars/chainsaw-man/hirokazu-arai.png"
+    "avatar": "/avatars/chainsaw-man/hirokazu-arai.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "michiko-tendo",
@@ -268,7 +304,10 @@
       "Tiroteio Tático",
       "Execução do Contrato da Punição"
     ],
-    "avatar": "/avatars/chainsaw-man/michiko-tendo.png"
+    "avatar": "/avatars/chainsaw-man/michiko-tendo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yutaro-kurose",
@@ -287,7 +326,10 @@
       "Combate Tático com Armas de Fogo",
       "Invocação de Punição Coletiva"
     ],
-    "avatar": "/avatars/chainsaw-man/yutaro-kurose.png"
+    "avatar": "/avatars/chainsaw-man/yutaro-kurose.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "beam",
@@ -307,7 +349,10 @@
       "Transformação em Forma Bestial de Tubarão",
       "Montaria Tática de Denji"
     ],
-    "avatar": "/avatars/chainsaw-man/beam.png"
+    "avatar": "/avatars/chainsaw-man/beam.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "galgali",
@@ -327,7 +372,10 @@
       "Remoção da Máscara de Gás (Liberação de Poder)",
       "Golpes Acrobáticos de Artes Marciais"
     ],
-    "avatar": "/avatars/chainsaw-man/galgali.png"
+    "avatar": "/avatars/chainsaw-man/galgali.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "angel-devil",
@@ -347,7 +395,10 @@
       "Lança de Mil Anos de Vida",
       "Absorção Vital Instantânea por Contato"
     ],
-    "avatar": "/avatars/chainsaw-man/angel-devil.png"
+    "avatar": "/avatars/chainsaw-man/angel-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "princi",
@@ -367,7 +418,10 @@
       "Abertura Dimensional de Zíper para Invocação de Makima",
       "Submersão no Solo"
     ],
-    "avatar": "/avatars/chainsaw-man/princi.png"
+    "avatar": "/avatars/chainsaw-man/princi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "future-devil",
@@ -387,7 +441,10 @@
       "Premonição da Pior Morte Possível",
       "Cântico do Futuro Supremo"
     ],
-    "avatar": "/avatars/chainsaw-man/future-devil.png"
+    "avatar": "/avatars/chainsaw-man/future-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fox-devil",
@@ -407,7 +464,10 @@
       "Esmagamento com Mandíbulas Gigantescas",
       "Pata Esmagadora de Raposa"
     ],
-    "avatar": "/avatars/chainsaw-man/fox-devil.png"
+    "avatar": "/avatars/chainsaw-man/fox-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ghost-devil",
@@ -428,7 +488,10 @@
       "Estrangulamento Ectoplásmico",
       "Percepção Sensorial pelo Medo"
     ],
-    "avatar": "/avatars/chainsaw-man/ghost-devil.png"
+    "avatar": "/avatars/chainsaw-man/ghost-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "curse-devil",
@@ -449,7 +512,10 @@
       "Mordida Fatal de Execução com Duas Bocas",
       "Contrato de Condenação de Prego"
     ],
-    "avatar": "/avatars/chainsaw-man/curse-devil.png"
+    "avatar": "/avatars/chainsaw-man/curse-devil.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "snake-devil",
@@ -470,7 +536,10 @@
       "Cuspida e Reanimação de Demônios Subjugados",
       "Investida da Cauda de Serpente"
     ],
-    "avatar": "/avatars/chainsaw-man/snake-devil.png"
+    "avatar": "/avatars/chainsaw-man/snake-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "akane-sawatari",
@@ -490,7 +559,10 @@
       "Comando da Serpente Voraz",
       "Suicídio Induzido por Contrato de Controle"
     ],
-    "avatar": "/avatars/chainsaw-man/akane-sawatari.png"
+    "avatar": "/avatars/chainsaw-man/akane-sawatari.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Antagonista / Vilão"
   },
   {
     "id": "katana-man",
@@ -511,7 +583,10 @@
       "Lâminas Gêmeas de Katana nos Braços",
       "Regeneração por Puxar a Mão Cortada"
     ],
-    "avatar": "/avatars/chainsaw-man/katana-man.png"
+    "avatar": "/avatars/chainsaw-man/katana-man.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reze",
@@ -532,7 +607,10 @@
       "Propulsão de Salto Explosiva",
       "Lançamento de Cabeça Decapitada Explosiva"
     ],
-    "avatar": "/avatars/chainsaw-man/reze.png"
+    "avatar": "/avatars/chainsaw-man/reze.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "quanxi",
@@ -553,7 +631,10 @@
       "Disparo de Mil Flechas Bestiais",
       "Regeneração por Remoção de Flecha do Olho"
     ],
-    "avatar": "/avatars/chainsaw-man/quanxi.png"
+    "avatar": "/avatars/chainsaw-man/quanxi.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "barem-bridge",
@@ -574,7 +655,10 @@
       "Gatilho de Ativação nos Dentes",
       "Regeneração Térmica de Híbrido"
     ],
-    "avatar": "/avatars/chainsaw-man/barem-bridge.png"
+    "avatar": "/avatars/chainsaw-man/barem-bridge.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "miri-sugo",
@@ -595,7 +679,10 @@
       "Ataque Aéreo Giratório Cortante",
       "Ativação por Gatilho na Mão"
     ],
-    "avatar": "/avatars/chainsaw-man/miri-sugo.png"
+    "avatar": "/avatars/chainsaw-man/miri-sugo.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "spear-hybrid",
@@ -615,7 +702,10 @@
       "Estocada Perfurante de Lança",
       "Arremesso de Projétil Perfurante de Longa Distância"
     ],
-    "avatar": "/avatars/chainsaw-man/spear-hybrid.png"
+    "avatar": "/avatars/chainsaw-man/spear-hybrid.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "whip-hybrid",
@@ -635,7 +725,10 @@
       "Açoite Múltiplo de Alta Velocidade",
       "Chicote Cortador de Ondas de Choque"
     ],
-    "avatar": "/avatars/chainsaw-man/whip-hybrid.png"
+    "avatar": "/avatars/chainsaw-man/whip-hybrid.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "santa-claus",
@@ -656,7 +749,10 @@
       "Regeneração nas Trevas",
       "Transferência de Consciência em Massa"
     ],
-    "avatar": "/avatars/chainsaw-man/santa-claus.png"
+    "avatar": "/avatars/chainsaw-man/santa-claus.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "tolka",
@@ -676,7 +772,10 @@
       "Três Estocadas da Maldição",
       "Transformação em Boneco Humano"
     ],
-    "avatar": "/avatars/chainsaw-man/tolka.png"
+    "avatar": "/avatars/chainsaw-man/tolka.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pingtsi",
@@ -695,7 +794,10 @@
       "Análise Óptica de Segredos e Habilidades",
       "Identificação Instantânea de Espécies e Demônios"
     ],
-    "avatar": "/avatars/chainsaw-man/pingtsi.png"
+    "avatar": "/avatars/chainsaw-man/pingtsi.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cosmo",
@@ -714,7 +816,10 @@
       "Sobrecarga Mental Cósmica",
       "Prisão Eterna do Pensamento de Halloween"
     ],
-    "avatar": "/avatars/chainsaw-man/cosmo.png"
+    "avatar": "/avatars/chainsaw-man/cosmo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "long",
@@ -733,7 +838,10 @@
       "Labareda Draconiana Flamejante",
       "Golpes com Chifres Vermelhos"
     ],
-    "avatar": "/avatars/chainsaw-man/long.png"
+    "avatar": "/avatars/chainsaw-man/long.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tsugihagi",
@@ -752,7 +860,10 @@
       "Combate de Guarda Costeira",
       "Ataque Silencioso"
     ],
-    "avatar": "/avatars/chainsaw-man/tsugihagi.png"
+    "avatar": "/avatars/chainsaw-man/tsugihagi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aldo",
@@ -771,7 +882,10 @@
       "Disfarce Facial com Demônio da Pele",
       "Tiroteio de Emboscada"
     ],
-    "avatar": "/avatars/chainsaw-man/aldo.png"
+    "avatar": "/avatars/chainsaw-man/aldo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "joey",
@@ -790,7 +904,10 @@
       "Roubo de Identidade e Voz",
       "Tiro Preciso com Pistola"
     ],
-    "avatar": "/avatars/chainsaw-man/joey.png"
+    "avatar": "/avatars/chainsaw-man/joey.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kusakabe",
@@ -809,7 +926,10 @@
       "Petrificação por Sopro em Círculo Ritual",
       "Combate Tático Militar"
     ],
-    "avatar": "/avatars/chainsaw-man/kusakabe.png"
+    "avatar": "/avatars/chainsaw-man/kusakabe.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tamaoki",
@@ -828,7 +948,10 @@
       "Tiroteio de Contenção",
       "Defesa de Formação"
     ],
-    "avatar": "/avatars/chainsaw-man/tamaoki.png"
+    "avatar": "/avatars/chainsaw-man/tamaoki.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nakamura",
@@ -847,7 +970,10 @@
       "Invocação Parcial da Raposa",
       "Esgrima de Resposta Rápida"
     ],
-    "avatar": "/avatars/chainsaw-man/nakamura.png"
+    "avatar": "/avatars/chainsaw-man/nakamura.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nomo",
@@ -866,7 +992,10 @@
       "Comando Completo de Ataque da Raposa",
       "Liderança de Esquadrão Tático"
     ],
-    "avatar": "/avatars/chainsaw-man/nomo.png"
+    "avatar": "/avatars/chainsaw-man/nomo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "madoka",
@@ -885,7 +1014,10 @@
       "Evasão Preventiva de Perigo",
       "Renúncia de Função Tática"
     ],
-    "avatar": "/avatars/chainsaw-man/madoka.png"
+    "avatar": "/avatars/chainsaw-man/madoka.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fushi",
@@ -904,7 +1036,10 @@
       "Instrução de Combate",
       "Defesa Balística"
     ],
-    "avatar": "/avatars/chainsaw-man/fushi.png"
+    "avatar": "/avatars/chainsaw-man/fushi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "masaki-ando",
@@ -923,7 +1058,10 @@
       "Ataque Frontal com Lâmina",
       "Resistência Física"
     ],
-    "avatar": "/avatars/chainsaw-man/masaki-ando.png"
+    "avatar": "/avatars/chainsaw-man/masaki-ando.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "subaru",
@@ -942,7 +1080,10 @@
       "Condução Defensiva e Escolta",
       "Instrução de Caça aos Demônios"
     ],
-    "avatar": "/avatars/chainsaw-man/subaru.png"
+    "avatar": "/avatars/chainsaw-man/subaru.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "taiyo-hayakawa",
@@ -961,7 +1102,10 @@
       "Arremesso de Bola de Neve",
       "Lembrança Afetuosa Fraterna"
     ],
-    "avatar": "/avatars/chainsaw-man/taiyo-hayakawa.png"
+    "avatar": "/avatars/chainsaw-man/taiyo-hayakawa.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "meowy",
@@ -980,7 +1124,10 @@
       "Cativar o Coração de Power",
       "Companheirismo Felino"
     ],
-    "avatar": "/avatars/chainsaw-man/meowy.png"
+    "avatar": "/avatars/chainsaw-man/meowy.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "debt-collector",
@@ -999,7 +1146,10 @@
       "Comando da Horda Zumbi",
       "Exploração de Dívida Implacável"
     ],
-    "avatar": "/avatars/chainsaw-man/debt-collector.png"
+    "avatar": "/avatars/chainsaw-man/debt-collector.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "zombie-devil",
@@ -1018,7 +1168,10 @@
       "Mordida Zumbificante em Massa",
       "Golpe com Braços Decompostos Múltiplos"
     ],
-    "avatar": "/avatars/chainsaw-man/zombie-devil.png"
+    "avatar": "/avatars/chainsaw-man/zombie-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Antagonista / Vilão"
   },
   {
     "id": "bat-devil",
@@ -1038,7 +1191,10 @@
       "Voo em Picada com Garras Titânicas",
       "Regeneração pela Digestão de Sangue"
     ],
-    "avatar": "/avatars/chainsaw-man/bat-devil.png"
+    "avatar": "/avatars/chainsaw-man/bat-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "leech-devil",
@@ -1057,7 +1213,10 @@
       "Tentáculos Perfurantes de Sanguessuga",
       "Disparo de Saliva Ácida Digestiva"
     ],
-    "avatar": "/avatars/chainsaw-man/leech-devil.png"
+    "avatar": "/avatars/chainsaw-man/leech-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "eternity-devil",
@@ -1077,7 +1236,10 @@
       "Massa Amorfa Gigantesca de Carne",
       "Crescimento Alimentado pelo Pânico Alheio"
     ],
-    "avatar": "/avatars/chainsaw-man/eternity-devil.png"
+    "avatar": "/avatars/chainsaw-man/eternity-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "darkness-devil",
@@ -1098,7 +1260,10 @@
       "Espada Negra Esmagadora",
       "Capa de Vácuo Protetora contra Luz"
     ],
-    "avatar": "/avatars/chainsaw-man/darkness-devil.png"
+    "avatar": "/avatars/chainsaw-man/darkness-devil.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "falling-devil",
@@ -1119,7 +1284,10 @@
       "Telecinese Gravitacional Cataclísmica",
       "Regeneração Instantânea através de Carne de Restaurante"
     ],
-    "avatar": "/avatars/chainsaw-man/falling-devil.png"
+    "avatar": "/avatars/chainsaw-man/falling-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "aging-devil",
@@ -1139,7 +1307,10 @@
       "Senescência Celular Instantânea",
       "Contrato com o Governo de Sacrifício Infantil"
     ],
-    "avatar": "/avatars/chainsaw-man/aging-devil.png"
+    "avatar": "/avatars/chainsaw-man/aging-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gun-devil",
@@ -1159,7 +1330,10 @@
       "Devastação em Escala Continental em Minutos",
       "Disparo Hipersônico Contínuo"
     ],
-    "avatar": "/avatars/chainsaw-man/gun-devil.png"
+    "avatar": "/avatars/chainsaw-man/gun-devil.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hell-devil",
@@ -1179,7 +1353,10 @@
       "Agarrão da Mão Flamejante de Seis Dedos",
       "Desterro Dimensional para o Mundo Infernal"
     ],
-    "avatar": "/avatars/chainsaw-man/hell-devil.png"
+    "avatar": "/avatars/chainsaw-man/hell-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "doll-devil",
@@ -1199,7 +1376,10 @@
       "Substituição e Duplicação Corporal",
       "Transmissão Mental em Rede"
     ],
-    "avatar": "/avatars/chainsaw-man/doll-devil.png"
+    "avatar": "/avatars/chainsaw-man/doll-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "typhoon-devil",
@@ -1219,7 +1399,10 @@
       "Turbilhão Esmagador de Detritos",
       "Inundação Repentina"
     ],
-    "avatar": "/avatars/chainsaw-man/typhoon-devil.png"
+    "avatar": "/avatars/chainsaw-man/typhoon-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fire-devil",
@@ -1240,7 +1423,10 @@
       "Combustão Espontânea Espiritual",
       "Contratos em Massa através de Casamentos na Igreja"
     ],
-    "avatar": "/avatars/chainsaw-man/fire-devil.png"
+    "avatar": "/avatars/chainsaw-man/fire-devil.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "punishment-devil",
@@ -1259,7 +1445,10 @@
       "Ataque Punidor Descendente",
       "Empalamento com Espadas Vingativas"
     ],
-    "avatar": "/avatars/chainsaw-man/punishment-devil.png"
+    "avatar": "/avatars/chainsaw-man/punishment-devil.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "justice-devil",
@@ -1281,7 +1470,10 @@
       "Tentáculos Gigantes de Cérebro e Olhos",
       "Golpes Esmagadores de 'Justiça'"
     ],
-    "avatar": "/avatars/chainsaw-man/justice-devil.png"
+    "avatar": "/avatars/chainsaw-man/justice-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "cockroach-devil",
@@ -1300,7 +1492,10 @@
       "Investida com Exoesqueleto Quitinoso",
       "Esmagamento de Asfalto com Patas Espinhosas"
     ],
-    "avatar": "/avatars/chainsaw-man/cockroach-devil.png"
+    "avatar": "/avatars/chainsaw-man/cockroach-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "muscle-devil",
@@ -1319,7 +1514,10 @@
       "Expansão de Fibras Musculares de Esmagamento",
       "Arremesso de Carros"
     ],
-    "avatar": "/avatars/chainsaw-man/muscle-devil.png"
+    "avatar": "/avatars/chainsaw-man/muscle-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sea-cucumber-devil",
@@ -1338,7 +1536,10 @@
       "Golpe Gosmento com Tentáculos",
       "Liquefação Corporal"
     ],
-    "avatar": "/avatars/chainsaw-man/sea-cucumber-devil.png"
+    "avatar": "/avatars/chainsaw-man/sea-cucumber-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tomato-devil",
@@ -1357,7 +1558,10 @@
       "Disparo de Sementes com Olhos",
       "Regeneração por Sementes Germinadas"
     ],
-    "avatar": "/avatars/chainsaw-man/tomato-devil.png"
+    "avatar": "/avatars/chainsaw-man/tomato-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "octopus-devil",
@@ -1377,7 +1581,10 @@
       "Cortina de Fumaça de Tinta Polvo",
       "Amortecimento de Quedas Livres"
     ],
-    "avatar": "/avatars/chainsaw-man/octopus-devil.png"
+    "avatar": "/avatars/chainsaw-man/octopus-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "stone-devil",
@@ -1396,7 +1603,10 @@
       "Sopro Petrificador Mineral",
       "Carapaça Rochosa Impenetrável"
     ],
-    "avatar": "/avatars/chainsaw-man/stone-devil.png"
+    "avatar": "/avatars/chainsaw-man/stone-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mantis-devil",
@@ -1415,7 +1625,10 @@
       "Corte Rápido de Pinça Serrilhada",
       "Salto Predatório de Emboscada"
     ],
-    "avatar": "/avatars/chainsaw-man/mantis-devil.png"
+    "avatar": "/avatars/chainsaw-man/mantis-devil.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mold-devil",
@@ -1434,7 +1647,10 @@
       "Infecção Fúngica Interna por Esporos",
       "Sufocamento por Cogumelos"
     ],
-    "avatar": "/avatars/chainsaw-man/mold-devil.png"
+    "avatar": "/avatars/chainsaw-man/mold-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "skin-devil",
@@ -1453,7 +1669,10 @@
       "Mimetismo de Rosto e Tom de Pele",
       "Disfarce Vocal e Anatomia Idêntica"
     ],
-    "avatar": "/avatars/chainsaw-man/skin-devil.png"
+    "avatar": "/avatars/chainsaw-man/skin-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "claw-devil",
@@ -1471,7 +1690,10 @@
     "techniques": [
       "Corte Dilacerante com Garras Afiadas"
     ],
-    "avatar": "/avatars/chainsaw-man/claw-devil.png"
+    "avatar": "/avatars/chainsaw-man/claw-devil.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "ear-devil",
@@ -1490,7 +1712,10 @@
       "Super Audição Panorâmica",
       "Apagamento do Conceito Biológico de Orelhas"
     ],
-    "avatar": "/avatars/chainsaw-man/ear-devil.png"
+    "avatar": "/avatars/chainsaw-man/ear-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mouth-devil",
@@ -1509,7 +1734,10 @@
       "Mordida Coletiva Múltipla",
       "Apagamento do Conceito Biológico de Bocas"
     ],
-    "avatar": "/avatars/chainsaw-man/mouth-devil.png"
+    "avatar": "/avatars/chainsaw-man/mouth-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "teeth-devil",
@@ -1528,7 +1756,10 @@
       "Trituração Máxima com Dentes de Aço",
       "Esmagamento Ósseo"
     ],
-    "avatar": "/avatars/chainsaw-man/teeth-devil.png"
+    "avatar": "/avatars/chainsaw-man/teeth-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "centipede-devil",
@@ -1547,7 +1778,10 @@
       "Constrição com Corpo Segmentado Gigante",
       "Injeção de Toxina Paralisante"
     ],
-    "avatar": "/avatars/chainsaw-man/centipede-devil.png"
+    "avatar": "/avatars/chainsaw-man/centipede-devil.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "locust-devil",
@@ -1566,7 +1800,10 @@
       "Salto Destrutivo com Patas Posteriores",
       "Mastigação Contínua com Mandíbulas de Inseto"
     ],
-    "avatar": "/avatars/chainsaw-man/locust-devil.png"
+    "avatar": "/avatars/chainsaw-man/locust-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fish-devil",
@@ -1585,7 +1822,10 @@
       "Golpe Aquático com Cauda",
       "Mimetismo de Escamas"
     ],
-    "avatar": "/avatars/chainsaw-man/fish-devil.png"
+    "avatar": "/avatars/chainsaw-man/fish-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "frog-devil",
@@ -1604,7 +1844,10 @@
       "Disparo Perfurante de Língua Pegajosa",
       "Salto Gigantesco"
     ],
-    "avatar": "/avatars/chainsaw-man/frog-devil.png"
+    "avatar": "/avatars/chainsaw-man/frog-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pig-devil",
@@ -1623,7 +1866,10 @@
       "Investida Destruidora de Concreto",
       "Mordida com Presas Afiadas"
     ],
-    "avatar": "/avatars/chainsaw-man/pig-devil.png"
+    "avatar": "/avatars/chainsaw-man/pig-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "pillbug-devil",
@@ -1642,7 +1888,10 @@
       "Rolamento Blindado Destrutivo",
       "Impacto em Bola de Demolição"
     ],
-    "avatar": "/avatars/chainsaw-man/pillbug-devil.png"
+    "avatar": "/avatars/chainsaw-man/pillbug-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "stag-beetle-devil",
@@ -1661,7 +1910,10 @@
       "Pinça Cortante Frontal",
       "Resistência de Carapaça Reforçada"
     ],
-    "avatar": "/avatars/chainsaw-man/stag-beetle-devil.png"
+    "avatar": "/avatars/chainsaw-man/stag-beetle-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "needle-devil",
@@ -1680,7 +1932,10 @@
       "Chuva de Agulhas Perfurantes",
       "Sutura de Ferimentos"
     ],
-    "avatar": "/avatars/chainsaw-man/needle-devil.png"
+    "avatar": "/avatars/chainsaw-man/needle-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "car-devil",
@@ -1699,7 +1954,10 @@
       "Atropelamento em Massa em Alta Velocidade",
       "Chassi de Aço Reforçado"
     ],
-    "avatar": "/avatars/chainsaw-man/car-devil.png"
+    "avatar": "/avatars/chainsaw-man/car-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "house-devil",
@@ -1718,7 +1976,10 @@
       "Desabamento Controlado de Vigas",
       "Trancamento Hermético de Portas"
     ],
-    "avatar": "/avatars/chainsaw-man/house-devil.png"
+    "avatar": "/avatars/chainsaw-man/house-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gravity-devil",
@@ -1737,7 +1998,10 @@
       "Esmagamento de Gravidade Pesada",
       "Levitação de Escombros"
     ],
-    "avatar": "/avatars/chainsaw-man/gravity-devil.png"
+    "avatar": "/avatars/chainsaw-man/gravity-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tank-devil",
@@ -1756,7 +2020,10 @@
       "Disparo de Projétil Balístico Pesado",
       "Esteiras Blindadas Esmagadoras"
     ],
-    "avatar": "/avatars/chainsaw-man/tank-devil.png"
+    "avatar": "/avatars/chainsaw-man/tank-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fake-chainsaw-man",
@@ -1775,7 +2042,10 @@
       "Transformação com Lâminas de Motosserra",
       "Assassinato Rápido em Queda"
     ],
-    "avatar": "/avatars/chainsaw-man/fake-chainsaw-man.png"
+    "avatar": "/avatars/chainsaw-man/fake-chainsaw-man.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fami",
@@ -1796,7 +2066,10 @@
       "Invocação de Demônios Prisioneiros (como Falling Devil)",
       "Brincos de Balança do Apocalipse"
     ],
-    "avatar": "/avatars/chainsaw-man/fami.png"
+    "avatar": "/avatars/chainsaw-man/fami.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "death-devil",
@@ -1815,7 +2088,10 @@
       "A Morte Suprema e Inevitável",
       "Aura de Terror Mortal Primordial"
     ],
-    "avatar": "/avatars/chainsaw-man/death-devil.png"
+    "avatar": "/avatars/chainsaw-man/death-devil.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hirofumi-yoshida",
@@ -1837,7 +2113,10 @@
       "Combate Físico em Paridade com Quanxi",
       "Corte Tático de Espada"
     ],
-    "avatar": "/avatars/chainsaw-man/hirofumi-yoshida.png"
+    "avatar": "/avatars/chainsaw-man/hirofumi-yoshida.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "fumiko-mifune",
@@ -1857,7 +2136,10 @@
       "Canto de Karaokê em Situação de Risco",
       "Evasão Rápida"
     ],
-    "avatar": "/avatars/chainsaw-man/fumiko-mifune.png"
+    "avatar": "/avatars/chainsaw-man/fumiko-mifune.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "haruka-iseumi",
@@ -1877,7 +2159,10 @@
       "Discurso Fanático Inflamado",
       "Comando de Estudantes da Igreja CSM"
     ],
-    "avatar": "/avatars/chainsaw-man/haruka-iseumi.png"
+    "avatar": "/avatars/chainsaw-man/haruka-iseumi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "nobana-higashiyama",
@@ -1897,7 +2182,10 @@
       "Grito e Choro de Pânico",
       "Evasão Rápida por Desespero"
     ],
-    "avatar": "/avatars/chainsaw-man/nobana-higashiyama.png"
+    "avatar": "/avatars/chainsaw-man/nobana-higashiyama.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "seigi-akoku",
@@ -1916,7 +2204,10 @@
       "Golpe Direto de Karatê Demolidor",
       "Postura Defensiva Inquebrável"
     ],
-    "avatar": "/avatars/chainsaw-man/seigi-akoku.png"
+    "avatar": "/avatars/chainsaw-man/seigi-akoku.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "yuko",
@@ -1936,7 +2227,10 @@
       "Golpes com Tentáculos Cerebrais Gigantescos",
       "Passo Rápido de Corrida Monstruosa"
     ],
-    "avatar": "/avatars/chainsaw-man/yuko.png"
+    "avatar": "/avatars/chainsaw-man/yuko.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "bucky",
@@ -1955,7 +2249,10 @@
       "Ciscar Feliz com os Alunos",
       "Companheirismo Escolar"
     ],
-    "avatar": "/avatars/chainsaw-man/bucky.png"
+    "avatar": "/avatars/chainsaw-man/bucky.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "class-president",
@@ -1974,7 +2271,10 @@
       "Dilaceração com Braços de Monstro da Justiça",
       "Esmagamento por Ciúme"
     ],
-    "avatar": "/avatars/chainsaw-man/class-president.png"
+    "avatar": "/avatars/chainsaw-man/class-president.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tanaka",
@@ -1992,7 +2292,10 @@
     "techniques": [
       "Transmutação em Tanaka Spinal Cord Sword"
     ],
-    "avatar": "/avatars/chainsaw-man/tanaka.png"
+    "avatar": "/avatars/chainsaw-man/tanaka.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "nail-fiend",
@@ -2012,7 +2315,10 @@
       "Perfuração de Paredes e Crânios",
       "Agilidade Urbana em Saltos"
     ],
-    "avatar": "/avatars/chainsaw-man/nail-fiend.png"
+    "avatar": "/avatars/chainsaw-man/nail-fiend.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "guillotine-devil",
@@ -2031,7 +2337,10 @@
       "Decapitação Rápida em Voo",
       "Queda da Lâmina de Guilhotina"
     ],
-    "avatar": "/avatars/chainsaw-man/guillotine-devil.png"
+    "avatar": "/avatars/chainsaw-man/guillotine-devil.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "loneliness-fiend",
@@ -2050,7 +2359,10 @@
       "Onda de Isolamento Emocional",
       "Ataque com Membros Estendidos"
     ],
-    "avatar": "/avatars/chainsaw-man/loneliness-fiend.png"
+    "avatar": "/avatars/chainsaw-man/loneliness-fiend.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dominion",
@@ -2069,7 +2381,10 @@
       "Voo Veloz em Formação",
       "Ataque em Enxame Angelical"
     ],
-    "avatar": "/avatars/chainsaw-man/dominion.png"
+    "avatar": "/avatars/chainsaw-man/dominion.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "seraphim",
@@ -2088,7 +2403,10 @@
       "Mergulho Aéreo em Velocidade",
       "Defesa com Asas Protetoras"
     ],
-    "avatar": "/avatars/chainsaw-man/seraphim.png"
+    "avatar": "/avatars/chainsaw-man/seraphim.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "virtue",
@@ -2107,7 +2425,10 @@
       "Ataque em Bando Sincronizado",
       "Imobilização Coletiva"
     ],
-    "avatar": "/avatars/chainsaw-man/virtue.png"
+    "avatar": "/avatars/chainsaw-man/virtue.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "sato",
@@ -2126,7 +2447,10 @@
       "Disparo Tático de Rifle",
       "Posicionamento Defensivo"
     ],
-    "avatar": "/avatars/chainsaw-man/sato.png"
+    "avatar": "/avatars/chainsaw-man/sato.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kato",
@@ -2145,7 +2469,10 @@
       "Invocação de Esporos Asfixiantes",
       "Apoio de Campo com Pistola"
     ],
-    "avatar": "/avatars/chainsaw-man/kato.png"
+    "avatar": "/avatars/chainsaw-man/kato.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tanabe",
@@ -2164,7 +2491,10 @@
       "Inalação Forçada de Mofo",
       "Contenção de Perímetro"
     ],
-    "avatar": "/avatars/chainsaw-man/tanabe.png"
+    "avatar": "/avatars/chainsaw-man/tanabe.png",
+    "combatType": "Magia / Poder Sobrenatural",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "furio",
@@ -2183,7 +2513,10 @@
       "Comunicação via Rádio",
       "Disparo Tático"
     ],
-    "avatar": "/avatars/chainsaw-man/furio.png"
+    "avatar": "/avatars/chainsaw-man/furio.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "furuno",
@@ -2202,7 +2535,10 @@
       "Tiroteio de Supressão",
       "Contenção com Escudos Balísticos"
     ],
-    "avatar": "/avatars/chainsaw-man/furuno.png"
+    "avatar": "/avatars/chainsaw-man/furuno.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kenzo",
@@ -2221,7 +2557,10 @@
       "Isolamento de Área de Risco",
       "Tiro Policial Padrão"
     ],
-    "avatar": "/avatars/chainsaw-man/kenzo.png"
+    "avatar": "/avatars/chainsaw-man/kenzo.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kentaro-ishita",
@@ -2240,7 +2579,10 @@
       "Análise Balística e Forense",
       "Disparo com Revólver Policial"
     ],
-    "avatar": "/avatars/chainsaw-man/kentaro-ishita.png"
+    "avatar": "/avatars/chainsaw-man/kentaro-ishita.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hadaji-sakagami",
@@ -2259,7 +2601,10 @@
       "Fogo Contínuo com Submetralhadora",
       "Emboscada Coordenada"
     ],
-    "avatar": "/avatars/chainsaw-man/hadaji-sakagami.png"
+    "avatar": "/avatars/chainsaw-man/hadaji-sakagami.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shuzo-mishima",
@@ -2278,7 +2623,10 @@
       "Chancela Diplomática Secreta",
       "Protocolos de Estado de Emergência"
     ],
-    "avatar": "/avatars/chainsaw-man/shuzo-mishima.png"
+    "avatar": "/avatars/chainsaw-man/shuzo-mishima.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "takagi",
@@ -2297,7 +2645,10 @@
       "Comunicação Tática",
       "Disparo Defensivo"
     ],
-    "avatar": "/avatars/chainsaw-man/takagi.png"
+    "avatar": "/avatars/chainsaw-man/takagi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "takashi-inoue",
@@ -2316,7 +2667,10 @@
       "Vigilância Escolar",
       "Ataque com Bastão de Madeira"
     ],
-    "avatar": "/avatars/chainsaw-man/takashi-inoue.png"
+    "avatar": "/avatars/chainsaw-man/takashi-inoue.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "tadashi-hasegawa",
@@ -2335,7 +2689,10 @@
       "Coordenação Estratégica de Tropas",
       "Gestão de Quarentena"
     ],
-    "avatar": "/avatars/chainsaw-man/tadashi-hasegawa.png"
+    "avatar": "/avatars/chainsaw-man/tadashi-hasegawa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yuki-tomoda",
@@ -2354,7 +2711,10 @@
       "Interação Social Escolar",
       "Fuga Coletiva de Emergência"
     ],
-    "avatar": "/avatars/chainsaw-man/yuki-tomoda.png"
+    "avatar": "/avatars/chainsaw-man/yuki-tomoda.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "miki-takanashi",
@@ -2373,7 +2733,10 @@
       "Alerta Estudantil",
       "Evacuação Rápida"
     ],
-    "avatar": "/avatars/chainsaw-man/miki-takanashi.png"
+    "avatar": "/avatars/chainsaw-man/miki-takanashi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "minami-nakano",
@@ -2392,7 +2755,10 @@
       "Apoio Entre Estudantes",
       "Fuga em Grupo"
     ],
-    "avatar": "/avatars/chainsaw-man/minami-nakano.png"
+    "avatar": "/avatars/chainsaw-man/minami-nakano.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shin-toma",
@@ -2411,7 +2777,10 @@
       "Corrida de Evacuação",
       "Alerta de Incidente"
     ],
-    "avatar": "/avatars/chainsaw-man/shin-toma.png"
+    "avatar": "/avatars/chainsaw-man/shin-toma.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shinohara",
@@ -2430,7 +2799,10 @@
       "Observação de Crise",
       "Evacuação de Sala"
     ],
-    "avatar": "/avatars/chainsaw-man/shinohara.png"
+    "avatar": "/avatars/chainsaw-man/shinohara.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "shiina",
@@ -2449,7 +2821,10 @@
       "Solidariedade entre Alunas",
       "Esquiva em Pânico"
     ],
-    "avatar": "/avatars/chainsaw-man/shiina.png"
+    "avatar": "/avatars/chainsaw-man/shiina.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "yokota",
@@ -2468,7 +2843,10 @@
       "Fechamento de Tráfego com Fitas de Contenção",
       "Apoio de Retaguarda"
     ],
-    "avatar": "/avatars/chainsaw-man/yokota.png"
+    "avatar": "/avatars/chainsaw-man/yokota.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mysterious-man",
@@ -2487,6 +2865,9 @@
       "Espionagem e Escuta Telefônica",
       "Furtividade nas Sombras Urbanas"
     ],
-    "avatar": "/avatars/chainsaw-man/mysterious-man.png"
+    "avatar": "/avatars/chainsaw-man/mysterious-man.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

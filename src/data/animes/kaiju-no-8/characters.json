@@ -18,7 +18,10 @@
       "Geração de Energia Kaiju",
       "Chutes e Socos de Força Colossal"
     ],
-    "avatar": "/avatars/kaiju-no-8/kafka-hibino.png"
+    "avatar": "/avatars/kaiju-no-8/kafka-hibino.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "mina-ashiro",
@@ -39,7 +42,10 @@
       "Tiro de Precisão (Anti-Kaiju)",
       "Liderança Tática de Batalha"
     ],
-    "avatar": "/avatars/kaiju-no-8/mina-ashiro.png"
+    "avatar": "/avatars/kaiju-no-8/mina-ashiro.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "reno-ichikawa",
@@ -60,7 +66,10 @@
       "Mobilidade de Alta Velocidade com Armadura",
       "Disparo de Precisão"
     ],
-    "avatar": "/avatars/kaiju-no-8/reno-ichikawa.png"
+    "avatar": "/avatars/kaiju-no-8/reno-ichikawa.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kikoru-shinomiya",
@@ -81,7 +90,10 @@
       "Hacha Anti-Kaiju Pesada",
       "Ataques Combinados com Kaiju Nº 8"
     ],
-    "avatar": "/avatars/kaiju-no-8/kikoru-shinomiya.png"
+    "avatar": "/avatars/kaiju-no-8/kikoru-shinomiya.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "soshiro-hoshina",
@@ -102,7 +114,10 @@
       "Mobilidade de Velocidade Extrema",
       "Ataques em Sequência"
     ],
-    "avatar": "/avatars/kaiju-no-8/soshiro-hoshina.png"
+    "avatar": "/avatars/kaiju-no-8/soshiro-hoshina.png",
+    "combatType": "Usuário de Espada / Lâmina",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "iharu-furuhashi",
@@ -123,7 +138,10 @@
       "Cobertura e Suporte Tático",
       "Armadura Fortificada Padrão"
     ],
-    "avatar": "/avatars/kaiju-no-8/iharu-furuhashi.png"
+    "avatar": "/avatars/kaiju-no-8/iharu-furuhashi.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "haruichi-izumo",
@@ -143,7 +161,10 @@
       "Rifle Anti-Kaiju de Longo Alcance",
       "Estratégia Tática em Equipe"
     ],
-    "avatar": "/avatars/kaiju-no-8/haruichi-izumo.png"
+    "avatar": "/avatars/kaiju-no-8/haruichi-izumo.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "gen-narumi",
@@ -164,7 +185,10 @@
       "Soco Devastador de Alta Potência",
       "Combate Corpo a Corpo Extremo"
     ],
-    "avatar": "/avatars/kaiju-no-8/gen-narumi.png"
+    "avatar": "/avatars/kaiju-no-8/gen-narumi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "isao-shinomiya",
@@ -184,7 +208,10 @@
       "Liderança Suprema",
       "Armadura Fortificada de Alto Grau"
     ],
-    "avatar": "/avatars/kaiju-no-8/isao-shinomiya.png"
+    "avatar": "/avatars/kaiju-no-8/isao-shinomiya.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
     "id": "aoi-kaguragi",
@@ -204,7 +231,10 @@
       "Armadura Fortificada de Vice-Capitã",
       "Precisão de Combate Avançada"
     ],
-    "avatar": "/avatars/kaiju-no-8/aoi-kaguragi.png"
+    "avatar": "/avatars/kaiju-no-8/aoi-kaguragi.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "konomi-okonogi",
@@ -224,7 +254,10 @@
       "Armadura Fortificada Padrão",
       "Combate de Suporte"
     ],
-    "avatar": "/avatars/kaiju-no-8/konomi-okonogi.png"
+    "avatar": "/avatars/kaiju-no-8/konomi-okonogi.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "keiji-itami",
@@ -245,7 +278,10 @@
       "Armas Pesadas Anti-Kaiju",
       "Liderança Tática"
     ],
-    "avatar": "/avatars/kaiju-no-8/keiji-itami.png"
+    "avatar": "/avatars/kaiju-no-8/keiji-itami.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "juzo-ogata",
@@ -266,7 +302,10 @@
       "Cópia de Habilidades",
       "Exércitos de Kaijus Menores"
     ],
-    "avatar": "/avatars/kaiju-no-8/juzo-ogata.png"
+    "avatar": "/avatars/kaiju-no-8/juzo-ogata.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista / Líder"
   },
   {
     "id": "kaiju-numero-10",
@@ -285,7 +324,10 @@
       "Golpes de Força Devastadora",
       "Resistência Extrema"
     ],
-    "avatar": "/avatars/kaiju-no-8/kaiju-numero-10.png"
+    "avatar": "/avatars/kaiju-no-8/kaiju-numero-10.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kaiju-numero-11",
@@ -304,7 +346,10 @@
       "Controle de Kaijus Menores",
       "Força Kaiju Sobrenatural"
     ],
-    "avatar": "/avatars/kaiju-no-8/kaiju-numero-11.png"
+    "avatar": "/avatars/kaiju-no-8/kaiju-numero-11.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "akari-minase",
@@ -324,7 +369,10 @@
       "Medicina de Campo Avançada",
       "Tratamento Anti-Kaiju"
     ],
-    "avatar": "/avatars/kaiju-no-8/akari-minase.png"
+    "avatar": "/avatars/kaiju-no-8/akari-minase.png",
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "hikari-shinomiya",
@@ -343,7 +391,10 @@
       "Pesquisa Científica Kaiju",
       "Desenvolvimento de Armaduras Fortificadas"
     ],
-    "avatar": "/avatars/kaiju-no-8/hikari-shinomiya.png"
+    "avatar": "/avatars/kaiju-no-8/hikari-shinomiya.png",
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "rin-shinonome",
@@ -363,6 +414,53 @@
       "Armadura Fortificada Padrão",
       "Combate Corpo a Corpo"
     ],
-    "avatar": "/avatars/kaiju-no-8/rin-shinonome.png"
+    "avatar": "/avatars/kaiju-no-8/rin-shinonome.png",
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "kaiju-no-9",
+    "name": "Kaiju No. 9",
+    "gender": "Masculino",
+    "species": "Kaiju Identificado Humanoide",
+    "affiliation": [
+      "Kaijus Primordiais"
+    ],
+    "rank": "Principal Antagonista da Força de Defesa",
+    "styleOrPower": "Metamorfose, Absorção de Consciências Humanas & Projéteis Orgânicos",
+    "debutArc": "Arco da Base Sagamihara",
+    "status": "Vivo",
+    "quote": "Os humanos são criaturas fascinantes... Depois que absorvo o seu cérebro, todas as suas memórias viram minhas armas.",
+    "techniques": [
+      "Disparo de Dedos Perfuradores Fônicos",
+      "Absorção Celular de Isao Shinomiya"
+    ],
+    "combatType": "Magia / Sobrenatural",
+    "roleOrArchetype": "Antagonista / Vilão",
+    "hairColor": "Branco",
+    "avatar": "/avatars/kaiju-no-8/kaiju-no-9.png"
+  },
+  {
+    "id": "kaiju-no-10",
+    "name": "Kaiju No. 10",
+    "gender": "Masculino",
+    "species": "Kaiju Identificado Gladiador",
+    "affiliation": [
+      "Armamento Especial de Hoshina"
+    ],
+    "rank": "Líder de Ataque à Base Tachikawa",
+    "styleOrPower": "Combate de Corpo Gigantesco, Força Bruta & Cauda de Impacto",
+    "debutArc": "Arco da Invasão da Base Tachikawa",
+    "status": "Capturado (Virou Arma Numerada)",
+    "quote": "Lute comigo sozinho, vice-capitão das espadas! Eu quero sentir o gosto de um duelo verdadeiro!",
+    "techniques": [
+      "Esmagamento de Cauda Dorsal",
+      "Grito de Convocação de Wyverns Voadores"
+    ],
+    "combatType": "Corpo a Corpo",
+    "roleOrArchetype": "Rival / Antagonista",
+    "hairColor": "Preto",
+    "avatar": "/avatars/kaiju-no-8/kaiju-no-10.png"
   }
 ]

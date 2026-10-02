@@ -179,7 +179,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
     );
   }
 
-  // Comportamento Padrão para os outros Animes (Demon Slayer, Jujutsu Kaisen)
+  // Comportamento Padrão para os outros Animes (Demon Slayer, Jujutsu Kaisen, Romance, etc.)
   const hint1Needed = 4;
   const hint2Needed = 7;
 
@@ -191,12 +191,24 @@ export const HintBox: React.FC<HintBoxProps> = ({
 
   const isQuoteMode = currentMode === 'quote';
   const isNaruto = currentAnimeSlug === 'naruto';
+  const isRomance = currentAnimeSlug === 'romance';
 
-  // Naruto hint2: jutsu assinatura + atributo especial (muito mais útil que frase)
-  let hint2Label: string;
-  let hint2Content: string;
+  // Configuração Dinâmica e Contextual das Dicas
+  let hint1Label = 'Dica 1 — Arco de Estreia';
+  let hint1Content = targetCharacter.debutArc || targetCharacter.origin || 'Arco Inicial';
 
-  if (isNaruto && !isQuoteMode) {
+  let hint2Label = 'Dica 2 — Frase Marcante';
+  let hint2Content = targetCharacter.quote || targetCharacter.ability || targetCharacter.styleOrPower || 'Personagem Secreto';
+
+  if (isRomance) {
+    // Para Romance, a melhor pista disparada é a Obra de Origem + Papel/Arquétipo Amoroso
+    hint1Label = 'Dica 1 — Obra de Origem';
+    hint1Content = targetCharacter.origin || (Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation) || 'Comédia Romântica';
+
+    hint2Label = 'Dica 2 — Papel & Arquétipo';
+    const roleParts = [targetCharacter.role, targetCharacter.archetype].filter(Boolean);
+    hint2Content = roleParts.length > 0 ? roleParts.join(' · ') : (targetCharacter.status || 'Protagonista');
+  } else if (isNaruto && !isQuoteMode) {
     hint2Label = 'Dica 2 — Jutsu & Atributo';
     const jutsu = targetCharacter.styleOrPower && targetCharacter.styleOrPower !== 'Nenhuma' ? targetCharacter.styleOrPower : null;
     const attrs = Array.isArray(targetCharacter.attributes)
@@ -206,15 +218,23 @@ export const HintBox: React.FC<HintBoxProps> = ({
     if (jutsu && attr) hint2Content = `${jutsu} · ${attr}`;
     else if (jutsu) hint2Content = jutsu;
     else if (attr) hint2Content = attr;
-    else hint2Content = Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation.join(', ') : targetCharacter.affiliation || '—';
+    else hint2Content = Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation.join(', ') : targetCharacter.affiliation || 'Shinobi';
   } else if (isQuoteMode) {
     hint2Label = 'Dica 2 — Técnica / Poder';
     hint2Content = targetCharacter.domainExpansion
       ? `${targetCharacter.ability || targetCharacter.styleOrPower} (Domínio: ${targetCharacter.domainExpansion})`
-      : targetCharacter.ability || targetCharacter.styleOrPower || '—';
+      : targetCharacter.ability || targetCharacter.styleOrPower || targetCharacter.rank || 'Habilidade Especial';
   } else {
     hint2Label = 'Dica 2 — Frase Marcante';
-    hint2Content = targetCharacter.quote || targetCharacter.ability || targetCharacter.styleOrPower || '—';
+    hint2Content = targetCharacter.quote || targetCharacter.ability || targetCharacter.styleOrPower || 'Uma figura inesquecível';
+  }
+
+  // Sanitização final para garantir que nunca apareça '—', '-' ou vazio
+  if (!hint1Content || hint1Content === '—' || hint1Content === '-') {
+    hint1Content = targetCharacter.origin || 'História Principal';
+  }
+  if (!hint2Content || hint2Content === '—' || hint2Content === '-') {
+    hint2Content = targetCharacter.styleOrPower || targetCharacter.role || 'Personagem Marcante';
   }
 
   return (
@@ -237,7 +257,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
-        {/* Dica 1: Arco de Estreia */}
+        {/* Dica 1 */}
         <div
           className={`p-3.5 rounded-xl border transition-all duration-500 relative overflow-hidden ${
             hint1Unlocked
@@ -259,12 +279,12 @@ export const HintBox: React.FC<HintBoxProps> = ({
               ) : (
                 <Lock size={14} className="text-slate-500" />
               )}
-              Dica 1 — Arco de Estreia
+              {hint1Label}
             </span>
           </div>
           {hint1Unlocked ? (
             <p className="font-extrabold text-sm text-white mt-1 animate-fadeIn">
-              {targetCharacter.debutArc}
+              {hint1Content}
             </p>
           ) : (
             <p className="text-[11px] text-slate-500 italic mt-1">
@@ -273,7 +293,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
           )}
         </div>
 
-        {/* Dica 2: Técnica no modo Citação / Frase no modo Clássico */}
+        {/* Dica 2 */}
         <div
           className={`p-3.5 rounded-xl border transition-all duration-500 relative overflow-hidden ${
             hint2Unlocked
