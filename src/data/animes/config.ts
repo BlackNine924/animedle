@@ -455,7 +455,7 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
   },
   'frieren': {
     slug: 'frieren',
-    title: 'Frieren: Beyond Journey\'s End',
+    title: 'Sousou No Frieren',
     subtitle: 'Kanehito Yamada',
     themeColor: '#B8A3FF',
     accentColor: '#059669',
