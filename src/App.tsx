@@ -9,7 +9,7 @@ import { HowToPlayModal } from './components/HowToPlayModal';
 import { StatsModal } from './components/StatsModal';
 import { HintBox } from './components/HintBox';
 import { MangaCoverageModal } from './components/MangaCoverageModal';
-import { ExclusiveAbilityMode } from './components/ExclusiveAbilityMode';
+import { ExclusiveAnimeMode } from './components/ExclusiveAnimeMode';
 import { AnimeGridMode } from './components/AnimeGridMode';
 import { AchievementToast } from './components/AchievementToast';
 import { unlockAchievement } from './data/achievements';
@@ -148,10 +148,27 @@ export const App: React.FC<{
     setShowVictoryModal(false);
   };
 
-  // Garante que animes sem os modos citação e habilidade permaneçam no modo clássico
+  // Garante que animes sem o modo citação permaneçam no modo clássico
   React.useEffect(() => {
-    const ALLOWED = ['one-piece', 'naruto', 'demon-slayer', 'jujutsu-kaisen', 'bleach'];
-    if (!ALLOWED.includes(currentAnimeSlug) && (currentMode === 'quote' || currentMode === 'ability')) {
+    const ANIMES_WITH_QUOTE = [
+      'one-piece',
+      'naruto',
+      'demon-slayer',
+      'jujutsu-kaisen',
+      'bleach',
+      'dragon-ball',
+      'attack-on-titan',
+      'hunter-x-hunter',
+      'chainsaw-man',
+      'frieren',
+      'fullmetal-alchemist',
+      'romance',
+      'solo-leveling',
+      'my-hero-academia',
+      'tokyo-ghoul',
+      'berserk',
+    ];
+    if (!ANIMES_WITH_QUOTE.includes(currentAnimeSlug) && currentMode === 'quote') {
       setCurrentMode('classic');
     }
   }, [currentAnimeSlug, currentMode]);
@@ -963,7 +980,7 @@ export const App: React.FC<{
         />
 
         {/* Quadro de Dicas & Botão Desistir (Dica 2 Inteligente no modo Citação) */}
-        {!(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && currentMode !== 'grid' && (
+        {currentMode !== 'ability' && currentMode !== 'grid' && (
           <HintBox
             targetCharacter={targetCharacter}
             guessCount={currentGuesses.length}
@@ -976,7 +993,7 @@ export const App: React.FC<{
         )}
 
         {/* Card do Personagem Revelado (Exibido ao Acertar ou Desistir em qualquer modo) */}
-        {isFinished && !(currentMode === 'ability' && (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach')) && currentMode !== 'grid' && (
+        {isFinished && currentMode !== 'ability' && currentMode !== 'grid' && (
           <div
             style={{ borderColor: `${animeConfig.themeColor}50` }}
             className="max-w-2xl mx-auto my-6 p-4 sm:p-5 bg-[#0d1426] border rounded-2xl shadow-xl shadow-black/40 flex flex-col sm:flex-row items-center justify-between gap-4 animate-fadeIn"
@@ -1097,57 +1114,11 @@ export const App: React.FC<{
 
         {/* MODO HABILIDADE / MODOS EXCLUSIVOS */}
         {currentMode === 'ability' && (
-          (currentAnimeSlug === 'jujutsu-kaisen' || currentAnimeSlug === 'bleach') ? (
-            <ExclusiveAbilityMode
-              animeSlug={currentAnimeSlug}
-              characters={characters}
-              themeColor={animeConfig.themeColor}
-            />
-          ) : currentAbilityItem ? (
-            <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl">
-              <h3 className="font-extrabold text-base text-white flex items-center justify-center gap-2 mb-2">
-                <Zap size={18} style={{ color: animeConfig.themeColor }} />
-                {currentAnimeSlug === 'naruto'
-                  ? 'A quem pertence este jutsu?'
-                  : currentAnimeSlug === 'jojos-bizarre-adventure'
-                  ? 'A quem pertence este Stand?'
-                  : `A quem pertence esta ${currentAbilityItem.abilityType === 'domain' ? 'expansão de domínio' : 'técnica'}?`}
-              </h3>
-              
-              <div className="p-5 bg-[#111a2d] border border-[#202b43] rounded-2xl text-[#F5F7FF] my-4 shadow-inner flex flex-col items-center justify-center min-h-[100px]">
-                <span className={`text-[11px] uppercase tracking-wider font-extrabold mb-1.5 px-3 py-0.5 rounded-full border ${
-                  currentAbilityItem.abilityType === 'domain'
-                    ? 'bg-amber-500/15 border-amber-500/40 text-amber-300'
-                    : 'bg-purple-500/15 border-purple-500/40 text-purple-300'
-                }`}>
-                  {currentAbilityItem.abilityType === 'domain'
-                    ? '🌌 Expansão de Domínio'
-                    : currentAnimeSlug === 'naruto'
-                    ? '🌀 Jutsu / Técnica'
-                    : currentAnimeSlug === 'jojos-bizarre-adventure'
-                    ? '⭐ Nome do Stand'
-                    : `✨ ${currentAbilityItem.title}`}
-                </span>
-                <p className="text-base sm:text-lg font-black text-white text-center mt-1">
-                  "{currentAbilityItem.text}"
-                </p>
-              </div>
-
-              <CharacterSearchInput
-                characters={characters}
-                guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
-                onSelectCharacter={handleSelectCharacter}
-                disabled={isFinished}
-                themeColor={animeConfig.themeColor}
-              />
-
-              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
-            </div>
-          ) : (
-            <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl">
-              <p className="text-slate-400 text-sm">Nenhum jutsu/habilidade disponível para este anime ainda.</p>
-            </div>
-          )
+          <ExclusiveAnimeMode
+            animeSlug={currentAnimeSlug}
+            characters={characters}
+            themeColor={animeConfig.themeColor}
+          />
         )}
 
         {/* MODO ZOOM / OLHOS */}
