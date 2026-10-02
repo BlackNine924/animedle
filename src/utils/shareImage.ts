@@ -58,56 +58,56 @@ export const generateVictoryCardBlob = async (options: ShareCardOptions): Promis
   ctx.lineWidth = 1;
   ctx.strokeRect(24, 24, 752, 912);
 
-  // 3. Topo: Logo Oficial do Anime ou Nome AnimeDLE (Tamanho aumentado e sem texto redundante)
+  // 3. Topo: Logo Oficial do Anime ou Nome AnimeDLE (Centralizado harmonicamente)
   let logoDrawn = false;
   if (options.animeSlug) {
     const logoImg = await loadCanvasImage(`/logos/${options.animeSlug}.png`);
     if (logoImg && logoImg.width > 0) {
-      const maxW = 340;
-      const maxH = 95;
+      const maxW = 350;
+      const maxH = 105;
       const scale = Math.min(maxW / logoImg.width, maxH / logoImg.height);
       const w = logoImg.width * scale;
       const h = logoImg.height * scale;
-      ctx.drawImage(logoImg, 400 - w / 2, 58 - h / 2, w, h);
+      ctx.drawImage(logoImg, 400 - w / 2, 95 - h / 2, w, h);
       logoDrawn = true;
     }
   }
 
   if (!logoDrawn) {
     ctx.fillStyle = '#ffffff';
-    ctx.font = '900 36px Inter, system-ui, sans-serif';
+    ctx.font = '900 38px Inter, system-ui, sans-serif';
     ctx.textAlign = 'center';
-    ctx.fillText('ANIME', 360, 68);
+    ctx.fillText('ANIME', 355, 95);
     ctx.fillStyle = options.themeColor;
-    ctx.fillText('DLE', 430, 68);
+    ctx.fillText('DLE', 445, 95);
   }
 
   // Linha separadora
   ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)';
   ctx.lineWidth = 1;
   ctx.beginPath();
-  ctx.moveTo(80, 114);
-  ctx.lineTo(720, 114);
+  ctx.moveTo(80, 165);
+  ctx.lineTo(720, 165);
   ctx.stroke();
 
   // 4. Nome do Anime & Modo
   ctx.fillStyle = options.themeColor;
-  ctx.font = '800 23px Inter, system-ui, sans-serif';
-  ctx.fillText(options.animeTitle.toUpperCase(), 400, 150);
+  ctx.font = '800 26px Inter, system-ui, sans-serif';
+  ctx.fillText(options.animeTitle.toUpperCase(), 400, 205);
 
   ctx.fillStyle = '#cbd5e1';
-  ctx.font = '600 15px Inter, system-ui, sans-serif';
-  ctx.fillText(`Modo: ${options.modeName}`, 400, 176);
+  ctx.font = '600 16px Inter, system-ui, sans-serif';
+  ctx.fillText(`Modo: ${options.modeName}`, 400, 238);
 
   // 5. Avatar do Personagem (Carregamento com clipping arredondado)
-  const avatarSize = 220;
+  const avatarSize = 230;
   const avatarX = 400 - avatarSize / 2;
-  const avatarY = 210;
+  const avatarY = 275;
 
   // Sombra e fundo do Avatar
   ctx.save();
   ctx.shadowColor = options.themeColor;
-  ctx.shadowBlur = 35;
+  ctx.shadowBlur = 40;
   ctx.fillStyle = '#111a2d';
   ctx.beginPath();
   ctx.arc(400, avatarY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
@@ -130,8 +130,8 @@ export const generateVictoryCardBlob = async (options: ShareCardOptions): Promis
       ctx.arc(400, avatarY + avatarSize / 2, avatarSize / 2, 0, Math.PI * 2);
       ctx.fill();
       ctx.fillStyle = '#ffffff';
-      ctx.font = '900 64px Inter, sans-serif';
-      ctx.fillText(options.characterName[0] || '?', 400, avatarY + 135);
+      ctx.font = '900 68px Inter, sans-serif';
+      ctx.fillText(options.characterName[0] || '?', 400, avatarY + 140);
     }
   }
 
@@ -144,17 +144,17 @@ export const generateVictoryCardBlob = async (options: ShareCardOptions): Promis
 
   // 6. Nome do Personagem Secreto
   ctx.fillStyle = '#ffffff';
-  ctx.font = '900 32px Inter, system-ui, sans-serif';
-  ctx.fillText(options.characterName, 400, 490);
+  ctx.font = '900 34px Inter, system-ui, sans-serif';
+  ctx.fillText(options.characterName, 400, 545);
 
   if (options.characterSub) {
     ctx.fillStyle = '#94a3b8';
-    ctx.font = '500 15px Inter, system-ui, sans-serif';
-    ctx.fillText(options.characterSub, 400, 522);
+    ctx.font = '500 16px Inter, system-ui, sans-serif';
+    ctx.fillText(options.characterSub, 400, 582);
   }
 
   // 7. Badge de Resultado
-  const badgeY = 560;
+  const badgeY = 625;
   const badgeText = options.isWon
     ? `🎉 Acertou em ${options.totalGuesses} ${options.totalGuesses === 1 ? 'tentativa' : 'tentativas'}!`
     : '🚩 Personagem Revelado (Desistência)';
@@ -163,63 +163,63 @@ export const generateVictoryCardBlob = async (options: ShareCardOptions): Promis
   ctx.strokeStyle = options.isWon ? '#10b981' : '#f43f5e';
   ctx.lineWidth = 1.5;
 
-  const badgeWidth = 400;
-  const badgeHeight = 44;
+  const badgeWidth = 440;
+  const badgeHeight = 48;
   ctx.beginPath();
-  ctx.roundRect(400 - badgeWidth / 2, badgeY, badgeWidth, badgeHeight, 22);
+  ctx.roundRect(400 - badgeWidth / 2, badgeY, badgeWidth, badgeHeight, 24);
   ctx.fill();
   ctx.stroke();
 
   ctx.fillStyle = options.isWon ? '#34d399' : '#fb7185';
   ctx.font = '800 16px Inter, system-ui, sans-serif';
-  ctx.fillText(badgeText, 400, badgeY + 28);
+  ctx.fillText(badgeText, 400, badgeY + 30);
 
   // 8. Box com Estatísticas Rápidas
-  const statBoxY = 635;
-  const statBoxWidth = 540;
-  const statBoxHeight = 88;
+  const statBoxY = 705;
+  const statBoxWidth = 560;
+  const statBoxHeight = 100;
 
   ctx.fillStyle = '#111a2d';
   ctx.strokeStyle = '#202b43';
   ctx.lineWidth = 1.5;
   ctx.beginPath();
-  ctx.roundRect(400 - statBoxWidth / 2, statBoxY, statBoxWidth, statBoxHeight, 20);
+  ctx.roundRect(400 - statBoxWidth / 2, statBoxY, statBoxWidth, statBoxHeight, 22);
   ctx.fill();
   ctx.stroke();
 
   // Tentativas
   ctx.fillStyle = '#94a3b8';
   ctx.font = '700 12px Inter, system-ui, sans-serif';
-  ctx.fillText('TENTATIVAS', 220, statBoxY + 34);
+  ctx.fillText('TENTATIVAS', 215, statBoxY + 38);
   ctx.fillStyle = '#ffffff';
-  ctx.font = '900 24px Inter, system-ui, sans-serif';
-  ctx.fillText(`${options.totalGuesses}`, 220, statBoxY + 67);
+  ctx.font = '900 26px Inter, system-ui, sans-serif';
+  ctx.fillText(`${options.totalGuesses}`, 215, statBoxY + 72);
 
   // Sequência
   ctx.fillStyle = '#94a3b8';
   ctx.font = '700 12px Inter, system-ui, sans-serif';
-  ctx.fillText('STREAK DIÁRIO', 400, statBoxY + 34);
+  ctx.fillText('STREAK DIÁRIO', 400, statBoxY + 38);
   ctx.fillStyle = '#fbbf24';
-  ctx.font = '900 24px Inter, system-ui, sans-serif';
-  ctx.fillText(`🔥 ${options.streak}`, 400, statBoxY + 67);
+  ctx.font = '900 26px Inter, system-ui, sans-serif';
+  ctx.fillText(`🔥 ${options.streak}`, 400, statBoxY + 72);
 
   // Data
   const todayFormatted = new Date().toLocaleDateString('pt-BR');
   ctx.fillStyle = '#94a3b8';
   ctx.font = '700 12px Inter, system-ui, sans-serif';
-  ctx.fillText('DATA', 580, statBoxY + 34);
+  ctx.fillText('DATA', 585, statBoxY + 38);
   ctx.fillStyle = '#ffffff';
-  ctx.font = '800 18px Inter, system-ui, sans-serif';
-  ctx.fillText(todayFormatted, 580, statBoxY + 65);
+  ctx.font = '800 19px Inter, system-ui, sans-serif';
+  ctx.fillText(todayFormatted, 585, statBoxY + 72);
 
   // 9. Rodapé com Watermark e Chamada
   ctx.fillStyle = '#64748b';
   ctx.font = '600 14px Inter, system-ui, sans-serif';
-  ctx.fillText('Jogue todos os dias em https://animedle-9og.pages.dev', 400, 810);
+  ctx.fillText('Jogue todos os dias em https://animedle-9og.pages.dev', 400, 860);
 
   ctx.fillStyle = 'rgba(255, 255, 255, 0.35)';
   ctx.font = '500 12px Inter, system-ui, sans-serif';
-  ctx.fillText('Compartilhe seu resultado com seus amigos!', 400, 835);
+  ctx.fillText('Compartilhe seu resultado com seus amigos!', 400, 890);
 
   return new Promise<Blob | null>((resolve) => {
     try {

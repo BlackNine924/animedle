@@ -72,7 +72,18 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
 
   const targetCharacter = useMemo(() => {
     if (!currentChallenge) return null;
-    return characters.find((c) => c.id === currentChallenge.targetCharacterId) || null;
+    return (
+      characters.find((c) => c.id === currentChallenge.targetCharacterId) ||
+      characters.find(
+        (c) => c.name.toLowerCase().trim() === currentChallenge.targetCharacterName.toLowerCase().trim()
+      ) ||
+      characters.find(
+        (c) =>
+          c.name.toLowerCase().includes(currentChallenge.targetCharacterName.toLowerCase().trim()) ||
+          currentChallenge.targetCharacterName.toLowerCase().includes(c.name.toLowerCase().trim())
+      ) ||
+      null
+    );
   }, [currentChallenge, characters]);
 
   // Vidas estritas: 3 vidas (1 erro = -1 vida)
@@ -219,6 +230,8 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     }
   };
 
+  const [recentIndices, setRecentIndices] = useState<number[]>([dailyIndex]);
+
   // Avançar para o Próximo Desafio (apenas no Modo Infinito)
   const handleNextChallenge = () => {
     if (!isEndless || lives <= 0) return;
@@ -231,10 +244,19 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     setShowResultModal(false);
     setFeedbackStatus('idle');
     setFeedbackDetails('');
-    let nextIdx = Math.floor(Math.random() * challenges.length);
-    if (challenges.length > 1 && nextIdx === currentIndex) {
-      nextIdx = (nextIdx + 1) % challenges.length;
-    }
+
+    // Fila anti-repetição: não repete desafios recentes
+    const pool = challenges.map((_, idx) => idx);
+    const available = pool.filter(
+      (idx) => !recentIndices.slice(-Math.min(12, Math.max(1, challenges.length - 1))).includes(idx)
+    );
+    const candidates = available.length > 0 ? available : pool.filter((idx) => idx !== currentIndex);
+    const nextIdx =
+      candidates.length > 0
+        ? candidates[Math.floor(Math.random() * candidates.length)]
+        : (currentIndex + 1) % Math.max(1, challenges.length);
+
+    setRecentIndices((prev) => [...prev.slice(-20), nextIdx]);
     setCurrentIndex(nextIdx);
   };
 
@@ -530,7 +552,6 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
               ? `✓ Acertou com ${lives}/3 vidas restantes! (+${roundBaseScore} pts)`
               : undefined
           }
-          contextExplanation={currentChallenge?.contextExplanation}
         />
       )}
 

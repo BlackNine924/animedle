@@ -17,7 +17,7 @@ export const AchievementToast: React.FC = () => {
           confetti({
             particleCount: 60,
             spread: 70,
-            origin: { y: 0.5, x: 0.5 },
+            origin: { y: 0.15, x: 0.5 },
           });
         } catch (e) {
           // ignore
@@ -25,12 +25,12 @@ export const AchievementToast: React.FC = () => {
 
         const closeTimer = setTimeout(() => {
           setIsClosing(true);
-        }, 3500);
+        }, 7000);
 
         const removeTimer = setTimeout(() => {
           setActiveAchievement(null);
           setIsClosing(false);
-        }, 4000);
+        }, 7600);
 
         return () => {
           clearTimeout(closeTimer);
@@ -47,8 +47,8 @@ export const AchievementToast: React.FC = () => {
 
   return (
     <div
-      className={`fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50 pointer-events-none transition-all duration-500 ease-out ${
-        isClosing ? 'opacity-0 scale-95' : 'opacity-100 scale-100'
+      className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 pointer-events-none transition-all duration-500 ease-out ${
+        isClosing ? 'opacity-0 -translate-y-4 scale-95' : 'opacity-100 translate-y-0 scale-100'
       }`}
     >
       <div className="bg-gradient-to-r from-[#0d1426] via-[#16223b] to-[#0d1426] border-2 border-amber-400 rounded-3xl p-5 shadow-[0_0_50px_rgba(251,191,36,0.35)] flex items-center gap-4 max-w-md w-[90vw] backdrop-blur-xl">

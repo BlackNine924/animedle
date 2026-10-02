@@ -1,7 +1,8 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Character } from '../types/anime';
-import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, LayoutGrid } from 'lucide-react';
+import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, LayoutGrid, Flag } from 'lucide-react';
 import { unlockAchievement, logDailyActivity } from '../data/achievements';
+import { VictoryModal } from './VictoryModal';
 
 interface GridCriterion {
   id: string;
@@ -23,6 +24,7 @@ interface GridBoardProps {
   gridDefinition: { rows: GridCriterion[]; cols: GridCriterion[] };
   characters: Character[];
   animeTitle: string;
+  animeSlug: string;
   themeColor: string;
   onResetForInfinite?: () => void;
 }
@@ -33,6 +35,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
   gridDefinition,
   characters,
   animeTitle,
+  animeSlug,
   themeColor,
   onResetForInfinite,
 }) => {
@@ -52,16 +55,23 @@ const GridBoard: React.FC<GridBoardProps> = ({
     return saved !== null ? parseInt(saved, 10) : 9;
   });
 
+  const [isSurrendered, setIsSurrendered] = useState<boolean>(() => {
+    return localStorage.getItem(`animedle_grid_surrendered_${gridSeed}`) === 'true';
+  });
+
   const [selectedCell, setSelectedCell] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [showCopied, setShowCopied] = useState(false);
+  const [showAnswersModal, setShowAnswersModal] = useState(false);
+  const [showVictoryModal, setShowVictoryModal] = useState(false);
 
   // Salva no localStorage sempre que células ou tentativas mudam
   useEffect(() => {
     localStorage.setItem(`animedle_grid_${gridSeed}`, JSON.stringify(cells));
     localStorage.setItem(`animedle_grid_guesses_${gridSeed}`, guessesLeft.toString());
-  }, [cells, guessesLeft, gridSeed]);
+    localStorage.setItem(`animedle_grid_surrendered_${gridSeed}`, isSurrendered.toString());
+  }, [cells, guessesLeft, isSurrendered, gridSeed]);
 
   const usedCharacterIds = useMemo(() => {
     return new Set(cells.filter(Boolean).map((c) => c!.id));
@@ -122,7 +132,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
     }
   };
 
-  const isGameOver = guessesLeft === 0 || cells.filter(Boolean).length === 9;
+  const isGameOver = guessesLeft === 0 || cells.filter(Boolean).length === 9 || isSurrendered;
   const score = cells.filter(Boolean).length;
 
   useEffect(() => {
@@ -131,8 +141,35 @@ const GridBoard: React.FC<GridBoardProps> = ({
       if (score === 9) {
         unlockAchievement('grid_master');
       }
+      setShowVictoryModal(true);
     }
   }, [isGameOver, score]);
+
+  const cellAnswers = useMemo(() => {
+    const list: { row: GridCriterion; col: GridCriterion; matches: Character[] }[] = [];
+    for (let r = 0; r < 3; r++) {
+      for (let c = 0; c < 3; c++) {
+        const row = gridDefinition.rows[r];
+        const col = gridDefinition.cols[c];
+        const matches = characters.filter((ch) => row.test(ch) && col.test(ch));
+        list.push({ row, col, matches });
+      }
+    }
+    return list;
+  }, [gridDefinition, characters]);
+
+  const handleSurrender = () => {
+    if (isGameOver) {
+      setShowAnswersModal(true);
+      return;
+    }
+    if (window.confirm('Tem certeza de que deseja desistir? Todas as respostas válidas de cada uma das 9 células serão reveladas!')) {
+      setIsSurrendered(true);
+      setGuessesLeft(0);
+      localStorage.setItem(`animedle_grid_surrendered_${gridSeed}`, 'true');
+      setShowAnswersModal(true);
+    }
+  };
 
   const handleCopyGrid = () => {
     let text = `AnimeDLE Grid - ${animeTitle} (${isEndless ? 'Modo Infinito' : 'Diário'})\n`;
@@ -157,8 +194,15 @@ const GridBoard: React.FC<GridBoardProps> = ({
         <span className="text-slate-400">
           Acertos: <strong className="text-white font-black text-sm">{score}/9</strong>
         </span>
-        <div className="flex items-center gap-2">
-          <span className="text-slate-400">Palpites Restantes:</span>
+        <div className="flex items-center gap-2.5">
+          <button
+            onClick={handleSurrender}
+            className="flex items-center gap-1.5 px-3 py-1 rounded-xl text-[11px] font-bold text-rose-300 hover:text-white bg-rose-500/10 hover:bg-rose-500/20 border border-rose-500/30 transition-all shadow-sm"
+          >
+            <Flag size={12} />
+            {isGameOver ? 'Ver Respostas' : 'Desistir'}
+          </button>
+          <span className="text-slate-400">Palpites:</span>
           <span
             className={`font-black px-2.5 py-0.5 rounded-full text-xs shadow-sm ${
               guessesLeft > 3
@@ -183,12 +227,12 @@ const GridBoard: React.FC<GridBoardProps> = ({
           {gridDefinition.cols.map((col, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center text-center p-2.5 sm:p-3 rounded-2xl bg-[#111a2d] border border-[#202b43] shadow-sm min-h-[70px] sm:min-h-[80px]"
+              className="flex flex-col items-center justify-center text-center p-2 sm:p-2.5 rounded-2xl bg-[#111a2d] border border-[#202b43] shadow-sm min-h-[76px] sm:min-h-[85px] w-full"
             >
-              <span className="text-[9px] sm:text-[10px] uppercase font-black text-slate-400 tracking-wider">
+              <span className="text-[8px] sm:text-[9px] uppercase font-black text-slate-400 tracking-wider mb-0.5">
                 {col.category}
               </span>
-              <span className="text-xs sm:text-sm font-extrabold text-white mt-1 line-clamp-2">
+              <span className="text-[10px] sm:text-xs md:text-sm font-extrabold text-white leading-tight break-words hyphens-auto w-full text-center px-1">
                 {col.label}
               </span>
             </div>
@@ -198,11 +242,11 @@ const GridBoard: React.FC<GridBoardProps> = ({
           {[0, 1, 2].map((rowIdx) => (
             <React.Fragment key={rowIdx}>
               {/* Cabeçalho da Linha */}
-              <div className="flex flex-col items-center justify-center text-center p-2.5 sm:p-3 rounded-2xl bg-[#111a2d] border border-[#202b43] shadow-sm min-h-[95px] sm:min-h-[120px] md:min-h-[135px]">
-                <span className="text-[9px] sm:text-[10px] uppercase font-black text-slate-400 tracking-wider">
+              <div className="flex flex-col items-center justify-center text-center p-2 sm:p-2.5 rounded-2xl bg-[#111a2d] border border-[#202b43] shadow-sm min-h-[95px] sm:min-h-[120px] md:min-h-[135px] w-full">
+                <span className="text-[8px] sm:text-[9px] uppercase font-black text-slate-400 tracking-wider mb-0.5">
                   {gridDefinition.rows[rowIdx].category}
                 </span>
-                <span className="text-xs sm:text-sm font-extrabold text-white mt-1 line-clamp-2">
+                <span className="text-[10px] sm:text-xs md:text-sm font-extrabold text-white leading-tight break-words hyphens-auto w-full text-center px-1">
                   {gridDefinition.rows[rowIdx].label}
                 </span>
               </div>
@@ -245,7 +289,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
                             (e.target as HTMLElement).style.display = 'none';
                           }}
                         />
-                        <span className="text-[10px] sm:text-xs font-black text-white text-center line-clamp-1 px-1">
+                        <span className="text-[9px] sm:text-[11px] font-black text-white text-center leading-tight break-words hyphens-auto px-1 w-full max-h-8 overflow-hidden">
                           {char.name}
                         </span>
                         <div className="absolute top-1.5 right-1.5 bg-emerald-500 text-black rounded-full p-1 shadow-md">
@@ -278,10 +322,26 @@ const GridBoard: React.FC<GridBoardProps> = ({
           <p className="text-slate-400 text-xs mb-4">
             {score === 9
               ? 'Você dominou completamente os critérios de hoje do AnimeDLE!'
-              : 'Bom jogo! Compartilhe o seu resultado ou treine no Modo Infinito.'}
+              : 'Bom jogo! Compartilhe o seu resultado ou consulte todas as respostas.'}
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3">
+            <button
+              onClick={() => setShowAnswersModal(true)}
+              className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-xs shadow-lg transition-all"
+            >
+              <LayoutGrid size={15} />
+              Gabarito Completo
+            </button>
+
+            <button
+              onClick={() => setShowVictoryModal(true)}
+              className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs shadow-lg transition-all"
+            >
+              <Trophy size={15} />
+              Ver Modal de Fim de Jogo
+            </button>
+
             <button
               onClick={handleCopyGrid}
               className="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-lg transition-all"
@@ -299,6 +359,111 @@ const GridBoard: React.FC<GridBoardProps> = ({
                 Nova Grade Infinita
               </button>
             )}
+          </div>
+        </div>
+      )}
+
+      {/* Modal Universal de Fim de Jogo / Derrota / Vitória */}
+      {showVictoryModal && isGameOver && (
+        <VictoryModal
+          targetCharacter={cells.find(Boolean) || characters[0]}
+          totalGuesses={9 - guessesLeft}
+          isLost={score < 9}
+          isSurrendered={isSurrendered}
+          onClose={() => setShowVictoryModal(false)}
+          onNext={isEndless && onResetForInfinite ? onResetForInfinite : undefined}
+          nextButtonLabel="Nova Grade"
+          themeColor={themeColor}
+          animeTitle={animeTitle}
+          animeSlug={animeSlug}
+          currentMode="grid"
+          customSubtitle={
+            score === 9
+              ? '👑 Parabéns! Você completou a grade 9/9 perfeitamente!'
+              : isSurrendered
+              ? `🚩 Desistência registrada: ${score}/9 células preenchidas.`
+              : `💀 Esgotou os 9 palpites! Total: ${score}/9 acertos.`
+          }
+        />
+      )}
+
+      {/* Modal Gabarito com Todas as Respostas Possíveis por Célula */}
+      {showAnswersModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
+          <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-2xl w-full p-4 sm:p-6 text-left shadow-2xl max-h-[85vh] flex flex-col">
+            <div className="flex items-center justify-between pb-3 border-b border-[#202b43]">
+              <div>
+                <h3 className="text-base sm:text-lg font-black text-white flex items-center gap-2">
+                  <LayoutGrid size={18} className="text-amber-400" />
+                  Gabarito da Grade: Todas as Respostas Válidas
+                </h3>
+                <p className="text-xs text-slate-400">
+                  Veja todos os personagens válidos para cada uma das 9 células.
+                </p>
+              </div>
+              <button
+                onClick={() => setShowAnswersModal(false)}
+                className="p-1.5 text-slate-400 hover:text-white rounded-lg hover:bg-white/10"
+              >
+                <X size={20} />
+              </button>
+            </div>
+
+            <div className="overflow-y-auto space-y-3.5 py-4 pr-1">
+              {cellAnswers.map((item, idx) => {
+                const r = Math.floor(idx / 3);
+                const c = idx % 3;
+                const userPick = cells[idx];
+                return (
+                  <div key={idx} className="bg-[#111a2d] border border-[#202b43] rounded-2xl p-3 sm:p-4">
+                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-2.5">
+                      <span className="text-xs font-bold text-slate-300">
+                        Célula ({r + 1}, {c + 1}): <strong className="text-amber-300">{item.row.label}</strong> × <strong className="text-sky-300">{item.col.label}</strong>
+                      </span>
+                      <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit">
+                        {item.matches.length} personagens válidos
+                      </span>
+                    </div>
+
+                    <div className="flex flex-wrap gap-2">
+                      {item.matches.map((char) => {
+                        const wasChosen = userPick?.id === char.id;
+                        return (
+                          <div
+                            key={char.id}
+                            className={`flex items-center gap-2 px-2.5 py-1.5 rounded-xl border text-xs font-semibold ${
+                              wasChosen
+                                ? 'bg-emerald-500/25 border-emerald-400 text-emerald-300'
+                                : 'bg-[#162035] border-[#25334d] text-slate-200'
+                            }`}
+                          >
+                            <img
+                              src={char.avatar}
+                              alt={char.name}
+                              className="w-6 h-6 rounded-full object-cover border border-slate-600"
+                              onError={(e) => {
+                                (e.target as HTMLElement).style.display = 'none';
+                              }}
+                            />
+                            <span>{char.name}</span>
+                            {wasChosen && <Check size={12} className="text-emerald-400 stroke-[3]" />}
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="pt-3 border-t border-[#202b43] flex justify-end">
+              <button
+                onClick={() => setShowAnswersModal(false)}
+                className="px-5 py-2 rounded-xl bg-slate-700 hover:bg-slate-600 text-white font-bold text-xs"
+              >
+                Fechar
+              </button>
+            </div>
           </div>
         </div>
       )}
@@ -627,13 +792,13 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
           const rowCats = new Set([r1.category, r2.category, r3.category]);
           const rowIds = new Set([r1.id, r2.id, r3.id]);
 
-          // Filtra somente colunas que possuem ao menos 1 candidato com as 3 linhas
+          // Filtra somente colunas que possuem ao menos 3 candidatos com cada uma das 3 linhas
           const validCols = availableCriteria.filter((col) => {
             if (rowIds.has(col.id)) return false;
             return (
-              characters.some((c) => r1.test(c) && col.test(c)) &&
-              characters.some((c) => r2.test(c) && col.test(c)) &&
-              characters.some((c) => r3.test(c) && col.test(c))
+              characters.filter((c) => r1.test(c) && col.test(c)).length >= 3 &&
+              characters.filter((c) => r2.test(c) && col.test(c)).length >= 3 &&
+              characters.filter((c) => r3.test(c) && col.test(c)).length >= 3
             );
           });
 
@@ -744,6 +909,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
         gridDefinition={gridDefinition}
         characters={characters}
         animeTitle={animeTitle}
+        animeSlug={animeSlug}
         themeColor={themeColor}
         onResetForInfinite={() => setEndlessSeed((s) => s + 1)}
       />
