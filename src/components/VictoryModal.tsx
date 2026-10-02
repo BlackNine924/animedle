@@ -14,6 +14,7 @@ interface VictoryModalProps {
   onClose: () => void;
   themeColor?: string;
   animeTitle?: string;
+  animeSlug?: string;
   currentMode?: string;
 }
 
@@ -25,6 +26,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
   onClose,
   themeColor = '#dc2626',
   animeTitle = 'Demon Slayer',
+  animeSlug,
   currentMode = 'classic',
 }) => {
   const [timer, setTimer] = useState(getTimeUntilNextReset());
@@ -92,6 +94,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
     await downloadOrShareImageCard({
       animeTitle,
       themeColor,
+      animeSlug,
       characterName: targetCharacter.name,
       characterAvatar: targetCharacter.avatar,
       characterSub: `${targetCharacter.species} • ${Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation}`,

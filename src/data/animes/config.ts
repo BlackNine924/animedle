@@ -995,7 +995,9 @@ export const ANIMES_CONFIG: Record<string, AnimeConfig> = {
       'Universitário / Coabitação',
       'Coabitação / Vida Sob o Mesmo Teto',
       'Coabitação / Treinamento de Casais',
-      'Mansão Isolada / Época Vitoriana'
+      'Mansão Isolada / Época Vitoriana',
+      'Plantação 13 / Gaiola de Pássaros (Mistilteinn)',
+      'Ensino Médio / Ginásio Esportivo Eimei'
     ],
     mangaCoverage: {
       chapter: 'Múltiplas Obras',

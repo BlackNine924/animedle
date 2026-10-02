@@ -1,7 +1,7 @@
 [
   {
     "id": "sunraku",
-    "name": "Sunraku (Rakuro Hizutome)",
+    "name": "Sunraku",
     "gender": "Masculino",
     "species": "Humano (Player)",
     "affiliation": [
@@ -21,7 +21,7 @@
   },
   {
     "id": "psyger-0",
-    "name": "Psyger-0 (Rei Saiga)",
+    "name": "Psyger-0",
     "gender": "Feminino",
     "species": "Humano (Player)",
     "affiliation": [
@@ -41,7 +41,7 @@
   },
   {
     "id": "arthur-pencilgon",
-    "name": "Arthur Pencilgon (Towa Amane)",
+    "name": "Arthur Pencilgon",
     "gender": "Feminino",
     "species": "Humano (Player)",
     "affiliation": [
@@ -62,7 +62,7 @@
   },
   {
     "id": "oikatzo",
-    "name": "Oikatzo (Kei Uomi)",
+    "name": "Oikatzo",
     "gender": "Masculino",
     "species": "Humano (Player)",
     "affiliation": [
@@ -103,7 +103,7 @@
   },
   {
     "id": "viceash",
-    "name": "Vysache (Rei dos Coelhos Vorpais)",
+    "name": "Vysache",
     "gender": "Masculino",
     "species": "Coelho Vorpal (NPC)",
     "affiliation": [
@@ -184,7 +184,7 @@
   },
   {
     "id": "kutanid",
-    "name": "Kutanid of the Abyss (Ctarnidd)",
+    "name": "Kutanid do Abismo",
     "gender": "Sem Gênero",
     "species": "Polvo Gigante / Monstro Único",
     "affiliation": [
@@ -204,7 +204,7 @@
   },
   {
     "id": "psyger-100",
-    "name": "Psyger-100 (Momo Saiga)",
+    "name": "Psyger-100",
     "gender": "Feminino",
     "species": "Humano (Player)",
     "affiliation": [
@@ -344,7 +344,7 @@
   },
   {
     "id": "tsukuyo-tsukuri",
-    "name": "Tsukuyo Tsukuri (Tsutomu)",
+    "name": "Tsukuyo Tsukuri",
     "gender": "Feminino",
     "species": "Humano (Desenvolvedora)",
     "affiliation": [
@@ -404,7 +404,7 @@
   },
   {
     "id": "akane-oki",
-    "name": "Akitsu Akane (Akane Oki)",
+    "name": "Akitsu Akane",
     "gender": "Feminino",
     "species": "Humano (Player)",
     "affiliation": [
@@ -604,7 +604,7 @@
   },
   {
     "id": "orchestra",
-    "name": "Orchestra (O Eco)",
+    "name": "Orchestra",
     "gender": "Desconhecido",
     "species": "Monstro Único (Sete Colossos)",
     "affiliation": [

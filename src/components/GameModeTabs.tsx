@@ -78,7 +78,7 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
     ...(hasQuote ? [{ id: 'quote' as GameMode, label: 'Citação', icon: <MessageSquare size={15} /> }] : []),
     { id: 'ability' as GameMode, label: exclusiveLabel, icon: <Zap size={15} />, isExclusive: true },
     { id: 'zoom', label: 'Zoom', icon: <ZoomIn size={15} /> },
-    { id: 'grid', label: 'Grid 3×3', icon: <LayoutGrid size={15} /> },
+    { id: 'grid', label: 'Grid', icon: <LayoutGrid size={15} /> },
     { id: 'endless', label: 'Infinito', icon: <InfinityIcon size={15} /> },
   ];
 

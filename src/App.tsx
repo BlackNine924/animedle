@@ -133,6 +133,7 @@ export const App: React.FC<{
 
   // Troca de anime via navegação por URL (componente remonta automaticamente)
   const handleSelectAnime = (newAnimeSlug: string) => {
+    setShowVictoryModal(false);
     if (newAnimeSlug !== currentAnimeSlug) {
       setEndlessStreak(0);
       localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
@@ -670,6 +671,7 @@ export const App: React.FC<{
     });
 
     setModeStates(newStates);
+    setShowVictoryModal(false);
     setEndlessTargetIndex(Math.floor(Math.random() * characters.length));
 
     // Se mudou de anime, reseta a sequência do modo treino. Se recarregou/voltou ao mesmo, mantém.
@@ -731,7 +733,9 @@ export const App: React.FC<{
 
     // No modo procurado (Wanted), se o palpite for feito com a foto totalmente sem blur (0px / 5ª tentativa ou mais) e for incorreto, o jogador perde!
     const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 4;
-    const isSurrenderedState = isWantedLoss;
+    // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota!
+    const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 7;
+    const isSurrenderedState = isWantedLoss || isZoomLoss;
 
     setModeStates((prev) => ({
       ...prev,
@@ -1127,9 +1131,14 @@ export const App: React.FC<{
             <h3 className="font-extrabold text-base text-white flex items-center justify-center gap-2 mb-1.5">
               <ZoomIn size={18} style={{ color: animeConfig.themeColor }} /> Modo Zoom (Olhos & Detalhes)
             </h3>
-            <p className="text-xs text-slate-400 mb-4">
+            <p className="text-xs text-slate-400 mb-3">
               A foto do personagem está com zoom extremo! O zoom diminui a cada erro.
             </p>
+            {zoomScale === 1 && !isFinished && (
+              <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30 text-xs font-black mb-3 animate-pulse">
+                <span>⚠️ Zoom 1x atingido! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances antes da derrota!</span>
+              </div>
+            )}
             
             <div className="w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
               <img
@@ -1215,6 +1224,7 @@ export const App: React.FC<{
           onClose={() => setShowVictoryModal(false)}
           themeColor={animeConfig.themeColor}
           animeTitle={animeConfig.title}
+          animeSlug={currentAnimeSlug}
           currentMode={currentMode}
         />
       )}

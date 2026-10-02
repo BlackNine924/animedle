@@ -1,7 +1,7 @@
 [
   {
     "id": "ken-kaneki",
-    "name": "Ken Kaneki (Haise Sasaki / O Rei Caolho)",
+    "name": "Ken Kaneki",
     "gender": "Masculino",
     "species": "Meio-Ghoul / Ghoul Caolho Artificial",
     "affiliation": [
@@ -25,7 +25,7 @@
   },
   {
     "id": "touka-kirishima",
-    "name": "Touka Kirishima (Rabbit)",
+    "name": "Touka Kirishima",
     "gender": "Feminino",
     "species": "Ghoul",
     "affiliation": [
@@ -47,7 +47,7 @@
   },
   {
     "id": "yoshimura",
-    "name": "Yoshimura (Kuzen / A Coruja Não-Mata)",
+    "name": "Kuzen Yoshimura",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -68,7 +68,7 @@
   },
   {
     "id": "renji-yomo",
-    "name": "Renji Yomo (Raven / Corvo)",
+    "name": "Renji Yomo",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -90,7 +90,7 @@
   },
   {
     "id": "nishiki-nishio",
-    "name": "Nishiki Nishio (Serpente)",
+    "name": "Nishiki Nishio",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -111,7 +111,7 @@
   },
   {
     "id": "enji-koma",
-    "name": "Enji Koma (O Macaco Diabo)",
+    "name": "Enji Koma",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -131,7 +131,7 @@
   },
   {
     "id": "kaya-irimi",
-    "name": "Kaya Irimi (O Cão Negro)",
+    "name": "Kaya Irimi",
     "gender": "Feminino",
     "species": "Ghoul",
     "affiliation": [
@@ -151,7 +151,7 @@
   },
   {
     "id": "hinami-fueguchi",
-    "name": "Hinami Fueguchi (Yotsume)",
+    "name": "Hinami Fueguchi",
     "gender": "Feminino",
     "species": "Ghoul",
     "affiliation": [
@@ -192,7 +192,7 @@
   },
   {
     "id": "koutarou-amon",
-    "name": "Koutarou Amon (Floppy)",
+    "name": "Koutarou Amon",
     "gender": "Masculino",
     "species": "Meio-Ghoul (Ex-Humano)",
     "affiliation": [
@@ -251,7 +251,7 @@
   },
   {
     "id": "kishou-arima",
-    "name": "Kishou Arima (O Ceifador Branco do CCG)",
+    "name": "Kishou Arima",
     "gender": "Masculino",
     "species": "Meio-Humano (Jardim do Sol Branco)",
     "affiliation": [
@@ -274,7 +274,7 @@
   },
   {
     "id": "juuzou-suzuya",
-    "name": "Juuzou Suzuya (Rei Suzuya)",
+    "name": "Juuzou Suzuya",
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
@@ -566,7 +566,7 @@
   },
   {
     "id": "shuu-tsukiyama",
-    "name": "Shuu Tsukiyama (O Gourmet)",
+    "name": "Shuu Tsukiyama",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -623,7 +623,7 @@
   },
   {
     "id": "kanae-von-rosewald",
-    "name": "Kanae von Rosewald (Karren)",
+    "name": "Kanae von Rosewald",
     "gender": "Feminino",
     "species": "Ghoul",
     "affiliation": [
@@ -643,7 +643,7 @@
   },
   {
     "id": "chie-hori",
-    "name": "Chie Hori (A Pequena Fotógrafa)",
+    "name": "Chie Hori",
     "gender": "Feminino",
     "species": "Humano",
     "affiliation": [
@@ -662,7 +662,7 @@
   },
   {
     "id": "eto-yoshimura",
-    "name": "Eto Yoshimura (Sen Takatsuki / Coruja de Um Olho Só)",
+    "name": "Eto Yoshimura",
     "gender": "Feminino",
     "species": "Meio-Ghoul Natural (Híbrida Nascida)",
     "affiliation": [
@@ -703,7 +703,7 @@
   },
   {
     "id": "noro",
-    "name": "Noro (Noroi)",
+    "name": "Noro",
     "gender": "Masculino",
     "species": "Ghoul / Monstruosidade Kakuja Parcial",
     "affiliation": [
@@ -723,7 +723,7 @@
   },
   {
     "id": "ayato-kirishima",
-    "name": "Ayato Kirishima (Black Rabbit)",
+    "name": "Ayato Kirishima",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -743,7 +743,7 @@
   },
   {
     "id": "yakumo-oomori",
-    "name": "Yakumo Oomori (Yamori / Jason do 13º Distrito)",
+    "name": "Yakumo Oomori (Yamori)",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -784,7 +784,7 @@
   },
   {
     "id": "miza-kusakari",
-    "name": "Miza Kusakari (Três Lâminas)",
+    "name": "Miza Kusakari",
     "gender": "Feminino",
     "species": "Ghoul",
     "affiliation": [
@@ -823,7 +823,7 @@
   },
   {
     "id": "uta",
-    "name": "Uta (Sem Rosto / Criador de Máscaras)",
+    "name": "Uta",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -885,7 +885,7 @@
   },
   {
     "id": "roma-hoito",
-    "name": "Roma Hoito (Dodgy Mother / Palhaço Cigano)",
+    "name": "Roma Hoito",
     "gender": "Feminino",
     "species": "Ghoul Puro",
     "affiliation": [
@@ -905,7 +905,7 @@
   },
   {
     "id": "nimura-furuta",
-    "name": "Nimura Furuta (Souta Washuu-Furuta / Kichimura)",
+    "name": "Nimura Furuta",
     "gender": "Masculino",
     "species": "Meio-Ghoul Artificial / Meio-Humano",
     "affiliation": [
@@ -928,7 +928,7 @@
   },
   {
     "id": "donato-porpora",
-    "name": "Donato Porpora (O Padre / Crown)",
+    "name": "Donato Porpora",
     "gender": "Masculino",
     "species": "Ghoul",
     "affiliation": [
@@ -948,7 +948,7 @@
   },
   {
     "id": "rize-kamishiro",
-    "name": "Rize Kamishiro (A Comilona / Binge Eater)",
+    "name": "Rize Kamishiro",
     "gender": "Feminino",
     "species": "Ghoul de Sangue Puro Washuu",
     "affiliation": [
@@ -988,7 +988,7 @@
   },
   {
     "id": "kurona-yasuhisa",
-    "name": "Kurona Yasuhisa (Kuro)",
+    "name": "Kurona Yasuhisa",
     "gender": "Feminino",
     "species": "Meio-Ghoul Artificial",
     "affiliation": [
@@ -1008,7 +1008,7 @@
   },
   {
     "id": "nashiro-yasuhisa",
-    "name": "Nashiro Yasuhisa (Shiro)",
+    "name": "Nashiro Yasuhisa",
     "gender": "Feminino",
     "species": "Meio-Ghoul Artificial",
     "affiliation": [
@@ -1026,7 +1026,7 @@
   },
   {
     "id": "seidou-takizawa",
-    "name": "Seidou Takizawa (Owl / Coruja)",
+    "name": "Seidou Takizawa",
     "gender": "Masculino",
     "species": "Meio-Ghoul Artificial (Experimento de Kanou)",
     "affiliation": [
@@ -1047,7 +1047,7 @@
   },
   {
     "id": "hideyoshi-nagachika",
-    "name": "Hideyoshi Nagachika (Hide / Scarecrow)",
+    "name": "Hideyoshi Nagachika",
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
@@ -1106,7 +1106,7 @@
   },
   {
     "id": "shikorae",
-    "name": "Shikorae (Rio)",
+    "name": "Shikorae",
     "gender": "Masculino",
     "species": "Ghoul (Portador de Todos os 4 Tipos de Rc)",
     "affiliation": [
@@ -1146,7 +1146,7 @@
   },
   {
     "id": "nutcracker",
-    "name": "Nutcracker (Quebra-Nozes)",
+    "name": "Nutcracker",
     "gender": "Feminino",
     "species": "Ghoul",
     "affiliation": [
@@ -1221,7 +1221,7 @@
   },
   {
     "id": "tsuneyoshi-washuu",
-    "name": "Tsuneyoshi Washuu (O Presidente do CCG)",
+    "name": "Tsuneyoshi Washuu",
     "gender": "Masculino",
     "species": "Ghoul Puro (Patriarca Washuu)",
     "affiliation": [

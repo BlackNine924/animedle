@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { HelpCircle, BarChart2, ChevronDown, RotateCcw, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ANIMES_CONFIG } from '../data/animes/config';
+import { AnimeConfig } from '../types/anime';
 import { IMPLEMENTED_SLUGS } from '../data/animes/animeRegistry';
 
 interface NavbarProps {
@@ -53,6 +54,13 @@ export const Navbar: React.FC<NavbarProps> = ({
       faviconLink.href = logoUrl;
     }
   }, [currentAnime]);
+
+  // Lista de animes ordenada estritamente de A a Z
+  const sortedAnimes: AnimeConfig[] = useMemo(() => {
+    return Object.values(ANIMES_CONFIG).sort((a: AnimeConfig, b: AnimeConfig) =>
+      a.title.localeCompare(b.title, 'pt-BR', { sensitivity: 'base' })
+    );
+  }, []);
 
   return (
     <header className="sticky top-0 z-40 bg-[#060b18]/40 backdrop-blur-md border-b border-white/10 transition-colors">
@@ -124,7 +132,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 </div>
                 {/* Lista de animes com rolagem isolada */}
                 <div className="overflow-y-auto custom-scrollbar py-1 flex-1">
-                  {Object.values(ANIMES_CONFIG).map((anime) => {
+                  {sortedAnimes.map((anime) => {
                     const isAvailable = IMPLEMENTED_SLUGS.has(anime.slug);
                     const isSelected = anime.slug === currentAnimeSlug;
 

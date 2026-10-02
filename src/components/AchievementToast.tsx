@@ -14,8 +14,8 @@ export const AchievementToast: React.FC = () => {
         try {
           confetti({
             particleCount: 50,
-            spread: 50,
-            origin: { y: 0.8, x: 0.9 },
+            spread: 60,
+            origin: { y: 0.2, x: 0.5 },
           });
         } catch (e) {
           // ignore
@@ -36,7 +36,7 @@ export const AchievementToast: React.FC = () => {
   if (!activeAchievement) return null;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 animate-bounce">
+    <div className="fixed top-6 left-1/2 -translate-x-1/2 z-50 animate-bounce">
       <div className="bg-gradient-to-r from-[#0d1426] to-[#16223b] border-2 border-amber-400/80 rounded-2xl p-4 shadow-2xl flex items-center gap-3.5 max-w-sm backdrop-blur-md">
         <div className="w-12 h-12 rounded-xl bg-amber-500/20 border border-amber-400 flex items-center justify-center text-2xl flex-shrink-0">
           {activeAchievement.icon || '🏆'}

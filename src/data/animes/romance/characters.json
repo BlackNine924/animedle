@@ -165,7 +165,7 @@
   },
   {
     "id": "taiga-aisaka",
-    "name": "Taiga Aisaka (Tigresa de Bolso)",
+    "name": "Taiga Aisaka",
     "gender": "Feminino",
     "origin": "Toradora!",
     "role": "Heroína Principal",
@@ -262,7 +262,7 @@
   },
   {
     "id": "sajuna-inui",
-    "name": "Sajuna Inui (Juju)",
+    "name": "Sajuna Inui",
     "gender": "Feminino",
     "origin": "Sono Bisque Doll wa Koi wo Suru",
     "role": "Cosplayer Veterana",
@@ -374,7 +374,7 @@
   },
   {
     "id": "chizuru-mizuhara",
-    "name": "Chizuru Mizuhara (Ichinose)",
+    "name": "Chizuru Mizuhara",
     "gender": "Feminino",
     "origin": "Rent-a-Girlfriend",
     "role": "Heroína Principal / Namorada de Aluguel",
@@ -455,7 +455,7 @@
   },
   {
     "id": "mahiru-shiina",
-    "name": "Mahiru Shiina (O Anjo)",
+    "name": "Mahiru Shiina",
     "gender": "Feminino",
     "origin": "Meu Anjo de Vizinha Me Mima Demais",
     "role": "Heroína Principal / Vizinha",
@@ -553,7 +553,7 @@
   },
   {
     "id": "naoto-hachioji",
-    "name": "Naoto Hachioji (Senpai)",
+    "name": "Naoto Hachioji",
     "gender": "Masculino",
     "origin": "Don't Toy with Me Miss Nagatoro",
     "role": "Protagonista Masculino",
@@ -569,7 +569,7 @@
   },
   {
     "id": "rentarou-aijou",
-    "name": "Rentarou Aijou (O Monstro do Amor)",
+    "name": "Rentarou Aijou",
     "gender": "Masculino",
     "origin": "The 100 Girlfriends Who Really Love You",
     "role": "Protagonista Masculino Supremo",
@@ -666,7 +666,7 @@
   },
   {
     "id": "tsukasa-yuzaki",
-    "name": "Tsukasa Yuzaki (Tsukuyomi)",
+    "name": "Tsukasa Yuzaki",
     "gender": "Feminino",
     "origin": "TONIKAWA: Over The Moon For You",
     "role": "Heroína Principal / Esposa",
@@ -745,7 +745,7 @@
   },
   {
     "id": "junichirou-kubota",
-    "name": "Junichirou Kubota (Jun)",
+    "name": "Junichirou Kubota",
     "gender": "Masculino",
     "origin": "Tomo-chan Is a Girl",
     "role": "Protagonista Masculino",
@@ -793,7 +793,7 @@
   },
   {
     "id": "duke-bocchan",
-    "name": "Duke (Bocchan)",
+    "name": "Duque de Morte",
     "gender": "Masculino",
     "origin": "The Duke of Death and His Maid",
     "role": "Protagonista Masculino",
@@ -841,7 +841,7 @@
   },
   {
     "id": "aki-adagaki",
-    "name": "Aki Adagaki (A Princesa Brutal)",
+    "name": "Aki Adagaki",
     "gender": "Feminino",
     "origin": "Masamune-kun's Revenge",
     "role": "Heroína Principal",
@@ -970,7 +970,7 @@
   },
   {
     "id": "sawako-kuronuma",
-    "name": "Sawako Kuronuma (Sadako)",
+    "name": "Sawako Kuronuma",
     "gender": "Feminino",
     "origin": "Kimi ni Todoke",
     "role": "Heroína Principal",
@@ -1082,7 +1082,7 @@
   },
   {
     "id": "nagisa-furukawa",
-    "name": "Nagisa Furukawa (Okazaki)",
+    "name": "Nagisa Furukawa",
     "gender": "Feminino",
     "origin": "Clannad",
     "role": "Heroína Principal / Esposa",
@@ -1127,7 +1127,7 @@
   },
   {
     "id": "kyo-sohma",
-    "name": "Kyo Sohma (O Gato Amaldiçoado)",
+    "name": "Kyo Sohma",
     "gender": "Masculino",
     "origin": "Fruits Basket",
     "role": "Protagonista Masculino",
@@ -1139,5 +1139,260 @@
       "Superação da Forma Verdadeira Monstruosa"
     ],
     "avatar": "/avatars/romance/kyo-sohma.png"
+  },
+  {
+    "id": "zero-two",
+    "name": "Zero Two",
+    "gender": "Feminino",
+    "origin": "Darling in the Franxx",
+    "role": "Heroína Principal",
+    "archetype": "Deredere / Yandere Híbrida",
+    "status": "Casada",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Quer ser meu Querido (Darling)? Se você morrer, eu morro com você.",
+    "techniques": [
+      "Pilota Pistil da Strelizia",
+      "Sangue de Urassauro Real",
+      "Chifres Carmesins Místicos"
+    ],
+    "avatar": "/avatars/romance/zero-two.png"
+  },
+  {
+    "id": "hiro",
+    "name": "Hiro",
+    "gender": "Masculino",
+    "origin": "Darling in the Franxx",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Piloto Dedicado",
+    "status": "Casado",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Se eu não puder pilotar com você, Zero Two, eu não tenho asas para voar!",
+    "techniques": [
+      "Piloto Stamen da Strelizia",
+      "Mutação de Urassauro Azul",
+      "Nomeador de Crianças Parasitas"
+    ],
+    "avatar": "/avatars/romance/hiro.png"
+  },
+  {
+    "id": "ichigo-franxx",
+    "name": "Ichigo",
+    "gender": "Feminino",
+    "origin": "Darling in the Franxx",
+    "role": "Líder de Esquadrão / Amiga de Infância",
+    "archetype": "Tsundere / Deredere",
+    "status": "Casada",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Eu só queria proteger você, Hiro... desde quando éramos pequenos na enfermaria.",
+    "techniques": [
+      "Pilota Pistil da Delphinium",
+      "Liderança Tática do Esquadrão 13",
+      "Comando Defensivo"
+    ],
+    "avatar": "/avatars/romance/ichigo.png"
+  },
+  {
+    "id": "goro-franxx",
+    "name": "Goro",
+    "gender": "Masculino",
+    "origin": "Darling in the Franxx",
+    "role": "Melhor Amigo / Parceiro de Franxx",
+    "archetype": "Deredere / Altruísta",
+    "status": "Casado",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Eu sempre estarei aqui para apoiar você, Ichigo, e todo o Esquadrão 13.",
+    "techniques": [
+      "Piloto Stamen da Delphinium",
+      "Exploração da Terra Renascida",
+      "Suporte Estratégico"
+    ],
+    "avatar": "/avatars/romance/goro.png"
+  },
+  {
+    "id": "kokoro-franxx",
+    "name": "Kokoro",
+    "gender": "Feminino",
+    "origin": "Darling in the Franxx",
+    "role": "Pistil e Mãe da Nova Geração",
+    "archetype": "Yamato Nadeshiko / Doce",
+    "status": "Casada",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Eu quero dar à luz este bebê e deixar nossa história de amor viva para o futuro!",
+    "techniques": [
+      "Pilota Pistil da Genista",
+      "Cultivo de Flores e Estufa",
+      "Maternidade da Nova Civilização"
+    ],
+    "avatar": "/avatars/romance/kokoro.png"
+  },
+  {
+    "id": "mitsuru-franxx",
+    "name": "Mitsuru",
+    "gender": "Masculino",
+    "origin": "Darling in the Franxx",
+    "role": "Piloto Franxx / Marido",
+    "archetype": "Kuudere -> Deredere",
+    "status": "Casado",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Eu prometo proteger você e nossa filha, Kokoro, até o último dia da minha vida.",
+    "techniques": [
+      "Piloto Stamen da Genista",
+      "Superação de Elixir de Células Amarelas",
+      "Artilharia de Lança Pesada"
+    ],
+    "avatar": "/avatars/romance/mitsuru.png"
+  },
+  {
+    "id": "zorome-franxx",
+    "name": "Zorome",
+    "gender": "Masculino",
+    "origin": "Darling in the Franxx",
+    "role": "Piloto Impulsivo",
+    "archetype": "Bakadere / Tsundere",
+    "status": "Solteiro",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Eu sou o melhor piloto de todos aqui! Ninguém me supera!",
+    "techniques": [
+      "Piloto Stamen da Argentea",
+      "Acrobacias Ágeis de Combate",
+      "Garras de Dardo Duplo"
+    ],
+    "avatar": "/avatars/romance/zorome.png"
+  },
+  {
+    "id": "miku-franxx",
+    "name": "Miku",
+    "gender": "Feminino",
+    "origin": "Darling in the Franxx",
+    "role": "Parceira de Zorome",
+    "archetype": "Tsundere Enérgica",
+    "status": "Solteira",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Você é um idiota completo, Zorome! Mas ainda bem que pilotamos juntos.",
+    "techniques": [
+      "Pilota Pistil da Argentea",
+      "Reflexos Rápidos de Esquiva",
+      "Espírito Rebelde"
+    ],
+    "avatar": "/avatars/romance/miku.png"
+  },
+  {
+    "id": "ikuno-franxx",
+    "name": "Ikuno",
+    "gender": "Feminino",
+    "origin": "Darling in the Franxx",
+    "role": "Pesquisadora e Médica",
+    "archetype": "Kuudere / Dedicada",
+    "status": "Solteira",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Eu quero que você viva e seja feliz, Ichigo. Esse é o meu maior desejo.",
+    "techniques": [
+      "Pilota Pistil da Chlorophytum",
+      "Pesquisa Científica da Síndrome de Envelhecimento",
+      "Tiroteio de Feixes Alados"
+    ],
+    "avatar": "/avatars/romance/ikuno.png"
+  },
+  {
+    "id": "futoshi-franxx",
+    "name": "Futoshi",
+    "gender": "Masculino",
+    "origin": "Darling in the Franxx",
+    "role": "Piloto e Padeiro da Nova Era",
+    "archetype": "Deredere / Companheiro",
+    "status": "Casado",
+    "debutArc": "Plantação 13 / Gaiola de Pássaros (Mistilteinn)",
+    "quote": "Eu comerei bastante pão e protegerei a todos nós no campo de batalha!",
+    "techniques": [
+      "Piloto Stamen da Chlorophytum",
+      "Panificação Tradicional de Pão",
+      "Força Física de Defesa"
+    ],
+    "avatar": "/avatars/romance/futoshi.png"
+  },
+  {
+    "id": "taiki-inomata",
+    "name": "Taiki Inomata",
+    "gender": "Masculino",
+    "origin": "Blue Box",
+    "role": "Protagonista Masculino (Badminton)",
+    "archetype": "Deredere / Esforçado",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio / Ginásio Esportivo Eimei",
+    "quote": "Eu vou me classificar para o Torneio Nacional e ser alguém digno de você, Kano-senpai!",
+    "techniques": [
+      "Treino Matinal às 6h no Ginásio",
+      "Salto Smash de Badminton",
+      "Coabitação Secreta Familiar"
+    ],
+    "avatar": "/avatars/romance/taiki-inomata.png"
+  },
+  {
+    "id": "chinatsu-kano",
+    "name": "Chinatsu Kano",
+    "gender": "Feminino",
+    "origin": "Blue Box",
+    "role": "Heroína Principal (Basquete)",
+    "archetype": "Deredere / Senpai Focada",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio / Ginásio Esportivo Eimei",
+    "quote": "Obrigada por me receber na sua casa, Taiki. Vamos dar o nosso melhor nos esportes juntos!",
+    "techniques": [
+      "Arremesso de Três Pontos",
+      "Capitã Estelar do Time de Basquete",
+      "Fita de Cabelo da Sorte"
+    ],
+    "avatar": "/avatars/romance/chinatsu-kano.png"
+  },
+  {
+    "id": "hina-chono",
+    "name": "Hina Chono",
+    "gender": "Feminino",
+    "origin": "Blue Box",
+    "role": "Amiga de Infância (Ginástica Rítmica)",
+    "archetype": "Genki / Deredere Apaixonada",
+    "status": "Solteira",
+    "debutArc": "Ensino Médio / Ginásio Esportivo Eimei",
+    "quote": "Eu gosto de você, Taiki! Não apenas como amiga de infância, mas como garoto!",
+    "techniques": [
+      "Fita de Ginástica Rítmica Artística",
+      "Flexibilidade de Nível Nacional",
+      "Declaração Direta e Sincera"
+    ],
+    "avatar": "/avatars/romance/hina-chono.png"
+  },
+  {
+    "id": "kyo-kasahara",
+    "name": "Kyo Kasahara",
+    "gender": "Masculino",
+    "origin": "Blue Box",
+    "role": "Melhor Amigo (Badminton)",
+    "archetype": "Kuudere / Observador Tático",
+    "status": "Solteiro",
+    "debutArc": "Ensino Médio / Ginásio Esportivo Eimei",
+    "quote": "Você pensa demais nas garotas, Taiki. Foco no próximo ponto da quadra.",
+    "techniques": [
+      "Defesa de Rede Tática",
+      "Conselheiro Emocional de Taiki",
+      "Análise de Adversários"
+    ],
+    "avatar": "/avatars/romance/kyo-kasahara.png"
+  },
+  {
+    "id": "karen-matsuoka",
+    "name": "Karen Moriya",
+    "gender": "Feminino",
+    "origin": "Blue Box",
+    "role": "Colega e Amiga do Basquete",
+    "archetype": "Deredere / Amiga Extrovertida",
+    "status": "Namorando",
+    "debutArc": "Ensino Médio / Ginásio Esportivo Eimei",
+    "quote": "O amor adolescente sob o teto da mesma casa é simplesmente emocionante demais!",
+    "techniques": [
+      "Passe de Basquete Veloz",
+      "Incentivadora Oficial de Chinatsu",
+      "Conversas de Vestiário"
+    ],
+    "avatar": "/avatars/romance/karen-matsuoka.png"
   }
 ]

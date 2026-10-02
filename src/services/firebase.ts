@@ -184,3 +184,30 @@ export const generateSecureHash = async (text: string): Promise<string> => {
   const hashArray = Array.from(new Uint8Array(hashBuffer));
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 };
+
+// -------------------------------------------------------------
+// 4. REPORTAR INCONSISTÊNCIA DE DESAFIO (Realtime Database)
+// -------------------------------------------------------------
+export const reportChallengeInconsistency = async (
+  animeSlug: string,
+  challengeId: string,
+  details: string,
+  targetTitle?: string
+): Promise<boolean> => {
+  try {
+    const reportId = `${Date.now()}_${Math.random().toString(36).substring(2, 7)}`;
+    const reportRef = ref(rtdb, `reports/${animeSlug}/${challengeId}/${reportId}`);
+    await set(reportRef, {
+      animeSlug,
+      challengeId,
+      targetTitle: targetTitle || '',
+      details: details.trim(),
+      reportedAt: Date.now(),
+      userAgent: typeof navigator !== 'undefined' ? navigator.userAgent : 'unknown',
+    });
+    return true;
+  } catch (err) {
+    console.warn("Firebase report error:", err);
+    return false;
+  }
+};

@@ -41,7 +41,7 @@
   },
   {
     "id": "tatsumaki",
-    "name": "Tatsumaki (Tornado do Terror)",
+    "name": "Tatsumaki",
     "gender": "Feminino",
     "affiliation": [
       "Associação de Heróis"
@@ -81,7 +81,7 @@
   },
   {
     "id": "atomic-samurai",
-    "name": "Atomic Samurai (Kamikaze)",
+    "name": "Atomic Samurai",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis",
@@ -101,7 +101,7 @@
   },
   {
     "id": "child-emperor",
-    "name": "Child Emperor (Isamu)",
+    "name": "Child Emperor",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis",
@@ -141,7 +141,7 @@
   },
   {
     "id": "king",
-    "name": "King (O Homem Mais Forte da Terra)",
+    "name": "King",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis",
@@ -182,7 +182,7 @@
   },
   {
     "id": "drive-knight",
-    "name": "Drive Knight (Cavaleiro Mecânico)",
+    "name": "Drive Knight",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis"
@@ -202,7 +202,7 @@
   },
   {
     "id": "pig-god",
-    "name": "Pig God (Deus Porco)",
+    "name": "Pig God",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis"
@@ -240,7 +240,7 @@
   },
   {
     "id": "watchdog-man",
-    "name": "Watchdog Man (Homem Cão de Guarda)",
+    "name": "Watchdog Man",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis",
@@ -260,7 +260,7 @@
   },
   {
     "id": "flashy-flash",
-    "name": "Flashy Flash (Flash Veloz)",
+    "name": "Flashy Flash",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis",
@@ -280,7 +280,7 @@
   },
   {
     "id": "genos",
-    "name": "Genos (Cyborg Demoníaco)",
+    "name": "Genos",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis",
@@ -301,7 +301,7 @@
   },
   {
     "id": "metal-bat",
-    "name": "Metal Bat (Bad / Bastão de Metal)",
+    "name": "Metal Bat",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis"
@@ -320,7 +320,7 @@
   },
   {
     "id": "tanktop-master",
-    "name": "Tanktop Master (Mestre de Regata)",
+    "name": "Tanktop Master",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis",
@@ -361,7 +361,7 @@
   },
   {
     "id": "amai-mask",
-    "name": "Amai Mask (Sweet Mask)",
+    "name": "Amai Mask",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis"
@@ -727,7 +727,7 @@
   },
   {
     "id": "sneck",
-    "name": "Sneck (Punho Mordida de Serpente)",
+    "name": "Sneck",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis"
@@ -852,7 +852,7 @@
   },
   {
     "id": "fubuki",
-    "name": "Fubuki (Blizzard do Inferno)",
+    "name": "Fubuki",
     "gender": "Feminino",
     "affiliation": [
       "Associação de Heróis",
@@ -1034,7 +1034,7 @@
   },
   {
     "id": "mumen-rider",
-    "name": "Mumen Rider (Satoru)",
+    "name": "Mumen Rider",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Heróis"
@@ -1157,7 +1157,7 @@
   },
   {
     "id": "garou",
-    "name": "Garou (O Caçador de Heróis)",
+    "name": "Garou",
     "gender": "Masculino",
     "affiliation": [
       "Caçador Solitário",
@@ -1178,7 +1178,7 @@
   },
   {
     "id": "cosmic-fear-garou",
-    "name": "Garou Cósmico (Cosmic Fear Garou)",
+    "name": "Garou Cósmico",
     "gender": "Masculino",
     "affiliation": [
       "Avatar Escolhido por Deus"
@@ -1198,7 +1198,7 @@
   },
   {
     "id": "boros",
-    "name": "Lorde Boros (Dominador do Universo)",
+    "name": "Lorde Boros",
     "gender": "Masculino",
     "affiliation": [
       "Ladrões da Matéria Negra"
@@ -1327,7 +1327,7 @@
   },
   {
     "id": "black-sperm",
-    "name": "Black Sperm (Golden Sperm / Platinum Sperm)",
+    "name": "Black Sperm",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1346,7 +1346,7 @@
   },
   {
     "id": "homeless-emperor",
-    "name": "Homeless Emperor (Imperador Mendigo)",
+    "name": "Homeless Emperor",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros",
@@ -1365,7 +1365,7 @@
   },
   {
     "id": "fuhrer-ugly",
-    "name": "Fuhrer Ugly (Presidente Feio / Vomited)",
+    "name": "Fuhrer Ugly",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1383,7 +1383,7 @@
   },
   {
     "id": "gums",
-    "name": "Gums (Gengivas)",
+    "name": "Gums",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1419,7 +1419,7 @@
   },
   {
     "id": "overgrown-rover",
-    "name": "Overgrown Rover (Rover)",
+    "name": "Overgrown Rover",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros",
@@ -1439,7 +1439,7 @@
   },
   {
     "id": "elder-centipede",
-    "name": "Elder Centipede (Centopéia Anciã)",
+    "name": "Elder Centipede",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1475,7 +1475,7 @@
   },
   {
     "id": "phoenix-man",
-    "name": "Phoenix Man (Homem Fênix)",
+    "name": "Phoenix Man",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1494,7 +1494,7 @@
   },
   {
     "id": "carnage-kabuto",
-    "name": "Carnage Kabuto (Escaravelho Carniceiro)",
+    "name": "Carnage Kabuto",
     "gender": "Masculino",
     "affiliation": [
       "Casa da Evolução"
@@ -1512,7 +1512,7 @@
   },
   {
     "id": "mosquito-girl",
-    "name": "Mosquito Girl (Garota Mosquito)",
+    "name": "Mosquito Girl",
     "gender": "Feminino",
     "affiliation": [
       "Casa da Evolução"
@@ -1530,7 +1530,7 @@
   },
   {
     "id": "beast-king",
-    "name": "Beast King (Rei das Feras)",
+    "name": "Beast King",
     "gender": "Masculino",
     "affiliation": [
       "Casa da Evolução"
@@ -1548,7 +1548,7 @@
   },
   {
     "id": "armored-gorilla",
-    "name": "Armored Gorilla (Gorila Blindado)",
+    "name": "Armored Gorilla",
     "gender": "Masculino",
     "affiliation": [
       "Casa da Evolução",
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "deep-sea-king",
-    "name": "Deep Sea King (Rei dos Mares Profundos)",
+    "name": "Deep Sea King",
     "gender": "Masculino",
     "affiliation": [
       "Povo do Mar Profundo"
@@ -1586,7 +1586,7 @@
   },
   {
     "id": "vaccine-man",
-    "name": "Vaccine Man (Homem Vacina)",
+    "name": "Vaccine Man",
     "gender": "Masculino",
     "affiliation": [
       "Força da Mãe Terra"
@@ -1604,7 +1604,7 @@
   },
   {
     "id": "crablante",
-    "name": "Crablante (Homem Caranguejo)",
+    "name": "Crablante",
     "gender": "Masculino",
     "affiliation": [
       "Monstro Transformado por Obsessão"
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "beefcake",
-    "name": "Beefcake (Marugori)",
+    "name": "Beefcake",
     "gender": "Masculino",
     "affiliation": [
       "Irmãos Cientistas Mutantes"
@@ -1639,7 +1639,7 @@
   },
   {
     "id": "speed-o-sound-sonic",
-    "name": "Speed-o'-Sound Sonic (Sonic)",
+    "name": "Speed-o'-Sound Sonic",
     "gender": "Masculino",
     "affiliation": [
       "Vila Ninja (44ª Turma)",
@@ -1697,7 +1697,7 @@
   },
   {
     "id": "royal-ripper",
-    "name": "Royal Ripper (Estripador Real)",
+    "name": "Royal Ripper",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1714,7 +1714,7 @@
   },
   {
     "id": "bug-god",
-    "name": "Bug God (Deus Inseto)",
+    "name": "Bug God",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1732,7 +1732,7 @@
   },
   {
     "id": "awakened-cockroach",
-    "name": "Awakened Cockroach (Barata Despertada)",
+    "name": "Awakened Cockroach",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1750,7 +1750,7 @@
   },
   {
     "id": "pure-blood",
-    "name": "Pure Blood (Vampiro Puro-Sangue)",
+    "name": "Pure Blood",
     "gender": "Masculino",
     "affiliation": [
       "Associação de Monstros"
@@ -1896,7 +1896,7 @@
   },
   {
     "id": "god",
-    "name": "Deus (God)",
+    "name": "Deus",
     "gender": "Assexuado",
     "affiliation": [
       "Entidade Cósmica Primordial"

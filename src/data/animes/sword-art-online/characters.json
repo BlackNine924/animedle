@@ -1,7 +1,7 @@
 [
   {
     "id": "kirito",
-    "name": "Kirito (Kazuto Kirigaya / O Espadachim Negro)",
+    "name": "Kirito",
     "gender": "Masculino",
     "affiliation": [
       "Cavaleiros do Juramento de Sangue",
@@ -23,7 +23,7 @@
   },
   {
     "id": "asuna",
-    "name": "Asuna (Asuna Yuuki / O Relâmpago / Deusa Stacia)",
+    "name": "Asuna Yuuki",
     "gender": "Feminino",
     "affiliation": [
       "Cavaleiros do Juramento de Sangue (Sublíder)"
@@ -44,7 +44,7 @@
   },
   {
     "id": "yui",
-    "name": "Yui (MHCP-0001 / Filha Adotiva)",
+    "name": "Yui",
     "gender": "Feminino",
     "affiliation": [
       "Programa de Aconselhamento de Saúde Mental do Sistema Cardinal"
@@ -63,7 +63,7 @@
   },
   {
     "id": "klein",
-    "name": "Klein (Ryoutarou Tsuboi)",
+    "name": "Klein",
     "gender": "Masculino",
     "affiliation": [
       "Guilda Fuurinkazan (Líder)"
@@ -83,7 +83,7 @@
   },
   {
     "id": "agil",
-    "name": "Agil (Andrew Gilbert Mills)",
+    "name": "Agil",
     "gender": "Masculino",
     "affiliation": [
       "Comerciantes de Aincrad",
@@ -103,7 +103,7 @@
   },
   {
     "id": "silica",
-    "name": "Silica (Keiko Ayano)",
+    "name": "Silica",
     "gender": "Feminino",
     "affiliation": [
       "Domadora de Feras de Aincrad"
@@ -141,7 +141,7 @@
   },
   {
     "id": "lisbeth",
-    "name": "Lisbeth (Rika Shinozaki)",
+    "name": "Lisbeth",
     "gender": "Feminino",
     "affiliation": [
       "Ferreira de Aincrad (48º Andar)"
@@ -233,7 +233,7 @@
   },
   {
     "id": "diabel",
-    "name": "Diabel (O Cavaleiro Nobre)",
+    "name": "Diabel",
     "gender": "Masculino",
     "affiliation": [
       "Líder da Primeira Raid de Chefe (1º Andar)",
@@ -288,7 +288,7 @@
   },
   {
     "id": "poh",
-    "name": "PoH (Prince of Hell / Vassago Casals)",
+    "name": "PoH",
     "gender": "Masculino",
     "affiliation": [
       "Laughing Coffin (Fundador / Líder)",
@@ -308,7 +308,7 @@
   },
   {
     "id": "red-eyed-xaxa",
-    "name": "Red-Eyed XaXa (Shoichi Shinkawa / Death Gun)",
+    "name": "Red-Eyed XaXa",
     "gender": "Masculino",
     "affiliation": [
       "Laughing Coffin (Sublíder)",
@@ -327,7 +327,7 @@
   },
   {
     "id": "johnny-black",
-    "name": "Johnny Black (Atsushi Kanamoto)",
+    "name": "Johnny Black",
     "gender": "Masculino",
     "affiliation": [
       "Laughing Coffin",
@@ -346,7 +346,7 @@
   },
   {
     "id": "leafa",
-    "name": "Leafa (Suguha Kirigaya / Deusa Terraria)",
+    "name": "Leafa",
     "gender": "Feminino",
     "affiliation": [
       "Raça Sylph (ALfheim Online)",
@@ -366,7 +366,7 @@
   },
   {
     "id": "recon",
-    "name": "Recon (Shinichi Nagata)",
+    "name": "Recon",
     "gender": "Masculino",
     "affiliation": [
       "Raça Sylph (ALfheim Online)"
@@ -438,7 +438,7 @@
   },
   {
     "id": "oberon",
-    "name": "Oberon (Sugou Nobuyuki / O Rei das Fadas)",
+    "name": "Sugou Nobuyuki (Oberon)",
     "gender": "Masculino",
     "affiliation": [
       "Diretor de Pesquisa da RCT",
@@ -457,7 +457,7 @@
   },
   {
     "id": "sinon",
-    "name": "Sinon (Shino Asada / Deusa Solus)",
+    "name": "Sinon",
     "gender": "Feminino",
     "affiliation": [
       "Gun Gale Online (Sniper Top)",
@@ -477,7 +477,7 @@
   },
   {
     "id": "death-gun",
-    "name": "Death Gun (Sterben / O Atirador Fantasma)",
+    "name": "Death Gun",
     "gender": "Masculino",
     "affiliation": [
       "Irmãos Shinkawa & Johnny Black"
@@ -496,7 +496,7 @@
   },
   {
     "id": "spiegel",
-    "name": "Spiegel (Kyouji Shinkawa)",
+    "name": "Spiegel",
     "gender": "Masculino",
     "affiliation": [
       "Amigo de Shino em GGO",
@@ -514,7 +514,7 @@
   },
   {
     "id": "yuuki",
-    "name": "Yuuki (Yuuki Konno / Zekken / Espada Absoluta)",
+    "name": "Yuuki Konno",
     "gender": "Feminino",
     "affiliation": [
       "Guilda Sleeping Knights (Líder)"
@@ -532,7 +532,7 @@
   },
   {
     "id": "siune",
-    "name": "Siune (An Si-eun)",
+    "name": "Siune",
     "gender": "Feminino",
     "affiliation": [
       "Guilda Sleeping Knights (Sublíder)"
@@ -549,7 +549,7 @@
   },
   {
     "id": "eiji",
-    "name": "Eiji (Eiji Nochizawa / Nautilus)",
+    "name": "Eiji",
     "gender": "Masculino",
     "affiliation": [
       "Ex-Cavaleiros do Juramento de Sangue",
@@ -568,7 +568,7 @@
   },
   {
     "id": "yuna",
-    "name": "Yuna (Shigemura Yuuna)",
+    "name": "Yuna",
     "gender": "Feminino",
     "affiliation": [
       "Idol de Realidade Aumentada de Ordinal Scale"
@@ -586,7 +586,7 @@
   },
   {
     "id": "eugeo",
-    "name": "Eugeo (Cavaleiro da Rosa Azul)",
+    "name": "Eugeo",
     "gender": "Masculino",
     "affiliation": [
       "Cortador de Madeira Sagrada de Rulid",
@@ -607,7 +607,7 @@
   },
   {
     "id": "alice-zuberg",
-    "name": "Alice Zuberg (Alice Synthesis Thirty)",
+    "name": "Alice Zuberg",
     "gender": "Feminino",
     "affiliation": [
       "Igreja do Axioma (Cavaleira da Integridade)",
@@ -698,7 +698,7 @@
   },
   {
     "id": "sheyta",
-    "name": "Sheyta Synthesis Twelve (A Cavaleira Silenciosa)",
+    "name": "Sheyta Synthesis Twelve",
     "gender": "Feminino",
     "affiliation": [
       "Cavaleiros da Integridade"
@@ -749,7 +749,7 @@
   },
   {
     "id": "quinella",
-    "name": "Quinella (Administrator / Pontífice Suprema)",
+    "name": "Quinella (Administrator)",
     "gender": "Feminino",
     "affiliation": [
       "Igreja do Axioma (Governante Absoluta do Underworld)"
@@ -768,7 +768,7 @@
   },
   {
     "id": "cardinal",
-    "name": "Cardinal (Lyceris / Sub-Processo do Sistema)",
+    "name": "Cardinal",
     "gender": "Feminino",
     "affiliation": [
       "Biblioteca da Grande Catedral"
@@ -803,7 +803,7 @@
   },
   {
     "id": "sortiliena-serlut",
-    "name": "Sortiliena Serlut (Liena-senpai)",
+    "name": "Sortiliena Serlut",
     "gender": "Feminino",
     "affiliation": [
       "Academia de Espadachins Imperiais (Mestra de Kirito)"
@@ -856,7 +856,7 @@
   },
   {
     "id": "gabriel-miller",
-    "name": "Gabriel Miller (Subtilizer / Imperador Vecta)",
+    "name": "Gabriel Miller",
     "gender": "Masculino",
     "affiliation": [
       "Glowgen Defense Systems (Líder Mercenário)",
@@ -911,7 +911,7 @@
   },
   {
     "id": "seijirou-kikuoka",
-    "name": "Seijirou Kikuoka (Chrysheight)",
+    "name": "Seijirou Kikuoka",
     "gender": "Masculino",
     "affiliation": [
       "Ministério de Assuntos Internos / Rath (Projeto Alicization)"
