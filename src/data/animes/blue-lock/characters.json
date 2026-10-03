@@ -17,7 +17,7 @@
     "quote": "Eu não vim aqui para jogar em equipe. Eu vim aqui para ser o maior atacante do mundo!",
     "avatar": "/avatars/blue-lock/yoichi-isagi.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -38,7 +38,7 @@
     "quote": "Há um monstro dentro de mim... e ele me diz para seguir em frente!",
     "avatar": "/avatars/blue-lock/meguru-bachira.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -60,7 +60,7 @@
     "quote": "Eu quero me tornar um herói do futebol. Não importa o que aconteça, não vou quebrar minhas regras.",
     "avatar": "/avatars/blue-lock/rensuke-kunigami.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -81,7 +81,7 @@
     "quote": "Minha velocidade é a minha corrente e a minha libertação. Ninguém vai me alcançar!",
     "avatar": "/avatars/blue-lock/hyoma-chigiri.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -144,7 +144,7 @@
     "quote": "Eu sou o Rei deste campo. Vocês são apenas os servos que existem para me passar a bola!",
     "avatar": "/avatars/blue-lock/shoei-barou.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -165,7 +165,7 @@
     "quote": "Futebol morno não me interessa. Eu só existo para destruir meu irmão e todo mundo no meu caminho.",
     "avatar": "/avatars/blue-lock/rin-itoshi.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -207,7 +207,7 @@
     "quote": "Comer com as mãos é bom... agarrar bolas difíceis também.",
     "avatar": "/avatars/blue-lock/gin-gagamaru.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -270,7 +270,7 @@
     "quote": "Desculpe, desculpe! Eu fico tão nervoso que não consigo parar de correr e empurrar!",
     "avatar": "/avatars/blue-lock/aoshi-tokimitsu.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -291,7 +291,7 @@
     "quote": "O futebol não precisa ser uma expectativa imposta pelos meus pais. Pode ser o meu próprio jogo.",
     "avatar": "/avatars/blue-lock/yo-hiori.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -480,7 +480,7 @@
     "quote": "Eu não quero herdar o templo do meu pai! Eu vou viver do futebol de qualquer jeito!",
     "avatar": "/avatars/blue-lock/gurimu-igarashi.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -543,7 +543,7 @@
     "quote": "O meio-campo precisa de calma para conectar as jogadas ofensivas.",
     "avatar": "/avatars/blue-lock/shizuka-haiji.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -606,7 +606,7 @@
     "quote": "Eu quero casar com uma celebridade bonita e ser milionário! Esse é o meu combustível!",
     "avatar": "/avatars/blue-lock/shuto-sendo.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -627,7 +627,7 @@
     "quote": "A meta do Japão Sub-20 é o meu posto de honra.",
     "avatar": "/avatars/blue-lock/gen-fukaku.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -690,7 +690,7 @@
     "quote": "Desarmar sem cometer falta é a mais pura arte zen da defesa.",
     "avatar": "/avatars/blue-lock/miroku-darai.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -793,7 +793,7 @@
     "quote": "Eu não sou um gênio como você, Isagi... Mas eu precisava vencer pelos meus irmãos!",
     "avatar": "/avatars/blue-lock/asahi-naruhaya.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -853,7 +853,7 @@
     "quote": "Meu estilo de jogo é tão leve e solto quanto meu jeito de curtir a vida.",
     "avatar": "/avatars/blue-lock/yudai-imamura.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -935,7 +935,7 @@
     "quote": "O impossível não existe no meu cardápio. Eu sou o imperador e este campo me pertence!",
     "avatar": "/avatars/blue-lock/michael-kaiser.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -955,7 +955,7 @@
     "quote": "O futebol é a pura magia da lógica... e Kaiser é o meu verdadeiro rei!",
     "avatar": "/avatars/blue-lock/alexis-ness.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -976,7 +976,7 @@
     "quote": "O futebol japonês é patético e provinciano. Eu preferi me tornar o melhor meia do mundo.",
     "avatar": "/avatars/blue-lock/sae-itoshi.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1038,7 +1038,7 @@
     "quote": "A criatividade precisa ser amparada pelo raciocínio científico e a biomecânica.",
     "avatar": "/avatars/blue-lock/agi.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1179,7 +1179,7 @@
     "quote": "Como capitão inglês, mantenho a ordem e o ritmo impecável dos nossos movimentos.",
     "avatar": "/avatars/blue-lock/achanpong.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1259,7 +1259,7 @@
     "quote": "Futebol é um trabalho profissional. Se você não tiver um plano de negócios para sua carreira, você quebra.",
     "avatar": "/avatars/blue-lock/marc-snuffy.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1339,7 +1339,7 @@
     "quote": "Mulheres e dinheiro! Eu jogo para ser o mais forte e curtir a vida como um verdadeiro monstro!",
     "avatar": "/avatars/blue-lock/adam-blake.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1420,7 +1420,7 @@
     "quote": "Eu não me importo com a política da JFU. Eu quero ver o Japão campeão do mundo!",
     "avatar": "/avatars/blue-lock/anri-teieri.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1461,7 +1461,7 @@
     "quote": "Que jogada espetacular no gramado do Blue Lock! O mundo inteiro está de olho!",
     "avatar": "/avatars/blue-lock/yasumori-hoichi.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1521,7 +1521,7 @@
     "quote": "Nossa velocidade e garra vão superar qualquer tática egoísta do Japão!",
     "avatar": "/avatars/blue-lock/godwin-kuso.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1663,7 +1663,7 @@
     "quote": "A zaga da França não tem espaço para hesitações ou falhas de concentração.",
     "avatar": "/avatars/blue-lock/gabin.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1725,7 +1725,7 @@
     "quote": "O estilo do Manshine City exige intensidade física máxima de ponta a ponta.",
     "avatar": "/avatars/blue-lock/arthur.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1746,7 +1746,7 @@
     "quote": "Trabalhar as transições rápidas é a chave para o ataque da Inglaterra.",
     "avatar": "/avatars/blue-lock/young.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1847,7 +1847,7 @@
     "quote": "Se ninguém te entender, Meguru, continue ouvindo o seu monstro e dance com a bola!",
     "avatar": "/avatars/blue-lock/yu-bachira.png",
     "combatType": "Esportista / Atleta",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {

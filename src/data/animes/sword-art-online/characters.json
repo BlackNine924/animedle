@@ -46,7 +46,7 @@
     ],
     "avatar": "/avatars/sword-art-online/asuna.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -69,7 +69,7 @@
     ],
     "avatar": "/avatars/sword-art-online/yui.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -117,7 +117,7 @@
     ],
     "avatar": "/avatars/sword-art-online/agil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -140,7 +140,7 @@
     ],
     "avatar": "/avatars/sword-art-online/silica.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -207,7 +207,7 @@
     ],
     "avatar": "/avatars/sword-art-online/sachi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -436,7 +436,7 @@
     ],
     "avatar": "/avatars/sword-art-online/leafa.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -480,7 +480,7 @@
     ],
     "avatar": "/avatars/sword-art-online/sakuya.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -502,7 +502,7 @@
     ],
     "avatar": "/avatars/sword-art-online/alicia-rue.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -524,7 +524,7 @@
     ],
     "avatar": "/avatars/sword-art-online/eugene.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -547,7 +547,7 @@
     ],
     "avatar": "/avatars/sword-art-online/oberon.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -571,7 +571,7 @@
     ],
     "avatar": "/avatars/sword-art-online/sinon.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -616,7 +616,7 @@
     ],
     "avatar": "/avatars/sword-art-online/spiegel.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -638,7 +638,7 @@
     ],
     "avatar": "/avatars/sword-art-online/yuuki.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -659,7 +659,7 @@
     ],
     "avatar": "/avatars/sword-art-online/siune.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -704,7 +704,7 @@
     ],
     "avatar": "/avatars/sword-art-online/yuna.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -729,7 +729,7 @@
     ],
     "avatar": "/avatars/sword-art-online/eugeo.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -753,7 +753,7 @@
     ],
     "avatar": "/avatars/sword-art-online/alice-zuberg.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -861,7 +861,7 @@
     ],
     "avatar": "/avatars/sword-art-online/sheyta.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -990,7 +990,7 @@
     ],
     "avatar": "/avatars/sword-art-online/sortiliena-serlut.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -1058,7 +1058,7 @@
     ],
     "avatar": "/avatars/sword-art-online/gabriel-miller.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1101,7 +1101,7 @@
     ],
     "avatar": "/avatars/sword-art-online/shasta.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -1122,7 +1122,7 @@
     ],
     "avatar": "/avatars/sword-art-online/seijirou-kikuoka.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   }

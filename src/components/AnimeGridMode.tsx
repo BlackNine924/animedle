@@ -64,6 +64,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [showCopied, setShowCopied] = useState(false);
   const [showAnswersModal, setShowAnswersModal] = useState(false);
+  const [showSurrenderConfirm, setShowSurrenderConfirm] = useState(false);
   const [showVictoryModal, setShowVictoryModal] = useState(false);
 
   // Salva no localStorage sempre que células ou tentativas mudam
@@ -163,12 +164,15 @@ const GridBoard: React.FC<GridBoardProps> = ({
       setShowAnswersModal(true);
       return;
     }
-    if (window.confirm('Tem certeza de que deseja desistir? Todas as respostas válidas de cada uma das 9 células serão reveladas!')) {
-      setIsSurrendered(true);
-      setGuessesLeft(0);
-      localStorage.setItem(`animedle_grid_surrendered_${gridSeed}`, 'true');
-      setShowAnswersModal(true);
-    }
+    setShowSurrenderConfirm(true);
+  };
+
+  const handleConfirmSurrender = () => {
+    setIsSurrendered(true);
+    setGuessesLeft(0);
+    localStorage.setItem(`animedle_grid_surrendered_${gridSeed}`, 'true');
+    setShowSurrenderConfirm(false);
+    setShowAnswersModal(true);
   };
 
   const handleCopyGrid = () => {
@@ -382,9 +386,38 @@ const GridBoard: React.FC<GridBoardProps> = ({
               ? '👑 Parabéns! Você completou a grade 9/9 perfeitamente!'
               : isSurrendered
               ? `🚩 Desistência registrada: ${score}/9 células preenchidas.`
-              : `💀 Esgotou os 9 palpites! Total: ${score}/9 acertos.`
+              : `Esgotou os 9 palpites! Total: ${score}/9 acertos.`
           }
         />
+      )}
+
+      {/* Modal de Confirmação de Desistência da Grade */}
+      {showSurrenderConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
+          <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-sm w-full p-6 text-center shadow-2xl">
+            <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mx-auto mb-4 text-amber-400">
+              <Flag size={28} />
+            </div>
+            <h3 className="text-lg font-black text-white mb-2">Desistir da Grade?</h3>
+            <p className="text-xs text-slate-400 mb-6 leading-relaxed">
+              Tem certeza de que deseja desistir? Todas as respostas válidas de cada uma das 9 células serão reveladas no Gabarito.
+            </p>
+            <div className="flex gap-2.5">
+              <button
+                onClick={() => setShowSurrenderConfirm(false)}
+                className="flex-1 py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs transition-colors"
+              >
+                Voltar
+              </button>
+              <button
+                onClick={handleConfirmSurrender}
+                className="flex-1 py-2.5 px-4 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs transition-colors shadow-lg shadow-rose-900/30"
+              >
+                Sim, Desistir
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       {/* Modal Gabarito com Todas as Respostas Possíveis por Célula */}
@@ -409,7 +442,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
               </button>
             </div>
 
-            <div className="overflow-y-auto space-y-3.5 py-4 pr-1">
+            <div className="overflow-y-auto space-y-3.5 py-4 pr-2 scrollbar-thin scrollbar-thumb-[#25334d] scrollbar-track-transparent">
               {cellAnswers.map((item, idx) => {
                 const r = Math.floor(idx / 3);
                 const c = idx % 3;

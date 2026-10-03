@@ -46,7 +46,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/adao.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -80,7 +80,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/sasaki-kojiro.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -165,7 +165,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/shiva.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -318,7 +318,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/apolo.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -352,7 +352,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/susanoo.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -386,7 +386,7 @@
     "status": "Viva",
     "avatar": "/avatars/record-of-ragnarok/goll.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -454,7 +454,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/ares.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -471,7 +471,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/nostradamus.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -505,7 +505,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/simo-hayha.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -522,7 +522,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/anubis.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -539,7 +539,7 @@
     "status": "Viva",
     "avatar": "/avatars/record-of-ragnarok/afrodite.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },

@@ -18,7 +18,8 @@ import {
   Check,
   Image as ImageIcon,
   Loader2,
-  X
+  X,
+  Flag
 } from 'lucide-react';
 import { unlockAchievement, logDailyActivity } from '../data/achievements';
 import { reportChallengeInconsistency } from '../services/firebase';
@@ -96,6 +97,8 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   const [roundCompleted, setRoundCompleted] = useState<boolean>(false);
   const [isWonRound, setIsWonRound] = useState<boolean>(false);
   const [isGameOver, setIsGameOver] = useState<boolean>(false);
+  const [isSurrendered, setIsSurrendered] = useState<boolean>(false);
+  const [showSurrenderConfirm, setShowSurrenderConfirm] = useState<boolean>(false);
 
   // Modais de Vitória e Derrota
   const [showResultModal, setShowResultModal] = useState<boolean>(false);
@@ -103,6 +106,23 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   const [roundGuesses, setRoundGuesses] = useState<
     { charId: string; charName: string; isCorrect: boolean }[]
   >([]);
+
+  // Sincronização estrita com estatísticas globais do jogador (played, wins, streak, recorde)
+  const updateGlobalStats = (won: boolean) => {
+    try {
+      const raw = localStorage.getItem('animedle_stats');
+      const prev = raw ? JSON.parse(raw) : { played: 0, wins: 0, currentStreak: 0, maxStreak: 0, guessDistribution: {} };
+      const played = (prev.played || 0) + 1;
+      const wins = won ? (prev.wins || 0) + 1 : (prev.wins || 0);
+      const currentStreak = won ? (prev.currentStreak || 0) + 1 : 0;
+      const maxStreak = Math.max(prev.maxStreak || 0, currentStreak);
+      const updated = { ...prev, played, wins, currentStreak, maxStreak };
+      localStorage.setItem('animedle_stats', JSON.stringify(updated));
+      return updated;
+    } catch (e) {
+      return undefined;
+    }
+  };
 
   // Reportar inconsistência e compartilhamento
   const [showFeedbackModal, setShowFeedbackModal] = useState<boolean>(false);
@@ -208,6 +228,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
       logDailyActivity();
       unlockAchievement('exclusive_master');
+      updateGlobalStats(true);
 
       const currentMult = Math.max(1, combo + 1);
       const earned = roundBaseScore * currentMult;
@@ -226,8 +247,20 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         setRoundCompleted(true);
         setIsGameOver(true);
         setShowResultModal(true);
+        updateGlobalStats(false);
       }
     }
+  };
+
+  // Confirmação de Desistência
+  const handleConfirmSurrender = () => {
+    setIsSurrendered(true);
+    setIsWonRound(false);
+    setRoundCompleted(true);
+    setIsGameOver(true);
+    setShowSurrenderConfirm(false);
+    setShowResultModal(true);
+    updateGlobalStats(false);
   };
 
   const [recentIndices, setRecentIndices] = useState<number[]>([dailyIndex]);
@@ -246,11 +279,11 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     setFeedbackDetails('');
 
     // Fila anti-repetição: não repete desafios recentes
-    const pool = challenges.map((_, idx) => idx);
+    const pool = challenges.map((_: any, idx: number) => idx);
     const available = pool.filter(
-      (idx) => !recentIndices.slice(-Math.min(12, Math.max(1, challenges.length - 1))).includes(idx)
+      (idx: number) => !recentIndices.slice(-Math.min(12, Math.max(1, challenges.length - 1))).includes(idx)
     );
-    const candidates = available.length > 0 ? available : pool.filter((idx) => idx !== currentIndex);
+    const candidates = available.length > 0 ? available : pool.filter((idx: number) => idx !== currentIndex);
     const nextIdx =
       candidates.length > 0
         ? candidates[Math.floor(Math.random() * candidates.length)]
@@ -438,9 +471,9 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
                     {!isRevealed && !roundCompleted && (
                       <button
                         onClick={() => handleRevealClue(idx)}
-                        className="flex items-center gap-1 text-[10px] font-extrabold text-amber-400 hover:text-amber-300 transition-colors bg-amber-500/10 hover:bg-amber-500/20 px-2 py-0.5 rounded-lg border border-amber-500/30"
+                        className="flex items-center gap-1 text-[10px] font-extrabold text-amber-400 hover:text-amber-300 transition-colors bg-amber-500/10 hover:bg-amber-500/20 px-2.5 py-0.5 rounded-lg border border-amber-500/30"
                       >
-                        <Eye size={11} /> Revelar (-15 pts)
+                        <Eye size={11} /> Revelar
                       </button>
                     )}
                   </div>
@@ -495,6 +528,18 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
                 disabled={roundCompleted || isGameOver}
                 themeColor={themeColor}
               />
+
+              {/* Botão de Desistir do Modo Exclusivo */}
+              <div className="mt-3 flex justify-end">
+                <button
+                  type="button"
+                  onClick={() => setShowSurrenderConfirm(true)}
+                  className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-slate-200 border border-slate-700/60 text-xs font-bold transition-all"
+                >
+                  <Flag size={13} className="text-amber-400" />
+                  <span>Desistir</span>
+                </button>
+              </div>
             </div>
           )}
 
@@ -528,12 +573,42 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         </div>
       )}
 
+      {/* Modal de Confirmação de Desistência do Modo Exclusivo */}
+      {showSurrenderConfirm && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
+          <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-sm w-full p-6 text-center shadow-2xl">
+            <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mx-auto mb-4 text-amber-400">
+              <Flag size={28} />
+            </div>
+            <h3 className="text-lg font-black text-white mb-2">Desistir da Rodada?</h3>
+            <p className="text-xs text-slate-400 mb-6 leading-relaxed">
+              Tem certeza de que deseja desistir deste desafio? A resposta correta será revelada.
+            </p>
+            <div className="flex gap-2.5">
+              <button
+                onClick={() => setShowSurrenderConfirm(false)}
+                className="flex-1 py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs transition-colors"
+              >
+                Voltar
+              </button>
+              <button
+                onClick={handleConfirmSurrender}
+                className="flex-1 py-2.5 px-4 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold text-xs transition-colors shadow-lg shadow-rose-900/30"
+              >
+                Sim, Desistir
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* 5. MODAL DE VITÓRIA / DERROTA UNIVERSAL (Idêntico ao modo Clássico) */}
       {showResultModal && (resolvedCharacter || targetCharacter) && (
         <VictoryModal
           targetCharacter={resolvedCharacter || targetCharacter!}
           totalGuesses={roundGuesses.length}
-          isLost={!isWonRound && isGameOver}
+          isLost={!isWonRound && isGameOver && !isSurrendered}
+          isSurrendered={isSurrendered}
           onClose={() => setShowResultModal(false)}
           onNext={
             isEndless
@@ -550,10 +625,13 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
           customSubtitle={
             isWonRound
               ? `✓ Acertou com ${lives}/3 vidas restantes! (+${roundBaseScore} pts)`
+              : isSurrendered
+              ? '🚩 Desistência registrada.'
               : undefined
           }
         />
       )}
+
 
       {/* 7. Modal de Reportar Inconsistência conectado ao Firebase RTDB */}
       {showFeedbackModal && (

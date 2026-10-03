@@ -150,7 +150,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
         </div>
 
         <h2 className="text-2xl font-black text-[#F5F7FF]">
-          {isLost ? '💀 Derrota!' : isSurrendered ? 'Você Desistiu!' : 'Excelente Trabalho!'}
+          {isLost ? 'Derrota!' : isSurrendered ? 'Você Desistiu!' : 'Excelente Trabalho!'}
         </h2>
         
         {/* Destaque de Quantidade de Tentativas Utilizadas ao Acertar */}
@@ -174,30 +174,32 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
           </p>
         )}
 
-        {/* Card do Personagem Revelado */}
-        <div className="my-5 p-4 bg-[#111a2d] border border-[#202b43] rounded-2xl flex items-center gap-4 text-left">
-          <div className="w-16 h-16 rounded-xl bg-[#0d1426] overflow-hidden border border-[#202b43] flex-shrink-0">
-            {targetCharacter.avatar ? (
-              <img src={targetCharacter.avatar} alt={targetCharacter.name} className="w-full h-full object-cover" />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center font-bold text-white text-xl">
-                {targetCharacter.name[0]}
-              </div>
-            )}
+        {/* Card do Personagem Revelado (Oculto no Grid Mode pois a grade possui 9 personagens) */}
+        {currentMode !== 'grid' && (
+          <div className="my-5 p-4 bg-[#111a2d] border border-[#202b43] rounded-2xl flex items-center gap-4 text-left">
+            <div className="w-16 h-16 rounded-xl bg-[#0d1426] overflow-hidden border border-[#202b43] flex-shrink-0">
+              {targetCharacter.avatar ? (
+                <img src={targetCharacter.avatar} alt={targetCharacter.name} className="w-full h-full object-cover" />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center font-bold text-white text-xl">
+                  {targetCharacter.name[0]}
+                </div>
+              )}
+            </div>
+            <div className="flex-1 min-w-0">
+              <h3 style={{ color: themeColor }} className="font-extrabold text-lg truncate">{targetCharacter.name}</h3>
+              <p className="text-xs text-slate-300 font-medium truncate">
+                {targetCharacter.species || ''} {targetCharacter.affiliation ? `• ${Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation}` : targetCharacter.origin ? `• ${targetCharacter.origin}` : ''}
+              </p>
+              <p className="text-[11px] text-slate-400 italic mt-0.5 truncate">
+                "{targetCharacter.quote || targetCharacter.styleOrPower || ''}"
+              </p>
+            </div>
           </div>
-          <div className="flex-1 min-w-0">
-            <h3 style={{ color: themeColor }} className="font-extrabold text-lg truncate">{targetCharacter.name}</h3>
-            <p className="text-xs text-slate-300 font-medium truncate">
-              {targetCharacter.species || ''} {targetCharacter.affiliation ? `• ${Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation}` : targetCharacter.origin ? `• ${targetCharacter.origin}` : ''}
-            </p>
-            <p className="text-[11px] text-slate-400 italic mt-0.5 truncate">
-              "{targetCharacter.quote || targetCharacter.styleOrPower || ''}"
-            </p>
-          </div>
-        </div>
+        )}
 
-        {/* Explicação contextual lore se fornecida */}
-        {contextExplanation && (
+        {/* Explicação contextual lore se fornecida (oculta no modo exclusivo) */}
+        {contextExplanation && currentMode !== 'exclusive' && (
           <p className="text-xs text-slate-300 leading-relaxed text-left bg-[#101729] p-3 rounded-xl border border-[#1d273f] my-3">
             {contextExplanation}
           </p>

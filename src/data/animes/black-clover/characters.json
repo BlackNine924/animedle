@@ -21,7 +21,7 @@
     ],
     "avatar": "/avatars/black-clover/asta.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Cinza / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -46,7 +46,7 @@
     ],
     "avatar": "/avatars/black-clover/yami-sukehiro.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -71,7 +71,7 @@
     ],
     "avatar": "/avatars/black-clover/noelle-silva.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -97,7 +97,7 @@
     ],
     "avatar": "/avatars/black-clover/magna-swing.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -122,7 +122,7 @@
     ],
     "avatar": "/avatars/black-clover/luck-voltia.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -147,7 +147,7 @@
     ],
     "avatar": "/avatars/black-clover/finral-roulacase.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -197,7 +197,7 @@
     ],
     "avatar": "/avatars/black-clover/charmy-pappitson.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -222,7 +222,7 @@
     ],
     "avatar": "/avatars/black-clover/gauche-adlai.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -247,7 +247,7 @@
     ],
     "avatar": "/avatars/black-clover/grey.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -272,7 +272,7 @@
     ],
     "avatar": "/avatars/black-clover/gordon-agrippa.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -347,7 +347,7 @@
     ],
     "avatar": "/avatars/black-clover/secre-swallowtail.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -447,7 +447,7 @@
     ],
     "avatar": "/avatars/black-clover/yuno-grinberryall.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -522,7 +522,7 @@
     ],
     "avatar": "/avatars/black-clover/mereoleona-vermillion.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -697,7 +697,7 @@
     ],
     "avatar": "/avatars/black-clover/gueldre-poizot.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -722,7 +722,7 @@
     ],
     "avatar": "/avatars/black-clover/mimosa-vermillion.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -797,7 +797,7 @@
     ],
     "avatar": "/avatars/black-clover/solid-silva.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -847,7 +847,7 @@
     ],
     "avatar": "/avatars/black-clover/sol-marron.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -871,7 +871,7 @@
     ],
     "avatar": "/avatars/black-clover/sekke-bronzazza.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -971,7 +971,7 @@
     ],
     "avatar": "/avatars/black-clover/alecdora-sandler.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1046,7 +1046,7 @@
     ],
     "avatar": "/avatars/black-clover/shiren-tium.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1145,7 +1145,7 @@
     ],
     "avatar": "/avatars/black-clover/augustus-kira-clover-xiii.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1264,7 +1264,7 @@
     ],
     "avatar": "/avatars/black-clover/marie-adlai.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1288,7 +1288,7 @@
     ],
     "avatar": "/avatars/black-clover/marx-francois.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1337,7 +1337,7 @@
     ],
     "avatar": "/avatars/black-clover/acier-silva.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1654,7 +1654,7 @@
     ],
     "avatar": "/avatars/black-clover/sally.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1918,7 +1918,7 @@
     ],
     "avatar": "/avatars/black-clover/gifso.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2014,7 +2014,7 @@
     ],
     "avatar": "/avatars/black-clover/mars.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2136,7 +2136,7 @@
     ],
     "avatar": "/avatars/black-clover/mariella.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2184,7 +2184,7 @@
     ],
     "avatar": "/avatars/black-clover/gadjah.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -2256,7 +2256,7 @@
     ],
     "avatar": "/avatars/black-clover/salamander.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2304,7 +2304,7 @@
     ],
     "avatar": "/avatars/black-clover/sarado.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2352,7 +2352,7 @@
     ],
     "avatar": "/avatars/black-clover/smurik.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2520,7 +2520,7 @@
     ],
     "avatar": "/avatars/black-clover/megicula.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2711,7 +2711,7 @@
     ],
     "avatar": "/avatars/black-clover/morgen-faust.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2736,7 +2736,7 @@
     ],
     "avatar": "/avatars/black-clover/moris-libardirt.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2808,7 +2808,7 @@
     ],
     "avatar": "/avatars/black-clover/svenkin-gatard.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2904,7 +2904,7 @@
     ],
     "avatar": "/avatars/black-clover/yosuga-musyogatake.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
