@@ -1,28 +1,29 @@
-const q = `
-query {
-  Page(page: 1, perPage: 10) {
-    characters(search: "Gamo-chan") {
-      id
-      name { full }
-      media(type: ANIME) {
-        nodes {
-          title { romaji english }
-        }
-      }
-      image { large }
+import sharp from 'sharp';
+
+async function testAniList() {
+  const query = `query {
+    frieren: Character(search: "Frieren") { id name { full } image { large } }
+    fern: Character(search: "Fern") { id name { full } image { large } }
+    stark: Character(search: "Stark") { id name { full } image { large } }
+    kaneki: Character(search: "Ken Kaneki") { id name { full } image { large } }
+    risa: Character(search: "Risa Koizumi") { id name { full } image { large } }
+  }`;
+  const res = await fetch('https://graphql.anilist.co', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query })
+  });
+  const data = await res.json();
+  console.log(data);
+  for (const k of Object.keys(data.data || {})) {
+    const imgUrl = data.data[k]?.image?.large;
+    if (imgUrl) {
+      const r = await fetch(imgUrl);
+      const buf = Buffer.from(await r.arrayBuffer());
+      const s = await sharp(buf).stats();
+      const meta = await sharp(buf).metadata();
+      console.log(k, data.data[k].name.full, 'opaque:', s.isOpaque, 'size:', meta.width, meta.height, 'url:', imgUrl);
     }
   }
 }
-`;
-
-fetch('https://graphql.anilist.co', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ query: q })
-}).then(r => r.json()).then(d => {
-  const chars = d?.data?.Page?.characters || [];
-  for (const c of chars) {
-    const titles = c.media?.nodes?.map(n => n.title.romaji || n.title.english).join(', ');
-    console.log(c.id, c.name.full, '| Medias:', titles, '| Image:', c.image?.large);
-  }
-});
+testAniList();

@@ -2538,5 +2538,131 @@
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Guardião da Mansão / O Cão do Zodíaco",
     "species": "Humano"
+  },
+  {
+    "id": "rintaro-tsumugi",
+    "name": "Rintaro Tsumugi",
+    "gender": "Masculino",
+    "origin": "The Fragrant Flower Blooms With Dignity (Kaoru Hana wa Rin to Saku)",
+    "role": "Protagonista Masculino",
+    "archetype": "Deredere / Gigante Gentil",
+    "status": "Namorando",
+    "debutArc": "Início do Ensino Médio (Chidori & Kikyo)",
+    "quote": "Eu não quero que ninguém olhe para mim e tenha medo... Só quero fazer as pessoas felizes com os doces da nossa família!",
+    "techniques": [
+      "Confeitaria Artesanal na Padaria Tsumugi",
+      "Empatia e Compreensão Profunda",
+      "Proteção Protetora sem Violência"
+    ],
+    "avatar": "/avatars/romance/rintaro-tsumugi.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Protagonista Masculino",
+    "species": "Humano"
+  },
+  {
+    "id": "kaoruko-waguri",
+    "name": "Kaoruko Waguri",
+    "gender": "Feminino",
+    "origin": "The Fragrant Flower Blooms With Dignity (Kaoru Hana wa Rin to Saku)",
+    "role": "Heroína Principal",
+    "archetype": "Deredere / Amável e Voraz por Doces",
+    "status": "Namorando",
+    "debutArc": "Início do Ensino Médio (Chidori & Kikyo)",
+    "quote": "Seu bolo é o mais delicioso de todo o mundo, Rintaro-kun! O sorriso que você dá quando alguém come seu doce é o mais lindo que já vi!",
+    "techniques": [
+      "Apreciação Genuína de Confeitaria",
+      "Sorriso Radiante Inabalável",
+      "Quebra de Preconceitos entre Escolas"
+    ],
+    "avatar": "/avatars/romance/kaoruko-waguri.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Heroína Principal",
+    "species": "Humano"
+  },
+  {
+    "id": "subaru-hoshina",
+    "name": "Subaru Hoshina",
+    "gender": "Feminino",
+    "origin": "The Fragrant Flower Blooms With Dignity (Kaoru Hana wa Rin to Saku)",
+    "role": "Melhor Amiga / Aliada Protetora",
+    "archetype": "Kuudere / Protetora Fiel",
+    "status": "Solteiro",
+    "debutArc": "Início do Ensino Médio (Chidori & Kikyo)",
+    "quote": "A Kaoruko é preciosa demais para ser magoada. Se você for machucá-la, eu nunca vou te perdoar... Mas vi como você cuida dela.",
+    "techniques": [
+      "Escudo Emocional Protetor",
+      "Fidelidade e Lealdade Incondicional",
+      "Superação do Medo Masculino"
+    ],
+    "avatar": "/avatars/romance/subaru-hoshina.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
+  },
+  {
+    "id": "shohei-usami",
+    "name": "Shohei Usami",
+    "gender": "Masculino",
+    "origin": "The Fragrant Flower Blooms With Dignity (Kaoru Hana wa Rin to Saku)",
+    "role": "Amigo de Confiança",
+    "archetype": "Genki / Animador do Grupo",
+    "status": "Solteiro",
+    "debutArc": "Início do Ensino Médio (Chidori & Kikyo)",
+    "quote": "Nós somos os quatro mosqueteiros da Chidori! Se um de nós está sorrindo, todos nós estamos prontos para comemorar!",
+    "techniques": [
+      "Energia Contagiante de Grupo",
+      "Lealdade aos Irmãos da Chidori",
+      "Espírito Descontraído e Positivo"
+    ],
+    "avatar": "/avatars/romance/shohei-usami.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Ruivo / Vermelho",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
+  },
+  {
+    "id": "saku-natsusawa",
+    "name": "Saku Natsusawa",
+    "gender": "Masculino",
+    "origin": "The Fragrant Flower Blooms With Dignity (Kaoru Hana wa Rin to Saku)",
+    "role": "Amigo de Confiança / Cérebro",
+    "archetype": "Dandere / Estudioso Silencioso",
+    "status": "Solteiro",
+    "debutArc": "Início do Ensino Médio (Chidori & Kikyo)",
+    "quote": "Eu não confio fácil nas pessoas, mas o Rintaro é o cara mais sincero que conheço. Se ele acredita em você, eu também vou dar uma chance.",
+    "techniques": [
+      "Inteligência Acadêmica Exemplar",
+      "Raciocínio Lógico Protetor",
+      "Companheirismo Silencioso"
+    ],
+    "avatar": "/avatars/romance/saku-natsusawa.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
+  },
+  {
+    "id": "ayato-yorita",
+    "name": "Ayato Yorita",
+    "gender": "Masculino",
+    "origin": "The Fragrant Flower Blooms With Dignity (Kaoru Hana wa Rin to Saku)",
+    "role": "Amigo de Confiança / Pacificador",
+    "archetype": "Gentil / Observador Atento",
+    "status": "Solteiro",
+    "debutArc": "Início do Ensino Médio (Chidori & Kikyo)",
+    "quote": "Às vezes a melhor coisa que podemos fazer por um amigo é apenas estar lá, sem julgar, escutando de coração aberto.",
+    "techniques": [
+      "Observação Sensível dos Sentimentos",
+      "Mediação e Harmonia de Conflitos",
+      "Apoio Moral Inabalável"
+    ],
+    "avatar": "/avatars/romance/ayato-yorita.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe",
+    "species": "Humano"
   }
 ]

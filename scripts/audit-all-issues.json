@@ -1,0 +1,2834 @@
+{
+  "akame-ga-kill": [
+    {
+      "id": "champ",
+      "name": "Champ",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "enshin",
+      "name": "Enshin",
+      "type": "greyscale_manga"
+    }
+  ],
+  "attack-on-titan": [
+    {
+      "id": "jean-kirstein",
+      "name": "Jean Kirstein",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "marco-bott",
+      "name": "Marco Bott",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nac-tias",
+      "name": "Nac Tias",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "mylius-zeramuski",
+      "name": "Mylius Zeramuski",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "oluo-bozado",
+      "name": "Oluo Bozado",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "eld-jinn",
+      "name": "Eld Jinn",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "traute-caven",
+      "name": "Traute Caven",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "karina-braun",
+      "name": "Karina Braun",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "griez",
+      "name": "Griez",
+      "type": "greyscale_manga"
+    }
+  ],
+  "berserk": [
+    {
+      "id": "roderick",
+      "name": "Roderick de Staufen",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "magnifico",
+      "name": "Magnifico de Vandimion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gaston",
+      "name": "Gaston",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gambino",
+      "name": "Gambino",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "shisu",
+      "name": "Shisu",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "donovan",
+      "name": "Donovan",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "bazuso",
+      "name": "Bazuso",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rei-de-midland",
+      "name": "Rei de Midland",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "julius",
+      "name": "Julius",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "adonis",
+      "name": "Adonis",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rainha-de-midland",
+      "name": "Rainha de Midland",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "laban",
+      "name": "General Laban",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "owen",
+      "name": "General Owen",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gedfring",
+      "name": "Gedfring",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hanarr",
+      "name": "Hanarr (Mestre Ferreiro dos Anões)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "void",
+      "name": "Void",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "slan",
+      "name": "Slan",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ubik",
+      "name": "Ubik",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "conrad",
+      "name": "Conrad",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "wyald",
+      "name": "Wyald",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "snake-baron",
+      "name": "Barão Serpente",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "theresia",
+      "name": "Theresia",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jill",
+      "name": "Jill",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "egg-of-the-perfect-world",
+      "name": "O Apóstolo Behelit",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "mozgus",
+      "name": "Inquisidor Mozgus",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jerome",
+      "name": "Jerome",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "great-goat",
+      "name": "O Grande Bode",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tapasa",
+      "name": "Tapasa",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "boscogn",
+      "name": "General Boscogn",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gennon",
+      "name": "Lorde Gennon",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "chitch",
+      "name": "Chitch",
+      "type": "greyscale_manga"
+    }
+  ],
+  "black-clover": [
+    {
+      "id": "yami-sukehiro",
+      "name": "Yami Sukehiro",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "magna-swing",
+      "name": "Magna Swing",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "luck-voltia",
+      "name": "Luck Voltia",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "finral-roulacase",
+      "name": "Finral Roulacase",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "vanessa-enoteca",
+      "name": "Vanessa Enoteca",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "charmy-pappitson",
+      "name": "Charmy Pappitson",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gauche-adlai",
+      "name": "Gauche Adlai",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "grey",
+      "name": "Grey",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gordon-agrippa",
+      "name": "Gordon Agrippa",
+      "type": "transparent"
+    },
+    {
+      "id": "zora-ideale",
+      "name": "Zora Ideale",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "julius-novachrono",
+      "name": "Julius Novachrono",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "william-vangeance",
+      "name": "William Vangeance",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nozel-silva",
+      "name": "Nozel Silva",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "fuegoleon-vermillion",
+      "name": "Fuegoleon Vermillion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "mereoleona-vermillion",
+      "name": "Mereoleona Vermillion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "leopold-vermillion",
+      "name": "Leopold Vermillion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "charlotte-roselei",
+      "name": "Charlotte Roselei",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jack-o-estripador",
+      "name": "Jack, o Estripador",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "dorothy-unsworth",
+      "name": "Dorothy Unsworth",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rill-boismortier",
+      "name": "Rill Boismortier",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kaiser-granvorka",
+      "name": "Kaiser Granvorka",
+      "type": "transparent"
+    },
+    {
+      "id": "gueldre-poizot",
+      "name": "Gueldre Poizot",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "klaus-lunettes",
+      "name": "Klaus Lunettes",
+      "type": "transparent"
+    },
+    {
+      "id": "langris-vaude",
+      "name": "Langris Vaude",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "solid-silva",
+      "name": "Solid Silva",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nebra-silva",
+      "name": "Nebra Silva",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "sekke-bronzazza",
+      "name": "Sekke Bronzazza",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kirsch-vermillion",
+      "name": "Kirsch Vermillion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "augustus-kira-clover-xiii",
+      "name": "Augustus Kira Clover XIII",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "orsi-orfai",
+      "name": "Padre Orsi Orfai",
+      "type": "transparent"
+    },
+    {
+      "id": "marx-francois",
+      "name": "Marx Francois",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "owen",
+      "name": "Owen",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "acier-silva",
+      "name": "Acier Silva",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "finesse-calmreich",
+      "name": "Finesse Calmreich",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "revchi-salik",
+      "name": "Revchi Salik",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "patry",
+      "name": "Patry (Patolli)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "zagred",
+      "name": "Zagred",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rades-spirito",
+      "name": "Rades Spirito",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "sally",
+      "name": "Sally",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "charla",
+      "name": "Charla",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gifso",
+      "name": "Gifso",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kiato",
+      "name": "Kiato",
+      "type": "transparent"
+    },
+    {
+      "id": "ladros",
+      "name": "Ladros",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lolopechka",
+      "name": "Princesa Lolopechka",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "undine",
+      "name": "Undine (Ondine)",
+      "type": "transparent"
+    },
+    {
+      "id": "bell",
+      "name": "Bell (Sylph)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "dryad",
+      "name": "Dryad",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "potrof",
+      "name": "Potrof",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "floga",
+      "name": "Floga",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "dante-zogratis",
+      "name": "Dante Zogratis",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "zenon-zogratis",
+      "name": "Zenon Zogratis",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "vanica-zogratis",
+      "name": "Vanica Zogratis",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lucius-zogratis",
+      "name": "Lucius Zogratis",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lucifero",
+      "name": "Lucifero",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "megicula",
+      "name": "Megicula",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "beelzebub",
+      "name": "Beelzebub",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "adrammelech",
+      "name": "Adrammelech",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "naamah",
+      "name": "Naamah",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lilith",
+      "name": "Lilith",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lucifugus",
+      "name": "Lucifugus",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "liebe",
+      "name": "Liebe",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "licita",
+      "name": "Licita",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "moris-libardirt",
+      "name": "Moris Libardirt",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ralph-niaflem",
+      "name": "Ralph Niaflem",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ciel-grinberryall",
+      "name": "Ciel Grinberryall",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "svenkin-gatard",
+      "name": "Svenkin Gatard",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "halbet-chevour",
+      "name": "Halbet Chevour",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "yosuga-musyogatake",
+      "name": "Mushogatake Yosuga",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "komari-imari",
+      "name": "Komari Imari",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "daizaemon-ooka",
+      "name": "Daizaemon Ōoka",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jozou-hanegatsuji",
+      "name": "Jozou Hanegatsuji",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ginnojomorifuyu-kezoukaku",
+      "name": "Kezoukaku",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "fujio-tenmanyashiki",
+      "name": "Fujio Tenmanyashiki",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "fumito-mikuriya",
+      "name": "Fumito Mikuriya",
+      "type": "greyscale_manga"
+    }
+  ],
+  "bleach": [
+    {
+      "id": "chojiro-sasakibe",
+      "name": "Chojiro Sasakibe",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rangiku-matsumoto",
+      "name": "Rangiku Matsumoto",
+      "type": "transparent"
+    },
+    {
+      "id": "pernida-parnkgjas",
+      "name": "Pernida Parnkgjas",
+      "type": "transparent"
+    },
+    {
+      "id": "mask-de-masculine",
+      "name": "Mask De Masculine",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "cirucci-sanderwicci",
+      "name": "Cirucci Sanderwicci",
+      "type": "greyscale_manga"
+    }
+  ],
+  "blue-lock": [
+    {
+      "id": "yo-hiori",
+      "name": "Yo Hiori",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ranze-kurona",
+      "name": "Ranze Kurona",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jin-kiyora",
+      "name": "Jin Kiyora",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nijiro-nanase",
+      "name": "Nijiro Nanase",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gurimu-igarashi",
+      "name": "Gurimu Igarashi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "shuto-sendo",
+      "name": "Shuto Sendo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "okuhito-iemon",
+      "name": "Okuhito Iemon",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hibiki-okawa",
+      "name": "Hibiki Okawa",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "alexis-ness",
+      "name": "Alexis Ness",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "agi",
+      "name": "Agi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "benedict-grim",
+      "name": "Benedict Grim",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "erik-gesner",
+      "name": "Erik Gesner",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ignacio-lara",
+      "name": "Ignacio Lara",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "teddy-knight",
+      "name": "Teddy Knight",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lockhart",
+      "name": "Lockhart",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "coach-fox",
+      "name": "Coach Fox",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "achanpong",
+      "name": "Achanpong",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rooke",
+      "name": "Rooke",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "julien-loki",
+      "name": "Julien Loki",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "pablo-cavasoz",
+      "name": "Pablo Cavasoz",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hirotoshi-buratsuta",
+      "name": "Hirotoshi Buratsuta",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "yasumori-hoichi",
+      "name": "Yasumori Hoichi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ryo-nameoka",
+      "name": "Ryo Nameoka",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "innocent-onazi",
+      "name": "Innocent Onazi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "godwin-kuso",
+      "name": "Godwin Kuso",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "oboabona",
+      "name": "Oboabona",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "bello",
+      "name": "Bello",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "coach-gambari",
+      "name": "Coach Gambari",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "vivian-hugo",
+      "name": "Vivian Hugo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "camus",
+      "name": "Camus",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "bats",
+      "name": "Bats",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gabin",
+      "name": "Gabin",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "chapa",
+      "name": "Chapa",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "renoir",
+      "name": "Renoir",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "arthur",
+      "name": "Arthur",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "young",
+      "name": "Young",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "niang",
+      "name": "Niang",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "busby",
+      "name": "Busby",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ken-shimura",
+      "name": "Ken Andatte Shimura",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "beita-tsuru",
+      "name": "Beita Tsuru",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "yu-bachira",
+      "name": "Yu Bachira",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "issei-isagi",
+      "name": "Issei Isagi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "iyo-isagi",
+      "name": "Iyo Isagi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tomoya-tada",
+      "name": "Tomonori Tada",
+      "type": "greyscale_manga"
+    }
+  ],
+  "chainsaw-man": [
+    {
+      "id": "nayuta",
+      "name": "Nayuta",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "future-devil",
+      "name": "Future Devil (Demônio do Futuro)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "barem-bridge",
+      "name": "Barem Bridge",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "spear-hybrid",
+      "name": "Spear Hybrid (Híbrido da Lança)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "whip-hybrid",
+      "name": "Whip Hybrid (Híbrida do Chicote)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tolka",
+      "name": "Tolka",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "pingtsi",
+      "name": "Pingtsi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "cosmo",
+      "name": "Cosmo (Cosmos Fiend)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "long",
+      "name": "Long",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tsugihagi",
+      "name": "Tsugihagi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "aldo",
+      "name": "Aldo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "joey",
+      "name": "Joey",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kusakabe",
+      "name": "Kusakabe",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tamaoki",
+      "name": "Tamaoki",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nakamura",
+      "name": "Nakamura",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "subaru",
+      "name": "Subaru",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "darkness-devil",
+      "name": "Darkness Devil (Demônio da Escuridão)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "falling-devil",
+      "name": "Falling Devil (Demônio da Queda)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "aging-devil",
+      "name": "Aging Devil (Demônio do Envelhecimento)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gun-devil",
+      "name": "Gun Devil (Demônio da Arma de Fogo)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hell-devil",
+      "name": "Hell Devil (Demônio do Inferno)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "doll-devil",
+      "name": "Doll Devil (Demônio dos Bonecos)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "fire-devil",
+      "name": "Fire Devil (Demônio do Fogo)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "punishment-devil",
+      "name": "Punishment Devil (Demônio da Punição)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "justice-devil",
+      "name": "Justice Devil (Demônio da Justiça)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "cockroach-devil",
+      "name": "Cockroach Devil (Demônio Barata)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "muscle-devil",
+      "name": "Muscle Devil (Demônio Músculo)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "octopus-devil",
+      "name": "Octopus Devil (Demônio Polvo)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "stone-devil",
+      "name": "Stone Devil (Demônio da Pedra)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "mantis-devil",
+      "name": "Mantis Devil (Demônio Louva-a-Deus)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ear-devil",
+      "name": "Ear Devil (Demônio Orelha)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "mouth-devil",
+      "name": "Mouth Devil (Demônio Boca)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "centipede-devil",
+      "name": "Centipede Devil (Demônio Centopeia)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "locust-devil",
+      "name": "Locust Devil (Demônio Gafanhoto)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "frog-devil",
+      "name": "Frog Devil (Demônio Sapo)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "pillbug-devil",
+      "name": "Pillbug Devil (Demônio Tatu-Bola)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "stag-beetle-devil",
+      "name": "Stag Beetle Devil (Demônio Besouro-Rinoceronte)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "fake-chainsaw-man",
+      "name": "Fake Chainsaw Man (Falso Chainsaw Man)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "haruka-iseumi",
+      "name": "Haruka Iseumi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nobana-higashiyama",
+      "name": "Nobana Higashiyama",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "seigi-akoku",
+      "name": "Seigi Akoku",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "bucky",
+      "name": "Bucky (Demônio da Galinha)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "class-president",
+      "name": "Class President (Presidente da Turma)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tanaka",
+      "name": "Tanaka (Professor Tanaka)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nail-fiend",
+      "name": "Nail Fiend (Possesso do Prego)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "guillotine-devil",
+      "name": "Guillotine Devil (Guilly)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "dominion",
+      "name": "Dominion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "seraphim",
+      "name": "Seraphim",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "virtue",
+      "name": "Virtue",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "sato",
+      "name": "Sato",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "furio",
+      "name": "Furio",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kentaro-ishita",
+      "name": "Kentaro Ishita",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hadaji-sakagami",
+      "name": "Hadaji Sakagami",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "takagi",
+      "name": "Takagi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tadashi-hasegawa",
+      "name": "Tadashi Hasegawa",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "yuki-tomoda",
+      "name": "Yuki Tomoda",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "miki-takanashi",
+      "name": "Miki Takanashi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "minami-nakano",
+      "name": "Minami Nakano",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "shin-toma",
+      "name": "Shin Toma",
+      "type": "greyscale_manga"
+    }
+  ],
+  "dandadan": [
+    {
+      "id": "momo-ayase",
+      "name": "Momo Ayase",
+      "type": "transparent"
+    },
+    {
+      "id": "ken-takakura",
+      "name": "Ken Takakura (Okarun)",
+      "type": "transparent"
+    },
+    {
+      "id": "seiko-ayase",
+      "name": "Seiko Ayase (Santa Dodoria)",
+      "type": "transparent"
+    },
+    {
+      "id": "turbo-vovó",
+      "name": "Turbo Vovó",
+      "type": "transparent"
+    },
+    {
+      "id": "aira-shiratori",
+      "name": "Aira Shiratori",
+      "type": "transparent"
+    },
+    {
+      "id": "jin-enjoji",
+      "name": "Jin Enjoji (Jiji)",
+      "type": "transparent"
+    },
+    {
+      "id": "olho-maligno",
+      "name": "Olho Maligno",
+      "type": "transparent"
+    },
+    {
+      "id": "kinta-sakata",
+      "name": "Kinta Sakata",
+      "type": "transparent"
+    },
+    {
+      "id": "unji-zuma",
+      "name": "Unji Zuma",
+      "type": "transparent"
+    },
+    {
+      "id": "daiki-hasegawa",
+      "name": "Daiki Hasegawa (Bega)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "manjiro",
+      "name": "Manjiro",
+      "type": "transparent"
+    },
+    {
+      "id": "chiquitita",
+      "name": "Chiquitita",
+      "type": "transparent"
+    },
+    {
+      "id": "pejin",
+      "name": "Mr. Mantis Shrimp (Pejin)",
+      "type": "transparent"
+    },
+    {
+      "id": "taro",
+      "name": "Taro",
+      "type": "transparent"
+    },
+    {
+      "id": "hana",
+      "name": "Hana",
+      "type": "transparent"
+    },
+    {
+      "id": "banga",
+      "name": "Banga",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hakuto",
+      "name": "Hakuto",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "suda-ko",
+      "name": "Suda Ko",
+      "type": "transparent"
+    },
+    {
+      "id": "futa-zuma",
+      "name": "Futa Zuma",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "koki-yukishiro",
+      "name": "Koki Yukishiro",
+      "type": "transparent"
+    },
+    {
+      "id": "alice-yukishiro",
+      "name": "Alice Yukishiro",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "acrobatic-silky",
+      "name": "Silky Acrobática",
+      "type": "transparent"
+    },
+    {
+      "id": "onbusuman",
+      "name": "Onbusuman",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "guarda-chuva-youkai",
+      "name": "Guarda-Chuva Youkai (Kasa-obake)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "typhoon-human",
+      "name": "Homem Tufão",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "guardiao-gelo-fogo",
+      "name": "Espírito Guardião de Gelo e Fogo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rokuro-serpo",
+      "name": "Rokuro Serpo",
+      "type": "transparent"
+    },
+    {
+      "id": "flatwoods-monster",
+      "name": "Monstro de Flatwoods",
+      "type": "transparent"
+    },
+    {
+      "id": "nessie",
+      "name": "Nessie",
+      "type": "transparent"
+    },
+    {
+      "id": "kur-emperor",
+      "name": "Imperador Kur",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "clown-dragon-knight",
+      "name": "Cavaleiro Dragão Palhaço",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "coat-dragon-knight",
+      "name": "Cavaleiro Dragão de Sobretudo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "diamond-dragon-knight",
+      "name": "Cavaleiro Dragão de Brinco",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "saint-germain",
+      "name": "Conde de Saint-Germain (Sanjome)",
+      "type": "transparent"
+    },
+    {
+      "id": "music-room-portraits",
+      "name": "Retratos da Sala de Música",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gilles-de-rais",
+      "name": "Gilles de Rais",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lord-of-the-flies",
+      "name": "Senhor das Moscas",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kamikure",
+      "name": "Kamikure",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "black-haircutter",
+      "name": "Cortador de Cabelo Preto (Kamikiri)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "black-paladins",
+      "name": "Paladinos Negros",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "vakappa",
+      "name": "Vakappa",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "toramaru-sodenashi",
+      "name": "Toramaru Sodenashi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "baison",
+      "name": "Baison",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "beam",
+      "name": "Beam",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "sumerian-platoon-leader",
+      "name": "Líder do Pelotão Sumeriano",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jet-booster-kur",
+      "name": "Jet Booster Exosuit Kur",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "head-exosuit-kur",
+      "name": "Head Exosuit Kur",
+      "type": "transparent"
+    },
+    {
+      "id": "mantis-exosuit-kur",
+      "name": "Mantis Exosuit Kur",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "masked-eyepatch-dragon-knight",
+      "name": "Cavaleiro Dragão de Tapa-Olho Mascarado",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "naki-kito",
+      "name": "Naki Kito",
+      "type": "transparent"
+    },
+    {
+      "id": "mika-adachi",
+      "name": "Mika Adachi",
+      "type": "transparent"
+    }
+  ],
+  "demon-slayer": [
+    {
+      "id": "hairo",
+      "name": "Hairo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "mukago",
+      "name": "Mukago",
+      "type": "transparent"
+    },
+    {
+      "id": "naho-takada",
+      "name": "Naho Takada",
+      "type": "transparent"
+    },
+    {
+      "id": "kiyo-terauchi",
+      "name": "Kiyo Terauchi",
+      "type": "transparent"
+    },
+    {
+      "id": "sumi-nakahara",
+      "name": "Sumi Nakahara",
+      "type": "transparent"
+    }
+  ],
+  "dragon-ball": [
+    {
+      "id": "granolah",
+      "name": "Granolah",
+      "type": "transparent"
+    },
+    {
+      "id": "gas",
+      "name": "Gas",
+      "type": "transparent"
+    }
+  ],
+  "fairy-tail": [
+    {
+      "id": "freed-justine",
+      "name": "Freed Justine (Fried)",
+      "type": "transparent"
+    },
+    {
+      "id": "romeo-conbolt",
+      "name": "Romeo Conbolt",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lyon-vastia",
+      "name": "Lyon Vastia (Imperador do Frio)",
+      "type": "transparent"
+    },
+    {
+      "id": "obra",
+      "name": "Obra",
+      "type": "transparent"
+    }
+  ],
+  "frieren": [
+    {
+      "id": "grausam",
+      "name": "Grausam (O Milagroso)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tot",
+      "name": "Tot (A Santa da Sombra)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "zart",
+      "name": "Zart",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "demon-king",
+      "name": "Rei Demônio (Demon King)",
+      "type": "greyscale_manga"
+    }
+  ],
+  "fullmetal-alchemist": [
+    {
+      "id": "alphonse-elric",
+      "name": "Alphonse Elric",
+      "type": "transparent"
+    },
+    {
+      "id": "yoki",
+      "name": "Yoki",
+      "type": "greyscale_manga"
+    }
+  ],
+  "haikyuu": [
+    {
+      "id": "gao-hakuba",
+      "name": "Gao Hakuba",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tenma-udai",
+      "name": "Tenma Udai (O Pequeno Gigante)",
+      "type": "greyscale_manga"
+    }
+  ],
+  "hunter-x-hunter": [
+    {
+      "id": "milluki-zoldyck",
+      "name": "Milluki Zoldyck",
+      "type": "transparent"
+    },
+    {
+      "id": "chrollo-lucilfer",
+      "name": "Chrollo Lucilfer",
+      "type": "transparent"
+    },
+    {
+      "id": "kite",
+      "name": "Kite",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "razor",
+      "name": "Razor",
+      "type": "transparent"
+    },
+    {
+      "id": "shaiapouf",
+      "name": "Shaiapouf (Pouf)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "knov",
+      "name": "Knov",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "colt",
+      "name": "Colt",
+      "type": "transparent"
+    },
+    {
+      "id": "zazan",
+      "name": "Zazan",
+      "type": "transparent"
+    },
+    {
+      "id": "beyond-netero",
+      "name": "Beyond Netero",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tserriednich-hui-guo-rou",
+      "name": "Tserriednich Hui Guo Rou",
+      "type": "greyscale_manga"
+    }
+  ],
+  "jojos-bizarre-adventure": [
+    {
+      "id": "jonathan-joestar",
+      "name": "Jonathan Joestar",
+      "type": "transparent"
+    },
+    {
+      "id": "yukako-yamagishi",
+      "name": "Yukako Yamagishi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "melone",
+      "name": "Melone",
+      "type": "transparent"
+    },
+    {
+      "id": "ringo-roadagain",
+      "name": "Ringo Roadagain",
+      "type": "transparent"
+    },
+    {
+      "id": "straizo-p1",
+      "name": "Straizo (Parte 1)",
+      "type": "transparent"
+    },
+    {
+      "id": "wang-chan",
+      "name": "Wang Chan",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "nukesaku",
+      "name": "Nukesaku",
+      "type": "transparent"
+    },
+    {
+      "id": "squalo",
+      "name": "Squalo",
+      "type": "transparent"
+    },
+    {
+      "id": "magenta-magenta",
+      "name": "Magenta Magenta",
+      "type": "transparent"
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "type": "transparent"
+    },
+    {
+      "id": "ningbo",
+      "name": "Ningbo",
+      "type": "transparent"
+    }
+  ],
+  "jujutsu-kaisen": [
+    {
+      "id": "noritoshi-kamo",
+      "name": "Noritoshi Kamo",
+      "type": "transparent"
+    },
+    {
+      "id": "tengen",
+      "name": "Tengen",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ogi-zenin",
+      "name": "Ogi Zenin",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jinichi-zenin",
+      "name": "Jinichi Zenin",
+      "type": "transparent"
+    },
+    {
+      "id": "mahoraga",
+      "name": "Mahoraga",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "yorozu",
+      "name": "Yorozu",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "reggie-star",
+      "name": "Reggie Star",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "dhruv-lakdawala",
+      "name": "Dhruv Lakdawala",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kurourushi",
+      "name": "Kurourushi",
+      "type": "transparent"
+    },
+    {
+      "id": "charles-bernard",
+      "name": "Charles Bernard",
+      "type": "transparent"
+    },
+    {
+      "id": "hagane-daido",
+      "name": "Hagane Daido",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rokujushi-miyo",
+      "name": "Rokujushi Miyo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "iori-hazenoki",
+      "name": "Iori Hazenoki",
+      "type": "transparent"
+    },
+    {
+      "id": "jin-itadori",
+      "name": "Jin Itadori",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kaori-itadori",
+      "name": "Kaori Itadori",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "grasshopper-curse",
+      "name": "Gafanhoto Amaldiçoado",
+      "type": "transparent"
+    },
+    {
+      "id": "remi",
+      "name": "Remi",
+      "type": "transparent"
+    },
+    {
+      "id": "haba",
+      "name": "Haba",
+      "type": "transparent"
+    },
+    {
+      "id": "hanyu",
+      "name": "Hanyu",
+      "type": "transparent"
+    },
+    {
+      "id": "amai-rin",
+      "name": "Amai Rin",
+      "type": "transparent"
+    },
+    {
+      "id": "yuko-ozawa",
+      "name": "Yuko Ozawa",
+      "type": "transparent"
+    }
+  ],
+  "kaiju-no-8": [
+    {
+      "id": "kafka-hibino",
+      "name": "Kafka Hibino",
+      "type": "transparent"
+    },
+    {
+      "id": "mina-ashiro",
+      "name": "Mina Ashiro",
+      "type": "transparent"
+    },
+    {
+      "id": "reno-ichikawa",
+      "name": "Reno Ichikawa",
+      "type": "transparent"
+    },
+    {
+      "id": "kikoru-shinomiya",
+      "name": "Kikoru Shinomiya",
+      "type": "transparent"
+    },
+    {
+      "id": "soshiro-hoshina",
+      "name": "Soshiro Hoshina",
+      "type": "transparent"
+    },
+    {
+      "id": "iharu-furuhashi",
+      "name": "Iharu Furuhashi",
+      "type": "transparent"
+    },
+    {
+      "id": "haruichi-izumo",
+      "name": "Haruichi Izumo",
+      "type": "transparent"
+    },
+    {
+      "id": "gen-narumi",
+      "name": "Gen Narumi",
+      "type": "transparent"
+    },
+    {
+      "id": "isao-shinomiya",
+      "name": "Isao Shinomiya",
+      "type": "transparent"
+    },
+    {
+      "id": "aoi-kaguragi",
+      "name": "Aoi Kaguragi",
+      "type": "transparent"
+    },
+    {
+      "id": "konomi-okonogi",
+      "name": "Konomi Okonogi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "keiji-itami",
+      "name": "Keiji Itami",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kaiju-numero-11",
+      "name": "Kaiju Nº 11",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "akari-minase",
+      "name": "Akari Minase",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hikari-shinomiya",
+      "name": "Hikari Shinomiya",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rin-shinonome",
+      "name": "Rin Shinonome",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kaiju-no-9",
+      "name": "Kaiju No. 9",
+      "type": "greyscale_manga"
+    }
+  ],
+  "my-hero-academia": [
+    {
+      "id": "nana-shimura",
+      "name": "Nana Shimura",
+      "type": "greyscale_manga"
+    }
+  ],
+  "nanatsu-no-taizai": [
+    {
+      "id": "meliodas",
+      "name": "Meliodas",
+      "type": "transparent"
+    },
+    {
+      "id": "hawk",
+      "name": "Hawk",
+      "type": "transparent"
+    },
+    {
+      "id": "gowther",
+      "name": "Gowther",
+      "type": "transparent"
+    },
+    {
+      "id": "merlin",
+      "name": "Merlin",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "escanor",
+      "name": "Escanor",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "arthur-pendragon",
+      "name": "Arthur Pendragon",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "howzer",
+      "name": "Howzer",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "griamore",
+      "name": "Griamore",
+      "type": "transparent"
+    },
+    {
+      "id": "hendrickson",
+      "name": "Hendrickson",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "elaine",
+      "name": "Elaine",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "bartra-liones",
+      "name": "Bartra Liones",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "zeldris",
+      "name": "Zeldris",
+      "type": "transparent"
+    },
+    {
+      "id": "monspeet",
+      "name": "Monspeet",
+      "type": "transparent"
+    },
+    {
+      "id": "drole",
+      "name": "Drole",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "cath",
+      "name": "Cath Palug",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "golgius",
+      "name": "Golgius",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "slader",
+      "name": "Slader",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "vivian",
+      "name": "Vivian",
+      "type": "greyscale_manga"
+    }
+  ],
+  "naruto": [
+    {
+      "id": "mangetsu-hozuki",
+      "name": "Mangetsu Hozuki",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ameyuri-ringo",
+      "name": "Ameyuri Ringo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jinpachi-munashi",
+      "name": "Jinpachi Munashi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ao",
+      "name": "Ao",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gamabunta",
+      "name": "Gamabunta",
+      "type": "transparent"
+    },
+    {
+      "id": "manda",
+      "name": "Manda",
+      "type": "transparent"
+    },
+    {
+      "id": "katsuyu",
+      "name": "Katsuyu",
+      "type": "transparent"
+    },
+    {
+      "id": "akamaru",
+      "name": "Akamaru",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "hanzo",
+      "name": "Hanzo da Salamandra",
+      "type": "transparent"
+    },
+    {
+      "id": "juubi",
+      "name": "Juubi (Dez-Caudas)",
+      "type": "transparent"
+    }
+  ],
+  "one-piece": [
+    {
+      "id": "krieg-don",
+      "name": "Don Krieg",
+      "type": "transparent"
+    },
+    {
+      "id": "lafitte",
+      "name": "Lafitte",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "fukurou",
+      "name": "Fukurou",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rocks-d-xebec",
+      "name": "Rocks D. Xebec",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gerd",
+      "name": "Gerd",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kashi",
+      "name": "Kashi",
+      "type": "transparent"
+    },
+    {
+      "id": "lola",
+      "name": "Lola",
+      "type": "transparent"
+    },
+    {
+      "id": "killingham",
+      "name": "Killingham",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ryuma",
+      "name": "Ryuma",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "wiper",
+      "name": "Wiper (O Demônio da Guerra)",
+      "type": "transparent"
+    },
+    {
+      "id": "wadatsumi",
+      "name": "Wadatsumi",
+      "type": "transparent"
+    },
+    {
+      "id": "charlotte-opera",
+      "name": "Charlotte Opera",
+      "type": "transparent"
+    }
+  ],
+  "one-punch-man": [
+    {
+      "id": "zombieman",
+      "name": "Zombieman",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "drive-knight",
+      "name": "Drive Knight",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "superalloy-darkshine",
+      "name": "Superalloy Darkshine",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "great-philosopher",
+      "name": "Great Philosopher",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "feather",
+      "name": "Feather",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "air",
+      "name": "Air",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "narcisstory",
+      "name": "Narcisstory",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "captain-mizuki",
+      "name": "Captain Mizuki",
+      "type": "transparent"
+    },
+    {
+      "id": "gearsper",
+      "name": "Gearsper",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "red-muffler",
+      "name": "Red Muffler",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "psykos",
+      "name": "Psykos",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gyoro-gyoro",
+      "name": "Gyoro Gyoro",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "deep-sea-king",
+      "name": "Deep Sea King",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "manako",
+      "name": "Manako",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "suiko",
+      "name": "Suiko",
+      "type": "greyscale_manga"
+    }
+  ],
+  "record-of-ragnarok": [
+    {
+      "id": "lu-bu",
+      "name": "Lu Bu Fengxian",
+      "type": "transparent"
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "type": "transparent"
+    },
+    {
+      "id": "adao",
+      "name": "Adão",
+      "type": "transparent"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "type": "transparent"
+    },
+    {
+      "id": "sasaki-kojiro",
+      "name": "Sasaki Kojiro",
+      "type": "transparent"
+    },
+    {
+      "id": "poseidon",
+      "name": "Poseidon",
+      "type": "transparent"
+    },
+    {
+      "id": "jack-o-estripador",
+      "name": "Jack, o Estripador",
+      "type": "transparent"
+    },
+    {
+      "id": "hercules",
+      "name": "Hércules",
+      "type": "transparent"
+    },
+    {
+      "id": "raiden-tameemon",
+      "name": "Raiden Tameemon",
+      "type": "transparent"
+    },
+    {
+      "id": "shiva",
+      "name": "Shiva",
+      "type": "transparent"
+    },
+    {
+      "id": "buda",
+      "name": "Buda",
+      "type": "transparent"
+    },
+    {
+      "id": "zerofuku",
+      "name": "Zerofuku",
+      "type": "transparent"
+    },
+    {
+      "id": "hajun",
+      "name": "Hajun",
+      "type": "transparent"
+    },
+    {
+      "id": "qin-shi-huang",
+      "name": "Qin Shi Huang",
+      "type": "transparent"
+    },
+    {
+      "id": "nikola-tesla",
+      "name": "Nikola Tesla",
+      "type": "transparent"
+    },
+    {
+      "id": "belzebuth",
+      "name": "Belzebuth",
+      "type": "transparent"
+    },
+    {
+      "id": "leonidas",
+      "name": "Rei Leonidas",
+      "type": "transparent"
+    },
+    {
+      "id": "apolo",
+      "name": "Apolo",
+      "type": "transparent"
+    },
+    {
+      "id": "okita-souji",
+      "name": "Okita Souji",
+      "type": "transparent"
+    },
+    {
+      "id": "susanoo",
+      "name": "Susanoo-no-Mikoto",
+      "type": "transparent"
+    },
+    {
+      "id": "brunhilde",
+      "name": "Brunhilde",
+      "type": "transparent"
+    },
+    {
+      "id": "goll",
+      "name": "Göll",
+      "type": "transparent"
+    },
+    {
+      "id": "odin",
+      "name": "Odin",
+      "type": "transparent"
+    },
+    {
+      "id": "loki",
+      "name": "Loki",
+      "type": "transparent"
+    },
+    {
+      "id": "hermes",
+      "name": "Hermes",
+      "type": "transparent"
+    },
+    {
+      "id": "ares",
+      "name": "Ares",
+      "type": "transparent"
+    },
+    {
+      "id": "nostradamus",
+      "name": "Michel Nostradamus",
+      "type": "transparent"
+    },
+    {
+      "id": "simo-hayha",
+      "name": "Simo Häyhä",
+      "type": "transparent"
+    },
+    {
+      "id": "anubis",
+      "name": "Anúbis",
+      "type": "transparent"
+    },
+    {
+      "id": "heimdall",
+      "name": "Heimdall",
+      "type": "transparent"
+    }
+  ],
+  "romance": [
+    {
+      "id": "rentarou-aijou",
+      "name": "Rentarou Aijou",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "sakura-nagatoro",
+      "name": "Sakura",
+      "type": "greyscale_manga"
+    }
+  ],
+  "shangri-la-frontier": [
+    {
+      "id": "psyger-0",
+      "name": "Psyger-0",
+      "type": "transparent"
+    },
+    {
+      "id": "arthur-pencilgon",
+      "name": "Arthur Pencilgon",
+      "type": "transparent"
+    },
+    {
+      "id": "oikatzo",
+      "name": "Oikatzo",
+      "type": "transparent"
+    },
+    {
+      "id": "emul",
+      "name": "Emul",
+      "type": "transparent"
+    },
+    {
+      "id": "viceash",
+      "name": "Vysache",
+      "type": "transparent"
+    },
+    {
+      "id": "lycagon",
+      "name": "Lycagon the Nightslayer",
+      "type": "transparent"
+    },
+    {
+      "id": "wezaemon",
+      "name": "Wezaemon the Tombguard",
+      "type": "transparent"
+    },
+    {
+      "id": "setsuna",
+      "name": "Setsuna dos Dias Passados",
+      "type": "transparent"
+    },
+    {
+      "id": "kutanid",
+      "name": "Kutanid do Abismo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "animalia",
+      "name": "Animalia",
+      "type": "transparent"
+    },
+    {
+      "id": "orcelott",
+      "name": "Orcelott",
+      "type": "transparent"
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "type": "transparent"
+    },
+    {
+      "id": "mold",
+      "name": "Mold",
+      "type": "transparent"
+    },
+    {
+      "id": "bilac",
+      "name": "Bilac",
+      "type": "transparent"
+    },
+    {
+      "id": "aramis",
+      "name": "Aramis",
+      "type": "transparent"
+    },
+    {
+      "id": "tsukuyo-tsukuri",
+      "name": "Tsukuyo Tsukuri",
+      "type": "transparent"
+    },
+    {
+      "id": "kyogoku-ryuguin",
+      "name": "Kyogoku Ryuguin",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "sylvia-goldberg",
+      "name": "Sylvia Goldberg",
+      "type": "transparent"
+    },
+    {
+      "id": "akane-oki",
+      "name": "Akitsu Akane",
+      "type": "transparent"
+    },
+    {
+      "id": "peatz",
+      "name": "Peatz",
+      "type": "transparent"
+    },
+    {
+      "id": "professor",
+      "name": "Professor",
+      "type": "transparent"
+    },
+    {
+      "id": "ritsu-amachi",
+      "name": "Ritsu Amachi",
+      "type": "transparent"
+    },
+    {
+      "id": "megumi-natsume",
+      "name": "Megumi Natsume",
+      "type": "transparent"
+    },
+    {
+      "id": "ceecrue",
+      "name": "Ceecrue",
+      "type": "transparent"
+    },
+    {
+      "id": "siegwurm",
+      "name": "Siegwurm the Dragon King",
+      "type": "greyscale_manga"
+    }
+  ],
+  "solo-leveling": [
+    {
+      "id": "go-gunhee",
+      "name": "Go Gunhee",
+      "type": "transparent"
+    },
+    {
+      "id": "yoo-jinho",
+      "name": "Yoo Jinho",
+      "type": "transparent"
+    },
+    {
+      "id": "baek-yoonho",
+      "name": "Baek Yoonho",
+      "type": "transparent"
+    },
+    {
+      "id": "woo-jinchul",
+      "name": "Woo Jinchul",
+      "type": "transparent"
+    },
+    {
+      "id": "song-chiyul",
+      "name": "Song Chi-Yul",
+      "type": "transparent"
+    },
+    {
+      "id": "ma-dongwook",
+      "name": "Ma Dongwook",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kumamoto",
+      "name": "Kumamoto",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kei",
+      "name": "Kei",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "groctar",
+      "name": "Groctar",
+      "type": "greyscale_manga"
+    }
+  ],
+  "sword-art-online": [
+    {
+      "id": "heathcliff",
+      "name": "Heathcliff (Akihiko Kayaba)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "poh",
+      "name": "PoH",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "johnny-black",
+      "name": "Johnny Black",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "yuuki",
+      "name": "Yuuki Konno",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gabriel-miller",
+      "name": "Gabriel Miller",
+      "type": "greyscale_manga"
+    }
+  ],
+  "tensei-shitara-slime-datta-ken": [
+    {
+      "id": "hakuro",
+      "name": "Hakuro",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kurobe",
+      "name": "Kurobe",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gobta",
+      "name": "Gobta",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "orc-disaster-geld",
+      "name": "Orc Disaster Geld (Sênior)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gabiru",
+      "name": "Gabiru",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "souka",
+      "name": "Souka",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "zegion",
+      "name": "Zegion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "adalman",
+      "name": "Adalman",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "treyni",
+      "name": "Treyni",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "veyron",
+      "name": "Veyron",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "milim-nava",
+      "name": "Milim Nava",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "leon-cromwell",
+      "name": "Leon Cromwell",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "dagruel",
+      "name": "Dagruel",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "granbell-rosso",
+      "name": "Granbell Rosso",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "roy-valentin",
+      "name": "Roy Valentin",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "louis-valentin",
+      "name": "Louis Valentin",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "arnaud-bauman",
+      "name": "Arnaud Bauman",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gazel-dwargo",
+      "name": "Gazel Dwargo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kaijin",
+      "name": "Kaijin",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "youm-farmenas",
+      "name": "Youm Farmenas",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "myuran",
+      "name": "Myuran (Mjur)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "masayuki-honjou",
+      "name": "Masayuki Honjou",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "albis",
+      "name": "Albis",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "eren",
+      "name": "Eren",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kabal",
+      "name": "Kabal",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gido",
+      "name": "Gido",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kenya-misaki",
+      "name": "Kenya Misaki",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "ryota-sekiguchi",
+      "name": "Ryota Sekiguchi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "gale-gibson",
+      "name": "Gale Gibson",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "alice-rondo",
+      "name": "Alice Rondo",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "garm",
+      "name": "Garm",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "dord",
+      "name": "Dord (Dold)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "myrd",
+      "name": "Myrd",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "edmaris",
+      "name": "Marius Falmuth (Rei Edmaris)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "razen",
+      "name": "Razen",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "shogo-taguchi",
+      "name": "Shogo Taguchi",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kyoya-tachibana",
+      "name": "Kyoya Tachibana",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "kirara-mizutani",
+      "name": "Kirara Mizutani",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "leonard-jester",
+      "name": "Leonard Jester",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "trya",
+      "name": "Trya",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "rigur",
+      "name": "Rigur",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "elmesia",
+      "name": "Elmesia El Ru Sarion",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "erald-grimwald",
+      "name": "Erald Grimwald",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "bernie",
+      "name": "Bernie",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "jiwu",
+      "name": "Jiwu",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tatsuya-kondou",
+      "name": "Tatsuya Kondou",
+      "type": "greyscale_manga"
+    }
+  ],
+  "tokyo-ghoul": [
+    {
+      "id": "hsiao-hai-ping",
+      "name": "Hsiao Hai-ping",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "donato-porpora",
+      "name": "Donato Porpora",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "shinsanpei-aura",
+      "name": "Shinsanpei Aura",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "tsuneyoshi-washuu",
+      "name": "Tsuneyoshi Washuu",
+      "type": "greyscale_manga"
+    }
+  ],
+  "witch-hat-atelier": [
+    {
+      "id": "coco",
+      "name": "Coco",
+      "type": "transparent"
+    },
+    {
+      "id": "agott",
+      "name": "Agott",
+      "type": "transparent"
+    },
+    {
+      "id": "tetia",
+      "name": "Tetia",
+      "type": "transparent"
+    },
+    {
+      "id": "richeh",
+      "name": "Richeh",
+      "type": "transparent"
+    },
+    {
+      "id": "qifrey",
+      "name": "Qifrey",
+      "type": "transparent"
+    },
+    {
+      "id": "olruggio",
+      "name": "Olruggio",
+      "type": "transparent"
+    },
+    {
+      "id": "beldaruit",
+      "name": "Beldaruit",
+      "type": "transparent"
+    },
+    {
+      "id": "tartah",
+      "name": "Tartah",
+      "type": "transparent"
+    },
+    {
+      "id": "custas",
+      "name": "Custas",
+      "type": "transparent"
+    },
+    {
+      "id": "iguin",
+      "name": "Iguin",
+      "type": "transparent"
+    },
+    {
+      "id": "sasaran",
+      "name": "Sasaran",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "utowin",
+      "name": "Utowin",
+      "type": "transparent"
+    },
+    {
+      "id": "alaira",
+      "name": "Alaira",
+      "type": "transparent"
+    },
+    {
+      "id": "luluci",
+      "name": "Luluci",
+      "type": "transparent"
+    },
+    {
+      "id": "dagda",
+      "name": "Dagda",
+      "type": "transparent"
+    },
+    {
+      "id": "nolnoa",
+      "name": "Nolnoa",
+      "type": "transparent"
+    },
+    {
+      "id": "euini",
+      "name": "Euini",
+      "type": "transparent"
+    },
+    {
+      "id": "easthies",
+      "name": "Easthies",
+      "type": "transparent"
+    },
+    {
+      "id": "galga",
+      "name": "Galga",
+      "type": "transparent"
+    },
+    {
+      "id": "zayamaia-ezrest",
+      "name": "Zayamaia Ezrest",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "princess-mia",
+      "name": "Princesa Mia",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "brushbuddy",
+      "name": "Pincelino (Brushbuddy)",
+      "type": "greyscale_manga"
+    },
+    {
+      "id": "lagrah",
+      "name": "Lagrah",
+      "type": "transparent"
+    },
+    {
+      "id": "restys",
+      "name": "Restys",
+      "type": "transparent"
+    }
+  ]
+}
