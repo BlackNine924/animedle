@@ -1,0 +1,5224 @@
+[
+  {
+    "anime": "akame-ga-kill",
+    "id": "akame",
+    "name": "Akame",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "akame-ga-kill",
+    "id": "bulat",
+    "name": "Bulat",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "akame-ga-kill",
+    "id": "susanoo",
+    "name": "Susanoo",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 378
+  },
+  {
+    "anime": "akame-ga-kill",
+    "id": "budo",
+    "name": "General Budo",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 676
+  },
+  {
+    "anime": "akame-ga-kill",
+    "id": "champ",
+    "name": "Champ",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "akame-ga-kill",
+    "id": "enshin",
+    "name": "Enshin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "akame-ga-kill",
+    "id": "sayo",
+    "name": "Sayo",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 186
+  },
+  {
+    "anime": "akame-ga-kill",
+    "id": "bolic",
+    "name": "Bolic",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 387
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "jean-kirstein",
+    "name": "Jean Kirstein",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "sasha-braus",
+    "name": "Sasha Braus",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "marco-bott",
+    "name": "Marco Bott",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "floch-forster",
+    "name": "Floch Forster",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 146
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "nac-tias",
+    "name": "Nac Tias",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "mylius-zeramuski",
+    "name": "Mylius Zeramuski",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "moblit-berner",
+    "name": "Moblit Berner",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 131
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "henning",
+    "name": "Henning",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 81
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "oluo-bozado",
+    "name": "Oluo Bozado",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "eld-jinn",
+    "name": "Eld Jinn",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "ilse-langnar",
+    "name": "Ilse Langnar",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 109
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "keiji",
+    "name": "Keiji",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 237
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "dirk",
+    "name": "Dirk",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 647
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "marlene",
+    "name": "Marlene",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 731
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "traute-caven",
+    "name": "Traute Caven",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "djel-sannes",
+    "name": "Djel Sannes",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 679
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "rei-fritz-fantoche",
+    "name": "Rei Fritz Fantoche",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 433
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "artur-braus",
+    "name": "Artur Braus",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 66
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "lisa-braus",
+    "name": "Lisa Braus",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 132
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "general-calvi",
+    "name": "General Calvi",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 287
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "niccolo",
+    "name": "Niccolo",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 218
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "griez",
+    "name": "Griez",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "dina-fritz",
+    "name": "Dina Fritz",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "halil",
+    "name": "Halil",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 377
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "maria-fritz",
+    "name": "Maria Fritz",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 75
+  },
+  {
+    "anime": "attack-on-titan",
+    "id": "sina-fritz",
+    "name": "Sina Fritz",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 170
+  },
+  {
+    "anime": "berserk",
+    "id": "magnifico",
+    "name": "Magnifico de Vandimion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "gaston",
+    "name": "Gaston",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "gambino",
+    "name": "Gambino",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "shisu",
+    "name": "Shisu",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "donovan",
+    "name": "Donovan",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "bazuso",
+    "name": "Bazuso",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "rei-de-midland",
+    "name": "Rei de Midland",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "julius",
+    "name": "Julius",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "adonis",
+    "name": "Adonis",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "rainha-de-midland",
+    "name": "Rainha de Midland",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "laban",
+    "name": "General Laban",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "owen",
+    "name": "General Owen",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "skull-knight",
+    "name": "Cavaleiro da Caveira",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 202
+  },
+  {
+    "anime": "berserk",
+    "id": "gedfring",
+    "name": "Gedfring",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "hanarr",
+    "name": "Hanarr (Mestre Ferreiro dos Anões)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "void",
+    "name": "Void",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "femto",
+    "name": "Femto",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 321
+  },
+  {
+    "anime": "berserk",
+    "id": "slan",
+    "name": "Slan",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "ubik",
+    "name": "Ubik",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "conrad",
+    "name": "Conrad",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "wyald",
+    "name": "Wyald",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "snake-baron",
+    "name": "Barão Serpente",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "theresia",
+    "name": "Theresia",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "jill",
+    "name": "Jill",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "egg-of-the-perfect-world",
+    "name": "O Apóstolo Behelit",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "mozgus",
+    "name": "Inquisidor Mozgus",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "jerome",
+    "name": "Jerome",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "great-goat",
+    "name": "O Grande Bode",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "ganishka",
+    "name": "Imperador Ganishka",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 17
+  },
+  {
+    "anime": "berserk",
+    "id": "silat",
+    "name": "Silat",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 155
+  },
+  {
+    "anime": "berserk",
+    "id": "tapasa",
+    "name": "Tapasa",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "boscogn",
+    "name": "General Boscogn",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "gennon",
+    "name": "Lorde Gennon",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "berserk",
+    "id": "chitch",
+    "name": "Chitch",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "yami-sukehiro",
+    "name": "Yami Sukehiro",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "magna-swing",
+    "name": "Magna Swing",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "luck-voltia",
+    "name": "Luck Voltia",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "finral-roulacase",
+    "name": "Finral Roulacase",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "vanessa-enoteca",
+    "name": "Vanessa Enoteca",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "charmy-pappitson",
+    "name": "Charmy Pappitson",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "gauche-adlai",
+    "name": "Gauche Adlai",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "grey",
+    "name": "Grey",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "gordon-agrippa",
+    "name": "Gordon Agrippa",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "black-clover",
+    "id": "zora-ideale",
+    "name": "Zora Ideale",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "nacht-faust",
+    "name": "Nacht Faust",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 287
+  },
+  {
+    "anime": "black-clover",
+    "id": "julius-novachrono",
+    "name": "Julius Novachrono",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "william-vangeance",
+    "name": "William Vangeance",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "nozel-silva",
+    "name": "Nozel Silva",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "fuegoleon-vermillion",
+    "name": "Fuegoleon Vermillion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "mereoleona-vermillion",
+    "name": "Mereoleona Vermillion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "leopold-vermillion",
+    "name": "Leopold Vermillion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "charlotte-roselei",
+    "name": "Charlotte Roselei",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "jack-o-estripador",
+    "name": "Jack, o Estripador",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "dorothy-unsworth",
+    "name": "Dorothy Unsworth",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "rill-boismortier",
+    "name": "Rill Boismortier",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "kaiser-granvorka",
+    "name": "Kaiser Granvorka",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "black-clover",
+    "id": "gueldre-poizot",
+    "name": "Gueldre Poizot",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "klaus-lunettes",
+    "name": "Klaus Lunettes",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "black-clover",
+    "id": "langris-vaude",
+    "name": "Langris Vaude",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "solid-silva",
+    "name": "Solid Silva",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "nebra-silva",
+    "name": "Nebra Silva",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "sekke-bronzazza",
+    "name": "Sekke Bronzazza",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "kirsch-vermillion",
+    "name": "Kirsch Vermillion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "letoile-becquerel",
+    "name": "Letoile Becquerel",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 454
+  },
+  {
+    "anime": "black-clover",
+    "id": "augustus-kira-clover-xiii",
+    "name": "Augustus Kira Clover XIII",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "orsi-orfai",
+    "name": "Padre Orsi Orfai",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "black-clover",
+    "id": "marx-francois",
+    "name": "Marx Francois",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "owen",
+    "name": "Owen",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "acier-silva",
+    "name": "Acier Silva",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "finesse-calmreich",
+    "name": "Finesse Calmreich",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "revchi-salik",
+    "name": "Revchi Salik",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "patry",
+    "name": "Patry (Patolli)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "zagred",
+    "name": "Zagred",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "rades-spirito",
+    "name": "Rades Spirito",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "sally",
+    "name": "Sally",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "lira",
+    "name": "Lira",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 709
+  },
+  {
+    "anime": "black-clover",
+    "id": "baval",
+    "name": "Baval",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 621
+  },
+  {
+    "anime": "black-clover",
+    "id": "charla",
+    "name": "Charla",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "gifso",
+    "name": "Gifso",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "kiato",
+    "name": "Kiato",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "black-clover",
+    "id": "ladros",
+    "name": "Ladros",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "lotus-whomalt",
+    "name": "Lotus Whomalt",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "lolopechka",
+    "name": "Princesa Lolopechka",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "undine",
+    "name": "Undine (Ondine)",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "black-clover",
+    "id": "bell",
+    "name": "Bell (Sylph)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "dryad",
+    "name": "Dryad",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "potrof",
+    "name": "Potrof",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "floga",
+    "name": "Floga",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "dante-zogratis",
+    "name": "Dante Zogratis",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "zenon-zogratis",
+    "name": "Zenon Zogratis",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "vanica-zogratis",
+    "name": "Vanica Zogratis",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "lucius-zogratis",
+    "name": "Lucius Zogratis",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "lucifero",
+    "name": "Lucifero",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "megicula",
+    "name": "Megicula",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "beelzebub",
+    "name": "Beelzebub",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "adrammelech",
+    "name": "Adrammelech",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "naamah",
+    "name": "Naamah",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "lilith",
+    "name": "Lilith",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "lucifugus",
+    "name": "Lucifugus",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "liebe",
+    "name": "Liebe",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "licita",
+    "name": "Licita",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "moris-libardirt",
+    "name": "Moris Libardirt",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "ralph-niaflem",
+    "name": "Ralph Niaflem",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "ciel-grinberryall",
+    "name": "Ciel Grinberryall",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "svenkin-gatard",
+    "name": "Svenkin Gatard",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "halbet-chevour",
+    "name": "Halbet Chevour",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "yosuga-musyogatake",
+    "name": "Mushogatake Yosuga",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "komari-imari",
+    "name": "Komari Imari",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "daizaemon-ooka",
+    "name": "Daizaemon Ōoka",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "jozou-hanegatsuji",
+    "name": "Jozou Hanegatsuji",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "ginnojomorifuyu-kezoukaku",
+    "name": "Kezoukaku",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "fujio-tenmanyashiki",
+    "name": "Fujio Tenmanyashiki",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "black-clover",
+    "id": "fumito-mikuriya",
+    "name": "Fumito Mikuriya",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "bleach",
+    "id": "yoruichi-shihoin",
+    "name": "Yoruichi Shihoin",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "bleach",
+    "id": "soi-fon",
+    "name": "Soi Fon",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 144
+  },
+  {
+    "anime": "bleach",
+    "id": "marechiyo-omaeda",
+    "name": "Marechiyo Omaeda",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 47,
+    "totalSkin": 37092
+  },
+  {
+    "anime": "bleach",
+    "id": "momo-hinamori",
+    "name": "Momo Hinamori",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "bleach",
+    "id": "sajin-komamura",
+    "name": "Sajin Komamura",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 158
+  },
+  {
+    "anime": "bleach",
+    "id": "baraggan-louisenbairn",
+    "name": "Baraggan Louisenbairn",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "bleach",
+    "id": "lille-barro",
+    "name": "Lille Barro",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 31
+  },
+  {
+    "anime": "bleach",
+    "id": "pernida-parnkgjas",
+    "name": "Pernida Parnkgjas",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 185
+  },
+  {
+    "anime": "bleach",
+    "id": "bazz-b",
+    "name": "Bazz-B (Bazzard Black)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "bleach",
+    "id": "candice-catnipp",
+    "name": "Candice Catnipp",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 606
+  },
+  {
+    "anime": "bleach",
+    "id": "giselle-gewelle",
+    "name": "Giselle Gewelle",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 142
+  },
+  {
+    "anime": "bleach",
+    "id": "meninas-mcallon",
+    "name": "Meninas McAllon",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 59
+  },
+  {
+    "anime": "bleach",
+    "id": "liltotto-lamperd",
+    "name": "Liltotto Lamperd",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 237
+  },
+  {
+    "anime": "bleach",
+    "id": "gremmy-thoumeaux",
+    "name": "Gremmy Thoumeaux",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "bleach",
+    "id": "jidanbo-ikkanzaka",
+    "name": "Jidanbo Ikkanzaka",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "bleach",
+    "id": "tessai-tsukabishi",
+    "name": "Tessai Tsukabishi",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "bleach",
+    "id": "dordoni-alessandro",
+    "name": "Dordoni Alessandro Del Socaccio",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 360
+  },
+  {
+    "anime": "blue-lock",
+    "id": "yo-hiori",
+    "name": "Yo Hiori",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "ranze-kurona",
+    "name": "Ranze Kurona",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "jin-kiyora",
+    "name": "Jin Kiyora",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "nijiro-nanase",
+    "name": "Nijiro Nanase",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "gurimu-igarashi",
+    "name": "Gurimu Igarashi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "shuto-sendo",
+    "name": "Shuto Sendo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "kazuma-nio",
+    "name": "Kazuma Niou",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 33,
+    "totalSkin": 12161
+  },
+  {
+    "anime": "blue-lock",
+    "id": "okuhito-iemon",
+    "name": "Okuhito Iemon",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "hibiki-okawa",
+    "name": "Hibiki Okawa",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "alexis-ness",
+    "name": "Alexis Ness",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "charles-chevalier",
+    "name": "Charles Chevalier",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 44,
+    "totalSkin": 34665
+  },
+  {
+    "anime": "blue-lock",
+    "id": "agi",
+    "name": "Agi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "benedict-grim",
+    "name": "Benedict Grim",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "erik-gesner",
+    "name": "Erik Gesner",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "ignacio-lara",
+    "name": "Ignacio Lara",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "teddy-knight",
+    "name": "Teddy Knight",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "lockhart",
+    "name": "Lockhart",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "coach-fox",
+    "name": "Coach Fox",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "achanpong",
+    "name": "Achanpong",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "rooke",
+    "name": "Rooke",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "julien-loki",
+    "name": "Julien Loki",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "pablo-cavasoz",
+    "name": "Pablo Cavasoz",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "hirotoshi-buratsuta",
+    "name": "Hirotoshi Buratsuta",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "yasumori-hoichi",
+    "name": "Yasumori Hoichi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "ryo-nameoka",
+    "name": "Ryo Nameoka",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "innocent-onazi",
+    "name": "Innocent Onazi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "godwin-kuso",
+    "name": "Godwin Kuso",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "oboabona",
+    "name": "Oboabona",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "bello",
+    "name": "Bello",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "coach-gambari",
+    "name": "Coach Gambari",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "vivian-hugo",
+    "name": "Vivian Hugo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "camus",
+    "name": "Camus",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "bats",
+    "name": "Bats",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "gabin",
+    "name": "Gabin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "chapa",
+    "name": "Chapa",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "renoir",
+    "name": "Renoir",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "arthur",
+    "name": "Arthur",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "young",
+    "name": "Young",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "niang",
+    "name": "Niang",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "busby",
+    "name": "Busby",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "ken-shimura",
+    "name": "Ken Andatte Shimura",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "beita-tsuru",
+    "name": "Beita Tsuru",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "yu-bachira",
+    "name": "Yu Bachira",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "issei-isagi",
+    "name": "Issei Isagi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "iyo-isagi",
+    "name": "Iyo Isagi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "blue-lock",
+    "id": "tomoya-tada",
+    "name": "Tomonori Tada",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "aki-hayakawa",
+    "name": "Aki Hayakawa",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 24
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "asa-mitaka",
+    "name": "Asa Mitaka",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 71
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "nayuta",
+    "name": "Nayuta",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "galgali",
+    "name": "Galgali (Possesso da Violência)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "ghost-devil",
+    "name": "Ghost Devil (Demônio Fantasma)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "curse-devil",
+    "name": "Curse Devil (Demônio da Maldição)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 46
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "barem-bridge",
+    "name": "Barem Bridge",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "spear-hybrid",
+    "name": "Spear Hybrid (Híbrido da Lança)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "whip-hybrid",
+    "name": "Whip Hybrid (Híbrida do Chicote)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "tolka",
+    "name": "Tolka",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "pingtsi",
+    "name": "Pingtsi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "cosmo",
+    "name": "Cosmo (Cosmos Fiend)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "long",
+    "name": "Long",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "tsugihagi",
+    "name": "Tsugihagi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "aldo",
+    "name": "Aldo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "joey",
+    "name": "Joey",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "kusakabe",
+    "name": "Kusakabe",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "tamaoki",
+    "name": "Tamaoki",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "nakamura",
+    "name": "Nakamura",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "subaru",
+    "name": "Subaru",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "zombie-devil",
+    "name": "Zombie Devil (Demônio Zumbi)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "bat-devil",
+    "name": "Bat Devil (Demônio Morcego)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 11
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "eternity-devil",
+    "name": "Eternity Devil (Demônio da Eternidade)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "darkness-devil",
+    "name": "Darkness Devil (Demônio da Escuridão)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "falling-devil",
+    "name": "Falling Devil (Demônio da Queda)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "aging-devil",
+    "name": "Aging Devil (Demônio do Envelhecimento)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "gun-devil",
+    "name": "Gun Devil (Demônio da Arma de Fogo)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "hell-devil",
+    "name": "Hell Devil (Demônio do Inferno)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "doll-devil",
+    "name": "Doll Devil (Demônio dos Bonecos)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "fire-devil",
+    "name": "Fire Devil (Demônio do Fogo)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "punishment-devil",
+    "name": "Punishment Devil (Demônio da Punição)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "justice-devil",
+    "name": "Justice Devil (Demônio da Justiça)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "cockroach-devil",
+    "name": "Cockroach Devil (Demônio Barata)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "muscle-devil",
+    "name": "Muscle Devil (Demônio Músculo)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "octopus-devil",
+    "name": "Octopus Devil (Demônio Polvo)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "stone-devil",
+    "name": "Stone Devil (Demônio da Pedra)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "mantis-devil",
+    "name": "Mantis Devil (Demônio Louva-a-Deus)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "mold-devil",
+    "name": "Mold Devil (Demônio do Mofo)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "skin-devil",
+    "name": "Skin Devil (Demônio da Pele)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "claw-devil",
+    "name": "Claw Devil (Demônio da Garra)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "ear-devil",
+    "name": "Ear Devil (Demônio Orelha)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "mouth-devil",
+    "name": "Mouth Devil (Demônio Boca)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "teeth-devil",
+    "name": "Teeth Devil (Demônio Dentes)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "centipede-devil",
+    "name": "Centipede Devil (Demônio Centopeia)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "locust-devil",
+    "name": "Locust Devil (Demônio Gafanhoto)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "frog-devil",
+    "name": "Frog Devil (Demônio Sapo)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "pig-devil",
+    "name": "Pig Devil (Demônio Porco)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "pillbug-devil",
+    "name": "Pillbug Devil (Demônio Tatu-Bola)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "stag-beetle-devil",
+    "name": "Stag Beetle Devil (Demônio Besouro-Rinoceronte)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "needle-devil",
+    "name": "Needle Devil (Demônio Agulha)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "car-devil",
+    "name": "Car Devil (Demônio Carro)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "house-devil",
+    "name": "House Devil (Demônio Casa)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "gravity-devil",
+    "name": "Gravity Devil (Demônio Gravidade)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "fake-chainsaw-man",
+    "name": "Fake Chainsaw Man (Falso Chainsaw Man)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "haruka-iseumi",
+    "name": "Haruka Iseumi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "nobana-higashiyama",
+    "name": "Nobana Higashiyama",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "seigi-akoku",
+    "name": "Seigi Akoku",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "bucky",
+    "name": "Bucky (Demônio da Galinha)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "class-president",
+    "name": "Class President (Presidente da Turma)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "tanaka",
+    "name": "Tanaka (Professor Tanaka)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "nail-fiend",
+    "name": "Nail Fiend (Possesso do Prego)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "guillotine-devil",
+    "name": "Guillotine Devil (Guilly)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "loneliness-fiend",
+    "name": "Loneliness Fiend (Possesso da Solidão)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "dominion",
+    "name": "Dominion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "seraphim",
+    "name": "Seraphim",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "virtue",
+    "name": "Virtue",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "sato",
+    "name": "Sato",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "kato",
+    "name": "Kato",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 655
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "furio",
+    "name": "Furio",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "kentaro-ishita",
+    "name": "Kentaro Ishita",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "hadaji-sakagami",
+    "name": "Hadaji Sakagami",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "takagi",
+    "name": "Takagi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "tadashi-hasegawa",
+    "name": "Tadashi Hasegawa",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "yuki-tomoda",
+    "name": "Yuki Tomoda",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "miki-takanashi",
+    "name": "Miki Takanashi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "minami-nakano",
+    "name": "Minami Nakano",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "chainsaw-man",
+    "id": "shin-toma",
+    "name": "Shin Toma",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "pilar",
+    "name": "Pilar",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "gloria-martinez",
+    "name": "Gloria Martinez",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 617
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "faraday",
+    "name": "Faraday",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "adam-smasher",
+    "name": "Adam Smasher",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 3
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "tanaka",
+    "name": "Diretor Tanaka",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "jimmy-kurosaki",
+    "name": "Jimmy Kurosaki",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 614
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "claire-russell",
+    "name": "Claire Russell",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 240
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "rogue-amendiares",
+    "name": "Rogue Amendiares",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 74
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "wakako-okada",
+    "name": "Wakako Okada",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "cyberpunk-edgerunners",
+    "id": "delamain",
+    "name": "Delamain",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "dandadan",
+    "id": "jin-enjoji",
+    "name": "Jin Enjoji (Jiji)",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "dandadan",
+    "id": "daiki-hasegawa",
+    "name": "Daiki Hasegawa (Bega)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "pejin",
+    "name": "Mr. Mantis Shrimp (Pejin)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 287
+  },
+  {
+    "anime": "dandadan",
+    "id": "banga",
+    "name": "Banga",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "hakuto",
+    "name": "Hakuto",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "suda-ko",
+    "name": "Suda Ko",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "dandadan",
+    "id": "futa-zuma",
+    "name": "Futa Zuma",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "koki-yukishiro",
+    "name": "Koki Yukishiro",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "dandadan",
+    "id": "alice-yukishiro",
+    "name": "Alice Yukishiro",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "onbusuman",
+    "name": "Onbusuman",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "guarda-chuva-youkai",
+    "name": "Guarda-Chuva Youkai (Kasa-obake)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "typhoon-human",
+    "name": "Homem Tufão",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "guardiao-gelo-fogo",
+    "name": "Espírito Guardião de Gelo e Fogo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "flatwoods-monster",
+    "name": "Monstro de Flatwoods",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.96"
+  },
+  {
+    "anime": "dandadan",
+    "id": "kur-emperor",
+    "name": "Imperador Kur",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "clown-dragon-knight",
+    "name": "Cavaleiro Dragão Palhaço",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "coat-dragon-knight",
+    "name": "Cavaleiro Dragão de Sobretudo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "diamond-dragon-knight",
+    "name": "Cavaleiro Dragão de Brinco",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "music-room-portraits",
+    "name": "Retratos da Sala de Música",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.91"
+  },
+  {
+    "anime": "dandadan",
+    "id": "earthbound-spirit-crab",
+    "name": "Caranguejo Espírito Terrestre",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 39
+  },
+  {
+    "anime": "dandadan",
+    "id": "gilles-de-rais",
+    "name": "Gilles de Rais",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "lord-of-the-flies",
+    "name": "Senhor das Moscas",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "kamikure",
+    "name": "Kamikure",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "black-haircutter",
+    "name": "Cortador de Cabelo Preto (Kamikiri)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "black-paladins",
+    "name": "Paladinos Negros",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "vakappa",
+    "name": "Vakappa",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "toramaru-sodenashi",
+    "name": "Toramaru Sodenashi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "baison",
+    "name": "Baison",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "beam",
+    "name": "Beam",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "sumerian-platoon-leader",
+    "name": "Líder do Pelotão Sumeriano",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "jet-booster-kur",
+    "name": "Jet Booster Exosuit Kur",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "mantis-exosuit-kur",
+    "name": "Mantis Exosuit Kur",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "masked-eyepatch-dragon-knight",
+    "name": "Cavaleiro Dragão de Tapa-Olho Mascarado",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "dandadan",
+    "id": "naki-kito",
+    "name": "Naki Kito",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "dandadan",
+    "id": "mika-adachi",
+    "name": "Mika Adachi",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 367
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "tanjiro-kamado-human",
+    "name": "Tanjiro Kamado (Caçador)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "tanjiro-kamado-demon-king",
+    "name": "Tanjiro Kamado (Rei Oni)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "obanai-iguro",
+    "name": "Obanai Iguro",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "kiriya-ubuyashiki",
+    "name": "Kiriya Ubuyashiki",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "kanata-ubuyashiki",
+    "name": "Kanata Ubuyashiki",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "murata",
+    "name": "Murata",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "kokushibo",
+    "name": "Kokushibo",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "hantengu",
+    "name": "Hantengu",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "sekido",
+    "name": "Sekido",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 41
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "urogi",
+    "name": "Urogi",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 38
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "zohakuten",
+    "name": "Zohakuten",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 299
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "daki",
+    "name": "Daki",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 308
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "kaigaku-demon",
+    "name": "Kaigaku (Oni)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 337
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "susamaru",
+    "name": "Susamaru",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "swamp-demon",
+    "name": "Demônio do Pântano",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "rokuta-kamado",
+    "name": "Rokuta Kamado",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "ruka-rengoku",
+    "name": "Ruka Rengoku",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 235
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "hairo",
+    "name": "Hairo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "hakuji",
+    "name": "Hakuji",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "ozaki",
+    "name": "Ozaki",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "spider-brother",
+    "name": "Irmão Aranha",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "demon-slayer",
+    "id": "spider-sister-older",
+    "name": "Irmã Aranha Mais Velha",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 3
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "chichi",
+    "name": "Chichi",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "nam",
+    "name": "Nam",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 38
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "vovo-uranai",
+    "name": "Vovó Uranai",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "tao-pai-pai",
+    "name": "Tao Pai Pai",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "conselheiro-black",
+    "name": "Conselheiro Black",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 380
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "androide-8",
+    "name": "Androide 8",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 61
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "tambourine",
+    "name": "Tambourine",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 221
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "zarbon",
+    "name": "Zarbon",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 107
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "freeza",
+    "name": "Freeza",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 377
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "androide-18",
+    "name": "Androide 18",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 83,
+    "totalSkin": 33941
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "androide-17",
+    "name": "Androide 17",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "dabura",
+    "name": "Dabura",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "whis",
+    "name": "Whis",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 96
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "hit",
+    "name": "Hit",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 6
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "zen-o",
+    "name": "Zen'o",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 456
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "kale",
+    "name": "Kale",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "dragon-ball",
+    "id": "cell-max",
+    "name": "Cell Max",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 48
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "droy",
+    "name": "Droy",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 59,
+    "totalSkin": 21806
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "reedus-jonah",
+    "name": "Reedus Jonah",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 42,
+    "totalSkin": 8334
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "jiemma",
+    "name": "Jiemma",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "jura-neekis",
+    "name": "Jura Neekis (Rocha de Ferro)",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 32,
+    "totalSkin": 19692
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "aria",
+    "name": "Aria (Element 4 - Ar)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 262
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "nullpudding",
+    "name": "Nullpudding",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 430
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "kain-hikaru",
+    "name": "Kain Hikaru",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 224
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "torafuzar",
+    "name": "Torafuzar",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 85
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "ezel",
+    "name": "Ezel",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "keyes",
+    "name": "Keyes",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 176
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "irene-belserion",
+    "name": "Irene Belserion (O Desespero Escarlate)",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 36,
+    "totalSkin": 22878
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "yajeel",
+    "name": "Yajeel",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 608
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "weisslogia",
+    "name": "Weisslogia (Dragão Branco)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 219
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "skiadrum",
+    "name": "Skiadrum (Dragão das Sombras)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.93"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "acnologia",
+    "name": "Acnologia (O Rei Dragão / Dragão Negro do Apocalipse)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "atlas-flame",
+    "name": "Atlas Flame",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 481
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "celestial-spirit-king",
+    "name": "Rei dos Espíritos Celestiais",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 99
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "scorpio",
+    "name": "Scorpio (O Escorpião)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 242
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "capricorn",
+    "name": "Capricorn (Caprico)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "ophiuchus",
+    "name": "Ophiuchus (O 13º Portão do Serpentário)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "arcadios",
+    "name": "Arcadios",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 90
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "kamika",
+    "name": "Kamika",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "kama",
+    "name": "Kama",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "neppa",
+    "name": "Neppa",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fairy-tail",
+    "id": "gran-doma",
+    "name": "Gran Doma",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "frieren",
+    "id": "linie",
+    "name": "Linie",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "frieren",
+    "id": "macht",
+    "name": "Macht de El Dorado",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "frieren",
+    "id": "grausam",
+    "name": "Grausam (O Milagroso)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "frieren",
+    "id": "tot",
+    "name": "Tot (A Santa da Sombra)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "frieren",
+    "id": "zart",
+    "name": "Zart",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "frieren",
+    "id": "schlacht",
+    "name": "Schlacht (O Onisciente)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "frieren",
+    "id": "demon-king",
+    "name": "Rei Demônio (Demon King)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "alphonse-elric",
+    "name": "Alphonse Elric",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 43
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "olivier-mira-armstrong",
+    "name": "Olivier Mira Armstrong",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "envy",
+    "name": "Inveja (Envy)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "sloth",
+    "name": "Preguiça (Sloth)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "scar",
+    "name": "Scar",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "vato-falman",
+    "name": "Vato Falman",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 37
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "slicer-brothers",
+    "name": "Irmãos Slicer (Número 48)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "darius",
+    "name": "Darius (Quimera Gorila)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 497
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "paninya",
+    "name": "Paninya",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 85
+  },
+  {
+    "anime": "fullmetal-alchemist",
+    "id": "giolio-comanche",
+    "name": "Giolio Comanche (Alquimista das Armas Prateadas)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "haikyuu",
+    "id": "gao-hakuba",
+    "name": "Gao Hakuba",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "haikyuu",
+    "id": "tenma-udai",
+    "name": "Tenma Udai (O Pequeno Gigante)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "kalluto-zoldyck",
+    "name": "Kalluto Zoldyck",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "pakunoda",
+    "name": "Pakunoda",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "franklin-bordeau",
+    "name": "Franklin Bordeau",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "bonolenov-ndongo",
+    "name": "Bonolenov Ndongo",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "kortopi",
+    "name": "Kortopi",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "biscuit-krueger",
+    "name": "Biscuit Krueger (Bisky)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "meruem",
+    "name": "Meruem (O Rei das Formigas)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "shaiapouf",
+    "name": "Shaiapouf (Pouf)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 580
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "ikalgo",
+    "name": "Ikalgo",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 11
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "welfin",
+    "name": "Welfin",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 518
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "beyond-netero",
+    "name": "Beyond Netero",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "tserriednich-hui-guo-rou",
+    "name": "Tserriednich Hui Guo Rou",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "hanzo",
+    "name": "Hanzo",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "hunter-x-hunter",
+    "id": "tonpa",
+    "name": "Tonpa (O Quebrador de Novatos)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 394
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "jonathan-joestar",
+    "name": "Jonathan Joestar",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "william-zeppeli",
+    "name": "William A. Zeppeli",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "lisa-lisa",
+    "name": "Lisa Lisa",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "koichi-hirose",
+    "name": "Koichi Hirose",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "ringo-roadagain",
+    "name": "Ringo Roadagain",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "straizo-p1",
+    "name": "Straizo (Parte 1)",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "wang-chan",
+    "name": "Wang Chan",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "jack-the-ripper",
+    "name": "Jack, o Estripador",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "loggins",
+    "name": "Loggins",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "mark",
+    "name": "Mark",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "gray-fly",
+    "name": "Gray Fly",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "terunosuke-miyamoto",
+    "name": "Terunosuke Miyamoto",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "squalo",
+    "name": "Squalo",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "magenta-magenta",
+    "name": "Magenta Magenta",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "lulu",
+    "name": "Lulu",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jojos-bizarre-adventure",
+    "id": "ningbo",
+    "name": "Ningbo",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "megumi-fushiguro",
+    "name": "Megumi Fushiguro",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "yuta-okkotsu",
+    "name": "Yuta Okkotsu",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "masamichi-yaga",
+    "name": "Masamichi Yaga",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 531
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "tengen",
+    "name": "Tengen",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "naoya-zenin",
+    "name": "Naoya Zenin",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 152
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "ogi-zenin",
+    "name": "Ogi Zenin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "jinichi-zenin",
+    "name": "Jinichi Zenin",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "suguru-geto",
+    "name": "Suguru Geto",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "choso",
+    "name": "Choso",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "mahoraga",
+    "name": "Mahoraga",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.96"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "smallpox-deity",
+    "name": "Espírito da Varíola",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "ryu-ishigori",
+    "name": "Ryu Ishigori",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "yorozu",
+    "name": "Yorozu",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "reggie-star",
+    "name": "Reggie Star",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "dhruv-lakdawala",
+    "name": "Dhruv Lakdawala",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "kurourushi",
+    "name": "Kurourushi",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "charles-bernard",
+    "name": "Charles Bernard",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "hagane-daido",
+    "name": "Hagane Daido",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "rokujushi-miyo",
+    "name": "Rokujushi Miyo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "iori-hazenoki",
+    "name": "Iori Hazenoki",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "junpei-yoshino",
+    "name": "Junpei Yoshino",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "jin-itadori",
+    "name": "Jin Itadori",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "kaori-itadori",
+    "name": "Kaori Itadori",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "grasshopper-curse",
+    "name": "Gafanhoto Amaldiçoado",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 205
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "remi",
+    "name": "Remi",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "haba",
+    "name": "Haba",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "hanyu",
+    "name": "Hanyu",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "amai-rin",
+    "name": "Amai Rin",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "jujutsu-kaisen",
+    "id": "yuko-ozawa",
+    "name": "Yuko Ozawa",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "soshiro-hoshina",
+    "name": "Soshiro Hoshina",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "iharu-furuhashi",
+    "name": "Iharu Furuhashi",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "haruichi-izumo",
+    "name": "Haruichi Izumo",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "gen-narumi",
+    "name": "Gen Narumi",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "isao-shinomiya",
+    "name": "Isao Shinomiya",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "konomi-okonogi",
+    "name": "Konomi Okonogi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "keiji-itami",
+    "name": "Keiji Itami",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "juzo-ogata",
+    "name": "Juzo Ogata",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "kaiju-numero-11",
+    "name": "Kaiju Nº 11",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "akari-minase",
+    "name": "Akari Minase",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "hikari-shinomiya",
+    "name": "Hikari Shinomiya",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "rin-shinonome",
+    "name": "Rin Shinonome",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "kaiju-no-8",
+    "id": "kaiju-no-9",
+    "name": "Kaiju No. 9",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "my-hero-academia",
+    "id": "toru-hagakure",
+    "name": "Toru Hagakure (Invisible Girl)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 386
+  },
+  {
+    "anime": "my-hero-academia",
+    "id": "nezu",
+    "name": "Diretor Nezu",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 611
+  },
+  {
+    "anime": "my-hero-academia",
+    "id": "kurogiri",
+    "name": "Kurogiri (Oboro Shirakumo)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 133
+  },
+  {
+    "anime": "my-hero-academia",
+    "id": "hound-dog",
+    "name": "Hound Dog (Ryo Inui)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 787
+  },
+  {
+    "anime": "my-hero-academia",
+    "id": "ectoplasm",
+    "name": "Ectoplasm",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 322
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "merlin",
+    "name": "Merlin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "escanor",
+    "name": "Escanor",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "arthur-pendragon",
+    "name": "Arthur Pendragon",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "howzer",
+    "name": "Howzer",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "hendrickson",
+    "name": "Hendrickson",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "elaine",
+    "name": "Elaine",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "bartra-liones",
+    "name": "Bartra Liones",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "derieri",
+    "name": "Derieri",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "galand",
+    "name": "Galand",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 67
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "fraudrin",
+    "name": "Fraudrin",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 490
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "chandler",
+    "name": "Chandler",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 203
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "cath",
+    "name": "Cath Palug",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "denzel-liones",
+    "name": "Denzel Liones",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 589
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "deathpierce",
+    "name": "Deathpierce",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 34
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "deldry",
+    "name": "Deldry",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "golgius",
+    "name": "Golgius",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "slader",
+    "name": "Slader",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "nanatsu-no-taizai",
+    "id": "vivian",
+    "name": "Vivian",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "naruto",
+    "id": "tsunade-senju",
+    "name": "Tsunade Senju",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 35,
+    "totalSkin": 30774
+  },
+  {
+    "anime": "naruto",
+    "id": "hidan",
+    "name": "Hidan",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 55,
+    "totalSkin": 18458
+  },
+  {
+    "anime": "naruto",
+    "id": "madara-uchiha",
+    "name": "Madara Uchiha",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "rasa",
+    "name": "Rasa",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 37,
+    "totalSkin": 15031
+  },
+  {
+    "anime": "naruto",
+    "id": "terceiro-kazekage",
+    "name": "Terceiro Kazekage",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "mu",
+    "name": "Mu",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 631,
+    "totalSkin": 95088
+  },
+  {
+    "anime": "naruto",
+    "id": "chojuro",
+    "name": "Chojuro",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "mangetsu-hozuki",
+    "name": "Mangetsu Hozuki",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.95"
+  },
+  {
+    "anime": "naruto",
+    "id": "jinpachi-munashi",
+    "name": "Jinpachi Munashi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.91"
+  },
+  {
+    "anime": "naruto",
+    "id": "kankuro",
+    "name": "Kankuro",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 69,
+    "totalSkin": 140977
+  },
+  {
+    "anime": "naruto",
+    "id": "hamura-otsutsuki",
+    "name": "Hamura Otsutsuki",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 19
+  },
+  {
+    "anime": "naruto",
+    "id": "ao",
+    "name": "Ao",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "kushina-uzumaki",
+    "name": "Kushina Uzumaki",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 58,
+    "totalSkin": 936894
+  },
+  {
+    "anime": "naruto",
+    "id": "kidomaru",
+    "name": "Kidomaru",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "zetsu-branco",
+    "name": "Zetsu",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "gamabunta",
+    "name": "Gamabunta",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "manda",
+    "name": "Manda",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "katsuyu",
+    "name": "Katsuyu",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "enma",
+    "name": "Enma",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 228,
+    "totalSkin": 380668
+  },
+  {
+    "anime": "naruto",
+    "id": "butsuma-senju",
+    "name": "Butsuma Senju",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 20
+  },
+  {
+    "anime": "naruto",
+    "id": "gozu",
+    "name": "Gozu",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 403,
+    "totalSkin": 314197
+  },
+  {
+    "anime": "naruto",
+    "id": "toneri-otsutsuki",
+    "name": "Toneri Otsutsuki",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "naruto",
+    "id": "shukaku",
+    "name": "Shukaku",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 23
+  },
+  {
+    "anime": "naruto",
+    "id": "isobu",
+    "name": "Isobu",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 36
+  },
+  {
+    "anime": "naruto",
+    "id": "chomei",
+    "name": "Chomei",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 293
+  },
+  {
+    "anime": "naruto",
+    "id": "kurama",
+    "name": "Kurama",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 84
+  },
+  {
+    "anime": "naruto",
+    "id": "juubi",
+    "name": "Juubi (Dez-Caudas)",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "chew",
+    "name": "Chew",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 204
+  },
+  {
+    "anime": "one-piece",
+    "id": "kuroobi",
+    "name": "Kuroobi",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 205
+  },
+  {
+    "anime": "one-piece",
+    "id": "alvida",
+    "name": "Alvida",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 49,
+    "totalSkin": 11836
+  },
+  {
+    "anime": "one-piece",
+    "id": "apis",
+    "name": "Apis",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "dorry",
+    "name": "Dorry",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 250
+  },
+  {
+    "anime": "one-piece",
+    "id": "gin",
+    "name": "Gin",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 71
+  },
+  {
+    "anime": "one-piece",
+    "id": "nero",
+    "name": "Nero",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 31
+  },
+  {
+    "anime": "one-piece",
+    "id": "kung-fu-dugong",
+    "name": "Kung Fu Dugong",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 84
+  },
+  {
+    "anime": "one-piece",
+    "id": "jack",
+    "name": "Jack",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 1
+  },
+  {
+    "anime": "one-piece",
+    "id": "emporio-ivankov",
+    "name": "Emporio Ivankov",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "rocks-d-xebec",
+    "name": "Rocks D. Xebec",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-piece",
+    "id": "imu",
+    "name": "Imu-sama",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 22
+  },
+  {
+    "anime": "one-piece",
+    "id": "gerd",
+    "name": "Gerd",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-piece",
+    "id": "figarland-garling",
+    "name": "St. Figarland Garling",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "peepley-lulu",
+    "name": "Peepley Lulu",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "killingham",
+    "name": "Killingham",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-piece",
+    "id": "rei-harald",
+    "name": "Rei Harald",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "kurozumi-orochi",
+    "name": "Kurozumi Orochi",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "inuarashi",
+    "name": "Inuarashi",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 501
+  },
+  {
+    "anime": "one-piece",
+    "id": "jozu",
+    "name": "Jozu",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 98
+  },
+  {
+    "anime": "one-piece",
+    "id": "foxy",
+    "name": "Foxy",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "marshall-d-teach",
+    "name": "Marshall D. Teach (Barba Negra)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 742
+  },
+  {
+    "anime": "one-piece",
+    "id": "van-augur",
+    "name": "Van Augur",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "vander-decken-ix",
+    "name": "Vander Decken IX",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 5
+  },
+  {
+    "anime": "one-piece",
+    "id": "sugar",
+    "name": "Sugar",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-piece",
+    "id": "hannyabal",
+    "name": "Hannyabal",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 3
+  },
+  {
+    "anime": "one-piece",
+    "id": "sai",
+    "name": "Sai",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 103,
+    "totalSkin": 33149
+  },
+  {
+    "anime": "one-piece",
+    "id": "wiper",
+    "name": "Wiper (O Demônio da Guerra)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-piece",
+    "id": "jora",
+    "name": "Jora",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "zombieman",
+    "name": "Zombieman",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "drive-knight",
+    "name": "Drive Knight",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "superalloy-darkshine",
+    "name": "Superalloy Darkshine",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "genos",
+    "name": "Genos",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "okamaitachi",
+    "name": "Okamaitachi",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "bushidrill",
+    "name": "Bushidrill",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "great-philosopher",
+    "name": "Great Philosopher",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "air",
+    "name": "Air",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "red-muffler",
+    "name": "Red Muffler",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "groribas",
+    "name": "Groribas",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 436
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "orochi",
+    "name": "Rei dos Monstros Orochi",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 178
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "psykos",
+    "name": "Psykos",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "gyoro-gyoro",
+    "name": "Gyoro Gyoro",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "black-sperm",
+    "name": "Black Sperm",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "overgrown-rover",
+    "name": "Overgrown Rover",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 365
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "gouketsu",
+    "name": "Gouketsu",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 377
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "armored-gorilla",
+    "name": "Armored Gorilla",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 206
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "deep-sea-king",
+    "name": "Deep Sea King",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 64
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "beefcake",
+    "name": "Beefcake",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "speed-o-sound-sonic",
+    "name": "Speed-o'-Sound Sonic",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 624
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "royal-ripper",
+    "name": "Royal Ripper",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 442
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "awakened-cockroach",
+    "name": "Awakened Cockroach",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 72
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "manako",
+    "name": "Manako",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "suiko",
+    "name": "Suiko",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "one-punch-man",
+    "id": "tareo",
+    "name": "Tareo",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "lu-bu",
+    "name": "Lu Bu Fengxian",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "adao",
+    "name": "Adão",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "zeus",
+    "name": "Zeus",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "sasaki-kojiro",
+    "name": "Sasaki Kojiro",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "poseidon",
+    "name": "Poseidon",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "jack-o-estripador",
+    "name": "Jack, o Estripador",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "hercules",
+    "name": "Hércules",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "raiden-tameemon",
+    "name": "Raiden Tameemon",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "shiva",
+    "name": "Shiva",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 487
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "buda",
+    "name": "Buda",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "zerofuku",
+    "name": "Zerofuku",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "hajun",
+    "name": "Hajun",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "qin-shi-huang",
+    "name": "Qin Shi Huang",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "hades",
+    "name": "Hades",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "nikola-tesla",
+    "name": "Nikola Tesla",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "belzebuth",
+    "name": "Belzebuth",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "leonidas",
+    "name": "Rei Leonidas",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "apolo",
+    "name": "Apolo",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "okita-souji",
+    "name": "Okita Souji",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "susanoo",
+    "name": "Susanoo-no-Mikoto",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "brunhilde",
+    "name": "Brunhilde",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "goll",
+    "name": "Göll",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "odin",
+    "name": "Odin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.89"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "loki",
+    "name": "Loki",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "hermes",
+    "name": "Hermes",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "ares",
+    "name": "Ares",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "nostradamus",
+    "name": "Michel Nostradamus",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "simo-hayha",
+    "name": "Simo Häyhä",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "anubis",
+    "name": "Anúbis",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "record-of-ragnarok",
+    "id": "heimdall",
+    "name": "Heimdall",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "romance",
+    "id": "anna-yamada",
+    "name": "Anna Yamada",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 335
+  },
+  {
+    "anime": "romance",
+    "id": "zorome-franxx",
+    "name": "Zorome",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 601
+  },
+  {
+    "anime": "romance",
+    "id": "erika-amano",
+    "name": "Erika Amano",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 761
+  },
+  {
+    "anime": "romance",
+    "id": "sakura-nagatoro",
+    "name": "Sakura",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "romance",
+    "id": "shigure-sohma",
+    "name": "Shigure Sohma (O Cão)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "psyger-0",
+    "name": "Psyger-0",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "arthur-pencilgon",
+    "name": "Arthur Pencilgon",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "oikatzo",
+    "name": "Oikatzo",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "emul",
+    "name": "Emul",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "viceash",
+    "name": "Vysache",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "lycagon",
+    "name": "Lycagon the Nightslayer",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 9
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "wezaemon",
+    "name": "Wezaemon the Tombguard",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.94"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "setsuna",
+    "name": "Setsuna dos Dias Passados",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "kutanid",
+    "name": "Kutanid do Abismo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "animalia",
+    "name": "Animalia",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "orcelott",
+    "name": "Orcelott",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "rust",
+    "name": "Rust",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "mold",
+    "name": "Mold",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "bilac",
+    "name": "Bilac",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 395
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "aramis",
+    "name": "Aramis",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 411
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "tsukuyo-tsukuri",
+    "name": "Tsukuyo Tsukuri",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "kyogoku-ryuguin",
+    "name": "Kyogoku Ryuguin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "sylvia-goldberg",
+    "name": "Sylvia Goldberg",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "akane-oki",
+    "name": "Akitsu Akane",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "peatz",
+    "name": "Peatz",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "professor",
+    "name": "Professor",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "ritsu-amachi",
+    "name": "Ritsu Amachi",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "megumi-natsume",
+    "name": "Megumi Natsume",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "ceecrue",
+    "name": "Ceecrue",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "shangri-la-frontier",
+    "id": "siegwurm",
+    "name": "Siegwurm the Dragon King",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "sung-jinwoo",
+    "name": "Sung Jinwoo",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "go-gunhee",
+    "name": "Go Gunhee",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "yoo-jinho",
+    "name": "Yoo Jinho",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "baek-yoonho",
+    "name": "Baek Yoonho",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "querehsha",
+    "name": "Querehsha",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 157
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "ashborn",
+    "name": "Ashborn",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "beru",
+    "name": "Beru",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 360
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "igris",
+    "name": "Igris",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 15
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "kanae-tawata",
+    "name": "Kanae Tawata",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 381
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "kumamoto",
+    "name": "Kumamoto",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 40,
+    "totalSkin": 6351
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "laura",
+    "name": "Laura",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "iron",
+    "name": "Iron",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 51
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "tusk",
+    "name": "Tusk",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "jima",
+    "name": "Jima",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 345
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "o-arquiteto",
+    "name": "O Arquiteto",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 3
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "kasaka",
+    "name": "Kasaka de Presas de Veneno",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 122
+  },
+  {
+    "anime": "solo-leveling",
+    "id": "han-song-i",
+    "name": "Han Song-I",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "yui",
+    "name": "Yui",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 410
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "sachi",
+    "name": "Sachi",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 62,
+    "totalSkin": 7935
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "heathcliff",
+    "name": "Heathcliff (Akihiko Kayaba)",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 21
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "poh",
+    "name": "PoH",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "johnny-black",
+    "name": "Johnny Black",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "death-gun",
+    "name": "Death Gun",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 249
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "yuuki",
+    "name": "Yuuki Konno",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "bercouli",
+    "name": "Bercouli Synthesis One",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 41,
+    "totalSkin": 24038
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "eldrie",
+    "name": "Eldrie Synthesis Thirty-One",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 340
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "sheyta",
+    "name": "Sheyta Synthesis Twelve",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 632
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "sortiliena-serlut",
+    "name": "Sortiliena Serlut",
+    "issue": "CHIN_CUTOFF",
+    "skinBottomRow": 36,
+    "totalSkin": 9988
+  },
+  {
+    "anime": "sword-art-online",
+    "id": "gabriel-miller",
+    "name": "Gabriel Miller",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "hakuro",
+    "name": "Hakuro",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "kurobe",
+    "name": "Kurobe",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "rigurd",
+    "name": "Rigurd",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 584
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "orc-disaster-geld",
+    "name": "Orc Disaster Geld (Sênior)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "gabiru",
+    "name": "Gabiru",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "souka",
+    "name": "Souka",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "zegion",
+    "name": "Zegion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "adalman",
+    "name": "Adalman",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "treyni",
+    "name": "Treyni",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "moss",
+    "name": "Moss",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 571
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "veyron",
+    "name": "Veyron",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "milim-nava",
+    "name": "Milim Nava",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "ramiris",
+    "name": "Ramiris",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 531
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "leon-cromwell",
+    "name": "Leon Cromwell",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "dagruel",
+    "name": "Dagruel",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "footman",
+    "name": "Footman",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 422
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "granbell-rosso",
+    "name": "Granbell Rosso",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "roy-valentin",
+    "name": "Roy Valentin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "louis-valentin",
+    "name": "Louis Valentin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "arnaud-bauman",
+    "name": "Arnaud Bauman",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "velzard",
+    "name": "Velzard",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.95"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "gazel-dwargo",
+    "name": "Gazel Dwargo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "kaijin",
+    "name": "Kaijin",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "youm-farmenas",
+    "name": "Youm Farmenas",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "myuran",
+    "name": "Myuran (Mjur)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "masayuki-honjou",
+    "name": "Masayuki Honjou",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "albis",
+    "name": "Albis",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "eren",
+    "name": "Eren",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "kabal",
+    "name": "Kabal",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "gido",
+    "name": "Gido",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "kenya-misaki",
+    "name": "Kenya Misaki",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "ryota-sekiguchi",
+    "name": "Ryota Sekiguchi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "gale-gibson",
+    "name": "Gale Gibson",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "alice-rondo",
+    "name": "Alice Rondo",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "garm",
+    "name": "Garm",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "dord",
+    "name": "Dord (Dold)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "myrd",
+    "name": "Myrd",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "edmaris",
+    "name": "Marius Falmuth (Rei Edmaris)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "razen",
+    "name": "Razen",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "shogo-taguchi",
+    "name": "Shogo Taguchi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "kyoya-tachibana",
+    "name": "Kyoya Tachibana",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "kirara-mizutani",
+    "name": "Kirara Mizutani",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "trya",
+    "name": "Trya",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "elmesia",
+    "name": "Elmesia El Ru Sarion",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "erald-grimwald",
+    "name": "Erald Grimwald",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "bernie",
+    "name": "Bernie",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "jiwu",
+    "name": "Jiwu",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tensei-shitara-slime-datta-ken",
+    "id": "tatsuya-kondou",
+    "name": "Tatsuya Kondou",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "yoshimura",
+    "name": "Kuzen Yoshimura",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "hinami-fueguchi",
+    "name": "Hinami Fueguchi",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.86"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "koutarou-amon",
+    "name": "Koutarou Amon",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "kishou-arima",
+    "name": "Kishou Arima",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "iwao-kuroiwa",
+    "name": "Iwao Kuroiwa",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "hsiao-hai-ping",
+    "name": "Hsiao Hai-ping",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "shuu-tsukiyama",
+    "name": "Shuu Tsukiyama",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 104
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "mirumo-tsukiyama",
+    "name": "Mirumo Tsukiyama",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "matsumae",
+    "name": "Matsumae",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.99"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "chie-hori",
+    "name": "Chie Hori",
+    "issue": "TINY_FACE_FULL_BODY",
+    "totalSkin": 110
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "tatara",
+    "name": "Tatara",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "ayato-kirishima",
+    "name": "Ayato Kirishima",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "yakumo-oomori",
+    "name": "Yakumo Oomori (Yamori)",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "naki",
+    "name": "Naki",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "uta",
+    "name": "Uta",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "nico",
+    "name": "Nico",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "roma-hoito",
+    "name": "Roma Hoito",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "kurona-yasuhisa",
+    "name": "Kurona Yasuhisa",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "nashiro-yasuhisa",
+    "name": "Nashiro Yasuhisa",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "hideyoshi-nagachika",
+    "name": "Hideyoshi Nagachika",
+    "issue": "FLAT_DARK_BG"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "shikorae",
+    "name": "Shikorae",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.95"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "shinsanpei-aura",
+    "name": "Shinsanpei Aura",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "hanbee-abara",
+    "name": "Hanbee Abara",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "0.86"
+  },
+  {
+    "anime": "tokyo-ghoul",
+    "id": "tsuneyoshi-washuu",
+    "name": "Tsuneyoshi Washuu",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "coco",
+    "name": "Coco",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "agott",
+    "name": "Agott",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "tetia",
+    "name": "Tetia",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "richeh",
+    "name": "Richeh",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "qifrey",
+    "name": "Qifrey",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "olruggio",
+    "name": "Olruggio",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "beldaruit",
+    "name": "Beldaruit",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "tartah",
+    "name": "Tartah",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "custas",
+    "name": "Custas",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "iguin",
+    "name": "Iguin",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "sasaran",
+    "name": "Sasaran",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "utowin",
+    "name": "Utowin",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "alaira",
+    "name": "Alaira",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "luluci",
+    "name": "Luluci",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "dagda",
+    "name": "Dagda",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "nolnoa",
+    "name": "Nolnoa",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "euini",
+    "name": "Euini",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "easthies",
+    "name": "Easthies",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "galga",
+    "name": "Galga",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "zayamaia-ezrest",
+    "name": "Zayamaia Ezrest",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "princess-mia",
+    "name": "Princesa Mia",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "brushbuddy",
+    "name": "Pincelino (Brushbuddy)",
+    "issue": "MONOCHROME_MANGA",
+    "grayRatio": "1.00"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "lagrah",
+    "name": "Lagrah",
+    "issue": "TRANSPARENT_BG"
+  },
+  {
+    "anime": "witch-hat-atelier",
+    "id": "restys",
+    "name": "Restys",
+    "issue": "TRANSPARENT_BG"
+  }
+]

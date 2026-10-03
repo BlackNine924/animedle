@@ -1,6 +1,6 @@
 const q = `
 query {
-  media: Media(search: "Keikenzumi", type: ANIME) {
+  media: Media(search: "Nagatoro", type: ANIME) {
     characters {
       nodes {
         id
@@ -16,5 +16,5 @@ fetch('https://graphql.anilist.co', {
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({ query: q })
 }).then(r => r.json()).then(d => {
-  console.log('Keikenzumi chars:', d.data?.media?.characters?.nodes);
+  console.log(d.data?.media?.characters?.nodes?.slice(0, 5));
 });
