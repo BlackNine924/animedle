@@ -4,7 +4,7 @@ import { getTimeUntilNextReset } from '../utils/dailySeed';
 import { Trophy, Share2, Clock, CheckCircle2, Flame, Flag, Image as ImageIcon, Loader2 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { downloadOrShareImageCard } from '../utils/shareImage';
-import { logDailyActivity, unlockAchievement } from '../data/achievements';
+import { logDailyActivity, unlockAchievement, recordVictory, recordDefeat, recordSurrender } from '../data/achievements';
 
 interface VictoryModalProps {
   targetCharacter: Character;
@@ -54,6 +54,8 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
     // Registra dia ativo no calendário de frequência (Retenção 3)
     logDailyActivity();
 
+    const currentSlug = animeSlug || 'demon-slayer';
+
     if (!isSurrendered && !isLost) {
       confetti({
         particleCount: 100,
@@ -63,11 +65,20 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
 
       // Avaliação de Conquistas (Retenção 2)
       unlockAchievement('first_win');
+      if (currentMode === 'classic' && totalGuesses <= 3) {
+        unlockAchievement('analytical_mind');
+      }
       if (currentMode === 'zoom' && totalGuesses === 1) {
         unlockAchievement('eagle_eye');
       }
+      if (currentMode === 'zoom' && totalGuesses === 8) {
+        unlockAchievement('protagonist_comeback');
+      }
       if (currentMode === 'wanted' && totalGuesses === 1) {
         unlockAchievement('detective');
+      }
+      if (currentMode === 'wanted' && totalGuesses === 5) {
+        unlockAchievement('protagonist_comeback');
       }
       if (currentMode === 'quote' && totalGuesses <= 2) {
         unlockAchievement('quote_master');
@@ -78,6 +89,13 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
       if (safeStats.currentStreak >= 7) {
         unlockAchievement('streak_7');
       }
+
+      // Registra vitória e avalia Veterano, Domínio do Universo, Identidade Confirmada, etc.
+      recordVictory(currentSlug, currentMode, targetCharacter?.id);
+    } else if (isLost) {
+      recordDefeat(currentSlug, currentMode);
+    } else if (isSurrendered) {
+      recordSurrender(currentSlug, currentMode);
     }
 
     const interval = setInterval(() => {
@@ -85,7 +103,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [isSurrendered, isLost, currentMode, totalGuesses, safeStats.currentStreak]);
+  }, [isSurrendered, isLost, currentMode, totalGuesses, safeStats.currentStreak, animeSlug, targetCharacter?.id]);
 
   const handleShare = () => {
     const text = isLost

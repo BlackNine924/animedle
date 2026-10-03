@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Character } from '../types/anime';
 import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, LayoutGrid, Flag } from 'lucide-react';
-import { unlockAchievement, logDailyActivity } from '../data/achievements';
+import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender } from '../data/achievements';
 import { VictoryModal } from './VictoryModal';
 
 interface GridCriterion {
@@ -141,10 +141,16 @@ const GridBoard: React.FC<GridBoardProps> = ({
       logDailyActivity();
       if (score === 9) {
         unlockAchievement('grid_master');
+        if (guessesLeft === 0) {
+          unlockAchievement('protagonist_comeback');
+        }
+        recordVictory(animeSlug, 'grid');
+      } else {
+        recordDefeat(animeSlug, 'grid');
       }
       setShowVictoryModal(true);
     }
-  }, [isGameOver, score]);
+  }, [isGameOver, score, guessesLeft, animeSlug]);
 
   const cellAnswers = useMemo(() => {
     const list: { row: GridCriterion; col: GridCriterion; matches: Character[] }[] = [];
@@ -170,6 +176,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
   const handleConfirmSurrender = () => {
     setIsSurrendered(true);
     setGuessesLeft(0);
+    recordSurrender(animeSlug, 'grid');
     localStorage.setItem(`animedle_grid_surrendered_${gridSeed}`, 'true');
     setShowSurrenderConfirm(false);
     setShowAnswersModal(true);

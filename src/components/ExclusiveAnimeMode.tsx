@@ -21,7 +21,7 @@ import {
   X,
   Flag
 } from 'lucide-react';
-import { unlockAchievement, logDailyActivity } from '../data/achievements';
+import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender } from '../data/achievements';
 import { reportChallengeInconsistency } from '../services/firebase';
 import { downloadOrShareImageCard } from '../utils/shareImage';
 import confetti from 'canvas-confetti';
@@ -232,6 +232,17 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
       logDailyActivity();
       unlockAchievement('exclusive_master');
+      
+      // Conquista: Conhecimento Puro (0 pistas reveladas)
+      if (Object.keys(revealedClues).length === 0) {
+        unlockAchievement('pure_knowledge');
+      }
+      // Conquista: Virada de Protagonista (1 vida restante)
+      if (lives === 1) {
+        unlockAchievement('protagonist_comeback');
+      }
+
+      recordVictory(animeSlug, 'exclusive', guessedChar.id);
       updateGlobalStats(true);
 
       const currentMult = Math.max(1, combo + 1);
@@ -251,6 +262,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         setRoundCompleted(true);
         setIsGameOver(true);
         setShowResultModal(true);
+        recordDefeat(animeSlug, 'exclusive');
         updateGlobalStats(false);
       }
     }
@@ -263,6 +275,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     setRoundCompleted(true);
     setIsGameOver(true);
     setShowSurrenderConfirm(false);
+    recordSurrender(animeSlug, 'exclusive');
     setShowResultModal(true);
     updateGlobalStats(false);
   };

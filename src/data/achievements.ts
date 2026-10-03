@@ -84,6 +84,69 @@ export const ACHIEVEMENTS_LIST: Achievement[] = [
     icon: '/icons/achievements/iron_will.png',
     category: 'geral',
   },
+  {
+    id: 'protagonist_comeback',
+    title: 'Virada de Protagonista',
+    description: 'Vencer na última tentativa disponível em um modo com limite de tentativas.',
+    icon: '/icons/achievements/protagonist_comeback.png',
+    category: 'modo',
+  },
+  {
+    id: 'analytical_mind',
+    title: 'Mente Analítica',
+    description: 'Vencer o Modo Clássico em 3 tentativas ou menos.',
+    icon: '/icons/achievements/analytical_mind.png',
+    category: 'modo',
+  },
+  {
+    id: 'pure_knowledge',
+    title: 'Conhecimento Puro',
+    description: 'Vencer uma rodada no Modo Exclusivo sem revelar nenhuma pista.',
+    icon: '/icons/achievements/pure_knowledge.png',
+    category: 'modo',
+  },
+  {
+    id: 'confirmed_identity',
+    title: 'Identidade Confirmada',
+    description: 'Acertar o mesmo personagem em 3 modos diferentes ao longo das partidas.',
+    icon: '/icons/achievements/confirmed_identity.png',
+    category: 'geral',
+  },
+  {
+    id: 'universe_mastery',
+    title: 'Domínio do Universo',
+    description: 'Vencer Clássico, Grid, Zoom, Procurado e Citação em um mesmo anime.',
+    icon: '/icons/achievements/universe_mastery.png',
+    category: 'geral',
+  },
+  {
+    id: 'hero_revenge',
+    title: 'Revanche de Herói',
+    description: 'Vencer a partida imediatamente seguinte no mesmo modo e anime após uma derrota.',
+    icon: '/icons/achievements/hero_revenge.png',
+    category: 'geral',
+  },
+  {
+    id: 'multiverse_echoes',
+    title: 'Ecos do Multiverso',
+    description: 'Acertar pelo menos 1 citação no Modo Citação em 5 animes diferentes.',
+    icon: '/icons/achievements/multiverse_echoes.png',
+    category: 'geral',
+  },
+  {
+    id: 'animedle_veteran',
+    title: 'Veterano do AnimeDLE',
+    description: 'Alcançar 25 vitórias no total somando todos os modos e animes.',
+    icon: '/icons/achievements/animedle_veteran.png',
+    category: 'geral',
+  },
+  {
+    id: 'complete_collection',
+    title: 'Coleção Completa',
+    description: 'Desbloquear todas as outras 19 conquistas.',
+    icon: '/icons/achievements/complete_collection.png',
+    category: 'geral',
+  },
 ];
 
 export interface UnlockedAchievement {
@@ -113,12 +176,150 @@ export const unlockAchievement = (id: string): boolean => {
           detail: { id, info: ACHIEVEMENTS_LIST.find((a) => a.id === id) },
         })
       );
+
+      // Checa se todas as outras 19 conquistas foram desbloqueadas para liberar Coleção Completa!
+      if (id !== 'complete_collection') {
+        const other19 = ACHIEVEMENTS_LIST.filter(a => a.id !== 'complete_collection').map(a => a.id);
+        const allUnlocked = other19.every(reqId => !!current[reqId]);
+        if (allUnlocked) {
+          unlockAchievement('complete_collection');
+        }
+      }
+
       return true;
     }
   } catch (e) {
     // ignore
   }
   return false;
+};
+
+export const recordVictory = (animeSlug: string, mode: string, characterId?: string): void => {
+  try {
+    // 1. Total victories -> animedle_veteran
+    const totalWins = parseInt(localStorage.getItem('animedle_total_victories') || '0', 10) + 1;
+    localStorage.setItem('animedle_total_victories', totalWins.toString());
+    if (totalWins >= 25) {
+      unlockAchievement('animedle_veteran');
+    }
+
+    // 2. Modes won per anime -> universe_mastery (Classic, Grid, Zoom, Wanted, Quote)
+    const animeModesRaw = localStorage.getItem('animedle_anime_modes_won');
+    const animeModes: Record<string, string[]> = animeModesRaw ? JSON.parse(animeModesRaw) : {};
+    if (!animeModes[animeSlug]) {
+      animeModes[animeSlug] = [];
+    }
+    if (!animeModes[animeSlug].includes(mode)) {
+      animeModes[animeSlug].push(mode);
+      localStorage.setItem('animedle_anime_modes_won', JSON.stringify(animeModes));
+    }
+    const coreModes = ['classic', 'grid', 'zoom', 'wanted', 'quote'];
+    if (coreModes.every((m) => animeModes[animeSlug].includes(m))) {
+      unlockAchievement('universe_mastery');
+    }
+
+    // 3. Character modes won -> confirmed_identity (same character in 3 different modes)
+    if (characterId) {
+      const charModesRaw = localStorage.getItem('animedle_char_modes_won');
+      const charModes: Record<string, string[]> = charModesRaw ? JSON.parse(charModesRaw) : {};
+      if (!charModes[characterId]) {
+        charModes[characterId] = [];
+      }
+      if (!charModes[characterId].includes(mode)) {
+        charModes[characterId].push(mode);
+        localStorage.setItem('animedle_char_modes_won', JSON.stringify(charModes));
+      }
+      if (charModes[characterId].length >= 3) {
+        unlockAchievement('confirmed_identity');
+      }
+    }
+
+    // 4. Quote mode across 5 different animes -> multiverse_echoes
+    if (mode === 'quote') {
+      const quoteAnimesRaw = localStorage.getItem('animedle_quote_animes_won');
+      const quoteAnimes: string[] = quoteAnimesRaw ? JSON.parse(quoteAnimesRaw) : [];
+      if (!quoteAnimes.includes(animeSlug)) {
+        quoteAnimes.push(animeSlug);
+        localStorage.setItem('animedle_quote_animes_won', JSON.stringify(quoteAnimes));
+      }
+      if (quoteAnimes.length >= 5) {
+        unlockAchievement('multiverse_echoes');
+      }
+    }
+
+    // 5. Hero revenge -> win immediately after defeat in same anime and mode
+    const lastResultRaw = localStorage.getItem('animedle_last_match_result');
+    if (lastResultRaw) {
+      const lastResult = JSON.parse(lastResultRaw);
+      if (lastResult.animeSlug === animeSlug && lastResult.mode === mode && lastResult.isDefeat) {
+        unlockAchievement('hero_revenge');
+      }
+    }
+    // Update last match as won
+    localStorage.setItem(
+      'animedle_last_match_result',
+      JSON.stringify({ animeSlug, mode, isDefeat: false, timestamp: Date.now() })
+    );
+
+    // 6. Multi anime -> played in 5 different animes
+    const playedAnimes: string[] = JSON.parse(localStorage.getItem('animedle_played_animes') || '[]');
+    if (!playedAnimes.includes(animeSlug)) {
+      playedAnimes.push(animeSlug);
+      localStorage.setItem('animedle_played_animes', JSON.stringify(playedAnimes));
+    }
+    if (playedAnimes.length >= 5) {
+      unlockAchievement('multi_anime');
+    }
+
+    // 7. Iron will -> 10 matches without surrendering
+    const noSurrender = parseInt(localStorage.getItem('animedle_no_surrender_streak') || '0', 10) + 1;
+    localStorage.setItem('animedle_no_surrender_streak', noSurrender.toString());
+    if (noSurrender >= 10) {
+      unlockAchievement('iron_will');
+    }
+  } catch (e) {
+    // ignore
+  }
+};
+
+export const recordDefeat = (animeSlug: string, mode: string): void => {
+  try {
+    localStorage.setItem(
+      'animedle_last_match_result',
+      JSON.stringify({ animeSlug, mode, isDefeat: true, timestamp: Date.now() })
+    );
+
+    // Multi anime tracking even on defeat
+    const playedAnimes: string[] = JSON.parse(localStorage.getItem('animedle_played_animes') || '[]');
+    if (!playedAnimes.includes(animeSlug)) {
+      playedAnimes.push(animeSlug);
+      localStorage.setItem('animedle_played_animes', JSON.stringify(playedAnimes));
+    }
+    if (playedAnimes.length >= 5) {
+      unlockAchievement('multi_anime');
+    }
+
+    // Matches without surrender also counts completed defeats that weren't surrendered!
+    const noSurrender = parseInt(localStorage.getItem('animedle_no_surrender_streak') || '0', 10) + 1;
+    localStorage.setItem('animedle_no_surrender_streak', noSurrender.toString());
+    if (noSurrender >= 10) {
+      unlockAchievement('iron_will');
+    }
+  } catch (e) {
+    // ignore
+  }
+};
+
+export const recordSurrender = (animeSlug: string, mode: string): void => {
+  try {
+    localStorage.setItem('animedle_no_surrender_streak', '0');
+    localStorage.setItem(
+      'animedle_last_match_result',
+      JSON.stringify({ animeSlug, mode, isDefeat: true, isSurrendered: true, timestamp: Date.now() })
+    );
+  } catch (e) {
+    // ignore
+  }
 };
 
 // Registra dia jogado para o calendário de atividade
