@@ -634,10 +634,41 @@ export const App: React.FC<{
     return { played: 0, wins: 0, currentStreak: 0, maxStreak: 0, guessDistribution: {} };
   });
 
-  // Salva estatísticas globais
+  // Salva estatísticas globais com proteção contra sobrescrita de estado antigo
   useEffect(() => {
-    localStorage.setItem('animedle_stats', JSON.stringify(stats));
+    try {
+      const saved = localStorage.getItem('animedle_stats');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if ((stats.played || 0) >= (parsed.played || 0)) {
+          localStorage.setItem('animedle_stats', JSON.stringify(stats));
+        }
+      } else {
+        localStorage.setItem('animedle_stats', JSON.stringify(stats));
+      }
+    } catch {
+      localStorage.setItem('animedle_stats', JSON.stringify(stats));
+    }
   }, [stats]);
+
+  // Listener para sincronização instantânea das estatísticas por eventos globais
+  useEffect(() => {
+    const handleStatsUpdated = (e: Event) => {
+      const detail = (e as CustomEvent<GameStats>).detail;
+      if (detail) {
+        setStats(detail);
+      } else {
+        const saved = localStorage.getItem('animedle_stats');
+        if (saved) {
+          try {
+            setStats(JSON.parse(saved));
+          } catch (err) {}
+        }
+      }
+    };
+    window.addEventListener('animedle_stats_updated', handleStatsUpdated);
+    return () => window.removeEventListener('animedle_stats_updated', handleStatsUpdated);
+  }, []);
 
   // Carrega progresso independente de CADA MODO do localStorage ao trocar de modo/anime
   useEffect(() => {
@@ -1099,6 +1130,7 @@ export const App: React.FC<{
             animeTitle={animeConfig.title}
             characters={characters}
             themeColor={animeConfig.themeColor}
+            onGlobalStatsChange={(newStats) => setStats(newStats)}
           />
         )}
 
@@ -1209,7 +1241,20 @@ export const App: React.FC<{
       )}
 
       {showHowToPlay && <HowToPlayModal onClose={() => setShowHowToPlay(false)} />}
-      {showStats && <StatsModal stats={stats} onClose={() => setShowStats(false)} themeColor={animeConfig.themeColor} />}
+      {showStats && (
+        <StatsModal
+          stats={(() => {
+            try {
+              const s = localStorage.getItem('animedle_stats');
+              return s ? JSON.parse(s) : stats;
+            } catch {
+              return stats;
+            }
+          })()}
+          onClose={() => setShowStats(false)}
+          themeColor={animeConfig.themeColor}
+        />
+      )}
       {showMangaCoverage && (
         <MangaCoverageModal
           animeConfig={animeConfig}

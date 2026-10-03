@@ -31,6 +31,7 @@ interface ExclusiveAnimeModeProps {
   characters: Character[];
   themeColor: string;
   animeTitle?: string;
+  onGlobalStatsChange?: (newStats: any) => void;
 }
 
 interface SavedDailyExclusiveState {
@@ -48,6 +49,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   characters,
   themeColor,
   animeTitle = 'AnimeDLE',
+  onGlobalStatsChange,
 }) => {
   const [isEndless, setIsEndless] = useState<boolean>(false);
   const challenges = useMemo(() => getChallengesForAnime(animeSlug), [animeSlug]);
@@ -118,6 +120,8 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       const maxStreak = Math.max(prev.maxStreak || 0, currentStreak);
       const updated = { ...prev, played, wins, currentStreak, maxStreak };
       localStorage.setItem('animedle_stats', JSON.stringify(updated));
+      window.dispatchEvent(new CustomEvent('animedle_stats_updated', { detail: updated }));
+      onGlobalStatsChange?.(updated);
       return updated;
     } catch (e) {
       return undefined;

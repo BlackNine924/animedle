@@ -572,7 +572,7 @@
     ],
     "avatar": "/avatars/my-hero-academia/present-mic.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Herói Profissional / Locutor / Professor",
     "species": "Humano"
   },
@@ -1840,7 +1840,7 @@
     ],
     "combatType": "Magia / Sobrenatural",
     "roleOrArchetype": "Mentor",
-    "hairColor": "Branco",
+    "hairColor": "Cabelo Branco / Prateado",
     "avatar": "/avatars/my-hero-academia/vlad-king.png"
   },
   {
@@ -1863,7 +1863,7 @@
     ],
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Mentor / Suporte Cômico",
-    "hairColor": "Castanho",
+    "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/my-hero-academia/hound-dog.png"
   },
   {
@@ -1886,7 +1886,7 @@
     ],
     "combatType": "Magia / Sobrenatural",
     "roleOrArchetype": "Mentor",
-    "hairColor": "Preto",
+    "hairColor": "Cabelo Preto",
     "avatar": "/avatars/my-hero-academia/ectoplasm.png"
   },
   {
@@ -1909,7 +1909,7 @@
     ],
     "combatType": "Magia / Sobrenatural",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Branco",
+    "hairColor": "Cabelo Branco / Prateado",
     "avatar": "/avatars/my-hero-academia/eri.png"
   },
   {
@@ -1932,7 +1932,7 @@
     ],
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Preto",
+    "hairColor": "Cabelo Preto",
     "avatar": "/avatars/my-hero-academia/kota-izumi.png"
   },
   {
@@ -1954,7 +1954,7 @@
     ],
     "combatType": "Magia / Sobrenatural",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Preto",
+    "hairColor": "Cabelo Preto",
     "avatar": "/avatars/my-hero-academia/rock-lock.png"
   }
 ]

@@ -15,7 +15,7 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Eu vou ser o Rei dos Piratas!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b40-MNypXsxSRb1R.png",
+    "avatar": "/avatars/one-piece/monkey-d-luffy.png",
     "techniques": [
       "Gear 5 (Nika)",
       "Bajrang Gun"
@@ -41,7 +41,7 @@
     "debutArc": "Alabasta",
     "status": "Viva",
     "quote": "Eu quero viver!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b61-ywXUyyocEEqt.png",
+    "avatar": "/avatars/one-piece/nico-robin.png",
     "techniques": [
       "Demonio Fleur",
       "Mil Fleur"
@@ -65,7 +65,7 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Nada aconteceu...",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b62-S7oAeA9WInjV.png",
+    "avatar": "/avatars/one-piece/roronoa-zoro.png",
     "techniques": [
       "Asura",
       "Corte do Rei do Inferno (Enma)"
@@ -90,7 +90,7 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "quote": "SUUUUPER!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n64-ChX6ZzHHjXqA.png",
+    "avatar": "/avatars/one-piece/franky.png",
     "techniques": [
       "Radical Beam",
       "General Franky"
@@ -115,7 +115,7 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "A cozinha é sagrada!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b305-6lisPmHtCnLT.png",
+    "avatar": "/avatars/one-piece/sanji.png",
     "techniques": [
       "Ifrit Jambe",
       "Diable Jambe"
@@ -139,7 +139,7 @@
     "debutArc": "Alabasta",
     "status": "Vivo",
     "quote": "Elogios não me deixam feliz, seu idiota!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b309-H64NhbJ2ywIQ.jpg",
+    "avatar": "/avatars/one-piece/tony-tony-chopper.png",
     "techniques": [
       "Monster Point",
       "Kung Fu Point"
@@ -164,7 +164,7 @@
     "debutArc": "East Blue",
     "status": "Viva",
     "quote": "Eu vou desenhar um mapa de todo o mundo!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b723-vp5hPptgnNEC.png",
+    "avatar": "/avatars/one-piece/nami.png",
     "techniques": [
       "Thunderbolt Tempo",
       "Zeus Breeze Tempo"
@@ -188,7 +188,7 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Eu sou o Capitão Usopp!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b724-GFGgI9AJQkfy.jpg",
+    "avatar": "/avatars/one-piece/usopp.png",
     "techniques": [
       "Pop Greens",
       "Hissatsu Green Star"
@@ -213,7 +213,7 @@
     "debutArc": "Thriller Bark",
     "status": "Vivo",
     "quote": "Poderia me mostrar sua calcinha?",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5627-av8oD3zhKvDl.png",
+    "avatar": "/avatars/one-piece/brook.png",
     "techniques": [
       "Esgrima Soul Solid",
       "Corte Congelante"
@@ -239,7 +239,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "Eu sou um homem que deseja servir o futuro Rei dos Piratas!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18938-yZANEfjsVhW4.png",
+    "avatar": "/avatars/one-piece/jinbe.png",
     "techniques": [
       "Gyo-Jin Karate",
       "Vagabond Drill"
@@ -267,13 +267,13 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Eu sou o lendário Capitão Buggy, Gyahahaha!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n725-g04AaiaK5f9B.png",
+    "avatar": "/avatars/one-piece/buggy.png",
     "techniques": [
       "Bara Bara Festival",
       "Muggy Ball"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -293,7 +293,7 @@
     "debutArc": "Alabasta",
     "status": "Viva",
     "quote": "Se nos reencontrarmos um dia, vocês ainda me chamarão de companheira?",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b726-DqAIpscMuYYx.png",
+    "avatar": "/avatars/one-piece/nefertari-vivi.png",
     "techniques": [
       "Peacock Slasher"
     ],
@@ -318,7 +318,7 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Não perdoo ninguém que machuque meus amigos!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b727-wUJx7M1z5xON.png",
+    "avatar": "/avatars/one-piece/shanks.png",
     "techniques": [
       "Kamusari (Divine Departure)",
       "Gryphon"
@@ -342,7 +342,7 @@
     "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "Eu sou o Deus!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b1541-6c8RouunoL88.jpg",
+    "avatar": "/avatars/one-piece/enel.png",
     "techniques": [
       "Raigo",
       "200 Milhões de Volts Amaru"
@@ -367,7 +367,7 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Descubra seu verdadeiro eu, torne-se forte!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n2064-OpnF4nLi6bvL.png",
+    "avatar": "/avatars/one-piece/dracule-mihawk.png",
     "techniques": [
       "Corte Supremo com Lâmina Negra Yoru"
     ],
@@ -391,7 +391,7 @@
     "debutArc": "Alabasta",
     "status": "Morto",
     "quote": "Obrigado por me amarem!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2072-Lc6jEdsueJUK.jpg",
+    "avatar": "/avatars/one-piece/portgas-d-ace.png",
     "techniques": [
       "Hiken (Punho de Fogo)",
       "Dai Enkai: Entei"
@@ -414,7 +414,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2519-OfgRt6mP6Ae8.jpg",
+    "avatar": "/avatars/one-piece/kuro.png",
     "quote": "",
     "techniques": [
       "Shakushi (Passagem da Morte)"
@@ -438,7 +438,7 @@
     "styleOrPower": "Paramecia (Bane Bane no Mi)",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2748-vnCKira7yjrp.jpg",
+    "avatar": "/avatars/one-piece/bellamy.png",
     "quote": "",
     "techniques": [
       "Spring Hopper"
@@ -464,7 +464,7 @@
     "debutArc": "Alabasta",
     "status": "Vivo",
     "quote": "Confiança é a palavra mais inútil deste mundo.",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2749-e8ebEBN1SlS2.png",
+    "avatar": "/avatars/one-piece/crocodile.png",
     "techniques": [
       "Desert Spada",
       "Sables"
@@ -487,13 +487,13 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2750-j3Rf9SC37ehT.jpg",
+    "avatar": "/avatars/one-piece/tashigi.png",
     "quote": "",
     "techniques": [
       "Corte de Katana com Armamento"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -538,7 +538,7 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "quote": "Justiça Preguiçosa.",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2752-0ENS2a39muDz.png",
+    "avatar": "/avatars/one-piece/kuzan.png",
     "techniques": [
       "Ice Age",
       "Ice Saber"
@@ -561,7 +561,7 @@
     "styleOrPower": "Logia (Moku Moku no Mi)",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2753-Y2ja8Pl6PRs0.jpg",
+    "avatar": "/avatars/one-piece/smoker.png",
     "quote": "",
     "techniques": [
       "White Blow",
@@ -587,7 +587,7 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Preso",
     "quote": "Os vencedores ditarão o que é a justiça!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b2754-B4gGSlNYgsyh.jpg",
+    "avatar": "/avatars/one-piece/donquixote-doflamingo.png",
     "techniques": [
       "God Thread",
       "Parasite"
@@ -612,7 +612,7 @@
     "styleOrPower": "Paramecia (Doru Doru no Mi)",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3879-wxKVpYpup7ji.png",
+    "avatar": "/avatars/one-piece/galdino.png",
     "quote": "",
     "techniques": [
       "Armadura de Cera",
@@ -637,7 +637,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4393-1ljQxAeV20kB.png",
+    "avatar": "/avatars/one-piece/kureha.png",
     "quote": "",
     "techniques": [
       "Tratamento Médico de Precisão"
@@ -661,7 +661,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4784-N2iuEYijo01x.png",
+    "avatar": "/avatars/one-piece/kumadori.png",
     "quote": "",
     "techniques": [
       "Shigan",
@@ -686,14 +686,14 @@
     "styleOrPower": "Paramecia (Mane Mane no Mi)",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n4875-Ga2TVjP70R6r.png",
+    "avatar": "/avatars/one-piece/bentham.png",
     "quote": "",
     "techniques": [
       "Okama Kenpo",
       "Cópia de Aparência"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -710,7 +710,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4882-2zsLPjqUeOJ4.png",
+    "avatar": "/avatars/one-piece/ben-beckman.png",
     "quote": "",
     "techniques": [
       "Disparo Tático de Fuzil"
@@ -733,7 +733,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4883-0t76xH00sehO.png",
+    "avatar": "/avatars/one-piece/roger-gold.png",
     "quote": "",
     "techniques": [
       "Kamusari (Divine Departure)"
@@ -756,7 +756,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4884-iBn6FzQ2ESLC.png",
+    "avatar": "/avatars/one-piece/dragon.png",
     "quote": "",
     "techniques": [
       "Ryusoken",
@@ -780,7 +780,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4885-wabOwg3GFpfK.jpg",
+    "avatar": "/avatars/one-piece/lucky-roux.png",
     "quote": "",
     "techniques": [
       "Saque Rápido de Pistola"
@@ -804,7 +804,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4886-QwqBEUBwKgIr.png",
+    "avatar": "/avatars/one-piece/jango.png",
     "quote": "",
     "techniques": [
       "Hipnose com Pêndulo de Anel"
@@ -828,7 +828,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4887-hMOqSSpR5jFc.jpg",
+    "avatar": "/avatars/one-piece/arlong.png",
     "quote": "",
     "techniques": [
       "Shark On Darts",
@@ -853,7 +853,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4888-ZVkyNRqxa3it.png",
+    "avatar": "/avatars/one-piece/nojiko.png",
     "quote": "",
     "techniques": [
       "Disparo de Defesa Comunitária"
@@ -878,7 +878,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4889.jpg",
+    "avatar": "/avatars/one-piece/hatchan.png",
     "quote": "",
     "techniques": [
       "Tako Shinju",
@@ -903,7 +903,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4890.jpg",
+    "avatar": "/avatars/one-piece/bellemere.png",
     "quote": "",
     "techniques": [
       "Combate de Espingarda Naval"
@@ -927,7 +927,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4891-y8cWYU2t7tcu.png",
+    "avatar": "/avatars/one-piece/chew.png",
     "quote": "",
     "techniques": [
       "Mizudoppo",
@@ -977,7 +977,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4893.jpg",
+    "avatar": "/avatars/one-piece/johnny.png",
     "quote": "",
     "techniques": [
       "Corte Duplo com Yosaku"
@@ -1001,7 +1001,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4894.jpg",
+    "avatar": "/avatars/one-piece/yosaku.png",
     "quote": "",
     "techniques": [
       "Corte Duplo com Johnny"
@@ -1025,7 +1025,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4895-REV7XgeR7nRd.png",
+    "avatar": "/avatars/one-piece/kuroobi.png",
     "quote": "",
     "techniques": [
       "Hyakukai Satsu",
@@ -1050,7 +1050,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4896.jpg",
+    "avatar": "/avatars/one-piece/mohji.png",
     "quote": "",
     "techniques": [
       "Ataque do Leão Richie",
@@ -1075,7 +1075,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4897-3dFXuF1vcLJQ.jpg",
+    "avatar": "/avatars/one-piece/cabaji.png",
     "quote": "",
     "techniques": [
       "Kamikaze Hyakugoma",
@@ -1100,7 +1100,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/4898.jpg",
+    "avatar": "/avatars/one-piece/richie.png",
     "quote": "",
     "techniques": [
       "Patada de Leão",
@@ -1126,7 +1126,7 @@
     "styleOrPower": "Paramecia (Sube Sube no Mi)",
     "debutArc": "East Blue",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b4899-bFPCVRWyqMtO.jpg",
+    "avatar": "/avatars/one-piece/alvida.png",
     "quote": "",
     "techniques": [
       "Sube Sube Spur",
@@ -1152,7 +1152,7 @@
     "debutArc": "East Blue",
     "status": "Viva",
     "quote": "",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/5412.jpg",
+    "avatar": "/avatars/one-piece/apis.png",
     "techniques": [
       "Comunicação Telepática Animal"
     ],
@@ -1175,7 +1175,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5413-4j9gPyHIiYim.png",
+    "avatar": "/avatars/one-piece/laboon.png",
     "quote": "",
     "techniques": [
       "Cabeçada de Baleia das Ilhas"
@@ -1199,7 +1199,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5415-pIQGogXQgOLf.png",
+    "avatar": "/avatars/one-piece/igaram.png",
     "quote": "",
     "techniques": [
       "Igarappai (Tiroteio de Saxofone e Cabelo)"
@@ -1223,7 +1223,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5416-XTIxwcMXy0Nj.png",
+    "avatar": "/avatars/one-piece/miss-monday.png",
     "quote": "",
     "techniques": [
       "Soco de Soco Inglês Muscular"
@@ -1246,7 +1246,7 @@
     "styleOrPower": "Paramecia (Kilo Kilo no Mi)",
     "debutArc": "Alabasta",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5417-Zv0W82y0lrae.png",
+    "avatar": "/avatars/one-piece/mikita.png",
     "quote": "",
     "techniques": [
       "10,000 Kilo Press"
@@ -1269,7 +1269,7 @@
     "styleOrPower": "Paramecia (Bomu Bomu no Mi)",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5418-5HdgBfpTAWRm.png",
+    "avatar": "/avatars/one-piece/gem.png",
     "quote": "",
     "techniques": [
       "Nose Fancy Cannon",
@@ -1293,7 +1293,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5419-08ykKbUsGNCf.jpg",
+    "avatar": "/avatars/one-piece/marianne.png",
     "quote": "",
     "techniques": [
       "Pintura de Controle de Humor (Vermelho/Verde/Azul)"
@@ -1363,7 +1363,7 @@
     "styleOrPower": "Paramecia (Baku Baku no Mi)",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5422-QfzPleyyng7n.jpg",
+    "avatar": "/avatars/one-piece/wapol.png",
     "quote": "",
     "techniques": [
       "Baku Baku Factory",
@@ -1387,7 +1387,7 @@
     "styleOrPower": "Zoan (Ushi Ushi no Mi: Modelo Bisão)",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5423-n38TDrDIqKs6.jpg",
+    "avatar": "/avatars/one-piece/dalton.png",
     "quote": "",
     "techniques": [
       "Fiddle Banisher",
@@ -1414,7 +1414,7 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "quote": "Minha única motivação é a matança em nome da Justiça.",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5677-ZrZunVe7Kq5P.png",
+    "avatar": "/avatars/one-piece/rob-lucci.png",
     "techniques": [
       "Rokuogan",
       "Formas Despertadas de Leopardo"
@@ -1438,7 +1438,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5750-Li0UhhHyfGtL.jpg",
+    "avatar": "/avatars/one-piece/iceburg.png",
     "quote": "",
     "techniques": [
       "Liderança de Galley-La",
@@ -1464,7 +1464,7 @@
     "styleOrPower": "Paramecia (Awa Awa no Mi)",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b5910-Ec5mCnChAdBT.jpg",
+    "avatar": "/avatars/one-piece/kalifa.png",
     "quote": "",
     "techniques": [
       "Golden Hour",
@@ -1490,7 +1490,7 @@
     "styleOrPower": "Zoan (Ushi Ushi no Mi: Modelo Girafa)",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b6183-gmHoUzp8Eh8E.png",
+    "avatar": "/avatars/one-piece/kaku.png",
     "quote": "",
     "techniques": [
       "Rankyaku Kiri Shigure",
@@ -1514,7 +1514,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b6496-WBa6DFzRcZSe.png",
+    "avatar": "/avatars/one-piece/chimney.png",
     "quote": "",
     "techniques": [
       "Assistência de Navegação com Gonbe"
@@ -1539,7 +1539,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b6551-szpvKXmtWqGX.png",
+    "avatar": "/avatars/one-piece/spandam.png",
     "quote": "",
     "techniques": [
       "Elephant Chop com Funkfreed"
@@ -1562,7 +1562,7 @@
     "styleOrPower": "Paramecia (Atsu Atsu no Mi)",
     "debutArc": "Thriller Bark",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/7400.jpg",
+    "avatar": "/avatars/one-piece/don-achino.png",
     "quote": "",
     "techniques": [
       "Calor Extremo de 10.000 Graus"
@@ -1588,7 +1588,7 @@
     "debutArc": "Thriller Bark",
     "status": "Vivo",
     "quote": "Se você fosse fazer uma viagem... para onde gostaria de ir?",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7453-c3MArieFBs9w.png",
+    "avatar": "/avatars/one-piece/bartholomew-kuma.png",
     "techniques": [
       "Ursus Shock",
       "Teletransporte por Patas"
@@ -1612,7 +1612,7 @@
     "styleOrPower": "Paramecia (Kage Kage no Mi)",
     "debutArc": "Thriller Bark",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7454-WN77wNFvGtp8.png",
+    "avatar": "/avatars/one-piece/moria-gecko.png",
     "quote": "",
     "techniques": [
       "Shadows' Asgard",
@@ -1636,7 +1636,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Thriller Bark",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/7455.jpg",
+    "avatar": "/avatars/one-piece/doctor-hogback.png",
     "quote": "",
     "techniques": [
       "Criação e Enxerto de Corpos Zumbis"
@@ -1659,14 +1659,14 @@
     "styleOrPower": "Paramecia (Horo Horo no Mi)",
     "debutArc": "Thriller Bark",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7467-0xxnaxQGfhkY.jpg",
+    "avatar": "/avatars/one-piece/perona.png",
     "quote": "",
     "techniques": [
       "Negative Hollow",
       "Mini Hollow"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1683,7 +1683,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b7644-4sCeX6T4WtTO.jpg",
+    "avatar": "/avatars/one-piece/wyper.png",
     "quote": "",
     "techniques": [
       "Disparo de Reject Dial",
@@ -1709,13 +1709,13 @@
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "quote": "Punho do Amor!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b8064-dPltKaZ8RAsj.jpg",
+    "avatar": "/avatars/one-piece/garp.png",
     "techniques": [
       "Galaxy Impact",
       "Galaxy Divide"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1733,7 +1733,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b8503-UxUPQK83zl5L.png",
+    "avatar": "/avatars/one-piece/paulie.png",
     "quote": "",
     "techniques": [
       "Half Knot",
@@ -1757,7 +1757,7 @@
     "styleOrPower": "Zoan (Tori Tori no Mi: Modelo Falcão)",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9098-gsUJ1Zx5tYnA.png",
+    "avatar": "/avatars/one-piece/pell.png",
     "quote": "",
     "techniques": [
       "Tobizaru",
@@ -1781,7 +1781,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9320-lHsw9jNk5889.png",
+    "avatar": "/avatars/one-piece/krieg-don.png",
     "quote": "",
     "techniques": [
       "Gás Venenoso MH5",
@@ -1805,7 +1805,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9321.jpg",
+    "avatar": "/avatars/one-piece/gin.png",
     "quote": "",
     "techniques": [
       "Combate de Bastões Pesados"
@@ -1828,14 +1828,14 @@
     "styleOrPower": "Zoan Mítica (Tori Tori no Mi: Modelo Fênix)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9323-tGArly93xBZv.png",
+    "avatar": "/avatars/one-piece/marco.png",
     "quote": "",
     "techniques": [
       "Chamas Azuis de Ressurreição",
       "Houba"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1852,7 +1852,7 @@
     "styleOrPower": "Zoan (Asas de Fruta Voadora & Infiltração)",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9327-LSoZrnwtFNDE.png",
+    "avatar": "/avatars/one-piece/lafitte.png",
     "quote": "",
     "techniques": [
       "Hipnose",
@@ -1876,7 +1876,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9333-hMdvqj4LuuLn.jpg",
+    "avatar": "/avatars/one-piece/morgan.png",
     "quote": "",
     "techniques": [
       "Corte Brutal de Machado Acoplado"
@@ -1899,7 +1899,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9344-20tLwZwAXTX0.png",
+    "avatar": "/avatars/one-piece/nefertari-cobra.png",
     "quote": "",
     "techniques": [
       "Governança da Casa de Nefertari"
@@ -1922,7 +1922,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Thriller Bark",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b25393-4BfkE6TdYvRV.jpg",
+    "avatar": "/avatars/one-piece/oars.png",
     "quote": "",
     "techniques": [
       "Gomu Gomu no Gatling de Zumbi"
@@ -1945,7 +1945,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9562-spNkmlnOZf7C.png",
+    "avatar": "/avatars/one-piece/yasopp.png",
     "quote": "",
     "techniques": [
       "Sniper de Visão Futura"
@@ -1968,7 +1968,7 @@
     "styleOrPower": "Paramecia (Suke Suke no Mi)",
     "debutArc": "Thriller Bark",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9655.jpg",
+    "avatar": "/avatars/one-piece/absalom.png",
     "quote": "",
     "techniques": [
       "Invisibilidade",
@@ -1992,7 +1992,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9880.jpg",
+    "avatar": "/avatars/one-piece/kaya.png",
     "quote": "",
     "techniques": [
       "Tratamento de Enfermagem"
@@ -2016,7 +2016,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10101-jLtRLVyRj4Ix.png",
+    "avatar": "/avatars/one-piece/keimi.png",
     "quote": "",
     "techniques": [
       "Resgate e Veloz Natação de Sereia"
@@ -2039,7 +2039,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10147-tW0OsGd9jIW4.png",
+    "avatar": "/avatars/one-piece/gaimon.png",
     "quote": "",
     "techniques": [
       "Disparo de Espingarda de Dentro do Baú"
@@ -2063,7 +2063,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/10444.jpg",
+    "avatar": "/avatars/one-piece/zeff.png",
     "quote": "",
     "techniques": [
       "Chutes de Destruição e Culinária"
@@ -2086,7 +2086,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10668-JCNeCZ2ap8UR.png",
+    "avatar": "/avatars/one-piece/conis.png",
     "quote": "",
     "techniques": [
       "Suporte de Waver",
@@ -2110,7 +2110,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10804-LwE7idTlz6N3.png",
+    "avatar": "/avatars/one-piece/pagaya.png",
     "quote": "",
     "techniques": [
       "Manutenção de Dials e Wavers"
@@ -2133,7 +2133,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Long Ring Long Land",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b10910-n5K3FIB8rLvD.png",
+    "avatar": "/avatars/one-piece/porche.png",
     "quote": "",
     "techniques": [
       "Shuriken de Bastão de Flores Cutie"
@@ -2233,7 +2233,7 @@
     "styleOrPower": "Zoan (Inu Inu no Mi: Modelo Lobo)",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b11400-Ra81iEpbLveF.png",
+    "avatar": "/avatars/one-piece/jyabura.png",
     "quote": "",
     "techniques": [
       "Tekkai Kenpo",
@@ -2257,7 +2257,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/12232.jpg",
+    "avatar": "/avatars/one-piece/rockstar.png",
     "quote": "",
     "techniques": [
       "Espada de Vibração Cortante"
@@ -2281,14 +2281,14 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b12361-H0SmgKxZ9T61.png",
+    "avatar": "/avatars/one-piece/koby.png",
     "quote": "",
     "techniques": [
       "Honesty Impact",
       "Soru"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2306,14 +2306,14 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/12362.jpg",
+    "avatar": "/avatars/one-piece/helmeppo.png",
     "quote": "",
     "techniques": [
       "Corte Duplo de Kukri",
       "Rokushiki"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2336,7 +2336,7 @@
       "Ondas de Choque de Buda Dourado"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2354,7 +2354,7 @@
     "debutArc": "Alabasta",
     "status": "Vivo",
     "quote": "",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/13109.jpg",
+    "avatar": "/avatars/one-piece/babe.png",
     "techniques": [
       "Rebatida de Bombas Lassoo"
     ],
@@ -2377,14 +2377,14 @@
     "styleOrPower": "Paramecia (Ope Ope no Mi)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b13767-U604OJN9dxCn.jpg",
+    "avatar": "/avatars/one-piece/law-trafalgar.png",
     "quote": "",
     "techniques": [
       "Kroom (Anesth/Puncture Wille)",
       "Room Gamma Knife"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2402,7 +2402,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b14989-uykLqnBTdAc2.jpg",
+    "avatar": "/avatars/one-piece/eustass-kid.png",
     "techniques": [
       "Damned Punk",
       "Assign"
@@ -2427,7 +2427,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Viva",
     "quote": "Eu serei perdoada porque sou linda!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b16342-kVOF6V5Q94go.png",
+    "avatar": "/avatars/one-piece/boa-hancock.png",
     "techniques": [
       "Mero Mero Mellow",
       "Slave Arrow"
@@ -2452,7 +2452,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "Existir neste mundo significa viver sem se arrepender de nada.",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17142-OXOpztWZIE2A.png",
+    "avatar": "/avatars/one-piece/silvers-rayleigh.png",
     "techniques": [
       "Corte de Armamento Avançado",
       "Emissão de Conquistador"
@@ -2475,7 +2475,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n17190-BCsc92WDAZPs.png",
+    "avatar": "/avatars/one-piece/calgara.png",
     "quote": "",
     "techniques": [
       "Arremesso de Esfera Gigante de Aço"
@@ -2498,7 +2498,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n17191-CxjdmuAITdiU.png",
+    "avatar": "/avatars/one-piece/norland-montblanc.png",
     "quote": "",
     "techniques": [
       "Corte de Espada Longa",
@@ -2522,7 +2522,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17492-PCFNvded635o.png",
+    "avatar": "/avatars/one-piece/bepo.png",
     "quote": "",
     "techniques": [
       "Forma Sulong",
@@ -2546,7 +2546,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17561-aGldMpVI60Uh.png",
+    "avatar": "/avatars/one-piece/gedatsu.png",
     "quote": "",
     "techniques": [
       "Swamp Burger",
@@ -2570,7 +2570,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Thriller Bark",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b17763-EokkfpNw5ZG8.png",
+    "avatar": "/avatars/one-piece/yorki.png",
     "quote": "",
     "techniques": [
       "Corte de Sabre Pirata"
@@ -2594,7 +2594,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18437-8HWmSV6WxNOg.jpg",
+    "avatar": "/avatars/one-piece/spandine.png",
     "quote": "",
     "techniques": [
       "Comando do Buster Call de Ohara"
@@ -2618,7 +2618,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18783-aDvOKx7yBGbu.png",
+    "avatar": "/avatars/one-piece/mohmoo.png",
     "quote": "",
     "techniques": [
       "Investida Subaquática de Vaca Marinha"
@@ -2641,7 +2641,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/18784.jpg",
+    "avatar": "/avatars/one-piece/kung-fu-dugong.png",
     "quote": "",
     "techniques": [
       "Socos e Defesas de Artes Marciais"
@@ -2664,14 +2664,14 @@
     "styleOrPower": "Zoan Artificial (Foices Giratórias Punishers)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b18827-uvYXjeffe0gW.png",
+    "avatar": "/avatars/one-piece/killer.png",
     "quote": "",
     "techniques": [
       "Soni Sonic",
       "Kamaa Sonic"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2713,7 +2713,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b19271-AqWZCtTJieBx.jpg",
+    "avatar": "/avatars/one-piece/hiluluk.png",
     "quote": "",
     "techniques": [
       "Pó de Flor de Cerejeira Milagrosa"
@@ -2736,7 +2736,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b19311-kCSCnSAMkxHO.png",
+    "avatar": "/avatars/one-piece/pappag.png",
     "quote": "",
     "techniques": [
       "Fala Humana",
@@ -2760,7 +2760,7 @@
     "styleOrPower": "Paramecia (Ori Ori no Mi)",
     "debutArc": "Alabasta",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20091-tOTt36l8zDCw.png",
+    "avatar": "/avatars/one-piece/hina.png",
     "quote": "",
     "techniques": [
       "Kimori Cage (Gaiolas de Aço)"
@@ -2783,7 +2783,7 @@
     "styleOrPower": "Zoan (Mogu Mogu no Mi)",
     "debutArc": "Alabasta",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20098-r4uk4YsAKR2t.jpg",
+    "avatar": "/avatars/one-piece/miss-merry-christmas.png",
     "quote": "",
     "techniques": [
       "Mogu Mogu Impact",
@@ -2808,7 +2808,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20178-W192714k10S8.jpg",
+    "avatar": "/avatars/one-piece/shakuyaku.png",
     "quote": "",
     "techniques": [
       "Combate Corporal de ex-Imperatriz Kuja"
@@ -2832,7 +2832,7 @@
     "styleOrPower": "Paramecia (Oto Oto no Mi)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20288-7ccM0oyUvyLu.jpg",
+    "avatar": "/avatars/one-piece/scratchmen-apoo.png",
     "quote": "",
     "techniques": [
       "Tataki",
@@ -2859,7 +2859,7 @@
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Alossauro)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20289-2bumPKcGsWhU.jpg",
+    "avatar": "/avatars/one-piece/drake-x.png",
     "quote": "",
     "techniques": [
       "Mordida de Alossauro",
@@ -2883,7 +2883,7 @@
     "styleOrPower": "Paramecia (Shiro Shiro no Mi)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20292-6aIlR9qqSj1f.png",
+    "avatar": "/avatars/one-piece/capone-bege.png",
     "quote": "",
     "techniques": [
       "Big Father",
@@ -2908,7 +2908,7 @@
     "styleOrPower": "Paramecia (Wara Wara no Mi)",
     "debutArc": "Summit War (Marineford)",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20293-37ifsaMz7Kgx.png",
+    "avatar": "/avatars/one-piece/basil-hawkins.png",
     "quote": "",
     "techniques": [
       "Goma no Soga",
@@ -2932,7 +2932,7 @@
     "styleOrPower": "Paramecia (Amplificação de Retaliação de Danos)",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20294-6jBqrVoAQSaz.png",
+    "avatar": "/avatars/one-piece/urouge.png",
     "quote": "",
     "techniques": [
       "Expansão Corporal Titânica",
@@ -2958,7 +2958,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Viva",
     "quote": "",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20295-LqpG4Y3HkKxu.png",
+    "avatar": "/avatars/one-piece/jewelry-bonney.png",
     "techniques": [
       "Futuro Distorcido (Nika Futuro)",
       "Alteração de Idade"
@@ -2981,7 +2981,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/20308.jpg",
+    "avatar": "/avatars/one-piece/saint-charloss.png",
     "quote": "",
     "techniques": [
       "Disparo Sem Hesitação de Nobre Mundial"
@@ -3029,7 +3029,7 @@
     "styleOrPower": "Zoan (Hebi Hebi no Mi: Modelo Anaconda)",
     "debutArc": "Summit War (Marineford)",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20946-elHgWM7yJzed.png",
+    "avatar": "/avatars/one-piece/sandersonia-boa.png",
     "quote": "",
     "techniques": [
       "Hebigami Yatsuka",
@@ -3053,7 +3053,7 @@
     "styleOrPower": "Zoan (Hebi Hebi no Mi: Modelo Naja)",
     "debutArc": "Summit War (Marineford)",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b20947-GJhZTN6fOBQP.png",
+    "avatar": "/avatars/one-piece/marigold-boa.png",
     "quote": "",
     "techniques": [
       "Sopro de Fogo Salivar",
@@ -3078,7 +3078,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "Você já levou um chute na velocidade da luz?",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21093-Pc4kOjUn3ZkZ.png",
+    "avatar": "/avatars/one-piece/borsalino.png",
     "techniques": [
       "Yasakani no Magatama",
       "Ama no Murakumo"
@@ -3101,7 +3101,7 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21098-0sB3TMJiEauw.png",
+    "avatar": "/avatars/one-piece/jean-bart.png",
     "quote": "",
     "techniques": [
       "Escudo Humano de Proteção"
@@ -3125,7 +3125,7 @@
     "quote": "Eu não acho que você seja inferior a mim.",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b124077-TODX2ThCdyx2.png",
+    "avatar": "/avatars/one-piece/charlotte-katakuri.png",
     "techniques": [
       "Peerless Donuts",
       "Visão Futura (Kenbunshoku)"
@@ -3151,13 +3151,13 @@
     "quote": "Ma-ma-ma-ma! Vida ou Licença?!",
     "debutArc": "Whole Cake Island",
     "status": "Desconhecido",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b54495-3x1TzSzPEOLd.jpg",
+    "avatar": "/avatars/one-piece/charlotte-linlin.png",
     "techniques": [
       "Ikkoku Sovereignty",
       "Prometheus/Zeus/Hera"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3175,7 +3175,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181760-5H6hsVxrOSZk.jpg",
+    "avatar": "/avatars/one-piece/charlotte-perospero.png",
     "techniques": [
       "Candy Maiden",
       "Candy Wave"
@@ -3199,7 +3199,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136035-OWcGohs8YDwH.jpg",
+    "avatar": "/avatars/one-piece/charlotte-cracker.png",
     "techniques": [
       "Pretzel",
       "Soldados de Biscoito Infinitos"
@@ -3222,7 +3222,7 @@
     "styleOrPower": "Paramecia (Shibo Shibo no Mi)",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b136036-hWdz3OAupfri.jpg",
+    "avatar": "/avatars/one-piece/charlotte-smoothie.png",
     "quote": "",
     "techniques": [
       "Extratora de Líquidos",
@@ -3247,7 +3247,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n134006-ZmzLQ5FrdtnL.jpg",
+    "avatar": "/avatars/one-piece/charlotte-pudding.png",
     "techniques": [
       "Edição e Extração de Memórias"
     ],
@@ -3270,7 +3270,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127895-Io7YzfaJSW7t.png",
+    "avatar": "/avatars/one-piece/vinsmoke-judge.png",
     "techniques": [
       "Raiko Spear",
       "Wall com Exército Clone"
@@ -3294,12 +3294,12 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127891-FSRMoIQeDyV8.png",
+    "avatar": "/avatars/one-piece/vinsmoke-reiju.png",
     "techniques": [
       "Absorção e Disparo de Veneno Lethal"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3316,14 +3316,14 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127893-NSxMdNd6ggmP.png",
+    "avatar": "/avatars/one-piece/vinsmoke-ichiji.png",
     "quote": "",
     "techniques": [
       "Sparking Valkyrie",
       "Lasers de Fogo"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3340,14 +3340,14 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127896-Mc81M3k3pod0.png",
+    "avatar": "/avatars/one-piece/vinsmoke-niji.png",
     "quote": "",
     "techniques": [
       "Henry Needle",
       "Velocidade Elétrica"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3364,14 +3364,14 @@
     "styleOrPower": "Nenhum",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127892-SKNxHS3hS8TP.png",
+    "avatar": "/avatars/one-piece/vinsmoke-yonji.png",
     "quote": "",
     "techniques": [
       "Winch Danton",
       "Braço Mecânico Titânico"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3416,7 +3416,7 @@
     "quote": "Eu sou Kozuki Oden! E eu vou proteger este país!",
     "debutArc": "País de Wano",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b176840-8KRqXXLJeLOg.png",
+    "avatar": "/avatars/one-piece/yamato.png",
     "techniques": [
       "Narikabura Arrow",
       "Raimei Hakke"
@@ -3446,7 +3446,7 @@
       "Espada de Serra"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3471,7 +3471,7 @@
       "Tecnologias Germa Replicadas"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3513,7 +3513,7 @@
     "quote": "",
     "debutArc": "País de Wano",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b172135-YT7F61sARuG5.png",
+    "avatar": "/avatars/one-piece/ulti.png",
     "techniques": [
       "Ul-Meteor",
       "Cabeçada de Impacto"
@@ -3536,7 +3536,7 @@
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Espinossauro)",
     "debutArc": "País de Wano",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b172132-QpYBzNJ16R7n.jpg",
+    "avatar": "/avatars/one-piece/page-one.png",
     "quote": "",
     "techniques": [
       "Mordida e Garras de Espinossauro"
@@ -3562,7 +3562,7 @@
     "quote": "Eu sou Oden! E eu nasci para ferver!",
     "debutArc": "País de Wano",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b149797-UmdR7up3kgoK.png",
+    "avatar": "/avatars/one-piece/kozuki-oden.png",
     "techniques": [
       "Togen Totsuka",
       "Paradise Waterfall"
@@ -3587,7 +3587,7 @@
     "quote": "Meu nome é Kozuki Momonosuke! O homem que se tornará o Xogum de Wano!",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126184-QZ8JNecT5wQc.png",
+    "avatar": "/avatars/one-piece/kozuki-momonosuke.png",
     "techniques": [
       "Bolo Breath",
       "Nuvens de Chama (Homura-dama)"
@@ -3611,7 +3611,7 @@
     "quote": "",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b67345-YYWagqYcgghY.png",
+    "avatar": "/avatars/one-piece/kinemon.png",
     "techniques": [
       "Kitsunebiri (Corte de Fogo)"
     ],
@@ -3634,7 +3634,7 @@
     "quote": "Se o Luffy precisar de mim, estarei lá em qualquer lugar do mundo!",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b32893-3weZS61cdwLD.png",
+    "avatar": "/avatars/one-piece/sabo.png",
     "techniques": [
       "Ryusoken: Kaen Ryuo",
       "Hiken"
@@ -3658,7 +3658,7 @@
     "quote": "Milagres só acontecem para aqueles que nunca desistem!",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/22646.jpg",
+    "avatar": "/avatars/one-piece/emporio-ivankov.png",
     "techniques": [
       "Death Wink",
       "Injeção de Hormônios de Cura"
@@ -3682,7 +3682,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126145-J8CvqhgL7SRG.png",
+    "avatar": "/avatars/one-piece/karasu.png",
     "techniques": [
       "Corvos de Fuligem",
       "Revoada Tática"
@@ -3706,7 +3706,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126146-s6wTxJ8EKDvJ.png",
+    "avatar": "/avatars/one-piece/belo-betty.png",
     "techniques": [
       "Encorajamento da Vontade das Massas"
     ],
@@ -3729,7 +3729,7 @@
     "quote": "",
     "debutArc": "País de Wano",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b146411-1cWXsUjauDEU.png",
+    "avatar": "/avatars/one-piece/rocks-d-xebec.png",
     "techniques": [
       "Comando da Maior Tripulação da História"
     ],
@@ -3752,7 +3752,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128130-X9N46ajhSMOi.png",
+    "avatar": "/avatars/one-piece/imu.png",
     "techniques": [
       "Destruição do Trono Vazio"
     ],
@@ -3798,7 +3798,7 @@
     "quote": "",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b244046-IaFJvmTJk56a.png",
+    "avatar": "/avatars/one-piece/hajrudin.png",
     "techniques": [
       "Gungnir (Soco de 10.000 Toneladas)"
     ],
@@ -3822,7 +3822,7 @@
     "quote": "",
     "debutArc": "Egghead",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b282077-sPmt79g4douV.jpg",
+    "avatar": "/avatars/one-piece/vegapunk.png",
     "techniques": [
       "Intelecto de 500 Anos no Futuro",
       "Punk Records"
@@ -3847,7 +3847,7 @@
     "quote": "",
     "debutArc": "Alabasta",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21553-PF78AphTEzgF.png",
+    "avatar": "/avatars/one-piece/daz-bones.png",
     "techniques": [
       "Spider",
       "Atomic Spurt (Lâminas de Aço)"
@@ -3871,7 +3871,7 @@
     "quote": "",
     "debutArc": "Alabasta",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21556-8pOlYNkThV0u.png",
+    "avatar": "/avatars/one-piece/zala.png",
     "techniques": [
       "Stinger Hedge",
       "Espinhos de Aço"
@@ -3896,7 +3896,7 @@
     "quote": "",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n128683-o0E5UUG6yxlg.png",
+    "avatar": "/avatars/one-piece/gerd.png",
     "techniques": [
       "Corte de Machado Gigante de Elbaf"
     ],
@@ -3919,7 +3919,7 @@
     "quote": "",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128132-36WHPkIfHZcf.png",
+    "avatar": "/avatars/one-piece/road.png",
     "techniques": [
       "Navegação em Elbaf",
       "Esgrima de Gigante"
@@ -3944,7 +3944,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b135948-tZBwXYW0WhT1.jpg",
+    "avatar": "/avatars/one-piece/stussy.png",
     "techniques": [
       "Kami-e",
       "Mordida de Sedação de Sangue"
@@ -3993,7 +3993,7 @@
     "styleOrPower": "Paramecia (Supa Supa no Mi Replicada)",
     "debutArc": "Egghead",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b365031-jindAKqxqw1e.png",
+    "avatar": "/avatars/one-piece/s-hawk.png",
     "quote": "",
     "techniques": [
       "Corte de Lâmina Negra com Asas Lunaria"
@@ -4018,7 +4018,7 @@
     "quote": "",
     "debutArc": "Egghead",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b340682-4PziZcmcalQj.png",
+    "avatar": "/avatars/one-piece/s-snake.png",
     "techniques": [
       "Mero Mero Mellow",
       "Laser de Pacifista"
@@ -4042,7 +4042,7 @@
     "quote": "",
     "debutArc": "Ilha dos Tritões",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21809-NcG6Wa7P6t3k.jpg",
+    "avatar": "/avatars/one-piece/fisher-tiger.png",
     "techniques": [
       "Tritão Karate",
       "Invasão a Mariejois"
@@ -4067,7 +4067,7 @@
     "quote": "Eu te amo, Law!",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b120536-PxdNxEhQwE8d.png",
+    "avatar": "/avatars/one-piece/corazon.png",
     "techniques": [
       "Silent Field (Cancelamento do Som)"
     ],
@@ -4092,7 +4092,7 @@
     "quote": "",
     "debutArc": "País de Wano",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127845-e80CGKpAqW4A.png",
+    "avatar": "/avatars/one-piece/kozuki-toki.png",
     "techniques": [
       "Viagem Temporal para o Futuro"
     ],
@@ -4115,7 +4115,7 @@
     "quote": "Zoro, prometemos! Um de nós se tornará o maior espadachim do mundo!",
     "debutArc": "East Blue",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b21266-zGRDCl19NYmQ.png",
+    "avatar": "/avatars/one-piece/kuina.png",
     "techniques": [
       "Esgrima do Dojo Shimotsuki"
     ],
@@ -4212,7 +4212,7 @@
     "quote": "",
     "debutArc": "Egghead",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b326793-xDVOVFqAOo4O.png",
+    "avatar": "/avatars/one-piece/edison.png",
     "fruitType": "Nenhuma",
     "techniques": [
       "Brainstorming Científico de Alta Velocidade"
@@ -4235,7 +4235,7 @@
     "quote": "",
     "debutArc": "Egghead",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b326794-3cqUesvgztGh.png",
+    "avatar": "/avatars/one-piece/pythagoras.png",
     "fruitType": "Nenhuma",
     "techniques": [
       "Coleta e Processamento de Dados de Combate"
@@ -4308,7 +4308,7 @@
     "quote": "",
     "debutArc": "Egghead",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b299038-H3xhQUX5Xv1p.png",
+    "avatar": "/avatars/one-piece/jaygarcia-saturn.png",
     "fruitType": "Zoan Mítica",
     "techniques": [
       "Invocação Ritual",
@@ -4431,7 +4431,7 @@
     "quote": "",
     "debutArc": "East Blue",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b216702-aXhFfRg9vHcb.jpg",
+    "avatar": "/avatars/one-piece/scopper-gaban.png",
     "fruitType": "Nenhuma",
     "techniques": [
       "Esgrima de Machados Duplos",
@@ -4480,14 +4480,14 @@
     "quote": "A justiça absoluta não tolera o mal!",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22687-tCQVpj6wZhRk.jpg",
+    "avatar": "/avatars/one-piece/sakazuki.png",
     "fruitType": "Logia",
     "techniques": [
       "Dai Funka",
       "Meigo (Cão de Magma)"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4552,7 +4552,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181761-LM4qJaSuTrzg.jpg",
+    "avatar": "/avatars/one-piece/charlotte-oven.png",
     "fruitType": "Paramecia",
     "techniques": [
       "Atsukai Kaiyosui (Fervura do Mar)",
@@ -4576,7 +4576,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181767-D8x7n0zGYvTZ.png",
+    "avatar": "/avatars/one-piece/charlotte-brulee.png",
     "fruitType": "Paramecia",
     "techniques": [
       "Mundo dos Espelhos (Mirro-World)",
@@ -4600,7 +4600,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181768-oSMCqCvtcO4C.png",
+    "avatar": "/avatars/one-piece/charlotte-galette.png",
     "fruitType": "Paramecia",
     "techniques": [
       "Imobilização por Calda de Manteiga"
@@ -4623,7 +4623,7 @@
     "quote": "",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b181766-L4o97gm6TZqX.jpg",
+    "avatar": "/avatars/one-piece/charlotte-mont-dor.png",
     "fruitType": "Paramecia",
     "techniques": [
       "Prisão de Livros",
@@ -4689,7 +4689,7 @@
     "status": "Vivo",
     "avatar": "/avatars/one-piece/issho-fujitora.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4708,7 +4708,7 @@
     "status": "Vivo",
     "avatar": "/avatars/one-piece/aramaki-ryokugyu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4842,7 +4842,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21807.jpg",
+    "avatar": "/avatars/one-piece/peepley-lulu.png",
     "combatType": "Magia / Poder Sobrenatural",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -4880,7 +4880,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Thriller Bark",
     "status": "Morta",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/9656.jpg",
+    "avatar": "/avatars/one-piece/victoria-cindry.png",
     "combatType": "Magia / Poder Sobrenatural",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -4938,7 +4938,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkEueLuZSHvAOvN25m2tHvFtsyKvxqG3oIkbDr4RaWVsN5k4IFaRlw6Kb4&s=10",
+    "avatar": "/avatars/one-piece/killingham.png",
     "combatType": "Magia / Poder Sobrenatural",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -4957,7 +4957,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Viva",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5r846k9iEhPtdaCkVlKkNTd37kVng3il8lfolK7q5Qw6X3jewJ6oM9So&s=10",
+    "avatar": "/avatars/one-piece/gunko.png",
     "combatType": "Magia / Poder Sobrenatural",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -4977,7 +4977,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtRHKD1gcznD4QY0M3nYH5VlCzxmFVGZPIrujlwtHeUrHRi7ochvZNjgA&s=10",
+    "avatar": "/avatars/one-piece/rei-harald.png",
     "combatType": "Magia / Poder Sobrenatural",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5021,9 +5021,9 @@
     "fruitType": "Nenhuma",
     "debutArc": "Ilha dos Tritões",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/40273.jpg",
+    "avatar": "/avatars/one-piece/shirahoshi.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -5041,9 +5041,9 @@
     "fruitType": "Paramecia",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85647-WfwG1ixb2qZL.png",
+    "avatar": "/avatars/one-piece/bartolomeo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -5061,9 +5061,9 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/n85649-c73lmX9J1dMq.jpg",
+    "avatar": "/avatars/one-piece/cavendish.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -5080,7 +5080,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b43093-STjuKaQk68Ex.jpg",
+    "avatar": "/avatars/one-piece/koala.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5100,7 +5100,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126180-ud2y3PGElJDU.jpg",
+    "avatar": "/avatars/one-piece/pedro.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5120,7 +5120,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126179-bxjxEfrqtiuN.png",
+    "avatar": "/avatars/one-piece/carrot.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5140,7 +5140,7 @@
     "fruitType": "Zoan Mítica",
     "debutArc": "País de Wano",
     "status": "Morto",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b132669-TGXODbAMwtLV.png",
+    "avatar": "/avatars/one-piece/kurozumi-orochi.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5160,7 +5160,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b131435-9xVeZr0tDlyP.png",
+    "avatar": "/avatars/one-piece/kozuki-hiyori.png",
     "combatType": "Magia / Poder Sobrenatural",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5200,7 +5200,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b127913-fKFTGlwZA9JH.png",
+    "avatar": "/avatars/one-piece/kikunojo.png",
     "combatType": "Usuário de Espada / Lâmina",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5220,7 +5220,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "País de Wano",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b128125-y2O4HRu9pPe5.jpg",
+    "avatar": "/avatars/one-piece/kawamatsu.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5240,7 +5240,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126182-fyFwu3Ih1yej.jpg",
+    "avatar": "/avatars/one-piece/inuarashi.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5260,7 +5260,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/126181-kleTMK1K9tda.jpg",
+    "avatar": "/avatars/one-piece/nekomamushi.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5280,7 +5280,7 @@
     "fruitType": "Paramecia",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b191777-Rxyxt4tjjxfs.png",
+    "avatar": "/avatars/one-piece/raizo.png",
     "combatType": "Magia / Poder Sobrenatural",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5320,7 +5320,7 @@
     "fruitType": "Paramecia",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b22618-ki6mxLc2f9Tm.png",
+    "avatar": "/avatars/one-piece/magellan.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5364,7 +5364,7 @@
     "fruitType": "Paramecia",
     "debutArc": "Skypiea",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/21559.jpg",
+    "avatar": "/avatars/one-piece/jozu.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5383,7 +5383,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b27202-0ck7epXFLmls.jpg",
+    "avatar": "/avatars/one-piece/vista.png",
     "combatType": "Usuário de Espada / Lâmina",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5402,7 +5402,7 @@
     "fruitType": "Paramecia",
     "debutArc": "Long Ring Long Land",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/22412.jpg",
+    "avatar": "/avatars/one-piece/foxy.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5422,9 +5422,9 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b85651-4Xxt9NtEWjju.jpg",
+    "avatar": "/avatars/one-piece/rebecca.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -5442,7 +5442,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b126109-aMp1clod63vA.jpg",
+    "avatar": "/avatars/one-piece/kyros.png",
     "combatType": "Usuário de Espada / Lâmina",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5463,7 +5463,7 @@
     "fruitType": "Nenhuma",
     "debutArc": "Elbaf",
     "status": "Vivo",
-    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2RgWrP_heB3vZ5O5YPtiOM401RzNGXbw2781OBCCrxvx--YUcIxrr5xU&s=10",
+    "avatar": "/avatars/one-piece/shamrock.png",
     "combatType": "Usuário de Espada / Lâmina",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
@@ -5486,7 +5486,7 @@
     "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "O sonho dos homens nunca tem fim!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b3331-7ZJDc4BNv9Yp.jpg",
+    "avatar": "/avatars/one-piece/marshall-d-teach.png",
     "techniques": [
       "Black Hole",
       "Liberation",
@@ -5495,7 +5495,7 @@
       "Shima Yurashi"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -5513,7 +5513,7 @@
     "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "Wiiiiihaha! Eu sou o Campeão!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9324-ZmlGx1pxRtYP.png",
+    "avatar": "/avatars/one-piece/jesus-burgess.png",
     "techniques": [
       "Hadou Elbow",
       "Galleon Lariat"
@@ -5537,7 +5537,7 @@
     "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "O destino governa todas as coisas deste mundo.",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9325-Ev3MbRVNYXIt.png",
+    "avatar": "/avatars/one-piece/van-augur.png",
     "techniques": [
       "Tiroteio de Extremo Alcance com Senriku",
       "Teletransporte Dimensional Instantâneo"
@@ -5561,7 +5561,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "Nya haha! Ei Teach, deixe-me ser o capitão!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b31182-pJB5DBtafLRS.jpg",
+    "avatar": "/avatars/one-piece/avalo-pizarro.png",
     "techniques": [
       "Fusão e Controle Territorial da Ilha Hachinosu"
     ],
@@ -5584,7 +5584,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Viva",
     "quote": "Murunfuffu! Que cabeças lindas para minha coleção!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b31181-02FkFHTCEZd1.jpg",
+    "avatar": "/avatars/one-piece/catarina-devon.png",
     "techniques": [
       "Metamorfose Perfeita em Qualquer Pessoa",
       "Combate com Chicote e Lança"
@@ -5608,7 +5608,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "Eles me encontraram... que vergonha!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b31183-UC8Ha8SPZuOn.jpg",
+    "avatar": "/avatars/one-piece/sanjuan-wolf.png",
     "techniques": [
       "Tamanho Gigantesco Ultrapassando 180 Metros"
     ],
@@ -5631,7 +5631,7 @@
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "Toputoputopu... posso matar todos eles agora?",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b31180-oizvWyQt7UfK.jpg",
+    "avatar": "/avatars/one-piece/vasco-shot.png",
     "techniques": [
       "Manipulação e Cuspe de Licor Flamejante"
     ],
@@ -5654,7 +5654,7 @@
     "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "Você é uma pessoa de sorte?",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b9326-TG3CYbA4Q33y.png",
+    "avatar": "/avatars/one-piece/doc-q.png",
     "techniques": [
       "Infecção por Doenças (Shiku Shiku no Mi)",
       "Maçãs Explosivas em Conjunto com Stronger"
@@ -5680,7 +5680,7 @@
     "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "quote": "Shurorororo! A ciência é a força suprema deste mundo!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b61603-x8RTOk7DIFIZ.jpg",
+    "avatar": "/avatars/one-piece/caesar-clown.png",
     "techniques": [
       "Gastanet",
       "Gas Robe",
@@ -6173,7 +6173,7 @@
     "avatar": "/avatars/one-piece/sai.png",
     "quote": "Eu sou Don Sai, 13º líder da Marinha Happo e comandante da 3ª divisão dos Chapéus de Palha!",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -6465,7 +6465,7 @@
     ],
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Antagonista / Suporte Cômico",
-    "hairColor": "Loiro",
+    "hairColor": "Cabelo Loiro / Dourado",
     "avatar": "/avatars/one-piece/fullbody.png"
   },
   {
@@ -6487,7 +6487,7 @@
     ],
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Suporte Cômico",
-    "hairColor": "Preto",
+    "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/patty.png"
   },
   {
@@ -6509,7 +6509,7 @@
     ],
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Suporte Cômico",
-    "hairColor": "Castanho",
+    "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/carne.png"
   },
   {
@@ -6531,7 +6531,7 @@
     ],
     "combatType": "Magia / Sobrenatural",
     "roleOrArchetype": "Antagonista",
-    "hairColor": "Castanho",
+    "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/pearl.png"
   },
   {
@@ -6553,7 +6553,7 @@
     ],
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Antagonista",
-    "hairColor": "Castanho",
+    "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/capitao-nezumi.png"
   },
   {
@@ -6575,7 +6575,7 @@
     ],
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Antagonista",
-    "hairColor": "Preto",
+    "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/buchi.png"
   },
   {
@@ -6598,7 +6598,7 @@
     ],
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Preto",
+    "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/chaka.png"
   },
   {
@@ -6620,7 +6620,7 @@
     ],
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Loiro",
+    "hairColor": "Cabelo Loiro / Dourado",
     "avatar": "/avatars/one-piece/koza.png"
   },
   {
@@ -6643,7 +6643,7 @@
     ],
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Rival / Suporte",
-    "hairColor": "Castanho",
+    "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/wiper.png"
   },
   {
@@ -6666,7 +6666,7 @@
     ],
     "combatType": "Não-Combatente",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Verde",
+    "hairColor": "Cabelo Verde",
     "avatar": "/avatars/one-piece/kokoro.png"
   },
   {
@@ -6688,7 +6688,7 @@
     ],
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Preto",
+    "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/zambai.png"
   },
   {
@@ -6710,7 +6710,7 @@
     ],
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Antagonista",
-    "hairColor": "Verde",
+    "hairColor": "Cabelo Verde",
     "avatar": "/avatars/one-piece/hyouzou.png"
   },
   {
@@ -6733,7 +6733,7 @@
     ],
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Suporte",
-    "hairColor": "Ruivo",
+    "hairColor": "Cabelo Vermelho",
     "avatar": "/avatars/one-piece/wadatsumi.png"
   },
   {
@@ -6756,7 +6756,7 @@
     ],
     "combatType": "Não-Combatente",
     "roleOrArchetype": "Mentor / Suporte",
-    "hairColor": "Azul",
+    "hairColor": "Cabelo Azul",
     "avatar": "/avatars/one-piece/yasuie.png"
   },
   {
@@ -6774,12 +6774,12 @@
     "debutArc": "Jaya",
     "status": "Viva",
     "quote": "Um coração limpo lava todas as impurezas.",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b16382-uK4b54y3n9nK.png",
+    "avatar": "/avatars/one-piece/tsuru.png",
     "techniques": [
       "Wash and Hang"
     ],
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Cinza / Prateado",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -6797,7 +6797,7 @@
     "debutArc": "Dressrosa",
     "status": "Vivo",
     "quote": "Traidores devem ser reduzidos a cinzas!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b88497-6aHwN54R5T8q.png",
+    "avatar": "/avatars/one-piece/gladius.png",
     "techniques": [
       "Catapult Punc",
       "Punc Rock Fest"
@@ -6821,7 +6821,7 @@
     "debutArc": "Dressrosa",
     "status": "Vivo",
     "quote": "Dez mil toneladas de pura destruição!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b88496-v7uN1kR6w5T8.png",
+    "avatar": "/avatars/one-piece/machvise.png",
     "techniques": [
       "10,000 Ton Vice"
     ],
@@ -6844,7 +6844,7 @@
     "debutArc": "Punk Hazard",
     "status": "Vivo",
     "quote": "Gira, gira, hélice dos céus!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b74281-aZ98yU6x4L1p.png",
+    "avatar": "/avatars/one-piece/buffalo.png",
     "techniques": [
       "Guru Guru Voo"
     ],
@@ -6867,7 +6867,7 @@
     "debutArc": "Dressrosa",
     "status": "Viva",
     "quote": "Tudo se transforma em arte vanguardista!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b88498-mN54yTr68Q1z.png",
+    "avatar": "/avatars/one-piece/jora.png",
     "techniques": [
       "Dying Art"
     ],
@@ -6891,7 +6891,7 @@
     "debutArc": "País de Wano",
     "status": "Viva",
     "quote": "Eu sou a kunoichi encantadora de Wano!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b139556-9tY71kU65Lp2.png",
+    "avatar": "/avatars/one-piece/shinobu.png",
     "techniques": [
       "Juku Juku Decaimento"
     ],
@@ -6914,7 +6914,7 @@
     "debutArc": "Retorno a Sabaody",
     "status": "Vivo",
     "quote": "O pântano consome tudo sem deixar rastros...",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b43939-vL89uN761Z4a.png",
+    "avatar": "/avatars/one-piece/caribou.png",
     "techniques": [
       "Numa Numa Gatling"
     ],
@@ -6937,7 +6937,7 @@
     "debutArc": "Ilha Whole Cake",
     "status": "Vivo",
     "quote": "BIG NEWS! O mundo precisa da verdade espetacular!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b124434-rT54kL89mN21.png",
+    "avatar": "/avatars/one-piece/morgans.png",
     "techniques": [
       "Big News Punch"
     ],
@@ -6960,7 +6960,7 @@
     "debutArc": "Ilha Whole Cake",
     "status": "Vivo",
     "quote": "Qualquer pedra pode virar o mais doce banquete!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b124578-8uY71mN5Lq34.png",
+    "avatar": "/avatars/one-piece/streusen.png",
     "techniques": [
       "Gourmet Transformation"
     ],
@@ -6983,7 +6983,7 @@
     "debutArc": "Levely",
     "status": "Vivo",
     "quote": "Não fique olhando assim, sou tímido!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b130882-mK65uR89pL12.png",
+    "avatar": "/avatars/one-piece/morley.png",
     "techniques": [
       "Oshi Oshi Escavação"
     ],
@@ -7006,7 +7006,7 @@
     "debutArc": "Ilha Whole Cake",
     "status": "Vivo",
     "quote": "Surja, Gênio da Lâmpada!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b124577-9tY71kU65Lp2.png",
+    "avatar": "/avatars/one-piece/charlotte-daifuku.png",
     "techniques": [
       "Majin Halberd Slash"
     ],
@@ -7029,7 +7029,7 @@
     "debutArc": "Ilha Whole Cake",
     "status": "Morto",
     "quote": "O creme fervente derrete qualquer intruso!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b124579-3rT51uK65Lp2.png",
+    "avatar": "/avatars/one-piece/charlotte-opera.png",
     "techniques": [
       "Cream Wave"
     ],
@@ -7052,7 +7052,7 @@
     "debutArc": "Marineford",
     "status": "Vivo",
     "quote": "Meu bolso guarda armas maiores que gigantes!",
-    "avatar": "https://s4.anilist.co/file/anilistcdn/character/large/b39045-8uY71mN5Lq34.png",
+    "avatar": "/avatars/one-piece/blamenco.png",
     "techniques": [
       "Pocket Giant Hammer"
     ],

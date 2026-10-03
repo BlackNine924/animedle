@@ -61,8 +61,12 @@ export const AchievementToast: React.FC = () => {
       }`}
     >
       <div className="bg-gradient-to-r from-[#0d1426] via-[#16223b] to-[#0d1426] border-2 border-amber-400 rounded-3xl p-5 shadow-[0_0_50px_rgba(251,191,36,0.35)] flex items-center gap-4 max-w-md w-[90vw] backdrop-blur-xl">
-        <div className="w-14 h-14 rounded-2xl bg-amber-500/20 border-2 border-amber-400 flex items-center justify-center text-3xl flex-shrink-0 shadow-inner">
-          {activeAchievement.icon || '🏆'}
+        <div className="w-16 h-16 rounded-2xl bg-amber-500/20 border-2 border-amber-400 flex items-center justify-center p-1.5 flex-shrink-0 shadow-inner overflow-hidden">
+          {activeAchievement.icon && activeAchievement.icon.startsWith('/') ? (
+            <img src={activeAchievement.icon} alt={activeAchievement.title} className="w-full h-full object-contain" />
+          ) : (
+            <span className="text-3xl">{activeAchievement.icon || '🏆'}</span>
+          )}
         </div>
         <div className="text-left min-w-0">
           <div className="flex items-center gap-1.5 text-[11px] font-black uppercase tracking-wider text-amber-400 mb-0.5">

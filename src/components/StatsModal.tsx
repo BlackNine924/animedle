@@ -14,7 +14,7 @@ interface StatsModalProps {
 export const StatsModal: React.FC<StatsModalProps> = ({ stats, onClose, themeColor = '#ef4444' }) => {
   const [showAchievements, setShowAchievements] = useState(false);
   const winRate = stats.played > 0 ? Math.round((stats.wins / stats.played) * 100) : 0;
-  const unlockedCount = Object.keys(getUnlockedAchievements()).length;
+  const unlockedCount = ACHIEVEMENTS_LIST.filter((a) => Boolean(getUnlockedAchievements()[a.id])).length;
 
   return (
     <>
