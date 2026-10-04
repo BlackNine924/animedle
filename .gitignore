@@ -21,3 +21,6 @@ dist-ssr
 *.sw?
 .DS_Store
 Thumbs.db
+
+# Audit outputs
+audit-*.json

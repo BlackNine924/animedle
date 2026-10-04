@@ -9,6 +9,7 @@
     "audit": "node scripts/audit-system.mjs",
     "audit:lore": "node scripts/audit-lore.mjs",
     "audit:coverage": "node scripts/manga-coverage-audit.mjs",
+    "audit:avatars": "node scripts/deep-avatar-audit.mjs",
     "validate:avatars": "node scripts/validate-avatars.mjs",
     "validate:avatars:fix": "node scripts/standardize-all-avatars-strict.mjs",
     "sync:manga": "node scripts/sync-manga-updates.mjs",
