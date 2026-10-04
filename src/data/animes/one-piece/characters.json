@@ -786,7 +786,7 @@
       "Saque Rápido de Pistola"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1420,7 +1420,7 @@
       "Formas Despertadas de Leopardo"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1859,7 +1859,7 @@
       "Voo com Asas Brancas"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2190,7 +2190,7 @@
       "Soru de Alta Velocidade"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2263,7 +2263,7 @@
       "Espada de Vibração Cortante"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Ruivo / Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3734,7 +3734,7 @@
       "Comando da Maior Tripulação da História"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Ruivo / Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3780,7 +3780,7 @@
       "Força Solar Destrutiva de Elbaf"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3975,7 +3975,7 @@
       "Controle Mecha"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4048,7 +4048,7 @@
       "Invasão a Mariejois"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Ruivo / Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4902,7 +4902,7 @@
     "status": "Viva",
     "avatar": "/avatars/one-piece/lola.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {

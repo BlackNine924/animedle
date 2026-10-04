@@ -566,6 +566,27 @@
     "species": "Humano"
   },
   {
+    "id": "mini-yaemori",
+    "name": "Mini Yaemori",
+    "gender": "Feminino",
+    "origin": "Rent-a-Girlfriend",
+    "role": "Vizinha Otaku / Cupido de Kazuya e Chizuru",
+    "archetype": "Otaku / Wingwoman / Streamer",
+    "status": "Solteiro(a)",
+    "debutArc": "Universitário / Produção do Filme",
+    "quote": "Mestre! Para conquistar a Chizuru-san, você precisa de uma estratégia de mestre e apoio profissional!",
+    "techniques": [
+      "Estratégia de Financiamento Coletivo de Cinema",
+      "Conselhos Amorosos de Cupido (Wingwoman)",
+      "Transmissões ao Vivo e Criação de Conteúdo (YouTuber)"
+    ],
+    "avatar": "/avatars/romance/mini-yaemori.png",
+    "combatType": "Vida Escolar / Cotidiano",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Vizinha Otaku / Cupido de Kazuya e Chizuru",
+    "species": "Humano"
+  },
+  {
     "id": "mahiru-shiina",
     "name": "Mahiru Shiina",
     "gender": "Feminino",
@@ -623,7 +644,7 @@
     ],
     "avatar": "/avatars/romance/alya-kujou.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Heroína Principal",
     "species": "Humano"
   },
@@ -643,7 +664,7 @@
     ],
     "avatar": "/avatars/romance/masachika-kuze.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Protagonista Masculino",
     "species": "Humano"
   },
@@ -724,7 +745,7 @@
     ],
     "avatar": "/avatars/romance/rentarou-aijou.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista Masculino Supremo",
     "species": "Humano"
   },
@@ -1003,7 +1024,7 @@
     ],
     "avatar": "/avatars/romance/duke-bocchan.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista Masculino",
     "species": "Humano"
   },
@@ -1023,7 +1044,7 @@
     ],
     "avatar": "/avatars/romance/alice-lendrott.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Heroína Principal / Criada",
     "species": "Humano"
   },
@@ -1103,7 +1124,7 @@
     ],
     "avatar": "/avatars/romance/yukino-yukinoshita.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Heroína Principal",
     "species": "Humano"
   },
@@ -1324,7 +1345,7 @@
     ],
     "avatar": "/avatars/romance/raku-ichijou.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista Masculino",
     "species": "Humano"
   },
@@ -1363,7 +1384,7 @@
     ],
     "avatar": "/avatars/romance/nagisa-furukawa.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Heroína Principal / Esposa",
     "species": "Humano"
   },
@@ -1483,7 +1504,7 @@
     ],
     "avatar": "/avatars/romance/ichigo.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Líder de Esquadrão / Amiga de Infância",
     "species": "Humano"
   },
@@ -1525,7 +1546,7 @@
     ],
     "avatar": "/avatars/romance/kokoro.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Pistil e Mãe da Nova Geração",
     "species": "Humano"
   },
@@ -1815,7 +1836,7 @@
     ],
     "avatar": "/avatars/romance/rika-hoshizaki.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Terceira Pretendente / MeTuber Famosa",
     "species": "Humano"
   },
@@ -2075,7 +2096,7 @@
     ],
     "avatar": "/avatars/romance/kazuki-mikadono.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Primeira Irmã / Atriz Prodigiosa",
     "species": "Humano"
   },
@@ -2155,7 +2176,7 @@
     ],
     "avatar": "/avatars/romance/risa-koizumi.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Ruivo / Vermelho",
     "roleOrArchetype": "Heroína Principal / Alta e Engraçada",
     "species": "Humano"
   },
@@ -2515,7 +2536,7 @@
     ],
     "avatar": "/avatars/romance/yuki-sohma.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Príncipe da Escola / O Rato do Zodíaco",
     "species": "Humano"
   },
@@ -2535,7 +2556,7 @@
     ],
     "avatar": "/avatars/romance/shigure-sohma.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Guardião da Mansão / O Cão do Zodíaco",
     "species": "Humano"
   },
@@ -2577,7 +2598,7 @@
     ],
     "avatar": "/avatars/romance/kaoruko-waguri.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Heroína Principal",
     "species": "Humano"
   },
@@ -2598,7 +2619,7 @@
     ],
     "avatar": "/avatars/romance/subaru-hoshina.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2661,7 +2682,7 @@
     ],
     "avatar": "/avatars/romance/ayato-yorita.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   }

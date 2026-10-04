@@ -709,9 +709,27 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
     });
 
     // Cor de Cabelo
+    const normalizeHair = (raw: string | undefined): string | null => {
+      if (!raw) return null;
+      const s = raw.toLowerCase().trim();
+      if (s.includes('careca') || s.includes('sem cabelo')) return 'Careca / Sem Cabelo';
+      if (s.includes('loiro') || s.includes('dourad') || s.includes('blond')) return 'Cabelo Loiro / Dourado';
+      if (s.includes('preto') || s.includes('negro') || s.includes('black')) return 'Cabelo Preto';
+      if (s.includes('castanho') || s.includes('marrom') || s.includes('brown')) return 'Cabelo Castanho';
+      if (s.includes('branco') || s.includes('pratead') || s.includes('grisalh') || s.includes('white') || s.includes('silver')) return 'Cabelo Branco / Prateado';
+      if (s.includes('ruivo') || s.includes('vermelh') || s.includes('red')) return 'Cabelo Ruivo / Vermelho';
+      if (s.includes('azul') || s.includes('blue') || s.includes('ciano')) return 'Cabelo Azul';
+      if (s.includes('verde') || s.includes('green')) return 'Cabelo Verde';
+      if (s.includes('rosa') || s.includes('pink')) return 'Cabelo Rosa';
+      if (s.includes('roxo') || s.includes('violet') || s.includes('purple')) return 'Cabelo Roxo / Violeta';
+      if (s.includes('laranja') || s.includes('orange')) return 'Cabelo Laranja';
+      return raw;
+    };
+
     const hairMap: Record<string, number> = {};
     characters.forEach((c) => {
-      if (c.hairColor) hairMap[c.hairColor] = (hairMap[c.hairColor] || 0) + 1;
+      const nh = normalizeHair(c.hairColor);
+      if (nh) hairMap[nh] = (hairMap[nh] || 0) + 1;
     });
     Object.entries(hairMap).forEach(([hc, count]) => {
       if (count >= 2) {
@@ -719,7 +737,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
           id: `hair_${hc}`,
           label: hc,
           category: 'Cor de Cabelo',
-          test: (c) => c.hairColor === hc,
+          test: (c) => normalizeHair(c.hairColor) === hc,
         });
       }
     });

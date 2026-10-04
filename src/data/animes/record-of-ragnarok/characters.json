@@ -12,7 +12,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/lu-bu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -149,7 +149,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/raiden-tameemon.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -182,7 +182,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/buda.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -301,7 +301,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/leonidas.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -420,7 +420,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/loki.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
