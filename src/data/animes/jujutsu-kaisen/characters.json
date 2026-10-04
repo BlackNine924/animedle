@@ -377,7 +377,7 @@
     "avatar": "/avatars/jujutsu-kaisen/yoshinobu-gakuganji.png",
     "domainExpansion": null,
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -399,7 +399,7 @@
     "avatar": "/avatars/jujutsu-kaisen/utahime-iori.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Violeta",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -641,7 +641,7 @@
     "avatar": "/avatars/jujutsu-kaisen/tengen.png",
     "domainExpansion": null,
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -663,7 +663,7 @@
     "avatar": "/avatars/jujutsu-kaisen/akari-nitta.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -685,7 +685,7 @@
     "avatar": "/avatars/jujutsu-kaisen/yu-haibara.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -796,7 +796,7 @@
     "avatar": "/avatars/jujutsu-kaisen/ogi-zenin.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -818,7 +818,7 @@
     "avatar": "/avatars/jujutsu-kaisen/jinichi-zenin.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -954,7 +954,7 @@
     "avatar": "/avatars/jujutsu-kaisen/uraume.png",
     "domainExpansion": null,
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1004,7 +1004,7 @@
   {
     "id": "hanami",
     "name": "Hanami",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Maldição",
     "affiliation": [
       "Maldições"
@@ -1020,13 +1020,13 @@
     "avatar": "/avatars/jujutsu-kaisen/hanami.png",
     "domainExpansion": "Mar Cerimonial de Luz (Ceremonial Sea of Light)",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Branco / Prateado",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "dagon",
     "name": "Dagon",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Maldição",
     "affiliation": [
       "Maldições"
@@ -1042,7 +1042,7 @@
     "avatar": "/avatars/jujutsu-kaisen/dagon.png",
     "domainExpansion": "Horizonte do Esquife Cativante (Horizon of the Captivating Skiff)",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Vermelho",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1093,7 +1093,7 @@
   {
     "id": "kechizu",
     "name": "Kechizu",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Feto Amaldiçoado",
     "affiliation": [
       "Maldições"
@@ -1109,7 +1109,7 @@
     "avatar": "/avatars/jujutsu-kaisen/kechizu.png",
     "domainExpansion": null,
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1137,7 +1137,7 @@
   {
     "id": "mahoraga",
     "name": "Mahoraga",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Maldição",
     "affiliation": [
       "Invocação das Dez Sombras"
@@ -1153,13 +1153,13 @@
     "avatar": "/avatars/jujutsu-kaisen/mahoraga.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "smallpox-deity",
     "name": "Espírito da Varíola",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Maldição",
     "affiliation": [
       "Maldições"
@@ -1175,7 +1175,7 @@
     "avatar": "/avatars/jujutsu-kaisen/smallpox-deity.png",
     "domainExpansion": "Lápide de Pedra (Graveyard Domain)",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1352,7 +1352,7 @@
     "avatar": "/avatars/jujutsu-kaisen/reggie-star.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1374,13 +1374,13 @@
     "avatar": "/avatars/jujutsu-kaisen/dhruv-lakdawala.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "kurourushi",
     "name": "Kurourushi",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Maldição",
     "affiliation": [
       "Maldições"
@@ -1418,7 +1418,7 @@
     "avatar": "/avatars/jujutsu-kaisen/charles-bernard.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1462,7 +1462,7 @@
     "avatar": "/avatars/jujutsu-kaisen/rokujushi-miyo.png",
     "domainExpansion": "Arena de Sumô Sagrada",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1528,7 +1528,7 @@
     "avatar": "/avatars/jujutsu-kaisen/jiro-awasaka.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1550,7 +1550,7 @@
     "avatar": "/avatars/jujutsu-kaisen/juzo-kumiya.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1572,7 +1572,7 @@
     "avatar": "/avatars/jujutsu-kaisen/ogami-granny.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1594,7 +1594,7 @@
     "avatar": "/avatars/jujutsu-kaisen/junpei-yoshino.png",
     "domainExpansion": null,
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1616,7 +1616,7 @@
     "avatar": "/avatars/jujutsu-kaisen/wasuke-itadori.png",
     "domainExpansion": null,
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1660,7 +1660,7 @@
     "avatar": "/avatars/jujutsu-kaisen/kaori-itadori.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1704,7 +1704,7 @@
     "avatar": "/avatars/jujutsu-kaisen/mimiko-hasaba.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1748,7 +1748,7 @@
     "avatar": "/avatars/jujutsu-kaisen/larue.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1770,13 +1770,13 @@
     "avatar": "/avatars/jujutsu-kaisen/miguel.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "finger-bearer",
     "name": "Portador dos Dedos",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Maldição",
     "affiliation": [
       "Maldições"
@@ -1792,13 +1792,13 @@
     "avatar": "/avatars/jujutsu-kaisen/finger-bearer.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
     "id": "grasshopper-curse",
     "name": "Gafanhoto Amaldiçoado",
-    "gender": "Masculino",
+    "gender": "Sem Gênero",
     "species": "Maldição",
     "affiliation": [
       "Maldições"
@@ -1814,7 +1814,7 @@
     "avatar": "/avatars/jujutsu-kaisen/grasshopper-curse.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1836,7 +1836,7 @@
     "avatar": "/avatars/jujutsu-kaisen/remi.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1902,7 +1902,7 @@
     "avatar": "/avatars/jujutsu-kaisen/amai-rin.png",
     "domainExpansion": null,
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {

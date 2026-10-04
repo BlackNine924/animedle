@@ -2056,7 +2056,7 @@
     ],
     "avatar": "/avatars/romance/miwa-mikadono.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Verde",
     "roleOrArchetype": "Segunda Irmã / Mestre de Shogi",
     "species": "Humano"
   },
@@ -2076,7 +2076,7 @@
     ],
     "avatar": "/avatars/romance/niko-mikadono.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Rosa",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Terceira Irmã / Campeã de Artes Marciais",
     "species": "Humano"
   },
@@ -5544,7 +5544,7 @@
   },
   {
     "id": "saori-mikadono",
-    "name": "Saori",
+    "name": "Mirei Samejima",
     "gender": "Feminino",
     "origin": "Dealing with Mikadono Sisters Is a Breeze",
     "role": "Instrutora e Amiga das Irmãs",
@@ -5559,7 +5559,7 @@
     ],
     "avatar": "/avatars/romance/saori-mikadono.png",
     "combatType": "Vida Escolar / Cotidiano",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Instrutora e Amiga das Irmãs",
     "species": "Humano"
   },
