@@ -74,6 +74,17 @@ const GridBoard: React.FC<GridBoardProps> = ({
     localStorage.setItem(`animedle_grid_surrendered_${gridSeed}`, isSurrendered.toString());
   }, [cells, guessesLeft, isSurrendered, gridSeed]);
 
+  // Trava scroll da página do navegador quando modais/overlays estiverem abertos
+  useEffect(() => {
+    if (showAnswersModal || selectedCell !== null || showSurrenderConfirm || showVictoryModal) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+  }, [showAnswersModal, selectedCell, showSurrenderConfirm, showVictoryModal]);
+
   const usedCharacterIds = useMemo(() => {
     return new Set(cells.filter(Boolean).map((c) => c!.id));
   }, [cells]);
@@ -113,15 +124,14 @@ const GridBoard: React.FC<GridBoardProps> = ({
     const matchCol = colCrit.test(char);
 
     if (matchRow && matchCol) {
-      // Acerto
+      // Acerto - Não gasta palpites, apenas registra a célula acertada
       const newCells = [...cells];
       newCells[selectedCell] = char;
       setCells(newCells);
-      setGuessesLeft((g) => Math.max(0, g - 1));
       setSelectedCell(null);
       setErrorMessage(null);
     } else {
-      // Erro
+      // Erro - Consome 1 palpite
       setGuessesLeft((g) => Math.max(0, g - 1));
       const failReason =
         !matchRow && !matchCol
@@ -184,7 +194,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
 
   const handleCopyGrid = () => {
     let text = `AnimeDLE Grid - ${animeTitle} (${isEndless ? 'Modo Infinito' : 'Diário'})\n`;
-    text += `Acertos: ${score}/9 | Palpites usados: ${9 - guessesLeft}/9\n\n`;
+    text += `Acertos: ${score}/9 | Erros: ${9 - guessesLeft}/9\n\n`;
     for (let r = 0; r < 3; r++) {
       let rowStr = '';
       for (let c = 0; c < 3; c++) {
@@ -449,7 +459,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
               </button>
             </div>
 
-            <div className="overflow-y-auto space-y-3.5 py-4 pr-2 scrollbar-thin scrollbar-thumb-[#25334d] scrollbar-track-transparent">
+            <div className="overflow-y-auto space-y-3.5 py-4 pr-2 custom-scrollbar overscroll-contain">
               {cellAnswers.map((item, idx) => {
                 const r = Math.floor(idx / 3);
                 const c = idx % 3;

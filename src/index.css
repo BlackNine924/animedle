@@ -26,6 +26,10 @@
 }
 
 /* Custom Scrollbar for sleek dark table scroll */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #1f2c47 #070c18;
+}
 .custom-scrollbar::-webkit-scrollbar {
   height: 6px;
   width: 6px;

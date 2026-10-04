@@ -123,7 +123,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/hisoka-morow.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -194,7 +194,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/zeno-zoldyck.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -356,7 +356,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/tsubone.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -615,7 +615,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/bonolenov-ndongo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -638,7 +638,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/kortopi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -711,7 +711,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/kite.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -736,7 +736,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/biscuit-krueger.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -759,7 +759,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/wing.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -783,7 +783,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/zushi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -878,7 +878,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/neferpitou.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -949,7 +949,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/komugi.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1162,7 +1162,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/welfin.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -1232,7 +1232,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/zazan.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -1350,7 +1350,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/tserriednich-hui-guo-rou.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1375,7 +1375,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/hanzo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -1397,7 +1397,7 @@
     ],
     "avatar": "/avatars/hunter-x-hunter/tonpa.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

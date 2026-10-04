@@ -427,7 +427,7 @@
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Clã Senju",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1195,7 +1195,7 @@
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Clã Sarutobi",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1260,7 +1260,7 @@
     "village": "Suna (Vila Oculta da Areia)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1395,7 +1395,7 @@
     "village": "Kumo (Vila Oculta da Nuvem)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1749,7 +1749,7 @@
     "village": "Kiri (Vila Oculta da Névoa)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2322,7 +2322,7 @@
     "village": "Kusa (Vila Oculta da Grama)",
     "clan": "Clã Uzumaki",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2400,7 +2400,7 @@
     "village": "Nenhuma",
     "clan": "Clã Otsutsuki",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2444,7 +2444,7 @@
     "village": "Nenhuma",
     "clan": "Clã Otsutsuki",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2484,7 +2484,7 @@
     "village": "Nenhuma",
     "clan": "Clã Otsutsuki",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2594,7 +2594,7 @@
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2627,7 +2627,7 @@
     "village": "Kiri (Vila Oculta da Névoa)",
     "clan": "Clã Kaguya",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2763,7 +2763,7 @@
     "village": "Iwa (Vila Oculta da Pedra)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2944,7 +2944,7 @@
     "village": "Kumo (Vila Oculta da Nuvem)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -3336,7 +3336,7 @@
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -3802,7 +3802,7 @@
     "village": "Oto (Vila Oculta do Som)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -4178,7 +4178,7 @@
     "village": "Floresta Shikkotsu",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -4208,7 +4208,7 @@
     "village": "Suna (Vila Oculta da Areia)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -4267,7 +4267,7 @@
     "village": "Nenhuma",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -4297,7 +4297,7 @@
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -4447,7 +4447,7 @@
     "village": "Suna (Vila Oculta da Areia)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -4998,7 +4998,7 @@
     "village": "Nenhuma",
     "clan": "Clã Otsutsuki",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -5033,7 +5033,7 @@
     "village": "Kumo (Vila Oculta da Nuvem)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -5291,7 +5291,7 @@
     "village": "Konoha (Vila Oculta da Folha)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -5491,7 +5491,7 @@
     "village": "Iwa (Vila Oculta da Pedra)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -5525,7 +5525,7 @@
     "village": "Iwa (Vila Oculta da Pedra)",
     "clan": "Nenhum",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -5756,7 +5756,7 @@
     "village": "Ame (Vila Oculta da Chuva)",
     "clan": "Nenhum",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },

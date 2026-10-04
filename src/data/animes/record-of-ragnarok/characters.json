@@ -29,7 +29,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/thor.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -63,7 +63,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/zeus.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -131,7 +131,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/hercules.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -182,7 +182,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/buda.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -250,7 +250,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/hades.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -267,7 +267,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/nikola-tesla.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -369,7 +369,7 @@
     "status": "Viva",
     "avatar": "/avatars/record-of-ragnarok/brunhilde.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -437,7 +437,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/hermes.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -556,7 +556,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/heimdall.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   }

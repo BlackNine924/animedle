@@ -247,7 +247,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/floch-forster.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Protagonista / Líder",
     "species": "Humano"
   },
@@ -515,7 +515,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/hange-zoe.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Mentor / Mestre / Autoridade",
     "species": "Portador de Titã / Humano"
   },
@@ -1815,7 +1815,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/kaya.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2059,7 +2059,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/falco-grice.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Portador de Titã / Humano"
   },
@@ -2420,7 +2420,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/yelena.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Mentor / Mestre / Autoridade",
     "species": "Humano"
   },
@@ -2468,7 +2468,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/niccolo.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },

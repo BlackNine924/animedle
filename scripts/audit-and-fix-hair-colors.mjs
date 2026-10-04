@@ -1,0 +1,268 @@
+import fs from 'fs';
+import path from 'path';
+
+// Complete dictionary of canon hair color corrections for characters mistakenly set as 'Cabelo Preto' or mislabeled
+const CANON_HAIR_FIXES = {
+  // My Hero Academia
+  'tsuyu-asui': 'Cabelo Verde',
+  'eijiro-kirishima': 'Cabelo Vermelho',
+  'nejire-hado': 'Cabelo Azul',
+  'hitoshi-shinso': 'Cabelo Roxo / Violeta',
+  'neito-monoma': 'Cabelo Loiro / Dourado',
+  'enji-todoroki': 'Cabelo Vermelho',
+  'keigo-takami': 'Cabelo Loiro / Dourado',
+  'tsunagu-hakamada': 'Cabelo Loiro / Dourado',
+  'taishiro-toyomitsu': 'Cabelo Loiro / Dourado',
+  'tomura-shigaraki': 'Cabelo Branco / Prateado',
+  'himiko-toga': 'Cabelo Loiro / Dourado',
+  'kurogiri': 'Cabelo Colorido / Marcante',
+  'kai-chisaki': 'Cabelo Castanho',
+  'kaina-tsutsumi': 'Cabelo Roxo / Violeta',
+  'tetsutetsu-tetsutetsu': 'Cabelo Branco / Prateado',
+  'kinoko-komori': 'Cabelo Castanho',
+  'wash': 'Cabelo Careca / Sem Cabelo',
+  'hari-kurono': 'Cabelo Branco / Prateado',
+  'ectoplasm': 'Cabelo Careca / Sem Cabelo',
+  'toru-hagakure': 'Cabelo Colorido / Marcante',
+  'hound-dog': 'Cabelo Castanho',
+  'vlad-king': 'Cabelo Branco / Prateado',
+
+  // Romance
+  'hakari-hanazono': 'Cabelo Rosa',
+  'karane-inda': 'Cabelo Loiro / Dourado',
+  'nano-eiai': 'Cabelo Branco / Prateado',
+  'kusuri-yakuzen': 'Cabelo Verde',
+  'hahari-hanazono': 'Cabelo Castanho',
+  'tomoya-okazaki': 'Cabelo Azul',
+  'tohru-honda': 'Cabelo Castanho',
+  'kyo-sohma': 'Cabelo Laranja',
+  'zero-two': 'Cabelo Rosa',
+  'kokoro': 'Cabelo Loiro / Dourado',
+  'karen-moriya': 'Cabelo Loiro / Dourado',
+  'kaoruko-waguri': 'Cabelo Loiro / Dourado',
+  'saku-natsusawa': 'Cabelo Branco / Prateado',
+  'ayato-yorita': 'Cabelo Loiro / Dourado',
+  'chitoge-kirisaki': 'Cabelo Loiro / Dourado',
+  'mami-nanami': 'Cabelo Loiro / Dourado',
+  'ai-hayasaka': 'Cabelo Loiro / Dourado',
+  'kazuya-kinoshita': 'Cabelo Castanho',
+  'hina-chono': 'Cabelo Colorido / Marcante',
+  'nino-nakano': 'Cabelo Rosa',
+  'ichika-nakano': 'Cabelo Rosa',
+  'yotsuba-nakano': 'Cabelo Laranja',
+  'itsuki-nakano': 'Cabelo Vermelho',
+  'miku-nakano': 'Cabelo Castanho',
+  'chizuru-mizuhara': 'Cabelo Castanho',
+  'sumi-sakurasawa': 'Cabelo Rosa',
+  'ami-kawashima': 'Cabelo Azul',
+  'minori-kushieda': 'Cabelo Vermelho',
+  'kyouko-hori': 'Cabelo Castanho',
+  'toru-ishikawa': 'Cabelo Roxo / Violeta',
+  'yuki-yoshikawa': 'Cabelo Loiro / Dourado',
+  'chika-fujiwara': 'Cabelo Rosa',
+  'miko-iino': 'Cabelo Castanho',
+  'jiro-yakuin': 'Cabelo Azul',
+  'akari-watanabe': 'Cabelo Rosa',
+  'shiori-sakurazaka': 'Cabelo Castanho',
+  'tsukasa-yuzaki': 'Cabelo Rosa',
+  'nasa-yuzaki': 'Cabelo Vermelho',
+  'kaori-miyazono': 'Cabelo Loiro / Dourado',
+  'shouko-nishimiya': 'Cabelo Castanho',
+  'miki-kawai': 'Cabelo Loiro / Dourado',
+  'tomohiro-nagatsuka': 'Cabelo Verde',
+  'taki-tachibana': 'Cabelo Castanho',
+  'hina-amane': 'Cabelo Castanho',
+  'chinatsu-kano': 'Cabelo Castanho',
+  'erika-amano': 'Cabelo Loiro / Dourado',
+  'nagi-umino': 'Cabelo Castanho',
+  'sachi-umino': 'Cabelo Castanho',
+  'hiro-segawa': 'Cabelo Roxo / Violeta',
+  'minami-fuyuki': 'Cabelo Loiro / Dourado',
+  'rena-natsukawa': 'Cabelo Loiro / Dourado',
+  'ouka-shiunji': 'Cabelo Rosa',
+  'minami-shiunji': 'Cabelo Loiro / Dourado',
+  'kotono-shiunji': 'Cabelo Castanho',
+  'seiha-shiunji': 'Cabelo Castanho',
+  'kazuki-mikadono': 'Cabelo Loiro / Dourado',
+  'niko-mikadono': 'Cabelo Rosa',
+  'runa-shirakawa': 'Cabelo Loiro / Dourado',
+  'shino-kiryuu': 'Cabelo Roxo / Violeta',
+  'nagisa-minase': 'Cabelo Castanho',
+  'saki-saki': 'Cabelo Rosa',
+  'mirika': 'Cabelo Loiro / Dourado',
+  'mona-kawai': 'Cabelo Loiro / Dourado',
+  'tomo-aizawa': 'Cabelo Vermelho',
+  'junichirou-kubota': 'Cabelo Castanho',
+  'carol-olston': 'Cabelo Loiro / Dourado',
+  'maki-gamou': 'Cabelo Laranja',
+  'yoshi': 'Cabelo Loiro / Dourado',
+  'sakura': 'Cabelo Rosa',
+  'nagatoro': 'Cabelo Castanho',
+  'senpai-naoto': 'Cabelo Castanho',
+
+  // One Piece
+  'nefertari-vivi': 'Cabelo Azul',
+  'enel': 'Cabelo Loiro / Dourado',
+  'bellamy': 'Cabelo Loiro / Dourado',
+  'kureha': 'Cabelo Branco / Prateado',
+  'kumadori': 'Cabelo Rosa',
+  'arlong': 'Cabelo Preto',
+  'nojiko': 'Cabelo Azul',
+  'hatchan': 'Cabelo Branco / Prateado',
+  'bellemre': 'Cabelo Vermelho',
+  'bellemere': 'Cabelo Vermelho',
+  'brogy': 'Cabelo Vermelho',
+  'kalifa': 'Cabelo Loiro / Dourado',
+  'kaku': 'Cabelo Laranja',
+  'wyper': 'Cabelo Castanho',
+  'kaya': 'Cabelo Loiro / Dourado',
+  'keimi': 'Cabelo Verde',
+  'zeff': 'Cabelo Loiro / Dourado',
+  'basil-hawkins': 'Cabelo Loiro / Dourado',
+  'emporio-ivankov': 'Cabelo Roxo / Violeta',
+  'ivankov': 'Cabelo Roxo / Violeta',
+  'belo-betty': 'Cabelo Roxo / Violeta',
+  'hajrudin': 'Cabelo Loiro / Dourado',
+  'kozuki-toki': 'Cabelo Verde',
+  'edward-weevil': 'Cabelo Loiro / Dourado',
+  'kozuki-hiyori': 'Cabelo Verde',
+  'kikunojo': 'Cabelo Roxo / Violeta',
+  'kiku': 'Cabelo Roxo / Violeta',
+  'black-maria': 'Cabelo Loiro / Dourado',
+  'barao-tamago': 'Cabelo Loiro / Dourado',
+  'caribou': 'Cabelo Castanho',
+  'koza': 'Cabelo Loiro / Dourado',
+  'edison': 'Cabelo Careca / Sem Cabelo',
+  'emet': 'Cabelo Careca / Sem Cabelo',
+  'kawamatsu': 'Cabelo Careca / Sem Cabelo',
+  'nekomamushi': 'Cabelo Loiro / Dourado',
+  'hody-jones': 'Cabelo Branco / Prateado',
+  'trebol': 'Cabelo Preto',
+  'whos-who': 'Cabelo Vermelho',
+  'blue-gilly': 'Cabelo Azul',
+  'elizabello-ii': 'Cabelo Loiro / Dourado',
+
+  // Chainsaw Man
+  'quanxi': 'Cabelo Branco / Prateado',
+  'nail-fiend': 'Cabelo Branco / Prateado',
+  'beam': 'Cabelo Careca / Sem Cabelo',
+  'typhoon-devil': 'Cabelo Careca / Sem Cabelo',
+  'tomato-devil': 'Cabelo Careca / Sem Cabelo',
+  'ear-devil': 'Cabelo Careca / Sem Cabelo',
+  'teeth-devil': 'Cabelo Careca / Sem Cabelo',
+  'needle-devil': 'Cabelo Careca / Sem Cabelo',
+  'house-devil': 'Cabelo Careca / Sem Cabelo',
+  'tank-devil': 'Cabelo Careca / Sem Cabelo',
+  'bat-devil': 'Cabelo Careca / Sem Cabelo',
+  'hell-devil': 'Cabelo Careca / Sem Cabelo',
+  'eternity-devil': 'Cabelo Careca / Sem Cabelo',
+  'zombie-devil': 'Cabelo Careca / Sem Cabelo',
+  'bucky': 'Cabelo Careca / Sem Cabelo',
+
+  // Jujutsu Kaisen
+  'takako-uro': 'Cabelo Rosa',
+  'haruta-shigemo': 'Cabelo Loiro / Dourado',
+  'nanako-hasaba': 'Cabelo Loiro / Dourado',
+  'espirito-da-variola': 'Cabelo Careca / Sem Cabelo',
+  'kurourushi': 'Cabelo Careca / Sem Cabelo',
+  'panda': 'Cabelo Colorido / Marcante',
+
+  // Blue Lock
+  'hajime-nishioka': 'Cabelo Loiro / Dourado',
+  'benedict-grim': 'Cabelo Loiro / Dourado',
+  'erik-gesner': 'Cabelo Loiro / Dourado',
+  'teddy-knight': 'Cabelo Loiro / Dourado',
+  'noel-noa': 'Cabelo Loiro / Dourado',
+  'eita-otoya': 'Cabelo Colorido / Marcante',
+  'nijiro-nanase': 'Cabelo Verde',
+  'kenyu-yukimiya': 'Cabelo Castanho',
+  'tabito-karasu': 'Cabelo Roxo / Violeta',
+  'teppei-neru': 'Cabelo Loiro / Dourado',
+  'haru-hayate': 'Cabelo Castanho',
+  'wataru-kuon': 'Cabelo Castanho',
+  'keisuke-wanima': 'Cabelo Castanho',
+  'hibiki-okawa': 'Cabelo Loiro / Dourado',
+
+  // Attack on Titan
+  'armin-arlert': 'Cabelo Loiro / Dourado',
+  'reiner-braun': 'Cabelo Loiro / Dourado',
+  'annie-leonhart': 'Cabelo Loiro / Dourado',
+  'erwin-smith': 'Cabelo Loiro / Dourado',
+  'historia-reiss': 'Cabelo Loiro / Dourado',
+  'zeke-yeager': 'Cabelo Loiro / Dourado',
+  'falco-grice': 'Cabelo Loiro / Dourado',
+  'yelena': 'Cabelo Loiro / Dourado',
+  'dina-fritz': 'Cabelo Loiro / Dourado',
+  'niccolo': 'Cabelo Loiro / Dourado',
+  'porco-galliard': 'Cabelo Loiro / Dourado',
+  'connie-springer': 'Cabelo Branco / Prateado',
+  'sasha-braus': 'Cabelo Castanho',
+  'jean-kirstein': 'Cabelo Castanho',
+  'hange-zoe': 'Cabelo Castanho',
+  'gabi-braun': 'Cabelo Castanho',
+  'floch-forster': 'Cabelo Vermelho',
+
+  // Frieren
+  'fern': 'Cabelo Roxo / Violeta',
+  'stark': 'Cabelo Vermelho',
+  'himmel': 'Cabelo Azul',
+  'heiter': 'Cabelo Verde',
+  'eisen': 'Cabelo Branco / Prateado',
+  'flamme': 'Cabelo Laranja',
+  'serie': 'Cabelo Loiro / Dourado',
+  'kraft': 'Cabelo Branco / Prateado',
+  'sein': 'Cabelo Castanho',
+  'ubel': 'Cabelo Verde',
+  'land': 'Cabelo Castanho',
+  'wirbel': 'Cabelo Azul',
+  'denken': 'Cabelo Branco / Prateado',
+  'methode': 'Cabelo Castanho',
+  'sense': 'Cabelo Castanho',
+  'laufen': 'Cabelo Laranja',
+  'richter': 'Cabelo Castanho',
+  'kanne': 'Cabelo Azul',
+  'lawine': 'Cabelo Loiro / Dourado',
+  'scharf': 'Cabelo Castanho',
+  'edel': 'Cabelo Branco / Prateado',
+  'dunst': 'Cabelo Branco / Prateado',
+  'blei': 'Cabelo Castanho',
+  'stoltz': 'Cabelo Vermelho',
+  'lugner': 'Cabelo Roxo / Violeta',
+  'linie': 'Cabelo Vermelho',
+  'draht': 'Cabelo Branco / Prateado',
+  'aura': 'Cabelo Roxo / Violeta',
+  'macht': 'Cabelo Loiro / Dourado',
+  'grausam': 'Cabelo Azul',
+  'solitar': 'Cabelo Branco / Prateado',
+  'bose': 'Cabelo Careca / Sem Cabelo'
+};
+
+const animesDir = 'src/data/animes';
+const animes = fs.readdirSync(animesDir).filter(f => fs.statSync(path.join(animesDir, f)).isDirectory());
+
+let totalFixed = 0;
+
+for (const anime of animes) {
+  const p = path.join(animesDir, anime, 'characters.json');
+  if (!fs.existsSync(p)) continue;
+  const chars = JSON.parse(fs.readFileSync(p, 'utf-8'));
+  let changed = false;
+
+  for (const c of chars) {
+    if (CANON_HAIR_FIXES[c.id]) {
+      const correct = CANON_HAIR_FIXES[c.id];
+      if (c.hairColor !== correct) {
+        console.log(`[HAIR FIX] ${anime} | ${c.name} (${c.id}): "${c.hairColor}" -> "${correct}"`);
+        c.hairColor = correct;
+        changed = true;
+        totalFixed++;
+      }
+    }
+  }
+
+  if (changed) {
+    fs.writeFileSync(p, JSON.stringify(chars, null, 2), 'utf-8');
+  }
+}
+
+console.log(`Total hair colors fixed: ${totalFixed}`);

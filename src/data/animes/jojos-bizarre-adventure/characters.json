@@ -118,7 +118,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/erina-pendleton.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/kars.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Roxo / Violeta",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -337,7 +337,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/esidisi.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -360,7 +360,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/wamuu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -478,7 +478,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/noriaki-kakyoin.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -624,7 +624,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/hol-horse.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -647,7 +647,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/enya-geil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -717,7 +717,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/terrence-t-darby.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -835,7 +835,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/boingo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -930,7 +930,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/koichi-hirose.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1089,7 +1089,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/keicho-nijimura.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1159,7 +1159,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/tonio-trussardi.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1376,7 +1376,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/trish-una.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1733,7 +1733,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/weather-report.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1756,7 +1756,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/narciso-anasui.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1803,7 +1803,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/enrico-pucci.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2060,7 +2060,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/hot-pants.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2105,7 +2105,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/wekapipo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2151,7 +2151,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/blackmore.png",
     "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2288,7 +2288,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/norisuke-higashikata-iv.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Roxo / Violeta",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2377,7 +2377,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/hato-higashikata.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2423,7 +2423,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/tamaki-damo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2626,7 +2626,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/tonpetty.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2904,7 +2904,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/wired-beck.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3273,7 +3273,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/holy-kujo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3418,7 +3418,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/ken-oyanagi.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3610,7 +3610,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/tiziano.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3778,7 +3778,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/kenzou.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4238,7 +4238,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/tsurugi-higashikata.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4286,7 +4286,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/holy-joestar-kira.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4360,7 +4360,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/karera-sakunami.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4506,7 +4506,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/wu-tomoki.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {

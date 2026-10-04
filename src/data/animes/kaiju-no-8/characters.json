@@ -92,7 +92,7 @@
     ],
     "avatar": "/avatars/kaiju-no-8/kikoru-shinomiya.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -163,7 +163,7 @@
     ],
     "avatar": "/avatars/kaiju-no-8/haruichi-izumo.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -256,7 +256,7 @@
     ],
     "avatar": "/avatars/kaiju-no-8/konomi-okonogi.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -280,7 +280,7 @@
     ],
     "avatar": "/avatars/kaiju-no-8/keiji-itami.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -393,7 +393,7 @@
     ],
     "avatar": "/avatars/kaiju-no-8/hikari-shinomiya.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -460,7 +460,7 @@
     ],
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Rival / Antagonista",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Careca / Sem Cabelo",
     "avatar": "/avatars/kaiju-no-8/kaiju-no-10.png"
   }
 ]
