@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Character } from '../types/anime';
 import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, LayoutGrid, Flag } from 'lucide-react';
-import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender } from '../data/achievements';
+import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender, updateGlobalStatsOnOutcome } from '../data/achievements';
 import { VictoryModal } from './VictoryModal';
 
 interface GridCriterion {
@@ -155,12 +155,20 @@ const GridBoard: React.FC<GridBoardProps> = ({
           unlockAchievement('protagonist_comeback');
         }
         recordVictory(animeSlug, 'grid');
+        if (!isEndless) {
+          updateGlobalStatsOnOutcome('win');
+        }
+      } else if (isSurrendered) {
+        // Desistência já registrada em handleConfirmSurrender
       } else {
         recordDefeat(animeSlug, 'grid');
+        if (!isEndless) {
+          updateGlobalStatsOnOutcome('defeat');
+        }
       }
       setShowVictoryModal(true);
     }
-  }, [isGameOver, score, guessesLeft, animeSlug]);
+  }, [isGameOver, score, guessesLeft, animeSlug, isSurrendered, isEndless]);
 
   const cellAnswers = useMemo(() => {
     const list: { row: GridCriterion; col: GridCriterion; matches: Character[] }[] = [];
@@ -187,6 +195,9 @@ const GridBoard: React.FC<GridBoardProps> = ({
     setIsSurrendered(true);
     setGuessesLeft(0);
     recordSurrender(animeSlug, 'grid');
+    if (!isEndless) {
+      updateGlobalStatsOnOutcome('surrender');
+    }
     localStorage.setItem(`animedle_grid_surrendered_${gridSeed}`, 'true');
     setShowSurrenderConfirm(false);
     setShowAnswersModal(true);
@@ -389,8 +400,16 @@ const GridBoard: React.FC<GridBoardProps> = ({
         <VictoryModal
           targetCharacter={cells.find(Boolean) || characters[0]}
           totalGuesses={9 - guessesLeft}
-          isLost={score < 9}
+          isLost={score < 9 && !isSurrendered}
           isSurrendered={isSurrendered}
+          stats={(() => {
+            try {
+              const s = localStorage.getItem('animedle_stats');
+              return s ? JSON.parse(s) : undefined;
+            } catch {
+              return undefined;
+            }
+          })()}
           onClose={() => setShowVictoryModal(false)}
           onNext={isEndless && onResetForInfinite ? onResetForInfinite : undefined}
           nextButtonLabel="Nova Grade"

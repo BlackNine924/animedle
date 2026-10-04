@@ -12,7 +12,7 @@ import { MangaCoverageModal } from './components/MangaCoverageModal';
 import { ExclusiveAnimeMode } from './components/ExclusiveAnimeMode';
 import { AnimeGridMode } from './components/AnimeGridMode';
 import { AchievementToast } from './components/AchievementToast';
-import { unlockAchievement } from './data/achievements';
+import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
 
 import { ANIMES_CONFIG } from './data/animes/config';
 import demonSlayerCharacters from './data/animes/demon-slayer/characters.json';
@@ -808,19 +808,13 @@ export const App: React.FC<{
 
       setShowVictoryModal(true);
 
-      setStats((prev) => {
-        const newWins = prev.wins + 1;
-        const newStreak = prev.currentStreak + 1;
-        const newMax = Math.max(prev.maxStreak, newStreak);
-        return {
-          ...prev,
-          played: prev.played + 1,
-          wins: newWins,
-          currentStreak: newStreak,
-          maxStreak: newMax,
-        };
-      });
+      if (currentMode !== 'endless') {
+        const updated = updateGlobalStatsOnOutcome('win');
+        setStats(updated);
+      }
     } else if (isDefeat) {
+      const updated = updateGlobalStatsOnOutcome('defeat');
+      setStats(updated);
       setShowVictoryModal(true);
     }
   };
@@ -850,6 +844,10 @@ export const App: React.FC<{
         savedKey,
         JSON.stringify({ guesses: currentGuesses, isWon: false, isSurrendered: true })
       );
+
+      // Reseta estritamente a sequência para 0 e incrementa partidas jogadas (sem vitória!)
+      const updated = updateGlobalStatsOnOutcome('surrender');
+      setStats(updated);
     }
 
     setShowVictoryModal(true);

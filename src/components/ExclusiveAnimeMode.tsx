@@ -626,6 +626,14 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
           totalGuesses={roundGuesses.length}
           isLost={!isWonRound && isGameOver && !isSurrendered}
           isSurrendered={isSurrendered}
+          stats={(() => {
+            try {
+              const s = localStorage.getItem('animedle_stats');
+              return s ? JSON.parse(s) : undefined;
+            } catch {
+              return undefined;
+            }
+          })()}
           onClose={() => setShowResultModal(false)}
           onNext={
             isEndless

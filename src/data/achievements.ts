@@ -1,3 +1,5 @@
+import { GameStats } from '../types/anime';
+
 export interface Achievement {
   id: string;
   title: string;
@@ -310,6 +312,43 @@ export const recordDefeat = (animeSlug: string, mode: string): void => {
   }
 };
 
+export const updateGlobalStatsOnOutcome = (outcome: 'win' | 'defeat' | 'surrender'): GameStats => {
+  try {
+    const raw = localStorage.getItem('animedle_stats');
+    const prev: GameStats = raw
+      ? JSON.parse(raw)
+      : { played: 0, wins: 0, currentStreak: 0, maxStreak: 0, guessDistribution: {} };
+
+    const played = (prev.played || 0) + 1;
+    let wins = prev.wins || 0;
+    let currentStreak = 0;
+    let maxStreak = prev.maxStreak || 0;
+
+    if (outcome === 'win') {
+      wins += 1;
+      currentStreak = (prev.currentStreak || 0) + 1;
+      maxStreak = Math.max(maxStreak, currentStreak);
+    } else {
+      // Perda ou desistência: SEMPRE zera a sequência atual!
+      currentStreak = 0;
+    }
+
+    const updated: GameStats = {
+      ...prev,
+      played,
+      wins,
+      currentStreak,
+      maxStreak,
+    };
+
+    localStorage.setItem('animedle_stats', JSON.stringify(updated));
+    window.dispatchEvent(new CustomEvent('animedle_stats_updated', { detail: updated }));
+    return updated;
+  } catch (e) {
+    return { played: 0, wins: 0, currentStreak: 0, maxStreak: 0, guessDistribution: {} };
+  }
+};
+
 export const recordSurrender = (animeSlug: string, mode: string): void => {
   try {
     localStorage.setItem('animedle_no_surrender_streak', '0');
@@ -317,6 +356,16 @@ export const recordSurrender = (animeSlug: string, mode: string): void => {
       'animedle_last_match_result',
       JSON.stringify({ animeSlug, mode, isDefeat: true, isSurrendered: true, timestamp: Date.now() })
     );
+
+    // Multi anime tracking even on surrender
+    const playedAnimes: string[] = JSON.parse(localStorage.getItem('animedle_played_animes') || '[]');
+    if (!playedAnimes.includes(animeSlug)) {
+      playedAnimes.push(animeSlug);
+      localStorage.setItem('animedle_played_animes', JSON.stringify(playedAnimes));
+    }
+    if (playedAnimes.length >= 5) {
+      unlockAchievement('multi_anime');
+    }
   } catch (e) {
     // ignore
   }
