@@ -6026,7 +6026,7 @@
     "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Estilo Oito Espadas e Fisiologia de Aranha",
+    "styleOrPower": "Zoan (Kumo Kumo no Mi) e Estilo Oito Espadas",
     "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/onigumo.png",
@@ -7059,5 +7059,340 @@
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "pierre",
+    "name": "Pierre",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Skypiea"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Uma Uma no Mi)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "quote": "Pi-gyaaaa!",
+    "avatar": "/avatars/one-piece/pierre.png",
+    "techniques": [
+      "Transformação Pégaso",
+      "Voo de Montaria"
+    ],
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "gan-fall",
+    "name": "Gan Fall",
+    "gender": "Masculino",
+    "species": "Skypieano",
+    "affiliation": [
+      "Skypiea"
+    ],
+    "fruitType": "Nenhum",
+    "haki": "Observação",
+    "bounty": 0,
+    "styleOrPower": "Mantra, Lança de Justa e Dials (Impact Dial)",
+    "debutArc": "Skypiea",
+    "status": "Vivo",
+    "quote": "Eu sou o Cavaleiro dos Céus! Ao som deste apito, voarei para resgatar quem precisar.",
+    "avatar": "/avatars/one-piece/gan-fall.png",
+    "techniques": [
+      "Impact Dial",
+      "Estocada com Lança de Justa"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "very-good",
+    "name": "Very Good",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Beri Beri no Mi)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "quote": "Minha Beri Beri no Mi me divide em dezenas de esferas imunes a socos e chutes!",
+    "avatar": "/avatars/one-piece/very-good.png",
+    "techniques": [
+      "Divisão em Esferas",
+      "Beri Beri Cannon"
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "sharinguru",
+    "name": "Sharinguru",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Marinha"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Shari Shari no Mi)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "quote": "Transformo qualquer membro em uma roda cortante de alta rotação!",
+    "avatar": "/avatars/one-piece/sharinguru.png",
+    "techniques": [
+      "Shari Shari Spin",
+      "Investida Rotatória"
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "kelly-funk",
+    "name": "Kelly Funk",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Irmãos Funk"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Jake Jake no Mi)",
+    "debutArc": "Dressrosa",
+    "status": "Vivo",
+    "quote": "Quando visto o corpo do Bobby, nossa força combinada massacra qualquer gladiador!",
+    "avatar": "/avatars/one-piece/kelly-funk.png",
+    "techniques": [
+      "Fusão de Jaqueta",
+      "Socos Brutais Compartilhados"
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "kabu",
+    "name": "Kabu",
+    "gender": "Masculino",
+    "species": "Anão (Tontatta)",
+    "affiliation": [
+      "Reino Tontatta"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Mushi Mushi no Mi: Modelo Besouro Rinoceronte)",
+    "debutArc": "Dressrosa",
+    "status": "Vivo",
+    "quote": "Pela liberdade de Dressrosa e da Princesa Mansherry, o esquadrão dos besouros atacará!",
+    "avatar": "/avatars/one-piece/kabu.png",
+    "techniques": [
+      "Tontatta Combat",
+      "Investida com Chifre de Besouro"
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "bian",
+    "name": "Bian",
+    "gender": "Feminino",
+    "species": "Anão (Tontatta)",
+    "affiliation": [
+      "Reino Tontatta"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Mushi Mushi no Mi: Modelo Vespa)",
+    "debutArc": "Dressrosa",
+    "status": "Vivo",
+    "quote": "As vespas rosas dominam os céus da batalha!",
+    "avatar": "/avatars/one-piece/bian.png",
+    "techniques": [
+      "Voo de Vespa",
+      "Ataque Rápido com Ferrão"
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Aliado / Membro de Equipe"
+  },
+  {
+    "id": "smiley",
+    "name": "Smiley",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Punk Hazard"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Sara Sara no Mi: Modelo Axolotle)",
+    "debutArc": "Punk Hazard",
+    "status": "Morto",
+    "quote": "... *gás venenoso H2S borbulhante* ...",
+    "avatar": "/avatars/one-piece/smiley.png",
+    "techniques": [
+      "Disparo Tóxico de Slime",
+      "Nuvem Mortal Shinokuni"
+    ],
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Colorido / Marcante",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "funkfreed",
+    "name": "Funkfreed",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "CP9"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Zou Zou no Mi)",
+    "debutArc": "Water 7 / Enies Lobby",
+    "status": "Vivo",
+    "quote": "Paaaaaoooon!",
+    "avatar": "/avatars/one-piece/funkfreed.png",
+    "techniques": [
+      "Ivory Dart",
+      "Lâmina Tromba de Elefante"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "lassoo",
+    "name": "Lassoo",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Baroque Works"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan (Inu Inu no Mi: Modelo Dachshund)",
+    "debutArc": "Alabasta",
+    "status": "Vivo",
+    "quote": "*Atchim!* ... *bomba de beisebol disparada*",
+    "avatar": "/avatars/one-piece/lassoo.png",
+    "techniques": [
+      "Disparo de Bolas Explosivas"
+    ],
+    "combatType": "Ataque à Distância / Projéteis",
+    "hairColor": "Cabelo Castanho",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "charlotte-newshi",
+    "name": "Charlotte Newshi",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas da Big Mom"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Paramecia (Gocha Gocha no Mi)",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "quote": "Irmãos, preparem a fusão! Ninguém escapa de Cacao Island!",
+    "avatar": "/avatars/one-piece/charlotte-newshi.png",
+    "techniques": [
+      "Fusão Dodecagêmea",
+      "Ataque de Foice Gigante"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "charlotte-snack",
+    "name": "Charlotte Snack",
+    "gender": "Masculino",
+    "species": "Humano",
+    "affiliation": [
+      "Piratas da Big Mom"
+    ],
+    "fruitType": "Paramecia",
+    "haki": "Armamento & Observação",
+    "bounty": 600000000,
+    "styleOrPower": "Paramecia (Bishi Bishi no Mi)",
+    "debutArc": "Whole Cake Island",
+    "status": "Vivo",
+    "quote": "Mesmo rebaixado de General da Doçura, vou afundar sua tripulação!",
+    "avatar": "/avatars/one-piece/charlotte-snack.png",
+    "techniques": [
+      "Criação de Biscoito Salgado Bishi",
+      "Corte com Espada Larga"
+    ],
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro / Dourado",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "stronger",
+    "name": "Stronger",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Piratas do Barba Negra"
+    ],
+    "fruitType": "Zoan Mítica",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan Mítica (Uma Uma no Mi: Modelo Pégaso)",
+    "debutArc": "Jaya",
+    "status": "Vivo",
+    "quote": "*Hiin-hiin...*",
+    "avatar": "/avatars/one-piece/stronger.png",
+    "techniques": [
+      "Voo Alado Pégaso",
+      "Apoio de Artilharia para Doc Q e Teach"
+    ],
+    "combatType": "Suporte / Estratégia",
+    "hairColor": "Cabelo Branco / Prateado",
+    "roleOrArchetype": "Antagonista"
+  },
+  {
+    "id": "minotauros",
+    "name": "Minotauros",
+    "gender": "Masculino",
+    "species": "Animal",
+    "affiliation": [
+      "Impel Down"
+    ],
+    "fruitType": "Zoan",
+    "haki": "Nenhum",
+    "bounty": 0,
+    "styleOrPower": "Zoan Desperta (Ushi Ushi no Mi: Modelo Touro / Minotauro)",
+    "debutArc": "Summit War (Marineford)",
+    "status": "Vivo",
+    "quote": "*Muuu-groarrr!*",
+    "avatar": "/avatars/one-piece/minotauros.png",
+    "techniques": [
+      "Clava Gigante de Espinhos",
+      "Regeneração Animal Acelerada"
+    ],
+    "combatType": "Combate Corpo a Corpo",
+    "hairColor": "Cabelo Preto",
+    "roleOrArchetype": "Antagonista"
   }
 ]
