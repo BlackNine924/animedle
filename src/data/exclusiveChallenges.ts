@@ -2605,60 +2605,8 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
       }
     ]
   },
-  {
-    "id": "exc-op-16-very-good",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Beri Beri no Mi (Fruta das Esferas / Bagas)",
-    "badgeTitle": "Paramecia de Desmembramento",
-    "targetCharacterId": "smoker",
-    "targetCharacterName": "Smoker",
-    "validCharacterIds": [
-      "smoker"
-    ],
-    "clues": [
-      {
-        "label": "Divisão Esférica",
-        "value": "Divide o corpo em inúmeras esferas redondas como cachos de frutas"
-      },
-      {
-        "label": "Imunidade Contundente",
-        "value": "Extremamente resistente a golpes de impacto e socos contundentes"
-      },
-      {
-        "label": "Operação Militar",
-        "value": "Capitão da Marinha participante do Buster Call em Enies Lobby"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-18-sharinguru",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Shari Shari no Mi (Fruta da Roda)",
-    "badgeTitle": "Paramecia Motora",
-    "targetCharacterId": "franky",
-    "targetCharacterName": "Franky",
-    "validCharacterIds": [
-      "franky"
-    ],
-    "clues": [
-      {
-        "label": "Rotação Mecânica",
-        "value": "Transforma membros corporais em rodas que giram em velocidades vertiginosas"
-      },
-      {
-        "label": "Impacto Físico",
-        "value": "Utiliza as rodas giratórias como armas cortantes e de atropelamento"
-      },
-      {
-        "label": "Confronto em Enies Lobby",
-        "value": "Enfrentou Franky na ponte da hesitação durante o Buster Call"
-      }
-    ]
-  },
+  
+  
   {
     "id": "exc-op-19-brook",
     "animeSlug": "one-piece",
@@ -3255,33 +3203,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
       }
     ]
   },
-  {
-    "id": "exc-op-41-kelly-funk",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Jake Jake no Mi (Fruta da Jaqueta)",
-    "badgeTitle": "Paramecia Simbiótica",
-    "targetCharacterId": "leo",
-    "targetCharacterName": "Leo",
-    "validCharacterIds": [
-      "leo"
-    ],
-    "clues": [
-      {
-        "label": "Possessão Corporal",
-        "value": "Transforma o usuário em uma jaqueta que, ao ser vestida, controla o hospedeiro"
-      },
-      {
-        "label": "Dupla de Irmãos",
-        "value": "Veste o corpo de seu irmão gigante e poderoso Bobby Funk no Coliseu Corrida"
-      },
-      {
-        "label": "Assassinos de Mogaro",
-        "value": "Gladiadores mercenários conhecidos pelas lutas brutais e sem regras"
-      }
-    ]
-  },
+  
   {
     "id": "exc-op-42-gladius",
     "animeSlug": "one-piece",
@@ -5281,142 +5203,11 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
       }
     ]
   },
-  {
-    "id": "exc-op-117-kabu",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Mushi Mushi no Mi: Modelo Besouro Rinoceronte",
-    "badgeTitle": "Zoan Inseto",
-    "targetCharacterId": "leo",
-    "targetCharacterName": "Leo",
-    "validCharacterIds": [
-      "leo"
-    ],
-    "clues": [
-      {
-        "label": "Força de Inseto",
-        "value": "Transforma-se em um besouro kabutomushi com carapaça dura e chifre"
-      },
-      {
-        "label": "Esquadrão Tontatta",
-        "value": "Líder do Esquadrão dos Besouros Amarelos na rebelião contra Doflamingo"
-      },
-      {
-        "label": "Porte Pequeno",
-        "value": "Guerreiro anão da tribo Tontatta dotado de força proporcional espantosa"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-118-bian",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Mushi Mushi no Mi: Modelo Vespa",
-    "badgeTitle": "Zoan Inseto Voador",
-    "targetCharacterId": "leo",
-    "targetCharacterName": "Leo",
-    "validCharacterIds": [
-      "leo"
-    ],
-    "clues": [
-      {
-        "label": "Ferrão Aéreo",
-        "value": "Transforma-se numa vespa com ferrão veloz e voo de alta mobilidade"
-      },
-      {
-        "label": "Comandante Tontatta",
-        "value": "Líder do Esquadrão das Vespas Rosas no Reino de Tontatta"
-      },
-      {
-        "label": "Mensageira de Ataque",
-        "value": "Transportou guerreiros e bombas nas costas durante a Operação SOP"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-119-smiley",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Sara Sara no Mi: Modelo Axolotle",
-    "badgeTitle": "Zoan Anfíbia",
-    "targetCharacterId": "caesar-clown",
-    "targetCharacterName": "Caesar Clown",
-    "validCharacterIds": [
-      "caesar-clown",
-      "caesar-clown"
-    ],
-    "clues": [
-      {
-        "label": "Gelatina Tóxica",
-        "value": "Fruta consumida pela massa concentrada de gás venenoso H2S de Punk Hazard"
-      },
-      {
-        "label": "Renascimento em Fruta",
-        "value": "Mostrou pela primeira vez uma fruta renascendo em uma maçã próxima após sua morte"
-      },
-      {
-        "label": "Criador em Punk Hazard",
-        "value": "Alimentada com doces químicos por Caesar Clown para detonar a ilha"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-120-spandam",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Zou Zou no Mi (Fruta do Elefante)",
-    "badgeTitle": "Zoan Animal em Objeto",
-    "targetCharacterId": "spandam",
-    "targetCharacterName": "Spandam",
-    "validCharacterIds": [
-      "spandam"
-    ],
-    "clues": [
-      {
-        "label": "Espada Elefante",
-        "value": "A espada Funkfreed comeu a fruta Zoan através da tecnologia de Vegapunk"
-      },
-      {
-        "label": "Lâmina que Vira Tromba",
-        "value": "Estica uma tromba de aço cortante com presas de marfim"
-      },
-      {
-        "label": "Chefe da CP9",
-        "value": "Pertencia ao covarde Spandam que acionou por engano o Buster Call"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-121-mr-4",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Inu Inu no Mi: Modelo Dachshund",
-    "badgeTitle": "Zoan Canina em Objeto",
-    "targetCharacterId": "babe",
-    "targetCharacterName": "Mr. 4 (Babe)",
-    "validCharacterIds": [
-      "babe"
-    ],
-    "clues": [
-      {
-        "label": "Canhão Cachorro",
-        "value": "Um canhão que comeu uma fruta Zoan e espirra bolas de beisebol com bombas"
-      },
-      {
-        "label": "Resfriado Crônico",
-        "value": "O cachorro-canhão Lassoo vive resfriado e espirra projéteis explosivos"
-      },
-      {
-        "label": "Parceiro em Alabasta",
-        "value": "Arma de estimação do Mr. 4 na Baroque Works"
-      }
-    ]
-  },
+  
+  
+  
+  
+  
   {
     "id": "exc-op-122-tamago",
     "animeSlug": "one-piece",
@@ -5525,33 +5316,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
       }
     ]
   },
-  {
-    "id": "exc-op-126-charlotte-newshi",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Gocha Gocha no Mi (Fruta da Fusão)",
-    "badgeTitle": "Paramecia de Fusão Corporal",
-    "targetCharacterId": "charlotte-perospero",
-    "targetCharacterName": "Charlotte Perospero",
-    "validCharacterIds": [
-      "charlotte-perospero"
-    ],
-    "clues": [
-      {
-        "label": "Fusão de Dez Irmãos",
-        "value": "Permite fundir múltiplos irmãos em um único guerreiro gigante armado com foice"
-      },
-      {
-        "label": "Irmão Dodecagêmeo",
-        "value": "Um dos dez irmãos gêmeos da família Charlotte encarregados de caçar os Mugiwaras"
-      },
-      {
-        "label": "Emboscada em Cacao Island",
-        "value": "Tentou impedir a fuga de Sanji e Luffy das docas de Cacao Island"
-      }
-    ]
-  },
+  
   {
     "id": "exc-op-127-kozuki-toki",
     "animeSlug": "one-piece",
@@ -5606,142 +5371,11 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
       }
     ]
   },
-  {
-    "id": "exc-op-129-charlotte-snack",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Bishi Bishi no Mi (Fruta do Biscoito Salgado / Salgadinho)",
-    "badgeTitle": "Paramecia de Criação Alimentar",
-    "targetCharacterId": "charlotte-cracker",
-    "targetCharacterName": "Charlotte Cracker",
-    "validCharacterIds": [
-      "charlotte-cracker"
-    ],
-    "clues": [
-      {
-        "label": "Ex-General da Doçura",
-        "value": "Perdeu seu posto de quarto General da Doçura após ser derrotado por Urouge"
-      },
-      {
-        "label": "Recompensa de 600 Milhões",
-        "value": "Empunha uma espada larga e enfrentou a frota da Germa 66 na fuga de Whole Cake"
-      },
-      {
-        "label": "Ministro dos Fritos",
-        "value": "Filho robusto de Big Mom posicionado no porto para afundar o Sunny"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-130-stronger",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Uma Uma no Mi: Modelo Pégaso",
-    "badgeTitle": "Zoan Mítica Alada",
-    "targetCharacterId": "doc-q",
-    "targetCharacterName": "Doc Q",
-    "validCharacterIds": [
-      "doc-q",
-      "doc-q"
-    ],
-    "clues": [
-      {
-        "label": "Cavalo Alado dos Céus",
-        "value": "Transforma um cavalo doente em um imenso pégaso com asas brancas plumadas"
-      },
-      {
-        "label": "Montaria de Doc Q",
-        "value": "Cavalo decrépito de estimação do médico dos Piratas do Barba Negra"
-      },
-      {
-        "label": "Combate Aéreo contra Law",
-        "value": "Sobrevoou o mar transportando Barba Negra na emboscada contra os Heart Pirates"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-131-pierre",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Uma Uma no Mi (Fruta do Cavalo)",
-    "badgeTitle": "Zoan Equina",
-    "targetCharacterId": "enel",
-    "targetCharacterName": "Enel",
-    "validCharacterIds": [
-      "enel"
-    ],
-    "clues": [
-      {
-        "label": "Pássaro que Virou Cavalo",
-        "value": "Fruta consumida por um pássaro que se transforma num pégaso com bolinhas rosas"
-      },
-      {
-        "label": "Montaria do Deus Gan Fall",
-        "value": "Cavaleiro dos Céus e ex-deus de Skypiea que socorria pessoas ao soprar o apito"
-      },
-      {
-        "label": "Aparência Desajeitada",
-        "value": "Forma híbrida com asas de pássaro e corpo de cavalo manchado"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-132-minotauros",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Ushi Ushi no Mi: Modelo Touro / Minotauro",
-    "badgeTitle": "Zoan Desperta Bestial",
-    "targetCharacterId": "magellan",
-    "targetCharacterName": "Magellan",
-    "validCharacterIds": [
-      "magellan"
-    ],
-    "clues": [
-      {
-        "label": "Fera Desperta de Impel Down",
-        "value": "Zoan Desperta cujos usuários perderam a consciência humana para os instintos da besta"
-      },
-      {
-        "label": "Guardião Torturador",
-        "value": "Uma das quatro feras carcereiras de Impel Down armada com clava de espinhos"
-      },
-      {
-        "label": "Regeneração Monstruosa",
-        "value": "Recupera-se de ferimentos quase imediatamente após ser derrotado no Nível 3"
-      }
-    ]
-  },
-  {
-    "id": "exc-op-133-onigumo",
-    "animeSlug": "one-piece",
-    "category": "Akuma no Mi",
-    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
-    "targetTitle": "Kumo Kumo no Mi (Fruta da Aranha Onigumo)",
-    "badgeTitle": "Zoan Aracnídea",
-    "targetCharacterId": "onigumo",
-    "targetCharacterName": "Onigumo",
-    "validCharacterIds": [
-      "onigumo"
-    ],
-    "clues": [
-      {
-        "label": "Oito Braços de Aranha",
-        "value": "Brota membros negros de aranha das costas empunhando oito espadas simultâneas"
-      },
-      {
-        "label": "Vice-Almirante Sinistro",
-        "value": "Veterano do Buster Call e Marineford conhecido como Onigumo da Aranha"
-      },
-      {
-        "label": "Algema de Seastone",
-        "value": "Foi quem algemou Marco a Fênix com algemas de Kairouseki em Marineford"
-      }
-    ]
-  },
+  
+  
+  
+  
+  
   {
     "id": "exc-naruto-1-naruto-uzumaki",
     "animeSlug": "naruto",
