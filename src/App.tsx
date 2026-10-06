@@ -14,6 +14,8 @@ import { AnimeGridMode } from './components/AnimeGridMode';
 import { AchievementToast } from './components/AchievementToast';
 import { ObfuscatedMysteryAvatar } from './components/ObfuscatedMysteryAvatar';
 import { VoicePlayerCard } from './components/VoicePlayerCard';
+import { ModeHeaderCard } from './components/ModeHeaderCard';
+import { SurrenderConfirmModal } from './components/SurrenderConfirmModal';
 import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
 import { getVoiceChallengesForAnime } from './data/voices/voiceChallenges';
 
@@ -21,7 +23,7 @@ import { ANIMES_CONFIG } from './data/animes/config';
 import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
 import { Character, GameMode, GuessResult, GameStats, VoiceChallenge } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
-import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Volume2, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
+import { Sparkles, Eye, Zap, ZoomIn, Volume2, LayoutGrid, BookOpen } from 'lucide-react';
 
 
 export const App: React.FC<{
@@ -31,6 +33,26 @@ export const App: React.FC<{
   onNavigateToAnime: (slug: string) => void;
 }> = ({ animeSlug: currentAnimeSlug, charactersData, onNavigateHome, onNavigateToAnime }) => {
   const [currentMode, setCurrentMode] = useState<GameMode>('classic');
+
+  // Controle de Modo Infinito por Modo de Jogo
+  const [endlessByMode, setEndlessByMode] = useState<Record<GameMode, boolean>>({
+    classic: false,
+    wanted: false,
+    ability: false,
+    zoom: false,
+    voice: false,
+    grid: false,
+  });
+
+  const isCurrentEndless = endlessByMode[currentMode] || false;
+
+  const handleToggleEndless = (mode: GameMode, val: boolean) => {
+    setEndlessByMode((prev) => ({
+      ...prev,
+      [mode]: val,
+    }));
+    setShowVictoryModal(false);
+  };
 
   // Ordena a lista de personagens recebida em ordem alfabética (A-Z)
   const characters = React.useMemo(() => {
@@ -57,40 +79,13 @@ export const App: React.FC<{
     setShowVictoryModal(false);
   };
 
-  // Garante que animes sem o modo citação permaneçam no modo clássico
-  React.useEffect(() => {
-    const ANIMES_WITH_QUOTE = [
-      'one-piece',
-      'naruto',
-      'demon-slayer',
-      'jujutsu-kaisen',
-      'bleach',
-      'dragon-ball',
-      'attack-on-titan',
-      'hunter-x-hunter',
-      'chainsaw-man',
-      'frieren',
-      'fullmetal-alchemist',
-      'romance',
-      'solo-leveling',
-      'my-hero-academia',
-      'tokyo-ghoul',
-      'berserk',
-    ];
-    if (!ANIMES_WITH_QUOTE.includes(currentAnimeSlug) && currentMode === 'quote') {
-      setCurrentMode('classic');
-    }
-  }, [currentAnimeSlug, currentMode]);
-
   // Dev Offset Shift Map para trocar de resposta ao clicar no Resetar(dev)
   const [devOffsets, setDevOffsets] = useState<Record<GameMode, number>>({
     classic: 0,
     wanted: 0,
-    quote: 0,
     ability: 0,
     zoom: 0,
     voice: 0,
-    endless: 0,
     grid: 0,
   });
 
@@ -478,22 +473,6 @@ export const App: React.FC<{
     return items;
   }, [characters, currentAnimeSlug]);
 
-  // Filtra apenas os personagens válidos para o modo atual (ex: modo citação exige citação real e não-genérica)
-  const validCharactersForMode = React.useMemo(() => {
-    if (currentMode === 'quote') {
-      return characters.filter(
-        (c) =>
-          c.quote &&
-          c.quote.trim() !== '' &&
-          c.quote !== 'Nenhum' &&
-          c.quote !== 'Nenhuma' &&
-          !c.quote.includes('Eu serei o maior livre dos mares') &&
-          !c.quote.includes('Uma frase inesquecível')
-      );
-    }
-    return characters;
-  }, [characters, currentMode]);
-
   // Desafios de Voz do anime atual
   const voiceChallenges = React.useMemo(() => {
     return getVoiceChallengesForAnime(currentAnimeSlug);
@@ -505,7 +484,7 @@ export const App: React.FC<{
       ? abilityPool.length
       : currentMode === 'voice'
       ? voiceChallenges.length
-      : validCharactersForMode.length;
+      : characters.length;
 
   // Calcula o índice do alvo diário aplicando a variação dev
   const baseDailyIndex = getDailyCharacterIndex(currentAnimeSlug, currentMode, targetPoolSize);
@@ -513,12 +492,16 @@ export const App: React.FC<{
   
   // Habilidade/Domínio ativa do modo habilidade
   const currentAbilityItem = currentMode === 'ability' && abilityPool.length > 0
-    ? abilityPool[dailyIndex % abilityPool.length]
+    ? (isCurrentEndless
+        ? abilityPool[endlessTargetIndex % abilityPool.length]
+        : abilityPool[dailyIndex % abilityPool.length])
     : null;
 
   // Desafio de voz ativo no modo voz
   const currentVoiceChallenge = currentMode === 'voice' && voiceChallenges.length > 0
-    ? voiceChallenges[dailyIndex % voiceChallenges.length]
+    ? (isCurrentEndless
+        ? voiceChallenges[endlessTargetIndex % voiceChallenges.length]
+        : voiceChallenges[dailyIndex % voiceChallenges.length])
     : null;
 
   // Personagem secreto do desafio ativo
@@ -526,24 +509,23 @@ export const App: React.FC<{
     ? currentAbilityItem.character
     : currentMode === 'voice' && currentVoiceChallenge
     ? (characters.find((c) => c.id === currentVoiceChallenge.characterId) || characters[0])
-    : (currentMode === 'endless'
-        ? validCharactersForMode[endlessTargetIndex % validCharactersForMode.length]
-        : validCharactersForMode[dailyIndex % validCharactersForMode.length]);
+    : (isCurrentEndless
+        ? characters[endlessTargetIndex % characters.length]
+        : characters[dailyIndex % characters.length]);
 
   // Armazenamento de estado independente por modo
   const [modeStates, setModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
     classic: { guesses: [], isWon: false },
     wanted: { guesses: [], isWon: false },
-    quote: { guesses: [], isWon: false },
     ability: { guesses: [], isWon: false },
     zoom: { guesses: [], isWon: false },
     voice: { guesses: [], isWon: false },
-    endless: { guesses: [], isWon: false },
     grid: { guesses: [], isWon: false },
   });
 
   // Modais
   const [showVictoryModal, setShowVictoryModal] = useState<boolean>(false);
+  const [showSurrenderConfirm, setShowSurrenderConfirm] = useState<boolean>(false);
   const [showHowToPlay, setShowHowToPlay] = useState<boolean>(false);
   const [showStats, setShowStats] = useState<boolean>(false);
   const [showMangaCoverage, setShowMangaCoverage] = useState<boolean>(false);
@@ -600,15 +582,13 @@ export const App: React.FC<{
   // Carrega progresso independente de CADA MODO do localStorage ao trocar de modo/anime
   useEffect(() => {
     const todayStr = getDailyDateString();
-    const modesList: GameMode[] = ['classic', 'wanted', 'quote', 'ability', 'zoom', 'voice'];
+    const modesList: GameMode[] = ['classic', 'wanted', 'ability', 'zoom', 'voice'];
     const newStates: Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }> = {
       classic: { guesses: [], isWon: false },
       wanted: { guesses: [], isWon: false },
-      quote: { guesses: [], isWon: false },
       ability: { guesses: [], isWon: false },
       zoom: { guesses: [], isWon: false },
       voice: { guesses: [], isWon: false },
-      endless: { guesses: [], isWon: false },
       grid: { guesses: [], isWon: false },
     };
 
@@ -632,6 +612,7 @@ export const App: React.FC<{
 
     setModeStates(newStates);
     setShowVictoryModal(false);
+    setShowSurrenderConfirm(false);
     setEndlessTargetIndex(Math.floor(Math.random() * characters.length));
 
     // Se mudou de anime, reseta a sequência do modo treino. Se recarregou/voltou ao mesmo, mantém.
@@ -709,7 +690,7 @@ export const App: React.FC<{
       },
     }));
 
-    if (currentMode !== 'endless') {
+    if (!isCurrentEndless) {
       const todayStr = getDailyDateString();
       const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
       localStorage.setItem(
@@ -724,7 +705,7 @@ export const App: React.FC<{
     }
 
     if (isCorrect) {
-      if (currentMode === 'endless') {
+      if (isCurrentEndless) {
         setEndlessStreak((s) => {
           const next = s + 1;
           localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, next.toString());
@@ -736,7 +717,7 @@ export const App: React.FC<{
 
       setShowVictoryModal(true);
 
-      if (currentMode !== 'endless') {
+      if (!isCurrentEndless) {
         const updated = updateGlobalStatsOnOutcome('win');
         setStats(updated);
       }
@@ -747,11 +728,18 @@ export const App: React.FC<{
     }
   };
 
-  // Função ao Clicar em Desistir
-  const handleSurrender = () => {
+  // Solicita confirmação antes de desistir
+  const handleRequestSurrender = () => {
     if (isFinished) return;
+    setShowSurrenderConfirm(true);
+  };
 
-    if (currentMode === 'endless') {
+  // Função ao Confirmar Desistência
+  const handleConfirmSurrender = () => {
+    if (isFinished) return;
+    setShowSurrenderConfirm(false);
+
+    if (isCurrentEndless) {
       setEndlessStreak(0);
       localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
     }
@@ -765,7 +753,7 @@ export const App: React.FC<{
       },
     }));
 
-    if (currentMode !== 'endless') {
+    if (!isCurrentEndless) {
       const todayStr = getDailyDateString();
       const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
       localStorage.setItem(
@@ -781,24 +769,29 @@ export const App: React.FC<{
     setShowVictoryModal(true);
   };
 
-  // Próximo desafio no Modo Treino
+  // Próximo desafio no Modo Treino/Infinito
   const handleNextEndlessChallenge = () => {
-    const poolSize = currentMode === 'ability' ? abilityPool.length : validCharactersForMode.length;
+    const poolSize = currentMode === 'ability'
+      ? abilityPool.length
+      : currentMode === 'voice'
+      ? voiceChallenges.length
+      : characters.length;
+
     let nextIdx = Math.floor(Math.random() * poolSize);
-    if (nextIdx === endlessTargetIndex) {
+    if (nextIdx === endlessTargetIndex && poolSize > 1) {
       nextIdx = (nextIdx + 1) % poolSize;
     }
     setEndlessTargetIndex(nextIdx);
     setModeStates((prev) => ({
       ...prev,
-      endless: { guesses: [], isWon: false, isSurrendered: false },
+      [currentMode]: { guesses: [], isWon: false, isSurrendered: false },
     }));
     setShowVictoryModal(false);
   };
 
   // Resetar (dev)
   const handleResetDaily = () => {
-    if (currentMode === 'endless') {
+    if (isCurrentEndless) {
       handleNextEndlessChallenge();
       return;
     }
@@ -807,15 +800,19 @@ export const App: React.FC<{
     const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
     localStorage.removeItem(savedKey);
 
-    const poolSize = currentMode === 'ability' ? abilityPool.length : validCharactersForMode.length;
+    const poolSize = currentMode === 'ability'
+      ? abilityPool.length
+      : currentMode === 'voice'
+      ? voiceChallenges.length
+      : characters.length;
     let randomOffset = Math.floor(Math.random() * poolSize);
 
     // Se for modo sem repetição ('classic', 'wanted', 'zoom'), evitar colisão com os outros modos vinculados
-    if (['classic', 'wanted', 'zoom'].includes(currentMode) && validCharactersForMode.length >= 3) {
+    if (['classic', 'wanted', 'zoom'].includes(currentMode) && characters.length >= 3) {
       const otherModes = (['classic', 'wanted', 'zoom'] as GameMode[]).filter(m => m !== currentMode);
       const otherIndices = otherModes.map(m => {
-        const base = getDailyCharacterIndex(currentAnimeSlug, m, validCharactersForMode.length);
-        return (base + (devOffsets[m] || 0)) % validCharactersForMode.length;
+        const base = getDailyCharacterIndex(currentAnimeSlug, m, characters.length);
+        return (base + (devOffsets[m] || 0)) % characters.length;
       });
 
       let attempts = 0;
@@ -895,12 +892,6 @@ export const App: React.FC<{
             </picture>
           </div>
 
-          {currentMode === 'endless' && (
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#111a2d] border border-[#202b43] text-slate-300 text-xs font-bold mb-3 shadow-sm">
-              <InfinityIcon size={14} className="text-amber-400" />
-              <span>Modo Infinito</span>
-            </div>
-          )}
           <div className="inline-flex items-center justify-center px-4 sm:px-6 py-2 sm:py-2.5 rounded-2xl bg-[#060b18]/75 backdrop-blur-md border border-white/10 shadow-2xl mb-1 mt-1 max-w-full">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tight drop-shadow-[0_2px_10px_rgba(0,0,0,0.95)]">
               Adivinhe o Personagem de{' '}
@@ -934,11 +925,6 @@ export const App: React.FC<{
               </button>
             </div>
           )}
-          {currentMode === 'endless' && (
-            <p className="text-xs sm:text-sm text-slate-400 mt-1.5 max-w-lg mx-auto">
-              Treine sem limites! Adivinhe quantos personagens conseguir em sequência.
-            </p>
-          )}
         </div>
 
         {/* Abas de Modos de Jogo */}
@@ -949,13 +935,58 @@ export const App: React.FC<{
           currentAnimeSlug={currentAnimeSlug}
         />
 
-        {/* Quadro de Dicas & Botão Desistir (Dica 2 Inteligente no modo Citação) */}
+        {/* Card Padrão de Cabeçalho do Modo (Nome, Ícone, Descrição e Alternador Diário / Infinito) */}
+        {currentMode === 'classic' && (
+          <ModeHeaderCard
+            title="Modo Clássico"
+            description="Adivinhe o personagem misterioso recebendo pistas sobre seus atributos a cada tentativa."
+            icon={<Sparkles size={20} />}
+            themeColor={animeConfig.themeColor}
+            isEndless={isCurrentEndless}
+            onToggleEndless={(val) => handleToggleEndless('classic', val)}
+          />
+        )}
+
+        {currentMode === 'wanted' && (
+          <ModeHeaderCard
+            title="Modo Procurado"
+            description="Quem é este personagem? A foto fica mais nítida a cada tentativa errada!"
+            icon={<Eye size={20} />}
+            themeColor={animeConfig.themeColor}
+            isEndless={isCurrentEndless}
+            onToggleEndless={(val) => handleToggleEndless('wanted', val)}
+          />
+        )}
+
+        {currentMode === 'voice' && (
+          <ModeHeaderCard
+            title="Modo Voz & Som"
+            description="Ouça a atuação vocal e adivinhe o dono da voz original do anime!"
+            icon={<Volume2 size={20} />}
+            themeColor={animeConfig.themeColor}
+            isEndless={isCurrentEndless}
+            onToggleEndless={(val) => handleToggleEndless('voice', val)}
+          />
+        )}
+
+        {currentMode === 'zoom' && (
+          <ModeHeaderCard
+            title="Modo Zoom (Olhos & Detalhes)"
+            description="A foto do personagem está com zoom extremo! O zoom diminui a cada erro."
+            icon={<ZoomIn size={20} />}
+            themeColor={animeConfig.themeColor}
+            isEndless={isCurrentEndless}
+            onToggleEndless={(val) => handleToggleEndless('zoom', val)}
+          />
+        )}
+
+        {/* Quadro de Dicas & Botão Desistir */}
         {currentMode !== 'ability' && currentMode !== 'grid' && (
           <HintBox
             targetCharacter={targetCharacter}
             guessCount={currentGuesses.length}
             isWon={isFinished}
-            onSurrender={handleSurrender}
+            onSurrender={handleRequestSurrender}
             disabled={isFinished}
             currentMode={currentMode}
             currentAnimeSlug={currentAnimeSlug}
@@ -993,13 +1024,6 @@ export const App: React.FC<{
         {/* MODO PROCURADO */}
         {currentMode === 'wanted' && (
           <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl">
-            <h3 className="font-extrabold text-base text-white flex items-center justify-center gap-2 mb-1.5">
-              <Eye size={18} style={{ color: animeConfig.themeColor }} /> Modo Procurado
-            </h3>
-            <p className="text-xs text-slate-400 mb-4">
-              Quem é este personagem? A foto fica mais nítida a cada tentativa errada!
-            </p>
-            
             <div className="w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
               <ObfuscatedMysteryAvatar
                 avatarUrl={targetCharacter.avatar}
@@ -1009,32 +1033,6 @@ export const App: React.FC<{
                 className="w-full h-full"
               />
             </div>
-
-            <CharacterSearchInput
-              characters={characters}
-              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
-              onSelectCharacter={handleSelectCharacter}
-              disabled={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
-
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
-          </div>
-        )}
-
-        {/* MODO CITAÇÃO */}
-        {currentMode === 'quote' && (
-          <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl">
-            <h3 className="font-extrabold text-base text-white flex items-center justify-center gap-2 mb-2">
-              <MessageSquare size={18} style={{ color: animeConfig.themeColor }} /> Quem disse esta frase marcante?
-            </h3>
-            
-            <blockquote
-              style={{ borderLeftColor: animeConfig.themeColor }}
-              className="p-4 bg-[#111a2d] border-l-4 rounded-r-2xl italic text-sm text-slate-200 my-4 shadow-inner text-left"
-            >
-              "{targetCharacter.quote || 'Uma frase inesquecível...'}"
-            </blockquote>
 
             <CharacterSearchInput
               characters={characters}
@@ -1084,12 +1082,6 @@ export const App: React.FC<{
         {/* MODO ZOOM / OLHOS */}
         {currentMode === 'zoom' && (
           <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl">
-            <h3 className="font-extrabold text-base text-white flex items-center justify-center gap-2 mb-1.5">
-              <ZoomIn size={18} style={{ color: animeConfig.themeColor }} /> Modo Zoom (Olhos & Detalhes)
-            </h3>
-            <p className="text-xs text-slate-400 mb-3">
-              A foto do personagem está com zoom extremo! O zoom diminui a cada erro.
-            </p>
             {zoomScale === 1 && !isFinished && (
               <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30 text-xs font-black mb-3 animate-pulse">
                 <span>⚠️ Zoom 1x atingido! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances antes da derrota!</span>
@@ -1129,43 +1121,30 @@ export const App: React.FC<{
           />
         )}
 
-        {/* MODO TREINO (INFINITO) */}
-        {currentMode === 'endless' && (
-          <div>
-            <div className="max-w-2xl mx-auto mb-4 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl flex items-center justify-between text-xs shadow-lg">
-              <div className="flex items-center gap-2 font-bold text-sm" style={{ color: animeConfig.themeColor }}>
-                <Flame size={18} className="text-amber-400" />
-                <span>Sequência no Treino: <strong className="text-amber-400 text-base">{endlessStreak}</strong> acertos</span>
-              </div>
-              {isFinished && (
-                <button
-                  onClick={handleNextEndlessChallenge}
-                  className="flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-extrabold rounded-xl shadow-lg transition-all transform hover:scale-105"
-                >
-                  <RefreshCw size={14} />
-                  <span>Próximo Personagem</span>
-                </button>
-              )}
-            </div>
-
-            <CharacterSearchInput
-              characters={characters}
-              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
-              onSelectCharacter={handleSelectCharacter}
-              disabled={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
-
-            <ClassicGrid columns={animeConfig.columns} guesses={currentGuesses} animeSlug={currentAnimeSlug} />
-          </div>
-        )}
-
       </main>
 
       {/* Footer */}
       <footer className="border-t border-[#202b43]/60 py-6 text-center text-xs text-slate-500 relative z-0">
         <p>AnimeDLE © 2026 • Feito por Reskalla</p>
       </footer>
+
+      {/* Modal Universal de Confirmação de Desistência */}
+      <SurrenderConfirmModal
+        isOpen={showSurrenderConfirm}
+        onClose={() => setShowSurrenderConfirm(false)}
+        onConfirm={handleConfirmSurrender}
+        modeName={
+          currentMode === 'classic'
+            ? 'Modo Clássico'
+            : currentMode === 'wanted'
+            ? 'Modo Procurado'
+            : currentMode === 'voice'
+            ? 'Modo Voz'
+            : currentMode === 'zoom'
+            ? 'Modo Zoom'
+            : 'Desafio'
+        }
+      />
 
       {/* Modais */}
       {showVictoryModal && (
@@ -1176,6 +1155,8 @@ export const App: React.FC<{
           isSurrendered={currentIsSurrendered}
           isLost={currentIsLost}
           onClose={() => setShowVictoryModal(false)}
+          onNext={isCurrentEndless ? handleNextEndlessChallenge : undefined}
+          nextButtonLabel={isFinished ? 'Próximo Personagem' : undefined}
           themeColor={animeConfig.themeColor}
           animeTitle={animeConfig.title}
           animeSlug={currentAnimeSlug}

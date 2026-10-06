@@ -40,22 +40,22 @@ export const ACHIEVEMENTS_LIST: Achievement[] = [
   },
   {
     id: 'quote_master',
-    title: 'Citações Memoráveis',
-    description: 'Acerte o personagem no Modo Citação em 2 tentativas ou menos.',
+    title: 'Ouvido Absoluto',
+    description: 'Acerte o personagem no Modo Voz em 2 tentativas ou menos.',
     icon: '/icons/achievements/quote_master.png',
     category: 'modo',
   },
   {
     id: 'endless_streak_5',
     title: 'Guerreiro Sem Fim',
-    description: 'Alcance uma sequência de 5 acertos no Modo Treino.',
+    description: 'Alcance uma sequência de 5 vitórias no Modo Infinito.',
     icon: '/icons/achievements/endless_streak_5.png',
     category: 'modo',
   },
   {
     id: 'endless_streak_10',
     title: 'Enciclopédia Ambulante',
-    description: 'Alcance uma sequência de 10 acertos consecutivos no Modo Treino.',
+    description: 'Alcance uma sequência de 10 vitórias no Modo Infinito.',
     icon: '/icons/achievements/endless_streak_10.png',
     category: 'modo',
   },
@@ -216,7 +216,7 @@ export const recordVictory = (animeSlug: string, mode: string, characterId?: str
       animeModes[animeSlug].push(mode);
       localStorage.setItem('animedle_anime_modes_won', JSON.stringify(animeModes));
     }
-    const coreModes = ['classic', 'grid', 'zoom', 'wanted', 'quote'];
+    const coreModes = ['classic', 'grid', 'zoom', 'wanted', 'voice'];
     if (coreModes.every((m) => animeModes[animeSlug].includes(m))) {
       unlockAchievement('universe_mastery');
     }
@@ -237,8 +237,8 @@ export const recordVictory = (animeSlug: string, mode: string, characterId?: str
       }
     }
 
-    // 4. Quote mode across 5 different animes -> multiverse_echoes
-    if (mode === 'quote') {
+    // 4. Voice mode across 5 different animes -> multiverse_echoes
+    if (mode === 'voice') {
       const quoteAnimesRaw = localStorage.getItem('animedle_quote_animes_won');
       const quoteAnimes: string[] = quoteAnimesRaw ? JSON.parse(quoteAnimesRaw) : [];
       if (!quoteAnimes.includes(animeSlug)) {

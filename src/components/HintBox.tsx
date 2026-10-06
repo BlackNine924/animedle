@@ -189,7 +189,6 @@ export const HintBox: React.FC<HintBoxProps> = ({
   const hint1Remaining = Math.max(0, hint1Needed - guessCount);
   const hint2Remaining = Math.max(0, hint2Needed - guessCount);
 
-  const isQuoteMode = currentMode === 'quote';
   const isNaruto = currentAnimeSlug === 'naruto';
   const isRomance = currentAnimeSlug === 'romance';
 
@@ -208,7 +207,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
     hint2Label = 'Dica 2 — Papel & Arquétipo';
     const roleParts = [targetCharacter.role, targetCharacter.archetype].filter(Boolean);
     hint2Content = roleParts.length > 0 ? roleParts.join(' · ') : (targetCharacter.status || 'Protagonista');
-  } else if (isNaruto && !isQuoteMode) {
+  } else if (isNaruto) {
     hint2Label = 'Dica 2 — Jutsu & Atributo';
     const jutsu = targetCharacter.styleOrPower && targetCharacter.styleOrPower !== 'Nenhuma' ? targetCharacter.styleOrPower : null;
     const attrs = Array.isArray(targetCharacter.attributes)
@@ -219,11 +218,6 @@ export const HintBox: React.FC<HintBoxProps> = ({
     else if (jutsu) hint2Content = jutsu;
     else if (attr) hint2Content = attr;
     else hint2Content = Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation.join(', ') : targetCharacter.affiliation || 'Shinobi';
-  } else if (isQuoteMode) {
-    hint2Label = 'Dica 2 — Técnica / Poder';
-    hint2Content = targetCharacter.domainExpansion
-      ? `${targetCharacter.ability || targetCharacter.styleOrPower} (Domínio: ${targetCharacter.domainExpansion})`
-      : targetCharacter.ability || targetCharacter.styleOrPower || targetCharacter.rank || 'Habilidade Especial';
   } else {
     hint2Label = 'Dica 2 — Frase Marcante';
     hint2Content = targetCharacter.quote || targetCharacter.ability || targetCharacter.styleOrPower || 'Uma figura inesquecível';

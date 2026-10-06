@@ -2,7 +2,7 @@ import { VoiceChallenge } from '../../types/anime';
 
 /**
  * Banco Central de Desafios de Voz & Som do AnimeDle.
- * Cada desafio mapeia a um personagem canônico com clipe de voz autêntico (risadas, ataques, bordões).
+ * Contém um acervo rico e expandido de personagens canônicos com clipes de voz autênticos (risadas, ataques, bordões).
  */
 export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
   'one-piece': [
@@ -13,7 +13,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Monkey D. Luffy',
       audioUrl: 'https://www.myinstants.com/media/sounds/luffy-laugh.mp3',
       category: 'risada',
-      subtitle: 'Shishishishi! Ore wa Monkey D. Luffy, Kaizoku-ō ni naru otoko da!',
     },
     {
       id: 'voice-op-brook',
@@ -22,7 +21,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Brook',
       audioUrl: 'https://www.myinstants.com/media/sounds/brook-laugh.mp3',
       category: 'risada',
-      subtitle: 'Yohohoho! Yohohoho! Pantsu misete moratte yoroshii desu ka?',
     },
     {
       id: 'voice-op-blackbeard',
@@ -31,7 +29,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Marshall D. Teach (Barba Negra)',
       audioUrl: 'https://www.myinstants.com/media/sounds/zehahaha.mp3',
       category: 'risada',
-      subtitle: 'Zehahaha! Hito no yume wa... owaranai!',
     },
     {
       id: 'voice-op-doflamingo',
@@ -40,7 +37,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Donquixote Doflamingo',
       audioUrl: 'https://www.myinstants.com/media/sounds/doflamingo-laugh.mp3',
       category: 'risada',
-      subtitle: 'Fuffuffuffu! Seigi wa katsu tte? Sorya sou darou! Katta yatsu dake ga seigi da!',
     },
     {
       id: 'voice-op-zoro',
@@ -49,11 +45,66 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Roronoa Zoro',
       audioUrl: 'https://www.myinstants.com/media/sounds/zoro-onigiri.mp3',
       category: 'ataque',
-      subtitle: 'Santōryū... Oni Giri!',
+    },
+    {
+      id: 'voice-op-nami',
+      animeSlug: 'one-piece',
+      characterId: 'nami',
+      characterName: 'Nami',
+      audioUrl: 'https://www.myinstants.com/media/sounds/nami.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-op-usopp',
+      animeSlug: 'one-piece',
+      characterId: 'usopp',
+      characterName: 'Usopp',
+      audioUrl: 'https://www.myinstants.com/media/sounds/usopp.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-op-robin',
+      animeSlug: 'one-piece',
+      characterId: 'nico-robin',
+      characterName: 'Nico Robin',
+      audioUrl: 'https://www.myinstants.com/media/sounds/robin.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-op-law',
+      animeSlug: 'one-piece',
+      characterId: 'trafalgar-d-water-law',
+      characterName: 'Trafalgar D. Water Law',
+      audioUrl: 'https://www.myinstants.com/media/sounds/law-room.mp3',
+      category: 'ataque',
+    },
+    {
+      id: 'voice-op-ace',
+      animeSlug: 'one-piece',
+      characterId: 'portgas-d-ace',
+      characterName: 'Portgas D. Ace',
+      audioUrl: 'https://www.myinstants.com/media/sounds/ace.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-op-crocodile',
+      animeSlug: 'one-piece',
+      characterId: 'crocodile',
+      characterName: 'Crocodile',
+      audioUrl: 'https://www.myinstants.com/media/sounds/crocodile.mp3',
+      category: 'fala',
     },
   ],
 
   'naruto': [
+    {
+      id: 'voice-naruto-naruto',
+      animeSlug: 'naruto',
+      characterId: 'naruto-uzumaki',
+      characterName: 'Naruto Uzumaki',
+      audioUrl: 'https://www.myinstants.com/media/sounds/rasengan.mp3',
+      category: 'ataque',
+    },
     {
       id: 'voice-naruto-sasuke',
       animeSlug: 'naruto',
@@ -61,7 +112,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Sasuke Uchiha',
       audioUrl: 'https://www.myinstants.com/media/sounds/chidori.mp3',
       category: 'ataque',
-      subtitle: 'Chidori!',
     },
     {
       id: 'voice-naruto-itachi',
@@ -70,7 +120,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Itachi Uchiha',
       audioUrl: 'https://www.myinstants.com/media/sounds/amaterasu.mp3',
       category: 'ataque',
-      subtitle: 'Amaterasu!',
     },
     {
       id: 'voice-naruto-pain',
@@ -79,7 +128,38 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Pain',
       audioUrl: 'https://www.myinstants.com/media/sounds/pain-shinra-tensei.mp3',
       category: 'ataque',
-      subtitle: 'Koko yori... sekai ni itami o. Shinra Tensei!',
+    },
+    {
+      id: 'voice-naruto-madara',
+      animeSlug: 'naruto',
+      characterId: 'madara-uchiha',
+      characterName: 'Madara Uchiha',
+      audioUrl: 'https://www.myinstants.com/media/sounds/madara.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-naruto-obito',
+      animeSlug: 'naruto',
+      characterId: 'obito-uchiha',
+      characterName: 'Obito Uchiha',
+      audioUrl: 'https://www.myinstants.com/media/sounds/obito.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-naruto-jiraiya',
+      animeSlug: 'naruto',
+      characterId: 'jiraiya',
+      characterName: 'Jiraiya',
+      audioUrl: 'https://www.myinstants.com/media/sounds/jiraiya.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-naruto-rock-lee',
+      animeSlug: 'naruto',
+      characterId: 'rock-lee',
+      characterName: 'Rock Lee',
+      audioUrl: 'https://www.myinstants.com/media/sounds/rock-lee.mp3',
+      category: 'fala',
     },
   ],
 
@@ -91,7 +171,30 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Ichigo Kurosaki',
       audioUrl: 'https://www.myinstants.com/media/sounds/bankai-ichigo.mp3',
       category: 'ataque',
-      subtitle: 'Bankai! Tensa Zangetsu!',
+    },
+    {
+      id: 'voice-bleach-aizen',
+      animeSlug: 'bleach',
+      characterId: 'sosuke-aizen',
+      characterName: 'Sōsuke Aizen',
+      audioUrl: 'https://www.myinstants.com/media/sounds/aizen.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-bleach-rukia',
+      animeSlug: 'bleach',
+      characterId: 'rukia-kuchiki',
+      characterName: 'Rukia Kuchiki',
+      audioUrl: 'https://www.myinstants.com/media/sounds/rukia.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-bleach-ulquiorra',
+      animeSlug: 'bleach',
+      characterId: 'ulquiorra-cifer',
+      characterName: 'Ulquiorra Cifer',
+      audioUrl: 'https://www.myinstants.com/media/sounds/ulquiorra.mp3',
+      category: 'fala',
     },
   ],
 
@@ -103,7 +206,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Ryomen Sukuna',
       audioUrl: 'https://www.myinstants.com/media/sounds/sukuna-laugh.mp3',
       category: 'risada',
-      subtitle: 'Hahahahaha! Ganbare ganbare!',
     },
     {
       id: 'voice-jjk-gojo',
@@ -112,7 +214,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Satoru Gojo',
       audioUrl: 'https://www.myinstants.com/media/sounds/gojo-satoru.mp3',
       category: 'bordao',
-      subtitle: 'Daijōbu, boku saikyō dakara.',
     },
     {
       id: 'voice-jjk-yuji',
@@ -121,7 +222,46 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Yuji Itadori',
       audioUrl: 'https://www.myinstants.com/media/sounds/kokusen.mp3',
       category: 'ataque',
-      subtitle: 'Kokusen!',
+    },
+    {
+      id: 'voice-jjk-toji',
+      animeSlug: 'jujutsu-kaisen',
+      characterId: 'toji-fushiguro',
+      characterName: 'Toji Fushiguro',
+      audioUrl: 'https://www.myinstants.com/media/sounds/toji.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-jjk-mahito',
+      animeSlug: 'jujutsu-kaisen',
+      characterId: 'mahito',
+      characterName: 'Mahito',
+      audioUrl: 'https://www.myinstants.com/media/sounds/mahito.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-jjk-geto',
+      animeSlug: 'jujutsu-kaisen',
+      characterId: 'suguru-geto',
+      characterName: 'Suguru Geto',
+      audioUrl: 'https://www.myinstants.com/media/sounds/geto-suguru.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-jjk-choso',
+      animeSlug: 'jujutsu-kaisen',
+      characterId: 'choso',
+      characterName: 'Choso',
+      audioUrl: 'https://www.myinstants.com/media/sounds/choso.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-jjk-panda',
+      animeSlug: 'jujutsu-kaisen',
+      characterId: 'panda',
+      characterName: 'Panda',
+      audioUrl: 'https://www.myinstants.com/media/sounds/panda.mp3',
+      category: 'fala',
     },
   ],
 
@@ -133,7 +273,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Son Goku',
       audioUrl: 'https://www.myinstants.com/media/sounds/kamehameha.mp3',
       category: 'ataque',
-      subtitle: 'Ka... me... ha... me... HA!',
     },
     {
       id: 'voice-db-vegeta',
@@ -142,7 +281,54 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Vegeta',
       audioUrl: 'https://www.myinstants.com/media/sounds/vegeta-final-flash.mp3',
       category: 'ataque',
-      subtitle: 'Final... FLASH!',
+    },
+    {
+      id: 'voice-db-gohan',
+      animeSlug: 'dragon-ball',
+      characterId: 'son-gohan',
+      characterName: 'Son Gohan',
+      audioUrl: 'https://www.myinstants.com/media/sounds/gohan.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-db-piccolo',
+      animeSlug: 'dragon-ball',
+      characterId: 'piccolo',
+      characterName: 'Piccolo',
+      audioUrl: 'https://www.myinstants.com/media/sounds/piccolo.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-db-trunks',
+      animeSlug: 'dragon-ball',
+      characterId: 'trunks',
+      characterName: 'Trunks',
+      audioUrl: 'https://www.myinstants.com/media/sounds/trunks.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-db-frieza',
+      animeSlug: 'dragon-ball',
+      characterId: 'freeza',
+      characterName: 'Freeza',
+      audioUrl: 'https://www.myinstants.com/media/sounds/frieza.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-db-buu',
+      animeSlug: 'dragon-ball',
+      characterId: 'majin-boo',
+      characterName: 'Majin Buu',
+      audioUrl: 'https://www.myinstants.com/media/sounds/majin-buu.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-db-beerus',
+      animeSlug: 'dragon-ball',
+      characterId: 'bills',
+      characterName: 'Bills (Beerus)',
+      audioUrl: 'https://www.myinstants.com/media/sounds/beerus.mp3',
+      category: 'fala',
     },
   ],
 
@@ -154,7 +340,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Tanjiro Kamado',
       audioUrl: 'https://www.myinstants.com/media/sounds/tanjiro.mp3',
       category: 'fala',
-      subtitle: 'Nezuko wa ore ga kanarazu tasukeru!',
     },
     {
       id: 'voice-ds-rengoku',
@@ -163,7 +348,14 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Kyojuro Rengoku',
       audioUrl: 'https://www.myinstants.com/media/sounds/rengoku-umai.mp3',
       category: 'bordao',
-      subtitle: 'Umai! Umai! Umai!',
+    },
+    {
+      id: 'voice-ds-zenitsu',
+      animeSlug: 'demon-slayer',
+      characterId: 'zenitsu-agatsuma',
+      characterName: 'Zenitsu Agatsuma',
+      audioUrl: 'https://www.myinstants.com/media/sounds/zenitsu.mp3',
+      category: 'fala',
     },
   ],
 
@@ -175,7 +367,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Eren Jaeger',
       audioUrl: 'https://www.myinstants.com/media/sounds/eren-yeager.mp3',
       category: 'fala',
-      subtitle: 'Tatakae... Tatakae!',
     },
     {
       id: 'voice-aot-mikasa',
@@ -184,7 +375,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Mikasa Ackerman',
       audioUrl: 'https://www.myinstants.com/media/sounds/mikasa-eren.mp3',
       category: 'fala',
-      subtitle: 'Eren!',
     },
     {
       id: 'voice-aot-armin',
@@ -193,7 +383,22 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Armin Arlert',
       audioUrl: 'https://www.myinstants.com/media/sounds/armin-scream.mp3',
       category: 'fala',
-      subtitle: 'Hito o kaeru koto ga dekiru no wa, nanika o suteru koto ga dekiru mono dake da!',
+    },
+    {
+      id: 'voice-aot-levi',
+      animeSlug: 'attack-on-titan',
+      characterId: 'levi-ackerman',
+      characterName: 'Levi Ackerman',
+      audioUrl: 'https://www.myinstants.com/media/sounds/levi.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-aot-sasageyo',
+      animeSlug: 'attack-on-titan',
+      characterId: 'erwin-smith',
+      characterName: 'Erwin Smith',
+      audioUrl: 'https://www.myinstants.com/media/sounds/sasageyo.mp3',
+      category: 'bordao',
     },
   ],
 
@@ -205,11 +410,26 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Izuku Midoriya',
       audioUrl: 'https://www.myinstants.com/media/sounds/deku.mp3',
       category: 'ataque',
-      subtitle: 'Smash!',
+    },
+    {
+      id: 'voice-mha-kirishima',
+      animeSlug: 'my-hero-academia',
+      characterId: 'eijiro-kirishima',
+      characterName: 'Eijiro Kirishima',
+      audioUrl: 'https://www.myinstants.com/media/sounds/kirishima.mp3',
+      category: 'fala',
     },
   ],
 
   'hunter-x-hunter': [
+    {
+      id: 'voice-hxh-gon',
+      animeSlug: 'hunter-x-hunter',
+      characterId: 'gon-freecss',
+      characterName: 'Gon Freecss',
+      audioUrl: 'https://www.myinstants.com/media/sounds/gon.mp3',
+      category: 'fala',
+    },
     {
       id: 'voice-hxh-killua',
       animeSlug: 'hunter-x-hunter',
@@ -217,7 +437,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Killua Zoldyck',
       audioUrl: 'https://www.myinstants.com/media/sounds/killua.mp3',
       category: 'fala',
-      subtitle: 'Baka!',
     },
   ],
 
@@ -229,7 +448,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Dio Brando',
       audioUrl: 'https://www.myinstants.com/media/sounds/dio-za-warudo.mp3',
       category: 'ataque',
-      subtitle: 'Za Warudo! Toki yo tomare!',
     },
     {
       id: 'voice-jojo-dio-kono',
@@ -238,7 +456,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Dio Brando',
       audioUrl: 'https://www.myinstants.com/media/sounds/kono-dio-da.mp3',
       category: 'bordao',
-      subtitle: 'Kono Dio da!',
     },
     {
       id: 'voice-jojo-jotaro',
@@ -247,7 +464,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Jotaro Kujo',
       audioUrl: 'https://www.myinstants.com/media/sounds/yare-yare-daze.mp3',
       category: 'bordao',
-      subtitle: 'Yare yare daze...',
     },
     {
       id: 'voice-jojo-muda',
@@ -256,7 +472,158 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Giorno Giovanna',
       audioUrl: 'https://www.myinstants.com/media/sounds/muda-muda-muda.mp3',
       category: 'ataque',
-      subtitle: 'Muda muda muda muda muda muda!',
+    },
+  ],
+
+  'blue-lock': [
+    {
+      id: 'voice-bl-isagi',
+      animeSlug: 'blue-lock',
+      characterId: 'yoichi-isagi',
+      characterName: 'Yoichi Isagi',
+      audioUrl: 'https://www.myinstants.com/media/sounds/isagi.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-bl-nagi',
+      animeSlug: 'blue-lock',
+      characterId: 'seishiro-nagi',
+      characterName: 'Seishiro Nagi',
+      audioUrl: 'https://www.myinstants.com/media/sounds/nagi.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-bl-rin',
+      animeSlug: 'blue-lock',
+      characterId: 'rin-itoshi',
+      characterName: 'Rin Itoshi',
+      audioUrl: 'https://www.myinstants.com/media/sounds/rin-itoshi.mp3',
+      category: 'fala',
+    },
+  ],
+
+  'haikyuu': [
+    {
+      id: 'voice-hq-hinata',
+      animeSlug: 'haikyuu',
+      characterId: 'shoyo-hinata',
+      characterName: 'Shōyō Hinata',
+      audioUrl: 'https://www.myinstants.com/media/sounds/hinata.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-hq-tanaka',
+      animeSlug: 'haikyuu',
+      characterId: 'ryunosuke-tanaka',
+      characterName: 'Ryūnosuke Tanaka',
+      audioUrl: 'https://www.myinstants.com/media/sounds/tanaka.mp3',
+      category: 'fala',
+    },
+  ],
+
+  'chainsaw-man': [
+    {
+      id: 'voice-csm-power',
+      animeSlug: 'chainsaw-man',
+      characterId: 'power',
+      characterName: 'Power',
+      audioUrl: 'https://www.myinstants.com/media/sounds/power.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-csm-kobeni',
+      animeSlug: 'chainsaw-man',
+      characterId: 'kobeni-higashiyama',
+      characterName: 'Kobeni Higashiyama',
+      audioUrl: 'https://www.myinstants.com/media/sounds/kobeni.mp3',
+      category: 'fala',
+    },
+  ],
+
+  'black-clover': [
+    {
+      id: 'voice-bc-yami',
+      animeSlug: 'black-clover',
+      characterId: 'yami-sukehiro',
+      characterName: 'Yami Sukehiro',
+      audioUrl: 'https://www.myinstants.com/media/sounds/yami.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-bc-noelle',
+      animeSlug: 'black-clover',
+      characterId: 'noelle-silva',
+      characterName: 'Noelle Silva',
+      audioUrl: 'https://www.myinstants.com/media/sounds/noelle.mp3',
+      category: 'fala',
+    },
+  ],
+
+  'frieren': [
+    {
+      id: 'voice-fr-himmel',
+      animeSlug: 'frieren',
+      characterId: 'himmel',
+      characterName: 'Himmel',
+      audioUrl: 'https://www.myinstants.com/media/sounds/himmel.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-fr-stark',
+      animeSlug: 'frieren',
+      characterId: 'stark',
+      characterName: 'Stark',
+      audioUrl: 'https://www.myinstants.com/media/sounds/stark.mp3',
+      category: 'fala',
+    },
+  ],
+
+  'dandadan': [
+    {
+      id: 'voice-ddd-momo',
+      animeSlug: 'dandadan',
+      characterId: 'momo-ayase',
+      characterName: 'Momo Ayase',
+      audioUrl: 'https://www.myinstants.com/media/sounds/momo.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-ddd-turbo',
+      animeSlug: 'dandadan',
+      characterId: 'turbo-granny',
+      characterName: 'Velha Turbo',
+      audioUrl: 'https://www.myinstants.com/media/sounds/turbo-granny.mp3',
+      category: 'fala',
+    },
+  ],
+
+  'cyberpunk-edgerunners': [
+    {
+      id: 'voice-cb-david',
+      animeSlug: 'cyberpunk-edgerunners',
+      characterId: 'david-martinez',
+      characterName: 'David Martinez',
+      audioUrl: 'https://www.myinstants.com/media/sounds/david.mp3',
+      category: 'fala',
+    },
+    {
+      id: 'voice-cb-lucy',
+      animeSlug: 'cyberpunk-edgerunners',
+      characterId: 'lucy',
+      characterName: 'Lucy',
+      audioUrl: 'https://www.myinstants.com/media/sounds/lucy.mp3',
+      category: 'fala',
+    },
+  ],
+
+  'berserk': [
+    {
+      id: 'voice-ber-guts',
+      animeSlug: 'berserk',
+      characterId: 'guts',
+      characterName: 'Guts',
+      audioUrl: 'https://www.myinstants.com/media/sounds/guts.mp3',
+      category: 'fala',
     },
   ],
 
@@ -268,7 +635,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Sung Jinwoo',
       audioUrl: 'https://www.myinstants.com/media/sounds/arise-solo-leveling.mp3',
       category: 'ataque',
-      subtitle: 'Erga-se (Arise)!',
     },
   ],
 
@@ -280,7 +646,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Saitama',
       audioUrl: 'https://www.myinstants.com/media/sounds/saitama-ok.mp3',
       category: 'bordao',
-      subtitle: 'Sōka. (OK.)',
     },
     {
       id: 'voice-opm-tatsumaki',
@@ -289,7 +654,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Tatsumaki',
       audioUrl: 'https://www.myinstants.com/media/sounds/tatsumaki.mp3',
       category: 'fala',
-      subtitle: 'Anata, watashi o dare da to omotte iru no?',
     },
   ],
 
@@ -301,7 +665,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Edward Elric',
       audioUrl: 'https://www.myinstants.com/media/sounds/edward-elric.mp3',
       category: 'fala',
-      subtitle: 'Dare ga mame tsubu hodo chiisai tte ka?!',
     },
   ],
 
@@ -313,7 +676,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Natsu Dragneel',
       audioUrl: 'https://www.myinstants.com/media/sounds/fairy-tail.mp3',
       category: 'bordao',
-      subtitle: 'Moete kita zo!',
     },
   ],
 
@@ -325,7 +687,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Ken Kaneki',
       audioUrl: 'https://www.myinstants.com/media/sounds/kaneki.mp3',
       category: 'fala',
-      subtitle: '1000 hiku 7 wa?',
     },
   ],
 
@@ -337,7 +698,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Kirito',
       audioUrl: 'https://www.myinstants.com/media/sounds/starburst-stream.mp3',
       category: 'ataque',
-      subtitle: 'Starburst... Stream!',
     },
   ],
 
@@ -349,7 +709,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Rimuru Tempest',
       audioUrl: 'https://www.myinstants.com/media/sounds/rimuru.mp3',
       category: 'fala',
-      subtitle: 'Ore wa warui suraimu ja nai yo!',
     },
   ],
 
@@ -361,7 +720,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Chika Fujiwara',
       audioUrl: 'https://www.myinstants.com/media/sounds/chika-fujiwara.mp3',
       category: 'bordao',
-      subtitle: 'Shukipi~!',
     },
     {
       id: 'voice-romance-kaguya',
@@ -370,7 +728,6 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       characterName: 'Kaguya Shinomiya',
       audioUrl: 'https://www.myinstants.com/media/sounds/kawaii.mp3',
       category: 'fala',
-      subtitle: 'O-kawaii koto...',
     },
   ],
 };
@@ -395,7 +752,6 @@ export function getVoiceChallengesForAnime(animeSlug: string): VoiceChallenge[] 
       characterName: 'Personagem Misterioso',
       audioUrl: 'https://www.myinstants.com/media/sounds/bankai-ichigo.mp3',
       category: 'fala',
-      subtitle: 'Desafio Vocal Especial',
     },
   ];
 }
