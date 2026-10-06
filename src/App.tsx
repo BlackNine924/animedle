@@ -790,15 +790,21 @@ export const App: React.FC<{
       return;
     }
 
-    // Janela de exclusão: 60% do tamanho do pool (ou até 25 personagens)
-    const maxMemory = Math.max(1, Math.min(25, Math.floor(poolSize * 0.6)));
+    // Fila cíclica que só permite repetição após esgotar TODOS os itens disponíveis do pool (poolSize - 1)
+    const maxMemory = Math.max(1, poolSize - 1);
     const recent = endlessHistoryRef.current.slice(-maxMemory);
 
-    let nextIdx = Math.floor(Math.random() * poolSize);
-    let attempts = 0;
-    while ((recent.includes(nextIdx) || nextIdx === endlessTargetIndex) && attempts < poolSize * 2) {
+    // Seleciona apenas entre os itens que ainda não foram jogados neste ciclo
+    const remaining = Array.from({ length: poolSize }, (_, i) => i).filter(
+      (idx) => !recent.includes(idx) && idx !== endlessTargetIndex
+    );
+
+    let nextIdx: number;
+    if (remaining.length > 0) {
+      nextIdx = remaining[Math.floor(Math.random() * remaining.length)];
+    } else {
+      // Quando todos foram jogados, reinicia o ciclo
       nextIdx = Math.floor(Math.random() * poolSize);
-      attempts++;
     }
 
     endlessHistoryRef.current = [...recent, nextIdx];

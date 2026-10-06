@@ -39,11 +39,54 @@ function getDayNumberFromDateString(dateStr: string): number {
   return Math.floor(date.getTime() / (24 * 60 * 60 * 1000));
 }
 
+// Marco zero para cálculo de ciclos diários sem repetição (2026-10-06)
+const BASE_EPOCH_DAY = 20733;
+
+/**
+ * Embaralha um array de forma determinística utilizando uma semente pseudo-aleatória (LCG).
+ */
+function shuffleArrayWithSeed<T>(arr: T[], seed: number): T[] {
+  const result = [...arr];
+  let s = seed;
+  for (let i = result.length - 1; i > 0; i--) {
+    s = (s * 1664525 + 1013904223) >>> 0;
+    const j = s % (i + 1);
+    const temp = result[i];
+    result[i] = result[j];
+    result[j] = temp;
+  }
+  return result;
+}
+
+/**
+ * Retorna o índice sorteado de uma permutação cíclica completa.
+ * Garante que TODOS os itens do pool (0 até totalItems - 1) sejam jogados
+ * exatamente uma vez antes de qualquer repetição acontecer (Ciclo 100% sem repetição).
+ */
+export function getCyclePermutationIndex(
+  animeSlug: string,
+  mode: GameMode,
+  totalItems: number,
+  dayNum: number
+): number {
+  if (totalItems <= 1) return 0;
+
+  const daysSinceEpoch = Math.max(0, dayNum - BASE_EPOCH_DAY);
+  const cycleNumber = Math.floor(daysSinceEpoch / totalItems);
+  const positionInCycle = daysSinceEpoch % totalItems;
+
+  const cycleHash = hashString(`${animeSlug}-${mode}-cycle-${cycleNumber}`);
+  const baseOrder = Array.from({ length: totalItems }, (_, i) => i);
+  const permuted = shuffleArrayWithSeed(baseOrder, cycleHash);
+
+  return permuted[positionInCycle];
+}
+
 /**
  * Retorna os índices diários para os modos ('classic', 'wanted', 'zoom')
  * garantindo:
- * 1. Personagens 100% distintos no mesmo dia entre os modos clássico, procurado e zoom.
- * 2. Janela de memória histórica que evita que os personagens se repitam nos dias anteriores.
+ * 1. Todos os personagens são jogados antes de qualquer repetição (Ciclo fechado).
+ * 2. Personagens 100% distintos no mesmo dia entre os modos clássico, procurado e zoom.
  */
 export function getDailyDistinctIndices(
   animeSlug: string,
@@ -56,56 +99,37 @@ export function getDailyDistinctIndices(
   }
 
   const currentDayNum = getDayNumberFromDateString(today);
-  const modes: Array<'classic' | 'wanted' | 'zoom'> = ['classic', 'wanted', 'zoom'];
 
-  // Janela de proteção histórica: evita repetições nos dias imediatamente anteriores
-  // Proporcional ao elenco disponível (até 20 dias para elencos grandes)
-  const windowDays = Math.max(1, Math.min(20, Math.floor(totalCharacters * 0.4)));
+  // Permutação cíclica individual para cada modo
+  const classic = getCyclePermutationIndex(animeSlug, 'classic', totalCharacters, currentDayNum);
 
-  const pastIndices = new Set<number>();
-  for (let back = 1; back <= windowDays; back++) {
-    const pastDay = currentDayNum - back;
-    for (const m of modes) {
-      const pastIdx = hashString(`${animeSlug}-${m}-day-${pastDay}`) % totalCharacters;
-      pastIndices.add(pastIdx);
+  let wanted = getCyclePermutationIndex(animeSlug, 'wanted', totalCharacters, currentDayNum);
+  if (totalCharacters >= 2 && wanted === classic) {
+    let offset = 1;
+    while (offset < totalCharacters && (wanted + offset) % totalCharacters === classic) {
+      offset++;
     }
+    wanted = (wanted + offset) % totalCharacters;
   }
 
-  const result: Record<'classic' | 'wanted' | 'zoom', number> = {
-    classic: 0,
-    wanted: 0,
-    zoom: 0,
-  };
-
-  const usedToday = new Set<number>();
-
-  for (const mode of modes) {
-    let seed = hashString(`${animeSlug}-${mode}-day-${currentDayNum}`);
-    let candidate = seed % totalCharacters;
-    let attempts = 0;
-
-    // Busca candidato que não seja repetido hoje E não esteja na janela recente (se o pool permitir)
+  let zoom = getCyclePermutationIndex(animeSlug, 'zoom', totalCharacters, currentDayNum);
+  if (totalCharacters >= 3) {
+    let offset = 1;
     while (
-      (usedToday.has(candidate) ||
-        (pastIndices.has(candidate) && pastIndices.size + usedToday.size < totalCharacters)) &&
-      attempts < totalCharacters * 2
+      offset < totalCharacters &&
+      ((zoom + offset) % totalCharacters === classic || (zoom + offset) % totalCharacters === wanted)
     ) {
-      seed = (seed * 1664525 + 1013904223) >>> 0;
-      candidate = seed % totalCharacters;
-      attempts++;
+      offset++;
     }
-
-    result[mode] = candidate;
-    usedToday.add(candidate);
+    zoom = (zoom + offset) % totalCharacters;
   }
 
-  return result;
+  return { classic, wanted, zoom };
 }
 
 /**
- * Função hashing determinística que inclui o slug do anime E o modo de jogo.
- * - Para 'classic', 'wanted' e 'zoom', garante alvos distintos simultaneamente e proteção contra repetição recente.
- * - Para 'voice' e 'ability', aplica também hashing sequencial com rotação diária protegida.
+ * Retorna o índice do personagem/desafio diário para qualquer modo.
+ * Garante que todas as vozes/habilidades/personagens sejam jogadas antes de qualquer repetição.
  */
 export function getDailyCharacterIndex(animeSlug: string, mode: GameMode, totalCharacters: number): number {
   if (totalCharacters <= 0) return 0;
@@ -117,23 +141,7 @@ export function getDailyCharacterIndex(animeSlug: string, mode: GameMode, totalC
   }
 
   const currentDayNum = getDayNumberFromDateString(today);
-  const poolWindow = Math.max(1, Math.min(15, totalCharacters - 1));
-  const pastPool = new Set<number>();
-  for (let back = 1; back <= poolWindow; back++) {
-    const pastIdx = hashString(`${animeSlug}-${mode}-day-${currentDayNum - back}`) % totalCharacters;
-    pastPool.add(pastIdx);
-  }
-
-  let seed = hashString(`${animeSlug}-${mode}-day-${currentDayNum}`);
-  let candidate = seed % totalCharacters;
-  let attempts = 0;
-  while (pastPool.has(candidate) && pastPool.size < totalCharacters && attempts < totalCharacters * 2) {
-    seed = (seed * 1664525 + 1013904223) >>> 0;
-    candidate = seed % totalCharacters;
-    attempts++;
-  }
-
-  return candidate;
+  return getCyclePermutationIndex(animeSlug, mode, totalCharacters, currentDayNum);
 }
 
 /**

@@ -18,7 +18,11 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const animFrameRef = useRef<number | null>(null);
 
-  // Volume e velocidade calibrados (evita distorções como áudios estourados ou acelerados)
+  const progressBarRef = useRef<HTMLDivElement | null>(null);
+  const currentTimeLabelRef = useRef<HTMLSpanElement | null>(null);
+  const durationLabelRef = useRef<HTMLSpanElement | null>(null);
+
+  // Volume e velocidade calibrados
   const effectiveVolume = challenge.volumeGain ?? 1.0;
   const effectiveSpeed = challenge.playbackSpeed ?? 1.0;
 
@@ -27,6 +31,15 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
     setIsPlaying(false);
     setCurrentTime(0);
     setDuration(0);
+    if (progressBarRef.current) {
+      progressBarRef.current.style.width = '0%';
+    }
+    if (currentTimeLabelRef.current) {
+      currentTimeLabelRef.current.textContent = '0:00';
+    }
+    if (durationLabelRef.current) {
+      durationLabelRef.current.textContent = '0:00';
+    }
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
@@ -35,17 +48,27 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
     }
   }, [challenge.id, effectiveVolume, effectiveSpeed]);
 
-  // Loop suave e contínuo via requestAnimationFrame sincronizado com o clock de áudio
-  const updateProgressSmoothly = () => {
+  // Atualização contínua a cada frame sem re-renderizar o React inteiro
+  const updateProgressLoop = () => {
     if (audioRef.current && !audioRef.current.paused) {
-      setCurrentTime(audioRef.current.currentTime);
-      animFrameRef.current = requestAnimationFrame(updateProgressSmoothly);
+      const cur = audioRef.current.currentTime;
+      const dur = audioRef.current.duration;
+      if (Number.isFinite(dur) && dur > 0) {
+        const pct = Math.min(100, Math.max(0, (cur / dur) * 100));
+        if (progressBarRef.current) {
+          progressBarRef.current.style.width = `${pct}%`;
+        }
+        if (currentTimeLabelRef.current) {
+          currentTimeLabelRef.current.textContent = formatTime(cur);
+        }
+      }
+      animFrameRef.current = requestAnimationFrame(updateProgressLoop);
     }
   };
 
   useEffect(() => {
     if (isPlaying) {
-      animFrameRef.current = requestAnimationFrame(updateProgressSmoothly);
+      animFrameRef.current = requestAnimationFrame(updateProgressLoop);
     } else if (animFrameRef.current) {
       cancelAnimationFrame(animFrameRef.current);
     }
@@ -77,6 +100,9 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
     const dur = audioRef.current.duration;
     if (Number.isFinite(dur) && dur > 0) {
       setDuration(dur);
+      if (durationLabelRef.current) {
+        durationLabelRef.current.textContent = formatTime(dur);
+      }
     }
     audioRef.current.volume = Math.max(0.1, Math.min(1.0, effectiveVolume));
     audioRef.current.playbackRate = effectiveSpeed;
@@ -84,9 +110,21 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
 
   const handleTimeUpdate = () => {
     if (audioRef.current) {
-      setCurrentTime(audioRef.current.currentTime);
-      if (!duration && Number.isFinite(audioRef.current.duration)) {
-        setDuration(audioRef.current.duration);
+      const cur = audioRef.current.currentTime;
+      const dur = audioRef.current.duration;
+      setCurrentTime(cur);
+      if (Number.isFinite(dur) && dur > 0) {
+        setDuration(dur);
+        const pct = Math.min(100, Math.max(0, (cur / dur) * 100));
+        if (progressBarRef.current) {
+          progressBarRef.current.style.width = `${pct}%`;
+        }
+        if (durationLabelRef.current) {
+          durationLabelRef.current.textContent = formatTime(dur);
+        }
+        if (currentTimeLabelRef.current) {
+          currentTimeLabelRef.current.textContent = formatTime(cur);
+        }
       }
     }
   };
@@ -94,18 +132,34 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
   const handleEnded = () => {
     setIsPlaying(false);
     if (audioRef.current) {
-      setCurrentTime(audioRef.current.duration || 0);
+      const dur = audioRef.current.duration || 0;
+      setCurrentTime(dur);
+      if (progressBarRef.current) {
+        progressBarRef.current.style.width = '100%';
+      }
+      if (currentTimeLabelRef.current) {
+        currentTimeLabelRef.current.textContent = formatTime(dur);
+      }
     }
   };
 
   const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!audioRef.current || !duration) return;
+    if (!audioRef.current) return;
+    const dur = audioRef.current.duration;
+    if (!Number.isFinite(dur) || dur <= 0) return;
+
     const rect = e.currentTarget.getBoundingClientRect();
     const clickX = e.clientX - rect.left;
     const newRatio = Math.max(0, Math.min(1, clickX / rect.width));
-    const newTime = newRatio * duration;
+    const newTime = newRatio * dur;
     audioRef.current.currentTime = newTime;
     setCurrentTime(newTime);
+    if (progressBarRef.current) {
+      progressBarRef.current.style.width = `${newRatio * 100}%`;
+    }
+    if (currentTimeLabelRef.current) {
+      currentTimeLabelRef.current.textContent = formatTime(newTime);
+    }
   };
 
   const formatTime = (seconds: number) => {
@@ -216,15 +270,16 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
             title="Clique para avançar ou voltar"
           >
             <div
-              className="h-full rounded-full transition-[width] duration-75 relative shadow-[0_0_12px_rgba(255,255,255,0.3)]"
-              style={{ width: `${progressPercent}%`, backgroundColor: themeColor }}
+              ref={progressBarRef}
+              className="h-full rounded-full relative shadow-[0_0_12px_rgba(255,255,255,0.3)] pointer-events-none"
+              style={{ width: `${progressPercent}%`, backgroundColor: themeColor, willChange: 'width' }}
             >
               <div className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-white shadow-md opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
           </div>
-          <div className="flex justify-between items-center text-[11px] text-slate-400 mt-1.5 font-mono px-0.5">
-            <span>{formatTime(currentTime)}</span>
-            <span>{formatTime(duration)}</span>
+          <div className="flex justify-between items-center text-[11px] text-slate-400 mt-1.5 font-mono px-0.5 select-none">
+            <span ref={currentTimeLabelRef}>{formatTime(currentTime)}</span>
+            <span ref={durationLabelRef}>{formatTime(duration)}</span>
           </div>
         </div>
       </div>
