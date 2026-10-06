@@ -387,6 +387,17 @@ export const VOICE_CHALLENGES: Record<string, VoiceChallenge[]> = {
       playbackSpeed: 1.0,
     },
     {
+      id: 'voice-ds-rengoku-laugh',
+      animeSlug: 'demon-slayer',
+      characterId: 'kyojuro-rengoku',
+      characterName: 'Kyojuro Rengoku',
+      audioUrl: 'https://www.myinstants.com/media/sounds/rengoku-laugh.mp3',
+      category: 'risada',
+      language: 'Japonês (Original)',
+      volumeGain: 0.85,
+      playbackSpeed: 1.0,
+    },
+    {
       id: 'voice-ds-shinobu-ara',
       animeSlug: 'demon-slayer',
       characterId: 'shinobu-kocho',
