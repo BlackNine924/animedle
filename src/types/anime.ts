@@ -130,6 +130,9 @@ export interface VoiceChallenge {
   audioUrl: string;
   category: 'risada' | 'ataque' | 'bordao' | 'fala';
   subtitle?: string; // transcrição em japonês/português opcional revelada na vitória
+  language?: 'Japonês (Original)' | 'Português (Dublado)' | 'Inglês';
+  volumeGain?: number; // normalização de volume (default: 1.0)
+  playbackSpeed?: number; // calibração de velocidade (default: 1.0)
 }
 
 export interface GameStats {

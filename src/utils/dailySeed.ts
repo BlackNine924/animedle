@@ -31,8 +31,19 @@ export function getDailyDateString(): string {
 }
 
 /**
- * Retorna os índices diários para os modos sem repetição ('classic', 'wanted', 'zoom').
- * Garante que os personagens escolhidos para esses três modos sejam totalmente distintos no mesmo dia!
+ * Converte data YYYY-MM-DD em número de dias corridos desde época UTC.
+ */
+function getDayNumberFromDateString(dateStr: string): number {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const date = new Date(Date.UTC(y, m - 1, d));
+  return Math.floor(date.getTime() / (24 * 60 * 60 * 1000));
+}
+
+/**
+ * Retorna os índices diários para os modos ('classic', 'wanted', 'zoom')
+ * garantindo:
+ * 1. Personagens 100% distintos no mesmo dia entre os modos clássico, procurado e zoom.
+ * 2. Janela de memória histórica que evita que os personagens se repitam nos dias anteriores.
  */
 export function getDailyDistinctIndices(
   animeSlug: string,
@@ -44,32 +55,57 @@ export function getDailyDistinctIndices(
     return { classic: 0, wanted: 0, zoom: 0 };
   }
 
-  // 1. Classic target:
-  const classicIdx = hashString(`${animeSlug}-classic-${today}`) % totalCharacters;
+  const currentDayNum = getDayNumberFromDateString(today);
+  const modes: Array<'classic' | 'wanted' | 'zoom'> = ['classic', 'wanted', 'zoom'];
 
-  // 2. Wanted target (garantido diferente do classic):
-  let wantedIdx = hashString(`${animeSlug}-wanted-${today}`) % totalCharacters;
-  let attempts = 0;
-  while (wantedIdx === classicIdx && attempts < totalCharacters) {
-    wantedIdx = (wantedIdx + 1) % totalCharacters;
-    attempts++;
+  // Janela de proteção histórica: evita repetições nos dias imediatamente anteriores
+  // Proporcional ao elenco disponível (até 20 dias para elencos grandes)
+  const windowDays = Math.max(1, Math.min(20, Math.floor(totalCharacters * 0.4)));
+
+  const pastIndices = new Set<number>();
+  for (let back = 1; back <= windowDays; back++) {
+    const pastDay = currentDayNum - back;
+    for (const m of modes) {
+      const pastIdx = hashString(`${animeSlug}-${m}-day-${pastDay}`) % totalCharacters;
+      pastIndices.add(pastIdx);
+    }
   }
 
-  // 3. Zoom target (garantido diferente do classic e do wanted):
-  let zoomIdx = hashString(`${animeSlug}-zoom-${today}`) % totalCharacters;
-  attempts = 0;
-  while ((zoomIdx === classicIdx || zoomIdx === wantedIdx) && attempts < totalCharacters) {
-    zoomIdx = (zoomIdx + 1) % totalCharacters;
-    attempts++;
+  const result: Record<'classic' | 'wanted' | 'zoom', number> = {
+    classic: 0,
+    wanted: 0,
+    zoom: 0,
+  };
+
+  const usedToday = new Set<number>();
+
+  for (const mode of modes) {
+    let seed = hashString(`${animeSlug}-${mode}-day-${currentDayNum}`);
+    let candidate = seed % totalCharacters;
+    let attempts = 0;
+
+    // Busca candidato que não seja repetido hoje E não esteja na janela recente (se o pool permitir)
+    while (
+      (usedToday.has(candidate) ||
+        (pastIndices.has(candidate) && pastIndices.size + usedToday.size < totalCharacters)) &&
+      attempts < totalCharacters * 2
+    ) {
+      seed = (seed * 1664525 + 1013904223) >>> 0;
+      candidate = seed % totalCharacters;
+      attempts++;
+    }
+
+    result[mode] = candidate;
+    usedToday.add(candidate);
   }
 
-  return { classic: classicIdx, wanted: wantedIdx, zoom: zoomIdx };
+  return result;
 }
 
 /**
- * Função hashing determinística que inclui o slug do animé E o modo de jogo.
- * Para os modos 'classic', 'wanted' e 'zoom', garante ausência de repetição no mesmo dia.
- * Para 'quote' e 'ability', opera de maneira independente.
+ * Função hashing determinística que inclui o slug do anime E o modo de jogo.
+ * - Para 'classic', 'wanted' e 'zoom', garante alvos distintos simultaneamente e proteção contra repetição recente.
+ * - Para 'voice' e 'ability', aplica também hashing sequencial com rotação diária protegida.
  */
 export function getDailyCharacterIndex(animeSlug: string, mode: GameMode, totalCharacters: number): number {
   if (totalCharacters <= 0) return 0;
@@ -80,7 +116,24 @@ export function getDailyCharacterIndex(animeSlug: string, mode: GameMode, totalC
     return distinct[mode];
   }
 
-  return hashString(`${animeSlug}-${mode}-${today}`) % totalCharacters;
+  const currentDayNum = getDayNumberFromDateString(today);
+  const poolWindow = Math.max(1, Math.min(15, totalCharacters - 1));
+  const pastPool = new Set<number>();
+  for (let back = 1; back <= poolWindow; back++) {
+    const pastIdx = hashString(`${animeSlug}-${mode}-day-${currentDayNum - back}`) % totalCharacters;
+    pastPool.add(pastIdx);
+  }
+
+  let seed = hashString(`${animeSlug}-${mode}-day-${currentDayNum}`);
+  let candidate = seed % totalCharacters;
+  let attempts = 0;
+  while (pastPool.has(candidate) && pastPool.size < totalCharacters && attempts < totalCharacters * 2) {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    candidate = seed % totalCharacters;
+    attempts++;
+  }
+
+  return candidate;
 }
 
 /**

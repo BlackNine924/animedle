@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Navbar } from './components/Navbar';
 import { GameModeTabs } from './components/GameModeTabs';
 import { CharacterSearchInput } from './components/CharacterSearchInput';
@@ -769,7 +769,10 @@ export const App: React.FC<{
     setShowVictoryModal(true);
   };
 
-  // Próximo desafio no Modo Treino/Infinito
+  // Fila histórica para evitar repetição em sequência no Modo Treino / Infinito
+  const endlessHistoryRef = useRef<number[]>([]);
+
+  // Próximo desafio no Modo Treino/Infinito sem repetição do elenco recente
   const handleNextEndlessChallenge = () => {
     const poolSize = currentMode === 'ability'
       ? abilityPool.length
@@ -777,10 +780,28 @@ export const App: React.FC<{
       ? voiceChallenges.length
       : characters.length;
 
-    let nextIdx = Math.floor(Math.random() * poolSize);
-    if (nextIdx === endlessTargetIndex && poolSize > 1) {
-      nextIdx = (nextIdx + 1) % poolSize;
+    if (poolSize <= 1) {
+      setEndlessTargetIndex(0);
+      setModeStates((prev) => ({
+        ...prev,
+        [currentMode]: { guesses: [], isWon: false, isSurrendered: false },
+      }));
+      setShowVictoryModal(false);
+      return;
     }
+
+    // Janela de exclusão: 60% do tamanho do pool (ou até 25 personagens)
+    const maxMemory = Math.max(1, Math.min(25, Math.floor(poolSize * 0.6)));
+    const recent = endlessHistoryRef.current.slice(-maxMemory);
+
+    let nextIdx = Math.floor(Math.random() * poolSize);
+    let attempts = 0;
+    while ((recent.includes(nextIdx) || nextIdx === endlessTargetIndex) && attempts < poolSize * 2) {
+      nextIdx = Math.floor(Math.random() * poolSize);
+      attempts++;
+    }
+
+    endlessHistoryRef.current = [...recent, nextIdx];
     setEndlessTargetIndex(nextIdx);
     setModeStates((prev) => ({
       ...prev,

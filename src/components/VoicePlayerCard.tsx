@@ -18,19 +18,26 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const animFrameRef = useRef<number | null>(null);
 
+  // Volume e velocidade calibrados (evita distorções como áudios estourados ou acelerados)
+  const effectiveVolume = challenge.volumeGain ?? 1.0;
+  const effectiveSpeed = challenge.playbackSpeed ?? 1.0;
+
   useEffect(() => {
     // Reset quando o desafio muda
     setIsPlaying(false);
     setCurrentTime(0);
+    setDuration(0);
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+      audioRef.current.volume = Math.max(0.1, Math.min(1.0, effectiveVolume));
+      audioRef.current.playbackRate = effectiveSpeed;
     }
-  }, [challenge.id]);
+  }, [challenge.id, effectiveVolume, effectiveSpeed]);
 
-  // Loop suave via requestAnimationFrame enquanto o áudio estiver tocando
+  // Loop suave e contínuo via requestAnimationFrame sincronizado com o clock de áudio
   const updateProgressSmoothly = () => {
-    if (audioRef.current && isPlaying) {
+    if (audioRef.current && !audioRef.current.paused) {
       setCurrentTime(audioRef.current.currentTime);
       animFrameRef.current = requestAnimationFrame(updateProgressSmoothly);
     }
@@ -55,6 +62,8 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
       audioRef.current.pause();
       setIsPlaying(false);
     } else {
+      audioRef.current.volume = Math.max(0.1, Math.min(1.0, effectiveVolume));
+      audioRef.current.playbackRate = effectiveSpeed;
       audioRef.current.play().then(() => {
         setIsPlaying(true);
       }).catch((e) => {
@@ -65,7 +74,21 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
 
   const handleLoadedMetadata = () => {
     if (!audioRef.current) return;
-    setDuration(audioRef.current.duration || 0);
+    const dur = audioRef.current.duration;
+    if (Number.isFinite(dur) && dur > 0) {
+      setDuration(dur);
+    }
+    audioRef.current.volume = Math.max(0.1, Math.min(1.0, effectiveVolume));
+    audioRef.current.playbackRate = effectiveSpeed;
+  };
+
+  const handleTimeUpdate = () => {
+    if (audioRef.current) {
+      setCurrentTime(audioRef.current.currentTime);
+      if (!duration && Number.isFinite(audioRef.current.duration)) {
+        setDuration(audioRef.current.duration);
+      }
+    }
   };
 
   const handleEnded = () => {
@@ -86,6 +109,7 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
   };
 
   const formatTime = (seconds: number) => {
+    if (!Number.isFinite(seconds) || seconds <= 0) return '0:00';
     const mins = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
     return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
@@ -96,11 +120,11 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
     ataque: { label: 'Grito de Ataque', color: 'bg-rose-500/20 text-rose-300 border-rose-500/40' },
     bordao: { label: 'Bordão Marcante', color: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40' },
     fala: { label: 'Voz / Fala Clássica', color: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40' },
-    grito: { label: 'Grito de Batalha', color: 'bg-orange-500/20 text-orange-300 border-orange-500/40' },
   };
 
   const badge = categoryLabels[challenge.category] || categoryLabels['fala'];
-  const progressPercent = duration > 0 ? (currentTime / duration) * 100 : 0;
+  const langLabel = challenge.language || 'Japonês (Original)';
+  const progressPercent = duration > 0 ? Math.min(100, Math.max(0, (currentTime / duration) * 100)) : 0;
 
   return (
     <div className="w-full max-w-xl mx-auto my-6 p-6 bg-[#0a1020]/90 backdrop-blur-md border border-[#202b43] rounded-3xl shadow-2xl relative overflow-hidden">
@@ -110,6 +134,7 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
         src={challenge.audioUrl}
         preload="auto"
         onLoadedMetadata={handleLoadedMetadata}
+        onTimeUpdate={handleTimeUpdate}
         onEnded={handleEnded}
       />
 
@@ -136,9 +161,15 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
           Ouça a atuação vocal e adivinhe o dono da voz
         </p>
 
-        <span className={`text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full border mt-2.5 ${badge.color}`}>
-          {badge.label}
-        </span>
+        {/* Badges de Categoria e Padrão de Idioma */}
+        <div className="flex items-center justify-center gap-2 mt-2.5 flex-wrap">
+          <span className={`text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full border ${badge.color}`}>
+            {badge.label}
+          </span>
+          <span className="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded-full border border-sky-500/30 bg-sky-500/10 text-sky-300">
+            {langLabel}
+          </span>
+        </div>
       </div>
 
       {/* Player Principal */}
@@ -177,16 +208,19 @@ export const VoicePlayerCard: React.FC<VoicePlayerCardProps> = ({
           ))}
         </div>
 
-        {/* Barra de Progresso Suave e Interativa (sem botão de reiniciar) */}
+        {/* Barra de Progresso Fluida, Interativa e Estilizada */}
         <div className="w-full mt-3 px-2">
           <div
             onClick={handleSeek}
-            className="w-full bg-slate-800/80 rounded-full h-2.5 overflow-hidden border border-slate-700/50 cursor-pointer relative"
+            className="w-full bg-slate-800/90 hover:bg-slate-800 rounded-full h-3 overflow-hidden border border-slate-700/60 cursor-pointer relative shadow-inner group transition-all"
+            title="Clique para avançar ou voltar"
           >
             <div
-              className="h-full rounded-full transition-all duration-75"
+              className="h-full rounded-full transition-[width] duration-75 relative shadow-[0_0_12px_rgba(255,255,255,0.3)]"
               style={{ width: `${progressPercent}%`, backgroundColor: themeColor }}
-            />
+            >
+              <div className="absolute right-0 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-white shadow-md opacity-0 group-hover:opacity-100 transition-opacity" />
+            </div>
           </div>
           <div className="flex justify-between items-center text-[11px] text-slate-400 mt-1.5 font-mono px-0.5">
             <span>{formatTime(currentTime)}</span>
