@@ -1,6 +1,6 @@
 import React from 'react';
 import { GameMode } from '../types/anime';
-import { Grid, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, LayoutGrid } from 'lucide-react';
+import { Grid, Eye, MessageSquare, Zap, ZoomIn, Volume2, Infinity as InfinityIcon, LayoutGrid } from 'lucide-react';
 
 interface GameModeTabsProps {
   currentMode: GameMode;
@@ -76,13 +76,19 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
     { id: 'classic', label: 'Clássico', icon: <Grid size={15} /> },
     { id: 'wanted', label: 'Procurado', icon: <Eye size={15} /> },
     ...(hasQuote ? [{ id: 'quote' as GameMode, label: 'Citação', icon: <MessageSquare size={15} /> }] : []),
+    { id: 'voice' as GameMode, label: 'Voz', icon: <Volume2 size={15} /> },
     { id: 'ability' as GameMode, label: exclusiveLabel, icon: <Zap size={15} />, isExclusive: true },
     { id: 'zoom', label: 'Zoom', icon: <ZoomIn size={15} /> },
     { id: 'grid', label: 'Grid', icon: <LayoutGrid size={15} /> },
     { id: 'endless', label: 'Infinito', icon: <InfinityIcon size={15} /> },
   ];
 
-  const gridColsClass = modes.length === 6 ? 'grid-cols-6 max-w-3xl' : 'grid-cols-7 max-w-4xl';
+  const gridColsClass =
+    modes.length === 7
+      ? 'grid-cols-7 max-w-4xl'
+      : modes.length === 8
+      ? 'grid-cols-4 sm:grid-cols-8 max-w-5xl'
+      : 'grid-cols-3 sm:grid-cols-6 max-w-3xl';
 
   return (
     <div className={`flex items-center justify-center p-1.5 bg-[#0d1426] border border-[#202b43] rounded-2xl mx-auto my-6 shadow-lg shadow-black/20 ${modes.length === 6 ? 'max-w-3xl' : 'max-w-4xl'}`}>

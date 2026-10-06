@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Character } from '../types/anime';
 import { ExclusiveChallenge, getChallengesForAnime } from '../data/exclusiveChallenges';
+import { getDailyDateString } from '../utils/dailySeed';
 import { CharacterSearchInput } from './CharacterSearchInput';
 import { VictoryModal } from './VictoryModal';
 import {
@@ -55,19 +56,20 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   const challenges = useMemo(() => getChallengesForAnime(animeSlug), [animeSlug]);
   const [resolvedCharacter, setResolvedCharacter] = useState<Character | null>(null);
 
-  const todayStr = useMemo(() => new Date().toISOString().split('T')[0], []);
+  const todayStr = useMemo(() => getDailyDateString(), []);
   const dailyStorageKey = `animedle_${animeSlug}_exclusive_daily_${todayStr}`;
 
-  // Índice diário baseado na data
+  // Índice diário baseado na data e no anime
   const dailyIndex = useMemo(() => {
     if (challenges.length === 0) return 0;
     let hash = 0;
-    for (let i = 0; i < todayStr.length; i++) {
-      hash = (hash << 5) - hash + todayStr.charCodeAt(i);
+    const seed = `${animeSlug}-${todayStr}`;
+    for (let i = 0; i < seed.length; i++) {
+      hash = (hash << 5) - hash + seed.charCodeAt(i);
       hash |= 0;
     }
     return Math.abs(hash) % challenges.length;
-  }, [challenges, todayStr]);
+  }, [challenges, animeSlug, todayStr]);
 
   const [currentIndex, setCurrentIndex] = useState<number>(dailyIndex);
   const currentChallenge: ExclusiveChallenge | undefined =

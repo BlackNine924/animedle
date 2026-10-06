@@ -137,6 +137,7 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
       quote: 'Citação',
       ability: 'Habilidade',
       zoom: 'Zoom / Olhos',
+      voice: 'Voz & Som',
       endless: 'Treino',
       grid: 'Grid 3×3',
       exclusive: 'Modo Exclusivo',

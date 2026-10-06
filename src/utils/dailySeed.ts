@@ -11,6 +11,26 @@ function hashString(seedString: string): number {
 }
 
 /**
+ * Retorna a data no formato YYYY-MM-DD sincronizada com o Horário de Brasília (America/Sao_Paulo).
+ * Garante que a transição de dia aconteça pontualmente à meia-noite (00:00) brasileira.
+ */
+export function getDailyDateString(): string {
+  try {
+    const formatter = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'America/Sao_Paulo',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    });
+    return formatter.format(new Date());
+  } catch {
+    const now = new Date();
+    const brDate = new Date(now.getTime() - 3 * 60 * 60 * 1000);
+    return brDate.toISOString().split('T')[0];
+  }
+}
+
+/**
  * Retorna os índices diários para os modos sem repetição ('classic', 'wanted', 'zoom').
  * Garante que os personagens escolhidos para esses três modos sejam totalmente distintos no mesmo dia!
  */
@@ -19,7 +39,7 @@ export function getDailyDistinctIndices(
   totalCharacters: number,
   todayStr?: string
 ): Record<'classic' | 'wanted' | 'zoom', number> {
-  const today = todayStr || new Date().toISOString().split('T')[0];
+  const today = todayStr || getDailyDateString();
   if (totalCharacters <= 1) {
     return { classic: 0, wanted: 0, zoom: 0 };
   }
@@ -53,7 +73,7 @@ export function getDailyDistinctIndices(
  */
 export function getDailyCharacterIndex(animeSlug: string, mode: GameMode, totalCharacters: number): number {
   if (totalCharacters <= 0) return 0;
-  const today = new Date().toISOString().split('T')[0];
+  const today = getDailyDateString();
 
   if (mode === 'classic' || mode === 'wanted' || mode === 'zoom') {
     const distinct = getDailyDistinctIndices(animeSlug, totalCharacters, today);
@@ -358,17 +378,54 @@ export function evaluateGuess(
 }
 
 /**
- * Formata o tempo restante até a próxima meia-noite (UTC/Local).
+ * Formata o tempo restante até a próxima meia-noite no Horário de Brasília (America/Sao_Paulo).
  */
 export function getTimeUntilNextReset(): string {
   const now = new Date();
-  const nextReset = new Date();
+  let spDate: Date;
+  try {
+    const spTimeString = now.toLocaleString('en-US', { timeZone: 'America/Sao_Paulo' });
+    spDate = new Date(spTimeString);
+  } catch {
+    spDate = new Date(now.getTime() - 3 * 60 * 60 * 1000);
+  }
+
+  const nextReset = new Date(spDate);
   nextReset.setHours(24, 0, 0, 0);
 
-  const diffMs = nextReset.getTime() - now.getTime();
+  const diffMs = Math.max(0, nextReset.getTime() - spDate.getTime());
   const hours = Math.floor(diffMs / (1000 * 60 * 60));
   const minutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((diffMs % (1000 * 60)) / 1000);
 
   return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+}
+
+/**
+ * Remove registros de progresso diário do localStorage com mais de `keepDays` dias.
+ * Mantém estatísticas globais, conquistas e sequências do treino 100% intactas.
+ */
+export function purgeOldLocalStorage(keepDays = 7): void {
+  try {
+    const now = new Date();
+    const cutoffTime = now.getTime() - keepDays * 24 * 60 * 60 * 1000;
+    const keysToRemove: string[] = [];
+
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (!key) continue;
+
+      const dateMatch = key.match(/_(\d{4}-\d{2}-\d{2})$/);
+      if (dateMatch && dateMatch[1]) {
+        const keyDate = new Date(dateMatch[1] + 'T12:00:00');
+        if (!isNaN(keyDate.getTime()) && keyDate.getTime() < cutoffTime) {
+          keysToRemove.push(key);
+        }
+      }
+    }
+
+    keysToRemove.forEach((k) => localStorage.removeItem(k));
+  } catch {
+    // ignore
+  }
 }

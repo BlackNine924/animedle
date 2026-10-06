@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Navigate } from 'react-router-dom';
 import { getAnimeBySlug } from '../data/animes/animeRegistry';
+import { loadAnimeCharacters } from '../data/animes/characterLoader';
+import { Character } from '../types/anime';
 import { ComingSoon } from './ComingSoon';
 import { App } from '../App';
 
 export const AnimeGamePage: React.FC = () => {
   const { animeSlug } = useParams<{ animeSlug: string }>();
   const navigate = useNavigate();
+  const [characters, setCharacters] = useState<Character[] | null>(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior });
+  }, [animeSlug]);
+
+  useEffect(() => {
+    if (!animeSlug) return;
+    let isCurrent = true;
+    setCharacters(null);
+    loadAnimeCharacters(animeSlug).then((data) => {
+      if (isCurrent) {
+        setCharacters(data);
+      }
+    });
+    return () => {
+      isCurrent = false;
+    };
   }, [animeSlug]);
 
   if (!animeSlug) {
@@ -47,11 +64,19 @@ export const AnimeGamePage: React.FC = () => {
 
       {/* Jogo */}
       <div className="relative z-10 w-full min-h-screen">
-        <App
-          animeSlug={animeSlug}
-          onNavigateHome={() => navigate('/')}
-          onNavigateToAnime={(slug: string) => navigate(`/${slug}`)}
-        />
+        {characters ? (
+          <App
+            animeSlug={animeSlug}
+            charactersData={characters}
+            onNavigateHome={() => navigate('/')}
+            onNavigateToAnime={(slug: string) => navigate(`/${slug}`)}
+          />
+        ) : (
+          <div className="min-h-screen flex flex-col items-center justify-center gap-3">
+            <div className="w-10 h-10 border-4 border-amber-400 border-t-transparent rounded-full animate-spin" />
+            <span className="text-xs font-bold text-slate-300">Carregando personagens...</span>
+          </div>
+        )}
       </div>
     </div>
   );

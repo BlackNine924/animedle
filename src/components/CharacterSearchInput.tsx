@@ -21,6 +21,15 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
+  // Helper para normalizar strings removendo acentos e pontuações
+  const normalizeStr = (str: string) =>
+    str
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/['"´`]/g, '')
+      .trim();
+
   // Garante que a lista de personagens esteja sempre ordenada em ordem alfabética (A-Z)
   const sortedCharacters = [...characters].sort((a, b) =>
     a.name.localeCompare(b.name, 'pt-BR')
@@ -31,10 +40,12 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
     (c) => !guessedCharacterIds.includes(c.id)
   );
 
-  const filteredCharacters = query.trim() === ''
+  const normalizedQuery = normalizeStr(query);
+
+  const filteredCharacters = normalizedQuery === ''
     ? availableCharacters
     : availableCharacters.filter((c) =>
-        c.name.toLowerCase().includes(query.toLowerCase())
+        normalizeStr(c.name).includes(normalizedQuery)
       );
 
   // Fecha a lista ao clicar fora
@@ -54,6 +65,18 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
     setIsOpen(false);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (disabled) return;
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (filteredCharacters.length > 0) {
+        handleSelect(filteredCharacters[0]);
+      }
+    } else if (e.key === 'Escape') {
+      setIsOpen(false);
+    }
+  };
+
   return (
     <div className="relative max-w-2xl mx-auto my-6 z-40" ref={dropdownRef}>
       <div className="relative flex items-center">
@@ -67,6 +90,7 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
             setQuery(e.target.value);
             setIsOpen(true);
           }}
+          onKeyDown={handleKeyDown}
           onFocus={() => setIsOpen(true)}
           onClick={() => setIsOpen(true)}
           disabled={disabled}

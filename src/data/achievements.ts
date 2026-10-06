@@ -1,4 +1,5 @@
 import { GameStats } from '../types/anime';
+import { getDailyDateString } from '../utils/dailySeed';
 
 export interface Achievement {
   id: string;
@@ -374,7 +375,7 @@ export const recordSurrender = (animeSlug: string, mode: string): void => {
 // Registra dia jogado para o calendário de atividade
 export const logDailyActivity = (): void => {
   try {
-    const today = new Date().toISOString().split('T')[0];
+    const today = getDailyDateString();
     const saved = localStorage.getItem('animedle_activity_days');
     const days: string[] = saved ? JSON.parse(saved) : [];
     if (!days.includes(today)) {

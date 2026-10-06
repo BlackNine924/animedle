@@ -12,122 +12,30 @@ import { MangaCoverageModal } from './components/MangaCoverageModal';
 import { ExclusiveAnimeMode } from './components/ExclusiveAnimeMode';
 import { AnimeGridMode } from './components/AnimeGridMode';
 import { AchievementToast } from './components/AchievementToast';
+import { ObfuscatedMysteryAvatar } from './components/ObfuscatedMysteryAvatar';
+import { VoicePlayerCard } from './components/VoicePlayerCard';
 import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
+import { getVoiceChallengesForAnime } from './data/voices/voiceChallenges';
 
 import { ANIMES_CONFIG } from './data/animes/config';
-import demonSlayerCharacters from './data/animes/demon-slayer/characters.json';
-import jujutsuKaisenCharacters from './data/animes/jujutsu-kaisen/characters.json';
-import onePieceCharacters from './data/animes/one-piece/characters.json';
-import narutoCharacters from './data/animes/naruto/characters.json';
-import soloLevelingCharacters from './data/animes/solo-leveling/characters.json';
-import recordOfRagnarokCharacters from './data/animes/record-of-ragnarok/characters.json';
-import blueLockCharacters from './data/animes/blue-lock/characters.json';
-import bleachCharacters from './data/animes/bleach/characters.json';
-import dragonBallCharacters from './data/animes/dragon-ball/characters.json';
-import jojosBizarreAdventureCharacters from './data/animes/jojos-bizarre-adventure/characters.json';
-import dandadanCharacters from './data/animes/dandadan/characters.json';
-import tenseiShitaraSlimeCharacters from './data/animes/tensei-shitara-slime-datta-ken/characters.json';
-import attackOnTitanCharacters from './data/animes/attack-on-titan/characters.json';
-import blackCloverCharacters from './data/animes/black-clover/characters.json';
-import berserkCharacters from './data/animes/berserk/characters.json';
-import chainsawManCharacters from './data/animes/chainsaw-man/characters.json';
-import fairyTailCharacters from './data/animes/fairy-tail/characters.json';
-import frierenCharacters from './data/animes/frieren/characters.json';
-import fullmetalAlchemistCharacters from './data/animes/fullmetal-alchemist/characters.json';
-import haikyuuCharacters from './data/animes/haikyuu/characters.json';
-import hunterXHunterCharacters from './data/animes/hunter-x-hunter/characters.json';
-import kaijuNo8Characters from './data/animes/kaiju-no-8/characters.json';
-import akameGaKillCharacters from './data/animes/akame-ga-kill/characters.json';
-import cyberpunkCharacters from './data/animes/cyberpunk-edgerunners/characters.json';
-import myHeroAcademiaCharacters from './data/animes/my-hero-academia/characters.json';
-import nanatsuNoTaizaiCharacters from './data/animes/nanatsu-no-taizai/characters.json';
-import shangriLaCharacters from './data/animes/shangri-la-frontier/characters.json';
-import witchHatAtelierCharacters from './data/animes/witch-hat-atelier/characters.json';
-import onePunchManCharacters from './data/animes/one-punch-man/characters.json';
-import tokyoGhoulCharacters from './data/animes/tokyo-ghoul/characters.json';
-import swordArtOnlineCharacters from './data/animes/sword-art-online/characters.json';
-import romanceCharacters from './data/animes/romance/characters.json';
 import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
-import { Character, GameMode, GuessResult, GameStats } from './types/anime';
-import { getDailyCharacterIndex, evaluateGuess } from './utils/dailySeed';
-import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
+import { Character, GameMode, GuessResult, GameStats, VoiceChallenge } from './types/anime';
+import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
+import { Sparkles, Eye, MessageSquare, Zap, ZoomIn, Volume2, Infinity as InfinityIcon, RefreshCw, Flame, BookOpen } from 'lucide-react';
 
 
 export const App: React.FC<{
   animeSlug: string;
+  charactersData: Character[];
   onNavigateHome: () => void;
   onNavigateToAnime: (slug: string) => void;
-}> = ({ animeSlug: currentAnimeSlug, onNavigateHome, onNavigateToAnime }) => {
+}> = ({ animeSlug: currentAnimeSlug, charactersData, onNavigateHome, onNavigateToAnime }) => {
   const [currentMode, setCurrentMode] = useState<GameMode>('classic');
 
-  // Seleciona dinamicamente a lista de personagens com base no anime selecionado e ordena em ordem alfabética (A-Z)
-  const rawCharacters = (currentAnimeSlug === 'jujutsu-kaisen'
-    ? jujutsuKaisenCharacters
-    : currentAnimeSlug === 'one-piece'
-    ? onePieceCharacters
-    : currentAnimeSlug === 'naruto'
-    ? narutoCharacters
-    : currentAnimeSlug === 'solo-leveling'
-    ? soloLevelingCharacters
-    : currentAnimeSlug === 'record-of-ragnarok'
-    ? recordOfRagnarokCharacters
-    : currentAnimeSlug === 'blue-lock'
-    ? blueLockCharacters
-    : currentAnimeSlug === 'bleach'
-    ? bleachCharacters
-    : currentAnimeSlug === 'dragon-ball'
-    ? dragonBallCharacters
-    : currentAnimeSlug === 'jojos-bizarre-adventure'
-    ? jojosBizarreAdventureCharacters
-    : currentAnimeSlug === 'dandadan'
-    ? dandadanCharacters
-    : currentAnimeSlug === 'tensei-shitara-slime-datta-ken'
-    ? tenseiShitaraSlimeCharacters
-    : currentAnimeSlug === 'attack-on-titan'
-    ? attackOnTitanCharacters
-    : currentAnimeSlug === 'black-clover'
-    ? blackCloverCharacters
-    : currentAnimeSlug === 'berserk'
-    ? berserkCharacters
-    : currentAnimeSlug === 'chainsaw-man'
-    ? chainsawManCharacters
-    : currentAnimeSlug === 'fairy-tail'
-    ? fairyTailCharacters
-    : currentAnimeSlug === 'frieren'
-    ? frierenCharacters
-    : currentAnimeSlug === 'fullmetal-alchemist'
-    ? fullmetalAlchemistCharacters
-    : currentAnimeSlug === 'haikyuu'
-    ? haikyuuCharacters
-    : currentAnimeSlug === 'hunter-x-hunter'
-    ? hunterXHunterCharacters
-    : currentAnimeSlug === 'kaiju-no-8'
-    ? kaijuNo8Characters
-    : currentAnimeSlug === 'akame-ga-kill'
-    ? akameGaKillCharacters
-    : currentAnimeSlug === 'cyberpunk-edgerunners'
-    ? cyberpunkCharacters
-    : currentAnimeSlug === 'my-hero-academia'
-    ? myHeroAcademiaCharacters
-    : currentAnimeSlug === 'nanatsu-no-taizai'
-    ? nanatsuNoTaizaiCharacters
-    : currentAnimeSlug === 'shangri-la-frontier'
-    ? shangriLaCharacters
-    : currentAnimeSlug === 'witch-hat-atelier'
-    ? witchHatAtelierCharacters
-    : currentAnimeSlug === 'one-punch-man'
-    ? onePunchManCharacters
-    : currentAnimeSlug === 'tokyo-ghoul'
-    ? tokyoGhoulCharacters
-    : currentAnimeSlug === 'sword-art-online'
-    ? swordArtOnlineCharacters
-    : currentAnimeSlug === 'romance'
-    ? romanceCharacters
-    : demonSlayerCharacters) as Character[];
-
+  // Ordena a lista de personagens recebida em ordem alfabética (A-Z)
   const characters = React.useMemo(() => {
-    return [...rawCharacters].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
-  }, [rawCharacters]);
+    return [...charactersData].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+  }, [charactersData]);
 
   const animeConfig = ANIMES_CONFIG[currentAnimeSlug] || ANIMES_CONFIG['demon-slayer'];
 
@@ -181,6 +89,7 @@ export const App: React.FC<{
     quote: 0,
     ability: 0,
     zoom: 0,
+    voice: 0,
     endless: 0,
     grid: 0,
   });
@@ -585,8 +494,18 @@ export const App: React.FC<{
     return characters;
   }, [characters, currentMode]);
 
+  // Desafios de Voz do anime atual
+  const voiceChallenges = React.useMemo(() => {
+    return getVoiceChallengesForAnime(currentAnimeSlug);
+  }, [currentAnimeSlug]);
+
   // Calcula o tamanho do pool de alvos do modo ativo
-  const targetPoolSize = currentMode === 'ability' ? abilityPool.length : validCharactersForMode.length;
+  const targetPoolSize =
+    currentMode === 'ability'
+      ? abilityPool.length
+      : currentMode === 'voice'
+      ? voiceChallenges.length
+      : validCharactersForMode.length;
 
   // Calcula o índice do alvo diário aplicando a variação dev
   const baseDailyIndex = getDailyCharacterIndex(currentAnimeSlug, currentMode, targetPoolSize);
@@ -597,9 +516,16 @@ export const App: React.FC<{
     ? abilityPool[dailyIndex % abilityPool.length]
     : null;
 
+  // Desafio de voz ativo no modo voz
+  const currentVoiceChallenge = currentMode === 'voice' && voiceChallenges.length > 0
+    ? voiceChallenges[dailyIndex % voiceChallenges.length]
+    : null;
+
   // Personagem secreto do desafio ativo
   const targetCharacter = currentMode === 'ability' && currentAbilityItem
     ? currentAbilityItem.character
+    : currentMode === 'voice' && currentVoiceChallenge
+    ? (characters.find((c) => c.id === currentVoiceChallenge.characterId) || characters[0])
     : (currentMode === 'endless'
         ? validCharactersForMode[endlessTargetIndex % validCharactersForMode.length]
         : validCharactersForMode[dailyIndex % validCharactersForMode.length]);
@@ -611,6 +537,7 @@ export const App: React.FC<{
     quote: { guesses: [], isWon: false },
     ability: { guesses: [], isWon: false },
     zoom: { guesses: [], isWon: false },
+    voice: { guesses: [], isWon: false },
     endless: { guesses: [], isWon: false },
     grid: { guesses: [], isWon: false },
   });
@@ -672,14 +599,15 @@ export const App: React.FC<{
 
   // Carrega progresso independente de CADA MODO do localStorage ao trocar de modo/anime
   useEffect(() => {
-    const todayStr = new Date().toISOString().split('T')[0];
-    const modesList: GameMode[] = ['classic', 'wanted', 'quote', 'ability', 'zoom'];
+    const todayStr = getDailyDateString();
+    const modesList: GameMode[] = ['classic', 'wanted', 'quote', 'ability', 'zoom', 'voice'];
     const newStates: Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }> = {
       classic: { guesses: [], isWon: false },
       wanted: { guesses: [], isWon: false },
       quote: { guesses: [], isWon: false },
       ability: { guesses: [], isWon: false },
       zoom: { guesses: [], isWon: false },
+      voice: { guesses: [], isWon: false },
       endless: { guesses: [], isWon: false },
       grid: { guesses: [], isWon: false },
     };
@@ -782,7 +710,7 @@ export const App: React.FC<{
     }));
 
     if (currentMode !== 'endless') {
-      const todayStr = new Date().toISOString().split('T')[0];
+      const todayStr = getDailyDateString();
       const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
       localStorage.setItem(
         savedKey,
@@ -838,7 +766,7 @@ export const App: React.FC<{
     }));
 
     if (currentMode !== 'endless') {
-      const todayStr = new Date().toISOString().split('T')[0];
+      const todayStr = getDailyDateString();
       const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
       localStorage.setItem(
         savedKey,
@@ -875,7 +803,7 @@ export const App: React.FC<{
       return;
     }
 
-    const todayStr = new Date().toISOString().split('T')[0];
+    const todayStr = getDailyDateString();
     const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
     localStorage.removeItem(savedKey);
 
@@ -1073,12 +1001,12 @@ export const App: React.FC<{
             </p>
             
             <div className="w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
-              <img
-                key={`wanted-img-${targetCharacter.id}`}
-                src={targetCharacter.avatar}
-                alt="Mistério"
-                style={{ filter: isFinished ? 'none' : `blur(${blurAmount}px)` }}
-                className="w-full h-full object-cover"
+              <ObfuscatedMysteryAvatar
+                avatarUrl={targetCharacter.avatar}
+                mode="wanted"
+                blurAmount={blurAmount}
+                isRevealed={isFinished}
+                className="w-full h-full"
               />
             </div>
 
@@ -1120,6 +1048,27 @@ export const App: React.FC<{
           </div>
         )}
 
+        {/* MODO VOZ & SOM */}
+        {currentMode === 'voice' && currentVoiceChallenge && (
+          <div className="max-w-xl mx-auto text-center my-6">
+            <VoicePlayerCard
+              challenge={currentVoiceChallenge}
+              isWon={isFinished}
+              themeColor={animeConfig.themeColor}
+            />
+
+            <CharacterSearchInput
+              characters={characters}
+              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
+              onSelectCharacter={handleSelectCharacter}
+              disabled={isFinished}
+              themeColor={animeConfig.themeColor}
+            />
+
+            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
+          </div>
+        )}
+
         {/* MODO HABILIDADE / MODOS EXCLUSIVOS */}
         {currentMode === 'ability' && (
           <ExclusiveAnimeMode
@@ -1148,16 +1097,12 @@ export const App: React.FC<{
             )}
             
             <div className="w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
-              <img
-                key={`zoom-img-${targetCharacter.id}`}
-                src={targetCharacter.avatar}
-                alt="Zoom Detalhe"
-                style={{
-                  transform: `scale(${zoomScale})`,
-                  transformOrigin: '50% 36%',
-                  transition: 'transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)',
-                }}
-                className="w-full h-full object-cover select-none pointer-events-none"
+              <ObfuscatedMysteryAvatar
+                avatarUrl={targetCharacter.avatar}
+                mode="zoom"
+                zoomScale={zoomScale}
+                isRevealed={isFinished}
+                className="w-full h-full"
               />
             </div>
 

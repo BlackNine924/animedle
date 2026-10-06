@@ -6432,7 +6432,7 @@
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Paramecia (Giro Giro no Mi)",
-    "debutArc": "Dressrosa",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
     "avatar": "/avatars/one-piece/viola.png",
     "quote": "Eu vejo através de todas as mentiras com os meus olhos.",
@@ -6456,7 +6456,7 @@
     ],
     "rank": "Tenente da Marinha",
     "styleOrPower": "Estilo de Boxe com Soqueiras de Ferro",
-    "debutArc": "Arco do Baratie",
+    "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Um cavalheiro sabe apreciar um vinho tinto de qualidade... Garçom, tem uma mosca na minha sopa!",
     "techniques": [
@@ -6466,7 +6466,8 @@
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Antagonista / Suporte Cômico",
     "hairColor": "Cabelo Loiro / Dourado",
-    "avatar": "/avatars/one-piece/fullbody.png"
+    "avatar": "/avatars/one-piece/fullbody.png",
+    "bounty": 0
   },
   {
     "id": "patty",
@@ -6478,7 +6479,7 @@
     ],
     "rank": "Cozinheiro de Combate",
     "styleOrPower": "Combate com Bazuca de Carne e Pratos",
-    "debutArc": "Arco do Baratie",
+    "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Bem-vindo ao Baratie, seu desgraçado! Coma tudo ou enfio essa frigideira na sua goela!",
     "techniques": [
@@ -6488,7 +6489,8 @@
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Suporte Cômico",
     "hairColor": "Cabelo Preto",
-    "avatar": "/avatars/one-piece/patty.png"
+    "avatar": "/avatars/one-piece/patty.png",
+    "bounty": 0
   },
   {
     "id": "carne",
@@ -6500,7 +6502,7 @@
     ],
     "rank": "Cozinheiro de Carnes",
     "styleOrPower": "Estilo de Facas Duplas de Açougueiro",
-    "debutArc": "Arco do Baratie",
+    "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Aqui no Baratie nós servimos boa comida e socos na cara de piratas caloteiros!",
     "techniques": [
@@ -6510,7 +6512,8 @@
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Suporte Cômico",
     "hairColor": "Cabelo Castanho",
-    "avatar": "/avatars/one-piece/carne.png"
+    "avatar": "/avatars/one-piece/carne.png",
+    "bounty": 0
   },
   {
     "id": "pearl",
@@ -6522,7 +6525,7 @@
     ],
     "rank": "Comandante de Defesa",
     "styleOrPower": "Escudos de Ferro Corporais & Fogo",
-    "debutArc": "Arco do Baratie",
+    "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Eu nunca perdi uma gota de sangue em combate! Se eu sangrar, a selva inteira pega fogo!",
     "techniques": [
@@ -6532,7 +6535,8 @@
     "combatType": "Magia / Sobrenatural",
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Castanho",
-    "avatar": "/avatars/one-piece/pearl.png"
+    "avatar": "/avatars/one-piece/pearl.png",
+    "bounty": 0
   },
   {
     "id": "capitao-nezumi",
@@ -6544,7 +6548,7 @@
     ],
     "rank": "Capitão Corrupto da Marinha",
     "styleOrPower": "Armas de Fogo & Corrupção",
-    "debutArc": "Arco de Arlong Park",
+    "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Chichi! Confisque todo o tesouro da ladra Nami em nome da justiça da Marinha!",
     "techniques": [
@@ -6554,7 +6558,8 @@
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Castanho",
-    "avatar": "/avatars/one-piece/capitao-nezumi.png"
+    "avatar": "/avatars/one-piece/capitao-nezumi.png",
+    "bounty": 0
   },
   {
     "id": "buchi",
@@ -6566,7 +6571,7 @@
     ],
     "rank": "Combatente do Bando",
     "styleOrPower": "Garras de Gato e Salto Hipnótico Esmagador",
-    "debutArc": "Arco da Vila Syrup",
+    "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Quando o Jango me hipnotiza, meu corpo fica dez vezes mais pesado e destrói rochas!",
     "techniques": [
@@ -6576,7 +6581,8 @@
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Preto",
-    "avatar": "/avatars/one-piece/buchi.png"
+    "avatar": "/avatars/one-piece/buchi.png",
+    "bounty": 0
   },
   {
     "id": "chaka",
@@ -6589,7 +6595,7 @@
     ],
     "rank": "Comandante da Guarda Real de Alabasta",
     "styleOrPower": "Inu Inu no Mi: Modelo Chacal (Zoan)",
-    "debutArc": "Arco de Alabasta",
+    "debutArc": "Alabasta",
     "status": "Vivo",
     "quote": "Eu sou o Deus Guardião de Alabasta! Enquanto eu respirar, Crocodile não tomará o palácio!",
     "techniques": [
@@ -6599,7 +6605,8 @@
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Preto",
-    "avatar": "/avatars/one-piece/chaka.png"
+    "avatar": "/avatars/one-piece/chaka.png",
+    "bounty": 0
   },
   {
     "id": "koza",
@@ -6611,7 +6618,7 @@
     ],
     "rank": "Líder dos Rebeldes",
     "styleOrPower": "Esgrima com Sabre de Deserto",
-    "debutArc": "Arco de Alabasta",
+    "debutArc": "Alabasta",
     "status": "Vivo",
     "quote": "Nós não estamos lutando por ganância, estamos lutando pela água e pela sobrevivência do nosso povo!",
     "techniques": [
@@ -6621,7 +6628,8 @@
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Loiro / Dourado",
-    "avatar": "/avatars/one-piece/koza.png"
+    "avatar": "/avatars/one-piece/koza.png",
+    "bounty": 0
   },
   {
     "id": "wiper",
@@ -6634,7 +6642,7 @@
     ],
     "rank": "Líder Guerreiro de Shandia",
     "styleOrPower": "Burn Bazooka & Reject Dial de Triplo Impacto",
-    "debutArc": "Arco de Skypiea",
+    "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "Pela luz de Shandora! Eu acenderei o Fogo de Shandora nem que meu corpo se desintegre pelo Reject Dial!",
     "techniques": [
@@ -6644,7 +6652,8 @@
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Rival / Suporte",
     "hairColor": "Cabelo Castanho",
-    "avatar": "/avatars/one-piece/wiper.png"
+    "avatar": "/avatars/one-piece/wiper.png",
+    "bounty": 0
   },
   {
     "id": "kokoro",
@@ -6657,7 +6666,7 @@
     ],
     "rank": "Condutora do Rocketman",
     "styleOrPower": "Natação de Sereia & Condução Ferroviária",
-    "debutArc": "Arco de Water 7",
+    "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "quote": "Nagagaga! Segurem-se firme, porque o Rocketman não tem freios nem trilhos!",
     "techniques": [
@@ -6667,7 +6676,8 @@
     "combatType": "Não-Combatente",
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Loiro / Dourado",
-    "avatar": "/avatars/one-piece/kokoro.png"
+    "avatar": "/avatars/one-piece/kokoro.png",
+    "bounty": 0
   },
   {
     "id": "zambai",
@@ -6679,7 +6689,7 @@
     ],
     "rank": "Líder Operacional da Franky Family",
     "styleOrPower": "Bazucas e Katana de Demolição",
-    "debutArc": "Arco de Water 7",
+    "debutArc": "Water 7 / Enies Lobby",
     "status": "Vivo",
     "quote": "Aniki! Nós daremos a nossa vida para resgatar o Franky-aniki de Enies Lobby!",
     "techniques": [
@@ -6689,7 +6699,8 @@
     "combatType": "Longo Alcance / Projéteis",
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Preto",
-    "avatar": "/avatars/one-piece/zambai.png"
+    "avatar": "/avatars/one-piece/zambai.png",
+    "bounty": 0
   },
   {
     "id": "hyouzou",
@@ -6701,7 +6712,7 @@
     ],
     "rank": "Espadachim Chefe Mercenário",
     "styleOrPower": "Estilo das Oito Espadas Bêbadas & Veneno Letal",
-    "debutArc": "Arco da Ilha dos Tritões",
+    "debutArc": "Ilha dos Tritões",
     "status": "Derrotado",
     "quote": "Hic... O dinheiro compra a minha espada, mas o saquê dita o ritmo dos meus oito tentáculos!",
     "techniques": [
@@ -6711,7 +6722,8 @@
     "combatType": "Armas Brancas / Espadachim",
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Verde",
-    "avatar": "/avatars/one-piece/hyouzou.png"
+    "avatar": "/avatars/one-piece/hyouzou.png",
+    "bounty": 0
   },
   {
     "id": "wadatsumi",
@@ -6724,7 +6736,7 @@
     ],
     "rank": "Combatente Colossal",
     "styleOrPower": "Força Muscular Titânica & Inflar Corpo",
-    "debutArc": "Arco da Ilha dos Tritões",
+    "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "quote": "Eu não sou bobo! Eu fico gigante que nem uma montanha submarina!",
     "techniques": [
@@ -6734,7 +6746,8 @@
     "combatType": "Corpo a Corpo",
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Vermelho",
-    "avatar": "/avatars/one-piece/wadatsumi.png"
+    "avatar": "/avatars/one-piece/wadatsumi.png",
+    "bounty": 0
   },
   {
     "id": "yasuie",
@@ -6747,7 +6760,7 @@
     ],
     "rank": "Ex-Daimyo de Hakumai",
     "styleOrPower": "Sorriso Eterno do SMILE & Sacrifício Nobre",
-    "debutArc": "Arco do País de Wano",
+    "debutArc": "País de Wano",
     "status": "Morto",
     "quote": "Hahaha! O povo de Ebisu ri para não chorar! Eu morrerei sorrindo para proteger a rebelião dos Nove Bainhas!",
     "techniques": [
@@ -6757,7 +6770,8 @@
     "combatType": "Não-Combatente",
     "roleOrArchetype": "Mentor / Suporte",
     "hairColor": "Cabelo Azul",
-    "avatar": "/avatars/one-piece/yasuie.png"
+    "avatar": "/avatars/one-piece/yasuie.png",
+    "bounty": 0
   },
   {
     "id": "tsuru",
@@ -6771,7 +6785,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Paramecia (Woshu Woshu no Mi)",
-    "debutArc": "Jaya",
+    "debutArc": "Skypiea",
     "status": "Viva",
     "quote": "Um coração limpo lava todas as impurezas.",
     "avatar": "/avatars/one-piece/tsuru.png",
@@ -6794,7 +6808,7 @@
     "haki": "Armamento & Observação",
     "bounty": 31000000,
     "styleOrPower": "Paramecia (Pamu Pamu no Mi)",
-    "debutArc": "Dressrosa",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "quote": "Traidores devem ser reduzidos a cinzas!",
     "avatar": "/avatars/one-piece/gladius.png",
@@ -6818,7 +6832,7 @@
     "haki": "Armamento",
     "bounty": 11000000,
     "styleOrPower": "Paramecia (Ton Ton no Mi)",
-    "debutArc": "Dressrosa",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "quote": "Dez mil toneladas de pura destruição!",
     "avatar": "/avatars/one-piece/machvise.png",
@@ -6841,7 +6855,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Guru Guru no Mi)",
-    "debutArc": "Punk Hazard",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "quote": "Gira, gira, hélice dos céus!",
     "avatar": "/avatars/one-piece/buffalo.png",
@@ -6864,7 +6878,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Ato Ato no Mi)",
-    "debutArc": "Dressrosa",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Viva",
     "quote": "Tudo se transforma em arte vanguardista!",
     "avatar": "/avatars/one-piece/jora.png",
@@ -6911,7 +6925,7 @@
     "haki": "Armamento",
     "bounty": 210000000,
     "styleOrPower": "Logia (Numa Numa no Mi)",
-    "debutArc": "Retorno a Sabaody",
+    "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "quote": "O pântano consome tudo sem deixar rastros...",
     "avatar": "/avatars/one-piece/caribou.png",
@@ -6934,7 +6948,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Tori Tori no Mi: Modelo Albatroz)",
-    "debutArc": "Ilha Whole Cake",
+    "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "quote": "BIG NEWS! O mundo precisa da verdade espetacular!",
     "avatar": "/avatars/one-piece/morgans.png",
@@ -6957,7 +6971,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Kuku Kuku no Mi)",
-    "debutArc": "Ilha Whole Cake",
+    "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "quote": "Qualquer pedra pode virar o mais doce banquete!",
     "avatar": "/avatars/one-piece/streusen.png",
@@ -6980,7 +6994,7 @@
     "haki": "Armamento & Observação",
     "bounty": 293000000,
     "styleOrPower": "Paramecia (Oshi Oshi no Mi)",
-    "debutArc": "Levely",
+    "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "quote": "Não fique olhando assim, sou tímido!",
     "avatar": "/avatars/one-piece/morley.png",
@@ -7003,7 +7017,7 @@
     "haki": "Armamento & Observação",
     "bounty": 300000000,
     "styleOrPower": "Paramecia (Hoya Hoya no Mi)",
-    "debutArc": "Ilha Whole Cake",
+    "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "quote": "Surja, Gênio da Lâmpada!",
     "avatar": "/avatars/one-piece/charlotte-daifuku.png",
@@ -7026,7 +7040,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Kuri Kuri no Mi)",
-    "debutArc": "Ilha Whole Cake",
+    "debutArc": "Whole Cake Island",
     "status": "Morto",
     "quote": "O creme fervente derrete qualquer intruso!",
     "avatar": "/avatars/one-piece/charlotte-opera.png",
@@ -7049,7 +7063,7 @@
     "haki": "Armamento",
     "bounty": 0,
     "styleOrPower": "Paramecia (Poke Poke no Mi)",
-    "debutArc": "Marineford",
+    "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "quote": "Meu bolso guarda armas maiores que gigantes!",
     "avatar": "/avatars/one-piece/blamenco.png",
@@ -7168,7 +7182,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Jake Jake no Mi)",
-    "debutArc": "Dressrosa",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "quote": "Quando visto o corpo do Bobby, nossa força combinada massacra qualquer gladiador!",
     "avatar": "/avatars/one-piece/kelly-funk.png",
@@ -7192,7 +7206,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Mushi Mushi no Mi: Modelo Besouro Rinoceronte)",
-    "debutArc": "Dressrosa",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "quote": "Pela liberdade de Dressrosa e da Princesa Mansherry, o esquadrão dos besouros atacará!",
     "avatar": "/avatars/one-piece/kabu.png",
@@ -7216,7 +7230,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Mushi Mushi no Mi: Modelo Vespa)",
-    "debutArc": "Dressrosa",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Vivo",
     "quote": "As vespas rosas dominam os céus da batalha!",
     "avatar": "/avatars/one-piece/bian.png",
@@ -7240,7 +7254,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Sara Sara no Mi: Modelo Axolotle)",
-    "debutArc": "Punk Hazard",
+    "debutArc": "Dressrosa / Punk Hazard",
     "status": "Morto",
     "quote": "... *gás venenoso H2S borbulhante* ...",
     "avatar": "/avatars/one-piece/smiley.png",
@@ -7359,7 +7373,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan Mítica (Uma Uma no Mi: Modelo Pégaso)",
-    "debutArc": "Jaya",
+    "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "*Hiin-hiin...*",
     "avatar": "/avatars/one-piece/stronger.png",

@@ -10,6 +10,7 @@ import {
   AnimeEntry,
 } from '../data/animes/animeRegistry';
 import { ANIMES_CONFIG } from '../data/animes/config';
+import { getDailyDateString } from '../utils/dailySeed';
 
 // ── Filtros de seção ────────────────────────────────────────────────────
 type SectionToggle = { available: boolean; colecoes: boolean; comingSoon: boolean };
@@ -327,7 +328,7 @@ export const Home: React.FC = () => {
       const recentSlugsRaw = localStorage.getItem('animedle_recent_animes');
       let recentSlugs: string[] = recentSlugsRaw ? JSON.parse(recentSlugsRaw) : [];
 
-      const today = new Date().toISOString().split('T')[0];
+      const today = getDailyDateString();
       for (let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         if (key && key.startsWith('animedle_progress_') && key.includes(today)) {

@@ -120,7 +120,17 @@ export interface GuessResult {
   isCorrect: boolean;
 }
 
-export type GameMode = 'classic' | 'wanted' | 'quote' | 'ability' | 'zoom' | 'endless' | 'grid';
+export type GameMode = 'classic' | 'wanted' | 'quote' | 'ability' | 'zoom' | 'voice' | 'endless' | 'grid';
+
+export interface VoiceChallenge {
+  id: string;
+  animeSlug: string;
+  characterId: string;
+  characterName: string;
+  audioUrl: string;
+  category: 'risada' | 'ataque' | 'bordao' | 'fala';
+  subtitle?: string; // transcrição em japonês/português opcional revelada na vitória
+}
 
 export interface GameStats {
   played: number;
