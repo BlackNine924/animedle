@@ -38,7 +38,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "attack-on-titan",
       "characterId": "eren-jaeger",
       "characterName": "Eren Jaeger",
-      "videoUrl": "/scenes/attack-on-titan/eren-jaeger.png",
+      "videoUrl": "/scenes/attack-on-titan/eren-jaeger.webp",
       "techniqueOrSceneName": "Transformação do Titã de Ataque",
       "description": "Relâmpago e condensação óssea titânica manifestando o poder da liberdade."
     },
@@ -47,7 +47,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "attack-on-titan",
       "characterId": "levi-ackerman",
       "characterName": "Levi Ackerman",
-      "videoUrl": "/scenes/attack-on-titan/levi-ackerman.png",
+      "videoUrl": "/scenes/attack-on-titan/levi-ackerman.webp",
       "techniqueOrSceneName": "Giro Giratório com DMT",
       "description": "Velocidade e cortes acrobáticos decepando os tendões de qualquer Titã."
     },
@@ -195,7 +195,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "demon-slayer",
       "characterId": "tanjiro-kamado-human",
       "characterName": "Tanjiro Kamado (Caçador)",
-      "videoUrl": "/scenes/demon-slayer/tanjiro-kamado-human.png",
+      "videoUrl": "/scenes/demon-slayer/tanjiro-kamado-human.webp",
       "techniqueOrSceneName": "Hinokami Kagura: Enbu",
       "description": "Dança do Deus do Fogo com golpes cortantes de sol incandescente."
     },
@@ -233,15 +233,6 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "dragon-ball",
       "characterId": "piccolo",
       "characterName": "Piccolo",
-      "videoUrl": "/scenes/dragon-ball/piccolo.png",
-      "techniqueOrSceneName": "Makankosappo (Special Beam Cannon)",
-      "description": "Raio perfurante espiral concentrado na ponta dos dedos atravessando qualquer blindagem."
-    },
-    {
-      "id": "scene-dragon-ball-piccolo",
-      "animeSlug": "dragon-ball",
-      "characterId": "piccolo",
-      "characterName": "Piccolo",
       "videoUrl": "/scenes/dragon-ball/piccolo.webp",
       "techniqueOrSceneName": "Makankosappo (Special Beam Cannon)",
       "description": "Raio perfurante espiral concentrado na ponta dos dedos atravessando qualquer blindagem."
@@ -251,7 +242,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "dragon-ball",
       "characterId": "son-gohan",
       "characterName": "Son Gohan",
-      "videoUrl": "/scenes/dragon-ball/son-gohan.png",
+      "videoUrl": "/scenes/dragon-ball/son-gohan.webp",
       "techniqueOrSceneName": "Kamehameha Pai e Filho",
       "description": "Despertar do Super Saiyajin 2 lançando o poder máximo guiado pelo espírito do pai."
     },
@@ -260,7 +251,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "dragon-ball",
       "characterId": "son-goku",
       "characterName": "Son Goku",
-      "videoUrl": "/scenes/dragon-ball/son-goku.png",
+      "videoUrl": "/scenes/dragon-ball/son-goku.webp",
       "techniqueOrSceneName": "Kamehameha Onda de Energia",
       "description": "Concentração máxima de Ki entre as mãos disparando um feixe celestial."
     },
@@ -269,7 +260,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "dragon-ball",
       "characterId": "trunks",
       "characterName": "Trunks (Criança)",
-      "videoUrl": "/scenes/dragon-ball/trunks.jpg",
+      "videoUrl": "/scenes/dragon-ball/trunks.webp",
       "techniqueOrSceneName": "Burning Attack",
       "description": "Sequência rápida de gestos com as mãos canalizando uma bola de energia devastadora."
     },
@@ -278,7 +269,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "dragon-ball",
       "characterId": "vegeta",
       "characterName": "Vegeta",
-      "videoUrl": "/scenes/dragon-ball/vegeta.png",
+      "videoUrl": "/scenes/dragon-ball/vegeta.webp",
       "techniqueOrSceneName": "Final Flash",
       "description": "O ataque definitivo do Príncipe dos Saiyajins com poder suficiente para destruir planetas."
     }
@@ -336,7 +327,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "hunter-x-hunter",
       "characterId": "gon-freecss",
       "characterName": "Gon Freecss",
-      "videoUrl": "/scenes/hunter-x-hunter/gon-freecss.png",
+      "videoUrl": "/scenes/hunter-x-hunter/gon-freecss.webp",
       "techniqueOrSceneName": "Jajanken: Rock (Punho Concentrado)",
       "description": "Aura condensada de Ren no punho disparando força contundente monumental."
     },
@@ -354,7 +345,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "hunter-x-hunter",
       "characterId": "killua-zoldyck",
       "characterName": "Killua Zoldyck",
-      "videoUrl": "/scenes/hunter-x-hunter/killua-zoldyck.png",
+      "videoUrl": "/scenes/hunter-x-hunter/killua-zoldyck.webp",
       "techniqueOrSceneName": "Narukami & Lightning Palm",
       "description": "Aura transmutada em eletricidade paralisando e eletrocutando o oponente."
     },
@@ -393,8 +384,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "choso",
       "characterName": "Choso",
       "videoUrl": "/scenes/jujutsu-kaisen/choso.webp",
-      "techniqueOrSceneName": "Ketsueki Sōju (Piercing Blood)",
-      "description": "Jato de sangue condensado disparado sob extrema pressão e velocidade letal."
+      "techniqueOrSceneName": "Ketsueki Sōju: Slicing Exorcism (Exorcismo Fatiador)",
+      "description": "Manipulação de sangue moldando lâminas cortantes giratórias pressurizadas."
     },
     {
       "id": "scene-jujutsu-kaisen-kento-nanami",
@@ -431,6 +422,15 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/nobara-kugisaki.webp",
       "techniqueOrSceneName": "Kanzashi (Grampo) / Ressonância",
       "description": "Canalização de energia através dos cravos de ferro detonando o alvo à distância."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-noritoshi-kamo",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "noritoshi-kamo",
+      "characterName": "Noritoshi Kamo",
+      "videoUrl": "/scenes/jujutsu-kaisen/noritoshi-kamo.webp",
+      "techniqueOrSceneName": "Sekiketsusōju: Piercing Blood (Sangue Perfurante)",
+      "description": "Jato letal de sangue condensado disparado sob extrema pressão da palma das mãos."
     },
     {
       "id": "scene-jujutsu-kaisen-ryomen-sukuna",
@@ -531,7 +531,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "gaara",
       "characterName": "Gaara",
-      "videoUrl": "/scenes/naruto/gaara.png",
+      "videoUrl": "/scenes/naruto/gaara.webp",
       "techniqueOrSceneName": "Sabaku Kyū (Caixão de Areia)",
       "description": "Areia impregnada de chakra envolvendo completamente e esmagando o inimigo."
     },
@@ -540,7 +540,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "hinata-hyuuga",
       "characterName": "Hinata Hyuuga",
-      "videoUrl": "/scenes/naruto/hinata-hyuuga.png",
+      "videoUrl": "/scenes/naruto/hinata-hyuuga.webp",
       "techniqueOrSceneName": "Jūho Sōshiken (Punhos dos Leões Gêmeos)",
       "description": "Punho Gentil avançado que modela chakra em cabeças de leão drenando tenketsus."
     },
@@ -549,7 +549,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "itachi-uchiha",
       "characterName": "Itachi Uchiha",
-      "videoUrl": "/scenes/naruto/itachi-uchiha.png",
+      "videoUrl": "/scenes/naruto/itachi-uchiha.webp",
       "techniqueOrSceneName": "Tsukuyomi (Ilusão do Deus da Lua)",
       "description": "Genjutsu supremo que tortura a mente da vítima alterando a percepção do tempo."
     },
@@ -558,7 +558,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "jiraiya",
       "characterName": "Jiraiya",
-      "videoUrl": "/scenes/naruto/jiraiya.png",
+      "videoUrl": "/scenes/naruto/jiraiya.webp",
       "techniqueOrSceneName": "Gamayudan & Katon: Toad Oil Flame",
       "description": "Combinação de óleo corrosivo de sapo com chamas ardentes colossais."
     },
@@ -567,7 +567,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "kakashi-hatake",
       "characterName": "Kakashi Hatake",
-      "videoUrl": "/scenes/naruto/kakashi-hatake.png",
+      "videoUrl": "/scenes/naruto/kakashi-hatake.webp",
       "techniqueOrSceneName": "Raikiri / Corte Relâmpago",
       "description": "Concentração elétrica do Ninja Copiador que cortou um relâmpago natural."
     },
@@ -576,7 +576,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "naruto-uzumaki",
       "characterName": "Naruto Uzumaki",
-      "videoUrl": "/scenes/naruto/naruto-uzumaki.png",
+      "videoUrl": "/scenes/naruto/naruto-uzumaki.webp",
       "techniqueOrSceneName": "Fūton: Rasenshuriken",
       "description": "Esfera espiral envolta por vórtices microscópicos de vento que destroem células de chakra."
     },
@@ -585,7 +585,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "rock-lee",
       "characterName": "Rock Lee",
-      "videoUrl": "/scenes/naruto/rock-lee.png",
+      "videoUrl": "/scenes/naruto/rock-lee.webp",
       "techniqueOrSceneName": "Hachimon Tonkou (Oito Portões Internos)",
       "description": "Abertura dos portões corporais liberando velocidade e força física sobre-humanas."
     },
@@ -594,7 +594,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "sakura-haruno",
       "characterName": "Sakura Haruno",
-      "videoUrl": "/scenes/naruto/sakura-haruno.png",
+      "videoUrl": "/scenes/naruto/sakura-haruno.webp",
       "techniqueOrSceneName": "Oukashou (Impacto Flor de Cerejeira)",
       "description": "Liberação instantânea de chakra na ponta dos punhos despedaçando o solo."
     },
@@ -603,7 +603,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "naruto",
       "characterId": "sasuke-uchiha",
       "characterName": "Sasuke Uchiha",
-      "videoUrl": "/scenes/naruto/sasuke-uchiha.png",
+      "videoUrl": "/scenes/naruto/sasuke-uchiha.webp",
       "techniqueOrSceneName": "Chidori (Mil Pássaros)",
       "description": "Lâmina perfurante elétrica concentrada na mão do usuário de Sharingan."
     }
@@ -614,7 +614,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "brook",
       "characterName": "Brook",
-      "videoUrl": "/scenes/one-piece/brook.png",
+      "videoUrl": "/scenes/one-piece/brook.webp",
       "techniqueOrSceneName": "Yomi Yomi no Mi: Fubuki Giri",
       "description": "Velocidade ultrarrápida da alma e gelo cortante do submundo."
     },
@@ -641,7 +641,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "franky",
       "characterName": "Franky",
-      "videoUrl": "/scenes/one-piece/franky.png",
+      "videoUrl": "/scenes/one-piece/franky.webp",
       "techniqueOrSceneName": "Franky Radical Beam",
       "description": "Raio laser devastador disparado de suas mãos cibernéticas."
     },
@@ -659,7 +659,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "monkey-d-luffy",
       "characterName": "Monkey D. Luffy",
-      "videoUrl": "/scenes/one-piece/monkey-d-luffy.png",
+      "videoUrl": "/scenes/one-piece/monkey-d-luffy.webp",
       "techniqueOrSceneName": "Gomu Gomu no Red Hawk",
       "description": "Golpe flamejante com Haki do Armamento gerando fricção e explosão de fogo sob a água."
     },
@@ -668,7 +668,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "nami",
       "characterName": "Nami",
-      "videoUrl": "/scenes/one-piece/nami.png",
+      "videoUrl": "/scenes/one-piece/nami.webp",
       "techniqueOrSceneName": "Thunderbolt Tempo",
       "description": "Descarga elétrica colossal gerada através das esferas climáticas do Clima-Tact."
     },
@@ -677,7 +677,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "nico-robin",
       "characterName": "Nico Robin",
-      "videoUrl": "/scenes/one-piece/nico-robin.png",
+      "videoUrl": "/scenes/one-piece/nico-robin.webp",
       "techniqueOrSceneName": "Hana Hana no Mi",
       "description": "Germinação de membros e mãos ao redor do ambiente."
     },
@@ -704,7 +704,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "roronoa-zoro",
       "characterName": "Roronoa Zoro",
-      "videoUrl": "/scenes/one-piece/roronoa-zoro.png",
+      "videoUrl": "/scenes/one-piece/roronoa-zoro.webp",
       "techniqueOrSceneName": "Santōryū Ōgi: Sanzen Sekai",
       "description": "Três mil mundos cortados num giro mortal empunhando três espadas simultâneas."
     },
@@ -713,7 +713,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "sanji",
       "characterName": "Sanji",
-      "videoUrl": "/scenes/one-piece/sanji.png",
+      "videoUrl": "/scenes/one-piece/sanji.webp",
       "techniqueOrSceneName": "Diable Jambe: Flambage Shot",
       "description": "Chute flamejante de alta velocidade esmagando a defesa do oponente."
     },
@@ -722,7 +722,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "tony-tony-chopper",
       "characterName": "Tony Tony Chopper",
-      "videoUrl": "/scenes/one-piece/tony-tony-chopper.png",
+      "videoUrl": "/scenes/one-piece/tony-tony-chopper.webp",
       "techniqueOrSceneName": "Monster Point",
       "description": "Gigantismo colossal incontrolável desferindo força destruidora."
     },
@@ -731,7 +731,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "animeSlug": "one-piece",
       "characterId": "usopp",
       "characterName": "Usopp",
-      "videoUrl": "/scenes/one-piece/usopp.png",
+      "videoUrl": "/scenes/one-piece/usopp.webp",
       "techniqueOrSceneName": "Hissatsu: Firebird Star",
       "description": "Projétil em formato de pássaro flamejante disparado pelo estilingue Kabuto."
     }
