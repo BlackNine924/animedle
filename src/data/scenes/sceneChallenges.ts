@@ -1,8 +1,8 @@
 import { SceneChallenge } from '../../types/anime';
 
 /**
- * Banco de Desafios Canônicos do Modo Cena (100% verificado, autêntico e servido localmente).
- * Imagens e clipes animados oficiais sem nenhuma dependência de links instáveis de terceiros.
+ * Banco de Desafios Canônicos do Modo Cena (100% verificado, autêntico, animado e servido localmente).
+ * Clipes em loop oficiais de personagens solo sem elementos que gerem ambiguidade.
  */
 export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
   "attack-on-titan": [
@@ -39,8 +39,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "eren-jaeger",
       "characterName": "Eren Jaeger",
       "videoUrl": "/scenes/attack-on-titan/eren-jaeger.webp",
-      "techniqueOrSceneName": "Transformação do Titã de Ataque",
-      "description": "Relâmpago e condensação óssea titânica manifestando o poder da liberdade."
+      "techniqueOrSceneName": "Manobras com DMT em Alta Velocidade",
+      "description": "Disparo de ganchos de aço e gás pressurizado avançando acrobaticamente."
     },
     {
       "id": "scene-attack-on-titan-levi-ackerman",
@@ -196,8 +196,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "tanjiro-kamado-human",
       "characterName": "Tanjiro Kamado (Caçador)",
       "videoUrl": "/scenes/demon-slayer/tanjiro-kamado-human.webp",
-      "techniqueOrSceneName": "Hinokami Kagura: Enbu",
-      "description": "Dança do Deus do Fogo com golpes cortantes de sol incandescente."
+      "techniqueOrSceneName": "Ação Repetitiva & Hinokami Kagura",
+      "description": "Respiração de foco total e dança solar aumentando a potência muscular."
     },
     {
       "id": "scene-demon-slayer-tengen-uzui",
@@ -328,8 +328,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "gon-freecss",
       "characterName": "Gon Freecss",
       "videoUrl": "/scenes/hunter-x-hunter/gon-freecss.webp",
-      "techniqueOrSceneName": "Jajanken: Rock (Punho Concentrado)",
-      "description": "Aura condensada de Ren no punho disparando força contundente monumental."
+      "techniqueOrSceneName": "Jajanken: Scissor & Rock",
+      "description": "Aura condensada de Ren no punho disparando lâminas cortantes de Nen."
     },
     {
       "id": "scene-hunter-x-hunter-hisoka-morow",
@@ -346,8 +346,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "killua-zoldyck",
       "characterName": "Killua Zoldyck",
       "videoUrl": "/scenes/hunter-x-hunter/killua-zoldyck.webp",
-      "techniqueOrSceneName": "Narukami & Lightning Palm",
-      "description": "Aura transmutada em eletricidade paralisando e eletrocutando o oponente."
+      "techniqueOrSceneName": "Narukami (Thunderbolt)",
+      "description": "Aura transmutada em eletricidade caindo como raio sobre a cabeça do inimigo."
     },
     {
       "id": "scene-hunter-x-hunter-kurapika",
@@ -379,13 +379,67 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "description": "Troca instantânea de posições com palmas unida ao impacto crítico da faísca negra."
     },
     {
+      "id": "scene-jujutsu-kaisen-atsuya-kusakabe",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "atsuya-kusakabe",
+      "characterName": "Atsuya Kusakabe",
+      "videoUrl": "/scenes/jujutsu-kaisen/atsuya-kusakabe.webp",
+      "techniqueOrSceneName": "Shin Kageryū: Battō (Espada Rápida)",
+      "description": "Domínio Simples repelindo e contra-atacando técnicas em fração de segundo."
+    },
+    {
       "id": "scene-jujutsu-kaisen-choso",
       "animeSlug": "jujutsu-kaisen",
       "characterId": "choso",
       "characterName": "Choso",
       "videoUrl": "/scenes/jujutsu-kaisen/choso.webp",
-      "techniqueOrSceneName": "Ketsueki Sōju: Slicing Exorcism (Exorcismo Fatiador)",
+      "techniqueOrSceneName": "Ketsueki Sōju: Slicing Exorcism",
       "description": "Manipulação de sangue moldando lâminas cortantes giratórias pressurizadas."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-dagon",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "dagon",
+      "characterName": "Dagon",
+      "videoUrl": "/scenes/jujutsu-kaisen/dagon.webp",
+      "techniqueOrSceneName": "Evolução de Útero Amaldiçoado a Desastre",
+      "description": "Metamorfose completa dominando os oceanos e torrentes colossais de água."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-hanami",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "hanami",
+      "characterName": "Hanami",
+      "videoUrl": "/scenes/jujutsu-kaisen/hanami.webp",
+      "techniqueOrSceneName": "Despertar das Flores da Floresta",
+      "description": "Campo de raízes e flores drenando a vitalidade e concentração do adversário."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-haruta-shigemo",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "haruta-shigemo",
+      "characterName": "Haruta Shigemo",
+      "videoUrl": "/scenes/jujutsu-kaisen/haruta-shigemo.webp",
+      "techniqueOrSceneName": "Jūbaku (Espada com Empunhadura de Mão)",
+      "description": "Espada flutuante autônoma e acúmulo de pequenos milagres para sobreviver."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-hiromi-higuruma",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "hiromi-higuruma",
+      "characterName": "Hiromi Higuruma",
+      "videoUrl": "/scenes/jujutsu-kaisen/hiromi-higuruma.webp",
+      "techniqueOrSceneName": "Jukkei (Sentença Mortal do Gavel)",
+      "description": "Ataques pesados e expansão do martelo judicial confiscando técnicas inimigas."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-jogo",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "jogo",
+      "characterName": "Jogo",
+      "videoUrl": "/scenes/jujutsu-kaisen/jogo.webp",
+      "techniqueOrSceneName": "Gaihi Kozan (Coffin of the Iron Mountain)",
+      "description": "Expansão de Domínio vulcânico queimando instantaneamente intrusos com lava."
     },
     {
       "id": "scene-jujutsu-kaisen-kento-nanami",
@@ -395,6 +449,15 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/kento-nanami.webp",
       "techniqueOrSceneName": "Tōkaku Hō (Proporção 7:3 / Black Flash)",
       "description": "Criação forçada de um ponto fraco no alvo seguido por golpes críticos consecutivos."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-mahito",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "mahito",
+      "characterName": "Mahito",
+      "videoUrl": "/scenes/jujutsu-kaisen/mahito.webp",
+      "techniqueOrSceneName": "Mudan Tenkai (Forma Verdadeira da Alma)",
+      "description": "Metamorfose grotesca atingindo a forma definitiva e indestrutível de sua alma."
     },
     {
       "id": "scene-jujutsu-kaisen-maki-zenin",
@@ -415,6 +478,33 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "description": "Combate e invocação de Shikigamis a partir das sombras."
     },
     {
+      "id": "scene-jujutsu-kaisen-mei-mei",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "mei-mei",
+      "characterName": "Mei Mei",
+      "videoUrl": "/scenes/jujutsu-kaisen/mei-mei.webp",
+      "techniqueOrSceneName": "Bird Strike (Ataque dos Corvos Suicidas)",
+      "description": "Controle de pássaros impondo voto de morte para ataques de força infinita."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-naobito-zenin",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "naobito-zenin",
+      "characterName": "Naobito Zenin",
+      "videoUrl": "/scenes/jujutsu-kaisen/naobito-zenin.webp",
+      "techniqueOrSceneName": "Tōei Jushiki (Feitiçaria de Projeção)",
+      "description": "Subdivisão de 1 segundo em 24 quadros alcançando aceleração insana."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-naoya-zenin",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "naoya-zenin",
+      "characterName": "Naoya Zenin",
+      "videoUrl": "/scenes/jujutsu-kaisen/naoya-zenin.webp",
+      "techniqueOrSceneName": "Velocidade Máxima de Projeção",
+      "description": "Superação da barreira do som blitzando oponentes com quadros de animação."
+    },
+    {
       "id": "scene-jujutsu-kaisen-nobara-kugisaki",
       "animeSlug": "jujutsu-kaisen",
       "characterId": "nobara-kugisaki",
@@ -429,8 +519,17 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "noritoshi-kamo",
       "characterName": "Noritoshi Kamo",
       "videoUrl": "/scenes/jujutsu-kaisen/noritoshi-kamo.webp",
-      "techniqueOrSceneName": "Sekiketsusōju: Piercing Blood (Sangue Perfurante)",
+      "techniqueOrSceneName": "Sekiketsusōju: Piercing Blood",
       "description": "Jato letal de sangue condensado disparado sob extrema pressão da palma das mãos."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-panda",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "panda",
+      "characterName": "Panda",
+      "videoUrl": "/scenes/jujutsu-kaisen/panda.webp",
+      "techniqueOrSceneName": "Forma Gorila: Tamborilamento",
+      "description": "Golpes com ondas de choque ressonantes esmagando defesas impenetráveis."
     },
     {
       "id": "scene-jujutsu-kaisen-ryomen-sukuna",
@@ -451,6 +550,24 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "description": "Colisão do Azul e Vermelho criando uma esfera de massa imaginária que destrói matéria."
     },
     {
+      "id": "scene-jujutsu-kaisen-suguru-geto",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "suguru-geto",
+      "characterName": "Suguru Geto",
+      "videoUrl": "/scenes/jujutsu-kaisen/suguru-geto.webp",
+      "techniqueOrSceneName": "Gokunotou: Uzumaki (Vórtice Máximo)",
+      "description": "Condensação de milhares de maldições em um único raio destrutivo concentrado."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-takuma-ino",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "takuma-ino",
+      "characterName": "Takuma Ino",
+      "videoUrl": "/scenes/jujutsu-kaisen/takuma-ino.webp",
+      "techniqueOrSceneName": "Kaikki (Besta Espiritual Ryu)",
+      "description": "Invocação das quatro bestas espirituais canalizando chi pelas vestes."
+    },
+    {
       "id": "scene-jujutsu-kaisen-toge-inumaki",
       "animeSlug": "jujutsu-kaisen",
       "characterId": "toge-inumaki",
@@ -460,6 +577,15 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "description": "Comando verbal amaldiçoado que torce e despedaça a anatomia do oponente."
     },
     {
+      "id": "scene-jujutsu-kaisen-toji-fushiguro",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "toji-fushiguro",
+      "characterName": "Toji Fushiguro",
+      "videoUrl": "/scenes/jujutsu-kaisen/toji-fushiguro.webp",
+      "techniqueOrSceneName": "Corrente dos Mil Milagres",
+      "description": "Velocidade sobre-humana girando a corrente sem fim e a Lâmina Invertida do Céu."
+    },
+    {
       "id": "scene-jujutsu-kaisen-yuji-itadori",
       "animeSlug": "jujutsu-kaisen",
       "characterId": "yuji-itadori",
@@ -467,6 +593,15 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/yuji-itadori.webp",
       "techniqueOrSceneName": "Kokusen (Black Flash)",
       "description": "Faísca negra da distorção espacial de energia amaldiçoada em um milionésimo de segundo."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-yuta-okkotsu",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "yuta-okkotsu",
+      "characterName": "Yuta Okkotsu",
+      "videoUrl": "/scenes/jujutsu-kaisen/yuta-okkotsu.webp",
+      "techniqueOrSceneName": "Kokusen com Katana Amaldiçoada",
+      "description": "Faísca negra infundida diretamente na lâmina de aço em combate corpo a corpo."
     }
   ],
   "my-hero-academia": [
@@ -527,12 +662,21 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
   ],
   "naruto": [
     {
+      "id": "scene-naruto-deidara",
+      "animeSlug": "naruto",
+      "characterId": "deidara",
+      "characterName": "Deidara",
+      "videoUrl": "/scenes/naruto/deidara.webp",
+      "techniqueOrSceneName": "Argila Explosiva C3 (A Arte é Uma Explosão)",
+      "description": "Criações moldadas de chakra detonador voando pelos céus em bombardeios."
+    },
+    {
       "id": "scene-naruto-gaara",
       "animeSlug": "naruto",
       "characterId": "gaara",
       "characterName": "Gaara",
       "videoUrl": "/scenes/naruto/gaara.webp",
-      "techniqueOrSceneName": "Sabaku Kyū (Caixão de Areia)",
+      "techniqueOrSceneName": "Sabaku Kyū (Caixão e Escudo de Areia)",
       "description": "Areia impregnada de chakra envolvendo completamente e esmagando o inimigo."
     },
     {
@@ -550,8 +694,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "itachi-uchiha",
       "characterName": "Itachi Uchiha",
       "videoUrl": "/scenes/naruto/itachi-uchiha.webp",
-      "techniqueOrSceneName": "Tsukuyomi (Ilusão do Deus da Lua)",
-      "description": "Genjutsu supremo que tortura a mente da vítima alterando a percepção do tempo."
+      "techniqueOrSceneName": "Amaterasu & Mangekyō Sharingan",
+      "description": "Chamas negras inextinguíveis disparadas diretamente pelo foco visual do olho."
     },
     {
       "id": "scene-naruto-jiraiya",
@@ -559,8 +703,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "jiraiya",
       "characterName": "Jiraiya",
       "videoUrl": "/scenes/naruto/jiraiya.webp",
-      "techniqueOrSceneName": "Gamayudan & Katon: Toad Oil Flame",
-      "description": "Combinação de óleo corrosivo de sapo com chamas ardentes colossais."
+      "techniqueOrSceneName": "Modo Sábio dos Sapos de Myoboku",
+      "description": "Chakra senjutsu transformando a fisionomia e ampliando taijutsu e ninjutsu."
     },
     {
       "id": "scene-naruto-kakashi-hatake",
@@ -572,13 +716,76 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "description": "Concentração elétrica do Ninja Copiador que cortou um relâmpago natural."
     },
     {
+      "id": "scene-naruto-madara-uchiha",
+      "animeSlug": "naruto",
+      "characterId": "madara-uchiha",
+      "characterName": "Madara Uchiha",
+      "videoUrl": "/scenes/naruto/madara-uchiha.webp",
+      "techniqueOrSceneName": "Katon: Gōka Mekkyaku (Grande Aniquilação de Fogo)",
+      "description": "Muralha colossal de chamas exigindo dezenas de ninjas de água para conter."
+    },
+    {
+      "id": "scene-naruto-might-guy",
+      "animeSlug": "naruto",
+      "characterId": "might-guy",
+      "characterName": "Might Guy",
+      "videoUrl": "/scenes/naruto/might-guy.webp",
+      "techniqueOrSceneName": "Yagai (Night Guy / Oitavo Portão)",
+      "description": "Dragão de vapor vermelho da morte distorcendo o próprio espaço com um chute."
+    },
+    {
+      "id": "scene-naruto-minato-namikaze",
+      "animeSlug": "naruto",
+      "characterId": "minato-namikaze",
+      "characterName": "Minato Namikaze",
+      "videoUrl": "/scenes/naruto/minato-namikaze.webp",
+      "techniqueOrSceneName": "Hiraishin no Jutsu (Deus Voador do Trovão)",
+      "description": "Teletransporte instantâneo para selos de fórmula marcados pelo Relâmpago Amarelo."
+    },
+    {
       "id": "scene-naruto-naruto-uzumaki",
       "animeSlug": "naruto",
       "characterId": "naruto-uzumaki",
       "characterName": "Naruto Uzumaki",
       "videoUrl": "/scenes/naruto/naruto-uzumaki.webp",
-      "techniqueOrSceneName": "Fūton: Rasenshuriken",
-      "description": "Esfera espiral envolta por vórtices microscópicos de vento que destroem células de chakra."
+      "techniqueOrSceneName": "Rasengan Espiral",
+      "description": "Esfera condensada de puro chakra giratório moldada na palma da mão."
+    },
+    {
+      "id": "scene-naruto-neji-hyuuga",
+      "animeSlug": "naruto",
+      "characterId": "neji-hyuuga",
+      "characterName": "Neji Hyuuga",
+      "videoUrl": "/scenes/naruto/neji-hyuuga.webp",
+      "techniqueOrSceneName": "Jūken: Oito Trigramas 64 Golpes",
+      "description": "Fechamento cirúrgico de todos os tenketsus do fluxo de chakra do adversário."
+    },
+    {
+      "id": "scene-naruto-obito-uchiha",
+      "animeSlug": "naruto",
+      "characterId": "obito-uchiha",
+      "characterName": "Obito Uchiha",
+      "videoUrl": "/scenes/naruto/obito-uchiha.webp",
+      "techniqueOrSceneName": "Kamui (Intangibilidade Espaço-Temporal)",
+      "description": "Distorção do espaço transferindo partes do próprio corpo para outra dimensão."
+    },
+    {
+      "id": "scene-naruto-orochimaru",
+      "animeSlug": "naruto",
+      "characterId": "orochimaru",
+      "characterName": "Orochimaru",
+      "videoUrl": "/scenes/naruto/orochimaru.webp",
+      "techniqueOrSceneName": "Serpente Branca & Kusanagi",
+      "description": "Invocação e substituição através de serpentes imortais e lâmina que sai da boca."
+    },
+    {
+      "id": "scene-naruto-pain-nagato",
+      "animeSlug": "naruto",
+      "characterId": "pain-nagato",
+      "characterName": "Pain (Nagato)",
+      "videoUrl": "/scenes/naruto/pain-nagato.webp",
+      "techniqueOrSceneName": "Shinra Tensei (Punição Divina)",
+      "description": "Repulsão gravitacional devastadora capaz de pulverizar vilas inteiras do mapa."
     },
     {
       "id": "scene-naruto-rock-lee",
@@ -586,7 +793,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "rock-lee",
       "characterName": "Rock Lee",
       "videoUrl": "/scenes/naruto/rock-lee.webp",
-      "techniqueOrSceneName": "Hachimon Tonkou (Oito Portões Internos)",
+      "techniqueOrSceneName": "Hachimon Tonkou: Lótus Reversa",
       "description": "Abertura dos portões corporais liberando velocidade e força física sobre-humanas."
     },
     {
@@ -595,7 +802,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "sakura-haruno",
       "characterName": "Sakura Haruno",
       "videoUrl": "/scenes/naruto/sakura-haruno.webp",
-      "techniqueOrSceneName": "Oukashou (Impacto Flor de Cerejeira)",
+      "techniqueOrSceneName": "Impacto Monstruoso de Flor de Cerejeira",
       "description": "Liberação instantânea de chakra na ponta dos punhos despedaçando o solo."
     },
     {
@@ -606,17 +813,53 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/naruto/sasuke-uchiha.webp",
       "techniqueOrSceneName": "Chidori (Mil Pássaros)",
       "description": "Lâmina perfurante elétrica concentrada na mão do usuário de Sharingan."
+    },
+    {
+      "id": "scene-naruto-tsunade-senju",
+      "animeSlug": "naruto",
+      "characterId": "tsunade-senju",
+      "characterName": "Tsunade Senju",
+      "videoUrl": "/scenes/naruto/tsunade-senju.webp",
+      "techniqueOrSceneName": "Byakugō no In (Força de Uma Centena)",
+      "description": "Liberação do selo na testa regenerando ferimentos mortais e amplificando força."
     }
   ],
   "one-piece": [
+    {
+      "id": "scene-one-piece-bellamy",
+      "animeSlug": "one-piece",
+      "characterId": "bellamy",
+      "characterName": "Bellamy",
+      "videoUrl": "/scenes/one-piece/bellamy.webp",
+      "techniqueOrSceneName": "Spring Hopper (Salto Mola)",
+      "description": "Pernas comprimidas em molas acumulando força cinética destrutiva."
+    },
+    {
+      "id": "scene-one-piece-bentham",
+      "animeSlug": "one-piece",
+      "characterId": "bentham",
+      "characterName": "Mr. 2 Bon Kurei (Bentham)",
+      "videoUrl": "/scenes/one-piece/bentham.webp",
+      "techniqueOrSceneName": "Mane Mane no Mi & Okama Kenpo",
+      "description": "Chutes acrobáticos sincronizados com transformação facial imediata."
+    },
     {
       "id": "scene-one-piece-brook",
       "animeSlug": "one-piece",
       "characterId": "brook",
       "characterName": "Brook",
       "videoUrl": "/scenes/one-piece/brook.webp",
-      "techniqueOrSceneName": "Yomi Yomi no Mi: Fubuki Giri",
-      "description": "Velocidade ultrarrápida da alma e gelo cortante do submundo."
+      "techniqueOrSceneName": "Yahazu Giri: Three-Pace Hum",
+      "description": "Corte relâmpago que congela o oponente três passos após embainhar a espada."
+    },
+    {
+      "id": "scene-one-piece-buggy",
+      "animeSlug": "one-piece",
+      "characterId": "buggy",
+      "characterName": "Buggy",
+      "videoUrl": "/scenes/one-piece/buggy.webp",
+      "techniqueOrSceneName": "Bara Bara Festival",
+      "description": "Divisão do corpo em dezenas de pedaços flutuantes desorientando o adversário."
     },
     {
       "id": "scene-one-piece-charlotte-katakuri",
@@ -626,6 +869,33 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/charlotte-katakuri.webp",
       "techniqueOrSceneName": "Regeneração Mochi-Mochi",
       "description": "Modificação corporal com Kenbunshoku no Haki avançado para antecipar golpes."
+    },
+    {
+      "id": "scene-one-piece-crocodile",
+      "animeSlug": "one-piece",
+      "characterId": "crocodile",
+      "characterName": "Crocodile (Mr. 0)",
+      "videoUrl": "/scenes/one-piece/crocodile.webp",
+      "techniqueOrSceneName": "Sables: Desert Spada",
+      "description": "Lâminas de areia e tempestades cortantes desidratando tudo instantaneamente."
+    },
+    {
+      "id": "scene-one-piece-donquixote-doflamingo",
+      "animeSlug": "one-piece",
+      "characterId": "donquixote-doflamingo",
+      "characterName": "Donquixote Doflamingo",
+      "videoUrl": "/scenes/one-piece/donquixote-doflamingo.webp",
+      "techniqueOrSceneName": "Ito Ito no Mi: Overheat",
+      "description": "Chicote de fios incandescentes cortando prédios inteiros com velocidade extrema."
+    },
+    {
+      "id": "scene-one-piece-dracule-mihawk",
+      "animeSlug": "one-piece",
+      "characterId": "dracule-mihawk",
+      "characterName": "Dracule Mihawk",
+      "videoUrl": "/scenes/one-piece/dracule-mihawk.webp",
+      "techniqueOrSceneName": "Corte da Espada Negra Yoru",
+      "description": "Ataque cortante da maior espada do mundo partindo montanhas e icebergs."
     },
     {
       "id": "scene-one-piece-edward-newgate-barba-branca",
@@ -644,6 +914,24 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/franky.webp",
       "techniqueOrSceneName": "Franky Radical Beam",
       "description": "Raio laser devastador disparado de suas mãos cibernéticas."
+    },
+    {
+      "id": "scene-one-piece-jinbe",
+      "animeSlug": "one-piece",
+      "characterId": "jinbe",
+      "characterName": "Jinbe",
+      "videoUrl": "/scenes/one-piece/jinbe.webp",
+      "techniqueOrSceneName": "Gyojin Karate: Buraikan",
+      "description": "Manipulação da umidade corporal e do ar lançando choque perfurante aquático."
+    },
+    {
+      "id": "scene-one-piece-kuro",
+      "animeSlug": "one-piece",
+      "characterId": "kuro",
+      "characterName": "Kuro",
+      "videoUrl": "/scenes/one-piece/kuro.webp",
+      "techniqueOrSceneName": "Shakushi (Passo Furtivo da Morte)",
+      "description": "Velocidade invisível desferindo cortes aleatórios e impiedosos com garras de gato."
     },
     {
       "id": "scene-one-piece-law-trafalgar",
@@ -678,8 +966,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "nico-robin",
       "characterName": "Nico Robin",
       "videoUrl": "/scenes/one-piece/nico-robin.webp",
-      "techniqueOrSceneName": "Hana Hana no Mi",
-      "description": "Germinação de membros e mãos ao redor do ambiente."
+      "techniqueOrSceneName": "Gigante Fleur: Mil Fleurs",
+      "description": "Membros e mãos gigantescas brotando no solo com força descomunal."
     },
     {
       "id": "scene-one-piece-portgas-d-ace",
@@ -714,8 +1002,17 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "sanji",
       "characterName": "Sanji",
       "videoUrl": "/scenes/one-piece/sanji.webp",
-      "techniqueOrSceneName": "Diable Jambe: Flambage Shot",
-      "description": "Chute flamejante de alta velocidade esmagando a defesa do oponente."
+      "techniqueOrSceneName": "Diable Jambe: Ifrit Flambage",
+      "description": "Chute de chamas azul-celeste incandescentes esmagando a defesa do oponente."
+    },
+    {
+      "id": "scene-one-piece-shanks",
+      "animeSlug": "one-piece",
+      "characterId": "shanks",
+      "characterName": "Shanks",
+      "videoUrl": "/scenes/one-piece/shanks.webp",
+      "techniqueOrSceneName": "Haki do Conquistador Avassalador",
+      "description": "Pressão espiritual esmagadora que intimida almirantes a quilômetros de distância."
     },
     {
       "id": "scene-one-piece-tony-tony-chopper",
@@ -767,16 +1064,16 @@ export function getSceneChallengesForAnime(animeSlug: string): SceneChallenge[] 
     return [...list];
   }
 
-  // Fallback seguro usando desafio de Naruto verificado localmente
+  // Fallback seguro usando cena oficial animada de Naruto
   return [
     {
       id: `scene-fallback-${animeSlug}`,
       animeSlug,
       characterId: 'naruto-uzumaki',
       characterName: 'Naruto Uzumaki',
-      videoUrl: '/scenes/naruto/naruto-uzumaki.png',
-      techniqueOrSceneName: 'Fūton: Rasenshuriken',
-      description: 'Esfera espiral envolta por vórtices microscópicos de vento que destroem células de chakra.',
+      videoUrl: '/scenes/naruto/naruto-uzumaki.webp',
+      techniqueOrSceneName: 'Rasengan Espiral',
+      description: 'Esfera condensada de puro chakra giratório moldada na palma da mão.',
     },
   ];
 }
