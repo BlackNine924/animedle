@@ -23,6 +23,16 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  ::selection {
+    background-color: var(--selection-bg, #2150e5);
+    color: var(--selection-color, #ffffff);
+  }
+
+  ::-moz-selection {
+    background-color: var(--selection-bg, #2150e5);
+    color: var(--selection-color, #ffffff);
+  }
 }
 
 /* Custom Scrollbar for sleek dark table scroll */

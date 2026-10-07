@@ -67,6 +67,16 @@ export const App: React.FC<{
 
   const animeConfig = ANIMES_CONFIG[currentAnimeSlug] || ANIMES_CONFIG['demon-slayer'];
 
+  // Atualiza a cor de seleção de texto (Ctrl+A ou clique duplo) dinamicamente para o anime atual
+  useEffect(() => {
+    if (animeConfig?.themeColor) {
+      document.documentElement.style.setProperty('--selection-bg', animeConfig.themeColor);
+    }
+    return () => {
+      document.documentElement.style.setProperty('--selection-bg', '#2150e5');
+    };
+  }, [animeConfig?.themeColor]);
+
   // Troca de anime via navegação por URL (componente remonta automaticamente)
   const handleSelectAnime = (newAnimeSlug: string) => {
     setShowVictoryModal(false);

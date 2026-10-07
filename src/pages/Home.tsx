@@ -283,8 +283,11 @@ export const Home: React.FC = () => {
     sessionStorage.setItem('animedle_coming_soon_open', String(open));
   };
 
-  // Restaura favicon para o site e restaura scroll quando voltando de um card
+  // Restaura favicon para o site, cor de seleção #2150e5 e restaura scroll quando voltando de um card
   useEffect(() => {
+    // 0. Define cor de seleção padrão da Home (#2150e5)
+    document.documentElement.style.setProperty('--selection-bg', '#2150e5');
+
     // 1. Redefine o favicon para o logo principal do site AnimeDLE
     const faviconLink: HTMLLinkElement | null = document.querySelector("link[rel*='icon']");
     if (faviconLink) {
