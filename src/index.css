@@ -25,13 +25,13 @@
   }
 
   ::selection {
-    background-color: var(--selection-bg, #2150e5);
-    color: var(--selection-color, #ffffff);
+    background-color: var(--selection-bg, #2150e5) !important;
+    color: var(--selection-color, #ffffff) !important;
   }
 
   ::-moz-selection {
-    background-color: var(--selection-bg, #2150e5);
-    color: var(--selection-color, #ffffff);
+    background-color: var(--selection-bg, #2150e5) !important;
+    color: var(--selection-color, #ffffff) !important;
   }
 }
 

@@ -3,6 +3,7 @@ import { useParams, useNavigate, Navigate } from 'react-router-dom';
 import { getAnimeBySlug } from '../data/animes/animeRegistry';
 import { loadAnimeCharacters } from '../data/animes/characterLoader';
 import { Character } from '../types/anime';
+import { ANIMES_CONFIG } from '../data/animes/config';
 import { ComingSoon } from './ComingSoon';
 import { App } from '../App';
 
@@ -13,6 +14,9 @@ export const AnimeGamePage: React.FC = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior });
+    if (animeSlug && ANIMES_CONFIG[animeSlug]?.themeColor) {
+      document.documentElement.style.setProperty('--selection-bg', ANIMES_CONFIG[animeSlug].themeColor);
+    }
   }, [animeSlug]);
 
   useEffect(() => {
