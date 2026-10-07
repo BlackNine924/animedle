@@ -120,7 +120,17 @@ export interface GuessResult {
   isCorrect: boolean;
 }
 
-export type GameMode = 'classic' | 'wanted' | 'ability' | 'zoom' | 'voice' | 'grid';
+export type GameMode = 'classic' | 'wanted' | 'ability' | 'zoom' | 'voice' | 'grid' | 'scene';
+
+export interface SceneChallenge {
+  id: string;
+  animeSlug: string;
+  characterId: string;
+  characterName: string;
+  videoUrl: string; // URL do clipe de vídeo (WebM / MP4 / GIF animado em loop)
+  techniqueOrSceneName: string; // Nome da técnica, cena ou momento marcante
+  description?: string;
+}
 
 export interface VoiceChallenge {
   id: string;

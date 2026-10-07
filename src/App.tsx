@@ -14,16 +14,18 @@ import { AnimeGridMode } from './components/AnimeGridMode';
 import { AchievementToast } from './components/AchievementToast';
 import { ObfuscatedMysteryAvatar } from './components/ObfuscatedMysteryAvatar';
 import { VoicePlayerCard } from './components/VoicePlayerCard';
+import { ScenePlayerCard } from './components/ScenePlayerCard';
 import { ModeHeaderCard } from './components/ModeHeaderCard';
 import { SurrenderConfirmModal } from './components/SurrenderConfirmModal';
 import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
 import { getVoiceChallengesForAnime } from './data/voices/voiceChallenges';
+import { getSceneChallengesForAnime } from './data/scenes/sceneChallenges';
 
 import { ANIMES_CONFIG } from './data/animes/config';
 import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
-import { Character, GameMode, GuessResult, GameStats, VoiceChallenge } from './types/anime';
+import { Character, GameMode, GuessResult, GameStats, VoiceChallenge, SceneChallenge } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
-import { Sparkles, Eye, Zap, ZoomIn, Volume2, LayoutGrid, BookOpen } from 'lucide-react';
+import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen } from 'lucide-react';
 
 
 export const App: React.FC<{
@@ -42,6 +44,7 @@ export const App: React.FC<{
     zoom: false,
     voice: false,
     grid: false,
+    scene: false,
   });
 
   const isCurrentEndless = endlessByMode[currentMode] || false;
@@ -87,6 +90,7 @@ export const App: React.FC<{
     zoom: 0,
     voice: 0,
     grid: 0,
+    scene: 0,
   });
 
   // Modo Treino (Infinito): Personagem Aleatório e Contador de Sequência
@@ -478,12 +482,19 @@ export const App: React.FC<{
     return getVoiceChallengesForAnime(currentAnimeSlug);
   }, [currentAnimeSlug]);
 
+  // Desafios de Cena & Jutsu do anime atual
+  const sceneChallenges = React.useMemo(() => {
+    return getSceneChallengesForAnime(currentAnimeSlug);
+  }, [currentAnimeSlug]);
+
   // Calcula o tamanho do pool de alvos do modo ativo
   const targetPoolSize =
     currentMode === 'ability'
       ? abilityPool.length
       : currentMode === 'voice'
       ? voiceChallenges.length
+      : currentMode === 'scene'
+      ? sceneChallenges.length
       : characters.length;
 
   // Calcula o índice do alvo diário aplicando a variação dev
@@ -504,11 +515,20 @@ export const App: React.FC<{
         : voiceChallenges[dailyIndex % voiceChallenges.length])
     : null;
 
+  // Desafio de cena ativo no modo cena
+  const currentSceneChallenge = currentMode === 'scene' && sceneChallenges.length > 0
+    ? (isCurrentEndless
+        ? sceneChallenges[endlessTargetIndex % sceneChallenges.length]
+        : sceneChallenges[dailyIndex % sceneChallenges.length])
+    : null;
+
   // Personagem secreto do desafio ativo
   const targetCharacter = currentMode === 'ability' && currentAbilityItem
     ? currentAbilityItem.character
     : currentMode === 'voice' && currentVoiceChallenge
     ? (characters.find((c) => c.id === currentVoiceChallenge.characterId) || characters[0])
+    : currentMode === 'scene' && currentSceneChallenge
+    ? (characters.find((c) => c.id === currentSceneChallenge.characterId) || characters[0])
     : (isCurrentEndless
         ? characters[endlessTargetIndex % characters.length]
         : characters[dailyIndex % characters.length]);
@@ -521,6 +541,7 @@ export const App: React.FC<{
     zoom: { guesses: [], isWon: false },
     voice: { guesses: [], isWon: false },
     grid: { guesses: [], isWon: false },
+    scene: { guesses: [], isWon: false },
   });
 
   // Modais
@@ -582,7 +603,7 @@ export const App: React.FC<{
   // Carrega progresso independente de CADA MODO do localStorage ao trocar de modo/anime
   useEffect(() => {
     const todayStr = getDailyDateString();
-    const modesList: GameMode[] = ['classic', 'wanted', 'ability', 'zoom', 'voice'];
+    const modesList: GameMode[] = ['classic', 'wanted', 'ability', 'zoom', 'voice', 'scene'];
     const newStates: Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }> = {
       classic: { guesses: [], isWon: false },
       wanted: { guesses: [], isWon: false },
@@ -590,6 +611,7 @@ export const App: React.FC<{
       zoom: { guesses: [], isWon: false },
       voice: { guesses: [], isWon: false },
       grid: { guesses: [], isWon: false },
+      scene: { guesses: [], isWon: false },
     };
 
     modesList.forEach((mode) => {
@@ -677,7 +699,9 @@ export const App: React.FC<{
     const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 4;
     // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota!
     const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 7;
-    const isDefeat = isWantedLoss || isZoomLoss;
+    // No modo cena, o borrão zera no 4º erro (0px). Se errar 3 vezes com a cena 100% nítida (6 erros no total), o jogador perde!
+    const isSceneLoss = currentMode === 'scene' && !isCorrect && currentGuesses.length >= 6;
+    const isDefeat = isWantedLoss || isZoomLoss || isSceneLoss;
     const isSurrenderedState = isDefeat;
 
     setModeStates((prev) => ({
@@ -778,6 +802,8 @@ export const App: React.FC<{
       ? abilityPool.length
       : currentMode === 'voice'
       ? voiceChallenges.length
+      : currentMode === 'scene'
+      ? sceneChallenges.length
       : characters.length;
 
     if (poolSize <= 1) {
@@ -831,6 +857,8 @@ export const App: React.FC<{
       ? abilityPool.length
       : currentMode === 'voice'
       ? voiceChallenges.length
+      : currentMode === 'scene'
+      ? sceneChallenges.length
       : characters.length;
     let randomOffset = Math.floor(Math.random() * poolSize);
 
@@ -985,6 +1013,17 @@ export const App: React.FC<{
           />
         )}
 
+        {currentMode === 'scene' && (
+          <ModeHeaderCard
+            title="Modo Cena & Jutsu"
+            description="Quem é o personagem executando esta técnica? A cena desfoque a cada tentativa errada!"
+            icon={<Film size={20} />}
+            themeColor={animeConfig.themeColor}
+            isEndless={isCurrentEndless}
+            onToggleEndless={(val) => handleToggleEndless('scene', val)}
+          />
+        )}
+
         {currentMode === 'voice' && (
           <ModeHeaderCard
             title="Modo Voz & Som"
@@ -1060,6 +1099,28 @@ export const App: React.FC<{
                 className="w-full h-full"
               />
             </div>
+
+            <CharacterSearchInput
+              characters={characters}
+              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
+              onSelectCharacter={handleSelectCharacter}
+              disabled={isFinished}
+              themeColor={animeConfig.themeColor}
+            />
+
+            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
+          </div>
+        )}
+
+        {/* MODO CENA & JUTSU */}
+        {currentMode === 'scene' && currentSceneChallenge && (
+          <div className="max-w-xl mx-auto text-center my-6">
+            <ScenePlayerCard
+              challenge={currentSceneChallenge}
+              guessCount={currentGuesses.length}
+              isWon={isFinished}
+              themeColor={animeConfig.themeColor}
+            />
 
             <CharacterSearchInput
               characters={characters}

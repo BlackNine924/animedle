@@ -1,6 +1,6 @@
 import React from 'react';
 import { GameMode } from '../types/anime';
-import { Grid, Eye, Zap, ZoomIn, Volume2, LayoutGrid } from 'lucide-react';
+import { Grid, Eye, Zap, ZoomIn, Film, LayoutGrid } from 'lucide-react';
 
 interface GameModeTabsProps {
   currentMode: GameMode;
@@ -55,7 +55,7 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
   const modes: { id: GameMode; label: string; icon: React.ReactNode; isExclusive?: boolean }[] = [
     { id: 'classic', label: 'Clássico', icon: <Grid size={15} /> },
     { id: 'wanted', label: 'Procurado', icon: <Eye size={15} /> },
-    { id: 'voice', label: 'Voz', icon: <Volume2 size={15} /> },
+    { id: 'scene', label: 'Cena', icon: <Film size={15} /> },
     { id: 'ability', label: exclusiveLabel, icon: <Zap size={15} />, isExclusive: true },
     { id: 'zoom', label: 'Zoom', icon: <ZoomIn size={15} /> },
     { id: 'grid', label: 'Grid', icon: <LayoutGrid size={15} /> },
