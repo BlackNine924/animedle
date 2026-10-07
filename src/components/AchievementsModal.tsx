@@ -107,7 +107,7 @@ export const AchievementsModal: React.FC<AchievementsModalProps> = ({
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center justify-between gap-2 mb-1">
                     <h3 className={`text-base font-extrabold truncate ${isUnlocked ? 'text-white' : 'text-slate-400'}`}>
-                      {ach.title}
+                      {ach.isSecret && !isUnlocked ? '???' : ach.title}
                     </h3>
                     {isUnlocked && (
                       <span className="text-[11px] font-bold text-emerald-400 flex items-center gap-1 bg-emerald-500/10 px-2.5 py-0.5 rounded-full border border-emerald-500/30 flex-shrink-0">
@@ -115,7 +115,9 @@ export const AchievementsModal: React.FC<AchievementsModalProps> = ({
                       </span>
                     )}
                   </div>
-                  <p className="text-xs text-slate-300 font-medium leading-relaxed">{ach.description}</p>
+                  <p className="text-xs text-slate-300 font-medium leading-relaxed">
+                    {ach.isSecret && !isUnlocked ? 'Conquista secreta oculta. Jogue e descubra o mistério!' : ach.description}
+                  </p>
                   {unlockedDate && (
                     <p className="text-[10px] text-amber-400/80 font-bold mt-1.5">★ Desbloqueado em {unlockedDate}</p>
                   )}

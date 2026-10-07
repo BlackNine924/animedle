@@ -55,6 +55,9 @@ export const App: React.FC<{
       [mode]: val,
     }));
     setShowVictoryModal(false);
+    if (val && endlessModeStates[mode]?.guesses?.length === 0 && !endlessModeStates[mode]?.isWon) {
+      setEndlessTargetIndex(Math.floor(Math.random() * characters.length));
+    }
   };
 
   // Ordena a lista de personagens recebida em ordem alfabética (A-Z)
@@ -533,8 +536,8 @@ export const App: React.FC<{
         ? characters[endlessTargetIndex % characters.length]
         : characters[dailyIndex % characters.length]);
 
-  // Armazenamento de estado independente por modo
-  const [modeStates, setModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
+  // Armazenamento de estado independente por modo no Modo Diário
+  const [dailyModeStates, setDailyModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
     classic: { guesses: [], isWon: false },
     wanted: { guesses: [], isWon: false },
     ability: { guesses: [], isWon: false },
@@ -543,6 +546,20 @@ export const App: React.FC<{
     grid: { guesses: [], isWon: false },
     scene: { guesses: [], isWon: false },
   });
+
+  // Armazenamento de estado independente por modo no Modo Treino / Infinito
+  const [endlessModeStates, setEndlessModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
+    classic: { guesses: [], isWon: false },
+    wanted: { guesses: [], isWon: false },
+    ability: { guesses: [], isWon: false },
+    zoom: { guesses: [], isWon: false },
+    voice: { guesses: [], isWon: false },
+    grid: { guesses: [], isWon: false },
+    scene: { guesses: [], isWon: false },
+  });
+
+  const modeStates = isCurrentEndless ? endlessModeStates : dailyModeStates;
+  const setModeStates = isCurrentEndless ? setEndlessModeStates : setDailyModeStates;
 
   // Modais
   const [showVictoryModal, setShowVictoryModal] = useState<boolean>(false);
@@ -632,7 +649,7 @@ export const App: React.FC<{
       }
     });
 
-    setModeStates(newStates);
+    setDailyModeStates(newStates);
     setShowVictoryModal(false);
     setShowSurrenderConfirm(false);
     setEndlessTargetIndex(Math.floor(Math.random() * characters.length));

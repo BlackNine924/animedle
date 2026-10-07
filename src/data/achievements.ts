@@ -7,6 +7,7 @@ export interface Achievement {
   description: string;
   icon: string;
   category: 'modo' | 'streak' | 'geral';
+  isSecret?: boolean;
 }
 
 export const ACHIEVEMENTS_LIST: Achievement[] = [
@@ -146,9 +147,66 @@ export const ACHIEVEMENTS_LIST: Achievement[] = [
   {
     id: 'complete_collection',
     title: 'Coleção Completa',
-    description: 'Desbloquear todas as outras 19 conquistas.',
+    description: 'Desbloquear todas as outras 19 conquistas principais.',
     icon: '/icons/achievements/complete_collection.png',
     category: 'geral',
+  },
+  // Conquistas Secretas ("Easter Eggs da Sala")
+  {
+    id: 'secret_cinema_director',
+    title: 'Diretor de Cinema',
+    description: 'Vencer o Modo Cena mantendo o vídeo em Preto e Branco do início ao fim.',
+    icon: '/icons/achievements/detective.png',
+    category: 'modo',
+    isSecret: true,
+  },
+  {
+    id: 'secret_absolute_ear',
+    title: 'Ouvido Absoluto',
+    description: 'Vencer o Modo Som/Voz na 1ª tentativa ouvindo o clipe de áudio apenas 1 vez.',
+    icon: '/icons/achievements/quote_master.png',
+    category: 'modo',
+    isSecret: true,
+  },
+  {
+    id: 'secret_clairvoyant',
+    title: 'Clarividente',
+    description: 'Acertar de primeira (1 tentativa) no Modo Clássico em qualquer anime.',
+    icon: '/icons/achievements/analytical_mind.png',
+    category: 'modo',
+    isSecret: true,
+  },
+  {
+    id: 'secret_hype_blind',
+    title: 'Cego pelo Hype',
+    description: 'Chutar o protagonista do anime no primeiro palpite em 3 partidas diferentes.',
+    icon: '/icons/achievements/first_win.png',
+    category: 'geral',
+    isSecret: true,
+  },
+  {
+    id: 'secret_hit_post',
+    title: 'Na Trave',
+    description: 'Chutar um personagem que bateu absolutamente todas as características verdes, exceto o próprio personagem.',
+    icon: '/icons/achievements/eagle_eye.png',
+    category: 'modo',
+    isSecret: true,
+  },
+  {
+    id: 'secret_skipping_class',
+    title: 'Matando Aula',
+    description: 'Concluir e vencer uma partida durante o horário escolar (entre 08:00 e 12:00 em dias úteis).',
+    icon: '/icons/achievements/iron_will.png',
+    category: 'geral',
+    isSecret: true,
+  },
+  {
+    id: 'secret_pure_chaos',
+    title: 'Puro Caos',
+    description: 'Realizar 5 palpites consecutivos onde todas as características deram vermelho (0% de acerto).',
+    icon: '/icons/achievements/protagonist_comeback.png',
+    category: 'geral',
+    isSecret: true,
   },
 ];
 

@@ -485,7 +485,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
                 >
                   <div className="flex items-center justify-between mb-1.5">
                     <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">
-                      Pista {idx + 1}: {clue.label}
+                      {isRevealed ? `Dica ${idx + 1} — ${clue.label}` : `Dica ${idx + 1}`}
                     </span>
                     {!isRevealed && !roundCompleted && (
                       <button

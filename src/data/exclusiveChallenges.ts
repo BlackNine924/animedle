@@ -84,7 +84,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
     ],
     "clues": [
       {
-        "label": "Família e Antecessor",
+        "label": "Linhagem e Antecessor",
         "value": "Irmão mais novo de Marcel Galliard e sucessor de Ymir"
       },
       {
@@ -3388,7 +3388,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "O muco grudento explode violentamente ao contato com a menor fagulha"
       },
       {
-        "label": "Mentor do Crime",
+        "label": "Origem e Propriedades Físicas",
         "value": "Foi quem entregou a arma e a fruta Ito Ito para Doflamingo quando jovem"
       }
     ]
@@ -7478,7 +7478,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Investida avassaladora de poder destrutivo que rasga o solo criando um dragão de fogo"
       },
       {
-        "label": "Linhagem de Hashiras",
+        "label": "Tradição de Combate",
         "value": "Praticada por gerações sucessivas de guerreiros de coração fervoroso do clã Rengoku"
       },
       {
@@ -7647,7 +7647,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Luta auxiliado por sua serpente branca que guia seus olhos cegados pelo veneno"
       },
       {
-        "label": "Amor por Mitsuri",
+        "label": "Vínculo e Parceria",
         "value": "Jurou renascer em um mundo sem demônios para declarar seu amor à Hashira do Amor"
       }
     ]
@@ -7778,7 +7778,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Fios endurecidos com sangue capazes de fatiar lâminas Nichirin comuns ao toque"
       },
       {
-        "label": "Família Falsa da Montanha Natagumo",
+        "label": "Covil da Montanha Natagumo",
         "value": "Impunha papéis familiares cruéis a outros demônios sob ameaça de tortura"
       },
       {
@@ -7919,7 +7919,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Cortesã de elite mais famosa do Distrito da Luz Vermelha em Yoshiwara"
       },
       {
-        "label": "Terceiro Olho de Gyutaro",
+        "label": "Ligação Sensorial Dupla",
         "value": "Recebeu o terceiro olho na testa para ser controlada nos reflexos por seu irmão"
       }
     ]
@@ -8000,7 +8000,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "A pressão sanguínea extrema nos vasos oculares pode levar à cegueira permanente se usada por muito tempo"
       },
       {
-        "label": "Vingança de Shinobu",
+        "label": "Confronto e Legado",
         "value": "Usada por Kanao Tsuyuri para desferir o corte final decisivo que decapitou a Lua Superior Dois Doma"
       }
     ]
@@ -8082,7 +8082,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Brota quatro braços adicionais do tronco para rebater múltiplas bolas com precisão mortal"
       },
       {
-        "label": "Morte pela Maldição de Muzan",
+        "label": "Quebra de Selo Proibido",
         "value": "Foi destruída de dentro para fora pelas células de Muzan ao pronunciar o nome dele em voz alta"
       }
     ]
@@ -8163,7 +8163,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Cortou todas as teias de sangue reforçadas de Rui num piscar de olhos sem mover os pés"
       },
       {
-        "label": "Feito Único do Pilar da Água",
+        "label": "Manifestação do Elemento Água",
         "value": "Uma forma inédita que não existia nos pergaminhos originais ensinados por Urokodaki"
       }
     ]
@@ -8187,7 +8187,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Um arco de fogo vertical fulminante desferido de baixo para cima com potência devastadora"
       },
       {
-        "label": "Antigo Hashira das Chamas",
+        "label": "Mestria das Chamas",
         "value": "Pai de Kyojuro e ex-Hashira que abandonou o posto após a trágica morte de sua esposa Ruka"
       },
       {
@@ -8225,7 +8225,7 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
         "value": "Despertada segurando a empunhadura com força descomunal ou chocando duas espadas com intensidade sísmica"
       },
       {
-        "label": "Pesadelo de Muzan",
+        "label": "Confronto Decisivo",
         "value": "A mesma cor que a lâmina de Yoriichi Tsugikuni possuía ao cortar Muzan no passado"
       }
     ]
