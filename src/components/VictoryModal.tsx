@@ -111,7 +111,9 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
 
       // 2. Diretor de Cinema: Vencer o Modo Cena sem ligar as cores (100% P&B)
       if (currentMode === 'scene') {
-        const colorWasUsed = sessionStorage.getItem('animedle_scene_color_used') === 'true';
+        const charId = targetCharacter?.id || '';
+        const challengeKey = `animedle_scene_color_used_scene-${currentSlug}-${charId}`;
+        const colorWasUsed = sessionStorage.getItem(challengeKey) === 'true';
         if (!colorWasUsed) {
           unlockAchievement('secret_cinema_director');
         }

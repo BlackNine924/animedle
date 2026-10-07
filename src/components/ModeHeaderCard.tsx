@@ -19,15 +19,15 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
 }) => {
   return (
     <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-[#0d1426] border border-[#202b43] rounded-2xl p-4 mb-5 shadow-lg max-w-2xl mx-auto">
-      <div className="flex items-center gap-3">
+      <div className="flex flex-col sm:flex-row items-center gap-3 text-center sm:text-left">
         <div
-          className="w-10 h-10 rounded-xl flex items-center justify-center shadow-md shrink-0"
+          className="w-10 h-10 rounded-xl flex items-center justify-center shadow-md shrink-0 mx-auto sm:mx-0"
           style={{ backgroundColor: `${themeColor}25`, color: themeColor }}
         >
           {icon}
         </div>
-        <div className="text-left">
-          <h2 className="text-white font-extrabold text-base flex items-center gap-2">
+        <div className="text-center sm:text-left">
+          <h2 className="text-white font-extrabold text-base flex items-center justify-center sm:justify-start gap-2">
             {title}
           </h2>
           <p className="text-slate-400 text-xs">

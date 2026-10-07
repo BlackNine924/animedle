@@ -18,11 +18,18 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   // Toggle de cor: por padrão inicia em Preto e Branco (grayscale)
   const [isColorEnabled, setIsColorEnabled] = useState<boolean>(false);
 
+  // Sempre que mudar de desafio (troca de personagem, nova rodada diária ou infinita), reinicia em P&B
+  React.useEffect(() => {
+    setIsColorEnabled(false);
+  }, [challenge.id]);
+
   const handleToggleColor = () => {
     setIsColorEnabled((prev) => {
       const next = !prev;
       if (next) {
-        sessionStorage.setItem('animedle_scene_color_used', 'true');
+        sessionStorage.setItem(`animedle_scene_color_used_${challenge.id}`, 'true');
+      } else {
+        sessionStorage.removeItem(`animedle_scene_color_used_${challenge.id}`);
       }
       return next;
     });

@@ -116,7 +116,7 @@ export const AchievementsModal: React.FC<AchievementsModalProps> = ({
                     )}
                   </div>
                   <p className="text-xs text-slate-300 font-medium leading-relaxed">
-                    {ach.isSecret && !isUnlocked ? 'Conquista secreta oculta. Jogue e descubra o mistério!' : ach.description}
+                    {ach.description}
                   </p>
                   {unlockedDate && (
                     <p className="text-[10px] text-amber-400/80 font-bold mt-1.5">★ Desbloqueado em {unlockedDate}</p>
