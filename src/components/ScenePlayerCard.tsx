@@ -18,6 +18,16 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   // Toggle de cor: por padrão inicia em Preto e Branco (grayscale)
   const [isColorEnabled, setIsColorEnabled] = useState<boolean>(false);
 
+  const handleToggleColor = () => {
+    setIsColorEnabled((prev) => {
+      const next = !prev;
+      if (next) {
+        sessionStorage.setItem('animedle_scene_color_used', 'true');
+      }
+      return next;
+    });
+  };
+
   // Desfoque progressivo baseado no número de palpites errados:
   // 0 erros -> 100% blur (16px)
   // 1 erro  -> 75% blur (12px)
@@ -66,7 +76,7 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
           </span>
 
           <button
-            onClick={() => setIsColorEnabled((prev) => !prev)}
+            onClick={handleToggleColor}
             className={`text-[10px] font-bold uppercase px-3 py-1 rounded-full border transition-all flex items-center gap-1.5 shadow-sm active:scale-95 ${
               isColorEnabled
                 ? 'bg-amber-500/20 text-amber-300 border-amber-500/40 hover:bg-amber-500/30'

@@ -89,7 +89,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 ) : (
                   <Lock size={14} className="text-slate-500" />
                 )}
-                {hint1Unlocked ? 'Dica 1 — Saga de Estreia' : 'Dica 1'}
+                Dica 1 — Saga de Estreia
               </span>
             </div>
             {hint1Unlocked ? (
@@ -125,7 +125,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 ) : (
                   <Lock size={14} className="text-slate-500" />
                 )}
-                {hint2Unlocked ? 'Dica 2 — Akuma no Mi' : 'Dica 2'}
+                Dica 2 — Akuma no Mi
               </span>
             </div>
             {hint2Unlocked ? (
@@ -161,7 +161,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 ) : (
                   <Lock size={14} className="text-slate-500" />
                 )}
-                {hint3Unlocked ? 'Dica 3 — Afiliação' : 'Dica 3'}
+                Dica 3 — Afiliação
               </span>
             </div>
             {hint3Unlocked ? (
@@ -273,7 +273,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
               ) : (
                 <Lock size={14} className="text-slate-500" />
               )}
-              {hint1Unlocked ? hint1Label : 'Dica 1'}
+              {hint1Label}
             </span>
           </div>
           {hint1Unlocked ? (
@@ -309,7 +309,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
               ) : (
                 <Lock size={14} className="text-slate-500" />
               )}
-              {hint2Unlocked ? hint2Label : 'Dica 2'}
+              {hint2Label}
             </span>
           </div>
           {hint2Unlocked ? (

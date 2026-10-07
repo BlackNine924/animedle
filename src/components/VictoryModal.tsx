@@ -103,6 +103,28 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
         unlockAchievement('streak_7');
       }
 
+      // Conquistas Secretas
+      // 1. Clarividência: Acertar de primeira no Modo Clássico
+      if (currentMode === 'classic' && totalGuesses === 1) {
+        unlockAchievement('secret_clairvoyant');
+      }
+
+      // 2. Diretor de Cinema: Vencer o Modo Cena sem ligar as cores (100% P&B)
+      if (currentMode === 'scene') {
+        const colorWasUsed = sessionStorage.getItem('animedle_scene_color_used') === 'true';
+        if (!colorWasUsed) {
+          unlockAchievement('secret_cinema_director');
+        }
+      }
+
+      // 3. Matando Aula: Vencer partida em horário escolar (seg-sex, 08:00 às 12:00)
+      const now = new Date();
+      const dayOfWeek = now.getDay(); // 0 = Domingo, 6 = Sábado
+      const currentHour = now.getHours();
+      if (dayOfWeek >= 1 && dayOfWeek <= 5 && currentHour >= 8 && currentHour < 12) {
+        unlockAchievement('secret_skipping_class');
+      }
+
       // Registra vitória e avalia Veterano, Domínio do Universo, Identidade Confirmada, etc.
       recordVictory(currentSlug, currentMode, targetCharacter?.id);
     } else if (isSurrender) {

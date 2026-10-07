@@ -710,6 +710,33 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/masamichi-yaga.webp",
       "techniqueOrSceneName": "Criação de Cadáveres Amaldiçoados Mutantes",
       "description": "Infusão de três almas em harmonia gerando bonecos autônomos vivos e auto-sustentáveis."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-tengen",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "tengen",
+      "characterName": "Tengen",
+      "videoUrl": "/scenes/jujutsu-kaisen/tengen.webp",
+      "techniqueOrSceneName": "Barreira Sagrada de Jujutsu & Tumba da Estrela",
+      "description": "Barreiras místicas ancestrais que sustentam e isolam todo o mundo jujutsu do Japão."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-smallpox-deity",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "smallpox-deity",
+      "characterName": "Espírito da Varíola",
+      "videoUrl": "/scenes/jujutsu-kaisen/smallpox-deity.webp",
+      "techniqueOrSceneName": "Expansão de Domínio: Contagem Regressiva e Lápide do Sepulcro",
+      "description": "Sepultamento imediato em caixão de pedra com contagem regressiva fatal de três segundos."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-shoko-ieiri",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "shoko-ieiri",
+      "characterName": "Shoko Ieiri",
+      "videoUrl": "/scenes/jujutsu-kaisen/shoko-ieiri.webp",
+      "techniqueOrSceneName": "Técnica Reversa de Cura & Emissão de Energia Positiva",
+      "description": "Canalização e projeção rara de energia amaldiçoada positiva curando ferimentos mortais de outros feiticeiros."
     }
   ],
   "my-hero-academia": [
@@ -1038,6 +1065,33 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/naruto/haku.webp",
       "techniqueOrSceneName": "Makyou Hyoushou (Espelhos Demoníacos de Gelo)",
       "description": "Reflexos em velocidade de luz saltando entre espelhos congelados e disparando senbons."
+    },
+    {
+      "id": "scene-naruto-oonoki",
+      "animeSlug": "naruto",
+      "characterId": "oonoki",
+      "characterName": "Oonoki",
+      "videoUrl": "/scenes/naruto/oonoki.webp",
+      "techniqueOrSceneName": "Liberação de Poeira: Jutsu do Desmantelamento Atômico (Jinton)",
+      "description": "Criação de cubo de chakra tridimensional desintegrando tudo em nível molecular."
+    },
+    {
+      "id": "scene-naruto-darui",
+      "animeSlug": "naruto",
+      "characterId": "darui",
+      "characterName": "Darui",
+      "videoUrl": "/scenes/naruto/darui.webp",
+      "techniqueOrSceneName": "Raiton: Pantera Negra de Relâmpago Negro (Kuroi Kaminari)",
+      "description": "Manifestação de besta elétrica negra avançando e eletrocutando em grande raio."
+    },
+    {
+      "id": "scene-naruto-kiba-inuzuka",
+      "animeSlug": "naruto",
+      "characterId": "kiba-inuzuka",
+      "characterName": "Kiba Inuzuka",
+      "videoUrl": "/scenes/naruto/kiba-inuzuka.webp",
+      "techniqueOrSceneName": "Taijutsu: Presa Sobre Presa (Gatsuga) com Akamaru",
+      "description": "Giro rotativo perfurante em alta velocidade rasgando defesas em sincronia canina."
     }
   ],
   "one-piece": [
@@ -1355,6 +1409,33 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/marco.webp",
       "techniqueOrSceneName": "Tori Tori no Mi Modelo Fênix: Chamas Azuis da Ressurreição",
       "description": "Voo majestoso com asas de fogo azul celeste curando ferimentos e repelindo impactos pesados."
+    },
+    {
+      "id": "scene-one-piece-kaku",
+      "animeSlug": "one-piece",
+      "characterId": "kaku",
+      "characterName": "Kaku",
+      "videoUrl": "/scenes/one-piece/kaku.webp",
+      "techniqueOrSceneName": "Rankyaku: Kirin & Transformação Girafa Zoan",
+      "description": "Cortes cortantes no ar com as pernas em alta velocidade utilizando a fisionomia elástica de girafa."
+    },
+    {
+      "id": "scene-one-piece-caesar-clown",
+      "animeSlug": "one-piece",
+      "characterId": "caesar-clown",
+      "characterName": "Caesar Clown",
+      "videoUrl": "/scenes/one-piece/caesar-clown.webp",
+      "techniqueOrSceneName": "Gasu Gasu no Mi: Karakuni & Absorção Tóxica",
+      "description": "Manipulação de gases venenosos e asfixia removendo o oxigênio ao redor dos adversários."
+    },
+    {
+      "id": "scene-one-piece-galdino",
+      "animeSlug": "one-piece",
+      "characterId": "galdino",
+      "characterName": "Mr. 3 (Galdino)",
+      "videoUrl": "/scenes/one-piece/galdino.webp",
+      "techniqueOrSceneName": "Doru Doru Arts: Candle Champion & Armadura de Cera",
+      "description": "Geração instantânea de cera sólida moldando armaduras de combate impenetráveis."
     }
   ],
   "tokyo-ghoul": [
