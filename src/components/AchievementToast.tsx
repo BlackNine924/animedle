@@ -4,64 +4,69 @@ import { Trophy, Sparkles } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 export const AchievementToast: React.FC = () => {
-  const [queue, setQueue] = useState<Achievement[]>([]);
   const [current, setCurrent] = useState<Achievement | null>(null);
   const [isVisible, setIsVisible] = useState(false);
 
+  const queueRef = React.useRef<Achievement[]>([]);
+  const isDisplayingRef = React.useRef(false);
+
   useEffect(() => {
+    const processQueue = () => {
+      if (isDisplayingRef.current || queueRef.current.length === 0) {
+        return;
+      }
+
+      isDisplayingRef.current = true;
+      const next = queueRef.current.shift()!;
+      setCurrent(next);
+      setIsVisible(false);
+
+      // Frame seguinte: entrada visível
+      setTimeout(() => {
+        setIsVisible(true);
+        try {
+          confetti({
+            particleCount: 50,
+            spread: 70,
+            origin: { y: 0.15, x: 0.5 },
+          });
+        } catch (e) {
+          // ignore
+        }
+      }, 50);
+
+      // Permanece na tela por 4 segundos
+      setTimeout(() => {
+        setIsVisible(false); // Inicia animação de saída (duração 700ms)
+      }, 4000);
+
+      // Quando a animação de saída termina completamente (4000 + 700 + 150 = 4850ms)
+      setTimeout(() => {
+        setCurrent(null);
+        isDisplayingRef.current = false;
+        // Intervalo de 200ms antes de iniciar a próxima conquista da fila
+        setTimeout(() => {
+          processQueue();
+        }, 200);
+      }, 4850);
+    };
+
     const handleUnlock = (event: Event) => {
       const customEvent = event as CustomEvent<{ id: string; info?: Achievement }>;
       if (customEvent.detail?.info) {
         const achievement = customEvent.detail.info;
-        setQueue((prev) => {
-          if (prev.some((item) => item.id === achievement.id)) return prev;
-          return [...prev, achievement];
-        });
+        if (!queueRef.current.some((item) => item.id === achievement.id)) {
+          queueRef.current.push(achievement);
+          processQueue();
+        }
       }
     };
 
     window.addEventListener('animedle_achievement_unlocked', handleUnlock);
-    return () => window.removeEventListener('animedle_achievement_unlocked', handleUnlock);
-  }, []);
-
-  useEffect(() => {
-    if (current || queue.length === 0) return;
-
-    const nextAchievement = queue[0];
-    setQueue((prev) => prev.slice(1));
-    setCurrent(nextAchievement);
-    setIsVisible(false);
-
-    // Entrada suave
-    const enterTimer = setTimeout(() => {
-      setIsVisible(true);
-      try {
-        confetti({
-          particleCount: 50,
-          spread: 70,
-          origin: { y: 0.15, x: 0.5 },
-        });
-      } catch (e) {
-        // ignore
-      }
-    }, 50);
-
-    // Inicia saída após 4.5 segundos de exibição
-    const startExitTimer = setTimeout(() => {
-      setIsVisible(false);
-    }, 4500);
-
-    // Aguarda a animação de saída (700ms) terminar completamente antes de permitir a próxima
-    const finishExitTimer = setTimeout(() => {
-      setCurrent(null);
-    }, 5350);
-
     return () => {
-      clearTimeout(enterTimer);
-      clearTimeout(startExitTimer);
-      clearTimeout(finishExitTimer);
+      window.removeEventListener('animedle_achievement_unlocked', handleUnlock);
     };
-  }, [current, queue]);
+  }, []);
 
   if (!current) return null;
 

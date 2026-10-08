@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Film, Eye, EyeOff, Sparkles } from 'lucide-react';
+import { Film, Eye, EyeOff } from 'lucide-react';
 import { SceneChallenge } from '../types/anime';
 
 interface ScenePlayerCardProps {
@@ -119,16 +119,6 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
 
         {/* Gradiente sutil nas bordas */}
         <div className="absolute inset-0 pointer-events-none rounded-2xl shadow-inner border border-white/10" />
-
-        {/* Efeito de vitória revelando o nome da técnica */}
-        {isWon && (
-          <div className="absolute bottom-2 left-2 right-2 px-3 py-1.5 bg-black/80 backdrop-blur-md rounded-xl border border-emerald-500/40 text-center animate-fadeIn">
-            <p className="text-[11px] font-black text-emerald-300 flex items-center justify-center gap-1.5">
-              <Sparkles size={13} />
-              <span>{challenge.techniqueOrSceneName}</span>
-            </p>
-          </div>
-        )}
       </div>
     </div>
   );
