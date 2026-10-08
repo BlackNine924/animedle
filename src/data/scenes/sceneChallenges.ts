@@ -1018,8 +1018,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "hashirama-senju",
       "characterName": "Hashirama Senju",
       "videoUrl": "/scenes/naruto/hashirama-senju.webp",
-      "techniqueOrSceneName": "Mokuton: Dragão de Madeira Gigante",
-      "description": "Manifestação vegetal titânica capaz de subjugar bijuus e absorver chakra em raízes."
+      "techniqueOrSceneName": "Mokuton: Shin Sūsenju (Mil Mãos de Madeira)",
+      "description": "Modo Sábio invocando a estátua monumental de Buda com milhares de punhos titânicos."
     },
     {
       "id": "scene-naruto-tobirama-senju",
@@ -1254,8 +1254,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "roger-gold",
       "characterName": "Gol D. Roger",
       "videoUrl": "/scenes/one-piece/roger-gold.webp",
-      "techniqueOrSceneName": "Kamusari (Partida Divina)",
-      "description": "Corte lendário envolto pelo mais puro Haki do Conquistador avançado."
+      "techniqueOrSceneName": "O Sorriso do Rei dos Piratas em Loguetown",
+      "description": "Lâminas cruzadas sobre o pescoço e sorriso lendário inaugurando a Grande Era dos Piratas."
     },
     {
       "id": "scene-one-piece-roronoa-zoro",
