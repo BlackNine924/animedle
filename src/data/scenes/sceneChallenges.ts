@@ -483,8 +483,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "mei-mei",
       "characterName": "Mei Mei",
       "videoUrl": "/scenes/jujutsu-kaisen/mei-mei.webp",
-      "techniqueOrSceneName": "Bird Strike (Ataque dos Corvos Suicidas)",
-      "description": "Controle de pássaros impondo voto de morte para ataques de força infinita."
+      "techniqueOrSceneName": "Ataque de Machado de Duas Mãos",
+      "description": "Mei Mei empunhando seu pesado machado de guerra com frieza e postura marcial."
     },
     {
       "id": "scene-jujutsu-kaisen-naobito-zenin",
@@ -510,8 +510,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "nobara-kugisaki",
       "characterName": "Nobara Kugisaki",
       "videoUrl": "/scenes/jujutsu-kaisen/nobara-kugisaki.webp",
-      "techniqueOrSceneName": "Kanzashi (Grampo) / Ressonância",
-      "description": "Canalização de energia através dos cravos de ferro detonando o alvo à distância."
+      "techniqueOrSceneName": "Ressonância & Horquilha de Pregos",
+      "description": "Nobara Kugisaki tomada pelas marcas da maldição sorrindo confiante com seus pregos e martelo."
     },
     {
       "id": "scene-jujutsu-kaisen-noritoshi-kamo",
@@ -519,8 +519,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "noritoshi-kamo",
       "characterName": "Noritoshi Kamo",
       "videoUrl": "/scenes/jujutsu-kaisen/noritoshi-kamo.webp",
-      "techniqueOrSceneName": "Sekiketsusōju: Piercing Blood",
-      "description": "Jato letal de sangue condensado disparado sob extrema pressão da palma das mãos."
+      "techniqueOrSceneName": "Manipulação de Sangue (Visão Focada)",
+      "description": "Noritoshi Kamo acelerando o fluxo sanguíneo em seus olhos para canalizar precisão extrema com seu arco."
     },
     {
       "id": "scene-jujutsu-kaisen-panda",
@@ -564,8 +564,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "takuma-ino",
       "characterName": "Takuma Ino",
       "videoUrl": "/scenes/jujutsu-kaisen/takuma-ino.webp",
-      "techniqueOrSceneName": "Kaikki (Besta Espiritual Ryu)",
-      "description": "Invocação das quatro bestas espirituais canalizando chi pelas vestes."
+      "techniqueOrSceneName": "Invocação das Bestas Sagradas (Kaichi)",
+      "description": "Takuma Ino retirando sua touca e preparando seu ritual xamânico das quatro feras lendárias."
     },
     {
       "id": "scene-jujutsu-kaisen-toge-inumaki",
@@ -609,8 +609,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "mai-zenin",
       "characterName": "Mai Zenin",
       "videoUrl": "/scenes/jujutsu-kaisen/mai-zenin.webp",
-      "techniqueOrSceneName": "Técnica de Construção: Tiro Perfurante",
-      "description": "Criação de projéteis materiais do nada com energia amaldiçoada disparados por revólver."
+      "techniqueOrSceneName": "Técnica de Construção (Disparo de Revólver)",
+      "description": "Mai Zen'in sorrindo e apontando seu revólver clássico carregado com balas imbricadas de energia amaldiçoada."
     },
     {
       "id": "scene-jujutsu-kaisen-kasumi-miwa",
@@ -627,8 +627,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "momo-nishimiya",
       "characterName": "Momo Nishimiya",
       "videoUrl": "/scenes/jujutsu-kaisen/momo-nishimiya.webp",
-      "techniqueOrSceneName": "Manipulação de Vassoura: Foice de Vento",
-      "description": "Voo acrobático veloz e emissão de rajadas cortantes de ar pressurizado."
+      "techniqueOrSceneName": "Feitiço do Vento & Voo de Vassoura",
+      "description": "Momo Nishimiya sobrevoando a floresta e controlando rajadas cortantes de vento com sua vassoura voadora."
     },
     {
       "id": "scene-jujutsu-kaisen-kokichi-muta",
@@ -636,8 +636,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kokichi-muta",
       "characterName": "Kokichi Muta (Mechamaru)",
       "videoUrl": "/scenes/jujutsu-kaisen/kokichi-muta.webp",
-      "techniqueOrSceneName": "Modo Absoluto: Canhão de Energia de Mechamaru",
-      "description": "Marionete gigante concentrando anos de energia amaldiçoada em disparos cataclísmicos."
+      "techniqueOrSceneName": "Despertar do Corpo Curado na Água",
+      "description": "Kokichi Muta emergindo restaurado e sem ataduras após ter sua restrição celestial e corpo físico curados por Mahito."
     },
     {
       "id": "scene-jujutsu-kaisen-yoshinobu-gakuganji",
@@ -699,8 +699,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kenjaku",
       "characterName": "Kenjaku",
       "videoUrl": "/scenes/jujutsu-kaisen/kenjaku.webp",
-      "techniqueOrSceneName": "Manipulação de Maldições Antigas",
-      "description": "Invocação milenar orquestrando maldições ancestrais sem deixar vestígios."
+      "techniqueOrSceneName": "Revelação do Cérebro Amaldiçoado de Suguru Geto",
+      "description": "Kenjaku abrindo o topo do crânio com a mão revelando seu verdadeiro corpo: o cérebro com dentes e boca falante em Shibuya."
     },
     {
       "id": "scene-jujutsu-kaisen-masamichi-yaga",
@@ -708,8 +708,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "masamichi-yaga",
       "characterName": "Masamichi Yaga",
       "videoUrl": "/scenes/jujutsu-kaisen/masamichi-yaga.webp",
-      "techniqueOrSceneName": "Criação de Cadáveres Amaldiçoados Mutantes",
-      "description": "Infusão de três almas em harmonia gerando bonecos autônomos vivos e auto-sustentáveis."
+      "techniqueOrSceneName": "Criação de Cadáveres Amaldiçoados Autônomos",
+      "description": "Diretor Masamichi Yaga de óculos escuros preparando-se com postura imponente em Shibuya."
     },
     {
       "id": "scene-jujutsu-kaisen-tengen",
@@ -753,8 +753,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "ui-ui",
       "characterName": "Ui Ui",
       "videoUrl": "/scenes/jujutsu-kaisen/ui-ui.webp",
-      "techniqueOrSceneName": "Técnica Espacial de Teletransporte Instantâneo",
-      "description": "Deslocamento dimensional veloz salvando feiticeiros feridos através de barreira espacial."
+      "techniqueOrSceneName": "Técnica Espacial de Teletransporte",
+      "description": "Ui Ui com cabelos azuis sorrindo serenamente pronto para manifestar sua feitiçaria de teletransporte."
     },
     {
       "id": "scene-jujutsu-kaisen-miguel",
@@ -762,8 +762,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "miguel",
       "characterName": "Miguel",
       "videoUrl": "/scenes/jujutsu-kaisen/miguel.webp",
-      "techniqueOrSceneName": "Corda Preta Mágica (Black Rope)",
-      "description": "Golpes chicoteantes com corda africana tecida capaz de perturbar e anular o Infinito."
+      "techniqueOrSceneName": "Corda Negra Mística (Black Rope)",
+      "description": "Miguel empunhando o chicote africano trançado com poder para dissipar técnicas amaldiçoadas."
     },
     {
       "id": "scene-jujutsu-kaisen-riko-amanai",
@@ -771,8 +771,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "riko-amanai",
       "characterName": "Riko Amanai",
       "videoUrl": "/scenes/jujutsu-kaisen/riko-amanai.webp",
-      "techniqueOrSceneName": "Vaso de Plasma Estelar em Oásis",
-      "description": "Alegria e despedida da juventude no litoral antes do destino selado no túmulo da estrela."
+      "techniqueOrSceneName": "Receptáculo de Plasma Estelar em Repouso",
+      "description": "Riko Amanai submersa serenamente na água transparente de Okinawa cercada por peixes no anime oficial."
     },
     {
       "id": "scene-jujutsu-kaisen-misato-kuroi",
@@ -780,8 +780,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "misato-kuroi",
       "characterName": "Misato Kuroi",
       "videoUrl": "/scenes/jujutsu-kaisen/misato-kuroi.webp",
-      "techniqueOrSceneName": "Artes Marciais com Bastão de Empregada",
-      "description": "Defesa com bastão em acrobacia de guarda-costas protegendo Riko contra assassinos armados."
+      "techniqueOrSceneName": "Vigilância Protetora em Okinawa",
+      "description": "Misato Kuroi surpresa e atenta protegendo o Receptáculo de Plasma Estelar à beira-mar."
     },
     {
       "id": "scene-jujutsu-kaisen-finger-bearer",
@@ -816,8 +816,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "nanako-hasaba",
       "characterName": "Nanako Hasaba",
       "videoUrl": "/scenes/jujutsu-kaisen/nanako-hasaba.webp",
-      "techniqueOrSceneName": "Manipulação Espacial com Câmera de Smartphone",
-      "description": "Captura de foto com celular congelando e manipulando o espaço e o corpo do alvo enquadrado."
+      "techniqueOrSceneName": "Manipulação de Câmera Fotográfica",
+      "description": "Nanako Hasaba apontando a lente de seu smartphone com determinação para aprisionar alvos em fotos."
     },
     {
       "id": "scene-jujutsu-kaisen-yu-haibara",
@@ -825,8 +825,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "yu-haibara",
       "characterName": "Yu Haibara",
       "videoUrl": "/scenes/jujutsu-kaisen/yu-haibara.webp",
-      "techniqueOrSceneName": "Entusiasmo Radiante de Feiticeiro Jujutsu",
-      "description": "Sorriso sincero e determinação corajosa partindo para missões ao lado de Kento Nanami."
+      "techniqueOrSceneName": "Espírito Radiante do Segundo Ano",
+      "description": "Yu Haibara sorrindo com genuíno otimismo e lealdade nos corredores da Escola Jujutsu em cena oficial do anime."
     }
   ],
   "my-hero-academia": [
@@ -901,8 +901,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "gaara",
       "characterName": "Gaara",
       "videoUrl": "/scenes/naruto/gaara.webp",
-      "techniqueOrSceneName": "Sabaku Kyū (Caixão e Escudo de Areia)",
-      "description": "Areia impregnada de chakra envolvendo completamente e esmagando o inimigo."
+      "techniqueOrSceneName": "Tsunami de Areia (Ryūsa Bakuryū)",
+      "description": "Gaara erguendo e lançando um oceano colossal de areia sufocante cobrindo todo o campo de batalha."
     },
     {
       "id": "scene-naruto-hinata-hyuuga",
@@ -937,8 +937,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kakashi-hatake",
       "characterName": "Kakashi Hatake",
       "videoUrl": "/scenes/naruto/kakashi-hatake.webp",
-      "techniqueOrSceneName": "Raikiri / Corte Relâmpago",
-      "description": "Concentração elétrica do Ninja Copiador que cortou um relâmpago natural."
+      "techniqueOrSceneName": "Olho Shinobi da Guerra (Mangekyo Sharingan)",
+      "description": "Kakashi Hatake com bandana de shinobi e Sharingan escarlate pronto para desferir o Kamui."
     },
     {
       "id": "scene-naruto-madara-uchiha",
@@ -946,8 +946,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "madara-uchiha",
       "characterName": "Madara Uchiha",
       "videoUrl": "/scenes/naruto/madara-uchiha.webp",
-      "techniqueOrSceneName": "Katon: Gōka Mekkyaku (Grande Aniquilação de Fogo)",
-      "description": "Muralha colossal de chamas exigindo dezenas de ninjas de água para conter."
+      "techniqueOrSceneName": "Susanoo Perfeito Cortador de Montanhas",
+      "description": "Madara Uchiha invocando a espada colossal do Susanoo Perfeito para partir a geografia ao meio."
     },
     {
       "id": "scene-naruto-might-guy",
@@ -955,8 +955,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "might-guy",
       "characterName": "Might Guy",
       "videoUrl": "/scenes/naruto/might-guy.webp",
-      "techniqueOrSceneName": "Yagai (Night Guy / Oitavo Portão)",
-      "description": "Dragão de vapor vermelho da morte distorcendo o próprio espaço com um chute."
+      "techniqueOrSceneName": "Tigre Diurno (Hirudora)",
+      "description": "Might Guy comprimindo ar puro com as mãos para disparar a explosão de choque em forma de tigre."
     },
     {
       "id": "scene-naruto-minato-namikaze",
@@ -973,8 +973,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "naruto-uzumaki",
       "characterName": "Naruto Uzumaki",
       "videoUrl": "/scenes/naruto/naruto-uzumaki.webp",
-      "techniqueOrSceneName": "Rasengan Espiral",
-      "description": "Esfera condensada de puro chakra giratório moldada na palma da mão."
+      "techniqueOrSceneName": "Rasenshuriken do Modo Sábio",
+      "description": "Naruto Uzumaki criando o vórtice tempestuoso do Rasenshuriken de vento com auxílio de seus clones."
     },
     {
       "id": "scene-naruto-neji-hyuuga",
@@ -1018,8 +1018,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "rock-lee",
       "characterName": "Rock Lee",
       "videoUrl": "/scenes/naruto/rock-lee.webp",
-      "techniqueOrSceneName": "Hachimon Tonkou: Lótus Reversa",
-      "description": "Abertura dos portões corporais liberando velocidade e força física sobre-humanas."
+      "techniqueOrSceneName": "Remoção dos Pesos de Treinamento",
+      "description": "Rock Lee soltando os pesos hiper-densos das pernas do topo da estátua revelando sua velocidade lendária."
     },
     {
       "id": "scene-naruto-sakura-haruno",
@@ -1045,8 +1045,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "tsunade-senju",
       "characterName": "Tsunade Senju",
       "videoUrl": "/scenes/naruto/tsunade-senju.webp",
-      "techniqueOrSceneName": "Byakugō no In (Força de Uma Centena)",
-      "description": "Liberação do selo na testa regenerando ferimentos mortais e amplificando força."
+      "techniqueOrSceneName": "Impacto Monstruoso da Quinta Hokage",
+      "description": "Tsunade aterrissando com poder esmagador e despedaçando o solo sob o impacto de seu golpe."
     },
     {
       "id": "scene-naruto-kisame-hoshigaki",
@@ -1081,8 +1081,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "hidan",
       "characterName": "Hidan",
       "videoUrl": "/scenes/naruto/hidan.webp",
-      "techniqueOrSceneName": "Ritual de Jashin com Foice Tripla",
-      "description": "Ataques circulares furiosos com foice de três lâminas para coleta de sangue e sacrifício."
+      "techniqueOrSceneName": "Foice de Três Lâminas & Ritual de Jashin",
+      "description": "Hidan empunhando sua foice carmesim de três gumes para derramar sangue no culto de Jashin."
     },
     {
       "id": "scene-naruto-kakuzu",
@@ -1216,8 +1216,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "chouji-akimichi",
       "characterName": "Chouji Akimichi",
       "videoUrl": "/scenes/naruto/chouji-akimichi.webp",
-      "techniqueOrSceneName": "Nikudan Sensha & Modo Borboleta de Chakra",
-      "description": "Expansão de massa corporal e asas de pura energia luminosa de borboleta desferindo socos titânicos."
+      "techniqueOrSceneName": "Modo Borboleta de Chakra (Chōdan Bakugeki)",
+      "description": "Chouji Akimichi manifestando asas celestes de puro chakra condensado esmagando seu oponente."
     },
     {
       "id": "scene-naruto-ino-yamanaka",
@@ -1234,8 +1234,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "asuma-sarutobi",
       "characterName": "Asuma Sarutobi",
       "videoUrl": "/scenes/naruto/asuma-sarutobi.webp",
-      "techniqueOrSceneName": "Lâminas de Chakra de Vento & Hien",
-      "description": "Canalização de chakra elemental afiado de vento nas soqueiras cortando rochas como papel."
+      "techniqueOrSceneName": "Lâminas de Trincheira com Chakra de Vento",
+      "description": "Asuma Sarutobi canalizando chakra de vento azul incisivo em suas facas de soco para cortar rocha."
     },
     {
       "id": "scene-naruto-yamato",
@@ -1306,8 +1306,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kushina-uzumaki",
       "characterName": "Kushina Uzumaki",
       "videoUrl": "/scenes/naruto/kushina-uzumaki.webp",
-      "techniqueOrSceneName": "Correntes de Selamento Adamantino (Kongō Fūsa)",
-      "description": "Correntes douradas indestrutíveis erguendo-se das costas restringindo a Raposa de Nove Caudas."
+      "techniqueOrSceneName": "Correntes Seladoras de Chakra (Kongō Fūsa)",
+      "description": "Kushina Uzumaki projetando correntes sagradas e douradas de chakra divino para aprisionar qualquer ameaça."
     },
     {
       "id": "scene-naruto-yahiko",
@@ -1324,8 +1324,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "konohamaru-sarutobi",
       "characterName": "Konohamaru Sarutobi",
       "videoUrl": "/scenes/naruto/konohamaru-sarutobi.webp",
-      "techniqueOrSceneName": "Rasengan da Coragem contra Pain",
-      "description": "Esfera espiral de chakra colidindo e pulverizando o Caminho Naraka no meio da vila."
+      "techniqueOrSceneName": "Herdeiro da Vontade do Fogo",
+      "description": "Konohamaru Sarutobi cruzando os braços com determinação heróica e o grande pergaminho nas costas."
     },
     {
       "id": "scene-naruto-kabuto-yakushi",
@@ -1371,8 +1371,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "brook",
       "characterName": "Brook",
       "videoUrl": "/scenes/one-piece/brook.webp",
-      "techniqueOrSceneName": "Yahazu Giri: Three-Pace Hum",
-      "description": "Corte relâmpago que congela o oponente três passos após embainhar a espada."
+      "techniqueOrSceneName": "Corte Congelante da Alma (Soul Solid)",
+      "description": "Brook desembainhando sua espada oculta de bengala imbuída no gelo do submundo das almas."
     },
     {
       "id": "scene-one-piece-buggy",
@@ -1524,8 +1524,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "sanji",
       "characterName": "Sanji",
       "videoUrl": "/scenes/one-piece/sanji.webp",
-      "techniqueOrSceneName": "Diable Jambe: Ifrit Flambage",
-      "description": "Chute de chamas azul-celeste incandescentes esmagando a defesa do oponente."
+      "techniqueOrSceneName": "Ifrit Jambe (Chamas de Plasma Azul)",
+      "description": "Sanji combinando exoesqueleto, armamento e paixão em chutes ardentes de fogo azul."
     },
     {
       "id": "scene-one-piece-shanks",
@@ -1551,8 +1551,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "usopp",
       "characterName": "Usopp",
       "videoUrl": "/scenes/one-piece/usopp.webp",
-      "techniqueOrSceneName": "Hissatsu: Firebird Star",
-      "description": "Projétil em formato de pássaro flamejante disparado pelo estilingue Kabuto."
+      "techniqueOrSceneName": "Estrela do Pássaro de Fogo (Firebird Star)",
+      "description": "Sogeking / Usopp disparando a ave flamejante destruidora com o estilingue gigante Kabuto."
     },
     {
       "id": "scene-one-piece-kuzan",
@@ -1623,8 +1623,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "rob-lucci",
       "characterName": "Rob Lucci",
       "videoUrl": "/scenes/one-piece/rob-lucci.webp",
-      "techniqueOrSceneName": "Rokushiki Seigi: Rokuōgan (Arma dos Seis Reis)",
-      "description": "Impacto corporal direto emitindo onda de choque destrutiva que quebra órgãos internos."
+      "techniqueOrSceneName": "Forma Leopardo Desperta em Egghead",
+      "description": "Rob Lucci em sua zoan mística desperta envolto em nuvens negras de chamas com agilidade letal."
     },
     {
       "id": "scene-one-piece-arlong",
@@ -1695,8 +1695,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "marshall-d-teach",
       "characterName": "Marshall D. Teach (Barba Negra)",
       "videoUrl": "/scenes/one-piece/marshall-d-teach.webp",
-      "techniqueOrSceneName": "Yami Yami & Gura Gura no Mi",
-      "description": "Vórtice de escuridão gravitacional combinada com impacto sísmico nas duas mãos."
+      "techniqueOrSceneName": "Sorriso Diabólico da Escuridão (Yami Yami no Mi)",
+      "description": "Barba Negra rindo com suas sombras se espalhando e preparando o vórtice de atração gravitacional."
     },
     {
       "id": "scene-one-piece-kaidou",
@@ -1722,8 +1722,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "silvers-rayleigh",
       "characterName": "Silvers Rayleigh",
       "videoUrl": "/scenes/one-piece/silvers-rayleigh.webp",
-      "techniqueOrSceneName": "Saque da Espada & Haki Avançado",
-      "description": "Desembainhar cirúrgico de espada interceptando almirantes com Haki do Armamento avançado."
+      "techniqueOrSceneName": "Haki do Conquistador Supremo do Rei das Trevas",
+      "description": "Silvers Rayleigh liberando uma violenta emanação vermelha de Haki Real através de seu olhar."
     },
     {
       "id": "scene-one-piece-sabo",
@@ -1749,8 +1749,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "issho-fujitora",
       "characterName": "Issho (Fujitora)",
       "videoUrl": "/scenes/one-piece/issho-fujitora.webp",
-      "techniqueOrSceneName": "Zushi Zushi no Mi: Queda Gravitacional de Meteoros",
-      "description": "Saque reverso da espada Shikomizue atraindo meteoros em chamas da estratosfera."
+      "techniqueOrSceneName": "Fúria Gravitacional de Dressrosa",
+      "description": "Almirante Fujitora empunhando sua lâmina para erguer toneladas de pedras e escombros aos céus."
     },
     {
       "id": "scene-one-piece-capone-bege",
@@ -1776,8 +1776,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kinemon",
       "characterName": "Kin'emon",
       "videoUrl": "/scenes/one-piece/kinemon.webp",
-      "techniqueOrSceneName": "Kitsunebi-ryu (Estilo Fogo da Raposa)",
-      "description": "Corte de espada que queima o oponente e parte explosões e chamas ao meio."
+      "techniqueOrSceneName": "Espírito Samuraico de Wano (Fogo de Raposa)",
+      "description": "Kin'emon sorrindo com espírito jovial e lealdade samurai pronto para cortar chamas."
     },
     {
       "id": "scene-one-piece-shiryu",
@@ -1803,8 +1803,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "tashigi",
       "characterName": "Tashigi",
       "videoUrl": "/scenes/one-piece/tashigi.webp",
-      "techniqueOrSceneName": "Kiri Shigure (Dança da Espada Meito)",
-      "description": "Avanço reto de katana com velocidade espadachim e espírito de justiça da Marinha."
+      "techniqueOrSceneName": "Capitã da Marinha com Óculos (Punk Hazard)",
+      "description": "Tashigi ajustando os óculos e sorrindo com gentileza nos alojamentos da base da Marinha."
     },
     {
       "id": "scene-one-piece-bartholomew-kuma",
