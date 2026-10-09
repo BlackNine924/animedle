@@ -495,7 +495,7 @@ export const App: React.FC<{
     return getVoiceChallengesForAnime(currentAnimeSlug);
   }, [currentAnimeSlug]);
 
-  // Desafios de Cena & Jutsu do anime atual
+  // Desafios do Modo Cena do anime atual
   const sceneChallenges = React.useMemo(() => {
     return getSceneChallengesForAnime(currentAnimeSlug);
   }, [currentAnimeSlug]);
@@ -1099,7 +1099,7 @@ export const App: React.FC<{
 
         {currentMode === 'scene' && (
           <ModeHeaderCard
-            title="Modo Cena & Jutsu"
+            title="Modo Cena"
             description="Quem é o personagem executando esta técnica? A cena desfoque a cada tentativa errada!"
             icon={<Film size={20} />}
             themeColor={animeConfig.themeColor}

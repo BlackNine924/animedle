@@ -7215,16 +7215,16 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
     ],
     "clues": [
       {
-        "label": "Uso Único e Fatal",
-        "value": "Técnica de disparo único que vaporiza a carne do usuário após o encerramento do combate"
+        "label": "Estilo & Poder",
+        "value": "Técnica inata de ativação irreversível que sobrecarrega e desgasta a estrutura física do usuário após o confronto"
       },
       {
-        "label": "Fenômenos Eletromagnéticos",
-        "value": "Converte o corpo em eletricidade disparando raios-X e ondas sonoras supersônicas"
+        "label": "Peculiaridade",
+        "value": "Manifesta propriedades de condução energética avançada com ondas de choque sonoras e rajadas concentradas"
       },
       {
-        "label": "Deus do Trovão de 400 Anos Atrás",
-        "value": "Guerreiro mais forte de sua era ressuscitado no Jogo do Abate para lutar contra Sukuna"
+        "label": "Contexto Histórico",
+        "value": "Figura formidável de eras passadas que aceitou o pacto de reencarnação em busca de adversários no ápice de poder"
       }
     ]
   },

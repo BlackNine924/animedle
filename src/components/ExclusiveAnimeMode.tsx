@@ -474,6 +474,8 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
             {currentChallenge.clues.map((clue, idx) => {
               const isRevealed = revealedClues[idx] || roundCompleted;
+              const broadCategories = ['Estilo & Poder', 'Peculiaridade', 'Contexto Histórico'];
+              const hintCategory = broadCategories[idx] || `Detalhe ${idx + 1}`;
               return (
                 <div
                   key={idx}
@@ -485,7 +487,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
                 >
                   <div className="flex items-center justify-between mb-1.5">
                     <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">
-                      Dica {idx + 1} — {clue.label}
+                      Dica {idx + 1} — {hintCategory}
                     </span>
                     {!isRevealed && !roundCompleted && (
                       <button

@@ -69,7 +69,7 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
             <Film size={18} />
           </div>
           <span className="text-sm uppercase font-black tracking-wider text-white">
-            Modo Cena & Jutsu
+            Modo Cena
           </span>
         </div>
         <p className="text-xs text-slate-400 font-medium max-w-md mx-auto">

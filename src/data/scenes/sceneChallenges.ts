@@ -465,8 +465,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "maki-zenin",
       "characterName": "Maki Zenin",
       "videoUrl": "/scenes/jujutsu-kaisen/maki-zenin.webp",
-      "techniqueOrSceneName": "Força Física da Restrição Celestial",
-      "description": "Poder físico descomunal sobrepujando maldições em combate mano a mano."
+      "techniqueOrSceneName": "Armas Amaldiçoadas & Maestria Marcial",
+      "description": "Maki Zenin empunhando e girando sua lança amaldiçoada em postura de combate solo."
     },
     {
       "id": "scene-jujutsu-kaisen-megumi-fushiguro",
@@ -844,8 +844,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kurourushi",
       "characterName": "Kurourushi",
       "videoUrl": "/scenes/jujutsu-kaisen/kurourushi.webp",
-      "techniqueOrSceneName": "Lâmina da Vida Partenogenética & Enxame de Baratas",
-      "description": "Kurourushi empunhando sua espada fétida expelindo nuvens vorazes de insetos amaldiçoados devoradores."
+      "techniqueOrSceneName": "Espírito Amaldiçoado Barata & Festering Life",
+      "description": "Kurourushi emergindo solo com seus olhos compostos rubros em brado aterrorizante no Jogo do Abate."
     },
     {
       "id": "scene-jujutsu-kaisen-ryu-ishigori",
@@ -1001,8 +1001,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "might-guy",
       "characterName": "Might Guy",
       "videoUrl": "/scenes/naruto/might-guy.webp",
-      "techniqueOrSceneName": "Tigre Diurno (Hirudora)",
-      "description": "Might Guy comprimindo ar puro com as mãos para disparar a explosão de choque em forma de tigre."
+      "techniqueOrSceneName": "Sétimo Portão da Maravilha & Tigre Diurno",
+      "description": "Might Guy liberando o vapor azul do Sétimo Portão e cruzando os punhos no disparo do Hirudora."
     },
     {
       "id": "scene-naruto-minato-namikaze",
@@ -1796,8 +1796,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "galdino",
       "characterName": "Mr. 3 (Galdino)",
       "videoUrl": "/scenes/one-piece/galdino.webp",
-      "techniqueOrSceneName": "Doru Doru Arts: Candle Champion & Armadura de Cera",
-      "description": "Geração instantânea de cera sólida moldando armaduras de combate impenetráveis."
+      "techniqueOrSceneName": "Doru Doru no Mi: Cera Moldável",
+      "description": "Mr. 3 expressando seus trejeitos extravagantes e poder da fruta de cera em Marineford."
     },
     {
       "id": "scene-one-piece-marshall-d-teach",
@@ -1895,8 +1895,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "shiryu",
       "characterName": "Shiryu",
       "videoUrl": "/scenes/one-piece/shiryu.webp",
-      "techniqueOrSceneName": "Nodachi Raiu & Invisibilidade Suke Suke",
-      "description": "Golpe de espada brutal e sanguinário executado a partir do manto de invisibilidade."
+      "techniqueOrSceneName": "Nodachi Raiu & Lâmina Escarlate",
+      "description": "Shiryu da Chuva desembainhando sua espada demoníaca Raiu com corte escarlate intimidador."
     },
     {
       "id": "scene-one-piece-nefertari-vivi",
