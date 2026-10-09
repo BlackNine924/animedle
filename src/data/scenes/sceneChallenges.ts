@@ -95,8 +95,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "renji-abarai",
       "characterName": "Renji Abarai",
       "videoUrl": "/scenes/bleach/renji-abarai.webp",
-      "techniqueOrSceneName": "Hihiō Zabimaru",
-      "description": "Liberação de lâmina articulada como vértebras de serpente com presas esmagadoras."
+      "techniqueOrSceneName": "Bankai: Soo Zabimaru (Zaga Teppo)",
+      "description": "Renji abaixado no solo empunhando a versão aperfeiçoada de sua Zanpakutou com a garra óssea de babuíno e serpente."
     },
     {
       "id": "scene-bleach-rukia-kuchiki",
@@ -465,8 +465,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "maki-zenin",
       "characterName": "Maki Zenin",
       "videoUrl": "/scenes/jujutsu-kaisen/maki-zenin.webp",
-      "techniqueOrSceneName": "Armas Amaldiçoadas & Maestria Marcial",
-      "description": "Maki Zenin empunhando e girando sua lança amaldiçoada em postura de combate solo."
+      "techniqueOrSceneName": "Maestria em Armas: Naginata Amaldiçoada",
+      "description": "Maki Zen'in empunhando sua lança de lâmina carmesim e encarando o campo de combate da Jujutsu High."
     },
     {
       "id": "scene-jujutsu-kaisen-megumi-fushiguro",
@@ -609,8 +609,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "mai-zenin",
       "characterName": "Mai Zenin",
       "videoUrl": "/scenes/jujutsu-kaisen/mai-zenin.webp",
-      "techniqueOrSceneName": "Técnica de Construção (Disparo de Revólver)",
-      "description": "Mai Zen'in sorrindo e apontando seu revólver clássico carregado com balas imbricadas de energia amaldiçoada."
+      "techniqueOrSceneName": "Técnica de Construção & Tiroteio com Revólver",
+      "description": "Mai Zen'in com seu revólver clássico em punho disparando projéteis infundidos de energia amaldiçoada."
     },
     {
       "id": "scene-jujutsu-kaisen-kasumi-miwa",
@@ -1289,8 +1289,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "yamato",
       "characterName": "Yamato",
       "videoUrl": "/scenes/naruto/yamato.webp",
-      "techniqueOrSceneName": "Mokuton: Prisão de Quatro Pilares de Madeira",
-      "description": "Combinação de água e terra brotando troncos robustos do solo para contenção imediata."
+      "techniqueOrSceneName": "Raimei Hakke com Kanabo",
+      "description": "Yamato empunhando sua clava metálica e liberando uma torrente de Haki do Conquistador reluzente."
     },
     {
       "id": "scene-naruto-sai",
@@ -1325,8 +1325,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "danzo-shimura",
       "characterName": "Danzo Shimura",
       "videoUrl": "/scenes/naruto/danzo-shimura.webp",
-      "techniqueOrSceneName": "Fūton: Shinkūha (Onda de Vácuo) & Braço de Sharingans",
-      "description": "Exalação de lâminas cortantes de ar comprimido da boca combinada com ativação do Izanagi."
+      "techniqueOrSceneName": "Liberação dos Selos do Braço de Sharingan",
+      "description": "Danzo desparafusando os gonzos dourados de contenção e liberando os múltiplos olhos Sharingan de seu braço direito."
     },
     {
       "id": "scene-naruto-hiruzen-sarutobi",
@@ -1343,8 +1343,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "shisui-uchiha",
       "characterName": "Shisui Uchiha",
       "videoUrl": "/scenes/naruto/shisui-uchiha.webp",
-      "techniqueOrSceneName": "Shunshin no Jutsu & Kotoamatsukami",
-      "description": "Passo instantâneo com miragens corporais múltiplas e ativação do Mangekyou Sharingan definitivo."
+      "techniqueOrSceneName": "Shunshin no Shisui (Técnica da Cintilação Corporal)",
+      "description": "Shisui Uchiha com a espada curta nas costas e bandana de Konoha encarando seu destino no clã Uchiha."
     },
     {
       "id": "scene-naruto-kushina-uzumaki",
@@ -1580,8 +1580,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "monkey-d-luffy",
       "characterName": "Monkey D. Luffy",
       "videoUrl": "/scenes/one-piece/monkey-d-luffy.webp",
-      "techniqueOrSceneName": "Gomu Gomu no Red Hawk",
-      "description": "Golpe flamejante com Haki do Armamento gerando fricção e explosão de fogo sob a água."
+      "techniqueOrSceneName": "Gear Second (Ativação e Vapor)",
+      "description": "Luffy flexionando as pernas e bombeando sangue em aceleração máxima soltando vapor cor-de-rosa pelo corpo."
     },
     {
       "id": "scene-one-piece-nami",
@@ -1589,8 +1589,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "nami",
       "characterName": "Nami",
       "videoUrl": "/scenes/one-piece/nami.webp",
-      "techniqueOrSceneName": "Thunderbolt Tempo",
-      "description": "Descarga elétrica colossal gerada através das esferas climáticas do Clima-Tact."
+      "techniqueOrSceneName": "Clima-Tact: Thunderbolt Tempo",
+      "description": "Nami girando seu bastão climático e disparando uma descarga fulminante de relâmpago contra as forças inimigas."
     },
     {
       "id": "scene-one-piece-nico-robin",
@@ -1841,8 +1841,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "sabo",
       "characterName": "Sabo",
       "videoUrl": "/scenes/one-piece/sabo.webp",
-      "techniqueOrSceneName": "Ryusoken: Garra do Dragão Flamejante",
-      "description": "Punhos de ferro em garras do dragão banhados nas chamas da Mera Mera no Mi."
+      "techniqueOrSceneName": "Mera Mera no Mi: Chamas da Revolução",
+      "description": "Sabo avançando solo em meio a nuvens de fumaça com chamas incandescentes envolvendo sua cartola e casaco."
     },
     {
       "id": "scene-one-piece-perona",

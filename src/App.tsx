@@ -25,6 +25,7 @@ import { ANIMES_CONFIG } from './data/animes/config';
 import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
 import { Character, GameMode, GuessResult, GameStats, VoiceChallenge, SceneChallenge } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
+import { getOrAdvanceEndlessIndex } from './utils/endlessDeck';
 import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen } from 'lucide-react';
 
 
@@ -513,6 +514,14 @@ export const App: React.FC<{
   // Calcula o índice do alvo diário aplicando a variação dev
   const baseDailyIndex = getDailyCharacterIndex(currentAnimeSlug, currentMode, targetPoolSize);
   const dailyIndex = (baseDailyIndex + (devOffsets[currentMode] || 0)) % targetPoolSize;
+
+  // Sincroniza o índice do Modo Infinito via baralho persistente sem repetição
+  React.useEffect(() => {
+    if (targetPoolSize > 0) {
+      const currentIdx = getOrAdvanceEndlessIndex(currentAnimeSlug, currentMode, targetPoolSize, false);
+      setEndlessTargetIndex(currentIdx);
+    }
+  }, [currentAnimeSlug, currentMode, targetPoolSize]);
   
   // Habilidade/Domínio ativa do modo habilidade
   const currentAbilityItem = currentMode === 'ability' && abilityPool.length > 0
@@ -878,10 +887,7 @@ export const App: React.FC<{
     setShowVictoryModal(true);
   };
 
-  // Fila histórica para evitar repetição em sequência no Modo Treino / Infinito
-  const endlessHistoryRef = useRef<number[]>([]);
-
-  // Próximo desafio no Modo Treino/Infinito sem repetição do elenco recente
+  // Próximo desafio no Modo Treino/Infinito consumindo baralho persistente sem repetição
   const handleNextEndlessChallenge = () => {
     const poolSize = currentMode === 'ability'
       ? abilityPool.length
@@ -901,24 +907,7 @@ export const App: React.FC<{
       return;
     }
 
-    // Fila cíclica que só permite repetição após esgotar TODOS os itens disponíveis do pool (poolSize - 1)
-    const maxMemory = Math.max(1, poolSize - 1);
-    const recent = endlessHistoryRef.current.slice(-maxMemory);
-
-    // Seleciona apenas entre os itens que ainda não foram jogados neste ciclo
-    const remaining = Array.from({ length: poolSize }, (_, i) => i).filter(
-      (idx) => !recent.includes(idx) && idx !== endlessTargetIndex
-    );
-
-    let nextIdx: number;
-    if (remaining.length > 0) {
-      nextIdx = remaining[Math.floor(Math.random() * remaining.length)];
-    } else {
-      // Quando todos foram jogados, reinicia o ciclo
-      nextIdx = Math.floor(Math.random() * poolSize);
-    }
-
-    endlessHistoryRef.current = [...recent, nextIdx];
+    const nextIdx = getOrAdvanceEndlessIndex(currentAnimeSlug, currentMode, poolSize, true);
     setEndlessTargetIndex(nextIdx);
     setModeStates((prev) => ({
       ...prev,

@@ -28,8 +28,6 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
       const next = !prev;
       if (next) {
         sessionStorage.setItem(`animedle_scene_color_used_${challenge.id}`, 'true');
-      } else {
-        sessionStorage.removeItem(`animedle_scene_color_used_${challenge.id}`);
       }
       return next;
     });
