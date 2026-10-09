@@ -828,6 +828,52 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "techniqueOrSceneName": "Espírito Radiante do Segundo Ano",
       "description": "Yu Haibara sorrindo com genuíno otimismo e lealdade nos corredores da Escola Jujutsu em cena oficial do anime."
     }
+,
+    {
+      "id": "scene-jujutsu-kaisen-takako-uro",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "takako-uro",
+      "characterName": "Takako Uro",
+      "videoUrl": "/scenes/jujutsu-kaisen/takako-uro.webp",
+      "techniqueOrSceneName": "Manipulação Espacial Celestial (Thin Ice Breaker)",
+      "description": "Takako Uro agarrando a superfície do céu como um véu dobrável para desferir o impacto Thin Ice Breaker."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-kurourushi",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "kurourushi",
+      "characterName": "Kurourushi",
+      "videoUrl": "/scenes/jujutsu-kaisen/kurourushi.webp",
+      "techniqueOrSceneName": "Lâmina da Vida Partenogenética & Enxame de Baratas",
+      "description": "Kurourushi empunhando sua espada fétida expelindo nuvens vorazes de insetos amaldiçoados devoradores."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-ryu-ishigori",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "ryu-ishigori",
+      "characterName": "Ryu Ishigori",
+      "videoUrl": "/scenes/jujutsu-kaisen/ryu-ishigori.webp",
+      "techniqueOrSceneName": "Canhão de Energia Concentrada (Granite Blast)",
+      "description": "Ryu Ishigori disparando uma torrente devastadora de energia através de seu pompadour metálico."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-hajime-kashimo",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "hajime-kashimo",
+      "characterName": "Hajime Kashimo",
+      "videoUrl": "/scenes/jujutsu-kaisen/hajime-kashimo.webp",
+      "techniqueOrSceneName": "Descarga Elétrica do Deus do Relâmpago",
+      "description": "Hajime Kashimo transferindo cargas elétricas e liberando um raio fulminante indefensável."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-kinji-hakari",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "kinji-hakari",
+      "characterName": "Kinji Hakari",
+      "videoUrl": "/scenes/jujutsu-kaisen/kinji-hakari.webp",
+      "techniqueOrSceneName": "Expansão de Domínio: Aposta da Morte Ociosa (Idle Death Gamble)",
+      "description": "Kinji Hakari abrindo seu domínio de cassino na expectativa de girar o jackpot da imortalidade total."
+    }
   ],
   "my-hero-academia": [
     {
@@ -1345,6 +1391,70 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "techniqueOrSceneName": "Shikotsumyaku: Dança das Clematis & Floresta de Ossos",
       "description": "Extração da coluna vertebral como chicote e erupção de milhares de lanças de ossos do solo."
     }
+,
+    {
+      "id": "scene-naruto-asura-otsutsuki",
+      "animeSlug": "naruto",
+      "characterId": "asura-otsutsuki",
+      "characterName": "Asura Otsutsuki",
+      "videoUrl": "/scenes/naruto/asura-otsutsuki.webp",
+      "techniqueOrSceneName": "Amenomihashira & Rasengan Ancestral",
+      "description": "Asura Otsutsuki condensando múltiplas esferas de chakra espirais no modo dos Seis Caminhos."
+    },
+    {
+      "id": "scene-naruto-indra-otsutsuki",
+      "animeSlug": "naruto",
+      "characterId": "indra-otsutsuki",
+      "characterName": "Indra Otsutsuki",
+      "videoUrl": "/scenes/naruto/indra-otsutsuki.webp",
+      "techniqueOrSceneName": "Espada de Relâmpago do Susanoo Primordial",
+      "description": "Indra Otsutsuki ativando o Mangekyo Sharingan e golpeando com a lâmina púrpura de seu Susanoo."
+    },
+    {
+      "id": "scene-naruto-hagoromo-otsutsuki",
+      "animeSlug": "naruto",
+      "characterId": "hagoromo-otsutsuki",
+      "characterName": "Hagoromo Otsutsuki",
+      "videoUrl": "/scenes/naruto/hagoromo-otsutsuki.webp",
+      "techniqueOrSceneName": "Sábio dos Seis Caminhos (Rinnegan Divino)",
+      "description": "Hagoromo Otsutsuki levitando com seu cajado dos Seis Caminhos e Rinnegan ancestral."
+    },
+    {
+      "id": "scene-naruto-hamura-otsutsuki",
+      "animeSlug": "naruto",
+      "characterId": "hamura-otsutsuki",
+      "characterName": "Hamura Otsutsuki",
+      "videoUrl": "/scenes/naruto/hamura-otsutsuki.webp",
+      "techniqueOrSceneName": "Poder Divino do Tenseigan Lunar",
+      "description": "Hamura Otsutsuki manifestando suas orbes celestiais de chakra divino ao lado da lua."
+    },
+    {
+      "id": "scene-naruto-kaguya-otsutsuki",
+      "animeSlug": "naruto",
+      "characterId": "kaguya-otsutsuki",
+      "characterName": "Kaguya Otsutsuki",
+      "videoUrl": "/scenes/naruto/kaguya-otsutsuki.webp",
+      "techniqueOrSceneName": "Amenominaka & Rinne Sharingan",
+      "description": "Kaguya Otsutsuki abrindo o terceiro olho do Rinne Sharingan no centro de sua dimensão cósmica."
+    },
+    {
+      "id": "scene-naruto-toneri-otsutsuki",
+      "animeSlug": "naruto",
+      "characterId": "toneri-otsutsuki",
+      "characterName": "Toneri Otsutsuki",
+      "videoUrl": "/scenes/naruto/toneri-otsutsuki.webp",
+      "techniqueOrSceneName": "Modo de Chakra do Tenseigan (Divisão da Lua)",
+      "description": "Toneri Otsutsuki envolto em chamas de chakra ciano pronto para desferir a Lâmina da Reencarnação Dourada."
+    },
+    {
+      "id": "scene-naruto-tenten",
+      "animeSlug": "naruto",
+      "characterId": "tenten",
+      "characterName": "Tenten",
+      "videoUrl": "/scenes/naruto/tenten.webp",
+      "techniqueOrSceneName": "Dragões Gêmeos Ascendentes (Sōryū Tenshō)",
+      "description": "Tenten desenrolando seus grandes pergaminhos para disparar uma tempestade de armas ninjas de ferro no ar."
+    }
   ],
   "one-piece": [
     {
@@ -1814,6 +1924,70 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/bartholomew-kuma.webp",
       "techniqueOrSceneName": "Nikyu Nikyu no Mi: Pad Cannon & Ursus Shock",
       "description": "Compressão de atmosfera em bolha de pata disparando bombas de choque ultrassônico."
+    }
+,
+    {
+      "id": "scene-one-piece-loki",
+      "animeSlug": "one-piece",
+      "characterId": "loki",
+      "characterName": "Loki",
+      "videoUrl": "/scenes/one-piece/loki.webp",
+      "techniqueOrSceneName": "Príncipe Amaldiçoado de Elbaf",
+      "description": "Príncipe Loki preso em correntes na imensa árvore sagrada Yggdrasil exibindo seu sorriso assombroso."
+    },
+    {
+      "id": "scene-one-piece-shamrock",
+      "animeSlug": "one-piece",
+      "characterId": "shamrock",
+      "characterName": "Shamrock",
+      "videoUrl": "/scenes/one-piece/shamrock.webp",
+      "techniqueOrSceneName": "Cavaleiro Sagrado de Figarland",
+      "description": "Saint Shamrock com sua espada santa impondo o poder absoluto dos Cavaleiros Sagrados de Mariejois."
+    },
+    {
+      "id": "scene-one-piece-sommers",
+      "animeSlug": "one-piece",
+      "characterId": "sommers",
+      "characterName": "Sommers",
+      "videoUrl": "/scenes/one-piece/sommers.webp",
+      "techniqueOrSceneName": "Guerreiro Gigante de Elbaf",
+      "description": "Sommers impondo sua estatura e presença titânica no reino dos guerreiros gigantes."
+    },
+    {
+      "id": "scene-one-piece-figarland-garling",
+      "animeSlug": "one-piece",
+      "characterId": "figarland-garling",
+      "characterName": "St. Figarland Garling",
+      "videoUrl": "/scenes/one-piece/figarland-garling.webp",
+      "techniqueOrSceneName": "Comandante Supremo dos Cavaleiros Sagrados",
+      "description": "St. Figarland Garling em Mariejois com sua lâmina cerimonial e o cabelo em forma de lua crescente."
+    },
+    {
+      "id": "scene-one-piece-jaygarcia-saturn",
+      "animeSlug": "one-piece",
+      "characterId": "jaygarcia-saturn",
+      "characterName": "St. Jaygarcia Saturn",
+      "videoUrl": "/scenes/one-piece/jaygarcia-saturn.webp",
+      "techniqueOrSceneName": "Forma Bestial Yokai Ushi-Oni em Egghead",
+      "description": "St. Jaygarcia Saturn manifestando patas gigantes de aranha pontiagudas e olhos incandescentes de escuridão."
+    },
+    {
+      "id": "scene-one-piece-jewelry-bonney",
+      "animeSlug": "one-piece",
+      "characterId": "jewelry-bonney",
+      "characterName": "Jewelry Bonney",
+      "videoUrl": "/scenes/one-piece/jewelry-bonney.webp",
+      "techniqueOrSceneName": "Futuro Distorcido: Forma Livre de Nika",
+      "description": "Jewelry Bonney atingindo a forma branca do Deus do Sol Nika desferindo um soco colossal de borracha em Egghead."
+    },
+    {
+      "id": "scene-one-piece-koby",
+      "animeSlug": "one-piece",
+      "characterId": "koby",
+      "characterName": "Koby",
+      "videoUrl": "/scenes/one-piece/koby.webp",
+      "techniqueOrSceneName": "Impacto da Honestidade (Honesty Impact)",
+      "description": "Capitão Koby canalizando todo o seu poder de Armamento e espírito no punho para esmagar a ilha de Hachinosu."
     }
   ],
   "tokyo-ghoul": [
