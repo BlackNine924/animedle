@@ -744,7 +744,7 @@
       "Akatsuki"
     ],
     "debutArc": "Missão de Supressão da Akatsuki",
-    "status": "Incapacitado",
+    "status": "Morto",
     "id": "hidan",
     "avatar": "/avatars/naruto/hidan.png",
     "styleOrPower": "Maldição de Jashin",
@@ -2392,7 +2392,7 @@
       "Jinchuuriki"
     ],
     "debutArc": "Ataque de Kaguya Otsutsuki",
-    "status": "Incapacitada",
+    "status": "Morta",
     "id": "kaguya-otsutsuki",
     "avatar": "/avatars/naruto/kaguya-otsutsuki.png",
     "quote": "Tudo isso é meu.",
@@ -4992,7 +4992,7 @@
       "Nenhum"
     ],
     "debutArc": "The Last",
-    "status": "Incapacitado",
+    "status": "Vivo",
     "id": "toneri-otsutsuki",
     "avatar": "/avatars/naruto/toneri-otsutsuki.png",
     "village": "Nenhuma",
@@ -5791,7 +5791,7 @@
       "Invocação"
     ],
     "debutArc": "Quarta Guerra Mundial Shinobi",
-    "status": "Selado",
+    "status": "Morto",
     "avatar": "/avatars/naruto/juubi.png",
     "quote": "",
     "styleOrPower": "Bijuudama Planetária, Cataclismo Tenpenchii & Liberação de Madeira",

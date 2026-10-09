@@ -111,7 +111,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Nenhuma",
     "debutArc": "Parte 1: Phantom Blood",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Eu sempre acreditei e amei o homem nobre que você foi, Jonathan.",
     "techniques": [
       "Cuidado Médico Tradicional"
@@ -256,7 +256,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Hamon com Cachecol Condutor",
     "debutArc": "Parte 2: Battle Tendency",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Não se atreva a chorar diante de um guerreiro caído enquanto a batalha não terminar.",
     "techniques": [
       "Snake Muffler",
@@ -305,7 +305,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Modo de Luz (Lâminas de Osso Brilhante)",
     "debutArc": "Parte 2: Battle Tendency",
-    "status": "Aposentado",
+    "status": "Morto",
     "quote": "Eu conquistei o próprio Sol! Eu sou a forma suprema de toda a vida orgânica!",
     "techniques": [
       "Lâminas de Luz Resplandecentes",
@@ -375,7 +375,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Maleabilidade Esquelética e Absorção",
     "debutArc": "Parte 2: Battle Tendency",
-    "status": "Aposentado",
+    "status": "Morto",
     "quote": "Ele se infiltrou pelas frestas de ventilação deslocando todas as articulações corporais!",
     "techniques": [
       "Invasão Corpórea",
@@ -420,7 +420,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Nenhuma",
     "debutArc": "Parte 2: Battle Tendency",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Joseph! Você esqueceu de me enviar um telegrama dizendo que sobreviveu à erupção vulcânica?!",
     "techniques": [
       "Assistência Doméstica"
@@ -639,7 +639,7 @@
     "stand": "Justice",
     "styleOrPower": "Justice",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Com o poder de Justice, transformarei cada cadáver desta cidade na minha marionete!",
     "techniques": [
       "Névoa de Controle de Cadáveres",
@@ -685,7 +685,7 @@
     "stand": "Osiris",
     "styleOrPower": "Osiris",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Aposentado",
+    "status": "Vivo",
     "quote": "GOOD! Quando você admite a derrota em seu coração, sua alma se torna minha ficha de pôquer!",
     "techniques": [
       "Roubo de Alma por Apostas",
@@ -709,7 +709,7 @@
     "stand": "Atum",
     "styleOrPower": "Atum",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Aposentado",
+    "status": "Vivo",
     "quote": "Atum me responde com SIM ou NÃO diretamente pela vibração da sua alma!",
     "techniques": [
       "Leitura de Almas (Sim ou Não)",
@@ -757,7 +757,7 @@
     "stand": "Bastet",
     "styleOrPower": "Bastet",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Aposentado",
+    "status": "Viva",
     "quote": "Basta tocar na minha tomada para que seu corpo se torne o ímã mais destrutivo do mundo!",
     "techniques": [
       "Magnetização Corporal Exponencial"
@@ -780,7 +780,7 @@
     "stand": "Sethan",
     "styleOrPower": "Sethan",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Aposentado",
+    "status": "Vivo",
     "quote": "Sethan faz você regredir à infância em questão de segundos!",
     "techniques": [
       "Regressão de Idade por Sombra",
@@ -804,7 +804,7 @@
     "stand": "Khnum",
     "styleOrPower": "Khnum",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Aposentado",
+    "status": "Vivo",
     "quote": "Khnum me permite alterar meu rosto, altura, cheiro e voz para qualquer pessoa!",
     "techniques": [
       "Metamorfose Facial Perfeita",
@@ -828,7 +828,7 @@
     "stand": "Tohth",
     "styleOrPower": "Tohth",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Aposentado",
+    "status": "Vivo",
     "quote": "As previsões em quadrinhos de Tohth nunca falham! É o destino absoluto!",
     "techniques": [
       "Previsão em Quadrinhos do Futuro Iminente"
@@ -850,7 +850,7 @@
     "stand": "Lovers",
     "styleOrPower": "Lovers",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Aposentado",
+    "status": "Vivo",
     "quote": "Qualquer dano que eu receba é multiplicado e transmitido direto para o cérebro da vítima!",
     "techniques": [
       "Transmissão Microscópica de Dor Cerebral",
@@ -992,7 +992,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Espírito Guardião de Morioh",
     "debutArc": "Parte 4: Diamond is Unbreakable",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Enquanto aquele assassino estiver solto pelas ruas de Morioh, minha alma não poderá descansar.",
     "techniques": [
       "Conexão Espiritual do Beco Sem Saída"
@@ -1037,7 +1037,7 @@
     "stand": "Love Deluxe",
     "styleOrPower": "Love Deluxe",
     "debutArc": "Parte 4: Diamond is Unbreakable",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Meu amor por você é perfeito, Koichi! Meus cabelos farão de você o homem ideal!",
     "techniques": [
       "Manipulação Capilar Destrutiva",
@@ -1174,7 +1174,7 @@
     "stand": "Cinderella",
     "styleOrPower": "Cinderella",
     "debutArc": "Parte 4: Diamond is Unbreakable",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Com o poder de Cinderella, posso remodelar a fisionomia e o destino amoroso de qualquer mulher.",
     "techniques": [
       "Remodelação Estética Facial e Corporal",
@@ -1369,7 +1369,7 @@
     "stand": "Spice Girl",
     "styleOrPower": "Spice Girl",
     "debutArc": "Parte 5: Golden Wind",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "WANNABEEE! Spice Girl torna qualquer objeto inquebrável ao torná-lo macio como borracha!",
     "techniques": [
       "Amaciamento de Matéria tornando-a Elástica e Indestrutível"
@@ -1654,7 +1654,7 @@
     "stand": "Stone Free",
     "styleOrPower": "Stone Free",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Yare yare dawa... Eu vou cortar as amarras desse destino injusto!",
     "techniques": [
       "Decomposição Corporal em Linhas",
@@ -1678,7 +1678,7 @@
     "stand": "Kiss",
     "styleOrPower": "Kiss",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Adesivos de Kiss! Quando retiro o selo, as duas cópias colidem e causam um impacto devastador!",
     "techniques": [
       "Duplicação de Objetos por Adesivos",
@@ -1864,7 +1864,7 @@
     "stand": "Bohemian Rhapsody",
     "styleOrPower": "Bohemian Rhapsody",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Aposentado",
+    "status": "Vivo",
     "quote": "Todos os personagens de histórias de ficção e contos de fadas ganharam vida no mundo real!",
     "techniques": [
       "Materialização Mundial de Personagens Fictícios"
@@ -1931,7 +1931,7 @@
     "stand": "Marilyn Manson",
     "styleOrPower": "Marilyn Manson",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Aposentado",
+    "status": "Viva",
     "quote": "Quando você trapaceia em uma aposta, Marilyn Manson cobra o equivalente em órgãos e ouro!",
     "techniques": [
       "Cobrador de Apostas Inflexível de Órgãos Vitais"
@@ -2052,7 +2052,7 @@
     "stand": "Cream Starter",
     "styleOrPower": "Cream Starter",
     "debutArc": "Parte 7: Steel Ball Run",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Cream Starter manipula carne orgânica em formato de spray para curar feridas ou sufocar oponentes.",
     "techniques": [
       "Spray de Carne Regenerativo e Ofensivo",
@@ -2166,7 +2166,7 @@
     "stand": "Ticket to Ride",
     "styleOrPower": "Ticket to Ride",
     "debutArc": "Parte 7: Steel Ball Run",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Com apenas 14 anos, arrisquei minha vida pelo homem que amo e pelo futuro da nossa nação.",
     "techniques": [
       "Lágrimas de Lâmina de Vidro Divina",
@@ -2235,7 +2235,7 @@
     "stand": "Paisley Park",
     "styleOrPower": "Paisley Park",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Paisley Park nos guia através dos dispositivos eletrônicos pelo caminho mais seguro e correto!",
     "techniques": [
       "Navegação e Hackeamento por Dispositivos Digitais",
@@ -2348,7 +2348,7 @@
     "stand": "California King Bed",
     "styleOrPower": "California King Bed",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Se você se preocupar comigo ou quebrar uma regra, uma lembrança sua vira minha peça de xadrez!",
     "techniques": [
       "Roubo de Memórias em Formato de Peças de Xadrez"
@@ -2370,7 +2370,7 @@
     "stand": "Walking Heart",
     "styleOrPower": "Walking Heart",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Meus calcanhares se estendem como estacas perfurantes gigantes para escalar paredes e espetar inimigos!",
     "techniques": [
       "Extensão e Endurecimento dos Calcanhares como Lanças"
@@ -2572,7 +2572,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Comandante de Operações Clandestinas",
     "debutArc": "Parte 9: The JOJOLands",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Eu sou diretora de escola de dia e a chefe que coordena os seus golpes de noite.",
     "techniques": [
       "Planejamento de Assaltos e Redes Clandestinas"
@@ -3043,7 +3043,7 @@
     "stand": "Yellow Temperance",
     "styleOrPower": "Slime Ácido Copiador de Aparências",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Derrotado",
+    "status": "Vivo",
     "quote": "Do-you-under-stand?! Meu Yellow Temperance não tem fraquezas!",
     "techniques": [
       "Yellow Temperance",
@@ -3068,7 +3068,7 @@
     "stand": "Empress",
     "styleOrPower": "Stand Parasita de Crescimento Cutâneo",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Eu nasci de uma gota do seu sangue e logo devorarei seu corpo, Joseph Joestar!",
     "techniques": [
       "Empress",
@@ -3093,7 +3093,7 @@
     "stand": "Wheel of Fortune",
     "styleOrPower": "Carro Monstro Blindado com Gasolina Pressurizada",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Derrotado",
+    "status": "Vivo",
     "quote": "Parte 3 finalizada! O vencedor é ZZ com o Wheel of Fortune!",
     "techniques": [
       "Wheel of Fortune",
@@ -3118,7 +3118,7 @@
     "stand": "The Sun",
     "styleOrPower": "Sol Artificial Escaldante e Raios Térmicos",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Derrotado",
+    "status": "Vivo",
     "quote": "Morram no calor de 70 graus do meu pequeno sol!",
     "techniques": [
       "The Sun",
@@ -3143,7 +3143,7 @@
     "stand": "Death Thirteen",
     "styleOrPower": "Parque dos Sonhos Macabro e Foice Dimensional",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Derrotado",
+    "status": "Vivo",
     "quote": "Lali-ho! No mundo dos sonhos, você não pode invocar o seu Stand!",
     "techniques": [
       "Death Thirteen",
@@ -3168,7 +3168,7 @@
     "stand": "Judgement",
     "styleOrPower": "Gênio dos Desejos Moldado em Argila",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Derrotado",
+    "status": "Vivo",
     "quote": "HAIL 2 U! Seu desejo é uma ordem... com consequências fúnebres!",
     "techniques": [
       "Judgement",
@@ -3193,7 +3193,7 @@
     "stand": "High Priestess",
     "styleOrPower": "Mimetismo Mineral e Dentes Duros como Diamante",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Derrotado",
+    "status": "Viva",
     "quote": "Toda a costa do Mar Vermelho é o meu rosto de pedra!",
     "techniques": [
       "High Priestess",
@@ -3218,7 +3218,7 @@
     "stand": "Anubis",
     "styleOrPower": "Espada Amaldiçoada com Aprendizado e Corte Dimensional",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Derrotado",
+    "status": "Morto",
     "quote": "Eu sou o Stand Anubis! Quanto mais você luta contra mim, mais rápido eu fico e memorizo seus golpes!",
     "techniques": [
       "Anubis",
@@ -3265,7 +3265,7 @@
     "stand": "Stand Desconhecido (Vinha Espinhosa)",
     "styleOrPower": "Vinhas Espinhosas com Flores",
     "debutArc": "Parte 3: Stardust Crusaders",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Jotaro é um bom menino, ele só é um pouco tímido para demonstrar carinho.",
     "techniques": [
       "Amor Maternal",
@@ -3337,7 +3337,7 @@
     "stand": "Aqua Necklace",
     "styleOrPower": "Líquido Assassino Infiltrador em Vias Aéreas",
     "debutArc": "Parte 4: Diamond is Unbreakable",
-    "status": "Incapacitado",
+    "status": "Morto",
     "quote": "Eu sou o assassino Angelo! Ninguém escapa do meu Aqua Necklace dentro d água!",
     "techniques": [
       "Aqua Necklace",
@@ -3361,7 +3361,7 @@
     "stand": "Achtung Baby",
     "styleOrPower": "Invisibilidade Pessoal e de Objetos ao Redor",
     "debutArc": "Parte 4: Diamond is Unbreakable",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "*Risadinhas e choro de bebê desaparecendo no ar*",
     "techniques": [
       "Achtung Baby",
@@ -3457,7 +3457,7 @@
     "stand": "Enigma",
     "styleOrPower": "Selamento de Alvos e Objetos em Papel através do Medo",
     "debutArc": "Parte 4: Diamond is Unbreakable",
-    "status": "Incapacitado",
+    "status": "Morto",
     "quote": "Quando você demonstra seu tique nervoso de pavor, Enigma dobra você em papel!",
     "techniques": [
       "Enigma",
@@ -3529,7 +3529,7 @@
     "stand": "Soft Machine",
     "styleOrPower": "Esvaziamento e Desinflamento de Matéria com Florete",
     "debutArc": "Parte 5: Golden Wind",
-    "status": "Incapacitado",
+    "status": "Vivo",
     "quote": "Com meu florete, eu furo e desinflo você como uma bexiga de borracha!",
     "techniques": [
       "Soft Machine",
@@ -3553,7 +3553,7 @@
     "stand": "Kraft Work",
     "styleOrPower": "Fixação Absoluta no Espaço e Acúmulo de Energia Cinética",
     "debutArc": "Parte 5: Golden Wind",
-    "status": "Incapacitado",
+    "status": "Vivo",
     "quote": "Kraft Work pode travar qualquer projétil no ar e dispará-lo com força multiplicada!",
     "techniques": [
       "Kraft Work",
@@ -3696,7 +3696,7 @@
     "stand": "Goo Goo Dolls",
     "styleOrPower": "Encolhimento Corporal de Vítimas para Tamanho de Rato",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Você é o meu passarinho agora, Jolyne! Vai obedecer todas as minhas ordens!",
     "techniques": [
       "Goo Goo Dolls",
@@ -3745,7 +3745,7 @@
     "stand": "Planet Waves",
     "styleOrPower": "Atração Gravitacional de Meteoritos Incandescentes",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Incapacitado",
+    "status": "Vivo",
     "quote": "Eu sou o guarda mais casca-grossa daqui! Os próprios meteoros do espaço caem para me ajudar!",
     "techniques": [
       "Planet Waves",
@@ -3769,7 +3769,7 @@
     "stand": "Dragon's Dream",
     "styleOrPower": "Bússola de Feng Shui e Ponto Cego Letal Neutro",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Derrotado",
+    "status": "Morto",
     "quote": "O dragão nunca toma partido! Ele apenas aponta o ponto auspicioso de vitória inexorável!",
     "techniques": [
       "Dragon's Dream",
@@ -3843,7 +3843,7 @@
     "stand": "Jail House Lock",
     "styleOrPower": "Amnésia Retrógrada Bloqueada em 3 Memórias Consecutivas",
     "debutArc": "Parte 6: Stone Ocean",
-    "status": "Incapacitado",
+    "status": "Viva",
     "quote": "Se você tentar memorizar um quarto fato, o primeiro é completamente deletado!",
     "techniques": [
       "Jail House Lock",
@@ -4085,7 +4085,7 @@
     "stand": "20th Century Boy",
     "styleOrPower": "Armadura de Invulnerabilidade Total com Redirecionamento ao Solo",
     "debutArc": "Parte 7: Steel Ball Run",
-    "status": "Incapacitado",
+    "status": "Morto",
     "quote": "Enquanto eu mantiver meus joelhos no chão, nem mesmo uma dinamite arranha meu corpo!",
     "techniques": [
       "20th Century Boy",
@@ -4133,7 +4133,7 @@
     "stand": "Chocolate Disco",
     "styleOrPower": "Grade Cartesiana de Coordenadas de Teletransporte Físico",
     "debutArc": "Parte 7: Steel Ball Run",
-    "status": "Derrotado",
+    "status": "Vivo",
     "quote": "Chocolate Disco... é só isso que você precisa ouvir.",
     "techniques": [
       "Chocolate Disco",
@@ -4157,7 +4157,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Influência da Primeira-Dama",
     "debutArc": "Parte 7: Steel Ball Run",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Eu sou a esposa do Presidente Funny Valentine, meu luxo e segredos não têm limites.",
     "techniques": [
       "Intriga Política",
@@ -4205,7 +4205,7 @@
     "stand": "Born This Way",
     "styleOrPower": "Motoqueiro Congelante Automático Ativado ao Abrir Portas",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Morto",
+    "status": "Morta",
     "quote": "Eu sou a filha de Holy e irmã de Kira. Meu Born This Way persegue quem abre qualquer fechadura!",
     "techniques": [
       "Born This Way",
@@ -4253,7 +4253,7 @@
     "stand": "Awaking III Leaves",
     "styleOrPower": "Vetores de Flechas que Empurram Força e Energia",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "As flechas das minhas folhas empurram toda a gravidade e impacto para onde eu mandar!",
     "techniques": [
       "Awaking III Leaves",
@@ -4278,7 +4278,7 @@
     "stand": "Nenhum",
     "styleOrPower": "Medicina e Oftalmologia",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Josefumi, Kira... protejam o fruto de Locacaca e salvem nossa família...",
     "techniques": [
       "Medicina Avançada",
@@ -4302,7 +4302,7 @@
     "stand": "Soft & Wet",
     "styleOrPower": "Bolhas de Sabão com Propriedade de Plunder (Roubo Físico)",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Fundido",
+    "status": "Morto",
     "quote": "Eu darei minha vida e comerei a fruta para salvar o Kira e retribuir a dona Holy!",
     "techniques": [
       "Soft & Wet Original",
@@ -4327,7 +4327,7 @@
     "stand": "Killer Queen",
     "styleOrPower": "Bombas em Bolhas e Sheer Heart Attack Médico",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Fundido",
+    "status": "Morto",
     "quote": "Eu sou um cirurgião naval. Nós vamos colher o fruto de Locacaca e curar minha mãe!",
     "techniques": [
       "Killer Queen (Parte 8)",
@@ -4351,7 +4351,7 @@
     "stand": "Love Love Deluxe",
     "styleOrPower": "Crescimento Espontâneo e Incendiário de Cabelos por Toque",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Josefumi! Eu finalmente te achei... mas você parece um pouco diferente agora, hein?",
     "techniques": [
       "Love Love Deluxe",
@@ -4521,7 +4521,7 @@
     "stand": "Blue Hawaii",
     "styleOrPower": "Infecção Zumbi em Linha Reta por Contato Físico de Sangue/Saliva",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Incapacitado",
+    "status": "Vivo",
     "quote": "Qualquer um infectado pelo Blue Hawaii marchará em linha reta sem parar até tocar no Josuke!",
     "techniques": [
       "Blue Hawaii",
@@ -4545,7 +4545,7 @@
     "stand": "Wonder of U",
     "styleOrPower": "Fluxo de Calamidade Cósmica contra Perseguidores",
     "debutArc": "Parte 8: JoJolion",
-    "status": "Destruído",
+    "status": "Morto",
     "quote": "Você tem certeza de que deseja me perseguir? A própria ordem da calamidade cairá sobre você.",
     "techniques": [
       "Wonder of U",
@@ -4569,7 +4569,7 @@
     "stand": "Bags Groove",
     "styleOrPower": "Micro-Stands que Causam Aneurismas e Edemas Pulmonares",
     "debutArc": "Parte 9: The JOJOLands",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Bags Groove entra pela sua respiração e entope suas artérias sem você nem perceber!",
     "techniques": [
       "Bags Groove",

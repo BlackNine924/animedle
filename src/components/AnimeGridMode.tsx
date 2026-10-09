@@ -675,21 +675,60 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
 
-    // Status (sem duplicação de 'Status: ')
-    const statuses = Array.from(
-      new Set(characters.map((c) => cleanStatus(c.status || '')).filter(Boolean))
-    );
-    statuses.forEach((s) => {
-      const count = characters.filter((c) => cleanStatus(c.status || '') === s).length;
-      if (count >= 3) {
+    // Status (sem duplicação de 'Status: ' e com unificação flexível de gênero Vivo(a) / Morto(a))
+    const hasVitalStatus = characters.some((c) => {
+      const s = cleanStatus(c.status || '').toLowerCase();
+      return s === 'vivo' || s === 'viva' || s === 'morto' || s === 'morta';
+    });
+
+    if (hasVitalStatus) {
+      const aliveCount = characters.filter((c) => {
+        const s = cleanStatus(c.status || '').toLowerCase();
+        return s === 'vivo' || s === 'viva';
+      }).length;
+      if (aliveCount >= 3) {
         list.push({
-          id: `status_${s}`,
-          label: s,
+          id: 'status_vivo',
+          label: 'Vivo(a)',
           category: 'Status',
-          test: (c) => cleanStatus(c.status || '') === s,
+          test: (c) => {
+            const s = cleanStatus(c.status || '').toLowerCase();
+            return s === 'vivo' || s === 'viva';
+          },
         });
       }
-    });
+
+      const deadCount = characters.filter((c) => {
+        const s = cleanStatus(c.status || '').toLowerCase();
+        return s === 'morto' || s === 'morta';
+      }).length;
+      if (deadCount >= 3) {
+        list.push({
+          id: 'status_morto',
+          label: 'Morto(a)',
+          category: 'Status',
+          test: (c) => {
+            const s = cleanStatus(c.status || '').toLowerCase();
+            return s === 'morto' || s === 'morta';
+          },
+        });
+      }
+    } else {
+      const statuses = Array.from(
+        new Set(characters.map((c) => cleanStatus(c.status || '')).filter(Boolean))
+      );
+      statuses.forEach((s) => {
+        const count = characters.filter((c) => cleanStatus(c.status || '') === s).length;
+        if (count >= 3) {
+          list.push({
+            id: `status_${s}`,
+            label: s,
+            category: 'Status',
+            test: (c) => cleanStatus(c.status || '') === s,
+          });
+        }
+      });
+    }
 
     // Afiliações
     const affMap: Record<string, number> = {};

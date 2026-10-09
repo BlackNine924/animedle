@@ -737,6 +737,96 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/shoko-ieiri.webp",
       "techniqueOrSceneName": "Técnica Reversa de Cura & Emissão de Energia Positiva",
       "description": "Canalização e projeção rara de energia amaldiçoada positiva curando ferimentos mortais de outros feiticeiros."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-mahoraga",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "mahoraga",
+      "characterName": "Mahoraga",
+      "videoUrl": "/scenes/jujutsu-kaisen/mahoraga.webp",
+      "techniqueOrSceneName": "Espada do Extermínio & Roda da Adaptação",
+      "description": "Giro da roda de oito raios na cabeça adaptando-se a qualquer fenômeno e fatiando prédios inteiros."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-ui-ui",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "ui-ui",
+      "characterName": "Ui Ui",
+      "videoUrl": "/scenes/jujutsu-kaisen/ui-ui.webp",
+      "techniqueOrSceneName": "Técnica Espacial de Teletransporte Instantâneo",
+      "description": "Deslocamento dimensional veloz salvando feiticeiros feridos através de barreira espacial."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-miguel",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "miguel",
+      "characterName": "Miguel",
+      "videoUrl": "/scenes/jujutsu-kaisen/miguel.webp",
+      "techniqueOrSceneName": "Corda Preta Mágica (Black Rope)",
+      "description": "Golpes chicoteantes com corda africana tecida capaz de perturbar e anular o Infinito."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-riko-amanai",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "riko-amanai",
+      "characterName": "Riko Amanai",
+      "videoUrl": "/scenes/jujutsu-kaisen/riko-amanai.webp",
+      "techniqueOrSceneName": "Vaso de Plasma Estelar em Oásis",
+      "description": "Alegria e despedida da juventude no litoral antes do destino selado no túmulo da estrela."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-misato-kuroi",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "misato-kuroi",
+      "characterName": "Misato Kuroi",
+      "videoUrl": "/scenes/jujutsu-kaisen/misato-kuroi.webp",
+      "techniqueOrSceneName": "Artes Marciais com Bastão de Empregada",
+      "description": "Defesa com bastão em acrobacia de guarda-costas protegendo Riko contra assassinos armados."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-finger-bearer",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "finger-bearer",
+      "characterName": "Portador dos Dedos",
+      "videoUrl": "/scenes/jujutsu-kaisen/finger-bearer.webp",
+      "techniqueOrSceneName": "Feixe de Energia Pura de Nível Especial",
+      "description": "Disparo contínuo de canhão de pura energia amaldiçoada condensada sem necessidade de técnica."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-grasshopper-curse",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "grasshopper-curse",
+      "characterName": "Gafanhoto Amaldiçoado",
+      "videoUrl": "/scenes/jujutsu-kaisen/grasshopper-curse.webp",
+      "techniqueOrSceneName": "Golpes de Quatro Braços Insetoides",
+      "description": "Sequência furiosa de socos múltiplos saltando em velocidade de gafanhoto nos trilhos de Shibuya."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-mimiko-hasaba",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "mimiko-hasaba",
+      "characterName": "Mimiko Hasaba",
+      "videoUrl": "/scenes/jujutsu-kaisen/mimiko-hasaba.webp",
+      "techniqueOrSceneName": "Corda de Enforcamento & Boneco Vudu",
+      "description": "Ativação ritualística da forca transferindo dano mortal ao pescoço do alvo."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-nanako-hasaba",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "nanako-hasaba",
+      "characterName": "Nanako Hasaba",
+      "videoUrl": "/scenes/jujutsu-kaisen/nanako-hasaba.webp",
+      "techniqueOrSceneName": "Manipulação Espacial com Câmera de Smartphone",
+      "description": "Captura de foto com celular congelando e manipulando o espaço e o corpo do alvo enquadrado."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-yu-haibara",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "yu-haibara",
+      "characterName": "Yu Haibara",
+      "videoUrl": "/scenes/jujutsu-kaisen/yu-haibara.webp",
+      "techniqueOrSceneName": "Entusiasmo Radiante de Feiticeiro Jujutsu",
+      "description": "Sorriso sincero e determinação corajosa partindo para missões ao lado de Kento Nanami."
     }
   ],
   "my-hero-academia": [
@@ -1092,6 +1182,168 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/naruto/kiba-inuzuka.webp",
       "techniqueOrSceneName": "Taijutsu: Presa Sobre Presa (Gatsuga) com Akamaru",
       "description": "Giro rotativo perfurante em alta velocidade rasgando defesas em sincronia canina."
+    },
+    {
+      "id": "scene-naruto-temari",
+      "animeSlug": "naruto",
+      "characterId": "temari",
+      "characterName": "Temari",
+      "videoUrl": "/scenes/naruto/temari.webp",
+      "techniqueOrSceneName": "Kamaitachi no Jutsu (Foice de Vento com Leque)",
+      "description": "Abertura das três luas do leque gigante gerando vendavais com lâminas invisíveis de vácuo."
+    },
+    {
+      "id": "scene-naruto-kankuro",
+      "animeSlug": "naruto",
+      "characterId": "kankuro",
+      "characterName": "Kankuro",
+      "videoUrl": "/scenes/naruto/kankuro.webp",
+      "techniqueOrSceneName": "Karakuri Engeki (Show de Marionetes Kuroari)",
+      "description": "Manipulação de fios de chakra nos dedos comandando marionetes com veneno e lâminas ocultas."
+    },
+    {
+      "id": "scene-naruto-shino-aburame",
+      "animeSlug": "naruto",
+      "characterId": "shino-aburame",
+      "characterName": "Shino Aburame",
+      "videoUrl": "/scenes/naruto/shino-aburame.webp",
+      "techniqueOrSceneName": "Kikaichū no Jutsu (Nuvem de Insetos Parasitas)",
+      "description": "Enxame negro de besouros devoradores de chakra emergindo do corpo e cercando o oponente."
+    },
+    {
+      "id": "scene-naruto-chouji-akimichi",
+      "animeSlug": "naruto",
+      "characterId": "chouji-akimichi",
+      "characterName": "Chouji Akimichi",
+      "videoUrl": "/scenes/naruto/chouji-akimichi.webp",
+      "techniqueOrSceneName": "Nikudan Sensha & Modo Borboleta de Chakra",
+      "description": "Expansão de massa corporal e asas de pura energia luminosa de borboleta desferindo socos titânicos."
+    },
+    {
+      "id": "scene-naruto-ino-yamanaka",
+      "animeSlug": "naruto",
+      "characterId": "ino-yamanaka",
+      "characterName": "Ino Yamanaka",
+      "videoUrl": "/scenes/naruto/ino-yamanaka.webp",
+      "techniqueOrSceneName": "Shintenshin no Jutsu (Transferência Mental)",
+      "description": "Projeção da própria consciência em linha reta assumindo o controle corporal do adversário."
+    },
+    {
+      "id": "scene-naruto-asuma-sarutobi",
+      "animeSlug": "naruto",
+      "characterId": "asuma-sarutobi",
+      "characterName": "Asuma Sarutobi",
+      "videoUrl": "/scenes/naruto/asuma-sarutobi.webp",
+      "techniqueOrSceneName": "Lâminas de Chakra de Vento & Hien",
+      "description": "Canalização de chakra elemental afiado de vento nas soqueiras cortando rochas como papel."
+    },
+    {
+      "id": "scene-naruto-yamato",
+      "animeSlug": "naruto",
+      "characterId": "yamato",
+      "characterName": "Yamato",
+      "videoUrl": "/scenes/naruto/yamato.webp",
+      "techniqueOrSceneName": "Mokuton: Prisão de Quatro Pilares de Madeira",
+      "description": "Combinação de água e terra brotando troncos robustos do solo para contenção imediata."
+    },
+    {
+      "id": "scene-naruto-sai",
+      "animeSlug": "naruto",
+      "characterId": "sai",
+      "characterName": "Sai",
+      "videoUrl": "/scenes/naruto/sai.webp",
+      "techniqueOrSceneName": "Chōjū Giga (Desenho de Super Bestas de Tinta)",
+      "description": "Pinceladas velozes no pergaminho dando vida a pássaros e leões de tinta viva em combate."
+    },
+    {
+      "id": "scene-naruto-suigetsu-hozuki",
+      "animeSlug": "naruto",
+      "characterId": "suigetsu-hozuki",
+      "characterName": "Suigetsu Hozuki",
+      "videoUrl": "/scenes/naruto/suigetsu-hozuki.webp",
+      "techniqueOrSceneName": "Suika no Jutsu (Hidratação Corporal) & Kubikiribōchō",
+      "description": "Transformação do corpo em água fluida e empunhadura da espada decapitadora com braço musculoso de água."
+    },
+    {
+      "id": "scene-naruto-karin-uzumaki",
+      "animeSlug": "naruto",
+      "characterId": "karin-uzumaki",
+      "characterName": "Karin Uzumaki",
+      "videoUrl": "/scenes/naruto/karin-uzumaki.webp",
+      "techniqueOrSceneName": "Kagura Shingan & Correntes Adamantinas de Chakra",
+      "description": "Despertar das correntes douradas de chakra Uzumaki perfurando estátuas de madeira gigantes."
+    },
+    {
+      "id": "scene-naruto-danzo-shimura",
+      "animeSlug": "naruto",
+      "characterId": "danzo-shimura",
+      "characterName": "Danzo Shimura",
+      "videoUrl": "/scenes/naruto/danzo-shimura.webp",
+      "techniqueOrSceneName": "Fūton: Shinkūha (Onda de Vácuo) & Braço de Sharingans",
+      "description": "Exalação de lâminas cortantes de ar comprimido da boca combinada com ativação do Izanagi."
+    },
+    {
+      "id": "scene-naruto-hiruzen-sarutobi",
+      "animeSlug": "naruto",
+      "characterId": "hiruzen-sarutobi",
+      "characterName": "Hiruzen Sarutobi",
+      "videoUrl": "/scenes/naruto/hiruzen-sarutobi.webp",
+      "techniqueOrSceneName": "Bastão de Diamante de Enma & Cinco Elementos",
+      "description": "Invocação do Rei Macaco Enma transformado em cajado inquebrável estendendo-se em combate."
+    },
+    {
+      "id": "scene-naruto-shisui-uchiha",
+      "animeSlug": "naruto",
+      "characterId": "shisui-uchiha",
+      "characterName": "Shisui Uchiha",
+      "videoUrl": "/scenes/naruto/shisui-uchiha.webp",
+      "techniqueOrSceneName": "Shunshin no Jutsu & Kotoamatsukami",
+      "description": "Passo instantâneo com miragens corporais múltiplas e ativação do Mangekyou Sharingan definitivo."
+    },
+    {
+      "id": "scene-naruto-kushina-uzumaki",
+      "animeSlug": "naruto",
+      "characterId": "kushina-uzumaki",
+      "characterName": "Kushina Uzumaki",
+      "videoUrl": "/scenes/naruto/kushina-uzumaki.webp",
+      "techniqueOrSceneName": "Correntes de Selamento Adamantino (Kongō Fūsa)",
+      "description": "Correntes douradas indestrutíveis erguendo-se das costas restringindo a Raposa de Nove Caudas."
+    },
+    {
+      "id": "scene-naruto-yahiko",
+      "animeSlug": "naruto",
+      "characterId": "yahiko",
+      "characterName": "Yahiko",
+      "videoUrl": "/scenes/naruto/yahiko.webp",
+      "techniqueOrSceneName": "Suiton: Mizurappa & Ideal da Akatsuki Original",
+      "description": "Projétil de jato d'água de alta pressão e avanço de espada sob a chuva torrencial de Amegakure."
+    },
+    {
+      "id": "scene-naruto-konohamaru-sarutobi",
+      "animeSlug": "naruto",
+      "characterId": "konohamaru-sarutobi",
+      "characterName": "Konohamaru Sarutobi",
+      "videoUrl": "/scenes/naruto/konohamaru-sarutobi.webp",
+      "techniqueOrSceneName": "Rasengan da Coragem contra Pain",
+      "description": "Esfera espiral de chakra colidindo e pulverizando o Caminho Naraka no meio da vila."
+    },
+    {
+      "id": "scene-naruto-kabuto-yakushi",
+      "animeSlug": "naruto",
+      "characterId": "kabuto-yakushi",
+      "characterName": "Kabuto Yakushi",
+      "videoUrl": "/scenes/naruto/kabuto-yakushi.webp",
+      "techniqueOrSceneName": "Modo Sábio dos Dragões da Caverna Ryuchi",
+      "description": "Transformação dracônica com córneas protetoras e manipulação inorgânica da caverna de pedra."
+    },
+    {
+      "id": "scene-naruto-kimimaro",
+      "animeSlug": "naruto",
+      "characterId": "kimimaro",
+      "characterName": "Kimimaro",
+      "videoUrl": "/scenes/naruto/kimimaro.webp",
+      "techniqueOrSceneName": "Shikotsumyaku: Dança das Clematis & Floresta de Ossos",
+      "description": "Extração da coluna vertebral como chicote e erupção de milhares de lanças de ossos do solo."
     }
   ],
   "one-piece": [
@@ -1436,6 +1688,132 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/galdino.webp",
       "techniqueOrSceneName": "Doru Doru Arts: Candle Champion & Armadura de Cera",
       "description": "Geração instantânea de cera sólida moldando armaduras de combate impenetráveis."
+    },
+    {
+      "id": "scene-one-piece-marshall-d-teach",
+      "animeSlug": "one-piece",
+      "characterId": "marshall-d-teach",
+      "characterName": "Marshall D. Teach (Barba Negra)",
+      "videoUrl": "/scenes/one-piece/marshall-d-teach.webp",
+      "techniqueOrSceneName": "Yami Yami & Gura Gura no Mi",
+      "description": "Vórtice de escuridão gravitacional combinada com impacto sísmico nas duas mãos."
+    },
+    {
+      "id": "scene-one-piece-kaidou",
+      "animeSlug": "one-piece",
+      "characterId": "kaidou",
+      "characterName": "Kaidou",
+      "videoUrl": "/scenes/one-piece/kaidou.webp",
+      "techniqueOrSceneName": "Boro Breath (Sopro de Fogo Dracônico)",
+      "description": "Sopro colossal de fogo ardente incinerando o topo da montanha e castelos."
+    },
+    {
+      "id": "scene-one-piece-charlotte-linlin",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-linlin",
+      "characterName": "Charlotte Linlin (Big Mom)",
+      "videoUrl": "/scenes/one-piece/charlotte-linlin.webp",
+      "techniqueOrSceneName": "Ikoku Sovereignty (Soberania Imperial)",
+      "description": "Onda de choque cortante titânica disparada com a espada Napoleão e fogo de Prometheus."
+    },
+    {
+      "id": "scene-one-piece-silvers-rayleigh",
+      "animeSlug": "one-piece",
+      "characterId": "silvers-rayleigh",
+      "characterName": "Silvers Rayleigh",
+      "videoUrl": "/scenes/one-piece/silvers-rayleigh.webp",
+      "techniqueOrSceneName": "Saque da Espada & Haki Avançado",
+      "description": "Desembainhar cirúrgico de espada interceptando almirantes com Haki do Armamento avançado."
+    },
+    {
+      "id": "scene-one-piece-sabo",
+      "animeSlug": "one-piece",
+      "characterId": "sabo",
+      "characterName": "Sabo",
+      "videoUrl": "/scenes/one-piece/sabo.webp",
+      "techniqueOrSceneName": "Ryusoken: Garra do Dragão Flamejante",
+      "description": "Punhos de ferro em garras do dragão banhados nas chamas da Mera Mera no Mi."
+    },
+    {
+      "id": "scene-one-piece-perona",
+      "animeSlug": "one-piece",
+      "characterId": "perona",
+      "characterName": "Perona",
+      "videoUrl": "/scenes/one-piece/perona.webp",
+      "techniqueOrSceneName": "Negative Hollow (Fantasmas Negativos)",
+      "description": "Projeção de fantasmas esbranquiçados drenando a autoestima e vontade de viver de oponentes."
+    },
+    {
+      "id": "scene-one-piece-issho-fujitora",
+      "animeSlug": "one-piece",
+      "characterId": "issho-fujitora",
+      "characterName": "Issho (Fujitora)",
+      "videoUrl": "/scenes/one-piece/issho-fujitora.webp",
+      "techniqueOrSceneName": "Zushi Zushi no Mi: Queda Gravitacional de Meteoros",
+      "description": "Saque reverso da espada Shikomizue atraindo meteoros em chamas da estratosfera."
+    },
+    {
+      "id": "scene-one-piece-capone-bege",
+      "animeSlug": "one-piece",
+      "characterId": "capone-bege",
+      "characterName": "Capone Bege",
+      "videoUrl": "/scenes/one-piece/capone-bege.webp",
+      "techniqueOrSceneName": "Shiro Shiro no Mi: Castelo Humano Fortificado",
+      "description": "Abertura de portas corporais disparando canhões e infantaria blindada em miniatura."
+    },
+    {
+      "id": "scene-one-piece-killer",
+      "animeSlug": "one-piece",
+      "characterId": "killer",
+      "characterName": "Killer",
+      "videoUrl": "/scenes/one-piece/killer.webp",
+      "techniqueOrSceneName": "Zanshu Claw (Giro das Foices Rotativas)",
+      "description": "Acrobacias aéreas girando foices mecânicas em alta rotação emitindo ondas de choque sonoras."
+    },
+    {
+      "id": "scene-one-piece-kinemon",
+      "animeSlug": "one-piece",
+      "characterId": "kinemon",
+      "characterName": "Kin'emon",
+      "videoUrl": "/scenes/one-piece/kinemon.webp",
+      "techniqueOrSceneName": "Kitsunebi-ryu (Estilo Fogo da Raposa)",
+      "description": "Corte de espada que queima o oponente e parte explosões e chamas ao meio."
+    },
+    {
+      "id": "scene-one-piece-shiryu",
+      "animeSlug": "one-piece",
+      "characterId": "shiryu",
+      "characterName": "Shiryu",
+      "videoUrl": "/scenes/one-piece/shiryu.webp",
+      "techniqueOrSceneName": "Nodachi Raiu & Invisibilidade Suke Suke",
+      "description": "Golpe de espada brutal e sanguinário executado a partir do manto de invisibilidade."
+    },
+    {
+      "id": "scene-one-piece-nefertari-vivi",
+      "animeSlug": "one-piece",
+      "characterId": "nefertari-vivi",
+      "characterName": "Nefertari Vivi",
+      "videoUrl": "/scenes/one-piece/nefertari-vivi.webp",
+      "techniqueOrSceneName": "Kujaku String Slasher (Fios Cortantes do Pavão)",
+      "description": "Giro elegante de anéis e fios afiados como navalha desferindo ataques circulares."
+    },
+    {
+      "id": "scene-one-piece-tashigi",
+      "animeSlug": "one-piece",
+      "characterId": "tashigi",
+      "characterName": "Tashigi",
+      "videoUrl": "/scenes/one-piece/tashigi.webp",
+      "techniqueOrSceneName": "Kiri Shigure (Dança da Espada Meito)",
+      "description": "Avanço reto de katana com velocidade espadachim e espírito de justiça da Marinha."
+    },
+    {
+      "id": "scene-one-piece-bartholomew-kuma",
+      "animeSlug": "one-piece",
+      "characterId": "bartholomew-kuma",
+      "characterName": "Bartholomew Kuma",
+      "videoUrl": "/scenes/one-piece/bartholomew-kuma.webp",
+      "techniqueOrSceneName": "Nikyu Nikyu no Mi: Pad Cannon & Ursus Shock",
+      "description": "Compressão de atmosfera em bolha de pata disparando bombas de choque ultrassônico."
     }
   ],
   "tokyo-ghoul": [

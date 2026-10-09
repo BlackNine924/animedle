@@ -585,7 +585,7 @@
     "bounty": 340000000,
     "styleOrPower": "Paramecia (Ito Ito no Mi)",
     "debutArc": "Dressrosa / Punk Hazard",
-    "status": "Preso",
+    "status": "Vivo",
     "quote": "Os vencedores ditarão o que é a justiça!",
     "avatar": "/avatars/one-piece/donquixote-doflamingo.png",
     "techniques": [
@@ -902,7 +902,7 @@
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
-    "status": "Morto",
+    "status": "Morta",
     "avatar": "/avatars/one-piece/bellemere.png",
     "quote": "",
     "techniques": [
@@ -3150,7 +3150,7 @@
     "styleOrPower": "Paramecia (Soru Soru no Mi)",
     "quote": "Ma-ma-ma-ma! Vida ou Licença?!",
     "debutArc": "Whole Cake Island",
-    "status": "Desconhecido",
+    "status": "Morta",
     "avatar": "/avatars/one-piece/charlotte-linlin.png",
     "techniques": [
       "Ikkoku Sovereignty",
@@ -3390,7 +3390,7 @@
     "styleOrPower": "Zoan Mítica (Uo Uo no Mi: Modelo Seiryu)",
     "quote": "A força das armas é tudo o que importa no mundo!",
     "debutArc": "Dressrosa / Punk Hazard",
-    "status": "Desconhecido",
+    "status": "Morto",
     "avatar": "/avatars/one-piece/kaidou.png",
     "techniques": [
       "Bolo Breath",
@@ -4091,7 +4091,7 @@
     "styleOrPower": "Paramecia (Toki Toki no Mi)",
     "quote": "",
     "debutArc": "País de Wano",
-    "status": "Morto",
+    "status": "Morta",
     "avatar": "/avatars/one-piece/kozuki-toki.png",
     "techniques": [
       "Viagem Temporal para o Futuro"
@@ -4114,7 +4114,7 @@
     "styleOrPower": "Nenhum",
     "quote": "Zoro, prometemos! Um de nós se tornará o maior espadachim do mundo!",
     "debutArc": "East Blue",
-    "status": "Morto",
+    "status": "Morta",
     "avatar": "/avatars/one-piece/kuina.png",
     "techniques": [
       "Esgrima do Dojo Shimotsuki"
@@ -4259,7 +4259,7 @@
     "styleOrPower": "Nenhum",
     "quote": "",
     "debutArc": "Egghead",
-    "status": "Morto",
+    "status": "Morta",
     "avatar": "/avatars/one-piece/atlas.png",
     "techniques": [
       "Socos Holográficos de Impacto Titânico"
@@ -6372,7 +6372,7 @@
     "bounty": 330000000,
     "styleOrPower": "Zoan (Kame Kame no Mi) e Eletro",
     "debutArc": "Ilha dos Tritões",
-    "status": "Desconhecido",
+    "status": "Vivo",
     "avatar": "/avatars/one-piece/pekoms.png",
     "quote": "Aqueles que confiam demais na intocabilidade da Logia morrem jovens no Novo Mundo, gao!",
     "combatType": "Combate Corpo a Corpo",
@@ -6667,7 +6667,7 @@
     "rank": "Condutora do Rocketman",
     "styleOrPower": "Natação de Sereia & Condução Ferroviária",
     "debutArc": "Water 7 / Enies Lobby",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "Nagagaga! Segurem-se firme, porque o Rocketman não tem freios nem trilhos!",
     "techniques": [
       "Condução Suicida de Trem Marinho",
@@ -6713,7 +6713,7 @@
     "rank": "Espadachim Chefe Mercenário",
     "styleOrPower": "Estilo das Oito Espadas Bêbadas & Veneno Letal",
     "debutArc": "Ilha dos Tritões",
-    "status": "Derrotado",
+    "status": "Vivo",
     "quote": "Hic... O dinheiro compra a minha espada, mas o saquê dita o ritmo dos meus oito tentáculos!",
     "techniques": [
       "Kagetsu Hachijyuu (Oito Espadas Venenosas)",
@@ -7231,7 +7231,7 @@
     "bounty": 0,
     "styleOrPower": "Zoan (Mushi Mushi no Mi: Modelo Vespa)",
     "debutArc": "Dressrosa / Punk Hazard",
-    "status": "Vivo",
+    "status": "Viva",
     "quote": "As vespas rosas dominam os céus da batalha!",
     "avatar": "/avatars/one-piece/bian.png",
     "techniques": [
