@@ -24,3 +24,8 @@ Thumbs.db
 
 # Audit outputs
 audit-*.json
+scripts/preview_5
+scripts/*.jpg
+scripts/*.png
+scripts/*.gif
+scripts/*.json

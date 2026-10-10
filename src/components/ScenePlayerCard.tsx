@@ -18,6 +18,35 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   // Toggle de cor: por padrão inicia em Preto e Branco (grayscale)
   const [isColorEnabled, setIsColorEnabled] = useState<boolean>(false);
 
+  // Carregamento via Blob URL em memória para ocultar o nome do arquivo/personagem no Inspecionar Elementos (DevTools)
+  const [blobUrl, setBlobUrl] = useState<string>('');
+
+  React.useEffect(() => {
+    let active = true;
+    let currentObjectUrl = '';
+
+    fetch(challenge.videoUrl)
+      .then((res) => {
+        if (!res.ok) throw new Error('Network error');
+        return res.blob();
+      })
+      .then((blob) => {
+        if (!active) return;
+        currentObjectUrl = URL.createObjectURL(blob);
+        setBlobUrl(currentObjectUrl);
+      })
+      .catch(() => {
+        if (active) setBlobUrl(challenge.videoUrl);
+      });
+
+    return () => {
+      active = false;
+      if (currentObjectUrl) {
+        URL.revokeObjectURL(currentObjectUrl);
+      }
+    };
+  }, [challenge.videoUrl]);
+
   // Sempre que mudar de desafio (troca de personagem, nova rodada diária ou infinita), reinicia em P&B
   React.useEffect(() => {
     setIsColorEnabled(false);
@@ -105,8 +134,8 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
       {/* Janela de Exibição do Vídeo / Cena em Loop */}
       <div className="relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border-2 border-[#202b43] bg-black shadow-2xl flex items-center justify-center group select-none">
         <img
-          src={challenge.videoUrl}
-          alt="Cena do Personagem"
+          src={blobUrl || challenge.videoUrl}
+          alt="Cena da Rodada"
           className="w-full h-full object-cover transition-all duration-500 pointer-events-none"
           style={{
             filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,

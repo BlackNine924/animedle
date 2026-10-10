@@ -1,29 +1,26 @@
 /**
- * Utilitário de Baralho Cíclico Persistente (Fisher-Yates Deck) para o Modo Treino / Infinito.
- * Garante que 100% dos desafios (cenas, vozes, personagens) sejam sorteados sem repetição
- * até que todo o catálogo daquele anime e modo seja esgotado, persistindo o progresso no localStorage.
+ * Utilitário de Fila Anti-Repetição Persistente para o Modo Treino / Infinito.
+ * Garante que 100% dos desafios (cenas, vozes, personagens) sejam sorteados SEM REPETIÇÃO
+ * até que todo o catálogo daquele anime e modo seja esgotado no ciclo atual.
+ *
+ * Além disso:
+ * - Persiste o progresso no localStorage por anime e modo.
+ * - Suporta adição de novas cenas sem resetar o histórico.
+ * - Ao reiniciar um ciclo completo, nunca repete o último desafio jogado.
  */
 
-function shuffleDeck(array: number[]): number[] {
-  const arr = [...array];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
-
-interface SavedDeck {
-  deck: number[];
-  currentIndex: number;
+interface SavedEndlessState {
+  current: number;
+  played: number[];
+  lastPoolSize: number;
 }
 
 /**
- * Obtém o índice atual ou avança para o próximo desafio do baralho persistente.
- * @param animeSlug Slug do anime ativo (ex: 'one-piece', 'naruto', 'jujutsu-kaisen')
- * @param mode Modo de jogo ativo (ex: 'scene', 'classic', 'voice')
- * @param poolSize Quantidade total de desafios disponíveis
- * @param advance Se deve consumir a carta e avançar para a próxima
+ * Obtém o índice atual ou avança para um novo desafio não repetido no Modo Infinito.
+ * @param animeSlug Slug do anime (ex: 'one-piece', 'naruto', 'jujutsu-kaisen')
+ * @param mode Modo de jogo (ex: 'scene', 'classic', 'voice')
+ * @param poolSize Total de desafios disponíveis no catálogo
+ * @param advance Se deve consumir e avançar para o próximo desafio
  */
 export function getOrAdvanceEndlessIndex(
   animeSlug: string,
@@ -34,56 +31,88 @@ export function getOrAdvanceEndlessIndex(
   if (poolSize <= 0) return 0;
   if (poolSize === 1) return 0;
 
-  const storageKey = `animedle_endless_deck_${animeSlug}_${mode}`;
-  let saved: SavedDeck | null = null;
+  const storageKey = `animedle_endless_deck_v2_${animeSlug}_${mode}`;
+  let state: SavedEndlessState | null = null;
 
   try {
     const raw = localStorage.getItem(storageKey);
     if (raw) {
-      saved = JSON.parse(raw);
+      state = JSON.parse(raw);
     }
   } catch (e) {
-    saved = null;
+    state = null;
   }
 
-  // Se não existir ou o tamanho do catálogo mudou (ex: novas cenas adicionadas), inicializa novo baralho
-  if (!saved || !Array.isArray(saved.deck) || saved.deck.length !== poolSize || typeof saved.currentIndex !== 'number') {
-    const baseIndices = Array.from({ length: poolSize }, (_, i) => i);
-    saved = {
-      deck: shuffleDeck(baseIndices),
-      currentIndex: 0,
+  // Validação básica do estado carregado
+  if (
+    !state ||
+    typeof state.current !== 'number' ||
+    !Array.isArray(state.played) ||
+    state.current < 0 ||
+    state.current >= poolSize
+  ) {
+    // Inicialização de primeira execução
+    const firstIdx = Math.floor(Math.random() * poolSize);
+    state = {
+      current: firstIdx,
+      played: [firstIdx],
+      lastPoolSize: poolSize,
     };
+
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(state));
+    } catch (e) {}
+
+    return state.current;
   }
 
-  // Avança o ponteiro quando o jogador pede o próximo desafio
-  if (advance) {
-    saved.currentIndex += 1;
-    // Se esgotou todo o baralho, reembaralha para um novo ciclo completo
-    if (saved.currentIndex >= saved.deck.length) {
-      const lastItem = saved.deck[saved.deck.length - 1];
-      const baseIndices = Array.from({ length: poolSize }, (_, i) => i);
-      let newDeck = shuffleDeck(baseIndices);
-      // Evita repetição imediata entre o fim de um ciclo e o início do próximo
-      if (poolSize > 1 && newDeck[0] === lastItem) {
-        const swapIdx = Math.floor(Math.random() * (poolSize - 1)) + 1;
-        [newDeck[0], newDeck[swapIdx]] = [newDeck[swapIdx], newDeck[0]];
-      }
-      saved = {
-        deck: newDeck,
-        currentIndex: 0,
-      };
+  // Se o usuário só quer ler o índice atual sem avançar
+  if (!advance) {
+    return state.current;
+  }
+
+  // Filtrar os índices já jogados que ainda são válidos para o poolSize atual
+  const validPlayed = state.played.filter((idx) => typeof idx === 'number' && idx >= 0 && idx < poolSize);
+
+  // Lista de índices que AINDA NÃO FORAM JOGADOS no ciclo atual
+  const playedSet = new Set(validPlayed);
+  let unplayed: number[] = [];
+  for (let i = 0; i < poolSize; i++) {
+    if (!playedSet.has(i)) {
+      unplayed.push(i);
     }
   }
 
-  if (saved.currentIndex >= saved.deck.length) {
-    saved.currentIndex = 0;
+  // Se esgotou todas as opções do catálogo, reinicia um novo ciclo completo
+  if (unplayed.length === 0) {
+    const lastPlayed = state.current;
+    // Permite todas exceto a última jogada para evitar repetição consecutiva no recomeço
+    for (let i = 0; i < poolSize; i++) {
+      if (i !== lastPlayed) {
+        unplayed.push(i);
+      }
+    }
+    // Caso de borda poolSize === 1
+    if (unplayed.length === 0) {
+      unplayed = [0];
+    }
+    // Limpa a lista de jogados para o novo ciclo
+    validPlayed.length = 0;
   }
+
+  // Sorteia aleatoriamente entre as opções restantes não jogadas
+  const chosenIdx = unplayed[Math.floor(Math.random() * unplayed.length)];
+  validPlayed.push(chosenIdx);
+
+  state = {
+    current: chosenIdx,
+    played: validPlayed,
+    lastPoolSize: poolSize,
+  };
 
   try {
-    localStorage.setItem(storageKey, JSON.stringify(saved));
-  } catch (e) {
-    // QuotaExceeded fallback
-  }
+    localStorage.setItem(storageKey, JSON.stringify(state));
+  } catch (e) {}
 
-  return saved.deck[saved.currentIndex];
+  return state.current;
 }

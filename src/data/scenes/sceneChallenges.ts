@@ -708,8 +708,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "masamichi-yaga",
       "characterName": "Masamichi Yaga",
       "videoUrl": "/scenes/jujutsu-kaisen/masamichi-yaga.webp",
-      "techniqueOrSceneName": "Criação de Cadáveres Amaldiçoados Autônomos",
-      "description": "Diretor Masamichi Yaga de óculos escuros preparando-se com postura imponente em Shibuya."
+      "techniqueOrSceneName": "Confronto Noturno em Shibuya",
+      "description": "Diretor Masamichi Yaga caminhando em silêncio sob a luz do poste para o duelo decisivo contra Gakuganji."
     },
     {
       "id": "scene-jujutsu-kaisen-tengen",
@@ -1289,8 +1289,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "yamato",
       "characterName": "Yamato",
       "videoUrl": "/scenes/naruto/yamato.webp",
-      "techniqueOrSceneName": "Raimei Hakke com Kanabo",
-      "description": "Yamato empunhando sua clava metálica e liberando uma torrente de Haki do Conquistador reluzente."
+      "techniqueOrSceneName": "Mokuton: Shichūken (Prisão de Quatro Pilares)",
+      "description": "Manipulação do elemento madeira (Mokuton) erguendo pilares e estruturas de vigas de madeira do solo."
     },
     {
       "id": "scene-naruto-sai",
@@ -1464,7 +1464,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterName": "Bellamy",
       "videoUrl": "/scenes/one-piece/bellamy.webp",
       "techniqueOrSceneName": "Spring Hopper (Salto Mola)",
-      "description": "Pernas comprimidas em molas acumulando força cinética destrutiva."
+      "description": "Salto contínuo em alta velocidade rebatendo nas paredes dos edifícios de Jaya com a Bane Bane no Mi."
     },
     {
       "id": "scene-one-piece-bentham",
@@ -1544,8 +1544,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "franky",
       "characterName": "Franky",
       "videoUrl": "/scenes/one-piece/franky.webp",
-      "techniqueOrSceneName": "Franky Radical Beam",
-      "description": "Raio laser devastador disparado de suas mãos cibernéticas."
+      "techniqueOrSceneName": "Coup de Vent (Canhão de Ar Comprimido)",
+      "description": "Conexão dos antebraços disparando uma rajada massiva de ar comprimido alimentado a cola."
     },
     {
       "id": "scene-one-piece-jinbe",
@@ -1652,8 +1652,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "tony-tony-chopper",
       "characterName": "Tony Tony Chopper",
       "videoUrl": "/scenes/one-piece/tony-tony-chopper.webp",
-      "techniqueOrSceneName": "Monster Point",
-      "description": "Gigantismo colossal incontrolável desferindo força destruidora."
+      "techniqueOrSceneName": "Heavy Point (Ponto Pesado)",
+      "description": "Transformação em sua forma bípede musculosa após ingerir a Rumble Ball em combate."
     },
     {
       "id": "scene-one-piece-usopp",

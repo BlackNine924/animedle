@@ -50,17 +50,6 @@ export const App: React.FC<{
 
   const isCurrentEndless = endlessByMode[currentMode] || false;
 
-  const handleToggleEndless = (mode: GameMode, val: boolean) => {
-    setEndlessByMode((prev) => ({
-      ...prev,
-      [mode]: val,
-    }));
-    setShowVictoryModal(false);
-    if (val && endlessModeStates[mode]?.guesses?.length === 0 && !endlessModeStates[mode]?.isWon) {
-      setEndlessTargetIndex(Math.floor(Math.random() * characters.length));
-    }
-  };
-
   // Ordena a lista de personagens recebida em ordem alfabética (A-Z)
   const characters = React.useMemo(() => {
     return [...charactersData].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
@@ -916,6 +905,22 @@ export const App: React.FC<{
     setShowVictoryModal(false);
   };
 
+  const handleToggleEndless = (mode: GameMode, val: boolean) => {
+    setEndlessByMode((prev) => ({
+      ...prev,
+      [mode]: val,
+    }));
+    setShowVictoryModal(false);
+
+    if (val) {
+      const state = endlessModeStates[mode];
+      const isFinishedState = state?.isWon || state?.isSurrendered || state?.isLost || (state?.guesses && state.guesses.length >= 6);
+      if (isFinishedState) {
+        handleNextEndlessChallenge();
+      }
+    }
+  };
+
   // Resetar (dev)
   const handleResetDaily = () => {
     if (isCurrentEndless) {
@@ -1134,14 +1139,22 @@ export const App: React.FC<{
 
         {/* Botão Discreto para Reabrir o Modal de Resultado quando fechado */}
         {isFinished && !showVictoryModal && currentMode !== 'ability' && currentMode !== 'grid' && (
-          <div className="max-w-md mx-auto my-4 text-center animate-fadeIn">
+          <div className="max-w-md mx-auto my-4 flex items-center justify-center gap-3 animate-fadeIn flex-wrap">
             <button
               onClick={() => setShowVictoryModal(true)}
               style={{ backgroundColor: animeConfig.themeColor }}
-              className="inline-flex items-center gap-2 px-6 py-2.5 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:opacity-90"
+              className="inline-flex items-center gap-2 px-5 py-2.5 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:opacity-90"
             >
               <span>{currentIsWon ? '🏆 Ver Painel de Vitória' : '💀 Ver Personagem Secreto'}</span>
             </button>
+            {isCurrentEndless && (
+              <button
+                onClick={handleNextEndlessChallenge}
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:brightness-110"
+              >
+                <span>⏩ Próximo Desafio</span>
+              </button>
+            )}
           </div>
         )}
 
