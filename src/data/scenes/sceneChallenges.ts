@@ -708,8 +708,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "masamichi-yaga",
       "characterName": "Masamichi Yaga",
       "videoUrl": "/scenes/jujutsu-kaisen/masamichi-yaga.webp",
-      "techniqueOrSceneName": "Confronto Noturno em Shibuya",
-      "description": "Diretor Masamichi Yaga caminhando em silêncio sob a luz do poste para o duelo decisivo contra Gakuganji."
+      "techniqueOrSceneName": "Preparação de Combate em Shibuya",
+      "description": "Diretor Yaga desfazendo-se do sobretudo e preparando a guarda com punhos cerrados sob o poste de luz."
     },
     {
       "id": "scene-jujutsu-kaisen-tengen",
@@ -873,6 +873,24 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/kinji-hakari.webp",
       "techniqueOrSceneName": "Expansão de Domínio: Aposta da Morte Ociosa (Idle Death Gamble)",
       "description": "Kinji Hakari abrindo seu domínio de cassino na expectativa de girar o jackpot da imortalidade total."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-fumihiko-takaba",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "fumihiko-takaba",
+      "characterName": "Fumihiko Takaba",
+      "videoUrl": "/scenes/jujutsu-kaisen/fumihiko-takaba.webp",
+      "techniqueOrSceneName": "Apresentação no Palco do Riso",
+      "description": "Takaba gesticulando no palco com seu traje de herói comediante e segurando o leque tradicional."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-kiyotaka-ijichi",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "kiyotaka-ijichi",
+      "characterName": "Kiyotaka Ijichi",
+      "videoUrl": "/scenes/jujutsu-kaisen/kiyotaka-ijichi.webp",
+      "techniqueOrSceneName": "Invocação da Cortina",
+      "description": "Ijichi fazendo o selo com os dedos e entoando o encantamento para erguer a barreira protetora da Cortina."
     }
   ],
   "my-hero-academia": [
@@ -1454,6 +1472,78 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/naruto/tenten.webp",
       "techniqueOrSceneName": "Dragões Gêmeos Ascendentes (Sōryū Tenshō)",
       "description": "Tenten desenrolando seus grandes pergaminhos para disparar uma tempestade de armas ninjas de ferro no ar."
+    },
+    {
+      "id": "scene-naruto-mei-terumi",
+      "animeSlug": "naruto",
+      "characterId": "mei-terumi",
+      "characterName": "Mei Terumi",
+      "videoUrl": "/scenes/naruto/mei-terumi.webp",
+      "techniqueOrSceneName": "Postura da Quinta Mizukage",
+      "description": "Mei Terumi erguendo o olhar imponente por trás de sua franja avermelhada na Cúpula dos Cinco Kages."
+    },
+    {
+      "id": "scene-naruto-mu",
+      "animeSlug": "naruto",
+      "characterId": "mu",
+      "characterName": "Mu",
+      "videoUrl": "/scenes/naruto/mu.webp",
+      "techniqueOrSceneName": "Liberação de Poeira: Jinton",
+      "description": "Mu, o Segundo Tsuchikage, envolto em ataduras levitando e abrindo os braços para concentrar o Jinton."
+    },
+    {
+      "id": "scene-naruto-gengetsu-hozuki",
+      "animeSlug": "naruto",
+      "characterId": "gengetsu-hozuki",
+      "characterName": "Gengetsu Hozuki",
+      "videoUrl": "/scenes/naruto/gengetsu-hozuki.webp",
+      "techniqueOrSceneName": "Pistola de Água: Mizu Deppo",
+      "description": "Gengetsu Hozuki, o Segundo Mizukage, apontando o dedo indicador em forma de arma disparando projéteis de água."
+    },
+    {
+      "id": "scene-naruto-terceiro-raikage",
+      "animeSlug": "naruto",
+      "characterId": "terceiro-raikage",
+      "characterName": "Terceiro Raikage",
+      "videoUrl": "/scenes/naruto/terceiro-raikage.webp",
+      "techniqueOrSceneName": "Armadura de Relâmpago e Fúria",
+      "description": "Terceiro Raikage com seus longos cabelos brancos e fúria inabalável avançando na Quarta Guerra Ninja."
+    },
+    {
+      "id": "scene-naruto-kurenai-yuhi",
+      "animeSlug": "naruto",
+      "characterId": "kurenai-yuhi",
+      "characterName": "Kurenai Yuhi",
+      "videoUrl": "/scenes/naruto/kurenai-yuhi.webp",
+      "techniqueOrSceneName": "Ilusão Demoníaca: Prisão da Árvore",
+      "description": "Kurenai fitando atentamente com seus penetrantes olhos vermelhos ao canalizar seu Genjutsu característico."
+    },
+    {
+      "id": "scene-naruto-chojuro",
+      "animeSlug": "naruto",
+      "characterId": "chojuro",
+      "characterName": "Chojuro",
+      "videoUrl": "/scenes/naruto/chojuro.webp",
+      "techniqueOrSceneName": "Empunhadura da Hiramekarei",
+      "description": "Chojuro cerrando os dentes com determinação e óculos característicos ao empunhar a espada dupla Hiramekarei."
+    },
+    {
+      "id": "scene-naruto-kurotsuchi",
+      "animeSlug": "naruto",
+      "characterId": "kurotsuchi",
+      "characterName": "Kurotsuchi",
+      "videoUrl": "/scenes/naruto/kurotsuchi.webp",
+      "techniqueOrSceneName": "Cal Calcinada: Sekkaigyo no Jutsu",
+      "description": "Kurotsuchi observando o campo de batalha de Iwagakure com seu colete vermelho e expressão confiante."
+    },
+    {
+      "id": "scene-naruto-iruka-umino",
+      "animeSlug": "naruto",
+      "characterId": "iruka-umino",
+      "characterName": "Iruka Umino",
+      "videoUrl": "/scenes/naruto/iruka-umino.webp",
+      "techniqueOrSceneName": "Sorriso de Reconhecimento",
+      "description": "Iruka-sensei com sua cicatriz no nariz e bandana de Konoha sorrindo com orgulho e afeto."
     }
   ],
   "one-piece": [
@@ -1988,6 +2078,96 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/koby.webp",
       "techniqueOrSceneName": "Impacto da Honestidade (Honesty Impact)",
       "description": "Capitão Koby canalizando todo o seu poder de Armamento e espírito no punho para esmagar a ilha de Hachinosu."
+    },
+    {
+      "id": "scene-one-piece-garp",
+      "animeSlug": "one-piece",
+      "characterId": "garp",
+      "characterName": "Garp",
+      "videoUrl": "/scenes/one-piece/garp.webp",
+      "techniqueOrSceneName": "Punho do Herói da Marinha",
+      "description": "Vice-Almirante Garp avançando velozmente com seu sorriso indomável envolto em raios de Haki destruidores."
+    },
+    {
+      "id": "scene-one-piece-sengoku",
+      "animeSlug": "one-piece",
+      "characterId": "sengoku",
+      "characterName": "Sengoku",
+      "videoUrl": "/scenes/one-piece/sengoku.webp",
+      "techniqueOrSceneName": "Despertar do Grande Buda Dourado",
+      "description": "Almirante de Frota Sengoku assumindo sua forma colossal dourada de Daibutsu com óculos e olhar severo."
+    },
+    {
+      "id": "scene-one-piece-kozuki-oden",
+      "animeSlug": "one-piece",
+      "characterId": "kozuki-oden",
+      "characterName": "Kozuki Oden",
+      "videoUrl": "/scenes/one-piece/kozuki-oden.webp",
+      "techniqueOrSceneName": "Estilo de Duas Espadas de Oden: Nitoryu",
+      "description": "Kozuki Oden empunhando Ame no Habakiri e Enma com sua postura destemida e shimenawa nas costas em Wano."
+    },
+    {
+      "id": "scene-one-piece-king",
+      "animeSlug": "one-piece",
+      "characterId": "king",
+      "characterName": "King",
+      "videoUrl": "/scenes/one-piece/king.webp",
+      "techniqueOrSceneName": "As Chamas Sagradas do Lunarier",
+      "description": "King, a Conflagração, ajustando sua máscara negra enquanto chamas ancestrais ardem intensamente ao seu redor."
+    },
+    {
+      "id": "scene-one-piece-kumadori",
+      "animeSlug": "one-piece",
+      "characterId": "kumadori",
+      "characterName": "Kumadori",
+      "videoUrl": "/scenes/one-piece/kumadori.webp",
+      "techniqueOrSceneName": "Retorno à Vida: Seimei Kikan",
+      "description": "Kumadori da CP9 manipulando sua vasta cabeleira rosa como tentáculos enquanto assume pose teatral de kabuki."
+    },
+    {
+      "id": "scene-one-piece-fukurou",
+      "animeSlug": "one-piece",
+      "characterId": "fukurou",
+      "characterName": "Fukurou",
+      "videoUrl": "/scenes/one-piece/fukurou.webp",
+      "techniqueOrSceneName": "Abertura do Zíper Bucal: Chapapa",
+      "description": "Fukurou abrindo o grande zíper em sua boca enquanto se prepara para desferir seus golpes do Rokushiki."
+    },
+    {
+      "id": "scene-one-piece-jyabura",
+      "animeSlug": "one-piece",
+      "characterId": "jyabura",
+      "characterName": "Jabra",
+      "videoUrl": "/scenes/one-piece/jyabura.webp",
+      "techniqueOrSceneName": "Forma Bestial do Lobo: Inu Inu no Mi",
+      "description": "Jabra da CP9 transformado em sua forma meio-lobo com trança, óculos escuros na testa e bigode característico."
+    },
+    {
+      "id": "scene-one-piece-blueno",
+      "animeSlug": "one-piece",
+      "characterId": "blueno",
+      "characterName": "Blueno",
+      "videoUrl": "/scenes/one-piece/blueno.webp",
+      "techniqueOrSceneName": "Corpo de Aço: Tekkai",
+      "description": "Blueno em pé com seus chifres característicos e feição inabalável concentrando seu Tekkai impenetrável."
+    },
+    {
+      "id": "scene-one-piece-wyper",
+      "animeSlug": "one-piece",
+      "characterId": "wyper",
+      "characterName": "Wyper",
+      "videoUrl": "/scenes/one-piece/wyper.webp",
+      "techniqueOrSceneName": "Determinação do Demônio Guerreiro de Shandia",
+      "description": "Wyper com sua tatuagem tribal no rosto, moicano e cigarro nos lábios encarando o oponente com frieza em Skypiea."
+    },
+    {
+      "id": "scene-one-piece-ulti",
+      "animeSlug": "one-piece",
+      "characterId": "ulti",
+      "characterName": "Ulti",
+      "videoUrl": "/scenes/one-piece/ulti.webp",
+      "techniqueOrSceneName": "Exibição da Tobi Roppo",
+      "description": "Ulti com sua máscara rosa e cabelos bicolores espreguiçando-se antes de desferir sua famosa cabeçada com Haki."
     }
   ],
   "tokyo-ghoul": [
