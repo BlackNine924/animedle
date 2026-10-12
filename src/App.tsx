@@ -544,6 +544,26 @@ export const App: React.FC<{
         ? characters[endlessTargetIndex % characters.length]
         : characters[dailyIndex % characters.length]);
 
+  // [TEMPORÁRIO] Exibe o nome do personagem no F12 / Console e expõe para inspeção rápida
+  React.useEffect(() => {
+    if (targetCharacter) {
+      const modeInfo = currentMode === 'scene' && currentSceneChallenge
+        ? `[Cena: ${currentSceneChallenge.techniqueOrSceneName} | Arquivo: ${currentSceneChallenge.videoUrl}]`
+        : `[Modo: ${currentMode}]`;
+      console.log(
+        `%c🎯 [DEBUG ANIME-DLE] Personagem Secreto: ${targetCharacter.name} (ID: ${targetCharacter.id}) ${modeInfo}`,
+        'color: #10b981; font-weight: bold; font-size: 13px; background: #062419; padding: 4px 8px; border-radius: 4px;'
+      );
+      (window as any).__TARGET_DEBUG__ = {
+        name: targetCharacter.name,
+        id: targetCharacter.id,
+        mode: currentMode,
+        scene: currentSceneChallenge,
+        isEndless: isCurrentEndless,
+      };
+    }
+  }, [targetCharacter?.id, currentMode, currentSceneChallenge?.id, isCurrentEndless]);
+
   // Armazenamento de estado independente por modo no Modo Diário
   const [dailyModeStates, setDailyModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
     classic: { guesses: [], isWon: false },
@@ -913,11 +933,8 @@ export const App: React.FC<{
     setShowVictoryModal(false);
 
     if (val) {
-      const state = endlessModeStates[mode];
-      const isFinishedState = state?.isWon || state?.isSurrendered || state?.isLost || (state?.guesses && state.guesses.length >= 6);
-      if (isFinishedState) {
-        handleNextEndlessChallenge();
-      }
+      // Temporário: Sempre avança para o próximo desafio ao ligar/clicar no modo infinito, facilitando a navegação
+      handleNextEndlessChallenge();
     }
   };
 
@@ -1077,6 +1094,7 @@ export const App: React.FC<{
             themeColor={animeConfig.themeColor}
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('classic', val)}
+            onNextEndless={handleNextEndlessChallenge}
           />
         )}
 
@@ -1088,6 +1106,7 @@ export const App: React.FC<{
             themeColor={animeConfig.themeColor}
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('wanted', val)}
+            onNextEndless={handleNextEndlessChallenge}
           />
         )}
 
@@ -1099,6 +1118,7 @@ export const App: React.FC<{
             themeColor={animeConfig.themeColor}
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('scene', val)}
+            onNextEndless={handleNextEndlessChallenge}
           />
         )}
 
@@ -1110,6 +1130,7 @@ export const App: React.FC<{
             themeColor={animeConfig.themeColor}
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('voice', val)}
+            onNextEndless={handleNextEndlessChallenge}
           />
         )}
 
@@ -1121,6 +1142,7 @@ export const App: React.FC<{
             themeColor={animeConfig.themeColor}
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('zoom', val)}
+            onNextEndless={handleNextEndlessChallenge}
           />
         )}
 

@@ -7,6 +7,7 @@ interface ModeHeaderCardProps {
   themeColor: string;
   isEndless: boolean;
   onToggleEndless: (val: boolean) => void;
+  onNextEndless?: () => void;
 }
 
 export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
@@ -16,6 +17,7 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
   themeColor,
   isEndless,
   onToggleEndless,
+  onNextEndless,
 }) => {
   return (
     <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-[#0d1426] border border-[#202b43] rounded-2xl p-4 mb-5 shadow-lg max-w-2xl mx-auto">
@@ -48,12 +50,19 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
           Diário
         </button>
         <button
-          onClick={() => onToggleEndless(true)}
+          onClick={() => {
+            if (isEndless && onNextEndless) {
+              onNextEndless();
+            } else {
+              onToggleEndless(true);
+            }
+          }}
           className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
             isEndless
-              ? 'bg-white/10 text-white border border-white/20 shadow-sm'
+              ? 'bg-white/10 text-white border border-white/20 shadow-sm hover:bg-white/20 active:scale-95'
               : 'text-slate-400 hover:text-white'
           }`}
+          title={isEndless ? 'Clique para trocar o personagem (avançar desafio)' : 'Modo Infinito'}
         >
           Infinito
         </button>

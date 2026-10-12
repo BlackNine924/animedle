@@ -132,10 +132,16 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
       </div>
 
       {/* Janela de Exibição do Vídeo / Cena em Loop */}
-      <div className="relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border-2 border-[#202b43] bg-black shadow-2xl flex items-center justify-center group select-none">
+      <div
+        className="relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border-2 border-[#202b43] bg-black shadow-2xl flex items-center justify-center group select-none"
+        data-debug-character={challenge.characterName}
+        data-debug-character-id={challenge.characterId}
+        data-debug-scene={challenge.techniqueOrSceneName}
+      >
         <img
           src={blobUrl || challenge.videoUrl}
-          alt="Cena da Rodada"
+          alt={`Cena: ${challenge.characterName}`}
+          data-character-name={challenge.characterName}
           className="w-full h-full object-cover transition-all duration-500 pointer-events-none"
           style={{
             filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,
