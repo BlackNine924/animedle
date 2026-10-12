@@ -1706,8 +1706,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "roger-gold",
       "characterName": "Gol D. Roger",
       "videoUrl": "/scenes/one-piece/roger-gold.webp",
-      "techniqueOrSceneName": "O Sorriso do Rei dos Piratas em Loguetown",
-      "description": "Lâminas cruzadas sobre o pescoço e sorriso lendário inaugurando a Grande Era dos Piratas."
+      "techniqueOrSceneName": "Kamusari (Partida Divina)",
+      "description": "Gol D. Roger avançando com espada imbuída em Haki do Conquistador relampejante e desferindo corte devastador."
     },
     {
       "id": "scene-one-piece-roronoa-zoro",
