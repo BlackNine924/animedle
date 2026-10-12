@@ -235,7 +235,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterName": "Piccolo",
       "videoUrl": "/scenes/dragon-ball/piccolo.webp",
       "techniqueOrSceneName": "Makankosappo (Special Beam Cannon)",
-      "description": "Raio perfurante espiral concentrado na ponta dos dedos atravessando qualquer blindagem."
+      "description": "Dois dedos na testa carregando espirais douradas de ki e disparo perfurante letal."
     },
     {
       "id": "scene-dragon-ball-son-gohan",
@@ -564,8 +564,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "takuma-ino",
       "characterName": "Takuma Ino",
       "videoUrl": "/scenes/jujutsu-kaisen/takuma-ino.webp",
-      "techniqueOrSceneName": "Invocação das Bestas Sagradas (Kaichi)",
-      "description": "Takuma Ino retirando sua touca e preparando seu ritual xamânico das quatro feras lendárias."
+      "techniqueOrSceneName": "Invocação das Bestas Auspiciosas: Kaichi",
+      "description": "Ino cobrindo a face com o gorro e projetando o chifre perfurante da primeira besta espiritual."
     },
     {
       "id": "scene-jujutsu-kaisen-toge-inumaki",
@@ -780,8 +780,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "misato-kuroi",
       "characterName": "Misato Kuroi",
       "videoUrl": "/scenes/jujutsu-kaisen/misato-kuroi.webp",
-      "techniqueOrSceneName": "Vigilância Protetora em Okinawa",
-      "description": "Misato Kuroi surpresa e atenta protegendo o Receptáculo de Plasma Estelar à beira-mar."
+      "techniqueOrSceneName": "Artes Marciais Protetoras & Vassoura em Okinawa",
+      "description": "Kuroi empunhando seu cabo de vassoura com agilidade física para repelir atacantes armados."
     },
     {
       "id": "scene-jujutsu-kaisen-finger-bearer",
@@ -844,8 +844,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kurourushi",
       "characterName": "Kurourushi",
       "videoUrl": "/scenes/jujutsu-kaisen/kurourushi.webp",
-      "techniqueOrSceneName": "Espírito Amaldiçoado Barata & Festering Life",
-      "description": "Kurourushi emergindo solo com seus olhos compostos rubros em brado aterrorizante no Jogo do Abate."
+      "techniqueOrSceneName": "Espada da Vida Putrefata (Festering Life Blade)",
+      "description": "Kurourushi brandindo a lâmina de casulos e disparando enxames vorazes de insetos amaldiçoados."
     },
     {
       "id": "scene-jujutsu-kaisen-ryu-ishigori",
@@ -1109,8 +1109,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "tsunade-senju",
       "characterName": "Tsunade Senju",
       "videoUrl": "/scenes/naruto/tsunade-senju.webp",
-      "techniqueOrSceneName": "Impacto Monstruoso da Quinta Hokage",
-      "description": "Tsunade aterrissando com poder esmagador e despedaçando o solo sob o impacto de seu golpe."
+      "techniqueOrSceneName": "Impacto Devastador de Chakra (Taijutsu Monstruoso)",
+      "description": "Tsunade concentrando chakra puro no punho e golpeando com força sísmica que estilhaça o solo."
     },
     {
       "id": "scene-naruto-kisame-hoshigaki",
@@ -1208,8 +1208,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "a-quarto-raikage",
       "characterName": "A (Quarto Raikage)",
       "videoUrl": "/scenes/naruto/a-quarto-raikage.webp",
-      "techniqueOrSceneName": "Armadura de Raiton & Velocidade Máxima",
-      "description": "Aceleração dos impulsos sinápticos com relâmpagos transformando o corpo num bólido impenetrável."
+      "techniqueOrSceneName": "Armadura Raiton & Liger Bomb de Alta Voltagem",
+      "description": "O Quarto Raikage em manto elétrico cintilante avançando em velocidade cega para o impacto fulminante."
     },
     {
       "id": "scene-naruto-haku",
@@ -1506,8 +1506,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "terceiro-raikage",
       "characterName": "Terceiro Raikage",
       "videoUrl": "/scenes/naruto/terceiro-raikage.webp",
-      "techniqueOrSceneName": "Armadura de Relâmpago e Fúria",
-      "description": "Terceiro Raikage com seus longos cabelos brancos e fúria inabalável avançando na Quarta Guerra Ninja."
+      "techniqueOrSceneName": "Lança do Inferno: Quatro Dedos (Jigokuzuki)",
+      "description": "O lendário Terceiro Raikage canalizando relâmpagos perfurantes nas pontas dos dedos e avançando como ariete."
     },
     {
       "id": "scene-naruto-kurenai-yuhi",
@@ -1533,8 +1533,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kurotsuchi",
       "characterName": "Kurotsuchi",
       "videoUrl": "/scenes/naruto/kurotsuchi.webp",
-      "techniqueOrSceneName": "Cal Calcinada: Sekkaigyo no Jutsu",
-      "description": "Kurotsuchi observando o campo de batalha de Iwagakure com seu colete vermelho e expressão confiante."
+      "techniqueOrSceneName": "Liberação de Lava: Sekkaigyo no Jutsu (Cal Cáustica)",
+      "description": "Kurotsuchi expelindo jatos de cal rápida incandescente para aprisionar e solidificar alvos em combate."
     },
     {
       "id": "scene-naruto-iruka-umino",
@@ -1697,8 +1697,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "portgas-d-ace",
       "characterName": "Portgas D. Ace",
       "videoUrl": "/scenes/one-piece/portgas-d-ace.webp",
-      "techniqueOrSceneName": "Hiken (Punho de Fogo)",
-      "description": "Coluna imensa de chamas queimando e pulverizando tudo ao alcance."
+      "techniqueOrSceneName": "Mera Mera no Mi: Dai Enkai & Hiken",
+      "description": "Ace inflamando o corpo com anéis concêntricos de fogo antes de desferir o gigantesco punho ardente."
     },
     {
       "id": "scene-one-piece-roger-gold",
@@ -1769,8 +1769,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "borsalino",
       "characterName": "Borsalino (Kizaru)",
       "videoUrl": "/scenes/one-piece/borsalino.webp",
-      "techniqueOrSceneName": "Pika Pika no Mi: Yasakani no Magatama",
-      "description": "Chuva torrencial de partículas pontiagudas de pura luz viajando à velocidade cósmica."
+      "techniqueOrSceneName": "Pika Pika no Mi: Velocidade da Luz & Yasakani no Magatama",
+      "description": "Borsalino se desmaterializando em partículas fotônicas reluzentes e disparando chuva de projéteis de luz pura."
     },
     {
       "id": "scene-one-piece-sakazuki",
@@ -1823,8 +1823,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "rob-lucci",
       "characterName": "Rob Lucci",
       "videoUrl": "/scenes/one-piece/rob-lucci.webp",
-      "techniqueOrSceneName": "Neko Neko no Mi Modelo Leopardo: Garras Ferozes & Shigan",
-      "description": "Transformação híbrida da fruta de leopardo com corpo inteiro em combate desferindo golpes e garras afiadas."
+      "techniqueOrSceneName": "Rokushiki: Shigan Ouren & Agilidade CP9",
+      "description": "Lucci desferindo saraivada de perfurações Shigan ultrarrápidas com dedos blindados em alta velocidade."
     },
     {
       "id": "scene-one-piece-arlong",
@@ -1877,8 +1877,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "caesar-clown",
       "characterName": "Caesar Clown",
       "videoUrl": "/scenes/one-piece/caesar-clown.webp",
-      "techniqueOrSceneName": "Gasu Gasu no Mi: Karakuni & Absorção Tóxica",
-      "description": "Manipulação de gases venenosos e asfixia removendo o oxigênio ao redor dos adversários."
+      "techniqueOrSceneName": "Gasu Gasu no Mi: Karakuni & Detonação Gasosa",
+      "description": "Caesar expandindo seu manto etéreo de gás venenoso com sorriso maníaco e inflamando reações químicas."
     },
     {
       "id": "scene-one-piece-galdino",
@@ -2003,8 +2003,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "tashigi",
       "characterName": "Tashigi",
       "videoUrl": "/scenes/one-piece/tashigi.webp",
-      "techniqueOrSceneName": "Capitã da Marinha com Óculos (Punk Hazard)",
-      "description": "Tashigi ajustando os óculos e sorrindo com gentileza nos alojamentos da base da Marinha."
+      "techniqueOrSceneName": "Estilo de Espada Shigure: Investida Cortante",
+      "description": "Tashigi desembainhando a katana com passos velozes de esgrima naval desferindo talhos precisos."
     },
     {
       "id": "scene-one-piece-bartholomew-kuma",
@@ -2166,8 +2166,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "ulti",
       "characterName": "Ulti",
       "videoUrl": "/scenes/one-piece/ulti.webp",
-      "techniqueOrSceneName": "Exibição da Tobi Roppo",
-      "description": "Ulti com sua máscara rosa e cabelos bicolores espreguiçando-se antes de desferir sua famosa cabeçada com Haki."
+      "techniqueOrSceneName": "Ryu Ryu no Mi Modelo Paquicefalossauro: Ulti Mortar",
+      "description": "Ulti avançando em corrida enfurecida com postura física esmagadora pronta para a cabeçada pré-histórica."
     }
   ],
   "tokyo-ghoul": [
