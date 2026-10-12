@@ -1580,8 +1580,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "buggy",
       "characterName": "Buggy",
       "videoUrl": "/scenes/one-piece/buggy.webp",
-      "techniqueOrSceneName": "Bara Bara Festival",
-      "description": "Divisão do corpo em dezenas de pedaços flutuantes desorientando o adversário."
+      "techniqueOrSceneName": "Bara Bara Senbei (Disco Rotativo de Lâminas)",
+      "description": "Metade inferior do corpo e botas com facas girando em alta rotação pelo ar."
     },
     {
       "id": "scene-one-piece-charlotte-katakuri",
@@ -1733,8 +1733,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "shanks",
       "characterName": "Shanks",
       "videoUrl": "/scenes/one-piece/shanks.webp",
-      "techniqueOrSceneName": "Haki do Conquistador Avassalador",
-      "description": "Pressão espiritual esmagadora que intimida almirantes a quilômetros de distância."
+      "techniqueOrSceneName": "Gryphon: Kamusari (Partida Divina)",
+      "description": "Desembainhar relâmpago da espada Gryphon disparando onda massiva de Haki do Conquistador."
     },
     {
       "id": "scene-one-piece-tony-tony-chopper",
@@ -1886,8 +1886,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "galdino",
       "characterName": "Mr. 3 (Galdino)",
       "videoUrl": "/scenes/one-piece/galdino.webp",
-      "techniqueOrSceneName": "Doru Doru no Mi: Cera Moldável",
-      "description": "Mr. 3 expressando seus trejeitos extravagantes e poder da fruta de cera em Marineford."
+      "techniqueOrSceneName": "Doru Doru no Mi: Candle Wall (Parede de Cera)",
+      "description": "Galdino secretando cera líquida em larga escala que endurece como uma muralha blindada em Little Garden."
     },
     {
       "id": "scene-one-piece-marshall-d-teach",
