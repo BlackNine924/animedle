@@ -1823,8 +1823,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "rob-lucci",
       "characterName": "Rob Lucci",
       "videoUrl": "/scenes/one-piece/rob-lucci.webp",
-      "techniqueOrSceneName": "Forma Leopardo Desperta em Egghead",
-      "description": "Rob Lucci em sua zoan mística desperta envolto em nuvens negras de chamas com agilidade letal."
+      "techniqueOrSceneName": "Neko Neko no Mi Modelo Leopardo: Garras Ferozes & Shigan",
+      "description": "Transformação híbrida da fruta de leopardo com corpo inteiro em combate desferindo golpes e garras afiadas."
     },
     {
       "id": "scene-one-piece-arlong",
@@ -1859,8 +1859,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "marco",
       "characterName": "Marco",
       "videoUrl": "/scenes/one-piece/marco.webp",
-      "techniqueOrSceneName": "Tori Tori no Mi Modelo Fênix: Chamas Azuis da Ressurreição",
-      "description": "Voo majestoso com asas de fogo azul celeste curando ferimentos e repelindo impactos pesados."
+      "techniqueOrSceneName": "Tori Tori no Mi Modelo Fênix: Erupção das Chamas Azuis",
+      "description": "Marco erguendo todo o corpo em combustão mística com asas de fogo azul e amarelo em expansão dinâmica."
     },
     {
       "id": "scene-one-piece-kaku",
