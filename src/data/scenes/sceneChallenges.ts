@@ -1994,8 +1994,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "nefertari-vivi",
       "characterName": "Nefertari Vivi",
       "videoUrl": "/scenes/one-piece/nefertari-vivi.webp",
-      "techniqueOrSceneName": "Kujaku String Slasher (Fios Cortantes do Pavão)",
-      "description": "Giro elegante de anéis e fios afiados como navalha desferindo ataques circulares."
+      "techniqueOrSceneName": "Brisa de Alabasta: Olhar da Princesa Nefertari",
+      "description": "Vivi em vestes reais sentindo os ventos do reino desértico com os cabelos azuis esvoaçantes."
     },
     {
       "id": "scene-one-piece-tashigi",
@@ -2139,8 +2139,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "jyabura",
       "characterName": "Jabra",
       "videoUrl": "/scenes/one-piece/jyabura.webp",
-      "techniqueOrSceneName": "Forma Bestial do Lobo: Inu Inu no Mi",
-      "description": "Jabra da CP9 transformado em sua forma meio-lobo com trança, óculos escuros na testa e bigode característico."
+      "techniqueOrSceneName": "Soneca Tranquila da CP9 na Torre Judicial",
+      "description": "Jabra adormecido pacificamente em seu sofá em Enies Lobby com a bolha nasal oscilando."
     },
     {
       "id": "scene-one-piece-blueno",
