@@ -60,6 +60,17 @@ export const SceneGalleryModal: React.FC<SceneGalleryModalProps> = ({
     }
   };
 
+  // Marca todas as cenas da categoria/anime atual como Boa
+  const handleMarkAllCurrentAsGood = () => {
+    setSceneReviews((prev) => {
+      const next = { ...prev };
+      for (const c of baseAnimeList) {
+        next[c.id] = 'good';
+      }
+      return next;
+    });
+  };
+
   // Mapeamento exato de % de borrão para pixels igual ao ScenePlayerCard (100% -> 16px, 75% -> 12px, 50% -> 8px, 25% -> 4px, 0% -> 0px)
   const blurPx = Math.round((blurPercentage / 100) * 16);
 
@@ -274,6 +285,17 @@ export const SceneGalleryModal: React.FC<SceneGalleryModalProps> = ({
             >
               <span>Não Avaliadas</span>
               <span className="text-[10px] px-1.5 rounded-full bg-black/30">{statusCounts.unmarked}</span>
+            </button>
+
+            <button
+              onClick={handleMarkAllCurrentAsGood}
+              className="px-2.5 py-1 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/35 text-emerald-300 border border-emerald-500/50 transition-all text-xs font-bold flex items-center gap-1.5 shadow-sm active:scale-95"
+              title={`Marcar todas as ${baseAnimeList.length} cenas desta categoria (${selectedAnime === 'todos' ? 'Todos' : activeAnimeConfig?.title || selectedAnime}) como Boas`}
+            >
+              <ThumbsUp size={12} className="text-emerald-400" />
+              <span>
+                Marcar {selectedAnime === 'todos' ? 'Todas' : activeAnimeConfig?.title || selectedAnime} como Boas
+              </span>
             </button>
 
             {Object.keys(sceneReviews).length > 0 && (

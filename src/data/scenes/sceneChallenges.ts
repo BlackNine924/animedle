@@ -1733,8 +1733,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "shanks",
       "characterName": "Shanks",
       "videoUrl": "/scenes/one-piece/shanks.webp",
-      "techniqueOrSceneName": "Gryphon: Kamusari (Partida Divina)",
-      "description": "Desembainhar relâmpago da espada Gryphon disparando onda massiva de Haki do Conquistador."
+      "techniqueOrSceneName": "Desembainhar da Espada Gryphon em Marineford",
+      "description": "Shanks puxando sua espada lendária Gryphon da bainha para declarar o fim da Guerra dos Melhores."
     },
     {
       "id": "scene-one-piece-tony-tony-chopper",
@@ -1841,8 +1841,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "smoker",
       "characterName": "Smoker",
       "videoUrl": "/scenes/one-piece/smoker.webp",
-      "techniqueOrSceneName": "Moku Moku no Mi: White Out (Branco Total)",
-      "description": "Nuvem densa de fumaça envolvendo o campo de batalha para imobilização absoluta."
+      "techniqueOrSceneName": "Moku Moku no Mi: White Blow (Sopro Branco)",
+      "description": "Transformação dos membros em propulsão de fumaça densa disparando um soco pressurizado."
     },
     {
       "id": "scene-one-piece-boa-hancock",
