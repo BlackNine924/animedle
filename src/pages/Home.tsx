@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Play } from 'lucide-react';
+import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Play, Film } from 'lucide-react';
 import {
   AVAILABLE_ANIMES,
   COLLECTION_ANIMES,
@@ -11,6 +11,7 @@ import {
 } from '../data/animes/animeRegistry';
 import { ANIMES_CONFIG } from '../data/animes/config';
 import { getDailyDateString } from '../utils/dailySeed';
+import { SceneGalleryModal } from '../components/SceneGalleryModal';
 
 // ── Filtros de seção ────────────────────────────────────────────────────
 type SectionToggle = { available: boolean; colecoes: boolean; comingSoon: boolean };
@@ -267,6 +268,7 @@ export const Home: React.FC = () => {
 
   const [searchQuery, setSearchQuery] = useState('');
   const [activeGenre, setActiveGenre] = useState<AnimeGenre | null>(null);
+  const [showSceneGallery, setShowSceneGallery] = useState(false);
   const [sectionToggles, setSectionToggles] = useState<SectionToggle>({
     available: true,
     colecoes: true,
@@ -413,7 +415,7 @@ export const Home: React.FC = () => {
         </div>
 
         {/* ── Barra de pesquisa ampliada ───────────────────────────────── */}
-        <div className="w-full max-w-2xl relative mb-5">
+        <div className="w-full max-w-2xl relative mb-3">
           <Search
             size={20}
             className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none"
@@ -425,6 +427,18 @@ export const Home: React.FC = () => {
             onChange={e => setSearchQuery(e.target.value)}
             className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-[#0d1426] border border-[#202b43] text-slate-100 placeholder-slate-500 text-sm sm:text-base focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30 transition-all shadow-inner"
           />
+        </div>
+
+        {/* ── Botão Visualizador de Cenas (Dev Temporário) ───────────── */}
+        <div className="mb-4">
+          <button
+            onClick={() => setShowSceneGallery(true)}
+            className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 text-xs font-bold transition-all shadow-sm active:scale-95"
+            title="Abrir Visualizador de Cenas de todos os animes"
+          >
+            <Film size={14} className="text-amber-400" />
+            <span>👁️ Visualizador de Cenas (Dev Preview)</span>
+          </button>
         </div>
 
         {/* ── Filtros de gênero ─────────────────────────────────────────── */}
@@ -529,6 +543,14 @@ export const Home: React.FC = () => {
           </Section>
         )}
       </main>
+
+      {/* Modal Visualizador de Cenas */}
+      {showSceneGallery && (
+        <SceneGalleryModal
+          initialAnimeSlug="one-piece"
+          onClose={() => setShowSceneGallery(false)}
+        />
+      )}
     </div>
   );
 };

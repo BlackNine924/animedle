@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { HelpCircle, BarChart2, ChevronDown, RotateCcw, Sparkles } from 'lucide-react';
+import { HelpCircle, BarChart2, ChevronDown, RotateCcw, Sparkles, Film } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ANIMES_CONFIG } from '../data/animes/config';
 import { AnimeConfig } from '../types/anime';
@@ -12,6 +12,7 @@ interface NavbarProps {
   onOpenHowToPlay: () => void;
   onOpenStats: () => void;
   onResetDaily?: () => void;
+  onOpenSceneGallery?: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -21,6 +22,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   onOpenHowToPlay,
   onOpenStats,
   onResetDaily,
+  onOpenSceneGallery,
 }) => {
   const currentAnime = ANIMES_CONFIG[currentAnimeSlug] || ANIMES_CONFIG['demon-slayer'];
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -182,10 +184,21 @@ export const Navbar: React.FC<NavbarProps> = ({
 
         {/* Lado Direito: Ações */}
         <div className="flex items-center gap-2">
+          {onOpenSceneGallery && (
+            <button
+              onClick={onOpenSceneGallery}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 text-xs font-bold transition-all shadow-sm active:scale-95"
+              title="Visualizador de Cenas do Jogo (Temporário Dev)"
+            >
+              <Film size={14} className="text-amber-400" />
+              <span>Ver Cenas</span>
+            </button>
+          )}
+
           {onResetDaily && (
             <button
               onClick={onResetDaily}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-amber-400 text-xs font-bold transition-all shadow-sm active:scale-95"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-750 border border-slate-700 text-slate-300 text-xs font-bold transition-all shadow-sm active:scale-95"
               title="Resetar progresso do dia atual e sortear novo personagem (Modo Dev)"
             >
               <RotateCcw size={14} />

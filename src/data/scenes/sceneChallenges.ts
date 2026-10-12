@@ -2139,8 +2139,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "jyabura",
       "characterName": "Jabra",
       "videoUrl": "/scenes/one-piece/jyabura.webp",
-      "techniqueOrSceneName": "Soneca Solo no Jardim do Castelo de Enies Lobby",
-      "description": "Jabra dormindo tranquilamente ao ar livre no jardim do castelo de Enies Lobby antes da invasão dos chapéus de palha."
+      "techniqueOrSceneName": "Postura de Combate e Artes Marciais no Castelo",
+      "description": "Jabra preparando sua postura de combate marcial solo no jardim interior do castelo de Enies Lobby."
     },
     {
       "id": "scene-one-piece-blueno",

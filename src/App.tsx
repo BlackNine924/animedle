@@ -17,6 +17,7 @@ import { VoicePlayerCard } from './components/VoicePlayerCard';
 import { ScenePlayerCard } from './components/ScenePlayerCard';
 import { ModeHeaderCard } from './components/ModeHeaderCard';
 import { SurrenderConfirmModal } from './components/SurrenderConfirmModal';
+import { SceneGalleryModal } from './components/SceneGalleryModal';
 import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
 import { getVoiceChallengesForAnime } from './data/voices/voiceChallenges';
 import { getSceneChallengesForAnime } from './data/scenes/sceneChallenges';
@@ -595,6 +596,7 @@ export const App: React.FC<{
   const [showHowToPlay, setShowHowToPlay] = useState<boolean>(false);
   const [showStats, setShowStats] = useState<boolean>(false);
   const [showMangaCoverage, setShowMangaCoverage] = useState<boolean>(false);
+  const [showSceneGallery, setShowSceneGallery] = useState<boolean>(false);
 
   // Estatísticas Globais do Jogador
   const [stats, setStats] = useState<GameStats>(() => {
@@ -1015,6 +1017,7 @@ export const App: React.FC<{
         onOpenHowToPlay={() => setShowHowToPlay(true)}
         onOpenStats={() => setShowStats(true)}
         onResetDaily={handleResetDaily}
+        onOpenSceneGallery={() => setShowSceneGallery(true)}
       />
 
       {/* Conteúdo Principal — Largura Otimizada (max-w-[1440px]) */}
@@ -1427,6 +1430,12 @@ export const App: React.FC<{
         <MangaCoverageModal
           animeConfig={animeConfig}
           onClose={() => setShowMangaCoverage(false)}
+        />
+      )}
+      {showSceneGallery && (
+        <SceneGalleryModal
+          initialAnimeSlug={currentAnimeSlug}
+          onClose={() => setShowSceneGallery(false)}
         />
       )}
 
