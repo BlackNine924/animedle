@@ -2139,8 +2139,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "jyabura",
       "characterName": "Jabra",
       "videoUrl": "/scenes/one-piece/jyabura.webp",
-      "techniqueOrSceneName": "Soneca Tranquila da CP9 na Torre Judicial",
-      "description": "Jabra adormecido pacificamente em seu sofá em Enies Lobby com a bolha nasal oscilando."
+      "techniqueOrSceneName": "Soneca no Jardim do Castelo de Enies Lobby",
+      "description": "Jabra adormecido solo no jardim do castelo de Enies Lobby aproveitando a calmaria antes da batalha."
     },
     {
       "id": "scene-one-piece-blueno",
