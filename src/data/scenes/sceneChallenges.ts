@@ -1607,8 +1607,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "donquixote-doflamingo",
       "characterName": "Donquixote Doflamingo",
       "videoUrl": "/scenes/one-piece/donquixote-doflamingo.webp",
-      "techniqueOrSceneName": "Ito Ito no Mi: Overheat",
-      "description": "Chicote de fios incandescentes cortando prédios inteiros com velocidade extrema."
+      "techniqueOrSceneName": "Ito Ito no Mi: Manobras Aéreas & Fios Cortantes",
+      "description": "Doflamingo deslizando pelos céus de Dressrosa e manipulando fios invisíveis em combate dinâmico."
     },
     {
       "id": "scene-one-piece-dracule-mihawk",
@@ -1616,8 +1616,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "dracule-mihawk",
       "characterName": "Dracule Mihawk",
       "videoUrl": "/scenes/one-piece/dracule-mihawk.webp",
-      "techniqueOrSceneName": "Corte da Espada Negra Yoru",
-      "description": "Ataque cortante da maior espada do mundo partindo montanhas e icebergs."
+      "techniqueOrSceneName": "Kokuto Yoru: Corte Verde do Maior Espadachim",
+      "description": "Mihawk brandindo a lendária lâmina negra em arco amplo e projetando onda de choque cortante em Marineford."
     },
     {
       "id": "scene-one-piece-edward-newgate-barba-branca",
@@ -1652,8 +1652,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kuro",
       "characterName": "Kuro",
       "videoUrl": "/scenes/one-piece/kuro.webp",
-      "techniqueOrSceneName": "Shakushi (Passo Furtivo da Morte)",
-      "description": "Velocidade invisível desferindo cortes aleatórios e impiedosos com garras de gato."
+      "techniqueOrSceneName": "Passo Furtivo da Morte: Shakushi Acelerado",
+      "description": "Capitão Kuro em velocidade sobre-humana rasgando o ar e as rochas ao redor com lâminas felinas afiadas."
     },
     {
       "id": "scene-one-piece-law-trafalgar",
@@ -1868,8 +1868,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kaku",
       "characterName": "Kaku",
       "videoUrl": "/scenes/one-piece/kaku.webp",
-      "techniqueOrSceneName": "Rankyaku: Kirin & Transformação Girafa Zoan",
-      "description": "Cortes cortantes no ar com as pernas em alta velocidade utilizando a fisionomia elástica de girafa."
+      "techniqueOrSceneName": "Rankyaku: Amanedachi & Lâmina Cortante CP9",
+      "description": "Kaku desferindo o devastador corte aéreo circular Rankyaku que fende a Torre da Justiça em Enies Lobby."
     },
     {
       "id": "scene-one-piece-caesar-clown",
@@ -1931,8 +1931,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "sabo",
       "characterName": "Sabo",
       "videoUrl": "/scenes/one-piece/sabo.webp",
-      "techniqueOrSceneName": "Mera Mera no Mi: Chamas da Revolução",
-      "description": "Sabo avançando solo em meio a nuvens de fumaça com chamas incandescentes envolvendo sua cartola e casaco."
+      "techniqueOrSceneName": "Mera Mera no Mi: Punho Ardente da Revolução",
+      "description": "Sabo projetando o punho de chamas em rotação de alta velocidade e avançando com impacto corporal explosivo."
     },
     {
       "id": "scene-one-piece-perona",
@@ -1976,8 +1976,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kinemon",
       "characterName": "Kin'emon",
       "videoUrl": "/scenes/one-piece/kinemon.webp",
-      "techniqueOrSceneName": "Espírito Samuraico de Wano (Fogo de Raposa)",
-      "description": "Kin'emon sorrindo com espírito jovial e lealdade samurai pronto para cortar chamas."
+      "techniqueOrSceneName": "Estilo Fogo de Raposa: Kitsunebi-ryu em Wano",
+      "description": "Kin'emon executando corte circular de esgrima em alta definição fatiando chamas em Wano."
     },
     {
       "id": "scene-one-piece-shiryu",
@@ -2139,8 +2139,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "jyabura",
       "characterName": "Jabra",
       "videoUrl": "/scenes/one-piece/jyabura.webp",
-      "techniqueOrSceneName": "Soneca no Jardim do Castelo de Enies Lobby",
-      "description": "Jabra adormecido solo no jardim do castelo de Enies Lobby aproveitando a calmaria antes da batalha."
+      "techniqueOrSceneName": "Soneca Solo no Jardim do Castelo de Enies Lobby",
+      "description": "Jabra dormindo tranquilamente ao ar livre no jardim do castelo de Enies Lobby antes da invasão dos chapéus de palha."
     },
     {
       "id": "scene-one-piece-blueno",
