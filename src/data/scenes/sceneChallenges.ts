@@ -780,8 +780,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "misato-kuroi",
       "characterName": "Misato Kuroi",
       "videoUrl": "/scenes/jujutsu-kaisen/misato-kuroi.webp",
-      "techniqueOrSceneName": "Artes Marciais Protetoras & Vassoura em Okinawa",
-      "description": "Kuroi empunhando seu cabo de vassoura com agilidade física para repelir atacantes armados."
+      "techniqueOrSceneName": "Vigilância Protetora em Okinawa",
+      "description": "Postura protetora e olhar atento durante a missão de escolta do Receptáculo de Plasma Estelar."
     },
     {
       "id": "scene-jujutsu-kaisen-finger-bearer",
@@ -844,8 +844,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kurourushi",
       "characterName": "Kurourushi",
       "videoUrl": "/scenes/jujutsu-kaisen/kurourushi.webp",
-      "techniqueOrSceneName": "Espada da Vida Putrefata (Festering Life Blade)",
-      "description": "Kurourushi brandindo a lâmina de casulos e disparando enxames vorazes de insetos amaldiçoados."
+      "techniqueOrSceneName": "Espírito Amaldiçoado Barata & Festering Life",
+      "description": "Monstruosidade insetóide brandindo lâmina viva e devorando energia em Sendai."
     },
     {
       "id": "scene-jujutsu-kaisen-ryu-ishigori",
@@ -1109,8 +1109,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "tsunade-senju",
       "characterName": "Tsunade Senju",
       "videoUrl": "/scenes/naruto/tsunade-senju.webp",
-      "techniqueOrSceneName": "Impacto Devastador de Chakra (Taijutsu Monstruoso)",
-      "description": "Tsunade concentrando chakra puro no punho e golpeando com força sísmica que estilhaça o solo."
+      "techniqueOrSceneName": "Impacto Monstruoso da Quinta Hokage",
+      "description": "Golpe sísmico devastador no solo gerando crateras e quebrando defesas."
     },
     {
       "id": "scene-naruto-kisame-hoshigaki",
@@ -1208,8 +1208,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "a-quarto-raikage",
       "characterName": "A (Quarto Raikage)",
       "videoUrl": "/scenes/naruto/a-quarto-raikage.webp",
-      "techniqueOrSceneName": "Armadura Raiton & Liger Bomb de Alta Voltagem",
-      "description": "O Quarto Raikage em manto elétrico cintilante avançando em velocidade cega para o impacto fulminante."
+      "techniqueOrSceneName": "Armadura de Raiton & Velocidade Máxima",
+      "description": "Relâmpagos azuis envolvendo o corpo do líder de Kumogakure em avanço instantâneo."
     },
     {
       "id": "scene-naruto-haku",
@@ -1506,8 +1506,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "terceiro-raikage",
       "characterName": "Terceiro Raikage",
       "videoUrl": "/scenes/naruto/terceiro-raikage.webp",
-      "techniqueOrSceneName": "Lança do Inferno: Quatro Dedos (Jigokuzuki)",
-      "description": "O lendário Terceiro Raikage canalizando relâmpagos perfurantes nas pontas dos dedos e avançando como ariete."
+      "techniqueOrSceneName": "Armadura de Relâmpago e Fúria",
+      "description": "Chakra relâmpago percorrendo a pele impenetrável do shinobi supremo da Nuvem."
     },
     {
       "id": "scene-naruto-kurenai-yuhi",
@@ -1533,8 +1533,8 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "characterId": "kurotsuchi",
       "characterName": "Kurotsuchi",
       "videoUrl": "/scenes/naruto/kurotsuchi.webp",
-      "techniqueOrSceneName": "Liberação de Lava: Sekkaigyo no Jutsu (Cal Cáustica)",
-      "description": "Kurotsuchi expelindo jatos de cal rápida incandescente para aprisionar e solidificar alvos em combate."
+      "techniqueOrSceneName": "Cal Calcinada: Sekkaigyo no Jutsu",
+      "description": "Disparo de projéteis de cal viva que endurecem e imobilizam inimigos."
     },
     {
       "id": "scene-naruto-iruka-umino",
