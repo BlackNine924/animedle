@@ -2168,6 +2168,204 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/ulti.webp",
       "techniqueOrSceneName": "Ryu Ryu no Mi Modelo Paquicefalossauro: Ulti Mortar",
       "description": "Ulti avançando em corrida enfurecida com postura física esmagadora pronta para a cabeçada pré-histórica."
+    },
+    {
+      "id": "scene-one-piece-aramaki-ryokugyu",
+      "animeSlug": "one-piece",
+      "characterId": "aramaki-ryokugyu",
+      "characterName": "Aramaki (Ryokugyu)",
+      "videoUrl": "/scenes/one-piece/aramaki-ryokugyu.webp",
+      "techniqueOrSceneName": "Mori Mori no Mi: Colosso da Floresta Protetora",
+      "description": "Almirante Ryokugyu manifestando sua forma titânica de árvore ancestral e golpeando com raízes gigantes em Wano."
+    },
+    {
+      "id": "scene-one-piece-magellan",
+      "animeSlug": "one-piece",
+      "characterId": "magellan",
+      "characterName": "Magellan",
+      "videoUrl": "/scenes/one-piece/magellan.webp",
+      "techniqueOrSceneName": "Doku Doku no Mi: Hydra & Nuvem Venenosa",
+      "description": "Diretor Magellan invocando dragões colossais de veneno líquido roxo e névoa tóxica letal em Impel Down."
+    },
+    {
+      "id": "scene-one-piece-hannyabal",
+      "animeSlug": "one-piece",
+      "characterId": "hannyabal",
+      "characterName": "Hannyabal",
+      "videoUrl": "/scenes/one-piece/hannyabal.webp",
+      "techniqueOrSceneName": "Kessui: Roda Flamejante do Inferno Escaldante",
+      "description": "Vice-Diretor Hannyabal girando sua naginata de lâmina dupla em alta velocidade até incendiar o ar em Impel Down."
+    },
+    {
+      "id": "scene-one-piece-sentomaru",
+      "animeSlug": "one-piece",
+      "characterId": "sentomaru",
+      "characterName": "Sentomaru",
+      "videoUrl": "/scenes/one-piece/sentomaru.webp",
+      "techniqueOrSceneName": "Ashigara Dokkoi & Defesa Mais Forte do Mundo",
+      "description": "Sentomaru assumindo sua postura de sumô pesada para liberar ondas de choque de Busoshoku Haki avançado em Egghead."
+    },
+    {
+      "id": "scene-one-piece-hina",
+      "animeSlug": "one-piece",
+      "characterId": "hina",
+      "characterName": "Hina",
+      "videoUrl": "/scenes/one-piece/hina.webp",
+      "techniqueOrSceneName": "Ori Ori no Mi: Jaula Negra (Awase Baori)",
+      "description": "Contra-Almirante Hina avançando em giro acrobático e estendendo grades de ferro pelos braços para aprisionar o alvo."
+    },
+    {
+      "id": "scene-one-piece-momonga",
+      "animeSlug": "one-piece",
+      "characterId": "momonga",
+      "characterName": "Momonga",
+      "videoUrl": "/scenes/one-piece/momonga.webp",
+      "techniqueOrSceneName": "Kenjutsu e Rokushiki de Vice-Almirante",
+      "description": "Vice-Almirante Momonga desembainhando sua katana com precisão fulminante em pleno combate naval."
+    },
+    {
+      "id": "scene-one-piece-tsuru",
+      "animeSlug": "one-piece",
+      "characterId": "tsuru",
+      "characterName": "Tsuru",
+      "videoUrl": "/scenes/one-piece/tsuru.webp",
+      "techniqueOrSceneName": "Woshu Woshu no Mi: Lavagem Tática em Marineford",
+      "description": "Vice-Almirante Tsuru caminhando serenamente diante dos inimigos lavados e estendidos no varal por sua Akuma no Mi."
+    },
+    {
+      "id": "scene-one-piece-vegapunk",
+      "animeSlug": "one-piece",
+      "characterId": "vegapunk",
+      "characterName": "Vegapunk",
+      "videoUrl": "/scenes/one-piece/vegapunk.webp",
+      "techniqueOrSceneName": "Nomi Nomi no Mi & Invenções de Egghead",
+      "description": "Dr. Vegapunk Stella surgindo em cena na Ilha do Futuro Egghead com seu domo cerebral de maçã."
+    },
+    {
+      "id": "scene-one-piece-stussy",
+      "animeSlug": "one-piece",
+      "characterId": "stussy",
+      "characterName": "Stussy",
+      "videoUrl": "/scenes/one-piece/stussy.webp",
+      "techniqueOrSceneName": "Asas de Vampiro & Kami-e Zanshin",
+      "description": "Agente Stussy no laboratório de Egghead revelando suas asas negras de morcego e presas vampíricas."
+    },
+    {
+      "id": "scene-one-piece-s-hawk",
+      "animeSlug": "one-piece",
+      "characterId": "s-hawk",
+      "characterName": "S-Hawk",
+      "videoUrl": "/scenes/one-piece/s-hawk.webp",
+      "techniqueOrSceneName": "Chamas Lunarianas & Corte Verde da Supa Supa no Mi",
+      "description": "Seraphim S-Hawk inflamando suas asas negras com fogo ancestral e disparando um corte esmeralda devastador."
+    },
+    {
+      "id": "scene-one-piece-s-snake",
+      "animeSlug": "one-piece",
+      "characterId": "s-snake",
+      "characterName": "S-Snake",
+      "videoUrl": "/scenes/one-piece/s-snake.webp",
+      "techniqueOrSceneName": "Acrobacia Lunariana & Mero Mero Mellow",
+      "description": "Seraphim S-Snake executando salto acrobático aéreo seguido do feixe petrificante em formato de coração."
+    },
+    {
+      "id": "scene-one-piece-s-bear",
+      "animeSlug": "one-piece",
+      "characterId": "s-bear",
+      "characterName": "S-Bear",
+      "videoUrl": "/scenes/one-piece/s-bear.webp",
+      "techniqueOrSceneName": "Nikyu Nikyu no Mi Replicada & Laser Pacifista",
+      "description": "Seraphim S-Bear envolto em chamas Lunarianas concentrando e disparando um feixe de laser dourado pela palma."
+    },
+    {
+      "id": "scene-one-piece-s-shark",
+      "animeSlug": "one-piece",
+      "characterId": "s-shark",
+      "characterName": "S-Shark",
+      "videoUrl": "/scenes/one-piece/s-shark.webp",
+      "techniqueOrSceneName": "Sui Sui no Mi & Disparo Laser de Combate",
+      "description": "Seraphim S-Shark emergindo do solo líquido como se fosse água e carregando um feixe laser concentrado."
+    },
+    {
+      "id": "scene-one-piece-topman-warcury",
+      "animeSlug": "one-piece",
+      "characterId": "topman-warcury",
+      "characterName": "St. Topman Warcury",
+      "videoUrl": "/scenes/one-piece/topman-warcury.webp",
+      "techniqueOrSceneName": "Forma Bestial Mítica: Javali Colossal Fengxi",
+      "description": "St. Topman Warcury transformado na besta ancestral Fengxi de quatro presas envolto em chamas negras do despertar."
+    },
+    {
+      "id": "scene-one-piece-ethanbaron-v-nusjuro",
+      "animeSlug": "one-piece",
+      "characterId": "ethanbaron-v-nusjuro",
+      "characterName": "St. Ethanbaron V. Nusjuro",
+      "videoUrl": "/scenes/one-piece/ethanbaron-v-nusjuro.webp",
+      "techniqueOrSceneName": "Forma Bestial Bakotsu & Corte Congelante do Submundo",
+      "description": "St. Ethanbaron V. Nusjuro galopando em sua forma esquelética Bakotsu e desferindo um corte relâmpago glacial."
+    },
+    {
+      "id": "scene-one-piece-marcus-mars",
+      "animeSlug": "one-piece",
+      "characterId": "marcus-mars",
+      "characterName": "St. Marcus Mars",
+      "videoUrl": "/scenes/one-piece/marcus-mars.webp",
+      "techniqueOrSceneName": "Forma Bestial Mítica: Ave Serpente Itsumade",
+      "description": "St. Marcus Mars sobrevoando os céus de Egghead na forma colossal do Yokai alado Itsumade envolto em nuvens negras."
+    },
+    {
+      "id": "scene-one-piece-shepherd-ju-peter",
+      "animeSlug": "one-piece",
+      "characterId": "shepherd-ju-peter",
+      "characterName": "St. Shepherd Ju Peter",
+      "videoUrl": "/scenes/one-piece/shepherd-ju-peter.webp",
+      "techniqueOrSceneName": "Forma Bestial Mítica: Verme de Areia Colossal",
+      "description": "St. Shepherd Ju Peter emergindo das chamas de Egghead como um gigantesco Verme de Areia devorador."
+    },
+    {
+      "id": "scene-one-piece-scratchmen-apoo",
+      "animeSlug": "one-piece",
+      "characterId": "scratchmen-apoo",
+      "characterName": "Scratchmen Apoo",
+      "videoUrl": "/scenes/one-piece/scratchmen-apoo.webp",
+      "techniqueOrSceneName": "Oto Oto no Mi: Tatakau Music (Ondas Sonoras Explosivas)",
+      "description": "Scratchmen Apoo tocando os instrumentos musicais de seu próprio corpo para propagar notas sonoras destrutivas."
+    },
+    {
+      "id": "scene-one-piece-drake-x",
+      "animeSlug": "one-piece",
+      "characterId": "drake-x",
+      "characterName": "Drake X.",
+      "videoUrl": "/scenes/one-piece/drake-x.webp",
+      "techniqueOrSceneName": "Ryu Ryu no Mi (Modelo Alossauro) & Machado de Quatro Lâminas",
+      "description": "X. Drake girando seu machado de quatro lâminas e sabre antes de assumir a forma pré-histórica de Alossauro."
+    },
+    {
+      "id": "scene-one-piece-basil-hawkins",
+      "animeSlug": "one-piece",
+      "characterId": "basil-hawkins",
+      "characterName": "Basil Hawkins",
+      "videoUrl": "/scenes/one-piece/basil-hawkins.webp",
+      "techniqueOrSceneName": "Wara Wara no Mi: Cartas de Tarô & Goma no So",
+      "description": "Basil Hawkins levitando seu círculo de cartas místicas e invocando o colosso de palha Goma no So."
+    },
+    {
+      "id": "scene-one-piece-urouge",
+      "animeSlug": "one-piece",
+      "characterId": "urouge",
+      "characterName": "Urouge",
+      "videoUrl": "/scenes/one-piece/urouge.webp",
+      "techniqueOrSceneName": "Inga Zarashi (Punição cármica e Expansão Muscular)",
+      "description": "O Monge Louco Urouge convertendo todo o dano sofrido em massa muscular titânica e força bruta devastadora."
+    },
+    {
+      "id": "scene-one-piece-bepo",
+      "animeSlug": "one-piece",
+      "characterId": "bepo",
+      "characterName": "Bepo",
+      "videoUrl": "/scenes/one-piece/bepo.webp",
+      "techniqueOrSceneName": "Transformação Feral Sulong (Leão da Lua)",
+      "description": "Bepo dos Piratas Heart assumindo sua gigantesca e feroz transformação Sulong de pelagem branca."
     }
   ],
   "tokyo-ghoul": [
