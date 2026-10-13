@@ -251,37 +251,53 @@ export function evaluateGuess(
       const gPower = (guessedVal as string) || '';
       const tPower = (targetVal as string) || '';
 
-      if ('fruitType' in guessed && 'fruitType' in target) {
-        const normalizeFruitCategory = (ft: string): string[] => {
+      if ('fruitType' in guessed || 'fruitType' in target || col.label.toLowerCase().includes('akuma no mi')) {
+        const normalizeFruitCategory = (char: Character): string[] => {
+          const raw = String(char.fruitType || char.styleOrPower || '').trim();
           const types: string[] = [];
-          if (/logia/i.test(ft)) types.push('Logia');
-          if (/paramecia/i.test(ft)) types.push('Paramecia');
-          if (/zoan/i.test(ft)) types.push('Zoan');
-          if (types.length === 0 || /nenhuma/i.test(ft)) return ['Nenhuma'];
+          if (/logia/i.test(raw)) types.push('Logia');
+          if (/paramecia/i.test(raw)) types.push('Paramecia');
+          if (/zoan/i.test(raw)) types.push('Zoan');
+          if (types.length === 0 || /nenhum/i.test(raw) || /nenhuma/i.test(raw)) return ['Nenhum'];
           return types;
         };
 
-        const gFruitType = (guessed.fruitType as string) || '';
-        const tFruitType = (target.fruitType as string) || '';
-
-        const gTypes = normalizeFruitCategory(gFruitType);
-        const tTypes = normalizeFruitCategory(tFruitType);
+        const gTypes = normalizeFruitCategory(guessed);
+        const tTypes = normalizeFruitCategory(target);
         const gVal = gTypes.join(' & ');
 
-        let status: MatchStatus = 'incorrect';
-        const exactMatch =
-          gTypes.length === tTypes.length &&
-          gTypes.every((t) => tTypes.includes(t));
-        const hasOverlap = gTypes.some(
-          (t) => t !== 'Nenhuma' && tTypes.includes(t)
-        );
+        const gHasFruit = !gTypes.includes('Nenhum');
+        const tHasFruit = !tTypes.includes('Nenhum');
 
-        if (exactMatch) {
-          status = 'correct';
-        } else if (hasOverlap) {
-          status = 'partial';
+        let status: MatchStatus = 'incorrect';
+
+        if (tHasFruit) {
+          if (!gHasFruit) {
+            // Se o secreto tem fruta e o palpite não tem (Nenhum): Vermelho
+            status = 'incorrect';
+          } else {
+            const exactMatch =
+              gTypes.length === tTypes.length &&
+              gTypes.every((t) => tTypes.includes(t));
+            const hasOverlap = gTypes.some((t) => tTypes.includes(t));
+
+            if (exactMatch || (tTypes.length > 1 && hasOverlap)) {
+              // Categoria exata (ex: Logia vs Logia): Verde
+              status = 'correct';
+            } else {
+              // Ambas têm fruta mas categorias diferentes (ex: Logia vs Paramecia/Zoan): Amarelo
+              status = 'partial';
+            }
+          }
         } else {
-          status = 'incorrect';
+          // O secreto NÃO tem fruta (Nenhum)
+          if (!gHasFruit) {
+            // Ambos não têm fruta: Verde
+            status = 'correct';
+          } else {
+            // Secreto não tem fruta, palpite tem: Vermelho
+            status = 'incorrect';
+          }
         }
 
         matches[col.key] = { status, value: gVal };

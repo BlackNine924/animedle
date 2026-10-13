@@ -545,25 +545,6 @@ export const App: React.FC<{
         ? characters[endlessTargetIndex % characters.length]
         : characters[dailyIndex % characters.length]);
 
-  // [TEMPORÁRIO] Exibe o nome do personagem no F12 / Console e expõe para inspeção rápida
-  React.useEffect(() => {
-    if (targetCharacter) {
-      const modeInfo = currentMode === 'scene' && currentSceneChallenge
-        ? `[Cena: ${currentSceneChallenge.techniqueOrSceneName} | Arquivo: ${currentSceneChallenge.videoUrl}]`
-        : `[Modo: ${currentMode}]`;
-      console.log(
-        `%c🎯 [DEBUG ANIME-DLE] Personagem Secreto: ${targetCharacter.name} (ID: ${targetCharacter.id}) ${modeInfo}`,
-        'color: #10b981; font-weight: bold; font-size: 13px; background: #062419; padding: 4px 8px; border-radius: 4px;'
-      );
-      (window as any).__TARGET_DEBUG__ = {
-        name: targetCharacter.name,
-        id: targetCharacter.id,
-        mode: currentMode,
-        scene: currentSceneChallenge,
-        isEndless: isCurrentEndless,
-      };
-    }
-  }, [targetCharacter?.id, currentMode, currentSceneChallenge?.id, isCurrentEndless]);
 
   // Armazenamento de estado independente por modo no Modo Diário
   const [dailyModeStates, setDailyModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
@@ -1243,7 +1224,7 @@ export const App: React.FC<{
               themeColor={animeConfig.themeColor}
             />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
+            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
           </div>
         )}
 
@@ -1265,7 +1246,7 @@ export const App: React.FC<{
               themeColor={animeConfig.themeColor}
             />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
+            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
           </div>
         )}
 
@@ -1286,7 +1267,7 @@ export const App: React.FC<{
               themeColor={animeConfig.themeColor}
             />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
+            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
           </div>
         )}
 
@@ -1353,7 +1334,7 @@ export const App: React.FC<{
               themeColor={animeConfig.themeColor}
             />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} />
+            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
           </div>
         )}
 
@@ -1411,7 +1392,14 @@ export const App: React.FC<{
         />
       )}
 
-      {showHowToPlay && <HowToPlayModal onClose={() => setShowHowToPlay(false)} />}
+      {showHowToPlay && (
+        <HowToPlayModal
+          onClose={() => setShowHowToPlay(false)}
+          currentMode={currentMode}
+          currentAnimeSlug={currentAnimeSlug}
+          animeConfig={animeConfig}
+        />
+      )}
       {showStats && (
         <StatsModal
           stats={(() => {

@@ -962,6 +962,24 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/arata-nitta.webp",
       "techniqueOrSceneName": "Técnica de Estabilização Médica Amaldiçoada",
       "description": "Arata Nitta concentrando energia amaldiçoada azul na palma da mão para estancar ferimentos graves."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-reggie-star",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "reggie-star",
+      "characterName": "Reggie Star",
+      "videoUrl": "/scenes/jujutsu-kaisen/reggie-star.webp",
+      "techniqueOrSceneName": "Reprodução de Contratos (Saigen Teru)",
+      "description": "Reggie Star queimando contratos de compras com energia amaldiçoada para manifestar objetos e ataques físicos."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-remi",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "remi",
+      "characterName": "Remi",
+      "videoUrl": "/scenes/jujutsu-kaisen/remi.webp",
+      "techniqueOrSceneName": "Cabelo de Escorpião (Scorpion Hair)",
+      "description": "Remi manipulando a ponta do cabelo transformada em ferrão letal de escorpião com energia amaldiçoada."
     }
   ],
   "my-hero-academia": [
@@ -3124,7 +3142,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "id": "scene-one-piece-drake-x",
       "animeSlug": "one-piece",
       "characterId": "drake-x",
-      "characterName": "Drake X.",
+      "characterName": "X Drake",
       "videoUrl": "/scenes/one-piece/drake-x.webp",
       "techniqueOrSceneName": "Ryu Ryu no Mi (Modelo Alossauro) & Machado de Quatro Lâminas",
       "description": "X. Drake girando seu machado de quatro lâminas e sabre antes de assumir a forma pré-histórica de Alossauro."

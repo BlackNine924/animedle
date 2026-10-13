@@ -5,13 +5,25 @@ import { Check, X } from 'lucide-react';
 interface SimpleGuessListProps {
   guesses: GuessResult[];
   targetCharacter: Character;
+  animeSlug?: string;
 }
 
-export const SimpleGuessList: React.FC<SimpleGuessListProps> = ({ guesses, targetCharacter }) => {
+export const SimpleGuessList: React.FC<SimpleGuessListProps> = ({ guesses, targetCharacter, animeSlug }) => {
   if (guesses.length === 0) {
     return (
-      <div className="text-center py-10 text-slate-400 text-xs border border-dashed border-[#202b43] rounded-2xl max-w-lg mx-auto my-6 bg-[#0d1426]/40">
-        Seus palpites neste modo aparecerão aqui!
+      <div className="text-center py-12 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-xl mx-auto my-6 bg-[#0d1426]/40 backdrop-blur-sm">
+        {animeSlug && (
+          <img
+            src={`/icons/${animeSlug}.png`}
+            alt=""
+            className="w-10 h-10 sm:w-12 sm:h-12 object-contain mx-auto mb-3 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]"
+            onError={(e) => {
+              (e.currentTarget as HTMLElement).style.display = 'none';
+            }}
+          />
+        )}
+        <p className="font-extrabold text-[#F5F7FF] text-base">Faça o seu primeiro palpite acima!</p>
+        <p className="text-xs mt-1 text-slate-400">Digite o nome de qualquer personagem para comparar seus atributos.</p>
       </div>
     );
   }

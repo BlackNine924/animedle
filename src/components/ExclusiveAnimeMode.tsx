@@ -12,6 +12,7 @@ import {
   ArrowRight,
   RotateCcw,
   Eye,
+  EyeOff,
   Sparkles,
   AlertTriangle,
   Share2,
@@ -40,6 +41,7 @@ interface SavedDailyExclusiveState {
   completed: boolean;
   won: boolean;
   score: number;
+  roundBaseScore: number;
   lives: number;
   guesses: { charId: string; charName: string; isCorrect: boolean }[];
   revealedClues: Record<number, boolean>;
@@ -107,6 +109,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   // Modais de Vitória e Derrota
   const [showResultModal, setShowResultModal] = useState<boolean>(false);
   const [revealedClues, setRevealedClues] = useState<Record<number, boolean>>({});
+  const [hideClues, setHideClues] = useState<boolean>(false);
   const [roundGuesses, setRoundGuesses] = useState<
     { charId: string; charName: string; isCorrect: boolean }[]
   >([]);
@@ -149,6 +152,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
             setIsWonRound(parsed.won);
             setLives(parsed.lives);
             setTotalScore(parsed.score);
+            setRoundBaseScore(parsed.roundBaseScore ?? Math.max(25, 100 - Object.keys(parsed.revealedClues || {}).length * 15));
             setRoundGuesses(parsed.guesses || []);
             setRevealedClues(parsed.revealedClues || {});
             setIsGameOver(!parsed.won && parsed.lives <= 0);
@@ -183,21 +187,24 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     }
   }, [isEndless, dailyStorageKey, dailyIndex, currentChallenge?.id, challenges.length]);
 
-  // Salva no localStorage quando o diário for finalizado
+  // Salva no localStorage o estado contínuo no Modo Diário (mesmo durante a partida e ao finalizar)
   useEffect(() => {
-    if (!isEndless && roundCompleted && currentChallenge) {
-      const stateToSave: SavedDailyExclusiveState = {
-        challengeId: currentChallenge.id,
-        completed: roundCompleted,
-        won: isWonRound,
-        score: totalScore,
-        lives,
-        guesses: roundGuesses,
-        revealedClues,
-      };
-      localStorage.setItem(dailyStorageKey, JSON.stringify(stateToSave));
+    if (!isEndless && currentChallenge) {
+      if (roundCompleted || Object.keys(revealedClues).length > 0 || roundGuesses.length > 0 || lives < 3) {
+        const stateToSave: SavedDailyExclusiveState = {
+          challengeId: currentChallenge.id,
+          completed: roundCompleted,
+          won: isWonRound,
+          score: totalScore,
+          roundBaseScore,
+          lives,
+          guesses: roundGuesses,
+          revealedClues,
+        };
+        localStorage.setItem(dailyStorageKey, JSON.stringify(stateToSave));
+      }
     }
-  }, [isEndless, roundCompleted, isWonRound, totalScore, lives, roundGuesses, revealedClues, dailyStorageKey, currentChallenge?.id]);
+  }, [isEndless, roundCompleted, isWonRound, totalScore, roundBaseScore, lives, roundGuesses, revealedClues, dailyStorageKey, currentChallenge?.id]);
 
   // Revelar Dica com desconto imediato de 15 pontos em tempo real
   const handleRevealClue = (idx: number) => {
@@ -465,6 +472,15 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
             <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
               <Lightbulb size={16} className="text-amber-400 animate-pulse" />
               <span>Pistas da rodada</span>
+              <button
+                type="button"
+                onClick={() => setHideClues((prev) => !prev)}
+                className="ml-2 flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border border-[#202b43] text-[10px] font-bold transition-all shadow-sm"
+                title={hideClues ? 'Mostrar pistas desbloqueadas' : 'Ocultar pistas desbloqueadas'}
+              >
+                {hideClues ? <EyeOff size={12} className="text-amber-400" /> : <Eye size={12} />}
+                <span>{hideClues ? 'Ocultas' : 'Visíveis'}</span>
+              </button>
             </div>
             <span className="text-[11px] text-slate-400 font-bold">
               Custo: <strong className="text-amber-400">-15 pts cada</strong>
@@ -499,9 +515,15 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
                     )}
                   </div>
                   {isRevealed ? (
-                    <p className="text-xs font-semibold text-white mt-1 leading-snug">
-                      {clue.value}
-                    </p>
+                    hideClues ? (
+                      <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">
+                        Dica oculta (clique no olho para ver)
+                      </p>
+                    ) : (
+                      <p className="text-xs font-semibold text-white mt-1 leading-snug">
+                        {clue.value}
+                      </p>
+                    )
                   ) : (
                     <p className="text-[11px] text-slate-600 italic">Clique para desbloquear</p>
                   )}
@@ -576,6 +598,22 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
                   <span>{g.charName} (-1 Vida)</span>
                 </span>
               ))}
+            </div>
+          )}
+
+          {/* Caixa Vazia quando ainda não houve palpites */}
+          {roundGuesses.length === 0 && !roundCompleted && (
+            <div className="text-center py-12 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-xl mx-auto my-6 bg-[#0d1426]/40 backdrop-blur-sm">
+              <img
+                src={`/icons/${animeSlug}.png`}
+                alt=""
+                className="w-10 h-10 sm:w-12 sm:h-12 object-contain mx-auto mb-3 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]"
+                onError={(e) => {
+                  (e.currentTarget as HTMLElement).style.display = 'none';
+                }}
+              />
+              <p className="font-extrabold text-[#F5F7FF] text-base">Faça o seu primeiro palpite acima!</p>
+              <p className="text-xs mt-1 text-slate-400">Digite o nome de qualquer personagem para comparar seus atributos.</p>
             </div>
           )}
 

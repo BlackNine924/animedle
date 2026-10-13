@@ -50,19 +50,13 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
           Diário
         </button>
         <button
-          onClick={() => {
-            if (isEndless && onNextEndless) {
-              onNextEndless();
-            } else {
-              onToggleEndless(true);
-            }
-          }}
+          onClick={() => onToggleEndless(true)}
           className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
             isEndless
-              ? 'bg-white/10 text-white border border-white/20 shadow-sm hover:bg-white/20 active:scale-95'
+              ? 'bg-white/10 text-white border border-white/20 shadow-sm'
               : 'text-slate-400 hover:text-white'
           }`}
-          title={isEndless ? 'Clique para trocar o personagem (avançar desafio)' : 'Modo Infinito'}
+          title="Modo Infinito"
         >
           Infinito
         </button>

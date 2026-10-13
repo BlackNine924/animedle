@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Character, GameMode } from '../types/anime';
-import { Lightbulb, Lock, Unlock, Flag, Sparkles } from 'lucide-react';
+import { Lightbulb, Lock, Unlock, Flag, Sparkles, Eye, EyeOff } from 'lucide-react';
 
 interface HintBoxProps {
   targetCharacter: Character;
@@ -21,6 +21,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
   currentMode = 'classic',
   currentAnimeSlug = 'demon-slayer',
 }) => {
+  const [hideClues, setHideClues] = useState<boolean>(false);
   const isOnePiece = currentAnimeSlug === 'one-piece';
 
   if (isOnePiece) {
@@ -53,6 +54,15 @@ export const HintBox: React.FC<HintBoxProps> = ({
           <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
             <Lightbulb size={16} className="text-amber-400 animate-pulse" />
             <span>Pistas da rodada</span>
+            <button
+              type="button"
+              onClick={() => setHideClues((prev) => !prev)}
+              className="ml-2 flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border border-[#202b43] text-[10px] font-bold transition-all shadow-sm"
+              title={hideClues ? 'Mostrar pistas desbloqueadas' : 'Ocultar pistas desbloqueadas'}
+            >
+              {hideClues ? <EyeOff size={12} className="text-amber-400" /> : <Eye size={12} />}
+              <span>{hideClues ? 'Ocultas' : 'Visíveis'}</span>
+            </button>
           </div>
           {!isWon && !disabled && (
             <button
@@ -93,9 +103,13 @@ export const HintBox: React.FC<HintBoxProps> = ({
               </span>
             </div>
             {hint1Unlocked ? (
-              <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn">
-                {targetCharacter.debutArc}
-              </p>
+              hideClues ? (
+                <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
+              ) : (
+                <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn">
+                  {targetCharacter.debutArc}
+                </p>
+              )
             ) : (
               <p className="text-[11px] text-slate-500 italic mt-1">
                 Libera em <strong className="text-slate-400">{hint1Remaining}</strong> {hint1Remaining === 1 ? 'erro' : 'erros'}
@@ -129,9 +143,13 @@ export const HintBox: React.FC<HintBoxProps> = ({
               </span>
             </div>
             {hint2Unlocked ? (
-              <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn">
-                {fruitHintText}
-              </p>
+              hideClues ? (
+                <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
+              ) : (
+                <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn">
+                  {fruitHintText}
+                </p>
+              )
             ) : (
               <p className="text-[11px] text-slate-500 italic mt-1">
                 Libera em <strong className="text-slate-400">{hint2Remaining}</strong> {hint2Remaining === 1 ? 'erro' : 'erros'}
@@ -165,9 +183,13 @@ export const HintBox: React.FC<HintBoxProps> = ({
               </span>
             </div>
             {hint3Unlocked ? (
-              <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn line-clamp-2">
-                {affiliationHintText}
-              </p>
+              hideClues ? (
+                <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
+              ) : (
+                <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn line-clamp-2">
+                  {affiliationHintText}
+                </p>
+              )
             ) : (
               <p className="text-[11px] text-slate-500 italic mt-1">
                 Libera em <strong className="text-slate-400">{hint3Remaining}</strong> {hint3Remaining === 1 ? 'erro' : 'erros'}
@@ -234,9 +256,19 @@ export const HintBox: React.FC<HintBoxProps> = ({
   return (
     <div className="max-w-2xl mx-auto my-6 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-xl shadow-black/20">
       <div className="flex items-center justify-between border-b border-[#202b43] pb-3 mb-3.5">
-        <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
-          <Lightbulb size={16} className="text-amber-400 animate-pulse" />
-          <span>Pistas da rodada</span>
+        <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
+            <Lightbulb size={16} className="text-amber-400 animate-pulse" />
+            <span>Pistas da rodada</span>
+          </div>
+          <button
+            onClick={() => setHideClues(!hideClues)}
+            className="ml-2 flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border border-[#202b43] text-[10px] font-bold transition-all shadow-sm"
+            title={hideClues ? 'Mostrar pistas desbloqueadas' : 'Ocultar pistas desbloqueadas'}
+          >
+            {hideClues ? <EyeOff size={12} className="text-amber-400" /> : <Eye size={12} />}
+            <span>{hideClues ? 'Ocultas' : 'Visíveis'}</span>
+          </button>
         </div>
         {!isWon && !disabled && (
           <button
@@ -277,9 +309,13 @@ export const HintBox: React.FC<HintBoxProps> = ({
             </span>
           </div>
           {hint1Unlocked ? (
-            <p className="font-extrabold text-sm text-white mt-1 animate-fadeIn">
-              {hint1Content}
-            </p>
+            hideClues ? (
+              <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
+            ) : (
+              <p className="font-extrabold text-sm text-white mt-1 animate-fadeIn">
+                {hint1Content}
+              </p>
+            )
           ) : (
             <p className="text-[11px] text-slate-500 italic mt-1">
               Libera em <strong className="text-slate-400">{hint1Remaining}</strong> {hint1Remaining === 1 ? 'erro' : 'erros'}
@@ -313,9 +349,13 @@ export const HintBox: React.FC<HintBoxProps> = ({
             </span>
           </div>
           {hint2Unlocked ? (
-            <p className="font-extrabold text-xs text-white mt-1 italic line-clamp-2 animate-fadeIn">
-              "{hint2Content}"
-            </p>
+            hideClues ? (
+              <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
+            ) : (
+              <p className="font-extrabold text-xs text-white mt-1 italic line-clamp-2 animate-fadeIn">
+                "{hint2Content}"
+              </p>
+            )
           ) : (
             <p className="text-[11px] text-slate-500 italic mt-1">
               Libera em <strong className="text-slate-400">{hint2Remaining}</strong> {hint2Remaining === 1 ? 'erro' : 'erros'}

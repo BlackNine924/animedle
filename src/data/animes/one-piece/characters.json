@@ -8,7 +8,7 @@
       "Chapéus de Palha",
       "Quatro Imperadores"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 3000000000,
     "styleOrPower": "Zoan Mítica (Hito Hito no Mi: Modelo Nika)",
@@ -58,7 +58,7 @@
     "affiliation": [
       "Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 1111000000,
     "styleOrPower": "Nenhum",
@@ -83,11 +83,11 @@
       "Chapéus de Palha",
       "Família Franky"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 394000000,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "quote": "SUUUUPER!",
     "avatar": "/avatars/one-piece/franky.png",
@@ -108,7 +108,7 @@
       "Chapéus de Palha",
       "Germa 66"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 1032000000,
     "styleOrPower": "Nenhum",
@@ -157,7 +157,7 @@
       "Chapéus de Palha",
       "Piratas do Arlong"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 366000000,
     "styleOrPower": "Nenhum",
@@ -181,7 +181,7 @@
     "affiliation": [
       "Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Observação",
     "bounty": 500000000,
     "styleOrPower": "Nenhum",
@@ -232,7 +232,7 @@
       "Piratas do Sol",
       "Sete Warlords do Mar"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 1100000000,
     "styleOrPower": "Nenhum",
@@ -286,7 +286,7 @@
       "Chapéus de Palha",
       "Baroque Works"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -311,7 +311,7 @@
       "Quatro Imperadores",
       "Piratas do Roger"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 4048900000,
     "styleOrPower": "Nenhum",
@@ -360,7 +360,7 @@
       "Cross Guild",
       "Sete Warlords do Mar"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 3590000000,
     "styleOrPower": "Nenhum",
@@ -408,7 +408,7 @@
     "affiliation": [
       "Piratas do Gato Preto"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 16000000,
     "styleOrPower": "Nenhum",
@@ -481,7 +481,7 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -535,7 +535,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Logia (Hie Hie no Mi)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Long Ring Long Land",
     "status": "Vivo",
     "quote": "Justiça Preguiçosa.",
     "avatar": "/avatars/one-piece/kuzan.png",
@@ -584,7 +584,7 @@
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 340000000,
     "styleOrPower": "Paramecia (Ito Ito no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "quote": "Os vencedores ditarão o que é a justiça!",
     "avatar": "/avatars/one-piece/donquixote-doflamingo.png",
@@ -631,7 +631,7 @@
       "Civil",
       "Reino de Drum"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -655,11 +655,11 @@
       "CP9",
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kumadori.png",
     "quote": "",
@@ -704,7 +704,7 @@
     "affiliation": [
       "Piratas do Ruivo"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -727,7 +727,7 @@
     "affiliation": [
       "Piratas do Roger"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 5564800000,
     "styleOrPower": "Nenhum",
@@ -750,7 +750,7 @@
     "affiliation": [
       "Exército Revolucionário"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -774,7 +774,7 @@
     "affiliation": [
       "Piratas do Ruivo"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -798,7 +798,7 @@
       "Marinha",
       "Piratas do Gato Preto"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -822,7 +822,7 @@
       "Piratas do Arlong",
       "Piratas do Sol"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 20000000,
     "styleOrPower": "Nenhum",
@@ -847,7 +847,7 @@
       "Civil",
       "Vila Cocoyasi"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -872,7 +872,7 @@
       "Piratas do Sol",
       "Piratas do Arlong"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 8000000,
     "styleOrPower": "Nenhum",
@@ -897,7 +897,7 @@
       "Marinha",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -921,7 +921,7 @@
       "Piratas do Arlong",
       "Piratas do Sol"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 5500000,
     "styleOrPower": "Nenhum",
@@ -946,7 +946,7 @@
       "Civil",
       "Vila Cocoyasi"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -971,7 +971,7 @@
       "Caçadores de Recompensas",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -995,7 +995,7 @@
       "Caçadores de Recompensas",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1019,7 +1019,7 @@
       "Piratas do Arlong",
       "Piratas do Sol"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 9000000,
     "styleOrPower": "Nenhum",
@@ -1044,7 +1044,7 @@
       "Cross Guild",
       "Piratas do Buggy"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1069,7 +1069,7 @@
       "Cross Guild",
       "Piratas do Buggy"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1094,7 +1094,7 @@
       "Cross Guild",
       "Piratas do Buggy"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1169,7 +1169,7 @@
       "Piratas Rumbar",
       "Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1193,7 +1193,7 @@
       "Reino de Alabasta",
       "Baroque Works"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1217,7 +1217,7 @@
       "Baroque Works",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1287,7 +1287,7 @@
     "affiliation": [
       "Baroque Works"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 2900000,
     "styleOrPower": "Nenhum",
@@ -1310,7 +1310,7 @@
     "affiliation": [
       "Piratas Guerreiros de Elbaf"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 1800000000,
     "styleOrPower": "Nenhum",
@@ -1333,7 +1333,7 @@
     "affiliation": [
       "Piratas Guerreiros de Elbaf"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 1800000000,
     "styleOrPower": "Nenhum",
@@ -1411,7 +1411,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Zoan (Neko Neko no Mi: Modelo Leopardo)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "quote": "Minha única motivação é a matança em nome da Justiça.",
     "avatar": "/avatars/one-piece/rob-lucci.png",
@@ -1432,11 +1432,11 @@
       "Galley-La Company",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/iceburg.png",
     "quote": "",
@@ -1462,7 +1462,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Awa Awa no Mi)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Viva",
     "avatar": "/avatars/one-piece/kalifa.png",
     "quote": "",
@@ -1488,7 +1488,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Zoan (Ushi Ushi no Mi: Modelo Girafa)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kaku.png",
     "quote": "",
@@ -1508,11 +1508,11 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Viva",
     "avatar": "/avatars/one-piece/chimney.png",
     "quote": "",
@@ -1533,11 +1533,11 @@
       "CP9",
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/spandam.png",
     "quote": "",
@@ -1630,7 +1630,7 @@
     "affiliation": [
       "Piratas de Thriller Bark"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1677,7 +1677,7 @@
     "affiliation": [
       "Guerreiros Shandians"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1702,11 +1702,11 @@
       "Marinha",
       "SWORD"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 3000000000,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "quote": "Punho do Amor!",
     "avatar": "/avatars/one-piece/garp.png",
@@ -1727,11 +1727,11 @@
       "Galley-La Company",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/paulie.png",
     "quote": "",
@@ -1775,7 +1775,7 @@
     "affiliation": [
       "Piratas da Armada de Krieg"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 17000000,
     "styleOrPower": "Nenhum",
@@ -1799,7 +1799,7 @@
     "affiliation": [
       "Piratas da Armada de Krieg"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 12000000,
     "styleOrPower": "Nenhum",
@@ -1822,7 +1822,7 @@
     "affiliation": [
       "Piratas do Barba Branca"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 1374000000,
     "styleOrPower": "Zoan Mítica (Tori Tori no Mi: Modelo Fênix)",
@@ -1849,7 +1849,7 @@
     "fruitType": "Zoan",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Zoan (Asas de Fruta Voadora & Infiltração)",
+    "styleOrPower": "Zoan (Tori Tori no Mi: Modelo Albatroz)",
     "debutArc": "Skypiea",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/lafitte.png",
@@ -1870,7 +1870,7 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1893,7 +1893,7 @@
     "affiliation": [
       "Reino de Alabasta"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1916,7 +1916,7 @@
     "affiliation": [
       "Piratas de Thriller Bark"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1939,7 +1939,7 @@
     "affiliation": [
       "Piratas do Ruivo"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -1986,7 +1986,7 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2010,7 +2010,7 @@
       "Civil",
       "Ilha dos Tritões"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2033,7 +2033,7 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2057,7 +2057,7 @@
       "Civil",
       "Baratie"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2080,7 +2080,7 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2104,7 +2104,7 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2127,7 +2127,7 @@
     "affiliation": [
       "Piratas do Foxy"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2156,7 +2156,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Doa Doa no Mi)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/blueno.png",
     "quote": "",
@@ -2177,11 +2177,11 @@
       "CP9",
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/fukurou.png",
     "quote": "",
@@ -2202,11 +2202,11 @@
       "CP9",
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Morto",
     "avatar": "/avatars/one-piece/nero.png",
     "quote": "",
@@ -2231,7 +2231,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Inu Inu no Mi: Modelo Lobo)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/jyabura.png",
     "quote": "",
@@ -2251,7 +2251,7 @@
     "affiliation": [
       "Piratas do Ruivo"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 94000000,
     "styleOrPower": "Nenhum",
@@ -2275,7 +2275,7 @@
       "Marinha",
       "SWORD"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 500000000,
     "styleOrPower": "Nenhum",
@@ -2300,7 +2300,7 @@
       "Marinha",
       "SWORD"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2324,7 +2324,7 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 0,
     "styleOrPower": "Zoan Mítica (Hito Hito no Mi: Modelo Daibutsu)",
@@ -2347,7 +2347,7 @@
     "affiliation": [
       "Baroque Works"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 3200000,
     "styleOrPower": "Nenhum",
@@ -2445,7 +2445,7 @@
       "Piratas do Roger",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2469,7 +2469,7 @@
     "affiliation": [
       "Guerreiros Shandians"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2492,7 +2492,7 @@
     "affiliation": [
       "Reino de Lvneel"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2516,7 +2516,7 @@
     "affiliation": [
       "Piratas do Coração"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 500,
     "styleOrPower": "Nenhum",
@@ -2540,7 +2540,7 @@
     "affiliation": [
       "Sacerdotes de Enel"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2564,7 +2564,7 @@
     "affiliation": [
       "Piratas Rumbar"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2588,11 +2588,11 @@
       "CP9",
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/spandine.png",
     "quote": "",
@@ -2612,7 +2612,7 @@
       "Piratas do Arlong",
       "Piratas Caribou"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2635,7 +2635,7 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2658,10 +2658,10 @@
     "affiliation": [
       "Piratas do Kid"
     ],
-    "fruitType": "Zoan Artificial",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 200000000,
-    "styleOrPower": "Zoan Artificial (Foices Giratórias Punishers)",
+    "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/killer.png",
@@ -2683,7 +2683,7 @@
       "Rosy Life Riders",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2707,7 +2707,7 @@
       "Civil",
       "Reino de Drum"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2730,7 +2730,7 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2802,7 +2802,7 @@
       "Piratas Kuja",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2844,7 +2844,7 @@
   },
   {
     "id": "drake-x",
-    "name": "Drake X.",
+    "name": "X Drake",
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
@@ -2853,7 +2853,7 @@
       "Piratas Drake",
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 222000000,
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Alossauro)",
@@ -2975,7 +2975,7 @@
     "affiliation": [
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -2999,11 +2999,11 @@
       "Marinha",
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/jaguar-d-saul.png",
     "quote": "",
@@ -3095,7 +3095,7 @@
     "affiliation": [
       "Piratas do Coração"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3263,7 +3263,7 @@
     "affiliation": [
       "Germa 66"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3287,7 +3287,7 @@
     "affiliation": [
       "Germa 66"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3310,7 +3310,7 @@
     "affiliation": [
       "Germa 66"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3334,7 +3334,7 @@
     "affiliation": [
       "Germa 66"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3358,7 +3358,7 @@
     "affiliation": [
       "Germa 66"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3384,12 +3384,12 @@
       "Quatro Imperadores",
       "Piratas Rocks"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 4611100000,
     "styleOrPower": "Zoan Mítica (Uo Uo no Mi: Modelo Seiryu)",
     "quote": "A força das armas é tudo o que importa no mundo!",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Morto",
     "avatar": "/avatars/one-piece/kaidou.png",
     "techniques": [
@@ -3409,7 +3409,7 @@
       "País de Wano",
       "Chapéus de Palha"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 0,
     "styleOrPower": "Zoan Mítica (Inu Inu no Mi: Modelo Okami)",
@@ -3433,7 +3433,7 @@
     "affiliation": [
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 1390000000,
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Pteranodonte)",
@@ -3458,7 +3458,7 @@
       "Piratas das Feras",
       "MADS"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 1320000000,
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Braquiossauro)",
@@ -3482,12 +3482,12 @@
     "affiliation": [
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 1000000000,
     "styleOrPower": "Zoan Ancestral (Zou Zou no Mi: Modelo Mamute)",
     "quote": "",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/jack.png",
     "techniques": [
@@ -3506,7 +3506,7 @@
     "affiliation": [
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 400000000,
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Paquicefalossauro)",
@@ -3530,7 +3530,7 @@
     "affiliation": [
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 290000000,
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Espinossauro)",
@@ -3555,7 +3555,7 @@
       "Piratas do Roger",
       "Piratas do Barba Branca"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3580,12 +3580,12 @@
       "País de Wano",
       "Chapéus de Palha"
     ],
-    "fruitType": "Zoan Artificial",
+    "fruitType": "Zoan",
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Zoan Artificial (Uo Uo no Mi Artificial (Dragão Rosa))",
     "quote": "Meu nome é Kozuki Momonosuke! O homem que se tornará o Xogum de Wano!",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kozuki-momonosuke.png",
     "techniques": [
@@ -3607,9 +3607,9 @@
     "fruitType": "Paramecia",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Paramecia (Fuku Fuku no Mi & Estilo Raposa de Fogo)",
+    "styleOrPower": "Paramecia (Fuku Fuku no Mi)",
     "quote": "",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Punk Hazard",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kinemon.png",
     "techniques": [
@@ -3630,7 +3630,7 @@
     "fruitType": "Logia",
     "haki": "Armamento & Observação",
     "bounty": 602000000,
-    "styleOrPower": "Logia (Mera Mera no Mi & Garra do Dragão (Ryusoken))",
+    "styleOrPower": "Logia (Mera Mera no Mi)",
     "quote": "Se o Luffy precisar de mim, estarei lá em qualquer lugar do mundo!",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
@@ -3654,7 +3654,7 @@
     "fruitType": "Paramecia",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Paramecia (Horu Horu no Mi & Newkama Kenpo)",
+    "styleOrPower": "Paramecia (Horu Horu no Mi)",
     "quote": "Milagres só acontecem para aqueles que nunca desistem!",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
@@ -3722,7 +3722,7 @@
     "affiliation": [
       "Piratas Rocks"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3768,7 +3768,7 @@
     "affiliation": [
       "Elbaf"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 2600000000,
     "styleOrPower": "Zoan Mítica (Ryu Ryu no Mi: Modelo Nidhogg)",
@@ -3791,12 +3791,12 @@
     "affiliation": [
       "Grand Frota dos Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "quote": "",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/hajrudin.png",
     "techniques": [
@@ -3889,12 +3889,12 @@
       "Grand Frota dos Chapéus de Palha",
       "Piratas Novo Elbaf"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
     "quote": "",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Viva",
     "avatar": "/avatars/one-piece/gerd.png",
     "techniques": [
@@ -3912,7 +3912,7 @@
     "affiliation": [
       "Piratas Novo Elbaf"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -3962,7 +3962,7 @@
       "MADS",
       "Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -4035,7 +4035,7 @@
     "affiliation": [
       "Piratas do Sol"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 230000000,
     "styleOrPower": "Nenhum",
@@ -4065,7 +4065,7 @@
     "bounty": 0,
     "styleOrPower": "Paramecia (Nagi Nagi no Mi)",
     "quote": "Eu te amo, Law!",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Morto",
     "avatar": "/avatars/one-piece/corazon.png",
     "techniques": [
@@ -4108,7 +4108,7 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -4189,7 +4189,7 @@
     "debutArc": "Egghead",
     "status": "Morto",
     "avatar": "/avatars/one-piece/shaka.png",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "techniques": [
       "Análise Tática de Segurança",
       "Capacete de Transmissão"
@@ -4213,7 +4213,7 @@
     "debutArc": "Egghead",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/edison.png",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "techniques": [
       "Brainstorming Científico de Alta Velocidade"
     ],
@@ -4236,7 +4236,7 @@
     "debutArc": "Egghead",
     "status": "Morto",
     "avatar": "/avatars/one-piece/pythagoras.png",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "techniques": [
       "Coleta e Processamento de Dados de Combate"
     ],
@@ -4253,7 +4253,7 @@
       "MADS",
       "Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -4284,7 +4284,7 @@
     "debutArc": "Egghead",
     "status": "Viva",
     "avatar": "/avatars/one-piece/york.png",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "techniques": [
       "Controle dos Seraphims",
       "Pacifistas"
@@ -4309,7 +4309,7 @@
     "debutArc": "Egghead",
     "status": "Morto",
     "avatar": "/avatars/one-piece/jaygarcia-saturn.png",
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "techniques": [
       "Invocação Ritual",
       "Telepatia de Estado"
@@ -4334,7 +4334,7 @@
     "debutArc": "Egghead",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/topman-warcury.png",
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "techniques": [
       "Rugido de Haki Conquistador",
       "Invulnerabilidade"
@@ -4359,7 +4359,7 @@
     "debutArc": "Egghead",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/marcus-mars.png",
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "techniques": [
       "Sopro de Fogo Divino",
       "Voo de Alta Velocidade"
@@ -4384,7 +4384,7 @@
     "debutArc": "Egghead",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/ethanbaron-v-nusjuro.png",
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "techniques": [
       "Esgrima Congelante de Kitetsu com Velocidade Cavalar"
     ],
@@ -4408,7 +4408,7 @@
     "debutArc": "Egghead",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/shepherd-ju-peter.png",
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "techniques": [
       "Devoração Subterrânea",
       "Sucção Gigantesca"
@@ -4432,7 +4432,7 @@
     "debutArc": "East Blue",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/scopper-gaban.png",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "techniques": [
       "Esgrima de Machados Duplos",
       "Haki Avançado"
@@ -4505,7 +4505,7 @@
     "debutArc": "Egghead",
     "status": "Morto",
     "avatar": "/avatars/one-piece/emet.png",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "techniques": [
       "Nó de Haki Conquistador Guardado de Joy Boy"
     ],
@@ -4530,7 +4530,7 @@
     "debutArc": "Egghead",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/figarland-garling.png",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "techniques": [
       "Esgrima Sagrada de Mariejois"
     ],
@@ -4645,8 +4645,8 @@
     "haki": "Armamento & Observação",
     "bounty": 480000000,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "fruitType": "Nenhum",
+    "debutArc": "Zou",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/edward-weevil.png",
     "combatType": "Magia / Poder Sobrenatural",
@@ -4665,8 +4665,8 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "fruitType": "Nenhum",
+    "debutArc": "Zou",
     "status": "Viva",
     "avatar": "/avatars/one-piece/miss-bakkin.png",
     "combatType": "Magia / Poder Sobrenatural",
@@ -4685,7 +4685,7 @@
     "bounty": 3000000000,
     "styleOrPower": "Paramecia (Zushi Zushi no Mi)",
     "fruitType": "Paramecia",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/issho-fujitora.png",
     "combatType": "Combate Corpo a Corpo",
@@ -4722,7 +4722,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Egghead",
     "status": "Viva",
     "avatar": "/avatars/one-piece/doll.png",
@@ -4742,7 +4742,7 @@
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Egghead",
     "status": "Viva",
     "avatar": "/avatars/one-piece/hibari.png",
@@ -4801,8 +4801,8 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
-    "debutArc": "Water 7 / Enies Lobby",
+    "fruitType": "Nenhum",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/oimo.png",
     "combatType": "Magia / Poder Sobrenatural",
@@ -4820,8 +4820,8 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
-    "debutArc": "Water 7 / Enies Lobby",
+    "fruitType": "Nenhum",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kashi.png",
     "combatType": "Magia / Poder Sobrenatural",
@@ -4839,8 +4839,8 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
-    "debutArc": "Water 7 / Enies Lobby",
+    "fruitType": "Nenhum",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/peepley-lulu.png",
     "combatType": "Magia / Poder Sobrenatural",
@@ -4858,8 +4858,8 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
-    "debutArc": "Water 7 / Enies Lobby",
+    "fruitType": "Nenhum",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/tilestone.png",
     "combatType": "Magia / Poder Sobrenatural",
@@ -4877,7 +4877,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Thriller Bark",
     "status": "Morta",
     "avatar": "/avatars/one-piece/victoria-cindry.png",
@@ -4897,7 +4897,7 @@
     "haki": "Nenhum",
     "bounty": 24000000,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Thriller Bark",
     "status": "Viva",
     "avatar": "/avatars/one-piece/lola.png",
@@ -4916,7 +4916,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Elbaf",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/sommers.png",
@@ -4935,7 +4935,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Elbaf",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/killingham.png",
@@ -4954,7 +4954,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Elbaf",
     "status": "Viva",
     "avatar": "/avatars/one-piece/gunko.png",
@@ -4974,7 +4974,7 @@
     "haki": "Conquistador, Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Elbaf",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/rei-harald.png",
@@ -4994,7 +4994,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Thriller Bark",
     "status": "Morto",
     "avatar": "/avatars/one-piece/ryuma.png",
@@ -5018,7 +5018,7 @@
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "Ilha dos Tritões",
     "status": "Viva",
     "avatar": "/avatars/one-piece/shirahoshi.png",
@@ -5039,7 +5039,7 @@
     "bounty": 200000000,
     "styleOrPower": "Paramecia (Bari Bari no Mi)",
     "fruitType": "Paramecia",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/bartolomeo.png",
     "combatType": "Combate Corpo a Corpo",
@@ -5057,9 +5057,9 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 330000000,
-    "styleOrPower": "Hakuba",
-    "fruitType": "Nenhuma",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/cavendish.png",
     "combatType": "Combate Corpo a Corpo",
@@ -5076,9 +5076,9 @@
     ],
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Karatê Tritão",
-    "fruitType": "Nenhuma",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Viva",
     "avatar": "/avatars/one-piece/koala.png",
     "combatType": "Combate Corpo a Corpo",
@@ -5096,8 +5096,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 382000000,
-    "styleOrPower": "Electro",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "Whole Cake Island",
     "status": "Morto",
     "avatar": "/avatars/one-piece/pedro.png",
@@ -5116,8 +5116,8 @@
     ],
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Electro / Sulong",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "Whole Cake Island",
     "status": "Viva",
     "avatar": "/avatars/one-piece/carrot.png",
@@ -5137,7 +5137,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan Mítica (Hebi Hebi no Mi, Modelo: Yamata no Orochi)",
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "debutArc": "País de Wano",
     "status": "Morto",
     "avatar": "/avatars/one-piece/kurozumi-orochi.png",
@@ -5157,7 +5157,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "debutArc": "País de Wano",
     "status": "Viva",
     "avatar": "/avatars/one-piece/kozuki-hiyori.png",
@@ -5176,8 +5176,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Estilo de Duas Espadas",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "País de Wano",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/denjiro.png",
@@ -5196,8 +5196,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Estilo de Espada",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "País de Wano",
     "status": "Viva",
     "avatar": "/avatars/one-piece/kikunojo.png",
@@ -5216,8 +5216,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Karatê Tritão / Estilo Kappa",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "País de Wano",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kawamatsu.png",
@@ -5236,8 +5236,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Electro / Sulong",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/inuarashi.png",
@@ -5256,8 +5256,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Electro / Sulong",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "Whole Cake Island",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/nekomamushi.png",
@@ -5296,8 +5296,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Estilo de Espada",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "País de Wano",
     "status": "Morto",
     "avatar": "/avatars/one-piece/ashura-doji.png",
@@ -5379,8 +5379,8 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Estilo de Duas Espadas",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/vista.png",
@@ -5418,9 +5418,9 @@
     ],
     "haki": "Observação",
     "bounty": 0,
-    "styleOrPower": "Estilo de Espada",
-    "fruitType": "Nenhuma",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Viva",
     "avatar": "/avatars/one-piece/rebecca.png",
     "combatType": "Usuário de Espada / Lâmina",
@@ -5438,9 +5438,9 @@
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Espadachim",
-    "fruitType": "Nenhuma",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kyros.png",
     "combatType": "Usuário de Espada / Lâmina",
@@ -5459,8 +5459,8 @@
     ],
     "haki": "Conquistador, Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Estilo de Espada",
-    "fruitType": "Nenhuma",
+    "styleOrPower": "Nenhum",
+    "fruitType": "Nenhum",
     "debutArc": "Elbaf",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/shamrock.png",
@@ -5577,7 +5577,7 @@
     "affiliation": [
       "Piratas do Barba Negra"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Zoan Mítica (Inu Inu no Mi: Modelo Kyubi no Kitsune)",
@@ -5677,7 +5677,7 @@
     "haki": "Nenhum",
     "bounty": 300000000,
     "styleOrPower": "Logia (Gasu Gasu no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Punk Hazard",
     "status": "Vivo",
     "quote": "Shurorororo! A ciência é a força suprema deste mundo!",
     "avatar": "/avatars/one-piece/caesar-clown.png",
@@ -5700,10 +5700,10 @@
     "affiliation": [
       "Novos Piratas Tritões"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Karatê Homem-Peixe e Esteroides de Energia",
+    "styleOrPower": "Nenhum",
     "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/hody-jones.png",
@@ -5745,7 +5745,7 @@
     "haki": "Armamento & Observação",
     "bounty": 0,
     "styleOrPower": "Paramecia (Fude Fude no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Morto",
     "avatar": "/avatars/one-piece/kurozumi-kanjuro.png",
     "quote": "Eu vivi minha vida inteira no palco, atuando como o mais leal servo dos Kozuki!",
@@ -5765,7 +5765,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Logia (Yuki Yuki no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Punk Hazard",
     "status": "Morta",
     "avatar": "/avatars/one-piece/monet.png",
     "quote": "Jovem Mestre... você é o único destinado a se tornar o Rei dos Piratas!",
@@ -5782,11 +5782,11 @@
       "Piratas Donquixote",
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Oni-Take e Revestimento Completo de Busoshoku",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Punk Hazard",
     "status": "Morto",
     "avatar": "/avatars/one-piece/vergo.png",
     "quote": "Chame-me de Vice-Almirante Vergo com o devido respeito.",
@@ -5806,7 +5806,7 @@
     "haki": "Armamento & Observação",
     "bounty": 99000000,
     "styleOrPower": "Paramecia (Beta Beta no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/trebol.png",
     "quote": "Nee, nee, Doffy! Você nasceu com o sangue de um rei supremo!",
@@ -5826,7 +5826,7 @@
     "haki": "Armamento & Observação",
     "bounty": 99000000,
     "styleOrPower": "Paramecia (Hira Hira no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/diamante.png",
     "quote": "O herói do Coliseu Corrida sou eu, Diamante!",
@@ -5846,7 +5846,7 @@
     "haki": "Armamento & Observação",
     "bounty": 99000000,
     "styleOrPower": "Paramecia (Ishi Ishi no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/pica.png",
     "quote": "Qualquer um que rir da minha voz será esmagado pela rocha!",
@@ -5866,7 +5866,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Hobi Hobi no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Viva",
     "avatar": "/avatars/one-piece/sugar.png",
     "quote": "Um simples toque da minha mão e o mundo inteiro esquecerá que você existiu.",
@@ -5886,7 +5886,7 @@
     "haki": "Armamento",
     "bounty": 58000000,
     "styleOrPower": "Paramecia (Sui Sui no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/senor-pink.png",
     "quote": "Homens de verdade bebem com orgulho e nunca recuam de um duelo leal.",
@@ -5902,7 +5902,7 @@
     "affiliation": [
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 546000000,
     "styleOrPower": "Zoan Ancestral (Neko Neko no Mi: Modelo Dente-de-Sabre)",
@@ -5922,7 +5922,7 @@
     "affiliation": [
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 472000000,
     "styleOrPower": "Zoan Ancestral (Ryu Ryu no Mi: Modelo Tricerátops)",
@@ -5942,7 +5942,7 @@
     "affiliation": [
       "Piratas das Feras"
     ],
-    "fruitType": "Zoan Ancestral",
+    "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 480000000,
     "styleOrPower": "Zoan Ancestral (Kumo Kumo no Mi: Modelo Rosamygale Grauvogeli)",
@@ -5963,10 +5963,10 @@
       "Marinha",
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Ashigara Dokkoi e Defesa Mais Forte do Mundo",
+    "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/sentomaru.png",
@@ -5983,11 +5983,11 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento",
     "bounty": 0,
-    "styleOrPower": "Cortes de Espada Retos em Ângulo Reto",
-    "debutArc": "Water 7 / Enies Lobby",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Enies Lobby",
     "status": "Morto",
     "avatar": "/avatars/one-piece/t-bone.png",
     "quote": "Mesmo que meus ossos se quebrem, não permitirei que inocentes sofram ferimentos!",
@@ -6003,11 +6003,11 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Rokushiki e Kenjutsu de Espada Longa",
-    "debutArc": "Water 7 / Enies Lobby",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/momonga.png",
     "quote": "A dor de uma faca esfaqueando a própria mão limpa a mente de pensamentos vis.",
@@ -6026,8 +6026,8 @@
     "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Zoan (Kumo Kumo no Mi) e Estilo Oito Espadas",
-    "debutArc": "Water 7 / Enies Lobby",
+    "styleOrPower": "Zoan (Kumo Kumo no Mi)",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/onigumo.png",
     "quote": "Mesmo que tenhamos que afundar nossos próprios navios, a Justiça Absoluta prevalecerá!",
@@ -6043,11 +6043,11 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Kenjutsu e Justiça Absoluta da Marinha",
-    "debutArc": "Water 7 / Enies Lobby",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/doberman.png",
     "quote": "Piratas não devem ser perdoados sob circunstância alguma!",
@@ -6063,10 +6063,10 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Kenjutsu Veloz e Braço-Direito de Garp",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/bogard.png",
@@ -6083,10 +6083,10 @@
     "affiliation": [
       "Marinha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Estratégia e Cálculo de Recompensas Mundiais",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/brannew.png",
@@ -6103,10 +6103,10 @@
     "affiliation": [
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação & Conquistador",
     "bounty": 0,
-    "styleOrPower": "Comandante-Chefe do Governo Mundial",
+    "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/kong.png",
@@ -6123,7 +6123,7 @@
     "affiliation": [
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Nenhum",
@@ -6144,10 +6144,10 @@
       "Impel Down",
       "Governo Mundial"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Naginata Flamejante (Suisui Sui)",
+    "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/hannyabal.png",
@@ -6164,11 +6164,11 @@
     "affiliation": [
       "Grande Frota dos Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 210000000,
-    "styleOrPower": "Hasshoken (Punho das Oito Extremidades)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/sai.png",
     "quote": "Eu sou Don Sai, 13º líder da Marinha Happo e comandante da 3ª divisão dos Chapéus de Palha!",
@@ -6188,7 +6188,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Buki Buki no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Punk Hazard",
     "status": "Viva",
     "avatar": "/avatars/one-piece/baby-5.png",
     "quote": "Você... precisa de mim?! Então farei qualquer coisa por você!",
@@ -6207,8 +6207,8 @@
     "fruitType": "Paramecia",
     "haki": "Armamento",
     "bounty": 66000000,
-    "styleOrPower": "Paramecia (Nui Nui no Mi) e Tontatta Combat",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Paramecia (Nui Nui no Mi)",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/leo.png",
     "quote": "Líder dos Tontatta e comandante da 5ª divisão da Grande Frota dos Chapéus de Palha!",
@@ -6224,11 +6224,11 @@
     "affiliation": [
       "Grande Frota dos Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Punho Destruidor do Canhão Hakai Ho",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/ideo.png",
     "quote": "Campeão de artes marciais do Novo Mundo e líder da Aliança de Artes Marciais XXX.",
@@ -6244,11 +6244,11 @@
     "affiliation": [
       "Grande Frota dos Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Joutoudo (Arte Marcial das Pernas Longas)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/blue-gilly.png",
     "quote": "Chutes de chicote de longo alcance e velocidade incrível.",
@@ -6264,11 +6264,11 @@
     "affiliation": [
       "Grande Frota dos Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 148000000,
-    "styleOrPower": "Teitoku Chicote e Arremesso de Colossos",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/orlumbus.png",
     "quote": "Comandante da Grande Frota Yonta Maria com 56 navios de guerra.",
@@ -6285,11 +6285,11 @@
       "Realeza",
       "Grande Frota dos Chapéus de Palha"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento",
     "bounty": 0,
-    "styleOrPower": "King Punch (Punho do Rei Capaz de Derrubar Fortalezas)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/elizabello-ii.png",
     "quote": "Rei de Prodence que pode derrubar um imperador com uma hora de aquecimento!",
@@ -6326,10 +6326,10 @@
       "Piratas do Barba Branca",
       "Nove Bainhas Vermelhas"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Armamento & Observação",
     "bounty": 510000000,
-    "styleOrPower": "Pistolas Duplas e Dança de Wano",
+    "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Morto",
     "avatar": "/avatars/one-piece/izo.png",
@@ -6346,10 +6346,10 @@
     "affiliation": [
       "Piratas do Barba Branca"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 550000000,
-    "styleOrPower": "Força Colossal de Gigante Ancestral",
+    "styleOrPower": "Nenhum",
     "debutArc": "Summit War (Marineford)",
     "status": "Morto",
     "avatar": "/avatars/one-piece/little-oars-jr.png",
@@ -6370,7 +6370,7 @@
     "fruitType": "Zoan",
     "haki": "Armamento & Observação",
     "bounty": 330000000,
-    "styleOrPower": "Zoan (Kame Kame no Mi) e Eletro",
+    "styleOrPower": "Zoan (Kame Kame no Mi)",
     "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/pekoms.png",
@@ -6407,10 +6407,10 @@
     "affiliation": [
       "Civil"
     ],
-    "fruitType": "Nenhuma",
+    "fruitType": "Nenhum",
     "haki": "Nenhum",
     "bounty": 0,
-    "styleOrPower": "Mergulho de Alta Pressão e Pistolas",
+    "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/mont-blanc-cricket.png",
@@ -6432,7 +6432,7 @@
     "haki": "Observação",
     "bounty": 0,
     "styleOrPower": "Paramecia (Giro Giro no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Viva",
     "avatar": "/avatars/one-piece/viola.png",
     "quote": "Eu vejo através de todas as mentiras com os meus olhos.",
@@ -6455,7 +6455,7 @@
       "Tropa da Hina"
     ],
     "rank": "Tenente da Marinha",
-    "styleOrPower": "Estilo de Boxe com Soqueiras de Ferro",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Um cavalheiro sabe apreciar um vinho tinto de qualidade... Garçom, tem uma mosca na minha sopa!",
@@ -6467,7 +6467,8 @@
     "roleOrArchetype": "Antagonista / Suporte Cômico",
     "hairColor": "Cabelo Loiro / Dourado",
     "avatar": "/avatars/one-piece/fullbody.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "patty",
@@ -6478,7 +6479,7 @@
       "Restaurante Baratie"
     ],
     "rank": "Cozinheiro de Combate",
-    "styleOrPower": "Combate com Bazuca de Carne e Pratos",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Bem-vindo ao Baratie, seu desgraçado! Coma tudo ou enfio essa frigideira na sua goela!",
@@ -6490,7 +6491,8 @@
     "roleOrArchetype": "Suporte Cômico",
     "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/patty.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "carne",
@@ -6501,7 +6503,7 @@
       "Restaurante Baratie"
     ],
     "rank": "Cozinheiro de Carnes",
-    "styleOrPower": "Estilo de Facas Duplas de Açougueiro",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Aqui no Baratie nós servimos boa comida e socos na cara de piratas caloteiros!",
@@ -6513,7 +6515,8 @@
     "roleOrArchetype": "Suporte Cômico",
     "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/carne.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "pearl",
@@ -6524,7 +6527,7 @@
       "Piratas da Armada de Krieg"
     ],
     "rank": "Comandante de Defesa",
-    "styleOrPower": "Escudos de Ferro Corporais & Fogo",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Eu nunca perdi uma gota de sangue em combate! Se eu sangrar, a selva inteira pega fogo!",
@@ -6536,7 +6539,8 @@
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/pearl.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "capitao-nezumi",
@@ -6547,7 +6551,7 @@
       "Marinha - 16ª Divisão"
     ],
     "rank": "Capitão Corrupto da Marinha",
-    "styleOrPower": "Armas de Fogo & Corrupção",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Chichi! Confisque todo o tesouro da ladra Nami em nome da justiça da Marinha!",
@@ -6559,7 +6563,8 @@
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/capitao-nezumi.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "buchi",
@@ -6570,7 +6575,7 @@
       "Piratas do Gato Preto"
     ],
     "rank": "Combatente do Bando",
-    "styleOrPower": "Garras de Gato e Salto Hipnótico Esmagador",
+    "styleOrPower": "Nenhum",
     "debutArc": "East Blue",
     "status": "Vivo",
     "quote": "Quando o Jango me hipnotiza, meu corpo fica dez vezes mais pesado e destrói rochas!",
@@ -6582,7 +6587,8 @@
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/buchi.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "chaka",
@@ -6594,7 +6600,7 @@
       "Guarda Real"
     ],
     "rank": "Comandante da Guarda Real de Alabasta",
-    "styleOrPower": "Inu Inu no Mi: Modelo Chacal (Zoan)",
+    "styleOrPower": "Zoan (Inu Inu no Mi: Modelo Chacal)",
     "debutArc": "Alabasta",
     "status": "Vivo",
     "quote": "Eu sou o Deus Guardião de Alabasta! Enquanto eu respirar, Crocodile não tomará o palácio!",
@@ -6606,7 +6612,8 @@
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/chaka.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Zoan"
   },
   {
     "id": "koza",
@@ -6617,7 +6624,7 @@
       "Exército Rebelde de Alabasta"
     ],
     "rank": "Líder dos Rebeldes",
-    "styleOrPower": "Esgrima com Sabre de Deserto",
+    "styleOrPower": "Nenhum",
     "debutArc": "Alabasta",
     "status": "Vivo",
     "quote": "Nós não estamos lutando por ganância, estamos lutando pela água e pela sobrevivência do nosso povo!",
@@ -6629,7 +6636,8 @@
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Loiro / Dourado",
     "avatar": "/avatars/one-piece/koza.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "wiper",
@@ -6641,7 +6649,7 @@
       "Guarda de Deus"
     ],
     "rank": "Líder Guerreiro de Shandia",
-    "styleOrPower": "Burn Bazooka & Reject Dial de Triplo Impacto",
+    "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "Pela luz de Shandora! Eu acenderei o Fogo de Shandora nem que meu corpo se desintegre pelo Reject Dial!",
@@ -6653,7 +6661,8 @@
     "roleOrArchetype": "Rival / Suporte",
     "hairColor": "Cabelo Castanho",
     "avatar": "/avatars/one-piece/wiper.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "kokoro",
@@ -6665,8 +6674,8 @@
       "Tom's Workers"
     ],
     "rank": "Condutora do Rocketman",
-    "styleOrPower": "Natação de Sereia & Condução Ferroviária",
-    "debutArc": "Water 7 / Enies Lobby",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7",
     "status": "Viva",
     "quote": "Nagagaga! Segurem-se firme, porque o Rocketman não tem freios nem trilhos!",
     "techniques": [
@@ -6677,7 +6686,8 @@
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Loiro / Dourado",
     "avatar": "/avatars/one-piece/kokoro.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "zambai",
@@ -6688,8 +6698,8 @@
       "Franky Family"
     ],
     "rank": "Líder Operacional da Franky Family",
-    "styleOrPower": "Bazucas e Katana de Demolição",
-    "debutArc": "Water 7 / Enies Lobby",
+    "styleOrPower": "Nenhum",
+    "debutArc": "Water 7",
     "status": "Vivo",
     "quote": "Aniki! Nós daremos a nossa vida para resgatar o Franky-aniki de Enies Lobby!",
     "techniques": [
@@ -6700,7 +6710,8 @@
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Preto",
     "avatar": "/avatars/one-piece/zambai.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "hyouzou",
@@ -6711,7 +6722,7 @@
       "Novos Piratas Tritões"
     ],
     "rank": "Espadachim Chefe Mercenário",
-    "styleOrPower": "Estilo das Oito Espadas Bêbadas & Veneno Letal",
+    "styleOrPower": "Nenhum",
     "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "quote": "Hic... O dinheiro compra a minha espada, mas o saquê dita o ritmo dos meus oito tentáculos!",
@@ -6723,7 +6734,8 @@
     "roleOrArchetype": "Antagonista",
     "hairColor": "Cabelo Verde",
     "avatar": "/avatars/one-piece/hyouzou.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "wadatsumi",
@@ -6735,7 +6747,7 @@
       "Piratas Voadores"
     ],
     "rank": "Combatente Colossal",
-    "styleOrPower": "Força Muscular Titânica & Inflar Corpo",
+    "styleOrPower": "Nenhum",
     "debutArc": "Ilha dos Tritões",
     "status": "Vivo",
     "quote": "Eu não sou bobo! Eu fico gigante que nem uma montanha submarina!",
@@ -6747,7 +6759,8 @@
     "roleOrArchetype": "Suporte",
     "hairColor": "Cabelo Vermelho",
     "avatar": "/avatars/one-piece/wadatsumi.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "yasuie",
@@ -6759,7 +6772,7 @@
       "Vila Ebisu"
     ],
     "rank": "Ex-Daimyo de Hakumai",
-    "styleOrPower": "Sorriso Eterno do SMILE & Sacrifício Nobre",
+    "styleOrPower": "Nenhum",
     "debutArc": "País de Wano",
     "status": "Morto",
     "quote": "Hahaha! O povo de Ebisu ri para não chorar! Eu morrerei sorrindo para proteger a rebelião dos Nove Bainhas!",
@@ -6771,7 +6784,8 @@
     "roleOrArchetype": "Mentor / Suporte",
     "hairColor": "Cabelo Azul",
     "avatar": "/avatars/one-piece/yasuie.png",
-    "bounty": 0
+    "bounty": 0,
+    "fruitType": "Nenhum"
   },
   {
     "id": "tsuru",
@@ -6808,7 +6822,7 @@
     "haki": "Armamento & Observação",
     "bounty": 31000000,
     "styleOrPower": "Paramecia (Pamu Pamu no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "quote": "Traidores devem ser reduzidos a cinzas!",
     "avatar": "/avatars/one-piece/gladius.png",
@@ -6832,7 +6846,7 @@
     "haki": "Armamento",
     "bounty": 11000000,
     "styleOrPower": "Paramecia (Ton Ton no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "quote": "Dez mil toneladas de pura destruição!",
     "avatar": "/avatars/one-piece/machvise.png",
@@ -6855,7 +6869,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Guru Guru no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Punk Hazard",
     "status": "Vivo",
     "quote": "Gira, gira, hélice dos céus!",
     "avatar": "/avatars/one-piece/buffalo.png",
@@ -6878,7 +6892,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Ato Ato no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Viva",
     "quote": "Tudo se transforma em arte vanguardista!",
     "avatar": "/avatars/one-piece/jora.png",
@@ -6944,7 +6958,7 @@
     "affiliation": [
       "Jornal de Economia Mundial"
     ],
-    "fruitType": "Zoan Aviária",
+    "fruitType": "Zoan",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Tori Tori no Mi: Modelo Albatroz)",
@@ -7109,7 +7123,7 @@
     "fruitType": "Nenhum",
     "haki": "Observação",
     "bounty": 0,
-    "styleOrPower": "Mantra, Lança de Justa e Dials (Impact Dial)",
+    "styleOrPower": "Nenhum",
     "debutArc": "Skypiea",
     "status": "Vivo",
     "quote": "Eu sou o Cavaleiro dos Céus! Ao som deste apito, voarei para resgatar quem precisar.",
@@ -7134,7 +7148,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Beri Beri no Mi)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "quote": "Minha Beri Beri no Mi me divide em dezenas de esferas imunes a socos e chutes!",
     "avatar": "/avatars/one-piece/very-good.png",
@@ -7158,7 +7172,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Shari Shari no Mi)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "quote": "Transformo qualquer membro em uma roda cortante de alta rotação!",
     "avatar": "/avatars/one-piece/sharinguru.png",
@@ -7182,7 +7196,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Paramecia (Jake Jake no Mi)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "quote": "Quando visto o corpo do Bobby, nossa força combinada massacra qualquer gladiador!",
     "avatar": "/avatars/one-piece/kelly-funk.png",
@@ -7206,7 +7220,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Mushi Mushi no Mi: Modelo Besouro Rinoceronte)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Vivo",
     "quote": "Pela liberdade de Dressrosa e da Princesa Mansherry, o esquadrão dos besouros atacará!",
     "avatar": "/avatars/one-piece/kabu.png",
@@ -7230,7 +7244,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Mushi Mushi no Mi: Modelo Vespa)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Dressrosa",
     "status": "Viva",
     "quote": "As vespas rosas dominam os céus da batalha!",
     "avatar": "/avatars/one-piece/bian.png",
@@ -7254,7 +7268,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Sara Sara no Mi: Modelo Axolotle)",
-    "debutArc": "Dressrosa / Punk Hazard",
+    "debutArc": "Punk Hazard",
     "status": "Morto",
     "quote": "... *gás venenoso H2S borbulhante* ...",
     "avatar": "/avatars/one-piece/smiley.png",
@@ -7278,7 +7292,7 @@
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan (Zou Zou no Mi)",
-    "debutArc": "Water 7 / Enies Lobby",
+    "debutArc": "Enies Lobby",
     "status": "Vivo",
     "quote": "Paaaaaoooon!",
     "avatar": "/avatars/one-piece/funkfreed.png",
@@ -7369,7 +7383,7 @@
     "affiliation": [
       "Piratas do Barba Negra"
     ],
-    "fruitType": "Zoan Mítica",
+    "fruitType": "Zoan",
     "haki": "Nenhum",
     "bounty": 0,
     "styleOrPower": "Zoan Mítica (Uma Uma no Mi: Modelo Pégaso)",

@@ -26,7 +26,7 @@
   },
   {
     "id": "katsuki-bakugo",
-    "name": "Katsuki Bakugo (Dynamight)",
+    "name": "Katsuki Bakugo",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -51,7 +51,7 @@
   },
   {
     "id": "shoto-todoroki",
-    "name": "Shoto Todoroki (Shoto)",
+    "name": "Shoto Todoroki",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -77,7 +77,7 @@
   },
   {
     "id": "ochaco-uraraka",
-    "name": "Ochaco Uraraka (Uravity)",
+    "name": "Ochaco Uraraka",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -102,7 +102,7 @@
   },
   {
     "id": "tenya-iida",
-    "name": "Tenya Iida (Ingenium)",
+    "name": "Tenya Iida",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -128,7 +128,7 @@
   },
   {
     "id": "eijiro-kirishima",
-    "name": "Eijiro Kirishima (Red Riot)",
+    "name": "Eijiro Kirishima",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -153,7 +153,7 @@
   },
   {
     "id": "tsuyu-asui",
-    "name": "Tsuyu Asui (Froppy)",
+    "name": "Tsuyu Asui",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -178,7 +178,7 @@
   },
   {
     "id": "denki-kaminari",
-    "name": "Denki Kaminari (Chargebolt)",
+    "name": "Denki Kaminari",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -203,7 +203,7 @@
   },
   {
     "id": "fumikage-tokoyami",
-    "name": "Fumikage Tokoyami (Tsukuyomi)",
+    "name": "Fumikage Tokoyami",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -228,7 +228,7 @@
   },
   {
     "id": "momo-yaoyorozu",
-    "name": "Momo Yaoyorozu (Creati)",
+    "name": "Momo Yaoyorozu",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -253,7 +253,7 @@
   },
   {
     "id": "kyoka-jiro",
-    "name": "Kyoka Jiro (Earphone Jack)",
+    "name": "Kyoka Jiro",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -278,7 +278,7 @@
   },
   {
     "id": "mina-ashido",
-    "name": "Mina Ashido (Pinky)",
+    "name": "Mina Ashido",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -303,7 +303,7 @@
   },
   {
     "id": "hanta-sero",
-    "name": "Hanta Sero (Cellophane)",
+    "name": "Hanta Sero",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -328,7 +328,7 @@
   },
   {
     "id": "yuga-aoyama",
-    "name": "Yuga Aoyama (Can't Stop Twinkling)",
+    "name": "Yuga Aoyama",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -353,7 +353,7 @@
   },
   {
     "id": "mezo-shoji",
-    "name": "Mezo Shoji (Tentacole)",
+    "name": "Mezo Shoji",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -378,7 +378,7 @@
   },
   {
     "id": "toru-hagakure",
-    "name": "Toru Hagakure (Invisible Girl)",
+    "name": "Toru Hagakure",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -403,7 +403,7 @@
   },
   {
     "id": "mashirao-ojiro",
-    "name": "Mashirao Ojiro (Tailman)",
+    "name": "Mashirao Ojiro",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -428,7 +428,7 @@
   },
   {
     "id": "koji-koda",
-    "name": "Koji Koda (Anima)",
+    "name": "Koji Koda",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -453,7 +453,7 @@
   },
   {
     "id": "rikido-sato",
-    "name": "Rikido Sato (Sugarman)",
+    "name": "Rikido Sato",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -478,7 +478,7 @@
   },
   {
     "id": "minoru-mineta",
-    "name": "Minoru Mineta (Grape Juice)",
+    "name": "Minoru Mineta",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -503,7 +503,7 @@
   },
   {
     "id": "shota-aizawa",
-    "name": "Shota Aizawa (Eraser Head)",
+    "name": "Shota Aizawa",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -627,7 +627,7 @@
   },
   {
     "id": "mirio-togata",
-    "name": "Mirio Togata (Lemillion)",
+    "name": "Mirio Togata",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -652,7 +652,7 @@
   },
   {
     "id": "nejire-hado",
-    "name": "Nejire Hado (Nejire-chan)",
+    "name": "Nejire Hado",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -677,7 +677,7 @@
   },
   {
     "id": "tamaki-amajiki",
-    "name": "Tamaki Amajiki (Suneater)",
+    "name": "Tamaki Amajiki",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -727,7 +727,7 @@
   },
   {
     "id": "neito-monoma",
-    "name": "Neito Monoma (Phantom Thief)",
+    "name": "Neito Monoma",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -752,7 +752,7 @@
   },
   {
     "id": "itsuka-kendo",
-    "name": "Itsuka Kendo (Battle Fist)",
+    "name": "Itsuka Kendo",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -1075,7 +1075,7 @@
   },
   {
     "id": "all-for-one",
-    "name": "All For One (Shigaraki)",
+    "name": "All For One",
     "gender": "Masculino",
     "affiliation": [
       "Liga dos Vilões",
@@ -1422,7 +1422,7 @@
   },
   {
     "id": "tetsutetsu",
-    "name": "Tetsutetsu Tetsutetsu (Real Steel)",
+    "name": "Tetsutetsu Tetsutetsu",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -1446,7 +1446,7 @@
   },
   {
     "id": "ibara-shiozaki",
-    "name": "Ibara Shiozaki (Vine)",
+    "name": "Ibara Shiozaki",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -1470,7 +1470,7 @@
   },
   {
     "id": "juzo-honenuki",
-    "name": "Juzo Honenuki (Mudman)",
+    "name": "Juzo Honenuki",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -1494,7 +1494,7 @@
   },
   {
     "id": "jurota-shishida",
-    "name": "Jurota Shishida (Gevaudan)",
+    "name": "Jurota Shishida",
     "gender": "Masculino",
     "affiliation": [
       "U.A. High School",
@@ -1518,7 +1518,7 @@
   },
   {
     "id": "kinoko-komori",
-    "name": "Kinoko Komori (Shemage)",
+    "name": "Kinoko Komori",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -1542,7 +1542,7 @@
   },
   {
     "id": "setsuna-tokage",
-    "name": "Setsuna Tokage (Lizardy)",
+    "name": "Setsuna Tokage",
     "gender": "Feminino",
     "affiliation": [
       "U.A. High School",
@@ -1566,7 +1566,7 @@
   },
   {
     "id": "inasa-yoarashi",
-    "name": "Inasa Yoarashi (Gale Force)",
+    "name": "Inasa Yoarashi",
     "gender": "Masculino",
     "affiliation": [
       "Colégio Shiketsu"
@@ -1589,7 +1589,7 @@
   },
   {
     "id": "camie-utsushimi",
-    "name": "Camie Utsushimi (Maboromicamie)",
+    "name": "Camie Utsushimi",
     "gender": "Feminino",
     "affiliation": [
       "Colégio Shiketsu"
@@ -1612,7 +1612,7 @@
   },
   {
     "id": "seiji-shishikura",
-    "name": "Seiji Shishikura (Sisicross)",
+    "name": "Seiji Shishikura",
     "gender": "Masculino",
     "affiliation": [
       "Colégio Shiketsu"

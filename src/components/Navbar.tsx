@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
-import { HelpCircle, BarChart2, ChevronDown, RotateCcw, Sparkles, Film } from 'lucide-react';
+import { HelpCircle, BarChart2, ChevronDown, Sparkles, Film } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ANIMES_CONFIG } from '../data/animes/config';
 import { AnimeConfig } from '../types/anime';
@@ -195,16 +195,6 @@ export const Navbar: React.FC<NavbarProps> = ({
             </button>
           )}
 
-          {onResetDaily && (
-            <button
-              onClick={onResetDaily}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-750 border border-slate-700 text-slate-300 text-xs font-bold transition-all shadow-sm active:scale-95"
-              title="Resetar progresso do dia atual e sortear novo personagem (Modo Dev)"
-            >
-              <RotateCcw size={14} />
-              <span className="hidden sm:inline">Resetar (Dev)</span>
-            </button>
-          )}
 
           <button
             onClick={onOpenHowToPlay}
