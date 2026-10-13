@@ -1181,93 +1181,105 @@ export const App: React.FC<{
 
         {/* MODO PROCURADO */}
         {currentMode === 'wanted' && (
-          <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
-            {/* Brilho decorativo no fundo */}
-            <div
-              className="absolute -top-12 -right-12 w-36 h-36 rounded-full blur-3xl opacity-20 pointer-events-none"
-              style={{ backgroundColor: animeConfig.themeColor }}
-            />
-
-            {/* Cabeçalho do Card Centralizado */}
-            <div className="flex flex-col items-center justify-center text-center mb-5 relative">
-              <div className="flex items-center justify-center gap-2 mb-1">
-                <div
-                  className="w-8 h-8 rounded-xl flex items-center justify-center text-white shadow-md shrink-0"
-                  style={{ backgroundColor: animeConfig.themeColor }}
-                >
-                  <Eye size={18} />
-                </div>
-                <span className="text-sm uppercase font-black tracking-wider text-white">
-                  Modo Procurado
-                </span>
-              </div>
-              <p className="text-xs text-slate-400 font-medium max-w-md mx-auto">
-                Quem é este personagem? A foto fica mais nítida a cada tentativa errada!
-              </p>
-            </div>
-
-            <div className="w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
-              <ObfuscatedMysteryAvatar
-                avatarUrl={targetCharacter.avatar}
-                mode="wanted"
-                blurAmount={blurAmount}
-                isRevealed={isFinished}
-                className="w-full h-full"
+          <div>
+            <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
+              {/* Brilho decorativo no fundo */}
+              <div
+                className="absolute -top-12 -right-12 w-36 h-36 rounded-full blur-3xl opacity-20 pointer-events-none"
+                style={{ backgroundColor: animeConfig.themeColor }}
               />
+
+              {/* Cabeçalho do Card Centralizado */}
+              <div className="flex flex-col items-center justify-center text-center mb-5 relative">
+                <div className="flex items-center justify-center gap-2 mb-1">
+                  <div
+                    className="w-8 h-8 rounded-xl flex items-center justify-center text-white shadow-md shrink-0"
+                    style={{ backgroundColor: animeConfig.themeColor }}
+                  >
+                    <Eye size={18} />
+                  </div>
+                  <span className="text-sm uppercase font-black tracking-wider text-white">
+                    Modo Procurado
+                  </span>
+                </div>
+                <p className="text-xs text-slate-400 font-medium max-w-md mx-auto">
+                  Quem é este personagem? A foto fica mais nítida a cada tentativa errada!
+                </p>
+              </div>
+
+              <div className="w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
+                <ObfuscatedMysteryAvatar
+                  avatarUrl={targetCharacter.avatar}
+                  mode="wanted"
+                  blurAmount={blurAmount}
+                  isRevealed={isFinished}
+                  className="w-full h-full"
+                />
+              </div>
             </div>
 
-            <CharacterSearchInput
-              characters={characters}
-              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
-              onSelectCharacter={handleSelectCharacter}
-              disabled={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
+            <div className="max-w-2xl mx-auto my-6">
+              <CharacterSearchInput
+                characters={characters}
+                guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
+                onSelectCharacter={handleSelectCharacter}
+                disabled={isFinished}
+                themeColor={animeConfig.themeColor}
+              />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+            </div>
           </div>
         )}
 
         {/* MODO CENA & JUTSU */}
         {currentMode === 'scene' && currentSceneChallenge && (
-          <div className="max-w-xl mx-auto text-center my-6">
-            <ScenePlayerCard
-              challenge={currentSceneChallenge}
-              guessCount={currentGuesses.length}
-              isWon={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
+          <div>
+            <div className="max-w-xl mx-auto text-center my-6">
+              <ScenePlayerCard
+                challenge={currentSceneChallenge}
+                guessCount={currentGuesses.length}
+                isWon={isFinished}
+                themeColor={animeConfig.themeColor}
+              />
+            </div>
 
-            <CharacterSearchInput
-              characters={characters}
-              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
-              onSelectCharacter={handleSelectCharacter}
-              disabled={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
+            <div className="max-w-2xl mx-auto my-6">
+              <CharacterSearchInput
+                characters={characters}
+                guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
+                onSelectCharacter={handleSelectCharacter}
+                disabled={isFinished}
+                themeColor={animeConfig.themeColor}
+              />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+            </div>
           </div>
         )}
 
         {/* MODO VOZ & SOM */}
         {currentMode === 'voice' && currentVoiceChallenge && (
-          <div className="max-w-xl mx-auto text-center my-6">
-            <VoicePlayerCard
-              challenge={currentVoiceChallenge}
-              isWon={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
+          <div>
+            <div className="max-w-xl mx-auto text-center my-6">
+              <VoicePlayerCard
+                challenge={currentVoiceChallenge}
+                isWon={isFinished}
+                themeColor={animeConfig.themeColor}
+              />
+            </div>
 
-            <CharacterSearchInput
-              characters={characters}
-              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
-              onSelectCharacter={handleSelectCharacter}
-              disabled={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
+            <div className="max-w-2xl mx-auto my-6">
+              <CharacterSearchInput
+                characters={characters}
+                guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
+                onSelectCharacter={handleSelectCharacter}
+                disabled={isFinished}
+                themeColor={animeConfig.themeColor}
+              />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+            </div>
           </div>
         )}
 
@@ -1285,56 +1297,60 @@ export const App: React.FC<{
 
         {/* MODO ZOOM / OLHOS */}
         {currentMode === 'zoom' && (
-          <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
-            {/* Brilho decorativo no fundo */}
-            <div
-              className="absolute -top-12 -right-12 w-36 h-36 rounded-full blur-3xl opacity-20 pointer-events-none"
-              style={{ backgroundColor: animeConfig.themeColor }}
-            />
-
-            {/* Cabeçalho do Card Centralizado */}
-            <div className="flex flex-col items-center justify-center text-center mb-5 relative">
-              <div className="flex items-center justify-center gap-2 mb-1">
-                <div
-                  className="w-8 h-8 rounded-xl flex items-center justify-center text-white shadow-md shrink-0"
-                  style={{ backgroundColor: animeConfig.themeColor }}
-                >
-                  <ZoomIn size={18} />
-                </div>
-                <span className="text-sm uppercase font-black tracking-wider text-white">
-                  Modo Zoom (Olhos & Detalhes)
-                </span>
-              </div>
-              <p className="text-xs text-slate-400 font-medium max-w-md mx-auto">
-                A foto do personagem está com zoom extremo! O zoom diminui a cada erro.
-              </p>
-            </div>
-
-            {zoomScale === 1 && !isFinished && (
-              <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30 text-xs font-black mb-3 animate-pulse">
-                <span>⚠️ Zoom 1x atingido! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances antes da derrota!</span>
-              </div>
-            )}
-            
-            <div className="w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
-              <ObfuscatedMysteryAvatar
-                avatarUrl={targetCharacter.avatar}
-                mode="zoom"
-                zoomScale={zoomScale}
-                isRevealed={isFinished}
-                className="w-full h-full"
+          <div>
+            <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
+              {/* Brilho decorativo no fundo */}
+              <div
+                className="absolute -top-12 -right-12 w-36 h-36 rounded-full blur-3xl opacity-20 pointer-events-none"
+                style={{ backgroundColor: animeConfig.themeColor }}
               />
+
+              {/* Cabeçalho do Card Centralizado */}
+              <div className="flex flex-col items-center justify-center text-center mb-5 relative">
+                <div className="flex items-center justify-center gap-2 mb-1">
+                  <div
+                    className="w-8 h-8 rounded-xl flex items-center justify-center text-white shadow-md shrink-0"
+                    style={{ backgroundColor: animeConfig.themeColor }}
+                  >
+                    <ZoomIn size={18} />
+                  </div>
+                  <span className="text-sm uppercase font-black tracking-wider text-white">
+                    Modo Zoom (Olhos & Detalhes)
+                  </span>
+                </div>
+                <p className="text-xs text-slate-400 font-medium max-w-md mx-auto">
+                  A foto do personagem está com zoom extremo! O zoom diminui a cada erro.
+                </p>
+              </div>
+
+              {zoomScale === 1 && !isFinished && (
+                <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30 text-xs font-black mb-3 animate-pulse">
+                  <span>⚠️ Zoom 1x atingido! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances antes da derrota!</span>
+                </div>
+              )}
+              
+              <div className="w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
+                <ObfuscatedMysteryAvatar
+                  avatarUrl={targetCharacter.avatar}
+                  mode="zoom"
+                  zoomScale={zoomScale}
+                  isRevealed={isFinished}
+                  className="w-full h-full"
+                />
+              </div>
             </div>
 
-            <CharacterSearchInput
-              characters={characters}
-              guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
-              onSelectCharacter={handleSelectCharacter}
-              disabled={isFinished}
-              themeColor={animeConfig.themeColor}
-            />
+            <div className="max-w-2xl mx-auto my-6">
+              <CharacterSearchInput
+                characters={characters}
+                guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
+                onSelectCharacter={handleSelectCharacter}
+                disabled={isFinished}
+                themeColor={animeConfig.themeColor}
+              />
 
-            <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+            </div>
           </div>
         )}
 

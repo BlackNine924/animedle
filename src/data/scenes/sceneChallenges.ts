@@ -3961,10 +3961,10 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "id": "scene-one-piece-wiper",
       "animeSlug": "one-piece",
       "characterId": "wiper",
-      "characterName": "Wiper (O Demônio da Guerra)",
+      "characterName": "Wyper",
       "videoUrl": "/scenes/one-piece/wiper.webp",
       "techniqueOrSceneName": "Patins Waver e Bazuca Burn de Skypiea",
-      "description": "Wiper deslizando velozmente em combate por Upper Yard empunhando seu escudo e sua Bazuca Burn."
+      "description": "Wyper deslizando velozmente em combate por Upper Yard empunhando seu escudo e sua Bazuca Burn."
     },
     {
       "id": "scene-one-piece-gan-fall",

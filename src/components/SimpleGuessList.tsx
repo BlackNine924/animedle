@@ -11,7 +11,7 @@ interface SimpleGuessListProps {
 export const SimpleGuessList: React.FC<SimpleGuessListProps> = ({ guesses, targetCharacter, animeSlug }) => {
   if (guesses.length === 0) {
     return (
-      <div className="text-center py-12 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-xl mx-auto my-6 bg-[#0d1426]/40 backdrop-blur-sm">
+      <div className="text-center py-12 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-2xl mx-auto my-6 bg-[#0d1426]/40 backdrop-blur-sm">
         {animeSlug && (
           <img
             src={`/icons/${animeSlug}.png`}
@@ -29,7 +29,7 @@ export const SimpleGuessList: React.FC<SimpleGuessListProps> = ({ guesses, targe
   }
 
   return (
-    <div className="max-w-lg mx-auto my-6 space-y-2.5">
+    <div className="max-w-2xl mx-auto my-6 space-y-2.5">
       {guesses.map((guess, index) => {
         const isCorrect = guess.character.id === targetCharacter.id;
 

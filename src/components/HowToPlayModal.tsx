@@ -89,13 +89,23 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
     }
   };
 
+  const modeNamesPt: Record<string, string> = {
+    classic: 'Clássico',
+    wanted: 'Procurado',
+    scene: 'Cena',
+    ability: 'Exclusivo',
+    zoom: 'Zoom',
+    grid: 'Grid 3x3',
+    voice: 'Voz'
+  };
+
   const currentModeInfo = modeDescriptions[currentMode] || modeDescriptions.classic;
   const animeTitle = animeConfig?.title || 'Anime';
   const themeColor = animeConfig?.themeColor || '#e11d48';
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-950/85 backdrop-blur-md animate-fadeIn">
-      <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-2xl w-full p-5 sm:p-6 shadow-2xl relative text-left max-h-[90vh] flex flex-col">
+      <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-2xl w-full p-5 sm:p-6 shadow-2xl relative text-left max-h-[90vh] flex flex-col overflow-hidden">
         {/* Header */}
         <div className="flex items-center justify-between pb-3 border-b border-[#202b43]">
           <div className="flex items-center gap-2.5">
@@ -126,7 +136,7 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
             }`}
           >
             <Sparkles size={13} />
-            <span>Modo Atual ({currentMode.toUpperCase()})</span>
+            <span>Modo Atual ({modeNamesPt[currentMode] || 'Cena'})</span>
           </button>
 
           <button
@@ -346,10 +356,10 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="pt-3 border-t border-[#202b43] mt-auto">
+        <div className="pt-3 pb-1 border-t border-[#202b43] mt-auto flex-shrink-0">
           <button
             onClick={onClose}
-            className="w-full bg-rose-600 hover:bg-rose-500 text-white font-bold py-2.5 rounded-xl text-xs transition-colors shadow-lg shadow-rose-950/30 active:scale-98"
+            className="w-full bg-rose-600 hover:bg-rose-500 text-white font-bold py-3 rounded-2xl text-xs transition-colors shadow-lg shadow-rose-950/30 active:scale-98"
           >
             Entendido, Continuar Jogando!
           </button>

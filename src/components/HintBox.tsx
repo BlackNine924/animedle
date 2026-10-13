@@ -23,11 +23,12 @@ export const HintBox: React.FC<HintBoxProps> = ({
 }) => {
   const [hideClues, setHideClues] = useState<boolean>(false);
   const isOnePiece = currentAnimeSlug === 'one-piece';
+  const isSceneMode = currentMode === 'scene';
 
   if (isOnePiece) {
-    const hint1Needed = 3;
-    const hint2Needed = 6;
-    const hint3Needed = 9;
+    const hint1Needed = isSceneMode ? 2 : 3;
+    const hint2Needed = isSceneMode ? 4 : 6;
+    const hint3Needed = isSceneMode ? 5 : 9;
 
     const hint1Unlocked = guessCount >= hint1Needed || isWon;
     const hint2Unlocked = guessCount >= hint2Needed || isWon;
@@ -49,7 +50,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
       : targetCharacter.affiliation || 'Nenhuma';
 
     return (
-      <div className="max-w-3xl mx-auto my-6 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-xl shadow-black/20">
+      <div className="max-w-2xl mx-auto my-6 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-xl shadow-black/20">
         <div className="flex items-center justify-between border-b border-[#202b43] pb-3 mb-3.5">
           <div className="flex items-center gap-2 text-amber-400 font-extrabold text-xs uppercase tracking-wider">
             <Lightbulb size={16} className="text-amber-400 animate-pulse" />
@@ -202,8 +203,8 @@ export const HintBox: React.FC<HintBoxProps> = ({
   }
 
   // Comportamento Padrão para os outros Animes (Demon Slayer, Jujutsu Kaisen, Romance, etc.)
-  const hint1Needed = 4;
-  const hint2Needed = 7;
+  const hint1Needed = isSceneMode ? 2 : 4;
+  const hint2Needed = isSceneMode ? 4 : 7;
 
   const hint1Unlocked = guessCount >= hint1Needed || isWon;
   const hint2Unlocked = guessCount >= hint2Needed || isWon;
