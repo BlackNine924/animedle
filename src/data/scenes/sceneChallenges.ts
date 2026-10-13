@@ -827,8 +827,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/yu-haibara.webp",
       "techniqueOrSceneName": "Espírito Radiante do Segundo Ano",
       "description": "Yu Haibara sorrindo com genuíno otimismo e lealdade nos corredores da Escola Jujutsu em cena oficial do anime."
-    }
-,
+    },
     {
       "id": "scene-jujutsu-kaisen-takako-uro",
       "animeSlug": "jujutsu-kaisen",
@@ -891,6 +890,78 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/jujutsu-kaisen/kiyotaka-ijichi.webp",
       "techniqueOrSceneName": "Invocação da Cortina",
       "description": "Ijichi fazendo o selo com os dedos e entoando o encantamento para erguer a barreira protetora da Cortina."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-junpei-yoshino",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "junpei-yoshino",
+      "characterName": "Junpei Yoshino",
+      "videoUrl": "/scenes/jujutsu-kaisen/junpei-yoshino.webp",
+      "techniqueOrSceneName": "Invocação de Shikigami: Moon Dregs (Água-Viva Venenosa)",
+      "description": "Junpei Yoshino liberando sua energia amaldiçoada azulada e invocando seu shikigami água-viva translúcido."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-juzo-kumiya",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "juzo-kumiya",
+      "characterName": "Juzo Kumiya",
+      "videoUrl": "/scenes/jujutsu-kaisen/juzo-kumiya.webp",
+      "techniqueOrSceneName": "Investida Brutal com Machado Amaldiçoado",
+      "description": "O usuário de maldições Juzo Kumiya girando e desferindo golpes pesados com seu machado de lâmina larga."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-nobuko-takada",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "nobuko-takada",
+      "characterName": "Takada-chan",
+      "videoUrl": "/scenes/jujutsu-kaisen/nobuko-takada.webp",
+      "techniqueOrSceneName": "Pose de Idol: Raio de Coração da Takada-chan",
+      "description": "A super idol Takada-chan piscando em performance brilhante e projetando seu coração rosa luminoso."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-rika-orimoto",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "rika-orimoto",
+      "characterName": "Rika Orimoto",
+      "videoUrl": "/scenes/jujutsu-kaisen/rika-orimoto.webp",
+      "techniqueOrSceneName": "Rainha das Maldições: Feixe de Amor Puro",
+      "description": "A forma colossal de Rika Orimoto concentrando energia amaldiçoada púrpura avassaladora e disparando sua rajada."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-larue",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "larue",
+      "characterName": "Larue",
+      "videoUrl": "/scenes/jujutsu-kaisen/larue.webp",
+      "techniqueOrSceneName": "Técnica Amaldiçoada: Heart Catch (Cutie Honey)",
+      "description": "Larue estendendo a palma da mão para frente enquanto ativa sua técnica amaldiçoada de captura."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-jiro-awasaka",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "jiro-awasaka",
+      "characterName": "Jiro Awasaka",
+      "videoUrl": "/scenes/jujutsu-kaisen/jiro-awasaka.webp",
+      "techniqueOrSceneName": "Técnica Amaldiçoada: Inversão (Abekobe)",
+      "description": "O usuário de maldições Jiro Awasaka saltando acrobaticamente em Shibuya com sua defesa de inversão de impactos ativa."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-ogami-granny",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "ogami-granny",
+      "characterName": "Vovó Ogami",
+      "videoUrl": "/scenes/jujutsu-kaisen/ogami-granny.webp",
+      "techniqueOrSceneName": "Técnica de Necromancia: Ritual de Séance (Kōrei)",
+      "description": "A Vovó Ogami entoando seu cântico ritualístico no topo do prédio em Shibuya para invocar a informação do corpo."
+    },
+    {
+      "id": "scene-jujutsu-kaisen-arata-nitta",
+      "animeSlug": "jujutsu-kaisen",
+      "characterId": "arata-nitta",
+      "characterName": "Arata Nitta",
+      "videoUrl": "/scenes/jujutsu-kaisen/arata-nitta.webp",
+      "techniqueOrSceneName": "Técnica de Estabilização Médica Amaldiçoada",
+      "description": "Arata Nitta concentrando energia amaldiçoada azul na palma da mão para estancar ferimentos graves."
     }
   ],
   "my-hero-academia": [
@@ -1408,8 +1479,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/naruto/kimimaro.webp",
       "techniqueOrSceneName": "Shikotsumyaku: Dança das Clematis & Floresta de Ossos",
       "description": "Extração da coluna vertebral como chicote e erupção de milhares de lanças de ossos do solo."
-    }
-,
+    },
     {
       "id": "scene-naruto-asura-otsutsuki",
       "animeSlug": "naruto",
@@ -1544,6 +1614,726 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/naruto/iruka-umino.webp",
       "techniqueOrSceneName": "Sorriso de Reconhecimento",
       "description": "Iruka-sensei com sua cicatriz no nariz e bandana de Konoha sorrindo com orgulho e afeto."
+    },
+    {
+      "id": "scene-naruto-hanzo",
+      "animeSlug": "naruto",
+      "characterId": "hanzo",
+      "characterName": "Hanzo da Salamandra",
+      "videoUrl": "/scenes/naruto/hanzo.webp",
+      "techniqueOrSceneName": "Kuchiyose no Jutsu: Salamandra Negra Ibuse",
+      "description": "Hanzo realizando selos de mão e invocando sua letal Salamandra Negra Ibuse em combate."
+    },
+    {
+      "id": "scene-naruto-rasa",
+      "animeSlug": "naruto",
+      "characterId": "rasa",
+      "characterName": "Rasa",
+      "videoUrl": "/scenes/naruto/rasa.webp",
+      "techniqueOrSceneName": "Jiton: Manipulação do Pó de Ouro",
+      "description": "Quarto Kazekage Rasa erguendo imensas ondas de Pó de Ouro com seu Estilo Magnetismo."
+    },
+    {
+      "id": "scene-naruto-terceiro-kazekage",
+      "animeSlug": "naruto",
+      "characterId": "terceiro-kazekage",
+      "characterName": "Terceiro Kazekage",
+      "videoUrl": "/scenes/naruto/terceiro-kazekage.webp",
+      "techniqueOrSceneName": "Satetsu: Lâminas eManipulação da Areia de Ferro",
+      "description": "A marionete humana do Terceiro Kazekage atacando com suas lâminas e armas de Areia de Ferro."
+    },
+    {
+      "id": "scene-naruto-yagura-karatachi",
+      "animeSlug": "naruto",
+      "characterId": "yagura-karatachi",
+      "characterName": "Yagura Karatachi",
+      "videoUrl": "/scenes/naruto/yagura-karatachi.webp",
+      "techniqueOrSceneName": "Quarto Mizukage e Jinchuuriki do Três-Caudas",
+      "description": "Yagura Karatachi, o Quarto Mizukage da Vila Oculta da Névoa, em sua forma reanimada."
+    },
+    {
+      "id": "scene-naruto-chiyo",
+      "animeSlug": "naruto",
+      "characterId": "chiyo",
+      "characterName": "Chiyo",
+      "videoUrl": "/scenes/naruto/chiyo.webp",
+      "techniqueOrSceneName": "Shirohigi: Jikki Chikamatsu no Shuu (Dez Marionetes)",
+      "description": "Vovó Chiyo manipulando com maestria as lendárias marionetes de Monzaemon Chikamatsu."
+    },
+    {
+      "id": "scene-naruto-izuna-uchiha",
+      "animeSlug": "naruto",
+      "characterId": "izuna-uchiha",
+      "characterName": "Izuna Uchiha",
+      "videoUrl": "/scenes/naruto/izuna-uchiha.webp",
+      "techniqueOrSceneName": "Katon: Goukakyuu no Jutsu & Mangekyou Sharingan",
+      "description": "Izuna Uchiha ativando o Mangekyou Sharingan e disparando uma imensa Bola de Fogo no campo de batalha."
+    },
+    {
+      "id": "scene-naruto-fugaku-uchiha",
+      "animeSlug": "naruto",
+      "characterId": "fugaku-uchiha",
+      "characterName": "Fugaku Uchiha",
+      "videoUrl": "/scenes/naruto/fugaku-uchiha.webp",
+      "techniqueOrSceneName": "Despertar do Mangekyou Sharingan do Líder Uchiha",
+      "description": "Fugaku Uchiha revelando os olhos carmesins de seu Mangekyou Sharingan nas sombras do clã."
+    },
+    {
+      "id": "scene-naruto-mito-uzumaki",
+      "animeSlug": "naruto",
+      "characterId": "mito-uzumaki",
+      "characterName": "Mito Uzumaki",
+      "videoUrl": "/scenes/naruto/mito-uzumaki.webp",
+      "techniqueOrSceneName": "Fuinjutsu Supremo do Clã Uzumaki (Primeira Jinchuuriki)",
+      "description": "Mito Uzumaki realizando o selamento da Raposa de Nove Caudas com seu poderoso chakra."
+    },
+    {
+      "id": "scene-naruto-dan-kato",
+      "animeSlug": "naruto",
+      "characterId": "dan-kato",
+      "characterName": "Dan Kato",
+      "videoUrl": "/scenes/naruto/dan-kato.webp",
+      "techniqueOrSceneName": "Reika no Jutsu (Técnica de Transformação Espiritual)",
+      "description": "Dan Kato em combate durante a Quarta Guerra Ninja preparando sua técnica espiritual."
+    },
+    {
+      "id": "scene-naruto-kinkaku",
+      "animeSlug": "naruto",
+      "characterId": "kinkaku",
+      "characterName": "Kinkaku",
+      "videoUrl": "/scenes/naruto/kinkaku.webp",
+      "techniqueOrSceneName": "Bashousen: Lâmina de Fogo dos Irmãos Ouro e Prata",
+      "description": "Kinkaku brandindo o leque sagrado Bashousen do Sábio dos Seis Caminhos para gerar um mar de chamas."
+    },
+    {
+      "id": "scene-naruto-ginkaku",
+      "animeSlug": "naruto",
+      "characterId": "ginkaku",
+      "characterName": "Ginkaku",
+      "videoUrl": "/scenes/naruto/ginkaku.webp",
+      "techniqueOrSceneName": "Manto de Chakra de Seis Caudas da Kurama",
+      "description": "Ginkaku envolto pelo manto rubro corrosivo de chakra da Nove-Caudas em fúria na Quarta Guerra."
+    },
+    {
+      "id": "scene-naruto-yugito-nii",
+      "animeSlug": "naruto",
+      "characterId": "yugito-nii",
+      "characterName": "Yugito Nii",
+      "videoUrl": "/scenes/naruto/yugito-nii.webp",
+      "techniqueOrSceneName": "Ressonância com as Chamas Azuis de Matatabi",
+      "description": "Yugito Nii de Kumogakure canalizando o espírito ardente da Duas-Caudas."
+    },
+    {
+      "id": "scene-naruto-roshi",
+      "animeSlug": "naruto",
+      "characterId": "roshi",
+      "characterName": "Roshi",
+      "videoUrl": "/scenes/naruto/roshi.webp",
+      "techniqueOrSceneName": "Yoton: Disparo de Rochas de Lava Escaldante",
+      "description": "Roshi, Jinchuuriki do Quatro-Caudas, expelindo projéteis incandescentes de Estilo Lava."
+    },
+    {
+      "id": "scene-naruto-han",
+      "animeSlug": "naruto",
+      "characterId": "han",
+      "characterName": "Han",
+      "videoUrl": "/scenes/naruto/han.webp",
+      "techniqueOrSceneName": "Futton: Chute de Força Incomparável a Vapor",
+      "description": "Han impulsionando sua armadura com a pressão do Estilo Vapor para desferir golpes devastadores."
+    },
+    {
+      "id": "scene-naruto-utakata",
+      "animeSlug": "naruto",
+      "characterId": "utakata",
+      "characterName": "Utakata",
+      "videoUrl": "/scenes/naruto/utakata.webp",
+      "techniqueOrSceneName": "Suiton: Ninjutsu de Bolhas de Sabão Flutuantes",
+      "description": "Utakata soprando suas bolhas de água explosivas enquanto flutua serenamente."
+    },
+    {
+      "id": "scene-naruto-fuu",
+      "animeSlug": "naruto",
+      "characterId": "fuu",
+      "characterName": "Fuu",
+      "videoUrl": "/scenes/naruto/fuu.webp",
+      "techniqueOrSceneName": "Jinchuuriki da Sete-Caudas de Takigakure",
+      "description": "Fuu demonstrando sua energia vibrante e prontidão de combate como Jinchuuriki de Chomei."
+    },
+    {
+      "id": "scene-naruto-kurama",
+      "animeSlug": "naruto",
+      "characterId": "kurama",
+      "characterName": "Kurama",
+      "videoUrl": "/scenes/naruto/kurama.webp",
+      "techniqueOrSceneName": "Despertar Colossal da Raposa de Nove-Caudas (Kyuubi)",
+      "description": "Kurama rugindo sob o luar com suas nove caudas agitadas liberando chakra esmagador."
+    },
+    {
+      "id": "scene-naruto-gyuki",
+      "animeSlug": "naruto",
+      "characterId": "gyuki",
+      "characterName": "Gyuki",
+      "videoUrl": "/scenes/naruto/gyuki.webp",
+      "techniqueOrSceneName": "Investida dos Tentáculos do Oito-Caudas (Hachibi)",
+      "description": "O colossal boi-polvo de Oito Caudas Gyuki rugindo e erguendo seus tentáculos em batalha."
+    },
+    {
+      "id": "scene-naruto-shukaku",
+      "animeSlug": "naruto",
+      "characterId": "shukaku",
+      "characterName": "Shukaku",
+      "videoUrl": "/scenes/naruto/shukaku.webp",
+      "techniqueOrSceneName": "Bijuudama do Espírito da Areia de Uma-Cauda (Ichibi)",
+      "description": "Shukaku concentrando uma densa Esfera da Besta com Cauda em sua bocarra."
+    },
+    {
+      "id": "scene-naruto-matatabi",
+      "animeSlug": "naruto",
+      "characterId": "matatabi",
+      "characterName": "Matatabi",
+      "videoUrl": "/scenes/naruto/matatabi.webp",
+      "techniqueOrSceneName": "Fúria das Chamas Azuis da Duas-Caudas (Nibi)",
+      "description": "A besta felina flamejante Matatabi rugindo e atacando com garras de fogo azul."
+    },
+    {
+      "id": "scene-naruto-isobu",
+      "animeSlug": "naruto",
+      "characterId": "isobu",
+      "characterName": "Isobu",
+      "videoUrl": "/scenes/naruto/isobu.webp",
+      "techniqueOrSceneName": "Emergência Aquática do Três-Caudas (Sanbi)",
+      "description": "A gigantesca tartaruga blindada de Três Caudas Isobu emergindo das águas com força bruta."
+    },
+    {
+      "id": "scene-naruto-son-goku",
+      "animeSlug": "naruto",
+      "characterId": "son-goku",
+      "characterName": "Son Goku",
+      "videoUrl": "/scenes/naruto/son-goku.webp",
+      "techniqueOrSceneName": "Chamas Verdes e Rugido do Rei Macaco de Quatro-Caudas",
+      "description": "Son Goku, o grande sábio macaco de Quatro Caudas, expelindo chamas vulcânicas."
+    },
+    {
+      "id": "scene-naruto-kokuo",
+      "animeSlug": "naruto",
+      "characterId": "kokuo",
+      "characterName": "Kokuo",
+      "videoUrl": "/scenes/naruto/kokuo.webp",
+      "techniqueOrSceneName": "Investida Veloz do Cinco-Caudas (Gobi)",
+      "description": "A majestosa besta alva de Cinco Caudas Kokuo avançando em alta velocidade."
+    },
+    {
+      "id": "scene-naruto-saiken",
+      "animeSlug": "naruto",
+      "characterId": "saiken",
+      "characterName": "Saiken",
+      "videoUrl": "/scenes/naruto/saiken.webp",
+      "techniqueOrSceneName": "Névoa Corrosiva e Muco do Seis-Caudas (Rokubi)",
+      "description": "Saiken, a lesma gigante de Seis Caudas, liberando seu gás alcalino corrosivo."
+    },
+    {
+      "id": "scene-naruto-chomei",
+      "animeSlug": "naruto",
+      "characterId": "chomei",
+      "characterName": "Chomei",
+      "videoUrl": "/scenes/naruto/chomei.webp",
+      "techniqueOrSceneName": "Voo Blindado e Bijuudama do Sete-Caudas (Nanabi)",
+      "description": "O besouro rinoceronte blindado de Sete Caudas Chomei batendo suas asas e carregando uma Bijuudama."
+    },
+    {
+      "id": "scene-naruto-juubi",
+      "animeSlug": "naruto",
+      "characterId": "juubi",
+      "characterName": "Juubi (Dez-Caudas)",
+      "videoUrl": "/scenes/naruto/juubi.webp",
+      "techniqueOrSceneName": "Bijuudama Cataclísmica do Dez-Caudas",
+      "description": "A monstruosa entidade primordial de Dez Caudas rugindo e disparando seu raio de destruição."
+    },
+    {
+      "id": "scene-naruto-zetsu-branco",
+      "animeSlug": "naruto",
+      "characterId": "zetsu-branco",
+      "characterName": "Zetsu",
+      "videoUrl": "/scenes/naruto/zetsu-branco.webp",
+      "techniqueOrSceneName": "Kagerou: Emergência Subterrânea e Divisão de Zetsu",
+      "description": "Zetsu emergindo do solo entre suas folhas carnívoras e dividindo suas metades Branca e Negra."
+    },
+    {
+      "id": "scene-naruto-jugo",
+      "animeSlug": "naruto",
+      "characterId": "jugo",
+      "characterName": "Jugo",
+      "videoUrl": "/scenes/naruto/jugo.webp",
+      "techniqueOrSceneName": "Transformação Sábia do Clã de Jugo (Marca da Maldição)",
+      "description": "Jugo absorvendo energia natural e transformando seu braço em uma arma bio-orgânica letal."
+    },
+    {
+      "id": "scene-naruto-jirobo",
+      "animeSlug": "naruto",
+      "characterId": "jirobo",
+      "characterName": "Jirobo",
+      "videoUrl": "/scenes/naruto/jirobo.webp",
+      "techniqueOrSceneName": "Marca da Maldição da Terra (Nível 2) do Quarteto do Som",
+      "description": "Jirobo liberando a força bruta monstruosa do segundo estágio de seu Selo Amaldiçoado."
+    },
+    {
+      "id": "scene-naruto-kidomaru",
+      "animeSlug": "naruto",
+      "characterId": "kidomaru",
+      "characterName": "Kidomaru",
+      "videoUrl": "/scenes/naruto/kidomaru.webp",
+      "techniqueOrSceneName": "Kumo Senkyuu: Susaku (Arco de Guerra de Ouro Aracnídeo)",
+      "description": "Kidomaru em sua forma demoníaca de Nível 2 disparando sua flecha letal de ouro."
+    },
+    {
+      "id": "scene-naruto-tayuya",
+      "animeSlug": "naruto",
+      "characterId": "tayuya",
+      "characterName": "Tayuya",
+      "videoUrl": "/scenes/naruto/tayuya.webp",
+      "techniqueOrSceneName": "Mateki: Mugen Onsa (Genjutsu da Flauta Demoníaca)",
+      "description": "Tayuya tocando sua flauta com o Selo Amaldiçoado ativo para lançar ilusões sonoras."
+    },
+    {
+      "id": "scene-naruto-sakon-e-ukon",
+      "animeSlug": "naruto",
+      "characterId": "sakon-e-ukon",
+      "characterName": "Sakon e Ukon",
+      "videoUrl": "/scenes/naruto/sakon-e-ukon.webp",
+      "techniqueOrSceneName": "Kuchiyose: Rashoumon (Portão Demoníaco Defensivo)",
+      "description": "Sakon e Ukon no Nível 2 da Marca da Maldição invocando o colossal portão de ferro Rashoumon."
+    },
+    {
+      "id": "scene-naruto-dosu-kinuta",
+      "animeSlug": "naruto",
+      "characterId": "dosu-kinuta",
+      "characterName": "Dosu Kinuta",
+      "videoUrl": "/scenes/naruto/dosu-kinuta.webp",
+      "techniqueOrSceneName": "Manipulação de Ondas Sonoras Ressonantes (Manopla de Som)",
+      "description": "Dosu Kinuta de Otogakure preparando um ataque sônico com seu amplificador de braço."
+    },
+    {
+      "id": "scene-naruto-zaku-abumi",
+      "animeSlug": "naruto",
+      "characterId": "zaku-abumi",
+      "characterName": "Zaku Abumi",
+      "videoUrl": "/scenes/naruto/zaku-abumi.webp",
+      "techniqueOrSceneName": "Zankuuha (Ondas de Ar Decapitadoras)",
+      "description": "Zaku Abumi apontando os tubos de ar em suas palmas para disparar rajadas supersônicas."
+    },
+    {
+      "id": "scene-naruto-mangetsu-hozuki",
+      "animeSlug": "naruto",
+      "characterId": "mangetsu-hozuki",
+      "characterName": "Mangetsu Hozuki",
+      "videoUrl": "/scenes/naruto/mangetsu-hozuki.webp",
+      "techniqueOrSceneName": "Pergaminho Mestre das Sete Espadas da Névoa",
+      "description": "Mangetsu Hozuki, o Segundo Demônio da Névoa, desenrolando o pergaminho de invocação das sete lâminas."
+    },
+    {
+      "id": "scene-naruto-ameyuri-ringo",
+      "animeSlug": "naruto",
+      "characterId": "ameyuri-ringo",
+      "characterName": "Ameyuri Ringo",
+      "videoUrl": "/scenes/naruto/ameyuri-ringo.webp",
+      "techniqueOrSceneName": "Raiton: Kiba (Espadas Gêmeas do Trovão)",
+      "description": "Ameyuri Ringo canalizando descargas elétricas mortais através das espadas gêmeas Kiba."
+    },
+    {
+      "id": "scene-naruto-kushimaru-kuriarare",
+      "animeSlug": "naruto",
+      "characterId": "kushimaru-kuriarare",
+      "characterName": "Kushimaru Kuriarare",
+      "videoUrl": "/scenes/naruto/kushimaru-kuriarare.webp",
+      "techniqueOrSceneName": "Choukatou Ninpou: Jigumo Nuibari (Agulha Costureira)",
+      "description": "Kushimaru Kuriarare manejando a espada longa Nuibari com fios de aço cortantes."
+    },
+    {
+      "id": "scene-naruto-jinpachi-munashi",
+      "animeSlug": "naruto",
+      "characterId": "jinpachi-munashi",
+      "characterName": "Jinpachi Munashi",
+      "videoUrl": "/scenes/naruto/jinpachi-munashi.webp",
+      "techniqueOrSceneName": "Bakutou Jutsu: Happa Rokujuuushi (Espada Explosiva Shibuki)",
+      "description": "Jinpachi Munashi detonando o pergaminho repleto de tarjas explosivas de sua espada Shibuki."
+    },
+    {
+      "id": "scene-naruto-jinin-akebino",
+      "animeSlug": "naruto",
+      "characterId": "jinin-akebino",
+      "characterName": "Jinin Akebino",
+      "videoUrl": "/scenes/naruto/jinin-akebino.webp",
+      "techniqueOrSceneName": "Dantou: Kabutowari (Espada Brusca Rachadora de Elmos)",
+      "description": "Jinin Akebino golpeando com o machado e martelo da lendária espada Kabutowari para quebrar qualquer defesa."
+    },
+    {
+      "id": "scene-naruto-fuguki-suikazan",
+      "animeSlug": "naruto",
+      "characterId": "fuguki-suikazan",
+      "characterName": "Fuguki Suikazan",
+      "videoUrl": "/scenes/naruto/fuguki-suikazan.webp",
+      "techniqueOrSceneName": "Espadachim da Névoa e Mestre Original da Samehada",
+      "description": "Fuguki Suikazan de Kirigakure impondo sua presença intimidadora e cabeleira espinhosa em batalha."
+    },
+    {
+      "id": "scene-naruto-juzo-biwa",
+      "animeSlug": "naruto",
+      "characterId": "juzo-biwa",
+      "characterName": "Juzo Biwa",
+      "videoUrl": "/scenes/naruto/juzo-biwa.webp",
+      "techniqueOrSceneName": "Investida na Névoa com a Kubikiribouchou",
+      "description": "Juzo Biwa avançando furtivamente com sua imensa espada decapitadora Kubikiribouchou."
+    },
+    {
+      "id": "scene-naruto-pakura",
+      "animeSlug": "naruto",
+      "characterId": "pakura",
+      "characterName": "Pakura",
+      "videoUrl": "/scenes/naruto/pakura.webp",
+      "techniqueOrSceneName": "Shakuton: Kajousatsu (Assassinato Extremamente Vaporizante)",
+      "description": "Pakura de Sunagakure conjurando e controlando seus sóis incandescentes de Estilo Calor."
+    },
+    {
+      "id": "scene-naruto-gari",
+      "animeSlug": "naruto",
+      "characterId": "gari",
+      "characterName": "Gari",
+      "videoUrl": "/scenes/naruto/gari.webp",
+      "techniqueOrSceneName": "Bakuton: Jiraiken (Punho de Mina Terrestre)",
+      "description": "Gari do Corpo de Explosão de Iwagakure concentrando chakra explosivo em seus punhos."
+    },
+    {
+      "id": "scene-naruto-guren",
+      "animeSlug": "naruto",
+      "characterId": "guren",
+      "characterName": "Guren",
+      "videoUrl": "/scenes/naruto/guren.webp",
+      "techniqueOrSceneName": "Shoton: Suishou Touriu (Lâmina de Cristal Carmesim)",
+      "description": "Guren materializando uma lâmina afiada de Estilo Cristal em seu braço em meio ao prisma."
+    },
+    {
+      "id": "scene-naruto-shikaku-nara",
+      "animeSlug": "naruto",
+      "characterId": "shikaku-nara",
+      "characterName": "Shikaku Nara",
+      "videoUrl": "/scenes/naruto/shikaku-nara.webp",
+      "techniqueOrSceneName": "Jutsu de Possessão das Sombras e Comando Tático",
+      "description": "Líder do clã Nara e estrategista-chefe de Konoha coordenando manobras de guerra e expandindo suas sombras em combate."
+    },
+    {
+      "id": "scene-naruto-inoichi-yamanaka",
+      "animeSlug": "naruto",
+      "characterId": "inoichi-yamanaka",
+      "characterName": "Inoichi Yamanaka",
+      "videoUrl": "/scenes/naruto/inoichi-yamanaka.webp",
+      "techniqueOrSceneName": "Shintenshin no Jutsu: Destruição da Mente e Telepatia",
+      "description": "Líder do clã Yamanaka executando o selo de mão de transferência mental para desorientar inimigos e conectar a Aliança Shinobi."
+    },
+    {
+      "id": "scene-naruto-choza-akimichi",
+      "animeSlug": "naruto",
+      "characterId": "choza-akimichi",
+      "characterName": "Choza Akimichi",
+      "videoUrl": "/scenes/naruto/choza-akimichi.webp",
+      "techniqueOrSceneName": "Baika no Jutsu: Investida Gigante do Clã Akimichi",
+      "description": "Patriarca do clã Akimichi avançando com força física colossal na linha de frente de Konoha."
+    },
+    {
+      "id": "scene-naruto-hiashi-hyuuga",
+      "animeSlug": "naruto",
+      "characterId": "hiashi-hyuuga",
+      "characterName": "Hiashi Hyuuga",
+      "videoUrl": "/scenes/naruto/hiashi-hyuuga.webp",
+      "techniqueOrSceneName": "Punho Gentil: Oito Trigramas Palma da Parede de Vácuo",
+      "description": "Líder do clã Hyuuga disparando uma onda de choque devastadora de chakra puro com a palma aberta."
+    },
+    {
+      "id": "scene-naruto-hizashi-hyuuga",
+      "animeSlug": "naruto",
+      "characterId": "hizashi-hyuuga",
+      "characterName": "Hizashi Hyuuga",
+      "videoUrl": "/scenes/naruto/hizashi-hyuuga.webp",
+      "techniqueOrSceneName": "Oito Trigramas Sessenta e Quatro Palmas: Rotação Celestial",
+      "description": "Membro da Casa Secundária do clã Hyuuga liberando chakra por todos os tenketsu em um vórtice defensivo absoluto."
+    },
+    {
+      "id": "scene-naruto-hanabi-hyuuga",
+      "animeSlug": "naruto",
+      "characterId": "hanabi-hyuuga",
+      "characterName": "Hanabi Hyuuga",
+      "videoUrl": "/scenes/naruto/hanabi-hyuuga.webp",
+      "techniqueOrSceneName": "Estilo Punho Gentil e Postura de Combate Hyuuga",
+      "description": "Herdeira do clã Hyuuga demonstrando agilidade e domínio refinado das técnicas de taijutsu do Byakugan."
+    },
+    {
+      "id": "scene-naruto-shizune",
+      "animeSlug": "naruto",
+      "characterId": "shizune",
+      "characterName": "Shizune",
+      "videoUrl": "/scenes/naruto/shizune.webp",
+      "techniqueOrSceneName": "Ninjutsu Médico e Assistência Tática de Konoha",
+      "description": "Jounin médica e braço direito da Quinta Hokage em ação coordenando missões e suporte estratégico."
+    },
+    {
+      "id": "scene-naruto-anko-mitarashi",
+      "animeSlug": "naruto",
+      "characterId": "anko-mitarashi",
+      "characterName": "Anko Mitarashi",
+      "videoUrl": "/scenes/naruto/anko-mitarashi.webp",
+      "techniqueOrSceneName": "Sen'eijashu: Mãos de Serpentes Ocultas nas Sombras",
+      "description": "Examinadora especial Jounin invocando múltiplas serpentes de seus punhos seguida de disparo de Estilo Fogo."
+    },
+    {
+      "id": "scene-naruto-ibiki-morino",
+      "animeSlug": "naruto",
+      "characterId": "ibiki-morino",
+      "characterName": "Ibiki Morino",
+      "videoUrl": "/scenes/naruto/ibiki-morino.webp",
+      "techniqueOrSceneName": "Líder da Divisão de Tortura e Interrogação de Konoha",
+      "description": "Comandante implacável dos Exames Chunin e especialista em interrogatório psicológico impondo sua presença."
+    },
+    {
+      "id": "scene-naruto-genma-shiranui",
+      "animeSlug": "naruto",
+      "characterId": "genma-shiranui",
+      "characterName": "Genma Shiranui",
+      "videoUrl": "/scenes/naruto/genma-shiranui.webp",
+      "techniqueOrSceneName": "Disparo Letal de Senbon com Chakra",
+      "description": "Jounin de elite da Guarda do Hokage disparando sua agulha senbon como um projétil de alta velocidade."
+    },
+    {
+      "id": "scene-naruto-hayate-gekko",
+      "animeSlug": "naruto",
+      "characterId": "hayate-gekko",
+      "characterName": "Hayate Gekko",
+      "videoUrl": "/scenes/naruto/hayate-gekko.webp",
+      "techniqueOrSceneName": "Kenjutsu de Konoha: Dança da Lua Crescente",
+      "description": "Examinador dos Exames Chunin empunhando sua katana em golpes velozes e precisos de kenjutsu."
+    },
+    {
+      "id": "scene-naruto-aoba-yamashiro",
+      "animeSlug": "naruto",
+      "characterId": "aoba-yamashiro",
+      "characterName": "Aoba Yamashiro",
+      "videoUrl": "/scenes/naruto/aoba-yamashiro.webp",
+      "techniqueOrSceneName": "Jounin Especial de Elite e Inteligência de Konoha",
+      "description": "Veterano de óculos escuros de Konohagakure analisando o campo de batalha com precisão tática."
+    },
+    {
+      "id": "scene-naruto-izumo-kamizuki",
+      "animeSlug": "naruto",
+      "characterId": "izumo-kamizuki",
+      "characterName": "Izumo Kamizuki",
+      "videoUrl": "/scenes/naruto/izumo-kamizuki.webp",
+      "techniqueOrSceneName": "Prontidão Tática e Defesa de Konohagakure",
+      "description": "Chunin especialista de Konoha em posição de guarda e resposta imediata às ordens da Quinta Hokage."
+    },
+    {
+      "id": "scene-naruto-kotetsu-hagane",
+      "animeSlug": "naruto",
+      "characterId": "kotetsu-hagane",
+      "characterName": "Kotetsu Hagane",
+      "videoUrl": "/scenes/naruto/kotetsu-hagane.webp",
+      "techniqueOrSceneName": "Guardião de Konoha e Especialista em Armas Ninja",
+      "description": "Parceiro tático de Izumo em prontidão de combate para missões de interceptação e defesa da vila."
+    },
+    {
+      "id": "scene-naruto-ebisu",
+      "animeSlug": "naruto",
+      "characterId": "ebisu",
+      "characterName": "Ebisu",
+      "videoUrl": "/scenes/naruto/ebisu.webp",
+      "techniqueOrSceneName": "Jounin Especial de Treinamento de Elite",
+      "description": "Instrutor particular de candidatos a Hokage ajustando seus óculos escuros em postura de ensino ninja."
+    },
+    {
+      "id": "scene-naruto-rin-nohara",
+      "animeSlug": "naruto",
+      "characterId": "rin-nohara",
+      "characterName": "Rin Nohara",
+      "videoUrl": "/scenes/naruto/rin-nohara.webp",
+      "techniqueOrSceneName": "Kunoichi Médica do Time Minato",
+      "description": "Ninja médica de Konohagakure demonstrando determinação e espírito de equipe em missão."
+    },
+    {
+      "id": "scene-naruto-torune-aburame",
+      "animeSlug": "naruto",
+      "characterId": "torune-aburame",
+      "characterName": "Torune Aburame",
+      "videoUrl": "/scenes/naruto/torune-aburame.webp",
+      "techniqueOrSceneName": "Rinkaichu: Nuvem Letal de Nano-Insetos Venenosos",
+      "description": "Guarda de elite da Raiz (ANBU) retirando suas luvas para liberar enxames microscópicos de insetos destrutivos."
+    },
+    {
+      "id": "scene-naruto-foo-yamanaka",
+      "animeSlug": "naruto",
+      "characterId": "foo-yamanaka",
+      "characterName": "Foo Yamanaka",
+      "videoUrl": "/scenes/naruto/foo-yamanaka.webp",
+      "techniqueOrSceneName": "Jutsu de Troca da Mente da Boneca Amaldiçoada",
+      "description": "Membro de elite da ANBU Raiz executando o selo do clã Yamanaka e brandindo sua tantō em combate."
+    },
+    {
+      "id": "scene-naruto-omoi",
+      "animeSlug": "naruto",
+      "characterId": "omoi",
+      "characterName": "Omoi",
+      "videoUrl": "/scenes/naruto/omoi.webp",
+      "techniqueOrSceneName": "Kenjutsu Estilo Nuvem: Corte da Lua Crescente",
+      "description": "Espadachim de Kumogakure empunhando sua longa katana em manobras acrobáticas de alta velocidade."
+    },
+    {
+      "id": "scene-naruto-karui",
+      "animeSlug": "naruto",
+      "characterId": "karui",
+      "characterName": "Karui",
+      "videoUrl": "/scenes/naruto/karui.webp",
+      "techniqueOrSceneName": "Kunoichi de Elite de Kumogakure em Ação",
+      "description": "Discípula de Killer B da Vila Oculta da Nuvem avançando com determinação feroz no campo de batalha."
+    },
+    {
+      "id": "scene-naruto-samui",
+      "animeSlug": "naruto",
+      "characterId": "samui",
+      "characterName": "Samui",
+      "videoUrl": "/scenes/naruto/samui.webp",
+      "techniqueOrSceneName": "Líder do Time Samui de Kumogakure",
+      "description": "Jounin estrategista e fria da Vila Oculta da Nuvem mantendo foco absoluto durante a guerra."
+    },
+    {
+      "id": "scene-naruto-c",
+      "animeSlug": "naruto",
+      "characterId": "c",
+      "characterName": "C",
+      "videoUrl": "/scenes/naruto/c.webp",
+      "techniqueOrSceneName": "Sensoriamento de Chakra e Genjutsu Estilo Raio",
+      "description": "Guarda-costas sensorial e ninja médico do Quarto Raikage rastreando assinaturas de chakra na Cúpula dos Kages."
+    },
+    {
+      "id": "scene-naruto-dodai",
+      "animeSlug": "naruto",
+      "characterId": "dodai",
+      "characterName": "Dodai",
+      "videoUrl": "/scenes/naruto/dodai.webp",
+      "techniqueOrSceneName": "Suporte Tático e Defesa da Quarta Divisão",
+      "description": "Veterano de Kumogakure auxiliando na contenção do impacto colossal dos meteoros na Quarta Guerra Ninja."
+    },
+    {
+      "id": "scene-naruto-ao",
+      "animeSlug": "naruto",
+      "characterId": "ao",
+      "characterName": "Ao",
+      "videoUrl": "/scenes/naruto/ao.webp",
+      "techniqueOrSceneName": "Ativação do Byakugan Oculto e Liberação de Poder",
+      "description": "Veterano caçador de Kirigakure e ex-guarda da Mizukage liberando seu poder ocular e ferramentas de combate."
+    },
+    {
+      "id": "scene-naruto-kitsuchi",
+      "animeSlug": "naruto",
+      "characterId": "kitsuchi",
+      "characterName": "Kitsuchi",
+      "videoUrl": "/scenes/naruto/kitsuchi.webp",
+      "techniqueOrSceneName": "Doton: Jutsu da Montanha Sanduíche (Sando no Jutsu)",
+      "description": "Comandante da Segunda Divisão batendo as mãos no solo para erguer duas montanhas colossais de rocha."
+    },
+    {
+      "id": "scene-naruto-akatsuchi",
+      "animeSlug": "naruto",
+      "characterId": "akatsuchi",
+      "characterName": "Akatsuchi",
+      "videoUrl": "/scenes/naruto/akatsuchi.webp",
+      "techniqueOrSceneName": "Guarda-Costas do Tsuchikage e Defesa de Iwagakure",
+      "description": "Gigante leal da Vila Oculta da Pedra em postura de defesa ao lado do Terceiro Tsuchikage na Cúpula dos Cinco Kages."
+    },
+    {
+      "id": "scene-naruto-baki",
+      "animeSlug": "naruto",
+      "characterId": "baki",
+      "characterName": "Baki",
+      "videoUrl": "/scenes/naruto/baki.webp",
+      "techniqueOrSceneName": "Comandante Jounin do Conselho de Sunagakure",
+      "description": "Líder das forças de elite da Vila Oculta da Areia preparando sua técnica mortal de Lâmina de Vento."
+    },
+    {
+      "id": "scene-naruto-gamabunta",
+      "animeSlug": "naruto",
+      "characterId": "gamabunta",
+      "characterName": "Gamabunta",
+      "videoUrl": "/scenes/naruto/gamabunta.webp",
+      "techniqueOrSceneName": "Sapo Chefe do Monte Myōboku em Combate",
+      "description": "Invocação gigante lendária empunhando sua lâmina dosu colossal contra ameaças de nível Bijuu."
+    },
+    {
+      "id": "scene-naruto-gamakichi",
+      "animeSlug": "naruto",
+      "characterId": "gamakichi",
+      "characterName": "Gamakichi",
+      "videoUrl": "/scenes/naruto/gamakichi.webp",
+      "techniqueOrSceneName": "Kuchiyose: Sapo Guerreiro do Monte Myōboku",
+      "description": "Filho de Gamabunta invocado em meio à fumaça do campo de batalha da Quarta Guerra Ninja."
+    },
+    {
+      "id": "scene-naruto-fukasaku",
+      "animeSlug": "naruto",
+      "characterId": "fukasaku",
+      "characterName": "Fukasaku",
+      "videoUrl": "/scenes/naruto/fukasaku.webp",
+      "techniqueOrSceneName": "Grande Sábio Sapo do Monte Myōboku (Arte Sábia)",
+      "description": "Mestre do Senjutsu concentrando energia natural e demonstrando a sabedoria ancestral dos sapos."
+    },
+    {
+      "id": "scene-naruto-shima",
+      "animeSlug": "naruto",
+      "characterId": "shima",
+      "characterName": "Shima",
+      "videoUrl": "/scenes/naruto/shima.webp",
+      "techniqueOrSceneName": "Arte Sábia do Monte Myōboku: Liberação de Fogo e Óleo",
+      "description": "Grande Sábia do Monte Myōboku combinando Senjutsu em uma torrente flamejante devastadora."
+    },
+    {
+      "id": "scene-naruto-manda",
+      "animeSlug": "naruto",
+      "characterId": "manda",
+      "characterName": "Manda",
+      "videoUrl": "/scenes/naruto/manda.webp",
+      "techniqueOrSceneName": "Rei das Serpentes da Caverna Ryūchi em Ataque",
+      "description": "A maior e mais feroz invocação ofídica avançando em velocidade letal pelo campo de batalha."
+    },
+    {
+      "id": "scene-naruto-katsuyu",
+      "animeSlug": "naruto",
+      "characterId": "katsuyu",
+      "characterName": "Katsuyu",
+      "videoUrl": "/scenes/naruto/katsuyu.webp",
+      "techniqueOrSceneName": "Kuchiyose: Divisão e Cura da Floresta Shikkotsu",
+      "description": "Rainha das lesmas dividindo seu corpo em centenas de clones para proteger e curar os shinobi aliados."
+    },
+    {
+      "id": "scene-naruto-enma",
+      "animeSlug": "naruto",
+      "characterId": "enma",
+      "characterName": "Enma",
+      "videoUrl": "/scenes/naruto/enma.webp",
+      "techniqueOrSceneName": "Rei Macaco Enma: Transformação em Bastão Adamantino",
+      "description": "A invocação pessoal do Terceiro Hokage emergindo da fumaça e transformando-se no indestrutível bastão Nyoi."
+    },
+    {
+      "id": "scene-naruto-akamaru",
+      "animeSlug": "naruto",
+      "characterId": "akamaru",
+      "characterName": "Akamaru",
+      "videoUrl": "/scenes/naruto/akamaru.webp",
+      "techniqueOrSceneName": "Cão Ninja do Clã Inuzuka em Alerta de Combate",
+      "description": "Fiel companheiro canino de Kiba farejando o inimigo e preparando-se para o ataque conjunto Presa Sobre Presa."
+    },
+    {
+      "id": "scene-naruto-pakkun",
+      "animeSlug": "naruto",
+      "characterId": "pakkun",
+      "characterName": "Pakkun",
+      "videoUrl": "/scenes/naruto/pakkun.webp",
+      "techniqueOrSceneName": "Ninken Rastreador de Kakashi Hatake",
+      "description": "O mais experiente dos cães ninjas invocados por Kakashi guiando missões de rastreamento pelo olfato."
     }
   ],
   "one-piece": [
@@ -2014,8 +2804,7 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/bartholomew-kuma.webp",
       "techniqueOrSceneName": "Nikyu Nikyu no Mi: Pad Cannon & Ursus Shock",
       "description": "Compressão de atmosfera em bolha de pata disparando bombas de choque ultrassônico."
-    }
-,
+    },
     {
       "id": "scene-one-piece-loki",
       "animeSlug": "one-piece",
@@ -2366,6 +3155,906 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "videoUrl": "/scenes/one-piece/bepo.webp",
       "techniqueOrSceneName": "Transformação Feral Sulong (Leão da Lua)",
       "description": "Bepo dos Piratas Heart assumindo sua gigantesca e feroz transformação Sulong de pelagem branca."
+    },
+    {
+      "id": "scene-one-piece-queen",
+      "animeSlug": "one-piece",
+      "characterId": "queen",
+      "characterName": "Queen",
+      "videoUrl": "/scenes/one-piece/queen.webp",
+      "techniqueOrSceneName": "Ryu Ryu no Mi (Modelo Braquiossauro): Black Coffee Laser",
+      "description": "Queen a Praga em seu show em Onigashima e transformado em Braquiossauro ciborgue disparando feixes de laser."
+    },
+    {
+      "id": "scene-one-piece-jack",
+      "animeSlug": "one-piece",
+      "characterId": "jack",
+      "characterName": "Jack",
+      "videoUrl": "/scenes/one-piece/jack.webp",
+      "techniqueOrSceneName": "Zou Zou no Mi (Modelo Mamute) e Lâminas Shotel",
+      "description": "Jack a Seca desembainhando suas lâminas curvas gêmeas e avançando na forma colossal de Mamute."
+    },
+    {
+      "id": "scene-one-piece-whos-who",
+      "animeSlug": "one-piece",
+      "characterId": "whos-who",
+      "characterName": "Who's-Who",
+      "videoUrl": "/scenes/one-piece/whos-who.webp",
+      "techniqueOrSceneName": "Neko Neko no Mi (Modelo Tigre-Dente-de-Sabre): Gagan",
+      "description": "Who's-Who em sua forma híbrida de Tigre-Dente-de-Sabre avançando com Haki do Armamento e lâmina em chamas."
+    },
+    {
+      "id": "scene-one-piece-black-maria",
+      "animeSlug": "one-piece",
+      "characterId": "black-maria",
+      "characterName": "Black Maria",
+      "videoUrl": "/scenes/one-piece/black-maria.webp",
+      "techniqueOrSceneName": "Kumo Kumo no Mi (Modelo Rosamygale Grauvogeli)",
+      "description": "Black Maria em sua forma híbrida de aranha ancestral cercada pelas chamas de Onigashima."
+    },
+    {
+      "id": "scene-one-piece-sasaki-op",
+      "animeSlug": "one-piece",
+      "characterId": "sasaki-op",
+      "characterName": "Sasaki",
+      "videoUrl": "/scenes/one-piece/sasaki-op.webp",
+      "techniqueOrSceneName": "Ryu Ryu no Mi (Modelo Triceratops): Heliceratops",
+      "description": "Sasaki transformando-se em sua forma híbrida de Triceratops e girando a gola óssea em alta rotação."
+    },
+    {
+      "id": "scene-one-piece-page-one",
+      "animeSlug": "one-piece",
+      "characterId": "page-one",
+      "characterName": "Page One",
+      "videoUrl": "/scenes/one-piece/page-one.webp",
+      "techniqueOrSceneName": "Ryu Ryu no Mi (Modelo Espinossauro): Rugido Ancestral",
+      "description": "Page One transformado em Espinossauro completo liberando uma aura púrpura feroz em Wano."
+    },
+    {
+      "id": "scene-one-piece-charlotte-cracker",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-cracker",
+      "characterName": "Charlotte Cracker",
+      "videoUrl": "/scenes/one-piece/charlotte-cracker.webp",
+      "techniqueOrSceneName": "Bisu Bisu no Mi: Soldados Biscoito e Espada Pretzel",
+      "description": "Charlotte Cracker multiplicando seus braços e escudos de biscoito endurecidos para o ataque."
+    },
+    {
+      "id": "scene-one-piece-charlotte-perospero",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-perospero",
+      "characterName": "Charlotte Perospero",
+      "videoUrl": "/scenes/one-piece/charlotte-perospero.webp",
+      "techniqueOrSceneName": "Pero Pero no Mi: Manipulação de Doce (Candy Man)",
+      "description": "Charlotte Perospero empunhando seu cajado de doce enquanto conjura estruturas açucaradas."
+    },
+    {
+      "id": "scene-one-piece-charlotte-smoothie",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-smoothie",
+      "characterName": "Charlotte Smoothie",
+      "videoUrl": "/scenes/one-piece/charlotte-smoothie.webp",
+      "techniqueOrSceneName": "Shibo Shibo no Mi: Espada Gigante e Extração",
+      "description": "A Comandante Doce Charlotte Smoothie desferindo um corte com sua espada e usando o poder de desidratação."
+    },
+    {
+      "id": "scene-one-piece-charlotte-oven",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-oven",
+      "characterName": "Charlotte Oven",
+      "videoUrl": "/scenes/one-piece/charlotte-oven.webp",
+      "techniqueOrSceneName": "Netsu Netsu no Mi: Nettō (Ondas de Calor)",
+      "description": "Charlotte Oven envolto em chamas incandescentes de alta temperatura disparando rajadas térmicas."
+    },
+    {
+      "id": "scene-one-piece-charlotte-daifuku",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-daifuku",
+      "characterName": "Charlotte Daifuku",
+      "videoUrl": "/scenes/one-piece/charlotte-daifuku.webp",
+      "techniqueOrSceneName": "Hoya Hoya no Mi: Invocação do Gênio da Lâmpada",
+      "description": "Charlotte Daifuku esfregando sua fivela para liberar o gigantesco Gênio de fumaça armado com alabarda."
+    },
+    {
+      "id": "scene-one-piece-charlotte-brulee",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-brulee",
+      "characterName": "Charlotte Brulee",
+      "videoUrl": "/scenes/one-piece/charlotte-brulee.webp",
+      "techniqueOrSceneName": "Mira Mira no Mi: Reflexo do Mundo dos Espelhos",
+      "description": "Charlotte Brûlée gargalhando e conjurando barreiras espelhadas do Mirro-World."
+    },
+    {
+      "id": "scene-one-piece-charlotte-pudding",
+      "animeSlug": "one-piece",
+      "characterId": "charlotte-pudding",
+      "characterName": "Charlotte Pudding",
+      "videoUrl": "/scenes/one-piece/charlotte-pudding.webp",
+      "techniqueOrSceneName": "Despertar da Tribo dos Três Olhos e Memo Memo no Mi",
+      "description": "Charlotte Pudding revelando seu terceiro olho na testa em meio à tensão de Whole Cake."
+    },
+    {
+      "id": "scene-one-piece-jozu",
+      "animeSlug": "one-piece",
+      "characterId": "jozu",
+      "characterName": "Jozu",
+      "videoUrl": "/scenes/one-piece/jozu.webp",
+      "techniqueOrSceneName": "Kira Kira no Mi: Brilliant Punk (Corpo de Diamante)",
+      "description": "Jozu Diamante revestindo seu braço e torso maciço em diamante puro indestrutível em Marineford."
+    },
+    {
+      "id": "scene-one-piece-vista",
+      "animeSlug": "one-piece",
+      "characterId": "vista",
+      "characterName": "Vista",
+      "videoUrl": "/scenes/one-piece/vista.webp",
+      "techniqueOrSceneName": "Vista da Espada Florida: Dança das Pétalas de Rosa",
+      "description": "O comandante Vista saltando em combate com suas duas espadas cercado por um turbilhão de pétalas."
+    },
+    {
+      "id": "scene-one-piece-izo",
+      "animeSlug": "one-piece",
+      "characterId": "izo",
+      "characterName": "Izo",
+      "videoUrl": "/scenes/one-piece/izo.webp",
+      "techniqueOrSceneName": "Tama Kiri: Disparo Duplo com Haki Ryou",
+      "description": "Izo girando acrobaticamente no ar e disparando suas duas pistolas pederneiras imbuídas em Haki."
+    },
+    {
+      "id": "scene-one-piece-jesus-burgess",
+      "animeSlug": "one-piece",
+      "characterId": "jesus-burgess",
+      "characterName": "Jesus Burgess",
+      "videoUrl": "/scenes/one-piece/jesus-burgess.webp",
+      "techniqueOrSceneName": "Riki Riki no Mi: Força Sobre-Humana e Hado Elbow",
+      "description": "Jesus Burgess erguendo uma montanha inteira acima da cabeça com o poder da Fruta da Força."
+    },
+    {
+      "id": "scene-one-piece-van-augur",
+      "animeSlug": "one-piece",
+      "characterId": "van-augur",
+      "characterName": "Van Augur",
+      "videoUrl": "/scenes/one-piece/van-augur.webp",
+      "techniqueOrSceneName": "Rifle Senriku e Disparo Supersônico de Precisão",
+      "description": "O atirador Van Augur posicionado no telhado mirando alvos além do horizonte com seu longo mosquete."
+    },
+    {
+      "id": "scene-one-piece-doc-q",
+      "animeSlug": "one-piece",
+      "characterId": "doc-q",
+      "characterName": "Doc Q",
+      "videoUrl": "/scenes/one-piece/doc-q.webp",
+      "techniqueOrSceneName": "Shiku Shiku no Mi e Cesta de Maçãs Explosivas",
+      "description": "O médico dos Piratas do Barba Negra, Doc Q, oferecendo maçãs explosivas com um sorriso sinistro."
+    },
+    {
+      "id": "scene-one-piece-lafitte",
+      "animeSlug": "one-piece",
+      "characterId": "lafitte",
+      "characterName": "Lafitte",
+      "videoUrl": "/scenes/one-piece/lafitte.webp",
+      "techniqueOrSceneName": "Asas Angelicais e Hipnose Silenciosa",
+      "description": "Lafitte planando com suas asas brancas e caminhando elegantemente com sua bengala e cartola."
+    },
+    {
+      "id": "scene-one-piece-catarina-devon",
+      "animeSlug": "one-piece",
+      "characterId": "catarina-devon",
+      "characterName": "Catarina Devon",
+      "videoUrl": "/scenes/one-piece/catarina-devon.webp",
+      "techniqueOrSceneName": "Inu Inu no Mi (Modelo Kyubi no Kitsune): Caçadora da Lua Crescente",
+      "description": "Catarina Devon gargalhando em meio a pétalas de rosa com o poder místico da Raposa de Nove Caudas."
+    },
+    {
+      "id": "scene-one-piece-ben-beckman",
+      "animeSlug": "one-piece",
+      "characterId": "ben-beckman",
+      "characterName": "Ben Beckman",
+      "videoUrl": "/scenes/one-piece/ben-beckman.webp",
+      "techniqueOrSceneName": "Intimidação com Rifle Pederneira e Haki",
+      "description": "O imediato dos Piratas do Ruivo, Ben Beckman, girando e apontando seu rifle com precisão letal."
+    },
+    {
+      "id": "scene-one-piece-yasopp",
+      "animeSlug": "one-piece",
+      "characterId": "yasopp",
+      "characterName": "Yasopp",
+      "videoUrl": "/scenes/one-piece/yasopp.webp",
+      "techniqueOrSceneName": "O Caçador: Olhar de Atirador dos Piratas do Ruivo",
+      "description": "O atirador de elite Yasopp comemorando e exibindo sua confiança inabalável ao lado do bando."
+    },
+    {
+      "id": "scene-one-piece-lucky-roux",
+      "animeSlug": "one-piece",
+      "characterId": "lucky-roux",
+      "characterName": "Lucky Roux",
+      "videoUrl": "/scenes/one-piece/lucky-roux.webp",
+      "techniqueOrSceneName": "Disparo Rápido à Queima-Roupa dos Piratas do Ruivo",
+      "description": "Lucky Roux engatilhando e disparando sua pistola pederneira com um sorriso destemido."
+    },
+    {
+      "id": "scene-one-piece-dragon",
+      "animeSlug": "one-piece",
+      "characterId": "dragon",
+      "characterName": "Dragon",
+      "videoUrl": "/scenes/one-piece/dragon.webp",
+      "techniqueOrSceneName": "Rajada de Vento Tempestuosa de Loguetown",
+      "description": "O líder do Exército Revolucionário, Monkey D. Dragon, envolto em seu manto verde sob ventos furiosos."
+    },
+    {
+      "id": "scene-one-piece-emporio-ivankov",
+      "animeSlug": "one-piece",
+      "characterId": "emporio-ivankov",
+      "characterName": "Emporio Ivankov",
+      "videoUrl": "/scenes/one-piece/emporio-ivankov.webp",
+      "techniqueOrSceneName": "Horu Horu no Mi e Death Wink",
+      "description": "Emporio Ivankov concentrando pressão explosiva em sua piscada devastadora Death Wink."
+    },
+    {
+      "id": "scene-one-piece-inazuma",
+      "animeSlug": "one-piece",
+      "characterId": "inazuma",
+      "characterName": "Inazuma",
+      "videoUrl": "/scenes/one-piece/inazuma.webp",
+      "techniqueOrSceneName": "Choki Choki no Mi: Grande Tesoura Retalhadora",
+      "description": "Inazuma segurando sua taça de vinho enquanto corta e modela blocos de pedra sólida como papel."
+    },
+    {
+      "id": "scene-one-piece-koala",
+      "animeSlug": "one-piece",
+      "characterId": "koala",
+      "characterName": "Koala",
+      "videoUrl": "/scenes/one-piece/koala.webp",
+      "techniqueOrSceneName": "Punho de Karatê Homem-Peixe do Exército Revolucionário",
+      "description": "A instrutora Koala desferindo golpes rápidos e precisos de Karatê Homem-Peixe."
+    },
+    {
+      "id": "scene-one-piece-karasu",
+      "animeSlug": "one-piece",
+      "characterId": "karasu",
+      "characterName": "Karasu",
+      "videoUrl": "/scenes/one-piece/karasu.webp",
+      "techniqueOrSceneName": "Susu Susu no Mi: Bando de Corvos de Fuligem",
+      "description": "O comandante Karasu desfazendo seu corpo em uma revoada sombria de corvos de fuligem."
+    },
+    {
+      "id": "scene-one-piece-belo-betty",
+      "animeSlug": "one-piece",
+      "characterId": "belo-betty",
+      "characterName": "Belo Betty",
+      "videoUrl": "/scenes/one-piece/belo-betty.webp",
+      "techniqueOrSceneName": "Kobu Kobu no Mi: Estandarte da Revolução",
+      "description": "A comandante Belo Betty agitando a bandeira do Exército Revolucionário para despertar a força do povo."
+    },
+    {
+      "id": "scene-one-piece-morley",
+      "animeSlug": "one-piece",
+      "characterId": "morley",
+      "characterName": "Morley",
+      "videoUrl": "/scenes/one-piece/morley.webp",
+      "techniqueOrSceneName": "Oshi Oshi no Mi: Arpão Escavador Gigante",
+      "description": "O gigante comandante Morley emergindo do subsolo e empurrando a rocha como argila com seu tridente."
+    },
+    {
+      "id": "scene-one-piece-kozuki-momonosuke",
+      "animeSlug": "one-piece",
+      "characterId": "kozuki-momonosuke",
+      "characterName": "Kozuki Momonosuke",
+      "videoUrl": "/scenes/one-piece/kozuki-momonosuke.webp",
+      "techniqueOrSceneName": "Transformação em Dragão Rosa (Uo Uo no Mi Artificial)",
+      "description": "Momonosuke transformado em um imenso dragão oriental cor-de-rosa rugindo e voando pelas nuvens de chamas sobre Onigashima."
+    },
+    {
+      "id": "scene-one-piece-denjiro",
+      "animeSlug": "one-piece",
+      "characterId": "denjiro",
+      "characterName": "Denjiro",
+      "videoUrl": "/scenes/one-piece/denjiro.webp",
+      "techniqueOrSceneName": "Metamorfose da Fúria de Denjiro (Kyoshiro)",
+      "description": "O retentor dos Bainhas Vermelhas tomado pela fúria enquanto seus cabelos se tornam brancos e sua expressão muda."
+    },
+    {
+      "id": "scene-one-piece-ashura-doji",
+      "animeSlug": "one-piece",
+      "characterId": "ashura-doji",
+      "characterName": "Ashura Doji",
+      "videoUrl": "/scenes/one-piece/ashura-doji.webp",
+      "techniqueOrSceneName": "Investida de Duas Espadas de Shutenmaru",
+      "description": "O poderoso samurai Ashura Doji saltando em combate enquanto empunha suas duas katanas no País de Wano."
+    },
+    {
+      "id": "scene-one-piece-kikunojo",
+      "animeSlug": "one-piece",
+      "characterId": "kikunojo",
+      "characterName": "Kikunojo (Kiku)",
+      "videoUrl": "/scenes/one-piece/kikunojo.webp",
+      "techniqueOrSceneName": "Kiku da Neve Remanescente: Máscara Demoníaca",
+      "description": "A retentora dos Bainhas Vermelhas vestindo sua tradicional máscara de demônio e empunhando sua katana em batalha."
+    },
+    {
+      "id": "scene-one-piece-kawamatsu",
+      "animeSlug": "one-piece",
+      "characterId": "kawamatsu",
+      "characterName": "Kawamatsu",
+      "videoUrl": "/scenes/one-piece/kawamatsu.webp",
+      "techniqueOrSceneName": "Kappa-ryū: Estilo Espadachim do Rio da Retribuição",
+      "description": "Kawamatsu, o Kappa, sob seu chapéu de palha tradicional executando sua técnica de espada em alta velocidade."
+    },
+    {
+      "id": "scene-one-piece-raizo",
+      "animeSlug": "one-piece",
+      "characterId": "raizo",
+      "characterName": "Raizo",
+      "videoUrl": "/scenes/one-piece/raizo.webp",
+      "techniqueOrSceneName": "Ninpō: Maki Maki no Jutsu (Arte Ninja dos Pergaminhos)",
+      "description": "Raizo da Névoa executando selos de mão shinobi e desenrolando seu pergaminho místico em combate."
+    },
+    {
+      "id": "scene-one-piece-inuarashi",
+      "animeSlug": "one-piece",
+      "characterId": "inuarashi",
+      "characterName": "Inuarashi",
+      "videoUrl": "/scenes/one-piece/inuarashi.webp",
+      "techniqueOrSceneName": "Transformação Sulong do Duque da Aurora",
+      "description": "O Duque Inuarashi despertando sua forma Sulong sob a lua cheia e avançando envolto em descargas de Electro."
+    },
+    {
+      "id": "scene-one-piece-nekomamushi",
+      "animeSlug": "one-piece",
+      "characterId": "nekomamushi",
+      "characterName": "Nekomamushi",
+      "videoUrl": "/scenes/one-piece/nekomamushi.webp",
+      "techniqueOrSceneName": "Salto Feroz do Guardião da Floresta da Baleia",
+      "description": "O Mestre Nekomamushi rugindo e saltando acrobaticamente enquanto gira sua lança dupla eletrificada."
+    },
+    {
+      "id": "scene-one-piece-shinobu",
+      "animeSlug": "one-piece",
+      "characterId": "shinobu",
+      "characterName": "Shinobu",
+      "videoUrl": "/scenes/one-piece/shinobu.webp",
+      "techniqueOrSceneName": "Juku Juku no Jutsu: Arte Kunoichi Veterana",
+      "description": "A kunoichi aliada dos Bainhas Vermelhas em ação furtiva no País de Wano."
+    },
+    {
+      "id": "scene-one-piece-kurozumi-kanjuro",
+      "animeSlug": "one-piece",
+      "characterId": "kurozumi-kanjuro",
+      "characterName": "Kanjuro",
+      "videoUrl": "/scenes/one-piece/kurozumi-kanjuro.webp",
+      "techniqueOrSceneName": "Fude Fude no Mi: Pincel de Tinta de Kanjuro",
+      "description": "Kanjuro empunhando seu grande pincel e conjurando tinta sombria através dos poderes de sua Akuma no Mi."
+    },
+    {
+      "id": "scene-one-piece-kurozumi-orochi",
+      "animeSlug": "one-piece",
+      "characterId": "kurozumi-orochi",
+      "characterName": "Kurozumi Orochi",
+      "videoUrl": "/scenes/one-piece/kurozumi-orochi.webp",
+      "techniqueOrSceneName": "Hebi Hebi no Mi, Modelo: Yamata no Orochi",
+      "description": "O Shogun de Wano gargalhando com seu leque dourado e assumindo a forma mítica da serpente de oito cabeças."
+    },
+    {
+      "id": "scene-one-piece-carrot",
+      "animeSlug": "one-piece",
+      "characterId": "carrot",
+      "characterName": "Carrot",
+      "videoUrl": "/scenes/one-piece/carrot.webp",
+      "techniqueOrSceneName": "Despertar Sulong e Voo Elétrico ao Luar",
+      "description": "Carrot emanando faíscas de Electro e planando velozmente em sua forma Sulong prateada sob a lua cheia."
+    },
+    {
+      "id": "scene-one-piece-pedro",
+      "animeSlug": "one-piece",
+      "characterId": "pedro",
+      "characterName": "Pedro",
+      "videoUrl": "/scenes/one-piece/pedro.webp",
+      "techniqueOrSceneName": "Espada Eletrificada do Capitão dos Guardiões",
+      "description": "Pedro das Copas das Árvores sacando sua lâmina carregada de faíscas de Electro em combate."
+    },
+    {
+      "id": "scene-one-piece-pekoms",
+      "animeSlug": "one-piece",
+      "characterId": "pekoms",
+      "characterName": "Pekoms",
+      "videoUrl": "/scenes/one-piece/pekoms.webp",
+      "techniqueOrSceneName": "Kame Kame no Mi: Giro Blindado e Rugido Mink",
+      "description": "Pekoms girando dentro de seu casco de tartaruga duro como diamante e rugindo com sua fúria leonina."
+    },
+    {
+      "id": "scene-one-piece-moria-gecko",
+      "animeSlug": "one-piece",
+      "characterId": "moria-gecko",
+      "characterName": "Moria Gecko",
+      "videoUrl": "/scenes/one-piece/moria-gecko.webp",
+      "techniqueOrSceneName": "Kage Kage no Mi: Gargalhada Sombria de Thriller Bark",
+      "description": "O ex-Shichibukai Gecko Moria exibindo seu sorriso macabro enquanto manipula as sombras ao seu redor."
+    },
+    {
+      "id": "scene-one-piece-edward-weevil",
+      "animeSlug": "one-piece",
+      "characterId": "edward-weevil",
+      "characterName": "Edward Weevil",
+      "videoUrl": "/scenes/one-piece/edward-weevil.webp",
+      "techniqueOrSceneName": "Fúria Destrutiva com Bisento em Chamas",
+      "description": "O autoproclamado filho de Barba Branca emergindo entre as chamas e brandindo seu imenso bisento."
+    },
+    {
+      "id": "scene-one-piece-shiki",
+      "animeSlug": "one-piece",
+      "characterId": "shiki",
+      "characterName": "Shiki Leão Dourado",
+      "videoUrl": "/scenes/one-piece/shiki.webp",
+      "techniqueOrSceneName": "Fuwa Fuwa no Mi & Shishi: Senjindani",
+      "description": "O lendário pirata Shiki flutuando com suas espadas gêmeas Oto e Kogarashi e desferindo cortes aéreos."
+    },
+    {
+      "id": "scene-one-piece-vinsmoke-reiju",
+      "animeSlug": "one-piece",
+      "characterId": "vinsmoke-reiju",
+      "characterName": "Vinsmoke Reiju",
+      "videoUrl": "/scenes/one-piece/vinsmoke-reiju.webp",
+      "techniqueOrSceneName": "Raid Suit da Germa 66: Poison Pink",
+      "description": "Vinsmoke Reiju ativando seu traje tecnológico de combate e abrindo suas asas luminosas de borboleta venenosa."
+    },
+    {
+      "id": "scene-one-piece-vinsmoke-ichiji",
+      "animeSlug": "one-piece",
+      "characterId": "vinsmoke-ichiji",
+      "characterName": "Vinsmoke Ichiji",
+      "videoUrl": "/scenes/one-piece/vinsmoke-ichiji.webp",
+      "techniqueOrSceneName": "Raid Suit da Germa 66: Sparking Red",
+      "description": "O primogênito da família Vinsmoke equipando seu Raid Suit vermelho em meio a explosões incandescentes."
+    },
+    {
+      "id": "scene-one-piece-vinsmoke-niji",
+      "animeSlug": "one-piece",
+      "characterId": "vinsmoke-niji",
+      "characterName": "Vinsmoke Niji",
+      "videoUrl": "/scenes/one-piece/vinsmoke-niji.webp",
+      "techniqueOrSceneName": "Raid Suit da Germa 66: Dengeki Blue",
+      "description": "Vinsmoke Niji envolto em descargas elétricas de alta voltagem ao ativar seu traje de batalha da Germa 66."
+    },
+    {
+      "id": "scene-one-piece-vinsmoke-yonji",
+      "animeSlug": "one-piece",
+      "characterId": "vinsmoke-yonji",
+      "characterName": "Vinsmoke Yonji",
+      "videoUrl": "/scenes/one-piece/vinsmoke-yonji.webp",
+      "techniqueOrSceneName": "Raid Suit da Germa 66: Winch Green",
+      "description": "O caçula dos irmãos Vinsmoke vestindo seu traje tecnológico verde e avançando com propulsores nos pés."
+    },
+    {
+      "id": "scene-one-piece-vinsmoke-judge",
+      "animeSlug": "one-piece",
+      "characterId": "vinsmoke-judge",
+      "characterName": "Vinsmoke Judge",
+      "videoUrl": "/scenes/one-piece/vinsmoke-judge.webp",
+      "techniqueOrSceneName": "Garuda: Lança Eletromagnética do Rei da Germa",
+      "description": "O comandante supremo da Germa 66 girando sua lança tecnológica carregada de energia eletromagnética."
+    },
+    {
+      "id": "scene-one-piece-corazon",
+      "animeSlug": "one-piece",
+      "characterId": "corazon",
+      "characterName": "Donquixote Rosinante (Corazón)",
+      "videoUrl": "/scenes/one-piece/corazon.webp",
+      "techniqueOrSceneName": "Nagi Nagi no Mi: Sorriso Silencioso e Ope Ope no Mi",
+      "description": "Rosinante exibindo a cobiçada Ope Ope no Mi e fazendo seu gesto característico de silêncio na neve."
+    },
+    {
+      "id": "scene-one-piece-vergo",
+      "animeSlug": "one-piece",
+      "characterId": "vergo",
+      "characterName": "Vergo",
+      "videoUrl": "/scenes/one-piece/vergo.webp",
+      "techniqueOrSceneName": "Busoshoku Haki de Corpo Inteiro",
+      "description": "O líder da base G-5 expandindo sua musculatura e revestindo todo o corpo com Haki do Armamento negro."
+    },
+    {
+      "id": "scene-one-piece-monet",
+      "animeSlug": "one-piece",
+      "characterId": "monet",
+      "characterName": "Monet",
+      "videoUrl": "/scenes/one-piece/monet.webp",
+      "techniqueOrSceneName": "Yuki Yuki no Mi: Asas de Harpia da Neve",
+      "description": "Monet batendo suas grandes asas de harpia e conjurando uma nevasca congelante em Punk Hazard."
+    },
+    {
+      "id": "scene-one-piece-pica",
+      "animeSlug": "one-piece",
+      "characterId": "pica",
+      "characterName": "Pica",
+      "videoUrl": "/scenes/one-piece/pica.webp",
+      "techniqueOrSceneName": "Ishi Ishi no Mi & Golpe com a Katana Gigante Bitento",
+      "description": "O oficial de elite da Família Donquixote brandindo sua gigantesca espada Bitento em Dressrosa."
+    },
+    {
+      "id": "scene-one-piece-diamante",
+      "animeSlug": "one-piece",
+      "characterId": "diamante",
+      "characterName": "Diamante",
+      "videoUrl": "/scenes/one-piece/diamante.webp",
+      "techniqueOrSceneName": "Hira Hira no Mi: Vipera Glaive",
+      "description": "O herói do Coliseu Corrida ondulando sua capa de aço e esticando sua espada flexível pelo campo de girassóis."
+    },
+    {
+      "id": "scene-one-piece-trebol",
+      "animeSlug": "one-piece",
+      "characterId": "trebol",
+      "characterName": "Trebol",
+      "videoUrl": "/scenes/one-piece/trebol.webp",
+      "techniqueOrSceneName": "Beta Beta no Mi: Muco Adesivo Explosivo",
+      "description": "O oficial executivo Trebol coberto pelo muco pegajoso de sua Akuma no Mi."
+    },
+    {
+      "id": "scene-one-piece-senor-pink",
+      "animeSlug": "one-piece",
+      "characterId": "senor-pink",
+      "characterName": "Senor Pink",
+      "videoUrl": "/scenes/one-piece/senor-pink.webp",
+      "techniqueOrSceneName": "Sui Sui no Mi: Nado Livre pelo Solo Sólido",
+      "description": "O guerreiro hard-boiled Senor Pink mergulhando e nadando livremente através do chão de pedra."
+    },
+    {
+      "id": "scene-one-piece-baby-5",
+      "animeSlug": "one-piece",
+      "characterId": "baby-5",
+      "characterName": "Baby 5",
+      "videoUrl": "/scenes/one-piece/baby-5.webp",
+      "techniqueOrSceneName": "Buki Buki no Mi: Criada Assassina da Família Donquixote",
+      "description": "Baby 5 em seu traje de criada reagindo com entusiasmo em meio às batalhas da Família Donquixote."
+    },
+    {
+      "id": "scene-one-piece-sugar",
+      "animeSlug": "one-piece",
+      "characterId": "sugar",
+      "characterName": "Sugar",
+      "videoUrl": "/scenes/one-piece/sugar.webp",
+      "techniqueOrSceneName": "Hobi Hobi no Mi: Maldição dos Brinquedos Vivos",
+      "description": "A oficial especial Sugar saboreando suas uvas e erguendo as mãos para ativar o poder da Hobi Hobi no Mi."
+    },
+    {
+      "id": "scene-one-piece-gladius",
+      "animeSlug": "one-piece",
+      "characterId": "gladius",
+      "characterName": "Gladius",
+      "videoUrl": "/scenes/one-piece/gladius.webp",
+      "techniqueOrSceneName": "Pamo Pamo no Mi: Met Pamo e Ruptura Explosiva",
+      "description": "Gladius caminhando em meio às explosões e inflando seu capacete e cabelos espinhosos prestes a detonar."
+    },
+    {
+      "id": "scene-one-piece-viola",
+      "animeSlug": "one-piece",
+      "characterId": "viola",
+      "characterName": "Viola",
+      "videoUrl": "/scenes/one-piece/viola.webp",
+      "techniqueOrSceneName": "Giro Giro no Mi: Clarividência e Dança Flamenca",
+      "description": "A princesa de Dressrosa formando círculos com os dedos para ativar sua visão clarividente e bailando com uma rosa."
+    },
+    {
+      "id": "scene-one-piece-cavendish",
+      "animeSlug": "one-piece",
+      "characterId": "cavendish",
+      "characterName": "Cavendish",
+      "videoUrl": "/scenes/one-piece/cavendish.webp",
+      "techniqueOrSceneName": "Espada Lendária Durandal & Despertar de Hakuba",
+      "description": "O Príncipe Pirata desembainhando a lâmina Durandal entre pétalas de rosa e despertando seu alter ego Hakuba."
+    },
+    {
+      "id": "scene-one-piece-kyros",
+      "animeSlug": "one-piece",
+      "characterId": "kyros",
+      "characterName": "Kyros",
+      "videoUrl": "/scenes/one-piece/kyros.webp",
+      "techniqueOrSceneName": "Trueno Bastardo: Golpe do Gladiador Lendário",
+      "description": "O lendário gladiador de uma perna só saltando com determinação e desferindo um corte poderoso com sua espada."
+    },
+    {
+      "id": "scene-one-piece-rebecca",
+      "animeSlug": "one-piece",
+      "characterId": "rebecca",
+      "characterName": "Rebecca",
+      "videoUrl": "/scenes/one-piece/rebecca.webp",
+      "techniqueOrSceneName": "Dança da Espada na Beira da Água (Backwater Sword Dance)",
+      "description": "A gladiadora invicta entrando na arena do Coliseu Corrida e empunhando sua espada de lâmina cega."
+    },
+    {
+      "id": "scene-one-piece-sai",
+      "animeSlug": "one-piece",
+      "characterId": "sai",
+      "characterName": "Sai",
+      "videoUrl": "/scenes/one-piece/sai.webp",
+      "techniqueOrSceneName": "Hasshōken Ōgi: Kiryū Kirikugi (Prego do Dragão Broca)",
+      "description": "O 13º líder da Marinha Happo girando no ar com o calcanhar imbuído em Haki e ondas de choque verdes."
+    },
+    {
+      "id": "scene-one-piece-elizabello-ii",
+      "animeSlug": "one-piece",
+      "characterId": "elizabello-ii",
+      "characterName": "Elizabello II",
+      "videoUrl": "/scenes/one-piece/elizabello-ii.webp",
+      "techniqueOrSceneName": "King Punch: O Soco Capaz de Derrubar um Yonkou",
+      "description": "O Rei de Prodence concentrando sua imensa aura escarlate nos punhos antes de disparar o devastador King Punch."
+    },
+    {
+      "id": "scene-one-piece-hajrudin",
+      "animeSlug": "one-piece",
+      "characterId": "hajrudin",
+      "characterName": "Hajrudin",
+      "videoUrl": "/scenes/one-piece/hajrudin.webp",
+      "techniqueOrSceneName": "Rugido de Guerra do Gigante de Elbaf",
+      "description": "O mercenário gigante Hajrudin erguendo seus pesados braceletes de ferro e rugindo na arena do Coliseu Corrida."
+    },
+    {
+      "id": "scene-one-piece-leo",
+      "animeSlug": "one-piece",
+      "characterId": "leo",
+      "characterName": "Leo",
+      "videoUrl": "/scenes/one-piece/leo.webp",
+      "techniqueOrSceneName": "Nui Nui no Mi: Costura Tática do Guerreiro Tontatta",
+      "description": "O líder do Corpo Tontatta em posição de combate empunhando suas agulhas de costura da Nui Nui no Mi."
+    },
+    {
+      "id": "scene-one-piece-daz-bones",
+      "animeSlug": "one-piece",
+      "characterId": "daz-bones",
+      "characterName": "Mr. 1 (Daz Bones)",
+      "videoUrl": "/scenes/one-piece/daz-bones.webp",
+      "techniqueOrSceneName": "Supa Supa no Mi: Atomic Spurt",
+      "description": "Daz Bones deslizando em alta velocidade com lâminas de aço rotativas nos pés e braços pelo deserto de Alabasta."
+    },
+    {
+      "id": "scene-one-piece-gem",
+      "animeSlug": "one-piece",
+      "characterId": "gem",
+      "characterName": "Mr. 5 (Gem)",
+      "videoUrl": "/scenes/one-piece/gem.webp",
+      "techniqueOrSceneName": "Bomu Bomu no Mi: Nose Fancy Cannon",
+      "description": "Mr. 5 preparando e disparando seu projétil explosivo com o poder da Bomu Bomu no Mi."
+    },
+    {
+      "id": "scene-one-piece-zala",
+      "animeSlug": "one-piece",
+      "characterId": "zala",
+      "characterName": "Miss Doublefinger (Zala)",
+      "videoUrl": "/scenes/one-piece/zala.webp",
+      "techniqueOrSceneName": "Toge Toge no Mi: Doublefinger Stinger",
+      "description": "Zala avançando em meio às chamas e transformando seus braços e dedos em espinhos perfurantes."
+    },
+    {
+      "id": "scene-one-piece-mikita",
+      "animeSlug": "one-piece",
+      "characterId": "mikita",
+      "characterName": "Miss Valentine (Mikita)",
+      "videoUrl": "/scenes/one-piece/mikita.webp",
+      "techniqueOrSceneName": "Kilo Kilo no Mi: Dez Mil Quilos Guillotine",
+      "description": "Miss Valentine flutuando com seu guarda-sol e descendo do céu com dez mil quilos de pressão."
+    },
+    {
+      "id": "scene-one-piece-pell",
+      "animeSlug": "one-piece",
+      "characterId": "pell",
+      "characterName": "Pell",
+      "videoUrl": "/scenes/one-piece/pell.webp",
+      "techniqueOrSceneName": "Tori Tori no Mi, Modelo Falcão: Voo de Sacrifício",
+      "description": "Pell transformado em falcão voando verticalmente para os céus de Alabasta antes da grande explosão."
+    },
+    {
+      "id": "scene-one-piece-chaka",
+      "animeSlug": "one-piece",
+      "characterId": "chaka",
+      "characterName": "Chaka (O Chacal)",
+      "videoUrl": "/scenes/one-piece/chaka.webp",
+      "techniqueOrSceneName": "Guardião Real de Alabasta em Combate",
+      "description": "Chaka liderando a defesa do palácio real de Alabasta com determinação inabalável."
+    },
+    {
+      "id": "scene-one-piece-wapol",
+      "animeSlug": "one-piece",
+      "characterId": "wapol",
+      "characterName": "Wapol",
+      "videoUrl": "/scenes/one-piece/wapol.webp",
+      "techniqueOrSceneName": "Baku Baku no Mi: Devoração Real",
+      "description": "Wapol correndo desesperadamente e devorando as portas e estruturas com sua mandíbula gigantesca."
+    },
+    {
+      "id": "scene-one-piece-dalton",
+      "animeSlug": "one-piece",
+      "characterId": "dalton",
+      "characterName": "Dalton",
+      "videoUrl": "/scenes/one-piece/dalton.webp",
+      "techniqueOrSceneName": "Ushi Ushi no Mi, Modelo Bisão: Transformação Híbrida",
+      "description": "Dalton avançando pelo campo e assumindo sua imponente forma híbrida de bisão."
+    },
+    {
+      "id": "scene-one-piece-dorry",
+      "animeSlug": "one-piece",
+      "characterId": "dorry",
+      "characterName": "Dorry",
+      "videoUrl": "/scenes/one-piece/dorry.webp",
+      "techniqueOrSceneName": "Chamado de Guerra de Elbaf",
+      "description": "O gigante Dorry soprando a trombeta de batalha e gargalhando em meio ao campo de combate."
+    },
+    {
+      "id": "scene-one-piece-brogy",
+      "animeSlug": "one-piece",
+      "characterId": "brogy",
+      "characterName": "Brogy",
+      "videoUrl": "/scenes/one-piece/brogy.webp",
+      "techniqueOrSceneName": "Investida do Guerreiro Gigante de Elbaf",
+      "description": "O gigante Brogy erguendo seu machado colossal em meio ao fogo da batalha com seu grito de guerra."
+    },
+    {
+      "id": "scene-one-piece-krieg-don",
+      "animeSlug": "one-piece",
+      "characterId": "krieg-don",
+      "characterName": "Don Krieg",
+      "videoUrl": "/scenes/one-piece/krieg-don.webp",
+      "techniqueOrSceneName": "Armadura Wootz Dourada e Capa de Espinhos",
+      "description": "Almirante Pirata Don Krieg exibindo os escudos de sua armadura dourada e se envolvendo em sua capa de aço espinhenta."
+    },
+    {
+      "id": "scene-one-piece-gin",
+      "animeSlug": "one-piece",
+      "characterId": "gin",
+      "characterName": "Gin",
+      "videoUrl": "/scenes/one-piece/gin.webp",
+      "techniqueOrSceneName": "Técnica de Combate com Tonfas de Ferro",
+      "description": "Gin, o Homem-Demônio, girando suas tonfas com esferas de ferro em um ataque feroz no Baratie."
+    },
+    {
+      "id": "scene-one-piece-alvida",
+      "animeSlug": "one-piece",
+      "characterId": "alvida",
+      "characterName": "Alvida",
+      "videoUrl": "/scenes/one-piece/alvida.webp",
+      "techniqueOrSceneName": "Sube Sube no Mi e Clava de Ferro",
+      "description": "Lady Alvida caminhando pelo convés com sua pesada clava de ferro e exibindo os poderes da Sube Sube no Mi."
+    },
+    {
+      "id": "scene-one-piece-jango",
+      "animeSlug": "one-piece",
+      "characterId": "jango",
+      "characterName": "Jango",
+      "videoUrl": "/scenes/one-piece/jango.webp",
+      "techniqueOrSceneName": "Dança Moonwalk e Pêndulo Hipnótico",
+      "description": "Jango deslizando no estilo moonwalk e balançando seu chakram para hipnotizar com \"Um, Dois, Jango!\"."
+    },
+    {
+      "id": "scene-one-piece-hatchan",
+      "animeSlug": "one-piece",
+      "characterId": "hatchan",
+      "characterName": "Hatchan",
+      "videoUrl": "/scenes/one-piece/hatchan.webp",
+      "techniqueOrSceneName": "Rokutoryu: Postura de Seis Espadas do Homem-Peixe Polvo",
+      "description": "Hatchan movendo seus seis braços de polvo em preparação para o combate no Arlong Park."
+    },
+    {
+      "id": "scene-one-piece-zeff",
+      "animeSlug": "one-piece",
+      "characterId": "zeff",
+      "characterName": "Zeff",
+      "videoUrl": "/scenes/one-piece/zeff.webp",
+      "techniqueOrSceneName": "Olhar Severo do Chef Perna Vermelha",
+      "description": "O lendário pirata e chef-chefe do Baratie, Zeff Perna Vermelha, impondo ordem na cozinha."
+    },
+    {
+      "id": "scene-one-piece-wiper",
+      "animeSlug": "one-piece",
+      "characterId": "wiper",
+      "characterName": "Wiper (O Demônio da Guerra)",
+      "videoUrl": "/scenes/one-piece/wiper.webp",
+      "techniqueOrSceneName": "Patins Waver e Bazuca Burn de Skypiea",
+      "description": "Wiper deslizando velozmente em combate por Upper Yard empunhando seu escudo e sua Bazuca Burn."
+    },
+    {
+      "id": "scene-one-piece-gan-fall",
+      "animeSlug": "one-piece",
+      "characterId": "gan-fall",
+      "characterName": "Gan Fall",
+      "videoUrl": "/scenes/one-piece/gan-fall.webp",
+      "techniqueOrSceneName": "Cavaleiro do Céu em Investida Aérea",
+      "description": "Gan Fall voando pelos céus de Skypiea em sua armadura de cavaleiro empunhando sua lança."
+    },
+    {
+      "id": "scene-one-piece-paulie",
+      "animeSlug": "one-piece",
+      "characterId": "paulie",
+      "characterName": "Paulie",
+      "videoUrl": "/scenes/one-piece/paulie.webp",
+      "techniqueOrSceneName": "Rope Action: Chicote de Cordas da Galley-La",
+      "description": "Paulie disparando e manobrando cabos intermináveis de suas mangas com sua técnica Rope Action."
+    },
+    {
+      "id": "scene-one-piece-kalifa",
+      "animeSlug": "one-piece",
+      "characterId": "kalifa",
+      "characterName": "Kalifa",
+      "videoUrl": "/scenes/one-piece/kalifa.webp",
+      "techniqueOrSceneName": "Awa Awa no Mi: Golden Hour e Chicote de Espuma",
+      "description": "Kalifa da CP9 envolta pelas bolhas de sabão da Awa Awa no Mi empunhando seu chicote espinhoso."
+    },
+    {
+      "id": "scene-one-piece-spandam",
+      "animeSlug": "one-piece",
+      "characterId": "spandam",
+      "characterName": "Spandam",
+      "videoUrl": "/scenes/one-piece/spandam.webp",
+      "techniqueOrSceneName": "Comandante da CP9 Empunhando Funkfreed",
+      "description": "Spandam na Torre da Justiça de Enies Lobby brandindo sua espada-elefante Funkfreed e dando ordens."
+    },
+    {
+      "id": "scene-one-piece-foxy",
+      "animeSlug": "one-piece",
+      "characterId": "foxy",
+      "characterName": "Foxy",
+      "videoUrl": "/scenes/one-piece/foxy.webp",
+      "techniqueOrSceneName": "Noro Noro no Mi: Noro Noro Beam",
+      "description": "Foxy a Raposa Prateada fazendo o sinal com as mãos e disparando os fótons lentos do Noro Noro Beam."
+    },
+    {
+      "id": "scene-one-piece-ryuma",
+      "animeSlug": "one-piece",
+      "characterId": "ryuma",
+      "characterName": "Ryuma",
+      "videoUrl": "/scenes/one-piece/ryuma.webp",
+      "techniqueOrSceneName": "Esgrima Lendária com a Lâmina Negra Shusui",
+      "description": "O general zumbi Ryuma saltando em combate em Thriller Bark e desembainhando a lendária espada Shusui."
+    },
+    {
+      "id": "scene-one-piece-oars",
+      "animeSlug": "one-piece",
+      "characterId": "oars",
+      "characterName": "Oars",
+      "videoUrl": "/scenes/one-piece/oars.webp",
+      "techniqueOrSceneName": "Gomu Gomu no Bazooka Colossal do Zumbi Especial #900",
+      "description": "O gigante ancestral Oars rugindo e destruindo as estruturas de Thriller Bark com sua força descomunal."
+    },
+    {
+      "id": "scene-one-piece-absalom",
+      "animeSlug": "one-piece",
+      "characterId": "absalom",
+      "characterName": "Absalom",
+      "videoUrl": "/scenes/one-piece/absalom.webp",
+      "techniqueOrSceneName": "Corpo Modificado de Fera e Suke Suke no Mi",
+      "description": "Absalom exibindo seus músculos quiméricos aprimorados por Hogback e rugindo em Thriller Bark."
+    },
+    {
+      "id": "scene-one-piece-caribou",
+      "animeSlug": "one-piece",
+      "characterId": "caribou",
+      "characterName": "Caribou",
+      "videoUrl": "/scenes/one-piece/caribou.webp",
+      "techniqueOrSceneName": "Numa Numa no Mi: Pântano Sem Fundo",
+      "description": "Caribou do Cabelo Molhado transformando seu corpo em lama movediça com o poder Logia da Numa Numa no Mi."
+    },
+    {
+      "id": "scene-one-piece-hody-jones",
+      "animeSlug": "one-piece",
+      "characterId": "hody-jones",
+      "characterName": "Hody Jones",
+      "videoUrl": "/scenes/one-piece/hody-jones.webp",
+      "techniqueOrSceneName": "Sobrecarga de Energy Steroids e Karatê Tritão",
+      "description": "Hody Jones transformado pelos Energy Steroids avançando ferozmente pelas águas da Ilha dos Tritões."
+    },
+    {
+      "id": "scene-one-piece-vander-decken-ix",
+      "animeSlug": "one-piece",
+      "characterId": "vander-decken-ix",
+      "characterName": "Vander Decken IX",
+      "videoUrl": "/scenes/one-piece/vander-decken-ix.webp",
+      "techniqueOrSceneName": "Mato Mato no Mi: Arremesso Teleguiado de Machado",
+      "description": "Vander Decken IX lançando um machado gigante teleguiado através do oceano com a maldição da Mato Mato no Mi."
+    },
+    {
+      "id": "scene-one-piece-shirahoshi",
+      "animeSlug": "one-piece",
+      "characterId": "shirahoshi",
+      "characterName": "Shirahoshi",
+      "videoUrl": "/scenes/one-piece/shirahoshi.webp",
+      "techniqueOrSceneName": "Princesa Sereia Gigante do Reino Ryugu",
+      "description": "A Princesa Sereia Shirahoshi em lágrimas chamando nas profundezas da Ilha dos Tritões."
     }
   ],
   "tokyo-ghoul": [

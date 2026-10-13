@@ -6,8 +6,7 @@
  */
 const fs = require('fs');
 const path = require('path');
-const { execFileSync } = require('child_process');
-const ffmpegPath = require('ffmpeg-static');
+
 
 const SCENES_DIR = path.join(__dirname, '..', 'public', 'scenes');
 
