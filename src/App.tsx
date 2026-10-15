@@ -18,6 +18,7 @@ import { ScenePlayerCard } from './components/ScenePlayerCard';
 import { ModeHeaderCard } from './components/ModeHeaderCard';
 import { SurrenderConfirmModal } from './components/SurrenderConfirmModal';
 import { SceneGalleryModal } from './components/SceneGalleryModal';
+import { WantedAttemptsCounter } from './components/WantedAttemptsCounter';
 import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
 import { getVoiceChallengesForAnime } from './data/voices/voiceChallenges';
 import { getSceneChallengesForAnime } from './data/scenes/sceneChallenges';
@@ -1224,6 +1225,15 @@ export const App: React.FC<{
                 guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
                 onSelectCharacter={handleSelectCharacter}
                 disabled={isFinished}
+                themeColor={animeConfig.themeColor}
+              />
+
+              {/* Contador Visual de Tentativas Restantes (Categoria 3.2) */}
+              <WantedAttemptsCounter
+                guessesCount={currentGuesses.length}
+                maxAttempts={5}
+                isWon={modeStates.wanted.isWon}
+                isLost={modeStates.wanted.isLost}
                 themeColor={animeConfig.themeColor}
               />
 

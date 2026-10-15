@@ -383,21 +383,38 @@ export function evaluateGuess(
         return val;
       };
 
-      const isMatch = gClean === tClean || normalizeSynonyms(gClean) === normalizeSynonyms(tClean);
+      if (col.key === 'village') {
+        // Para vilas (ex: Naruto), compara o nome canônico principal da vila, sem coincidir prefixos genéricos ("Vila da")
+        const extractVillageCore = (s: string) => {
+          const m = s.match(/^([^\(\/]+)/);
+          return (m ? m[1] : s).toLowerCase().replace(/vila (oculta )?(da |de |do )?/g, '').trim();
+        };
+        const gCore = extractVillageCore(gStr);
+        const tCore = extractVillageCore(tStr);
+        const isMatch = gClean === tClean || (gCore !== '' && gCore === tCore);
+        matches[col.key] = {
+          status: isMatch ? 'correct' : 'incorrect',
+          value: gStr || 'N/A',
+        };
+      } else {
+        // Outros campos exatos
+        const genericValues = ['nenhum', 'nenhuma', 'n/a', 'humano', 'masculino', 'feminino'];
+        const isMatch = gClean === tClean || normalizeSynonyms(gClean) === normalizeSynonyms(tClean);
+        const isPartialStatus =
+          !isMatch &&
+          gClean !== '' &&
+          tClean !== '' &&
+          !genericValues.includes(gClean) &&
+          !genericValues.includes(tClean) &&
+          gClean.length > 4 &&
+          tClean.length > 4 &&
+          (gClean.includes(tClean) || tClean.includes(gClean));
 
-      const genericValues = ['nenhum', 'nenhuma', 'n/a', 'humano', 'masculino', 'feminino'];
-      const isPartialStatus =
-        !isMatch &&
-        gClean !== '' &&
-        tClean !== '' &&
-        !genericValues.includes(gClean) &&
-        !genericValues.includes(tClean) &&
-        (gClean.includes(tClean) || tClean.includes(gClean));
-
-      matches[col.key] = {
-        status: isMatch ? 'correct' : isPartialStatus ? 'partial' : 'incorrect',
-        value: gStr || 'N/A',
-      };
+        matches[col.key] = {
+          status: isMatch ? 'correct' : isPartialStatus ? 'partial' : 'incorrect',
+          value: gStr || 'N/A',
+        };
+      }
     } else if (col.type === 'array') {
       const guessedArr = Array.isArray(guessedVal) ? guessedVal : [guessedVal as string];
       const targetArr = Array.isArray(targetVal) ? targetVal : [targetVal as string];
@@ -424,20 +441,53 @@ export function evaluateGuess(
         normGuessed.includes('Doze Kizuki') &&
         normTarget.includes('Doze Kizuki');
 
-      // Extrai o grupo/família base removendo papéis ou títulos entre parênteses (ex: "Família Kamado (Caçula)" -> "Família Kamado")
-      const getBaseAffiliation = (s: string) => s.replace(/\s*\(.*?\)/g, '').trim().toLowerCase();
+      // Extrai o grupo/família base removendo papéis ou títulos entre parênteses
+      // (ex: "Família Kamado (Caçula)" -> "Família Kamado")
+      const getBaseAffiliation = (s: string) =>
+        s.replace(/\s*\(.*?\)/g, '')
+         .replace(/^(equipe|time)\s+/i, 'equipe ')
+         .trim()
+         .toLowerCase();
+
+      // Compara afiliações como blocos canônicos completos (evita falsos positivos em palavras soltas como "Vila da")
+      const areAffiliationsLinked = (itemA: string, itemB: string): boolean => {
+        const aLow = itemA.toLowerCase().trim();
+        const bLow = itemB.toLowerCase().trim();
+        if (aLow === bLow) return true;
+
+        const baseA = getBaseAffiliation(itemA);
+        const baseB = getBaseAffiliation(itemB);
+        if (baseA.length >= 3 && baseA === baseB) return true;
+
+        // Se uma contém a outra por completo, apenas permite se NÃO for palavra genérica isolada
+        const genericStopwords = ['vila', 'vila da', 'vila de', 'vila do', 'piratas', 'cla', 'familia', 'esquadrao', 'equipe', 'time', 'guilda', 'bando', 'divisao'];
+        if (
+          baseA.length > 5 &&
+          baseB.length > 5 &&
+          !genericStopwords.includes(baseA) &&
+          !genericStopwords.includes(baseB)
+        ) {
+          // Só permite se for uma sub-unidade evidente (ex: "Akatsuki" em "Membros da Akatsuki")
+          if (
+            (baseA.includes(baseB) && baseB.length >= 6) ||
+            (baseB.includes(baseA) && baseA.length >= 6)
+          ) {
+            // Garante que não é apenas coincidência de prefixo comum (ex: "vila da folha" vs "vila da areia")
+            const prefixA = baseA.split(' ')[0];
+            const prefixB = baseB.split(' ')[0];
+            const suffixA = baseA.split(' ').slice(1).join(' ');
+            const suffixB = baseB.split(' ').slice(1).join(' ');
+            if (prefixA === prefixB && suffixA && suffixB && suffixA !== suffixB) {
+              return false;
+            }
+            return true;
+          }
+        }
+        return false;
+      };
 
       const partialMatch = !exactMatch && !kizukiGroupMatch && cleanGuessed.some((item) =>
-        cleanTarget.some((tItem) => {
-          const iLow = item.toLowerCase();
-          const tLow = tItem.toLowerCase();
-          if (iLow === tLow) return true;
-          if (item.length > 3 && tItem.length > 3 && (item.includes(tItem) || tItem.includes(item))) return true;
-          const baseG = getBaseAffiliation(item);
-          const baseT = getBaseAffiliation(tItem);
-          if (baseG.length > 3 && baseT.length > 3 && baseG === baseT) return true;
-          return false;
-        })
+        cleanTarget.some((tItem) => areAffiliationsLinked(item, tItem))
       );
 
       let status: MatchStatus = 'incorrect';
