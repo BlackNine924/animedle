@@ -1,14 +1,33 @@
 import React from 'react';
-import { Character, GuessResult } from '../types/anime';
+import { Character, GuessResult, GameMode } from '../types/anime';
 import { Check, X } from 'lucide-react';
 
 interface SimpleGuessListProps {
   guesses: GuessResult[];
   targetCharacter: Character;
   animeSlug?: string;
+  currentMode?: GameMode;
 }
 
-export const SimpleGuessList: React.FC<SimpleGuessListProps> = ({ guesses, targetCharacter, animeSlug }) => {
+export const SimpleGuessList: React.FC<SimpleGuessListProps> = ({ guesses, targetCharacter, animeSlug, currentMode = 'classic' }) => {
+  const getSecondaryText = () => {
+    switch (currentMode) {
+      case 'wanted':
+        return 'Digite o nome de qualquer personagem para testar sua silhueta.';
+      case 'scene':
+        return 'Digite o nome de qualquer personagem para identificar a cena.';
+      case 'zoom':
+        return 'Digite o nome de qualquer personagem para testar seu detalhe em zoom.';
+      case 'voice':
+        return 'Digite o nome de qualquer personagem para identificar a voz.';
+      case 'ability':
+        return 'Digite o nome de qualquer personagem para testar seu palpite.';
+      case 'classic':
+      default:
+        return 'Digite o nome de qualquer personagem para comparar seus atributos.';
+    }
+  };
+
   if (guesses.length === 0) {
     return (
       <div className="text-center py-12 px-4 border-2 border-dashed border-[#202b43] rounded-3xl max-w-2xl mx-auto my-6 bg-[#0d1426]/40 backdrop-blur-sm">
@@ -23,7 +42,7 @@ export const SimpleGuessList: React.FC<SimpleGuessListProps> = ({ guesses, targe
           />
         )}
         <p className="font-extrabold text-[#F5F7FF] text-base">Faça o seu primeiro palpite acima!</p>
-        <p className="text-xs mt-1 text-slate-400">Digite o nome de qualquer personagem para comparar seus atributos.</p>
+        <p className="text-xs mt-1 text-slate-400">{getSecondaryText()}</p>
       </div>
     );
   }

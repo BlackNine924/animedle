@@ -2959,15 +2959,6 @@ export const SCENE_CHALLENGES: Record<string, SceneChallenge[]> = {
       "description": "Blueno em pé com seus chifres característicos e feição inabalável concentrando seu Tekkai impenetrável."
     },
     {
-      "id": "scene-one-piece-wyper",
-      "animeSlug": "one-piece",
-      "characterId": "wyper",
-      "characterName": "Wyper",
-      "videoUrl": "/scenes/one-piece/wyper.webp",
-      "techniqueOrSceneName": "Determinação do Demônio Guerreiro de Shandia",
-      "description": "Wyper com sua tatuagem tribal no rosto, moicano e cigarro nos lábios encarando o oponente com frieza em Skypiea."
-    },
-    {
       "id": "scene-one-piece-ulti",
       "animeSlug": "one-piece",
       "characterId": "ulti",

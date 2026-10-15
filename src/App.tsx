@@ -1227,7 +1227,7 @@ export const App: React.FC<{
                 themeColor={animeConfig.themeColor}
               />
 
-              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} currentMode={currentMode} />
             </div>
           </div>
         )}
@@ -1253,7 +1253,7 @@ export const App: React.FC<{
                 themeColor={animeConfig.themeColor}
               />
 
-              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} currentMode={currentMode} />
             </div>
           </div>
         )}
@@ -1278,7 +1278,7 @@ export const App: React.FC<{
                 themeColor={animeConfig.themeColor}
               />
 
-              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} currentMode={currentMode} />
             </div>
           </div>
         )}
@@ -1349,7 +1349,7 @@ export const App: React.FC<{
                 themeColor={animeConfig.themeColor}
               />
 
-              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} />
+              <SimpleGuessList guesses={currentGuesses} targetCharacter={targetCharacter} animeSlug={currentAnimeSlug} currentMode={currentMode} />
             </div>
           </div>
         )}
