@@ -21,14 +21,21 @@ export const HintBox: React.FC<HintBoxProps> = ({
   currentMode = 'classic',
   currentAnimeSlug = 'demon-slayer',
 }) => {
+  // 8.1: Lembrar a preferência do botão de ocultar/mostrar pistas no localStorage
   const [hideClues, setHideClues] = useState<boolean>(() => {
-    return localStorage.getItem('animedle_hide_clues_pref') === 'true';
+    try {
+      return localStorage.getItem('animedle_hide_clues_pref') === 'true';
+    } catch {
+      return false;
+    }
   });
 
   const handleToggleHideClues = () => {
     setHideClues((prev) => {
       const next = !prev;
-      localStorage.setItem('animedle_hide_clues_pref', String(next));
+      try {
+        localStorage.setItem('animedle_hide_clues_pref', String(next));
+      } catch {}
       return next;
     });
   };
@@ -36,7 +43,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
   const isOnePiece = currentAnimeSlug === 'one-piece';
   const isSceneMode = currentMode === 'scene';
 
-  if (isOnePiece || isSceneMode) {
+  if (isOnePiece) {
     const hint1Needed = isSceneMode ? 2 : 3;
     const hint2Needed = isSceneMode ? 4 : 6;
     const hint3Needed = isSceneMode ? 6 : 9;
@@ -44,6 +51,10 @@ export const HintBox: React.FC<HintBoxProps> = ({
     const hint1Unlocked = guessCount >= hint1Needed || isWon;
     const hint2Unlocked = guessCount >= hint2Needed || isWon;
     const hint3Unlocked = guessCount >= hint3Needed || isWon;
+
+    const isHint1JustUnlocked = guessCount === hint1Needed && !isWon;
+    const isHint2JustUnlocked = guessCount === hint2Needed && !isWon;
+    const isHint3JustUnlocked = guessCount === hint3Needed && !isWon;
 
     const hint1Remaining = Math.max(0, hint1Needed - guessCount);
     const hint2Remaining = Math.max(0, hint2Needed - guessCount);
@@ -54,15 +65,11 @@ export const HintBox: React.FC<HintBoxProps> = ({
       targetCharacter.styleOrPower !== 'Nenhum' &&
       targetCharacter.styleOrPower !== 'Nenhuma'
         ? targetCharacter.styleOrPower
-        : (targetCharacter.quote || targetCharacter.ability || 'Personagem Misterioso');
+        : 'Sem Akuma no Mi';
 
     const affiliationHintText = Array.isArray(targetCharacter.affiliation)
       ? targetCharacter.affiliation.join(', ')
-      : targetCharacter.affiliation || targetCharacter.origin || 'Nenhuma';
-
-    const isHint1JustUnlocked = guessCount === hint1Needed && !isWon;
-    const isHint2JustUnlocked = guessCount === hint2Needed && !isWon;
-    const isHint3JustUnlocked = guessCount === hint3Needed && !isWon;
+      : targetCharacter.affiliation || 'Nenhuma';
 
     return (
       <div className="max-w-2xl mx-auto my-6 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-xl shadow-black/20">
@@ -117,7 +124,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 ) : (
                   <Lock size={14} className="text-slate-500" />
                 )}
-                Dica 1 — {isOnePiece ? 'Saga de Estreia' : 'Arco / Origem'}
+                Dica 1 — Saga de Estreia
               </span>
               {isHint1JustUnlocked && (
                 <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
@@ -130,7 +137,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
               ) : (
                 <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn">
-                  {targetCharacter.debutArc || targetCharacter.origin || 'Arco Inicial'}
+                  {targetCharacter.debutArc}
                 </p>
               )
             ) : (
@@ -140,7 +147,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
             )}
           </div>
 
-          {/* Dica 2: Akuma no Mi / Fruta ou Técnica */}
+          {/* Dica 2: Akuma no Mi / Fruta */}
           <div
             className={`p-3 rounded-xl border transition-all duration-500 relative overflow-hidden ${
               hint2Unlocked
@@ -164,7 +171,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 ) : (
                   <Lock size={14} className="text-slate-500" />
                 )}
-                Dica 2 — {isOnePiece ? 'Akuma no Mi' : 'Técnica / Poder'}
+                Dica 2 — Akuma no Mi
               </span>
               {isHint2JustUnlocked && (
                 <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
@@ -238,18 +245,22 @@ export const HintBox: React.FC<HintBoxProps> = ({
     );
   }
 
-  // Comportamento Padrão para os outros Animes (Demon Slayer, Jujutsu Kaisen, Romance, etc.)
+  // Comportamento para os outros Animes (Demon Slayer, Jujutsu Kaisen, Romance, Naruto, etc.)
   const hint1Needed = isSceneMode ? 2 : 4;
   const hint2Needed = isSceneMode ? 4 : 7;
+  const hint3Needed = 6; // Dica 3 do Modo Cena libera no 6º erro
 
   const hint1Unlocked = guessCount >= hint1Needed || isWon;
   const hint2Unlocked = guessCount >= hint2Needed || isWon;
-
-  const hint1Remaining = Math.max(0, hint1Needed - guessCount);
-  const hint2Remaining = Math.max(0, hint2Needed - guessCount);
+  const hint3Unlocked = isSceneMode ? (guessCount >= hint3Needed || isWon) : false;
 
   const isHint1JustUnlocked = guessCount === hint1Needed && !isWon;
   const isHint2JustUnlocked = guessCount === hint2Needed && !isWon;
+  const isHint3JustUnlocked = isSceneMode ? (guessCount === hint3Needed && !isWon) : false;
+
+  const hint1Remaining = Math.max(0, hint1Needed - guessCount);
+  const hint2Remaining = Math.max(0, hint2Needed - guessCount);
+  const hint3Remaining = Math.max(0, hint3Needed - guessCount);
 
   const isNaruto = currentAnimeSlug === 'naruto';
   const isRomance = currentAnimeSlug === 'romance';
@@ -262,7 +273,6 @@ export const HintBox: React.FC<HintBoxProps> = ({
   let hint2Content = targetCharacter.quote || targetCharacter.ability || targetCharacter.styleOrPower || 'Personagem Secreto';
 
   if (isRomance) {
-    // Para Romance, a melhor pista disparada é a Obra de Origem + Papel/Arquétipo Amoroso
     hint1Label = 'Dica 1 — Obra de Origem';
     hint1Content = targetCharacter.origin || (Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation[0] : targetCharacter.affiliation) || 'Comédia Romântica';
 
@@ -281,9 +291,15 @@ export const HintBox: React.FC<HintBoxProps> = ({
     else if (attr) hint2Content = attr;
     else hint2Content = Array.isArray(targetCharacter.affiliation) ? targetCharacter.affiliation.join(', ') : targetCharacter.affiliation || 'Shinobi';
   } else {
-    hint2Label = 'Dica 2 — Frase Marcante';
-    hint2Content = targetCharacter.quote || targetCharacter.ability || targetCharacter.styleOrPower || 'Uma figura inesquecível';
+    hint2Label = isSceneMode ? 'Dica 2 — Técnica / Poder' : 'Dica 2 — Frase Marcante';
+    hint2Content = targetCharacter.styleOrPower || targetCharacter.ability || targetCharacter.quote || 'Uma figura inesquecível';
   }
+
+  // Dica 3 (Modo Cena): Afiliação / Organização
+  const hint3Label = 'Dica 3 — Afiliação';
+  const hint3Content = Array.isArray(targetCharacter.affiliation)
+    ? targetCharacter.affiliation.join(', ')
+    : targetCharacter.affiliation || targetCharacter.origin || 'Independente';
 
   // Sanitização final para garantir que nunca apareça '—', '-' ou vazio
   if (!hint1Content || hint1Content === '—' || hint1Content === '-') {
@@ -322,7 +338,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
         )}
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+      <div className={`grid grid-cols-1 ${isSceneMode ? 'md:grid-cols-3' : 'md:grid-cols-2'} gap-3 text-xs`}>
         {/* Dica 1 */}
         <div
           className={`p-3.5 rounded-xl border transition-all duration-500 relative overflow-hidden ${
@@ -406,8 +422,8 @@ export const HintBox: React.FC<HintBoxProps> = ({
             hideClues ? (
               <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
             ) : (
-              <p className="font-extrabold text-xs text-white mt-1 italic line-clamp-2 animate-fadeIn">
-                "{hint2Content}"
+              <p className="font-extrabold text-xs text-white mt-1 line-clamp-2 animate-fadeIn">
+                {hint2Content}
               </p>
             )
           ) : (
@@ -416,6 +432,55 @@ export const HintBox: React.FC<HintBoxProps> = ({
             </p>
           )}
         </div>
+
+        {/* Dica 3 (Aparece no Modo Cena para liberar no 6º erro) */}
+        {isSceneMode && (
+          <div
+            className={`p-3.5 rounded-xl border transition-all duration-500 relative overflow-hidden ${
+              hint3Unlocked
+                ? isHint3JustUnlocked
+                  ? 'bg-amber-500/20 border-amber-400 text-amber-200 ring-2 ring-amber-400 animate-hintGlow shadow-lg'
+                  : 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
+                : 'bg-[#111a2d]/60 border-[#202b43] text-slate-400'
+            }`}
+          >
+            {hint3Unlocked && (
+              <div className="absolute top-2 right-2 text-amber-400/60 animate-spin" style={{ animationDuration: '6s' }}>
+                <Sparkles size={14} />
+              </div>
+            )}
+            <div className="flex items-center justify-between font-bold text-slate-300 mb-1 text-[11px]">
+              <span className="flex items-center gap-1.5">
+                {hint3Unlocked ? (
+                  <span className="flex items-center gap-1 text-amber-400 animate-bounce">
+                    <Unlock size={14} />
+                  </span>
+                ) : (
+                  <Lock size={14} className="text-slate-500" />
+                )}
+                {hint3Label}
+              </span>
+              {isHint3JustUnlocked && (
+                <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
+                  Nova!
+                </span>
+              )}
+            </div>
+            {hint3Unlocked ? (
+              hideClues ? (
+                <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
+              ) : (
+                <p className="font-extrabold text-xs text-white mt-1 line-clamp-2 animate-fadeIn">
+                  {hint3Content}
+                </p>
+              )
+            ) : (
+              <p className="text-[11px] text-slate-500 italic mt-1">
+                Libera em <strong className="text-slate-400">{hint3Remaining}</strong> {hint3Remaining === 1 ? 'erro' : 'erros'}
+              </p>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

@@ -25,12 +25,12 @@
   }
 
   ::selection {
-    background-color: var(--selection-bg, #8b5cf6) !important;
+    background-color: var(--selection-bg, #2150e5) !important;
     color: var(--selection-color, #ffffff) !important;
   }
 
   ::-moz-selection {
-    background-color: var(--selection-bg, #8b5cf6) !important;
+    background-color: var(--selection-bg, #2150e5) !important;
     color: var(--selection-color, #ffffff) !important;
   }
 }
@@ -100,18 +100,22 @@
   animation: subtleShake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
-/* Hint Reveal Glow Animation */
+/* 8.3: Glow de Desbloqueio Suave de Pistas */
 @keyframes hintGlow {
-  0%, 100% {
-    box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
-    border-color: rgba(245, 158, 11, 0.5);
+  0% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.7);
+    transform: scale(0.98);
   }
   50% {
-    box-shadow: 0 0 28px rgba(245, 158, 11, 0.65);
-    border-color: rgba(245, 158, 11, 0.95);
+    box-shadow: 0 0 25px 4px rgba(245, 158, 11, 0.5);
+    transform: scale(1.02);
+  }
+  100% {
+    box-shadow: 0 0 12px 1px rgba(245, 158, 11, 0.25);
+    transform: scale(1);
   }
 }
 
 .animate-hintGlow {
-  animation: hintGlow 1.8s ease-in-out infinite;
+  animation: hintGlow 1.2s ease-out forwards;
 }

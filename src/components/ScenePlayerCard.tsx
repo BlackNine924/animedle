@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Film, Eye, EyeOff, Play, Pause, Maximize, Minimize } from 'lucide-react';
+import { Film, Eye, EyeOff, Play, Pause, Maximize2, Minimize2 } from 'lucide-react';
 import { SceneChallenge } from '../types/anime';
 
 interface ScenePlayerCardProps {
@@ -17,12 +17,15 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
 }) => {
   // Toggle de cor: por padrão inicia em Preto e Branco (grayscale)
   const [isColorEnabled, setIsColorEnabled] = useState<boolean>(false);
+
+  // Play / Pausa e Tela Cheia (Categoria 5.1)
   const [isPaused, setIsPaused] = useState<boolean>(false);
+  const [pausedFrameUrl, setPausedFrameUrl] = useState<string | null>(null);
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
 
+  const containerRef = useRef<HTMLDivElement>(null);
   const imgRef = useRef<HTMLImageElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const videoContainerRef = useRef<HTMLDivElement>(null);
 
   // Carregamento via Blob URL em memória para ocultar o nome do arquivo/personagem no Inspecionar Elementos (DevTools)
   const [blobUrl, setBlobUrl] = useState<string>('');
@@ -53,16 +56,22 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
     };
   }, [challenge.videoUrl]);
 
-  // Sempre que mudar de desafio, reinicia estados
+  // Sempre que mudar de desafio, reinicia estados de pausa, cor e tela cheia
   useEffect(() => {
     setIsColorEnabled(false);
     setIsPaused(false);
+    setPausedFrameUrl(null);
   }, [challenge.id]);
 
+  // Sincroniza estado de tela cheia do navegador
   useEffect(() => {
-    const onFsChange = () => setIsFullscreen(!!document.fullscreenElement);
-    document.addEventListener('fullscreenchange', onFsChange);
-    return () => document.removeEventListener('fullscreenchange', onFsChange);
+    const handleFullscreenChange = () => {
+      setIsFullscreen(Boolean(document.fullscreenElement));
+    };
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => {
+      document.removeEventListener('fullscreenchange', handleFullscreenChange);
+    };
   }, []);
 
   const handleToggleColor = () => {
@@ -75,9 +84,12 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
     });
   };
 
-  const handleTogglePlay = () => {
-    if (!isPaused) {
-      // Congela o frame atual desenhando no canvas
+  // 5.1 - Controle de Pausar e Retomar a animação
+  const handleTogglePause = () => {
+    if (isPaused) {
+      setPausedFrameUrl(null);
+      setIsPaused(false);
+    } else {
       const img = imgRef.current;
       const canvas = canvasRef.current;
       if (img && canvas) {
@@ -86,21 +98,31 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
         const ctx = canvas.getContext('2d');
         if (ctx) {
           ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+          try {
+            const dataUrl = canvas.toDataURL('image/png');
+            setPausedFrameUrl(dataUrl);
+          } catch (e) {
+            // Em caso de restrição de canvas com CORS, mantém isPaused ativo
+          }
         }
       }
       setIsPaused(true);
-    } else {
-      setIsPaused(false);
     }
   };
 
+  // 5.1 - Controle de Tela Cheia
   const handleToggleFullscreen = () => {
-    const el = videoContainerRef.current;
+    const el = containerRef.current;
     if (!el) return;
+
     if (!document.fullscreenElement) {
-      el.requestFullscreen().catch(() => {});
+      if (el.requestFullscreen) {
+        el.requestFullscreen().catch(() => {});
+      }
     } else {
-      document.exitFullscreen().catch(() => {});
+      if (document.exitFullscreen) {
+        document.exitFullscreen().catch(() => {});
+      }
     }
   };
 
@@ -115,9 +137,11 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   const blurPercentage = isWon ? 0 : Math.max(0, 100 - guessCount * 25);
 
   // A partir de 4 erros, o desfoque é 0px (100% nítido).
-  // A derrota agora acontece no 8º erro, garantindo que todas as 3 dicas sejam lidas com calma!
+  // Com o rebalanceamento de dicas (Dica 1 no 2º erro, Dica 2 no 4º erro, Dica 3 no 6º erro e derrota no 8º erro),
+  // o jogador possui 4 chances com a cena 100% visível antes da derrota!
   const isFullyClear = blurPx === 0 && !isWon;
-  const remainingChances = Math.max(0, 8 - guessCount);
+  const attemptsWithClear = Math.max(0, guessCount - 4);
+  const remainingChances = Math.max(0, 4 - attemptsWithClear);
 
   return (
     <div className="w-full max-w-xl mx-auto my-6 p-6 bg-[#0a1020]/90 backdrop-blur-md border border-[#202b43] rounded-3xl shadow-2xl relative overflow-hidden">
@@ -166,30 +190,29 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
 
         {/* Alerta de Contagem Regressiva para Derrota quando o borrão zera */}
         {isFullyClear && (
-          <div className="mt-3 px-3.5 py-1 rounded-xl bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-bold animate-pulse inline-flex items-center gap-1.5">
-            <span>⚠️ 0% de borrão! Restam {remainingChances} {remainingChances === 1 ? 'chance final' : 'chances'} antes da derrota!</span>
+          <div className="mt-3 px-3.5 py-1 rounded-xl bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-bold animate-pulse inline-flex items-center gap-1.5 shadow-[0_0_15px_rgba(244,63,94,0.25)]">
+            <span>🚨 0% de borrão! Restam {remainingChances} de 4 chances com a cena visível antes da derrota!</span>
           </div>
         )}
       </div>
 
-      {/* Janela de Exibição do Vídeo / Cena em Loop */}
+      {/* Janela de Exibição do Vídeo / Cena em Loop com Controles Modernos */}
       <div
-        ref={videoContainerRef}
+        ref={containerRef}
         className={`relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border-2 border-[#202b43] bg-black shadow-2xl flex items-center justify-center group select-none ${
-          isFullscreen ? 'max-w-none w-screen h-screen rounded-none' : ''
+          isFullscreen ? '!max-w-none !w-screen !h-screen !rounded-none !border-none' : ''
         }`}
         data-debug-character={challenge.characterName}
         data-debug-character-id={challenge.characterId}
         data-debug-scene={challenge.techniqueOrSceneName}
       >
+        {/* Elemento de Imagem Animada ou Frame Pausado */}
         <img
           ref={imgRef}
-          src={blobUrl || challenge.videoUrl}
+          src={isPaused && pausedFrameUrl ? pausedFrameUrl : (blobUrl || challenge.videoUrl)}
           alt={`Cena: ${challenge.characterName}`}
           data-character-name={challenge.characterName}
-          className={`w-full h-full object-cover transition-all duration-500 pointer-events-none ${
-            isPaused ? 'invisible' : 'visible'
-          }`}
+          className="w-full h-full object-cover transition-all duration-500 pointer-events-none"
           style={{
             filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,
           }}
@@ -197,42 +220,35 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
           draggable={false}
         />
 
-        {/* Canvas de congelamento quando pausado */}
-        <canvas
-          ref={canvasRef}
-          className={`absolute inset-0 w-full h-full object-cover pointer-events-none ${
-            isPaused ? 'block' : 'hidden'
-          }`}
-          style={{
-            filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,
-          }}
-        />
+        {/* Canvas invisível para congelamento de frame no Play/Pausa */}
+        <canvas ref={canvasRef} className="hidden" />
 
-        {/* Badge quando pausado */}
+        {/* Badge discreto de "Pausado" quando a cena está congelada */}
         {isPaused && (
-          <div className="absolute top-3 left-3 px-2.5 py-1 rounded-lg bg-black/70 backdrop-blur-md border border-amber-500/40 text-amber-300 text-[11px] font-black uppercase tracking-wider flex items-center gap-1.5 z-20">
-            <Pause size={12} className="fill-amber-300" />
+          <div className="absolute top-3 left-3 px-2.5 py-1 rounded-lg bg-black/70 backdrop-blur-md border border-white/20 text-white text-[11px] font-black uppercase tracking-wider flex items-center gap-1.5 animate-fadeIn">
+            <Pause size={12} className="text-amber-400" />
             <span>Pausado</span>
           </div>
         )}
 
-        {/* Controles discretos no canto da cena (Play/Pause e Tela Cheia) */}
+        {/* 5.1 - Controles Modernos de Pausa e Tela Cheia sobrepostos na cena */}
         <div className="absolute bottom-3 right-3 flex items-center gap-2 z-20">
           <button
             type="button"
-            onClick={handleTogglePlay}
-            className="p-2 rounded-xl bg-black/65 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white shadow-xl transition-all active:scale-90"
-            title={isPaused ? "Retomar cena (Play)" : "Congelar cena (Pausar)"}
+            onClick={handleTogglePause}
+            className="p-2 rounded-xl bg-black/60 hover:bg-black/85 backdrop-blur-md text-white border border-white/20 transition-all shadow-lg active:scale-90 flex items-center justify-center"
+            title={isPaused ? 'Retomar reprodução' : 'Pausar cena em frame específico'}
           >
-            {isPaused ? <Play size={15} className="fill-white" /> : <Pause size={15} className="fill-white" />}
+            {isPaused ? <Play size={16} className="text-emerald-400 fill-emerald-400" /> : <Pause size={16} />}
           </button>
+
           <button
             type="button"
             onClick={handleToggleFullscreen}
-            className="p-2 rounded-xl bg-black/65 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white shadow-xl transition-all active:scale-90"
-            title={isFullscreen ? "Sair da tela cheia" : "Tela cheia"}
+            className="p-2 rounded-xl bg-black/60 hover:bg-black/85 backdrop-blur-md text-white border border-white/20 transition-all shadow-lg active:scale-90 flex items-center justify-center"
+            title={isFullscreen ? 'Sair da tela cheia' : 'Visualizar em tela cheia'}
           >
-            {isFullscreen ? <Minimize size={15} /> : <Maximize size={15} />}
+            {isFullscreen ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
           </button>
         </div>
 
@@ -242,4 +258,3 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
     </div>
   );
 };
-

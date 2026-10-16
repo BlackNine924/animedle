@@ -18,7 +18,6 @@ import { ScenePlayerCard } from './components/ScenePlayerCard';
 import { ModeHeaderCard } from './components/ModeHeaderCard';
 import { SurrenderConfirmModal } from './components/SurrenderConfirmModal';
 import { SceneGalleryModal } from './components/SceneGalleryModal';
-import { WantedAttemptsCounter } from './components/WantedAttemptsCounter';
 import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
 import { getVoiceChallengesForAnime } from './data/voices/voiceChallenges';
 import { getSceneChallengesForAnime } from './data/scenes/sceneChallenges';
@@ -724,12 +723,12 @@ export const App: React.FC<{
 
     const updatedGuesses = [newGuess, ...currentGuesses];
 
-    // No modo procurado (Wanted), o desfoque zera na 5ª tentativa (blur = 0px). O jogador tem 3 chances com a imagem nítida (derrota na 7ª tentativa incorreta, idêntico ao zoom)!
-    const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 7;
-    // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota (derrota na 7ª tentativa incorreta)!
+    // No modo procurado (Wanted), o desfoque zera na 4ª tentativa (0px). A partir de 100% nítida, o jogador tem 3 chances antes da derrota (derrota no 7º erro, idêntico ao zoom)!
+    const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 6;
+    // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota!
     const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 7;
-    // No modo cena, Dica 1 no 2º erro, Dica 2 no 4º erro e Dica 3 no 6º erro; a derrota acontece apenas no 8º erro incorreto!
-    const isSceneLoss = currentMode === 'scene' && !isCorrect && currentGuesses.length >= 8;
+    // No modo cena, o borrão zera no 4º erro (0px). Dica 1 no 2º erro, Dica 2 no 4º erro e Dica 3 no 6º erro. Derrota apenas no 8º erro!
+    const isSceneLoss = currentMode === 'scene' && !isCorrect && currentGuesses.length >= 7;
     const isDefeat = isWantedLoss || isZoomLoss || isSceneLoss;
     const isSurrenderedState = isDefeat;
 
@@ -1211,17 +1210,14 @@ export const App: React.FC<{
                 </p>
               </div>
 
-              {/* Aviso quando a imagem está 100% revelada */}
               {blurAmount === 0 && !isFinished && (
-                <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_15px_rgba(244,63,94,0.3)]">
-                  <span>⚠️ Foto 100% Nítida! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances antes da derrota!</span>
+                <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_15px_rgba(244,63,94,0.25)]">
+                  <span>🚨 Imagem 100% nítida! Restam {Math.max(0, 7 - currentGuesses.length)} de 3 chances antes da derrota!</span>
                 </div>
               )}
 
-              <div className={`w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 bg-[#111a2d] relative flex items-center justify-center shadow-2xl transition-all duration-500 ${
-                blurAmount === 0 && !isFinished
-                  ? 'border-rose-500 ring-4 ring-rose-500/40 shadow-[0_0_30px_rgba(244,63,94,0.4)] animate-pulse'
-                  : 'border-[#202b43]'
+              <div className={`w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl transition-all duration-300 ${
+                blurAmount === 0 && !isFinished ? 'ring-4 ring-rose-500/80 shadow-[0_0_30px_rgba(244,63,94,0.4)] animate-pulse' : ''
               }`}>
                 <ObfuscatedMysteryAvatar
                   avatarUrl={targetCharacter.avatar}
@@ -1339,15 +1335,13 @@ export const App: React.FC<{
               </div>
 
               {zoomScale === 1 && !isFinished && (
-                <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_15px_rgba(244,63,94,0.3)]">
-                  <span>⚠️ Zoom Máximo Alcançado (1x) — Últimas chances! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances!</span>
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_20px_rgba(244,63,94,0.3)]">
+                  <span>🚨 Zoom Máximo Alcançado (1x) - Últimas chances! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 tentativas antes da derrota!</span>
                 </div>
               )}
               
-              <div className={`w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 bg-[#111a2d] relative flex items-center justify-center shadow-2xl transition-all duration-500 ${
-                zoomScale === 1 && !isFinished
-                  ? 'border-rose-500 ring-4 ring-rose-500/40 shadow-[0_0_30px_rgba(244,63,94,0.4)] animate-pulse'
-                  : 'border-[#202b43]'
+              <div className={`w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl transition-all duration-500 ${
+                zoomScale === 1 && !isFinished ? 'ring-4 ring-rose-500/80 shadow-[0_0_35px_rgba(244,63,94,0.45)] animate-pulse' : ''
               }`}>
                 <ObfuscatedMysteryAvatar
                   avatarUrl={targetCharacter.avatar}

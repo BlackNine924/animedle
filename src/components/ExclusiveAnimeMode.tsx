@@ -140,45 +140,44 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   const [showCopied, setShowCopied] = useState<boolean>(false);
   const [isDownloadingImage, setIsDownloadingImage] = useState<boolean>(false);
 
-  // Carrega estado diário estritamente correspondente ao desafio de hoje
-  const loadDailyState = () => {
-    const dailyChallenge = challenges[dailyIndex % Math.max(1, challenges.length)];
-    if (!dailyChallenge) return;
-    setCurrentIndex(dailyIndex);
-    const saved = localStorage.getItem(dailyStorageKey);
-    if (saved) {
-      try {
-        const parsed: SavedDailyExclusiveState = JSON.parse(saved);
-        if (parsed.challengeId === dailyChallenge.id) {
-          setRoundCompleted(parsed.completed);
-          setIsWonRound(parsed.won);
-          setLives(parsed.lives);
-          setTotalScore(parsed.score);
-          setRoundBaseScore(parsed.roundBaseScore ?? Math.max(25, 100 - Object.keys(parsed.revealedClues || {}).length * 15));
-          setRoundGuesses(parsed.guesses || []);
-          setRevealedClues(parsed.revealedClues || {});
-          setIsGameOver(!parsed.won && parsed.lives <= 0);
-          setShowResultModal(parsed.completed);
-          return;
-        }
-      } catch (e) {}
-    }
-    // Se não havia estado salvo ou o desafio diário é novo, inicializa limpo
-    setLives(3);
-    setRoundBaseScore(100);
-    setRoundCompleted(false);
-    setIsWonRound(false);
-    setIsGameOver(false);
-    setShowResultModal(false);
-    setRoundGuesses([]);
-    setRevealedClues({});
-  };
+  const dailyChallenge = useMemo(
+    () => challenges[dailyIndex % Math.max(1, challenges.length)],
+    [challenges, dailyIndex]
+  );
 
+  // Carrega estado diário estritamente correspondente ao desafio de hoje (7.1)
   useEffect(() => {
     if (!isEndless) {
-      loadDailyState();
+      setCurrentIndex(dailyIndex);
+      const saved = localStorage.getItem(dailyStorageKey);
+      if (saved && dailyChallenge) {
+        try {
+          const parsed: SavedDailyExclusiveState = JSON.parse(saved);
+          if (parsed.challengeId === dailyChallenge.id) {
+            setRoundCompleted(parsed.completed);
+            setIsWonRound(parsed.won);
+            setLives(parsed.lives);
+            setTotalScore(parsed.score);
+            setRoundBaseScore(parsed.roundBaseScore ?? Math.max(25, 100 - Object.keys(parsed.revealedClues || {}).length * 15));
+            setRoundGuesses(parsed.guesses || []);
+            setRevealedClues(parsed.revealedClues || {});
+            setIsGameOver(!parsed.won && parsed.lives <= 0);
+            setShowResultModal(parsed.completed);
+            return;
+          }
+        } catch (e) {}
+      }
+      // Se não havia estado salvo ou o desafio diário é novo, inicializa limpo
+      setLives(3);
+      setRoundBaseScore(100);
+      setRoundCompleted(false);
+      setIsWonRound(false);
+      setIsGameOver(false);
+      setShowResultModal(false);
+      setRoundGuesses([]);
+      setRevealedClues({});
     } else {
-      // Modo Infinito: limpa e sorteia novo desafio sem afetar o progresso diário salvo
+      // Modo Infinito: limpa e sorteia novo desafio
       setLives(3);
       setRoundBaseScore(100);
       setRoundCompleted(false);
@@ -191,12 +190,11 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       setCombo(0);
       setCurrentIndex(Math.floor(Math.random() * Math.max(1, challenges.length)));
     }
-  }, [isEndless, dailyStorageKey, dailyIndex, challenges.length]);
+  }, [isEndless, dailyStorageKey, dailyIndex, dailyChallenge?.id, challenges.length]);
 
   // Salva no localStorage o estado contínuo no Modo Diário (mesmo durante a partida e ao finalizar)
   useEffect(() => {
-    const dailyChallenge = challenges[dailyIndex % Math.max(1, challenges.length)];
-    if (!isEndless && currentChallenge && dailyChallenge && currentChallenge.id === dailyChallenge.id) {
+    if (!isEndless && currentChallenge) {
       if (roundCompleted || Object.keys(revealedClues).length > 0 || roundGuesses.length > 0 || lives < 3) {
         const stateToSave: SavedDailyExclusiveState = {
           challengeId: currentChallenge.id,
@@ -211,14 +209,29 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         localStorage.setItem(dailyStorageKey, JSON.stringify(stateToSave));
       }
     }
-  }, [isEndless, roundCompleted, isWonRound, totalScore, roundBaseScore, lives, roundGuesses, revealedClues, dailyStorageKey, currentChallenge?.id, dailyIndex]);
+  }, [isEndless, roundCompleted, isWonRound, totalScore, roundBaseScore, lives, roundGuesses, revealedClues, dailyStorageKey, currentChallenge?.id]);
 
-  // Revelar Dica com desconto imediato de 15 pontos em tempo real
+  // Revelar Dica com desconto imediato de 15 pontos em tempo real e gravação contínua (7.1)
   const handleRevealClue = (idx: number) => {
     if (revealedClues[idx] || roundCompleted || isGameOver) return;
-    setRevealedClues((prev) => ({ ...prev, [idx]: true }));
-    // Desconta imediatamente 15 pontos do valor potencial da rodada
-    setRoundBaseScore((prev) => Math.max(25, prev - 15));
+    const nextRevealed = { ...revealedClues, [idx]: true };
+    const nextBaseScore = Math.max(25, roundBaseScore - 15);
+    setRevealedClues(nextRevealed);
+    setRoundBaseScore(nextBaseScore);
+
+    if (!isEndless && currentChallenge) {
+      const stateToSave: SavedDailyExclusiveState = {
+        challengeId: currentChallenge.id,
+        completed: roundCompleted,
+        won: isWonRound,
+        score: totalScore,
+        roundBaseScore: nextBaseScore,
+        lives,
+        guesses: roundGuesses,
+        revealedClues: nextRevealed,
+      };
+      localStorage.setItem(dailyStorageKey, JSON.stringify(stateToSave));
+    }
   };
 
   // Processa o Palpite (Regra estrita: 1 erro = -1 vida)
@@ -324,6 +337,8 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
 
     setRecentIndices((prev) => [...prev.slice(-20), nextIdx]);
     setCurrentIndex(nextIdx);
+
+    // 10.4: Foco automático no input ao avançar no Modo Infinito
     window.dispatchEvent(new CustomEvent('animedle_focus_search_input'));
   };
 
