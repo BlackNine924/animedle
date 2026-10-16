@@ -666,14 +666,22 @@ const GridBoard: React.FC<GridBoardProps> = ({
                         if (!isUsed && selectedIndex !== idx) setSelectedIndex(idx);
                       }}
                       disabled={isUsed}
-                      className={`group w-full flex items-center justify-between p-2.5 rounded-xl transition-all border-l-4 ${
+                      className={`relative overflow-hidden group w-full flex items-center justify-between p-2.5 pl-4 rounded-xl transition-all border ${
                         isUsed
-                          ? 'opacity-40 bg-black/20 border-l-transparent cursor-not-allowed'
+                          ? 'opacity-40 bg-black/20 border-transparent cursor-not-allowed'
                           : isSelected
-                          ? 'bg-[#16233d] border-l-amber-400 text-white shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
-                          : 'bg-[#121b30] border-l-transparent hover:bg-[#16233d] hover:border-l-amber-400 hover:shadow-[inset_0_0_12px_rgba(245,158,11,0.15)] text-white border border-[#1e2a42]'
+                          ? 'bg-[#16233d] border-[#25375a] text-white shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
+                          : 'bg-[#121b30] hover:bg-[#16233d] hover:shadow-[inset_0_0_12px_rgba(245,158,11,0.15)] text-white border-[#1e2a42]'
                       }`}
                     >
+                      {!isUsed && (
+                        <span
+                          aria-hidden="true"
+                          className={`absolute left-0 top-0 bottom-0 w-1.5 bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.8)] transition-opacity duration-150 ${
+                            isSelected ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
+                          }`}
+                        />
+                      )}
                       <div className="flex items-center gap-3">
                         <img
                           src={c.avatar}

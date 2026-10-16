@@ -2783,28 +2783,6 @@
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
-    "id": "shinohara",
-    "name": "Shinohara",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Colégio Quarto de Tóquio"
-    ],
-    "rank": "Colega de Classe de Asa Mitaka",
-    "styleOrPower": "Vida Cotidiana Escolar",
-    "debutArc": "Arco da Guerra & Justiça",
-    "status": "Vivo",
-    "quote": "A Asa-san tropeçou no Bucky?!",
-    "techniques": [
-      "Observação de Crise",
-      "Evacuação de Sala"
-    ],
-    "avatar": "/avatars/chainsaw-man/shinohara.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
-    "roleOrArchetype": "Aliado / Membro de Equipe"
-  },
-  {
     "id": "shiina",
     "name": "Shiina",
     "gender": "Feminino",
@@ -2822,28 +2800,6 @@
       "Esquiva em Pânico"
     ],
     "avatar": "/avatars/chainsaw-man/shiina.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
-    "roleOrArchetype": "Aliado / Membro de Equipe"
-  },
-  {
-    "id": "yokota",
-    "name": "Yokota",
-    "gender": "Masculino",
-    "species": "Humano",
-    "affiliation": [
-      "Segurança Pública"
-    ],
-    "rank": "Agente de Contenção da Segurança Pública",
-    "styleOrPower": "Bloqueio Policial de Ruas e Isolamento Urbano",
-    "debutArc": "Arco da Igreja do Chainsaw Man",
-    "status": "Vivo",
-    "quote": "Área isolada por ordem da Segurança Pública!",
-    "techniques": [
-      "Fechamento de Tráfego com Fitas de Contenção",
-      "Apoio de Retaguarda"
-    ],
-    "avatar": "/avatars/chainsaw-man/yokota.png",
     "combatType": "Combate Corpo a Corpo",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"

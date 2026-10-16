@@ -1281,29 +1281,6 @@
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
-    "id": "beam",
-    "name": "Beam",
-    "gender": "Masculino",
-    "species": "Alienígena",
-    "affiliation": [
-      "Independente"
-    ],
-    "powerNature": "Extraterrestre (Sci-Fi/Armadura)",
-    "styleOrPower": "Feixes de Fótons Concentrados",
-    "debutArc": "Arco das Seis Maldições",
-    "status": "Vivo",
-    "quote": "Energia calibrada em cem por cento. Disparar rajada cósmica!",
-    "techniques": [
-      "Feixe de Energia Concentrada",
-      "Barreira de Luz Repulsora",
-      "Propulsão de Fótons"
-    ],
-    "avatar": "/avatars/dandadan/beam.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Careca / Sem Cabelo",
-    "roleOrArchetype": "Aliado / Membro de Equipe"
-  },
-  {
     "id": "sumerian-platoon-leader",
     "name": "Líder do Pelotão Sumeriano",
     "gender": "Masculino",

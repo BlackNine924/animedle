@@ -189,7 +189,7 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
 
       {/* Autocomplete Dropdown List com Navegação Iluminada */}
       {isOpen && filteredCharacters.length > 0 && (
-        <div className="absolute left-0 right-0 mt-2 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-[0_25px_60px_-15px_rgba(0,0,0,0.95)] max-h-72 overflow-y-auto custom-scrollbar divide-y divide-[#202b43]/50 z-[9999] animate-fadeIn">
+        <div className="absolute left-0 right-0 mt-2 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-[0_25px_60px_-15px_rgba(0,0,0,0.95)] max-h-72 overflow-y-auto custom-scrollbar z-[9999] animate-fadeIn">
           {filteredCharacters.map((character, idx) => {
             const isHighlighted = idx === selectedIndex;
             return (
@@ -201,12 +201,19 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
                 onMouseMove={() => {
                   if (selectedIndex !== idx) setSelectedIndex(idx);
                 }}
-                className={`w-full flex items-center gap-3 p-3 text-left transition-all group border-l-4 ${
+                className={`relative w-full flex items-center gap-3 p-3 pl-4 text-left transition-all group border-b border-[#202b43]/50 last:border-b-0 ${
                   isHighlighted
-                    ? 'bg-[#16233d] border-l-amber-400 shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
-                    : 'border-l-transparent hover:bg-[#16233d] hover:border-l-amber-400 hover:shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
+                    ? 'bg-[#16233d] shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
+                    : 'hover:bg-[#16233d] hover:shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
                 }`}
               >
+                {/* Barra Amarela Lateral garantida em qualquer personagem */}
+                <span
+                  aria-hidden="true"
+                  className={`FkHighlightBar absolute left-0 top-0 bottom-0 w-1.5 bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.8)] transition-opacity duration-150 ${
+                    isHighlighted ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
+                  }`}
+                />
                 <div
                   className={`w-10 h-10 rounded-full bg-[#111a2d] border overflow-hidden flex-shrink-0 flex items-center justify-center shadow-sm transition-transform ${
                     isHighlighted
