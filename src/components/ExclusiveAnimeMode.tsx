@@ -324,6 +324,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
 
     setRecentIndices((prev) => [...prev.slice(-20), nextIdx]);
     setCurrentIndex(nextIdx);
+    window.dispatchEvent(new CustomEvent('animedle_focus_search_input'));
   };
 
   // Reiniciar Modo Infinito após derrota

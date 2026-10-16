@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { ACHIEVEMENTS_LIST, getUnlockedAchievements } from '../data/achievements';
+import { ACHIEVEMENTS_LIST, getUnlockedAchievements, getAchievementProgress } from '../data/achievements';
 import { X, Trophy, Lock, CheckCircle2, Sparkles } from 'lucide-react';
 
 interface AchievementsModalProps {
@@ -63,6 +63,8 @@ export const AchievementsModal: React.FC<AchievementsModalProps> = ({
             const unlockedDate = unlockedMap[ach.id]
               ? new Date(unlockedMap[ach.id]).toLocaleDateString('pt-BR')
               : null;
+            const progress = !isUnlocked ? getAchievementProgress(ach.id) : null;
+            const progPercent = progress ? Math.min(100, Math.round((progress.current / progress.max) * 100)) : 0;
 
             return (
               <div
@@ -118,6 +120,25 @@ export const AchievementsModal: React.FC<AchievementsModalProps> = ({
                   <p className="text-xs text-slate-300 font-medium leading-relaxed">
                     {ach.description}
                   </p>
+
+                  {/* 10.3: Barra de progresso para conquistas com metas numéricas */}
+                  {progress && (
+                    <div className="mt-2.5 pt-2 border-t border-[#1e293b]/70">
+                      <div className="flex items-center justify-between text-[11px] font-bold text-slate-400 mb-1">
+                        <span>Progresso</span>
+                        <span className="text-amber-400 font-extrabold">
+                          {progress.current} de {progress.max} ({progPercent}%)
+                        </span>
+                      </div>
+                      <div className="w-full h-1.5 bg-[#0d1426] rounded-full overflow-hidden border border-[#202b43]">
+                        <div
+                          className="h-full bg-gradient-to-r from-amber-500 to-yellow-400 rounded-full transition-all duration-500"
+                          style={{ width: `${progPercent}%` }}
+                        />
+                      </div>
+                    </div>
+                  )}
+
                   {unlockedDate && (
                     <p className="text-[10px] text-amber-400/80 font-bold mt-1.5">★ Desbloqueado em {unlockedDate}</p>
                   )}

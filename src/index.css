@@ -25,12 +25,12 @@
   }
 
   ::selection {
-    background-color: var(--selection-bg, #2150e5) !important;
+    background-color: var(--selection-bg, #8b5cf6) !important;
     color: var(--selection-color, #ffffff) !important;
   }
 
   ::-moz-selection {
-    background-color: var(--selection-bg, #2150e5) !important;
+    background-color: var(--selection-bg, #8b5cf6) !important;
     color: var(--selection-color, #ffffff) !important;
   }
 }
@@ -98,4 +98,20 @@
 
 .animate-shake {
   animation: subtleShake 0.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+/* Hint Reveal Glow Animation */
+@keyframes hintGlow {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+    border-color: rgba(245, 158, 11, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(245, 158, 11, 0.65);
+    border-color: rgba(245, 158, 11, 0.95);
+  }
+}
+
+.animate-hintGlow {
+  animation: hintGlow 1.8s ease-in-out infinite;
 }

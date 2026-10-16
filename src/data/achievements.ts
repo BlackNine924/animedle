@@ -255,6 +255,103 @@ export const unlockAchievement = (id: string): boolean => {
   return false;
 };
 
+export interface AchievementProgress {
+  current: number;
+  max: number;
+  unit?: string;
+}
+
+export const getAchievementProgress = (id: string): AchievementProgress | null => {
+  try {
+    switch (id) {
+      case 'animedle_veteran': {
+        const current = parseInt(localStorage.getItem('animedle_total_victories') || '0', 10);
+        return { current: Math.min(25, current), max: 25, unit: 'vitórias' };
+      }
+      case 'multi_anime': {
+        const played: string[] = JSON.parse(localStorage.getItem('animedle_played_animes') || '[]');
+        return { current: Math.min(5, played.length), max: 5, unit: 'animes' };
+      }
+      case 'iron_will': {
+        const streak = parseInt(localStorage.getItem('animedle_no_surrender_streak') || '0', 10);
+        return { current: Math.min(10, streak), max: 10, unit: 'partidas' };
+      }
+      case 'multiverse_echoes': {
+        const list: string[] = JSON.parse(localStorage.getItem('animedle_quote_animes_won') || '[]');
+        return { current: Math.min(5, list.length), max: 5, unit: 'animes' };
+      }
+      case 'streak_3': {
+        const raw = localStorage.getItem('animedle_stats');
+        const stats = raw ? JSON.parse(raw) : {};
+        const streak = stats.currentStreak || 0;
+        return { current: Math.min(3, streak), max: 3, unit: 'dias' };
+      }
+      case 'streak_7': {
+        const raw = localStorage.getItem('animedle_stats');
+        const stats = raw ? JSON.parse(raw) : {};
+        const streak = stats.currentStreak || 0;
+        return { current: Math.min(7, streak), max: 7, unit: 'dias' };
+      }
+      case 'endless_streak_5': {
+        let maxStreak = 0;
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key && key.startsWith('animedle_endless_streak_')) {
+            const val = parseInt(localStorage.getItem(key) || '0', 10);
+            if (val > maxStreak) maxStreak = val;
+          }
+        }
+        return { current: Math.min(5, maxStreak), max: 5, unit: 'vitórias seguidas' };
+      }
+      case 'endless_streak_10': {
+        let maxStreak = 0;
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key && key.startsWith('animedle_endless_streak_')) {
+            const val = parseInt(localStorage.getItem(key) || '0', 10);
+            if (val > maxStreak) maxStreak = val;
+          }
+        }
+        return { current: Math.min(10, maxStreak), max: 10, unit: 'vitórias seguidas' };
+      }
+      case 'secret_hype_blind': {
+        const list: string[] = JSON.parse(localStorage.getItem('animedle_protagonist_first_guesses') || '[]');
+        return { current: Math.min(3, list.length), max: 3, unit: 'partidas' };
+      }
+      case 'universe_mastery': {
+        const animeModesRaw = localStorage.getItem('animedle_anime_modes_won');
+        const animeModes: Record<string, string[]> = animeModesRaw ? JSON.parse(animeModesRaw) : {};
+        const coreModes = ['classic', 'grid', 'zoom', 'wanted', 'voice'];
+        let maxCount = 0;
+        for (const slug of Object.keys(animeModes)) {
+          const count = coreModes.filter((m) => animeModes[slug]?.includes(m)).length;
+          if (count > maxCount) maxCount = count;
+        }
+        return { current: Math.min(5, maxCount), max: 5, unit: 'modos no mesmo anime' };
+      }
+      case 'confirmed_identity': {
+        const charModesRaw = localStorage.getItem('animedle_char_modes_won');
+        const charModes: Record<string, string[]> = charModesRaw ? JSON.parse(charModesRaw) : {};
+        let maxCount = 0;
+        for (const cid of Object.keys(charModes)) {
+          if (charModes[cid]?.length > maxCount) maxCount = charModes[cid].length;
+        }
+        return { current: Math.min(3, maxCount), max: 3, unit: 'modos diferentes' };
+      }
+      case 'complete_collection': {
+        const unlocked = getUnlockedAchievements();
+        const other19 = ACHIEVEMENTS_LIST.filter((a) => a.id !== 'complete_collection' && !a.isSecret).map((a) => a.id);
+        const count = other19.filter((id) => Boolean(unlocked[id])).length;
+        return { current: Math.min(other19.length, count), max: other19.length, unit: 'conquistas' };
+      }
+      default:
+        return null;
+    }
+  } catch {
+    return null;
+  }
+};
+
 export const recordVictory = (animeSlug: string, mode: string, characterId?: string): void => {
   try {
     // 1. Total victories -> animedle_veteran

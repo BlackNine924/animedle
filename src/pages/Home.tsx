@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Play, Film } from 'lucide-react';
+import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Play, Film, Check, X } from 'lucide-react';
 import {
   AVAILABLE_ANIMES,
   COLLECTION_ANIMES,
@@ -8,6 +8,7 @@ import {
   ALL_GENRES,
   AnimeGenre,
   AnimeEntry,
+  ANIME_SEARCH_ALIASES,
 } from '../data/animes/animeRegistry';
 import { ANIMES_CONFIG } from '../data/animes/config';
 import { getDailyDateString } from '../utils/dailySeed';
@@ -16,13 +17,34 @@ import { SceneGalleryModal } from '../components/SceneGalleryModal';
 // ── Filtros de seção ────────────────────────────────────────────────────
 type SectionToggle = { available: boolean; colecoes: boolean; comingSoon: boolean };
 
+// ── Checagem de conclusão diária do anime ──────────────────────────────
+export const checkIsAnimeCompletedToday = (slug: string, todayStr: string): boolean => {
+  try {
+    const modes = ['classic', 'quote', 'scene', 'wanted', 'pixel', 'audio', 'ability'];
+    for (const m of modes) {
+      const raw = localStorage.getItem(`animedle_progress_${slug}_${m}_${todayStr}`);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (parsed.isWon) return true;
+      }
+    }
+    const exclRaw = localStorage.getItem(`animedle_${slug}_exclusive_daily_${todayStr}`);
+    if (exclRaw) {
+      const parsed = JSON.parse(exclRaw);
+      if (parsed.isWon) return true;
+    }
+  } catch {}
+  return false;
+};
+
 // ── Card individual padronizado ─────────────────────────────────────────
 interface AnimeCardProps {
   anime: AnimeEntry;
   onClick: () => void;
+  isCompletedToday?: boolean;
 }
 
-const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
+const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, isCompletedToday = false }) => {
   const cardWebp = `/cards/${anime.slug}.webp`;
   const cardPng = `/cards/${anime.slug}.png`;
   const isComingSoon = !anime.implemented;
@@ -33,7 +55,11 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
       onClick={onClick}
     >
       {/* Moldura do card: proporção 2:3 padrão (1024x1536), moldura 100% visível sem cortes */}
-      <div className="relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 group-hover:ring-amber-400/60">
+      <div className={`relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 ${
+        isCompletedToday
+          ? 'ring-2 ring-amber-400/70 shadow-[0_0_20px_rgba(245,158,11,0.25)]'
+          : 'group-hover:ring-amber-400/60'
+      }`}>
         <picture>
           <source srcSet={cardWebp} type="image/webp" />
           <img
@@ -46,6 +72,14 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
             }}
           />
         </picture>
+
+        {/* Selo Zerado Hoje! (Dourado de desafio diário concluído) */}
+        {isCompletedToday && (
+          <div className="absolute top-2.5 left-2.5 z-20 flex items-center gap-1 bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black text-[10px] sm:text-[11px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full shadow-[0_4px_14px_rgba(245,158,11,0.65)] border border-yellow-100/90 animate-in fade-in zoom-in-95 duration-200">
+            <Check size={12} className="stroke-[3.5]" />
+            <span>Zerado hoje!</span>
+          </div>
+        )}
 
         {/* Badge "Em Breve" estilizada */}
         {isComingSoon && (
@@ -78,9 +112,10 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick }) => {
 interface AnimeGridProps {
   animes: AnimeEntry[];
   onSelect: (slug: string) => void;
+  completedSlugs?: Set<string>;
 }
 
-const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect }) => {
+const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, completedSlugs }) => {
   if (animes.length === 0) {
     return (
       <p className="text-slate-500 text-sm text-center py-8">
@@ -92,7 +127,12 @@ const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect }) => {
   return (
     <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 md:gap-7">
       {animes.map(anime => (
-        <AnimeCard key={anime.slug} anime={anime} onClick={() => onSelect(anime.slug)} />
+        <AnimeCard
+          key={anime.slug}
+          anime={anime}
+          onClick={() => onSelect(anime.slug)}
+          isCompletedToday={completedSlugs?.has(anime.slug)}
+        />
       ))}
     </div>
   );
@@ -285,10 +325,10 @@ export const Home: React.FC = () => {
     sessionStorage.setItem('animedle_coming_soon_open', String(open));
   };
 
-  // Restaura favicon para o site, cor de seleção #2150e5 e restaura scroll quando voltando de um card
+  // Restaura favicon para o site, cor de seleção #8b5cf6 e restaura scroll quando voltando de um card
   useEffect(() => {
-    // 0. Define cor de seleção padrão da Home (#2150e5)
-    document.documentElement.style.setProperty('--selection-bg', '#2150e5');
+    // 0. Define cor de seleção padrão elegante puxada para o roxo (#8b5cf6)
+    document.documentElement.style.setProperty('--selection-bg', '#8b5cf6');
 
     // 1. Redefine o favicon para o logo principal do site AnimeDLE
     const faviconLink: HTMLLinkElement | null = document.querySelector("link[rel*='icon']");
@@ -314,6 +354,19 @@ export const Home: React.FC = () => {
   const toggleSection = (key: keyof SectionToggle) => {
     setSectionToggles(prev => ({ ...prev, [key]: !prev[key] }));
   };
+
+  // Conjunto de slugs completados no dia de hoje
+  const completedTodaySlugs = useMemo(() => {
+    const todayStr = getDailyDateString();
+    const set = new Set<string>();
+    const allEntries = [...AVAILABLE_ANIMES, ...COLLECTION_ANIMES, ...COMING_SOON_ANIMES];
+    for (const anime of allEntries) {
+      if (checkIsAnimeCompletedToday(anime.slug, todayStr)) {
+        set.add(anime.slug);
+      }
+    }
+    return set;
+  }, []);
 
   const handleSelect = (slug: string) => {
     try {
@@ -354,13 +407,30 @@ export const Home: React.FC = () => {
     }
   }, []);
 
-  // ── Filtragem ──────────────────────────────────────────────────────────
+  // ── Normalização para busca flexível (ignora acentos, espaços e pontuação) ─
+  const normalize = (text: string) =>
+    text
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]/g, '');
+
+  // ── Filtragem com suporte a siglas, títulos japoneses e apelidos ────────
   const filterAnimes = (list: AnimeEntry[]) => {
+    const cleanQuery = normalize(searchQuery);
+
     return list.filter(anime => {
-      const matchesSearch = searchQuery.trim() === '' ||
-        anime.name.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesGenre = activeGenre === null || anime.genre === activeGenre;
-      return matchesSearch && matchesGenre;
+      if (!matchesGenre) return false;
+      if (!cleanQuery) return true;
+
+      // 1. Nome principal e slug
+      if (normalize(anime.name).includes(cleanQuery)) return true;
+      if (normalize(anime.slug).includes(cleanQuery)) return true;
+
+      // 2. Apelidos, siglas e títulos em japonês cadastrados
+      const aliases = ANIME_SEARCH_ALIASES[anime.slug] || [];
+      return aliases.some(alias => normalize(alias).includes(cleanQuery));
     });
   };
 
@@ -414,7 +484,7 @@ export const Home: React.FC = () => {
           </p>
         </div>
 
-        {/* ── Barra de pesquisa ampliada ───────────────────────────────── */}
+        {/* ── Barra de pesquisa ampliada com botão de limpeza rápida ──── */}
         <div className="w-full max-w-2xl relative mb-3">
           <Search
             size={20}
@@ -422,11 +492,21 @@ export const Home: React.FC = () => {
           />
           <input
             type="text"
-            placeholder="Pesquisar anime..."
+            placeholder="Pesquisar anime (ex: SnK, Kimetsu, MHA, One Piece)..."
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
-            className="w-full pl-12 pr-4 py-3.5 rounded-2xl bg-[#0d1426] border border-[#202b43] text-slate-100 placeholder-slate-500 text-sm sm:text-base focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30 transition-all shadow-inner"
+            className="w-full pl-12 pr-11 py-3.5 rounded-2xl bg-[#0d1426] border border-[#202b43] text-slate-100 placeholder-slate-500 text-sm sm:text-base focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/30 transition-all shadow-inner"
           />
+          {searchQuery && (
+            <button
+              type="button"
+              onClick={() => setSearchQuery('')}
+              className="absolute right-3.5 top-1/2 -translate-y-1/2 p-1.5 rounded-full text-slate-400 hover:text-white hover:bg-slate-800 transition-all"
+              title="Limpar pesquisa"
+            >
+              <X size={16} />
+            </button>
+          )}
         </div>
 
         {/* ── Botão Visualizador de Cenas (Dev Temporário) ───────────── */}
@@ -441,8 +521,8 @@ export const Home: React.FC = () => {
           </button>
         </div>
 
-        {/* ── Filtros de gênero ─────────────────────────────────────────── */}
-        <div className="flex flex-wrap justify-center gap-2 mb-4">
+        {/* ── Filtros de gênero e Botão Limpar Filtros ─────────────────── */}
+        <div className="flex flex-wrap items-center justify-center gap-2 mb-4 max-w-3xl">
           <button
             onClick={() => setActiveGenre(null)}
             className={`px-4 py-1.5 rounded-full text-xs sm:text-sm font-bold transition-all duration-200 ${
@@ -466,6 +546,21 @@ export const Home: React.FC = () => {
               {genre}
             </button>
           ))}
+
+          {/* 9.3: Botão de limpar filtros com um único clique */}
+          {(activeGenre !== null || searchQuery.trim() !== '') && (
+            <button
+              onClick={() => {
+                setActiveGenre(null);
+                setSearchQuery('');
+              }}
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-bold bg-rose-500/15 hover:bg-rose-500/25 border border-rose-500/50 text-rose-300 transition-all active:scale-95 shadow-sm"
+              title="Limpar todos os filtros e a busca atual"
+            >
+              <X size={13} className="stroke-[2.5]" />
+              <span>Limpar Filtros</span>
+            </button>
+          )}
         </div>
 
         {/* ── Toggles de seção ─────────────────────────────────────────── */}
@@ -514,7 +609,11 @@ export const Home: React.FC = () => {
             icon="🎮"
             defaultOpen={true}
           >
-            <AnimeGrid animes={filteredAvailable} onSelect={handleSelect} />
+            <AnimeGrid
+              animes={filteredAvailable}
+              onSelect={handleSelect}
+              completedSlugs={completedTodaySlugs}
+            />
           </Section>
         )}
 
@@ -526,7 +625,11 @@ export const Home: React.FC = () => {
             icon="🗂️"
             defaultOpen={true}
           >
-            <AnimeGrid animes={filteredColecoes} onSelect={handleSelect} />
+            <AnimeGrid
+              animes={filteredColecoes}
+              onSelect={handleSelect}
+              completedSlugs={completedTodaySlugs}
+            />
           </Section>
         )}
 
@@ -539,7 +642,11 @@ export const Home: React.FC = () => {
             isOpen={isComingSoonOpen}
             onToggle={handleToggleComingSoon}
           >
-            <AnimeGrid animes={filteredComingSoon} onSelect={handleSelect} />
+            <AnimeGrid
+              animes={filteredComingSoon}
+              onSelect={handleSelect}
+              completedSlugs={completedTodaySlugs}
+            />
           </Section>
         )}
       </main>

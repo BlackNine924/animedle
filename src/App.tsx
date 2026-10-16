@@ -907,6 +907,9 @@ export const App: React.FC<{
       [currentMode]: { guesses: [], isWon: false, isSurrendered: false },
     }));
     setShowVictoryModal(false);
+
+    // 10.4: Foco automático no input ao avançar no Modo Infinito
+    window.dispatchEvent(new CustomEvent('animedle_focus_search_input'));
   };
 
   const handleToggleEndless = (mode: GameMode, val: boolean) => {

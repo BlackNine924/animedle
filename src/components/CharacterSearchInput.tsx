@@ -49,6 +49,19 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // 10.4: Foco automático no input ao avançar no Modo Infinito
+  useEffect(() => {
+    const handleFocusReq = () => {
+      setTimeout(() => {
+        if (inputRef.current && !disabled) {
+          inputRef.current.focus();
+        }
+      }, 70);
+    };
+    window.addEventListener('animedle_focus_search_input', handleFocusReq);
+    return () => window.removeEventListener('animedle_focus_search_input', handleFocusReq);
+  }, [disabled]);
+
   // Reseta o item selecionado por teclado quando a consulta muda
   useEffect(() => {
     setSelectedIndex(-1);

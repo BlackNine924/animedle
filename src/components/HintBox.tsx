@@ -60,6 +60,10 @@ export const HintBox: React.FC<HintBoxProps> = ({
       ? targetCharacter.affiliation.join(', ')
       : targetCharacter.affiliation || targetCharacter.origin || 'Nenhuma';
 
+    const isHint1JustUnlocked = guessCount === hint1Needed && !isWon;
+    const isHint2JustUnlocked = guessCount === hint2Needed && !isWon;
+    const isHint3JustUnlocked = guessCount === hint3Needed && !isWon;
+
     return (
       <div className="max-w-2xl mx-auto my-6 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-xl shadow-black/20">
         <div className="flex items-center justify-between border-b border-[#202b43] pb-3 mb-3.5">
@@ -93,7 +97,9 @@ export const HintBox: React.FC<HintBoxProps> = ({
           <div
             className={`p-3 rounded-xl border transition-all duration-500 relative overflow-hidden ${
               hint1Unlocked
-                ? 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
+                ? isHint1JustUnlocked
+                  ? 'bg-amber-500/20 border-amber-400 text-amber-200 ring-2 ring-amber-400 animate-hintGlow shadow-lg'
+                  : 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
                 : 'bg-[#111a2d]/60 border-[#202b43] text-slate-400'
             }`}
           >
@@ -113,6 +119,11 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 )}
                 Dica 1 — {isOnePiece ? 'Saga de Estreia' : 'Arco / Origem'}
               </span>
+              {isHint1JustUnlocked && (
+                <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
+                  Nova!
+                </span>
+              )}
             </div>
             {hint1Unlocked ? (
               hideClues ? (
@@ -133,7 +144,9 @@ export const HintBox: React.FC<HintBoxProps> = ({
           <div
             className={`p-3 rounded-xl border transition-all duration-500 relative overflow-hidden ${
               hint2Unlocked
-                ? 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
+                ? isHint2JustUnlocked
+                  ? 'bg-amber-500/20 border-amber-400 text-amber-200 ring-2 ring-amber-400 animate-hintGlow shadow-lg'
+                  : 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
                 : 'bg-[#111a2d]/60 border-[#202b43] text-slate-400'
             }`}
           >
@@ -153,6 +166,11 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 )}
                 Dica 2 — {isOnePiece ? 'Akuma no Mi' : 'Técnica / Poder'}
               </span>
+              {isHint2JustUnlocked && (
+                <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
+                  Nova!
+                </span>
+              )}
             </div>
             {hint2Unlocked ? (
               hideClues ? (
@@ -173,7 +191,9 @@ export const HintBox: React.FC<HintBoxProps> = ({
           <div
             className={`p-3 rounded-xl border transition-all duration-500 relative overflow-hidden ${
               hint3Unlocked
-                ? 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
+                ? isHint3JustUnlocked
+                  ? 'bg-amber-500/20 border-amber-400 text-amber-200 ring-2 ring-amber-400 animate-hintGlow shadow-lg'
+                  : 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
                 : 'bg-[#111a2d]/60 border-[#202b43] text-slate-400'
             }`}
           >
@@ -193,6 +213,11 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 )}
                 Dica 3 — Afiliação
               </span>
+              {isHint3JustUnlocked && (
+                <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
+                  Nova!
+                </span>
+              )}
             </div>
             {hint3Unlocked ? (
               hideClues ? (
@@ -222,6 +247,9 @@ export const HintBox: React.FC<HintBoxProps> = ({
 
   const hint1Remaining = Math.max(0, hint1Needed - guessCount);
   const hint2Remaining = Math.max(0, hint2Needed - guessCount);
+
+  const isHint1JustUnlocked = guessCount === hint1Needed && !isWon;
+  const isHint2JustUnlocked = guessCount === hint2Needed && !isWon;
 
   const isNaruto = currentAnimeSlug === 'naruto';
   const isRomance = currentAnimeSlug === 'romance';
@@ -299,7 +327,9 @@ export const HintBox: React.FC<HintBoxProps> = ({
         <div
           className={`p-3.5 rounded-xl border transition-all duration-500 relative overflow-hidden ${
             hint1Unlocked
-              ? 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
+              ? isHint1JustUnlocked
+                ? 'bg-amber-500/20 border-amber-400 text-amber-200 ring-2 ring-amber-400 animate-hintGlow shadow-lg'
+                : 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
               : 'bg-[#111a2d]/60 border-[#202b43] text-slate-400'
           }`}
         >
@@ -319,6 +349,11 @@ export const HintBox: React.FC<HintBoxProps> = ({
               )}
               {hint1Label}
             </span>
+            {isHint1JustUnlocked && (
+              <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
+                Nova!
+              </span>
+            )}
           </div>
           {hint1Unlocked ? (
             hideClues ? (
@@ -339,7 +374,9 @@ export const HintBox: React.FC<HintBoxProps> = ({
         <div
           className={`p-3.5 rounded-xl border transition-all duration-500 relative overflow-hidden ${
             hint2Unlocked
-              ? 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
+              ? isHint2JustUnlocked
+                ? 'bg-amber-500/20 border-amber-400 text-amber-200 ring-2 ring-amber-400 animate-hintGlow shadow-lg'
+                : 'bg-amber-500/15 border-amber-500/60 text-amber-200 shadow-lg shadow-amber-500/10 animate-fadeIn'
               : 'bg-[#111a2d]/60 border-[#202b43] text-slate-400'
           }`}
         >
@@ -359,6 +396,11 @@ export const HintBox: React.FC<HintBoxProps> = ({
               )}
               {hint2Label}
             </span>
+            {isHint2JustUnlocked && (
+              <span className="px-1.5 py-0.5 rounded-full bg-amber-400 text-black font-black text-[9px] uppercase tracking-wider animate-bounce shadow-sm">
+                Nova!
+              </span>
+            )}
           </div>
           {hint2Unlocked ? (
             hideClues ? (
