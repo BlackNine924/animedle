@@ -724,12 +724,12 @@ export const App: React.FC<{
 
     const updatedGuesses = [newGuess, ...currentGuesses];
 
-    // No modo procurado (Wanted), se o palpite for feito com a foto totalmente sem blur (0px / 5ª tentativa ou mais) e for incorreto, o jogador perde!
-    const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 4;
-    // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota!
+    // No modo procurado (Wanted), o desfoque zera na 5ª tentativa (blur = 0px). O jogador tem 3 chances com a imagem nítida (derrota na 7ª tentativa incorreta, idêntico ao zoom)!
+    const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 7;
+    // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota (derrota na 7ª tentativa incorreta)!
     const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 7;
-    // No modo cena, o borrão zera no 4º erro (0px). Se errar 3 vezes com a cena 100% nítida (6 erros no total), o jogador perde!
-    const isSceneLoss = currentMode === 'scene' && !isCorrect && currentGuesses.length >= 6;
+    // No modo cena, Dica 1 no 2º erro, Dica 2 no 4º erro e Dica 3 no 6º erro; a derrota acontece apenas no 8º erro incorreto!
+    const isSceneLoss = currentMode === 'scene' && !isCorrect && currentGuesses.length >= 8;
     const isDefeat = isWantedLoss || isZoomLoss || isSceneLoss;
     const isSurrenderedState = isDefeat;
 
@@ -1208,7 +1208,18 @@ export const App: React.FC<{
                 </p>
               </div>
 
-              <div className="w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
+              {/* Aviso quando a imagem está 100% revelada */}
+              {blurAmount === 0 && !isFinished && (
+                <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_15px_rgba(244,63,94,0.3)]">
+                  <span>⚠️ Foto 100% Nítida! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances antes da derrota!</span>
+                </div>
+              )}
+
+              <div className={`w-48 h-48 mx-auto my-4 rounded-full overflow-hidden border-4 bg-[#111a2d] relative flex items-center justify-center shadow-2xl transition-all duration-500 ${
+                blurAmount === 0 && !isFinished
+                  ? 'border-rose-500 ring-4 ring-rose-500/40 shadow-[0_0_30px_rgba(244,63,94,0.4)] animate-pulse'
+                  : 'border-[#202b43]'
+              }`}>
                 <ObfuscatedMysteryAvatar
                   avatarUrl={targetCharacter.avatar}
                   mode="wanted"
@@ -1225,15 +1236,6 @@ export const App: React.FC<{
                 guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
                 onSelectCharacter={handleSelectCharacter}
                 disabled={isFinished}
-                themeColor={animeConfig.themeColor}
-              />
-
-              {/* Contador Visual de Tentativas Restantes (Categoria 3.2) */}
-              <WantedAttemptsCounter
-                guessesCount={currentGuesses.length}
-                maxAttempts={5}
-                isWon={modeStates.wanted.isWon}
-                isLost={modeStates.wanted.isLost}
                 themeColor={animeConfig.themeColor}
               />
 
@@ -1334,12 +1336,16 @@ export const App: React.FC<{
               </div>
 
               {zoomScale === 1 && !isFinished && (
-                <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30 text-xs font-black mb-3 animate-pulse">
-                  <span>⚠️ Zoom 1x atingido! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances antes da derrota!</span>
+                <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_15px_rgba(244,63,94,0.3)]">
+                  <span>⚠️ Zoom Máximo Alcançado (1x) — Últimas chances! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 chances!</span>
                 </div>
               )}
               
-              <div className="w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 border-[#202b43] bg-[#111a2d] relative flex items-center justify-center shadow-2xl">
+              <div className={`w-52 h-52 mx-auto my-4 rounded-full overflow-hidden border-4 bg-[#111a2d] relative flex items-center justify-center shadow-2xl transition-all duration-500 ${
+                zoomScale === 1 && !isFinished
+                  ? 'border-rose-500 ring-4 ring-rose-500/40 shadow-[0_0_30px_rgba(244,63,94,0.4)] animate-pulse'
+                  : 'border-[#202b43]'
+              }`}>
                 <ObfuscatedMysteryAvatar
                   avatarUrl={targetCharacter.avatar}
                   mode="zoom"

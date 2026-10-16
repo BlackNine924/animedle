@@ -141,38 +141,44 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   const [isDownloadingImage, setIsDownloadingImage] = useState<boolean>(false);
 
   // Carrega estado diário estritamente correspondente ao desafio de hoje
+  const loadDailyState = () => {
+    const dailyChallenge = challenges[dailyIndex % Math.max(1, challenges.length)];
+    if (!dailyChallenge) return;
+    setCurrentIndex(dailyIndex);
+    const saved = localStorage.getItem(dailyStorageKey);
+    if (saved) {
+      try {
+        const parsed: SavedDailyExclusiveState = JSON.parse(saved);
+        if (parsed.challengeId === dailyChallenge.id) {
+          setRoundCompleted(parsed.completed);
+          setIsWonRound(parsed.won);
+          setLives(parsed.lives);
+          setTotalScore(parsed.score);
+          setRoundBaseScore(parsed.roundBaseScore ?? Math.max(25, 100 - Object.keys(parsed.revealedClues || {}).length * 15));
+          setRoundGuesses(parsed.guesses || []);
+          setRevealedClues(parsed.revealedClues || {});
+          setIsGameOver(!parsed.won && parsed.lives <= 0);
+          setShowResultModal(parsed.completed);
+          return;
+        }
+      } catch (e) {}
+    }
+    // Se não havia estado salvo ou o desafio diário é novo, inicializa limpo
+    setLives(3);
+    setRoundBaseScore(100);
+    setRoundCompleted(false);
+    setIsWonRound(false);
+    setIsGameOver(false);
+    setShowResultModal(false);
+    setRoundGuesses([]);
+    setRevealedClues({});
+  };
+
   useEffect(() => {
-    if (!isEndless && currentChallenge) {
-      const saved = localStorage.getItem(dailyStorageKey);
-      if (saved) {
-        try {
-          const parsed: SavedDailyExclusiveState = JSON.parse(saved);
-          if (parsed.challengeId === currentChallenge.id) {
-            setRoundCompleted(parsed.completed);
-            setIsWonRound(parsed.won);
-            setLives(parsed.lives);
-            setTotalScore(parsed.score);
-            setRoundBaseScore(parsed.roundBaseScore ?? Math.max(25, 100 - Object.keys(parsed.revealedClues || {}).length * 15));
-            setRoundGuesses(parsed.guesses || []);
-            setRevealedClues(parsed.revealedClues || {});
-            setIsGameOver(!parsed.won && parsed.lives <= 0);
-            setShowResultModal(parsed.completed);
-            return;
-          }
-        } catch (e) {}
-      }
-      // Se não havia estado salvo ou o desafio diário é novo, inicializa limpo
-      setLives(3);
-      setRoundBaseScore(100);
-      setRoundCompleted(false);
-      setIsWonRound(false);
-      setIsGameOver(false);
-      setShowResultModal(false);
-      setRoundGuesses([]);
-      setRevealedClues({});
-      setCurrentIndex(dailyIndex);
+    if (!isEndless) {
+      loadDailyState();
     } else {
-      // Modo Infinito: limpa e sorteia novo desafio
+      // Modo Infinito: limpa e sorteia novo desafio sem afetar o progresso diário salvo
       setLives(3);
       setRoundBaseScore(100);
       setRoundCompleted(false);
@@ -185,11 +191,12 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       setCombo(0);
       setCurrentIndex(Math.floor(Math.random() * Math.max(1, challenges.length)));
     }
-  }, [isEndless, dailyStorageKey, dailyIndex, currentChallenge?.id, challenges.length]);
+  }, [isEndless, dailyStorageKey, dailyIndex, challenges.length]);
 
   // Salva no localStorage o estado contínuo no Modo Diário (mesmo durante a partida e ao finalizar)
   useEffect(() => {
-    if (!isEndless && currentChallenge) {
+    const dailyChallenge = challenges[dailyIndex % Math.max(1, challenges.length)];
+    if (!isEndless && currentChallenge && dailyChallenge && currentChallenge.id === dailyChallenge.id) {
       if (roundCompleted || Object.keys(revealedClues).length > 0 || roundGuesses.length > 0 || lives < 3) {
         const stateToSave: SavedDailyExclusiveState = {
           challengeId: currentChallenge.id,
@@ -204,7 +211,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         localStorage.setItem(dailyStorageKey, JSON.stringify(stateToSave));
       }
     }
-  }, [isEndless, roundCompleted, isWonRound, totalScore, roundBaseScore, lives, roundGuesses, revealedClues, dailyStorageKey, currentChallenge?.id]);
+  }, [isEndless, roundCompleted, isWonRound, totalScore, roundBaseScore, lives, roundGuesses, revealedClues, dailyStorageKey, currentChallenge?.id, dailyIndex]);
 
   // Revelar Dica com desconto imediato de 15 pontos em tempo real
   const handleRevealClue = (idx: number) => {

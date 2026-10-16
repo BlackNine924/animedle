@@ -21,14 +21,25 @@ export const HintBox: React.FC<HintBoxProps> = ({
   currentMode = 'classic',
   currentAnimeSlug = 'demon-slayer',
 }) => {
-  const [hideClues, setHideClues] = useState<boolean>(false);
+  const [hideClues, setHideClues] = useState<boolean>(() => {
+    return localStorage.getItem('animedle_hide_clues_pref') === 'true';
+  });
+
+  const handleToggleHideClues = () => {
+    setHideClues((prev) => {
+      const next = !prev;
+      localStorage.setItem('animedle_hide_clues_pref', String(next));
+      return next;
+    });
+  };
+
   const isOnePiece = currentAnimeSlug === 'one-piece';
   const isSceneMode = currentMode === 'scene';
 
-  if (isOnePiece) {
+  if (isOnePiece || isSceneMode) {
     const hint1Needed = isSceneMode ? 2 : 3;
     const hint2Needed = isSceneMode ? 4 : 6;
-    const hint3Needed = isSceneMode ? 5 : 9;
+    const hint3Needed = isSceneMode ? 6 : 9;
 
     const hint1Unlocked = guessCount >= hint1Needed || isWon;
     const hint2Unlocked = guessCount >= hint2Needed || isWon;
@@ -43,11 +54,11 @@ export const HintBox: React.FC<HintBoxProps> = ({
       targetCharacter.styleOrPower !== 'Nenhum' &&
       targetCharacter.styleOrPower !== 'Nenhuma'
         ? targetCharacter.styleOrPower
-        : 'Sem Akuma no Mi';
+        : (targetCharacter.quote || targetCharacter.ability || 'Personagem Misterioso');
 
     const affiliationHintText = Array.isArray(targetCharacter.affiliation)
       ? targetCharacter.affiliation.join(', ')
-      : targetCharacter.affiliation || 'Nenhuma';
+      : targetCharacter.affiliation || targetCharacter.origin || 'Nenhuma';
 
     return (
       <div className="max-w-2xl mx-auto my-6 p-4 bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-xl shadow-black/20">
@@ -57,7 +68,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
             <span>Pistas da rodada</span>
             <button
               type="button"
-              onClick={() => setHideClues((prev) => !prev)}
+              onClick={handleToggleHideClues}
               className="ml-2 flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border border-[#202b43] text-[10px] font-bold transition-all shadow-sm"
               title={hideClues ? 'Mostrar pistas desbloqueadas' : 'Ocultar pistas desbloqueadas'}
             >
@@ -100,7 +111,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 ) : (
                   <Lock size={14} className="text-slate-500" />
                 )}
-                Dica 1 — Saga de Estreia
+                Dica 1 — {isOnePiece ? 'Saga de Estreia' : 'Arco / Origem'}
               </span>
             </div>
             {hint1Unlocked ? (
@@ -108,7 +119,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 <p className="text-[11px] text-slate-400 italic mt-1 leading-snug">Dica oculta (clique no olho para ver)</p>
               ) : (
                 <p className="font-extrabold text-xs text-white mt-1 animate-fadeIn">
-                  {targetCharacter.debutArc}
+                  {targetCharacter.debutArc || targetCharacter.origin || 'Arco Inicial'}
                 </p>
               )
             ) : (
@@ -118,7 +129,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
             )}
           </div>
 
-          {/* Dica 2: Akuma no Mi / Fruta */}
+          {/* Dica 2: Akuma no Mi / Fruta ou Técnica */}
           <div
             className={`p-3 rounded-xl border transition-all duration-500 relative overflow-hidden ${
               hint2Unlocked
@@ -140,7 +151,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
                 ) : (
                   <Lock size={14} className="text-slate-500" />
                 )}
-                Dica 2 — Akuma no Mi
+                Dica 2 — {isOnePiece ? 'Akuma no Mi' : 'Técnica / Poder'}
               </span>
             </div>
             {hint2Unlocked ? (
@@ -263,7 +274,7 @@ export const HintBox: React.FC<HintBoxProps> = ({
             <span>Pistas da rodada</span>
           </div>
           <button
-            onClick={() => setHideClues(!hideClues)}
+            onClick={handleToggleHideClues}
             className="ml-2 flex items-center gap-1 px-2 py-0.5 rounded-lg bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border border-[#202b43] text-[10px] font-bold transition-all shadow-sm"
             title={hideClues ? 'Mostrar pistas desbloqueadas' : 'Ocultar pistas desbloqueadas'}
           >

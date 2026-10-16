@@ -325,7 +325,7 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
             <tr>
               <th
                 onClick={(e) => handleHeaderClick('Personagem', getCategoryDescription('Personagem', animeSlug), e)}
-                className={`group relative ${isDense ? 'p-1.5 sm:p-2 min-w-[130px] sm:min-w-[150px] max-w-[180px]' : 'p-2 min-w-[190px] max-w-[200px]'} text-xs font-black uppercase text-slate-400 tracking-wider text-left cursor-pointer select-none sticky left-0 z-30 bg-[#070b14] border-r border-[#202b43]/60 shadow-[4px_0_10px_-2px_rgba(0,0,0,0.5)]`}
+                className={`group relative ${isDense ? 'p-1.5 sm:p-2 min-w-[130px] sm:min-w-[150px] max-w-[180px]' : 'p-2 min-w-[190px] max-w-[200px]'} text-xs font-black uppercase text-slate-400 tracking-wider text-left cursor-pointer select-none`}
                 title={getCategoryDescription('Personagem', animeSlug)}
               >
                 <span className="inline-flex items-center gap-1.5 border-b border-dotted border-slate-600 group-hover:border-amber-400 group-hover:text-amber-300 transition-colors">
@@ -370,8 +370,8 @@ export const ClassicGrid: React.FC<ClassicGridProps> = ({ columns, guesses, anim
             {guesses.map((guess, guessIndex) => (
               <tr key={`${guess.character.id}-${guessIndex}`}>
                 
-                {/* Célula do Personagem com Avatar Moderno e Fixa na Rolagem Horizontal */}
-                <td className="p-0 sticky left-0 z-20 bg-[#070b14] border-r border-[#202b43]/60 shadow-[4px_0_10px_-2px_rgba(0,0,0,0.5)]">
+                {/* Célula do Personagem com Avatar Moderno */}
+                <td className="p-0">
                   <div className={`flex items-center gap-2.5 ${isDense ? 'p-2 sm:p-2.5 min-h-[84px] sm:min-h-[88px]' : 'p-3 min-h-[96px]'} bg-[#0d1426] border border-[#202b43] rounded-2xl shadow-lg hover:border-slate-600 transition-colors`}>
                     <div className={`${isDense ? 'w-10 h-10 sm:w-11 sm:h-11' : 'w-12 h-12 sm:w-14 sm:h-14'} rounded-full bg-[#111a2d] overflow-hidden flex-shrink-0 border-2 border-[#202b43] shadow-md flex items-center justify-center`}>
                       <img

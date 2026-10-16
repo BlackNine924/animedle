@@ -51,16 +51,9 @@ export const ObfuscatedMysteryAvatar: React.FC<ObfuscatedMysteryAvatarProps> = (
         const margin = blurAmount > 0 ? blurAmount * 1.5 : 0;
         ctx.drawImage(img, -margin, -margin, size + margin * 2, size + margin * 2);
       } else if (mode === 'zoom') {
-        // Modo Zoom: recorta e desenha apenas a sub-região focada
+        // Modo Zoom: desenha em alta resolução e utiliza interpolação fluida via hardware
         ctx.filter = 'none';
-        const scale = Math.max(1, zoomScale);
-        const cropW = img.width / scale;
-        const cropH = img.height / scale;
-        // Ponto focal centralizado na região dos olhos/face (50% X, 36% Y)
-        const cropX = Math.max(0, Math.min(img.width - cropW, img.width * 0.5 - cropW * 0.5));
-        const cropY = Math.max(0, Math.min(img.height - cropH, img.height * 0.36 - cropH * 0.5));
-
-        ctx.drawImage(img, cropX, cropY, cropW, cropH, 0, 0, size, size);
+        ctx.drawImage(img, 0, 0, size, size);
       }
     };
 
@@ -69,11 +62,13 @@ export const ObfuscatedMysteryAvatar: React.FC<ObfuscatedMysteryAvatarProps> = (
     return () => {
       isCancelled = true;
     };
-  }, [avatarUrl, mode, blurAmount, zoomScale, isRevealed]);
+  }, [avatarUrl, mode, blurAmount, isRevealed]);
+
+  const currentScale = mode === 'zoom' ? (isRevealed ? 1 : Math.max(1, zoomScale)) : 1;
 
   return (
     <div
-      className={`relative select-none ${className}`}
+      className={`relative select-none overflow-hidden rounded-full ${className}`}
       onContextMenu={(e) => e.preventDefault()}
       draggable={false}
     >
@@ -82,7 +77,14 @@ export const ObfuscatedMysteryAvatar: React.FC<ObfuscatedMysteryAvatarProps> = (
         width={240}
         height={240}
         className="w-full h-full object-cover pointer-events-none rounded-full"
-        style={{ userSelect: 'none', WebkitUserSelect: 'none' }}
+        style={{
+          userSelect: 'none',
+          WebkitUserSelect: 'none',
+          transform: `scale(${currentScale})`,
+          transformOrigin: '50% 36%',
+          transition: 'transform 0.75s cubic-bezier(0.16, 1, 0.3, 1)',
+          willChange: 'transform',
+        }}
       />
     </div>
   );

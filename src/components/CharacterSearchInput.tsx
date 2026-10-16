@@ -211,11 +211,6 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
                     {character.name}
                   </p>
                 </div>
-                {isHighlighted && (
-                  <span className="text-[10px] uppercase font-black tracking-wider text-amber-400/90 px-2 py-0.5 rounded-md bg-amber-400/10 border border-amber-400/20 mr-1 flex-shrink-0">
-                    Enter ↵
-                  </span>
-                )}
               </button>
             );
           })}

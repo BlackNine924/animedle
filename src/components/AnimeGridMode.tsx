@@ -888,7 +888,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
     return list;
   }, [characters]);
 
-  // Função para gerar uma grade 3x3 válida garantindo 100% de interseção e categorias sem repetição
+  // Função para gerar uma grade 3x3 garantindo que nunca seja impossível (simulação real das 9 casas)
   const generateValidGrid = (seedStr: string): { rows: GridCriterion[]; cols: GridCriterion[] } | null => {
     if (availableCriteria.length < 6) return null;
 
@@ -902,57 +902,78 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       return hash - Math.floor(hash);
     };
 
-    // Embaralha critérios determinísticamente
-    const shuffled = [...availableCriteria].sort(() => pseudoRandom() - 0.5);
+    // Helper: valida se TODAS as 9 casas (3 linhas x 3 colunas) possuem comprovadamente pelo menos 1 personagem válido no banco
+    const isGrid100PercentPossible = (rows: GridCriterion[], cols: GridCriterion[]): boolean => {
+      for (const r of rows) {
+        for (const c of cols) {
+          const hasMatchingCharacter = characters.some((char) => r.test(char) && c.test(char));
+          if (!hasMatchingCharacter) {
+            return false; // Se qualquer uma das 9 casas não tiver opções possíveis, descarta imediatamente!
+          }
+        }
+      }
+      return true;
+    };
 
-    // Algoritmo construtivo com filtragem ativa de colunas
-    for (let i = 0; i < shuffled.length; i++) {
-      const r1 = shuffled[i];
-      for (let j = i + 1; j < shuffled.length; j++) {
-        const r2 = shuffled[j];
-        if (r2.category === r1.category) continue;
-        for (let k = j + 1; k < Math.min(shuffled.length, j + 35); k++) {
-          const r3 = shuffled[k];
-          if (r3.category === r1.category || r3.category === r2.category) continue;
-          const rows = [r1, r2, r3];
-          const rowCats = new Set([r1.category, r2.category, r3.category]);
-          const rowIds = new Set([r1.id, r2.id, r3.id]);
+    // Tenta gerar a matriz perfeita; se necessário, faz tentativas adicionais com seeds offset
+    for (let attempt = 0; attempt < 5; attempt++) {
+      const shuffled = [...availableCriteria].sort(() => pseudoRandom() - 0.5);
 
-          // Filtra somente colunas que possuem ao menos 3 candidatos com cada uma das 3 linhas
-          const validCols = availableCriteria.filter((col) => {
-            if (rowIds.has(col.id)) return false;
-            return (
-              characters.filter((c) => r1.test(c) && col.test(c)).length >= 3 &&
-              characters.filter((c) => r2.test(c) && col.test(c)).length >= 3 &&
-              characters.filter((c) => r3.test(c) && col.test(c)).length >= 3
-            );
-          });
+      for (let i = 0; i < shuffled.length; i++) {
+        const r1 = shuffled[i];
+        for (let j = i + 1; j < shuffled.length; j++) {
+          const r2 = shuffled[j];
+          if (r2.category === r1.category) continue;
+          for (let k = j + 1; k < Math.min(shuffled.length, j + 35); k++) {
+            const r3 = shuffled[k];
+            if (r3.category === r1.category || r3.category === r2.category) continue;
+            const rows = [r1, r2, r3];
+            const rowCats = new Set([r1.category, r2.category, r3.category]);
+            const rowIds = new Set([r1.id, r2.id, r3.id]);
 
-          // 1. Tenta achar 3 colunas com 3 categorias distintas entre si e das 3 linhas (6 categorias 100% distintas)
-          const distinctCols = validCols.filter((col) => !rowCats.has(col.category));
-          for (let c1Idx = 0; c1Idx < distinctCols.length; c1Idx++) {
-            const c1 = distinctCols[c1Idx];
-            for (let c2Idx = c1Idx + 1; c2Idx < distinctCols.length; c2Idx++) {
-              const c2 = distinctCols[c2Idx];
-              if (c2.category === c1.category) continue;
-              for (let c3Idx = c2Idx + 1; c3Idx < distinctCols.length; c3Idx++) {
-                const c3 = distinctCols[c3Idx];
-                if (c3.category === c1.category || c3.category === c2.category) continue;
-                return { rows, cols: [c1, c2, c3] };
+            // Colunas candidatas que possuem ao menos 1 personagem compatível com cada uma das 3 linhas
+            const validCols = availableCriteria.filter((col) => {
+              if (rowIds.has(col.id)) return false;
+              return (
+                characters.some((c) => r1.test(c) && col.test(c)) &&
+                characters.some((c) => r2.test(c) && col.test(c)) &&
+                characters.some((c) => r3.test(c) && col.test(c))
+              );
+            });
+
+            // 1. Tenta achar 3 colunas com 3 categorias distintas entre si e das 3 linhas (6 categorias 100% distintas)
+            const distinctCols = validCols.filter((col) => !rowCats.has(col.category));
+            for (let c1Idx = 0; c1Idx < distinctCols.length; c1Idx++) {
+              const c1 = distinctCols[c1Idx];
+              for (let c2Idx = c1Idx + 1; c2Idx < distinctCols.length; c2Idx++) {
+                const c2 = distinctCols[c2Idx];
+                if (c2.category === c1.category) continue;
+                for (let c3Idx = c2Idx + 1; c3Idx < distinctCols.length; c3Idx++) {
+                  const c3 = distinctCols[c3Idx];
+                  if (c3.category === c1.category || c3.category === c2.category) continue;
+                  const candidateCols = [c1, c2, c3];
+                  // Simula e valida as 9 casas antes de apresentar ao jogador
+                  if (isGrid100PercentPossible(rows, candidateCols)) {
+                    return { rows, cols: candidateCols };
+                  }
+                }
               }
             }
-          }
 
-          // 2. Se não encontrou 6 categorias distintas, busca com 3 colunas distintas entre si
-          for (let c1Idx = 0; c1Idx < validCols.length; c1Idx++) {
-            const c1 = validCols[c1Idx];
-            for (let c2Idx = c1Idx + 1; c2Idx < validCols.length; c2Idx++) {
-              const c2 = validCols[c2Idx];
-              if (c2.category === c1.category) continue;
-              for (let c3Idx = c2Idx + 1; c3Idx < validCols.length; c3Idx++) {
-                const c3 = validCols[c3Idx];
-                if (c3.category === c1.category || c3.category === c2.category) continue;
-                return { rows, cols: [c1, c2, c3] };
+            // 2. Se não encontrou 6 categorias distintas, busca com 3 colunas distintas entre si garantindo as 9 casas
+            for (let c1Idx = 0; c1Idx < validCols.length; c1Idx++) {
+              const c1 = validCols[c1Idx];
+              for (let c2Idx = c1Idx + 1; c2Idx < validCols.length; c2Idx++) {
+                const c2 = validCols[c2Idx];
+                if (c2.category === c1.category) continue;
+                for (let c3Idx = c2Idx + 1; c3Idx < validCols.length; c3Idx++) {
+                  const c3 = validCols[c3Idx];
+                  if (c3.category === c1.category || c3.category === c2.category) continue;
+                  const candidateCols = [c1, c2, c3];
+                  if (isGrid100PercentPossible(rows, candidateCols)) {
+                    return { rows, cols: candidateCols };
+                  }
+                }
               }
             }
           }

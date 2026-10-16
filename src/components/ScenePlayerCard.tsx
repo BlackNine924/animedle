@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Film, Eye, EyeOff } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { Film, Eye, EyeOff, Play, Pause, Maximize, Minimize } from 'lucide-react';
 import { SceneChallenge } from '../types/anime';
 
 interface ScenePlayerCardProps {
@@ -17,11 +17,17 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
 }) => {
   // Toggle de cor: por padrão inicia em Preto e Branco (grayscale)
   const [isColorEnabled, setIsColorEnabled] = useState<boolean>(false);
+  const [isPaused, setIsPaused] = useState<boolean>(false);
+  const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
+
+  const imgRef = useRef<HTMLImageElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const videoContainerRef = useRef<HTMLDivElement>(null);
 
   // Carregamento via Blob URL em memória para ocultar o nome do arquivo/personagem no Inspecionar Elementos (DevTools)
   const [blobUrl, setBlobUrl] = useState<string>('');
 
-  React.useEffect(() => {
+  useEffect(() => {
     let active = true;
     let currentObjectUrl = '';
 
@@ -47,10 +53,17 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
     };
   }, [challenge.videoUrl]);
 
-  // Sempre que mudar de desafio (troca de personagem, nova rodada diária ou infinita), reinicia em P&B
-  React.useEffect(() => {
+  // Sempre que mudar de desafio, reinicia estados
+  useEffect(() => {
     setIsColorEnabled(false);
+    setIsPaused(false);
   }, [challenge.id]);
+
+  useEffect(() => {
+    const onFsChange = () => setIsFullscreen(!!document.fullscreenElement);
+    document.addEventListener('fullscreenchange', onFsChange);
+    return () => document.removeEventListener('fullscreenchange', onFsChange);
+  }, []);
 
   const handleToggleColor = () => {
     setIsColorEnabled((prev) => {
@@ -60,6 +73,35 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
       }
       return next;
     });
+  };
+
+  const handleTogglePlay = () => {
+    if (!isPaused) {
+      // Congela o frame atual desenhando no canvas
+      const img = imgRef.current;
+      const canvas = canvasRef.current;
+      if (img && canvas) {
+        canvas.width = img.naturalWidth || img.clientWidth || 480;
+        canvas.height = img.naturalHeight || img.clientHeight || 270;
+        const ctx = canvas.getContext('2d');
+        if (ctx) {
+          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+        }
+      }
+      setIsPaused(true);
+    } else {
+      setIsPaused(false);
+    }
+  };
+
+  const handleToggleFullscreen = () => {
+    const el = videoContainerRef.current;
+    if (!el) return;
+    if (!document.fullscreenElement) {
+      el.requestFullscreen().catch(() => {});
+    } else {
+      document.exitFullscreen().catch(() => {});
+    }
   };
 
   // Desfoque progressivo baseado no número de palpites errados:
@@ -73,10 +115,9 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   const blurPercentage = isWon ? 0 : Math.max(0, 100 - guessCount * 25);
 
   // A partir de 4 erros, o desfoque é 0px (100% nítido).
-  // O jogador tem direito a 3 tentativas com a cena 100% nítida antes de perder!
+  // A derrota agora acontece no 8º erro, garantindo que todas as 3 dicas sejam lidas com calma!
   const isFullyClear = blurPx === 0 && !isWon;
-  const attemptsWithClear = Math.max(0, guessCount - 4);
-  const remainingChances = Math.max(0, 3 - attemptsWithClear);
+  const remainingChances = Math.max(0, 8 - guessCount);
 
   return (
     <div className="w-full max-w-xl mx-auto my-6 p-6 bg-[#0a1020]/90 backdrop-blur-md border border-[#202b43] rounded-3xl shadow-2xl relative overflow-hidden">
@@ -126,23 +167,29 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
         {/* Alerta de Contagem Regressiva para Derrota quando o borrão zera */}
         {isFullyClear && (
           <div className="mt-3 px-3.5 py-1 rounded-xl bg-rose-500/20 border border-rose-500/40 text-rose-300 text-xs font-bold animate-pulse inline-flex items-center gap-1.5">
-            <span>⚠️ 0% de borrão! Restam {remainingChances} de 3 chances com a cena visível antes da derrota!</span>
+            <span>⚠️ 0% de borrão! Restam {remainingChances} {remainingChances === 1 ? 'chance final' : 'chances'} antes da derrota!</span>
           </div>
         )}
       </div>
 
       {/* Janela de Exibição do Vídeo / Cena em Loop */}
       <div
-        className="relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border-2 border-[#202b43] bg-black shadow-2xl flex items-center justify-center group select-none"
+        ref={videoContainerRef}
+        className={`relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border-2 border-[#202b43] bg-black shadow-2xl flex items-center justify-center group select-none ${
+          isFullscreen ? 'max-w-none w-screen h-screen rounded-none' : ''
+        }`}
         data-debug-character={challenge.characterName}
         data-debug-character-id={challenge.characterId}
         data-debug-scene={challenge.techniqueOrSceneName}
       >
         <img
+          ref={imgRef}
           src={blobUrl || challenge.videoUrl}
           alt={`Cena: ${challenge.characterName}`}
           data-character-name={challenge.characterName}
-          className="w-full h-full object-cover transition-all duration-500 pointer-events-none"
+          className={`w-full h-full object-cover transition-all duration-500 pointer-events-none ${
+            isPaused ? 'invisible' : 'visible'
+          }`}
           style={{
             filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,
           }}
@@ -150,9 +197,49 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
           draggable={false}
         />
 
+        {/* Canvas de congelamento quando pausado */}
+        <canvas
+          ref={canvasRef}
+          className={`absolute inset-0 w-full h-full object-cover pointer-events-none ${
+            isPaused ? 'block' : 'hidden'
+          }`}
+          style={{
+            filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,
+          }}
+        />
+
+        {/* Badge quando pausado */}
+        {isPaused && (
+          <div className="absolute top-3 left-3 px-2.5 py-1 rounded-lg bg-black/70 backdrop-blur-md border border-amber-500/40 text-amber-300 text-[11px] font-black uppercase tracking-wider flex items-center gap-1.5 z-20">
+            <Pause size={12} className="fill-amber-300" />
+            <span>Pausado</span>
+          </div>
+        )}
+
+        {/* Controles discretos no canto da cena (Play/Pause e Tela Cheia) */}
+        <div className="absolute bottom-3 right-3 flex items-center gap-2 z-20">
+          <button
+            type="button"
+            onClick={handleTogglePlay}
+            className="p-2 rounded-xl bg-black/65 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white shadow-xl transition-all active:scale-90"
+            title={isPaused ? "Retomar cena (Play)" : "Congelar cena (Pausar)"}
+          >
+            {isPaused ? <Play size={15} className="fill-white" /> : <Pause size={15} className="fill-white" />}
+          </button>
+          <button
+            type="button"
+            onClick={handleToggleFullscreen}
+            className="p-2 rounded-xl bg-black/65 hover:bg-black/90 backdrop-blur-md border border-white/20 text-white shadow-xl transition-all active:scale-90"
+            title={isFullscreen ? "Sair da tela cheia" : "Tela cheia"}
+          >
+            {isFullscreen ? <Minimize size={15} /> : <Maximize size={15} />}
+          </button>
+        </div>
+
         {/* Gradiente sutil nas bordas */}
         <div className="absolute inset-0 pointer-events-none rounded-2xl shadow-inner border border-white/10" />
       </div>
     </div>
   );
 };
+
