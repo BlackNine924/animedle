@@ -4,7 +4,21 @@ import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, Lay
 import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender, updateGlobalStatsOnOutcome } from '../data/achievements';
 import { getDailyDateString } from '../utils/dailySeed';
 import { VictoryModal } from './VictoryModal';
+import { ModeHeaderCard } from './ModeHeaderCard';
 import { filterAndRankCharacters } from '../utils/characterSearch';
+import {
+  calculateGridCellRarity,
+  summarizeGridRarity,
+  CellRarityInfo,
+  SurvivalState,
+  getSurvivalState,
+  toggleSurvivalMode,
+  recordSurvivalWin,
+  recordSurvivalLoss,
+  resetSurvivalRun,
+  FriendChallengeData,
+  encodeFriendChallengeUrl,
+} from '../utils/featuresManager';
 
 interface GridCriterion {
   id: string;
@@ -18,6 +32,8 @@ interface AnimeGridModeProps {
   themeColor: string;
   animeTitle: string;
   animeSlug: string;
+  initialFriendChallenge?: FriendChallengeData | null;
+  onClearFriendChallenge?: () => void;
 }
 
 interface GridBoardProps {
@@ -30,6 +46,12 @@ interface GridBoardProps {
   animeSlug: string;
   themeColor: string;
   onResetForInfinite?: () => void;
+  survivalState?: SurvivalState;
+  survivalHealed?: boolean;
+  onSurvivalOutcome?: (won: boolean) => void;
+  onRestartSurvival?: () => void;
+  friendChallenge?: FriendChallengeData | null;
+  onSendRevenge?: () => void;
 }
 
 const GridBoard: React.FC<GridBoardProps> = ({
@@ -42,6 +64,12 @@ const GridBoard: React.FC<GridBoardProps> = ({
   animeSlug,
   themeColor,
   onResetForInfinite,
+  survivalState,
+  survivalHealed,
+  onSurvivalOutcome,
+  onRestartSurvival,
+  friendChallenge,
+  onSendRevenge,
 }) => {
   // Estado isolado da grade por seed (com fallback para seed UTC legado se necessário)
   const [cells, setCells] = useState<(Character | null)[]>(() => {
@@ -166,6 +194,34 @@ const GridBoard: React.FC<GridBoardProps> = ({
 
   const isGameOver = guessesLeft === 0 || cells.filter(Boolean).length === 9 || isSurrendered;
   const score = cells.filter(Boolean).length;
+  const survivalRecordedRef = useRef<boolean>(false);
+
+  const cellAnswers = useMemo(() => {
+    const list: { row: GridCriterion; col: GridCriterion; matches: Character[] }[] = [];
+    for (let r = 0; r < 3; r++) {
+      for (let c = 0; c < 3; c++) {
+        const row = gridDefinition.rows[r];
+        const col = gridDefinition.cols[c];
+        const matches = characters.filter((ch) => row.test(ch) && col.test(ch));
+        list.push({ row, col, matches });
+      }
+    }
+    return list;
+  }, [gridDefinition, characters]);
+
+  // C1: Cálculo de Raridade por célula preenchida
+  const cellRarities = useMemo<(CellRarityInfo | null)[]>(() => {
+    return cells.map((char, idx) => {
+      if (!char) return null;
+      const validPool = cellAnswers[idx]?.matches || [char];
+      return calculateGridCellRarity(char, validPool, characters);
+    });
+  }, [cells, cellAnswers, characters]);
+
+  // C1: Resumo Geral de Raridade da Grade
+  const raritySummary = useMemo(() => {
+    return summarizeGridRarity(cells, cellRarities);
+  }, [cells, cellRarities]);
 
   useEffect(() => {
     if (isGameOver) {
@@ -187,22 +243,13 @@ const GridBoard: React.FC<GridBoardProps> = ({
           updateGlobalStatsOnOutcome('defeat');
         }
       }
+      if (isEndless && onSurvivalOutcome && !survivalRecordedRef.current) {
+        survivalRecordedRef.current = true;
+        onSurvivalOutcome(score === 9);
+      }
       setShowVictoryModal(true);
     }
   }, [isGameOver, score, guessesLeft, animeSlug, isSurrendered, isEndless]);
-
-  const cellAnswers = useMemo(() => {
-    const list: { row: GridCriterion; col: GridCriterion; matches: Character[] }[] = [];
-    for (let r = 0; r < 3; r++) {
-      for (let c = 0; c < 3; c++) {
-        const row = gridDefinition.rows[r];
-        const col = gridDefinition.cols[c];
-        const matches = characters.filter((ch) => row.test(ch) && col.test(ch));
-        list.push({ row, col, matches });
-      }
-    }
-    return list;
-  }, [gridDefinition, characters]);
 
   const handleSurrender = () => {
     if (isGameOver) {
@@ -226,11 +273,17 @@ const GridBoard: React.FC<GridBoardProps> = ({
 
   const handleCopyGrid = () => {
     let text = `AnimeDLE Grid - ${animeTitle} (${isEndless ? 'Modo Infinito' : 'Diário'})\n`;
-    text += `Acertos: ${score}/9 | Erros: ${9 - guessesLeft}/9\n\n`;
+    text += `Acertos: ${score}/9 | Erros: ${9 - guessesLeft}/9`;
+    if (raritySummary) {
+      text += ` | Raridade Média: ${raritySummary.averageRarity}% (${raritySummary.rankTitle})`;
+    }
+    text += `\n\n`;
     for (let r = 0; r < 3; r++) {
       let rowStr = '';
       for (let c = 0; c < 3; c++) {
-        rowStr += cells[r * 3 + c] ? '🟩' : '⬛';
+        const idx = r * 3 + c;
+        const rInfo = cellRarities[idx];
+        rowStr += cells[idx] ? (rInfo?.tier === 'ultra_rare' ? '💎' : rInfo?.tier === 'epic' ? '🟪' : '🟩') : '⬛';
       }
       text += rowStr + '\n';
     }
@@ -242,11 +295,21 @@ const GridBoard: React.FC<GridBoardProps> = ({
 
   return (
     <>
-      {/* Painel de Palpites e Placar */}
-      <div className="flex items-center justify-between px-2 mb-3 text-xs">
-        <span className="text-slate-400">
-          Acertos: <strong className="text-white font-black text-sm">{score}/9</strong>
-        </span>
+      {/* Painel de Palpites, Raridade (C1) e Placar */}
+      <div className="flex flex-wrap items-center justify-between gap-2 px-2 mb-3 text-xs">
+        <div className="flex items-center gap-3">
+          <span className="text-slate-400">
+            Acertos: <strong className="text-white font-black text-sm">{score}/9</strong>
+          </span>
+          {raritySummary && (
+            <span
+              className={`px-2.5 py-0.5 rounded-full border text-[11px] font-extrabold ${raritySummary.rankBadgeColor}`}
+              title="Quanto menor a porcentagem média, mais raros foram os personagens que você escolheu!"
+            >
+              💎 Raridade Média: {raritySummary.averageRarity}%
+            </span>
+          )}
+        </div>
         <div className="flex items-center gap-2.5">
           <button
             onClick={handleSurrender}
@@ -308,6 +371,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
               {[0, 1, 2].map((colIdx) => {
                 const cellIndex = rowIdx * 3 + colIdx;
                 const char = cells[cellIndex];
+                const rarity = cellRarities[cellIndex];
                 const isSelected = selectedCell === cellIndex;
 
                 return (
@@ -334,10 +398,24 @@ const GridBoard: React.FC<GridBoardProps> = ({
                   >
                     {char ? (
                       <>
+                        {/* C1: Selo de Porcentagem de Raridade na Célula */}
+                        {rarity && (
+                          <div
+                            title={`Escolha ${rarity.label} (${rarity.formatted}) • ${rarity.validPoolSize} ${
+                              rarity.validPoolSize === 1 ? 'único personagem possível!' : 'personagens cabem nesta célula'
+                            }`}
+                            className={`absolute top-1.5 left-1.5 z-10 px-1.5 py-0.5 rounded-md border text-[8px] sm:text-[9px] font-black leading-none tracking-tight flex items-center gap-0.5 ${rarity.pillClasses}`}
+                          >
+                            {rarity.tier === 'ultra_rare' && <span>💎</span>}
+                            <span>{rarity.formatted}</span>
+                          </div>
+                        )}
                         <img
                           src={char.avatar}
                           alt={char.name}
-                          className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full object-cover border-2 border-emerald-400 shadow-md mb-1.5"
+                          className={`w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full object-cover border-2 shadow-md mb-1.5 mt-2 ${
+                            rarity ? rarity.ringClasses : 'border-emerald-400'
+                          }`}
                           onError={(e) => {
                             (e.target as HTMLElement).style.display = 'none';
                           }}
@@ -345,8 +423,13 @@ const GridBoard: React.FC<GridBoardProps> = ({
                         <span className="text-[9px] sm:text-[11px] font-black text-white text-center leading-tight break-words hyphens-auto px-1 w-full max-h-8 overflow-hidden">
                           {char.name}
                         </span>
+                        {rarity && (
+                          <span className="text-[8px] font-extrabold uppercase tracking-wider text-slate-300/90 mt-0.5">
+                            {rarity.label}
+                          </span>
+                        )}
                         <div className="absolute top-1.5 right-1.5 bg-emerald-500 text-black rounded-full p-1 shadow-md">
-                          <Check size={11} strokeWidth={4} />
+                          <Check size={10} strokeWidth={4} />
                         </div>
                       </>
                     ) : (
@@ -364,6 +447,34 @@ const GridBoard: React.FC<GridBoardProps> = ({
           ))}
         </div>
       </div>
+
+      {/* C1: Resumo de Raridade da Partida */}
+      {raritySummary && (
+        <div className="mt-4 p-3.5 bg-[#0d1426] border border-[#202b43] rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-3 shadow-lg">
+          <div className="flex items-center gap-2.5">
+            <span className={`px-3 py-1 rounded-xl border text-xs font-black ${raritySummary.rankBadgeColor}`}>
+              {raritySummary.rankTitle}
+            </span>
+            <span className="text-xs text-slate-400 font-semibold">
+              Média de Raridade: <strong className="text-white">{raritySummary.averageRarity}%</strong>
+            </span>
+          </div>
+          {raritySummary.rarestPick && (
+            <div className="flex items-center gap-2 bg-[#111a2d] px-3 py-1.5 rounded-xl border border-[#22304d]">
+              <span className="text-[10px] uppercase font-black text-slate-400">Palpite Mais Raro:</span>
+              <img
+                src={raritySummary.rarestPick.char.avatar}
+                alt={raritySummary.rarestPick.char.name}
+                className="w-6 h-6 rounded-full object-cover border border-cyan-400"
+              />
+              <strong className="text-xs text-white font-extrabold">{raritySummary.rarestPick.char.name}</strong>
+              <span className={`px-1.5 py-0.5 rounded text-[9px] font-black border ${raritySummary.rarestPick.info.pillClasses}`}>
+                {raritySummary.rarestPick.info.formatted} ({raritySummary.rarestPick.info.label})
+              </span>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Card de Fim de Jogo */}
       {isGameOver && (
@@ -438,9 +549,22 @@ const GridBoard: React.FC<GridBoardProps> = ({
           animeTitle={animeTitle}
           animeSlug={animeSlug}
           currentMode="grid"
+          isEndless={isEndless}
+          survivalState={survivalState}
+          survivalHealed={survivalHealed}
+          onRestartSurvival={onRestartSurvival}
+          friendChallenge={friendChallenge}
+          challengeTargetPayload={{
+            a: animeSlug,
+            m: 'grid',
+            g: gridSeed,
+          }}
+          onSendRevenge={onSendRevenge}
+          gridScore={score}
+          gridRarityAvg={raritySummary?.averageRarity}
           customSubtitle={
             score === 9
-              ? '👑 Parabéns! Você completou a grade 9/9 perfeitamente!'
+              ? `👑 Grade Perfeita 9/9!${raritySummary ? ` • Raridade Média: ${raritySummary.averageRarity}%` : ''}`
               : isSurrendered
               ? `🚩 Desistência registrada: ${score}/9 células preenchidas.`
               : `Esgotou os 9 palpites! Total: ${score}/9 acertos.`
@@ -477,7 +601,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
         </div>
       )}
 
-      {/* Modal Gabarito com Todas as Respostas Possíveis por Célula */}
+      {/* Modal Gabarito com Todas as Respostas Possíveis por Célula e Suas Raridades */}
       {showAnswersModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
           <div className="bg-[#0d1426] border border-[#202b43] rounded-3xl max-w-2xl w-full p-4 sm:p-6 text-left shadow-2xl max-h-[85vh] flex flex-col">
@@ -485,10 +609,10 @@ const GridBoard: React.FC<GridBoardProps> = ({
               <div>
                 <h3 className="text-base sm:text-lg font-black text-white flex items-center gap-2">
                   <LayoutGrid size={18} className="text-amber-400" />
-                  Gabarito da Grade: Todas as Respostas Válidas
+                  Gabarito da Grade & Porcentagens de Raridade
                 </h3>
                 <p className="text-xs text-slate-400">
-                  Veja todos os personagens válidos para cada uma das 9 células.
+                  Veja todos os personagens válidos para cada uma das 9 células e o quão raro é cada um.
                 </p>
               </div>
               <button
@@ -510,14 +634,23 @@ const GridBoard: React.FC<GridBoardProps> = ({
                       <span className="text-xs font-bold text-slate-300">
                         Célula ({r + 1}, {c + 1}): <strong className="text-amber-300">{item.row.label}</strong> × <strong className="text-sky-300">{item.col.label}</strong>
                       </span>
-                      <span className="text-[11px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 w-fit">
-                        {item.matches.length} personagens válidos
+                      <span
+                        className={`text-[11px] font-bold px-2 py-0.5 rounded-full border w-fit ${
+                          item.matches.length === 1
+                            ? 'bg-cyan-500/20 text-cyan-300 border-cyan-400/50'
+                            : 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'
+                        }`}
+                      >
+                        {item.matches.length === 1
+                          ? '💎 1 único personagem possível (Ultra-Raro!)'
+                          : `${item.matches.length} personagens válidos`}
                       </span>
                     </div>
 
                     <div className="flex flex-wrap gap-2">
                       {item.matches.map((char) => {
                         const wasChosen = userPick?.id === char.id;
+                        const charRarity = calculateGridCellRarity(char, item.matches, characters);
                         return (
                           <div
                             key={char.id}
@@ -536,6 +669,9 @@ const GridBoard: React.FC<GridBoardProps> = ({
                               }}
                             />
                             <span>{char.name}</span>
+                            <span className={`px-1.5 py-0.5 rounded text-[9px] font-black border ${charRarity.pillClasses}`}>
+                              {charRarity.formatted}
+                            </span>
                             {wasChosen && <Check size={12} className="text-emerald-400 stroke-[3]" />}
                           </div>
                         );
@@ -886,6 +1022,8 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
   themeColor,
   animeTitle,
   animeSlug,
+  initialFriendChallenge,
+  onClearFriendChallenge,
 }) => {
   // Limpeza de prefixos como 'Status: '
   const cleanStatus = (s: string) => s.replace(/^Status:\s*/i, '').trim();
@@ -1316,14 +1454,86 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
     return null;
   };
 
-  const [isEndless, setIsEndless] = useState<boolean>(false);
-  const [endlessSeed, setEndlessSeed] = useState<number>(1);
+  const [isEndless, setIsEndless] = useState<boolean>(() => Boolean(initialFriendChallenge?.m === 'grid'));
+  const [endlessSeed, setEndlessSeed] = useState<number>(() => Math.floor(Math.random() * 100000) + 1);
+  const [forcedChallengeSeed, setForcedChallengeSeed] = useState<string | null>(() =>
+    initialFriendChallenge?.m === 'grid' && initialFriendChallenge.g ? initialFriendChallenge.g : null
+  );
+  const [survivalState, setSurvivalState] = useState<SurvivalState>(() => getSurvivalState(animeSlug, 'grid'));
+  const [survivalHealed, setSurvivalHealed] = useState<boolean>(false);
+
+  useEffect(() => {
+    setSurvivalState(getSurvivalState(animeSlug, 'grid'));
+    if (initialFriendChallenge?.m === 'grid' && initialFriendChallenge.g) {
+      setIsEndless(true);
+      setForcedChallengeSeed(initialFriendChallenge.g);
+    }
+  }, [animeSlug, initialFriendChallenge]);
+
   const todayStr = useMemo(() => getDailyDateString(), []);
   const legacyUtcTodayStr = useMemo(() => new Date().toISOString().slice(0, 10), []);
 
-  const gridSeed = isEndless ? `endless_${animeSlug}_${endlessSeed}` : `daily_${animeSlug}_${todayStr}`;
+  const gridSeed = isEndless
+    ? forcedChallengeSeed || `endless_${animeSlug}_${endlessSeed}`
+    : `daily_${animeSlug}_${todayStr}`;
   const legacyGridSeed = !isEndless && legacyUtcTodayStr !== todayStr ? `daily_${animeSlug}_${legacyUtcTodayStr}` : undefined;
   const gridDefinition = useMemo(() => generateValidGrid(gridSeed), [availableCriteria, gridSeed]);
+
+  const handleToggleSurvival = (active: boolean) => {
+    const next = toggleSurvivalMode(animeSlug, 'grid', active);
+    setSurvivalState(next);
+    setSurvivalHealed(false);
+    if (active) {
+      setForcedChallengeSeed(null);
+      setEndlessSeed((s) => s + 1);
+    }
+  };
+
+  const handleSurvivalOutcome = (won: boolean) => {
+    if (!survivalState.active) return;
+    if (won) {
+      const { state, healedHeart } = recordSurvivalWin(animeSlug, 'grid');
+      setSurvivalState(state);
+      setSurvivalHealed(healedHeart);
+    } else {
+      const { state } = recordSurvivalLoss(animeSlug, 'grid');
+      setSurvivalState(state);
+      setSurvivalHealed(false);
+    }
+  };
+
+  const handleRestartSurvival = () => {
+    const next = resetSurvivalRun(animeSlug, 'grid');
+    setSurvivalState(next);
+    setSurvivalHealed(false);
+    setForcedChallengeSeed(null);
+    setEndlessSeed((s) => s + 1);
+  };
+
+  const handleChallengeFriend = () => {
+    const url = encodeFriendChallengeUrl({
+      a: animeSlug,
+      m: 'grid',
+      g: gridSeed,
+    });
+    const text = `⚔️ Desafio 1v1 no AnimeDLE (${animeTitle} - Grade 3×3)!\nJogue exatamente a mesma Grade 3×3 que eu:\n${url}`;
+    navigator.clipboard.writeText(text);
+  };
+
+  const handleSendRevenge = () => {
+    const newSeedNum = Math.floor(Math.random() * 900000) + 100000;
+    const newGridSeed = `endless_${animeSlug}_${newSeedNum}`;
+    setForcedChallengeSeed(null);
+    onClearFriendChallenge?.();
+    setEndlessSeed(newSeedNum);
+    const url = encodeFriendChallengeUrl({
+      a: animeSlug,
+      m: 'grid',
+      g: newGridSeed,
+    });
+    const text = `🔥 Revanche no AnimeDLE (${animeTitle} - Grade 3×3)!\nQuero ver você resolver esta nova Grade:\n${url}`;
+    navigator.clipboard.writeText(text);
+  };
 
   if (!gridDefinition) {
     return (
@@ -1339,48 +1549,27 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
 
   return (
     <div className="max-w-2xl mx-auto my-6 px-3">
-      {/* Header com Status e Alternador Diário / Infinito */}
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-[#0d1426] border border-[#202b43] rounded-2xl p-4 mb-5 shadow-lg">
-        <div className="flex items-center gap-3">
-          <div
-            className="w-10 h-10 rounded-xl flex items-center justify-center shadow-md"
-            style={{ backgroundColor: `${themeColor}25`, color: themeColor }}
-          >
-            <LayoutGrid size={22} />
-          </div>
-          <div>
-            <h2 className="text-white font-extrabold text-base flex items-center gap-2">
-              Modo Grid
-            </h2>
-            <p className="text-slate-400 text-xs">
-              Cruze os atributos e acerte os 9 personagens com apenas 9 palpites!
-            </p>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-2">
-          <button
-            onClick={() => setIsEndless(false)}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
-              !isEndless
-                ? 'bg-white/10 text-white border border-white/20 shadow-sm'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            Diário
-          </button>
-          <button
-            onClick={() => setIsEndless(true)}
-            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all ${
-              isEndless
-                ? 'bg-white/10 text-white border border-white/20 shadow-sm'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            Infinito
-          </button>
-        </div>
-      </div>
+      {/* Header Padronizado com Diário / Infinito / Sobrevivência (E2) e Desafiar Amigo (F2) */}
+      <ModeHeaderCard
+        title="Modo Grid 3×3"
+        description="Cruze os atributos e acerte os 9 personagens com apenas 9 palpites! Ganhe pontos extras de Raridade!"
+        icon={<LayoutGrid size={22} />}
+        themeColor={themeColor}
+        isEndless={isEndless}
+        onToggleEndless={(val) => {
+          setIsEndless(val);
+          if (!val) setForcedChallengeSeed(null);
+        }}
+        survivalState={survivalState}
+        onToggleSurvival={handleToggleSurvival}
+        healedBanner={survivalHealed}
+        onChallengeFriend={handleChallengeFriend}
+        activeChallenge={initialFriendChallenge?.m === 'grid' ? initialFriendChallenge : null}
+        onClearChallenge={() => {
+          setForcedChallengeSeed(null);
+          onClearFriendChallenge?.();
+        }}
+      />
 
       {/* Grade isolada por gridSeed */}
       <GridBoard
@@ -1393,7 +1582,17 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
         animeTitle={animeTitle}
         animeSlug={animeSlug}
         themeColor={themeColor}
-        onResetForInfinite={() => setEndlessSeed((s) => s + 1)}
+        onResetForInfinite={() => {
+          setForcedChallengeSeed(null);
+          setSurvivalHealed(false);
+          setEndlessSeed((s) => s + 1);
+        }}
+        survivalState={survivalState}
+        survivalHealed={survivalHealed}
+        onSurvivalOutcome={handleSurvivalOutcome}
+        onRestartSurvival={handleRestartSurvival}
+        friendChallenge={initialFriendChallenge?.m === 'grid' ? initialFriendChallenge : null}
+        onSendRevenge={handleSendRevenge}
       />
     </div>
   );

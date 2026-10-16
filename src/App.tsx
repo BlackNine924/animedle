@@ -28,6 +28,18 @@ import { Character, GameMode, GuessResult, GameStats, VoiceChallenge, SceneChall
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
 import { getOrAdvanceEndlessIndex } from './utils/endlessDeck';
 import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen } from 'lucide-react';
+import {
+  SurvivalState,
+  getSurvivalState,
+  toggleSurvivalMode,
+  recordSurvivalWin,
+  recordSurvivalLoss,
+  resetSurvivalRun,
+  FriendChallengeData,
+  encodeFriendChallengeUrl,
+  decodeFriendChallengeFromUrl,
+  clearChallengeQueryParam,
+} from './utils/featuresManager';
 
 
 export const App: React.FC<{
@@ -36,20 +48,55 @@ export const App: React.FC<{
   onNavigateHome: () => void;
   onNavigateToAnime: (slug: string) => void;
 }> = ({ animeSlug: currentAnimeSlug, charactersData, onNavigateHome, onNavigateToAnime }) => {
-  const [currentMode, setCurrentMode] = useState<GameMode>('classic');
+  // F2: Detecta código de desafio de amigo na URL (?challenge=...)
+  const [activeFriendChallenge, setActiveFriendChallenge] = useState<FriendChallengeData | null>(() => {
+    const decoded = decodeFriendChallengeFromUrl();
+    if (decoded && decoded.a === currentAnimeSlug) {
+      return decoded;
+    }
+    return null;
+  });
+
+  const [currentMode, setCurrentMode] = useState<GameMode>(() => {
+    const decoded = decodeFriendChallengeFromUrl();
+    if (decoded && decoded.a === currentAnimeSlug && decoded.m) {
+      return decoded.m;
+    }
+    const pendingMode = sessionStorage.getItem('animedle_pending_initial_mode') as GameMode | null;
+    if (pendingMode) {
+      sessionStorage.removeItem('animedle_pending_initial_mode');
+      return pendingMode;
+    }
+    return 'classic';
+  });
 
   // Controle de Modo Infinito por Modo de Jogo
-  const [endlessByMode, setEndlessByMode] = useState<Record<GameMode, boolean>>({
-    classic: false,
-    wanted: false,
-    ability: false,
-    zoom: false,
-    voice: false,
-    grid: false,
-    scene: false,
+  const [endlessByMode, setEndlessByMode] = useState<Record<GameMode, boolean>>(() => {
+    const decoded = decodeFriendChallengeFromUrl();
+    const initialMode = decoded && decoded.a === currentAnimeSlug ? decoded.m : null;
+    return {
+      classic: initialMode === 'classic',
+      wanted: initialMode === 'wanted',
+      ability: initialMode === 'ability',
+      zoom: initialMode === 'zoom',
+      voice: initialMode === 'voice',
+      grid: initialMode === 'grid',
+      scene: initialMode === 'scene',
+    };
   });
 
   const isCurrentEndless = endlessByMode[currentMode] || false;
+
+  // E2: Estado do Modo Sobrevivência para o modo ativo
+  const [survivalState, setSurvivalState] = useState<SurvivalState>(() =>
+    getSurvivalState(currentAnimeSlug, currentMode)
+  );
+  const [survivalHealed, setSurvivalHealed] = useState<boolean>(false);
+
+  useEffect(() => {
+    setSurvivalState(getSurvivalState(currentAnimeSlug, currentMode));
+    setSurvivalHealed(false);
+  }, [currentAnimeSlug, currentMode]);
 
   // Ordena a lista de personagens recebida em ordem alfabética (A-Z)
   const characters = React.useMemo(() => {
@@ -505,13 +552,62 @@ export const App: React.FC<{
   const baseDailyIndex = getDailyCharacterIndex(currentAnimeSlug, currentMode, targetPoolSize);
   const dailyIndex = (baseDailyIndex + (devOffsets[currentMode] || 0)) % targetPoolSize;
 
-  // Sincroniza o índice do Modo Infinito via baralho persistente sem repetição
+  // Sincroniza o índice do Modo Infinito via baralho persistente sem repetição (ou Desafio de Amigo F2)
   React.useEffect(() => {
     if (targetPoolSize > 0) {
+      if (activeFriendChallenge && activeFriendChallenge.a === currentAnimeSlug && activeFriendChallenge.m === currentMode) {
+        if (activeFriendChallenge.cid) {
+          if (currentMode === 'scene') {
+            const idx = sceneChallenges.findIndex((s) => s.id === activeFriendChallenge.cid || s.characterId === activeFriendChallenge.cid);
+            if (idx >= 0) {
+              setEndlessTargetIndex(idx);
+              return;
+            }
+          } else if (currentMode === 'voice') {
+            const idx = voiceChallenges.findIndex((v) => v.id === activeFriendChallenge.cid || v.characterId === activeFriendChallenge.cid);
+            if (idx >= 0) {
+              setEndlessTargetIndex(idx);
+              return;
+            }
+          } else {
+            const idx = characters.findIndex((c) => c.id === activeFriendChallenge.cid);
+            if (idx >= 0) {
+              setEndlessTargetIndex(idx);
+              return;
+            }
+          }
+        }
+        setEndlessTargetIndex((activeFriendChallenge.t ?? 0) % targetPoolSize);
+        return;
+      }
       const currentIdx = getOrAdvanceEndlessIndex(currentAnimeSlug, currentMode, targetPoolSize, false);
       setEndlessTargetIndex(currentIdx);
     }
-  }, [currentAnimeSlug, currentMode, targetPoolSize]);
+  }, [currentAnimeSlug, currentMode, targetPoolSize, activeFriendChallenge, characters, sceneChallenges, voiceChallenges]);
+
+  // A4: Listener para navegação automática do botão "Próximo Modo Pendente" / "Próximo Anime"
+  useEffect(() => {
+    const handleNavigateDest = (e: Event) => {
+      const detail = (e as CustomEvent<{ type: 'mode' | 'anime' | 'home'; mode?: GameMode; animeSlug?: string }>).detail;
+      if (!detail) return;
+      setShowVictoryModal(false);
+      if (detail.type === 'mode' && detail.mode) {
+        setEndlessByMode((prev) => ({ ...prev, [detail.mode!]: false }));
+        setCurrentMode(detail.mode);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (detail.type === 'anime' && detail.animeSlug) {
+        if (detail.mode) {
+          sessionStorage.setItem('animedle_pending_initial_mode', detail.mode);
+        }
+        handleSelectAnime(detail.animeSlug);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (detail.type === 'home') {
+        onNavigateHome();
+      }
+    };
+    window.addEventListener('animedle_navigate_destination', handleNavigateDest);
+    return () => window.removeEventListener('animedle_navigate_destination', handleNavigateDest);
+  }, [currentAnimeSlug, onNavigateHome]);
   
   // Habilidade/Domínio ativa do modo habilidade
   const currentAbilityItem = currentMode === 'ability' && abilityPool.length > 0
@@ -729,7 +825,14 @@ export const App: React.FC<{
     const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 6;
     // No modo cena, o borrão zera no 4º erro (0px). Dica 1 no 2º erro, Dica 2 no 4º erro e Dica 3 no 6º erro. Derrota apenas no 8º erro!
     const isSceneLoss = currentMode === 'scene' && !isCorrect && currentGuesses.length >= 7;
-    const isDefeat = isWantedLoss || isZoomLoss || isSceneLoss;
+    // No Modo Sobrevivência (E2) dentro do Modo Clássico ou Voz, há limite de 10 erros por rodada para contar perda de 1 ❤️
+    const isSurvivalClassicOrVoiceLoss =
+      isCurrentEndless &&
+      survivalState.active &&
+      (currentMode === 'classic' || currentMode === 'voice') &&
+      !isCorrect &&
+      currentGuesses.length >= 9;
+    const isDefeat = isWantedLoss || isZoomLoss || isSceneLoss || isSurvivalClassicOrVoiceLoss;
     const isSurrenderedState = false;
 
     setModeStates((prev) => ({
@@ -823,6 +926,11 @@ export const App: React.FC<{
           if (next >= 10) unlockAchievement('endless_streak_10');
           return next;
         });
+        if (survivalState.active) {
+          const { state: nextSurv, healedHeart: healed } = recordSurvivalWin(currentAnimeSlug, currentMode);
+          setSurvivalState(nextSurv);
+          setSurvivalHealed(healed);
+        }
       }
 
       setShowVictoryModal(true);
@@ -835,6 +943,11 @@ export const App: React.FC<{
       if (isCurrentEndless) {
         setEndlessStreak(0);
         localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
+        if (survivalState.active) {
+          const { state: nextSurv } = recordSurvivalLoss(currentAnimeSlug, currentMode);
+          setSurvivalState(nextSurv);
+          setSurvivalHealed(false);
+        }
       } else {
         const updated = updateGlobalStatsOnOutcome('defeat');
         setStats(updated);
@@ -857,6 +970,11 @@ export const App: React.FC<{
     if (isCurrentEndless) {
       setEndlessStreak(0);
       localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
+      if (survivalState.active) {
+        const { state: nextSurv } = recordSurvivalLoss(currentAnimeSlug, currentMode);
+        setSurvivalState(nextSurv);
+        setSurvivalHealed(false);
+      }
     }
 
     setModeStates((prev) => ({
@@ -887,6 +1005,11 @@ export const App: React.FC<{
 
   // Próximo desafio no Modo Treino/Infinito consumindo baralho persistente sem repetição
   const handleNextEndlessChallenge = () => {
+    setSurvivalHealed(false);
+    if (activeFriendChallenge) {
+      setActiveFriendChallenge(null);
+      clearChallengeQueryParam();
+    }
     const poolSize = currentMode === 'ability'
       ? abilityPool.length
       : currentMode === 'voice'
@@ -923,11 +1046,79 @@ export const App: React.FC<{
       [mode]: val,
     }));
     setShowVictoryModal(false);
+    if (!val && survivalState.active) {
+      const nextSurv = toggleSurvivalMode(currentAnimeSlug, mode, false);
+      setSurvivalState(nextSurv);
+      setSurvivalHealed(false);
+    }
 
     if (val) {
       // Temporário: Sempre avança para o próximo desafio ao ligar/clicar no modo infinito, facilitando a navegação
       handleNextEndlessChallenge();
     }
+  };
+
+  const handleToggleSurvival = (mode: GameMode, active: boolean) => {
+    if (active && !endlessByMode[mode]) {
+      setEndlessByMode((prev) => ({ ...prev, [mode]: true }));
+    }
+    const nextSurv = toggleSurvivalMode(currentAnimeSlug, mode, active);
+    setSurvivalState(nextSurv);
+    setSurvivalHealed(false);
+    setShowVictoryModal(false);
+    if (active) {
+      handleNextEndlessChallenge();
+    }
+  };
+
+  const handleRestartSurvival = () => {
+    const fresh = resetSurvivalRun(currentAnimeSlug, currentMode);
+    setSurvivalState(fresh);
+    setSurvivalHealed(false);
+    handleNextEndlessChallenge();
+  };
+
+  // F2: Gera URL de Desafio de Amigo para o desafio atual
+  const handleChallengeFriend = (): string => {
+    const currentIdx = isCurrentEndless ? endlessTargetIndex : dailyIndex;
+    const cid =
+      currentMode === 'scene' && currentSceneChallenge
+        ? currentSceneChallenge.id
+        : currentMode === 'voice' && currentVoiceChallenge
+        ? currentVoiceChallenge.id
+        : targetCharacter?.id;
+
+    return encodeFriendChallengeUrl({
+      a: currentAnimeSlug,
+      m: currentMode,
+      t: currentIdx,
+      cid,
+      s: isFinished
+        ? {
+            w: currentIsWon ? 1 : 0,
+            g: currentGuesses.length,
+          }
+        : undefined,
+    });
+  };
+
+  const handleSendRevenge = () => {
+    const poolSize =
+      currentMode === 'scene'
+        ? sceneChallenges.length
+        : currentMode === 'voice'
+        ? voiceChallenges.length
+        : characters.length;
+    const nextIdx = getOrAdvanceEndlessIndex(currentAnimeSlug, currentMode, Math.max(1, poolSize), true);
+    setEndlessByMode((prev) => ({ ...prev, [currentMode]: true }));
+    setEndlessTargetIndex(nextIdx);
+    setActiveFriendChallenge(null);
+    clearChallengeQueryParam();
+    setModeStates((prev) => ({
+      ...prev,
+      [currentMode]: { guesses: [], isWon: false, isSurrendered: false, isLost: false },
+    }));
+    setShowVictoryModal(false);
   };
 
   // Resetar (dev)
@@ -1079,16 +1270,29 @@ export const App: React.FC<{
           currentAnimeSlug={currentAnimeSlug}
         />
 
-        {/* Card Padrão de Cabeçalho do Modo (Nome, Ícone, Descrição e Alternador Diário / Infinito) */}
+        {/* Card Padrão de Cabeçalho do Modo (Nome, Ícone, Descrição e Alternador Diário / Infinito / Sobrevivência) */}
         {currentMode === 'classic' && (
           <ModeHeaderCard
             title="Modo Clássico"
-            description="Adivinhe o personagem misterioso recebendo pistas sobre seus atributos a cada tentativa."
+            description={
+              isCurrentEndless && survivalState.active
+                ? 'Modo Sobrevivência Ativo: Acerte o personagem em até 10 palpites para manter suas 3 Vidas (❤️❤️❤️)!'
+                : 'Adivinhe o personagem misterioso recebendo pistas sobre seus atributos a cada tentativa.'
+            }
             icon={<Sparkles size={20} />}
             themeColor={animeConfig.themeColor}
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('classic', val)}
             onNextEndless={handleNextEndlessChallenge}
+            survivalState={survivalState}
+            onToggleSurvival={(act) => handleToggleSurvival('classic', act)}
+            healedBanner={survivalHealed}
+            onChallengeFriend={handleChallengeFriend}
+            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'classic' ? activeFriendChallenge : null}
+            onClearChallenge={() => {
+              setActiveFriendChallenge(null);
+              clearChallengeQueryParam();
+            }}
           />
         )}
 
@@ -1101,6 +1305,15 @@ export const App: React.FC<{
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('wanted', val)}
             onNextEndless={handleNextEndlessChallenge}
+            survivalState={survivalState}
+            onToggleSurvival={(act) => handleToggleSurvival('wanted', act)}
+            healedBanner={survivalHealed}
+            onChallengeFriend={handleChallengeFriend}
+            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'wanted' ? activeFriendChallenge : null}
+            onClearChallenge={() => {
+              setActiveFriendChallenge(null);
+              clearChallengeQueryParam();
+            }}
           />
         )}
 
@@ -1113,6 +1326,15 @@ export const App: React.FC<{
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('scene', val)}
             onNextEndless={handleNextEndlessChallenge}
+            survivalState={survivalState}
+            onToggleSurvival={(act) => handleToggleSurvival('scene', act)}
+            healedBanner={survivalHealed}
+            onChallengeFriend={handleChallengeFriend}
+            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'scene' ? activeFriendChallenge : null}
+            onClearChallenge={() => {
+              setActiveFriendChallenge(null);
+              clearChallengeQueryParam();
+            }}
           />
         )}
 
@@ -1125,6 +1347,15 @@ export const App: React.FC<{
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('voice', val)}
             onNextEndless={handleNextEndlessChallenge}
+            survivalState={survivalState}
+            onToggleSurvival={(act) => handleToggleSurvival('voice', act)}
+            healedBanner={survivalHealed}
+            onChallengeFriend={handleChallengeFriend}
+            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'voice' ? activeFriendChallenge : null}
+            onClearChallenge={() => {
+              setActiveFriendChallenge(null);
+              clearChallengeQueryParam();
+            }}
           />
         )}
 
@@ -1137,6 +1368,15 @@ export const App: React.FC<{
             isEndless={isCurrentEndless}
             onToggleEndless={(val) => handleToggleEndless('zoom', val)}
             onNextEndless={handleNextEndlessChallenge}
+            survivalState={survivalState}
+            onToggleSurvival={(act) => handleToggleSurvival('zoom', act)}
+            healedBanner={survivalHealed}
+            onChallengeFriend={handleChallengeFriend}
+            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'zoom' ? activeFriendChallenge : null}
+            onClearChallenge={() => {
+              setActiveFriendChallenge(null);
+              clearChallengeQueryParam();
+            }}
           />
         )}
 
@@ -1165,10 +1405,10 @@ export const App: React.FC<{
             </button>
             {isCurrentEndless && (
               <button
-                onClick={handleNextEndlessChallenge}
+                onClick={survivalState.active && survivalState.hearts <= 0 ? handleRestartSurvival : handleNextEndlessChallenge}
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:brightness-110"
               >
-                <span>⏩ Próximo Desafio</span>
+                <span>{survivalState.active && survivalState.hearts <= 0 ? '🔥 Reiniciar Sobrevivência' : '⏩ Próximo Desafio'}</span>
               </button>
             )}
           </div>
@@ -1177,6 +1417,13 @@ export const App: React.FC<{
         {/* MODO CLÁSSICO */}
         {currentMode === 'classic' && (
           <div>
+            {isCurrentEndless && survivalState.active && !isFinished && (
+              <div className="max-w-md mx-auto mb-3 text-center">
+                <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-orange-500/15 border border-orange-500/30 text-orange-300 text-xs font-black">
+                  🔥 Palpites na Rodada: {currentGuesses.length} / 10
+                </span>
+              </div>
+            )}
             <CharacterSearchInput
               characters={characters}
               guessedCharacterIds={currentGuesses.map((g) => g.character.id)}
@@ -1425,6 +1672,23 @@ export const App: React.FC<{
           animeTitle={animeConfig.title}
           animeSlug={currentAnimeSlug}
           currentMode={currentMode}
+          isEndless={isCurrentEndless}
+          survivalState={isCurrentEndless && survivalState.active ? survivalState : undefined}
+          survivalHealed={survivalHealed}
+          onRestartSurvival={handleRestartSurvival}
+          friendChallenge={activeFriendChallenge && activeFriendChallenge.m === currentMode ? activeFriendChallenge : null}
+          challengeTargetPayload={{
+            a: currentAnimeSlug,
+            m: currentMode,
+            t: isCurrentEndless ? endlessTargetIndex : dailyIndex,
+            cid:
+              currentMode === 'scene' && currentSceneChallenge
+                ? currentSceneChallenge.id
+                : currentMode === 'voice' && currentVoiceChallenge
+                ? currentVoiceChallenge.id
+                : targetCharacter?.id,
+          }}
+          onSendRevenge={handleSendRevenge}
         />
       )}
 

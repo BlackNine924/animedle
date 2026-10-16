@@ -4,6 +4,7 @@ import { ExclusiveChallenge, getChallengesForAnime } from '../data/exclusiveChal
 import { getDailyDateString } from '../utils/dailySeed';
 import { CharacterSearchInput } from './CharacterSearchInput';
 import { VictoryModal } from './VictoryModal';
+import { ModeHeaderCard } from './ModeHeaderCard';
 import {
   Heart,
   Flame,
@@ -21,12 +22,23 @@ import {
   Image as ImageIcon,
   Loader2,
   X,
-  Flag
+  Flag,
+  Zap,
 } from 'lucide-react';
 import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender } from '../data/achievements';
 import { reportChallengeInconsistency } from '../services/firebase';
 import { downloadOrShareImageCard } from '../utils/shareImage';
 import confetti from 'canvas-confetti';
+import {
+  SurvivalState,
+  getSurvivalState,
+  toggleSurvivalMode,
+  recordSurvivalWin,
+  recordSurvivalLoss,
+  resetSurvivalRun,
+  FriendChallengeData,
+  encodeFriendChallengeUrl,
+} from '../utils/featuresManager';
 
 interface ExclusiveAnimeModeProps {
   animeSlug: string;
@@ -34,6 +46,8 @@ interface ExclusiveAnimeModeProps {
   themeColor: string;
   animeTitle?: string;
   onGlobalStatsChange?: (newStats: any) => void;
+  initialFriendChallenge?: FriendChallengeData | null;
+  onClearFriendChallenge?: () => void;
 }
 
 interface SavedDailyExclusiveState {
@@ -53,10 +67,14 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   themeColor,
   animeTitle = 'AnimeDLE',
   onGlobalStatsChange,
+  initialFriendChallenge,
+  onClearFriendChallenge,
 }) => {
-  const [isEndless, setIsEndless] = useState<boolean>(false);
+  const [isEndless, setIsEndless] = useState<boolean>(() => Boolean(initialFriendChallenge?.m === 'ability'));
   const challenges = useMemo(() => getChallengesForAnime(animeSlug), [animeSlug]);
   const [resolvedCharacter, setResolvedCharacter] = useState<Character | null>(null);
+  const [survivalState, setSurvivalState] = useState<SurvivalState>(() => getSurvivalState(animeSlug, 'ability'));
+  const [survivalHealed, setSurvivalHealed] = useState<boolean>(false);
 
   const todayStr = useMemo(() => getDailyDateString(), []);
   const dailyStorageKey = `animedle_${animeSlug}_exclusive_daily_${todayStr}`;
@@ -145,8 +163,9 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     [challenges, dailyIndex]
   );
 
-  // Carrega estado diário estritamente correspondente ao desafio de hoje (7.1)
+  // Carrega estado diário estritamente correspondente ao desafio de hoje (7.1) ou aplica desafio de amigo (F2)
   useEffect(() => {
+    setSurvivalState(getSurvivalState(animeSlug, 'ability'));
     if (!isEndless) {
       setCurrentIndex(dailyIndex);
       const saved = localStorage.getItem(dailyStorageKey);
@@ -177,7 +196,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       setRoundGuesses([]);
       setRevealedClues({});
     } else {
-      // Modo Infinito: limpa e sorteia novo desafio
+      // Modo Infinito: limpa e sorteia novo desafio (ou carrega desafio de amigo se presente)
       setLives(3);
       setRoundBaseScore(100);
       setRoundCompleted(false);
@@ -188,9 +207,25 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       setRevealedClues({});
       setTotalScore(0);
       setCombo(0);
+
+      if (initialFriendChallenge?.m === 'ability' && challenges.length > 0) {
+        if (initialFriendChallenge.cid) {
+          const foundIdx = challenges.findIndex(
+            (ch) => ch.id === initialFriendChallenge.cid || ch.targetCharacterId === initialFriendChallenge.cid
+          );
+          if (foundIdx >= 0) {
+            setCurrentIndex(foundIdx);
+            return;
+          }
+        }
+        if (typeof initialFriendChallenge.t === 'number') {
+          setCurrentIndex(initialFriendChallenge.t % challenges.length);
+          return;
+        }
+      }
       setCurrentIndex(Math.floor(Math.random() * Math.max(1, challenges.length)));
     }
-  }, [isEndless, dailyStorageKey, dailyIndex, dailyChallenge?.id, challenges.length]);
+  }, [isEndless, dailyStorageKey, dailyIndex, dailyChallenge?.id, challenges.length, initialFriendChallenge]);
 
   // Salva no localStorage o estado contínuo no Modo Diário (mesmo durante a partida e ao finalizar)
   useEffect(() => {
@@ -234,7 +269,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     }
   };
 
-  // Processa o Palpite (Regra estrita: 1 erro = -1 vida)
+  // Processa o Palpite (Regra estrita: 1 erro = -1 vida da rodada)
   const handleMakeGuess = (guessedChar: Character) => {
     if (roundCompleted || isGameOver || !currentChallenge || !targetCharacter) return;
     if (roundGuesses.some((g) => g.charId === guessedChar.id)) return;
@@ -261,7 +296,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
       logDailyActivity();
       unlockAchievement('exclusive_master');
-      
+
       // Conquista: Conhecimento Puro (0 pistas reveladas)
       if (Object.keys(revealedClues).length === 0) {
         unlockAchievement('pure_knowledge');
@@ -274,25 +309,37 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       recordVictory(animeSlug, 'exclusive', guessedChar.id);
       updateGlobalStats(true);
 
+      if (isEndless && survivalState.active) {
+        const { state, healedHeart } = recordSurvivalWin(animeSlug, 'ability');
+        setSurvivalState(state);
+        setSurvivalHealed(healedHeart);
+      }
+
       const currentMult = Math.max(1, combo + 1);
       const earned = roundBaseScore * currentMult;
 
       setTotalScore((s) => s + earned);
       setCombo((c) => c + 1);
     } else {
-      // Errou: Perde exatamente 1 vida!
+      // Errou: Perde exatamente 1 vida da rodada!
       const newLives = lives - 1;
       setLives(newLives);
       setCombo(0);
 
       if (newLives <= 0) {
-        // Esgotou as 3 vidas: Derrota! Abre modal de derrota imediatamente
+        // Esgotou as 3 tentativas da rodada: Derrota na rodada!
         setIsWonRound(false);
         setRoundCompleted(true);
         setIsGameOver(true);
         setShowResultModal(true);
         recordDefeat(animeSlug, 'exclusive');
         updateGlobalStats(false);
+
+        if (isEndless && survivalState.active) {
+          const { state } = recordSurvivalLoss(animeSlug, 'ability');
+          setSurvivalState(state);
+          setSurvivalHealed(false);
+        }
       }
     }
   };
@@ -305,15 +352,24 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     setIsGameOver(true);
     setShowSurrenderConfirm(false);
     recordSurrender(animeSlug, 'exclusive');
+    if (isEndless && survivalState.active) {
+      const { state } = recordSurvivalLoss(animeSlug, 'ability');
+      setSurvivalState(state);
+      setSurvivalHealed(false);
+    }
     setShowResultModal(true);
     updateGlobalStats(false);
   };
 
   const [recentIndices, setRecentIndices] = useState<number[]>([dailyIndex]);
 
-  // Avançar para o Próximo Desafio (apenas no Modo Infinito)
+  // Avançar para o Próximo Desafio (apenas no Modo Infinito / Sobrevivência)
   const handleNextChallenge = () => {
-    if (!isEndless || lives <= 0) return;
+    if (!isEndless) return;
+    setLives(3);
+    setIsGameOver(false);
+    setIsSurrendered(false);
+    setSurvivalHealed(false);
     setRevealedClues({});
     setRoundGuesses([]);
     setResolvedCharacter(null);
@@ -349,6 +405,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     setTotalScore(0);
     setCombo(0);
     setIsGameOver(false);
+    setIsSurrendered(false);
     setRoundCompleted(false);
     setIsWonRound(false);
     setShowResultModal(false);
@@ -358,6 +415,57 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     setFeedbackStatus('idle');
     setFeedbackDetails('');
     setCurrentIndex(Math.floor(Math.random() * challenges.length));
+  };
+
+  const handleToggleSurvival = (active: boolean) => {
+    const next = toggleSurvivalMode(animeSlug, 'ability', active);
+    setSurvivalState(next);
+    setSurvivalHealed(false);
+    if (active) {
+      handleRestartEndless();
+    }
+  };
+
+  const handleRestartSurvival = () => {
+    const next = resetSurvivalRun(animeSlug, 'ability');
+    setSurvivalState(next);
+    setSurvivalHealed(false);
+    handleRestartEndless();
+  };
+
+  const handleChallengeFriend = () => {
+    const url = encodeFriendChallengeUrl({
+      a: animeSlug,
+      m: 'ability',
+      t: currentIndex,
+      cid: currentChallenge?.id,
+    });
+    const text = `⚔️ Desafio 1v1 no AnimeDLE (${animeTitle} - Modo Exclusivo)!\nJogue exatamente o mesmo desafio exclusivo que eu:\n${url}`;
+    navigator.clipboard.writeText(text);
+  };
+
+  const handleSendRevenge = () => {
+    onClearFriendChallenge?.();
+    const nextIdx = Math.floor(Math.random() * Math.max(1, challenges.length));
+    const nextCh = challenges[nextIdx];
+    setLives(3);
+    setIsGameOver(false);
+    setIsSurrendered(false);
+    setRoundCompleted(false);
+    setIsWonRound(false);
+    setShowResultModal(false);
+    setRevealedClues({});
+    setRoundGuesses([]);
+    setCurrentIndex(nextIdx);
+
+    const url = encodeFriendChallengeUrl({
+      a: animeSlug,
+      m: 'ability',
+      t: nextIdx,
+      cid: nextCh?.id,
+    });
+    const text = `🔥 Revanche no AnimeDLE (${animeTitle} - Modo Exclusivo)!\nQuero ver você acertar este novo desafio:\n${url}`;
+    navigator.clipboard.writeText(text);
   };
 
   // Enviar relato para Firebase Realtime Database
@@ -433,58 +541,47 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
 
   return (
     <div className="max-w-3xl mx-auto my-6 px-3">
-      {/* 1. Header com Alternador Diário / Infinito & Indicador de Vidas e Pontos */}
-      <div className="bg-[#0d1426] border border-[#202b43] rounded-2xl p-4 mb-5 shadow-lg flex flex-col sm:flex-row items-center justify-between gap-3">
-        {/* Toggle Diário / Infinito */}
-        <div className="flex items-center gap-1.5 p-1 bg-[#111a2d] rounded-xl border border-[#202b43]">
-          <button
-            onClick={() => setIsEndless(false)}
-            className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              !isEndless
-                ? 'bg-rose-600 text-white shadow-md'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            🗓️ Desafio Diário
-          </button>
-          <button
-            onClick={() => setIsEndless(true)}
-            className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              isEndless
-                ? 'bg-indigo-600 text-white shadow-md'
-                : 'text-slate-400 hover:text-white'
-            }`}
-          >
-            ⚡ Modo Infinito
-          </button>
+      {/* 1. Header Padronizado com Diário / Infinito / Sobrevivência (E2) e Desafiar Amigo (F2) */}
+      <ModeHeaderCard
+        title={currentChallenge?.badgeTitle || 'Modo Exclusivo'}
+        description="Adivinhe o personagem através do seu poder, técnica ou característica única com 3 chances na rodada!"
+        icon={<Zap size={20} />}
+        themeColor={themeColor}
+        isEndless={isEndless}
+        onToggleEndless={(val) => setIsEndless(val)}
+        survivalState={survivalState}
+        onToggleSurvival={handleToggleSurvival}
+        healedBanner={survivalHealed}
+        onChallengeFriend={handleChallengeFriend}
+        activeChallenge={initialFriendChallenge?.m === 'ability' ? initialFriendChallenge : null}
+        onClearChallenge={onClearFriendChallenge}
+      />
+
+      {/* Sub-barra de Tentativas da Rodada (3 Chances) & Pontuação da Rodada */}
+      <div className="max-w-2xl mx-auto mb-5 bg-[#0d1426] border border-[#202b43] rounded-2xl px-4 py-2.5 shadow-md flex items-center justify-between gap-3">
+        <div className="flex items-center gap-1.5 bg-[#111a2d] px-3 py-1.5 rounded-xl border border-[#202b43]">
+          <span className="text-[10px] uppercase font-black text-slate-400 mr-1">Chances na Rodada:</span>
+          {[0, 1, 2].map((i) => (
+            <Heart
+              key={i}
+              size={16}
+              className={
+                i < lives
+                  ? 'text-rose-500 fill-rose-500 animate-pulse'
+                  : 'text-slate-700 fill-slate-800'
+              }
+            />
+          ))}
         </div>
 
-        {/* Status: 3 Vidas (1 erro = -1 vida) & Pontos da Rodada em Tempo Real */}
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-1.5 bg-[#111a2d] px-3 py-1.5 rounded-xl border border-[#202b43]">
-            <span className="text-[10px] uppercase font-black text-slate-400 mr-1">Vidas:</span>
-            {[0, 1, 2].map((i) => (
-              <Heart
-                key={i}
-                size={18}
-                className={
-                  i < lives
-                    ? 'text-rose-500 fill-rose-500 animate-pulse'
-                    : 'text-slate-700 fill-slate-800'
-                }
-              />
-            ))}
-          </div>
-
-          <div className="flex items-center gap-2 bg-[#111a2d] px-3 py-1.5 rounded-xl border border-[#202b43]">
-            <span className="text-[10px] uppercase font-bold text-slate-400">Valendo:</span>
-            <span className="text-xs font-black text-amber-400 transition-all">{roundBaseScore} pts</span>
-            {combo > 1 && (
-              <span className="flex items-center gap-0.5 text-[10px] font-black bg-amber-500/20 text-amber-400 px-1.5 py-0.5 rounded border border-amber-500/40">
-                <Flame size={11} /> x{combo}
-              </span>
-            )}
-          </div>
+        <div className="flex items-center gap-2 bg-[#111a2d] px-3 py-1.5 rounded-xl border border-[#202b43]">
+          <span className="text-[10px] uppercase font-bold text-slate-400">Valendo:</span>
+          <span className="text-xs font-black text-amber-400 transition-all">{roundBaseScore} pts</span>
+          {combo > 1 && (
+            <span className="flex items-center gap-0.5 text-[10px] font-black bg-amber-500/20 text-amber-400 px-1.5 py-0.5 rounded border border-amber-500/40">
+              <Flame size={11} /> x{combo}
+            </span>
+          )}
         </div>
       </div>
 
@@ -707,16 +804,32 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
           onClose={() => setShowResultModal(false)}
           onNext={
             isEndless
-              ? isGameOver
+              ? survivalState.active
+                ? survivalState.isGameOver
+                  ? undefined
+                  : handleNextChallenge
+                : isGameOver
                 ? handleRestartEndless
                 : handleNextChallenge
               : undefined
           }
-          nextButtonLabel={isGameOver ? 'Tentar Novamente' : 'Próximo Desafio'}
+          nextButtonLabel={isGameOver && !survivalState.active ? 'Tentar Novamente' : 'Próximo Desafio'}
           themeColor={themeColor}
           animeTitle={animeTitle}
           animeSlug={animeSlug}
           currentMode="exclusive"
+          isEndless={isEndless}
+          survivalState={survivalState}
+          survivalHealed={survivalHealed}
+          onRestartSurvival={handleRestartSurvival}
+          friendChallenge={initialFriendChallenge?.m === 'ability' ? initialFriendChallenge : null}
+          challengeTargetPayload={{
+            a: animeSlug,
+            m: 'ability',
+            t: currentIndex,
+            cid: currentChallenge?.id,
+          }}
+          onSendRevenge={handleSendRevenge}
           customSubtitle={
             isWonRound
               ? `✓ Acertou com ${lives}/3 vidas restantes! (+${roundBaseScore} pts)`
