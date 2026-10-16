@@ -20,48 +20,157 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
 
   // Play / Pausa e Tela Cheia (Categoria 5.1)
   const [isPaused, setIsPaused] = useState<boolean>(false);
-  const [pausedFrameUrl, setPausedFrameUrl] = useState<string | null>(null);
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
+  const [useFallbackImg, setUseFallbackImg] = useState<boolean>(false);
 
   const containerRef = useRef<HTMLDivElement>(null);
-  const imgRef = useRef<HTMLImageElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const isPausedRef = useRef<boolean>(false);
+  const frameIndexRef = useRef<number>(0);
+  const timerRef = useRef<number | null>(null);
+  const decoderRef = useRef<any>(null);
 
-  // Carregamento via Blob URL em memória para ocultar o nome do arquivo/personagem no Inspecionar Elementos (DevTools)
+  // Carregamento via Blob URL (fallback caso ImageDecoder não esteja disponível)
   const [blobUrl, setBlobUrl] = useState<string>('');
 
+  // Sincroniza ref de pausa com o estado
+  useEffect(() => {
+    isPausedRef.current = isPaused;
+  }, [isPaused]);
+
+  // Sempre que mudar de desafio, reinicia estados de pausa, cor e frame
+  useEffect(() => {
+    setIsColorEnabled(false);
+    setIsPaused(false);
+    isPausedRef.current = false;
+    frameIndexRef.current = 0;
+  }, [challenge.id]);
+
+  // Decodificação frame a frame via ImageDecoder para pausar exatamente no frame atual sem voltar ao início
   useEffect(() => {
     let active = true;
     let currentObjectUrl = '';
 
+    if (timerRef.current) {
+      window.clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+    if (decoderRef.current) {
+      try {
+        decoderRef.current.close();
+      } catch {}
+      decoderRef.current = null;
+    }
+
+    frameIndexRef.current = 0;
+
+    const renderLoop = async () => {
+      if (!active || isPausedRef.current || !decoderRef.current) return;
+      const decoder = decoderRef.current;
+      try {
+        const track = decoder.tracks.selectedTrack;
+        const frameCount = track?.frameCount || 1;
+        const currentIdx = frameIndexRef.current % Math.max(1, frameCount);
+
+        const result = await decoder.decode({ frameIndex: currentIdx });
+        if (!active) {
+          result.image.close();
+          return;
+        }
+
+        const canvas = canvasRef.current;
+        if (canvas) {
+          const w = result.image.displayWidth || result.image.codedWidth || 640;
+          const h = result.image.displayHeight || result.image.codedHeight || 360;
+          if (canvas.width !== w || canvas.height !== h) {
+            canvas.width = w;
+            canvas.height = h;
+          }
+          const ctx = canvas.getContext('2d');
+          if (ctx) {
+            ctx.clearRect(0, 0, w, h);
+            ctx.drawImage(result.image, 0, 0, w, h);
+          }
+        }
+
+        // Duração em microssegundos no WebCodecs ImageDecoder -> converte para ms
+        const durationMs = result.image.duration ? Math.max(16, result.image.duration / 1000) : 42;
+        result.image.close();
+
+        if (!active || isPausedRef.current) return;
+
+        frameIndexRef.current = (currentIdx + 1) % Math.max(1, frameCount);
+        timerRef.current = window.setTimeout(renderLoop, durationMs);
+      } catch {
+        // Se atingir o fim do stream antes de saber o frameCount, reinicia no frame 0
+        if (active && !isPausedRef.current && frameIndexRef.current > 0) {
+          frameIndexRef.current = 0;
+          timerRef.current = window.setTimeout(renderLoop, 40);
+        }
+      }
+    };
+
+    (containerRef.current as any)?. setAttribute?.('data-ready', 'true');
+    (window as any).__resumeSceneLoop = renderLoop;
+
     fetch(challenge.videoUrl)
       .then((res) => {
         if (!res.ok) throw new Error('Network error');
-        return res.blob();
+        return res.arrayBuffer();
       })
-      .then((blob) => {
+      .then(async (buffer) => {
         if (!active) return;
+
+        if ('ImageDecoder' in window) {
+          try {
+            const ImageDecoderClass = (window as any).ImageDecoder;
+            const decoder = new ImageDecoderClass({
+              data: buffer,
+              type: 'image/webp',
+            });
+            await decoder.tracks.ready;
+            if (!active) {
+              decoder.close();
+              return;
+            }
+            decoderRef.current = decoder;
+            setUseFallbackImg(false);
+            renderLoop();
+            return;
+          } catch {
+            // Fallback para img se ImageDecoder falhar
+          }
+        }
+
+        const blob = new Blob([buffer], { type: 'image/webp' });
         currentObjectUrl = URL.createObjectURL(blob);
         setBlobUrl(currentObjectUrl);
+        setUseFallbackImg(true);
       })
       .catch(() => {
-        if (active) setBlobUrl(challenge.videoUrl);
+        if (active) {
+          setBlobUrl(challenge.videoUrl);
+          setUseFallbackImg(true);
+        }
       });
 
     return () => {
       active = false;
+      if (timerRef.current) {
+        window.clearTimeout(timerRef.current);
+        timerRef.current = null;
+      }
+      if (decoderRef.current) {
+        try {
+          decoderRef.current.close();
+        } catch {}
+        decoderRef.current = null;
+      }
       if (currentObjectUrl) {
         URL.revokeObjectURL(currentObjectUrl);
       }
     };
   }, [challenge.videoUrl]);
-
-  // Sempre que mudar de desafio, reinicia estados de pausa, cor e tela cheia
-  useEffect(() => {
-    setIsColorEnabled(false);
-    setIsPaused(false);
-    setPausedFrameUrl(null);
-  }, [challenge.id]);
 
   // Sincroniza estado de tela cheia do navegador
   useEffect(() => {
@@ -84,27 +193,20 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
     });
   };
 
-  // 5.1 - Controle de Pausar e Retomar a animação
+  // 5.1 - Controle de Pausar e Retomar a animação exatamente no frame atual
   const handleTogglePause = () => {
     if (isPaused) {
-      setPausedFrameUrl(null);
+      isPausedRef.current = false;
       setIsPaused(false);
+      const resumeFn = (window as any).__resumeSceneLoop;
+      if (typeof resumeFn === 'function') {
+        resumeFn();
+      }
     } else {
-      const img = imgRef.current;
-      const canvas = canvasRef.current;
-      if (img && canvas) {
-        canvas.width = img.naturalWidth || img.clientWidth || 480;
-        canvas.height = img.naturalHeight || img.clientHeight || 270;
-        const ctx = canvas.getContext('2d');
-        if (ctx) {
-          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-          try {
-            const dataUrl = canvas.toDataURL('image/png');
-            setPausedFrameUrl(dataUrl);
-          } catch (e) {
-            // Em caso de restrição de canvas com CORS, mantém isPaused ativo
-          }
-        }
+      isPausedRef.current = true;
+      if (timerRef.current) {
+        window.clearTimeout(timerRef.current);
+        timerRef.current = null;
       }
       setIsPaused(true);
     }
@@ -206,22 +308,32 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
         data-debug-character-id={challenge.characterId}
         data-debug-scene={challenge.techniqueOrSceneName}
       >
-        {/* Elemento de Imagem Animada ou Frame Pausado */}
-        <img
-          ref={imgRef}
-          src={isPaused && pausedFrameUrl ? pausedFrameUrl : (blobUrl || challenge.videoUrl)}
-          alt={`Cena: ${challenge.characterName}`}
-          data-character-name={challenge.characterName}
-          className="w-full h-full object-cover transition-all duration-500 pointer-events-none"
+        {/* Renderização em Canvas Frame-a-Frame (permite pausar exatamente no frame atual!) */}
+        <canvas
+          ref={canvasRef}
+          className={`w-full h-full object-cover transition-all duration-500 pointer-events-none ${
+            useFallbackImg ? 'hidden' : 'block'
+          }`}
           style={{
             filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,
           }}
           onContextMenu={(e) => e.preventDefault()}
-          draggable={false}
         />
 
-        {/* Canvas invisível para congelamento de frame no Play/Pausa */}
-        <canvas ref={canvasRef} className="hidden" />
+        {/* Fallback em img apenas para navegadores sem suporte a ImageDecoder */}
+        {useFallbackImg && (
+          <img
+            src={blobUrl || challenge.videoUrl}
+            alt={`Cena: ${challenge.characterName}`}
+            data-character-name={challenge.characterName}
+            className="w-full h-full object-cover transition-all duration-500 pointer-events-none"
+            style={{
+              filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,
+            }}
+            onContextMenu={(e) => e.preventDefault()}
+            draggable={false}
+          />
+        )}
 
         {/* Badge discreto de "Pausado" quando a cena está congelada */}
         {isPaused && (

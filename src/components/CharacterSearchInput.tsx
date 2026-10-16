@@ -198,15 +198,20 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
                 ref={(el) => { itemRefs.current[idx] = el; }}
                 onClick={() => handleSelect(character)}
                 onMouseEnter={() => setSelectedIndex(idx)}
-                className={`w-full flex items-center gap-3 p-3 text-left transition-all group ${
+                onMouseMove={() => {
+                  if (selectedIndex !== idx) setSelectedIndex(idx);
+                }}
+                className={`w-full flex items-center gap-3 p-3 text-left transition-all group border-l-4 ${
                   isHighlighted
-                    ? 'bg-[#16233d] border-l-4 border-l-amber-400 shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
-                    : 'hover:bg-[#111a2d] border-l-4 border-l-transparent'
+                    ? 'bg-[#16233d] border-l-amber-400 shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
+                    : 'border-l-transparent hover:bg-[#16233d] hover:border-l-amber-400 hover:shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
                 }`}
               >
                 <div
                   className={`w-10 h-10 rounded-full bg-[#111a2d] border overflow-hidden flex-shrink-0 flex items-center justify-center shadow-sm transition-transform ${
-                    isHighlighted ? 'border-amber-400/80 scale-105' : 'border-[#202b43]'
+                    isHighlighted
+                      ? 'border-amber-400/80 scale-105'
+                      : 'border-[#202b43] group-hover:border-amber-400/80 group-hover:scale-105'
                   }`}
                 >
                   {character.avatar ? (
@@ -218,7 +223,7 @@ export const CharacterSearchInput: React.FC<CharacterSearchInputProps> = ({
                 <div className="flex-1 min-w-0">
                   <p
                     className={`text-sm font-bold transition-colors truncate ${
-                      isHighlighted ? 'text-amber-300' : 'text-[#F5F7FF]'
+                      isHighlighted ? 'text-amber-300' : 'text-[#F5F7FF] group-hover:text-amber-300'
                     }`}
                   >
                     {character.name}

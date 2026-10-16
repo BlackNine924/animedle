@@ -1827,7 +1827,7 @@
     "species": "Humano",
     "affiliation": [
       "Colégio U.A. - Turma 1-B",
-      "Pró-Heróis"
+      "Heróis Profissionais"
     ],
     "rank": "Professor Conselheiro da Turma 1-B",
     "styleOrPower": "Quirk: Bloodcurdle / Manipulação e Endurecimento de Próprio Sangue",
@@ -1849,8 +1849,8 @@
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
-      "Colégio U.A.",
-      "Pró-Heróis"
+      "U.A. High School",
+      "Heróis Profissionais"
     ],
     "rank": "Conselheiro de Orientação Estudantil",
     "styleOrPower": "Quirk: Dog (Sentidos Caninos Hiper-Apurados & Fúria Selvagem)",
@@ -1872,12 +1872,12 @@
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
-      "Colégio U.A.",
-      "Pró-Heróis"
+      "U.A. High School",
+      "Heróis Profissionais"
     ],
     "rank": "Professor de Matemática da U.A.",
     "styleOrPower": "Quirk: Clones de Ectoplasma Sólido (Até 30 Clones Simultâneos)",
-    "debutArc": "Arco do Ataque à USJ",
+    "debutArc": "Arco do Ataque à U.S.J.",
     "status": "Vivo",
     "quote": "Trinta de mim ao mesmo tempo é o teste padrão para avaliar o trabalho em equipe dos estudantes.",
     "techniques": [
@@ -1900,7 +1900,7 @@
     ],
     "rank": "Protegida de Deku e Mirio",
     "styleOrPower": "Quirk: Rewind (Rebobinar Estado Biológico no Tempo)",
-    "debutArc": "Arco do Estágio & Shie Hassaikai",
+    "debutArc": "Arco do Shie Hassaikai (Overhaul)",
     "status": "Viva",
     "quote": "Deku-san... segure a minha mão! Eu vou rebobinar os seus ferimentos para que você possa lutar a 100%!",
     "techniques": [
@@ -1923,7 +1923,7 @@
     ],
     "rank": "Menino Salvo por Deku",
     "styleOrPower": "Quirk: Jatos de Água das Palmas das Mãos",
-    "debutArc": "Arco do Acampamento de Treinamento",
+    "debutArc": "Arco dos Exames Finais & Acampamento na Floresta",
     "status": "Vivo",
     "quote": "Eu odiava os heróis porque meus pais morreram em serviço... Mas o Deku quase perdeu a vida para me salvar.",
     "techniques": [
@@ -1941,11 +1941,11 @@
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
-      "Pró-Heróis"
+      "Heróis Profissionais"
     ],
     "rank": "Pró-Herói de Suporte Tático",
     "styleOrPower": "Quirk: Lock Down (Fixar Objetos Inertes no Espaço Tridimensional)",
-    "debutArc": "Arco do Estágio & Shie Hassaikai",
+    "debutArc": "Arco do Shie Hassaikai (Overhaul)",
     "status": "Vivo",
     "quote": "Se eu fixar esse bloco no ar, nem dez homens conseguem movê-lo um centímetro!",
     "techniques": [

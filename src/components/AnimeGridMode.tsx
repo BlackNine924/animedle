@@ -1,8 +1,10 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Character } from '../types/anime';
 import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, LayoutGrid, Flag } from 'lucide-react';
 import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender, updateGlobalStatsOnOutcome } from '../data/achievements';
+import { getDailyDateString } from '../utils/dailySeed';
 import { VictoryModal } from './VictoryModal';
+import { filterAndRankCharacters } from '../utils/characterSearch';
 
 interface GridCriterion {
   id: string;
@@ -20,6 +22,7 @@ interface AnimeGridModeProps {
 
 interface GridBoardProps {
   gridSeed: string;
+  legacyGridSeed?: string;
   isEndless: boolean;
   gridDefinition: { rows: GridCriterion[]; cols: GridCriterion[] };
   characters: Character[];
@@ -31,6 +34,7 @@ interface GridBoardProps {
 
 const GridBoard: React.FC<GridBoardProps> = ({
   gridSeed,
+  legacyGridSeed,
   isEndless,
   gridDefinition,
   characters,
@@ -39,9 +43,9 @@ const GridBoard: React.FC<GridBoardProps> = ({
   themeColor,
   onResetForInfinite,
 }) => {
-  // Estado isolado da grade por seed
+  // Estado isolado da grade por seed (com fallback para seed UTC legado se necessário)
   const [cells, setCells] = useState<(Character | null)[]>(() => {
-    const saved = localStorage.getItem(`animedle_grid_${gridSeed}`);
+    const saved = localStorage.getItem(`animedle_grid_${gridSeed}`) || (legacyGridSeed ? localStorage.getItem(`animedle_grid_${legacyGridSeed}`) : null);
     if (saved) {
       try {
         return JSON.parse(saved);
@@ -51,21 +55,26 @@ const GridBoard: React.FC<GridBoardProps> = ({
   });
 
   const [guessesLeft, setGuessesLeft] = useState<number>(() => {
-    const saved = localStorage.getItem(`animedle_grid_guesses_${gridSeed}`);
+    const saved = localStorage.getItem(`animedle_grid_guesses_${gridSeed}`) ?? (legacyGridSeed ? localStorage.getItem(`animedle_grid_guesses_${legacyGridSeed}`) : null);
     return saved !== null ? parseInt(saved, 10) : 9;
   });
 
   const [isSurrendered, setIsSurrendered] = useState<boolean>(() => {
-    return localStorage.getItem(`animedle_grid_surrendered_${gridSeed}`) === 'true';
+    return (
+      localStorage.getItem(`animedle_grid_surrendered_${gridSeed}`) === 'true' ||
+      (legacyGridSeed ? localStorage.getItem(`animedle_grid_surrendered_${legacyGridSeed}`) === 'true' : false)
+    );
   });
 
   const [selectedCell, setSelectedCell] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+  const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [showCopied, setShowCopied] = useState(false);
   const [showAnswersModal, setShowAnswersModal] = useState(false);
   const [showSurrenderConfirm, setShowSurrenderConfirm] = useState(false);
   const [showVictoryModal, setShowVictoryModal] = useState(false);
+  const listRef = useRef<HTMLDivElement>(null);
 
   // Salva no localStorage sempre que células ou tentativas mudam
   useEffect(() => {
@@ -89,21 +98,33 @@ const GridBoard: React.FC<GridBoardProps> = ({
     return new Set(cells.filter(Boolean).map((c) => c!.id));
   }, [cells]);
 
-  // Lista de personagens filtrada pelo input de busca (mostra todos ordenados quando vazio)
-  const filteredCandidates = useMemo(() => {
-    const q = searchQuery.toLowerCase().trim();
+  // Lista de personagens filtrada com suporte a apelidos e tolerância a erros de digitação
+  const filteredCandidates = useMemo<Character[]>(() => {
+    const q = searchQuery.trim();
     if (!q) {
       return [...characters].sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
     }
-    return characters
-      .filter((c) => c.name.toLowerCase().includes(q))
-      .sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+    return filterAndRankCharacters(characters, q);
   }, [characters, searchQuery]);
+
+  useEffect(() => {
+    setSelectedIndex(0);
+  }, [searchQuery, selectedCell]);
+
+  useEffect(() => {
+    if (listRef.current && selectedCell !== null) {
+      const activeEl = listRef.current.children[selectedIndex] as HTMLElement | undefined;
+      if (activeEl) {
+        activeEl.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      }
+    }
+  }, [selectedIndex, selectedCell]);
 
   const handleCellClick = (index: number) => {
     if (cells[index] !== null || guessesLeft <= 0) return;
     setSelectedCell(index);
     setSearchQuery('');
+    setSelectedIndex(0);
     setErrorMessage(null);
   };
 
@@ -594,38 +615,83 @@ const GridBoard: React.FC<GridBoardProps> = ({
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={(e) => {
+                  if (filteredCandidates.length === 0) return;
+                  if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    setSelectedIndex((prev) => (prev + 1) % filteredCandidates.length);
+                  } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    setSelectedIndex((prev) => (prev - 1 + filteredCandidates.length) % filteredCandidates.length);
+                  } else if (e.key === 'Enter') {
+                    e.preventDefault();
+                    const picked = filteredCandidates[selectedIndex] || filteredCandidates[0];
+                    if (picked && !usedCharacterIds.has(picked.id)) {
+                      handleSelectCharacter(picked);
+                    }
+                  } else if (e.key === 'Escape') {
+                    setSelectedCell(null);
+                  }
+                }}
                 placeholder={`Buscar personagem em ${animeTitle}...`}
                 autoFocus
-                className="w-full pl-10 pr-4 py-3 rounded-xl bg-[#141e34] border border-[#22304d] text-white text-xs sm:text-sm placeholder-slate-500 focus:outline-none focus:border-amber-400 shadow-inner"
+                className="w-full pl-10 pr-10 py-3 rounded-xl bg-[#141e34] border border-[#22304d] text-white text-xs sm:text-sm placeholder-slate-500 focus:outline-none focus:border-amber-400 shadow-inner"
               />
+              {searchQuery.length > 0 && (
+                <button
+                  type="button"
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 p-1 rounded-full text-slate-400 hover:text-white hover:bg-slate-700/60 transition-colors"
+                  title="Limpar campo"
+                >
+                  <X size={15} />
+                </button>
+              )}
             </div>
 
             {/* Lista Scrollável Completa de Personagens */}
-            <div className="max-h-72 overflow-y-auto space-y-1.5 pr-1 custom-scrollbar">
+            <div ref={listRef} className="max-h-72 overflow-y-auto space-y-1.5 pr-1 custom-scrollbar">
               {filteredCandidates.length > 0 ? (
-                filteredCandidates.map((c) => {
+                filteredCandidates.map((c, idx) => {
                   const isUsed = usedCharacterIds.has(c.id);
+                  const isSelected = idx === selectedIndex && !isUsed;
                   return (
                     <button
                       key={c.id}
                       onClick={() => handleSelectCharacter(c)}
+                      onMouseEnter={() => {
+                        if (!isUsed) setSelectedIndex(idx);
+                      }}
+                      onMouseMove={() => {
+                        if (!isUsed && selectedIndex !== idx) setSelectedIndex(idx);
+                      }}
                       disabled={isUsed}
-                      className={`w-full flex items-center justify-between p-2.5 rounded-xl transition-all ${
+                      className={`group w-full flex items-center justify-between p-2.5 rounded-xl transition-all border-l-4 ${
                         isUsed
-                          ? 'opacity-40 bg-black/20 cursor-not-allowed'
-                          : 'bg-[#121b30] hover:bg-[#1a2644] text-white hover:border-slate-500 border border-[#1e2a42]'
+                          ? 'opacity-40 bg-black/20 border-l-transparent cursor-not-allowed'
+                          : isSelected
+                          ? 'bg-[#16233d] border-l-amber-400 text-white shadow-[inset_0_0_12px_rgba(245,158,11,0.15)]'
+                          : 'bg-[#121b30] border-l-transparent hover:bg-[#16233d] hover:border-l-amber-400 hover:shadow-[inset_0_0_12px_rgba(245,158,11,0.15)] text-white border border-[#1e2a42]'
                       }`}
                     >
                       <div className="flex items-center gap-3">
                         <img
                           src={c.avatar}
                           alt={c.name}
-                          className="w-9 h-9 rounded-full object-cover border border-slate-600 shadow-sm"
+                          className={`w-9 h-9 rounded-full object-cover border transition-colors shadow-sm ${
+                            isSelected ? 'border-amber-400' : 'border-slate-600 group-hover:border-amber-400'
+                          }`}
                           onError={(e) => {
                             (e.target as HTMLElement).style.display = 'none';
                           }}
                         />
-                        <span className="text-xs sm:text-sm font-bold text-left">{c.name}</span>
+                        <span
+                          className={`text-xs sm:text-sm font-bold text-left transition-colors ${
+                            isSelected ? 'text-amber-300' : 'text-white group-hover:text-amber-300'
+                          }`}
+                        >
+                          {c.name}
+                        </span>
                       </div>
                       {isUsed && (
                         <span className="text-[9px] uppercase font-bold text-slate-500 bg-black/30 px-2 py-0.5 rounded-md">
@@ -647,6 +713,165 @@ const GridBoard: React.FC<GridBoardProps> = ({
     </>
   );
 };
+
+// Mapeamento de grupos/arcos equivalentes ou pareados para que nenhum personagem legítimo seja rejeitado na Grade 3x3
+const PAIRED_ARC_GROUPS: Record<string, string[][]> = {
+  naruto: [
+    ['Introdução', 'País das Ondas'],
+    ['Exame Chūnin', 'Esmagamento de Konoha'],
+    ['Busca por Tsunade', 'Missão de Resgate de Sasuke'],
+    ['Missão de Reconhecimento da Ponte Tenchi', 'Missão de Supressão da Akatsuki'],
+    ['Missão de Perseguição a Itachi', 'Conto de Jiraiya, o Destemido', 'Batalha Fatídica Entre Irmãos', 'Ataque de Pain'],
+    [
+      'Quarta Guerra Mundial Ninja: Contagem Regressiva',
+      'Quarta Guerra Mundial Ninja: Confronto',
+      'Quarta Guerra Mundial Ninja: Clímax',
+      'Nascimento do Jinchūriki do Dez-Caudas',
+      'Ataque de Kaguya Ōtsutsuki',
+    ],
+  ],
+  'one-piece': [
+    ['Romance Dawn', 'Orange Town'],
+    ['Reverse Mountain', 'Whiskey Peak', 'Little Garden', 'Ilha de Drum', 'Alabasta'],
+    ['Jaya', 'Skypiea'],
+    ['Long Ring Long Land', 'Water 7', 'Enies Lobby', 'Pós-Enies Lobby'],
+    ['Arquipélago de Sabaody', 'Amazon Lily', 'Impel Down', 'Marineford'],
+    ['Ilha dos Tritões', 'Punk Hazard', 'Dressrosa'],
+    ['Zou', 'Whole Cake Island', 'Levely'],
+  ],
+  'demon-slayer': [
+    ['Seleção Final', 'Primeira Missão', 'Asakusa', 'Casa do Tambor', 'Montanha Natagumo', 'Treinamento de Reabilitação'],
+    ['Trem Infinito', 'Distrito do Entretenimento'],
+    ['Vila dos Ferreiros', 'Treinamento dos Hashiras', 'Castelo Infinito'],
+  ],
+  'jujutsu-kaisen': [
+    ['Jujutsu Kaisen 0 (Filme)', 'Introdução / Útero Amaldiçoado', 'Treinamento de Yuji', 'Vs. Mahito', 'Intercâmbio com Kyoto', 'Inventário Oculto / Morte Prematura'],
+    ['Incidente de Shibuya', 'Extermínio de Itadori', 'Preparação Perfeita', 'Jogo do Abate (Culling Game)'],
+  ],
+  'attack-on-titan': [
+    ['Queda de Shiganshina', '104º Corpo de Cadetes', 'Batalha de Trost'],
+    ['Titã Fêmea', 'Fúria dos Titãs (Castelo Utgard)'],
+    ['Governo Real (Uprising)', 'Retorno a Shiganshina'],
+    ['Marley', 'Guerra por Paradis', 'O Estrondo (Final)'],
+  ],
+  'my-hero-academia': [
+    ['Arco do Exame de Admissão', 'Arco do Teste de Apreensão de Individualidades', 'Arco do Ataque à U.S.J.', 'Arco do Festival Esportivo da U.A.'],
+    ['Arco Vs. Assassino de Heróis (Stain)', 'Arco dos Exames Finais & Acampamento na Floresta', 'Arco do Incidente de Kamino'],
+    ['Arco do Exame de Licença Provisória', 'Arco do Shie Hassaikai (Overhaul)'],
+    ['Arco da Guerra de Libertação Paranormal', 'Arco do Herói Negro (Dark Deku)', 'Arco da Guerra Final'],
+  ],
+  bleach: [
+    ['Substituto de Shinigami', 'Soul Society'],
+    ['Arrancar', 'Hueco Mundo', 'Batalha de Karakura'],
+  ],
+  'dragon-ball': [
+    ['Saga Pilaf (DB Clássico)', '21º ao 23º Torneio (DB Clássico)'],
+    ['Saga Saiyajins', 'Saga Freeza (Namekusei)'],
+    ['Saga Androides e Cell', 'Saga Majin Boo'],
+  ],
+};
+
+// Extrai todas as afiliações/organizações normalizadas de um personagem (incluindo grupos-pai sem parênteses ou prefixo Ex-)
+function extractCharacterAffiliations(c: Character): string[] {
+  const rawList: string[] = [];
+  const rawAff = (c as unknown as Record<string, unknown>).affiliation;
+  if (Array.isArray(rawAff)) {
+    rawAff.forEach((v) => {
+      if (typeof v === 'string') rawList.push(v);
+    });
+  } else if (typeof rawAff === 'string' && rawAff.trim()) {
+    rawList.push(rawAff.trim());
+  }
+  if (c.clan && typeof c.clan === 'string' && !/^(nenhum|desconhecido|sem clã)$/i.test(c.clan.trim())) {
+    rawList.push(c.clan.trim().startsWith('Clã ') ? c.clan.trim() : `Clã ${c.clan.trim()}`);
+    rawList.push(c.clan.trim());
+  }
+  if (c.village && typeof c.village === 'string' && !/^(nenhum|nenhuma|desconhecid[oa])$/i.test(c.village.trim())) {
+    rawList.push(c.village.trim());
+  }
+  if (c.school && typeof c.school === 'string' && !/^(nenhum|nenhuma|desconhecid[oa])$/i.test(c.school.trim())) {
+    rawList.push(c.school.trim());
+  }
+  if (c.faction && typeof c.faction === 'string' && !/^(nenhum|nenhuma|desconhecid[oa])$/i.test(c.faction.trim())) {
+    rawList.push(c.faction.trim());
+  }
+  const rawSquad = (c as unknown as Record<string, unknown>).squad;
+  if (typeof rawSquad === 'string' && rawSquad.trim() && !/^(nenhum|nenhuma|desconhecid[oa])$/i.test(rawSquad.trim())) {
+    rawList.push(rawSquad.trim());
+  }
+
+  const expanded = new Set<string>();
+  for (const item of rawList) {
+    if (!item || typeof item !== 'string') continue;
+    const trimmed = item.trim();
+    if (!trimmed || /^(nenhum|nenhuma|desconhecid[oa]|independente|sem afiliação)$/i.test(trimmed)) continue;
+    expanded.add(trimmed);
+
+    // Sem prefixo "Ex-" ou "Antigo "
+    const noEx = trimmed.replace(/^(Ex-|Antig[oa]\s+)/i, '').trim();
+    if (noEx.length > 2) expanded.add(noEx);
+
+    // Se tiver barra " / ", adiciona as partes separadas
+    if (noEx.includes(' / ')) {
+      noEx.split(' / ').forEach((part) => {
+        const p = part.trim();
+        if (p.length > 2) expanded.add(p);
+      });
+    }
+
+    // Se tiver sub-rótulo entre parênteses, ex: "Doze Kizuki (Lua Superior 1)", "Hashira (Água)", "Genei Ryodan (Nº 4)"
+    const parenMatch = noEx.match(/^([^(]+)\(([^)]+)\)/);
+    if (parenMatch) {
+      const baseGroup = parenMatch[1].trim();
+      const innerGroup = parenMatch[2].trim();
+      if (baseGroup.length > 2) expanded.add(baseGroup);
+      if (/^Lua Superior/i.test(innerGroup)) expanded.add('Lua Superior (Doze Kizuki)');
+      if (/^Lua Inferior/i.test(innerGroup)) expanded.add('Lua Inferior (Doze Kizuki)');
+      if (/^Hashira$/i.test(baseGroup)) expanded.add('Esquadrão de Caçadores');
+    }
+
+    // Sinônimos conhecidos entre fichas
+    if (noEx === 'Colégio U.A.' || noEx === 'U.A. High School') {
+      expanded.add('U.A. High School');
+      expanded.add('Colégio U.A.');
+    }
+    if (noEx === 'Pró-Heróis' || noEx === 'Heróis Profissionais') {
+      expanded.add('Heróis Profissionais');
+    }
+  }
+  return Array.from(expanded);
+}
+
+function getCanonicalGroupCriteria(characters: Character[]): string[] {
+  const counts: Record<string, number> = {};
+  for (const c of characters) {
+    const groups = extractCharacterAffiliations(c);
+    for (const g of groups) {
+      // Evita criar critérios ultra-específicos numerados como "Doze Kizuki (Lua Superior 1)" ou "Genei Ryodan (Nº 4)"
+      if (/\((Lua (Superior|Inferior)\s*\d+|N[º°]\s*\d+|\d+ª Divisão)\)/i.test(g)) continue;
+      counts[g] = (counts[g] || 0) + 1;
+    }
+  }
+  return Object.entries(counts)
+    .filter(([, cnt]) => cnt >= 3)
+    .map(([g]) => g);
+}
+
+function matchesArcCriterion(c: Character, targetArc: string, animeSlug: string): boolean {
+  const charArc = (c.debutArc || '').trim();
+  if (!charArc) return false;
+  if (charArc === targetArc) return true;
+
+  const groups = PAIRED_ARC_GROUPS[animeSlug];
+  if (groups) {
+    for (const group of groups) {
+      if (group.includes(targetArc) && group.includes(charArc)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
 
 export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
   characters,
@@ -730,33 +955,26 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       });
     }
 
-    // Afiliações
-    const affMap: Record<string, number> = {};
-    characters.forEach((c) => {
-      if (Array.isArray(c.affiliation)) {
-        c.affiliation.forEach((a) => {
-          if (a && a.length > 2) affMap[a] = (affMap[a] || 0) + 1;
-        });
-      }
-    });
-    Object.entries(affMap).forEach(([aff, count]) => {
-      if (count >= 2) {
-        list.push({
-          id: `aff_${aff}`,
-          label: aff,
-          category: 'Afiliação',
-          test: (c) => Array.isArray(c.affiliation) && c.affiliation.includes(aff),
-        });
-      }
+    // Afiliações / Organizações / Clãs / Vilas unificados com suporte a sub-grupos
+    const canonicalGroups = getCanonicalGroupCriteria(characters);
+    canonicalGroups.forEach((groupLabel) => {
+      list.push({
+        id: `aff_${groupLabel}`,
+        label: groupLabel,
+        category: 'Afiliação / Grupo',
+        test: (c) => extractCharacterAffiliations(c).includes(groupLabel),
+      });
     });
 
     // Tipo de Combate / Atuação
     const combatMap: Record<string, number> = {};
     characters.forEach((c) => {
-      if (c.combatType) combatMap[c.combatType] = (combatMap[c.combatType] || 0) + 1;
+      if (c.combatType && !/^(nenhum|nenhuma|desconhecid[oa])$/i.test(c.combatType.trim())) {
+        combatMap[c.combatType] = (combatMap[c.combatType] || 0) + 1;
+      }
     });
     Object.entries(combatMap).forEach(([ct, count]) => {
-      if (count >= 2) {
+      if (count >= 3) {
         list.push({
           id: `combat_${ct}`,
           label: ct,
@@ -790,7 +1008,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       if (nh) hairMap[nh] = (hairMap[nh] || 0) + 1;
     });
     Object.entries(hairMap).forEach(([hc, count]) => {
-      if (count >= 2) {
+      if (count >= 3) {
         list.push({
           id: `hair_${hc}`,
           label: hc,
@@ -807,7 +1025,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       if (r) roleMap[r] = (roleMap[r] || 0) + 1;
     });
     Object.entries(roleMap).forEach(([r, count]) => {
-      if (count >= 2) {
+      if (count >= 3) {
         list.push({
           id: `role_${r}`,
           label: r,
@@ -823,7 +1041,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       if (c.species) specMap[c.species] = (specMap[c.species] || 0) + 1;
     });
     Object.entries(specMap).forEach(([sp, count]) => {
-      if (count >= 2) {
+      if (count >= 3) {
         list.push({
           id: `spec_${sp}`,
           label: sp,
@@ -849,14 +1067,16 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
 
-    // Estilos de Combate / Poder
+    // Estilos de Combate / Poder (excluindo 'Nenhum' / 'Desconhecido')
     const styleMap: Record<string, number> = {};
     characters.forEach((c) => {
-      const s = c.styleOrPower || c.rcTypeOrQuinque;
-      if (s && s.length > 2) styleMap[s] = (styleMap[s] || 0) + 1;
+      const s = (c.styleOrPower || c.rcTypeOrQuinque || '').trim();
+      if (s && s.length > 2 && !/^(nenhum|nenhuma|desconhecid[oa]|não possui|sem poder)$/i.test(s)) {
+        styleMap[s] = (styleMap[s] || 0) + 1;
+      }
     });
     Object.entries(styleMap).forEach(([st, count]) => {
-      if (count >= 2) {
+      if (count >= 3) {
         list.push({
           id: `style_${st}`,
           label: st,
@@ -866,7 +1086,75 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
 
-    // Arco de Estreia
+    // Critérios específicos ricos de One Piece (Akuma no Mi e Haki)
+    if (animeSlug === 'one-piece') {
+      ['Paramecia', 'Zoan', 'Logia'].forEach((ft) => {
+        const count = characters.filter((c) => (c.fruitType || '').toLowerCase().includes(ft.toLowerCase())).length;
+        if (count >= 3) {
+          list.push({
+            id: `fruit_${ft}`,
+            label: `Akuma no Mi: ${ft}`,
+            category: 'Akuma no Mi',
+            test: (c) => (c.fruitType || '').toLowerCase().includes(ft.toLowerCase()),
+          });
+        }
+      });
+      ['Armamento', 'Observação', 'Rei'].forEach((hk) => {
+        const count = characters.filter((c) => Array.isArray(c.haki) && c.haki.includes(hk)).length;
+        if (count >= 3) {
+          list.push({
+            id: `haki_${hk}`,
+            label: `Haki: ${hk}`,
+            category: 'Haki',
+            test: (c) => Array.isArray(c.haki) && c.haki.includes(hk),
+          });
+        }
+      });
+    }
+
+    // Critérios específicos ricos de Naruto (Transformação da Natureza e Kekkei Genkai)
+    if (animeSlug === 'naruto') {
+      const natureMap: Record<string, number> = {};
+      characters.forEach((c) => {
+        if (Array.isArray(c.natureTypes)) {
+          c.natureTypes.forEach((nt) => {
+            if (nt && !/^(nenhum|desconhecido)$/i.test(nt)) natureMap[nt] = (natureMap[nt] || 0) + 1;
+          });
+        }
+      });
+      Object.entries(natureMap).forEach(([nt, count]) => {
+        if (count >= 4) {
+          list.push({
+            id: `nature_${nt}`,
+            label: nt,
+            category: 'Elemento / Natureza',
+            test: (c) => Array.isArray(c.natureTypes) && c.natureTypes.includes(nt),
+          });
+        }
+      });
+    }
+
+    // Critérios específicos de Hunter x Hunter (Tipo de Nen)
+    if (animeSlug === 'hunter-x-hunter') {
+      const nenMap: Record<string, number> = {};
+      characters.forEach((c) => {
+        if (c.nenType && !/^(nenhum|desconhecido)$/i.test(c.nenType)) {
+          nenMap[c.nenType] = (nenMap[c.nenType] || 0) + 1;
+        }
+      });
+      Object.entries(nenMap).forEach(([nt, count]) => {
+        if (count >= 3) {
+          list.push({
+            id: `nen_${nt}`,
+            label: `Nen: ${nt}`,
+            category: 'Tipo de Nen',
+            test: (c) => c.nenType === nt,
+          });
+        }
+      });
+    }
+
+    // Arco de Estreia (com aceitação inteligente de arcos pareados/sub-arcos equivalentes)
     const arcMap: Record<string, number> = {};
     characters.forEach((c) => {
       if (c.debutArc && c.debutArc.trim().length > 2) {
@@ -875,35 +1163,56 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
     Object.entries(arcMap).forEach(([arc, count]) => {
-      if (count >= 2) {
+      if (count >= 3) {
         list.push({
           id: `arc_${arc}`,
           label: arc,
           category: 'Arco de Estreia',
-          test: (c) => (c.debutArc || '').trim() === arc,
+          test: (c) => matchesArcCriterion(c, arc, animeSlug),
         });
       }
     });
 
     return list;
-  }, [characters]);
+  }, [characters, animeSlug]);
 
-  // 7.2 - Validador rigoroso de solvabilidade: simula todas as 9 casas antes de apresentar a grade
+  // 7.2 - Validador rigoroso de solvabilidade: garante que existam 9 personagens DISTINTOS para preencher as 9 casas
   const isGrid100PercentSolvable = (
     rows: GridCriterion[],
     cols: GridCriterion[]
   ): boolean => {
     if (rows.length !== 3 || cols.length !== 3) return false;
+    const cellCandidates: string[][] = [];
     for (let r = 0; r < 3; r++) {
       for (let c = 0; c < 3; c++) {
         const matches = characters.filter((char) => rows[r].test(char) && cols[c].test(char));
         if (matches.length < 1) {
-          // Se qualquer uma das 9 casas tiver 0 personagens possíveis no banco, a grade é impossível!
           return false;
         }
+        cellCandidates.push(matches.map((m) => m.id));
       }
     }
-    return true;
+
+    // Ordena as células das mais restritas para as menos restritas para backtracking instantâneo
+    const order = [0, 1, 2, 3, 4, 5, 6, 7, 8].sort(
+      (a, b) => cellCandidates[a].length - cellCandidates[b].length
+    );
+    const used = new Set<string>();
+
+    const canAssignAll9 = (idx: number): boolean => {
+      if (idx === 9) return true;
+      const cellIdx = order[idx];
+      for (const charId of cellCandidates[cellIdx]) {
+        if (!used.has(charId)) {
+          used.add(charId);
+          if (canAssignAll9(idx + 1)) return true;
+          used.delete(charId);
+        }
+      }
+      return false;
+    };
+
+    return canAssignAll9(0);
   };
 
   // Função interna para sortear uma combinação candidata de linhas e colunas
@@ -1001,9 +1310,11 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
 
   const [isEndless, setIsEndless] = useState<boolean>(false);
   const [endlessSeed, setEndlessSeed] = useState<number>(1);
-  const todayStr = useMemo(() => new Date().toISOString().slice(0, 10), []);
+  const todayStr = useMemo(() => getDailyDateString(), []);
+  const legacyUtcTodayStr = useMemo(() => new Date().toISOString().slice(0, 10), []);
 
   const gridSeed = isEndless ? `endless_${animeSlug}_${endlessSeed}` : `daily_${animeSlug}_${todayStr}`;
+  const legacyGridSeed = !isEndless && legacyUtcTodayStr !== todayStr ? `daily_${animeSlug}_${legacyUtcTodayStr}` : undefined;
   const gridDefinition = useMemo(() => generateValidGrid(gridSeed), [availableCriteria, gridSeed]);
 
   if (!gridDefinition) {
@@ -1067,6 +1378,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       <GridBoard
         key={gridSeed}
         gridSeed={gridSeed}
+        legacyGridSeed={legacyGridSeed}
         isEndless={isEndless}
         gridDefinition={gridDefinition}
         characters={characters}

@@ -17,37 +17,85 @@ import { SceneGalleryModal } from '../components/SceneGalleryModal';
 // ── Filtros de seção ────────────────────────────────────────────────────
 type SectionToggle = { available: boolean; colecoes: boolean; comingSoon: boolean };
 
-// ── Checagem de conclusão diária do anime ──────────────────────────────
-export const checkIsAnimeCompletedToday = (slug: string, todayStr: string): boolean => {
+// ── Checagem de progresso diário do anime (6 modos por anime) ──────────
+export interface DailyAnimeProgress {
+  completed: number;
+  total: number;
+  remaining: number;
+  isFullyCompleted: boolean;
+}
+
+export const getAnimeDailyProgress = (slug: string, todayStr: string): DailyAnimeProgress => {
+  const total = 6;
+  let completed = 0;
+
   try {
-    const modes = ['classic', 'quote', 'scene', 'wanted', 'pixel', 'audio', 'ability'];
-    for (const m of modes) {
+    // 1 a 4: Modos armazenados em animedle_progress_${slug}_${mode}_${todayStr}
+    const coreModes = ['classic', 'wanted', 'scene', 'zoom'];
+    for (const m of coreModes) {
       const raw = localStorage.getItem(`animedle_progress_${slug}_${m}_${todayStr}`);
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (parsed.isWon) return true;
+        if (parsed?.isWon) completed++;
       }
     }
+
+    // 5: Modo Exclusivo (ability)
+    let exclusiveWon = false;
     const exclRaw = localStorage.getItem(`animedle_${slug}_exclusive_daily_${todayStr}`);
     if (exclRaw) {
       const parsed = JSON.parse(exclRaw);
-      if (parsed.isWon) return true;
+      if (parsed?.won || parsed?.isWon) exclusiveWon = true;
+    }
+    if (!exclusiveWon) {
+      const fallbackAbility = localStorage.getItem(`animedle_progress_${slug}_ability_${todayStr}`);
+      if (fallbackAbility) {
+        const parsed = JSON.parse(fallbackAbility);
+        if (parsed?.isWon) exclusiveWon = true;
+      }
+    }
+    if (exclusiveWon) completed++;
+
+    // 6: Modo Grid 3x3
+    const isoToday = new Date().toISOString().slice(0, 10);
+    const gridRaw =
+      localStorage.getItem(`animedle_grid_daily_${slug}_${todayStr}`) ||
+      localStorage.getItem(`animedle_grid_daily_${slug}_${isoToday}`);
+    if (gridRaw) {
+      const parsed = JSON.parse(gridRaw);
+      if (Array.isArray(parsed) && parsed.length === 9 && parsed.every(Boolean)) {
+        completed++;
+      }
     }
   } catch {}
-  return false;
+
+  const remaining = Math.max(0, total - completed);
+  return {
+    completed,
+    total,
+    remaining,
+    isFullyCompleted: completed >= total,
+  };
+};
+
+// Mantido por compatibilidade caso importado externamente
+export const checkIsAnimeCompletedToday = (slug: string, todayStr: string): boolean => {
+  return getAnimeDailyProgress(slug, todayStr).isFullyCompleted;
 };
 
 // ── Card individual padronizado ─────────────────────────────────────────
 interface AnimeCardProps {
   anime: AnimeEntry;
   onClick: () => void;
-  isCompletedToday?: boolean;
+  dailyProgress?: DailyAnimeProgress;
 }
 
-const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, isCompletedToday = false }) => {
+const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress }) => {
   const cardWebp = `/cards/${anime.slug}.webp`;
   const cardPng = `/cards/${anime.slug}.png`;
   const isComingSoon = !anime.implemented;
+  const isCompletedToday = Boolean(dailyProgress?.isFullyCompleted);
+  const hasPartialProgress = Boolean(dailyProgress && dailyProgress.completed > 0 && !dailyProgress.isFullyCompleted);
 
   return (
     <div
@@ -58,6 +106,8 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, isCompletedToday 
       <div className={`relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 ${
         isCompletedToday
           ? 'ring-2 ring-amber-400/70 shadow-[0_0_20px_rgba(245,158,11,0.25)]'
+          : hasPartialProgress
+          ? 'ring-1 ring-sky-400/50'
           : 'group-hover:ring-amber-400/60'
       }`}>
         <picture>
@@ -73,11 +123,20 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, isCompletedToday 
           />
         </picture>
 
-        {/* Selo Zerado Hoje! (Dourado de desafio diário concluído) */}
+        {/* Selo Zerado Hoje! (Exibido apenas quando os 6 modos foram completados) */}
         {isCompletedToday && (
           <div className="absolute top-2.5 left-2.5 z-20 flex items-center gap-1 bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 text-black text-[10px] sm:text-[11px] font-black uppercase tracking-wider px-2.5 py-1 rounded-full shadow-[0_4px_14px_rgba(245,158,11,0.65)] border border-yellow-100/90 animate-in fade-in zoom-in-95 duration-200">
             <Check size={12} className="stroke-[3.5]" />
-            <span>Zerado hoje!</span>
+            <span>Zerado hoje! (6/6)</span>
+          </div>
+        )}
+
+        {/* Selo de Progresso Parcial (Exibe quantos modos foram concluídos e quantos faltam) */}
+        {hasPartialProgress && dailyProgress && (
+          <div className="absolute top-2.5 left-2.5 z-20 flex items-center gap-1.5 bg-[#0a1224]/90 backdrop-blur-md text-amber-300 text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wide px-2.5 py-1 rounded-full shadow-[0_4px_12px_rgba(0,0,0,0.75)] border border-amber-400/50 animate-in fade-in zoom-in-95 duration-200">
+            <span className="text-white font-black">{dailyProgress.completed}/{dailyProgress.total}</span>
+            <span className="text-amber-400/70">•</span>
+            <span>{dailyProgress.remaining === 1 ? 'Falta 1' : `Faltam ${dailyProgress.remaining}`}</span>
           </div>
         )}
 
@@ -112,10 +171,10 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, isCompletedToday 
 interface AnimeGridProps {
   animes: AnimeEntry[];
   onSelect: (slug: string) => void;
-  completedSlugs?: Set<string>;
+  dailyProgressMap?: Record<string, DailyAnimeProgress>;
 }
 
-const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, completedSlugs }) => {
+const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, dailyProgressMap }) => {
   if (animes.length === 0) {
     return (
       <p className="text-slate-500 text-sm text-center py-8">
@@ -131,7 +190,7 @@ const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, completedSlugs 
           key={anime.slug}
           anime={anime}
           onClick={() => onSelect(anime.slug)}
-          isCompletedToday={completedSlugs?.has(anime.slug)}
+          dailyProgress={dailyProgressMap?.[anime.slug]}
         />
       ))}
     </div>
@@ -355,17 +414,15 @@ export const Home: React.FC = () => {
     setSectionToggles(prev => ({ ...prev, [key]: !prev[key] }));
   };
 
-  // Conjunto de slugs completados no dia de hoje
-  const completedTodaySlugs = useMemo(() => {
+  // Mapa de progresso diário de cada anime (quantos modos foram concluídos hoje de 6)
+  const dailyProgressMap = useMemo(() => {
     const todayStr = getDailyDateString();
-    const set = new Set<string>();
+    const map: Record<string, DailyAnimeProgress> = {};
     const allEntries = [...AVAILABLE_ANIMES, ...COLLECTION_ANIMES, ...COMING_SOON_ANIMES];
     for (const anime of allEntries) {
-      if (checkIsAnimeCompletedToday(anime.slug, todayStr)) {
-        set.add(anime.slug);
-      }
+      map[anime.slug] = getAnimeDailyProgress(anime.slug, todayStr);
     }
-    return set;
+    return map;
   }, []);
 
   const handleSelect = (slug: string) => {
@@ -612,7 +669,7 @@ export const Home: React.FC = () => {
             <AnimeGrid
               animes={filteredAvailable}
               onSelect={handleSelect}
-              completedSlugs={completedTodaySlugs}
+              dailyProgressMap={dailyProgressMap}
             />
           </Section>
         )}
@@ -628,7 +685,7 @@ export const Home: React.FC = () => {
             <AnimeGrid
               animes={filteredColecoes}
               onSelect={handleSelect}
-              completedSlugs={completedTodaySlugs}
+              dailyProgressMap={dailyProgressMap}
             />
           </Section>
         )}
@@ -645,7 +702,7 @@ export const Home: React.FC = () => {
             <AnimeGrid
               animes={filteredComingSoon}
               onSelect={handleSelect}
-              completedSlugs={completedTodaySlugs}
+              dailyProgressMap={dailyProgressMap}
             />
           </Section>
         )}

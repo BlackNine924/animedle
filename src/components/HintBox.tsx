@@ -42,11 +42,12 @@ export const HintBox: React.FC<HintBoxProps> = ({
 
   const isOnePiece = currentAnimeSlug === 'one-piece';
   const isSceneMode = currentMode === 'scene';
+  const isLimitedAttemptMode = currentMode === 'wanted' || currentMode === 'zoom';
 
   if (isOnePiece) {
-    const hint1Needed = isSceneMode ? 2 : 3;
-    const hint2Needed = isSceneMode ? 4 : 6;
-    const hint3Needed = isSceneMode ? 6 : 9;
+    const hint1Needed = isSceneMode || isLimitedAttemptMode ? 2 : 3;
+    const hint2Needed = isSceneMode || isLimitedAttemptMode ? 4 : 6;
+    const hint3Needed = isSceneMode ? 6 : isLimitedAttemptMode ? 5 : 9;
 
     const hint1Unlocked = guessCount >= hint1Needed || isWon;
     const hint2Unlocked = guessCount >= hint2Needed || isWon;
@@ -246,8 +247,8 @@ export const HintBox: React.FC<HintBoxProps> = ({
   }
 
   // Comportamento para os outros Animes (Demon Slayer, Jujutsu Kaisen, Romance, Naruto, etc.)
-  const hint1Needed = isSceneMode ? 2 : 4;
-  const hint2Needed = isSceneMode ? 4 : 7;
+  const hint1Needed = isSceneMode || isLimitedAttemptMode ? 2 : 4;
+  const hint2Needed = isSceneMode || isLimitedAttemptMode ? 4 : 7;
   const hint3Needed = 6; // Dica 3 do Modo Cena libera no 6º erro
 
   const hint1Unlocked = guessCount >= hint1Needed || isWon;

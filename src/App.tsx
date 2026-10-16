@@ -651,7 +651,7 @@ export const App: React.FC<{
           newStates[mode] = {
             guesses: parsed.guesses || [],
             isWon: parsed.isWon || false,
-            isSurrendered: parsed.isSurrendered || false,
+            isSurrendered: parsed.isLost ? false : (parsed.isSurrendered || false),
             isLost: parsed.isLost || false,
           };
         } catch (e) {
@@ -723,14 +723,14 @@ export const App: React.FC<{
 
     const updatedGuesses = [newGuess, ...currentGuesses];
 
-    // No modo procurado (Wanted), o desfoque zera na 4ª tentativa (0px). A partir de 100% nítida, o jogador tem 3 chances antes da derrota (derrota no 7º erro, idêntico ao zoom)!
+    // No modo procurado (Wanted) e no modo Zoom, a imagem fica 100% revelada no 4º erro (4 palpites errados).
+    // A partir daí restam 3 chances (4 erros -> 3 de 3, 5 erros -> 2 de 3, 6 erros -> 1 de 3), com derrota no 7º erro!
     const isWantedLoss = currentMode === 'wanted' && !isCorrect && currentGuesses.length >= 6;
-    // No modo zoom, o zoom atinge 1x na 5ª tentativa (zoomScale = 1.0). A partir de 1x, o 3º erro consecutivo no zoom 1x causa derrota!
-    const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 7;
+    const isZoomLoss = currentMode === 'zoom' && !isCorrect && currentGuesses.length >= 6;
     // No modo cena, o borrão zera no 4º erro (0px). Dica 1 no 2º erro, Dica 2 no 4º erro e Dica 3 no 6º erro. Derrota apenas no 8º erro!
     const isSceneLoss = currentMode === 'scene' && !isCorrect && currentGuesses.length >= 7;
     const isDefeat = isWantedLoss || isZoomLoss || isSceneLoss;
-    const isSurrenderedState = isDefeat;
+    const isSurrenderedState = false;
 
     setModeStates((prev) => ({
       ...prev,
@@ -832,8 +832,13 @@ export const App: React.FC<{
         setStats(updated);
       }
     } else if (isDefeat) {
-      const updated = updateGlobalStatsOnOutcome('defeat');
-      setStats(updated);
+      if (isCurrentEndless) {
+        setEndlessStreak(0);
+        localStorage.setItem(`animedle_endless_streak_${currentAnimeSlug}`, '0');
+      } else {
+        const updated = updateGlobalStatsOnOutcome('defeat');
+        setStats(updated);
+      }
       setShowVictoryModal(true);
     }
   };
@@ -860,6 +865,7 @@ export const App: React.FC<{
         ...prev[currentMode],
         isWon: false,
         isSurrendered: true,
+        isLost: false,
       },
     }));
 
@@ -868,7 +874,7 @@ export const App: React.FC<{
       const savedKey = `animedle_progress_${currentAnimeSlug}_${currentMode}_${todayStr}`;
       localStorage.setItem(
         savedKey,
-        JSON.stringify({ guesses: currentGuesses, isWon: false, isSurrendered: true })
+        JSON.stringify({ guesses: currentGuesses, isWon: false, isSurrendered: true, isLost: false })
       );
 
       // Reseta estritamente a sequência para 0 e incrementa partidas jogadas (sem vitória!)
@@ -893,7 +899,7 @@ export const App: React.FC<{
       setEndlessTargetIndex(0);
       setModeStates((prev) => ({
         ...prev,
-        [currentMode]: { guesses: [], isWon: false, isSurrendered: false },
+        [currentMode]: { guesses: [], isWon: false, isSurrendered: false, isLost: false },
       }));
       setShowVictoryModal(false);
       return;
@@ -903,7 +909,7 @@ export const App: React.FC<{
     setEndlessTargetIndex(nextIdx);
     setModeStates((prev) => ({
       ...prev,
-      [currentMode]: { guesses: [], isWon: false, isSurrendered: false },
+      [currentMode]: { guesses: [], isWon: false, isSurrendered: false, isLost: false },
     }));
     setShowVictoryModal(false);
 
@@ -972,16 +978,17 @@ export const App: React.FC<{
         guesses: [],
         isWon: false,
         isSurrendered: false,
+        isLost: false,
       },
     }));
     setShowVictoryModal(false);
   };
 
-  // Nível de Desfoco no Modo Procurado
+  // Nível de Desfoco no Modo Procurado (zera no 4º erro)
   const blurAmount = Math.max(0, 24 - currentGuesses.length * 6);
 
-  // Nível de Zoom no Modo Olhos/Zoom
-  const zoomScale = isFinished ? 1 : Math.max(1, 3.5 - currentGuesses.length * 0.5);
+  // Nível de Zoom no Modo Olhos/Zoom (atinge 1x no 4º erro, igualando o ciclo de 3 chances finais ao Procurado)
+  const zoomScale = isFinished ? 1 : Math.max(1, 3.5 - currentGuesses.length * 0.625);
 
   return (
     <div className="min-h-screen bg-transparent text-[#F5F7FF] flex flex-col font-sans relative overflow-x-hidden">
@@ -1212,7 +1219,7 @@ export const App: React.FC<{
 
               {blurAmount === 0 && !isFinished && (
                 <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_15px_rgba(244,63,94,0.25)]">
-                  <span>🚨 Imagem 100% nítida! Restam {Math.max(0, 7 - currentGuesses.length)} de 3 chances antes da derrota!</span>
+                  <span>🚨 Imagem 100% nítida! Restam {Math.min(3, Math.max(1, 7 - currentGuesses.length))} de 3 chances antes da derrota!</span>
                 </div>
               )}
 
@@ -1336,7 +1343,7 @@ export const App: React.FC<{
 
               {zoomScale === 1 && !isFinished && (
                 <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/40 text-xs font-black mb-3 animate-pulse shadow-[0_0_20px_rgba(244,63,94,0.3)]">
-                  <span>🚨 Zoom Máximo Alcançado (1x) - Últimas chances! Restam {Math.max(0, 8 - currentGuesses.length)} de 3 tentativas antes da derrota!</span>
+                  <span>🚨 Zoom Máximo Alcançado (1x) - Últimas chances! Restam {Math.min(3, Math.max(1, 7 - currentGuesses.length))} de 3 tentativas antes da derrota!</span>
                 </div>
               )}
               
