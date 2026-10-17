@@ -1,6 +1,6 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, Suspense } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Play, Film, Check, X } from 'lucide-react';
+import { Search, ChevronDown, ChevronUp, ChevronLeft, ChevronRight, Play, Film, Check, X, Award } from 'lucide-react';
 import {
   AVAILABLE_ANIMES,
   COLLECTION_ANIMES,
@@ -12,7 +12,12 @@ import {
 } from '../data/animes/animeRegistry';
 import { ANIMES_CONFIG } from '../data/animes/config';
 import { getDailyDateString } from '../utils/dailySeed';
-import { SceneGalleryModal } from '../components/SceneGalleryModal';
+import { getAnimeMastery, AnimeMasteryInfo } from '../utils/featuresManager';
+
+// T3: Lazy-Loading do SceneGalleryModal na Home para mover o módulo para um chunk separado
+const SceneGalleryModal = React.lazy(() =>
+  import('../components/SceneGalleryModal').then((m) => ({ default: m.SceneGalleryModal }))
+);
 
 // ── Filtros de seção ────────────────────────────────────────────────────
 type SectionToggle = { available: boolean; colecoes: boolean; comingSoon: boolean };
@@ -88,9 +93,10 @@ interface AnimeCardProps {
   anime: AnimeEntry;
   onClick: () => void;
   dailyProgress?: DailyAnimeProgress;
+  masteryInfo?: AnimeMasteryInfo;
 }
 
-const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress }) => {
+const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress, masteryInfo }) => {
   const cardWebp = `/cards/${anime.slug}.webp`;
   const cardPng = `/cards/${anime.slug}.png`;
   const isComingSoon = !anime.implemented;
@@ -99,7 +105,7 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress }) 
 
   return (
     <div
-      className="flex flex-col items-center gap-2.5 sm:gap-3 cursor-pointer group select-none"
+      className="flex flex-col items-center gap-2 cursor-pointer group select-none"
       onClick={onClick}
     >
       {/* Moldura do card: proporção 2:3 padrão (1024x1536), moldura 100% visível sem cortes */}
@@ -159,10 +165,30 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress }) 
         )}
       </div>
 
-      {/* Nome do anime: fonte Outfit estilosa, tamanho ampliado e contraste impecável */}
-      <span className="text-center font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug px-1 group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
-        {anime.name}
-      </span>
+      {/* Nome do anime + S3: Nível e Título Temático de Maestria */}
+      <div className="flex flex-col items-center gap-1 w-full px-1">
+        <span className="text-center font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
+          {anime.name}
+        </span>
+
+        {anime.implemented && masteryInfo && (
+          <div
+            className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-extrabold border transition-all max-w-full ${
+              masteryInfo.level >= 10
+                ? 'bg-amber-500/15 text-amber-300 border-amber-400/40 shadow-sm'
+                : masteryInfo.xp > 0
+                ? 'bg-sky-500/15 text-sky-300 border-sky-400/35'
+                : 'bg-[#0d1426]/90 text-slate-400 border-[#1e2b45]'
+            }`}
+            title={`Nível de Maestria ${masteryInfo.level} (${masteryInfo.xp} XP Total)`}
+          >
+            <Award size={11} className="shrink-0 text-amber-400" />
+            <span className="font-black text-white shrink-0">Nv.{masteryInfo.level}</span>
+            <span className="opacity-60">•</span>
+            <span className="truncate">{masteryInfo.title}</span>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
@@ -172,9 +198,10 @@ interface AnimeGridProps {
   animes: AnimeEntry[];
   onSelect: (slug: string) => void;
   dailyProgressMap?: Record<string, DailyAnimeProgress>;
+  masteryMap?: Record<string, AnimeMasteryInfo>;
 }
 
-const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, dailyProgressMap }) => {
+const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, dailyProgressMap, masteryMap }) => {
   if (animes.length === 0) {
     return (
       <p className="text-slate-500 text-sm text-center py-8">
@@ -191,6 +218,7 @@ const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, dailyProgressMa
           anime={anime}
           onClick={() => onSelect(anime.slug)}
           dailyProgress={dailyProgressMap?.[anime.slug]}
+          masteryInfo={masteryMap?.[anime.slug]}
         />
       ))}
     </div>
@@ -421,6 +449,16 @@ export const Home: React.FC = () => {
     const allEntries = [...AVAILABLE_ANIMES, ...COLLECTION_ANIMES, ...COMING_SOON_ANIMES];
     for (const anime of allEntries) {
       map[anime.slug] = getAnimeDailyProgress(anime.slug, todayStr);
+    }
+    return map;
+  }, []);
+
+  // S3: Mapa de Nível de Maestria e Título Temático de cada anime
+  const masteryMap = useMemo(() => {
+    const map: Record<string, AnimeMasteryInfo> = {};
+    const allImplemented = [...AVAILABLE_ANIMES, ...COLLECTION_ANIMES];
+    for (const anime of allImplemented) {
+      map[anime.slug] = getAnimeMastery(anime.slug);
     }
     return map;
   }, []);
@@ -670,6 +708,7 @@ export const Home: React.FC = () => {
               animes={filteredAvailable}
               onSelect={handleSelect}
               dailyProgressMap={dailyProgressMap}
+              masteryMap={masteryMap}
             />
           </Section>
         )}
@@ -686,6 +725,7 @@ export const Home: React.FC = () => {
               animes={filteredColecoes}
               onSelect={handleSelect}
               dailyProgressMap={dailyProgressMap}
+              masteryMap={masteryMap}
             />
           </Section>
         )}
@@ -703,18 +743,21 @@ export const Home: React.FC = () => {
               animes={filteredComingSoon}
               onSelect={handleSelect}
               dailyProgressMap={dailyProgressMap}
+              masteryMap={masteryMap}
             />
           </Section>
         )}
       </main>
 
-      {/* Modal Visualizador de Cenas */}
-      {showSceneGallery && (
-        <SceneGalleryModal
-          initialAnimeSlug="one-piece"
-          onClose={() => setShowSceneGallery(false)}
-        />
-      )}
+      {/* Modal Visualizador de Cenas (T3: Lazy-Loaded) */}
+      <Suspense fallback={null}>
+        {showSceneGallery && (
+          <SceneGalleryModal
+            initialAnimeSlug="one-piece"
+            onClose={() => setShowSceneGallery(false)}
+          />
+        )}
+      </Suspense>
     </div>
   );
 };

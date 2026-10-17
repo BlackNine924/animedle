@@ -5,6 +5,7 @@ import { getDailyDateString } from '../utils/dailySeed';
 import { CharacterSearchInput } from './CharacterSearchInput';
 import { VictoryModal } from './VictoryModal';
 import { ModeHeaderCard } from './ModeHeaderCard';
+import { SpeedrunArena } from './SpeedrunArena';
 import {
   Heart,
   Flame,
@@ -38,6 +39,7 @@ import {
   resetSurvivalRun,
   FriendChallengeData,
   encodeFriendChallengeUrl,
+  awardAnimeXp,
 } from '../utils/featuresManager';
 
 interface ExclusiveAnimeModeProps {
@@ -71,6 +73,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   onClearFriendChallenge,
 }) => {
   const [isEndless, setIsEndless] = useState<boolean>(() => Boolean(initialFriendChallenge?.m === 'ability'));
+  const [isSpeedrun, setIsSpeedrun] = useState<boolean>(false);
   const challenges = useMemo(() => getChallengesForAnime(animeSlug), [animeSlug]);
   const [resolvedCharacter, setResolvedCharacter] = useState<Character | null>(null);
   const [survivalState, setSurvivalState] = useState<SurvivalState>(() => getSurvivalState(animeSlug, 'ability'));
@@ -307,6 +310,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
       }
 
       recordVictory(animeSlug, 'exclusive', guessedChar.id);
+      awardAnimeXp(animeSlug, isEndless ? 25 : 40, !isEndless ? `exclusive_${dailyStorageKey}` : undefined);
       updateGlobalStats(true);
 
       if (isEndless && survivalState.active) {
@@ -539,18 +543,62 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     );
   }
 
+  if (isSpeedrun) {
+    return (
+      <div className="max-w-3xl mx-auto my-6 px-3">
+        <ModeHeaderCard
+          title={currentChallenge?.badgeTitle || 'Modo Exclusivo'}
+          description="Adivinhe o personagem através do seu poder, técnica ou característica única com 3 chances na rodada!"
+          icon={<Zap size={20} />}
+          themeColor={themeColor}
+          isEndless={isEndless}
+          onToggleEndless={(val) => {
+            setIsSpeedrun(false);
+            setIsEndless(val);
+          }}
+          survivalState={survivalState}
+          onToggleSurvival={(act) => {
+            setIsSpeedrun(false);
+            handleToggleSurvival(act);
+          }}
+          isSpeedrun={isSpeedrun}
+          onToggleSpeedrun={(act) => setIsSpeedrun(act)}
+          healedBanner={survivalHealed}
+          onChallengeFriend={handleChallengeFriend}
+          activeChallenge={initialFriendChallenge?.m === 'ability' ? initialFriendChallenge : null}
+          onClearChallenge={onClearFriendChallenge}
+        />
+        <SpeedrunArena
+          characters={characters}
+          animeSlug={animeSlug}
+          animeTitle={animeTitle}
+          themeColor={themeColor}
+          onExitSpeedrun={() => setIsSpeedrun(false)}
+        />
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-3xl mx-auto my-6 px-3">
-      {/* 1. Header Padronizado com Diário / Infinito / Sobrevivência (E2) e Desafiar Amigo (F2) */}
+      {/* 1. Header Padronizado com Diário / Infinito / Sobrevivência (E2) / Speedrun (N5) e Desafiar Amigo (F2) */}
       <ModeHeaderCard
         title={currentChallenge?.badgeTitle || 'Modo Exclusivo'}
         description="Adivinhe o personagem através do seu poder, técnica ou característica única com 3 chances na rodada!"
         icon={<Zap size={20} />}
         themeColor={themeColor}
         isEndless={isEndless}
-        onToggleEndless={(val) => setIsEndless(val)}
+        onToggleEndless={(val) => {
+          setIsSpeedrun(false);
+          setIsEndless(val);
+        }}
         survivalState={survivalState}
-        onToggleSurvival={handleToggleSurvival}
+        onToggleSurvival={(act) => {
+          setIsSpeedrun(false);
+          handleToggleSurvival(act);
+        }}
+        isSpeedrun={isSpeedrun}
+        onToggleSpeedrun={(act) => setIsSpeedrun(act)}
         healedBanner={survivalHealed}
         onChallengeFriend={handleChallengeFriend}
         activeChallenge={initialFriendChallenge?.m === 'ability' ? initialFriendChallenge : null}

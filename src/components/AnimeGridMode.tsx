@@ -5,6 +5,7 @@ import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recor
 import { getDailyDateString } from '../utils/dailySeed';
 import { VictoryModal } from './VictoryModal';
 import { ModeHeaderCard } from './ModeHeaderCard';
+import { SpeedrunArena } from './SpeedrunArena';
 import { filterAndRankCharacters } from '../utils/characterSearch';
 import {
   calculateGridCellRarity,
@@ -18,6 +19,7 @@ import {
   resetSurvivalRun,
   FriendChallengeData,
   encodeFriendChallengeUrl,
+  awardAnimeXp,
 } from '../utils/featuresManager';
 
 interface GridCriterion {
@@ -236,6 +238,7 @@ const GridBoard: React.FC<GridBoardProps> = ({
           unlockAchievement('protagonist_comeback');
         }
         recordVictory(animeSlug, 'grid');
+        awardAnimeXp(animeSlug, isEndless ? 30 : 45, !isEndless ? `grid_${gridSeed}` : undefined);
         if (!isEndless) {
           updateGlobalStatsOnOutcome('win');
         }
@@ -1901,6 +1904,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
   };
 
   const [isEndless, setIsEndless] = useState<boolean>(() => Boolean(initialFriendChallenge?.m === 'grid'));
+  const [isSpeedrun, setIsSpeedrun] = useState<boolean>(false);
   const [endlessSeed, setEndlessSeed] = useState<number>(() => Math.floor(Math.random() * 100000) + 1);
   const [forcedChallengeSeed, setForcedChallengeSeed] = useState<string | null>(() =>
     initialFriendChallenge?.m === 'grid' && initialFriendChallenge.g ? initialFriendChallenge.g : null
@@ -1912,6 +1916,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
     setSurvivalState(getSurvivalState(animeSlug, 'grid'));
     if (initialFriendChallenge?.m === 'grid' && initialFriendChallenge.g) {
       setIsEndless(true);
+      setIsSpeedrun(false);
       setForcedChallengeSeed(initialFriendChallenge.g);
     }
   }, [animeSlug, initialFriendChallenge]);
@@ -1926,6 +1931,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
   const gridDefinition = useMemo(() => generateValidGrid(gridSeed), [availableCriteria, gridSeed]);
 
   const handleToggleSurvival = (active: boolean) => {
+    setIsSpeedrun(false);
     const next = toggleSurvivalMode(animeSlug, 'grid', active);
     setSurvivalState(next);
     setSurvivalHealed(false);
@@ -1995,7 +2001,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
 
   return (
     <div className="max-w-2xl mx-auto my-6 px-3">
-      {/* Header Padronizado com Diário / Infinito / Sobrevivência (E2) e Desafiar Amigo (F2) */}
+      {/* Header Padronizado com Diário / Infinito / Sobrevivência (E2) / Speedrun (N5) e Desafiar Amigo (F2) */}
       <ModeHeaderCard
         title="Modo Grid 3×3"
         description="Cruze os atributos e acerte os 9 personagens com apenas 9 palpites! Ganhe pontos extras de Raridade!"
@@ -2003,11 +2009,14 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
         themeColor={themeColor}
         isEndless={isEndless}
         onToggleEndless={(val) => {
+          setIsSpeedrun(false);
           setIsEndless(val);
           if (!val) setForcedChallengeSeed(null);
         }}
         survivalState={survivalState}
         onToggleSurvival={handleToggleSurvival}
+        isSpeedrun={isSpeedrun}
+        onToggleSpeedrun={(act) => setIsSpeedrun(act)}
         healedBanner={survivalHealed}
         onChallengeFriend={handleChallengeFriend}
         activeChallenge={initialFriendChallenge?.m === 'grid' ? initialFriendChallenge : null}
@@ -2017,29 +2026,39 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
         }}
       />
 
-      {/* Grade isolada por gridSeed */}
-      <GridBoard
-        key={gridSeed}
-        gridSeed={gridSeed}
-        legacyGridSeed={legacyGridSeed}
-        isEndless={isEndless}
-        gridDefinition={gridDefinition}
-        characters={characters}
-        animeTitle={animeTitle}
-        animeSlug={animeSlug}
-        themeColor={themeColor}
-        onResetForInfinite={() => {
-          setForcedChallengeSeed(null);
-          setSurvivalHealed(false);
-          setEndlessSeed((s) => s + 1);
-        }}
-        survivalState={survivalState}
-        survivalHealed={survivalHealed}
-        onSurvivalOutcome={handleSurvivalOutcome}
-        onRestartSurvival={handleRestartSurvival}
-        friendChallenge={initialFriendChallenge?.m === 'grid' ? initialFriendChallenge : null}
-        onSendRevenge={handleSendRevenge}
-      />
+      {isSpeedrun ? (
+        <SpeedrunArena
+          characters={characters}
+          animeSlug={animeSlug}
+          animeTitle={animeTitle}
+          themeColor={themeColor}
+          onExitSpeedrun={() => setIsSpeedrun(false)}
+        />
+      ) : (
+        /* Grade isolada por gridSeed */
+        <GridBoard
+          key={gridSeed}
+          gridSeed={gridSeed}
+          legacyGridSeed={legacyGridSeed}
+          isEndless={isEndless}
+          gridDefinition={gridDefinition}
+          characters={characters}
+          animeTitle={animeTitle}
+          animeSlug={animeSlug}
+          themeColor={themeColor}
+          onResetForInfinite={() => {
+            setForcedChallengeSeed(null);
+            setSurvivalHealed(false);
+            setEndlessSeed((s) => s + 1);
+          }}
+          survivalState={survivalState}
+          survivalHealed={survivalHealed}
+          onSurvivalOutcome={handleSurvivalOutcome}
+          onRestartSurvival={handleRestartSurvival}
+          friendChallenge={initialFriendChallenge?.m === 'grid' ? initialFriendChallenge : null}
+          onSendRevenge={handleSendRevenge}
+        />
+      )}
     </div>
   );
 };

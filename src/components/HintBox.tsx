@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Character, GameMode } from '../types/anime';
 import { Lightbulb, Lock, Unlock, Flag, Sparkles, Eye, EyeOff } from 'lucide-react';
 
@@ -39,6 +39,20 @@ export const HintBox: React.FC<HintBoxProps> = ({
       return next;
     });
   };
+
+  // U2: Atalhos de Teclado 1, 2, 3 para alternar a visualização das Dicas
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || (e.target as HTMLElement)?.isContentEditable) return;
+      if (e.key === '1' || e.key === '2' || e.key === '3') {
+        e.preventDefault();
+        handleToggleHideClues();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   const isOnePiece = currentAnimeSlug === 'one-piece';
   const isSceneMode = currentMode === 'scene';

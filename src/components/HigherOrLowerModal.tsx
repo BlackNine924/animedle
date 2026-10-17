@@ -1,6 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Character } from '../types/anime';
 import { X, Flame, Trophy, ArrowUp, ArrowDown, RotateCcw, Swords, Coins, Clock, ShieldCheck } from 'lucide-react';
+import { awardAnimeXp } from '../utils/featuresManager';
 
 interface HigherOrLowerModalProps {
   characters: Character[];
@@ -254,6 +255,9 @@ export const HigherOrLowerModal: React.FC<HigherOrLowerModalProps> = ({
     if (isCorrect) {
       const nextStreak = streak + 1;
       setStreak(nextStreak);
+      // S3: Concede +10 XP de Maestria no anime a cada acerto no Maior ou Menor
+      awardAnimeXp(animeSlug, 10);
+
       if (nextStreak > bestStreak) {
         setBestStreak(nextStreak);
         try {
@@ -274,6 +278,24 @@ export const HigherOrLowerModal: React.FC<HigherOrLowerModalProps> = ({
       }, 1200);
     }
   };
+
+  // U2: Atalhos de Teclado no Modo Maior ou Menor (Seta Cima / Seta Baixo)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || (e.target as HTMLElement)?.isContentEditable) return;
+
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        handleGuess(metric === 'timeline' ? 'lower' : 'higher');
+      } else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        handleGuess(metric === 'timeline' ? 'higher' : 'lower');
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [revealState, isGameOver, leftIdx, rightIdx, metric, streak]);
 
   const handleRestart = () => {
     const [a, b] = pickInitialPair(pool, metric);

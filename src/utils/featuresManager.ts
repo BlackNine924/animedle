@@ -32,6 +32,7 @@ export function getDailyModeStatuses(slug: string, todayStr: string): Record<Gam
     grid: 'pending',
     voice: 'pending',
     higherlower: 'pending',
+    connections: 'pending',
   };
 
   try {
@@ -561,3 +562,148 @@ export function clearChallengeQueryParam(): void {
     // ignore
   }
 }
+
+// ============================================================================
+// S3: SISTEMA DE NÍVEL DE MAESTRIA POR ANIME (XP & TÍTULOS TEMÁTICOS CANÔNICOS)
+// ============================================================================
+
+export interface AnimeMasteryInfo {
+  slug: string;
+  xp: number;
+  level: number;
+  title: string;
+  currentLevelXp: number;
+  nextLevelXp: number;
+  progressPct: number;
+  rankIndex: number; // 0..4
+}
+
+export const ANIME_MASTERY_TITLES: Record<string, [string, string, string, string, string]> = {
+  'one-piece': ['Marujo do East Blue', 'Supernova', 'Shichibukai', 'Yonkou dos Mares', 'Rei dos Piratas'],
+  'naruto': ['Genin da Folha', 'Chūnin', 'Jōnin de Elite', 'Sannin Lendário', 'Hokage'],
+  'jujutsu-kaisen': ['Feiticeiro Grau 4', 'Feiticeiro Grau 2', 'Feiticeiro Grau 1', 'Grau Especial', 'Rei das Maldições'],
+  'demon-slayer': ['Caçador Mizunoto', 'Caçador Kanoe', 'Tsuguko', 'Hashira', 'Espadachim da Marca'],
+  'bleach': ['Shinigami Substituto', 'Oficial de Divisão', 'Tenente da Corte', 'Capitão do Gotei 13', 'Guarda Real (Divisão Zero)'],
+  'dragon-ball': ['Guerreiro Z', 'Super Saiyajin', 'Super Saiyajin Deus', 'Instinto Superior', 'Deus da Destruição'],
+  'attack-on-titan': ['Cadete do 104º', 'Soldado da Tropa', 'Veterano de Reconhecimento', 'Portador dos Nove Titãs', 'Comandante da Liberdade'],
+  'hunter-x-hunter': ['Aspirante a Hunter', 'Hunter Licenciado', 'Mestre do Nen', 'Hunter Double-Star', 'Zodíaco Triple-Star'],
+  'solo-leveling': ['Caçador Rank E', 'Caçador Rank B', 'Caçador Rank S', 'Caçador Nível Nacional', 'Monarca das Sombras'],
+  'my-hero-academia': ['Estudante da U.A.', 'Herói Provisório', 'Pro Hero', 'Herói do Top 10', 'Símbolo da Paz'],
+  'black-clover': ['Cavaleiro Mágico Júnior', 'Cavaleiro Intermediário', 'Vice-Capitão de Esquadrão', 'Capitão de Esquadrão', 'Rei Mago'],
+  'chainsaw-man': ['Caçador Civil', 'Agente da 4ª Divisão', 'Caçador da Segurança Pública', 'Híbrido Primordial', 'Herói do Inferno'],
+  'blue-lock': ['Atacante do Time Z', 'Titular do Blue Lock XI', 'Artilheiro da Liga Neo Egoísta', 'Nova Geração Mundial XI', 'Melhor Atacante do Mundo'],
+  'dandadan': ['Cético do Oculto', 'Caçador de Yokais', 'Médium Desperto', 'Guardião Espiritual', 'Lenda Paranormal'],
+  'frieren': ['Aprendiz de Magia', 'Mago de 3ª Classe', 'Mago de 1ª Classe', 'Discípulo de Flamme', 'Grande Mago Élfico'],
+  'fullmetal-alchemist': ['Alquimista Aprendiz', 'Alquimista Federal', 'Mestre da Transmutação', 'Sábio da Pedra Filosofal', 'Alquimista da Verdade'],
+  'jojos-bizarre-adventure': ['Usuário de Hamon', 'Portador de Stand', 'Estrela Joestar', 'Portador da Flecha Réquiem', 'Alcançou o Céu (Over Heaven)'],
+  'berserk': ['Mercenário Solitário', 'Comandante do Bando do Falcão', 'Marcado pelo Sacrifício', 'Portador da Armadura Berserker', 'Espadachim Negro'],
+  'one-punch-man': ['Herói Classe C', 'Herói Classe B', 'Herói Classe A', 'Herói Classe S', 'Quebrador de Limitador'],
+  'record-of-ragnarok': ['Guerreiro da Arena', 'Portador de Völundr', 'Einherjar Escolhido', 'Campeão da Humanidade', 'Transcendente do Ragnarok'],
+  'nanatsu-no-taizai': ['Cavaleiro Sagrado Aprendiz', 'Cavaleiro Sagrado Diamante', 'Grande Cavaleiro Sagrado', 'Membro dos Dez Mandamentos', 'Capitão dos Sete Pecados'],
+  'fairy-tail': ['Mago Novato da Guilda', 'Mago Classe S', 'Mestre de Guilda', 'Dez Magos Santos', 'Rei Dragão Elemental'],
+  'haikyuu': ['Reserva de Quadra', 'Titular da Karasuno', 'Estrela do Nacional', 'Atleta da Divisão V.League', 'Monstro da Seleção Olímpica'],
+  'kaiju-no-8': ['Limpador de Kaijus', 'Cadete da Força de Defesa', 'Oficial de Pelotão', 'Capitão de Divisão', 'Força de Combate 98%'],
+  'tokyo-ghoul': ['Ghoul Rank C', 'Investigador da CCG', 'Ghoul Classe S', 'Investigador Classe Especial', 'Rei de Um Olho'],
+  'cyberpunk-edgerunners': ['Mercenário de Rua', 'Edgerunner de Santo Domingo', 'Veterano de Night City', 'Ciborgue Imune à Ciberpsicose', 'Lenda do Afterlife'],
+  'akame-ga-kill': ['Recruta da Night Raid', 'Assassino das Sombras', 'Portador de Teigu', 'Mestre do Trunfo Imperial', 'Revolucionário Lendário'],
+  'sword-art-online': ['Jogador do 1º Andar', 'Batedor da Linha de Frente', 'Espadachim Duplo', 'Cavaleiro da Integridade', 'Rei das Espadas (Star King)'],
+  'shangri-la-frontier': ['Caçador de Trash Games', 'Desbravador de Bosses', 'Membro do Clã Wolfgang', 'Conquistador dos Sete Colossos', 'Deus da Velocidade e Esquiva'],
+  'tensei-shitara-slime-datta-ken': ['Slime Recém-Nascido', 'Líder de Tempest', 'Semente de Lorde Demônio', 'Octagrama (Lorde Demônio)', 'Dragão Verdadeiro'],
+  'witch-hat-atelier': ['Aprendiz do Ateliê', 'Traçador de Glifos', 'Bruxo da Biblioteca', 'Guardião do Grande Salão', 'Sábio dos Chapéus Pontudos'],
+  'romance': ['Admirador Secreto', 'Troca de Olhares', 'Confissão no Festival', 'Casal Oficial da Escola', 'Amor Eterno Canônico'],
+};
+
+const DEFAULT_MASTERY_TITLES: [string, string, string, string, string] = [
+  'Iniciante do Universo',
+  'Conhecedor da Obra',
+  'Veterano Canônico',
+  'Mestre do Anime',
+  'Lenda Suprema',
+];
+
+function getMasteryStorageKey(slug: string): string {
+  return `animedle_mastery_xp_v1_${slug}`;
+}
+
+export function getAnimeMastery(slug: string): AnimeMasteryInfo {
+  let storedXp = 0;
+  try {
+    const raw = localStorage.getItem(getMasteryStorageKey(slug));
+    if (raw) {
+      storedXp = parseInt(raw, 10) || 0;
+    } else {
+      // Calcula bônus inicial retroativo caso o jogador já tenha vitórias salvas no anime
+      let retroactiveXp = 0;
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (!k) continue;
+        if (k.startsWith(`animedle_progress_${slug}_`)) {
+          try {
+            const p = JSON.parse(localStorage.getItem(k) || '{}');
+            if (p?.isWon) retroactiveXp += 50;
+          } catch {}
+        } else if (k.startsWith(`animedle_${slug}_exclusive_daily_`)) {
+          try {
+            const p = JSON.parse(localStorage.getItem(k) || '{}');
+            if (p?.won || p?.isWon) retroactiveXp += 50;
+          } catch {}
+        } else if (k.startsWith(`animedle_hol_best_${slug}_`)) {
+          const best = parseInt(localStorage.getItem(k) || '0', 10) || 0;
+          retroactiveXp += best * 10;
+        }
+      }
+      if (retroactiveXp > 0) {
+        storedXp = retroactiveXp;
+        localStorage.setItem(getMasteryStorageKey(slug), String(storedXp));
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  // Cada nível requer 100 XP (Nível 1 começa em 0 XP, Nível 2 em 100 XP, etc.)
+  const xpPerLevel = 100;
+  const level = Math.floor(storedXp / xpPerLevel) + 1;
+  const currentLevelXp = storedXp % xpPerLevel;
+  const nextLevelXp = xpPerLevel;
+  const progressPct = Math.min(100, Math.round((currentLevelXp / nextLevelXp) * 100));
+
+  // Faixas de títulos canônicos: Nv 1-2 (0), Nv 3-5 (1), Nv 6-9 (2), Nv 10-14 (3), Nv 15+ (4)
+  const rankIndex = level >= 15 ? 4 : level >= 10 ? 3 : level >= 6 ? 2 : level >= 3 ? 1 : 0;
+  const titles = ANIME_MASTERY_TITLES[slug] || DEFAULT_MASTERY_TITLES;
+  const title = titles[rankIndex];
+
+  return {
+    slug,
+    xp: storedXp,
+    level,
+    title,
+    currentLevelXp,
+    nextLevelXp,
+    progressPct,
+    rankIndex,
+  };
+}
+
+export function awardAnimeXp(slug: string, amount: number, dedupeKey?: string): AnimeMasteryInfo {
+  try {
+    if (dedupeKey) {
+      const claimKey = `animedle_xp_claimed_${slug}_${dedupeKey}`;
+      if (localStorage.getItem(claimKey) === 'true') {
+        return getAnimeMastery(slug);
+      }
+      localStorage.setItem(claimKey, 'true');
+    }
+    const current = getAnimeMastery(slug);
+    const nextXp = Math.max(0, current.xp + amount);
+    localStorage.setItem(getMasteryStorageKey(slug), String(nextXp));
+    const updated = getAnimeMastery(slug);
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('animedle_mastery_updated', { detail: updated }));
+    }
+    return updated;
+  } catch {
+    return getAnimeMastery(slug);
+  }
+}
+

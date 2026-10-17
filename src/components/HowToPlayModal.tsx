@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Check, Minus, Film, Eye, Flame, Award, HelpCircle, BookOpen, Sparkles } from 'lucide-react';
+import { X, Check, Minus, Film, Eye, Flame, Award, HelpCircle, BookOpen, Sparkles, Keyboard } from 'lucide-react';
 import { GameMode, AnimeConfig } from '../types/anime';
 
 interface HowToPlayModalProps {
@@ -15,7 +15,7 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
   currentAnimeSlug = 'one-piece',
   animeConfig
 }) => {
-  const [activeTab, setActiveTab] = useState<'current' | 'anime' | 'colors' | 'all-modes'>('current');
+  const [activeTab, setActiveTab] = useState<'current' | 'anime' | 'colors' | 'all-modes' | 'shortcuts'>('current');
 
   const modeDescriptions: Record<string, { title: string; subtitle: string; icon: string; rules: string[]; tips: string }> = {
     classic: {
@@ -47,12 +47,12 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
       subtitle: 'Minigames temáticos com mecânicas únicas do universo!',
       icon: '⚡',
       rules: [
-        'One Piece: Adivinhe a Recompensa em Berries (com pistas de Tripulação, Akuma no Mi e Status).',
-        'Jujutsu Kaisen: Classificação de Xamã / Maldição e Energia Amaldiçoada.',
-        'Naruto: Vilas Ocultas, Classificação Ninja e Técnicas Secretas.',
-        'Ao gastar pontos nas dicas, mudar para o modo infinito e voltar ao diário, as dicas e pontos continuam salvos!'
+        'One Piece: Adivinhe o portador da Akuma no Mi pelas pistas canônicas.',
+        'Jujutsu Kaisen: Técnicas Amaldiçoadas e Expansões de Domínio.',
+        'Naruto: Jutsus Secretos e Kekkei Genkai.',
+        'Suporta também os sub-modos Diário, Infinito, Sobrevivência e Speedrun!'
       ],
-      tips: 'Economize pontos nas pistas mais óbvias para garantir a pontuação máxima de 1000 pontos!'
+      tips: 'Analise a categoria do poder e o efeito descrito nas pistas para estreitar os candidatos!'
     },
     scene: {
       title: 'Modo Cenas Animadas',
@@ -60,10 +60,10 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
       icon: '🎬',
       rules: [
         'Um clipe animado oficial em tomada única contínua é exibido em loop.',
-        'O clipe retrata exclusivamente o personagem secreto executando uma ação ou golpe clássico.',
+        'Você pode alternar a velocidade entre 1x (Normal), 0.5x (Câmera Lenta) e 2x (Rápido), além de pausar no frame exato.',
         'Identifique o personagem a partir da fluidez, cenário, efeitos visuais ou postura de combate.'
       ],
-      tips: 'Observe as cores da aura, o estilo de animação de cada saga e a arma empunhada na tomada contínua.'
+      tips: 'Use a câmera lenta (0.5x) e o botão de pausa (ou tecla Espaço) para inspecionar detalhes do rosto e da técnica!'
     },
     zoom: {
       title: 'Modo Zoom (Olhos & Detalhes)',
@@ -82,10 +82,33 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
       icon: '🧩',
       rules: [
         'Preencha cada uma das 9 células com um personagem que atenda simultaneamente aos critérios da linha e da coluna.',
-        'Você tem 9 palpites ao todo — cada erro consome uma chance.',
-        'Personagens mais raros concedem maior pontuação de raridade!'
+        'Você pode clicar nos cabeçalhos das linhas e colunas para ler a explicação detalhada de cada categoria.',
+        'Personagens mais raros concedem maior pontuação de raridade (Ultra-Raro, Épico, Incomum)!'
       ],
-      tips: 'Pense em personagens secundários ou menos óbvios para maximizar o percentual de raridade.'
+      tips: 'Observe o selo de quantos personagens possíveis existem em cada célula e comece pelas células de 1 ou 2 opções!'
+    },
+    connections: {
+      title: 'Modo Conexões 4×4 (Estilo Pokennection)',
+      subtitle: 'Agrupe os 16 personagens em 4 categorias secretas de 4 integrantes!',
+      icon: '🔗',
+      rules: [
+        'Selecione exatamente 4 personagens que compartilham uma característica comum (Afiliação, Arco, Poder, Espécie, etc.) e clique em Enviar.',
+        'Se 3 dos 4 personagens selecionados pertencerem ao mesmo grupo, você receberá o aviso: "🔥 A apenas 1 de distância!".',
+        'As 4 categorias possuem níveis de dificuldade por cor: 🟨 Amarelo (Fácil), 🟩 Verde (Médio), 🟦 Azul (Difícil) e 🟪 Roxo (Mestre).',
+        'Você possui 4 chances de erro para descobrir todos os 4 grupos.'
+      ],
+      tips: 'Procure primeiro pelos grupos mais específicos (como um arco de estreia único ou uma afiliação pequena) antes de chutar!'
+    },
+    higherlower: {
+      title: 'Modo Maior ou Menor (1v1)',
+      subtitle: 'Compare recompensas ou quem estreou primeiro na obra!',
+      icon: '⚔️',
+      rules: [
+        'Em One Piece, compare quem possui a MAIOR ou MENOR Recompensa com matchmaking balanceado por faixa de ameaça.',
+        'Em todos os animes, jogue o modo "Quem Estreou Primeiro?" comparando os nomes dos arcos canônicos de estreia.',
+        'Acumule a maior sequência (Streak) possível e ganhe XP de Maestria a cada acerto!'
+      ],
+      tips: 'Você pode usar as setas Cima (⬆️) e Baixo (⬇️) do teclado para jogar em alta velocidade!'
     }
   };
 
@@ -96,6 +119,8 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
     ability: 'Exclusivo',
     zoom: 'Zoom',
     grid: 'Grid 3x3',
+    connections: 'Conexões',
+    higherlower: 'Maior ou Menor',
     voice: 'Voz'
   };
 
@@ -114,7 +139,7 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
               <h2 className="text-lg sm:text-xl font-black text-white flex items-center gap-2">
                 Como Jogar — <span style={{ color: themeColor }}>{animeTitle}</span>
               </h2>
-              <p className="text-[11px] text-slate-400">Guia de regras e feedback do jogo</p>
+              <p className="text-[11px] text-slate-400">Guia de regras, sub-modos e atalhos rápidos</p>
             </div>
           </div>
           <button
@@ -136,7 +161,7 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
             }`}
           >
             <Sparkles size={13} />
-            <span>Modo Atual ({modeNamesPt[currentMode] || 'Cena'})</span>
+            <span>Modo Atual ({modeNamesPt[currentMode] || 'Clássico'})</span>
           </button>
 
           <button
@@ -173,6 +198,18 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
           >
             <HelpCircle size={13} />
             <span>Todos os Modos</span>
+          </button>
+
+          <button
+            onClick={() => setActiveTab('shortcuts')}
+            className={`px-3 py-1.5 rounded-xl transition-all whitespace-nowrap flex items-center gap-1.5 ${
+              activeTab === 'shortcuts'
+                ? 'bg-purple-500/20 text-purple-300 border border-purple-500/40 shadow-sm'
+                : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+            }`}
+          >
+            <Keyboard size={13} />
+            <span>⌨️ Atalhos</span>
           </button>
         </div>
 
@@ -351,6 +388,49 @@ export const HowToPlayModal: React.FC<HowToPlayModalProps> = ({
                   </div>
                 );
               })}
+            </div>
+          )}
+
+          {activeTab === 'shortcuts' && (
+            <div className="space-y-3 animate-fadeIn">
+              <div className="p-3.5 bg-[#111a2d] border border-[#202b43] rounded-2xl space-y-2.5">
+                <h4 className="text-white font-extrabold text-xs uppercase tracking-wider flex items-center gap-2">
+                  <Keyboard size={15} className="text-purple-400" />
+                  <span>Atalhos Rápidos de Teclado (Jogabilidade Pro)</span>
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                  <div className="flex items-center justify-between p-2.5 rounded-xl bg-[#0b1222] border border-[#1d2b48]">
+                    <span className="text-slate-300 font-medium">Focar na Busca</span>
+                    <kbd className="px-2 py-0.5 rounded bg-slate-800 border border-slate-600 text-amber-300 font-black text-[11px]">
+                      / ou S
+                    </kbd>
+                  </div>
+                  <div className="flex items-center justify-between p-2.5 rounded-xl bg-[#0b1222] border border-[#1d2b48]">
+                    <span className="text-slate-300 font-medium">Pausar / Retomar Cena</span>
+                    <kbd className="px-2 py-0.5 rounded bg-slate-800 border border-slate-600 text-amber-300 font-black text-[11px]">
+                      Espaço
+                    </kbd>
+                  </div>
+                  <div className="flex items-center justify-between p-2.5 rounded-xl bg-[#0b1222] border border-[#1d2b48]">
+                    <span className="text-slate-300 font-medium">Alternar Cores na Cena</span>
+                    <kbd className="px-2 py-0.5 rounded bg-slate-800 border border-slate-600 text-amber-300 font-black text-[11px]">
+                      C
+                    </kbd>
+                  </div>
+                  <div className="flex items-center justify-between p-2.5 rounded-xl bg-[#0b1222] border border-[#1d2b48]">
+                    <span className="text-slate-300 font-medium">Mostrar / Ocultar Pistas</span>
+                    <kbd className="px-2 py-0.5 rounded bg-slate-800 border border-slate-600 text-amber-300 font-black text-[11px]">
+                      1, 2 ou 3
+                    </kbd>
+                  </div>
+                  <div className="flex items-center justify-between p-2.5 rounded-xl bg-[#0b1222] border border-[#1d2b48] sm:col-span-2">
+                    <span className="text-slate-300 font-medium">Maior ou Menor (Escolher Opção)</span>
+                    <kbd className="px-2 py-0.5 rounded bg-slate-800 border border-slate-600 text-amber-300 font-black text-[11px]">
+                      ⬆️ Seta Cima / ⬇️ Seta Baixo
+                    </kbd>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
         </div>

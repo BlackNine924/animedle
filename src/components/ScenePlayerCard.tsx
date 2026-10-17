@@ -246,6 +246,24 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
     }
   };
 
+  // U2: Atalhos de Teclado no Modo Cena (Espaço = Pausar/Retomar, C = Alternar Cores)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || (e.target as HTMLElement)?.isContentEditable) return;
+
+      if (e.code === 'Space') {
+        e.preventDefault();
+        handleTogglePause();
+      } else if (e.key === 'c' || e.key === 'C') {
+        e.preventDefault();
+        handleToggleColor();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isPaused, challenge.id]);
+
   // Desfoque progressivo baseado no número de palpites errados:
   // 0 erros -> 100% blur (16px)
   // 1 erro  -> 75% blur (12px)
@@ -262,6 +280,15 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   const isFullyClear = blurPx === 0 && !isWon;
   const attemptsWithClear = Math.max(0, guessCount - 4);
   const remainingChances = Math.max(0, 4 - attemptsWithClear);
+
+  // T4: Ofuscação / Remoção de atributos data-debug-* em Produção para impedir spoiler via Inspecionar Elemento (F12)
+  const debugAttrs = import.meta.env.DEV
+    ? {
+        'data-debug-character': challenge.characterName,
+        'data-debug-character-id': challenge.characterId,
+        'data-debug-scene': challenge.techniqueOrSceneName,
+      }
+    : {};
 
   return (
     <div className="w-full max-w-xl mx-auto my-6 p-6 bg-[#0a1020]/90 backdrop-blur-md border border-[#202b43] rounded-3xl shadow-2xl relative overflow-hidden">
@@ -301,7 +328,7 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
                 ? 'bg-amber-500/20 text-amber-300 border-amber-500/40 hover:bg-amber-500/30'
                 : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
             }`}
-            title="Alternar entre visualização P&B ou Colorida"
+            title="Alternar entre visualização P&B ou Colorida (Atalho: tecla C)"
           >
             {isColorEnabled ? <Eye size={12} /> : <EyeOff size={12} />}
             <span>{isColorEnabled ? 'Cores: Ativadas' : 'Preto & Branco (Padrão)'}</span>
@@ -343,9 +370,7 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
         className={`relative w-full max-w-md mx-auto aspect-video rounded-2xl overflow-hidden border-2 border-[#202b43] bg-black shadow-2xl flex items-center justify-center group select-none ${
           isFullscreen ? '!max-w-none !w-screen !h-screen !rounded-none !border-none' : ''
         }`}
-        data-debug-character={challenge.characterName}
-        data-debug-character-id={challenge.characterId}
-        data-debug-scene={challenge.techniqueOrSceneName}
+        {...debugAttrs}
       >
         {/* Renderização em Canvas Frame-a-Frame (permite pausar exatamente no frame atual!) */}
         <canvas
@@ -363,8 +388,7 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
         {useFallbackImg && (
           <img
             src={blobUrl || challenge.videoUrl}
-            alt={`Cena: ${challenge.characterName}`}
-            data-character-name={challenge.characterName}
+            alt="Cena Misteriosa"
             className="w-full h-full object-cover transition-all duration-500 pointer-events-none"
             style={{
               filter: `blur(${blurPx}px) ${isColorEnabled ? 'grayscale(0%)' : 'grayscale(100%)'}`,

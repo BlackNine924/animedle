@@ -21,7 +21,8 @@ import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
 import { Character, GameMode, GuessResult, GameStats, VoiceChallenge, SceneChallenge } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
 import { getOrAdvanceEndlessIndex } from './utils/endlessDeck';
-import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen, Swords } from 'lucide-react';
+import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen, Swords, Award } from 'lucide-react';
+import { SpeedrunArena } from './components/SpeedrunArena';
 
 // T1: Lazy Loading de Modais e Modos Pesados para reduzir drasticamente o bundle inicial (index.js)
 const HowToPlayModal = React.lazy(() => import('./components/HowToPlayModal').then((m) => ({ default: m.HowToPlayModal })));
@@ -31,6 +32,7 @@ const SceneGalleryModal = React.lazy(() => import('./components/SceneGalleryModa
 const ExclusiveAnimeMode = React.lazy(() => import('./components/ExclusiveAnimeMode').then((m) => ({ default: m.ExclusiveAnimeMode })));
 const AnimeGridMode = React.lazy(() => import('./components/AnimeGridMode').then((m) => ({ default: m.AnimeGridMode })));
 const HigherOrLowerModal = React.lazy(() => import('./components/HigherOrLowerModal').then((m) => ({ default: m.HigherOrLowerModal })));
+const AnimeConnectionsMode = React.lazy(() => import('./components/AnimeConnectionsMode').then((m) => ({ default: m.AnimeConnectionsMode })));
 import {
   SurvivalState,
   getSurvivalState,
@@ -42,6 +44,9 @@ import {
   encodeFriendChallengeUrl,
   decodeFriendChallengeFromUrl,
   clearChallengeQueryParam,
+  getAnimeMastery,
+  awardAnimeXp,
+  AnimeMasteryInfo,
 } from './utils/featuresManager';
 
 
@@ -86,10 +91,57 @@ export const App: React.FC<{
       grid: initialMode === 'grid',
       scene: initialMode === 'scene',
       higherlower: false,
+      connections: initialMode === 'connections',
     };
   });
 
   const isCurrentEndless = endlessByMode[currentMode] || false;
+
+  // N5: Controle de Sub-modo Speedrun por Modo de Jogo
+  const [speedrunByMode, setSpeedrunByMode] = useState<Record<GameMode, boolean>>({
+    classic: false,
+    wanted: false,
+    ability: false,
+    zoom: false,
+    voice: false,
+    grid: false,
+    scene: false,
+    higherlower: false,
+    connections: false,
+  });
+
+  const isCurrentSpeedrun = speedrunByMode[currentMode] || false;
+
+  // S3: Estado do Nível de Maestria do Anime
+  const [masteryInfo, setMasteryInfo] = useState<AnimeMasteryInfo>(() =>
+    getAnimeMastery(currentAnimeSlug)
+  );
+
+  useEffect(() => {
+    setMasteryInfo(getAnimeMastery(currentAnimeSlug));
+    const handleMasteryUpdated = () => setMasteryInfo(getAnimeMastery(currentAnimeSlug));
+    window.addEventListener('animedle_mastery_updated', handleMasteryUpdated);
+    return () => window.removeEventListener('animedle_mastery_updated', handleMasteryUpdated);
+  }, [currentAnimeSlug]);
+
+  // U2: Atalhos Rápidos de Teclado (/ ou S para focar na barra de busca de personagem)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (
+        target &&
+        (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable)
+      ) {
+        return;
+      }
+      if (e.key === '/' || e.key === 's' || e.key === 'S') {
+        e.preventDefault();
+        window.dispatchEvent(new CustomEvent('animedle_focus_search_input'));
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   // E2: Estado do Modo Sobrevivência para o modo ativo
   const [survivalState, setSurvivalState] = useState<SurvivalState>(() =>
@@ -147,6 +199,7 @@ export const App: React.FC<{
     grid: 0,
     scene: 0,
     higherlower: 0,
+    connections: 0,
   });
 
   // Modo Treino (Infinito): Personagem Aleatório e Contador de Sequência
@@ -647,6 +700,22 @@ export const App: React.FC<{
         : characters[dailyIndex % characters.length]);
 
 
+  // T2: Smart Background Prefetch de Mídia (Avatar do Personagem Secreto e Cena do Dia)
+  useEffect(() => {
+    const urlsToPrefetch: string[] = [];
+    if (targetCharacter?.avatar) {
+      urlsToPrefetch.push(targetCharacter.avatar);
+    }
+    const dailyScene = sceneChallenges.length > 0 ? sceneChallenges[dailyIndex % sceneChallenges.length] : null;
+    if (dailyScene?.videoUrl) {
+      urlsToPrefetch.push(dailyScene.videoUrl);
+    }
+    urlsToPrefetch.forEach((url) => {
+      const img = new Image();
+      img.src = url;
+    });
+  }, [currentAnimeSlug, targetCharacter?.avatar, sceneChallenges, dailyIndex]);
+
   // Armazenamento de estado independente por modo no Modo Diário
   const [dailyModeStates, setDailyModeStates] = useState<Record<GameMode, { guesses: GuessResult[]; isWon: boolean; isSurrendered?: boolean; isLost?: boolean }>>({
     classic: { guesses: [], isWon: false },
@@ -657,6 +726,7 @@ export const App: React.FC<{
     grid: { guesses: [], isWon: false },
     scene: { guesses: [], isWon: false },
     higherlower: { guesses: [], isWon: false },
+    connections: { guesses: [], isWon: false },
   });
 
   // Armazenamento de estado independente por modo no Modo Treino / Infinito
@@ -669,6 +739,7 @@ export const App: React.FC<{
     grid: { guesses: [], isWon: false },
     scene: { guesses: [], isWon: false },
     higherlower: { guesses: [], isWon: false },
+    connections: { guesses: [], isWon: false },
   });
 
   const modeStates = isCurrentEndless ? endlessModeStates : dailyModeStates;
@@ -744,6 +815,7 @@ export const App: React.FC<{
       grid: { guesses: [], isWon: false },
       scene: { guesses: [], isWon: false },
       higherlower: { guesses: [], isWon: false },
+      connections: { guesses: [], isWon: false },
     };
 
     modesList.forEach((mode) => {
@@ -926,6 +998,11 @@ export const App: React.FC<{
     }
 
     if (isCorrect) {
+      awardAnimeXp(
+        currentAnimeSlug,
+        isCurrentEndless ? 20 : 35,
+        !isCurrentEndless ? `daily_${currentAnimeSlug}_${currentMode}_${getDailyDateString()}` : undefined
+      );
       if (isCurrentEndless) {
         setEndlessStreak((s) => {
           const next = s + 1;
@@ -1049,6 +1126,7 @@ export const App: React.FC<{
   };
 
   const handleToggleEndless = (mode: GameMode, val: boolean) => {
+    setSpeedrunByMode((prev) => ({ ...prev, [mode]: false }));
     setEndlessByMode((prev) => ({
       ...prev,
       [mode]: val,
@@ -1067,6 +1145,7 @@ export const App: React.FC<{
   };
 
   const handleToggleSurvival = (mode: GameMode, active: boolean) => {
+    setSpeedrunByMode((prev) => ({ ...prev, [mode]: false }));
     if (active && !endlessByMode[mode]) {
       setEndlessByMode((prev) => ({ ...prev, [mode]: true }));
     }
@@ -1077,6 +1156,11 @@ export const App: React.FC<{
     if (active) {
       handleNextEndlessChallenge();
     }
+  };
+
+  const handleToggleSpeedrun = (mode: GameMode, active: boolean) => {
+    setSpeedrunByMode((prev) => ({ ...prev, [mode]: active }));
+    setShowVictoryModal(false);
   };
 
   const handleRestartSurvival = () => {
@@ -1250,6 +1334,25 @@ export const App: React.FC<{
             </h2>
           </div>
           <div className="mt-2.5 flex flex-wrap items-center justify-center gap-2">
+            {/* S3: Badge de Nível de Maestria por Anime com Título Canônico e Barra de XP */}
+            <div
+              className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#0d1426]/95 border border-amber-500/35 text-xs font-semibold shadow-md"
+              title={`Maestria de ${animeConfig.title}: Nível ${masteryInfo.level} (${masteryInfo.title}) • ${masteryInfo.currentLevelXp}/${masteryInfo.nextLevelXp} XP para o próximo nível`}
+            >
+              <Award size={14} className="text-amber-400 shrink-0" />
+              <span className="text-amber-300 font-black">Nv.{masteryInfo.level}</span>
+              <span className="text-white font-bold">{masteryInfo.title}</span>
+              <div className="w-14 sm:w-16 h-1.5 bg-[#162138] rounded-full overflow-hidden border border-white/10">
+                <div
+                  className="h-full bg-gradient-to-r from-amber-500 to-yellow-300 transition-all duration-500"
+                  style={{ width: `${masteryInfo.progressPct}%` }}
+                />
+              </div>
+              <span className="text-[10px] font-bold text-slate-400">
+                {masteryInfo.currentLevelXp}/{masteryInfo.nextLevelXp} XP
+              </span>
+            </div>
+
             {animeConfig.mangaCoverage && (
               <button
                 onClick={() => setShowMangaCoverage(true)}
@@ -1278,7 +1381,7 @@ export const App: React.FC<{
           currentAnimeSlug={currentAnimeSlug}
         />
 
-        {/* Card Padrão de Cabeçalho do Modo (Nome, Ícone, Descrição e Alternador Diário / Infinito / Sobrevivência) */}
+        {/* Card Padrão de Cabeçalho do Modo (Nome, Ícone, Descrição e Alternador Diário / Infinito / Sobrevivência / Speedrun) */}
         {currentMode === 'classic' && (
           <ModeHeaderCard
             title="Modo Clássico"
@@ -1294,6 +1397,8 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('classic', act)}
+            isSpeedrun={isCurrentSpeedrun}
+            onToggleSpeedrun={(act) => handleToggleSpeedrun('classic', act)}
             healedBanner={survivalHealed}
             onChallengeFriend={handleChallengeFriend}
             activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'classic' ? activeFriendChallenge : null}
@@ -1315,6 +1420,8 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('wanted', act)}
+            isSpeedrun={isCurrentSpeedrun}
+            onToggleSpeedrun={(act) => handleToggleSpeedrun('wanted', act)}
             healedBanner={survivalHealed}
             onChallengeFriend={handleChallengeFriend}
             activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'wanted' ? activeFriendChallenge : null}
@@ -1336,6 +1443,8 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('scene', act)}
+            isSpeedrun={isCurrentSpeedrun}
+            onToggleSpeedrun={(act) => handleToggleSpeedrun('scene', act)}
             healedBanner={survivalHealed}
             onChallengeFriend={handleChallengeFriend}
             activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'scene' ? activeFriendChallenge : null}
@@ -1357,6 +1466,8 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('voice', act)}
+            isSpeedrun={isCurrentSpeedrun}
+            onToggleSpeedrun={(act) => handleToggleSpeedrun('voice', act)}
             healedBanner={survivalHealed}
             onChallengeFriend={handleChallengeFriend}
             activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'voice' ? activeFriendChallenge : null}
@@ -1378,6 +1489,8 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('zoom', act)}
+            isSpeedrun={isCurrentSpeedrun}
+            onToggleSpeedrun={(act) => handleToggleSpeedrun('zoom', act)}
             healedBanner={survivalHealed}
             onChallengeFriend={handleChallengeFriend}
             activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'zoom' ? activeFriendChallenge : null}
@@ -1388,42 +1501,64 @@ export const App: React.FC<{
           />
         )}
 
+        {/* N5: Arena Speedrun 60s quando o sub-modo Speedrun está ativo nos modos base */}
+        {isCurrentSpeedrun &&
+          ['classic', 'wanted', 'scene', 'voice', 'zoom'].includes(currentMode) && (
+            <SpeedrunArena
+              characters={characters}
+              animeSlug={currentAnimeSlug}
+              animeTitle={animeConfig.title}
+              themeColor={animeConfig.themeColor}
+              onExitSpeedrun={() => handleToggleSpeedrun(currentMode, false)}
+            />
+          )}
+
         {/* Quadro de Dicas & Botão Desistir */}
-        {currentMode !== 'ability' && currentMode !== 'grid' && currentMode !== 'higherlower' && (
-          <HintBox
-            targetCharacter={targetCharacter}
-            guessCount={currentGuesses.length}
-            isWon={isFinished}
-            onSurrender={handleRequestSurrender}
-            disabled={isFinished}
-            currentMode={currentMode}
-            currentAnimeSlug={currentAnimeSlug}
-          />
-        )}
+        {!isCurrentSpeedrun &&
+          currentMode !== 'ability' &&
+          currentMode !== 'grid' &&
+          currentMode !== 'higherlower' &&
+          currentMode !== 'connections' && (
+            <HintBox
+              targetCharacter={targetCharacter}
+              guessCount={currentGuesses.length}
+              isWon={isFinished}
+              onSurrender={handleRequestSurrender}
+              disabled={isFinished}
+              currentMode={currentMode}
+              currentAnimeSlug={currentAnimeSlug}
+            />
+          )}
 
         {/* Botão Discreto para Reabrir o Modal de Resultado quando fechado */}
-        {isFinished && !showVictoryModal && currentMode !== 'ability' && currentMode !== 'grid' && currentMode !== 'higherlower' && (
-          <div className="max-w-md mx-auto my-4 flex items-center justify-center gap-3 animate-fadeIn flex-wrap">
-            <button
-              onClick={() => setShowVictoryModal(true)}
-              style={{ backgroundColor: animeConfig.themeColor }}
-              className="inline-flex items-center gap-2 px-5 py-2.5 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:opacity-90"
-            >
-              <span>{currentIsWon ? '🏆 Ver Painel de Vitória' : '💀 Ver Personagem Secreto'}</span>
-            </button>
-            {isCurrentEndless && (
+        {!isCurrentSpeedrun &&
+          isFinished &&
+          !showVictoryModal &&
+          currentMode !== 'ability' &&
+          currentMode !== 'grid' &&
+          currentMode !== 'higherlower' &&
+          currentMode !== 'connections' && (
+            <div className="max-w-md mx-auto my-4 flex items-center justify-center gap-3 animate-fadeIn flex-wrap">
               <button
-                onClick={survivalState.active && survivalState.hearts <= 0 ? handleRestartSurvival : handleNextEndlessChallenge}
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:brightness-110"
+                onClick={() => setShowVictoryModal(true)}
+                style={{ backgroundColor: animeConfig.themeColor }}
+                className="inline-flex items-center gap-2 px-5 py-2.5 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:opacity-90"
               >
-                <span>{survivalState.active && survivalState.hearts <= 0 ? '🔥 Reiniciar Sobrevivência' : '⏩ Próximo Desafio'}</span>
+                <span>{currentIsWon ? '🏆 Ver Painel de Vitória' : '💀 Ver Personagem Secreto'}</span>
               </button>
-            )}
-          </div>
-        )}
+              {isCurrentEndless && (
+                <button
+                  onClick={survivalState.active && survivalState.hearts <= 0 ? handleRestartSurvival : handleNextEndlessChallenge}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-xs font-black rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95 hover:brightness-110"
+                >
+                  <span>{survivalState.active && survivalState.hearts <= 0 ? '🔥 Reiniciar Sobrevivência' : '⏩ Próximo Desafio'}</span>
+                </button>
+              )}
+            </div>
+          )}
 
         {/* MODO CLÁSSICO */}
-        {currentMode === 'classic' && (
+        {currentMode === 'classic' && !isCurrentSpeedrun && (
           <div>
             {isCurrentEndless && survivalState.active && !isFinished && (
               <div className="max-w-md mx-auto mb-3 text-center">
@@ -1445,7 +1580,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO PROCURADO */}
-        {currentMode === 'wanted' && (
+        {currentMode === 'wanted' && !isCurrentSpeedrun && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
               {/* Brilho decorativo no fundo */}
@@ -1506,7 +1641,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO CENA & JUTSU */}
-        {currentMode === 'scene' && currentSceneChallenge && (
+        {currentMode === 'scene' && currentSceneChallenge && !isCurrentSpeedrun && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6">
               <ScenePlayerCard
@@ -1532,7 +1667,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO VOZ & SOM */}
-        {currentMode === 'voice' && currentVoiceChallenge && (
+        {currentMode === 'voice' && currentVoiceChallenge && !isCurrentSpeedrun && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6">
               <VoicePlayerCard
@@ -1576,7 +1711,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO ZOOM / OLHOS */}
-        {currentMode === 'zoom' && (
+        {currentMode === 'zoom' && !isCurrentSpeedrun && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
               {/* Brilho decorativo no fundo */}
@@ -1665,6 +1800,24 @@ export const App: React.FC<{
               animeTitle={animeConfig.title}
               themeColor={animeConfig.themeColor}
               inline
+            />
+          </Suspense>
+        )}
+
+        {/* N4: MODO CONEXÕES 4x4 (ESTILO POKENNECTION.COM) */}
+        {currentMode === 'connections' && (
+          <Suspense fallback={<div className="text-center py-12 text-slate-400 text-xs">Carregando Modo Conexões...</div>}>
+            <AnimeConnectionsMode
+              key={`connections-${currentAnimeSlug}`}
+              characters={characters}
+              animeSlug={currentAnimeSlug}
+              animeTitle={animeConfig.title}
+              themeColor={animeConfig.themeColor}
+              initialFriendChallenge={activeFriendChallenge && activeFriendChallenge.m === 'connections' ? activeFriendChallenge : null}
+              onClearFriendChallenge={() => {
+                setActiveFriendChallenge(null);
+                clearChallengeQueryParam();
+              }}
             />
           </Suspense>
         )}
