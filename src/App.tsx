@@ -85,6 +85,7 @@ export const App: React.FC<{
       voice: initialMode === 'voice',
       grid: initialMode === 'grid',
       scene: initialMode === 'scene',
+      higherlower: false,
     };
   });
 
@@ -145,6 +146,7 @@ export const App: React.FC<{
     voice: 0,
     grid: 0,
     scene: 0,
+    higherlower: 0,
   });
 
   // Modo Treino (Infinito): Personagem Aleatório e Contador de Sequência
@@ -654,6 +656,7 @@ export const App: React.FC<{
     voice: { guesses: [], isWon: false },
     grid: { guesses: [], isWon: false },
     scene: { guesses: [], isWon: false },
+    higherlower: { guesses: [], isWon: false },
   });
 
   // Armazenamento de estado independente por modo no Modo Treino / Infinito
@@ -665,6 +668,7 @@ export const App: React.FC<{
     voice: { guesses: [], isWon: false },
     grid: { guesses: [], isWon: false },
     scene: { guesses: [], isWon: false },
+    higherlower: { guesses: [], isWon: false },
   });
 
   const modeStates = isCurrentEndless ? endlessModeStates : dailyModeStates;
@@ -677,7 +681,6 @@ export const App: React.FC<{
   const [showStats, setShowStats] = useState<boolean>(false);
   const [showMangaCoverage, setShowMangaCoverage] = useState<boolean>(false);
   const [showSceneGallery, setShowSceneGallery] = useState<boolean>(false);
-  const [showHigherOrLower, setShowHigherOrLower] = useState<boolean>(false);
 
   // Estatísticas Globais do Jogador
   const [stats, setStats] = useState<GameStats>(() => {
@@ -740,6 +743,7 @@ export const App: React.FC<{
       voice: { guesses: [], isWon: false },
       grid: { guesses: [], isWon: false },
       scene: { guesses: [], isWon: false },
+      higherlower: { guesses: [], isWon: false },
     };
 
     modesList.forEach((mode) => {
@@ -1263,20 +1267,6 @@ export const App: React.FC<{
                 </span>
               </button>
             )}
-
-            {/* N1: Botão de Acesso Rápido ao Minigame Maior ou Menor (Higher or Lower) */}
-            <button
-              type="button"
-              onClick={() => setShowHigherOrLower(true)}
-              className="group inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/40 text-amber-300 hover:text-amber-200 text-xs font-black shadow-md transition-all active:scale-95"
-              title="Jogar o Minigame Maior ou Menor (Recompensa, Linha do Tempo e Poder)"
-            >
-              <Swords size={13} className="text-amber-400" />
-              <span>⚡ Minigame: Maior ou Menor</span>
-              <span className="text-[9px] uppercase font-black tracking-wider px-1.5 py-0.5 rounded-md bg-amber-500 text-black">
-                Novo!
-              </span>
-            </button>
           </div>
         </div>
 
@@ -1399,7 +1389,7 @@ export const App: React.FC<{
         )}
 
         {/* Quadro de Dicas & Botão Desistir */}
-        {currentMode !== 'ability' && currentMode !== 'grid' && (
+        {currentMode !== 'ability' && currentMode !== 'grid' && currentMode !== 'higherlower' && (
           <HintBox
             targetCharacter={targetCharacter}
             guessCount={currentGuesses.length}
@@ -1412,7 +1402,7 @@ export const App: React.FC<{
         )}
 
         {/* Botão Discreto para Reabrir o Modal de Resultado quando fechado */}
-        {isFinished && !showVictoryModal && currentMode !== 'ability' && currentMode !== 'grid' && (
+        {isFinished && !showVictoryModal && currentMode !== 'ability' && currentMode !== 'grid' && currentMode !== 'higherlower' && (
           <div className="max-w-md mx-auto my-4 flex items-center justify-center gap-3 animate-fadeIn flex-wrap">
             <button
               onClick={() => setShowVictoryModal(true)}
@@ -1664,6 +1654,21 @@ export const App: React.FC<{
           </Suspense>
         )}
 
+        {/* MODO MAIOR OU MENOR */}
+        {currentMode === 'higherlower' && (
+          <Suspense fallback={<div className="text-center py-12 text-slate-400 text-xs">Carregando Modo Maior ou Menor...</div>}>
+            <HigherOrLowerModal
+              key={`hol-${currentAnimeSlug}`}
+              characters={characters}
+              arcs={animeConfig.arcs}
+              animeSlug={currentAnimeSlug}
+              animeTitle={animeConfig.title}
+              themeColor={animeConfig.themeColor}
+              inline
+            />
+          </Suspense>
+        )}
+
       </main>
 
       {/* Footer */}
@@ -1757,16 +1762,6 @@ export const App: React.FC<{
           <SceneGalleryModal
             initialAnimeSlug={currentAnimeSlug}
             onClose={() => setShowSceneGallery(false)}
-          />
-        )}
-        {showHigherOrLower && (
-          <HigherOrLowerModal
-            characters={characters}
-            arcs={animeConfig.arcs}
-            animeSlug={currentAnimeSlug}
-            animeTitle={animeConfig.title}
-            themeColor={animeConfig.themeColor}
-            onClose={() => setShowHigherOrLower(false)}
           />
         )}
       </Suspense>

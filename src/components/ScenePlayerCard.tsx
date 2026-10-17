@@ -18,16 +18,16 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   // Toggle de cor: por padrão inicia em Preto e Branco (grayscale)
   const [isColorEnabled, setIsColorEnabled] = useState<boolean>(false);
 
-  // Play / Pausa, Velocidade (0.5x / 1x - M3) e Tela Cheia (Categoria 5.1)
+  // Play / Pausa, Velocidade (0.5x / 1x / 2x - M3) e Tela Cheia (Categoria 5.1)
   const [isPaused, setIsPaused] = useState<boolean>(false);
-  const [isSlowMo, setIsSlowMo] = useState<boolean>(false);
+  const [playbackSpeed, setPlaybackSpeed] = useState<1 | 0.5 | 2>(1);
   const [isFullscreen, setIsFullscreen] = useState<boolean>(false);
   const [useFallbackImg, setUseFallbackImg] = useState<boolean>(false);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const isPausedRef = useRef<boolean>(false);
-  const isSlowMoRef = useRef<boolean>(false);
+  const playbackSpeedRef = useRef<1 | 0.5 | 2>(1);
   const frameIndexRef = useRef<number>(0);
   const timerRef = useRef<number | null>(null);
   const decoderRef = useRef<any>(null);
@@ -35,22 +35,26 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
   // Carregamento via Blob URL (fallback caso ImageDecoder não esteja disponível)
   const [blobUrl, setBlobUrl] = useState<string>('');
 
-  // Sincroniza refs de pausa e câmera lenta com os estados
+  // Sincroniza refs de pausa e velocidade com os estados
   useEffect(() => {
     isPausedRef.current = isPaused;
   }, [isPaused]);
 
   useEffect(() => {
-    isSlowMoRef.current = isSlowMo;
-  }, [isSlowMo]);
+    playbackSpeedRef.current = playbackSpeed;
+  }, [playbackSpeed]);
+
+  const handleCycleSpeed = () => {
+    setPlaybackSpeed((prev) => (prev === 1 ? 0.5 : prev === 0.5 ? 2 : 1));
+  };
 
   // Sempre que mudar de desafio, reinicia estados de pausa, velocidade, cor e frame
   useEffect(() => {
     setIsColorEnabled(false);
     setIsPaused(false);
-    setIsSlowMo(false);
+    setPlaybackSpeed(1);
     isPausedRef.current = false;
-    isSlowMoRef.current = false;
+    playbackSpeedRef.current = 1;
     frameIndexRef.current = 0;
   }, [challenge.id]);
 
@@ -101,9 +105,14 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
           }
         }
 
-        // Duração em microssegundos no WebCodecs ImageDecoder -> converte para ms (M3: dobra duração em 0.5x)
+        // Duração em microssegundos no WebCodecs ImageDecoder -> converte para ms (M3: 0.5x lento, 1x normal, 2x rápido)
         const baseDurationMs = result.image.duration ? Math.max(16, result.image.duration / 1000) : 42;
-        const durationMs = isSlowMoRef.current ? baseDurationMs * 2.2 : baseDurationMs;
+        const durationMs =
+          playbackSpeedRef.current === 0.5
+            ? baseDurationMs * 2.2
+            : playbackSpeedRef.current === 2
+            ? Math.max(8, baseDurationMs * 0.48)
+            : baseDurationMs;
         result.image.close();
 
         if (!active || isPausedRef.current) return;
@@ -300,15 +309,23 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
 
           <button
             type="button"
-            onClick={() => setIsSlowMo((s) => !s)}
+            onClick={handleCycleSpeed}
             className={`text-[10px] font-black uppercase px-3 py-1 rounded-full border transition-all flex items-center gap-1 shadow-sm active:scale-95 ${
-              isSlowMo
+              playbackSpeed === 0.5
                 ? 'bg-purple-500/20 text-purple-300 border-purple-500/40 hover:bg-purple-500/30'
+                : playbackSpeed === 2
+                ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40 hover:bg-emerald-500/30'
                 : 'bg-slate-800 text-slate-300 border-slate-700 hover:bg-slate-700'
             }`}
-            title="Alternar câmera lenta (0.5x) ou velocidade normal (1x)"
+            title="Alternar velocidade da cena: 1x → 0.5x (Câmera Lenta) → 2x (Rápido)"
           >
-            <span>{isSlowMo ? '🐢 Câmera Lenta: 0.5x' : '⚡ Velocidade: 1x'}</span>
+            <span>
+              {playbackSpeed === 0.5
+                ? '🐢 Câmera Lenta: 0.5x'
+                : playbackSpeed === 2
+                ? '🚀 Velocidade: 2x'
+                : '⚡ Velocidade: 1x'}
+            </span>
           </button>
         </div>
 
@@ -357,7 +374,7 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
           />
         )}
 
-        {/* Badge discreto de "Pausado" ou "0.5x" no canto superior esquerdo */}
+        {/* Badge discreto de "Pausado", "0.5x" ou "2x" no canto superior esquerdo */}
         <div className="absolute top-3 left-3 flex items-center gap-1.5 z-20">
           {isPaused && (
             <div className="px-2.5 py-1 rounded-lg bg-black/70 backdrop-blur-md border border-white/20 text-white text-[11px] font-black uppercase tracking-wider flex items-center gap-1.5 animate-fadeIn">
@@ -365,26 +382,33 @@ export const ScenePlayerCard: React.FC<ScenePlayerCardProps> = ({
               <span>Pausado</span>
             </div>
           )}
-          {isSlowMo && !isPaused && (
+          {playbackSpeed === 0.5 && !isPaused && (
             <div className="px-2.5 py-1 rounded-lg bg-purple-950/80 backdrop-blur-md border border-purple-400/40 text-purple-200 text-[10px] font-black uppercase tracking-wider flex items-center gap-1 animate-fadeIn">
               <span>🐢 0.5x</span>
             </div>
           )}
+          {playbackSpeed === 2 && !isPaused && (
+            <div className="px-2.5 py-1 rounded-lg bg-emerald-950/80 backdrop-blur-md border border-emerald-400/40 text-emerald-200 text-[10px] font-black uppercase tracking-wider flex items-center gap-1 animate-fadeIn">
+              <span>🚀 2x</span>
+            </div>
+          )}
         </div>
 
-        {/* 5.1 & M3 - Controles Modernos de Velocidade (0.5x/1x), Pausa e Tela Cheia sobrepostos na cena */}
+        {/* 5.1 & M3 - Controles Modernos de Velocidade (0.5x / 1x / 2x), Pausa e Tela Cheia sobrepostos na cena */}
         <div className="absolute bottom-3 right-3 flex items-center gap-2 z-20">
           <button
             type="button"
-            onClick={() => setIsSlowMo((s) => !s)}
+            onClick={handleCycleSpeed}
             className={`px-2.5 py-2 rounded-xl backdrop-blur-md text-[11px] font-black border transition-all shadow-lg active:scale-90 flex items-center justify-center ${
-              isSlowMo
+              playbackSpeed === 0.5
                 ? 'bg-purple-600/85 hover:bg-purple-500 text-white border-purple-300/50'
+                : playbackSpeed === 2
+                ? 'bg-emerald-600/85 hover:bg-emerald-500 text-white border-emerald-300/50'
                 : 'bg-black/60 hover:bg-black/85 text-white border-white/20'
             }`}
-            title={isSlowMo ? 'Voltar para velocidade normal (1x)' : 'Ativar câmera lenta (0.5x)'}
+            title="Alternar velocidade (1x → 0.5x → 2x)"
           >
-            <span>{isSlowMo ? '0.5x' : '1x'}</span>
+            <span>{playbackSpeed}x</span>
           </button>
 
           <button

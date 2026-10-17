@@ -5743,6 +5743,60 @@ export const EXCLUSIVE_CHALLENGES: ExclusiveChallenge[] = [
     ]
   },
   {
+    "id": "exc-op-134-sommers",
+    "animeSlug": "one-piece",
+    "category": "Akuma no Mi",
+    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
+    "targetTitle": "Iba Iba no Mi",
+    "badgeTitle": "Paramecia dos Espinhos",
+    "targetCharacterId": "sommers",
+    "targetCharacterName": "Sommers",
+    "validCharacterIds": [
+      "sommers"
+    ],
+    "clues": [
+      {
+        "label": "Espinhos do Amor Doloroso",
+        "value": "Cria vinhas e espinhos invisíveis que cercam o alvo e ferem quem tentar tocá-lo ou abraçá-lo"
+      },
+      {
+        "label": "Quanto Maior o Amor, Maior a Dor",
+        "value": "Os espinhos causam dor proporcional ao afeto que o protetor sente pela vítima cercada"
+      },
+      {
+        "label": "Cavaleiro Sagrado em Elbaf",
+        "value": "Membro da Família Shepherd dos Cavaleiros de Deus infiltrado no Submundo e na escola de Elbaf"
+      }
+    ]
+  },
+  {
+    "id": "exc-op-135-killingham",
+    "animeSlug": "one-piece",
+    "category": "Akuma no Mi",
+    "questionTitle": "A quem pertence ou já pertenceu esta Akuma no Mi?",
+    "targetTitle": "Ryu Ryu no Mi: Modelo Kirin",
+    "badgeTitle": "Zoan Mítica dos Sonhos / Qilin",
+    "targetCharacterId": "killingham",
+    "targetCharacterName": "Killingham",
+    "validCharacterIds": [
+      "killingham"
+    ],
+    "clues": [
+      {
+        "label": "Materialização de Sonhos e Pesadelos",
+        "value": "Faz vítimas adormecerem e materializa na realidade os monstros e medos de seus sonhos"
+      },
+      {
+        "label": "Besta Mítica Qilin (Kirin)",
+        "value": "Zoan Mítica Desperta com nuvens brancas flutuantes, pescoço longo e chifres sagrados"
+      },
+      {
+        "label": "Cavaleiro Sagrado de Elbaf",
+        "value": "Membro da Família Limoshiv dos Cavaleiros de Deus que usa capacete respiratório em forma de bolha"
+      }
+    ]
+  },
+  {
     "id": "exc-naruto-1-naruto-uzumaki",
     "animeSlug": "naruto",
     "category": "Jutsus Secretos & Kekkei Genkai",

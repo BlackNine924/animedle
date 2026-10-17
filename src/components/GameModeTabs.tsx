@@ -1,6 +1,6 @@
 import React from 'react';
 import { GameMode } from '../types/anime';
-import { Grid, Eye, Zap, ZoomIn, Film, LayoutGrid } from 'lucide-react';
+import { Grid, Eye, Zap, ZoomIn, Film, LayoutGrid, Swords } from 'lucide-react';
 
 interface GameModeTabsProps {
   currentMode: GameMode;
@@ -59,12 +59,13 @@ export const GameModeTabs: React.FC<GameModeTabsProps> = ({
     { id: 'ability', label: exclusiveLabel, icon: <Zap size={15} />, isExclusive: true },
     { id: 'zoom', label: 'Zoom', icon: <ZoomIn size={15} /> },
     { id: 'grid', label: 'Grid', icon: <LayoutGrid size={15} /> },
+    { id: 'higherlower', label: 'Maior ou Menor', icon: <Swords size={15} /> },
   ];
 
-  const gridColsClass = 'grid-cols-3 sm:grid-cols-6 max-w-3xl';
+  const gridColsClass = 'grid-cols-2 sm:grid-cols-4 md:grid-cols-7 max-w-4xl';
 
   return (
-    <div className={`flex items-center justify-center p-1.5 bg-[#0d1426] border border-[#202b43] rounded-2xl mx-auto my-6 shadow-lg shadow-black/20 ${modes.length === 6 ? 'max-w-3xl' : 'max-w-4xl'}`}>
+    <div className="flex items-center justify-center p-1.5 bg-[#0d1426] border border-[#202b43] rounded-2xl mx-auto my-6 shadow-lg shadow-black/20 max-w-4xl">
       <div className={`grid ${gridColsClass} gap-1 w-full`}>
         {modes.map((mode) => {
           const isActive = currentMode === mode.id;

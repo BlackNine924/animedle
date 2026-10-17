@@ -120,7 +120,7 @@ export interface GuessResult {
   isCorrect: boolean;
 }
 
-export type GameMode = 'classic' | 'wanted' | 'ability' | 'zoom' | 'voice' | 'grid' | 'scene';
+export type GameMode = 'classic' | 'wanted' | 'ability' | 'zoom' | 'voice' | 'grid' | 'scene' | 'higherlower';
 
 export interface SceneChallenge {
   id: string;

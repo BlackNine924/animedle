@@ -4909,14 +4909,16 @@
     "id": "sommers",
     "name": "Sommers",
     "gender": "Masculino",
-    "species": "Gigante",
+    "species": "Humano",
     "affiliation": [
+      "Governo Mundial",
+      "Cavaleiros Sagrados",
       "Elbaf"
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Nenhum",
-    "fruitType": "Nenhum",
+    "styleOrPower": "Paramecia (Iba Iba no Mi)",
+    "fruitType": "Paramecia",
     "debutArc": "Elbaf",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/sommers.png",
@@ -4930,12 +4932,14 @@
     "gender": "Masculino",
     "species": "Humano",
     "affiliation": [
-      "Piratas do Novo Mundo"
+      "Governo Mundial",
+      "Cavaleiros Sagrados",
+      "Elbaf"
     ],
     "haki": "Armamento & Observação",
     "bounty": 0,
-    "styleOrPower": "Nenhum",
-    "fruitType": "Nenhum",
+    "styleOrPower": "Zoan Mítica (Ryu Ryu no Mi: Modelo Kirin)",
+    "fruitType": "Zoan",
     "debutArc": "Elbaf",
     "status": "Vivo",
     "avatar": "/avatars/one-piece/killingham.png",

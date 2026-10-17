@@ -31,6 +31,7 @@ export function getDailyModeStatuses(slug: string, todayStr: string): Record<Gam
     zoom: 'pending',
     grid: 'pending',
     voice: 'pending',
+    higherlower: 'pending',
   };
 
   try {
