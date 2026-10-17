@@ -400,6 +400,39 @@ const GridBoard: React.FC<GridBoardProps> = ({
                 const char = cells[cellIndex];
                 const rarity = cellRarities[cellIndex];
                 const isSelected = selectedCell === cellIndex;
+                const validPoolCount = cellAnswers[cellIndex]?.matches.length || 0;
+
+                // G1: Classificação visual da Dificuldade / Escassez do Cruzamento na célula vazia
+                const difficultyBadge =
+                  validPoolCount <= 1
+                    ? {
+                        text: '💎 1 único!',
+                        classes: 'bg-cyan-500/20 text-cyan-300 border-cyan-400/50 shadow-[0_0_8px_rgba(34,211,238,0.25)]',
+                        tip: 'Célula Ultra-Rara: Apenas 1 personagem em todo o anime cumpre este cruzamento!',
+                      }
+                    : validPoolCount === 2
+                    ? {
+                        text: '💎 2 possíveis',
+                        classes: 'bg-cyan-500/15 text-cyan-300 border-cyan-400/40',
+                        tip: 'Célula Muito Rara: Apenas 2 personagens cumprem este cruzamento!',
+                      }
+                    : validPoolCount <= 4
+                    ? {
+                        text: `🔥 ${validPoolCount} possíveis`,
+                        classes: 'bg-purple-500/20 text-purple-300 border-purple-400/40',
+                        tip: `Cruzamento Difícil (Épico): Existem ${validPoolCount} personagens possíveis.`,
+                      }
+                    : validPoolCount <= 9
+                    ? {
+                        text: `⚡ ${validPoolCount} opções`,
+                        classes: 'bg-sky-500/15 text-sky-300 border-sky-400/35',
+                        tip: `Cruzamento Médio: Existem ${validPoolCount} personagens possíveis.`,
+                      }
+                    : {
+                        text: `🟢 ${validPoolCount} opções`,
+                        classes: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
+                        tip: `Cruzamento Amplo: Existem ${validPoolCount} personagens possíveis.`,
+                      };
 
                 return (
                   <button
@@ -460,8 +493,15 @@ const GridBoard: React.FC<GridBoardProps> = ({
                         </div>
                       </>
                     ) : (
-                      <div className="flex flex-col items-center justify-center text-slate-500 group-hover:text-slate-300">
-                        <span className="text-2xl sm:text-3xl font-light mb-1">+</span>
+                      <div className="flex flex-col items-center justify-center text-slate-500 group-hover:text-slate-300 w-full">
+                        {/* G1: Indicador de Dificuldade do Cruzamento na Célula Vazia */}
+                        <span
+                          title={difficultyBadge.tip}
+                          className={`absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded-md border text-[8px] sm:text-[9px] font-black leading-none tracking-tight ${difficultyBadge.classes}`}
+                        >
+                          {difficultyBadge.text}
+                        </span>
+                        <span className="text-2xl sm:text-3xl font-light mb-0.5 mt-2">+</span>
                         <span className="text-[10px] uppercase font-black tracking-tight">
                           {guessesLeft > 0 ? 'Palpitar' : 'Bloqueado'}
                         </span>
@@ -788,6 +828,33 @@ const GridBoard: React.FC<GridBoardProps> = ({
                 </span>
               </button>
             </div>
+
+            {/* G1: Indicador de Escassez / Dificuldade do Cruzamento no Modal */}
+            {(() => {
+              const poolCount = cellAnswers[selectedCell]?.matches.length || 0;
+              const isUltra = poolCount <= 2;
+              const isEpic = poolCount > 2 && poolCount <= 4;
+              return (
+                <div
+                  className={`mb-3 px-3 py-1.5 rounded-xl border text-[11px] font-bold flex items-center justify-between ${
+                    isUltra
+                      ? 'bg-cyan-500/15 border-cyan-400/40 text-cyan-200'
+                      : isEpic
+                      ? 'bg-purple-500/15 border-purple-400/40 text-purple-200'
+                      : 'bg-slate-800/70 border-slate-700 text-slate-300'
+                  }`}
+                >
+                  <span>
+                    {poolCount === 1
+                      ? '💎 Cruzamento Ultra-Raro: Apenas 1 personagem possível!'
+                      : poolCount === 2
+                      ? '💎 Cruzamento Muito Raro: Apenas 2 personagens possíveis!'
+                      : `🎯 Dificuldade do Cruzamento: ${poolCount} personagens possíveis`}
+                  </span>
+                  <span className="text-[10px] opacity-80">Toque nos títulos acima p/ ajuda</span>
+                </div>
+              );
+            })()}
 
             {/* Mensagem de Erro se houver */}
             {errorMessage && (

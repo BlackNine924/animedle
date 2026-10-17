@@ -1,23 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { Navbar } from './components/Navbar';
 import { GameModeTabs } from './components/GameModeTabs';
 import { CharacterSearchInput } from './components/CharacterSearchInput';
 import { ClassicGrid } from './components/ClassicGrid';
 import { SimpleGuessList } from './components/SimpleGuessList';
 import { VictoryModal } from './components/VictoryModal';
-import { HowToPlayModal } from './components/HowToPlayModal';
-import { StatsModal } from './components/StatsModal';
 import { HintBox } from './components/HintBox';
-import { MangaCoverageModal } from './components/MangaCoverageModal';
-import { ExclusiveAnimeMode } from './components/ExclusiveAnimeMode';
-import { AnimeGridMode } from './components/AnimeGridMode';
 import { AchievementToast } from './components/AchievementToast';
 import { ObfuscatedMysteryAvatar } from './components/ObfuscatedMysteryAvatar';
 import { VoicePlayerCard } from './components/VoicePlayerCard';
 import { ScenePlayerCard } from './components/ScenePlayerCard';
 import { ModeHeaderCard } from './components/ModeHeaderCard';
 import { SurrenderConfirmModal } from './components/SurrenderConfirmModal';
-import { SceneGalleryModal } from './components/SceneGalleryModal';
 import { unlockAchievement, updateGlobalStatsOnOutcome } from './data/achievements';
 import { getVoiceChallengesForAnime } from './data/voices/voiceChallenges';
 import { getSceneChallengesForAnime } from './data/scenes/sceneChallenges';
@@ -27,7 +21,16 @@ import { NARUTO_EXCLUSIVE_JUTSUS } from './data/animes/naruto/exclusiveJutsus';
 import { Character, GameMode, GuessResult, GameStats, VoiceChallenge, SceneChallenge } from './types/anime';
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
 import { getOrAdvanceEndlessIndex } from './utils/endlessDeck';
-import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen } from 'lucide-react';
+import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen, Swords } from 'lucide-react';
+
+// T1: Lazy Loading de Modais e Modos Pesados para reduzir drasticamente o bundle inicial (index.js)
+const HowToPlayModal = React.lazy(() => import('./components/HowToPlayModal').then((m) => ({ default: m.HowToPlayModal })));
+const StatsModal = React.lazy(() => import('./components/StatsModal').then((m) => ({ default: m.StatsModal })));
+const MangaCoverageModal = React.lazy(() => import('./components/MangaCoverageModal').then((m) => ({ default: m.MangaCoverageModal })));
+const SceneGalleryModal = React.lazy(() => import('./components/SceneGalleryModal').then((m) => ({ default: m.SceneGalleryModal })));
+const ExclusiveAnimeMode = React.lazy(() => import('./components/ExclusiveAnimeMode').then((m) => ({ default: m.ExclusiveAnimeMode })));
+const AnimeGridMode = React.lazy(() => import('./components/AnimeGridMode').then((m) => ({ default: m.AnimeGridMode })));
+const HigherOrLowerModal = React.lazy(() => import('./components/HigherOrLowerModal').then((m) => ({ default: m.HigherOrLowerModal })));
 import {
   SurvivalState,
   getSurvivalState,
@@ -674,6 +677,7 @@ export const App: React.FC<{
   const [showStats, setShowStats] = useState<boolean>(false);
   const [showMangaCoverage, setShowMangaCoverage] = useState<boolean>(false);
   const [showSceneGallery, setShowSceneGallery] = useState<boolean>(false);
+  const [showHigherOrLower, setShowHigherOrLower] = useState<boolean>(false);
 
   // Estatísticas Globais do Jogador
   const [stats, setStats] = useState<GameStats>(() => {
@@ -1241,8 +1245,8 @@ export const App: React.FC<{
               </span>
             </h2>
           </div>
-          {animeConfig.mangaCoverage && (
-            <div className="mt-2.5 flex items-center justify-center">
+          <div className="mt-2.5 flex flex-wrap items-center justify-center gap-2">
+            {animeConfig.mangaCoverage && (
               <button
                 onClick={() => setShowMangaCoverage(true)}
                 className="group inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0d1426]/90 hover:bg-[#111a2d] border border-[#202b43] hover:border-slate-500/50 text-slate-300 hover:text-white text-xs font-semibold shadow-md transition-all active:scale-95"
@@ -1258,8 +1262,22 @@ export const App: React.FC<{
                   Canônico
                 </span>
               </button>
-            </div>
-          )}
+            )}
+
+            {/* N1: Botão de Acesso Rápido ao Minigame Maior ou Menor (Higher or Lower) */}
+            <button
+              type="button"
+              onClick={() => setShowHigherOrLower(true)}
+              className="group inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/40 text-amber-300 hover:text-amber-200 text-xs font-black shadow-md transition-all active:scale-95"
+              title="Jogar o Minigame Maior ou Menor (Recompensa, Linha do Tempo e Poder)"
+            >
+              <Swords size={13} className="text-amber-400" />
+              <span>⚡ Minigame: Maior ou Menor</span>
+              <span className="text-[9px] uppercase font-black tracking-wider px-1.5 py-0.5 rounded-md bg-amber-500 text-black">
+                Novo!
+              </span>
+            </button>
+          </div>
         </div>
 
         {/* Abas de Modos de Jogo */}
@@ -1550,19 +1568,21 @@ export const App: React.FC<{
 
         {/* MODO HABILIDADE / MODOS EXCLUSIVOS */}
         {currentMode === 'ability' && (
-          <ExclusiveAnimeMode
-            key={`${currentAnimeSlug}-${currentMode}`}
-            animeSlug={currentAnimeSlug}
-            animeTitle={animeConfig.title}
-            characters={characters}
-            themeColor={animeConfig.themeColor}
-            onGlobalStatsChange={(newStats) => setStats(newStats)}
-            initialFriendChallenge={activeFriendChallenge && activeFriendChallenge.m === 'ability' ? activeFriendChallenge : null}
-            onClearFriendChallenge={() => {
-              setActiveFriendChallenge(null);
-              clearChallengeQueryParam();
-            }}
-          />
+          <Suspense fallback={<div className="text-center py-12 text-slate-400 text-xs">Carregando Modo Exclusivo...</div>}>
+            <ExclusiveAnimeMode
+              key={`${currentAnimeSlug}-${currentMode}`}
+              animeSlug={currentAnimeSlug}
+              animeTitle={animeConfig.title}
+              characters={characters}
+              themeColor={animeConfig.themeColor}
+              onGlobalStatsChange={(newStats) => setStats(newStats)}
+              initialFriendChallenge={activeFriendChallenge && activeFriendChallenge.m === 'ability' ? activeFriendChallenge : null}
+              onClearFriendChallenge={() => {
+                setActiveFriendChallenge(null);
+                clearChallengeQueryParam();
+              }}
+            />
+          </Suspense>
         )}
 
         {/* MODO ZOOM / OLHOS */}
@@ -1628,18 +1648,20 @@ export const App: React.FC<{
 
         {/* MODO GRID 3x3 */}
         {currentMode === 'grid' && (
-          <AnimeGridMode
-            key={`grid-${currentAnimeSlug}`}
-            characters={characters}
-            themeColor={animeConfig.themeColor}
-            animeTitle={animeConfig.title}
-            animeSlug={currentAnimeSlug}
-            initialFriendChallenge={activeFriendChallenge && activeFriendChallenge.m === 'grid' ? activeFriendChallenge : null}
-            onClearFriendChallenge={() => {
-              setActiveFriendChallenge(null);
-              clearChallengeQueryParam();
-            }}
-          />
+          <Suspense fallback={<div className="text-center py-12 text-slate-400 text-xs">Carregando Grade 3×3...</div>}>
+            <AnimeGridMode
+              key={`grid-${currentAnimeSlug}`}
+              characters={characters}
+              themeColor={animeConfig.themeColor}
+              animeTitle={animeConfig.title}
+              animeSlug={currentAnimeSlug}
+              initialFriendChallenge={activeFriendChallenge && activeFriendChallenge.m === 'grid' ? activeFriendChallenge : null}
+              onClearFriendChallenge={() => {
+                setActiveFriendChallenge(null);
+                clearChallengeQueryParam();
+              }}
+            />
+          </Suspense>
         )}
 
       </main>
@@ -1702,40 +1724,52 @@ export const App: React.FC<{
         />
       )}
 
-      {showHowToPlay && (
-        <HowToPlayModal
-          onClose={() => setShowHowToPlay(false)}
-          currentMode={currentMode}
-          currentAnimeSlug={currentAnimeSlug}
-          animeConfig={animeConfig}
-        />
-      )}
-      {showStats && (
-        <StatsModal
-          stats={(() => {
-            try {
-              const s = localStorage.getItem('animedle_stats');
-              return s ? JSON.parse(s) : stats;
-            } catch {
-              return stats;
-            }
-          })()}
-          onClose={() => setShowStats(false)}
-          themeColor={animeConfig.themeColor}
-        />
-      )}
-      {showMangaCoverage && (
-        <MangaCoverageModal
-          animeConfig={animeConfig}
-          onClose={() => setShowMangaCoverage(false)}
-        />
-      )}
-      {showSceneGallery && (
-        <SceneGalleryModal
-          initialAnimeSlug={currentAnimeSlug}
-          onClose={() => setShowSceneGallery(false)}
-        />
-      )}
+      <Suspense fallback={null}>
+        {showHowToPlay && (
+          <HowToPlayModal
+            onClose={() => setShowHowToPlay(false)}
+            currentMode={currentMode}
+            currentAnimeSlug={currentAnimeSlug}
+            animeConfig={animeConfig}
+          />
+        )}
+        {showStats && (
+          <StatsModal
+            stats={(() => {
+              try {
+                const s = localStorage.getItem('animedle_stats');
+                return s ? JSON.parse(s) : stats;
+              } catch {
+                return stats;
+              }
+            })()}
+            onClose={() => setShowStats(false)}
+            themeColor={animeConfig.themeColor}
+          />
+        )}
+        {showMangaCoverage && (
+          <MangaCoverageModal
+            animeConfig={animeConfig}
+            onClose={() => setShowMangaCoverage(false)}
+          />
+        )}
+        {showSceneGallery && (
+          <SceneGalleryModal
+            initialAnimeSlug={currentAnimeSlug}
+            onClose={() => setShowSceneGallery(false)}
+          />
+        )}
+        {showHigherOrLower && (
+          <HigherOrLowerModal
+            characters={characters}
+            arcs={animeConfig.arcs}
+            animeSlug={currentAnimeSlug}
+            animeTitle={animeConfig.title}
+            themeColor={animeConfig.themeColor}
+            onClose={() => setShowHigherOrLower(false)}
+          />
+        )}
+      </Suspense>
 
       {/* Notificação Flutuante de Conquistas */}
       <AchievementToast />
