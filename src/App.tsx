@@ -1557,6 +1557,11 @@ export const App: React.FC<{
             characters={characters}
             themeColor={animeConfig.themeColor}
             onGlobalStatsChange={(newStats) => setStats(newStats)}
+            initialFriendChallenge={activeFriendChallenge && activeFriendChallenge.m === 'ability' ? activeFriendChallenge : null}
+            onClearFriendChallenge={() => {
+              setActiveFriendChallenge(null);
+              clearChallengeQueryParam();
+            }}
           />
         )}
 
@@ -1629,6 +1634,11 @@ export const App: React.FC<{
             themeColor={animeConfig.themeColor}
             animeTitle={animeConfig.title}
             animeSlug={currentAnimeSlug}
+            initialFriendChallenge={activeFriendChallenge && activeFriendChallenge.m === 'grid' ? activeFriendChallenge : null}
+            onClearFriendChallenge={() => {
+              setActiveFriendChallenge(null);
+              clearChallengeQueryParam();
+            }}
           />
         )}
 

@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { Character } from '../types/anime';
-import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, LayoutGrid, Flag } from 'lucide-react';
+import { Search, X, Check, AlertCircle, RefreshCw, Share2, Trophy, Sparkles, LayoutGrid, Flag, HelpCircle, Info } from 'lucide-react';
 import { unlockAchievement, logDailyActivity, recordVictory, recordDefeat, recordSurrender, updateGlobalStatsOnOutcome } from '../data/achievements';
 import { getDailyDateString } from '../utils/dailySeed';
 import { VictoryModal } from './VictoryModal';
@@ -95,6 +95,10 @@ const GridBoard: React.FC<GridBoardProps> = ({
   });
 
   const [selectedCell, setSelectedCell] = useState<number | null>(null);
+  const [inspectedCriterion, setInspectedCriterion] = useState<{
+    criterion: GridCriterion;
+    axis: 'Linha' | 'Coluna';
+  } | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedIndex, setSelectedIndex] = useState<number>(0);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
@@ -113,14 +117,14 @@ const GridBoard: React.FC<GridBoardProps> = ({
 
   // Trava scroll da página do navegador quando modais/overlays estiverem abertos
   useEffect(() => {
-    if (showAnswersModal || selectedCell !== null || showSurrenderConfirm || showVictoryModal) {
+    if (showAnswersModal || selectedCell !== null || showSurrenderConfirm || showVictoryModal || inspectedCriterion !== null) {
       const prev = document.body.style.overflow;
       document.body.style.overflow = 'hidden';
       return () => {
         document.body.style.overflow = prev;
       };
     }
-  }, [showAnswersModal, selectedCell, showSurrenderConfirm, showVictoryModal]);
+  }, [showAnswersModal, selectedCell, showSurrenderConfirm, showVictoryModal, inspectedCriterion]);
 
   const usedCharacterIds = useMemo(() => {
     return new Set(cells.filter(Boolean).map((c) => c!.id));
@@ -331,41 +335,64 @@ const GridBoard: React.FC<GridBoardProps> = ({
         </div>
       </div>
 
+      {/* Dica rápida de clique nos títulos */}
+      <div className="flex items-center justify-center gap-1.5 mb-2.5 text-[11px] text-slate-400 font-medium">
+        <HelpCircle size={13} className="text-amber-400 shrink-0" />
+        <span>
+          Toque em qualquer cabeçalho de <strong className="text-amber-300">Linha</strong> ou <strong className="text-sky-300">Coluna</strong> para ver o que significa aquela classificação.
+        </span>
+      </div>
+
       {/* A Matriz 3x3 Principal com Espaçamento Aumentado */}
       <div className="bg-[#0b101d] border border-[#1e293b] rounded-3xl p-3 sm:p-5 shadow-2xl">
         <div className="grid grid-cols-4 gap-2.5 sm:gap-4 md:gap-5">
           {/* Canto superior esquerdo decorativo */}
-          <div className="flex items-center justify-center rounded-2xl bg-[#070b14]/60 border border-[#162035] p-2">
-            <Sparkles size={20} className="text-slate-500" />
+          <div className="flex flex-col items-center justify-center rounded-2xl bg-[#070b14]/60 border border-[#162035] p-2 text-center">
+            <Sparkles size={18} className="text-amber-400/80 mb-0.5" />
+            <span className="text-[8px] uppercase font-black tracking-wider text-slate-500">Toque p/ Info</span>
           </div>
 
-          {/* Cabeçalhos das 3 Colunas */}
+          {/* Cabeçalhos das 3 Colunas (Clicáveis para explicação) */}
           {gridDefinition.cols.map((col, idx) => (
-            <div
+            <button
+              type="button"
               key={idx}
-              className="flex flex-col items-center justify-center text-center p-2 sm:p-2.5 rounded-2xl bg-[#111a2d] border border-[#202b43] shadow-sm min-h-[76px] sm:min-h-[85px] w-full"
+              onClick={() => setInspectedCriterion({ criterion: col, axis: 'Coluna' })}
+              title={`Clique para entender o que significa "${col.label}"`}
+              className="group relative flex flex-col items-center justify-center text-center p-2 sm:p-2.5 rounded-2xl bg-[#111a2d] hover:bg-[#16223b] border border-[#202b43] hover:border-sky-400/60 shadow-sm min-h-[76px] sm:min-h-[85px] w-full transition-all cursor-pointer active:scale-[0.98]"
             >
-              <span className="text-[8px] sm:text-[9px] uppercase font-black text-slate-400 tracking-wider mb-0.5">
+              <span className="absolute top-1.5 right-1.5 text-slate-500 group-hover:text-sky-300 transition-colors">
+                <HelpCircle size={12} />
+              </span>
+              <span className="text-[8px] sm:text-[9px] uppercase font-black text-sky-400/90 tracking-wider mb-0.5 pr-2">
                 {col.category}
               </span>
-              <span className="text-[10px] sm:text-xs md:text-sm font-extrabold text-white leading-tight break-words hyphens-auto w-full text-center px-1">
+              <span className="text-[10px] sm:text-xs md:text-sm font-extrabold text-white group-hover:text-sky-100 leading-tight break-words hyphens-auto w-full text-center px-1">
                 {col.label}
               </span>
-            </div>
+            </button>
           ))}
 
           {/* 3 Linhas com seus cabeçalhos e células */}
           {[0, 1, 2].map((rowIdx) => (
             <React.Fragment key={rowIdx}>
-              {/* Cabeçalho da Linha */}
-              <div className="flex flex-col items-center justify-center text-center p-2 sm:p-2.5 rounded-2xl bg-[#111a2d] border border-[#202b43] shadow-sm min-h-[95px] sm:min-h-[120px] md:min-h-[135px] w-full">
-                <span className="text-[8px] sm:text-[9px] uppercase font-black text-slate-400 tracking-wider mb-0.5">
+              {/* Cabeçalho da Linha (Clicável para explicação) */}
+              <button
+                type="button"
+                onClick={() => setInspectedCriterion({ criterion: gridDefinition.rows[rowIdx], axis: 'Linha' })}
+                title={`Clique para entender o que significa "${gridDefinition.rows[rowIdx].label}"`}
+                className="group relative flex flex-col items-center justify-center text-center p-2 sm:p-2.5 rounded-2xl bg-[#111a2d] hover:bg-[#16223b] border border-[#202b43] hover:border-amber-400/60 shadow-sm min-h-[95px] sm:min-h-[120px] md:min-h-[135px] w-full transition-all cursor-pointer active:scale-[0.98]"
+              >
+                <span className="absolute top-1.5 right-1.5 text-slate-500 group-hover:text-amber-300 transition-colors">
+                  <HelpCircle size={12} />
+                </span>
+                <span className="text-[8px] sm:text-[9px] uppercase font-black text-amber-400/90 tracking-wider mb-0.5 pr-2">
                   {gridDefinition.rows[rowIdx].category}
                 </span>
-                <span className="text-[10px] sm:text-xs md:text-sm font-extrabold text-white leading-tight break-words hyphens-auto w-full text-center px-1">
+                <span className="text-[10px] sm:text-xs md:text-sm font-extrabold text-white group-hover:text-amber-100 leading-tight break-words hyphens-auto w-full text-center px-1">
                   {gridDefinition.rows[rowIdx].label}
                 </span>
-              </div>
+              </button>
 
               {/* 3 Células da Linha */}
               {[0, 1, 2].map((colIdx) => {
@@ -716,24 +743,50 @@ const GridBoard: React.FC<GridBoardProps> = ({
               </button>
             </div>
 
-            {/* Destaque dos Dois Critérios Cruzados */}
+            {/* Destaque dos Dois Critérios Cruzados (Clicáveis para ver a explicação) */}
             <div className="grid grid-cols-2 gap-2.5 mb-4">
-              <div className="p-3 rounded-2xl bg-[#131c31] border border-[#202b43] text-center">
+              <button
+                type="button"
+                onClick={() =>
+                  setInspectedCriterion({
+                    criterion: gridDefinition.rows[Math.floor(selectedCell / 3)],
+                    axis: 'Linha',
+                  })
+                }
+                title="Clique para ler a explicação desta classificação"
+                className="group relative p-3 rounded-2xl bg-[#131c31] hover:bg-[#18243f] border border-[#202b43] hover:border-amber-400/60 text-center transition-all cursor-pointer"
+              >
+                <span className="absolute top-2 right-2 text-slate-500 group-hover:text-amber-300">
+                  <HelpCircle size={12} />
+                </span>
                 <span className="text-[9px] uppercase font-black text-slate-400 block mb-0.5">
                   {gridDefinition.rows[Math.floor(selectedCell / 3)].category} (Linha)
                 </span>
                 <span className="text-xs sm:text-sm font-black text-amber-400">
                   {gridDefinition.rows[Math.floor(selectedCell / 3)].label}
                 </span>
-              </div>
-              <div className="p-3 rounded-2xl bg-[#131c31] border border-[#202b43] text-center">
+              </button>
+              <button
+                type="button"
+                onClick={() =>
+                  setInspectedCriterion({
+                    criterion: gridDefinition.cols[selectedCell % 3],
+                    axis: 'Coluna',
+                  })
+                }
+                title="Clique para ler a explicação desta classificação"
+                className="group relative p-3 rounded-2xl bg-[#131c31] hover:bg-[#18243f] border border-[#202b43] hover:border-sky-400/60 text-center transition-all cursor-pointer"
+              >
+                <span className="absolute top-2 right-2 text-slate-500 group-hover:text-sky-300">
+                  <HelpCircle size={12} />
+                </span>
                 <span className="text-[9px] uppercase font-black text-slate-400 block mb-0.5">
                   {gridDefinition.cols[selectedCell % 3].category} (Coluna)
                 </span>
                 <span className="text-xs sm:text-sm font-black text-sky-400">
                   {gridDefinition.cols[selectedCell % 3].label}
                 </span>
-              </div>
+              </button>
             </div>
 
             {/* Mensagem de Erro se houver */}
@@ -854,9 +907,335 @@ const GridBoard: React.FC<GridBoardProps> = ({
           </div>
         </div>
       )}
+
+      {/* Modal de Explicação da Classificação / Critério da Grade */}
+      {inspectedCriterion && (() => {
+        const { criterion, axis } = inspectedCriterion;
+        const matchingChars = characters.filter((c) => criterion.test(c));
+        const info = getCriterionExplanation(criterion, animeSlug, animeTitle);
+        const isRow = axis === 'Linha';
+
+        return (
+          <div
+            className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn"
+            onClick={() => setInspectedCriterion(null)}
+          >
+            <div
+              className="bg-[#0d1426] border border-[#22304d] rounded-3xl max-w-md w-full p-5 sm:p-6 text-left shadow-2xl animate-scale-in"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-start justify-between gap-3 mb-4 pb-3 border-b border-[#1e2b45]">
+                <div className="flex items-center gap-3">
+                  <div
+                    className={`w-11 h-11 rounded-2xl flex items-center justify-center border shrink-0 ${
+                      isRow
+                        ? 'bg-amber-500/15 border-amber-500/40 text-amber-400'
+                        : 'bg-sky-500/15 border-sky-500/40 text-sky-400'
+                    }`}
+                  >
+                    <Info size={22} />
+                  </div>
+                  <div>
+                    <span
+                      className={`text-[10px] uppercase font-black tracking-wider block ${
+                        isRow ? 'text-amber-400' : 'text-sky-400'
+                      }`}
+                    >
+                      {criterion.category} • Cabeçalho de {axis}
+                    </span>
+                    <h3 className="text-base sm:text-lg font-black text-white leading-tight mt-0.5">
+                      {criterion.label}
+                    </h3>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setInspectedCriterion(null)}
+                  className="p-1.5 text-slate-400 hover:text-white rounded-xl hover:bg-white/10 transition-colors"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+
+              {/* Explicação principal clara */}
+              <div className="p-3.5 rounded-2xl bg-[#111a2e] border border-[#202d47] mb-3.5">
+                <span className="text-[10px] uppercase font-black text-slate-400 tracking-wider block mb-1">
+                  📖 O que significa esta classificação?
+                </span>
+                <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-medium">
+                  {info.description}
+                </p>
+              </div>
+
+              {/* Como é validado / Exemplos práticos */}
+              <div className="p-3.5 rounded-2xl bg-[#0a101f] border border-[#1a253b] mb-3.5 space-y-2">
+                <span className="text-[10px] uppercase font-black text-amber-400/90 tracking-wider block">
+                  🎯 Quem é aceito nesta {axis.toLowerCase()}?
+                </span>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  {info.ruleTip}
+                </p>
+                {info.equivalentItems && info.equivalentItems.length > 1 && (
+                  <div className="pt-1.5">
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block mb-1.5">
+                      Arcos / Sub-divisões aceitos em conjunto:
+                    </span>
+                    <div className="flex flex-wrap gap-1.5">
+                      {info.equivalentItems.map((item) => (
+                        <span
+                          key={item}
+                          className="px-2 py-0.5 rounded-lg bg-amber-500/15 border border-amber-500/30 text-amber-300 text-[10px] font-bold"
+                        >
+                          {item}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Contador de personagens que cumprem o critério no anime */}
+              <div className="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-xs mb-4">
+                <span className="text-slate-300 font-semibold">
+                  Personagens de <strong className="text-white">{animeTitle}</strong> nesta categoria:
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 font-black">
+                  {matchingChars.length} {matchingChars.length === 1 ? 'personagem' : 'personagens'}
+                </span>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setInspectedCriterion(null)}
+                className="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:brightness-110 text-black font-black text-xs uppercase tracking-wider shadow-lg transition-all"
+              >
+                Entendi!
+              </button>
+            </div>
+          </div>
+        );
+      })()}
     </>
   );
 };
+
+// Gera explicação detalhada e didática para qualquer critério/classificação da Grade 3x3
+function getCriterionExplanation(
+  criterion: GridCriterion,
+  animeSlug: string,
+  animeTitle: string
+): {
+  description: string;
+  ruleTip: string;
+  equivalentItems?: string[];
+} {
+  const cat = criterion.category;
+  const label = criterion.label;
+  const lower = label.toLowerCase();
+
+  if (cat === 'Tipo de Combate') {
+    if (lower.includes('distância') || lower.includes('longo alcance') || lower.includes('atirador') || lower.includes('arqueiro')) {
+      return {
+        description:
+          'Refere-se a personagens cujo estilo principal de combate é atacar o inimigo de longe, sem precisar se aproximar para dar socos ou golpes físicos diretos.',
+        ruleTip:
+          'Inclui arqueiros, atiradores (armas de fogo), lançadores de projéteis, usuários de magias/jutsus/feitiços disparados à distância, ataques de energia de longo alcance ou manipulação remota.',
+      };
+    }
+    if (lower.includes('corpo a corpo') || lower.includes('curto alcance') || lower.includes('artes marciais') || lower.includes('taijutsu') || lower.includes('lutador')) {
+      return {
+        description:
+          'Refere-se a personagens que lutam diretamente no confronto físico aproximado (curta distância), encarando o oponente de frente.',
+        ruleTip:
+          'Inclui especialistas em artes marciais, socos, chutes, força bruta física, garras ou combate corporal direto sem depender de tiros à distância.',
+      };
+    }
+    if (lower.includes('espada') || lower.includes('lâmina') || lower.includes('arma') || lower.includes('kenjutsu')) {
+      return {
+        description:
+          'Refere-se a personagens que utilizam espadas, katanas, adagas, foices, lanças ou outras armas brancas/cortantes como sua principal ferramenta de batalha.',
+        ruleTip:
+          'Qualquer personagem classificado como espadachim ou usuário primário de armas laminadas/armamento físico entra nesta categoria.',
+      };
+    }
+    if (lower.includes('médio alcance') || lower.includes('híbrido') || lower.includes('versátil')) {
+      return {
+        description:
+          'Refere-se a combatentes versáteis que combinam luta corporal próxima com técnicas, extensões ou ataques de média/longa distância.',
+        ruleTip:
+          'Inclui personagens que não ficam restritos apenas ao soco de perto nem apenas ao tiro de longe, alternando ambos os estilos em combate.',
+      };
+    }
+    if (lower.includes('suporte') || lower.includes('cura') || lower.includes('médic') || lower.includes('defensivo')) {
+      return {
+        description:
+          'Refere-se a personagens cujo papel em batalha é proteger, curar, fortalecer (buffar) aliados ou fornecer assistência tática e barreiras.',
+        ruleTip:
+          'Inclui médicos, curandeiros, criadores de escudos/barreiras, sensores e suportes de equipe.',
+      };
+    }
+    if (lower.includes('estrateg') || lower.includes('tátic') || lower.includes('controle') || lower.includes('manipula') || lower.includes('ilusão') || lower.includes('genjutsu')) {
+      return {
+        description:
+          'Refere-se a personagens que dominam a luta através de inteligência tática, armadilhas, controle de área, paralisação do inimigo ou ilusões.',
+        ruleTip:
+          'Inclui mentes estrategistas, usuários de técnicas de controle mental/sombras/fios e especialistas em neutralizar o adversário estrategicamente.',
+      };
+    }
+    if (lower.includes('invoca') || lower.includes('marionet') || lower.includes('familiar') || lower.includes('domador')) {
+      return {
+        description:
+          'Refere-se a personagens que invocam criaturas, shikigamis, sombras, marionetes ou bestas para lutar ao seu lado.',
+        ruleTip:
+          'Inclui invocadores, mestres de marionetes e controladores de criaturas conjuradas.',
+      };
+    }
+    if (lower.includes('não combatente') || lower.includes('civil')) {
+      return {
+        description:
+          'Refere-se a personagens que não participam de batalhas físicas ou mágicas, atuando na história como civis, estudantes comuns, políticos ou figuras do cotidiano.',
+        ruleTip:
+          'Pense em personagens importantes para a história ou para a vida dos protagonistas, mas que não entram em lutas.',
+      };
+    }
+    return {
+      description: `Classificação do estilo de atuação em batalha ("${label}") registrada na ficha oficial do personagem em ${animeTitle}.`,
+      ruleTip: `Qualquer personagem cujo modo principal de luta seja classificado como "${label}" no Modo Clássico também é aceito aqui.`,
+    };
+  }
+
+  if (cat === 'Arco de Estreia') {
+    const groups = PAIRED_ARC_GROUPS[animeSlug];
+    const matchedGroup = groups?.find((g) => g.includes(label));
+    return {
+      description: `Indica que o personagem fez sua primeira aparição oficial na história durante o arco/saga "${label}".`,
+      ruleTip: matchedGroup
+        ? `Para tornar a grade mais justa, todos os personagens que estrearam em qualquer um dos arcos equivalentes/vizinhos listados abaixo são aceitos!`
+        : `Pense em quem apareceu pela primeira vez (estreou) durante os eventos de "${label}".`,
+      equivalentItems: matchedGroup,
+    };
+  }
+
+  if (cat === 'Afiliação / Grupo') {
+    return {
+      description: `Personagens que pertencem ou já pertenceram à organização, facção, vila, escola, clã ou equipe "${label}".`,
+      ruleTip:
+        'Tanto membros atuais quanto ex-membros ("Ex-...") ou integrantes de subdivisões diretas desse grupo são aceitos automaticamente!',
+    };
+  }
+
+  if (cat === 'Papel na Trama') {
+    if (lower.includes('protagonista') || lower.includes('principal') || lower.includes('deuteragonista')) {
+      return {
+        description:
+          'Personagens centrais da obra, em torno dos quais a história principal se desenvolve.',
+        ruleTip: 'Inclui o protagonista e as figuras principais do núcleo central do anime.',
+      };
+    }
+    if (lower.includes('antagonista') || lower.includes('vilão') || lower.includes('vilã')) {
+      return {
+        description:
+          'Personagens que atuam como inimigos, chefes de arco ou forças opositoras aos protagonistas.',
+        ruleTip: 'Inclui tanto grandes vilões finais quanto antagonistas de arcos específicos.',
+      };
+    }
+    if (lower.includes('mentor') || lower.includes('mestre') || lower.includes('professor')) {
+      return {
+        description:
+          'Personagens experientes responsáveis por treinar, ensinar ou guiar os protagonistas e a nova geração.',
+        ruleTip: 'Pense nos senseis, mestres e instrutores veteranos da obra.',
+      };
+    }
+    return {
+      description: `Define a função narrativa que o personagem exerce na história de ${animeTitle} ("${label}").`,
+      ruleTip: `Qualquer personagem classificado com o papel "${label}" na obra cumpre este requisito.`,
+    };
+  }
+
+  if (cat === 'Estilo / Poder') {
+    return {
+      description: `Personagens que utilizam especificamente o poder, arma, técnica base ou estilo "${label}".`,
+      ruleTip: `Corresponde à coluna de Poder / Estilo / Respiração / Habilidade do Modo Clássico de ${animeTitle}.`,
+    };
+  }
+
+  if (cat === 'Akuma no Mi') {
+    return {
+      description: `Personagens de One Piece que comeram uma Akuma no Mi da classe "${label.replace('Akuma no Mi: ', '')}".`,
+      ruleTip:
+        'Paramecia concede habilidades sobre-humanas diversas; Zoan permite transformar-se em animais/criaturas; Logia transforma o corpo em um elemento da natureza.',
+    };
+  }
+
+  if (cat === 'Haki') {
+    return {
+      description: `Personagens de One Piece confirmados como usuários de "${label}".`,
+      ruleTip:
+        'Basta que o personagem domine esse tipo de Haki (mesmo que também possua os outros dois tipos).',
+    };
+  }
+
+  if (cat === 'Elemento / Natureza') {
+    return {
+      description: `Personagens de Naruto que dominam a Transformação da Natureza ou Kekkei Genkai "${label}".`,
+      ruleTip:
+        'Se o ninja possui esse elemento entre suas naturezas de chakra conhecidas, ele é válido!',
+    };
+  }
+
+  if (cat === 'Tipo de Nen') {
+    return {
+      description: `Personagens de Hunter x Hunter cuja aura pertence à categoria de Nen "${label.replace('Nen: ', '')}".`,
+      ruleTip:
+        'As 6 categorias do hexágono de Nen são: Intensificação (Reforço), Transmutação, Emissão, Conjuração (Materialização), Manipulação e Especialização.',
+    };
+  }
+
+  if (cat === 'Espécie / Natureza') {
+    return {
+      description: `Filtra os personagens pela sua raça biológica ou natureza espiritual: "${label}".`,
+      ruleTip: `Qualquer personagem cuja espécie em ${animeTitle} seja "${label}" é aceito.`,
+    };
+  }
+
+  if (cat === 'Status') {
+    return {
+      description: `Refere-se ao estado de vida canônico do personagem ("${label}") ao final da obra (ou no ponto atual do mangá).`,
+      ruleTip:
+        label === 'Vivo(a)'
+          ? 'Personagens que permanecem vivos canonicamente.'
+          : label === 'Morto(a)'
+          ? 'Personagens que faleceram canonicamente durante a história.'
+          : `Personagens com status "${label}".`,
+    };
+  }
+
+  if (cat === 'Cor de Cabelo') {
+    return {
+      description: `Personagens que possuem visualmente "${label}".`,
+      ruleTip: 'Variações próximas de tonalidade (ex: loiro/dourado, branco/prateado/grisalho, ruivo/vermelho) já são agrupadas automaticamente.',
+    };
+  }
+
+  if (cat === 'Gênero') {
+    return {
+      description: `Personagens do gênero "${label}".`,
+      ruleTip: `Qualquer personagem registrado como "${label}" no catálogo de ${animeTitle}.`,
+    };
+  }
+
+  if (cat === 'Obra de Origem') {
+    return {
+      description: `Personagens que pertencem ao anime/mangá "${label}".`,
+      ruleTip: `Qualquer personagem originário da obra "${label}" cumpre esta condição.`,
+    };
+  }
+
+  return {
+    description: `Classificação "${label}" pertencente à categoria ${cat} em ${animeTitle}.`,
+    ruleTip: `O personagem escolhido precisa cumprir a condição "${label}".`,
+  };
+}
 
 // Mapeamento de grupos/arcos equivalentes ou pareados para que nenhum personagem legítimo seja rejeitado na Grade 3x3
 const PAIRED_ARC_GROUPS: Record<string, string[][]> = {
