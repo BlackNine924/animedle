@@ -33,6 +33,7 @@ const ExclusiveAnimeMode = React.lazy(() => import('./components/ExclusiveAnimeM
 const AnimeGridMode = React.lazy(() => import('./components/AnimeGridMode').then((m) => ({ default: m.AnimeGridMode })));
 const HigherOrLowerModal = React.lazy(() => import('./components/HigherOrLowerModal').then((m) => ({ default: m.HigherOrLowerModal })));
 const AnimeConnectionsMode = React.lazy(() => import('./components/AnimeConnectionsMode').then((m) => ({ default: m.AnimeConnectionsMode })));
+const MasteryModal = React.lazy(() => import('./components/MasteryModal').then((m) => ({ default: m.MasteryModal })));
 import {
   SurvivalState,
   getSurvivalState,
@@ -752,6 +753,7 @@ export const App: React.FC<{
   const [showStats, setShowStats] = useState<boolean>(false);
   const [showMangaCoverage, setShowMangaCoverage] = useState<boolean>(false);
   const [showSceneGallery, setShowSceneGallery] = useState<boolean>(false);
+  const [showMasteryModal, setShowMasteryModal] = useState<boolean>(false);
 
   // Estatísticas Globais do Jogador
   const [stats, setStats] = useState<GameStats>(() => {
@@ -1334,24 +1336,26 @@ export const App: React.FC<{
             </h2>
           </div>
           <div className="mt-2.5 flex flex-wrap items-center justify-center gap-2">
-            {/* S3: Badge de Nível de Maestria por Anime com Título Canônico e Barra de XP */}
-            <div
-              className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#0d1426]/95 border border-amber-500/35 text-xs font-semibold shadow-md"
-              title={`Maestria de ${animeConfig.title}: Nível ${masteryInfo.level} (${masteryInfo.title}) • ${masteryInfo.currentLevelXp}/${masteryInfo.nextLevelXp} XP para o próximo nível`}
+            {/* S3: Badge Clicável de Nível de Maestria por Anime com Título Canônico e Barra de XP */}
+            <button
+              type="button"
+              onClick={() => setShowMasteryModal(true)}
+              className="group inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#0d1426]/95 hover:bg-[#131d36] border border-amber-500/35 hover:border-amber-400/70 text-xs font-semibold shadow-md transition-all active:scale-95 cursor-pointer"
+              title={`Clique para ver todos os títulos canônicos de ${animeConfig.title} • Nível ${masteryInfo.level} (${masteryInfo.title})`}
             >
-              <Award size={14} className="text-amber-400 shrink-0" />
+              <Award size={14} className="text-amber-400 shrink-0 group-hover:scale-110 transition-transform" />
               <span className="text-amber-300 font-black">Nv.{masteryInfo.level}</span>
-              <span className="text-white font-bold">{masteryInfo.title}</span>
+              <span className="text-white font-bold group-hover:text-amber-200 transition-colors">{masteryInfo.title}</span>
               <div className="w-14 sm:w-16 h-1.5 bg-[#162138] rounded-full overflow-hidden border border-white/10">
                 <div
                   className="h-full bg-gradient-to-r from-amber-500 to-yellow-300 transition-all duration-500"
                   style={{ width: `${masteryInfo.progressPct}%` }}
                 />
               </div>
-              <span className="text-[10px] font-bold text-slate-400">
+              <span className="text-[10px] font-bold text-slate-400 group-hover:text-slate-200">
                 {masteryInfo.currentLevelXp}/{masteryInfo.nextLevelXp} XP
               </span>
-            </div>
+            </button>
 
             {animeConfig.mangaCoverage && (
               <button
@@ -1915,6 +1919,15 @@ export const App: React.FC<{
           <SceneGalleryModal
             initialAnimeSlug={currentAnimeSlug}
             onClose={() => setShowSceneGallery(false)}
+          />
+        )}
+        {showMasteryModal && (
+          <MasteryModal
+            isOpen={showMasteryModal}
+            onClose={() => setShowMasteryModal(false)}
+            animeTitle={animeConfig.title}
+            themeColor={animeConfig.themeColor}
+            masteryInfo={masteryInfo}
           />
         )}
       </Suspense>

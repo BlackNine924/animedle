@@ -44,7 +44,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/alphonse-elric.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -136,7 +136,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/maes-hughes.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -159,7 +159,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/alex-louis-armstrong.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -181,8 +181,8 @@
       "Artilharia Pesada da Fortaleza"
     ],
     "avatar": "/avatars/fullmetal-alchemist/olivier-mira-armstrong.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -205,7 +205,7 @@
       "Dança Mortal com Cinco Espadas"
     ],
     "avatar": "/avatars/fullmetal-alchemist/king-bradley.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -277,7 +277,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/greed.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -300,7 +300,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/envy.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -322,7 +322,7 @@
       "Regeneração Acelerada"
     ],
     "avatar": "/avatars/fullmetal-alchemist/lust.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -346,7 +346,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/gluttony.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -392,7 +392,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/pride.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -416,7 +416,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/scar.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -438,7 +438,7 @@
       "Ativação Compartilhada do Escudo de Carbono"
     ],
     "avatar": "/avatars/fullmetal-alchemist/ling-yao.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -461,7 +461,7 @@
       "Rastreamento Furtivo de Chi"
     ],
     "avatar": "/avatars/fullmetal-alchemist/lan-fan.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -484,7 +484,7 @@
       "Salto Acrobático com Detecção de Chi"
     ],
     "avatar": "/avatars/fullmetal-alchemist/fu.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
@@ -508,7 +508,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/may-chang.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -531,7 +531,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/izumi-curtis.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -578,7 +578,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/solf-j-kimblee.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -622,7 +622,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/heymans-breda.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -690,7 +690,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/maria-ross.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -734,7 +734,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/grumman.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -779,7 +779,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/buccaneer.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -911,7 +911,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/slicer-brothers.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -955,7 +955,7 @@
     ],
     "avatar": "/avatars/fullmetal-alchemist/yoki.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1222,8 +1222,8 @@
       "Pé de Perna de Pau com Lâmina Transmutada"
     ],
     "avatar": "/avatars/fullmetal-alchemist/giolio-comanche.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {

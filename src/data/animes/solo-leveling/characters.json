@@ -16,7 +16,7 @@
     "avatar": "/avatars/solo-leveling/sung-jinwoo.png",
     "styleOrPower": "Extração de Sombras & Velocidade",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -33,8 +33,8 @@
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/cha-hae-in.png",
     "styleOrPower": "Esgrima de Luz",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -52,7 +52,7 @@
     "avatar": "/avatars/solo-leveling/go-gunhee.png",
     "styleOrPower": "Punho Celestial",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -87,7 +87,7 @@
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/liu-zhigang.png",
     "styleOrPower": "Esgrima de Espada Dupla",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -124,7 +124,7 @@
     "avatar": "/avatars/solo-leveling/christopher-reed.png",
     "styleOrPower": "Transformação de Fogo",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -196,7 +196,7 @@
     "avatar": "/avatars/solo-leveling/choi-jong-in.png",
     "styleOrPower": "Magia de Fogo de Grande Escala",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -250,7 +250,7 @@
     "avatar": "/avatars/solo-leveling/antares.png",
     "styleOrPower": "Sopro da Destruição & Metamorfose",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -303,7 +303,7 @@
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/baran.png",
     "styleOrPower": "Relâmpago Negro & Esgrima",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -323,7 +323,7 @@
     "avatar": "/avatars/solo-leveling/ashborn.png",
     "styleOrPower": "Autoridade das Sombras & Domínio",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -358,8 +358,8 @@
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/igris.png",
     "styleOrPower": "Esgrima de Espada Grande & Telecinese",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -395,7 +395,7 @@
     "avatar": "/avatars/solo-leveling/sung-ilhwan.png",
     "styleOrPower": "Telecinese & Combate Corpo a Corpo",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -431,7 +431,7 @@
     "avatar": "/avatars/solo-leveling/sung-jinah.png",
     "styleOrPower": "Nenhum",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -484,7 +484,7 @@
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kim-sangshik.png",
     "styleOrPower": "Esgrima Básica",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -521,7 +521,7 @@
     "avatar": "/avatars/solo-leveling/min-byunggu.png",
     "styleOrPower": "Cura & Camuflagem",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -628,7 +628,7 @@
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/kang-taeshik.png",
     "styleOrPower": "Ocultamento & Adaga",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -646,7 +646,7 @@
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/hwang-dongseok.png",
     "styleOrPower": "Liderança & Machado",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -682,8 +682,8 @@
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/goto-ryuji.png",
     "styleOrPower": "Esgrima Battojutsu",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -700,7 +700,7 @@
     "status": "Viva",
     "avatar": "/avatars/solo-leveling/kanae-tawata.png",
     "styleOrPower": "Esgrima Dupla",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -790,7 +790,7 @@
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/reiji-sugimoto.png",
     "styleOrPower": "Esgrima Samurai",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -808,7 +808,7 @@
     "status": "Morto",
     "avatar": "/avatars/solo-leveling/tatsumi-fujishima.png",
     "styleOrPower": "Esgrima Kendo",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -953,7 +953,7 @@
     "avatar": "/avatars/solo-leveling/yogumunt.png",
     "styleOrPower": "Magia de Transfiguração",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -971,7 +971,7 @@
     "avatar": "/avatars/solo-leveling/iron.png",
     "styleOrPower": "Provocação & Força Bruta",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1025,7 +1025,7 @@
     "avatar": "/avatars/solo-leveling/greed.png",
     "styleOrPower": "Combate Corporal Sombrio",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1061,7 +1061,7 @@
     "avatar": "/avatars/solo-leveling/o-arquiteto.png",
     "styleOrPower": "Criação de Dungeons & Autômatos",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1151,7 +1151,7 @@
     "avatar": "/avatars/solo-leveling/yoo-soohyun.png",
     "styleOrPower": "Tiro de Precisão",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1187,7 +1187,7 @@
     "avatar": "/avatars/solo-leveling/akari-shimizu.png",
     "styleOrPower": "Cura Divina",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1222,7 +1222,7 @@
     "status": "Vivo",
     "avatar": "/avatars/solo-leveling/bellion.png",
     "styleOrPower": "Chicote-Espada Centopeia & Voo",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
@@ -1296,7 +1296,7 @@
     "quote": "Caçador Rank S japonês da Guilda Draw Sword.",
     "avatar": "/avatars/solo-leveling/ippei-izawa.png",
     "styleOrPower": "Combate Corporal",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1315,7 +1315,7 @@
     "quote": "Caçadora Rank S da Guilda Draw Sword e usuária de lâminas duplas.",
     "avatar": "/avatars/solo-leveling/mari-ishida.png",
     "styleOrPower": "Combate com Lâminas",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1335,7 +1335,7 @@
     "avatar": "/avatars/solo-leveling/groctar.png",
     "styleOrPower": "Força Bruta & Fúria dos Orcs",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

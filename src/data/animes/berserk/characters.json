@@ -19,7 +19,7 @@
       "Fúria Sanguinária da Armadura de Berserker"
     ],
     "avatar": "/avatars/berserk/guts.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -43,8 +43,8 @@
       "Comando de Assalto da Cavalaria"
     ],
     "avatar": "/avatars/berserk/casca.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -115,7 +115,7 @@
       "Esgrima Tática de Emboscada em Despenhadeiro"
     ],
     "avatar": "/avatars/berserk/serpico.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -138,8 +138,8 @@
       "Acrobacia Ligeira de Ladrão"
     ],
     "avatar": "/avatars/berserk/isidro.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -186,7 +186,7 @@
     ],
     "avatar": "/avatars/berserk/ivalera.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -208,7 +208,7 @@
       "Comando de Canhões Náuticos"
     ],
     "avatar": "/avatars/berserk/roderick.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -232,7 +232,7 @@
     ],
     "avatar": "/avatars/berserk/magnifico.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -255,7 +255,7 @@
     ],
     "avatar": "/avatars/berserk/isma.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -278,7 +278,7 @@
       "Reino Utópico de Falconia"
     ],
     "avatar": "/avatars/berserk/griffith.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -347,7 +347,7 @@
       "Pilhas de Pilhagem em Campos de Guerra"
     ],
     "avatar": "/avatars/berserk/corkus.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -393,7 +393,7 @@
       "Lealdade Incondicional a Guts"
     ],
     "avatar": "/avatars/berserk/gaston.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -416,8 +416,8 @@
       "Treinamento Espartano desde a Infância"
     ],
     "avatar": "/avatars/berserk/gambino.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -440,7 +440,7 @@
     ],
     "avatar": "/avatars/berserk/shisu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -462,7 +462,7 @@
       "Força Bruta Mercenária"
     ],
     "avatar": "/avatars/berserk/donovan.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -485,7 +485,7 @@
       "Defesa Maciça de Placas de Aço"
     ],
     "avatar": "/avatars/berserk/bazuso.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -578,8 +578,8 @@
       "Morte Trágica que Assombrou Guts"
     ],
     "avatar": "/avatars/berserk/adonis.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -648,7 +648,7 @@
     ],
     "avatar": "/avatars/berserk/laban.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -693,8 +693,8 @@
       "Cavalgada Supersônica que Rompe Dimensões"
     ],
     "avatar": "/avatars/berserk/skull-knight.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -739,8 +739,8 @@
       "Reforço da Espada Prisão de Almas"
     ],
     "avatar": "/avatars/berserk/godot.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -786,7 +786,7 @@
     ],
     "avatar": "/avatars/berserk/gedfring.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -901,7 +901,7 @@
     ],
     "avatar": "/avatars/berserk/slan.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -924,7 +924,7 @@
     ],
     "avatar": "/avatars/berserk/ubik.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -947,7 +947,7 @@
     ],
     "avatar": "/avatars/berserk/conrad.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -970,7 +970,7 @@
       "Regeneração de Membros Amputados"
     ],
     "avatar": "/avatars/berserk/nosferatu-zodd.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -993,7 +993,7 @@
       "Tiro de Precisão a Cavalo Cego"
     ],
     "avatar": "/avatars/berserk/locus.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1017,7 +1017,7 @@
     ],
     "avatar": "/avatars/berserk/grunbeld.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1039,7 +1039,7 @@
       "Lâminas Ocultas na Máscara Sorridente"
     ],
     "avatar": "/avatars/berserk/rakshas.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1109,7 +1109,7 @@
     ],
     "avatar": "/avatars/berserk/the-count.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1131,7 +1131,7 @@
       "Lágrimas de Desespero"
     ],
     "avatar": "/avatars/berserk/theresia.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1201,7 +1201,7 @@
     ],
     "avatar": "/avatars/berserk/egg-of-the-perfect-world.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1224,7 +1224,7 @@
     ],
     "avatar": "/avatars/berserk/mozgus.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1248,7 +1248,7 @@
     ],
     "avatar": "/avatars/berserk/azan.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1270,7 +1270,7 @@
       "Combate contra Zumbis em Albion"
     ],
     "avatar": "/avatars/berserk/jerome.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1340,7 +1340,7 @@
     ],
     "avatar": "/avatars/berserk/great-goat.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -1363,7 +1363,7 @@
     ],
     "avatar": "/avatars/berserk/ganishka.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1408,8 +1408,8 @@
       "Acrobacia Mortal e Kata dos Bakiraka"
     ],
     "avatar": "/avatars/berserk/silat.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -1455,7 +1455,7 @@
     ],
     "avatar": "/avatars/berserk/boscogn.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -1501,7 +1501,7 @@
     ],
     "avatar": "/avatars/berserk/chitch.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1546,8 +1546,8 @@
       "Defesa da Vidente nos Campos de Guerra"
     ],
     "avatar": "/avatars/berserk/mule-wolflame.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

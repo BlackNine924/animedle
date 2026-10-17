@@ -116,7 +116,7 @@
       "Espada Celestial de Fadas"
     ],
     "avatar": "/avatars/fairy-tail/erza-scarlet.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -166,7 +166,7 @@
     ],
     "avatar": "/avatars/fairy-tail/carla.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -191,7 +191,7 @@
     ],
     "avatar": "/avatars/fairy-tail/gajeel-redfox.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -214,7 +214,7 @@
       "Voo com Aera Tático"
     ],
     "avatar": "/avatars/fairy-tail/panther-lily.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
@@ -290,7 +290,7 @@
     ],
     "avatar": "/avatars/fairy-tail/mirajane-strauss.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -385,7 +385,7 @@
     ],
     "avatar": "/avatars/fairy-tail/gildarts-clive.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -410,7 +410,7 @@
     ],
     "avatar": "/avatars/fairy-tail/makarov-dreyar.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -434,7 +434,7 @@
     ],
     "avatar": "/avatars/fairy-tail/mavis-vermillion.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -625,7 +625,7 @@
     ],
     "avatar": "/avatars/fairy-tail/macao-conbolt.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -692,7 +692,7 @@
     ],
     "avatar": "/avatars/fairy-tail/alzack-connell.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -736,7 +736,7 @@
     ],
     "avatar": "/avatars/fairy-tail/asuka-connell.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -758,7 +758,7 @@
     ],
     "avatar": "/avatars/fairy-tail/max-alors.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -936,7 +936,7 @@
     ],
     "avatar": "/avatars/fairy-tail/mest-gryder.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -958,7 +958,7 @@
     ],
     "avatar": "/avatars/fairy-tail/yuri-dreyar.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1004,7 +1004,7 @@
     ],
     "avatar": "/avatars/fairy-tail/zera.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1028,7 +1028,7 @@
     ],
     "avatar": "/avatars/fairy-tail/sting-eucliffe.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -1119,7 +1119,7 @@
     ],
     "avatar": "/avatars/fairy-tail/yukino-agria.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1145,7 +1145,7 @@
     ],
     "avatar": "/avatars/fairy-tail/minerva-orland.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1191,7 +1191,7 @@
     ],
     "avatar": "/avatars/fairy-tail/orga-nanagear.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1235,7 +1235,7 @@
       "Corte Veloz das Sombras"
     ],
     "avatar": "/avatars/fairy-tail/dobengal.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1306,7 +1306,7 @@
     ],
     "avatar": "/avatars/fairy-tail/sherria-blendy.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1329,7 +1329,7 @@
     ],
     "avatar": "/avatars/fairy-tail/sherry-blendy.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1351,7 +1351,7 @@
     ],
     "avatar": "/avatars/fairy-tail/yuka-suzuki.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1373,7 +1373,7 @@
     ],
     "avatar": "/avatars/fairy-tail/toby-horhorta.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1395,7 +1395,7 @@
     ],
     "avatar": "/avatars/fairy-tail/ooba-babasaama.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1420,7 +1420,7 @@
     ],
     "avatar": "/avatars/fairy-tail/ichiya-vandalay-kotobuki.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -1443,7 +1443,7 @@
     ],
     "avatar": "/avatars/fairy-tail/hibiki-lates.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1534,7 +1534,7 @@
     ],
     "avatar": "/avatars/fairy-tail/jenny-realight.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1579,7 +1579,7 @@
       "Corte Supremo da Espada Desembainhada"
     ],
     "avatar": "/avatars/fairy-tail/kagura-mikazuchi.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1626,7 +1626,7 @@
     ],
     "avatar": "/avatars/fairy-tail/arana-webb.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1648,7 +1648,7 @@
     ],
     "avatar": "/avatars/fairy-tail/risley-law.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1765,7 +1765,7 @@
     ],
     "avatar": "/avatars/fairy-tail/ultear-milkovich.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -1789,7 +1789,7 @@
     ],
     "avatar": "/avatars/fairy-tail/meredy.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1812,7 +1812,7 @@
     ],
     "avatar": "/avatars/fairy-tail/ur.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1882,7 +1882,7 @@
     ],
     "avatar": "/avatars/fairy-tail/aria.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -1949,7 +1949,7 @@
       "Flauta Lullaby"
     ],
     "avatar": "/avatars/fairy-tail/erigor.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -1992,7 +1992,7 @@
       "Cortes Cruzados com Lâminas de Pulso"
     ],
     "avatar": "/avatars/fairy-tail/rayule.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2016,7 +2016,7 @@
     ],
     "avatar": "/avatars/fairy-tail/simon.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2038,7 +2038,7 @@
     ],
     "avatar": "/avatars/fairy-tail/sho.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2083,8 +2083,8 @@
       "Despedaçamento de Armaduras de Erza"
     ],
     "avatar": "/avatars/fairy-tail/ikaruga.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -2151,7 +2151,7 @@
     ],
     "avatar": "/avatars/fairy-tail/ivan-dreyar.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -2241,7 +2241,7 @@
     ],
     "avatar": "/avatars/fairy-tail/obra.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2288,7 +2288,7 @@
     ],
     "avatar": "/avatars/fairy-tail/midnight.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2313,7 +2313,7 @@
     ],
     "avatar": "/avatars/fairy-tail/cobra.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2336,7 +2336,7 @@
     ],
     "avatar": "/avatars/fairy-tail/sorano-agria.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2452,7 +2452,7 @@
     ],
     "avatar": "/avatars/fairy-tail/azuma.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2474,7 +2474,7 @@
       "Geração de Feras Míticas"
     ],
     "avatar": "/avatars/fairy-tail/rustyrose.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2566,7 +2566,7 @@
     ],
     "avatar": "/avatars/fairy-tail/mard-geer-tartaros.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -2612,7 +2612,7 @@
     ],
     "avatar": "/avatars/fairy-tail/seilah.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2658,7 +2658,7 @@
     ],
     "avatar": "/avatars/fairy-tail/tempester.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2703,7 +2703,7 @@
       "Modo Etherious Cortador"
     ],
     "avatar": "/avatars/fairy-tail/ezel.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2820,7 +2820,7 @@
     ],
     "avatar": "/avatars/fairy-tail/august.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -2844,7 +2844,7 @@
     ],
     "avatar": "/avatars/fairy-tail/irene-belserion.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2890,7 +2890,7 @@
     ],
     "avatar": "/avatars/fairy-tail/invel-yura.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2985,7 +2985,7 @@
     ],
     "avatar": "/avatars/fairy-tail/god-serena.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3099,7 +3099,7 @@
     ],
     "avatar": "/avatars/fairy-tail/marin-hollow.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3121,7 +3121,7 @@
     ],
     "avatar": "/avatars/fairy-tail/yajeel.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3145,7 +3145,7 @@
     ],
     "avatar": "/avatars/fairy-tail/igneel.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3168,7 +3168,7 @@
     ],
     "avatar": "/avatars/fairy-tail/grandeeney.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3191,7 +3191,7 @@
     ],
     "avatar": "/avatars/fairy-tail/metalicana.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3237,7 +3237,7 @@
     ],
     "avatar": "/avatars/fairy-tail/skiadrum.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3261,7 +3261,7 @@
     ],
     "avatar": "/avatars/fairy-tail/acnologia.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3328,7 +3328,7 @@
     ],
     "avatar": "/avatars/fairy-tail/motherglare.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3351,7 +3351,7 @@
       "Paralisação Temporal Cósmica"
     ],
     "avatar": "/avatars/fairy-tail/celestial-spirit-king.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -3422,7 +3422,7 @@
       "Investida de Chifres de Touro"
     ],
     "avatar": "/avatars/fairy-tail/taurus.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -3494,7 +3494,7 @@
     ],
     "avatar": "/avatars/fairy-tail/sagittarius.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3517,7 +3517,7 @@
     ],
     "avatar": "/avatars/fairy-tail/cancer.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3540,7 +3540,7 @@
     ],
     "avatar": "/avatars/fairy-tail/gemini.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3564,7 +3564,7 @@
     ],
     "avatar": "/avatars/fairy-tail/scorpio.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3588,7 +3588,7 @@
     ],
     "avatar": "/avatars/fairy-tail/capricorn.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3633,7 +3633,7 @@
       "Levitação de Alvos"
     ],
     "avatar": "/avatars/fairy-tail/libra.png",
-    "combatType": "Ataque à Distância / Projéteis",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -3657,7 +3657,7 @@
     ],
     "avatar": "/avatars/fairy-tail/ophiuchus.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3726,7 +3726,7 @@
     ],
     "avatar": "/avatars/fairy-tail/crux.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3792,7 +3792,7 @@
       "Esgrima de Cavaleiro Real"
     ],
     "avatar": "/avatars/fairy-tail/arcadios.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
@@ -3837,7 +3837,7 @@
     ],
     "avatar": "/avatars/fairy-tail/cosmos.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3858,7 +3858,7 @@
       "Corte em Cruz Dilacerante"
     ],
     "avatar": "/avatars/fairy-tail/kama.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -3881,7 +3881,7 @@
     ],
     "avatar": "/avatars/fairy-tail/uosuke.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4081,7 +4081,7 @@
     ],
     "avatar": "/avatars/fairy-tail/anna-heartfilia.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {

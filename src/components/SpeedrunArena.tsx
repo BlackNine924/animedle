@@ -7,6 +7,7 @@ import { awardAnimeXp } from '../utils/featuresManager';
 
 interface SpeedrunArenaProps {
   characters: Character[];
+  targetPool?: Character[];
   animeSlug: string;
   animeTitle: string;
   themeColor: string;
@@ -15,10 +16,15 @@ interface SpeedrunArenaProps {
 
 export const SpeedrunArena: React.FC<SpeedrunArenaProps> = ({
   characters,
+  targetPool,
   animeSlug,
   animeTitle,
   themeColor,
 }) => {
+  const effectivePool = useMemo(
+    () => (targetPool && targetPool.length > 0 ? targetPool : characters),
+    [targetPool, characters]
+  );
   const bestKey = `animedle_speedrun_best_${animeSlug}`;
   const [bestScore, setBestScore] = useState<number>(() => {
     try {
@@ -52,7 +58,7 @@ export const SpeedrunArena: React.FC<SpeedrunArenaProps> = ({
   const charStartRef = useRef<number>(Date.now());
 
   const buildShuffledDeck = () => {
-    const arr = [...characters];
+    const arr = [...effectivePool];
     for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [arr[i], arr[j]] = [arr[j], arr[i]];
@@ -91,7 +97,7 @@ export const SpeedrunArena: React.FC<SpeedrunArenaProps> = ({
       setCharElapsedSec(Math.floor((now - charStartRef.current) / 1000));
 
       setTimeLeftMs((prev) => {
-        const next = prev - delta;
+        const next = Math.min(60000, prev - delta);
         if (next <= 0) {
           setPhase('finished');
           return 0;
@@ -104,9 +110,9 @@ export const SpeedrunArena: React.FC<SpeedrunArenaProps> = ({
   }, [phase]);
 
   const currentTarget = useMemo(() => {
-    if (deck.length === 0) return characters[0];
+    if (deck.length === 0) return effectivePool[0] || characters[0];
     return deck[deckIdx % deck.length];
-  }, [deck, deckIdx, characters]);
+  }, [deck, deckIdx, effectivePool, characters]);
 
   // N5 Opção A: Foto borrada que vai limpando sozinha a cada 2 segundos + dicas rápidas progressivas
   const stage = Math.min(4, Math.floor(charElapsedSec / 2) + wrongGuessIds.length);
@@ -130,8 +136,9 @@ export const SpeedrunArena: React.FC<SpeedrunArenaProps> = ({
       const nextScore = score + 1;
       setScore(nextScore);
       setSolvedChars((prev) => [...prev, currentTarget]);
-      setTimeLeftMs((prev) => Math.min(90000, prev + 5000)); // +5s de bônus
-      setBonusBanner('+5.0s! ⚡');
+      // Trava estrita: impossível ultrapassar 60.0 segundos (60000ms)
+      setTimeLeftMs((prev) => Math.min(60000, prev + 5000));
+      setBonusBanner('+5.0s! ⚡ (Máx 60s)');
       window.setTimeout(() => setBonusBanner(null), 1100);
 
       // S3: Recompensa com +15 XP de Maestria por acerto no Speedrun
@@ -161,7 +168,7 @@ export const SpeedrunArena: React.FC<SpeedrunArenaProps> = ({
     advanceToNextTarget();
   };
 
-  const secondsDisplay = (timeLeftMs / 1000).toFixed(1);
+  const secondsDisplay = (Math.min(60000, timeLeftMs) / 1000).toFixed(1);
   const pctLeft = Math.min(100, Math.max(0, (timeLeftMs / 60000) * 100));
 
   const affiliationText = currentTarget
@@ -171,8 +178,12 @@ export const SpeedrunArena: React.FC<SpeedrunArenaProps> = ({
     : '';
 
   const powerText = currentTarget
-    ? currentTarget.styleOrPower && currentTarget.styleOrPower !== 'Nenhum'
+    ? currentTarget.styleOrPower &&
+      currentTarget.styleOrPower !== 'Nenhum' &&
+      currentTarget.styleOrPower !== 'Nenhuma'
       ? currentTarget.styleOrPower
+      : animeSlug === 'one-piece'
+      ? `Sem Akuma no Mi (${currentTarget.combatType || 'Combate Direto'})`
       : currentTarget.combatType || 'Combate Direto'
     : '';
 

@@ -20,7 +20,7 @@
       "Corte de Anti-Magia Infundido"
     ],
     "avatar": "/avatars/black-clover/asta.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -45,7 +45,7 @@
       "Zona de Mana: Golpe de Luar Negro"
     ],
     "avatar": "/avatars/black-clover/yami-sukehiro.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -272,7 +272,7 @@
     ],
     "avatar": "/avatars/black-clover/gordon-agrippa.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -347,7 +347,7 @@
     ],
     "avatar": "/avatars/black-clover/secre-swallowtail.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -420,7 +420,7 @@
       "Espada de Brotos Celestiais"
     ],
     "avatar": "/avatars/black-clover/william-vangeance.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -447,7 +447,7 @@
     ],
     "avatar": "/avatars/black-clover/yuno-grinberryall.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -522,7 +522,7 @@
     ],
     "avatar": "/avatars/black-clover/mereoleona-vermillion.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -572,7 +572,7 @@
     ],
     "avatar": "/avatars/black-clover/charlotte-roselei.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -596,7 +596,7 @@
       "Ceifador de Mil Lâminas Voadoras"
     ],
     "avatar": "/avatars/black-clover/jack-o-estripador.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -697,7 +697,7 @@
     ],
     "avatar": "/avatars/black-clover/gueldre-poizot.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -797,7 +797,7 @@
     ],
     "avatar": "/avatars/black-clover/solid-silva.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -847,7 +847,7 @@
     ],
     "avatar": "/avatars/black-clover/sol-marron.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -871,7 +871,7 @@
     ],
     "avatar": "/avatars/black-clover/sekke-bronzazza.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -945,7 +945,7 @@
       "Rajada Repulsora de Ventania"
     ],
     "avatar": "/avatars/black-clover/randall-luftair.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -1020,7 +1020,7 @@
       "Chuva de Estilhaços Cortantes"
     ],
     "avatar": "/avatars/black-clover/hamon-caseus.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1145,7 +1145,7 @@
     ],
     "avatar": "/avatars/black-clover/augustus-kira-clover-xiii.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1168,7 +1168,7 @@
       "Salvo de Raios Sagrados na Velocidade da Luz"
     ],
     "avatar": "/avatars/black-clover/lemiel-silvamillion-clover.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1288,7 +1288,7 @@
     ],
     "avatar": "/avatars/black-clover/marx-francois.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1336,8 +1336,8 @@
       "Ressurreição como Paladino por Lucius"
     ],
     "avatar": "/avatars/black-clover/acier-silva.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1361,7 +1361,7 @@
       "Espada da Justiça Divina de Paladino"
     ],
     "avatar": "/avatars/black-clover/damnatio-kira.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1432,7 +1432,7 @@
       "Ressurreição de Paladino por Lucius"
     ],
     "avatar": "/avatars/black-clover/heath-grice.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Antagonista / Vilão"
   },
@@ -1456,7 +1456,7 @@
       "Magia de Origem: Flecha Suprema de Luz e Mana"
     ],
     "avatar": "/avatars/black-clover/licht.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -1481,7 +1481,7 @@
       "Magia de Luz Demoníaca da Escuridão Profunda"
     ],
     "avatar": "/avatars/black-clover/patry.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -1580,7 +1580,7 @@
       "Massa Vermelha Devoradora de Mana e Vida"
     ],
     "avatar": "/avatars/black-clover/zagred.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1654,7 +1654,7 @@
     ],
     "avatar": "/avatars/black-clover/sally.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1845,8 +1845,8 @@
       "Defesa Absoluta de Espinhos Sagrados"
     ],
     "avatar": "/avatars/black-clover/charla.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1918,7 +1918,7 @@
     ],
     "avatar": "/avatars/black-clover/gifso.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1941,7 +1941,7 @@
       "Corte Giratório das Profundezas"
     ],
     "avatar": "/avatars/black-clover/kiato.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2014,7 +2014,7 @@
     ],
     "avatar": "/avatars/black-clover/mars.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2086,7 +2086,7 @@
       "Treinamento Rígido de Combate Corpo a Corpo"
     ],
     "avatar": "/avatars/black-clover/fanzell-kruger.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
@@ -2136,7 +2136,7 @@
     ],
     "avatar": "/avatars/black-clover/mariella.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2184,7 +2184,7 @@
     ],
     "avatar": "/avatars/black-clover/gadjah.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -2208,7 +2208,7 @@
     ],
     "avatar": "/avatars/black-clover/undine.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2256,7 +2256,7 @@
     ],
     "avatar": "/avatars/black-clover/salamander.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2520,7 +2520,7 @@
     ],
     "avatar": "/avatars/black-clover/megicula.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2711,7 +2711,7 @@
     ],
     "avatar": "/avatars/black-clover/morgen-faust.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2736,7 +2736,7 @@
     ],
     "avatar": "/avatars/black-clover/moris-libardirt.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2784,7 +2784,7 @@
     ],
     "avatar": "/avatars/black-clover/ciel-grinberryall.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2808,7 +2808,7 @@
     ],
     "avatar": "/avatars/black-clover/svenkin-gatard.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2879,7 +2879,7 @@
       "Deslocamento de Ki em Alta Velocidade"
     ],
     "avatar": "/avatars/black-clover/ichika-yami.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2904,7 +2904,7 @@
     ],
     "avatar": "/avatars/black-clover/yosuga-musyogatake.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2975,7 +2975,7 @@
       "Passo Fantasma Samurai"
     ],
     "avatar": "/avatars/black-clover/jozou-hanegatsuji.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2999,7 +2999,7 @@
       "Fúria Homicida de Neve"
     ],
     "avatar": "/avatars/black-clover/ginnojomorifuyu-kezoukaku.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },

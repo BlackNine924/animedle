@@ -11,7 +11,7 @@
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/lu-bu.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -46,7 +46,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/adao.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -79,8 +79,8 @@
     "debutArc": "3ª Rodada: Sasaki Kojiro vs Poseidon",
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/sasaki-kojiro.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -149,7 +149,7 @@
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/raiden-tameemon.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -181,7 +181,7 @@
     "debutArc": "5ª Rodada: Raiden Tameemon vs Shiva",
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/buda.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -198,7 +198,7 @@
     "debutArc": "6ª Rodada: Buda vs Zerofuku / Hajun",
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/zerofuku.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -215,7 +215,7 @@
     "debutArc": "6ª Rodada: Buda vs Zerofuku / Hajun",
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/hajun.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -300,8 +300,8 @@
     "debutArc": "9ª Rodada: Leonidas vs Apolo",
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/leonidas.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -318,7 +318,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/apolo.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -335,7 +335,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/okita-souji.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -351,7 +351,7 @@
     "debutArc": "10ª Rodada: Okita Souji vs Susanoo-no-Mikoto",
     "status": "Morto",
     "avatar": "/avatars/record-of-ragnarok/susanoo.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -386,7 +386,7 @@
     "status": "Viva",
     "avatar": "/avatars/record-of-ragnarok/goll.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -402,8 +402,8 @@
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/odin.png",
-    "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -453,8 +453,8 @@
     "debutArc": "1ª Rodada: Lu Bu vs Thor",
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/ares.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -471,7 +471,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/nostradamus.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -487,7 +487,7 @@
     "debutArc": "7ª Rodada: Qin Shi Huang vs Hades",
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/kintoki-sakata.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -505,7 +505,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/simo-hayha.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -522,7 +522,7 @@
     "status": "Vivo",
     "avatar": "/avatars/record-of-ragnarok/anubis.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -539,7 +539,7 @@
     "status": "Viva",
     "avatar": "/avatars/record-of-ragnarok/afrodite.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },

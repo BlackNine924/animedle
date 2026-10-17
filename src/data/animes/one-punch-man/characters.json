@@ -20,7 +20,7 @@
     "rank": "Classe A (Ex-Classe B)",
     "styleOrPower": "Força Sobre-humana Ilimitada",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -114,8 +114,8 @@
     "avatar": "/avatars/one-punch-man/atomic-samurai.png",
     "rank": "Classe S (Rank 4)",
     "styleOrPower": "Esgrima Suprema (Kenjutsu)",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -163,7 +163,7 @@
     "rank": "Classe S (Rank 6)",
     "styleOrPower": "Cibernética / Armamento Pesado / Drones Remotos",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -282,7 +282,7 @@
     "rank": "Classe S (Rank 11)",
     "styleOrPower": "Músculos Impenetráveis & Fisiculturismo",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -355,7 +355,7 @@
     "rank": "Classe S (Rank 14)",
     "styleOrPower": "Cibernética / Incineração / Armamento de Combate",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -378,7 +378,7 @@
     "rank": "Classe S (Rank 15)",
     "styleOrPower": "Espírito de Luta Ilimitado & Bastão Indestrutível",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -450,7 +450,7 @@
     "rank": "Classe A (Rank 1)",
     "styleOrPower": "Artes Marciais Híbridas & Fisiologia Monstruosa Oculta",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -473,8 +473,8 @@
     "avatar": "/avatars/one-punch-man/iaian.png",
     "rank": "Classe A (Rank 2)",
     "styleOrPower": "Esgrima Iaijutsu (Saque Rápido)",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -497,8 +497,8 @@
     "avatar": "/avatars/one-punch-man/okamaitachi.png",
     "rank": "Classe A (Rank 3)",
     "styleOrPower": "Lâminas Eólicas Cortantes",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -521,7 +521,7 @@
     "avatar": "/avatars/one-punch-man/bushidrill.png",
     "rank": "Classe A (Rank 4)",
     "styleOrPower": "Lança Perfuradora Espiral / Broca",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -565,7 +565,7 @@
     "avatar": "/avatars/one-punch-man/blue-fire.png",
     "rank": "Classe A (Rank 6)",
     "styleOrPower": "Lança-Chamas Oculto nas Mangas",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -633,7 +633,7 @@
     "rank": "Classe A (Rank 9)",
     "styleOrPower": "Força Nutricional Vegetariana e Regata",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -654,7 +654,7 @@
     "avatar": "/avatars/one-punch-man/stinger.png",
     "rank": "Classe A (Rank 10)",
     "styleOrPower": "Lança de Broca de Bambu (Shoot Stinger)",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -764,7 +764,7 @@
     "rank": "Classe A (Rank 19)",
     "styleOrPower": "Sapatos com Pólvora Explosiva & Artes Marciais",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -786,7 +786,7 @@
     "rank": "Classe A (Rank 22)",
     "styleOrPower": "Rifle de Precisão Sniper de Longo Alcance",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -829,7 +829,7 @@
     "avatar": "/avatars/one-punch-man/feather.png",
     "rank": "Classe A (Rank 34)",
     "styleOrPower": "Acrobacias Aéreas e Lâminas de Garras",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -872,7 +872,7 @@
     "avatar": "/avatars/one-punch-man/chain-n-toad.png",
     "rank": "Classe A (Rank 36)",
     "styleOrPower": "Kusarigama (Foice com Corrente) com Máscara de Sapo",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -895,7 +895,7 @@
     "rank": "Classe A (Rank 37)",
     "styleOrPower": "Terno de Pele de Serpente e Punho Venenoso",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -917,7 +917,7 @@
     "rank": "Classe A (Rank 26)",
     "styleOrPower": "Estilingue Tático e Esferas de Ouro Cortantes",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -939,7 +939,7 @@
     "avatar": "/avatars/one-punch-man/spring-mustachio.png",
     "rank": "Classe A (Rank 28)",
     "styleOrPower": "Florete Espiral Extensível de Esgrima Nobre",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -962,7 +962,7 @@
     "rank": "Classe A (Rank 27)",
     "styleOrPower": "Kendama Gigante de Aço",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -982,8 +982,8 @@
     "avatar": "/avatars/one-punch-man/crescent-eyebrow.png",
     "rank": "Classe A (Rank 25)",
     "styleOrPower": "Lança de Duas Pontas em Lua Crescente",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1119,7 +1119,7 @@
     "rank": "Classe B (Rank 71)",
     "styleOrPower": "Atletismo Olímpico e Equipamento Esportivo de Combate",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1142,7 +1142,7 @@
     "rank": "Classe B (Rank 74)",
     "styleOrPower": "Bastão de Três Seções (Sansetsukon)",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1183,7 +1183,7 @@
     "avatar": "/avatars/one-punch-man/darkness-blade.png",
     "rank": "Classe B (Rank 50)",
     "styleOrPower": "Espada Negra e Síndrome de Oitava Série (Chunibyo)",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -1293,7 +1293,7 @@
     "rank": "Classe C (Rank 6)",
     "styleOrPower": "Regata Estampada de Tigre e Fúria Selvagem",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1493,7 +1493,7 @@
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Múltiplas Cabeças, Metamorfose Corporal e Esferas Vitais",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1515,7 +1515,7 @@
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Telecinese Cósmica Gravitacional Extrema",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1537,7 +1537,7 @@
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Mordidas de Mandíbulas Múltiplas e Cuspe Ácido",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1605,7 +1605,7 @@
     "rank": "Nível Desastre: Demônio+",
     "styleOrPower": "Marionete de Carne Psíquica com Olho Gigante",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -1651,7 +1651,7 @@
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Esferas de Energia Luminosa Pura Destrutiva concedidas por Deus",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Divindade / Ser Celestial"
   },
@@ -1695,7 +1695,7 @@
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Mandíbula Voraz Insaciável e Ácido Digestivo Letal",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1741,7 +1741,7 @@
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Bombas de Energia Explosivas Bucais e Carapaça Blindada",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1830,7 +1830,7 @@
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Fisiologia de Besouro Rinoceronte & Modo Carnage",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1897,7 +1897,7 @@
     "rank": "Nível Desastre: Demônio",
     "styleOrPower": "Cibernética Pesada de Gorila e Cozinha de Takoyaki",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -1963,7 +1963,7 @@
     "rank": "Nível Desastre: Tigre",
     "styleOrPower": "Pinças de Caranguejo Esmagadoras",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2009,7 +2009,7 @@
     "rank": "Nível Desastre: Demônio+ / Dragão",
     "styleOrPower": "Ninjutsu Assassinato da Velocidade do Som & Shurikens",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -2054,8 +2054,8 @@
     "avatar": "/avatars/one-punch-man/gale-wind.png",
     "rank": "Nível Desastre: Dragão",
     "styleOrPower": "Ninjutsu de Vento e Esgrima Cortante Hipersônica",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2075,7 +2075,7 @@
     "avatar": "/avatars/one-punch-man/royal-ripper.png",
     "rank": "Nível Desastre: Demônio",
     "styleOrPower": "Lâminas no Lugar das Mãos e Sadismo Insano",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -2120,7 +2120,7 @@
     "rank": "Nível Desastre: Demônio",
     "styleOrPower": "Velocidade de Esquiva Instintiva de Barata",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -2165,7 +2165,7 @@
     "rank": "Nível Desastre: Lobo",
     "styleOrPower": "Iluminação com Grande Olho Único e Fuga Cômica",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2189,7 +2189,7 @@
     "rank": "Classe A+ / Nível Dragão Marcial",
     "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2211,7 +2211,7 @@
     "rank": "Classe A",
     "styleOrPower": "Artes Marciais (Punho do Vazio / Void Fist)",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2342,7 +2342,7 @@
     "rank": "Ministro de Operações de Emergência",
     "styleOrPower": "Liderança Estratégica e Alerta da Profecia de Shibabawa",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },

@@ -45,7 +45,7 @@
       "Disparo Preciso de Lança do Trovão"
     ],
     "avatar": "/avatars/attack-on-titan/mikasa-ackerman.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -418,7 +418,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/louise.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -466,7 +466,7 @@
       "Salto e Esquiva Sobre-humana"
     ],
     "avatar": "/avatars/attack-on-titan/levi-ackerman.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder",
     "species": "Humano"
@@ -538,8 +538,8 @@
       "Retalhação Solo contra Horda"
     ],
     "avatar": "/avatars/attack-on-titan/mike-zacharias.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Protagonista / Líder",
     "species": "Humano"
   },
@@ -611,7 +611,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/gelgar.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -682,7 +682,7 @@
       "Apoio a Batedores"
     ],
     "avatar": "/avatars/attack-on-titan/klaus.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -1067,7 +1067,7 @@
       "Coordenação Defensiva da Muralha Rose"
     ],
     "avatar": "/avatars/attack-on-titan/rico-brzenska.png",
-    "combatType": "Ataque à Distância / Projéteis",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Protagonista / Líder",
     "species": "Humano"
@@ -1092,7 +1092,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/mitabi-jarnach.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Protagonista / Líder",
     "species": "Humano"
   },
@@ -1140,7 +1140,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/anka-rheinberger.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1164,7 +1164,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/gustav.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1310,7 +1310,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/marlo-freudenberg.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1526,7 +1526,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/uri-reiss.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Portador de Titã / Humano"
   },
@@ -1574,7 +1574,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/alma.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1671,7 +1671,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/carla-jaeger.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2035,7 +2035,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/lara-tybur.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Portador de Titã / Humano"
   },
@@ -2107,7 +2107,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/colt-grice.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2131,7 +2131,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/udo.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2227,7 +2227,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/general-calvi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Mentor / Mestre / Autoridade",
     "species": "Humano"
   },
@@ -2251,7 +2251,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/sargento-gross.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Portador de Titã / Humano"
   },
@@ -2299,7 +2299,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/sr-leonhart.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2347,7 +2347,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/sr-jaeger.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2371,7 +2371,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/sra-jaeger.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2395,7 +2395,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/secretario-muller.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Mentor / Mestre / Autoridade",
     "species": "Humano"
   },
@@ -2444,7 +2444,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/onyankopon.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2492,7 +2492,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/griez.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -2540,7 +2540,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/ymir-fritz.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Divindade / Ser Celestial"
   },
@@ -2757,7 +2757,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/maria-fritz.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Portador de Titã / Humano"
   },
@@ -2805,7 +2805,7 @@
     ],
     "avatar": "/avatars/attack-on-titan/sina-fritz.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Portador de Titã / Humano"
   }

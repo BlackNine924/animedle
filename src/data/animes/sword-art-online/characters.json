@@ -20,7 +20,7 @@
       "Armament Full Control: Noite Estrelada"
     ],
     "avatar": "/avatars/sword-art-online/kirito.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -92,7 +92,7 @@
       "Liderança Protetora Fuurinkazan"
     ],
     "avatar": "/avatars/sword-art-online/klein.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -116,7 +116,7 @@
       "Negociação Mercantil de Itens Raros"
     ],
     "avatar": "/avatars/sword-art-online/agil.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -139,7 +139,7 @@
       "Hálito de Cura e Bolhas de Pina"
     ],
     "avatar": "/avatars/sword-art-online/silica.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -206,7 +206,7 @@
       "Mensagem de Cristal Gravada"
     ],
     "avatar": "/avatars/sword-art-online/sachi.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -227,7 +227,7 @@
       "Liderança de Guilda Colegial Amadora"
     ],
     "avatar": "/avatars/sword-art-online/keita.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -251,7 +251,7 @@
       "Reflexos Perfeitos de Administrador do Sistema"
     ],
     "avatar": "/avatars/sword-art-online/heathcliff.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -274,7 +274,7 @@
       "Corte Assassino Desleal"
     ],
     "avatar": "/avatars/sword-art-online/kuradeel.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -297,7 +297,7 @@
       "Investida de Cavaleiro Nobre"
     ],
     "avatar": "/avatars/sword-art-online/diabel.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -319,7 +319,7 @@
       "Carga Militar do Exército de Aincrad"
     ],
     "avatar": "/avatars/sword-art-online/kibaou.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -341,7 +341,7 @@
       "Espetada de Lança Cruzada"
     ],
     "avatar": "/avatars/sword-art-online/rosalia.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -365,7 +365,7 @@
       "Incitação ao Ódio Coletivo Mental"
     ],
     "avatar": "/avatars/sword-art-online/poh.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -388,7 +388,7 @@
       "Disfarce Assassino Espectral"
     ],
     "avatar": "/avatars/sword-art-online/red-eyed-xaxa.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -435,7 +435,7 @@
       "Regeneração Absoluta da Terra de Terraria"
     ],
     "avatar": "/avatars/sword-art-online/leafa.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -457,7 +457,7 @@
       "Magia Furtiva de Ilusão Óptica Sylph"
     ],
     "avatar": "/avatars/sword-art-online/recon.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -479,7 +479,7 @@
       "Corte Gracioso de Espada Oriental"
     ],
     "avatar": "/avatars/sword-art-online/sakuya.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -502,7 +502,7 @@
     ],
     "avatar": "/avatars/sword-art-online/alicia-rue.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -523,8 +523,8 @@
       "Voo Pesado com Propulsão de Chamas Salamander"
     ],
     "avatar": "/avatars/sword-art-online/eugene.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -547,7 +547,7 @@
     ],
     "avatar": "/avatars/sword-art-online/oberon.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -637,7 +637,7 @@
       "Velocidade de Reação Absoluta com Medicuboid"
     ],
     "avatar": "/avatars/sword-art-online/yuuki.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -658,8 +658,8 @@
       "Magia de Alta Regeneração Aquática Undine"
     ],
     "avatar": "/avatars/sword-art-online/siune.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -681,7 +681,7 @@
       "Esgrima Veloz de Realidade Aumentada"
     ],
     "avatar": "/avatars/sword-art-online/eiji.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -704,7 +704,7 @@
     ],
     "avatar": "/avatars/sword-art-online/yuna.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -728,7 +728,7 @@
       "Espada Vermelha Sangue de Fusão com Kirito"
     ],
     "avatar": "/avatars/sword-art-online/eugeo.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -752,7 +752,7 @@
       "Dança das Lâminas de Osmanthus"
     ],
     "avatar": "/avatars/sword-art-online/alice-zuberg.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -774,7 +774,7 @@
       "Urashagiri (Corte Temporal Retrógrado)"
     ],
     "avatar": "/avatars/sword-art-online/bercouli.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -796,7 +796,7 @@
       "Reflexão Múltipla de Lâminas Solares"
     ],
     "avatar": "/avatars/sword-art-online/fanatio.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -860,8 +860,8 @@
       "Armament Full Control: Lâmina de Fio Zero que Corta Qualquer Matéria"
     ],
     "avatar": "/avatars/sword-art-online/sheyta.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -881,7 +881,7 @@
       "Golpe Furtivo Paralisante com Adaga Untada"
     ],
     "avatar": "/avatars/sword-art-online/linel.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -902,7 +902,7 @@
       "Golpe Furtivo Paralisante com Adaga Untada"
     ],
     "avatar": "/avatars/sword-art-online/fizel.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -925,7 +925,7 @@
       "Artes Sagradas Absolutas"
     ],
     "avatar": "/avatars/sword-art-online/quinella.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -989,8 +989,8 @@
       "Estilo de Espada Flexível da Família Serlut"
     ],
     "avatar": "/avatars/sword-art-online/sortiliena-serlut.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -1011,7 +1011,7 @@
       "Espada Básica de Cavalaria"
     ],
     "avatar": "/avatars/sword-art-online/ronie-arabel.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -1033,7 +1033,7 @@
       "Guarda da Espada da Rosa Azul"
     ],
     "avatar": "/avatars/sword-art-online/tiese-shtolienen.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Vermelho",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
@@ -1058,7 +1058,7 @@
     ],
     "avatar": "/avatars/sword-art-online/gabriel-miller.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1080,7 +1080,7 @@
     ],
     "avatar": "/avatars/sword-art-online/iskahn.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   },
@@ -1100,8 +1100,8 @@
       "Tornado de Vontade Espiritual Pura do Cavaleiro das Trevas"
     ],
     "avatar": "/avatars/sword-art-online/shasta.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Demônio / Maldição / Sobrenatural"
   },
@@ -1122,7 +1122,7 @@
     ],
     "avatar": "/avatars/sword-art-online/seijirou-kikuoka.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
   }

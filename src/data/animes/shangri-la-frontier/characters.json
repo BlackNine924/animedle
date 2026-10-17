@@ -19,7 +19,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/sunraku.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -66,7 +66,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/arthur-pencilgon.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -89,7 +89,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/oikatzo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -182,7 +182,7 @@
       "Terceira Fase: Armadura Flamejante de Cinzas"
     ],
     "avatar": "/avatars/shangri-la-frontier/wezaemon.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -206,7 +206,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/setsuna.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -275,7 +275,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/animalia.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -366,7 +366,7 @@
       "Refinamento de Heranças da Era Antiga"
     ],
     "avatar": "/avatars/shangri-la-frontier/bilac.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -389,7 +389,7 @@
       "Golpe Perfurante de Alta Rapidez"
     ],
     "avatar": "/avatars/shangri-la-frontier/aramis.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -435,7 +435,7 @@
       "Leitura de Guarda Inimiga"
     ],
     "avatar": "/avatars/shangri-la-frontier/kyogoku-ryuguin.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -459,7 +459,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/sylvia-goldberg.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -482,7 +482,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/akane-oki.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -620,7 +620,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/ceecrue.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -735,7 +735,7 @@
     ],
     "avatar": "/avatars/shangri-la-frontier/siegwurm.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {

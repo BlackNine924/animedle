@@ -71,7 +71,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/makima.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -94,7 +94,7 @@
       "Disparo Balístico (Possesso da Arma)"
     ],
     "avatar": "/avatars/chainsaw-man/aki-hayakawa.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -168,7 +168,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/yoru.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -328,7 +328,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/yutaro-kurose.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -374,7 +374,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/galgali.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -490,7 +490,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/ghost-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -513,8 +513,8 @@
       "Contrato de Condenação de Prego"
     ],
     "avatar": "/avatars/chainsaw-man/curse-devil.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -538,7 +538,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/snake-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -561,7 +561,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/akane-sawatari.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Antagonista / Vilão"
   },
   {
@@ -584,7 +584,7 @@
       "Regeneração por Puxar a Mão Cortada"
     ],
     "avatar": "/avatars/chainsaw-man/katana-man.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -632,7 +632,7 @@
       "Regeneração por Remoção de Flecha do Olho"
     ],
     "avatar": "/avatars/chainsaw-man/quanxi.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -680,8 +680,8 @@
       "Ativação por Gatilho na Mão"
     ],
     "avatar": "/avatars/chainsaw-man/miri-sugo.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -703,8 +703,8 @@
       "Arremesso de Projétil Perfurante de Longa Distância"
     ],
     "avatar": "/avatars/chainsaw-man/spear-hybrid.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -751,7 +751,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/santa-claus.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -818,7 +818,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/cosmo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -884,7 +884,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/aldo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1016,7 +1016,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/madoka.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1082,7 +1082,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/subaru.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1126,7 +1126,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/meowy.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1261,7 +1261,7 @@
       "Capa de Vácuo Protetora contra Luz"
     ],
     "avatar": "/avatars/chainsaw-man/darkness-devil.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1309,7 +1309,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/aging-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1446,7 +1446,7 @@
       "Empalamento com Espadas Vingativas"
     ],
     "avatar": "/avatars/chainsaw-man/punishment-devil.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1494,7 +1494,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/cockroach-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1516,7 +1516,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/muscle-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1538,7 +1538,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/sea-cucumber-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1583,7 +1583,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/octopus-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1605,7 +1605,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/stone-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1626,8 +1626,8 @@
       "Salto Predatório de Emboscada"
     ],
     "avatar": "/avatars/chainsaw-man/mantis-devil.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1649,7 +1649,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/mold-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1671,7 +1671,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/skin-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1691,8 +1691,8 @@
       "Corte Dilacerante com Garras Afiadas"
     ],
     "avatar": "/avatars/chainsaw-man/claw-devil.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1736,7 +1736,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/mouth-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1780,7 +1780,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/centipede-devil.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1912,7 +1912,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/stag-beetle-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1956,7 +1956,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/car-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2000,7 +2000,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/gravity-devil.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2206,7 +2206,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/seigi-akoku.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Protagonista / Líder"
   },
   {
@@ -2229,7 +2229,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/yuko.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2293,7 +2293,7 @@
       "Transmutação em Tanaka Spinal Cord Sword"
     ],
     "avatar": "/avatars/chainsaw-man/tanaka.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
@@ -2338,8 +2338,8 @@
       "Queda da Lâmina de Guilhotina"
     ],
     "avatar": "/avatars/chainsaw-man/guillotine-devil.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2405,7 +2405,7 @@
     ],
     "avatar": "/avatars/chainsaw-man/seraphim.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2602,7 +2602,7 @@
       "Emboscada Coordenada"
     ],
     "avatar": "/avatars/chainsaw-man/hadaji-sakagami.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },

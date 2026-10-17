@@ -14,9 +14,12 @@ import { ANIMES_CONFIG } from '../data/animes/config';
 import { getDailyDateString } from '../utils/dailySeed';
 import { getAnimeMastery, AnimeMasteryInfo } from '../utils/featuresManager';
 
-// T3: Lazy-Loading do SceneGalleryModal na Home para mover o módulo para um chunk separado
+// T3: Lazy-Loading do SceneGalleryModal e MasteryModal na Home para mover os módulos para chunks separados
 const SceneGalleryModal = React.lazy(() =>
   import('../components/SceneGalleryModal').then((m) => ({ default: m.SceneGalleryModal }))
+);
+const MasteryModal = React.lazy(() =>
+  import('../components/MasteryModal').then((m) => ({ default: m.MasteryModal }))
 );
 
 // ── Filtros de seção ────────────────────────────────────────────────────
@@ -94,9 +97,10 @@ interface AnimeCardProps {
   onClick: () => void;
   dailyProgress?: DailyAnimeProgress;
   masteryInfo?: AnimeMasteryInfo;
+  onOpenMastery?: (anime: AnimeEntry, info: AnimeMasteryInfo) => void;
 }
 
-const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress, masteryInfo }) => {
+const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress, masteryInfo, onOpenMastery }) => {
   const cardWebp = `/cards/${anime.slug}.webp`;
   const cardPng = `/cards/${anime.slug}.png`;
   const isComingSoon = !anime.implemented;
@@ -165,28 +169,33 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress, ma
         )}
       </div>
 
-      {/* Nome do anime + S3: Nível e Título Temático de Maestria */}
+      {/* Nome do anime + S3: Nível e Título Temático de Maestria (clicável para abrir progressão) */}
       <div className="flex flex-col items-center gap-1 w-full px-1">
         <span className="text-center font-['Outfit',sans-serif] text-sm sm:text-base md:text-[17px] font-bold text-slate-100 leading-snug group-hover:text-amber-300 transition-colors duration-200 tracking-wide drop-shadow-sm">
           {anime.name}
         </span>
 
         {anime.implemented && masteryInfo && (
-          <div
-            className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-extrabold border transition-all max-w-full ${
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              onOpenMastery?.(anime, masteryInfo);
+            }}
+            className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] sm:text-[11px] font-extrabold border transition-all max-w-full hover:scale-105 active:scale-95 ${
               masteryInfo.level >= 10
-                ? 'bg-amber-500/15 text-amber-300 border-amber-400/40 shadow-sm'
+                ? 'bg-amber-500/15 text-amber-300 border-amber-400/40 hover:border-amber-300 shadow-sm'
                 : masteryInfo.xp > 0
-                ? 'bg-sky-500/15 text-sky-300 border-sky-400/35'
-                : 'bg-[#0d1426]/90 text-slate-400 border-[#1e2b45]'
+                ? 'bg-sky-500/15 text-sky-300 border-sky-400/35 hover:border-sky-300'
+                : 'bg-[#0d1426]/90 text-slate-400 border-[#1e2b45] hover:border-amber-400/50 hover:text-slate-200'
             }`}
-            title={`Nível de Maestria ${masteryInfo.level} (${masteryInfo.xp} XP Total)`}
+            title={`Clique para ver os títulos canônicos de ${anime.name} • Nível ${masteryInfo.level} (${masteryInfo.xp} XP Total)`}
           >
             <Award size={11} className="shrink-0 text-amber-400" />
             <span className="font-black text-white shrink-0">Nv.{masteryInfo.level}</span>
             <span className="opacity-60">•</span>
             <span className="truncate">{masteryInfo.title}</span>
-          </div>
+          </button>
         )}
       </div>
     </div>
@@ -199,9 +208,10 @@ interface AnimeGridProps {
   onSelect: (slug: string) => void;
   dailyProgressMap?: Record<string, DailyAnimeProgress>;
   masteryMap?: Record<string, AnimeMasteryInfo>;
+  onOpenMastery?: (anime: AnimeEntry, info: AnimeMasteryInfo) => void;
 }
 
-const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, dailyProgressMap, masteryMap }) => {
+const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, dailyProgressMap, masteryMap, onOpenMastery }) => {
   if (animes.length === 0) {
     return (
       <p className="text-slate-500 text-sm text-center py-8">
@@ -219,6 +229,7 @@ const AnimeGrid: React.FC<AnimeGridProps> = ({ animes, onSelect, dailyProgressMa
           onClick={() => onSelect(anime.slug)}
           dailyProgress={dailyProgressMap?.[anime.slug]}
           masteryInfo={masteryMap?.[anime.slug]}
+          onOpenMastery={onOpenMastery}
         />
       ))}
     </div>
@@ -396,6 +407,7 @@ export const Home: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [activeGenre, setActiveGenre] = useState<AnimeGenre | null>(null);
   const [showSceneGallery, setShowSceneGallery] = useState(false);
+  const [selectedMasteryModal, setSelectedMasteryModal] = useState<{ anime: AnimeEntry; info: AnimeMasteryInfo } | null>(null);
   const [sectionToggles, setSectionToggles] = useState<SectionToggle>({
     available: true,
     colecoes: true,
@@ -709,6 +721,7 @@ export const Home: React.FC = () => {
               onSelect={handleSelect}
               dailyProgressMap={dailyProgressMap}
               masteryMap={masteryMap}
+              onOpenMastery={(anime, info) => setSelectedMasteryModal({ anime, info })}
             />
           </Section>
         )}
@@ -726,6 +739,7 @@ export const Home: React.FC = () => {
               onSelect={handleSelect}
               dailyProgressMap={dailyProgressMap}
               masteryMap={masteryMap}
+              onOpenMastery={(anime, info) => setSelectedMasteryModal({ anime, info })}
             />
           </Section>
         )}
@@ -749,12 +763,21 @@ export const Home: React.FC = () => {
         )}
       </main>
 
-      {/* Modal Visualizador de Cenas (T3: Lazy-Loaded) */}
+      {/* Modais Lazy-Loaded (Visualizador de Cenas e Progressão de Maestria S3) */}
       <Suspense fallback={null}>
         {showSceneGallery && (
           <SceneGalleryModal
             initialAnimeSlug="one-piece"
             onClose={() => setShowSceneGallery(false)}
+          />
+        )}
+        {selectedMasteryModal && (
+          <MasteryModal
+            isOpen={Boolean(selectedMasteryModal)}
+            onClose={() => setSelectedMasteryModal(null)}
+            animeTitle={selectedMasteryModal.anime.name}
+            themeColor={ANIMES_CONFIG[selectedMasteryModal.anime.slug]?.themeColor || '#f59e0b'}
+            masteryInfo={selectedMasteryModal.info}
           />
         )}
       </Suspense>

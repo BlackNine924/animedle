@@ -321,7 +321,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/griamore.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -346,7 +346,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/guila.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -369,7 +369,7 @@
       "Agilidade Rápida de Combate"
     ],
     "avatar": "/avatars/nanatsu-no-taizai/jericho.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe",
     "species": "Humano"
@@ -471,7 +471,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/matrona.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -519,7 +519,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/gelda.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -643,7 +643,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/mael.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -693,7 +693,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/monspeet.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -718,7 +718,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/gloxinia.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -768,7 +768,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/galand.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -793,7 +793,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/melascula.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -818,7 +818,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/grayroad.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -893,7 +893,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/sariel.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -990,7 +990,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/chandler.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1014,7 +1014,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/cusack.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1038,7 +1038,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/cath.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1085,7 +1085,7 @@
       "Combate de Apoio e Neutralização Arcana"
     ],
     "avatar": "/avatars/nanatsu-no-taizai/deathpierce.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1134,7 +1134,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/arden.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1182,7 +1182,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/golgius.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1278,7 +1278,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/slader.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1301,8 +1301,8 @@
       "Corte Perfeito de Precisão"
     ],
     "avatar": "/avatars/nanatsu-no-taizai/simon.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1325,7 +1325,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/margaret-liones.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1443,7 +1443,7 @@
     ],
     "avatar": "/avatars/nanatsu-no-taizai/gerheade.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

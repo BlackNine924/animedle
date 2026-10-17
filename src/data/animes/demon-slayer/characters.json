@@ -258,7 +258,7 @@
       "Dança da Libélula: Fugan - Rokkaku Chūgatsu (Hexágono de Olhos Compostos)",
       "Dança da Centopeia: Hyakusoku Jabara (Zigue-zague das Cem Pernas)"
     ],
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -502,7 +502,7 @@
       "Décima Forma: Seisei Ruten (Dragão da Mudança)"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -532,7 +532,7 @@
       "Décima Forma: Seisei Ruten (Dragão da Mudança)"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -562,7 +562,7 @@
       "Décima Forma: Seisei Ruten (Dragão da Mudança)"
     ],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -607,7 +607,7 @@
     "quote": "Vou te matar por quebrar a minha espada!",
     "ability": "Polimento Extremo de Lâmina Nichirin",
     "avatar": "/avatars/demon-slayer/hotaru-haganezuka.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -625,7 +625,7 @@
     "quote": "Fiz esta espada pensando no estilo único do Tokito-sama.",
     "ability": "Forja Especializada Nichirin",
     "avatar": "/avatars/demon-slayer/kozo-kanamori.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -661,7 +661,7 @@
     "quote": "Ferreiros são artistas de lâminas!",
     "ability": "Liderança de Artesãos",
     "avatar": "/avatars/demon-slayer/tecchin-tecchikawahara.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -699,7 +699,7 @@
     "ability": "Suporte Estratégico",
     "avatar": "/avatars/demon-slayer/amane-ubuyashiki.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -755,7 +755,7 @@
     "ability": "Cuidados Médicos e Farmacologia",
     "avatar": "/avatars/demon-slayer/aoi-kanzaki.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -773,7 +773,7 @@
     "ability": "Sobrevivência Incrível",
     "avatar": "/avatars/demon-slayer/murata.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -838,7 +838,7 @@
     "ability": "Papel de Ocultação e Aplicação de Soro Antidemoníaco",
     "avatar": "/avatars/demon-slayer/chachamaru.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -990,7 +990,7 @@
       "Descargas Elétricas e Cetro de Trovão (Raijin)"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1031,8 +1031,8 @@
     "techniques": [
       "Estocadas de Lança de Sangue (Yari)"
     ],
-    "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1053,7 +1053,7 @@
       "Grito Ultrassônico e Garras de Aves"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1284,7 +1284,7 @@
       "Temaris de Sangue com Braços Múltiplos"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1305,7 +1305,7 @@
       "Flechas Vetoriais Koketsu (Manipulação de Vetores)"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1389,7 +1389,7 @@
       "Fios de Marionete Humana"
     ],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1500,7 +1500,7 @@
     "ability": "Nenhum",
     "avatar": "/avatars/demon-slayer/shigeru-kamado.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1611,7 +1611,7 @@
     "ability": "Agilidade e Espionagem Shinobi",
     "avatar": "/avatars/demon-slayer/makio.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1798,7 +1798,7 @@
     "avatar": "/avatars/demon-slayer/mukago.png",
     "techniques": [],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1918,7 +1918,7 @@
     "avatar": "/avatars/demon-slayer/sumi-nakahara.png",
     "techniques": [],
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1957,7 +1957,7 @@
     "avatar": "/avatars/demon-slayer/ozaki.png",
     "techniques": [],
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1976,7 +1976,7 @@
     "avatar": "/avatars/demon-slayer/spider-brother.png",
     "techniques": [],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1995,7 +1995,7 @@
     "avatar": "/avatars/demon-slayer/spider-sister-older.png",
     "techniques": [],
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

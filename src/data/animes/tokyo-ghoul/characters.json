@@ -355,7 +355,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/yukinori-shinohara.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/iwao-kuroiwa.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -509,7 +509,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/itsuki-marude.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -532,7 +532,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/matsuri-washuu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Mentor / Mestre / Autoridade"
   },
   {
@@ -577,7 +577,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/ginshi-shirazu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -623,7 +623,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/saiko-yonebayashi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -712,7 +712,7 @@
       "Kagune Koukaku Parede de Escudos e Lança Valquíria"
     ],
     "avatar": "/avatars/tokyo-ghoul/matsumae.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -874,7 +874,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/yakumo-oomori.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -919,8 +919,8 @@
       "Três Caudas Bikaku em Formato de Lâminas Afiadas"
     ],
     "avatar": "/avatars/tokyo-ghoul/miza-kusakari.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -991,7 +991,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/itori.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1200,7 +1200,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/seidou-takizawa.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1401,7 +1401,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/hanbee-abara.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1445,7 +1445,7 @@
     ],
     "avatar": "/avatars/tokyo-ghoul/yoshitoki-washuu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

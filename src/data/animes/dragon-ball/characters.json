@@ -73,7 +73,7 @@
     ],
     "avatar": "/avatars/dragon-ball/mestre-kame.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -98,7 +98,7 @@
     ],
     "avatar": "/avatars/dragon-ball/yamcha.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -121,7 +121,7 @@
     ],
     "avatar": "/avatars/dragon-ball/oolong.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -167,7 +167,7 @@
     ],
     "avatar": "/avatars/dragon-ball/chichi.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -237,7 +237,7 @@
     ],
     "avatar": "/avatars/dragon-ball/shu.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -261,7 +261,7 @@
     ],
     "avatar": "/avatars/dragon-ball/mai.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -287,7 +287,7 @@
     ],
     "avatar": "/avatars/dragon-ball/kuririn.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -358,7 +358,7 @@
     ],
     "avatar": "/avatars/dragon-ball/mestre-karin.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -382,7 +382,7 @@
     ],
     "avatar": "/avatars/dragon-ball/vovo-gohan.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -476,7 +476,7 @@
     ],
     "avatar": "/avatars/dragon-ball/comandante-red.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -499,7 +499,7 @@
     ],
     "avatar": "/avatars/dragon-ball/conselheiro-black.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -523,7 +523,7 @@
     ],
     "avatar": "/avatars/dragon-ball/androide-8.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -547,7 +547,7 @@
     ],
     "avatar": "/avatars/dragon-ball/mestre-tsuru.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -574,7 +574,7 @@
     ],
     "avatar": "/avatars/dragon-ball/tenshinhan.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -599,7 +599,7 @@
     ],
     "avatar": "/avatars/dragon-ball/chaos.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -645,8 +645,8 @@
       "Força Samurai"
     ],
     "avatar": "/avatars/dragon-ball/yajirobe.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -671,7 +671,7 @@
     ],
     "avatar": "/avatars/dragon-ball/kami-sama.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -696,7 +696,7 @@
     ],
     "avatar": "/avatars/dragon-ball/sr-popo.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -722,7 +722,7 @@
     ],
     "avatar": "/avatars/dragon-ball/piccolo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -747,7 +747,7 @@
     ],
     "avatar": "/avatars/dragon-ball/senhor-kaioh.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -797,7 +797,7 @@
     ],
     "avatar": "/avatars/dragon-ball/nappa.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -849,7 +849,7 @@
     ],
     "avatar": "/avatars/dragon-ball/son-gohan.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -899,7 +899,7 @@
     ],
     "avatar": "/avatars/dragon-ball/dende.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -923,7 +923,7 @@
     ],
     "avatar": "/avatars/dragon-ball/grande-patriarca.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -947,7 +947,7 @@
     ],
     "avatar": "/avatars/dragon-ball/nail.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -971,7 +971,7 @@
     ],
     "avatar": "/avatars/dragon-ball/zarbon.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -994,7 +994,7 @@
     ],
     "avatar": "/avatars/dragon-ball/dodoria.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1019,7 +1019,7 @@
     ],
     "avatar": "/avatars/dragon-ball/capitao-ginyu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1044,7 +1044,7 @@
     ],
     "avatar": "/avatars/dragon-ball/recoome.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Laranja",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1069,7 +1069,7 @@
     ],
     "avatar": "/avatars/dragon-ball/burter.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1094,7 +1094,7 @@
     ],
     "avatar": "/avatars/dragon-ball/jeice.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1119,7 +1119,7 @@
     ],
     "avatar": "/avatars/dragon-ball/guldo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1168,7 +1168,7 @@
     ],
     "avatar": "/avatars/dragon-ball/rei-cold.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1194,7 +1194,7 @@
       "Super Saiyajin Rage"
     ],
     "avatar": "/avatars/dragon-ball/trunks-do-futuro.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1243,7 +1243,7 @@
     ],
     "avatar": "/avatars/dragon-ball/androide-19.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1269,7 +1269,7 @@
     ],
     "avatar": "/avatars/dragon-ball/androide-18.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1296,7 +1296,7 @@
     ],
     "avatar": "/avatars/dragon-ball/androide-17.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1320,7 +1320,7 @@
     ],
     "avatar": "/avatars/dragon-ball/androide-16.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1346,7 +1346,7 @@
     ],
     "avatar": "/avatars/dragon-ball/cell.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1370,7 +1370,7 @@
     ],
     "avatar": "/avatars/dragon-ball/mr-satan.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1419,7 +1419,7 @@
     ],
     "avatar": "/avatars/dragon-ball/son-goten.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1444,7 +1444,7 @@
     ],
     "avatar": "/avatars/dragon-ball/gotenks.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1468,7 +1468,7 @@
       "Super Saiyajin Blue"
     ],
     "avatar": "/avatars/dragon-ball/vegetto.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1519,7 +1519,7 @@
     ],
     "avatar": "/avatars/dragon-ball/shin.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Colorido / Marcante",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1592,7 +1592,7 @@
     ],
     "avatar": "/avatars/dragon-ball/babidi.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1617,7 +1617,7 @@
     ],
     "avatar": "/avatars/dragon-ball/dabura.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1642,7 +1642,7 @@
     ],
     "avatar": "/avatars/dragon-ball/majin-boo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1666,7 +1666,7 @@
     ],
     "avatar": "/avatars/dragon-ball/super-boo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1690,7 +1690,7 @@
     ],
     "avatar": "/avatars/dragon-ball/kid-boo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1713,7 +1713,7 @@
     ],
     "avatar": "/avatars/dragon-ball/uub.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1762,7 +1762,7 @@
     ],
     "avatar": "/avatars/dragon-ball/bills.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1787,7 +1787,7 @@
     ],
     "avatar": "/avatars/dragon-ball/whis.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1835,7 +1835,7 @@
     ],
     "avatar": "/avatars/dragon-ball/champa.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1860,7 +1860,7 @@
     ],
     "avatar": "/avatars/dragon-ball/vados.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1884,7 +1884,7 @@
     ],
     "avatar": "/avatars/dragon-ball/hit.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Preto",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1909,7 +1909,7 @@
     ],
     "avatar": "/avatars/dragon-ball/cabba.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1980,8 +1980,8 @@
       "Anel do Tempo"
     ],
     "avatar": "/avatars/dragon-ball/zamasu.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Preto",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2005,7 +2005,7 @@
       "Fenda Dimensional com Foice"
     ],
     "avatar": "/avatars/dragon-ball/goku-black.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2031,7 +2031,7 @@
     ],
     "avatar": "/avatars/dragon-ball/daishinkan.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2057,7 +2057,7 @@
     ],
     "avatar": "/avatars/dragon-ball/jiren.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Loiro / Dourado",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2133,7 +2133,7 @@
     ],
     "avatar": "/avatars/dragon-ball/caulifla.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2205,7 +2205,7 @@
     ],
     "avatar": "/avatars/dragon-ball/moro.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2229,7 +2229,7 @@
     ],
     "avatar": "/avatars/dragon-ball/meerus.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2279,7 +2279,7 @@
     ],
     "avatar": "/avatars/dragon-ball/cheelai.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2303,7 +2303,7 @@
     ],
     "avatar": "/avatars/dragon-ball/granolah.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2327,7 +2327,7 @@
     ],
     "avatar": "/avatars/dragon-ball/gas.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2352,7 +2352,7 @@
     ],
     "avatar": "/avatars/dragon-ball/gamma-1.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2377,7 +2377,7 @@
     ],
     "avatar": "/avatars/dragon-ball/gamma-2.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2425,7 +2425,7 @@
     ],
     "avatar": "/avatars/dragon-ball/cell-max.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   }
 ]

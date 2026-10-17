@@ -95,7 +95,7 @@
       "Calor Corporal de Salvamento"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/speedwagon.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -140,7 +140,7 @@
       "Espada Luck & Pluck"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/bruford.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -239,7 +239,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/caesar-zeppeli.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -264,7 +264,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/lisa-lisa.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -313,7 +313,7 @@
       "Imortalidade Absoluta"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/kars.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Roxo / Violeta",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -383,7 +383,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/santana.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -405,7 +405,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/smokey-brown.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -427,7 +427,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/suzi-q.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -502,7 +502,7 @@
       "Disparo de Lâmina"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/jean-pierre-polnareff.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -553,7 +553,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/iggy.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -717,7 +717,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/terrence-t-darby.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -764,7 +764,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/mariah.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -788,7 +788,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/alessi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -812,7 +812,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/oingo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -835,7 +835,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/boingo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -906,7 +906,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/okuyasu-nijimura.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -977,7 +977,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/yoshikage-kira.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1022,7 +1022,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/shigekiyo-yangu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1045,7 +1045,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/yukako-yamagishi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1067,7 +1067,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/mikitaka-hazekura.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1112,7 +1112,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/akira-otoishi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1136,7 +1136,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/yuya-fungami.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1182,7 +1182,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/aya-tsuji.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1232,7 +1232,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/giorno-giovanna.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1281,7 +1281,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/guido-mista.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1447,7 +1447,7 @@
       "Camuflagem Óptica por Partículas de Ferro"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/risotto-nero.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1542,7 +1542,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/illuso.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1566,7 +1566,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/melone.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1589,7 +1589,7 @@
       "Autoencolhimento Instantâneo"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/formaggio.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1614,7 +1614,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/cioccolata.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1988,7 +1988,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/gyro-zeppeli.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2082,7 +2082,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/mountain-tim.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2150,7 +2150,7 @@
       "Gotas de Chuva como Lâminas Cortantes"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/blackmore.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2196,7 +2196,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/steven-steel.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2243,7 +2243,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/yasuho-hirose.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2650,7 +2650,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/straizo-p1.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2741,7 +2741,7 @@
       "Ataque Furtivo"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/jack-the-ripper.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -2787,7 +2787,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/straizo-vampire.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2881,7 +2881,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/mark.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -2952,7 +2952,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/gray-fly.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3151,7 +3151,7 @@
       "Manipulação Psíquica de Sonhos"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/mannish-boy.png",
-    "combatType": "Magia / Poder Sobrenatural",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Branco / Prateado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -3226,8 +3226,8 @@
       "Adaptação e Corte Através de Objetos"
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/anubis.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3370,7 +3370,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/shizuka-joestar.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3394,7 +3394,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/yoshihiro-kira.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3418,7 +3418,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/ken-oyanagi.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3538,7 +3538,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/mario-zucchero.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3562,7 +3562,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/sale.png",
     "combatType": "Ataque à Distância / Projéteis",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3586,7 +3586,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/squalo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3634,7 +3634,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/carne.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3658,7 +3658,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/scolippi.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -3900,7 +3900,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/sandman.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4094,7 +4094,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/magenta-magenta.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Rosa",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4165,7 +4165,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/scarlet-valentine.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4238,7 +4238,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/tsurugi-higashikata.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4336,7 +4336,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/yoshikage-kira-part-8.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -4554,7 +4554,7 @@
     ],
     "avatar": "/avatars/jojos-bizarre-adventure/satoru-akefu.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {

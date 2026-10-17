@@ -165,7 +165,7 @@
       "Instrução Marcial de Ogro"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/hakuro.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -284,7 +284,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/geld.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -308,7 +308,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/orc-disaster-geld.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -355,7 +355,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/souka.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -426,7 +426,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/apito.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -472,7 +472,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/adalman.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -494,8 +494,8 @@
       "Defesa Imortal de Escudo"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/albert.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -614,7 +614,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/ultima.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -638,7 +638,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrera.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -661,7 +661,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/moss.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -898,7 +898,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/carrion.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -944,7 +944,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/clayman.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -968,7 +968,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/yuuki-kagurazaka.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1061,7 +1061,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/mariabell-rosso.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1084,7 +1084,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/granbell-rosso.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1176,8 +1176,8 @@
       "Encantamento de Luz Celestial"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/arnaud-bauman.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1297,8 +1297,8 @@
       "Arte Sagrada dos Anões"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/gazel-dwargo.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1320,7 +1320,7 @@
       "Armaria Protetora de Elite"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/kaijin.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1343,8 +1343,8 @@
       "Investida de Cavaleiro Campeão"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/youm-farmenas.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1367,7 +1367,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/myuran.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1392,7 +1392,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/masayuki-honjou.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1415,7 +1415,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/albis.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1485,7 +1485,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/eren.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1530,7 +1530,7 @@
       "Passo Leve de Gatuno"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/gido.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1554,7 +1554,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/misery.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1600,7 +1600,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/charybdis.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1623,7 +1623,7 @@
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/ifrit.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1645,7 +1645,7 @@
       "Canalização de Espírito Sagrado"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/kenya-misaki.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1922,7 +1922,7 @@
       "Comando de Regimento Santo"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/leonard-jester.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1968,7 +1968,7 @@
       "Cura com Água Benta"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/litus.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -1991,7 +1991,7 @@
       "Disparo Aéreo Mágico"
     ],
     "avatar": "/avatars/tensei-shitara-slime-datta-ken/fritz.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },

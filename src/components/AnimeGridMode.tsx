@@ -1561,39 +1561,68 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       });
     });
 
-    // Tipo de Combate / Atuação
-    const combatMap: Record<string, number> = {};
-    characters.forEach((c) => {
-      if (c.combatType && !/^(nenhum|nenhuma|desconhecid[oa])$/i.test(c.combatType.trim())) {
-        combatMap[c.combatType] = (combatMap[c.combatType] || 0) + 1;
+    // Tipo de Combate / Atuação (com suporte multi-classe canônico para híbridos como Espadachim + Akuma no Mi)
+    const normalizeCombatLabel = (raw?: string): string | null => {
+      if (!raw) return null;
+      const s = raw.trim();
+      if (/^(nenhum|nenhuma|desconhecid[oa])$/i.test(s)) return null;
+      if (s === 'Usuário de Espada / Lâmina' || s === 'Armas Brancas / Espadachim') return 'Armas Brancas / Espadachim';
+      if (s === 'Corpo a Corpo' || s === 'Combate Corpo a Corpo') return 'Combate Corpo a Corpo';
+      if (s === 'Longo Alcance / Projéteis' || s === 'Ataque à Distância / Projéteis') return 'Ataque à Distância / Projéteis';
+      return s;
+    };
+
+    const matchesCombatCriterion = (c: Character, targetLabel: string): boolean => {
+      const primary = normalizeCombatLabel(c.combatType);
+      if (primary === targetLabel) return true;
+      const rawAny = c as unknown as Record<string, string | undefined>;
+      const powerText = [c.styleOrPower, rawAny.zanpakuto, rawAny.breathing, rawAny.weapon, c.teigu].filter(Boolean).join(' ').toLowerCase();
+      if (targetLabel === 'Armas Brancas / Espadachim') {
+        return /(espadachim|espada|katana|lâmina|kenjutsu|foice|lança|adaga|machado|clava|kanabo|bisento|tridente|respiração|zanpakut)/i.test(powerText);
       }
+      if (targetLabel === 'Magia / Poder Sobrenatural') {
+        const hasFruit = Boolean(c.fruitType && !/^(nenhum|nenhuma|desconhecid[oa]|sem fruta)$/i.test(c.fruitType.trim()));
+        return hasFruit || /(paramecia|zoan|logia|magia|maldiç|individualidade|nen|alquimia|stand|grimório)/i.test(powerText);
+      }
+      if (targetLabel === 'Combate Corpo a Corpo') {
+        return /(corpo a corpo|artes marciais|rokushiki|karatê|taijutsu|hakuda|lutador|força bruta|punho|chute)/i.test(powerText);
+      }
+      if (targetLabel === 'Ataque à Distância / Projéteis') {
+        return /(atirador|franco-atirador|arco|arma de fogo|pistola|rifle|estilingue|projéteis|canhão|artilharia)/i.test(powerText);
+      }
+      return false;
+    };
+
+    const combatLabels = new Set<string>();
+    characters.forEach((c) => {
+      const nl = normalizeCombatLabel(c.combatType);
+      if (nl) combatLabels.add(nl);
     });
-    Object.entries(combatMap).forEach(([ct, count]) => {
+    combatLabels.forEach((ct) => {
+      const count = characters.filter((c) => matchesCombatCriterion(c, ct)).length;
       if (count >= 3) {
         list.push({
           id: `combat_${ct}`,
           label: ct,
           category: 'Tipo de Combate',
-          test: (c) => c.combatType === ct,
+          test: (c) => matchesCombatCriterion(c, ct),
         });
       }
     });
 
-    // Cor de Cabelo
+    // Cor de Cabelo (sincronizado com os rótulos canônicos revisados)
     const normalizeHair = (raw: string | undefined): string | null => {
       if (!raw) return null;
       const s = raw.toLowerCase().trim();
       if (s.includes('careca') || s.includes('sem cabelo')) return 'Careca / Sem Cabelo';
-      if (s.includes('loiro') || s.includes('dourad') || s.includes('blond')) return 'Cabelo Loiro / Dourado';
+      if (s.includes('loiro') || s.includes('dourad') || s.includes('blond')) return 'Cabelo Loiro';
       if (s.includes('preto') || s.includes('negro') || s.includes('black')) return 'Cabelo Preto';
       if (s.includes('castanho') || s.includes('marrom') || s.includes('brown')) return 'Cabelo Castanho';
-      if (s.includes('branco') || s.includes('pratead') || s.includes('grisalh') || s.includes('white') || s.includes('silver')) return 'Cabelo Branco / Prateado';
-      if (s.includes('ruivo') || s.includes('vermelh') || s.includes('red')) return 'Cabelo Ruivo / Vermelho';
-      if (s.includes('azul') || s.includes('blue') || s.includes('ciano')) return 'Cabelo Azul';
-      if (s.includes('verde') || s.includes('green')) return 'Cabelo Verde';
+      if (s.includes('branco') || s.includes('pratead') || s.includes('grisalh') || s.includes('cinza') || s.includes('white') || s.includes('silver')) return 'Cabelo Branco / Grisalho';
+      if (s.includes('ruivo') || s.includes('vermelh') || s.includes('laranja') || s.includes('red') || s.includes('orange')) return 'Cabelo Ruivo / Laranja';
+      if (s.includes('azul') || s.includes('verde') || s.includes('blue') || s.includes('green') || s.includes('ciano')) return 'Cabelo Azul / Verde';
       if (s.includes('rosa') || s.includes('pink')) return 'Cabelo Rosa';
-      if (s.includes('roxo') || s.includes('violet') || s.includes('purple')) return 'Cabelo Roxo / Violeta';
-      if (s.includes('laranja') || s.includes('orange')) return 'Cabelo Laranja';
+      if (s.includes('roxo') || s.includes('lilás') || s.includes('violet') || s.includes('purple')) return 'Cabelo Roxo / Lilás';
       return raw;
     };
 
@@ -1613,14 +1642,14 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
       }
     });
 
-    // Papel na Trama / Arquétipo
+    // Papel na Trama / Arquétipo (ignora fallback genérico se excessivo)
     const roleMap: Record<string, number> = {};
     characters.forEach((c) => {
       const r = c.roleOrArchetype || c.role || c.archetype;
       if (r) roleMap[r] = (roleMap[r] || 0) + 1;
     });
     Object.entries(roleMap).forEach(([r, count]) => {
-      if (count >= 3) {
+      if (count >= 3 && !(r === 'Aliado / Membro de Equipe' && count > characters.length * 0.45)) {
         list.push({
           id: `role_${r}`,
           label: r,

@@ -87,9 +87,49 @@ function isValidAttrValue(v?: string | null): boolean {
   return !INVALID_VALUES.has(v.trim().toLowerCase());
 }
 
+function normalizeHairForConnections(raw?: string | null): string | null {
+  if (!raw) return null;
+  const s = raw.toLowerCase().trim();
+  if (!s || INVALID_VALUES.has(s)) return null;
+  if (s.includes('careca') || s.includes('sem cabelo')) return 'Careca / Sem Cabelo';
+  if (s.includes('loiro') || s.includes('dourad') || s.includes('blond')) return 'Cabelo Loiro';
+  if (s.includes('preto') || s.includes('negro') || s.includes('black')) return 'Cabelo Preto';
+  if (s.includes('castanho') || s.includes('marrom') || s.includes('brown')) return 'Cabelo Castanho';
+  if (s.includes('branco') || s.includes('pratead') || s.includes('grisalh') || s.includes('cinza') || s.includes('white') || s.includes('silver')) return 'Cabelo Branco / Grisalho';
+  if (s.includes('ruivo') || s.includes('vermelh') || s.includes('laranja') || s.includes('red') || s.includes('orange')) return 'Cabelo Ruivo / Laranja';
+  if (s.includes('azul') || s.includes('verde') || s.includes('blue') || s.includes('green') || s.includes('ciano')) return 'Cabelo Azul / Verde';
+  if (s.includes('rosa') || s.includes('pink')) return 'Cabelo Rosa';
+  if (s.includes('roxo') || s.includes('lilás') || s.includes('violet') || s.includes('purple')) return 'Cabelo Roxo / Lilás';
+  return raw.trim();
+}
+
+function normalizeCombatForConnections(raw?: string | null): string | null {
+  if (!raw) return null;
+  const s = raw.trim();
+  if (!s || INVALID_VALUES.has(s.toLowerCase())) return null;
+  if (s === 'Usuário de Espada / Lâmina' || s === 'Armas Brancas / Espadachim') return 'Armas Brancas / Espadachim';
+  if (s === 'Corpo a Corpo' || s === 'Combate Corpo a Corpo') return 'Combate Corpo a Corpo';
+  if (s === 'Longo Alcance / Projéteis' || s === 'Ataque à Distância / Projéteis') return 'Ataque à Distância / Projéteis';
+  return s;
+}
+
+function matchesCombatForConnections(c: Character, targetLabel: string): boolean {
+  const primary = normalizeCombatForConnections(c.combatType);
+  if (primary === targetLabel) return true;
+  const rawAny = c as unknown as Record<string, string | undefined>;
+  const powerText = [c.styleOrPower, rawAny.zanpakuto, rawAny.breathing, rawAny.weapon, c.teigu].filter(Boolean).join(' ').toLowerCase();
+  if (targetLabel === 'Armas Brancas / Espadachim') {
+    return /(espadachim|espada|katana|lâmina|kenjutsu|foice|lança|adaga|machado|clava|kanabo|bisento|tridente|respiração|zanpakut)/i.test(powerText);
+  }
+  if (targetLabel === 'Ataque à Distância / Projéteis') {
+    return /(atirador|franco-atirador|arco|arma de fogo|pistola|rifle|estilingue|projéteis|canhão|artilharia)/i.test(powerText);
+  }
+  return false;
+}
+
 /**
  * Gera um tabuleiro 4x4 (16 personagens divididos em 4 categorias de 4) no estilo Pokennection.com,
- * priorizando grupos sem sobreposição ambígua entre si.
+ * priorizando grupos canônicos verificados e garantindo zero sobreposição ambígua entre os 4 grupos.
  */
 function generateConnectionsBoard(characters: Character[], seedStr: string): ConnectionCategory[] {
   const rng = seededRandom(seedStr);
@@ -109,11 +149,19 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
   const arcs = new Set<string>();
   const combatTypes = new Set<string>();
   const hairColors = new Set<string>();
-  const roles = new Set<string>();
+  const roles = new Map<string, number>();
   const speciesSet = new Set<string>();
-  const statuses = new Set<string>();
   const fruitTypes = new Set<string>();
   const powers = new Set<string>();
+  const villages = new Set<string>();
+  const ranks = new Set<string>();
+  const grades = new Set<string>();
+  const natureTypes = new Set<string>();
+  const nenTypes = new Set<string>();
+  const schools = new Set<string>();
+  const positions = new Set<string>();
+  const countries = new Set<string>();
+  const origins = new Set<string>();
 
   characters.forEach((c) => {
     if (Array.isArray(c.affiliation)) {
@@ -121,25 +169,73 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
         if (isValidAttrValue(a)) affiliations.add(a.trim());
       });
     }
-    if (isValidAttrValue(c.debutArc)) arcs.add(c.debutArc.trim());
-    if (isValidAttrValue(c.combatType)) combatTypes.add(c.combatType!.trim());
-    if (isValidAttrValue(c.hairColor)) hairColors.add(c.hairColor!.trim());
-    if (isValidAttrValue(c.roleOrArchetype)) roles.add(c.roleOrArchetype!.trim());
+    const arcVal = (c.debutArc || '').trim();
+    if (isValidAttrValue(arcVal)) arcs.add(arcVal);
+
+    const ctVal = normalizeCombatForConnections(c.combatType);
+    if (ctVal) combatTypes.add(ctVal);
+
+    const hcVal = normalizeHairForConnections(c.hairColor);
+    if (hcVal) hairColors.add(hcVal);
+
+    if (isValidAttrValue(c.roleOrArchetype)) {
+      const r = c.roleOrArchetype!.trim();
+      roles.set(r, (roles.get(r) || 0) + 1);
+    }
     if (isValidAttrValue(c.species)) speciesSet.add(c.species.trim());
-    if (isValidAttrValue(c.status)) statuses.add(c.status.trim());
     if (isValidAttrValue(c.fruitType)) fruitTypes.add(c.fruitType!.trim());
     if (isValidAttrValue(c.styleOrPower) && !c.styleOrPower.includes('(')) {
       powers.add(c.styleOrPower.trim());
     }
+    if (isValidAttrValue(c.village)) villages.add(c.village!.trim());
+    if (isValidAttrValue(c.rank)) ranks.add(c.rank!.trim());
+    if (isValidAttrValue(c.grade)) grades.add(c.grade!.trim());
+    if (Array.isArray(c.natureTypes)) {
+      c.natureTypes.forEach((nt) => {
+        if (isValidAttrValue(nt)) natureTypes.add(nt.trim());
+      });
+    }
+    if (isValidAttrValue(c.nenType)) nenTypes.add(c.nenType!.trim());
+    if (isValidAttrValue(c.school)) schools.add(c.school!.trim());
+    if (isValidAttrValue(c.position)) positions.add(c.position!.trim());
+    if (isValidAttrValue(c.country)) countries.add(c.country!.trim());
+    if (isValidAttrValue(c.origin)) origins.add(c.origin!.trim());
   });
 
-  // Nível 1 (Amarelo - Fácil): Afiliação & Espécie
+  // Nível 1 (Amarelo - Fácil): Afiliação, Vila, Escola, Obra & Espécie
   affiliations.forEach((aff) => {
     rawCandidates.push({
       id: `aff:${aff}`,
       title: `Afiliação: ${aff}`,
       baseDifficulty: 1,
       matcher: (c) => Array.isArray(c.affiliation) && c.affiliation.some((a) => a.trim() === aff),
+    });
+  });
+
+  villages.forEach((vil) => {
+    rawCandidates.push({
+      id: `vil:${vil}`,
+      title: `Vila / Origem: ${vil}`,
+      baseDifficulty: 1,
+      matcher: (c) => c.village?.trim() === vil,
+    });
+  });
+
+  schools.forEach((sch) => {
+    rawCandidates.push({
+      id: `sch:${sch}`,
+      title: `Escola / Time: ${sch}`,
+      baseDifficulty: 1,
+      matcher: (c) => c.school?.trim() === sch,
+    });
+  });
+
+  origins.forEach((orig) => {
+    rawCandidates.push({
+      id: `orig:${orig}`,
+      title: `Obra: ${orig}`,
+      baseDifficulty: 1,
+      matcher: (c) => c.origin?.trim() === orig,
     });
   });
 
@@ -152,17 +248,55 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
     });
   });
 
-  // Nível 2 (Verde - Médio): Arco de Estreia & Papel na Obra
+  // Nível 2 (Verde - Médio): Arco de Estreia, Patente/Rank, Grau, Posição, País & Papel na Obra
   arcs.forEach((arc) => {
     rawCandidates.push({
       id: `arc:${arc}`,
       title: `Estrearam no Arco: ${arc}`,
       baseDifficulty: 2,
-      matcher: (c) => c.debutArc?.trim() === arc,
+      matcher: (c) => (c.debutArc || '').trim() === arc,
     });
   });
 
-  roles.forEach((role) => {
+  ranks.forEach((rk) => {
+    rawCandidates.push({
+      id: `rk:${rk}`,
+      title: `Rank / Patente: ${rk}`,
+      baseDifficulty: 2,
+      matcher: (c) => c.rank?.trim() === rk,
+    });
+  });
+
+  grades.forEach((gr) => {
+    rawCandidates.push({
+      id: `gr:${gr}`,
+      title: `Grau / Classe: ${gr}`,
+      baseDifficulty: 2,
+      matcher: (c) => c.grade?.trim() === gr,
+    });
+  });
+
+  positions.forEach((pos) => {
+    rawCandidates.push({
+      id: `pos:${pos}`,
+      title: `Posição em Campo: ${pos}`,
+      baseDifficulty: 2,
+      matcher: (c) => c.position?.trim() === pos,
+    });
+  });
+
+  countries.forEach((cnt) => {
+    rawCandidates.push({
+      id: `cnt:${cnt}`,
+      title: `País / Nacionalidade: ${cnt}`,
+      baseDifficulty: 2,
+      matcher: (c) => c.country?.trim() === cnt,
+    });
+  });
+
+  roles.forEach((count, role) => {
+    // Ignora o fallback genérico caso mais de 40% do elenco o tenha
+    if (role === 'Aliado / Membro de Equipe' && count > characters.length * 0.4) return;
     rawCandidates.push({
       id: `role:${role}`,
       title: `Papel na Obra: ${role}`,
@@ -171,13 +305,13 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
     });
   });
 
-  // Nível 3 (Azul - Difícil): Estilo de Combate, Poder & Tipo de Fruta
+  // Nível 3 (Azul - Difícil): Estilo de Combate, Poder, Tipo de Fruta, Elemento & Nen
   combatTypes.forEach((ct) => {
     rawCandidates.push({
       id: `ct:${ct}`,
       title: `Estilo de Combate: ${ct}`,
       baseDifficulty: 3,
-      matcher: (c) => c.combatType?.trim() === ct,
+      matcher: (c) => matchesCombatForConnections(c, ct),
     });
   });
 
@@ -190,6 +324,24 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
     });
   });
 
+  natureTypes.forEach((nt) => {
+    rawCandidates.push({
+      id: `nt:${nt}`,
+      title: `Liberação da Natureza: ${nt}`,
+      baseDifficulty: 3,
+      matcher: (c) => Array.isArray(c.natureTypes) && c.natureTypes.some((n) => n.trim() === nt),
+    });
+  });
+
+  nenTypes.forEach((nen) => {
+    rawCandidates.push({
+      id: `nen:${nen}`,
+      title: `Tipo de Nen: ${nen}`,
+      baseDifficulty: 3,
+      matcher: (c) => c.nenType?.trim() === nen,
+    });
+  });
+
   powers.forEach((pw) => {
     rawCandidates.push({
       id: `pw:${pw}`,
@@ -199,33 +351,36 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
     });
   });
 
-  // Nível 4 (Roxo - Especial / Detalhe Visual & Haki & Status)
+  // Nível 4 (Roxo - Especial / Detalhe Visual & Haki & Status Confirmado)
   hairColors.forEach((hc) => {
     rawCandidates.push({
       id: `hc:${hc}`,
       title: `Característica Visual: ${hc}`,
       baseDifficulty: 4,
-      matcher: (c) => c.hairColor?.trim() === hc,
+      matcher: (c) => normalizeHairForConnections(c.hairColor) === hc,
     });
   });
 
-  statuses.forEach((st) => {
-    if (st.toLowerCase().includes('mort')) {
-      rawCandidates.push({
-        id: `st:${st}`,
-        title: `Status Canônico: ${st}`,
-        baseDifficulty: 4,
-        matcher: (c) => c.status?.trim() === st,
-      });
-    }
+  // Status Canônico: apenas Morto / Morta confirmado (nunca Desconhecido)
+  rawCandidates.push({
+    id: `st:morto`,
+    title: `Status Canônico: Morto(a)`,
+    baseDifficulty: 4,
+    matcher: (c) => {
+      const s = (c.status || '').trim().toLowerCase();
+      return s === 'morto' || s === 'morta' || s === 'falecido' || s === 'falecida';
+    },
   });
 
-  // Especial One Piece: Haki do Conquistador
+  // Especial One Piece: Haki do Conquistador / Rei (suporta array ou string)
   rawCandidates.push({
     id: `haki:conq`,
-    title: `Possuem Haki do Conquistador`,
+    title: `Possuem Haki do Rei (Conquistador)`,
     baseDifficulty: 4,
-    matcher: (c) => Boolean(c.haki && c.haki.toLowerCase().includes('conquistador')),
+    matcher: (c) =>
+      Array.isArray(c.haki)
+        ? c.haki.some((h) => /rei|conquistador/i.test(h))
+        : typeof c.haki === 'string' && /rei|conquistador/i.test(c.haki),
   });
 
   // Filtra grupos que possuem pelo menos 4 personagens válidos
@@ -234,20 +389,19 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
       ...cand,
       pool: shuffleWithRng(characters.filter(cand.matcher), rng),
     }))
-    .filter((g) => g.pool.length >= 4 && g.pool.length <= Math.max(12, Math.floor(characters.length * 0.55)));
+    .filter((g) => g.pool.length >= 4 && g.pool.length <= Math.max(14, Math.floor(characters.length * 0.5)));
 
   const shuffledGroups = shuffleWithRng(validGroups, rng);
 
-  // Tenta montar 4 grupos de 4 personagens sem colisão de IDs e minimizando sobreposição cruzada
+  // Tenta montar 4 grupos de 4 personagens sem colisão de IDs e com ZERO sobreposição cruzada
   const chosenCategories: ConnectionCategory[] = [];
   const usedCharIds = new Set<string>();
   const usedPrefixes = new Set<string>();
 
-  // Passada 1: Estrita (um personagem escolhido para o grupo X não pode dar match na regra dos grupos já escolhidos)
+  // Passada 1A: Estrita com prefixos distintos (máxima variedade e zero ambiguidade)
   for (const cand of shuffledGroups) {
     if (chosenCategories.length >= 4) break;
     const prefix = cand.id.split(':')[0];
-    // Evita repetir o mesmo tipo de atributo (ex: 3 grupos só de cabelo) se houver variedade
     if (usedPrefixes.has(prefix) && shuffledGroups.length > 8) continue;
 
     const exclusiveChars = cand.pool.filter(
@@ -258,7 +412,6 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
 
     if (exclusiveChars.length >= 4) {
       const picked4 = exclusiveChars.slice(0, 4);
-      // Verifica se os personagens dos grupos anteriores também não batem neste novo grupo
       const reverseClean = chosenCategories.every((existing) =>
         existing.characters.every((ec) => !cand.matcher(ec))
       );
@@ -276,7 +429,38 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
     }
   }
 
-  // Passada 2: Caso o elenco seja compacto e faltem grupos para fechar 4, relaxa a restrição cruzada mantendo 16 personagens únicos
+  // Passada 1B: Estrita permitindo mesmo prefixo (ainda 100% livre de sobreposição cruzada)
+  if (chosenCategories.length < 4) {
+    for (const cand of shuffledGroups) {
+      if (chosenCategories.length >= 4) break;
+      if (chosenCategories.some((c) => c.id === cand.id)) continue;
+
+      const exclusiveChars = cand.pool.filter(
+        (c) =>
+          !usedCharIds.has(c.id) &&
+          chosenCategories.every((existing) => !existing.matcher(c))
+      );
+
+      if (exclusiveChars.length >= 4) {
+        const picked4 = exclusiveChars.slice(0, 4);
+        const reverseClean = chosenCategories.every((existing) =>
+          existing.characters.every((ec) => !cand.matcher(ec))
+        );
+        if (reverseClean) {
+          picked4.forEach((c) => usedCharIds.add(c.id));
+          chosenCategories.push({
+            id: cand.id,
+            title: cand.title,
+            difficulty: (chosenCategories.length + 1) as 1 | 2 | 3 | 4,
+            characters: picked4,
+            matcher: cand.matcher,
+          });
+        }
+      }
+    }
+  }
+
+  // Passada 2: Fallback de segurança mantendo 16 personagens únicos
   if (chosenCategories.length < 4) {
     for (const cand of shuffledGroups) {
       if (chosenCategories.length >= 4) break;
@@ -297,11 +481,13 @@ function generateConnectionsBoard(characters: Character[], seedStr: string): Con
     }
   }
 
-  // Ordena as dificuldades 1 (Amarelo), 2 (Verde), 3 (Azul), 4 (Roxo)
-  return chosenCategories.map((cat, idx) => ({
-    ...cat,
-    difficulty: (idx + 1) as 1 | 2 | 3 | 4,
-  }));
+  // Ordena pelas dificuldades base (1=Amarelo, 2=Verde, 3=Azul, 4=Roxo)
+  return chosenCategories
+    .sort((a, b) => a.difficulty - b.difficulty)
+    .map((cat, idx) => ({
+      ...cat,
+      difficulty: (idx + 1) as 1 | 2 | 3 | 4,
+    }));
 }
 
 const DIFFICULTY_STYLES: Record<

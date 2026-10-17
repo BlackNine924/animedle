@@ -19,7 +19,7 @@
       "Adaptação e Camuflagem Invisível"
     ],
     "avatar": "/avatars/akame-ga-kill/tatsumi.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Castanho",
     "roleOrArchetype": "Guerreiro / Espadachim",
     "species": "Humano"
@@ -44,7 +44,7 @@
       "Eliminação Silenciosa de Alvos"
     ],
     "avatar": "/avatars/akame-ga-kill/akame.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Espadachim Assassina",
     "species": "Humano"
@@ -377,7 +377,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/seryu-ubiquitous.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Ruivo / Laranja",
     "roleOrArchetype": "Oficial Fanática da Guarda",
     "species": "Humano"
   },
@@ -453,7 +453,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/budo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Grande General do Império",
     "species": "Humano"
   },
@@ -550,7 +550,7 @@
       "Força Física Titânica"
     ],
     "avatar": "/avatars/akame-ga-kill/daidara.png",
-    "combatType": "Combate Corpo a Corpo",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Loiro / Dourado",
     "roleOrArchetype": "Guerreiro de Esdeath",
     "species": "Humano"
@@ -601,7 +601,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/liver.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Comandante de Esdeath",
     "species": "Humano"
   },
@@ -626,7 +626,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/syura.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Comandante da Wild Hunt",
     "species": "Humano"
   },
@@ -651,7 +651,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/champ.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Careca / Sem Cabelo",
     "roleOrArchetype": "Palhaço Carrasco",
     "species": "Humano"
   },
@@ -700,8 +700,8 @@
       "Combate de Contragolpe Letal"
     ],
     "avatar": "/avatars/akame-ga-kill/izou.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Samurai Espadachim",
     "species": "Humano"
   },
@@ -726,7 +726,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/cosmina.png",
     "combatType": "Suporte / Estratégia",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Assassina / Cantora",
     "species": "Humano"
   },
@@ -750,7 +750,7 @@
       "Disparo de Vácuo em Meia-Lua"
     ],
     "avatar": "/avatars/akame-ga-kill/enshin.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Pirata / Assassino",
     "species": "Humano"
@@ -777,7 +777,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/ibara.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Azul / Verde",
     "roleOrArchetype": "Artista Marcial / Guarda-Costas",
     "species": "Humano"
   },
@@ -803,7 +803,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/sten.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Artista Marcial / Carrasco",
     "species": "Humano"
   },
@@ -829,7 +829,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/mez.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Artista Marcial / Assassina",
     "species": "Humano"
   },
@@ -855,7 +855,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/suzuka.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Roxo / Lilás",
     "roleOrArchetype": "Artista Marcial Masoquista",
     "species": "Humano"
   },
@@ -879,8 +879,8 @@
       "Corte Decapitador de Execução"
     ],
     "avatar": "/avatars/akame-ga-kill/ogre.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Capitão da Guarda Imperial / Corrupto",
     "species": "Humano"
   },
@@ -905,7 +905,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/gozuki.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Líder e Instrutor de Assassinos",
     "species": "Humano"
   },
@@ -928,7 +928,7 @@
     ],
     "avatar": "/avatars/akame-ga-kill/sayo.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aldeã / Amiga de Infância",
     "species": "Humano"
   },

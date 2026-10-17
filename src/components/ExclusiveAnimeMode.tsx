@@ -544,6 +544,15 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
   }
 
   if (isSpeedrun) {
+    const exclusiveTargetIds = new Set(challenges.map((ch) => ch.targetCharacterId));
+    const exclusiveTargetPool = characters.filter(
+      (c) =>
+        exclusiveTargetIds.has(c.id) ||
+        (animeSlug === 'one-piece' &&
+          c.fruitType &&
+          c.fruitType !== 'Nenhum' &&
+          c.fruitType !== 'Nenhuma')
+    );
     return (
       <div className="max-w-3xl mx-auto my-6 px-3">
         <ModeHeaderCard
@@ -570,6 +579,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         />
         <SpeedrunArena
           characters={characters}
+          targetPool={exclusiveTargetPool.length > 0 ? exclusiveTargetPool : characters}
           animeSlug={animeSlug}
           animeTitle={animeTitle}
           themeColor={themeColor}

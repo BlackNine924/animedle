@@ -621,6 +621,10 @@ const DEFAULT_MASTERY_TITLES: [string, string, string, string, string] = [
   'Lenda Suprema',
 ];
 
+export function getAnimeMasteryTitles(slug: string): [string, string, string, string, string] {
+  return ANIME_MASTERY_TITLES[slug] || DEFAULT_MASTERY_TITLES;
+}
+
 function getMasteryStorageKey(slug: string): string {
   return `animedle_mastery_xp_v1_${slug}`;
 }

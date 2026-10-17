@@ -91,7 +91,7 @@
       "Golpe Perfurante Anti-Demônio"
     ],
     "avatar": "/avatars/frieren/himmel.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Azul",
     "roleOrArchetype": "Protagonista / Líder"
   },
@@ -255,7 +255,7 @@
       "Pesagem Inabalável de Mana"
     ],
     "avatar": "/avatars/frieren/aura.png",
-    "combatType": "Ataque à Distância / Projéteis",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Roxo / Violeta",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -418,7 +418,7 @@
     ],
     "avatar": "/avatars/frieren/land.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -465,8 +465,8 @@
       "Escudo Floral Repulsor"
     ],
     "avatar": "/avatars/frieren/scharf.png",
-    "combatType": "Usuário de Espada / Lâmina",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -721,7 +721,7 @@
     ],
     "avatar": "/avatars/frieren/genau.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -790,7 +790,7 @@
     ],
     "avatar": "/avatars/frieren/methode.png",
     "combatType": "Magia / Poder Sobrenatural",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Loiro",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -880,7 +880,7 @@
       "Isolamento Espacial Mágico"
     ],
     "avatar": "/avatars/frieren/bose.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Careca / Sem Cabelo",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -903,7 +903,7 @@
       "Golpe de Fenda Cruzada"
     ],
     "avatar": "/avatars/frieren/revolte.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Colorido / Marcante",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -947,7 +947,7 @@
       "Estocada Súbita de Mana"
     ],
     "avatar": "/avatars/frieren/zart.png",
-    "combatType": "Usuário de Espada / Lâmina",
+    "combatType": "Armas Brancas / Espadachim",
     "hairColor": "Cabelo Preto",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
@@ -970,7 +970,7 @@
     ],
     "avatar": "/avatars/frieren/schlacht.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1015,7 +1015,7 @@
     ],
     "avatar": "/avatars/frieren/graf-granat.png",
     "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
@@ -1037,8 +1037,8 @@
       "Vigilância Secular"
     ],
     "avatar": "/avatars/frieren/voll.png",
-    "combatType": "Combate Corpo a Corpo",
-    "hairColor": "Cabelo Castanho",
+    "combatType": "Armas Brancas / Espadachim",
+    "hairColor": "Cabelo Branco / Grisalho",
     "roleOrArchetype": "Aliado / Membro de Equipe"
   },
   {
