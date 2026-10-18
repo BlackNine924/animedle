@@ -543,54 +543,9 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
     );
   }
 
-  if (isSpeedrun) {
-    const exclusiveTargetIds = new Set(challenges.map((ch) => ch.targetCharacterId));
-    const exclusiveTargetPool = characters.filter(
-      (c) =>
-        exclusiveTargetIds.has(c.id) ||
-        (animeSlug === 'one-piece' &&
-          c.fruitType &&
-          c.fruitType !== 'Nenhum' &&
-          c.fruitType !== 'Nenhuma')
-    );
-    return (
-      <div className="max-w-3xl mx-auto my-6 px-3">
-        <ModeHeaderCard
-          title={currentChallenge?.badgeTitle || 'Modo Exclusivo'}
-          description="Adivinhe o personagem através do seu poder, técnica ou característica única com 3 chances na rodada!"
-          icon={<Zap size={20} />}
-          themeColor={themeColor}
-          isEndless={isEndless}
-          onToggleEndless={(val) => {
-            setIsSpeedrun(false);
-            setIsEndless(val);
-          }}
-          survivalState={survivalState}
-          onToggleSurvival={(act) => {
-            setIsSpeedrun(false);
-            handleToggleSurvival(act);
-          }}
-          isSpeedrun={isSpeedrun}
-          onToggleSpeedrun={(act) => setIsSpeedrun(act)}
-          healedBanner={survivalHealed}
-        />
-        <SpeedrunArena
-          characters={characters}
-          targetPool={exclusiveTargetPool.length > 0 ? exclusiveTargetPool : characters}
-          animeSlug={animeSlug}
-          animeTitle={animeTitle}
-          themeColor={themeColor}
-          mode="ability"
-          exclusiveLabel={currentChallenge?.badgeTitle || 'Poder Exclusivo'}
-          onExitSpeedrun={() => setIsSpeedrun(false)}
-        />
-      </div>
-    );
-  }
-
   return (
     <div className="max-w-3xl mx-auto my-6 px-3">
-      {/* 1. Header Padronizado com Diário / Infinito / Sobrevivência (E2) / Speedrun (N5) */}
+      {/* 1. Header Padronizado com Diário / Infinito / Sobrevivência (E2) */}
       <ModeHeaderCard
         title={currentChallenge?.badgeTitle || 'Modo Exclusivo'}
         description="Adivinhe o personagem através do seu poder, técnica ou característica única com 3 chances na rodada!"
@@ -598,16 +553,12 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         themeColor={themeColor}
         isEndless={isEndless}
         onToggleEndless={(val) => {
-          setIsSpeedrun(false);
           setIsEndless(val);
         }}
         survivalState={survivalState}
         onToggleSurvival={(act) => {
-          setIsSpeedrun(false);
           handleToggleSurvival(act);
         }}
-        isSpeedrun={isSpeedrun}
-        onToggleSpeedrun={(act) => setIsSpeedrun(act)}
         healedBanner={survivalHealed}
       />
 

@@ -22,7 +22,7 @@ import { Character, GameMode, GuessResult, GameStats, VoiceChallenge, SceneChall
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
 import { getOrAdvanceEndlessIndex } from './utils/endlessDeck';
 import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen, Swords, Award } from 'lucide-react';
-import { SpeedrunArena } from './components/SpeedrunArena';
+import { TitleCrestIcon } from './components/MasteryModal';
 
 // T1: Lazy Loading de Modais e Modos Pesados para reduzir drasticamente o bundle inicial (index.js)
 const HowToPlayModal = React.lazy(() => import('./components/HowToPlayModal').then((m) => ({ default: m.HowToPlayModal })));
@@ -1336,16 +1336,27 @@ export const App: React.FC<{
             </h2>
           </div>
           <div className="mt-2.5 flex flex-wrap items-center justify-center gap-2">
-            {/* S3: Badge Clicável de Nível de Maestria por Anime com Título Canônico e Barra de XP */}
+            {/* S3: Badge Clicável de Nível de Maestria por Anime com Brasão do Título Canônico e Barra de XP */}
             <button
               type="button"
               onClick={() => setShowMasteryModal(true)}
-              className="group inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#0d1426]/95 hover:bg-[#131d36] border border-amber-500/35 hover:border-amber-400/70 text-xs font-semibold shadow-md transition-all active:scale-95 cursor-pointer"
-              title={`Clique para ver todos os títulos canônicos de ${animeConfig.title} • Nível ${masteryInfo.level} (${masteryInfo.title})`}
+              className="group inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#0d1426]/95 hover:bg-[#131d36] border text-xs font-semibold shadow-md transition-all active:scale-95 cursor-pointer"
+              style={{ borderColor: `${animeConfig.themeColor}65` }}
+              title={`Clique para ver os 5 títulos e brasões canônicos de ${animeConfig.title} • Nível ${masteryInfo.level} (${masteryInfo.title})`}
             >
-              <Award size={14} className="text-amber-400 shrink-0 group-hover:scale-110 transition-transform" />
-              <span className="text-amber-300 font-black">Nv.{masteryInfo.level}</span>
-              <span className="text-white font-bold group-hover:text-amber-200 transition-colors">{masteryInfo.title}</span>
+              <TitleCrestIcon
+                titleName={masteryInfo.title}
+                rankIndex={masteryInfo.rankIndex}
+                themeColor={animeConfig.themeColor}
+                isUnlocked={true}
+                sizeClass="w-5 h-5"
+              />
+              <span className="font-black" style={{ color: animeConfig.themeColor }}>
+                Nv.{masteryInfo.level}
+              </span>
+              <span className="text-white font-bold group-hover:opacity-90 transition-opacity">
+                {masteryInfo.title}
+              </span>
               <div className="w-14 sm:w-16 h-1.5 bg-[#162138] rounded-full overflow-hidden border border-white/10">
                 <div
                   className="h-full transition-all duration-500"
@@ -1385,7 +1396,7 @@ export const App: React.FC<{
           currentAnimeSlug={currentAnimeSlug}
         />
 
-        {/* Card Padrão de Cabeçalho do Modo (Nome, Ícone, Descrição e Alternador Diário / Infinito / Sobrevivência / Speedrun) */}
+        {/* Card Padrão de Cabeçalho do Modo (Nome, Ícone, Descrição e Alternador Diário / Infinito / Sobrevivência) */}
         {currentMode === 'classic' && (
           <ModeHeaderCard
             title="Modo Clássico"
@@ -1401,8 +1412,6 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('classic', act)}
-            isSpeedrun={isCurrentSpeedrun}
-            onToggleSpeedrun={(act) => handleToggleSpeedrun('classic', act)}
             healedBanner={survivalHealed}
           />
         )}
@@ -1418,8 +1427,6 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('wanted', act)}
-            isSpeedrun={isCurrentSpeedrun}
-            onToggleSpeedrun={(act) => handleToggleSpeedrun('wanted', act)}
             healedBanner={survivalHealed}
           />
         )}
@@ -1435,8 +1442,6 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('scene', act)}
-            isSpeedrun={isCurrentSpeedrun}
-            onToggleSpeedrun={(act) => handleToggleSpeedrun('scene', act)}
             healedBanner={survivalHealed}
           />
         )}
@@ -1452,8 +1457,6 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('voice', act)}
-            isSpeedrun={isCurrentSpeedrun}
-            onToggleSpeedrun={(act) => handleToggleSpeedrun('voice', act)}
             healedBanner={survivalHealed}
           />
         )}
@@ -1469,28 +1472,12 @@ export const App: React.FC<{
             onNextEndless={handleNextEndlessChallenge}
             survivalState={survivalState}
             onToggleSurvival={(act) => handleToggleSurvival('zoom', act)}
-            isSpeedrun={isCurrentSpeedrun}
-            onToggleSpeedrun={(act) => handleToggleSpeedrun('zoom', act)}
             healedBanner={survivalHealed}
           />
         )}
 
-        {/* N5: Arena Speedrun 60s adaptada ao modo selecionado (Clássico, Procurado, Cena, Zoom, etc.) */}
-        {isCurrentSpeedrun &&
-          ['classic', 'wanted', 'scene', 'voice', 'zoom'].includes(currentMode) && (
-            <SpeedrunArena
-              characters={characters}
-              animeSlug={currentAnimeSlug}
-              animeTitle={animeConfig.title}
-              themeColor={animeConfig.themeColor}
-              mode={currentMode}
-              onExitSpeedrun={() => handleToggleSpeedrun(currentMode, false)}
-            />
-          )}
-
         {/* Quadro de Dicas & Botão Desistir */}
-        {!isCurrentSpeedrun &&
-          currentMode !== 'ability' &&
+        {currentMode !== 'ability' &&
           currentMode !== 'grid' &&
           currentMode !== 'higherlower' &&
           currentMode !== 'connections' && (
@@ -1506,8 +1493,7 @@ export const App: React.FC<{
           )}
 
         {/* Botão Discreto para Reabrir o Modal de Resultado quando fechado */}
-        {!isCurrentSpeedrun &&
-          isFinished &&
+        {isFinished &&
           !showVictoryModal &&
           currentMode !== 'ability' &&
           currentMode !== 'grid' &&
@@ -1533,7 +1519,7 @@ export const App: React.FC<{
           )}
 
         {/* MODO CLÁSSICO */}
-        {currentMode === 'classic' && !isCurrentSpeedrun && (
+        {currentMode === 'classic' && (
           <div>
             {isCurrentEndless && survivalState.active && !isFinished && (
               <div className="max-w-md mx-auto mb-3 text-center">
@@ -1555,7 +1541,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO PROCURADO */}
-        {currentMode === 'wanted' && !isCurrentSpeedrun && (
+        {currentMode === 'wanted' && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
               {/* Brilho decorativo no fundo */}
@@ -1616,7 +1602,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO CENA & JUTSU */}
-        {currentMode === 'scene' && currentSceneChallenge && !isCurrentSpeedrun && (
+        {currentMode === 'scene' && currentSceneChallenge && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6">
               <ScenePlayerCard
@@ -1642,7 +1628,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO VOZ & SOM */}
-        {currentMode === 'voice' && currentVoiceChallenge && !isCurrentSpeedrun && (
+        {currentMode === 'voice' && currentVoiceChallenge && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6">
               <VoicePlayerCard
@@ -1686,7 +1672,7 @@ export const App: React.FC<{
         )}
 
         {/* MODO ZOOM / OLHOS */}
-        {currentMode === 'zoom' && !isCurrentSpeedrun && (
+        {currentMode === 'zoom' && (
           <div>
             <div className="max-w-xl mx-auto text-center my-6 p-6 bg-[#0d1426] border border-[#202b43] rounded-3xl shadow-xl relative overflow-hidden">
               {/* Brilho decorativo no fundo */}

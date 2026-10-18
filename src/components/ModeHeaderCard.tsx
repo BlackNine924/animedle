@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Flame, Trophy, Timer } from 'lucide-react';
+import { Heart, Flame, Trophy } from 'lucide-react';
 import { SurvivalState } from '../utils/featuresManager';
 
 interface ModeHeaderCardProps {
@@ -14,9 +14,6 @@ interface ModeHeaderCardProps {
   survivalState?: SurvivalState;
   onToggleSurvival?: (active: boolean) => void;
   healedBanner?: boolean;
-  // N5: Sub-modo Speedrun (60s)
-  isSpeedrun?: boolean;
-  onToggleSpeedrun?: (active: boolean) => void;
 }
 
 export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
@@ -29,10 +26,8 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
   survivalState,
   onToggleSurvival,
   healedBanner,
-  isSpeedrun = false,
-  onToggleSpeedrun,
 }) => {
-  const isSurvival = Boolean(!isSpeedrun && isEndless && survivalState?.active);
+  const isSurvival = Boolean(isEndless && survivalState?.active);
 
   return (
     <div className="max-w-2xl mx-auto mb-5 space-y-2.5">
@@ -55,12 +50,11 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
         <div className="flex flex-wrap items-center justify-center gap-1 bg-[#090f1d] p-1 rounded-xl border border-[#1d2840] shrink-0">
           <button
             onClick={() => {
-              onToggleSpeedrun?.(false);
               onToggleSurvival?.(false);
               onToggleEndless(false);
             }}
             className={`px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              !isEndless && !isSpeedrun
+              !isEndless
                 ? 'bg-white/15 text-white border border-white/20 shadow-sm'
                 : 'text-slate-400 hover:text-white'
             }`}
@@ -69,12 +63,11 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
           </button>
           <button
             onClick={() => {
-              onToggleSpeedrun?.(false);
               onToggleSurvival?.(false);
               if (!isEndless) onToggleEndless(true);
             }}
             className={`px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all ${
-              isEndless && !isSurvival && !isSpeedrun
+              isEndless && !isSurvival
                 ? 'bg-indigo-600 text-white border border-indigo-400/40 shadow-sm'
                 : 'text-slate-400 hover:text-white'
             }`}
@@ -85,7 +78,6 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
           {onToggleSurvival && (
             <button
               onClick={() => {
-                onToggleSpeedrun?.(false);
                 if (!isEndless) onToggleEndless(true);
                 onToggleSurvival(true);
               }}
@@ -100,28 +92,11 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
               <span>Sobrevivência</span>
             </button>
           )}
-          {onToggleSpeedrun && (
-            <button
-              onClick={() => {
-                onToggleSurvival?.(false);
-                onToggleSpeedrun(true);
-              }}
-              className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-extrabold transition-all ${
-                isSpeedrun
-                  ? 'bg-gradient-to-r from-emerald-600 to-cyan-600 text-white border border-emerald-300/50 shadow-[0_0_12px_rgba(16,185,129,0.4)]'
-                  : 'text-emerald-400/85 hover:text-emerald-300'
-              }`}
-              title="Sub-modo Speedrun (Contra o Relógio — 60 Segundos)"
-            >
-              <Timer size={13} />
-              <span>Speedrun</span>
-            </button>
-          )}
         </div>
       </div>
 
       {/* E2: Barra de Status do Modo Sobrevivência */}
-      {isEndless && !isSpeedrun && isSurvival && survivalState && (
+      {isEndless && isSurvival && survivalState && (
         <div className="flex flex-wrap items-center justify-between gap-2 bg-[#0b1222]/95 border border-[#1e2b45] rounded-2xl px-4 py-2.5 shadow-md animate-fadeIn">
           <div className="flex flex-wrap items-center gap-3 sm:gap-4">
             {/* 3 Corações */}

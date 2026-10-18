@@ -823,7 +823,6 @@ export const AnimeConnectionsMode: React.FC<AnimeConnectionsModeProps> = ({
         isEndless={isEndless}
         onToggleEndless={(val) => {
           setIsEndless(val);
-          setIsSpeedrun(false);
         }}
         survivalState={survivalState}
         onToggleSurvival={(act) => {
@@ -831,20 +830,9 @@ export const AnimeConnectionsMode: React.FC<AnimeConnectionsModeProps> = ({
           setSurvivalState(updated);
         }}
         healedBanner={survivalHealed}
-        isSpeedrun={isSpeedrun}
-        onToggleSpeedrun={(act) => setIsSpeedrun(act)}
       />
 
-      {isSpeedrun ? (
-        <SpeedrunArena
-          characters={characters}
-          animeSlug={animeSlug}
-          animeTitle={animeTitle}
-          themeColor={themeColor}
-          mode="connections"
-          onExitSpeedrun={() => setIsSpeedrun(false)}
-        />
-      ) : (
+      {(
         <div className="bg-[#0b1120] border border-[#22304d] rounded-3xl p-4 sm:p-6 shadow-2xl relative overflow-hidden">
           {/* Toast de Feedback ("A 1 de distância!", Acerto ou Erro) */}
           {toastMessage && (

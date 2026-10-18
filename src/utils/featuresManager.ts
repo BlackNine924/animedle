@@ -579,13 +579,13 @@ export interface AnimeMasteryInfo {
 }
 
 export const ANIME_MASTERY_TITLES: Record<string, [string, string, string, string, string]> = {
-  'one-piece': ['Marujo do East Blue', 'Supernova', 'Shichibukai', 'Yonkou dos Mares', 'Rei dos Piratas'],
+  'one-piece': ['Marujo do East Blue', 'Supernova', 'Shichibukai', 'Yonkou', 'Rei dos Piratas'],
   'naruto': ['Genin da Folha', 'Chūnin', 'Jōnin de Elite', 'Sannin Lendário', 'Hokage'],
   'jujutsu-kaisen': ['Feiticeiro Grau 4', 'Feiticeiro Grau 2', 'Feiticeiro Grau 1', 'Grau Especial', 'Rei das Maldições'],
   'demon-slayer': ['Caçador Mizunoto', 'Caçador Kanoe', 'Tsuguko', 'Hashira', 'Espadachim da Marca'],
   'bleach': ['Shinigami Substituto', 'Oficial de Divisão', 'Tenente da Corte', 'Capitão do Gotei 13', 'Guarda Real (Divisão Zero)'],
   'dragon-ball': ['Guerreiro Z', 'Super Saiyajin', 'Super Saiyajin Deus', 'Instinto Superior', 'Deus da Destruição'],
-  'attack-on-titan': ['Cadete do 104º', 'Soldado da Tropa', 'Veterano de Reconhecimento', 'Portador dos Nove Titãs', 'Comandante da Liberdade'],
+  'attack-on-titan': ['Cadete do 104º', 'Soldado da Tropa', 'Veterano do Reconhecimento', 'Portador dos 9 Titãs', 'Comandante da Liberdade'],
   'hunter-x-hunter': ['Aspirante a Hunter', 'Hunter Licenciado', 'Mestre do Nen', 'Hunter Double-Star', 'Zodíaco Triple-Star'],
   'solo-leveling': ['Caçador Rank E', 'Caçador Rank B', 'Caçador Rank S', 'Caçador Nível Nacional', 'Monarca das Sombras'],
   'my-hero-academia': ['Estudante da U.A.', 'Herói Provisório', 'Pro Hero', 'Herói do Top 10', 'Símbolo da Paz'],
@@ -604,8 +604,8 @@ export const ANIME_MASTERY_TITLES: Record<string, [string, string, string, strin
   'haikyuu': ['Reserva de Quadra', 'Titular da Karasuno', 'Estrela do Nacional', 'Atleta da Divisão V.League', 'Monstro da Seleção Olímpica'],
   'kaiju-no-8': ['Limpador de Kaijus', 'Cadete da Força de Defesa', 'Oficial de Pelotão', 'Capitão de Divisão', 'Força de Combate 98%'],
   'tokyo-ghoul': ['Ghoul Rank C', 'Investigador da CCG', 'Ghoul Classe S', 'Investigador Classe Especial', 'Rei de Um Olho'],
-  'cyberpunk-edgerunners': ['Mercenário de Rua', 'Edgerunner de Santo Domingo', 'Veterano de Night City', 'Ciborgue Imune à Ciberpsicose', 'Lenda do Afterlife'],
-  'akame-ga-kill': ['Recruta da Night Raid', 'Assassino das Sombras', 'Portador de Teigu', 'Mestre do Trunfo Imperial', 'Revolucionário Lendário'],
+  'cyberpunk-edgerunners': ['Mercenário de Rua', 'Edgerunner de Santo Domingo', 'Veterano de Night City', 'Ciborgue Imune à Ciberpsicose', 'Lenda da Afterlife'],
+  'akame-ga-kill': ['Recruta da Night Raid', 'Assassino das Sombras', 'Portador de Teigu', 'Mestre do Triunfo Imperial', 'Revolucionário Lendário'],
   'sword-art-online': ['Jogador do 1º Andar', 'Batedor da Linha de Frente', 'Espadachim Duplo', 'Cavaleiro da Integridade', 'Rei das Espadas (Star King)'],
   'shangri-la-frontier': ['Caçador de Trash Games', 'Desbravador de Bosses', 'Membro do Clã Wolfgang', 'Conquistador dos Sete Colossos', 'Deus da Velocidade e Esquiva'],
   'tensei-shitara-slime-datta-ken': ['Slime Recém-Nascido', 'Líder de Tempest', 'Semente de Lorde Demônio', 'Octagrama (Lorde Demônio)', 'Dragão Verdadeiro'],
@@ -623,6 +623,25 @@ const DEFAULT_MASTERY_TITLES: [string, string, string, string, string] = [
 
 export function getAnimeMasteryTitles(slug: string): [string, string, string, string, string] {
   return ANIME_MASTERY_TITLES[slug] || DEFAULT_MASTERY_TITLES;
+}
+
+export function normalizeTitleSlug(titleName: string): string {
+  return titleName
+    .replace(/\.(png|webp|jpg|jpeg)$/i, '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[ºª°]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+export function getTitleIconPaths(titleName: string): { webp: string; png: string } {
+  const slug = normalizeTitleSlug(titleName);
+  return {
+    webp: `/icons/titles/${slug}.webp`,
+    png: `/icons/titles/${slug}.png`,
+  };
 }
 
 function getMasteryStorageKey(slug: string): string {
