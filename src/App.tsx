@@ -1348,8 +1348,8 @@ export const App: React.FC<{
               <span className="text-white font-bold group-hover:text-amber-200 transition-colors">{masteryInfo.title}</span>
               <div className="w-14 sm:w-16 h-1.5 bg-[#162138] rounded-full overflow-hidden border border-white/10">
                 <div
-                  className="h-full bg-gradient-to-r from-amber-500 to-yellow-300 transition-all duration-500"
-                  style={{ width: `${masteryInfo.progressPct}%` }}
+                  className="h-full transition-all duration-500"
+                  style={{ width: `${masteryInfo.progressPct}%`, backgroundColor: animeConfig.themeColor }}
                 />
               </div>
               <span className="text-[10px] font-bold text-slate-400 group-hover:text-slate-200">
@@ -1404,12 +1404,6 @@ export const App: React.FC<{
             isSpeedrun={isCurrentSpeedrun}
             onToggleSpeedrun={(act) => handleToggleSpeedrun('classic', act)}
             healedBanner={survivalHealed}
-            onChallengeFriend={handleChallengeFriend}
-            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'classic' ? activeFriendChallenge : null}
-            onClearChallenge={() => {
-              setActiveFriendChallenge(null);
-              clearChallengeQueryParam();
-            }}
           />
         )}
 
@@ -1427,12 +1421,6 @@ export const App: React.FC<{
             isSpeedrun={isCurrentSpeedrun}
             onToggleSpeedrun={(act) => handleToggleSpeedrun('wanted', act)}
             healedBanner={survivalHealed}
-            onChallengeFriend={handleChallengeFriend}
-            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'wanted' ? activeFriendChallenge : null}
-            onClearChallenge={() => {
-              setActiveFriendChallenge(null);
-              clearChallengeQueryParam();
-            }}
           />
         )}
 
@@ -1450,12 +1438,6 @@ export const App: React.FC<{
             isSpeedrun={isCurrentSpeedrun}
             onToggleSpeedrun={(act) => handleToggleSpeedrun('scene', act)}
             healedBanner={survivalHealed}
-            onChallengeFriend={handleChallengeFriend}
-            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'scene' ? activeFriendChallenge : null}
-            onClearChallenge={() => {
-              setActiveFriendChallenge(null);
-              clearChallengeQueryParam();
-            }}
           />
         )}
 
@@ -1473,12 +1455,6 @@ export const App: React.FC<{
             isSpeedrun={isCurrentSpeedrun}
             onToggleSpeedrun={(act) => handleToggleSpeedrun('voice', act)}
             healedBanner={survivalHealed}
-            onChallengeFriend={handleChallengeFriend}
-            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'voice' ? activeFriendChallenge : null}
-            onClearChallenge={() => {
-              setActiveFriendChallenge(null);
-              clearChallengeQueryParam();
-            }}
           />
         )}
 
@@ -1496,16 +1472,10 @@ export const App: React.FC<{
             isSpeedrun={isCurrentSpeedrun}
             onToggleSpeedrun={(act) => handleToggleSpeedrun('zoom', act)}
             healedBanner={survivalHealed}
-            onChallengeFriend={handleChallengeFriend}
-            activeChallenge={activeFriendChallenge && activeFriendChallenge.m === 'zoom' ? activeFriendChallenge : null}
-            onClearChallenge={() => {
-              setActiveFriendChallenge(null);
-              clearChallengeQueryParam();
-            }}
           />
         )}
 
-        {/* N5: Arena Speedrun 60s quando o sub-modo Speedrun está ativo nos modos base */}
+        {/* N5: Arena Speedrun 60s adaptada ao modo selecionado (Clássico, Procurado, Cena, Zoom, etc.) */}
         {isCurrentSpeedrun &&
           ['classic', 'wanted', 'scene', 'voice', 'zoom'].includes(currentMode) && (
             <SpeedrunArena
@@ -1513,6 +1483,7 @@ export const App: React.FC<{
               animeSlug={currentAnimeSlug}
               animeTitle={animeConfig.title}
               themeColor={animeConfig.themeColor}
+              mode={currentMode}
               onExitSpeedrun={() => handleToggleSpeedrun(currentMode, false)}
             />
           )}

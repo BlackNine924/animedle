@@ -833,9 +833,6 @@ export const AnimeConnectionsMode: React.FC<AnimeConnectionsModeProps> = ({
         healedBanner={survivalHealed}
         isSpeedrun={isSpeedrun}
         onToggleSpeedrun={(act) => setIsSpeedrun(act)}
-        onChallengeFriend={handleChallengeFriend}
-        activeChallenge={initialFriendChallenge}
-        onClearChallenge={onClearFriendChallenge}
       />
 
       {isSpeedrun ? (
@@ -844,6 +841,8 @@ export const AnimeConnectionsMode: React.FC<AnimeConnectionsModeProps> = ({
           animeSlug={animeSlug}
           animeTitle={animeTitle}
           themeColor={themeColor}
+          mode="connections"
+          onExitSpeedrun={() => setIsSpeedrun(false)}
         />
       ) : (
         <div className="bg-[#0b1120] border border-[#22304d] rounded-3xl p-4 sm:p-6 shadow-2xl relative overflow-hidden">
@@ -895,7 +894,7 @@ export const AnimeConnectionsMode: React.FC<AnimeConnectionsModeProps> = ({
                             alt={c.name}
                             className="w-7 h-7 rounded-full object-cover border border-white/40 shrink-0"
                           />
-                          <span className="text-[11px] font-extrabold truncate">{c.name}</span>
+                          <span className="text-[11px] font-extrabold leading-tight break-words">{c.name}</span>
                         </div>
                       ))}
                     </div>
@@ -939,7 +938,7 @@ export const AnimeConnectionsMode: React.FC<AnimeConnectionsModeProps> = ({
                       />
                     </div>
                     <span
-                      className={`text-xs font-black leading-tight line-clamp-2 ${
+                      className={`text-xs font-black leading-tight break-words ${
                         isSelected ? 'text-amber-200' : 'text-slate-100'
                       }`}
                     >

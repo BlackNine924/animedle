@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, CheckCircle2, Lock, Sparkles, Trophy, X, Zap } from 'lucide-react';
+import { Award, CheckCircle2, Lock, Trophy, X, Zap } from 'lucide-react';
 import { AnimeMasteryInfo, getAnimeMasteryTitles } from '../utils/featuresManager';
 
 interface MasteryModalProps {
@@ -11,11 +11,11 @@ interface MasteryModalProps {
 }
 
 const RANK_THRESHOLDS = [
-  { rankIndex: 0, requiredLevel: 1, requiredXp: 0, badge: 'Iniciante', color: 'from-slate-500 to-slate-400' },
-  { rankIndex: 1, requiredLevel: 3, requiredXp: 200, badge: 'Intermediário', color: 'from-emerald-500 to-green-400' },
-  { rankIndex: 2, requiredLevel: 6, requiredXp: 500, badge: 'Veterano', color: 'from-sky-500 to-cyan-400' },
-  { rankIndex: 3, requiredLevel: 10, requiredXp: 900, badge: 'Elite', color: 'from-purple-500 to-fuchsia-400' },
-  { rankIndex: 4, requiredLevel: 15, requiredXp: 1400, badge: 'Lenda Canônica', color: 'from-amber-500 to-yellow-300' },
+  { rankIndex: 0, requiredLevel: 1, requiredXp: 0, badge: 'Iniciante' },
+  { rankIndex: 1, requiredLevel: 3, requiredXp: 200, badge: 'Intermediário' },
+  { rankIndex: 2, requiredLevel: 6, requiredXp: 500, badge: 'Veterano' },
+  { rankIndex: 3, requiredLevel: 10, requiredXp: 900, badge: 'Elite' },
+  { rankIndex: 4, requiredLevel: 15, requiredXp: 1400, badge: 'Lenda Canônica' },
 ];
 
 export const MasteryModal: React.FC<MasteryModalProps> = ({
@@ -38,11 +38,11 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
         className="relative w-full max-w-md bg-[#0a1020] border border-[#23304c] rounded-3xl shadow-2xl overflow-hidden text-left"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Barra superior de brilho */}
+        {/* Barra superior com a cor oficial do anime em hex */}
         <div
-          className="h-1.5 w-full"
+          className="h-2 w-full"
           style={{
-            background: `linear-gradient(90deg, ${themeColor}, #f59e0b, ${themeColor})`,
+            backgroundColor: themeColor,
           }}
         />
 
@@ -51,12 +51,20 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
           <div className="flex items-start justify-between gap-3 mb-4">
             <div className="flex items-center gap-3">
               <div
-                className="w-11 h-11 rounded-2xl flex items-center justify-center border border-amber-500/40 bg-amber-500/10 text-amber-400 shrink-0 shadow-lg"
+                className="w-11 h-11 rounded-2xl flex items-center justify-center border shrink-0 shadow-lg"
+                style={{
+                  backgroundColor: `${themeColor}22`,
+                  borderColor: `${themeColor}66`,
+                  color: themeColor,
+                }}
               >
                 <Award size={24} />
               </div>
               <div>
-                <span className="text-[10px] font-black uppercase tracking-widest text-amber-400 block">
+                <span
+                  className="text-[10px] font-black uppercase tracking-widest block"
+                  style={{ color: themeColor }}
+                >
                   Progressão de Maestria
                 </span>
                 <h3 className="text-lg sm:text-xl font-black text-white leading-tight">
@@ -74,11 +82,20 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
             </button>
           </div>
 
-          {/* Card de Status Atual */}
-          <div className="p-4 rounded-2xl bg-[#111a2e] border border-amber-500/25 mb-5">
-            <div className="flex items-center justify-between mb-2">
-              <div className="flex items-center gap-2">
-                <span className="px-2.5 py-0.5 rounded-lg bg-amber-500/20 border border-amber-400/40 text-amber-300 text-xs font-black">
+          {/* Card de Status Atual e Barra de XP com a cor oficial do anime */}
+          <div
+            className="p-4 rounded-2xl bg-[#111a2e] border mb-5"
+            style={{ borderColor: `${themeColor}45` }}
+          >
+            <div className="flex items-center justify-between gap-2 mb-2 flex-wrap">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span
+                  className="px-2.5 py-0.5 rounded-lg border text-xs font-black text-white"
+                  style={{
+                    backgroundColor: `${themeColor}30`,
+                    borderColor: `${themeColor}70`,
+                  }}
+                >
                   Nível {masteryInfo.level}
                 </span>
                 <span className="text-sm font-black text-white">
@@ -86,20 +103,23 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
                 </span>
               </div>
               <span className="text-xs font-bold text-slate-400">
-                Total: <strong className="text-amber-300">{masteryInfo.xp} XP</strong>
+                Total: <strong style={{ color: themeColor }}>{masteryInfo.xp} XP</strong>
               </span>
             </div>
 
             <div className="w-full h-2.5 bg-[#090e1a] rounded-full overflow-hidden border border-white/10 mb-1.5">
               <div
-                className="h-full bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-300 transition-all duration-500"
-                style={{ width: `${masteryInfo.progressPct}%` }}
+                className="h-full transition-all duration-500 rounded-full"
+                style={{
+                  width: `${masteryInfo.progressPct}%`,
+                  backgroundColor: themeColor,
+                }}
               />
             </div>
 
             <div className="flex items-center justify-between text-[11px] font-semibold text-slate-400">
               <span>Progresso para o Nível {masteryInfo.level + 1}</span>
-              <span className="text-amber-300 font-bold">
+              <span className="font-bold text-white">
                 {masteryInfo.currentLevelXp} / {masteryInfo.nextLevelXp} XP ({masteryInfo.progressPct}%)
               </span>
             </div>
@@ -108,7 +128,7 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
           {/* Lista dos 5 Títulos Canônicos */}
           <div className="mb-4">
             <h4 className="text-xs font-black uppercase tracking-wider text-slate-400 mb-2.5 flex items-center gap-1.5">
-              <Trophy size={13} className="text-amber-400" />
+              <Trophy size={13} style={{ color: themeColor }} />
               Todos os Títulos Canônicos ({titles.length})
             </h4>
 
@@ -124,21 +144,30 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
                     key={tier.rankIndex}
                     className={`flex items-center justify-between p-3 rounded-2xl border transition-all ${
                       isCurrent
-                        ? 'bg-amber-500/15 border-amber-400/60 shadow-[0_0_15px_rgba(245,158,11,0.15)]'
+                        ? 'bg-[#15203b] shadow-lg'
                         : isUnlocked
                         ? 'bg-[#111a2e]/90 border-emerald-500/30'
                         : 'bg-[#0d1424]/60 border-white/5 opacity-75'
                     }`}
+                    style={
+                      isCurrent
+                        ? {
+                            borderColor: themeColor,
+                            boxShadow: `0 0 16px ${themeColor}28`,
+                          }
+                        : undefined
+                    }
                   >
                     <div className="flex items-center gap-3 min-w-0">
                       <div
                         className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 font-black text-xs ${
                           isCurrent
-                            ? 'bg-amber-400 text-slate-950'
+                            ? 'text-white'
                             : isUnlocked
                             ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
                             : 'bg-slate-800/80 text-slate-500 border border-white/5'
                         }`}
+                        style={isCurrent ? { backgroundColor: themeColor } : undefined}
                       >
                         {isUnlocked ? <CheckCircle2 size={16} /> : <Lock size={14} />}
                       </div>
@@ -146,18 +175,20 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
                       <div className="min-w-0">
                         <div className="flex items-center gap-2 flex-wrap">
                           <span
-                            className={`text-sm font-black truncate ${
-                              isCurrent
-                                ? 'text-amber-300'
-                                : isUnlocked
-                                ? 'text-white'
-                                : 'text-slate-400'
+                            className={`text-sm font-black break-words ${
+                              isCurrent || isUnlocked ? 'text-white' : 'text-slate-400'
                             }`}
                           >
                             {titleName}
                           </span>
                           {isCurrent && (
-                            <span className="px-2 py-0.5 rounded-full bg-amber-400/20 border border-amber-400/50 text-[10px] font-black uppercase text-amber-300">
+                            <span
+                              className="px-2 py-0.5 rounded-full border text-[10px] font-black uppercase text-white"
+                              style={{
+                                backgroundColor: `${themeColor}35`,
+                                borderColor: themeColor,
+                              }}
+                            >
                               Título Atual
                             </span>
                           )}
@@ -187,7 +218,10 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
 
           {/* Como ganhar XP */}
           <div className="p-3.5 rounded-2xl bg-[#0d1426] border border-[#1e2a45] text-[11px] text-slate-300 space-y-1">
-            <div className="font-black text-amber-300 uppercase tracking-wider flex items-center gap-1.5 mb-1">
+            <div
+              className="font-black uppercase tracking-wider flex items-center gap-1.5 mb-1"
+              style={{ color: themeColor }}
+            >
               <Zap size={13} />
               Como ganhar XP neste anime:
             </div>

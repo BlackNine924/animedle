@@ -464,52 +464,6 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
           </div>
         )}
 
-        {/* F2: Card de Confronto 1v1 quando veio de um Link de Desafio de Amigo */}
-        {challengeComparison && (
-          <div className="mt-3 p-3.5 rounded-2xl bg-gradient-to-br from-amber-500/15 via-[#131d35] to-indigo-500/15 border border-amber-400/50 text-left shadow-lg">
-            <div className="flex items-center justify-between mb-2">
-              <span className="text-[11px] font-black uppercase tracking-wider text-amber-300 flex items-center gap-1.5">
-                <Swords size={14} /> Resultado do Desafio 1v1
-              </span>
-              <span
-                className={`text-[10px] font-black uppercase px-2 py-0.5 rounded-full ${
-                  challengeComparison.outcome === 'win'
-                    ? 'bg-emerald-500 text-slate-950'
-                    : challengeComparison.outcome === 'tie'
-                    ? 'bg-amber-400 text-slate-950'
-                    : 'bg-rose-500 text-white'
-                }`}
-              >
-                {challengeComparison.outcome === 'win'
-                  ? '🏆 Você Venceu!'
-                  : challengeComparison.outcome === 'tie'
-                  ? '🤝 Empate!'
-                  : '💀 Amigo Venceu!'}
-              </span>
-            </div>
-            <div className="grid grid-cols-2 gap-2 text-center text-xs">
-              <div className="bg-[#0b1222] border border-[#223152] rounded-xl p-2">
-                <span className="text-[10px] text-slate-400 block uppercase font-bold">Você</span>
-                <strong className="text-white font-extrabold">{challengeComparison.myText}</strong>
-              </div>
-              <div className="bg-[#0b1222] border border-[#223152] rounded-xl p-2">
-                <span className="text-[10px] text-slate-400 block uppercase font-bold">Seu Amigo</span>
-                <strong className="text-amber-300 font-extrabold">{challengeComparison.friendText}</strong>
-              </div>
-            </div>
-            {onSendRevenge && (
-              <button
-                type="button"
-                onClick={handleTriggerRevenge}
-                className="mt-2.5 w-full flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black text-xs shadow-md transition-all active:scale-95"
-              >
-                <Flame size={14} />
-                <span>{copiedRevenge ? 'Novo Desafio Copiado! Envie ao Amigo!' : '🔥 Mandar Revanche (Novo Desafio)'}</span>
-              </button>
-            )}
-          </div>
-        )}
-
         {/* Card do Personagem Revelado (Oculto no Grid Mode pois a grade possui 9 personagens) */}
         {currentMode !== 'grid' && (
           <div className="my-4 p-3.5 bg-[#111a2d] border border-[#202b43] rounded-2xl flex items-center gap-3.5 text-left">
@@ -688,20 +642,6 @@ export const VictoryModal: React.FC<VictoryModalProps> = ({
               </button>
             )
           )}
-
-          {/* F2: Botão Desafiar um Amigo a bater este resultado */}
-          <button
-            type="button"
-            onClick={handleChallengeFriendWithScore}
-            className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-400/50 text-amber-300 font-extrabold py-2.5 px-4 rounded-xl text-xs shadow-md transition-all active:scale-95"
-          >
-            {copiedChallenge ? <CheckCircle2 size={15} className="text-emerald-400" /> : <Swords size={15} />}
-            <span>
-              {copiedChallenge
-                ? 'Link de Desafio Copiado! Envie para seu Amigo!'
-                : '⚔️ Desafiar um Amigo a Bater Meu Resultado'}
-            </span>
-          </button>
 
           <div className="flex gap-2">
             <button

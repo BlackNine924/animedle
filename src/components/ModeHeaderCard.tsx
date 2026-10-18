@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Heart, Flame, Trophy, Swords, Check, X, Timer } from 'lucide-react';
-import { SurvivalState, FriendChallengeData } from '../utils/featuresManager';
+import React from 'react';
+import { Heart, Flame, Trophy, Timer } from 'lucide-react';
+import { SurvivalState } from '../utils/featuresManager';
 
 interface ModeHeaderCardProps {
   title: string;
@@ -17,10 +17,6 @@ interface ModeHeaderCardProps {
   // N5: Sub-modo Speedrun (60s)
   isSpeedrun?: boolean;
   onToggleSpeedrun?: (active: boolean) => void;
-  // F2: Desafiar um Amigo
-  onChallengeFriend?: () => string | void;
-  activeChallenge?: FriendChallengeData | null;
-  onClearChallenge?: () => void;
 }
 
 export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
@@ -35,19 +31,8 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
   healedBanner,
   isSpeedrun = false,
   onToggleSpeedrun,
-  onChallengeFriend,
-  activeChallenge,
-  onClearChallenge,
 }) => {
-  const [copiedChallenge, setCopiedChallenge] = useState(false);
   const isSurvival = Boolean(!isSpeedrun && isEndless && survivalState?.active);
-
-  const handleCopyChallenge = () => {
-    if (!onChallengeFriend) return;
-    onChallengeFriend();
-    setCopiedChallenge(true);
-    setTimeout(() => setCopiedChallenge(false), 2500);
-  };
 
   return (
     <div className="max-w-2xl mx-auto mb-5 space-y-2.5">
@@ -135,72 +120,52 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
         </div>
       </div>
 
-      {/* E2: Barra de Status do Modo Sobrevivência + Botão F2 Desafiar Amigo */}
-      {isEndless && !isSpeedrun && (
+      {/* E2: Barra de Status do Modo Sobrevivência */}
+      {isEndless && !isSpeedrun && isSurvival && survivalState && (
         <div className="flex flex-wrap items-center justify-between gap-2 bg-[#0b1222]/95 border border-[#1e2b45] rounded-2xl px-4 py-2.5 shadow-md animate-fadeIn">
-          {isSurvival && survivalState ? (
-            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
-              {/* 3 Corações */}
-              <div className="flex items-center gap-1.5">
-                <span className="text-[10px] uppercase font-black tracking-wider text-slate-400">Vidas:</span>
-                <div className="flex items-center gap-1">
-                  {[0, 1, 2].map((i) => (
-                    <Heart
-                      key={i}
-                      size={16}
-                      className={`transition-all duration-300 ${
-                        i < survivalState.hearts
-                          ? 'text-rose-500 fill-rose-500 drop-shadow-[0_0_6px_rgba(244,63,94,0.6)]'
-                          : 'text-slate-700 fill-slate-800'
-                      }`}
-                    />
-                  ))}
-                </div>
-              </div>
-
-              {/* Streak Atual */}
-              <div className="flex items-center gap-1.5 bg-[#121c33] px-2.5 py-1 rounded-xl border border-[#223254]">
-                <Flame size={13} className="text-amber-400" />
-                <span className="text-[11px] font-bold text-slate-300">Streak:</span>
-                <span className="text-xs font-black text-amber-400">{survivalState.streak}</span>
-              </div>
-
-              {/* Contador para Cura (+1 Vida a cada 5 acertos consecutivos, máx 3) */}
-              <div
-                className="flex items-center gap-1.5 bg-[#121c33] px-2.5 py-1 rounded-xl border border-[#223254]"
-                title="A cada 5 acertos consecutivos você recupera +1 coração perdido (máximo de 3 corações)"
-              >
-                <span className="text-[10px] font-bold text-slate-400">
-                  Cura +1❤️: <strong className="text-emerald-400">{survivalState.consecutiveWins % 5}/5</strong>
-                </span>
-              </div>
-
-              {/* Recorde Pessoal */}
-              <div className="flex items-center gap-1.5 bg-[#121c33] px-2.5 py-1 rounded-xl border border-[#223254]">
-                <Trophy size={12} className="text-yellow-400" />
-                <span className="text-[11px] font-bold text-slate-300">Recorde:</span>
-                <span className="text-xs font-black text-yellow-400">{survivalState.bestStreak}</span>
+          <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+            {/* 3 Corações */}
+            <div className="flex items-center gap-1.5">
+              <span className="text-[10px] uppercase font-black tracking-wider text-slate-400">Vidas:</span>
+              <div className="flex items-center gap-1">
+                {[0, 1, 2].map((i) => (
+                  <Heart
+                    key={i}
+                    size={16}
+                    className={`transition-all duration-300 ${
+                      i < survivalState.hearts
+                        ? 'text-rose-500 fill-rose-500 drop-shadow-[0_0_6px_rgba(244,63,94,0.6)]'
+                        : 'text-slate-700 fill-slate-800'
+                    }`}
+                  />
+                ))}
               </div>
             </div>
-          ) : (
-            <div className="flex items-center gap-2 text-xs text-slate-400">
-              <span className="inline-block w-2 h-2 rounded-full bg-indigo-400" />
-              <span>Modo Infinito Livre ativo — jogue sem limite ou desafie um amigo nesta rodada!</span>
-            </div>
-          )}
 
-          {/* F2: Botão Desafiar um Amigo nesta rodada */}
-          {onChallengeFriend && (
-            <button
-              type="button"
-              onClick={handleCopyChallenge}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-400/50 text-amber-300 text-xs font-extrabold transition-all active:scale-95 shadow-sm ml-auto"
-              title="Gerar link com código para um amigo adivinhar exatamente este mesmo desafio"
+            {/* Streak Atual */}
+            <div className="flex items-center gap-1.5 bg-[#121c33] px-2.5 py-1 rounded-xl border border-[#223254]">
+              <Flame size={13} className="text-amber-400" />
+              <span className="text-[11px] font-bold text-slate-300">Streak:</span>
+              <span className="text-xs font-black text-amber-400">{survivalState.streak}</span>
+            </div>
+
+            {/* Contador para Cura (+1 Vida a cada 5 acertos consecutivos, máx 3) */}
+            <div
+              className="flex items-center gap-1.5 bg-[#121c33] px-2.5 py-1 rounded-xl border border-[#223254]"
+              title="A cada 5 acertos consecutivos você recupera +1 coração perdido (máximo de 3 corações)"
             >
-              {copiedChallenge ? <Check size={14} className="text-emerald-400" /> : <Swords size={14} />}
-              <span>{copiedChallenge ? 'Link de Desafio Copiado!' : '⚔️ Desafiar Amigo'}</span>
-            </button>
-          )}
+              <span className="text-[10px] font-bold text-slate-400">
+                Cura +1❤️: <strong className="text-emerald-400">{survivalState.consecutiveWins % 5}/5</strong>
+              </span>
+            </div>
+
+            {/* Recorde Pessoal */}
+            <div className="flex items-center gap-1.5 bg-[#121c33] px-2.5 py-1 rounded-xl border border-[#223254]">
+              <Trophy size={12} className="text-yellow-400" />
+              <span className="text-[11px] font-bold text-slate-300">Recorde:</span>
+              <span className="text-xs font-black text-yellow-400">{survivalState.bestStreak}</span>
+            </div>
+          </div>
         </div>
       )}
 
@@ -208,38 +173,6 @@ export const ModeHeaderCard: React.FC<ModeHeaderCardProps> = ({
       {healedBanner && (
         <div className="bg-emerald-500/20 border border-emerald-400/50 text-emerald-300 px-4 py-2 rounded-xl text-xs font-black text-center animate-bounce shadow-lg">
           💖 +1 Vida Recuperada por atingir 5 acertos consecutivos!
-        </div>
-      )}
-
-      {/* F2: Banner de Desafio de Amigo Recebido */}
-      {activeChallenge && (
-        <div className="flex items-center justify-between gap-2 bg-gradient-to-r from-amber-500/20 via-orange-500/15 to-rose-500/20 border border-amber-400/50 rounded-2xl px-4 py-2.5 text-xs shadow-lg animate-fadeIn">
-          <div className="flex items-center gap-2 text-amber-200 font-bold">
-            <Swords size={16} className="text-amber-400 shrink-0" />
-            <span>
-              <strong>Desafio de Amigo Ativo!</strong>{' '}
-              {activeChallenge.s
-                ? activeChallenge.m === 'grid'
-                  ? `Seu amigo fez ${activeChallenge.s.g}/9 acertos${
-                      activeChallenge.s.r ? ` (Raridade Média: ${activeChallenge.s.r}%)` : ''
-                    }. Tente superar!`
-                  : activeChallenge.s.w
-                  ? `Seu amigo acertou em ${activeChallenge.s.g} ${
-                      activeChallenge.s.g === 1 ? 'tentativa' : 'tentativas'
-                    }. Tente acertar em menos!`
-                  : `Seu amigo foi derrotado após ${activeChallenge.s.g} tentativas. Você consegue acertar?`
-                : 'Vocês estão jogando exatamente o mesmo desafio secreto!'}
-            </span>
-          </div>
-          {onClearChallenge && (
-            <button
-              onClick={onClearChallenge}
-              className="p-1 rounded-lg text-amber-300/70 hover:text-white hover:bg-black/20 transition-colors"
-              title="Sair do desafio de amigo"
-            >
-              <X size={15} />
-            </button>
-          )}
         </div>
       )}
     </div>

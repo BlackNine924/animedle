@@ -2030,7 +2030,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
 
   return (
     <div className="max-w-2xl mx-auto my-6 px-3">
-      {/* Header Padronizado com Diário / Infinito / Sobrevivência (E2) / Speedrun (N5) e Desafiar Amigo (F2) */}
+      {/* Header Padronizado com Diário / Infinito / Sobrevivência (E2) / Speedrun (N5) */}
       <ModeHeaderCard
         title="Modo Grid 3×3"
         description="Cruze os atributos e acerte os 9 personagens com apenas 9 palpites! Ganhe pontos extras de Raridade!"
@@ -2047,12 +2047,6 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
         isSpeedrun={isSpeedrun}
         onToggleSpeedrun={(act) => setIsSpeedrun(act)}
         healedBanner={survivalHealed}
-        onChallengeFriend={handleChallengeFriend}
-        activeChallenge={initialFriendChallenge?.m === 'grid' ? initialFriendChallenge : null}
-        onClearChallenge={() => {
-          setForcedChallengeSeed(null);
-          onClearFriendChallenge?.();
-        }}
       />
 
       {isSpeedrun ? (
@@ -2061,6 +2055,7 @@ export const AnimeGridMode: React.FC<AnimeGridModeProps> = ({
           animeSlug={animeSlug}
           animeTitle={animeTitle}
           themeColor={themeColor}
+          mode="grid"
           onExitSpeedrun={() => setIsSpeedrun(false)}
         />
       ) : (

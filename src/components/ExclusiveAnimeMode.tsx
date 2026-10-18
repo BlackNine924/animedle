@@ -573,9 +573,6 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
           isSpeedrun={isSpeedrun}
           onToggleSpeedrun={(act) => setIsSpeedrun(act)}
           healedBanner={survivalHealed}
-          onChallengeFriend={handleChallengeFriend}
-          activeChallenge={initialFriendChallenge?.m === 'ability' ? initialFriendChallenge : null}
-          onClearChallenge={onClearFriendChallenge}
         />
         <SpeedrunArena
           characters={characters}
@@ -583,6 +580,8 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
           animeSlug={animeSlug}
           animeTitle={animeTitle}
           themeColor={themeColor}
+          mode="ability"
+          exclusiveLabel={currentChallenge?.badgeTitle || 'Poder Exclusivo'}
           onExitSpeedrun={() => setIsSpeedrun(false)}
         />
       </div>
@@ -591,7 +590,7 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
 
   return (
     <div className="max-w-3xl mx-auto my-6 px-3">
-      {/* 1. Header Padronizado com Diário / Infinito / Sobrevivência (E2) / Speedrun (N5) e Desafiar Amigo (F2) */}
+      {/* 1. Header Padronizado com Diário / Infinito / Sobrevivência (E2) / Speedrun (N5) */}
       <ModeHeaderCard
         title={currentChallenge?.badgeTitle || 'Modo Exclusivo'}
         description="Adivinhe o personagem através do seu poder, técnica ou característica única com 3 chances na rodada!"
@@ -610,9 +609,6 @@ export const ExclusiveAnimeMode: React.FC<ExclusiveAnimeModeProps> = ({
         isSpeedrun={isSpeedrun}
         onToggleSpeedrun={(act) => setIsSpeedrun(act)}
         healedBanner={survivalHealed}
-        onChallengeFriend={handleChallengeFriend}
-        activeChallenge={initialFriendChallenge?.m === 'ability' ? initialFriendChallenge : null}
-        onClearChallenge={onClearFriendChallenge}
       />
 
       {/* Sub-barra de Tentativas da Rodada (3 Chances) & Pontuação da Rodada */}
