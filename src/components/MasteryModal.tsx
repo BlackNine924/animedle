@@ -52,8 +52,9 @@ export const TitleCrestIcon: React.FC<TitleCrestIconProps> = ({
       <img
         src={src}
         alt={titleName}
-        loading="lazy"
-        decoding="async"
+        loading="eager"
+        decoding="sync"
+        fetchPriority="high"
         onError={() => {
           if (imgState === 'webp') setImgState('png');
           else setImgState('fallback');
@@ -143,6 +144,17 @@ export const MasteryModal: React.FC<MasteryModalProps> = ({
 
   const titles = getAnimeMasteryTitles(masteryInfo.slug);
   const unlockedCount = RANK_THRESHOLDS.filter((t) => masteryInfo.level >= t.requiredLevel).length;
+
+  // Pré-carrega na memória do navegador todos os 5 ícones em WebP de forma instantânea
+  React.useEffect(() => {
+    if (isOpen && titles.length > 0) {
+      titles.forEach((t) => {
+        const { webp } = getTitleIconPaths(t);
+        const preloadImg = new Image();
+        preloadImg.src = webp;
+      });
+    }
+  }, [isOpen, masteryInfo.slug, titles]);
 
   return (
     <div
