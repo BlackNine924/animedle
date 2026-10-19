@@ -22,7 +22,7 @@ import { Character, GameMode, GuessResult, GameStats, VoiceChallenge, SceneChall
 import { getDailyCharacterIndex, evaluateGuess, getDailyDateString } from './utils/dailySeed';
 import { getOrAdvanceEndlessIndex } from './utils/endlessDeck';
 import { Sparkles, Eye, Zap, ZoomIn, Volume2, Film, LayoutGrid, BookOpen, Swords, Award } from 'lucide-react';
-import { TitleCrestIcon } from './components/MasteryModal';
+import { TitleCrestIcon } from './components/TitleCrestIcon';
 
 // T1: Lazy Loading de Modais e Modos Pesados para reduzir drasticamente o bundle inicial (index.js)
 const HowToPlayModal = React.lazy(() => import('./components/HowToPlayModal').then((m) => ({ default: m.HowToPlayModal })));
@@ -48,6 +48,8 @@ import {
   getAnimeMastery,
   awardAnimeXp,
   AnimeMasteryInfo,
+  getAnimeMasteryTitles,
+  getTitleIconPaths,
 } from './utils/featuresManager';
 
 
@@ -803,6 +805,17 @@ export const App: React.FC<{
     window.addEventListener('animedle_stats_updated', handleStatsUpdated);
     return () => window.removeEventListener('animedle_stats_updated', handleStatsUpdated);
   }, []);
+
+  // Pré-carregamento imediato dos 5 ícones de títulos do anime ativo para renderização instantânea
+  useEffect(() => {
+    if (!currentAnimeSlug) return;
+    const titles = getAnimeMasteryTitles(currentAnimeSlug);
+    titles.forEach((t) => {
+      const { webp } = getTitleIconPaths(t);
+      const img = new Image();
+      img.src = webp;
+    });
+  }, [currentAnimeSlug]);
 
   // Carrega progresso independente de CADA MODO do localStorage ao trocar de modo/anime
   useEffect(() => {
