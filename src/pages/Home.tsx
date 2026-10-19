@@ -116,8 +116,6 @@ const AnimeCard: React.FC<AnimeCardProps> = ({ anime, onClick, dailyProgress, ma
       <div className={`relative w-full aspect-[2/3] overflow-hidden rounded-2xl shadow-xl transition-all duration-300 ease-out group-hover:scale-[1.05] group-hover:shadow-[0_16px_36px_rgba(0,0,0,0.8)] group-hover:ring-2 ${
         isCompletedToday
           ? 'ring-2 ring-amber-400/70 shadow-[0_0_20px_rgba(245,158,11,0.25)]'
-          : hasPartialProgress
-          ? 'ring-1 ring-sky-400/50'
           : 'group-hover:ring-amber-400/60'
       }`}>
         <picture>
