@@ -13,18 +13,18 @@ export const ComingSoon: React.FC<ComingSoonProps> = ({ anime }) => {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Wallpaper de fundo */}
-      <picture className="absolute inset-0 pointer-events-none">
+      <picture className="fixed inset-0 pointer-events-none z-0">
         <source srcSet={`/wallpapers/${anime.slug}.webp`} type="image/webp" />
         <img
           src={`/wallpapers/${anime.slug}.png`}
           alt=""
           fetchPriority="high"
           decoding="async"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-fill object-center"
         />
       </picture>
       {/* Overlay escuro */}
-      <div className="absolute inset-0 bg-black/65" />
+      <div className="fixed inset-0 bg-black/65 pointer-events-none z-0" />
 
       {/* Conteúdo */}
       <div className="relative z-10 flex flex-col items-center gap-6 px-6 text-center">

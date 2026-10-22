@@ -60,7 +60,7 @@ export const AnimeGamePage: React.FC = () => {
           alt=""
           fetchPriority="high"
           decoding="async"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-fill object-center"
         />
       </picture>
       {/* Camada única de sobreposição para contraste ideal e cores visíveis */}
