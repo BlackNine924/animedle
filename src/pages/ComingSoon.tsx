@@ -20,7 +20,7 @@ export const ComingSoon: React.FC<ComingSoonProps> = ({ anime }) => {
           alt=""
           fetchPriority="high"
           decoding="async"
-          className="w-full h-full object-fill object-center"
+          className="w-full h-full object-cover object-center"
         />
       </picture>
       {/* Overlay escuro */}
